@@ -188,7 +188,7 @@ Correction: Let’s discuss each option that we have used in the above command f
 5) Missing word: If you want untar in a different – ‘to’ is missing between ‘want’ and ‘untar’
 6) Correction: To list the content of tar archive file – ‘content’ should be ‘contents’ (Replace ‘content’ with ‘contents’ at appropriate location)
 7) Correction: to a existing compressed tar.gz – ‘a’ should be ‘an’
-8) Correction: If we do try will get tbe following error – ‘tbe’ should be ‘the’
+8) Correction: If we do try will get the following error – ‘the’ should be ‘the’
 9) Spelling: ‘archvie’ should be ‘archive’
 10) Spelling: ‘patters’ should be ‘patterns’
 [Reply](https://www.tecmint.com/tar-command-examples-linux/#comment-902772)
@@ -264,7 +264,7 @@ Hi Ravi,
 I am trying to create tar file at AIX server using the below command:
 tar cvf temp.tar temp/
 but its just giving me tar: and create 0 byte tar file.
-I tried diffrent options like tar -cvf, tar cf, tar -cf, temp/,temp, complete path but for all I m getting same reposne.
+I tried different options like tar -cvf, tar cf, tar -cf, temp/,temp, complete path but for all I m getting same reposne.
 Please help :(
 [Reply](https://www.tecmint.com/tar-command-examples-linux/#comment-494529)
      * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
@@ -344,7 +344,7 @@ hello ravi, thanks for the important stuff which u have shared with us..i am new
      * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
 Ravi Saive
 [ September 12, 2014 at 1:46 pm  ](https://www.tecmint.com/tar-command-examples-linux/#comment-270554)
-Dear Ravi, it’s not possible for me to send out emails to individual email id’s, better you subscribe to our email updates to receive such usefull stuff directly in your mailbox..
+Dear Ravi, it’s not possible for me to send out emails to individual email id’s, better you subscribe to our email updates to receive such useful stuff directly in your mailbox..
 [Reply](https://www.tecmint.com/tar-command-examples-linux/#comment-270554)
   36. ![](https://secure.gravatar.com/avatar/0c36712349eb8e65466afb9fc6c6b4f0cd183b9d9bae19c11d3a6ce966ad4b84?s=50&d=blank&r=g)
 Jim
@@ -385,7 +385,7 @@ Prashant
 [ July 15, 2014 at 12:34 pm  ](https://www.tecmint.com/tar-command-examples-linux/#comment-215017)
 Thanks Ravi ..Thanks for quick reply .. Its working ..
 But If I extract example.tar.gz by right click on the file it displays example directory. But this is not happening with command line.
-If I use tar -xzf command for extract the file it displays all content in my example.tar.gz on target directory but insted of that I want example directory first and all content should be inside it.
+If I use tar -xzf command for extract the file it displays all content in my example.tar.gz on target directory but instead of that I want example directory first and all content should be inside it.
 same as like how right click and extract works.
 Can you please help me ?
 Your help is very important for me.
@@ -432,7 +432,7 @@ Thanks for this post, it’s very well written and useful. i have a question…
 Do you know if it Is it OK to add files to a new tar archive that are already zipped (with gzip) prior to archiving? If I were to subsequently gzip the new tar archive, does that create any problems?
 In other words, would this be OK:
 tar -czvf example.tar.gz inputfile1.gz inputfile2.gz
-If I were to ‘untar’ and gunzip example.tar.gz (e.g. tar -xzvf example.tar.gz), would inputfile1 and inputfile2 be outputed as .gz or will they be gunzipped too? I’m worried double zipping might cause files to be corrupted.
+If I were to ‘untar’ and gunzip example.tar.gz (e.g. tar -xzvf example.tar.gz), would inputfile1 and inputfile2 be outputted as .gz or will they be gunzipped too? I’m worried double zipping might cause files to be corrupted.
 Many thanks, SImit
 [Reply](https://www.tecmint.com/tar-command-examples-linux/#comment-182577)
   41. ![](https://secure.gravatar.com/avatar/bdae9afc9e9b184967438f602e1fc13424f5fcb151ca584bcf3d18dcd5b6c2dc?s=50&d=blank&r=g)
@@ -484,7 +484,7 @@ Now backup data onto tape drive. For example, here I am taking backup of /data d
        * ![](https://secure.gravatar.com/avatar/fe6cec959cfaa27014a256735773a5b9e229d2e987d5702b104d7ec65082149b?s=50&d=blank&r=g)
 vinodkengg
 [ January 27, 2014 at 1:02 pm  ](https://www.tecmint.com/tar-command-examples-linux/#comment-114215)
-if my data is already .gz extention with total data size is 2.9 TB then can we take full data on 3 TB drive with below command or only 1.5 tB data will come on tape tape drive .
+if my data is already .gz extension with total data size is 2.9 TB then can we take full data on 3 TB drive with below command or only 1.5 tB data will come on tape tape drive .
 tar -cvf
 or we should use tar – czf also any compression need to set on tape
 I using ultrium 5 , Hp data 3TB tape

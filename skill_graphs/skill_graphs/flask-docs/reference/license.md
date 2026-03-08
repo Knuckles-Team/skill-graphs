@@ -49,4 +49,4 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ### Quick search
 ·
-![](https://server.ethicalads.io/proxy/view/10134/019ccc1a-4fe4-76f2-9af6-0466d4efaca7/)
+![](https://server.ethicalads.io/proxy/view/10086/019ccf13-56e9-7851-9eec-ebbc8635b65c/)

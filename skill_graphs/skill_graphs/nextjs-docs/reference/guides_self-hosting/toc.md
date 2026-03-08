@@ -1,0 +1,16 @@
+# Table of Contents
+
+- [guides_self-hosting](<./guides_self-hosting.md>)
+- [How to self-host your Next.js application](<./How-to-self-host-your-Next.js-application.md>)
+  - [Reverse Proxy[](https://nextjs.org/docs/app/guides/self-hosting#reverse-proxy)](<./How-to-self-host-your-Next.js-application/Reverse-Proxyhttpsnextjs.orgdocsappguidesself-hostingreverse-proxy.md>)
+  - [Image Optimization[](https://nextjs.org/docs/app/guides/self-hosting#image-optimization)](<./How-to-self-host-your-Next.js-application/Image-Optimizationhttpsnextjs.orgdocsappguidesself-hostingimage-optimization.md>)
+  - [Proxy[](https://nextjs.org/docs/app/guides/self-hosting#proxy)](<./How-to-self-host-your-Next.js-application/Proxyhttpsnextjs.orgdocsappguidesself-hostingproxy.md>)
+  - [Environment Variables[](https://nextjs.org/docs/app/guides/self-hosting#environment-variables)](<./How-to-self-host-your-Next.js-application/Environment-Variableshttpsnextjs.orgdocsappguidesself-hostingenvironment-variables.md>)
+  - [Caching and ISR[](https://nextjs.org/docs/app/guides/self-hosting#caching-and-isr)](<./How-to-self-host-your-Next.js-application/Caching-and-ISRhttpsnextjs.orgdocsappguidesself-hostingcaching-and-isr.md>)
+  - [Build Cache[](https://nextjs.org/docs/app/guides/self-hosting#build-cache)](<./How-to-self-host-your-Next.js-application/Build-Cachehttpsnextjs.orgdocsappguidesself-hostingbuild-cache.md>)
+  - [Multi-Server Deployments[](https://nextjs.org/docs/app/guides/self-hosting#multi-server-deployments)](<./How-to-self-host-your-Next.js-application/Multi-Server-Deploymentshttpsnextjs.orgdocsappguidesself-hostingmulti-server-deployments.md>)
+  - [Version Skew[](https://nextjs.org/docs/app/guides/self-hosting#version-skew)](<./How-to-self-host-your-Next.js-application/Version-Skewhttpsnextjs.orgdocsappguidesself-hostingversion-skew.md>)
+  - [Streaming and Suspense[](https://nextjs.org/docs/app/guides/self-hosting#streaming-and-suspense)](<./How-to-self-host-your-Next.js-application/Streaming-and-Suspensehttpsnextjs.orgdocsappguidesself-hostingstreaming-and-suspense.md>)
+  - [Cache Components[](https://nextjs.org/docs/app/guides/self-hosting#cache-components)](<./How-to-self-host-your-Next.js-application/Cache-Componentshttpsnextjs.orgdocsappguidesself-hostingcache-components.md>)
+  - [Usage with CDNs[](https://nextjs.org/docs/app/guides/self-hosting#usage-with-cdns)](<./How-to-self-host-your-Next.js-application/Usage-with-CDNshttpsnextjs.orgdocsappguidesself-hostingusage-with-cdns.md>)
+  - [`after`[](https://nextjs.org/docs/app/guides/self-hosting#after)](<./How-to-self-host-your-Next.js-application/afterhttpsnextjs.orgdocsappguidesself-hostingafter.md>)

@@ -320,7 +320,7 @@ Your support helps us keep creating quality Linux content for everyone.
 ## Linux Commands and Tools
 [11 Lesser Known Useful Linux Commands](https://www.tecmint.com/lesser-known-linux-commands/)
 [How to Create and Execute a .Jar File in Linux Terminal](https://www.tecmint.com/create-and-execute-jar-file-in-linux/)
-[Ternimal – Show Animated Lifeform in Your Linux Terminal](https://www.tecmint.com/ternimal-show-animated-lifeform-in-linux-terminal/)
+[Terminal – Show Animated Lifeform in Your Linux Terminal](https://www.tecmint.com/ternimal-show-animated-lifeform-in-linux-terminal/)
 [ccat – Show ‘cat Command’ Output with Syntax Highlighting or Colorizing](https://www.tecmint.com/cat-command-output-with-syntax-highlighting-or-color/)
 [4 Useful Commands to Clear Linux Terminal Screen](https://www.tecmint.com/clear-linux-terminal-screen/)
 [Understanding APT, APT-Cache and Their Frequently Used Commands](https://www.tecmint.com/apt-get-and-apt-cache-and-their-frequently-used-commands/)
@@ -336,7 +336,7 @@ Your support helps us keep creating quality Linux content for everyone.
 [How to Switch (su) to Another User Account without Password](https://www.tecmint.com/switch-user-account-without-password/)
 [How to Copy File Permissions and Ownership to Another File in Linux](https://www.tecmint.com/copy-file-permissions-and-ownership-to-another-file-in-linux/)
 [How to Find MySQL, PHP and Apache Configuration Files](https://www.tecmint.com/find-mysql-php-apache-configuration-files/)
-[Ternimal – Show Animated Lifeform in Your Linux Terminal](https://www.tecmint.com/ternimal-show-animated-lifeform-in-linux-terminal/)
+[Terminal – Show Animated Lifeform in Your Linux Terminal](https://www.tecmint.com/ternimal-show-animated-lifeform-in-linux-terminal/)
 [12 Ways to Find User Account Info and Login Details in Linux](https://www.tecmint.com/check-user-in-linux/)
 ## Best Linux Tools
 [13 Best Photo Editing Software for Linux in 2024](https://www.tecmint.com/best-image-photo-editors-for-linux/)

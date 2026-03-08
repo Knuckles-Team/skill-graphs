@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_flags_vercel-flags_quickstart](<./docs_flags_vercel-flags_quickstart.md>)
+- [Getting Started with Vercel Flags](<./Getting-Started-with-Vercel-Flags.md>)
+  - [[Prerequisites](https://vercel.com/docs/flags/vercel-flags/quickstart#prerequisites)[](https://vercel.com/docs/flags/vercel-flags/quickstart#prerequisites)](<./Getting-Started-with-Vercel-Flags/Prerequisiteshttpsvercel.comdocsflagsvercel-flagsquickstartprerequisiteshttpsvercel.comdocsflagsvercel-flagsquickstartprerequisites.md>)
+  - [[Built-in resilience](https://vercel.com/docs/flags/vercel-flags/quickstart#built-in-resilience)[](https://vercel.com/docs/flags/vercel-flags/quickstart#built-in-resilience)](<./Getting-Started-with-Vercel-Flags/Built-in-resiliencehttpsvercel.comdocsflagsvercel-flagsquickstartbuilt-in-resiliencehttpsvercel.comdocsflagsvercel-flagsquickstartbuilt-in-resilience.md>)
+  - [[Next steps](https://vercel.com/docs/flags/vercel-flags/quickstart#next-steps)[](https://vercel.com/docs/flags/vercel-flags/quickstart#next-steps)](<./Getting-Started-with-Vercel-Flags/Next-stepshttpsvercel.comdocsflagsvercel-flagsquickstartnext-stepshttpsvercel.comdocsflagsvercel-flagsquickstartnext-steps.md>)
+  - [Get Started](<./Getting-Started-with-Vercel-Flags/Get-Started.md>)
+  - [Build](<./Getting-Started-with-Vercel-Flags/Build.md>)
+  - [Scale](<./Getting-Started-with-Vercel-Flags/Scale.md>)
+  - [Secure](<./Getting-Started-with-Vercel-Flags/Secure.md>)
+  - [Resources](<./Getting-Started-with-Vercel-Flags/Resources.md>)
+  - [Learn](<./Getting-Started-with-Vercel-Flags/Learn.md>)
+  - [Frameworks](<./Getting-Started-with-Vercel-Flags/Frameworks.md>)
+  - [SDKs](<./Getting-Started-with-Vercel-Flags/SDKs.md>)
+  - [Use Cases](<./Getting-Started-with-Vercel-Flags/Use-Cases.md>)
+  - [Company](<./Getting-Started-with-Vercel-Flags/Company.md>)
+  - [Community](<./Getting-Started-with-Vercel-Flags/Community.md>)

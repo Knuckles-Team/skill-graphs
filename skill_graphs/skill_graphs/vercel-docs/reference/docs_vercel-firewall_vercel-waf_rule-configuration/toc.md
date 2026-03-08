@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_vercel-firewall_vercel-waf_rule-configuration](<./docs_vercel-firewall_vercel-waf_rule-configuration.md>)
+- [Rule Configuration Reference](<./Rule-Configuration-Reference.md>)
+  - [[Parameters](https://vercel.com/docs/vercel-firewall/vercel-waf/rule-configuration#parameters)[](https://vercel.com/docs/vercel-firewall/vercel-waf/rule-configuration#parameters)](<./Rule-Configuration-Reference/Parametershttpsvercel.comdocsvercel-firewallvercel-wafrule-configurationparametershttpsvercel.comdocsvercel-firewallvercel-wafrule-configurationparameters.md>)
+  - [[Operators](https://vercel.com/docs/vercel-firewall/vercel-waf/rule-configuration#operators)[](https://vercel.com/docs/vercel-firewall/vercel-waf/rule-configuration#operators)](<./Rule-Configuration-Reference/Operatorshttpsvercel.comdocsvercel-firewallvercel-wafrule-configurationoperatorshttpsvercel.comdocsvercel-firewallvercel-wafrule-configurationoperators.md>)
+  - [[Actions](https://vercel.com/docs/vercel-firewall/vercel-waf/rule-configuration#actions)[](https://vercel.com/docs/vercel-firewall/vercel-waf/rule-configuration#actions)](<./Rule-Configuration-Reference/Actionshttpsvercel.comdocsvercel-firewallvercel-wafrule-configurationactionshttpsvercel.comdocsvercel-firewallvercel-wafrule-configurationactions.md>)
+  - [Get Started](<./Rule-Configuration-Reference/Get-Started.md>)
+  - [Build](<./Rule-Configuration-Reference/Build.md>)
+  - [Scale](<./Rule-Configuration-Reference/Scale.md>)
+  - [Secure](<./Rule-Configuration-Reference/Secure.md>)
+  - [Resources](<./Rule-Configuration-Reference/Resources.md>)
+  - [Learn](<./Rule-Configuration-Reference/Learn.md>)
+  - [Frameworks](<./Rule-Configuration-Reference/Frameworks.md>)
+  - [SDKs](<./Rule-Configuration-Reference/SDKs.md>)
+  - [Use Cases](<./Rule-Configuration-Reference/Use-Cases.md>)
+  - [Company](<./Rule-Configuration-Reference/Company.md>)
+  - [Community](<./Rule-Configuration-Reference/Community.md>)

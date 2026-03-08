@@ -1,0 +1,3 @@
+# for Konsole
+"\e[H": beginning-of-line
+"\e[F": end-of-line

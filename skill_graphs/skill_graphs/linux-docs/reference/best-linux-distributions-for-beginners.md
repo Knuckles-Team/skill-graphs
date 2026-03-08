@@ -142,7 +142,7 @@ include /etc/logrotate.d
 
 ```
 
-We will stick with this approach, as it will help us to keep things in order, and use the **Debia** n box for the following examples.
+We will stick with this approach, as it will help us to keep things in order, and use the **Debian** n box for the following examples.
 ### Configure Logrotate in Linux
 Being a very versatile tool, logrotate provides plenty of directives to help us configure when and how the logs will be rotated, and what should happen right afterward.
 Let’s insert the following contents in **/etc/logrotate.d/apache2.conf** (note that most likely you will have to create that file) and examine each line to indicate its purpose:

@@ -417,7 +417,7 @@ Brain
 Hi,
 Thanks for the nice overview.
 Can you help with this?
-I want to mount a special source without root privileges. So I made an entry in the **/ect/sudoers** file:
+I want to mount a special source without root privileges. So I made an entry in the **/etc/sudoers** file:
 ```
 username       ALL = NOPASSWD: /sbin/mount.cifs, /bin/umount /mnt/folder
 
@@ -468,7 +468,7 @@ Your support helps us keep creating quality Linux content for everyone.
 [4 Useful Commandline Tools to Monitor MySQL Performance in Linux](https://www.tecmint.com/mysql-performance-monitoring/)
 [Netdata – A Real-Time Performance Monitoring Tool for Linux Systems](https://www.tecmint.com/netdata-real-time-linux-performance-network-monitoring-tool/)
 [Darkstat – A Web Based Linux Network Traffic Analyzer](https://www.tecmint.com/darkstat-web-based-linux-network-traffic-analyzer/)
-[Web VMStat: A Real Time System Statistics (Memory, CPU, Processess, etc) Monitoring Tool for Linux](https://www.tecmint.com/install-web-vmstat-in-linux/)
+[Web VMStat: A Real Time System Statistics (Memory, CPU, Processes, etc) Monitoring Tool for Linux](https://www.tecmint.com/install-web-vmstat-in-linux/)
 [How to Install Zabbix Agent and Add Windows Host to Zabbix Monitoring – Part 4](https://www.tecmint.com/install-zabbix-agent-and-add-windows-host-to-zabbix-monioring/)
 ## Learn Linux Tricks & Tips
 [Powerline – Adds Statuslines and Prompts to Vim and Bash Shell](https://www.tecmint.com/powerline-plugin-for-vim/)

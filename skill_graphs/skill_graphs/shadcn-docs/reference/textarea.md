@@ -1,0 +1,233 @@
+Toggle Menu
+Menu[shadcn/ui](https://ui.shadcn.com/)[Docs](https://ui.shadcn.com/docs/installation)[Components](https://ui.shadcn.com/docs/components)[Blocks](https://ui.shadcn.com/blocks)[Charts](https://ui.shadcn.com/charts/area)[Directory](https://ui.shadcn.com/docs/directory)[Create](https://ui.shadcn.com/create)
+Search documentation...Search...
+Toggle layoutToggle theme
+Create Project
+[](https://ui.shadcn.com/create)
+Sections
+  * [](https://ui.shadcn.com/docs)
+  * [](https://ui.shadcn.com/docs/components)
+  * [](https://ui.shadcn.com/docs/installation)
+  * [](https://ui.shadcn.com/docs/theming)
+  * [](https://ui.shadcn.com/docs/cli)
+  * [](https://ui.shadcn.com/docs/rtl)
+  * [](https://ui.shadcn.com/docs/skills)
+  * [](https://ui.shadcn.com/docs/mcp)
+  * [](https://ui.shadcn.com/docs/registry)
+  * [](https://ui.shadcn.com/docs/forms)
+  * [](https://ui.shadcn.com/docs/changelog)
+
+
+Components
+  * [](https://ui.shadcn.com/docs/components/radix/accordion)
+  * [](https://ui.shadcn.com/docs/components/radix/alert)
+  * [](https://ui.shadcn.com/docs/components/radix/alert-dialog)
+  * [](https://ui.shadcn.com/docs/components/radix/aspect-ratio)
+  * [](https://ui.shadcn.com/docs/components/radix/avatar)
+  * [](https://ui.shadcn.com/docs/components/radix/badge)
+  * [](https://ui.shadcn.com/docs/components/radix/breadcrumb)
+  * [](https://ui.shadcn.com/docs/components/radix/button)
+  * [](https://ui.shadcn.com/docs/components/radix/button-group)
+  * [](https://ui.shadcn.com/docs/components/radix/calendar)
+  * [](https://ui.shadcn.com/docs/components/radix/card)
+  * [](https://ui.shadcn.com/docs/components/radix/carousel)
+  * [](https://ui.shadcn.com/docs/components/radix/chart)
+  * [](https://ui.shadcn.com/docs/components/radix/checkbox)
+  * [](https://ui.shadcn.com/docs/components/radix/collapsible)
+  * [](https://ui.shadcn.com/docs/components/radix/combobox)
+  * [](https://ui.shadcn.com/docs/components/radix/command)
+  * [](https://ui.shadcn.com/docs/components/radix/context-menu)
+  * [](https://ui.shadcn.com/docs/components/radix/data-table)
+  * [](https://ui.shadcn.com/docs/components/radix/date-picker)
+  * [](https://ui.shadcn.com/docs/components/radix/dialog)
+  * [](https://ui.shadcn.com/docs/components/radix/direction)
+  * [](https://ui.shadcn.com/docs/components/radix/drawer)
+  * [](https://ui.shadcn.com/docs/components/radix/dropdown-menu)
+  * [](https://ui.shadcn.com/docs/components/radix/empty)
+  * [](https://ui.shadcn.com/docs/components/radix/field)
+  * [](https://ui.shadcn.com/docs/components/radix/hover-card)
+  * [](https://ui.shadcn.com/docs/components/radix/input)
+  * [](https://ui.shadcn.com/docs/components/radix/input-group)
+  * [](https://ui.shadcn.com/docs/components/radix/input-otp)
+  * [](https://ui.shadcn.com/docs/components/radix/item)
+  * [](https://ui.shadcn.com/docs/components/radix/kbd)
+  * [](https://ui.shadcn.com/docs/components/radix/label)
+  * [](https://ui.shadcn.com/docs/components/radix/menubar)
+  * [](https://ui.shadcn.com/docs/components/radix/native-select)
+  * [](https://ui.shadcn.com/docs/components/radix/navigation-menu)
+  * [](https://ui.shadcn.com/docs/components/radix/pagination)
+  * [](https://ui.shadcn.com/docs/components/radix/popover)
+  * [](https://ui.shadcn.com/docs/components/radix/progress)
+  * [](https://ui.shadcn.com/docs/components/radix/radio-group)
+  * [](https://ui.shadcn.com/docs/components/radix/resizable)
+  * [](https://ui.shadcn.com/docs/components/radix/scroll-area)
+  * [](https://ui.shadcn.com/docs/components/radix/select)
+  * [](https://ui.shadcn.com/docs/components/radix/separator)
+  * [](https://ui.shadcn.com/docs/components/radix/sheet)
+  * [](https://ui.shadcn.com/docs/components/radix/sidebar)
+  * [](https://ui.shadcn.com/docs/components/radix/skeleton)
+  * [](https://ui.shadcn.com/docs/components/radix/slider)
+  * [](https://ui.shadcn.com/docs/components/radix/sonner)
+  * [](https://ui.shadcn.com/docs/components/radix/spinner)
+  * [](https://ui.shadcn.com/docs/components/radix/switch)
+  * [](https://ui.shadcn.com/docs/components/radix/table)
+  * [](https://ui.shadcn.com/docs/components/radix/tabs)
+  * [](https://ui.shadcn.com/docs/components/radix/textarea)
+  * [](https://ui.shadcn.com/docs/components/radix/toast)
+  * [](https://ui.shadcn.com/docs/components/radix/toggle)
+  * [](https://ui.shadcn.com/docs/components/radix/toggle-group)
+  * [](https://ui.shadcn.com/docs/components/radix/tooltip)
+  * [](https://ui.shadcn.com/docs/components/radix/typography)
+
+
+Get Started
+  * [](https://ui.shadcn.com/docs/installation)
+  * [](https://ui.shadcn.com/docs/components-json)
+  * [](https://ui.shadcn.com/docs/theming)
+  * [](https://ui.shadcn.com/docs/dark-mode)
+  * [](https://ui.shadcn.com/docs/cli)
+  * [](https://ui.shadcn.com/docs/monorepo)
+  * [](https://ui.shadcn.com/docs/skills)
+  * [](https://ui.shadcn.com/docs/v0)
+  * [](https://ui.shadcn.com/docs/javascript)
+  * [](https://ui.shadcn.com/docs/figma)
+  * [](https://ui.shadcn.com/llms.txt)
+  * [](https://ui.shadcn.com/docs/legacy)
+
+
+Forms
+  * [](https://ui.shadcn.com/docs/forms/react-hook-form)
+  * [](https://ui.shadcn.com/docs/forms/tanstack-form)
+
+
+Registry
+  * [](https://ui.shadcn.com/docs/registry)
+  * [](https://ui.shadcn.com/docs/registry/getting-started)
+  * [](https://ui.shadcn.com/docs/registry/namespace)
+  * [](https://ui.shadcn.com/docs/registry/authentication)
+  * [](https://ui.shadcn.com/docs/registry/examples)
+  * [](https://ui.shadcn.com/docs/registry/mcp)
+  * [](https://ui.shadcn.com/docs/registry/registry-index)
+  * [](https://ui.shadcn.com/docs/registry/open-in-v0)
+  * [](https://ui.shadcn.com/docs/registry/registry-json)
+  * [](https://ui.shadcn.com/docs/registry/registry-item-json)
+
+
+# Textarea
+[Previous](https://ui.shadcn.com/docs/components/radix/tabs)[Next](https://ui.shadcn.com/docs/components/radix/toast)
+Displays a form textarea or a component that looks like a textarea.
+[Radix UI](https://ui.shadcn.com/docs/components/radix/textarea)[Base UI](https://ui.shadcn.com/docs/components/base/textarea)
+Radix UI
+Copy
+```
+import { Textarea } from "@/components/ui/textarea"
+
+export function TextareaDemo() {
+```
+
+View Code
+## Installation
+CommandManual
+```
+
+
+
+
+
+
+
+
+
+
+pnpmnpmyarnbun
+
+
+
+
+
+
+
+```
+pnpm dlx shadcn@latest add textarea
+```
+
+Copy
+
+```
+
+## Usage
+```
+Copyimport { Textarea } from "@/components/ui/textarea"
+```
+```
+Copy<Textarea />
+```
+
+## Examples
+### Field
+Use `Field`, `FieldLabel`, and `FieldDescription` to create a textarea with a label and description.
+Message
+Enter your message below.
+Copy
+```
+import { Field, FieldDescription, FieldLabel } from "@/components/ui/field"
+import { Textarea } from "@/components/ui/textarea"
+
+```
+
+View Code
+### Disabled
+Use the `disabled` prop to disable the textarea. To style the disabled state, add the `data-disabled` attribute to the `Field` component.
+Message
+Copy
+```
+import { Field, FieldLabel } from "@/components/ui/field"
+import { Textarea } from "@/components/ui/textarea"
+
+```
+
+View Code
+### Invalid
+Use the `aria-invalid` prop to mark the textarea as invalid. To style the invalid state, add the `data-invalid` attribute to the `Field` component.
+Message
+Please enter a valid message.
+Copy
+```
+import { Field, FieldDescription, FieldLabel } from "@/components/ui/field"
+import { Textarea } from "@/components/ui/textarea"
+
+```
+
+View Code
+### Button
+Pair with `Button` to create a textarea with a submit button.
+Send message
+Copy
+```
+import { Button } from "@/components/ui/button"
+import { Textarea } from "@/components/ui/textarea"
+
+```
+
+View Code
+## RTL
+To enable RTL support in shadcn/ui, see the [RTL configuration guide](https://ui.shadcn.com/docs/rtl).
+Arabic (العربية)Toggle
+التعليقات
+شاركنا أفكارك حول خدمتنا.
+Copy
+```
+"use client"
+
+import * as React from "react"
+```
+
+View Code
+[Tabs](https://ui.shadcn.com/docs/components/radix/tabs)[Toast ](https://ui.shadcn.com/docs/components/radix/toast)
+On This Page
+[Installation](https://ui.shadcn.com/docs/components/radix/textarea#installation)[Usage](https://ui.shadcn.com/docs/components/radix/textarea#usage)[Examples](https://ui.shadcn.com/docs/components/radix/textarea#examples)[Field](https://ui.shadcn.com/docs/components/radix/textarea#field)[Disabled](https://ui.shadcn.com/docs/components/radix/textarea#disabled)[Invalid](https://ui.shadcn.com/docs/components/radix/textarea#invalid)[Button](https://ui.shadcn.com/docs/components/radix/textarea#button)[RTL](https://ui.shadcn.com/docs/components/radix/textarea#rtl)
+Deploy your shadcn/ui app on Vercel
+Trusted by OpenAI, Sonos, Adobe, and more.
+Vercel provides tools and infrastructure to deploy apps and features at scale.
+Deploy Now
+Built by at

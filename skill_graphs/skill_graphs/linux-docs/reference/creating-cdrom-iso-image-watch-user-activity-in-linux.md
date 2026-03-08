@@ -320,7 +320,7 @@ Alexey
 [ May 28, 2017 at 12:46 pm  ](https://www.tecmint.com/linfo-shows-linux-server-health-status-in-real-time/#comment-892419)
 There was just one option in DirectoryIndex – index.html
 I added index.php index.phtml index.html index.htm and after that restartng httpd service.
-After trying to open the site the other error occured:
+After trying to open the site the other error occurred:
 scan();
 if (isset($_SERVER[‘LINFO_NCURSES’]) && php_sapi_name() == ‘cli’) {
 $output = new \Linfo\Output\Ncurses($linfo);
@@ -411,7 +411,7 @@ Your support helps us keep creating quality Linux content for everyone.
 [ Get Lifetime Access ](https://pro.tecmint.com)
 ## Linux Commands and Tools
 [20 mysqladmin Commands for MYSQL/MariaDB Database Administration](https://www.tecmint.com/mysqladmin-commands-for-database-administration-in-linux/)
-[Discus – Show Colourised Disk Space Usage in Linux](https://www.tecmint.com/colourised-disk-space-usage-in-linux/)
+[Discuss – Show Colourised Disk Space Usage in Linux](https://www.tecmint.com/colourised-disk-space-usage-in-linux/)
 [16 Top Command Examples in Linux [Monitor Linux Processes]](https://www.tecmint.com/12-top-command-examples-in-linux/)
 [fuser – Find and Kill Processes by File, Directory, or Port](https://www.tecmint.com/fuser-find-monitor-kill-linux-processes/)
 [4 Ways to Find Out Which Process Listening on a Particular Port](https://www.tecmint.com/find-out-which-process-listening-on-a-particular-port/)

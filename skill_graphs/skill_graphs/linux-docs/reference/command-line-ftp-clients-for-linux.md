@@ -239,7 +239,7 @@ This shows the status of Single VM/Server only. Is there anyway to get multiple 
 Ravi Saive
 [ December 2, 2015 at 5:23 pm  ](https://www.tecmint.com/monitors-linux-server-performance-remotely-using-web-browser/#comment-717990)
 @Ishtiyaque,
-linux-dash meant for single server only, it not build for monitoring mulitple Linux servers on single dashboard, If you are looking for such feature I suggest you to go for Nagios monitoring tools at:
+linux-dash meant for single server only, it not build for monitoring multiple Linux servers on single dashboard, If you are looking for such feature I suggest you to go for Nagios monitoring tools at:
 <https://www.tecmint.com/install-nagios-in-linux/>
 [Reply](https://www.tecmint.com/monitors-linux-server-performance-remotely-using-web-browser/#comment-717990)
   3. ![](https://secure.gravatar.com/avatar/c8f86996f7afb5da04e96bb55f5389dc9a939e1ddc71c9bdc55ba9694f2e02e3?s=50&d=blank&r=g)
@@ -295,7 +295,7 @@ Linux-dash is specially designed for single server monitoring, not for remote se
   9. ![](https://secure.gravatar.com/avatar/6c85ff3948f7889128a9b61e78a6a2128c2bea665ce7070b7d6b2dd4357ef8ce?s=50&d=blank&r=g)
 Mohammed
 [ May 16, 2014 at 8:52 pm  ](https://www.tecmint.com/monitors-linux-server-performance-remotely-using-web-browser/#comment-164904)
-DataTables warning (table id = ‘ping_dashboard’):Requested unknown parameter ’0′ I checked the ping.php and also created a csv file but stil i get the error.
+DataTables warning (table id = ‘ping_dashboard’):Requested unknown parameter ’0′ I checked the ping.php and also created a csv file but still i get the error.
 [Reply](https://www.tecmint.com/monitors-linux-server-performance-remotely-using-web-browser/#comment-164904)
   10. ![](https://secure.gravatar.com/avatar/7883efbd2f0d3ff44710ab442b7f6164bca8c370e755a74b6dc4c5b5e475675d?s=50&d=blank&r=g)
 Vasino

@@ -1,0 +1,2 @@
+##  [Secrets rotation](https://vercel.com/docs/integrations/create-integration/marketplace-api#secrets-rotation)[](https://vercel.com/docs/integrations/create-integration/marketplace-api#secrets-rotation)
+When your integration provisions resources with credentials, you should implement secrets rotation to allow users to update credentials securely. Learn how to [implement secrets rotation](https://vercel.com/docs/integrations/create-integration/secrets-rotation) in your integration.

@@ -52,7 +52,7 @@ Menu
 This tutorial discusses KVM introduction, deployment and how to use it to create virtual machines under RedHat based-distributions such as **RHEL** /**CentOS7** and **Fedora 21**.
 #### What is KVM?
 KVM or (Kernel-based Virtual Machine) is a full virtualization solution for Linux on Intel 64 and AMD 64 hardware that is included in the mainline Linux kernel since 2.6.20 and is stable and fast for most workloads.
-#### KVM Feautres
+#### KVM Features
 There are many useful features and advantages which you will gain when you use KVM to deploy your virtual platform. KVM hypervisor supports following features:
   1. **Over-committing** : Which means allocating more virtualized CPUs or memory than the available resources on the system.
   2. **Thin provisioning** : Which allows the allocation of flexible storage and optimizes the available space for every guest virtual machine.
@@ -161,7 +161,7 @@ As we mentioned early, we have some useful tools to manage our virtual platform 
 ![Start Virtual Manager in GNOME Classic](https://www.tecmint.com/wp-content/uploads/2015/01/Start-Virtual-Manager-in-GNOME-Classic-600x450.jpeg)Start Virtual Manager in GNOME Classic
 **7.** After starting the tool, this window will appear.
 ![Start Virtual Manager Window](https://www.tecmint.com/wp-content/uploads/2015/01/Start-Virtual-Manager-Window-425x450.png)Start Virtual Manager Window
-**8.** By default you will find manager is connected directly to **localhost** , fortunately you could use the same tool to mange another host remotely. From “**File** ” tab, just select “**Add Connection** ” and this window will appear.
+**8.** By default you will find manager is connected directly to **localhost** , fortunately you could use the same tool to manage another host remotely. From “**File** ” tab, just select “**Add Connection** ” and this window will appear.
 ![Add Connection](https://www.tecmint.com/wp-content/uploads/2015/01/Add-Connection.png)Add Connection
 Check “**Connect to remote host** ” option then provide **Hostname** /**IP** of the remote server. If you need establishing connection to the remote host at every time the manager starting, just check “**Auto Connect** ” option.
 **9.** Let’s return to our localhost, before creating new virtual machine you should decide where will the files be stored?! in other words, you should create the **Volume Disk** (Virtual disk / Disk image ) for your virtual machine.
@@ -268,7 +268,7 @@ dd if=/dev/sr0 of=/rhel7.iso
 [Reply](https://www.tecmint.com/install-and-configure-kvm-in-linux/#comment-680556)
   11. I tried it but I noted that it is slow tool when i compare it with virtual box or vmware
 [Reply](https://www.tecmint.com/install-and-configure-kvm-in-linux/#comment-671619)
-  12. Nice topic thanks very mutch
+  12. Nice topic thanks very much
 [Reply](https://www.tecmint.com/install-and-configure-kvm-in-linux/#comment-671616)
 
 

@@ -46,7 +46,7 @@ I found this article very helpful, especially item #16. Thank you!
   62. ![](https://secure.gravatar.com/avatar/4eba3f53b67c4695135fd9f17b42b060278b8276d29b4c1fe4e79cead7bac825?s=50&d=blank&r=g)
 Rajkumar.m
 [ September 18, 2012 at 10:30 am  ](https://www.tecmint.com/tar-command-examples-linux/#comment-854)
-Very Helpfull
+Very Helpful
 [Reply](https://www.tecmint.com/tar-command-examples-linux/#comment-854)
      * ![](https://secure.gravatar.com/avatar/129ef42e6a362fa8ca8be2afd3d9c437712a5ff37f1957a6d74c2a79699bef8b?s=50&d=blank&r=g)
 ayush pratap singh

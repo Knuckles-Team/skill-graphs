@@ -240,7 +240,7 @@ Your 1 link per Performance Tuning: jumps to other networking tools. “Not” t
 What is in need is actual and proper TCP/UDP tuning tips on correctly setting one Linux Interface to maximize the actual Throughput performance **pt-pt** regarding 100meg 1gig 2.5gig and 10g networking achievement. With many of the **/etc/sysctl.conf** set empty with respect to the vehicle for setting outside Kernel **/proc/TCP** feature.
 It is a hard search to find the correct documentation for one to set **Test** and find the actual settings one can load into **/etc/sysctl.conf** to get the maximum transfer speeds per file transfer.
 Be helpful to some simple examples using some of the tools “**IPerf3** ” and such to help those help themselves obtain these results on their own home and necessary networks. Something of such Document would be GOLD for all Seekers to such accurate information, and not the jump here and there to nothing.
-We’re advanced enough with all this tech. Out of box experience provides “**Nothing** ” Nor does any Distro provide information to Tweek Tune their own OS for these Parameter features to enrich that out-of-box experience.
+We’re advanced enough with all this tech. Out of box experience provides “**Nothing** ” Nor does any Distro provide information to Tweak Tune their own OS for these Parameter features to enrich that out-of-box experience.
 “Just a penny toss” Food for thought…
 [Reply](https://www.tecmint.com/test-network-throughput-in-linux/#comment-1985427)
   4. ![](https://secure.gravatar.com/avatar/2346f4f64e79cac932bd13a28447a7356e619b198b0b9eb17dfd978d0056d84a?s=50&d=blank&r=g)

@@ -287,7 +287,7 @@ $ sudo dpkg-reconfigure inetutils-syslogd
      * ![](https://secure.gravatar.com/avatar/e4eba519b6622fbf0df8ddcca08089b9a451430f2274bd1cb4ec4b2e9e02b3ee?s=50&d=blank&r=g)
 Sumit
 [ March 5, 2024 at 9:40 am  ](https://www.tecmint.com/watch-or-monitor-linux-log-files-in-real-time/#comment-2143250)
-First you have to install sysstat packges `yum install sysstat` and second one is **access.log** so basically according to me **access.log** genrate when we install **apache** or **Nginx** service in our OS.
+First you have to install sysstat packages `yum install sysstat` and second one is **access.log** so basically according to me **access.log** generate when we install **apache** or **Nginx** service in our OS.
 [Reply](https://www.tecmint.com/watch-or-monitor-linux-log-files-in-real-time/#comment-2143250)
   5. ![](https://secure.gravatar.com/avatar/089856eb6b80ab90a5db07e93da59a64874186fb316a4b2d56698f972004f653?s=50&d=blank&r=g)
 dudeness

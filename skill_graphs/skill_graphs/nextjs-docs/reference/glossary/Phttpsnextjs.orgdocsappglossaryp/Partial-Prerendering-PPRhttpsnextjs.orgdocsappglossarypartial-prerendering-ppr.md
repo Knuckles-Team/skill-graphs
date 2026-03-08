@@ -1,0 +1,2 @@
+## Partial Prerendering (PPR)[](https://nextjs.org/docs/app/glossary#partial-prerendering-ppr)
+A rendering optimization that combines static and dynamic rendering in a single route. The static shell is served immediately while dynamic content streams in when ready, providing the best of both rendering strategies. Learn more in [Cache Components](https://nextjs.org/docs/app/getting-started/cache-components).

@@ -1,4 +1,34 @@
 [ Skip to content ](https://fastapi.tiangolo.com/tutorial/cookie-param-models/#cookie-parameter-models)
+[ **FastAPI and friends** newsletter 🎉 ](https://fastapi.tiangolo.com/newsletter/)
+[ ![logo](https://fastapi.tiangolo.com/img/icon-white.svg) ](https://fastapi.tiangolo.com/ "FastAPI")
+FastAPI
+Cookie Parameter Models
+  * [ en - English ](https://fastapi.tiangolo.com/)
+  * [ de - Deutsch ](https://fastapi.tiangolo.com/de/)
+  * [ es - español ](https://fastapi.tiangolo.com/es/)
+  * [ fr - français ](https://fastapi.tiangolo.com/fr/)
+  * [ ja - 日本語 ](https://fastapi.tiangolo.com/ja/)
+  * [ ko - 한국어 ](https://fastapi.tiangolo.com/ko/)
+  * [ pt - português ](https://fastapi.tiangolo.com/pt/)
+  * [ ru - русский язык ](https://fastapi.tiangolo.com/ru/)
+  * [ tr - Türkçe ](https://fastapi.tiangolo.com/tr/)
+  * [ uk - українська мова ](https://fastapi.tiangolo.com/uk/)
+  * [ zh - 简体中文 ](https://fastapi.tiangolo.com/zh/)
+  * [ zh-hant - 繁體中文 ](https://fastapi.tiangolo.com/zh-hant/)
+
+
+[ ](https://fastapi.tiangolo.com/tutorial/cookie-param-models/?q= "Share")
+Initializing search
+  * [ FastAPI ](https://fastapi.tiangolo.com/)
+  * [ Features ](https://fastapi.tiangolo.com/features/)
+  * [ Learn ](https://fastapi.tiangolo.com/learn/)
+  * [ Reference ](https://fastapi.tiangolo.com/reference/)
+  * [ FastAPI People ](https://fastapi.tiangolo.com/fastapi-people/)
+  * [ Resources ](https://fastapi.tiangolo.com/resources/)
+  * [ About ](https://fastapi.tiangolo.com/about/)
+  * [ Release Notes ](https://fastapi.tiangolo.com/release-notes/)
+
+
 [ ![logo](https://fastapi.tiangolo.com/img/icon-white.svg) ](https://fastapi.tiangolo.com/ "FastAPI") FastAPI
   * [ FastAPI  ](https://fastapi.tiangolo.com/)
   * [ Features  ](https://fastapi.tiangolo.com/features/)
@@ -170,7 +200,7 @@
 
 # Cookie Parameter Models[¶](https://fastapi.tiangolo.com/tutorial/cookie-param-models/#cookie-parameter-models)
 If you have a group of **cookies** that are related, you can create a **Pydantic model** to declare them. 🍪
-This would allow you to **re-use the model** in **multiple places** and also to declare validations and metadata for all the parameters at once. 😎
+This would allow you to **reuse the model** in **multiple places** and also to declare validations and metadata for all the parameters at once. 😎
 Note
 This is supported since FastAPI version `0.115.0`. 🤓
 Tip
@@ -302,3 +332,7 @@ For example, if the client tries to send a `santa_tracker` cookie with a value o
 
 ## Summary[¶](https://fastapi.tiangolo.com/tutorial/cookie-param-models/#summary)
 You can use **Pydantic models** to declare **cookies** in **FastAPI**. 😎
+[ Previous  Header Parameters  ](https://fastapi.tiangolo.com/tutorial/header-params/) [ Next  Header Parameter Models  ](https://fastapi.tiangolo.com/tutorial/header-param-models/)
+The FastAPI trademark is owned by [@tiangolo](https://tiangolo.com) and is registered in the US and across other regions
+Made with
+[ ](https://tiangolo.com "tiangolo.com")

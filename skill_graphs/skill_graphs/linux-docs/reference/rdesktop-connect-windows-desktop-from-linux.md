@@ -155,7 +155,7 @@ Run the following commands to install rdesktop offline on any Linux distribution
   6. In a GUI environment.
 yum -y install rdesktop
 yum -y install tsclient
-The tsclient is a frontend that makes it easy to use rdesktop (and vncviewer). You should now see “Teminal Server Client” in the Internet tab in GUI.
+The tsclient is a frontend that makes it easy to use rdesktop (and vncviewer). You should now see “Terminal Server Client” in the Internet tab in GUI.
 [Reply](https://www.tecmint.com/rdesktop-connect-windows-desktop-from-linux/#comment-751366)
   7. Its very useful
 Thanks
@@ -194,7 +194,7 @@ speaking intelligently about. Now i’m very happy I found this in my search for
   15. Hy,
 I have installed rdesktop+grdesktop,
 congratulations for your work. Can you help me?
-How i can delete ip adress in General/Logon Settings/Computer: ………….
+How i can delete ip address in General/Logon Settings/Computer: ………….
 Thanks you very much
 [Reply](https://www.tecmint.com/rdesktop-connect-windows-desktop-from-linux/#comment-25706)
 

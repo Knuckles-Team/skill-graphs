@@ -1,0 +1,2 @@
+## Rewrite[](https://nextjs.org/docs/app/glossary#rewrite)
+Mapping an incoming request path to a different destination path without changing the URL in the browser. Configured in [`next.config.js`](https://nextjs.org/docs/app/api-reference/config/next-config-js/rewrites) or returned from [Proxy](https://nextjs.org/docs/app/api-reference/file-conventions/proxy). Useful for proxying to external services or legacy URLs.

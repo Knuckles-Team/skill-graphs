@@ -42,7 +42,7 @@ Type to start searching
       * Third-Party Tools  [ Third-Party Tools  ](https://ai.pydantic.dev/third-party-tools/)
         * [ MCP Tools  ](https://ai.pydantic.dev/third-party-tools/#mcp-tools)
         * [ LangChain Tools  ](https://ai.pydantic.dev/third-party-tools/#langchain-tools)
-        * [ ACI.dev Tools  ](https://ai.pydantic.dev/third-party-tools/#aci-tools)
+        * [ ACPI.dev Tools  ](https://ai.pydantic.dev/third-party-tools/#aci-tools)
         * [ See Also  ](https://ai.pydantic.dev/third-party-tools/#see-also)
     * Advanced Features
       * [ Image, Audio, Video & Document Input  ](https://ai.pydantic.dev/input/)
@@ -199,7 +199,7 @@ Type to start searching
 
   * [ MCP Tools  ](https://ai.pydantic.dev/third-party-tools/#mcp-tools)
   * [ LangChain Tools  ](https://ai.pydantic.dev/third-party-tools/#langchain-tools)
-  * [ ACI.dev Tools  ](https://ai.pydantic.dev/third-party-tools/#aci-tools)
+  * [ ACPI.dev Tools  ](https://ai.pydantic.dev/third-party-tools/#aci-tools)
   * [ See Also  ](https://ai.pydantic.dev/third-party-tools/#see-also)
 
 
@@ -292,16 +292,16 @@ agent = Agent('openai:gpt-5.2', toolsets=[toolset])
 
 ```
 
-## ACI.dev Tools
-If you'd like to use a tool from the [`tool_from_aci`](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.aci.tool_from_aci "tool_from_aci") convenience method. Note that Pydantic AI will not validate the arguments in this case -- it's up to the model to provide arguments matching the schema specified by the ACI tool, and up to the ACI tool to raise an error if the arguments are invalid.
-You will need to install the `aci-sdk` package, set your ACI API key in the `ACI_API_KEY` environment variable, and pass your ACI "linked account owner ID" to the function.
-Here is how you can use the ACI.dev `TAVILY__SEARCH` tool:
+## ACPI.dev Tools
+If you'd like to use a tool from the [`tool_from_aci`](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.acpi.tool_from_aci "tool_from_aci") convenience method. Note that Pydantic AI will not validate the arguments in this case -- it's up to the model to provide arguments matching the schema specified by the ACPI tool, and up to the ACPI tool to raise an error if the arguments are invalid.
+You will need to install the `aci-sdk` package, set your ACPI API key in the `ACI_API_KEY` environment variable, and pass your ACPI "linked account owner ID" to the function.
+Here is how you can use the ACPI.dev `TAVILY__SEARCH` tool:
 [With Pydantic AI Gateway](https://ai.pydantic.dev/third-party-tools/#__tabbed_3_1)[Directly to Provider API](https://ai.pydantic.dev/third-party-tools/#__tabbed_3_2)
 [Learn about Gateway](https://ai.pydantic.dev/gateway)```
 import os
 
 from pydantic_ai import Agent
-from pydantic_ai.ext.aci import tool_from_aci
+from pydantic_ai.ext.acpi import tool_from_aci
 
 tavily_search = tool_from_aci(
     'TAVILY__SEARCH',
@@ -323,7 +323,7 @@ print(result.output)
 import os
 
 from pydantic_ai import Agent
-from pydantic_ai.ext.aci import tool_from_aci
+from pydantic_ai.ext.acpi import tool_from_aci
 
 tavily_search = tool_from_aci(
     'TAVILY__SEARCH',
@@ -346,13 +346,13 @@ print(result.output)
   1. The release date of this game is the 30th of May 2025, which is after the knowledge cutoff for Gemini 2.0 (August 2024).
 
 
-If you'd like to use multiple ACI.dev tools, you can use the [`ACIToolset`](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.aci.ACIToolset "ACIToolset") [toolset](https://ai.pydantic.dev/toolsets/) which takes a list of ACI tool names as well as the `linked_account_owner_id`:
+If you'd like to use multiple ACPI.dev tools, you can use the [`ACIToolset`](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.acpi.ACIToolset "ACIToolset") [toolset](https://ai.pydantic.dev/toolsets/) which takes a list of ACPI tool names as well as the `linked_account_owner_id`:
 [With Pydantic AI Gateway](https://ai.pydantic.dev/third-party-tools/#__tabbed_4_1)[Directly to Provider API](https://ai.pydantic.dev/third-party-tools/#__tabbed_4_2)
 [Learn about Gateway](https://ai.pydantic.dev/gateway)```
 import os
 
 from pydantic_ai import Agent
-from pydantic_ai.ext.aci import ACIToolset
+from pydantic_ai.ext.acpi import ACIToolset
 
 toolset = ACIToolset(
     [
@@ -370,7 +370,7 @@ agent = Agent('gateway/openai:gpt-5.2', toolsets=[toolset])
 import os
 
 from pydantic_ai import Agent
-from pydantic_ai.ext.aci import ACIToolset
+from pydantic_ai.ext.acpi import ACIToolset
 
 toolset = ACIToolset(
     [
@@ -389,7 +389,7 @@ agent = Agent('openai:gpt-5.2', toolsets=[toolset])
   * [Toolsets](https://ai.pydantic.dev/toolsets/) - Managing collections of tools
   * [MCP Client](https://ai.pydantic.dev/mcp/client/) - Using MCP servers with Pydantic AI
   * [LangChain Toolsets](https://ai.pydantic.dev/toolsets/#langchain-tools) - Using LangChain toolsets
-  * [ACI.dev Toolsets](https://ai.pydantic.dev/toolsets/#aci-tools) - Using ACI.dev toolsets
+  * [ACPI.dev Toolsets](https://ai.pydantic.dev/toolsets/#aci-tools) - Using ACPI.dev toolsets
 
 
 © Pydantic Services Inc. 2024 to present

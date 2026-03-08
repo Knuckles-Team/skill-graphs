@@ -206,7 +206,7 @@ ErrorLog "|/bin/sh -c '/usr/bin/tee -a /var/log/httpd/httpd-error.log | /usr/bin
 
 ```
 
-**10.** As of version **1.7.1** , Nginx web server has build-in capabilities in order to directly log its messages to a remote syslog server, by adding the following lines of code to an nginx configuration file.
+**10.** As of version **1.7.1** , Nginx web server has built-in capabilities in order to directly log its messages to a remote syslog server, by adding the following lines of code to an nginx configuration file.
 ```
 error_log syslog:server=192.168.1.10:514,facility=local7,tag=nginx,severity=error;
 access_log syslog:server=192.168.10.254:514,facility=local7,tag=nginx,severity=info main;

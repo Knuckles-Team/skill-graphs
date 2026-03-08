@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_monorepos_nx](<./docs_monorepos_nx.md>)
+- [Deploying Nx to Vercel](<./Deploying-Nx-to-Vercel.md>)
+  - [[Deploy Nx to Vercel](https://vercel.com/docs/monorepos/nx#deploy-nx-to-vercel)[](https://vercel.com/docs/monorepos/nx#deploy-nx-to-vercel)](<./Deploying-Nx-to-Vercel/Deploy-Nx-to-Vercelhttpsvercel.comdocsmonoreposnxdeploy-nx-to-vercelhttpsvercel.comdocsmonoreposnxdeploy-nx-to-vercel.md>)
+  - [[Using `nx-ignore`](https://vercel.com/docs/monorepos/nx#using-nx-ignore)[](https://vercel.com/docs/monorepos/nx#using-nx-ignore)](<./Deploying-Nx-to-Vercel/Using-nx-ignorehttpsvercel.comdocsmonoreposnxusing-nx-ignorehttpsvercel.comdocsmonoreposnxusing-nx-ignore.md>)
+  - [[Setup Remote Caching for Nx on Vercel](https://vercel.com/docs/monorepos/nx#setup-remote-caching-for-nx-on-vercel)[](https://vercel.com/docs/monorepos/nx#setup-remote-caching-for-nx-on-vercel)](<./Deploying-Nx-to-Vercel/Setup-Remote-Caching-for-Nx-on-Vercelhttpsvercel.comdocsmonoreposnxsetup-remote-caching-for-nx-on-vercelhttpsvercel.comdocsmonoreposnxsetup-remote-caching-for-nx-on-vercel.md>)
+  - [Get Started](<./Deploying-Nx-to-Vercel/Get-Started.md>)
+  - [Build](<./Deploying-Nx-to-Vercel/Build.md>)
+  - [Scale](<./Deploying-Nx-to-Vercel/Scale.md>)
+  - [Secure](<./Deploying-Nx-to-Vercel/Secure.md>)
+  - [Resources](<./Deploying-Nx-to-Vercel/Resources.md>)
+  - [Learn](<./Deploying-Nx-to-Vercel/Learn.md>)
+  - [Frameworks](<./Deploying-Nx-to-Vercel/Frameworks.md>)
+  - [SDKs](<./Deploying-Nx-to-Vercel/SDKs.md>)
+  - [Use Cases](<./Deploying-Nx-to-Vercel/Use-Cases.md>)
+  - [Company](<./Deploying-Nx-to-Vercel/Company.md>)
+  - [Community](<./Deploying-Nx-to-Vercel/Community.md>)

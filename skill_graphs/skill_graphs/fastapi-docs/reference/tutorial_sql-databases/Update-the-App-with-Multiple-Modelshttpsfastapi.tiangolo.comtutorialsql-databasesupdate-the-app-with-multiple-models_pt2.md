@@ -53,8 +53,8 @@ def delete_hero(hero_id: int, session: Session = Depends(get_session)):
 ####  `HeroUpdate` - the _data model_ to update a hero[¶](https://fastapi.tiangolo.com/tutorial/sql-databases/#heroupdate-the-data-model-to-update-a-hero)
 We didn't have a way to **update a hero** in the previous version of the app, but now with **multiple models** , we can do it. 🎉
 The `HeroUpdate` _data model_ is somewhat special, it has **all the same fields** that would be needed to create a new hero, but all the fields are **optional** (they all have a default value). This way, when you update a hero, you can send just the fields that you want to update.
-Because all the **fields actually change** (the type now includes `None` and they now have a default value of `None`), we need to **re-declare** them.
-We don't really need to inherit from `HeroBase` because we are re-declaring all the fields. I'll leave it inheriting just for consistency, but this is not necessary. It's more a matter of personal taste. 🤷
+Because all the **fields actually change** (the type now includes `None` and they now have a default value of `None`), we need to **redeclare** them.
+We don't really need to inherit from `HeroBase` because we are redeclaring all the fields. I'll leave it inheriting just for consistency, but this is not necessary. It's more a matter of personal taste. 🤷
 The fields of `HeroUpdate` are:
   * `name`
   * `age`

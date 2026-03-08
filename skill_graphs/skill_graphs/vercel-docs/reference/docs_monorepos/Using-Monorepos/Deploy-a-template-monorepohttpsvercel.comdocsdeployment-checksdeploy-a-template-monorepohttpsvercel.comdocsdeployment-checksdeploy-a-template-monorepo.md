@@ -1,0 +1,8 @@
+##  [Deploy a template monorepo](https://vercel.com/docs/deployment-checks#deploy-a-template-monorepo)[](https://vercel.com/docs/deployment-checks#deploy-a-template-monorepo)
+Get started with monorepos on Vercel in a few minutes by using one of our monorepo quickstart templates.
+
+
+[![](https://7nyt0uhk7sse4zvn.public.blob.vercel-storage.com/docs-assets/static/topics/icons/turborepo.svg)Turborepo Read the Turborepo docs, or start from an example.](https://vercel.com/docs/monorepos/turborepo)
+[Deploy](https://vercel.com/new/clone?repository-url=https://github.com/vercel/turbo/tree/main/examples/basic&project-name=turbo-monorepo&repository-name=turbo-monorepo&root-directory=apps/web&install-command=pnpm%20install&build-command=turbo%20build&skip-unaffected=true)
+[![](https://7nyt0uhk7sse4zvn.public.blob.vercel-storage.com/docs-assets/static/topics/icons/nx.svg)Nx Read the Nx docs, or start from an example.](https://vercel.com/docs/monorepos/nx)
+[Deploy](https://vercel.com/new/clone?build-command=cd%20..%2F..%2F%20%26%26%20npx%20nx%20build%20app%20--prod&demo-description=Learn%20to%20implement%20a%20monorepo%20with%20a%20single%20Next.js%20site%20using%20Nx.&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F4w8MJqkgHvXlKgBMglBHsB%2F6cd4b35af6024e08c9a8b7ded092af2d%2Fsolutions-nx-monorepo.vercel.sh_.png&demo-title=Monorepo%20with%20Nx&demo-url=https%3A%2F%2Fsolutions-nx-monorepo.vercel.sh&output-directory=out%2F.next&project-name=nx-monorepo&repository-name=nx-monorepo&repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fsolutions%2Fnx-monorepo&root-directory=apps%2Fapp&teamSlug=vercel)

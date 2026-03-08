@@ -175,7 +175,7 @@ Save the file and close it.
 ```
 
 ### Step 2: Install InfluxDB in CentOS 7
-**7.** Next, you need to add the InfluxDB Yum repository to install latest vesrion of **InfluxDB** package as shown.
+**7.** Next, you need to add the InfluxDB Yum repository to install latest version of **InfluxDB** package as shown.
 ```
 # cat <<EOF | sudo tee /etc/yum.repos.d/influxdb.repo
 [influxdb]

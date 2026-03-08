@@ -1,0 +1,10 @@
+## [Introduction](https://laravel.com/docs/12.x/eloquent-relationships#introduction)
+Database tables are often related to one another. For example, a blog post may have many comments or an order could be related to the user who placed it. Eloquent makes managing and working with these relationships easy, and supports a variety of common relationships:
+  * [One To One](https://laravel.com/docs/12.x/eloquent-relationships#one-to-one)
+  * [One To Many](https://laravel.com/docs/12.x/eloquent-relationships#one-to-many)
+  * [Many To Many](https://laravel.com/docs/12.x/eloquent-relationships#many-to-many)
+  * [Has One Through](https://laravel.com/docs/12.x/eloquent-relationships#has-one-through)
+  * [Has Many Through](https://laravel.com/docs/12.x/eloquent-relationships#has-many-through)
+  * [One To One (Polymorphic)](https://laravel.com/docs/12.x/eloquent-relationships#one-to-one-polymorphic-relations)
+  * [One To Many (Polymorphic)](https://laravel.com/docs/12.x/eloquent-relationships#one-to-many-polymorphic-relations)
+  * [Many To Many (Polymorphic)](https://laravel.com/docs/12.x/eloquent-relationships#many-to-many-polymorphic-relations)

@@ -1,0 +1,3 @@
+##  [Instant Rollback](https://vercel.com/docs/deploy-hooks#instant-rollback)[](https://vercel.com/docs/deploy-hooks#instant-rollback)
+Use this when you want to replace the current production deployment with another deployment that has already been serving as current in the past. Instant Rollback is a faster process since it involves assigning domains to an existing deployment rather than a complete rebuild and is ideal to quickly recover from an incident in production to roll back. However, because it does not do a complete rebuild, items such as environment variables will not be rebuilt.
+For more information on how and when to use it, see the [Instant Rollback docs](https://vercel.com/docs/instant-rollback).

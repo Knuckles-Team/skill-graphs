@@ -1,0 +1,6 @@
+##  [Features](https://vercel.com/docs/vercel-sandbox#features)[](https://vercel.com/docs/vercel-sandbox#features)
+  * [Isolation](https://vercel.com/docs/vercel-sandbox/concepts#isolation-architecture): Each sandbox runs in a secure Firecracker microVM with its own filesystem and network. Run untrusted code without affecting production.
+  * [Node.js and Python runtimes](https://vercel.com/docs/vercel-sandbox/system-specifications#runtimes): Choose from `node24`, `node22`, or `python3.13` with full root access. [Install any package or binary you need](https://vercel.com/kb/guide/how-to-install-system-packages-in-vercel-sandbox).
+  * [Fast startup](https://vercel.com/docs/vercel-sandbox/concepts#how-sandboxes-work): Sandboxes start in milliseconds, making them ideal for real-time user interactions and latency-sensitive workloads.
+  * [Snapshotting](https://vercel.com/docs/vercel-sandbox/concepts/snapshots): Save the state of a running sandbox to resume later. Skip dependency installation on subsequent runs.
+  * [CLI and SDK](https://vercel.com/docs/vercel-sandbox/sdk-reference): Manage sandboxes through the CLI or TypeScript/Python SDK. Automate sandbox workflows in your application.

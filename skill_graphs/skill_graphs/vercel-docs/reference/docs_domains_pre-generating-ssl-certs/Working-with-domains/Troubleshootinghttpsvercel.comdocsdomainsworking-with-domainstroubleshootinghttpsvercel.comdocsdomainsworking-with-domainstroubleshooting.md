@@ -1,0 +1,2 @@
+##  [Troubleshooting](https://vercel.com/docs/domains/working-with-domains#troubleshooting)[](https://vercel.com/docs/domains/working-with-domains#troubleshooting)
+[Invalid domain configurations](https://vercel.com/docs/domains/troubleshooting#misconfigured-domain-issues) are one of the most common types of domain issues on Vercel. To learn more about other common domain issues, see the [troubleshooting](https://vercel.com/docs/domains/troubleshooting#common-domain-issues) doc.

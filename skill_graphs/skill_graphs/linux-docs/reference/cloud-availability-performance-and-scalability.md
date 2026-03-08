@@ -267,7 +267,7 @@ Tcp:
     1 connections established
     2191 segments received
     1745 segments send out
-    24 segments retransmited
+    24 segments retransmitted
     0 bad segments received.
     4 resets sent
 Udp:
@@ -290,7 +290,7 @@ Tcp:
     1 connections established
     57718706 segments received
     64280042 segments send out
-    3135688 segments retransmited
+    3135688 segments retransmitted
     74 bad segments received.
     17580 resets sent
 ```

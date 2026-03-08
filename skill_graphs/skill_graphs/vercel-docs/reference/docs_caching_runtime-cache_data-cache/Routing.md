@@ -1,0 +1,3 @@
+# Routing
+Last updated March 8, 2026
+Vercel's CDN evaluates routing rules on every request before checking any cache or invoking your functions. You can define rules in your framework configuration, in [`vercel.json`](https://vercel.com/docs/project-configuration/vercel-json) or [`vercel.ts`](https://vercel.com/docs/project-configuration/vercel-ts), or as [project-level routing rules](https://vercel.com/docs/routing/project-routing-rules) from the dashboard. Project-level rules support the same core actions as deployment-level routes, with [a few exceptions](https://vercel.com/docs/routing/project-routing-rules#differences-from-deployment-level-routes) like Routing Middleware.

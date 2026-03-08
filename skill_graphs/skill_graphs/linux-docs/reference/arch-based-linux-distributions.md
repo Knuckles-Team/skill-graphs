@@ -387,7 +387,7 @@ To proceed to the next step, scroll down and click ‘**Next** ’. For ‘**Com
 In the ‘**Monitoring Security** ’ section, click ‘**Next** ’.
 ![Icinga2 Monitoring Security](https://www.tecmint.com/wp-content/uploads/2022/04/Icinga2-Monitoring-Security.png)Icinga2 Monitoring Security
 Once again, review all the configurations for the Icinga2 monitoring module. If all looks good, click ‘**Finish** ’ otherwise head back and make the necessary changes.
-![Icinga2 Monitoring Configurtion Review](https://www.tecmint.com/wp-content/uploads/2022/04/Icinga2-Monitoring-Module-Review.png)Icinga2 Monitoring Configuration Review
+![Icinga2 Monitoring Configuration Review](https://www.tecmint.com/wp-content/uploads/2022/04/Icinga2-Monitoring-Module-Review.png)Icinga2 Monitoring Configuration Review
 If all went well with the **Icinga Web 2** setup, you should get a notification that **Icinga Web 2** has been successfully set up. To log in to the web interface, click on the ‘**Login to Icinga Web 2** ’ link.
 ![Icinga Web2 Login](https://www.tecmint.com/wp-content/uploads/2022/04/Icinga-Web-2-Login.png)Icinga Web2 Login
 This pops open the Icinga Web 2 interface. Provide the Admin account details and click ‘**login** ’.

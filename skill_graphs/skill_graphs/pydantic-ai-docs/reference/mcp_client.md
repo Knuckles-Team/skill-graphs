@@ -862,7 +862,7 @@ async def main():
 
 ```
 
-  1. When you supply `http_client`, Pydantic AI re-uses this client for every request. Anything supported by **httpx** (`verify`, `cert`, custom proxies, timeouts, etc.) therefore applies to all MCP traffic.
+  1. When you supply `http_client`, Pydantic AI reuses this client for every request. Anything supported by **httpx** (`verify`, `cert`, custom proxies, timeouts, etc.) therefore applies to all MCP traffic.
 
 
 ## Client Identification

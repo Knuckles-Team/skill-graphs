@@ -319,5 +319,5 @@ If you are looking for information on a specific function, class or method, this
 
 ### Quick search
 ·
-![](https://server.ethicalads.io/proxy/view/10130/019ccc1d-26ae-7191-a808-214dd9f1162d/)
+![](https://server.ethicalads.io/proxy/view/10133/019ccf14-ffb0-7701-a934-3d79e4436535/)
 © Copyright 2010 Pallets. Created using

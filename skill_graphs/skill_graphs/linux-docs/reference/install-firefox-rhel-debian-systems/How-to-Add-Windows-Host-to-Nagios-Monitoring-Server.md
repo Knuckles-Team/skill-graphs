@@ -64,7 +64,7 @@ CheckHelpers.dll**
 ;RemoteConfiguration.dll
 ; NSCA Agent is a new beta module use with care!
 ;NSCAAgent.dll
-; LUA script module used to write your own "check deamon" (sort of) early beta.
+; LUA script module used to write your own "check daemon" (sort of) early beta.
 ;LUAScript.dll
 ; Script to check external scripts and/or internal aliases, early beta.
 ;CheckExternalScripts.dll
@@ -77,7 +77,7 @@ Uncomment the “**allowed_hosts** ” in the “**Settings** ” section and de
 [Settings]
 ;# ALLOWED HOST ADDRESSES
 ;  This is a comma-delimited list of IP address of hosts that are allowed to talk to the all daemons.
-;  If leave this blank anyone can access the deamon remotly (NSClient still requires a valid password).
+;  If leave this blank anyone can access the daemon remotely (NSClient still requires a valid password).
 ;  The syntax is host or ip/mask so 192.168.0.0/24 will allow anyone on that subnet access
 allowed_hosts=**172.16.27.41
 **
@@ -199,7 +199,7 @@ Lastly, uncomment the **windows.cfg** file in**/usr/local/nagios/etc/nagios.cfg*
 **
 ```
 
-Finally, verify the **Nagios** configuration files for any erros.
+Finally, verify the **Nagios** configuration files for any errors.
 ```
 [root@tecmint]# /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
 ```

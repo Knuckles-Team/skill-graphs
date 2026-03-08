@@ -368,7 +368,7 @@ Additionally, this is just true for a sinle CPU system, a 8 core is overloaded s
 by4
 [ November 25, 2015 at 4:47 am  ](https://www.tecmint.com/linux-system-monitoring-troubleshooting-tools/#comment-713138)
 @Leo Tilson
-You do realize that when you support a client’s server you are not allowed to install third party tools just for your convinience because security issues, recources or just customer policy… What htop? Do you have htop on a red hat server? Of course the typical, old, proven and used in enterprise tools should be described…
+You do realize that when you support a client’s server you are not allowed to install third party tools just for your convenience because security issues, resources or just customer policy… What htop? Do you have htop on a red hat server? Of course the typical, old, proven and used in enterprise tools should be described…
 [Reply](https://www.tecmint.com/linux-system-monitoring-troubleshooting-tools/#comment-713138)
      * ![](https://secure.gravatar.com/avatar/27b3ea2a3fb1de4ed1c8694a1465c099a86586d8b833a0d852a26d76d750df9f?s=50&d=blank&r=g)
 Gabriel Cánepa

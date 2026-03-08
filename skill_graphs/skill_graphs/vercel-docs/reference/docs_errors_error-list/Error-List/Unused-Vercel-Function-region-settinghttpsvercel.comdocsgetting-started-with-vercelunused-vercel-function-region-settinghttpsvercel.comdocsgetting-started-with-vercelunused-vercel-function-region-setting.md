@@ -1,0 +1,4 @@
+##  [Unused Vercel Function region setting](https://vercel.com/docs/getting-started-with-vercel#unused-vercel-function-region-setting)[](https://vercel.com/docs/getting-started-with-vercel#unused-vercel-function-region-setting)
+A [project](https://vercel.com/docs/projects/overview) has several settings that can be found in the dashboard. One of those settings, Vercel Function Region, is used to select the [region](https://vercel.com/docs/regions) where your Vercel functions execute.
+If a deployment defines the [`regions`](https://vercel.com/docs/project-configuration#regions) configuration property in `vercel.json`, the Vercel Function Region setting is ignored.
+If a CLI Deployment defines the [`--regions`](https://vercel.com/docs/cli/deploy#regions) option, the Vercel Function Region setting is ignored.

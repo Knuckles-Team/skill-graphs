@@ -31,7 +31,7 @@ Very few people in the grand scheme of things are engineers or doctors. Most peo
 [Reply](https://www.tecmint.com/why-i-hate-linux/#comment-525454)
      * so what’s new in that?
 Everybody use only what works for them.
-You compare or not, it is already compared at market level, usability, easiness, stablity … on DAILY BASIS
+You compare or not, it is already compared at market level, usability, easiness, stability … on DAILY BASIS
 [Reply](https://www.tecmint.com/why-i-hate-linux/#comment-525562)
   34. I hate Linux because, to me, a computer is a means to an end, not an end in itself, kind of like a car: I don’t care how the engine works, I just want it to get me safely from point A to point B. With Windows, this happens most of the time, and even when I do have a problem, nine times out of ten it can be solved by either rebooting or uninstalling/reinstalling a program, and in the past few years, the Windows troubleshooting website has become a useful tool as well. In Linux, when you have a problem, either you’re someone with an IT background or you’re essentially doomed to spending hours trying to interpret cryptic error messages, browsing through dusty old forum posts for information vaguely relevant to your problem (and hopefully relevant to your distribution too) and trying to find your way out of a maze of dependencies, paths, permissions, broken repository links and other similar amenities. And the best part is, none of this is even remotely guaranteed to yield a solution! This would have been understandable – even tolerable perhaps – in 1995, maybe even in 2005, but in the year 2015 I fully expect software to *just work*. All of the hassle should be on the part of the developer, not of the user.
 And by the way, I have a Ph.D. in Chemistry and I am a published researcher in peer-reviewed journals, and I have met many colleagues over the years who feel the same way: if people with this level of education are having trouble with Linux, then perhaps the Linux community should start thinking about coming together and making one Linux that actually works smoothly, instead of wasting energy and resources over petty sectarian pursuits that result in dozens of crude distributions that differ in ways only developers actually care about.
@@ -118,9 +118,9 @@ Windows is not guaranteed to get a virus, nor is Windows necessarily easier to i
 [Reply](https://www.tecmint.com/why-i-hate-linux/#comment-324153)
        * @ cyberspace5000 you might be aware of the fact that windows system don’t have a strict super-user program execution permission utility as it is in Linux.
 [Reply](https://www.tecmint.com/why-i-hate-linux/#comment-454073)
-     * @ edgar i have experianced and hence didn’t find researching would help me much.
+     * @ edgar i have experienced and hence didn’t find researching would help me much.
 and microsoft don’t need to hire me after having such a big market share. I am a very sincere disciple of Linux as you are. Don’t misguide the article please. You may need to look at the comments of various users below to get the real picture.
-Moreover, if you havent done anything out of box you would probably never land in the problems.
+Moreover, if you haven't done anything out of box you would probably never land in the problems.
 [Reply](https://www.tecmint.com/why-i-hate-linux/#comment-454086)
   41. For me, No distro problems , I use slackware with his stable and KISS, then I don’t want manual compile software and manual resolved dependency , so I Use Kubuntu . I could find the distro suitable for me, And I found myself can’t leave Linux , no matter which distro
 And , I was a newbe Linux user
@@ -132,7 +132,7 @@ Yes, true. I view it as a matter of options or freedom which a Linux User has.
 To summarise, Linux Distros are – Debian, RPM, Gentoo, Arc and Slack based.
 Each of these genes has its own merits and demerits, I would say Debian and RPM are best for an average user. Debian is lead by Ubuntu & Linux Mint, RPM is lead by Fedora, Open-Suse, CENT-OS & Mandriva. Thus the choice is between these 5 Linux Distributions, if one does some proper study. Mandriva based ones are Mageia and PC-Linux-OS. For a new Linux User, Linux Mint is the best choice.
 2) Software Support – Not Available
-It’s not wholly true. For instance an Android Mobile can be managed by using Chromium Browser itself. No need of a separate application. However wammu is available to handle Phone Synching with PC
+It’s not wholly true. For instance an Android Mobile can be managed by using Chromium Browser itself. No need of a separate application. However wammu is available to handle Phone Syncing with PC
 There are proper open source application for every proprietary application. As you are paying no money, you have to search a bit.
 3) Long Hours
 Actually it is wrong, you waste time when you do not know what you do.

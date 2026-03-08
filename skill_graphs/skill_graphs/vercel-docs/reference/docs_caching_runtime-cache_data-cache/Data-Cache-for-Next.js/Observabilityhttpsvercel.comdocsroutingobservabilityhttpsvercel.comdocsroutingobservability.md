@@ -1,0 +1,3 @@
+##  [Observability](https://vercel.com/docs/routing#observability)[](https://vercel.com/docs/routing#observability)
+You can observe your project's data cache usage in [Runtime Cache under Observability](https://vercel.com/d?to=%2F%5Bteam%5D%2F%5Bproject%5D%2Fobservability%2Fruntime-cache&title=Go+to+Observability+Runtime+Cache) in your project sidebar. The Runtime Cache page provides visibility into what's stored in your project's data cache, along with insights like cache hit rate, cache reads, cache writes, and on-demand revalidations.
+You can also track data cache usage per request in [Logs](https://vercel.com/d?to=%2F%5Bteam%5D%2F%5Bproject%5D%2Flogs&title=Open+Logs), under request metrics.

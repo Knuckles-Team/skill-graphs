@@ -133,7 +133,7 @@ $ sudo vi /etc/darkstat/init.cfg
 
 Note that for the purpose of this tutorial, we will only explain mandatory as well as important configuration options for you to start using this tool.
 Now change the value of **START_DARKSTAT** from `no` to `yes` and set the interface darkstat will listen on with the **INTERFACE** option.
-And also **uncoment** **DIR=”/var/lib/darkstat”** and **DAYLOG=”–daylog darkstat.log”** options to specify its directory and log file respectively.
+And also **uncomment** **DIR=”/var/lib/darkstat”** and **DAYLOG=”–daylog darkstat.log”** options to specify its directory and log file respectively.
 ```
 START_DARKSTAT=yes
 INTERFACE="-i ppp0"

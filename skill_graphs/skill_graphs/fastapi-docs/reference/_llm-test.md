@@ -1,4 +1,34 @@
 [ Skip to content ](https://fastapi.tiangolo.com/_llm-test/#llm-test-file)
+[ **FastAPI and friends** newsletter 🎉 ](https://fastapi.tiangolo.com/newsletter/)
+[ ![logo](https://fastapi.tiangolo.com/img/icon-white.svg) ](https://fastapi.tiangolo.com/ "FastAPI")
+FastAPI
+LLM test file
+  * [ en - English ](https://fastapi.tiangolo.com/)
+  * [ de - Deutsch ](https://fastapi.tiangolo.com/de/)
+  * [ es - español ](https://fastapi.tiangolo.com/es/)
+  * [ fr - français ](https://fastapi.tiangolo.com/fr/)
+  * [ ja - 日本語 ](https://fastapi.tiangolo.com/ja/)
+  * [ ko - 한국어 ](https://fastapi.tiangolo.com/ko/)
+  * [ pt - português ](https://fastapi.tiangolo.com/pt/)
+  * [ ru - русский язык ](https://fastapi.tiangolo.com/ru/)
+  * [ tr - Türkçe ](https://fastapi.tiangolo.com/tr/)
+  * [ uk - українська мова ](https://fastapi.tiangolo.com/uk/)
+  * [ zh - 简体中文 ](https://fastapi.tiangolo.com/zh/)
+  * [ zh-hant - 繁體中文 ](https://fastapi.tiangolo.com/zh-hant/)
+
+
+[ ](https://fastapi.tiangolo.com/_llm-test/?q= "Share")
+Type to start searching
+  * [ FastAPI ](https://fastapi.tiangolo.com/)
+  * [ Features ](https://fastapi.tiangolo.com/features/)
+  * [ Learn ](https://fastapi.tiangolo.com/learn/)
+  * [ Reference ](https://fastapi.tiangolo.com/reference/)
+  * [ FastAPI People ](https://fastapi.tiangolo.com/fastapi-people/)
+  * [ Resources ](https://fastapi.tiangolo.com/resources/)
+  * [ About ](https://fastapi.tiangolo.com/about/)
+  * [ Release Notes ](https://fastapi.tiangolo.com/release-notes/)
+
+
 [ ![logo](https://fastapi.tiangolo.com/img/icon-white.svg) ](https://fastapi.tiangolo.com/ "FastAPI") FastAPI
   * [ FastAPI  ](https://fastapi.tiangolo.com/)
   * [ Features  ](https://fastapi.tiangolo.com/features/)
@@ -396,7 +426,7 @@ For some language specific instructions, see e.g. section `### Headings` in `doc
   * the dependency injection system
   * the dependency
   * the dependable
-  * the dependant
+  * the dependent
   * I/O bound
   * CPU bound
   * concurrency
@@ -508,6 +538,9 @@ For some language specific instructions, see e.g. section `### Headings` in `doc
 
 This is a not complete and not normative list of (mostly) technical terms seen in the docs. It may be helpful for the prompt designer to figure out for which terms the LLM needs a helping hand. For example when it keeps reverting a good translation to a suboptimal translation. Or when it has problems conjugating/declinating a term in your language.
 See e.g. section `### List of English terms and their preferred German translations` in `docs/de/llm-prompt.md`.
+The FastAPI trademark is owned by [@tiangolo](https://tiangolo.com) and is registered in the US and across other regions
+Made with
+[ ](https://tiangolo.com "tiangolo.com")
   *[LLM]: Large Language Model
   *[GTD]: Getting Things Done
   *[`lt`]: less than

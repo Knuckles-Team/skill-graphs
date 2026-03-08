@@ -1,0 +1,2 @@
+## Code Splitting[](https://nextjs.org/docs/app/glossary#code-splitting)
+The process of dividing your application into smaller JavaScript chunks based on routes. Instead of loading all code upfront, only the code needed for the current route is loaded, reducing initial load time. Next.js automatically performs code splitting based on routes. Learn more in the [Package Bundling guide](https://nextjs.org/docs/app/guides/package-bundling).

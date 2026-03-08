@@ -448,7 +448,7 @@ There are better troubleshooting and configuration options for SELinux than disa
   8. ![](https://secure.gravatar.com/avatar/30e2772659d782ef29c688d979fc323022f9e99d5ac77b028026c85254d9db63?s=50&d=blank&r=g)
 Mufler
 [ October 3, 2013 at 2:04 am  ](https://www.tecmint.com/monitorix-linux-network-monitoring-tool/#comment-53672)
-Just installed monitorix and found out that it is exposed to open world!!! Huge security risk here guys. I thougt it was safe and as this turtorial says that one should allow access manually because it is only opened for local host by default, is just bogus. I have tried to close down the access other than from localhost, but it is still open!
+Just installed monitorix and found out that it is exposed to open world!!! Huge security risk here guys. I thougt it was safe and as this tutorial says that one should allow access manually because it is only opened for local host by default, is just bogus. I have tried to close down the access other than from localhost, but it is still open!
 [Reply](https://www.tecmint.com/monitorix-linux-network-monitoring-tool/#comment-53672)
   9. ![](https://secure.gravatar.com/avatar/1a18ceb9acab08404197e29bb07c100c5a38f4538188776b5db78f142c3faac5?s=50&d=blank&r=g)
 Gopi
@@ -563,7 +563,7 @@ Your support helps us keep creating quality Linux content for everyone.
 [4 Useful Tips on mkdir, tar and kill Commands in Linux](https://www.tecmint.com/mkdir-tar-and-kill-commands-in-linux/)
 [2 Ways to Re-run Last Executed Commands in Linux](https://www.tecmint.com/run-last-executed-commands-in-linux/)
 [Fd – The Best Alternative to ‘Find’ Command for Quick File Searching](https://www.tecmint.com/fd-alternative-to-find-command/)
-[Ternimal – Show Animated Lifeform in Your Linux Terminal](https://www.tecmint.com/ternimal-show-animated-lifeform-in-linux-terminal/)
+[Terminal – Show Animated Lifeform in Your Linux Terminal](https://www.tecmint.com/ternimal-show-animated-lifeform-in-linux-terminal/)
 ## Best Linux Tools
 [5 Most Frequently Used Open Source Shells for Linux](https://www.tecmint.com/different-types-of-linux-shells/)
 [6 Best Whiteboard Applications for Your Linux Systems](https://www.tecmint.com/linux-whiteboard-applications/)

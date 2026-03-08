@@ -476,7 +476,7 @@ Your path probably doesn’t include your current directory (represented by a si
 echo $PATH
 Sample output:
 /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
-This set of directories is your PATH. When you type a command, your OS will search these directories looking for that command. You would think it would start with your current directory by default, but it doesn’t. Note that the directories are seperated by colons. To include the current working directory, you would have to add this to the end of the PATH:
+This set of directories is your PATH. When you type a command, your OS will search these directories looking for that command. You would think it would start with your current directory by default, but it doesn’t. Note that the directories are separated by colons. To include the current working directory, you would have to add this to the end of the PATH:
 :.
 (A colon then a period/dot)
 You can alter your path by editing the rc file for whatever shell you are using. If you don’t know which shell that is, you can try one of two commands to find out:
@@ -507,7 +507,7 @@ Hope this helps!
   15. ![](https://secure.gravatar.com/avatar/1cf7fac9380e04e6e87ba484200ac5e91a6b2f07c1c560367f21231fd3efc1d8?s=50&d=blank&r=g)
 Philip Decker
 [ May 6, 2015 at 8:33 am  ](https://www.tecmint.com/htop-linux-process-monitoring/#comment-561594)
-I follow your guide and has been installed succesfully htop on our cPanel servers. Thank you!
+I follow your guide and has been installed successfully htop on our cPanel servers. Thank you!
 [Reply](https://www.tecmint.com/htop-linux-process-monitoring/#comment-561594)
   16. ![](https://secure.gravatar.com/avatar/e29e7c0f8277a10b812794e7f03801f9f6c0aa0fd0f0b8f302dbb9b7c7555d37?s=50&d=blank&r=g)
 steve
@@ -554,7 +554,7 @@ Which OS version you using?
 ad
 [ June 27, 2013 at 12:21 pm  ](https://www.tecmint.com/htop-linux-process-monitoring/#comment-29802)
 Nice,
-i prefered a Visual then in terminal
+i preferred a Visual then in terminal
 Thank You for your trouble
 [Reply](https://www.tecmint.com/htop-linux-process-monitoring/#comment-29802)
 

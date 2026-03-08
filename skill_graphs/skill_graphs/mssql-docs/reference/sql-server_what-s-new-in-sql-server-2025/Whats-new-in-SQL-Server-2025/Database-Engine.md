@@ -1,0 +1,22 @@
+## Database Engine
+Expand table
+New feature or update | Details
+---|---
+[Optimized locking](https://learn.microsoft.com/en-us/sql/relational-databases/performance/optimized-locking?view=sql-server-ver17) | Reduces blocking and lock memory consumption, and avoids lock escalation.
+[Tempdb space resource governance](https://learn.microsoft.com/en-us/sql/relational-databases/resource-governor/tempdb-space-resource-governance?view=sql-server-ver17) | Improves reliability and avoids outages by preventing runaway workloads from consuming a large amount of space in `tempdb`.
+[Accelerated database recovery in tempdb](https://learn.microsoft.com/en-us/sql/relational-databases/accelerated-database-recovery-concepts?view=sql-server-ver17#adr-improvements-in-sql-server-2025) | Provides the benefits of accelerated database recovery for transactions in the `tempdb` database, such as transactions that use temporary tables.
+[Persisted statistics for readable secondaries](https://learn.microsoft.com/en-us/sql/relational-databases/performance/persisted-stats-secondary-replicas?view=sql-server-ver17) | Creates persisted statistics on readable secondaries so that workloads that run against secondary replicas are optimized.
+[Change tracking improvements](https://learn.microsoft.com/en-us/sql/relational-databases/track-changes/about-change-tracking-sql-server?view=sql-server-ver17#sql-server-2025-changes) | Adaptive shallow cleanup improves change tracking auto cleanup performance.
+[Columnstore improvements](https://learn.microsoft.com/en-us/sql/relational-databases/indexes/columnstore-indexes-what-s-new?view=sql-server-ver17#sql-server-2025-17x) | Multiple improvements in columnstore indexes:
+- Ordered nonclustered columnstore indexes
+- Online index build and improved sort quality for ordered columnstore indexes
+- Improved shrink operations when clustered columnstore indexes are present
+[Memory-optimized container and filegroup removal](https://learn.microsoft.com/en-us/sql/relational-databases/in-memory-oltp/memory-optimized-container-filegroup-removal?view=sql-server-ver17) | Supports removal of memory-optimized containers and filegroups when all In-Memory OLTP objects are deleted.
+[tmpfs support for tempdb on Linux](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-tmpfs-tempdb?view=sql-server-ver17) | Enable and run `tempdb` on **tmpfs** for SQL Server on Linux.
+[ZSTD Backup compression algorithm](https://learn.microsoft.com/en-us/sql/relational-databases/backup-restore/backup-compression-sql-server?view=sql-server-ver17#zstd-compression-algorithm-introduced-in-sql-server-2025) | SQL Server 2025 (17.x) adds a faster and more effective backup compression algorithm - ZSTD.
+Optimized [sp_executesql](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-executesql-transact-sql?view=sql-server-ver17&preserve-view=true#optimized_sp_executesql) | Effectively reduce the impact of compilation storms. A compilation storm is a situation where a large number of queries is being compiled simultaneously, leading to performance issues and resource contention. Enable this feature to allow invocations of `sp_executesql` to behave like objects such as stored procedures and triggers from a compilation perspective.
+
+Allowing batches which use `sp_executesql` to serialize the compilation process reduces the impact of compilation storms.
+[Time-bound extended event sessions](https://learn.microsoft.com/en-us/sql/relational-databases/extended-events/sql-server-extended-events-sessions?view=sql-server-ver17#time-bound-event-sessions) | Automatically stops an extended events session after a time limit elapses. This helps avoid situations where sessions might be left running indefinitely by mistake, consuming resources and potentially generating a large amount of data.
+[PREVIEW_FEATURES](https://learn.microsoft.com/en-us/sql/t-sql/statements/alter-database-scoped-configuration-transact-sql?view=sql-server-ver17#preview-features) | A database scoped configuration allows you to enable features that are scheduled for general availability after this version of SQL Server releases for general availability. Review these features in [release notes](https://learn.microsoft.com/en-us/sql/sql-server/sql-server-2025-release-notes?view=sql-server-ver17).
+[](https://learn.microsoft.com/en-us/sql/sql-server/what-s-new-in-sql-server-2025?view=sql-server-ver17#query-store-and-intelligent-query-processing)

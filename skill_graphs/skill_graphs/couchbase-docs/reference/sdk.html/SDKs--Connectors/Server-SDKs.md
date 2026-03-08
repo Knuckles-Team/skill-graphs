@@ -1,0 +1,18 @@
+## Server SDKs
+The Couchbase SDKs allow applications to access a Couchbase cluster. They offer traditional synchronous APIs as well as scalable asynchronous APIs to maximize performance.
+SDK | Documentation | Hello World Example | API Reference
+---|---|---|---
+.NET SDK | [Docs](https://docs.couchbase.com/dotnet-sdk/current/hello-world/overview.html) | [.NET Getting Started](https://docs.couchbase.com/dotnet-sdk/current/hello-world/start-using-sdk.html) | [.NET API Reference](https://docs.couchbase.com/sdk-api/couchbase-net-client)
+C SDK | [Docs](https://docs.couchbase.com/c-sdk/current/hello-world/overview.html) | [C Getting Started](https://docs.couchbase.com/c-sdk/current/hello-world/start-using-sdk.html) | [C API Reference](https://docs.couchbase.com/sdk-api/couchbase-c-client/index.html)
+C++ SDK | [Docs](https://docs.couchbase.com/cxx-sdk/current/hello-world/overview.html) | [C++ Getting Started](https://docs.couchbase.com/cxx-sdk/current/hello-world/start-using-sdk.html) | [C++ API Reference](https://docs.couchbase.com/sdk-api/couchbase-cxx-client/index.html)
+Go SDK | [Docs](https://docs.couchbase.com/go-sdk/current/hello-world/overview.html) | [Go Getting Started](https://docs.couchbase.com/go-sdk/current/hello-world/start-using-sdk.html) |
+Java SDK | [Docs](https://docs.couchbase.com/java-sdk/current/hello-world/overview.html) | [Java Getting Started](https://docs.couchbase.com/java-sdk/current/hello-world/start-using-sdk.html) | [Java API Reference](https://docs.couchbase.com/sdk-api/couchbase-java-client)
+Kotlin SDK | [Docs](https://docs.couchbase.com/kotlin-sdk/current/hello-world/overview.html) | [Kotlin Getting Started](https://docs.couchbase.com/kotlin-sdk/current/hello-world/start-using-sdk.html) | [Kotlin API Reference](https://docs.couchbase.com/sdk-api/couchbase-kotlin-client)
+Node.js SDK | [Docs](https://docs.couchbase.com/nodejs-sdk/current/hello-world/overview.html) | [Node.js Getting Started](https://docs.couchbase.com/nodejs-sdk/current/hello-world/start-using-sdk.html) | [Node.js API Reference](https://docs.couchbase.com/sdk-api/couchbase-node-client/modules.html)
+PHP SDK | [Docs](https://docs.couchbase.com/php-sdk/current/hello-world/overview.html) | [PHP Getting Started](https://docs.couchbase.com/php-sdk/current/hello-world/start-using-sdk.html) | [PHP API Reference](https://docs.couchbase.com/sdk-api/couchbase-php-client/namespaces/couchbase.html)
+Python SDK | [Docs](https://docs.couchbase.com/python-sdk/current/hello-world/overview.html) | [Python Getting Started](https://docs.couchbase.com/python-sdk/current/hello-world/start-using-sdk.html) | [Python API Reference](https://docs.couchbase.com/sdk-api/couchbase-python-client/)
+Ruby SDK | [Docs](https://docs.couchbase.com/ruby-sdk/current/hello-world/overview.html) | [Ruby Getting Started](https://docs.couchbase.com/ruby-sdk/current/hello-world/start-using-sdk.html) | [Ruby API Reference](https://docs.couchbase.com/sdk-api/couchbase-ruby-client/Couchbase.html)
+Rust SDK | [Docs](https://docs.couchbase.com/rust-sdk/current/hello-world/overview.html) | [Rust Getting Started](https://docs.couchbase.com/rust-sdk/current/hello-world/start-using-sdk.html) |
+Scala SDK | [Docs](https://docs.couchbase.com/scala-sdk/current/hello-world/overview.html) | [Scala Getting Started](https://docs.couchbase.com/scala-sdk/current/hello-world/start-using-sdk.html) | [Scala API Reference](https://docs.couchbase.com/sdk-api/couchbase-scala-client/com/couchbase/client/scala/index.html)
+### Alternatives to SDKs
+The Data API gives access to data in Capella Operational clusters — for when to use the Data API, or Capella’s other REST APIs, see [Data API vs. Couchbase SDKs](https://docs.couchbase.com/cloud/data-api-guide/data-api-sdks.html).

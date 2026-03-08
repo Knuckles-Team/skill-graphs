@@ -1,0 +1,2 @@
+## Static Shell[](https://nextjs.org/docs/app/glossary#static-shell)
+The prerendered HTML structure of a page that's served immediately to the browser. With [Partial Prerendering](https://nextjs.org/docs/app/glossary#partial-prerendering-ppr), the static shell includes all statically renderable content plus [Suspense boundary](https://nextjs.org/docs/app/glossary#suspense-boundary) fallbacks for dynamic content that streams in later.

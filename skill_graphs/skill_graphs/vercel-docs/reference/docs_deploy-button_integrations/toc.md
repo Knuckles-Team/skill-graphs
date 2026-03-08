@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [docs_deploy-button_integrations](<./docs_deploy-button_integrations.md>)
+- [Using Integrations with the Deploy Button](<./Using-Integrations-with-the-Deploy-Button.md>)
+  - [[Required Integrations](https://vercel.com/docs/deploy-button/integrations#required-integrations)[](https://vercel.com/docs/deploy-button/integrations#required-integrations)](<./Using-Integrations-with-the-Deploy-Button/Required-Integrationshttpsvercel.comdocsdeploy-buttonintegrationsrequired-integrationshttpsvercel.comdocsdeploy-buttonintegrationsrequired-integrations.md>)
+  - [[Skippable Integrations](https://vercel.com/docs/deploy-button/integrations#skippable-integrations)[](https://vercel.com/docs/deploy-button/integrations#skippable-integrations)](<./Using-Integrations-with-the-Deploy-Button/Skippable-Integrationshttpsvercel.comdocsdeploy-buttonintegrationsskippable-integrationshttpsvercel.comdocsdeploy-buttonintegrationsskippable-integrations.md>)
+  - [Get Started](<./Using-Integrations-with-the-Deploy-Button/Get-Started.md>)
+  - [Build](<./Using-Integrations-with-the-Deploy-Button/Build.md>)
+  - [Scale](<./Using-Integrations-with-the-Deploy-Button/Scale.md>)
+  - [Secure](<./Using-Integrations-with-the-Deploy-Button/Secure.md>)
+  - [Resources](<./Using-Integrations-with-the-Deploy-Button/Resources.md>)
+  - [Learn](<./Using-Integrations-with-the-Deploy-Button/Learn.md>)
+  - [Frameworks](<./Using-Integrations-with-the-Deploy-Button/Frameworks.md>)
+  - [SDKs](<./Using-Integrations-with-the-Deploy-Button/SDKs.md>)
+  - [Use Cases](<./Using-Integrations-with-the-Deploy-Button/Use-Cases.md>)
+  - [Company](<./Using-Integrations-with-the-Deploy-Button/Company.md>)
+  - [Community](<./Using-Integrations-with-the-Deploy-Button/Community.md>)

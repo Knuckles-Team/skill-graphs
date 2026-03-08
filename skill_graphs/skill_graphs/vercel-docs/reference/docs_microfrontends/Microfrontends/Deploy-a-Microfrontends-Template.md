@@ -1,0 +1,7 @@
+## Deploy a Microfrontends Template
+[View All Templates](https://vercel.com/templates/microfrontends)
+[![SaaS Microservices](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F6ZaOIxsZSx9wPCzsIk7BM4%2F2aa6badf3e82121e2638a7b2980e68ee%2FScreenshot_2025-08-13_at_3.38.52%C3%A2__PM.png&w=3840&q=75) SaaS Microservices A SaaS dashboard that talks to 2 API microservices defined in Nitro and Hono, all running under the same domain. ](https://vercel.com/templates/next.js/saas-microservices)[![Next.js Multi-Zones Starter](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F5UJr2so1GPZBZKrf9c7wEm%2F96a590756f55e230f0d71552bbfc8c8f%2FScreenshot_2025-07-14_at_10.00.37%C3%A2__AM.png&w=3840&q=75) Next.js Multi-Zones Starter Split a single Next.js application by path into multiple applications for faster build times and independent development. ](https://vercel.com/templates/next.js/microfrontends-multi-zones)[![single-spa Starter](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F5ie42eN8GlaP8PKXIGfbFM%2F24efd1bdb1031374e36faffa8aa17621%2FScreenshot_2025-07-14_at_10.42.53%C3%A2__AM.png&w=3840&q=75) single-spa Starter Vite + React microfrontends application using Single SPA. ](https://vercel.com/templates/react/microfrontends-single-spa)
+[View All Templates](https://vercel.com/templates/microfrontends)
+Want to talk to our team?
+Microfrontends help large teams move faster.
+Schedule Call

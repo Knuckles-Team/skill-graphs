@@ -1,0 +1,297 @@
+[](https://archlinux.org/)
+  * [Home](https://archlinux.org/)
+  * [Packages](https://archlinux.org/packages/)
+  * [Forums](https://bbs.archlinux.org/)
+  * [Wiki](https://wiki.archlinux.org/)
+  * [GitLab](https://gitlab.archlinux.org/archlinux)
+  * [Security](https://security.archlinux.org/)
+  * [AUR](https://aur.archlinux.org/)
+  * [Download](https://archlinux.org/download/)
+
+
+[Jump to content](https://wiki.archlinux.org/title/Frequently_asked_questions#bodyContent)
+Main menu
+Main menu
+move to sidebar hide
+Navigation
+  * [Main page](https://wiki.archlinux.org/title/Main_page "Visit the main page \[alt-z\]")
+  * [Table of contents](https://wiki.archlinux.org/title/Table_of_contents)
+  * [Getting involved](https://wiki.archlinux.org/title/Getting_involved "Various ways Archers can contribute to the community")
+  * [Wiki news](https://wiki.archlinux.org/title/ArchWiki:News "The latest lowdown on the wiki")
+  * [Random page](https://wiki.archlinux.org/title/Special:Random "Load a random page \[alt-x\]")
+
+
+Interaction
+  * [Help](https://wiki.archlinux.org/title/Category:Help "Wiki navigation, reading, and editing help")
+  * [Contributing](https://wiki.archlinux.org/title/ArchWiki:Contributing)
+  * [Recent changes](https://wiki.archlinux.org/title/Special:RecentChanges "A list of recent changes in the wiki \[alt-r\]")
+  * [Recent talks](https://wiki.archlinux.org/index.php?title=Special:RecentChanges&namespace=all-discussions)
+  * [New pages](https://wiki.archlinux.org/title/Special:NewPages)
+  * [Statistics](https://wiki.archlinux.org/title/ArchWiki:Statistics)
+  * [Requests](https://wiki.archlinux.org/title/ArchWiki_talk:Requests)
+
+
+[ **ArchWiki** ](https://wiki.archlinux.org/title/Main_page)
+[Search ](https://wiki.archlinux.org/title/Special:Search "Search ArchWiki \[alt-f\]")
+Search
+Appearance
+Appearance
+move to sidebar hide
+Text
+  * Small
+Standard
+Large
+
+This page always uses small font size
+Width
+  * Standard
+Wide
+
+The content is as wide as possible for your browser window.
+Color (beta)
+  * Automatic
+Light
+Dark
+
+This page is always in light mode.
+  * [Create account](https://wiki.archlinux.org/index.php?title=Special:CreateAccount&returnto=Frequently+asked+questions "You are encouraged to create an account and log in; however, it is not mandatory")
+  * [Log in](https://wiki.archlinux.org/index.php?title=Special:UserLogin&returnto=Frequently+asked+questions "You are encouraged to log in; however, it is not mandatory \[alt-o\]")
+
+
+Personal tools
+  * [Create account](https://wiki.archlinux.org/index.php?title=Special:CreateAccount&returnto=Frequently+asked+questions "You are encouraged to create an account and log in; however, it is not mandatory")
+  * [Log in](https://wiki.archlinux.org/index.php?title=Special:UserLogin&returnto=Frequently+asked+questions "You are encouraged to log in; however, it is not mandatory \[alt-o\]")
+
+
+Toggle the table of contents
+## Contents
+move to sidebar hide
+  * [ Beginning ](https://wiki.archlinux.org/title/Frequently_asked_questions)
+  * [ 1 General ](https://wiki.archlinux.org/title/Frequently_asked_questions#General) Toggle General subsection
+    * [ 1.1 What is Arch Linux? ](https://wiki.archlinux.org/title/Frequently_asked_questions#What_is_Arch_Linux?)
+    * [ 1.2 Why would I not want to use Arch? ](https://wiki.archlinux.org/title/Frequently_asked_questions#Why_would_I_not_want_to_use_Arch?)
+    * [ 1.3 Why would I want to use Arch? ](https://wiki.archlinux.org/title/Frequently_asked_questions#Why_would_I_want_to_use_Arch?)
+    * [ 1.4 What architectures does Arch support? ](https://wiki.archlinux.org/title/Frequently_asked_questions#What_architectures_does_Arch_support?)
+    * [ 1.5 Does Arch follow the Linux Foundation's Filesystem Hierarchy Standard (FHS)? ](https://wiki.archlinux.org/title/Frequently_asked_questions#Does_Arch_follow_the_Linux_Foundation's_Filesystem_Hierarchy_Standard_\(FHS\)?)
+    * [ 1.6 I am a complete GNU/Linux beginner. Should I use Arch? ](https://wiki.archlinux.org/title/Frequently_asked_questions#I_am_a_complete_GNU/Linux_beginner._Should_I_use_Arch?)
+    * [ 1.7 Is Arch designed to be used as a server? A desktop? A workstation? ](https://wiki.archlinux.org/title/Frequently_asked_questions#Is_Arch_designed_to_be_used_as_a_server?_A_desktop?_A_workstation?)
+    * [ 1.8 I really like Arch, except the development team needs to implement feature X ](https://wiki.archlinux.org/title/Frequently_asked_questions#I_really_like_Arch,_except_the_development_team_needs_to_implement_feature_X)
+    * [ 1.9 When will the new release be made available? ](https://wiki.archlinux.org/title/Frequently_asked_questions#When_will_the_new_release_be_made_available?)
+    * [ 1.10 Is Arch Linux a stable distribution? Will I get frequent breakage? ](https://wiki.archlinux.org/title/Frequently_asked_questions#Is_Arch_Linux_a_stable_distribution?_Will_I_get_frequent_breakage?)
+    * [ 1.11 Arch needs more press (i.e. advertisement) ](https://wiki.archlinux.org/title/Frequently_asked_questions#Arch_needs_more_press_\(i.e._advertisement\))
+    * [ 1.12 Arch needs more developers ](https://wiki.archlinux.org/title/Frequently_asked_questions#Arch_needs_more_developers)
+  * [ 2 Installation ](https://wiki.archlinux.org/title/Frequently_asked_questions#Installation) Toggle Installation subsection
+    * [ 2.1 Arch needs an installer. Maybe a GUI installer? ](https://wiki.archlinux.org/title/Frequently_asked_questions#Arch_needs_an_installer._Maybe_a_GUI_installer?)
+    * [ 2.2 I installed Arch, and now I am at a shell! What now? ](https://wiki.archlinux.org/title/Frequently_asked_questions#I_installed_Arch,_and_now_I_am_at_a_shell!_What_now?)
+    * [ 2.3 Which desktop environment or window manager should I use? ](https://wiki.archlinux.org/title/Frequently_asked_questions#Which_desktop_environment_or_window_manager_should_I_use?)
+    * [ 2.4 What makes Arch unique amongst other "minimal" distributions? ](https://wiki.archlinux.org/title/Frequently_asked_questions#What_makes_Arch_unique_amongst_other_"minimal"_distributions?)
+  * [ 3 System maintenance ](https://wiki.archlinux.org/title/Frequently_asked_questions#System_maintenance) Toggle System maintenance subsection
+    * [ 3.1 Why is my internet so slow compared to other operating systems? ](https://wiki.archlinux.org/title/Frequently_asked_questions#Why_is_my_internet_so_slow_compared_to_other_operating_systems?)
+    * [ 3.2 Why is Arch using all my RAM? ](https://wiki.archlinux.org/title/Frequently_asked_questions#Why_is_Arch_using_all_my_RAM?)
+    * [ 3.3 Where did all my free space go? ](https://wiki.archlinux.org/title/Frequently_asked_questions#Where_did_all_my_free_space_go?)
+    * [ 3.4 Why am I unable to log in? ](https://wiki.archlinux.org/title/Frequently_asked_questions#Why_am_I_unable_to_log_in?)
+    * [ 3.5 Does Arch "phone home"? ](https://wiki.archlinux.org/title/Frequently_asked_questions#Does_Arch_"phone_home"?)
+  * [ 4 Package management ](https://wiki.archlinux.org/title/Frequently_asked_questions#Package_management) Toggle Package management subsection
+    * [ 4.1 I have found an error with package X. What should I do? ](https://wiki.archlinux.org/title/Frequently_asked_questions#I_have_found_an_error_with_package_X._What_should_I_do?)
+    * [ 4.2 Arch packages need to use a unique naming convention. ".pkg.tar.zst" is too long and/or confusing ](https://wiki.archlinux.org/title/Frequently_asked_questions#Arch_packages_need_to_use_a_unique_naming_convention._".pkg.tar.zst"_is_too_long_and/or_confusing)
+    * [ 4.3 Pacman needs a library so other applications can easily access package information ](https://wiki.archlinux.org/title/Frequently_asked_questions#Pacman_needs_a_library_so_other_applications_can_easily_access_package_information)
+    * [ 4.4 Pacman needs feature X! ](https://wiki.archlinux.org/title/Frequently_asked_questions#Pacman_needs_feature_X!)
+    * [ 4.5 I just installed Package X. How do I start it? ](https://wiki.archlinux.org/title/Frequently_asked_questions#I_just_installed_Package_X._How_do_I_start_it?)
+    * [ 4.6 Why is there only a single version of each shared library in the official repositories? ](https://wiki.archlinux.org/title/Frequently_asked_questions#Why_is_there_only_a_single_version_of_each_shared_library_in_the_official_repositories?)
+    * [ 4.7 What if I run a full system upgrade and there will be an update for a shared library, but not for the applications that depend on it? ](https://wiki.archlinux.org/title/Frequently_asked_questions#What_if_I_run_a_full_system_upgrade_and_there_will_be_an_update_for_a_shared_library,_but_not_for_the_applications_that_depend_on_it?)
+    * [ 4.8 Is it possible that there is a major kernel update in the repository, and that some of the driver packages have not been updated? ](https://wiki.archlinux.org/title/Frequently_asked_questions#Is_it_possible_that_there_is_a_major_kernel_update_in_the_repository,_and_that_some_of_the_driver_packages_have_not_been_updated?)
+    * [ 4.9 What to do before upgrading? ](https://wiki.archlinux.org/title/Frequently_asked_questions#What_to_do_before_upgrading?)
+    * [ 4.10 A package update was released, but pacman says the system is up to date ](https://wiki.archlinux.org/title/Frequently_asked_questions#A_package_update_was_released,_but_pacman_says_the_system_is_up_to_date)
+    * [ 4.11 Upstream project X has released a new version. How long will it take for the Arch package to update to that new version? ](https://wiki.archlinux.org/title/Frequently_asked_questions#Upstream_project_X_has_released_a_new_version._How_long_will_it_take_for_the_Arch_package_to_update_to_that_new_version?)
+    * [ 4.12 If I need an older version of an installed library, can I just symlink to the newer version? ](https://wiki.archlinux.org/title/Frequently_asked_questions#If_I_need_an_older_version_of_an_installed_library,_can_I_just_symlink_to_the_newer_version?)
+  * [ 5 64-bit ](https://wiki.archlinux.org/title/Frequently_asked_questions#64-bit) Toggle 64-bit subsection
+    * [ 5.1 How do I determine if my processor is x86_64 compatible? ](https://wiki.archlinux.org/title/Frequently_asked_questions#How_do_I_determine_if_my_processor_is_x86_64_compatible?)
+    * [ 5.2 Why 64-bit? ](https://wiki.archlinux.org/title/Frequently_asked_questions#Why_64-bit?)
+
+
+# Frequently asked questions
+18 languages
+  * [العربية](https://wiki.archlinux.org/title/Frequently_asked_questions_\(%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9\) "Frequently asked questions – العربية")
+  * [Čeština](https://wiki.archlinux.org/title/Frequently_asked_questions_\(%C4%8Ce%C5%A1tina\) "Frequently asked questions – čeština")
+  * [Español](https://wiki.archlinux.org/title/Frequently_asked_questions_\(Espa%C3%B1ol\) "Frequently asked questions – español")
+  * [Suomi](https://wiki.archlinux.org/title/Frequently_asked_questions_\(Suomi\) "Frequently asked questions – suomi")
+  * [Français](https://wiki.archlinux.org/title/Frequently_asked_questions_\(Fran%C3%A7ais\) "Frequently asked questions – français")
+  * [Magyar](https://wiki.archlinux.org/title/Frequently_asked_questions_\(Magyar\) "Frequently asked questions – magyar")
+  * [Italiano](https://wiki.archlinux.org/title/Frequently_asked_questions_\(Italiano\) "Frequently asked questions – italiano")
+  * [한국어](https://wiki.archlinux.org/title/Frequently_asked_questions_\(%ED%95%9C%EA%B5%AD%EC%96%B4\) "Frequently asked questions – 한국어")
+  * [Latviešu](https://wiki.archlinux.org/title/Frequently_asked_questions_\(Latvie%C5%A1u\) "Frequently asked questions – latviešu")
+  * [Polski](https://wiki.archlinux.org/title/Frequently_asked_questions_\(Polski\) "Frequently asked questions – polski")
+  * [Português](https://wiki.archlinux.org/title/Frequently_asked_questions_\(Portugu%C3%AAs\) "Frequently asked questions – português")
+  * [Русский](https://wiki.archlinux.org/title/Frequently_asked_questions_\(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9\) "Frequently asked questions – русский")
+  * [Српски / srpski](https://wiki.archlinux.org/title/Frequently_asked_questions_\(%D0%A1%D1%80%D0%BF%D1%81%D0%BA%D0%B8\) "Frequently asked questions – српски / srpski")
+  * [Türkçe](https://wiki.archlinux.org/title/Frequently_asked_questions_\(T%C3%BCrk%C3%A7e\) "Frequently asked questions – Türkçe")
+  * [Українська](https://wiki.archlinux.org/title/Frequently_asked_questions_\(%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0\) "Frequently asked questions – українська")
+
+
+  * [Page](https://wiki.archlinux.org/title/Frequently_asked_questions "View the content page \[alt-c\]")
+  * [Discussion](https://wiki.archlinux.org/title/Talk:Frequently_asked_questions "Discussion about the content page \[alt-t\]")
+
+
+English
+  * [Read](https://wiki.archlinux.org/title/Frequently_asked_questions)
+  * [View source](https://wiki.archlinux.org/index.php?title=Frequently_asked_questions&action=edit "This page is protected.
+You can view its source \[alt-e\]")
+  * [View history](https://wiki.archlinux.org/index.php?title=Frequently_asked_questions&action=history "Past revisions of this page \[alt-h\]")
+
+
+Tools
+Tools
+move to sidebar hide
+Actions
+  * [Read](https://wiki.archlinux.org/title/Frequently_asked_questions)
+  * [View source](https://wiki.archlinux.org/index.php?title=Frequently_asked_questions&action=edit)
+  * [View history](https://wiki.archlinux.org/index.php?title=Frequently_asked_questions&action=history)
+
+
+General
+  * [What links here](https://wiki.archlinux.org/title/Special:WhatLinksHere/Frequently_asked_questions "A list of all wiki pages that link here \[alt-j\]")
+  * [Related changes](https://wiki.archlinux.org/title/Special:RecentChangesLinked/Frequently_asked_questions "Recent changes in pages linked from this page \[alt-k\]")
+  * [Permanent link](https://wiki.archlinux.org/index.php?title=Frequently_asked_questions&oldid=867726 "Permanent link to this revision of this page")
+  * [Page information](https://wiki.archlinux.org/index.php?title=Frequently_asked_questions&action=info "More information about this page")
+
+
+From ArchWiki
+Related articles
+  * [Arch terminology](https://wiki.archlinux.org/title/Arch_terminology "Arch terminology")
+  * [Arch compared to other distributions](https://wiki.archlinux.org/title/Arch_compared_to_other_distributions "Arch compared to other distributions")
+  * [Arch User Repository#Frequently asked questions](https://wiki.archlinux.org/title/Arch_User_Repository#Frequently_asked_questions "Arch User Repository")
+  * [General troubleshooting](https://wiki.archlinux.org/title/General_troubleshooting "General troubleshooting")
+
+
+## General
+See the [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux "Arch Linux") article.
+You may **not** want to use Arch, if:
+  * you do not have the ability/time/desire for a 'do-it-yourself' GNU/Linux distribution.
+  * you require support for an architecture other than x86_64.
+  * you take a strong stance on using a distribution which only provides free software as defined by GNU.
+  * you believe an operating system should configure itself, run out of the box, and include a complete default set of software and desktop environment on the installation media.
+  * you do not want a rolling release GNU/Linux distribution.
+  * you are happy with your current OS.
+
+
+Because [Arch is the best](https://wiki.archlinux.org/title/Arch_is_the_best "Arch is the best").
+Arch only supports the [[1]](https://archlinux.org/news/the-end-of-i686-support/).
+There are derivative distributions for the i686 architecture [are not supported](https://wiki.archlinux.org/title/Code_of_conduct#arch-linux-distribution-support-only "Code of conduct") by Arch Linux.
+If you wish for Arch to support other architectures, you can help out with existing [Getting involved#Help porting Arch Linux to other architectures](https://wiki.archlinux.org/title/Getting_involved#Help_porting_Arch_Linux_to_other_architectures "Getting involved").
+Arch Linux follows the _file system hierarchy_ for operating systems using the [systemd](https://wiki.archlinux.org/title/Systemd "Systemd") service manager. See [file-hierarchy(7)](https://man.archlinux.org/man/file-hierarchy.7) for an explanation of each directory along with their designations. In particular, `/bin`, `/sbin`, and `/usr/sbin` are symbolic links to `/usr/bin`, and `/lib` and `/lib64` are symbolic links to `/usr/lib`.
+If you are a beginner and want to use Arch, you must be willing to invest time into learning a new system, and accept that Arch is designed as a 'do-it-yourself' distribution; it is the user who assembles the system.
+Before asking for help, do your own independent research by searching the Web, the forum and the superb documentation provided by the Arch Wiki. _There is a reason these resources were made available to you in the first place._ Many thousands of _volunteered_ hours have been spent compiling this excellent information.
+See also [Arch terminology#RTFM](https://wiki.archlinux.org/title/Arch_terminology#RTFM "Arch terminology") and the [Installation guide](https://wiki.archlinux.org/title/Installation_guide "Installation guide").
+Arch is not designed for any particular type of use. Rather, it is designed for a particular type of _user_. Arch targets competent users who enjoy its 'do-it-yourself' nature, and who further exploit it to shape the system to fit their unique needs. Therefore, in the hands of its target user base, Arch can be used for virtually any purpose. Many use Arch on both their desktops and workstations. And of course, archlinux.org, aur.archlinux.org and almost all of Arch's [infrastructure](https://gitlab.archlinux.org/archlinux/infrastructure) runs on Arch.
+[Get involved](https://wiki.archlinux.org/title/Get_involved "Get involved"), contribute your code/solution to the community. If it is well-regarded by the community and development team, perhaps it will be merged. The Arch community thrives on contribution and sharing of code and tools.
+Arch Linux releases are simply a live environment for installation or rescue, which include the [base](https://archlinux.org/packages/?name=base) [meta package](https://wiki.archlinux.org/title/Meta_package "Meta package") and a few [other packages](https://gitlab.archlinux.org/archlinux/archiso/-/blob/master/configs/releng/packages.x86_64). The releases are issued usually in the first half of every month.
+It is _the user_ who is ultimately responsible for the stability of their own rolling release system. The user decides when to upgrade, and merges necessary changes when required. If the user reaches out to the community, help is often provided in a timely manner. The difference between Arch and other distributions in this regard is that Arch is truly a 'do-it-yourself' distribution; complaints of breakage are misguided and unproductive, since upstream changes are not the responsibility of Arch devs.
+See the [System maintenance](https://wiki.archlinux.org/title/System_maintenance "System maintenance") article for tips on how to make an Arch Linux system as stable as possible.
+Arch gets [plenty of press](https://wiki.archlinux.org/title/Arch_Linux_press_coverage "Arch Linux press coverage") as it is. The goal of Arch Linux is not to be large; rather, organic, sustainable growth occurs naturally amongst the target user base.
+### Arch needs more developers
+Possibly so. Feel free to volunteer your time! Visit the [forums](https://bbs.archlinux.org), [IRC channels](https://wiki.archlinux.org/title/IRC_channels "IRC channels"), and [mailing lists](https://lists.archlinux.org/mailman3/lists/), and see what needs to be done. See also [Getting involved](https://wiki.archlinux.org/title/Getting_involved "Getting involved") for details.
+## Installation
+A guided installer with a text-based user interface is available. See [archinstall](https://wiki.archlinux.org/title/Archinstall "Archinstall") for details.
+See [General recommendations](https://wiki.archlinux.org/title/General_recommendations "General recommendations").
+Since many are available to you, use the one that best fits your needs. Have a look at the [Desktop environment](https://wiki.archlinux.org/title/Desktop_environment "Desktop environment") and [Window manager](https://wiki.archlinux.org/title/Window_manager "Window manager") articles.
+See [Arch compared to other distributions](https://wiki.archlinux.org/title/Arch_compared_to_other_distributions "Arch compared to other distributions").
+## System maintenance
+See also [System maintenance](https://wiki.archlinux.org/title/System_maintenance "System maintenance").
+Is your network configured correctly? Have a look at the [Network configuration](https://wiki.archlinux.org/title/Network_configuration "Network configuration") article. For advanced setups, you may also want to look at
+One of the most commonly used kernels, [linux](https://archlinux.org/packages/?name=linux), tends to be newer than the kernel of other, more stable, Linux distributions. Because of that, you may rarely experience a [kernel regression](https://wiki.archlinux.org/title/Kernel#Debugging_regressions "Kernel") or driver bug, especially if using Wi-Fi. Do note that the vast majority of those bugs are not Arch Linux-specific as Arch Linux only applies the most basic of patches. This needs to be taken upstream. See [#I have found an error with package X. What should I do?](https://wiki.archlinux.org/title/Frequently_asked_questions#I_have_found_an_error_with_package_X._What_should_I_do?).
+Essentially, unused RAM is wasted RAM.
+Many new users notice how the Linux kernel handles memory differently than they are used to. Since accessing data from RAM is much faster than from a storage drive, the kernel caches recently accessed data in memory. The cached data is only cleared when the system begins to run out of available memory and new data needs to be loaded.
+We could distinguish the difference from `free` command:
+```
+$ free -h
+```
+```
+               total        used        free      shared  buff/cache   available
+Mem:           377Gi        40Gi       146Gi       1.1Gi       196Gi       337Gi
+Swap:          377Gi       1.1Gi       376Gi
+
+```
+
+It is important to note the difference between "free" and "available" memory. In the above example, a system with 377 GiB of total RAM appears to be using more than half of it, with only 146 GiB as free memory. However, 196 GiB of it is "buff/cache". There is still 337 GiB available for starting new applications, without swapping. See [free(1)](https://man.archlinux.org/man/free.1) for details. The result of all this? Performance!
+See
+The answer to this question depends on your system. There are some [fine utilities](https://wiki.archlinux.org/title/List_of_applications/Utilities#Disk_usage_display "List of applications/Utilities") that may help you find the answer.
+Have you mistyped your password or cancelled a [sudo](https://wiki.archlinux.org/title/Sudo "Sudo") command three times in fifteen minutes? If so, you have triggered a prevention mechanism against brute-force attacks: see [Security#Lock out user after three failed login attempts](https://wiki.archlinux.org/title/Security#Lock_out_user_after_three_failed_login_attempts "Security") for more details.
+In short? No.
+In more details:
+  * Users of NetworkManager should know it does [automatic connectivity checks](https://wiki.archlinux.org/title/NetworkManager#Checking_connectivity "NetworkManager"). The default connectivity URL is provided by Arch and committed to not log any access.
+  * [Network Time Protocol clients](https://wiki.archlinux.org/title/System_time#Time_synchronization "System time") in their default configuration use a
+  * As explained by the note in [pacman/Package signing#Upgrade system regularly](https://wiki.archlinux.org/title/Pacman/Package_signing#Upgrade_system_regularly "Pacman/Package signing"), a systemd timer runs once a week to update the new signatures of already trusted keys. There is no logging of any access there either.
+  * The mirror list updating tool [Reflector](https://wiki.archlinux.org/title/Reflector "Reflector") downloads the mirror list from [archlinux.org](https://archlinux.org/mirrors/status/).
+
+
+You may want to voluntarily "phone home" by contributing to the [pkgstats](https://wiki.archlinux.org/title/Pkgstats "Pkgstats") project that collects anonymous data of package popularity to help Arch developers prioritize their efforts.
+## Package management
+See the [pacman](https://wiki.archlinux.org/title/Pacman "Pacman"), [pacman/Tips and tricks](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks "Pacman/Tips and tricks") and [Official repositories](https://wiki.archlinux.org/title/Official_repositories "Official repositories") pages for more answers.
+First, you need to figure out if this error is something the Arch team can fix. Often it is not (e.g. Firefox crashes may be the fault of the Mozilla team); this is called an _upstream error_ , see [Bug reporting guidelines#Upstream or Arch?](https://wiki.archlinux.org/title/Bug_reporting_guidelines#Upstream_or_Arch? "Bug reporting guidelines"). If it is an Arch problem, there is a series of steps you can take:
+  1. Search the forums for information. See if anyone else has noticed it.
+  2. Post a [bug report](https://wiki.archlinux.org/title/Bug_report "Bug report") with detailed information on the [Arch Linux bug tracker in GitLab](https://gitlab.archlinux.org/groups/archlinux/packaging/packages/-/issues).
+  3. If you would like, write a forum post detailing the problem and the fact that you have reported it already. This will help prevent a lot of people from reporting the same error.
+
+
+This has been discussed on the Arch mailing list. Some proposed a _.pac_ file extension, but there is no plan to change the package extension. As Tobias Kieslich, one of the Arch developers, put it, "A package **is** a _[compressed]_ tarball! And it can be opened, investigated and manipulated by any tar-capable application. Moreover, the mime-type is automatically detected correctly by most applications."
+### Pacman needs a library so other applications can easily access package information
+Pacman is a front-end to [libalpm(3)](https://man.archlinux.org/man/libalpm.3)—the "Arch Linux Package Management" library—which allows alternative front-ends, like a GUI front-end, to be written.
+If you think an idea has merit, you may choose to discuss it on [pacman-dev](https://lists.archlinux.org/mailman3/lists/pacman-dev.lists.archlinux.org/). Also check <https://gitlab.archlinux.org/pacman/pacman/-/issues> for existing feature requests.
+However, the best way to get a feature added to pacman or Arch Linux is to implement it yourself. The patch or code may or may not be officially accepted, but perhaps others will appreciate, test and contribute to your effort.
+If you are using a desktop environment like [KDE](https://wiki.archlinux.org/title/KDE "KDE") or [GNOME](https://wiki.archlinux.org/title/GNOME "GNOME"), the program should automatically show up in your menu if it comes with a [desktop entry](https://wiki.archlinux.org/title/Desktop_entry "Desktop entry"). If you are trying to run the program from a terminal and do not know the binary name, use:
+```
+$ pacman -Qlq _package_name_ | grep /usr/bin/
+
+```
+
+Several distributions, such as Debian, have different versions of shared libraries packaged as different packages: `libfoo1`, `libfoo2`, `libfoo3` and so on. In this way it is possible to have applications compiled against different versions of `libfoo` installed on the same system.
+In case of a distribution like Arch, only the latest packaged versions are officially supported. By dropping support for outdated software, package maintainers are able to spend more time ensuring that the newest versions work as expected. As soon as a new version of a shared library becomes available from upstream, it is added to the repositories and affected packages are rebuilt to use the new version.
+This scenario should not happen at all. Assuming an application called `foobaz` is in one of the official repositories and builds successfully against a new version of a shared library called `libbaz`, it will be updated along with `libbaz`. If, however, it does not build successfully, `foobaz` package will have a versioned dependency (e.g. _libbaz 1.5_), and will be removed by pacman during `libbaz` upgrade, due to a conflict.
+If `foobaz` is a package that you [built yourself](https://wiki.archlinux.org/title/Arch_User_Repository#Updating_packages "Arch User Repository") and installed from AUR, you should rebuild `foobaz` against the new version of `libbaz`. If the build fails, report the bug to the `foobaz` developers.
+No, it is not possible. Major kernel updates (e.g. _linux 3.5.0-1_ to _linux 3.6.0-1_) are always accompanied by rebuilds of all supported kernel driver packages. On the other hand, if you have an unsupported driver package (e.g. from the [AUR](https://wiki.archlinux.org/title/AUR "AUR")) installed on your system, then a kernel update might break things for you if you do not rebuild it for the new kernel. Users are responsible for updating any unsupported driver packages that they have installed.
+Follow the [System maintenance#Upgrading the system](https://wiki.archlinux.org/title/System_maintenance#Upgrading_the_system "System maintenance") section.
+_pacman_ mirrors are not synced immediately. It may take over 24 hours before an update is available to you. The only options are be patient or use another mirror. [MirrorStatus](https://archlinux.org/mirrors/status/) can help you identify an up-to-date mirror.
+Package updates will be released when they are ready. The specific amount of time can be as short as a few hours after upstream releases a minor bugfix update to as long as several weeks after a large package group's major update. The amount of time from an upstream's new version to Arch releasing a new package depends on the specific packages and the availability of the package maintainers. Additionally, some packages spend some time in the [testing](https://wiki.archlinux.org/title/Testing "Testing") repository, so this can prolong the time before a package is updated. [Package maintainers](https://wiki.archlinux.org/title/Package_maintainer "Package maintainer") attempt to work quickly to bring stable updates to the repositories. If you find a package in the official repositories that is out of date, go to that package's page at the [package website](https://archlinux.org/packages/) and flag it.
+If you are lucky, it might work, for a time. Regardless, it is not a proper solution, because:
+  * Libraries do not change versions randomly – the API/ABI will have likely changed (possibly with bits removed), and whether those changes affect the usage is just a matter of luck.
+  * The symlink would be untracked by a package manager. Beginners who immediately try to hack on system library files are in the greatest risk of making an unwanted change that they cannot diagnose/fix, which a package manager helps to guard against.
+  * A slight alternative of dumping the old library file into the filesystem, untracked, would be forgotten about, and not have potential security bugs noticed/patched.
+
+
+Instead, e.g. use/write a [compat (compatibility) package](https://aur.archlinux.org/packages/?SeB=n&K=compat), which provides the required library version.
+## 64-bit
+If your processor is `lm` (`/proc/cpuinfo`. For example,
+```
+$ grep -w lm /proc/cpuinfo
+
+```
+
+Under Windows, using the freeware
+It is faster under most circumstances and as an added bonus also inherently more secure due to the nature of
+Programmers also increasingly tend to care less about 32-bit ("legacy") as "new" x86 CPUs typically support the 64-bit extensions.
+There are many more reasons we could list here to tell you to avoid 32-bit, but between the kernel, userspace and individual programs it is simply not viable to list every last thing that 64-bit does much better these days.
+Retrieved from "[https://wiki.archlinux.org/index.php?title=Frequently_asked_questions&oldid=867726](https://wiki.archlinux.org/index.php?title=Frequently_asked_questions&oldid=867726)"
+[Category](https://wiki.archlinux.org/title/Special:Categories "Special:Categories"):
+  * [About Arch](https://wiki.archlinux.org/title/Category:About_Arch "Category:About Arch")
+
+
+  * This page was last edited on 1 March 2026, at 06:05.
+  * Content is available under
+
+
+  * [Privacy policy](https://terms.archlinux.org/docs/privacy-policy/)
+  * [About ArchWiki](https://wiki.archlinux.org/title/ArchWiki:About)
+  * [Disclaimers](https://wiki.archlinux.org/title/ArchWiki:General_disclaimer)
+  * [Code of conduct](https://terms.archlinux.org/docs/code-of-conduct/ "archlinux-service-agreements:code-of-conduct")
+  * [Terms of service](https://terms.archlinux.org/docs/terms-of-service/ "archlinux-service-agreements:terms-of-service")
+
+
+  * ![](https://wiki.archlinux.org/resources/assets/mediawiki_compact.svg)
+
+
+Search
+Search
+Toggle the table of contents
+Frequently asked questions
+[](https://wiki.archlinux.org/title/Frequently_asked_questions) [](https://wiki.archlinux.org/title/Frequently_asked_questions) [](https://wiki.archlinux.org/title/Frequently_asked_questions) [](https://wiki.archlinux.org/title/Frequently_asked_questions) [](https://wiki.archlinux.org/title/Frequently_asked_questions) [](https://wiki.archlinux.org/title/Frequently_asked_questions) [](https://wiki.archlinux.org/title/Frequently_asked_questions) [](https://wiki.archlinux.org/title/Frequently_asked_questions)
+[Add topic ](https://wiki.archlinux.org/title/Frequently_asked_questions)

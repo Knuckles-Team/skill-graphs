@@ -1,0 +1,2 @@
+## Module Graph[](https://nextjs.org/docs/app/glossary#module-graph)
+A graph of file dependencies in your app. Each file (module) is a node, and import/export relationships form the edges. Next.js analyzes this graph to determine optimal bundling and code-splitting strategies. Learn more in [Server and Client Components](https://nextjs.org/docs/app/getting-started/server-and-client-components#reducing-js-bundle-size).

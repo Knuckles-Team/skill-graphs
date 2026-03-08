@@ -476,7 +476,7 @@ Thanks for finding this blog very useful..
   4. ![](https://secure.gravatar.com/avatar/9c794dc36dff5237ecdada598c1153a9840ec2fcdc48c87882066b4908d0b137?s=50&d=blank&r=g)
 youssef
 [ February 17, 2016 at 2:47 pm  ](https://www.tecmint.com/apache-interview-questions/#comment-752253)
-may thanks for sharing thoses questions.
+may thanks for sharing those questions.
 it is really helpful
 [Reply](https://www.tecmint.com/apache-interview-questions/#comment-752253)
   5. ![](https://secure.gravatar.com/avatar/b9be1dea509c122bc18135aa68da734f47c0968bd64c4be766031be2e71ea297?s=50&d=blank&r=g)

@@ -1,0 +1,2 @@
+## Redirect[](https://nextjs.org/docs/app/glossary#redirect)
+Sending users from one URL to another. In Next.js, redirects can be configured in [`next.config.js`](https://nextjs.org/docs/app/api-reference/config/next-config-js/redirects), returned from [Proxy](https://nextjs.org/docs/app/api-reference/file-conventions/proxy), or triggered programmatically with the [`redirect()` function](https://nextjs.org/docs/app/api-reference/functions/redirect). Learn more in [Redirecting](https://nextjs.org/docs/app/guides/redirecting).

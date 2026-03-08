@@ -1,0 +1,7 @@
+#  `curses.textpad` — Text input widget for curses programs[¶](https://docs.python.org/3/library/curses.html#module-curses.textpad "Link to this heading")
+The `curses.textpad` module provides a [`Textbox`](https://docs.python.org/3/library/curses.html#curses.textpad.Textbox "curses.textpad.Textbox") class that handles elementary text editing in a curses window, supporting a set of keybindings resembling those of Emacs (thus, also of Netscape Navigator, BBedit 6.x, FrameMaker, and many other programs). The module also provides a rectangle-drawing function useful for framing text boxes or for other purposes.
+The module `curses.textpad` defines the following function:
+
+curses.textpad.rectangle(_win_ , _uly_ , _ulx_ , _lry_ , _lrx_)[¶](https://docs.python.org/3/library/curses.html#curses.textpad.rectangle "Link to this definition")
+
+Draw a rectangle. The first argument must be a window object; the remaining arguments are coordinates relative to that window. The second and third arguments are the y and x coordinates of the upper left hand corner of the rectangle to be drawn; the fourth and fifth arguments are the y and x coordinates of the lower right hand corner. The rectangle will be drawn using VT100/IBM PC forms characters on terminals that make this possible (including xterm and most other software terminal emulators). Otherwise it will be drawn with ASCII dashes, vertical bars, and plus signs.

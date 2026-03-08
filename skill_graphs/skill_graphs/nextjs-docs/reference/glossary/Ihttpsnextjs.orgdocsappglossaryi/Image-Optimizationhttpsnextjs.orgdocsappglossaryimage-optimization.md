@@ -1,0 +1,2 @@
+## Image Optimization[](https://nextjs.org/docs/app/glossary#image-optimization)
+Automatic image optimization using the [`<Image>` component](https://nextjs.org/docs/app/api-reference/components/image). Next.js optimizes images on-demand, serves them in modern formats like WebP, and automatically handles lazy loading and responsive sizing. Learn more in [Images](https://nextjs.org/docs/app/getting-started/images).

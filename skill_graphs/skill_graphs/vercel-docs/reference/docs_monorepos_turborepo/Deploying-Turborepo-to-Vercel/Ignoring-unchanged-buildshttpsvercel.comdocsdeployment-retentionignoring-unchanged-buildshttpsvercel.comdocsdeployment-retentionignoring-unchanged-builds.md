@@ -1,0 +1,2 @@
+##  [Ignoring unchanged builds](https://vercel.com/docs/deployment-retention#ignoring-unchanged-builds)[](https://vercel.com/docs/deployment-retention#ignoring-unchanged-builds)
+You likely don't need to build a preview for every application in your monorepo on every commit. To ensure that only applications that have changed are built, ensure your project is configured to automatically [skip unaffected projects](https://vercel.com/docs/monorepos#skipping-unaffected-projects).

@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_vercel-firewall_vercel-waf](<./docs_vercel-firewall_vercel-waf.md>)
+- [Vercel WAF](<./Vercel-WAF.md>)
+  - [[Traffic control](https://vercel.com/docs/vercel-firewall/vercel-waf#traffic-control)[](https://vercel.com/docs/vercel-firewall/vercel-waf#traffic-control)](<./Vercel-WAF/Traffic-controlhttpsvercel.comdocsvercel-firewallvercel-waftraffic-controlhttpsvercel.comdocsvercel-firewallvercel-waftraffic-control.md>)
+  - [[Instant rollback](https://vercel.com/docs/vercel-firewall/vercel-waf#instant-rollback)[](https://vercel.com/docs/vercel-firewall/vercel-waf#instant-rollback)](<./Vercel-WAF/Instant-rollbackhttpsvercel.comdocsvercel-firewallvercel-wafinstant-rollbackhttpsvercel.comdocsvercel-firewallvercel-wafinstant-rollback.md>)
+  - [[Limits](https://vercel.com/docs/vercel-firewall/vercel-waf#limits)[](https://vercel.com/docs/vercel-firewall/vercel-waf#limits)](<./Vercel-WAF/Limitshttpsvercel.comdocsvercel-firewallvercel-waflimitshttpsvercel.comdocsvercel-firewallvercel-waflimits.md>)
+  - [Get Started](<./Vercel-WAF/Get-Started.md>)
+  - [Build](<./Vercel-WAF/Build.md>)
+  - [Scale](<./Vercel-WAF/Scale.md>)
+  - [Secure](<./Vercel-WAF/Secure.md>)
+  - [Resources](<./Vercel-WAF/Resources.md>)
+  - [Learn](<./Vercel-WAF/Learn.md>)
+  - [Frameworks](<./Vercel-WAF/Frameworks.md>)
+  - [SDKs](<./Vercel-WAF/SDKs.md>)
+  - [Use Cases](<./Vercel-WAF/Use-Cases.md>)
+  - [Company](<./Vercel-WAF/Company.md>)
+  - [Community](<./Vercel-WAF/Community.md>)

@@ -1,0 +1,16 @@
+# Table of Contents
+
+- [docs_comments_how-comments-work](<./docs_comments_how-comments-work.md>)
+- [Enabling and Disabling Comments](<./Enabling-and-Disabling-Comments.md>)
+  - [[Sharing](https://vercel.com/docs/comments/how-comments-work#sharing)[](https://vercel.com/docs/comments/how-comments-work#sharing)](<./Enabling-and-Disabling-Comments/Sharinghttpsvercel.comdocscommentshow-comments-worksharinghttpsvercel.comdocscommentshow-comments-worksharing.md>)
+  - [Get Started](<./Enabling-and-Disabling-Comments/Get-Started.md>)
+  - [Build](<./Enabling-and-Disabling-Comments/Build.md>)
+  - [Scale](<./Enabling-and-Disabling-Comments/Scale.md>)
+  - [Secure](<./Enabling-and-Disabling-Comments/Secure.md>)
+  - [Resources](<./Enabling-and-Disabling-Comments/Resources.md>)
+  - [Learn](<./Enabling-and-Disabling-Comments/Learn.md>)
+  - [Frameworks](<./Enabling-and-Disabling-Comments/Frameworks.md>)
+  - [SDKs](<./Enabling-and-Disabling-Comments/SDKs.md>)
+  - [Use Cases](<./Enabling-and-Disabling-Comments/Use-Cases.md>)
+  - [Company](<./Enabling-and-Disabling-Comments/Company.md>)
+  - [Community](<./Enabling-and-Disabling-Comments/Community.md>)

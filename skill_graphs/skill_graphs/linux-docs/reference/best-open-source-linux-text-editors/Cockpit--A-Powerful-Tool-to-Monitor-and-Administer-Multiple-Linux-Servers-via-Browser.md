@@ -366,7 +366,7 @@ Correct: sudo systemctl enable –now cockpit.socket
 Ravi Saive
 [ October 17, 2016 at 10:39 am  ](https://www.tecmint.com/cockpit-monitor-multiple-linux-servers-via-web-browser/#comment-829308)
 @Pierpaolo,
-Thanks for finding it useful and thats a good catch, corrected in the writeup.
+Thanks for finding it useful and that's a good catch, corrected in the writeup.
 [Reply](https://www.tecmint.com/cockpit-monitor-multiple-linux-servers-via-web-browser/#comment-829308)
   14. ![](https://secure.gravatar.com/avatar/7dad02976a1fa06c2e10cefa57c633ffa1fc9ee89c97fbd1187ab10b6e031e19?s=50&d=blank&r=g)
 mightyme

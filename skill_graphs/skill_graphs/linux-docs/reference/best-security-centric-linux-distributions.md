@@ -106,7 +106,7 @@ Menu
 It can read input using an assortment of input modules and presents output in various output modes, including an interactive curses user interface as well as a programmable text output for scripting purposes.
 **Suggested Read:** [20 Command Line Tools to Monitor Linux Performance](https://www.tecmint.com/command-line-tools-to-monitor-linux-performance/)
 ### Install bmon Bandwidth Monitoring Tool in Linux
-Almost all Linux distributions has **bmon** package in the default repositories and can be easily install from default package manger, but the available version might be little older.
+Almost all Linux distributions has **bmon** package in the default repositories and can be easily install from default package manager, but the available version might be little older.
 ```
 $ sudo yum install bmon      [**On RHEL/CentOS/Fedora**]
 $ sudo dnf install bmon      [**On Fedora 22+**]
@@ -148,7 +148,7 @@ $ bmon
 ```
 
 ![bmon - Linux Bandwidth Monitoring](https://www.tecmint.com/wp-content/uploads/2017/02/bmon-Linux-Bandwidth-Monitoring.gif)
-To view more detailed graphical statistics/information of bandwidth usage, press `d` key and refer screnshot below.
+To view more detailed graphical statistics/information of bandwidth usage, press `d` key and refer screenshot below.
 ![bmon - Detailed Bandwidth Statistics](https://www.tecmint.com/wp-content/uploads/2017/02/bmon-Detailed-Bandwidth-Statistics.gif)
 Press `[Shift + ?]` to view the quick reference below. To exit the interface, press **[Shift + ?]** again.
 ![bmon - Quick Reference](https://www.tecmint.com/wp-content/uploads/2017/02/bmon-Quick-Reference.png)bmon – Quick Reference

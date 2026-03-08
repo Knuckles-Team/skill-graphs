@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [docs_edge-config_edge-config-integrations_split-edge-config](<./docs_edge-config_edge-config-integrations_split-edge-config.md>)
+- [Using Edge Config with Split](<./Using-Edge-Config-with-Split.md>)
+  - [[Prerequisites](https://vercel.com/docs/edge-config/edge-config-integrations/split-edge-config#prerequisites)[](https://vercel.com/docs/edge-config/edge-config-integrations/split-edge-config#prerequisites)](<./Using-Edge-Config-with-Split/Prerequisiteshttpsvercel.comdocsedge-configedge-config-integrationssplit-edge-configprerequisiteshttpsvercel.comdocsedge-configedge-config-integrationssplit-edge-configprerequisites.md>)
+  - [[Next steps](https://vercel.com/docs/edge-config/edge-config-integrations/split-edge-config#next-steps)[](https://vercel.com/docs/edge-config/edge-config-integrations/split-edge-config#next-steps)](<./Using-Edge-Config-with-Split/Next-stepshttpsvercel.comdocsedge-configedge-config-integrationssplit-edge-confignext-stepshttpsvercel.comdocsedge-configedge-config-integrationssplit-edge-confignext-steps.md>)
+  - [Get Started](<./Using-Edge-Config-with-Split/Get-Started.md>)
+  - [Build](<./Using-Edge-Config-with-Split/Build.md>)
+  - [Scale](<./Using-Edge-Config-with-Split/Scale.md>)
+  - [Secure](<./Using-Edge-Config-with-Split/Secure.md>)
+  - [Resources](<./Using-Edge-Config-with-Split/Resources.md>)
+  - [Learn](<./Using-Edge-Config-with-Split/Learn.md>)
+  - [Frameworks](<./Using-Edge-Config-with-Split/Frameworks.md>)
+  - [SDKs](<./Using-Edge-Config-with-Split/SDKs.md>)
+  - [Use Cases](<./Using-Edge-Config-with-Split/Use-Cases.md>)
+  - [Company](<./Using-Edge-Config-with-Split/Company.md>)
+  - [Community](<./Using-Edge-Config-with-Split/Community.md>)

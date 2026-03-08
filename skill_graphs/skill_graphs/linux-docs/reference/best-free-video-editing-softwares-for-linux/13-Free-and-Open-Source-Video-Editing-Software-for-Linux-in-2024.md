@@ -148,23 +148,23 @@ To install LiVES on Ubuntu, you can use the following PPA.
 ```
 $ sudo add-apt-repository ppa:ubuntuhandbook1/lives
 $ sudo apt update
-$ sudo apt intall lives
+$ sudo apt install lives
 
 ```
 
 **LiVES** is also available for download for different Linux operating systems. You can download the appropriate package from the
-## 9. Shotcut – Cross-Platform Video Editor
+## 9. Shortcut – Cross-Platform Video Editor
 With a customizable, intuitive interface, it supports a wide variety of video formats. Its non-linear editing capabilities are complemented by a rich collection of filters, color correction tools, and advanced audio editing options.
-![Shotcut - Cross-Platform Video Editor](https://www.tecmint.com/wp-content/uploads/2016/02/Shotcut-Cross-PlatformVideo-Editor.webp)Shotcut – Cross-Platform Video Editor
-### Install Shotcut on Linux
-**Shotcut** is available to install from the default repositories in various Linux distributions as shown.
+![Shortcut - Cross-Platform Video Editor](https://www.tecmint.com/wp-content/uploads/2016/02/Shortcut-Cross-PlatformVideo-Editor.webp)Shortcut – Cross-Platform Video Editor
+### Install Shortcut on Linux
+**Shortcut** is available to install from the default repositories in various Linux distributions as shown.
 ```
-$ sudo apt install shotcut         [On **Debian, Ubuntu and Mint**]
-$ sudo yum install shotcut         [On **RHEL/CentOS/Fedora** and **Rocky/AlmaLinux**]
-$ sudo emerge -a sys-apps/shotcut  [On **Gentoo Linux**]
-$ sudo apk add shotcut             [On **Alpine Linux**]
-$ sudo pacman -S shotcut           [On **Arch Linux**]
-$ sudo zypper install shotcut      [On **OpenSUSE**]
+$ sudo apt install shortcut         [On **Debian, Ubuntu and Mint**]
+$ sudo yum install shortcut         [On **RHEL/CentOS/Fedora** and **Rocky/AlmaLinux**]
+$ sudo emerge -a sys-apps/shortcut  [On **Gentoo Linux**]
+$ sudo apk add shortcut             [On **Alpine Linux**]
+$ sudo pacman -S shortcut           [On **Arch Linux**]
+$ sudo zypper install shortcut      [On **OpenSUSE**]
 
 ```
 
@@ -201,7 +201,7 @@ $ sudo apt install vidcutter
 
 ```
 
-## 13. Olive Video Edior
+## 13. Olive Video Editor
 **Olive** offers a wide range of features, including basic editing tools, transitions, effects, and titles. It also supports importing and exporting a variety of video formats.
 ![Olive Video Editor](https://www.tecmint.com/wp-content/uploads/2016/02/Olive-Video-Editor.webp)Olive Video Editor
 ### Install Olive in Linux
@@ -293,7 +293,7 @@ Davinci resolve is advanced and professional for video editing and color collect
   9. ![](https://secure.gravatar.com/avatar/94cb461df3e5b966fbe8d083e398edf03b077bff30246dbab426d40c9dd781de?s=50&d=blank&r=g)
 Jack Zhong
 [ May 25, 2019 at 6:56 pm  ](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-1157660)
-I prefer to ShotCut
+I prefer to shortcut
 [Reply](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-1157660)
   10. ![](https://secure.gravatar.com/avatar/2a6b8edbbda4360b85340da6c83e54fc9b8d078284d5df275a1a3eb8d2029170?s=50&d=blank&r=g)
 Mat Nieuwenhoven
@@ -341,7 +341,7 @@ Avidemux is much better video editor for Linux.
   14. ![](https://secure.gravatar.com/avatar/6cb333217e7ff63263a551ef2856b02d2dfaca4a0e758d4560f1eebdcd2b9ea2?s=50&d=blank&r=g)
 Win master
 [ October 17, 2017 at 1:43 pm  ](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-923989)
-One of the Best video Cutting Softwares which I know are:
+One of the Best video Cutting Software which I know are:
 1. Easy Video Splitter
 2. Free Video Cutter
 3. Free Video Cutter Expert
@@ -376,7 +376,7 @@ DaVinci Resolve is free out there for linux
   19. ![](https://secure.gravatar.com/avatar/765ecf96e91ed55fd2fe9ec960dc120961c458f19c951cbf5f51a5dddb680251?s=50&d=blank&r=g)
 Jotaarkka PENNANEN
 [ April 18, 2017 at 4:13 pm  ](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-884464)
-It is hard to understand why **Shotcut** is not among the 8 best Linux editing software packages. It is easy to learn and it’s editing capacities are good. The only minus is that it is not very stable if you do something wrong. I have used it quite a lot to edit my home videos.
+It is hard to understand why **Shortcut** is not among the 8 best Linux editing software packages. It is easy to learn and it’s editing capacities are good. The only minus is that it is not very stable if you do something wrong. I have used it quite a lot to edit my home videos.
 [Reply](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-884464)
      * ![](https://secure.gravatar.com/avatar/520a0adf5aafee84c606c235e0dd686b3b25fb9ab3cb098d8b718cc7ae814a13?s=50&d=blank&r=g)
 beerbaron23
@@ -388,7 +388,7 @@ So I will now make due with Avidemux, Cinelerra, and Lightworks when I’m on Li
        * ![](https://secure.gravatar.com/avatar/6cf370ca9adb69cfa46cf087f552a28c050fd469c23c771d0f259404cac79e38?s=50&d=blank&r=g)
 Robert Weigel
 [ May 21, 2017 at 3:26 pm  ](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-891106)
-I’m confused why you say not touching Shotcut. I’ve not had it crash yet I think. Very happy with it. Openshot was a regular crashes.
+I’m confused why you say not touching Shortcut. I’ve not had it crash yet I think. Very happy with it. Openshot was a regular crashes.
 [Reply](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-891106)
          * ![](https://secure.gravatar.com/avatar/520a0adf5aafee84c606c235e0dd686b3b25fb9ab3cb098d8b718cc7ae814a13?s=50&d=blank&r=g)
 beerbaron23
@@ -403,8 +403,8 @@ I am using open shot, its good but no like FCP or Adobe product, I know creating
      * ![](https://secure.gravatar.com/avatar/6cf370ca9adb69cfa46cf087f552a28c050fd469c23c771d0f259404cac79e38?s=50&d=blank&r=g)
 Robert Weigel
 [ April 17, 2017 at 2:24 pm  ](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-884273)
-Kris nailed it below. **Shotcut** is a bomb :-). No more crashes. It rips. stuff responds generally FAST instead of delays while things try to catch up when you move things. AND you can actually tell where you are cutting audio!
-On openshot there would always be big sync issues and sometimes it would actually compile with repeated words etc.! Totally unacceptable quality outcome and the constant crashing issues if you like let the video play to the end for instance…locks up the whole computer and you lose whatever you didn’t save. No such issues with shotcut yet! I’m very happy with it.
+Kris nailed it below. **Shortcut** is a bomb :-). No more crashes. It rips. stuff responds generally FAST instead of delays while things try to catch up when you move things. AND you can actually tell where you are cutting audio!
+On openshot there would always be big sync issues and sometimes it would actually compile with repeated words etc.! Totally unacceptable quality outcome and the constant crashing issues if you like let the video play to the end for instance…locks up the whole computer and you lose whatever you didn’t save. No such issues with shortcut yet! I’m very happy with it.
 [Reply](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-884273)
      * ![](https://secure.gravatar.com/avatar/520a0adf5aafee84c606c235e0dd686b3b25fb9ab3cb098d8b718cc7ae814a13?s=50&d=blank&r=g)
 beerbaron23
@@ -416,12 +416,12 @@ Me personally, I’m just waiting till Lightroom stagnates and Darktable catches
   21. ![](https://secure.gravatar.com/avatar/5d839ff2123e1c91dd4b52397dbd7a820af794c96e1af90651d682b684994af0?s=50&d=blank&r=g)
 Kris
 [ March 21, 2017 at 3:41 pm  ](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-877079)
-IMHO right now the best choice for Linux is Shotcut – I am working tones of projects on it. When it crashes, it has GREAT recovery. Doesn’t matter if you saved or not.
+IMHO right now the best choice for Linux is Shortcut – I am working tones of projects on it. When it crashes, it has GREAT recovery. Doesn’t matter if you saved or not.
 [Reply](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-877079)
      * ![](https://secure.gravatar.com/avatar/6cf370ca9adb69cfa46cf087f552a28c050fd469c23c771d0f259404cac79e38?s=50&d=blank&r=g)
 Robert Weigel
 [ April 17, 2017 at 2:21 pm  ](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-884270)
-I owe you one Kris. Shotcut has been working fantastic once I figured out the peculiarities. You have to drag to JOIN segments initially…then you can overlap it like in video pad for cross fades with out hassle. love that. Irritating it slaps you back where the cursor was after you do that. lol.. but otherwise no gripes so far (I said grips before…haha…no we don’t need grips…not that big of a production :-) )
+I owe you one Kris. Shortcut has been working fantastic once I figured out the peculiarities. You have to drag to JOIN segments initially…then you can overlap it like in video pad for cross fades with out hassle. love that. Irritating it slaps you back where the cursor was after you do that. lol.. but otherwise no gripes so far (I said grips before…haha…no we don’t need grips…not that big of a production :-) )
 [Reply](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-884270)
   22. ![](https://secure.gravatar.com/avatar/6cf370ca9adb69cfa46cf087f552a28c050fd469c23c771d0f259404cac79e38?s=50&d=blank&r=g)
 Robert Weigel
@@ -445,7 +445,7 @@ PS I forgot to mention it’d be nice if they had a profile you can save for the
 Kris
 [ January 14, 2017 at 4:43 pm  ](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-859552)
 From this list, except for Blender which is better suited for CGI rendering, the only true tool for sustainable video production is Lightworks.
-But if you are looking for something simpler, yet delivering same level of professional user experience, please check out Shotcut.
+But if you are looking for something simpler, yet delivering same level of professional user experience, please check out Shortcut.
 [Reply](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-859552)
   24. ![](https://secure.gravatar.com/avatar/deab4e068eafc3f29f7972ce45c71aa2e4a8b51fe5595c1b75121ec0d56e21fe?s=50&d=blank&r=g)
 Tomasz Pasternak
@@ -456,23 +456,23 @@ Hey, I use online Unstock editor. For most cases its enough:
 Petar Kulić
 [ August 28, 2016 at 9:22 am  ](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-810357)
 Nice article and bad screenshots. Tip: next time use pause with 1 second or more. ;)
-Thank you and thanx to all the commentators for their comments, especialy for Shotcut. :)
+Thank you and thanx to all the commentators for their comments, especially for Shortcut. :)
 [Reply](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-810357)
   26. ![](https://secure.gravatar.com/avatar/eaeaa1f8862e01e8b95eb72e084e19edf28d01818eeaeb7c0bb58bd6ba5d5ee7?s=50&d=blank&r=g)
 BrollyLSSJ
 [ April 12, 2016 at 3:39 am  ](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-772155)
-Thank you for this comparision. I think you forgot Shotcut. It is available from
+Thank you for this comparison. I think you forgot Shortcut. It is available from
 [Reply](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-772155)
      * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
 Ravi Saive
 [ April 12, 2016 at 11:05 am  ](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-772197)
 @Brolly,
-Thanks a lot for information about Shotcut, seems nice looking tool, will definitely include to this list..
+Thanks a lot for information about Shortcut, seems nice looking tool, will definitely include to this list..
 [Reply](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-772197)
   27. ![](https://secure.gravatar.com/avatar/8386a34de75f10d2055488b012002ce1dfe67b33ff10adc0aaae2882b5107a17?s=50&d=blank&r=g)
 Jotaarkka Pennanen
 [ February 27, 2016 at 10:31 am  ](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-755650)
-Cinelerra and Kdenlive are quite good.I prefer the latter. Cinelerra is little clumsy, but i used it with dv. The best editing software I know fot linux is Shotcut, even I like also Kdenlive. Shotcut works in all main platforms. I have used editing software from the very begining, mostly Avid, but now I use Shotcut. With dv I like still my old Avid in old XP machine.
+Cinelerra and Kdenlive are quite good.I prefer the latter. Cinelerra is little clumsy, but i used it with dv. The best editing software I know fot linux is Shortcut, even I like also Kdenlive. Shortcut works in all main platforms. I have used editing software from the very beginning, mostly Avid, but now I use Shortcut. With dv I like still my old Avid in old XP machine.
 [Reply](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-755650)
   28. ![](https://secure.gravatar.com/avatar/746944d089727f1ec5e4ca0d8761a48bb82100185fc61d7b4693083bd953d80b?s=50&d=blank&r=g)
 Alex
@@ -529,7 +529,7 @@ AkhIL
   32. ![](https://secure.gravatar.com/avatar/20d41d73c222d4a366488a4bea611c2ad72d0afe1c781732ee10f3ee36cf5a98?s=50&d=blank&r=g)
 chris brandon
 [ February 22, 2016 at 10:34 pm  ](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-754262)
-Shotcut should be on this list! It’s an excellent video editor with a good range of filters and effects, and it’s easy to use. The author, who I think is develops the MLT video framework, improves Shotcut regularly. Finally, it has versions for OS-X and Windows as well as Linux.
+Shortcut should be on this list! It’s an excellent video editor with a good range of filters and effects, and it’s easy to use. The author, who I think is develops the MLT video framework, improves Shortcut regularly. Finally, it has versions for OS-X and Windows as well as Linux.
 [Reply](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/#comment-754262)
 
 

@@ -84,5 +84,5 @@ The idea of Flask is to build a good foundation for all applications. Everything
 
 ### Quick search
 ·
-![](https://server.ethicalads.io/proxy/view/10198/019ccc19-fbbb-73e1-ae2b-ca6fbf16d95b/)
+![](https://server.ethicalads.io/proxy/view/10130/019ccf13-3f5d-7573-bf33-52dcf51ab7fe/)
 © Copyright 2010 Pallets. Created using

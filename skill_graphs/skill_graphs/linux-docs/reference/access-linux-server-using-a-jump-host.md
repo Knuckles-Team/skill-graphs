@@ -337,7 +337,7 @@ Your support helps us keep creating quality Linux content for everyone.
 [How to Force User to Change Password at Next Login in Linux](https://www.tecmint.com/force-user-to-change-password-next-login-in-linux/)
 [Easily Correct a Typo of Previous Command Using Carat (^) Symbol](https://www.tecmint.com/fix-correct-mistakes-typos-previous-command-in-linux/)
 [How to Add or Remove Linux User From Group](https://www.tecmint.com/add-or-remove-user-from-group-in-linux/)
-[Ternimal – Show Animated Lifeform in Your Linux Terminal](https://www.tecmint.com/ternimal-show-animated-lifeform-in-linux-terminal/)
+[Terminal – Show Animated Lifeform in Your Linux Terminal](https://www.tecmint.com/ternimal-show-animated-lifeform-in-linux-terminal/)
 [How to Switch (su) to Another User Account without Password](https://www.tecmint.com/switch-user-account-without-password/)
 [5 Ways to Empty or Delete a Large File Content in Linux](https://www.tecmint.com/empty-delete-file-content-linux/)
 ## Best Linux Tools

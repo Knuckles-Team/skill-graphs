@@ -296,7 +296,7 @@ Mallikharjun
 [ November 26, 2015 at 7:04 pm  ](https://www.tecmint.com/monitor-linux-server-resources-with-collectd-web-and-apache-cgi/#comment-714223)
 Hi,
 Configured the Collectd-web for Apache2.4.7 but when i open the url as: <http:///collectd-web/> instead of graphical page displaying the html source and <http:///collectd-web/index.html> the ui is scattered around the browser nothing is displaying..
-iam using the following broswers
+iam using the following browsers
 Firefox version 42.0
 chrome Version 46.0.2490.86 m
 explorer version 9.0.8112
@@ -332,7 +332,7 @@ Your support helps us keep creating quality Linux content for everyone.
 [How to Add Hosts in OpenNMS Monitoring Server](https://www.tecmint.com/add-hosts-in-opennms-monitoring/)
 ## Learn Linux Tricks & Tips
 [How to Change UUID of Partition in Linux Filesystem](https://www.tecmint.com/change-uuid-of-partition-in-linux/)
-[Ternimal – Show Animated Lifeform in Your Linux Terminal](https://www.tecmint.com/ternimal-show-animated-lifeform-in-linux-terminal/)
+[Terminal – Show Animated Lifeform in Your Linux Terminal](https://www.tecmint.com/ternimal-show-animated-lifeform-in-linux-terminal/)
 [Useful Commands to Create Commandline Chat Server and Remove Unwanted Packages in Linux](https://www.tecmint.com/linux-commandline-chat-server-and-remove-unwanted-packages/)
 [3 Ways to List All Installed Packages in RHEL, CentOS and Fedora](https://www.tecmint.com/list-installed-packages-in-rhel-centos-fedora/)
 [How to Optimize and Compress JPEG or PNG Images in Linux Commandline](https://www.tecmint.com/optimize-and-compress-jpeg-or-png-batch-images-linux-commandline/)

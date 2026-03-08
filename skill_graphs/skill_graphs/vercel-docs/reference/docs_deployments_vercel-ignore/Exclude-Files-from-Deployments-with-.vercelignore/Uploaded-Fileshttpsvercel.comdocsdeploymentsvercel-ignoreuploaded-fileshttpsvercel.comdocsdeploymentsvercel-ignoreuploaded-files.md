@@ -1,0 +1,3 @@
+##  [Uploaded Files](https://vercel.com/docs/deployments/vercel-ignore#uploaded-files)[](https://vercel.com/docs/deployments/vercel-ignore#uploaded-files)
+Aside from the [default exclusions](https://vercel.com/docs/deployments/build-features#ignored-files-and-folders), all files within your project are uploaded to Vercel if no source path is specified to be excluded in a `.vercelignore` configuration file
+The complete list of files and directories excluded by default can be found in the [ignored files and folders](https://vercel.com/docs/deployments/build-features#ignored-files-and-folders) documentation.

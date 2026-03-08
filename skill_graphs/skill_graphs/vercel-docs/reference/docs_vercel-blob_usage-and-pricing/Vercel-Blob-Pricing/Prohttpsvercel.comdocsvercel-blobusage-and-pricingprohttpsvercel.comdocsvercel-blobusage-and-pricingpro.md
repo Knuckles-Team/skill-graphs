@@ -1,0 +1,3 @@
+##  [Pro](https://vercel.com/docs/vercel-blob/usage-and-pricing#pro)[](https://vercel.com/docs/vercel-blob/usage-and-pricing#pro)
+You pay for usage using your [monthly credit allocation](https://vercel.com/docs/plans/pro-plan#credit-and-usage-allocation) which switches to on-demand once you have used your included credits.
+Pro teams can [set up Spend Management](https://vercel.com/docs/spend-management#managing-your-spend-amount) to get notified or to automatically take action, such as [using a webhook](https://vercel.com/docs/spend-management#configuring-a-webhook) or pausing your projects when your usage hits a set spend amount.

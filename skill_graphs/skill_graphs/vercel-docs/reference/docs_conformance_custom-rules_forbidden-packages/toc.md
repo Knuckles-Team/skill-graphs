@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_conformance_custom-rules_forbidden-packages](<./docs_conformance_custom-rules_forbidden-packages.md>)
+- [forbidden-packages](<./forbidden-packages.md>)
+  - [[When to use this rule type](https://vercel.com/docs/conformance/custom-rules/forbidden-packages#when-to-use-this-rule-type)[](https://vercel.com/docs/conformance/custom-rules/forbidden-packages#when-to-use-this-rule-type)](<./forbidden-packages/When-to-use-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-packageswhen-to-use-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-packageswhen-to-use-this-rule-type.md>)
+  - [[Configuring this rule type](https://vercel.com/docs/conformance/custom-rules/forbidden-packages#configuring-this-rule-type)[](https://vercel.com/docs/conformance/custom-rules/forbidden-packages#configuring-this-rule-type)](<./forbidden-packages/Configuring-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-packagesconfiguring-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-packagesconfiguring-this-rule-type.md>)
+  - [[Enabling this rule type](https://vercel.com/docs/conformance/custom-rules/forbidden-packages#enabling-this-rule-type)[](https://vercel.com/docs/conformance/custom-rules/forbidden-packages#enabling-this-rule-type)](<./forbidden-packages/Enabling-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-packagesenabling-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-packagesenabling-this-rule-type.md>)
+  - [Get Started](<./forbidden-packages/Get-Started.md>)
+  - [Build](<./forbidden-packages/Build.md>)
+  - [Scale](<./forbidden-packages/Scale.md>)
+  - [Secure](<./forbidden-packages/Secure.md>)
+  - [Resources](<./forbidden-packages/Resources.md>)
+  - [Learn](<./forbidden-packages/Learn.md>)
+  - [Frameworks](<./forbidden-packages/Frameworks.md>)
+  - [SDKs](<./forbidden-packages/SDKs.md>)
+  - [Use Cases](<./forbidden-packages/Use-Cases.md>)
+  - [Company](<./forbidden-packages/Company.md>)
+  - [Community](<./forbidden-packages/Community.md>)

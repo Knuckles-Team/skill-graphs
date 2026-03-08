@@ -1,0 +1,9 @@
+# Table of Contents
+
+- [exceptions.html](<./exceptions.html.md>)
+- [Built-in Exceptions[¶](https://docs.python.org/3/library/exceptions.html#built-in-exceptions "Link to this heading")](<./Built-in-Exceptionshttpsdocs.python.org3libraryexceptions.htmlbuilt-in-exceptions-Link-to-this-heading.md>)
+  - [Exception context[¶](https://docs.python.org/3/library/exceptions.html#exception-context "Link to this heading")](<./Built-in-Exceptionshttpsdocs.python.org3libraryexceptions.htmlbuilt-in-exceptions-Link-to-this-heading/Exception-contexthttpsdocs.python.org3libraryexceptions.htmlexception-context-Link-to-this-heading.md>)
+  - [Concrete exceptions[¶](https://docs.python.org/3/library/exceptions.html#concrete-exceptions "Link to this heading")](<./Built-in-Exceptionshttpsdocs.python.org3libraryexceptions.htmlbuilt-in-exceptions-Link-to-this-heading/Concrete-exceptionshttpsdocs.python.org3libraryexceptions.htmlconcrete-exceptions-Link-to-this-heading.md>)
+  - [Warnings[¶](https://docs.python.org/3/library/exceptions.html#warnings "Link to this heading")](<./Built-in-Exceptionshttpsdocs.python.org3libraryexceptions.htmlbuilt-in-exceptions-Link-to-this-heading/Warningshttpsdocs.python.org3libraryexceptions.htmlwarnings-Link-to-this-heading.md>)
+  - [Exception groups[¶](https://docs.python.org/3/library/exceptions.html#exception-groups "Link to this heading")](<./Built-in-Exceptionshttpsdocs.python.org3libraryexceptions.htmlbuilt-in-exceptions-Link-to-this-heading/Exception-groupshttpsdocs.python.org3libraryexceptions.htmlexception-groups-Link-to-this-heading.md>)
+  - [Exception hierarchy[¶](https://docs.python.org/3/library/exceptions.html#exception-hierarchy "Link to this heading")](<./Built-in-Exceptionshttpsdocs.python.org3libraryexceptions.htmlbuilt-in-exceptions-Link-to-this-heading/Exception-hierarchyhttpsdocs.python.org3libraryexceptions.htmlexception-hierarchy-Link-to-this-heading.md>)

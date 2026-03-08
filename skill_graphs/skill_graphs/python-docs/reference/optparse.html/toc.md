@@ -1,0 +1,12 @@
+# Table of Contents
+
+- [optparse.html](<./optparse.html.md>)
+- [`optparse` — Parser for command line options[¶](https://docs.python.org/3/library/optparse.html#module-optparse "Link to this heading")](<./optparse--Parser-for-command-line-optionshttpsdocs.python.org3libraryoptparse.htmlmodule-optparse-Link-to-this-heading.md>)
+  - [Choosing an argument parsing library[¶](https://docs.python.org/3/library/optparse.html#choosing-an-argument-parsing-library "Link to this heading")](<./optparse--Parser-for-command-line-optionshttpsdocs.python.org3libraryoptparse.htmlmodule-optparse-Link-to-this-heading/Choosing-an-argument-parsing-libraryhttpsdocs.python.org3libraryoptparse.htmlchoosing-an-argument-parsing-library-Link-to-this-heading.md>)
+  - [Introduction[¶](https://docs.python.org/3/library/optparse.html#introduction "Link to this heading")](<./optparse--Parser-for-command-line-optionshttpsdocs.python.org3libraryoptparse.htmlmodule-optparse-Link-to-this-heading/Introductionhttpsdocs.python.org3libraryoptparse.htmlintroduction-Link-to-this-heading.md>)
+  - [Background[¶](https://docs.python.org/3/library/optparse.html#background "Link to this heading")](<./optparse--Parser-for-command-line-optionshttpsdocs.python.org3libraryoptparse.htmlmodule-optparse-Link-to-this-heading/Backgroundhttpsdocs.python.org3libraryoptparse.htmlbackground-Link-to-this-heading.md>)
+  - [Tutorial[¶](https://docs.python.org/3/library/optparse.html#tutorial "Link to this heading")](<./optparse--Parser-for-command-line-optionshttpsdocs.python.org3libraryoptparse.htmlmodule-optparse-Link-to-this-heading/Tutorialhttpsdocs.python.org3libraryoptparse.htmltutorial-Link-to-this-heading.md>)
+  - [Reference Guide[¶](https://docs.python.org/3/library/optparse.html#reference-guide "Link to this heading")](<./optparse--Parser-for-command-line-optionshttpsdocs.python.org3libraryoptparse.htmlmodule-optparse-Link-to-this-heading/Reference-Guidehttpsdocs.python.org3libraryoptparse.htmlreference-guide-Link-to-this-heading.md>)
+- [usually, a help option is added automatically, but that can](<./usually-a-help-option-is-added-automatically-but-that-can.md>)
+- [be suppressed using the add_help_option argument](<./be-suppressed-using-the-add_help_option-argument.md>)
+  - [Option Callbacks[¶](https://docs.python.org/3/library/optparse.html#option-callbacks "Link to this heading")](<./be-suppressed-using-the-add_help_option-argument/Option-Callbackshttpsdocs.python.org3libraryoptparse.htmloption-callbacks-Link-to-this-heading.md>)

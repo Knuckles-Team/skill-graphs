@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [prompts](<./prompts.md>)
+- [Prompts](<./Prompts.md>)
+  - [[Introduction](https://laravel.com/docs/12.x/prompts#introduction)](<./Prompts/Introductionhttpslaravel.comdocs12.xpromptsintroduction.md>)
+  - [[Installation](https://laravel.com/docs/12.x/prompts#installation)](<./Prompts/Installationhttpslaravel.comdocs12.xpromptsinstallation.md>)
+  - [[Available Prompts](https://laravel.com/docs/12.x/prompts#available-prompts)](<./Prompts/Available-Promptshttpslaravel.comdocs12.xpromptsavailable-prompts.md>)
+  - [[Transforming Input Before Validation](https://laravel.com/docs/12.x/prompts#transforming-input-before-validation)](<./Prompts/Transforming-Input-Before-Validationhttpslaravel.comdocs12.xpromptstransforming-input-before-validation.md>)
+  - [[Forms](https://laravel.com/docs/12.x/prompts#forms)](<./Prompts/Formshttpslaravel.comdocs12.xpromptsforms.md>)
+  - [[Informational Messages](https://laravel.com/docs/12.x/prompts#informational-messages)](<./Prompts/Informational-Messageshttpslaravel.comdocs12.xpromptsinformational-messages.md>)
+  - [[Tables](https://laravel.com/docs/12.x/prompts#tables)](<./Prompts/Tableshttpslaravel.comdocs12.xpromptstables.md>)
+  - [[Spin](https://laravel.com/docs/12.x/prompts#spin)](<./Prompts/Spinhttpslaravel.comdocs12.xpromptsspin.md>)
+  - [[Progress Bars](https://laravel.com/docs/12.x/prompts#progress)](<./Prompts/Progress-Barshttpslaravel.comdocs12.xpromptsprogress.md>)
+  - [[Clearing the Terminal](https://laravel.com/docs/12.x/prompts#clear)](<./Prompts/Clearing-the-Terminalhttpslaravel.comdocs12.xpromptsclear.md>)
+  - [[Terminal Considerations](https://laravel.com/docs/12.x/prompts#terminal-considerations)](<./Prompts/Terminal-Considerationshttpslaravel.comdocs12.xpromptsterminal-considerations.md>)
+  - [[Unsupported Environments and Fallbacks](https://laravel.com/docs/12.x/prompts#fallbacks)](<./Prompts/Unsupported-Environments-and-Fallbackshttpslaravel.comdocs12.xpromptsfallbacks.md>)
+  - [[Testing](https://laravel.com/docs/12.x/prompts#testing)](<./Prompts/Testinghttpslaravel.comdocs12.xpromptstesting.md>)

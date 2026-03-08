@@ -88,4 +88,4 @@ def get_skill_graphs_path() -> list[str]:
     Returns a list of absolute paths pointing to the individual enabled skill-graphs
     within the repository package.
     """
-    return _get_enabled_paths("skill_graphs", default_enabled=True)
+    return _get_enabled_paths("skill_graphs", default_enabled=False)

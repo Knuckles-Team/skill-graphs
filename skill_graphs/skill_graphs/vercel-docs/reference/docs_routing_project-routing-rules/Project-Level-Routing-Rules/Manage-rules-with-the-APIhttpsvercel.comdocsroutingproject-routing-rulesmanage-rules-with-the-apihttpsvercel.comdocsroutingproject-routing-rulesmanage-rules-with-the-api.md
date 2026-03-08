@@ -1,0 +1,2 @@
+##  [Manage rules with the API](https://vercel.com/docs/routing/project-routing-rules#manage-rules-with-the-api)[](https://vercel.com/docs/routing/project-routing-rules#manage-rules-with-the-api)
+You can also create, read, update, and delete routing rules through the [Vercel REST API](https://vercel.com/docs/rest-api/project-routes). Use the API to automate rule management in CI/CD pipelines or manage rules through infrastructure-as-code tools like Terraform.

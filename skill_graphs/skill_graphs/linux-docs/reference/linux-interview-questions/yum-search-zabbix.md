@@ -195,7 +195,7 @@ i’am using debian jessie as os
 morteza mohammadi
 [ June 6, 2016 at 5:38 pm  ](https://www.tecmint.com/install-and-configure-zabbix-monitoring-on-debian-centos-rhel/#comment-788950)
 hi guys
-installed successfully now i want know whats open port needed in the zabbix server and slave server added to zabbix?
+installed successfully now i want know what's open port needed in the zabbix server and slave server added to zabbix?
 [Reply](https://www.tecmint.com/install-and-configure-zabbix-monitoring-on-debian-centos-rhel/#comment-788950)
      * ![](https://secure.gravatar.com/avatar/f29eecc33465f4d4d08c50d4ee5bc73b9d8159264c6494e7ec50812a5db5f292?s=50&d=blank&r=g)
 Matei Cezar

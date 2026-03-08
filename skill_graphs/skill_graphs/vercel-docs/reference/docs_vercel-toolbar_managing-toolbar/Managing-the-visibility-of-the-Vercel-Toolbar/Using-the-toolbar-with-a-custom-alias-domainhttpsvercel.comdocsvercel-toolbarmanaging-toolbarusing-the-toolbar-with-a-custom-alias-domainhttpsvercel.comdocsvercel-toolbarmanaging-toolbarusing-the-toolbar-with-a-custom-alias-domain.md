@@ -1,0 +1,2 @@
+##  [Using the toolbar with a custom alias domain](https://vercel.com/docs/vercel-toolbar/managing-toolbar#using-the-toolbar-with-a-custom-alias-domain)[](https://vercel.com/docs/vercel-toolbar/managing-toolbar#using-the-toolbar-with-a-custom-alias-domain)
+To use the toolbar with preview deployments that have [custom alias domains](https://vercel.com/docs/domains/add-a-domain), you must opt into the toolbar explicitly in your project settings on [the dashboard](https://vercel.com/dashboard).

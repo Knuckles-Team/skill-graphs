@@ -1,0 +1,2 @@
+# Examples[#](https://scikit-learn.org/stable/auto_examples/index.html#examples "Link to this heading")
+This is the gallery of examples that showcase how scikit-learn can be used. Some examples demonstrate the use of the [API](https://scikit-learn.org/stable/api/index.html#api-ref) in general and some demonstrate specific applications in tutorial form. Also check out our [user guide](https://scikit-learn.org/stable/user_guide.html#user-guide) for more detailed illustrations.

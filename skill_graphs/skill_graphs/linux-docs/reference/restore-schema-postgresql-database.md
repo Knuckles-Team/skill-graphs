@@ -102,7 +102,7 @@ $ man pg_restore
 ```
 
 **You might also like:**
-  * [What is PostgreSQL? How Does PostgreSQL Work?](https://www.tecmint.com/what-is-postgresql-how-does-postgresql-work/ "What is PostgreSQ")
+  * [What is PostgreSQL? How Does PostgreSQL Work?](https://www.tecmint.com/what-is-postgresql-how-does-postgresql-work/ "What is postgresql")
   * [How to Backup and Restore a PostgreSQL Database](https://www.tecmint.com/backup-and-restore-postgresql-database/ "Backup and Restore a PostgreSQL Database")
   * [10 Useful Websites for Learning PostgreSQL Database System](https://www.tecmint.com/learn-postgresql-database-system/ "Learning PostgreSQL Database System")
   * [How To Exclude a Schema While Restoring a PostgreSQL Database](https://www.tecmint.com/restore-schema-postgresql-database/ "Restore Schema from a PostgreSQL Database")

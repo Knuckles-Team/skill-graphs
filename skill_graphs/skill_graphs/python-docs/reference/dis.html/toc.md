@@ -1,0 +1,8 @@
+# Table of Contents
+
+- [dis.html](<./dis.html.md>)
+- [`dis` — Disassembler for Python bytecode[¶](https://docs.python.org/3/library/dis.html#module-dis "Link to this heading")](<./dis--Disassembler-for-Python-bytecodehttpsdocs.python.org3librarydis.htmlmodule-dis-Link-to-this-heading.md>)
+  - [Command-line interface[¶](https://docs.python.org/3/library/dis.html#command-line-interface "Link to this heading")](<./dis--Disassembler-for-Python-bytecodehttpsdocs.python.org3librarydis.htmlmodule-dis-Link-to-this-heading/Command-line-interfacehttpsdocs.python.org3librarydis.htmlcommand-line-interface-Link-to-this-heading.md>)
+  - [Analysis functions[¶](https://docs.python.org/3/library/dis.html#analysis-functions "Link to this heading")](<./dis--Disassembler-for-Python-bytecodehttpsdocs.python.org3librarydis.htmlmodule-dis-Link-to-this-heading/Analysis-functionshttpsdocs.python.org3librarydis.htmlanalysis-functions-Link-to-this-heading.md>)
+  - [Python Bytecode Instructions[¶](https://docs.python.org/3/library/dis.html#python-bytecode-instructions "Link to this heading")](<./dis--Disassembler-for-Python-bytecodehttpsdocs.python.org3librarydis.htmlmodule-dis-Link-to-this-heading/Python-Bytecode-Instructionshttpsdocs.python.org3librarydis.htmlpython-bytecode-instructions-Link-to-this-heading.md>)
+  - [Opcode collections[¶](https://docs.python.org/3/library/dis.html#opcode-collections "Link to this heading")](<./dis--Disassembler-for-Python-bytecodehttpsdocs.python.org3librarydis.htmlmodule-dis-Link-to-this-heading/Opcode-collectionshttpsdocs.python.org3librarydis.htmlopcode-collections-Link-to-this-heading.md>)

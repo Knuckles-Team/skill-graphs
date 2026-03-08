@@ -68,7 +68,7 @@ Thanks!!!!!!!!!!!!!!!!
   7. ![](https://secure.gravatar.com/avatar/c0b901ac463b7df0c8eb90754386906e523b5d3796eba05e189c9f389d678691?s=50&d=blank&r=g)
 Rakesh Gosai
 [ January 17, 2015 at 3:46 pm  ](https://www.tecmint.com/20-advanced-commands-for-middle-level-linux-users/#comment-455229)
-indeed helpfull,
+indeed helpful,
 i must appreciate your effort.
 [Reply](https://www.tecmint.com/20-advanced-commands-for-middle-level-linux-users/#comment-455229)
   8. ![](https://secure.gravatar.com/avatar/ff75f7170a7540a5c5b47e3976c2514633055f77a4cf9af0b7ee1fdf778ae7ad?s=50&d=blank&r=g)
@@ -180,7 +180,7 @@ keep connected we will be coming up with your recommendation very soon and donâ€
   19. ![](https://secure.gravatar.com/avatar/af601f3db94a3fe611420512ce1b6f02de7ccf16d0a55a05d2febf546eb6c19f?s=50&d=blank&r=g)
 James
 [ February 24, 2014 at 8:30 am  ](https://www.tecmint.com/20-advanced-commands-for-middle-level-linux-users/#comment-125782)
-very aswsome! thanx for providing lots of informations about linux always!
+very aswsome! thanx for providing lots of information about linux always!
 [Reply](https://www.tecmint.com/20-advanced-commands-for-middle-level-linux-users/#comment-125782)
      * ![](https://secure.gravatar.com/avatar/9528d5c8e619e606a64aea49dc1fd2bb0c16e11cd9a9f326d934fb4629a6bd67?s=50&d=blank&r=g)
 Avishek Kumar

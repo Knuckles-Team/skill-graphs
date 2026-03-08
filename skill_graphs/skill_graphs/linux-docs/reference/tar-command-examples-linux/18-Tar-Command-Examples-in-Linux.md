@@ -32,7 +32,7 @@ Toggle
   * [15. Checking Tar Archive File Size](https://www.tecmint.com/tar-command-examples-linux/#15_Checking_Tar_Archive_File_Size)
   * [16. Excluding Files When Creating a Tar Archive](https://www.tecmint.com/tar-command-examples-linux/#16_Excluding_Files_When_Creating_a_Tar_Archive)
   * [17. Removing Files From a Tar Archive](https://www.tecmint.com/tar-command-examples-linux/#17_Removing_Files_From_a_Tar_Archive)
-  * [18. Extracing File Extension From a Tar Archive](https://www.tecmint.com/tar-command-examples-linux/#18_Extracing_File_Extension_From_a_Tar_Archive)
+  * [18. Extracting File Extension From a Tar Archive](https://www.tecmint.com/tar-command-examples-linux/#18_Extracing_File_Extension_From_a_Tar_Archive)
   * [19. Tar Command Usage and Options](https://www.tecmint.com/tar-command-examples-linux/#19_Tar_Command_Usage_and_Options)
 
 

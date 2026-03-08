@@ -158,7 +158,7 @@ After performing the necessary configurations, you can test if it is practically
   1. [How to Test Your Internet Speed Bidirectionally from Command Line Using ‘Speedtest-CLI’ Tool](https://www.tecmint.com/check-internet-speed-from-command-line-in-linux/)
 
 
-Other tools include [bmon (bandwith monitor)](https://www.tecmint.com/bmon-network-bandwidth-monitoring-debugging-linux/), [nload](https://www.tecmint.com/nload-monitor-linux-network-traffic-bandwidth-usage/), [Wget – command based file downloader](https://www.tecmint.com/10-wget-command-examples-in-linux/) and **cURL** which all show network bandwidth; you can use them for testing.
+Other tools include [bmon (bandwidth monitor)](https://www.tecmint.com/bmon-network-bandwidth-monitoring-debugging-linux/), [nload](https://www.tecmint.com/nload-monitor-linux-network-traffic-bandwidth-usage/), [Wget – command based file downloader](https://www.tecmint.com/10-wget-command-examples-in-linux/) and **cURL** which all show network bandwidth; you can use them for testing.
 BBR Github repository:
 You may also like to read following related articles.
   1. [Setup Your Own “Speedtest Mini Server” to Test Internet Bandwidth Speed](https://www.tecmint.com/speedtest-mini-server-to-test-bandwidth-speed/)

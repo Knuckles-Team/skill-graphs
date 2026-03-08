@@ -1,0 +1,2 @@
+##  [Upload charges](https://vercel.com/docs/vercel-blob#upload-charges)[](https://vercel.com/docs/vercel-blob#upload-charges)
+Client uploads have no data transfer charges. Server uploads incur [Fast Data Transfer](https://vercel.com/docs/manage-cdn-usage#fast-data-transfer) charges when your Vercel application receives the file. See download and upload charge details on the [private storage](https://vercel.com/docs/vercel-blob/private-storage#upload-charges) and [public storage](https://vercel.com/docs/vercel-blob/public-storage#upload-charges) pages.

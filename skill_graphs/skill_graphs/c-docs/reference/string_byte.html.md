@@ -16,7 +16,6 @@
 
 
 #####  Actions[](https://en.cppreference.com/w/c/string/byte.html)
-![ads via Carbon](https://cnv.event.prod.bidr.io/log/cnv?tag_id=3503&buzz_key=dsp&value=&account_id=79&order=\[ORDER\]&ord=\[CACHEBUSTER\])![ads via Carbon](https://segment.prod.bidr.io/associate-segment?buzz_key=dsp&segment_key=dsp-19102)![ads via Carbon](https://secure.adnxs.com/px?id=1777282&t=2)![ads via Carbon](https://secure.adnxs.com/seg?add=37012073&t=2)![ads via Carbon](https://sp.analytics.yahoo.com/spp.pl?a=10000&.yp=10207075&he=&hph=&gv=\[ORDER_VALUE\]&orderId=\[ORDER_ID\]&ec=\[EVENT_CATEGORY\]&ea=fire&el=\[EVENT_LABEL\])![ads via Carbon](https://ad.doubleclick.net/ddm/activity/src=15643656;type=sales;cat=408690;qty=1;cost=\[Revenue\];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=$;gdpr_consent=$;ord=\[OrderID\])![ads via Carbon](https://insight.adsrvr.org/track/pxl/?adv=t3k9qrj&ct=0:djrfa1z&fmt=3&orderid=&v=)
 # Null-terminated byte strings
 From cppreference.com
 < [c](https://en.cppreference.com/w/c.html "c")‎ | [string](https://en.cppreference.com/w/c/string.html "c/string")

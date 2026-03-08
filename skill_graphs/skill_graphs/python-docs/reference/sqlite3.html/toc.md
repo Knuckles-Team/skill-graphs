@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [sqlite3.html](<./sqlite3.html.md>)
+- [`sqlite3` — DB-API 2.0 interface for SQLite databases[¶](https://docs.python.org/3/library/sqlite3.html#module-sqlite3 "Link to this heading")](<./sqlite3--DB-API-2.0-interface-for-SQLite-databaseshttpsdocs.python.org3librarysqlite3.htmlmodule-sqlite3-Link-to-this-heading.md>)
+- [Example taken from https://www.sqlite.org/windowfunctions.html#udfwinfunc](<./Example-taken-from-httpswww.sqlite.orgwindowfunctions.htmludfwinfunc.md>)
+- [Load the fulltext search extension](<./Load-the-fulltext-search-extension.md>)
+- [alternatively you can load the extension using an API call:](<./alternatively-you-can-load-the-extension-using-an-API-call.md>)
+- [con.load_extension("./fts3.so")](<./con.load_extension.fts3.so.md>)
+- [disable extension loading again](<./disable-extension-loading-again.md>)
+- [example from SQLite wiki](<./example-from-SQLite-wiki.md>)
+- [cur is an sqlite3.Cursor object](<./cur-is-an-sqlite3.Cursor-object.md>)
+- [Write to our blob, using two write operations:](<./Write-to-our-blob-using-two-write-operations.md>)
+- [Read the contents of our blob](<./Read-the-contents-of-our-blob.md>)
+- [Successful, con.commit() is called automatically afterwards](<./Successful-con.commit-is-called-automatically-afterwards.md>)
+- [con.rollback() is called after the with block finishes with an exception,](<./con.rollback-is-called-after-the-with-block-finishes-with-an-exception.md>)
+- [the exception is still raised and must be caught](<./the-exception-is-still-raised-and-must-be-caught.md>)
+- [Connection object used as context manager only commits or rollbacks transactions,](<./Connection-object-used-as-context-manager-only-commits-or-rollbacks-transactions.md>)
+- [so the connection object should be closed manually](<./so-the-connection-object-should-be-closed-manually.md>)

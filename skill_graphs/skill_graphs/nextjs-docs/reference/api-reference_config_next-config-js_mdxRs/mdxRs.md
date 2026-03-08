@@ -1,0 +1,37 @@
+# mdxRs
+This feature is currently experimental and subject to change, it's not recommended for production. Try it out and share your feedback on
+Last updated February 27, 2026
+For experimental use with `@next/mdx`. Compiles MDX files using the new Rust compiler.
+next.config.js
+```
+const withMDX = require('@next/mdx')()
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  pageExtensions: ['ts', 'tsx', 'mdx'],
+  experimental: {
+    mdxRs: true,
+  },
+}
+
+module.exports = withMDX(nextConfig)
+```
+
+[Previouslogging](https://nextjs.org/docs/app/api-reference/config/next-config-js/logging)[NextonDemandEntries](https://nextjs.org/docs/app/api-reference/config/next-config-js/onDemandEntries)
+Was this helpful?
+Send
+* * *
+* * *
+#### Resources
+[Docs](https://nextjs.org/docs)[Support Policy](https://nextjs.org/support-policy)[Learn](https://nextjs.org/learn)[Showcase](https://nextjs.org/showcase)[Blog](https://nextjs.org/blog)[Team](https://nextjs.org/team)[Next.js Conf](https://nextjs.org/conf)[Evals](https://nextjs.org/evals)
+#### More
+[Telemetry](https://nextjs.org/telemetry)[Governance](https://nextjs.org/governance)
+#### About Vercel
+#### Legal
+Cookie Preferences
+#### Subscribe to our newsletter
+Stay updated on new releases and features, guides, and case studies.
+Subscribe
+© 2026 Vercel, Inc.
+* * *
+* * *

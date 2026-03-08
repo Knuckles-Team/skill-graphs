@@ -1,0 +1,12 @@
+# Eloquent: API Resources
+  * [Introduction](https://laravel.com/docs/12.x/eloquent-resources#introduction)
+  * [Generating Resources](https://laravel.com/docs/12.x/eloquent-resources#generating-resources)
+  * [Concept Overview](https://laravel.com/docs/12.x/eloquent-resources#concept-overview)
+    * [Resource Collections](https://laravel.com/docs/12.x/eloquent-resources#resource-collections)
+  * [Writing Resources](https://laravel.com/docs/12.x/eloquent-resources#writing-resources)
+    * [Data Wrapping](https://laravel.com/docs/12.x/eloquent-resources#data-wrapping)
+    * [Pagination](https://laravel.com/docs/12.x/eloquent-resources#pagination)
+    * [Conditional Attributes](https://laravel.com/docs/12.x/eloquent-resources#conditional-attributes)
+    * [Conditional Relationships](https://laravel.com/docs/12.x/eloquent-resources#conditional-relationships)
+    * [Adding Meta Data](https://laravel.com/docs/12.x/eloquent-resources#adding-meta-data)
+  * [Resource Responses](https://laravel.com/docs/12.x/eloquent-resources#resource-responses)

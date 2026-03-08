@@ -186,7 +186,7 @@ GRUB_CMDLINE_LINUX="vconsole.keymap=la-latin1 rd.lvm.lv=centos_centos7-2/swap cr
 
 ```
 
-After editing `/etc/defalt/grub`, you will need to run `update-grub` (Ubuntu) or `grub2-mkconfig -o /boot/grub2/grub.cfg` (**CentOS** and **openSUSE**) afterwards to update `grub.cfg` (otherwise, changes will be lost upon boot).
+After editing `/etc/default/grub`, you will need to run `update-grub` (Ubuntu) or `grub2-mkconfig -o /boot/grub2/grub.cfg` (**CentOS** and **openSUSE**) afterwards to update `grub.cfg` (otherwise, changes will be lost upon boot).
 This command will process the boot configuration files mentioned earlier to update `grub.cfg`. This method ensures changes are permanent, while options passed through GRUB at boot time will only last during the current session.
 ### Fixing Linux GRUB Issues
 If you install a second operating system or if your GRUB configuration file gets corrupted due to human error, there are ways you can get your system back on its feet and be able to boot again.
@@ -267,7 +267,7 @@ Using `**awk -F\’ ‘$1==”\tmenuentry ” {print $2}’ /boot/grub/grub.cfg*
   3. ![](https://secure.gravatar.com/avatar/7f707beb323d660778d2b5a1bb7d2379c0e510b05a04bd59c56faf52ed1db5f1?s=50&d=blank&r=g)
 Bill Turner
 [ March 25, 2016 at 10:48 am  ](https://www.tecmint.com/configure-and-troubleshoot-grub-boot-loader-linux/#comment-764742)
-Recently installed “Apricity” OS – a version of Arch Linux. One thing has cropped up in it so far – grub,cfg is only created by grub-mkconfig, there seems not to be any “update-grub” script as per Ubuntu etc, and this takes absolutely no notice of /etc/default/grub whatsoever. To change anything one needs to edit grub.cfg and keep on editing it everytime a change occurs. Otherwise, I like it.
+Recently installed “Apricity” OS – a version of Arch Linux. One thing has cropped up in it so far – grub,cfg is only created by grub-mkconfig, there seems not to be any “update-grub” script as per Ubuntu etc, and this takes absolutely no notice of /etc/default/grub whatsoever. To change anything one needs to edit grub.cfg and keep on editing it every time a change occurs. Otherwise, I like it.
 [Reply](https://www.tecmint.com/configure-and-troubleshoot-grub-boot-loader-linux/#comment-764742)
      * ![](https://secure.gravatar.com/avatar/27b3ea2a3fb1de4ed1c8694a1465c099a86586d8b833a0d852a26d76d750df9f?s=50&d=blank&r=g)
 Gabriel Cánepa
@@ -298,7 +298,7 @@ Your support helps us keep creating quality Linux content for everyone.
 [DEBUGFS Command – Show File Creation Times in Linux](https://www.tecmint.com/debugfs-command-show-file-creation-time-in-linux/)
 ## Linux Server Monitoring Tools
 [Cockpit – A Powerful Tool to Monitor and Administer Multiple Linux Servers via Browser](https://www.tecmint.com/cockpit-monitor-multiple-linux-servers-via-web-browser/)
-[Web VMStat: A Real Time System Statistics (Memory, CPU, Processess, etc) Monitoring Tool for Linux](https://www.tecmint.com/install-web-vmstat-in-linux/)
+[Web VMStat: A Real Time System Statistics (Memory, CPU, Processes, etc) Monitoring Tool for Linux](https://www.tecmint.com/install-web-vmstat-in-linux/)
 [3 Methods to Check Apache Server Status and Uptime in Linux](https://www.tecmint.com/check-apache-httpd-status-and-uptime-in-linux/)
 [Monit – A Open Source Tool for Managing and Monitoring Linux System](https://www.tecmint.com/monit-linux-services-monitoring/)
 [How to Install Icinga2 on RHEL, Rocky and AlmaLinux](https://www.tecmint.com/install-icinga2-rhel-rocky-almalinux/)

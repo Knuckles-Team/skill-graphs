@@ -116,8 +116,8 @@ killall zabbix_server with root permissions to stop.
 Doku
 [ January 30, 2016 at 9:06 pm  ](https://www.tecmint.com/install-and-configure-zabbix-monitoring-on-debian-centos-rhel/#comment-746079)
 Hi, thanks for the tutorial.
-I have a question, I hope you can help me out. I am not that firm with Linux already, but in step 5 you created a zabbix-user in order to run the deamon process with unprevileged rights.
-In Step 8-18 you start the deamon. But if i start the deamon as root (which i use), i guess the services run as root? Is that right? How can i make sure to start the services as zabbix-user?
+I have a question, I hope you can help me out. I am not that firm with Linux already, but in step 5 you created a zabbix-user in order to run the daemon process with unprevileged rights.
+In Step 8-18 you start the daemon. But if i start the daemon as root (which i use), i guess the services run as root? Is that right? How can i make sure to start the services as zabbix-user?
 yours D.
 [Reply](https://www.tecmint.com/install-and-configure-zabbix-monitoring-on-debian-centos-rhel/#comment-746079)
      * ![](https://secure.gravatar.com/avatar/f29eecc33465f4d4d08c50d4ee5bc73b9d8159264c6494e7ec50812a5db5f292?s=50&d=blank&r=g)
@@ -197,7 +197,7 @@ thanks for the perfect todo
 pugazhendhi
 [ January 9, 2016 at 3:34 pm  ](https://www.tecmint.com/install-and-configure-zabbix-monitoring-on-debian-centos-rhel/#comment-736235)
 Hi, In the step 3: When the installation of Mariadb finishes, secure the database by issuing mysql_secure_installation command with system root privileges, I ran “# mysql_secure_installation”,
-when asked for “Enter current password for root (enter for none):” I gave server root login passowrd it doesn’t accept, i just pressed enter didn’t accept. Kindly assist here.
+when asked for “Enter current password for root (enter for none):” I gave server root login password it doesn’t accept, i just pressed enter didn’t accept. Kindly assist here.
 [Reply](https://www.tecmint.com/install-and-configure-zabbix-monitoring-on-debian-centos-rhel/#comment-736235)
      * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
 Ravi Saive
@@ -209,8 +209,8 @@ No need to type the current root password, just enter and when asked to set new 
 Assis Regis Corrêa
 [ December 14, 2015 at 7:23 pm  ](https://www.tecmint.com/install-and-configure-zabbix-monitoring-on-debian-centos-rhel/#comment-724062)
 good morning.
-MariaDB [(none)]> grant all privileges on zabbix.* to zabbix@’localhost’ indentified by ‘password’;
-ERROR 1064 (42000): You have an error in your SQL syntaxe; check the manual that corresponds to your MariaDB server version for the right syntax to use near ‘identified by ‘password” at line 1
+MariaDB [(none)]> grant all privileges on zabbix.* to zabbix@’localhost’ identified by ‘password’;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ‘identified by ‘password” at line 1
 help-me please.
 [Reply](https://www.tecmint.com/install-and-configure-zabbix-monitoring-on-debian-centos-rhel/#comment-724062)
      * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
@@ -219,7 +219,7 @@ Ravi Saive
 @Assis,
 Yes, there is a error in your MySQL command, the correct way to run the command is:
 ```
-MariaDB [(none)]> grant all privileges on zabbix.* to zabbix@'localhost' indentified by 'password';
+MariaDB [(none)]> grant all privileges on zabbix.* to zabbix@'localhost' identified by 'password';
 
 ```
 [Reply](https://www.tecmint.com/install-and-configure-zabbix-monitoring-on-debian-centos-rhel/#comment-724347)
@@ -254,7 +254,7 @@ thank you i treid restarting the server as well as also the server many times bu
 Forty
 [ December 4, 2015 at 4:47 pm  ](https://www.tecmint.com/install-and-configure-zabbix-monitoring-on-debian-centos-rhel/#comment-719127)
 Hello Donmay,
-I had the same issue yesterday. Please check your config correspoding the right mysqld.sock filename.
+I had the same issue yesterday. Please check your config corresponding the right mysqld.sock filename.
 In my case under /etc/mysql/my.cnf:
 [mysqld_safe]
 socket = /var/run/mysqld/mysqld.sock

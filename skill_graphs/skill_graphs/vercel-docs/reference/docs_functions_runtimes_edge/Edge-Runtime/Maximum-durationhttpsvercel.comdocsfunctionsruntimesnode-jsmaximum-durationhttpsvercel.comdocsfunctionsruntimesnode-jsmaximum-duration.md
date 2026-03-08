@@ -1,0 +1,2 @@
+##  [Maximum duration](https://vercel.com/docs/functions/runtimes/node-js#maximum-duration)[](https://vercel.com/docs/functions/runtimes/node-js#maximum-duration)
+Vercel Functions using the Edge runtime must begin sending a response within 25 seconds to maintain streaming capabilities beyond this period, and can continue [streaming](https://vercel.com/docs/functions/streaming-functions) data for up to 300 seconds.

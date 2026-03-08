@@ -1,0 +1,16 @@
+# Table of Contents
+
+- [docs_errors_INTERNAL_MICROFRONTENDS_BUILD_ERROR](<./docs_errors_INTERNAL_MICROFRONTENDS_BUILD_ERROR.md>)
+- [INTERNAL_MICROFRONTENDS_BUILD_ERROR](<./INTERNAL_MICROFRONTENDS_BUILD_ERROR.md>)
+  - [[Troubleshoot](https://vercel.com/docs/errors/INTERNAL_MICROFRONTENDS_BUILD_ERROR#troubleshoot)[](https://vercel.com/docs/errors/INTERNAL_MICROFRONTENDS_BUILD_ERROR#troubleshoot)](<./INTERNAL_MICROFRONTENDS_BUILD_ERROR/Troubleshoothttpsvercel.comdocserrorsINTERNAL_MICROFRONTENDS_BUILD_ERRORtroubleshoothttpsvercel.comdocserrorsINTERNAL_MICROFRONTENDS_BUILD_ERRORtroubleshoot.md>)
+  - [Get Started](<./INTERNAL_MICROFRONTENDS_BUILD_ERROR/Get-Started.md>)
+  - [Build](<./INTERNAL_MICROFRONTENDS_BUILD_ERROR/Build.md>)
+  - [Scale](<./INTERNAL_MICROFRONTENDS_BUILD_ERROR/Scale.md>)
+  - [Secure](<./INTERNAL_MICROFRONTENDS_BUILD_ERROR/Secure.md>)
+  - [Resources](<./INTERNAL_MICROFRONTENDS_BUILD_ERROR/Resources.md>)
+  - [Learn](<./INTERNAL_MICROFRONTENDS_BUILD_ERROR/Learn.md>)
+  - [Frameworks](<./INTERNAL_MICROFRONTENDS_BUILD_ERROR/Frameworks.md>)
+  - [SDKs](<./INTERNAL_MICROFRONTENDS_BUILD_ERROR/SDKs.md>)
+  - [Use Cases](<./INTERNAL_MICROFRONTENDS_BUILD_ERROR/Use-Cases.md>)
+  - [Company](<./INTERNAL_MICROFRONTENDS_BUILD_ERROR/Company.md>)
+  - [Community](<./INTERNAL_MICROFRONTENDS_BUILD_ERROR/Community.md>)

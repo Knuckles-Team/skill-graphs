@@ -1,0 +1,137 @@
+  * Pricing
+Expand menu
+    * [Plans](https://vercel.com/docs/plans)
+Expand menu
+      * [Hobby Plan](https://vercel.com/docs/plans/hobby)
+      * [Pro Plan](https://vercel.com/docs/plans/pro-plan)
+Expand menu
+        * [Pro Plan Trial](https://vercel.com/docs/plans/pro-plan/trials)
+        * [Billing FAQ](https://vercel.com/docs/plans/pro-plan/billing)
+      * [Enterprise Plan](https://vercel.com/docs/plans/enterprise)
+Expand menu
+        * [Billing FAQ](https://vercel.com/docs/plans/enterprise/billing)
+        * [MIUs for AI](https://vercel.com/docs/plans/enterprise/buy-with-miu)
+    * [Pricing](https://vercel.com/docs/pricing)
+Expand menu
+      * [Regional Pricing](https://vercel.com/docs/pricing/regional-pricing)
+Expand menu
+        * [Cape Town, South Africa (cpt1)](https://vercel.com/docs/pricing/regional-pricing/cpt1)
+        * [Cleveland, USA (cle1)](https://vercel.com/docs/pricing/regional-pricing/cle1)
+        * [Dubai, UAE (dxb1)](https://vercel.com/docs/pricing/regional-pricing/dxb1)
+        * [Dublin, Ireland (dub1)](https://vercel.com/docs/pricing/regional-pricing/dub1)
+        * [Frankfurt, Germany (fra1)](https://vercel.com/docs/pricing/regional-pricing/fra1)
+        * [Hong Kong (hkg1)](https://vercel.com/docs/pricing/regional-pricing/hkg1)
+        * [London, UK (lhr1)](https://vercel.com/docs/pricing/regional-pricing/lhr1)
+        * [Montréal, Canada (yul1)](https://vercel.com/docs/pricing/regional-pricing/yul1)
+        * [Mumbai, India (bom1)](https://vercel.com/docs/pricing/regional-pricing/bom1)
+        * [Osaka, Japan (kix1)](https://vercel.com/docs/pricing/regional-pricing/kix1)
+        * [Paris, France (cdg1)](https://vercel.com/docs/pricing/regional-pricing/cdg1)
+        * [Portland, USA (pdx1)](https://vercel.com/docs/pricing/regional-pricing/pdx1)
+        * [San Francisco, USA (sfo1)](https://vercel.com/docs/pricing/regional-pricing/sfo1)
+        * [São Paulo, Brazil (gru1)](https://vercel.com/docs/pricing/regional-pricing/gru1)
+        * [Seoul, South Korea (icn1)](https://vercel.com/docs/pricing/regional-pricing/icn1)
+        * [Singapore (sin1)](https://vercel.com/docs/pricing/regional-pricing/sin1)
+        * [Stockholm, Sweden (arn1)](https://vercel.com/docs/pricing/regional-pricing/arn1)
+        * [Sydney, Australia (syd1)](https://vercel.com/docs/pricing/regional-pricing/syd1)
+        * [Tokyo, Japan (hnd1)](https://vercel.com/docs/pricing/regional-pricing/hnd1)
+        * [Washington D.C., USA (iad1)](https://vercel.com/docs/pricing/regional-pricing/iad1)
+      * [Manage and Optimize Usage](https://vercel.com/docs/pricing/manage-and-optimize-usage)
+      * [Calculating Usage of Resources](https://vercel.com/docs/pricing/how-does-vercel-calculate-usage-of-resources)
+      * [Billing & Invoices](https://vercel.com/docs/pricing/understanding-my-invoice)
+      * [Legacy Metrics](https://vercel.com/docs/pricing/legacy)
+      * [Taxes](https://vercel.com/docs/pricing/taxes)
+    * [Spend Management](https://vercel.com/docs/spend-management)
+  * Security
+Expand menu
+    * [Overview](https://vercel.com/docs/security)
+Expand menu
+      * [Security & Compliance Measures](https://vercel.com/docs/security/compliance)
+      * [Shared Responsibility Model](https://vercel.com/docs/security/shared-responsibility)
+      * [PCI DSS iframe Integration](https://vercel.com/docs/security/pci-dss)
+      * [Reverse Proxy Servers and Vercel](https://vercel.com/docs/security/reverse-proxy)
+      * [Access Control](https://vercel.com/docs/security/access-control)
+    * [Audit Logs](https://vercel.com/docs/audit-log)
+    * [Firewall](https://vercel.com/docs/vercel-firewall)
+Expand menu
+      * [Firewall Concepts](https://vercel.com/docs/vercel-firewall/firewall-concepts)
+      * [DDoS Mitigation](https://vercel.com/docs/vercel-firewall/ddos-mitigation)
+      * [Attack Challenge Mode](https://vercel.com/docs/vercel-firewall/attack-challenge-mode)
+      * [Web Application Firewall](https://vercel.com/docs/vercel-firewall/vercel-waf)
+Expand menu
+        * [Custom Rules](https://vercel.com/docs/vercel-firewall/vercel-waf/custom-rules)
+        * [Rate Limiting](https://vercel.com/docs/vercel-firewall/vercel-waf/rate-limiting)
+        * [Rule Configuration](https://vercel.com/docs/vercel-firewall/vercel-waf/rule-configuration)
+        * [System Bypass Rules](https://vercel.com/docs/vercel-firewall/vercel-waf/system-bypass-rules)
+        * [Rate Limiting SDK](https://vercel.com/docs/vercel-firewall/vercel-waf/rate-limiting-sdk)
+        * [IP Blocking](https://vercel.com/docs/vercel-firewall/vercel-waf/ip-blocking)
+        * [WAF Managed Rulesets](https://vercel.com/docs/vercel-firewall/vercel-waf/managed-rulesets)
+        * [Examples](https://vercel.com/docs/vercel-firewall/vercel-waf/examples)
+        * [Usage & Pricing](https://vercel.com/docs/vercel-firewall/vercel-waf/usage-and-pricing)
+      * [Firewall API](https://vercel.com/docs/vercel-firewall/firewall-api)
+      * [Firewall Observability](https://vercel.com/docs/vercel-firewall/firewall-observability)
+    * [Bot Management](https://vercel.com/docs/bot-management)
+    * [BotID](https://vercel.com/docs/botid)
+Expand menu
+      * [Get Started with BotID](https://vercel.com/docs/botid/get-started)
+      * [Handling Verified Bots](https://vercel.com/docs/botid/verified-bots)
+      * [Advanced BotID Configuration](https://vercel.com/docs/botid/advanced-configuration)
+      * [Form Submissions](https://vercel.com/docs/botid/form-submissions)
+      * [Local Development Behavior](https://vercel.com/docs/botid/local-development-behavior)
+    * [Connectivity](https://vercel.com/docs/connectivity)
+Expand menu
+      * [Secure Compute](https://vercel.com/docs/connectivity/secure-compute)
+      * [Static IPs](https://vercel.com/docs/connectivity/static-ips)
+Expand menu
+        * [Getting Started](https://vercel.com/docs/connectivity/static-ips/getting-started)
+    * [OIDC](https://vercel.com/docs/oidc)
+Expand menu
+      * [AWS](https://vercel.com/docs/oidc/aws)
+      * [Azure](https://vercel.com/docs/oidc/azure)
+      * [Connect your API](https://vercel.com/docs/oidc/api)
+      * [Google Cloud Platform](https://vercel.com/docs/oidc/gcp)
+      * [OIDC Reference](https://vercel.com/docs/oidc/reference)
+    * [RBAC](https://vercel.com/docs/rbac)
+Expand menu
+      * [Access Roles](https://vercel.com/docs/rbac/access-roles)
+Expand menu
+        * [Extended Permissions](https://vercel.com/docs/rbac/access-roles/extended-permissions)
+        * [Project Level Roles](https://vercel.com/docs/rbac/access-roles/project-level-roles)
+        * [Team Level Roles](https://vercel.com/docs/rbac/access-roles/team-level-roles)
+      * [Access Groups](https://vercel.com/docs/rbac/access-groups)
+      * [Managing Team Members](https://vercel.com/docs/rbac/managing-team-members)
+    * [Two-factor Enforcement](https://vercel.com/docs/two-factor-enforcement)
+  * Storage
+Expand menu
+    * [Overview](https://vercel.com/docs/storage)
+    * [Blob](https://vercel.com/docs/vercel-blob)
+Expand menu
+      * [Private Storagebeta](https://vercel.com/docs/vercel-blob/private-storage)
+      * [Public Storage](https://vercel.com/docs/vercel-blob/public-storage)
+      * [Server Uploads](https://vercel.com/docs/vercel-blob/server-upload)
+      * [Client Uploads](https://vercel.com/docs/vercel-blob/client-upload)
+      * [Using the SDK](https://vercel.com/docs/vercel-blob/using-blob-sdk)
+      * [Pricing](https://vercel.com/docs/vercel-blob/usage-and-pricing)
+      * [Security](https://vercel.com/docs/vercel-blob/security)
+      * [Examples](https://vercel.com/docs/vercel-blob/examples)
+      * [Manage Vercel Blob Storage](https://vercel.com/docs/vercel-blob/manage-blob-storage)
+    * [Edge Config](https://vercel.com/docs/edge-config)
+Expand menu
+      * [Getting Started](https://vercel.com/docs/edge-config/get-started)
+      * [Using Edge Config](https://vercel.com/docs/edge-config/using-edge-config)
+      * [Edge Configs & REST API](https://vercel.com/docs/edge-config/vercel-api)
+      * [Edge Configs & Dashboard](https://vercel.com/docs/edge-config/edge-config-dashboard)
+      * [Edge Config SDK](https://vercel.com/docs/edge-config/edge-config-sdk)
+      * [Limits & Pricing](https://vercel.com/docs/edge-config/edge-config-limits)
+      * [Integrations](https://vercel.com/docs/edge-config/edge-config-integrations)
+Expand menu
+        * [DevCycle](https://vercel.com/docs/edge-config/edge-config-integrations/devcycle-edge-config)
+        * [Hypertune](https://vercel.com/docs/edge-config/edge-config-integrations/hypertune-edge-config)
+        * [LaunchDarkly](https://vercel.com/docs/edge-config/edge-config-integrations/launchdarkly-edge-config)
+        * [Split](https://vercel.com/docs/edge-config/edge-config-integrations/split-edge-config)
+        * [Statsig](https://vercel.com/docs/edge-config/edge-config-integrations/statsig-edge-config)
+    * [Marketplace](https://vercel.com/docs/marketplace-storage)
+
+
+[Firewall](https://vercel.com/docs/vercel-firewall)
+[Web Application Firewall](https://vercel.com/docs/vercel-firewall/vercel-waf)
+Rule Configuration

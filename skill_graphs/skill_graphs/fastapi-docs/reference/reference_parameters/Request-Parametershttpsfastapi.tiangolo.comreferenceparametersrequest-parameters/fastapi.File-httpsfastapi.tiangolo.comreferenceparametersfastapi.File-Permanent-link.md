@@ -702,3 +702,7 @@ def File(  # noqa: N802
 ```
 
 ---|---
+[ Previous  FastAPI class  ](https://fastapi.tiangolo.com/reference/fastapi/) [ Next  Status Codes  ](https://fastapi.tiangolo.com/reference/status/)
+The FastAPI trademark is owned by [@tiangolo](https://tiangolo.com) and is registered in the US and across other regions
+Made with
+[ ](https://tiangolo.com "tiangolo.com")

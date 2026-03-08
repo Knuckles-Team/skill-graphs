@@ -1,0 +1,4 @@
+# Linking and Navigating
+Last updated February 27, 2026
+In Next.js, routes are rendered on the server by default. This often means the client has to wait for a server response before a new route can be shown. Next.js comes with built-in [prefetching](https://nextjs.org/docs/app/getting-started/linking-and-navigating#prefetching), [streaming](https://nextjs.org/docs/app/getting-started/linking-and-navigating#streaming), and [client-side transitions](https://nextjs.org/docs/app/getting-started/linking-and-navigating#client-side-transitions) ensuring navigation stays fast and responsive.
+This guide explains how navigation works in Next.js and how you can optimize it for [dynamic routes](https://nextjs.org/docs/app/getting-started/linking-and-navigating#dynamic-routes-without-loadingtsx) and [slow networks](https://nextjs.org/docs/app/getting-started/linking-and-navigating#slow-networks).

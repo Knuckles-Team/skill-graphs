@@ -1,0 +1,21 @@
+# File-system conventions
+Last updated February 27, 2026
+### [default.js API Reference for the default.js file.](https://nextjs.org/docs/app/api-reference/file-conventions/default)### [Dynamic Segments Dynamic Route Segments can be used to programmatically generate route segments from dynamic data.](https://nextjs.org/docs/app/api-reference/file-conventions/dynamic-routes)### [error.js API reference for the error.js special file.](https://nextjs.org/docs/app/api-reference/file-conventions/error)### [forbidden.js API reference for the forbidden.js special file.](https://nextjs.org/docs/app/api-reference/file-conventions/forbidden)### [instrumentation.js API reference for the instrumentation.js file.](https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation)### [instrumentation-client.js Learn how to add client-side instrumentation to track and monitor your Next.js application's frontend performance.](https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client)### [Intercepting Routes Use intercepting routes to load a new route within the current layout while masking the browser URL, useful for advanced routing patterns such as modals.](https://nextjs.org/docs/app/api-reference/file-conventions/intercepting-routes)### [layout.js API reference for the layout.js file.](https://nextjs.org/docs/app/api-reference/file-conventions/layout)### [loading.js API reference for the loading.js file.](https://nextjs.org/docs/app/api-reference/file-conventions/loading)### [mdx-components.js API reference for the mdx-components.js file.](https://nextjs.org/docs/app/api-reference/file-conventions/mdx-components)### [not-found.js API reference for the not-found.js file.](https://nextjs.org/docs/app/api-reference/file-conventions/not-found)### [page.js API reference for the page.js file.](https://nextjs.org/docs/app/api-reference/file-conventions/page)### [Parallel Routes Simultaneously render one or more pages in the same view that can be navigated independently. A pattern for highly dynamic applications.](https://nextjs.org/docs/app/api-reference/file-conventions/parallel-routes)### [proxy.js API reference for the proxy.js file.](https://nextjs.org/docs/app/api-reference/file-conventions/proxy)### [public Next.js allows you to serve static files, like images, in the public directory. You can learn how it works here.](https://nextjs.org/docs/app/api-reference/file-conventions/public-folder)### [route.js API reference for the route.js special file.](https://nextjs.org/docs/app/api-reference/file-conventions/route)### [Route Groups Route Groups can be used to partition your Next.js application into different sections.](https://nextjs.org/docs/app/api-reference/file-conventions/route-groups)### [Route Segment Config Learn about how to configure options for Next.js route segments.](https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config)### [src Save pages under the `src` folder as an alternative to the root `pages` directory.](https://nextjs.org/docs/app/api-reference/file-conventions/src-folder)### [template.js API Reference for the template.js file.](https://nextjs.org/docs/app/api-reference/file-conventions/template)### [unauthorized.js API reference for the unauthorized.js special file.](https://nextjs.org/docs/app/api-reference/file-conventions/unauthorized)### [Metadata Files API documentation for the metadata file conventions.](https://nextjs.org/docs/app/api-reference/file-conventions/metadata)
+[PreviousScript Component](https://nextjs.org/docs/app/api-reference/components/script)[Nextdefault.js](https://nextjs.org/docs/app/api-reference/file-conventions/default)
+Was this helpful?
+Send
+* * *
+* * *
+#### Resources
+[Docs](https://nextjs.org/docs)[Support Policy](https://nextjs.org/support-policy)[Learn](https://nextjs.org/learn)[Showcase](https://nextjs.org/showcase)[Blog](https://nextjs.org/blog)[Team](https://nextjs.org/team)[Next.js Conf](https://nextjs.org/conf)[Evals](https://nextjs.org/evals)
+#### More
+[Telemetry](https://nextjs.org/telemetry)[Governance](https://nextjs.org/governance)
+#### About Vercel
+#### Legal
+Cookie Preferences
+#### Subscribe to our newsletter
+Stay updated on new releases and features, guides, and case studies.
+Subscribe
+© 2026 Vercel, Inc.
+* * *
+* * *

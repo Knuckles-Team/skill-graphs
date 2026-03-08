@@ -1,0 +1,4 @@
+# Managing DNS Records
+Last updated November 25, 2025
+Once you've added a domain and it's using Vercel's nameservers, you can view its DNS records from your team's [Domains page](https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fdomains&title=Go+to+team%27s+domains+page). From there, you can view, [add](https://vercel.com/docs/domains/managing-dns-records#adding-dns-records), [verify](https://vercel.com/docs/domains/managing-dns-records#verifying-dns-records), [remove the records](https://vercel.com/docs/domains/managing-dns-records#removing-dns-records), or add [presets](https://vercel.com/docs/domains/managing-dns-records#dns-presets).
+To make sure DNS records are applied, and to allow you to manage them, your domain needs to use [Vercel's nameservers](https://vercel.com/docs/domains/managing-nameservers) . If you are using a third-party domain, you will be provided with the Vercel nameservers to copy and use with your registrar.

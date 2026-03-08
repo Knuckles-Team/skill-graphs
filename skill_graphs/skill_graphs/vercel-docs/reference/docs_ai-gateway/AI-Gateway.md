@@ -1,0 +1,5 @@
+# AI Gateway
+Last updated February 9, 2026
+AI Gateway is available on [all plans](https://vercel.com/docs/plans) . Your use of each AI provider is subject to their terms listed on each model's page and subject to Vercel's [AI Product Terms](https://vercel.com/legal/ai-product-terms).
+The [AI Gateway](https://vercel.com/ai-gateway) provides a unified API to access [hundreds of models](https://vercel.com/ai-gateway/models) through a single endpoint. It gives you the ability to set budgets, monitor usage, load-balance requests, and manage fallbacks.
+The design allows it to work seamlessly with [AI SDK v5 and v6](https://vercel.com/docs/ai-gateway/getting-started), [OpenAI Chat Completions](https://vercel.com/docs/ai-gateway/sdks-and-apis/openai-chat-completions), [OpenAI Responses](https://vercel.com/docs/ai-gateway/sdks-and-apis/responses), [Anthropic Messages](https://vercel.com/docs/ai-gateway/sdks-and-apis/anthropic-messages-api), or your [preferred framework](https://vercel.com/docs/ai-gateway/ecosystem/framework-integrations).

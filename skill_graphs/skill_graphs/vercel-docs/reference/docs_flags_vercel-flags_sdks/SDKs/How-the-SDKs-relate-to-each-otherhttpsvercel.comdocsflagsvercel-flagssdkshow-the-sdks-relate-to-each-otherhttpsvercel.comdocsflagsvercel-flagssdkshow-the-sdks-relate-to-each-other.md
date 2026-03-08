@@ -1,0 +1,4 @@
+##  [How the SDKs relate to each other](https://vercel.com/docs/flags/vercel-flags/sdks#how-the-sdks-relate-to-each-other)[](https://vercel.com/docs/flags/vercel-flags/sdks#how-the-sdks-relate-to-each-other)
+The Flags SDK and OpenFeature are both provider-agnostic — they don't evaluate flags themselves, but instead delegate to a provider. The `@vercel/flags-core` library is that provider for Vercel Flags.
+The difference between the Flags SDK and OpenFeature is scope. The Flags SDK is designed for specific frameworks like Next.js and SvelteKit, so it can offer deeper integrations like Flags Explorer and precomputation. OpenFeature is a broader standard that works across languages and frameworks, but leaves those framework-specific capabilities to you.
+Both have adapters that connect them to `@vercel/flags-core`: `@flags-sdk/vercel` for the Flags SDK, and `@vercel/flags-core/openfeature` for OpenFeature.

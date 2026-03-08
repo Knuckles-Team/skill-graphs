@@ -107,7 +107,7 @@ The aim of this guide is to help you understand how logs are generated, so as to
 **Read Also** : [4 Good Open Source Log Monitoring and Management Tools for Linux](https://www.tecmint.com/best-linux-log-monitoring-and-management-tools/)
 This article is made of three sections which will enlighten you about configuring **access/error logs** and how to enable conditional logging in Nginx.
 ### Configuring Access Logs in Nginx
-Under **Nginx** , all client requests to the server are recored in the **access log** in a specified format using the **ngx_http_log_module** module.
+Under **Nginx** , all client requests to the server are recorded in the **access log** in a specified format using the **ngx_http_log_module** module.
 The default log file is **log/access.log** (usually **/var/log/nginx/access_log** on Linux systems) and the default format for logging is normally the combined or main format (this can vary from one distro to another).
 The **access_log** directive (applicable in the http, server, location, if in location and limit except context) is used to set the log file and the **log_format** directive (applicable under the http context only) is used to set the log format. The log format is described by common variables, and variables that generated only at the time when a log is written.
 The syntax for configuring a log format is:

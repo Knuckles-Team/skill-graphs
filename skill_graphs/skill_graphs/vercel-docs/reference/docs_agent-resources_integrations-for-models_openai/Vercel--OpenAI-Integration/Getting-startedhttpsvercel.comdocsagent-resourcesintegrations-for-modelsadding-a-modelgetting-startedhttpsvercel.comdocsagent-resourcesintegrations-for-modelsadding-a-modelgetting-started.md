@@ -1,0 +1,3 @@
+##  [Getting started](https://vercel.com/docs/agent-resources/integrations-for-models/adding-a-model#getting-started)[](https://vercel.com/docs/agent-resources/integrations-for-models/adding-a-model#getting-started)
+To help you get started, we have built a [variety of AI templates](https://vercel.com/templates/ai) integrating OpenAI with Vercel.
+[![Chatbot](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F4cmiDM859wtut7XeG0iFYq%2F953f071e4556b8a07bcab042f3a08db3%2FUntitled_design__17_.png&w=3840&q=75) Chatbot A full-featured, hackable Next.js AI chatbot built by Vercel ](https://vercel.com/templates/next.js/chatbot)

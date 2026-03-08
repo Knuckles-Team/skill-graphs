@@ -1,0 +1,247 @@
+# [Path](https://doc.rust-lang.org/rust-by-example/print.html#path)
+The `Path` type represents file paths in the underlying filesystem. Across all platforms there is a single `std::path::Path` that abstracts over platform-specific path semantics and separators. Bring it into scope with `use std::path::Path;` when needed.
+A `Path` can be created from an `OsStr`, and provides several methods to get information from the file/directory the path points to.
+A `Path` is immutable. The owned version of `Path` is `PathBuf`. The relation between `Path` and `PathBuf` is similar to that of `str` and `String`: a `PathBuf` can be mutated in-place, and can be dereferenced to a `Path`.
+Note that a `Path` is _not_ internally represented as an UTF-8 string, but instead is stored as an `OsString`. Therefore, converting a `Path` to a `&str` is _not_ free and may fail (an `Option` is returned). However, a `Path` can be freely converted to an `OsString` or `&OsStr` using `into_os_string` and `as_os_str`, respectively.
+```
+
+
+__
+
+
+
+1
+
+
+
+2
+
+
+
+3
+
+
+
+4
+
+
+
+5
+
+
+
+6
+
+
+
+7
+
+
+
+8
+
+
+
+9
+
+
+
+10
+
+
+
+11
+
+
+
+12
+
+
+
+13
+
+
+
+14
+
+
+
+15
+
+
+
+16
+
+
+
+17
+
+
+
+18
+
+
+
+19
+
+
+
+20
+
+
+
+21
+
+
+
+22
+
+
+
+23
+
+
+
+24
+
+
+
+25
+
+
+
+26
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+use std::path::Path;
+
+
+
+
+
+
+fn main() {
+
+
+
+    // Create a `Path` from an `&'static str`
+
+
+
+    let path = Path::new(".");
+
+
+
+
+
+    // The `display` method returns a `Display`able structure
+
+
+
+    let _display = path.display();
+
+
+
+
+
+    // `join` merges a path with a byte container using the OS specific
+
+
+
+    // separator, and returns a `PathBuf`
+
+
+
+    let mut new_path = path.join("a").join("b");
+
+
+
+
+
+    // `push` extends the `PathBuf` with a `&Path`
+
+
+
+    new_path.push("c");
+
+
+
+    new_path.push("myfile.tar.gz");
+
+
+
+
+
+    // `set_file_name` updates the file name of the `PathBuf`
+
+
+
+    new_path.set_file_name("package.tgz");
+
+
+
+
+
+    // Convert the `PathBuf` into a string slice
+
+
+
+    match new_path.to_str() {
+
+
+
+
+        None => panic!("new path is not a valid UTF-8 sequence"),
+
+
+
+
+        Some(s) => println!("new path is {}", s),
+
+
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+הההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההה
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+```
+
+Be sure to check other `Path` methods and the `Metadata` struct.
+### [See also:](https://doc.rust-lang.org/rust-by-example/print.html#see-also-74)
+[OsStr](https://doc.rust-lang.org/std/ffi/struct.OsStr.html) and [Metadata](https://doc.rust-lang.org/std/fs/struct.Metadata.html).

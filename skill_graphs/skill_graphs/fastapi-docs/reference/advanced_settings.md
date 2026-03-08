@@ -240,7 +240,7 @@ First, make sure you create your [virtual environment](https://fastapi.tiangolo.
 ```
 pip install pydantic-settings
 
-pip install pydantic-settings█████████████ 33%
+pip install pydantic-settings███████ 18%
 
 
 ```
@@ -249,7 +249,7 @@ It also comes included when you install the `all` extras with:
 ```
 pip install "fastapi[all]"
 
-pip install "fastapi[all]"█████████████ 33%
+pip install "fastapi[all]"██████████ 25%
 
 
 ```
@@ -320,7 +320,7 @@ async def info():
 Next, you would run the server passing the configurations as environment variables, for example you could set an `ADMIN_EMAIL` and `APP_NAME` with:
 ```
 ADMIN_EMAIL="deadpool@example.com" APP_NAME="ChimichangApp" fastapi run main.py
-ADMIN_EMAIL="deadpool@example.com" APP_NAME=
+ADMIN_EMAIL="deadpool@example.com" APP_NAM
 
 ```
 

@@ -1,0 +1,36 @@
+## Reading and writing compressed files[¶](https://docs.python.org/3/library/compression.zstd.html#reading-and-writing-compressed-files "Link to this heading")
+
+compression.zstd.open(_file_ , _/_ , _mode ='rb'_, _*_ , _level =None_, _options =None_, _zstd_dict =None_, _encoding =None_, _errors =None_, _newline =None_)[¶](https://docs.python.org/3/library/compression.zstd.html#compression.zstd.open "Link to this definition")
+
+Open a Zstandard-compressed file in binary or text mode, returning a [file object](https://docs.python.org/3/glossary.html#term-file-object).
+The _file_ argument can be either a file name (given as a [`str`](https://docs.python.org/3/library/stdtypes.html#str "str"), [`bytes`](https://docs.python.org/3/library/stdtypes.html#bytes "bytes") or [path-like](https://docs.python.org/3/glossary.html#term-path-like-object) object), in which case the named file is opened, or it can be an existing file object to read from or write to.
+The mode argument can be either `'rb'` for reading (default), `'wb'` for overwriting, `'ab'` for appending, or `'xb'` for exclusive creation. These can equivalently be given as `'r'`, `'w'`, `'a'`, and `'x'` respectively. You may also open in text mode with `'rt'`, `'wt'`, `'at'`, and `'xt'` respectively.
+When reading, the _options_ argument can be a dictionary providing advanced decompression parameters; see [`DecompressionParameter`](https://docs.python.org/3/library/compression.zstd.html#compression.zstd.DecompressionParameter "compression.zstd.DecompressionParameter") for detailed information about supported parameters. The _zstd_dict_ argument is a [`ZstdDict`](https://docs.python.org/3/library/compression.zstd.html#compression.zstd.ZstdDict "compression.zstd.ZstdDict") instance to be used during decompression. When reading, if the _level_ argument is not None, a `TypeError` will be raised.
+When writing, the _options_ argument can be a dictionary providing advanced compression parameters; see [`CompressionParameter`](https://docs.python.org/3/library/compression.zstd.html#compression.zstd.CompressionParameter "compression.zstd.CompressionParameter") for detailed information about supported parameters. The _level_ argument is the compression level to use when writing compressed data. Only one of _level_ or _options_ may be non-None. The _zstd_dict_ argument is a [`ZstdDict`](https://docs.python.org/3/library/compression.zstd.html#compression.zstd.ZstdDict "compression.zstd.ZstdDict") instance to be used during compression.
+In binary mode, this function is equivalent to the [`ZstdFile`](https://docs.python.org/3/library/compression.zstd.html#compression.zstd.ZstdFile "compression.zstd.ZstdFile") constructor: `ZstdFile(file, mode, ...)`. In this case, the _encoding_ , _errors_ , and _newline_ parameters must not be provided.
+In text mode, a [`ZstdFile`](https://docs.python.org/3/library/compression.zstd.html#compression.zstd.ZstdFile "compression.zstd.ZstdFile") object is created, and wrapped in an [`io.TextIOWrapper`](https://docs.python.org/3/library/io.html#io.TextIOWrapper "io.TextIOWrapper") instance with the specified encoding, error handling behavior, and line endings.
+
+_class_ compression.zstd.ZstdFile(_file_ , _/_ , _mode ='rb'_, _*_ , _level =None_, _options =None_, _zstd_dict =None_)[¶](https://docs.python.org/3/library/compression.zstd.html#compression.zstd.ZstdFile "Link to this definition")
+
+Open a Zstandard-compressed file in binary mode.
+A `ZstdFile` can wrap an already-open [file object](https://docs.python.org/3/glossary.html#term-file-object), or operate directly on a named file. The _file_ argument specifies either the file object to wrap, or the name of the file to open (as a [`str`](https://docs.python.org/3/library/stdtypes.html#str "str"), [`bytes`](https://docs.python.org/3/library/stdtypes.html#bytes "bytes") or [path-like](https://docs.python.org/3/glossary.html#term-path-like-object) object). If wrapping an existing file object, the wrapped file will not be closed when the `ZstdFile` is closed.
+The _mode_ argument can be either `'rb'` for reading (default), `'wb'` for overwriting, `'xb'` for exclusive creation, or `'ab'` for appending. These can equivalently be given as `'r'`, `'w'`, `'x'` and `'a'` respectively.
+If _file_ is a file object (rather than an actual file name), a mode of `'w'` does not truncate the file, and is instead equivalent to `'a'`.
+When reading, the _options_ argument can be a dictionary providing advanced decompression parameters; see [`DecompressionParameter`](https://docs.python.org/3/library/compression.zstd.html#compression.zstd.DecompressionParameter "compression.zstd.DecompressionParameter") for detailed information about supported parameters. The _zstd_dict_ argument is a [`ZstdDict`](https://docs.python.org/3/library/compression.zstd.html#compression.zstd.ZstdDict "compression.zstd.ZstdDict") instance to be used during decompression. When reading, if the _level_ argument is not None, a `TypeError` will be raised.
+When writing, the _options_ argument can be a dictionary providing advanced compression parameters; see [`CompressionParameter`](https://docs.python.org/3/library/compression.zstd.html#compression.zstd.CompressionParameter "compression.zstd.CompressionParameter") for detailed information about supported parameters. The _level_ argument is the compression level to use when writing compressed data. Only one of _level_ or _options_ may be passed. The _zstd_dict_ argument is a [`ZstdDict`](https://docs.python.org/3/library/compression.zstd.html#compression.zstd.ZstdDict "compression.zstd.ZstdDict") instance to be used during compression.
+`ZstdFile` supports all the members specified by [`io.BufferedIOBase`](https://docs.python.org/3/library/io.html#io.BufferedIOBase "io.BufferedIOBase"), except for [`detach()`](https://docs.python.org/3/library/io.html#io.BufferedIOBase.detach "io.BufferedIOBase.detach") and [`truncate()`](https://docs.python.org/3/library/io.html#io.IOBase.truncate "io.IOBase.truncate"). Iteration and the [`with`](https://docs.python.org/3/reference/compound_stmts.html#with) statement are supported.
+The following method and attributes are also provided:
+
+peek(_size =-1_)[¶](https://docs.python.org/3/library/compression.zstd.html#compression.zstd.ZstdFile.peek "Link to this definition")
+
+Return buffered data without advancing the file position. At least one byte of data will be returned, unless EOF has been reached. The exact number of bytes returned is unspecified (the _size_ argument is ignored).
+Note
+While calling `peek()` does not change the file position of the `ZstdFile`, it may change the position of the underlying file object (for example, if the `ZstdFile` was constructed by passing a file object for _file_).
+
+mode[¶](https://docs.python.org/3/library/compression.zstd.html#compression.zstd.ZstdFile.mode "Link to this definition")
+
+`'rb'` for reading and `'wb'` for writing.
+
+name[¶](https://docs.python.org/3/library/compression.zstd.html#compression.zstd.ZstdFile.name "Link to this definition")
+
+The name of the Zstandard file. Equivalent to the [`name`](https://docs.python.org/3/library/io.html#io.FileIO.name "io.FileIO.name") attribute of the underlying [file object](https://docs.python.org/3/glossary.html#term-file-object).

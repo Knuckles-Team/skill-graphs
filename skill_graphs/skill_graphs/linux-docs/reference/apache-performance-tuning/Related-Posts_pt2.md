@@ -97,7 +97,7 @@ Quite a noticeable mistake for a Linux guru.
 Tamilselvi
 [ October 30, 2013 at 2:57 pm  ](https://www.tecmint.com/command-line-tools-to-monitor-linux-performance/#comment-63330)
 Hi ,
-Please suggest me the list of tools to monitor the performance of the Linux Sever. Open source will be prefered.
+Please suggest me the list of tools to monitor the performance of the Linux Sever. Open source will be preferred.
 Awaiting for the reply..
 Thanks in advance.
 [Reply](https://www.tecmint.com/command-line-tools-to-monitor-linux-performance/#comment-63330)
@@ -182,7 +182,7 @@ Yizhar
 [ June 26, 2013 at 3:36 pm  ](https://www.tecmint.com/command-line-tools-to-monitor-linux-performance/#comment-29779)
 One of the best post in this subject weel done Ravi :)
 I used for quit long some of this: htop, iptraf, nmon (should added as some of the guys
-said) and other genral cmd like: netstat, vmstat, sar, dig, traceroute (should added, default in Red Hat & SuSE).
+said) and other general cmd like: netstat, vmstat, sar, dig, traceroute (should added, default in Red Hat & SuSE).
 Today I added to my arsenal he above: iotop, dstat, nethogs, iftop, monit.
 Suggesting some other free stuff (some are built-in in distrebutions like: Ubuntu/mint, Fedora, SuSE and other but not in Red Hat 5 and below for example):
 mtr – Monitor network TRaffice.
@@ -307,4 +307,4 @@ If you can run the command locally, you should be able to create a plugin for Na
      * ![](https://secure.gravatar.com/avatar/beff308977b5c68538be918b1828c21125c244308ff91c6900aab05a2cf30002?s=50&d=blank&r=g)
 kevin
 [ January 16, 2014 at 11:17 am  ](https://www.tecmint.com/command-line-tools-to-monitor-linux-performance/#comment-107342)
-You could use SeaLion to do the work for you. Install the agent on all those systems once(and just one command too!! ) and you are good to go. Most of the default command would serve would be sufficient, but you still get to add any extra commands you want to run on all those servers. No need to ssh into all machines everytime.
+You could use SeaLion to do the work for you. Install the agent on all those systems once(and just one command too!! ) and you are good to go. Most of the default command would serve would be sufficient, but you still get to add any extra commands you want to run on all those servers. No need to ssh into all machines every time.

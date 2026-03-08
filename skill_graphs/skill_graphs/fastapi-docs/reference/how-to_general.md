@@ -202,5 +202,3 @@ To add metadata to your OpenAPI schema, including a license, version, contact, e
 To customize the OpenAPI URL (or remove it), read the docs for [Tutorial - Metadata and Docs URLs](https://fastapi.tiangolo.com/tutorial/metadata/#openapi-url).
 ## OpenAPI Docs URLs[¶](https://fastapi.tiangolo.com/how-to/general/#openapi-docs-urls)
 To update the URLs used for the automatically generated docs user interfaces, read the docs for [Tutorial - Metadata and Docs URLs](https://fastapi.tiangolo.com/tutorial/metadata/#docs-urls).
-### Metadata and Docs URLs[¶](https://fastapi.tiangolo.com/tutorial/metadata/#metadata-and-docs-urls "Permanent link")
-You can customize several metadata configurations in your **FastAPI** application.

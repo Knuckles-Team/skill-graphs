@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_ai-gateway_capabilities_reasoning_openai](<./docs_ai-gateway_capabilities_reasoning_openai.md>)
+- [OpenAI Reasoning](<./OpenAI-Reasoning.md>)
+  - [[Supported models](https://vercel.com/docs/ai-gateway/capabilities/reasoning/openai#supported-models)[](https://vercel.com/docs/ai-gateway/capabilities/reasoning/openai#supported-models)](<./OpenAI-Reasoning/Supported-modelshttpsvercel.comdocsai-gatewaycapabilitiesreasoningopenaisupported-modelshttpsvercel.comdocsai-gatewaycapabilitiesreasoningopenaisupported-models.md>)
+  - [[Getting started](https://vercel.com/docs/ai-gateway/capabilities/reasoning/openai#getting-started)[](https://vercel.com/docs/ai-gateway/capabilities/reasoning/openai#getting-started)](<./OpenAI-Reasoning/Getting-startedhttpsvercel.comdocsai-gatewaycapabilitiesreasoningopenaigetting-startedhttpsvercel.comdocsai-gatewaycapabilitiesreasoningopenaigetting-started.md>)
+  - [[Parameters](https://vercel.com/docs/ai-gateway/capabilities/reasoning/openai#parameters)[](https://vercel.com/docs/ai-gateway/capabilities/reasoning/openai#parameters)](<./OpenAI-Reasoning/Parametershttpsvercel.comdocsai-gatewaycapabilitiesreasoningopenaiparametershttpsvercel.comdocsai-gatewaycapabilitiesreasoningopenaiparameters.md>)
+  - [Get Started](<./OpenAI-Reasoning/Get-Started.md>)
+  - [Build](<./OpenAI-Reasoning/Build.md>)
+  - [Scale](<./OpenAI-Reasoning/Scale.md>)
+  - [Secure](<./OpenAI-Reasoning/Secure.md>)
+  - [Resources](<./OpenAI-Reasoning/Resources.md>)
+  - [Learn](<./OpenAI-Reasoning/Learn.md>)
+  - [Frameworks](<./OpenAI-Reasoning/Frameworks.md>)
+  - [SDKs](<./OpenAI-Reasoning/SDKs.md>)
+  - [Use Cases](<./OpenAI-Reasoning/Use-Cases.md>)
+  - [Company](<./OpenAI-Reasoning/Company.md>)
+  - [Community](<./OpenAI-Reasoning/Community.md>)

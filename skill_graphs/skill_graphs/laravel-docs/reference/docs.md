@@ -602,9 +602,9 @@ If this is how you plan to use Laravel, you may want to check out our documentat
     * [ Laravel the API Backend ](https://laravel.com/docs/12.x#laravel-the-api-backend)
 
 
-[ ![Laravel Nightwatch](https://laravel.com/images/ads/nightwatch-logo.svg) First-class monitoring and deep insights for Laravel apps Learn more  ](https://nightwatch.laravel.com)
 [ ![Laravel Forge](https://laravel.com/images/ads/forge-logo.svg) Server management made simple for any PHP app Learn more  ](https://forge.laravel.com)
 [ ![Laravel Cloud](https://laravel.com/images/ads/cloud-logo.svg) The fastest way to deploy and scale Laravel apps Learn more  ](https://cloud.laravel.com)
+[ ![Laravel Nightwatch](https://laravel.com/images/ads/nightwatch-logo.svg) First-class monitoring and deep insights for Laravel apps Learn more  ](https://nightwatch.laravel.com)
 [ ![Laravel Boost](https://laravel.com/images/ads/boost-logo.svg) Supercharge your AI development with essential context Learn more  ](https://laravel.com/ai/boost)
 Laravel is the most productive way to
 build, deploy, and monitor software.
@@ -650,12 +650,12 @@ build, deploy, and monitor software.
 
 
 ####  Partners
-  *   * [Curotec](https://partners.laravel.com/partners/curotec)
+  *   * [Redberry](https://partners.laravel.com/partners/redberry)
+  * [Curotec](https://partners.laravel.com/partners/curotec)
   * [Vehikl](https://partners.laravel.com/partners/vehikl)
-  * [Active Logic](https://partners.laravel.com/partners/active-logic)
-  * [byte5](https://partners.laravel.com/partners/byte5)
-  * [Redberry](https://partners.laravel.com/partners/redberry)
   * [Tighten](https://partners.laravel.com/partners/tighten)
-  * [Kirschbaum](https://partners.laravel.com/partners/kirschbaum)
   * [Jump24](https://partners.laravel.com/partners/jump24)
+  * [byte5](https://partners.laravel.com/partners/byte5)
+  * [Active Logic](https://partners.laravel.com/partners/active-logic)
+  * [Kirschbaum](https://partners.laravel.com/partners/kirschbaum)
   * [ More Partners ](https://partners.laravel.com)

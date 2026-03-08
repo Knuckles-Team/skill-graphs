@@ -34,7 +34,7 @@ My god, this was an atrociously-written article.
 [Reply](https://www.tecmint.com/why-i-hate-linux/#comment-820161)
   18. 1. You are right distribution fan.
 2. Really. (Natron, Lightworks, Open Scad, Blender) Yes I am aware of the problem output file standards that are closed and proprietary that makes them incompatible with open source programs.
-It doesn’t mean you cant use Linux as professional video audio or architecture creating kit. And i have no problem with android devices on my Linux sorry.
+It doesn’t mean you can't use Linux as professional video audio or architecture creating kit. And i have no problem with android devices on my Linux sorry.
 3. Its a problem of a user and individuals with self-esteem trying to build up their ego in general not an OS it self.
 4. I do not remember when I was forced to have to compile something from scratch. Yes compilation can be time consuming on older machines. And if you have old computer and you want it to be relatively you go minimal install and do much by hand as you are able to.
 It may be an advantage or a disadvantage depending on the ones point of view
@@ -71,7 +71,7 @@ Your question is valid, but to be fact I really don’t have answer for this, it
 [Reply](https://www.tecmint.com/why-i-hate-linux/#comment-737375)
          * I’m not really amazed if you aren’t getting along with people you call “Lintards”. Sure, you probably don’t say that to their faces, but they probably aren’t as stupid as you think. Your attitude comes through, it’s no wonder if they treat you like crap in return.
 [Reply](https://www.tecmint.com/why-i-hate-linux/#comment-938479)
-  22. Agree about the point 3. Gets on my nerves. Just cant stand the Lintards who think they have better technical knowledge, intelligence etc than me if they can recall a few obscure terminal commands.
+  22. Agree about the point 3. Gets on my nerves. Just can't stand the Lintards who think they have better technical knowledge, intelligence etc than me if they can recall a few obscure terminal commands.
 [Reply](https://www.tecmint.com/why-i-hate-linux/#comment-735373)
      * Being disrespectful is your right in a free and democratic society and I respect your freedom to say what you will, but if Lintards is the extent of your vocabulary to insult someone or anyone I feel sad for you.
 Respect costs nothing and it would seem I respect you more than you respect yourself.
@@ -102,7 +102,7 @@ Some of that software has no support in Mac either. Some Mac software isn’t av
 3. Linuxer have a habit of living in virtual world
 My mother in law lives in a virtual world? Really? This statement is just plain wrong? Was this article written a decade ago?
 4. The long hours of compilation and dependency resolution
-Again, is this article a decade old? I have been using Linux based OS’s for almost 10 years now and dependancy issues only crop up for development tools where it makes sense for this to happen. Another fallacious argument, sorry.
+Again, is this article a decade old? I have been using Linux based OS’s for almost 10 years now and dependency issues only crop up for development tools where it makes sense for this to happen. Another fallacious argument, sorry.
 5. Too much manual work
 Now I know this article is old. Your example of Nvidia driver .. I use the driver updates tool, select Nvidia, wait for install and restart. DONE! You could go the route of self-install if you want (again that pesky choice) but it’s just not necessary.
 [Reply](https://www.tecmint.com/why-i-hate-linux/#comment-691791)

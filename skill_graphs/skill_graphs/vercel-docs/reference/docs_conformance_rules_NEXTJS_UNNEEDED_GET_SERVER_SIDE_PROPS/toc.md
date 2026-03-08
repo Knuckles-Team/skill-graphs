@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [docs_conformance_rules_NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS](<./docs_conformance_rules_NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS.md>)
+- [NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS](<./NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS.md>)
+  - [[Example](https://vercel.com/docs/conformance/rules/NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS#example)[](https://vercel.com/docs/conformance/rules/NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS#example)](<./NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS/Examplehttpsvercel.comdocsconformancerulesNEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPSexamplehttpsvercel.comdocsconformancerulesNEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPSexample.md>)
+  - [[How to fix](https://vercel.com/docs/conformance/rules/NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS#how-to-fix)[](https://vercel.com/docs/conformance/rules/NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS#how-to-fix)](<./NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS/How-to-fixhttpsvercel.comdocsconformancerulesNEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPShow-to-fixhttpsvercel.comdocsconformancerulesNEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPShow-to-fix.md>)
+  - [Get Started](<./NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS/Get-Started.md>)
+  - [Build](<./NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS/Build.md>)
+  - [Scale](<./NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS/Scale.md>)
+  - [Secure](<./NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS/Secure.md>)
+  - [Resources](<./NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS/Resources.md>)
+  - [Learn](<./NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS/Learn.md>)
+  - [Frameworks](<./NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS/Frameworks.md>)
+  - [SDKs](<./NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS/SDKs.md>)
+  - [Use Cases](<./NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS/Use-Cases.md>)
+  - [Company](<./NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS/Company.md>)
+  - [Community](<./NEXTJS_UNNEEDED_GET_SERVER_SIDE_PROPS/Community.md>)

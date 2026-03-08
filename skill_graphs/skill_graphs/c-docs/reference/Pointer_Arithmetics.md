@@ -21,10 +21,10 @@
 
 
   * [Welcome](https://www.learn-c.org/en/Welcome) /
-  * Pointer Arithmetics
+  * Pointer Arithmetic
 
 
-# Pointer Arithmetics
+# Pointer Arithmetic
 * * *
 You previously learned what is a pointer and how to manipulate pointers. In this tutorial you will be learning the arithmetic operations on pointers. There are multiple arithmetic operations that can be applied on C pointers: ++, --, -, +
 ### Incrementing a Pointer with (++)
@@ -43,7 +43,7 @@ int main()
     int *intpointer = &intarray[3]; //point to the 4th element in the array
     printf("address: %x - has value %d\n", intpointer, *intpointer); //print the address of the 4th element
 
-    intpointer++; //now increase the pointer's address so it points to the 5th elemnt in the array
+    intpointer++; //now increase the pointer's address so it points to the 5th element in the array
     printf("address: %x - has value %d\n", intpointer, *intpointer); //print the address of the 5th element
 
     return 0;
@@ -92,7 +92,7 @@ int main()
     printf("address: %x - has value %d\n", intpointer, *intpointer); //print the address of the 2nd element
 
     intpointer += 2; //now shift by two the point's address so it points to the 4th element in the array
-    printf("address: %x - has value %d\n", intpointer, *intpointer); //print the addres of the 4th element
+    printf("address: %x - has value %d\n", intpointer, *intpointer); //print the address of the 4th element
 
     return 0;
 }
@@ -155,7 +155,7 @@ Copy last three addresses of intarray into parray which is an array of pointers 
 [Linked lists](https://www.learn-c.org/en/Linked_lists)
 [Binary trees](https://www.learn-c.org/en/Binary_trees)
 [Unions](https://www.learn-c.org/en/Unions)
-[Pointer Arithmetics](https://www.learn-c.org/en/Pointer_Arithmetics)
+[Pointer Arithmetic](https://www.learn-c.org/en/Pointer_Arithmetics)
 [Function Pointers](https://www.learn-c.org/en/Function_Pointers)
 [Bitmasks](https://www.learn-c.org/en/Bitmasks)
 [Contributing Tutorials](https://www.learn-c.org/en/Contributing_Tutorials)

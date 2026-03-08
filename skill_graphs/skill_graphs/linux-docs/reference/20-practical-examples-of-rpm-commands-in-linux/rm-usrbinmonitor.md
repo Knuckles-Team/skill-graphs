@@ -3,7 +3,7 @@
   65. ![](https://secure.gravatar.com/avatar/b7630566a0477f19e351c76679ff72ff716bf842deab26c8a7ff667b908f656b?s=50&d=blank&r=g)
 Cheta
 [ July 15, 2015 at 6:46 pm  ](https://www.tecmint.com/linux-server-health-monitoring-script/#comment-624806)
-How do i unistall it if i don’t want to use it
+How do i uninstall it if i don’t want to use it
 [Reply](https://www.tecmint.com/linux-server-health-monitoring-script/#comment-624806)
      * ![](https://secure.gravatar.com/avatar/9528d5c8e619e606a64aea49dc1fd2bb0c16e11cd9a9f326d934fb4629a6bd67?s=50&d=blank&r=g)
 Avishek Kumar
@@ -204,8 +204,8 @@ Pedro
 Hi,
 Didn’t worked properly in Centos:
 – no OS Name and Version
-– Outputs the erro in the free command (free: invalid option — ‘h’ …)
-– Als no Ram, Swap and Disk usages
+– Outputs the error in the free command (free: invalid option — ‘h’ …)
+– Also no Ram, Swap and Disk usages
 Regards
 [Reply](https://www.tecmint.com/linux-server-health-monitoring-script/#comment-574996)
      * ![](https://secure.gravatar.com/avatar/9528d5c8e619e606a64aea49dc1fd2bb0c16e11cd9a9f326d934fb4629a6bd67?s=50&d=blank&r=g)
@@ -247,7 +247,7 @@ well make curl to install automatically too.
      * ![](https://secure.gravatar.com/avatar/9528d5c8e619e606a64aea49dc1fd2bb0c16e11cd9a9f326d934fb4629a6bd67?s=50&d=blank&r=g)
 Avishek Kumar
 [ May 16, 2015 at 4:18 pm  ](https://www.tecmint.com/linux-server-health-monitoring-script/#comment-572871)
-@Subhranil Dey, Thanks for your feedback. We are working on the next version of this script where we would improved user’s experiance and add a few things. Keep Connected!
+@Subhranil Dey, Thanks for your feedback. We are working on the next version of this script where we would improved user’s experience and add a few things. Keep Connected!
 [Reply](https://www.tecmint.com/linux-server-health-monitoring-script/#comment-572871)
   82. ![](https://secure.gravatar.com/avatar/7bc74c1f32bc4b069c435d8b12b2d8b1a67f18d96c151a22dcab56c1a48dd358?s=50&d=blank&r=g)
 Gen

@@ -16,6 +16,7 @@
 
 
 #####  Actions[](https://en.cppreference.com/w/c/numeric.html)
+![ads via Carbon](https://ad.double-click.net/ddm/trackimp/N718679.452584BUYSELLADS.COM/B34445489.438308384;dc_trk_aid=631459208;dc_trk_cid=248949291;ord=177299883;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$;gdpr_consent=$;ltd=;dc_tdv=1)
 # Numerics
 From cppreference.com
 < [c](https://en.cppreference.com/w/c.html "c")

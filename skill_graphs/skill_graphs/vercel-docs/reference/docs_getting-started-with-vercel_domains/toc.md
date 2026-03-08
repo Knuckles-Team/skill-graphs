@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_getting-started-with-vercel_domains](<./docs_getting-started-with-vercel_domains.md>)
+- [Getting started with Vercel](<./Getting-started-with-Vercel.md>)
+  - [[Before you begin](https://vercel.com/docs/getting-started-with-vercel#before-you-begin)[](https://vercel.com/docs/getting-started-with-vercel#before-you-begin)](<./Getting-started-with-Vercel/Before-you-beginhttpsvercel.comdocsgetting-started-with-vercelbefore-you-beginhttpsvercel.comdocsgetting-started-with-vercelbefore-you-begin.md>)
+  - [[Customizing your journey](https://vercel.com/docs/getting-started-with-vercel#customizing-your-journey)[](https://vercel.com/docs/getting-started-with-vercel#customizing-your-journey)](<./Getting-started-with-Vercel/Customizing-your-journeyhttpsvercel.comdocsgetting-started-with-vercelcustomizing-your-journeyhttpsvercel.comdocsgetting-started-with-vercelcustomizing-your-journey.md>)
+- [Add a domain](<./Add-a-domain.md>)
+  - [Get Started](<./Add-a-domain/Get-Started.md>)
+  - [Build](<./Add-a-domain/Build.md>)
+  - [Scale](<./Add-a-domain/Scale.md>)
+  - [Secure](<./Add-a-domain/Secure.md>)
+  - [Resources](<./Add-a-domain/Resources.md>)
+  - [Learn](<./Add-a-domain/Learn.md>)
+  - [Frameworks](<./Add-a-domain/Frameworks.md>)
+  - [SDKs](<./Add-a-domain/SDKs.md>)
+  - [Use Cases](<./Add-a-domain/Use-Cases.md>)
+  - [Company](<./Add-a-domain/Company.md>)
+  - [Community](<./Add-a-domain/Community.md>)

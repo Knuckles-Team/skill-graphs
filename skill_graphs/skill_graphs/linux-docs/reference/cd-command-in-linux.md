@@ -155,7 +155,7 @@ $ ctop -h
 ```
 
 Note that connectors for other container and cluster systems are yet to be added to **ctop**. You can find more information from the
-**ctop** is a simple top-like tool for visualizing and monitoring container metrics in real-time. In this article, we’ve expalined how to install and use ctop in Linux. You can share your thoughts or ask any questions via the comment form below.
+**ctop** is a simple top-like tool for visualizing and monitoring container metrics in real-time. In this article, we’ve explained how to install and use ctop in Linux. You can share your thoughts or ask any questions via the comment form below.
 Tags [commandline tools](https://www.tecmint.com/tag/commandline-tools/), [Docker Tips](https://www.tecmint.com/tag/docker-tips/)
 💡 **Want to Level Up Your Linux Skills?**
 Check out [**Pro.Tecmint.com**](https://pro.tecmint.com) for **ad-free reading** , **exclusive guides** , **downloadable resources** , and **certification prep** (RHCSA, RHCE, LFCS) - all with lifetime access.

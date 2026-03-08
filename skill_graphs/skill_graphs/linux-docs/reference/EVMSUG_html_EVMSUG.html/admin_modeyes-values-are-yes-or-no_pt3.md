@@ -1,0 +1,229 @@
+Lastly, an EBR partition table performs two functions:
+  1. It describes a logical partition and therefore uses a partition record for this purpose.
+  2. It uses a partition record to locate the next EBR partition table.
+
+
+EBR partition tables use at most two entries.
+When creating a DOS partition, the options you are presented with depend on the kind of disk you are working with. However, both OS/2 disks and Linux disks require that you choose a freespace segment on the disk within which to create the new data segment. The create options are:
+
+size
+
+The size of the partition you are creating. Any adjustments that are needed for alignment are performed by the DOS plug-in and the resulting size might differ slightly from the value you enter.
+
+offset
+
+Lets you skip sectors and start the new partition within the freespace area by specifying a sector offset.
+
+type
+
+Lets you enter a partition type or choose from a list of partition types; for example, native Linux.
+
+primary
+
+Lets you choose between creating a primary or logical partition. Due to the rules outlined above, you might or might not have a choice. The DOS plug-in can determine if a primary or logical partition can be created in the freespace area you chose and disable this choice.
+
+bootable
+
+Lets you enable the sys_ind flag field in a primary partition and disable it when creating a logical partition. The sys_ind flag field identifies the active primary partition for booting.
+Additional OS/2 options are the following:
+
+partition name
+
+An OS/2 partition can have a name, like Fred or Part1.
+
+volume name
+
+OS/2 partitions belong to volumes, either compatibility or logical, and volumes have names. However, because the DOS plug-in is not a logical volume manager, it cannot actually create OS/2 logical volumes.
+
+drive letter
+
+You can specify the drive letter for an OS/2 partition, but it is not a required field. Valid drive letters are: C,D...Z.
+* * *
+#  A.4. Expanding DOS partitions
+A partition is a physically contiguous run of sectors on a disk. You can expand a partition by adding unallocated sectors to the initial run of sectors on the disk. Because the partition must remain physically contiguous, a partition can only be expanded by growing into an unused area on the disk. These unused areas are exposed by the DOS plug-in as freespace segments. Therefore, a data segment is only expandable if a freespace segment immediately follows it. Lastly, because a DOS partition must end on a cylinder boundary, DOS segments are expanded in cylinder size increments. This means that if the DOS segment you want to expand is followed by a freespace segment, you might be unable to expand the DOS segment if the freespace segment is less than a cylinder in size.
+There is one expand option, as follows:
+
+size
+
+This is the amount by which you want to expand the data segment. The amount must be a multiple of the disk's cylinder size.
+* * *
+#  A.5. Shrinking DOS partitions
+A partition is shrunk when sectors are removed from the end of the partition. Because a partition must end on a cylinder boundary, a partition is shrunk by removing cylinder amounts from the end of the segment.
+There is one shrink option, as follows:
+
+size
+
+The amount by which you want to reduce the size of the segment. Because a segment ends on a cylinder boundary, this value must be some multiple of the disk's cylinder size.
+* * *
+#  A.6. Deleting partitions
+You can delete an existing DOS data segment as long as it is not currently a compatibility volume, an EVMS volume, or consumed by another EVMS plug-in. No options are available for deleting partitions.
+* * *
+#  Appendix B. The MD region manager
+The Multi-Disk (MD) driver in the Linux kernel and the MD plug-in in EVMS provide a software implementation of RAID (Redundant Array of Inexpensive Disks). The basic idea of software RAID is to combine multiple hard disks into an array of disks in order to improve capacity, performance, and reliability.
+The RAID standard defines a wide variety of methods for combining disks into a RAID array. In Linux, MD implements a subset of the full RAID standard, including RAID-0, RAID-1, RAID-4, and RAID-5. In addition, MD also supports additional combinations called Linear-RAID and Multipath.
+In addition to this appendix, more information about RAID and the Linux MD driver can be found in the Software RAID HOWTO at [www.tldp.org/HOWTO/Software-RAID-HOWTO.html](http://www.tldp.org/HOWTO/Software-RAID-HOWTO.html).
+* * *
+#  B.1. Characteristics of Linux RAID levels
+All RAID levels are used to combine multiple devices into a single MD array. The MD plug-in is a region-manager, so EVMS refers to MD arrays as "regions." MD can create these regions using disks, segments or other regions. This means that it's possible to create RAID regions using other RAID regions, and thus combine multiple RAID levels within a single volume stack.
+The following subsections describe the characteristics of each Linux RAID level. Within EVMS, these levels can be thought of as sub-modules of the MD plug-in.
+* * *
+##  B.1.1. Linear mode
+Linear-RAID regions combine objects by appending them to each other. Writing (or reading) linearly to the MD region starts by writing to the first child object. When that object is full, writes continue on the second child object, and so on until the final child object is full. Child objects of a Linear-RAID region do not have to be the same size.
+Advantage:
+  * Linear-RAID provides a simple method for building very large regions using several small objects.
+
+
+Disadvantages:
+  * Linear-RAID is not "true" RAID, in the sense that there is no data redundancy. If one disk crashes, the RAID region will be unavailable, and will result in a loss of some or all data on that region.
+  * Linear-RAID provides little or no performance benefit. The objects are combined in a simple, linear fashion that doesn't allow for much (if any) I/O in parallel to multiple child objects. The performance of a Linear-RAID will generally be equivalent to the performance of a single disk.
+
+
+* * *
+##  B.1.2. RAID-0
+RAID-0 is usually referred to as "striping." This means that data in a RAID-0 region is evenly distributed and interleaved on all the child objects. For example, when writing 16 KB of data to a RAID-0 region with three child objects and a chunk-size of 4 KB, the data would be written as follows:
+  * 4 KB to object 0
+  * 4 KB to object 1
+  * 4 KB to object 2
+  * 4 KB to object 0
+
+
+Advantages:
+  * Like Linear-RAID, RAID-0 provides a simple method for building very large regions using several small objects.
+  * In general, RAID-0 provides I/O performance improvements, because it can break large I/O requests up and submit them in parallel across several disks.
+
+
+Disadvantage:
+  * Also like Linear-RAID, RAID-0 is not "true" RAID, in the sense that there is no data redundancy (hence the name RAID "zero"). If one disk crashes, the RAID region will be unavailable, and will likely result in a loss of all data on that region.
+
+
+* * *
+##  B.1.3. RAID-1
+RAID-1 is usually referred to as "mirroring." Each child object in a RAID-1 region contains an identical copy of the data in the region. A write to a RAID-1 region results in that data being written simultaneously to all child objects. A read from a RAID-1 region can result in reading the data from any one of the child objects. Child objects of a RAID-1 region do not have to be the same size, but the size of the region will be equal to the size of the smallest child object.
+Advantages:
+  * RAID-1 provides complete data redundancy. In a RAID-1 region made from N child objects, up to N-1 of those objects can crash and the region will still be operational, and can retrieve data from the remaining objects.
+  * RAID-1 can provide improved performance on I/O-reads. Because all child objects contain a full copy of the data, multiple read requests can be load-balanced among all the objects.
+
+
+Disadvantages:
+  * RAID-1 can cause a decrease in performance on I/O-writes. Because each child object must have a full copy of the data, each write to the region must be duplicated and sent to each object. A write request cannot be completed until all duplicated writes to the child objects are complete.
+  * A RAID-1 region with N disks costs N times as much as a single disk, but only provides the storage space of a single disk.
+
+
+* * *
+##  B.1.4. RAID-4/5
+RAID-4/5 is often referred to as "striping with parity." Like RAID-0, the data in a RAID-4/5 region is striped, or interleaved, across all the child objects. However, in RAID-4/5, parity information is also calculated and recorded for each stripe of data in order to provide redundancy in case one of the objects is lost. In the event of a disk crash, the data from that disk can be recovered based on the data on the remaining disks and the parity information.
+In RAID-4 regions, a single child object is used to store the parity information for each data stripe. However, this can cause an I/O bottleneck on this one object, because the parity information must be updated for each I/O-write to the region.
+In RAID-5 regions, the parity is spread evenly across all the child objects in the region, thus eliminating the parity bottleneck in RAID-4. RAID-5 provides four different algorithms for how the parity is distributed. In fact, RAID-4 is often thought of as a special case of RAID-5 with a parity algorithm that simply uses one object instead of all objects. This is the viewpoint that Linux and EVMS use. Therefore, the RAID-4/5 level is often just referred to as RAID-5, with RAID-4 simply being one of the five available parity algorithms.
+Advantages and disadvantages
+  * Like RAID-1, RAID-4/5 provides redundancy in the event of a hardware failure. However, unlike RAID-1, RAID-4/5 can only survive the loss of a single object. This is because only one object's worth of parity is recorded. If more than one object is lost, there isn't enough parity information to recover the lost data.
+  * RAID-4/5 provides redundancy more cost effectively than RAID-1. A RAID-4/5 region with N disks provides N-1 times the storage space of a single disk. The redundancy comes at the cost of only a single disk in the region.
+  * Like RAID-0, RAID-4/5 can generally provide an I/O performance improvement, because large I/O requests can be broken up and submitted in parallel to the multiple child objects. However, on I/O-writes the performance improvement will be less than that of RAID-0, because the parity information must be calculated and rewritten each time a write request is serviced. In addition, in order to provide any performance improvement on I/O-writes, an in-memory cache must be maintained for recently accessed stripes so the parity information can be quickly recalculated. If a write request is received for a stripe of data that isn't in the cache, the data chunks for the stripe must first be read from disk in order to calculate the parity. If such cache-misses occur too often, the I/O-write performance could potentially be worse than even a Linear-RAID region.
+
+
+* * *
+##  B.1.5. Multipath
+A multipath region consists of one or more objects, just like the other RAID levels. However, in multipath, the child objects actually represent multiple physical paths to the same physical disk. Such setups are often found on systems with fiber-attached storage devices or SANs.
+Multipath is not actually part of the RAID standard, but was added to the Linux MD driver because it provides a convenient place to create "virtual" devices that consist of multiple underlying devices.
+The previous RAID levels can all be created using a wide variety of storage devices, including generic, locally attached disks (for example, IDE and SCSI). However, Multipath can only be used if the hardware actually contains multiple physical paths to the storage device, and such hardware is usually available on high-end systems with fiber-or network-attached storage. Therefore, if you don't know whether you should be using the Multipath module, chances are you don't need to use it.
+Like RAID-1 and RAID-4/5, Multipath provides redundancy against hardware failures. However, unlike these other RAID levels, Multipath protects against failures in the paths to the device, and not failures in the device itself. If one of the paths is lost (for example, a network adapter breaks or a fiber-optic cable is removed), I/O will be redirected to the remaining paths.
+Like RAID-0 and RAID-4/5, Multipath can provide I/O performance improvements by load balancing I/O requests across the various paths.
+* * *
+#  B.2. Creating an MD region
+The procedure for creating a new MD region is very similar for all the different RAID levels. When using the EVMS GUI or Ncurses, first choose the ActionsCreate Region menu item. A list of region-managers will open, and each RAID level will appear as a separate plug-in in this list. Select the plug-in representing the desired RAID level. The next panel will list the objects available for creating a new RAID region. Select the desired objects to build the new region. If the selected RAID level does not support any additional options, then there are no more steps, and the region will be created. If the selected RAID level has extra creation options, the next panel will list those options. After selecting the options, the region will be created.
+When using the CLI, use the following command to create a new region:
+```
+
+create:region,<plugin>={<option_name>=<value>[,<option_name>=<value>]*},
+   <object_name>[,<object_name>]*
+
+```
+
+---
+For <plugin>, the available plug-in names are "MDLinearRegMgr," "MDRaid0RegMgr," "MDRaid1RegMgr," "MDRaid5RegMgr," and "MD Multipath." The available options are listed in the following sections. If no options are available or desired, simply leave the space blank between the curly braces.
+The Linear-RAID and Multipath levels provide no extra options for creation. The remaining RAID levels provide the options listed below.
+* * *
+##  B.2.1. RAID-0 options
+RAID-0 has the following option:
+
+chunksize
+
+This option represents the granularity of the striped data. In other words, the amount of data that is written to one child object before moving to the next object. The range of valid values is 4 KB to 4096 KB, and must be a power of 2. If the option is not specified, the default chunk size of 32 KB will be used.
+* * *
+##  B.2.2. RAID-1 options
+RAID-1 has the following option:
+
+sparedisk
+
+This option is the name of another object to use as a "hot-spare." This object cannot be one of the objects selected in the initial object-selection list. If no object is selected for this option, then the new region will simply not initially have a spare. More information about spare objects is in the following sections.
+* * *
+##  B.2.3. RAID-4/5 options
+RAID-4/5 have the following options:
+
+chunksize
+
+This is the same as the chunksize option for RAID-0.
+
+sparedisk
+
+This is the same as the sparedisk option for RAID-1.
+
+level
+
+Choose between RAID4 and RAID5. The default value for this option is RAID5.
+
+algorithm
+
+If the RAID-5 level is chosen, this option allows choosing the desired parity algorithm. Valid choices are "Left Symmetric" (which is the default), "Right Symmetric," "Left Asymmetric, and "Right Asymmetric." If the RAID-4 level is chosen, this option is not available.
+* * *
+#  B.3. Active and spare objects
+An active object in a RAID region is one that is actively used by the region and contains data or parity information. When creating a new RAID region, all the objects selected from the main available-objects panel will be active objects. Linear-RAID and RAID-0 regions only have active objects, and if any of those active objects fail, the region is unavailable.
+On the other hand, the redundant RAID levels (1 and 4/5) can have spare objects in addition to their active objects. A spare is an object that is assigned to the region, but does not contain any live data or parity. Its primary purpose is to act as a "hot standby" in case one of the active objects fails.
+In the event of a failure of one of the child objects, the MD kernel driver removes the failed object from the region. Because these RAID levels provide redundancy (either in the form of mirrored data or parity information), the whole region can continue providing normal access to the data. However, because one of the active objects is missing, the region is now "degraded."
+If a region becomes degraded and a spare object has been assigned to that region, the kernel driver will automatically activate that spare object. This means the spare object is turned into an active object. However, this newly active object does not have any data or parity information, so the kernel driver must "sync" the data to this object. For RAID-1, this means copying all the data from one of the current active objects to this new active object. For RAID-4/5, this means using the data and parity information from the current active objects to fill in the missing data and parity on the new active object. While the sync process is taking place, the region remains in the degraded state. Only when the sync is complete does the region return to the full "clean" state.
+You can follow the progress of the sync process by examining the `/proc/mdstat` file. You can also control the speed of the sync process using the files `/proc/sys/dev/raid/speed_limit_min` and `/proc/sys/dev/raid/speed_limit_max`. To speed up the process, echo a larger number into the `speed_limit_min` file.
+* * *
+##  B.3.1. Adding spare objects
+As discussed above, a spare object can be assigned to a RAID-1 or RAID-4/5 region when the region is created. In addition, a spare object can also be added to an already existing RAID region. The effect of this operation is the same as if the object were assigned when the region was created.
+If the RAID region is clean and operating normally, the kernel driver will add the new object as a regular spare, and it will act as a hot-standby for future failures. If the RAID region is currently degraded, the kernel driver will immediately activate the new spare object and begin syncing the data and parity information.
+For both RAID-1 and RAID-4/5 regions, use the "addspare" plug-in function to add a new spare object to the region. The only argument is the name of the desired object, and only one spare object can be added at a time. For RAID-1 regions, the new spare object must be at least as big as the region, and for RAID-4/5 regions, the new spare object must be at least as big as the smallest active object.
+Spare objects can be added while the RAID region is active and in use.
+* * *
+##  B.3.2. Removing spare objects
+If a RAID-1 or RAID-4/5 region is clean and operating normally, and that region has a spare object, the spare object can be removed from the region if you need to use that object for another purpose.
+For both RAID-1 and RAID-4/5 regions, use the "remspare" plug-in function to remove a spare object from the region. The only argument is the name of the desired object, and only one spare object can be removed at a time. After the spare is removed, that object will show up in the Available-Objects list in the EVMS user interfaces.
+Spare objects can be removed while the RAID region is active and in use.
+* * *
+##  B.3.3. Adding active objects to RAID-1
+In RAID-1 regions, every active object has a full copy of the data for the region. This means it is easy to simply add a new active object, sync the data to this new object, and thus increase the "width" of the mirror. For instance, if you have a 2-way RAID-1 region, you can add a new active object, which will increase the region to a 3-way mirror, which increases the amount of redundancy offered by the region.
+The first process of adding a new active object can be done in one of two ways. First, the "addactive" plug-in function adds any available object in EVMS to the region as a new active object. The new object must be at least as big as the size of the RAID-1 region. Second, if the RAID-1 region has a spare object, that object can be converted to an active member of the region using the "activatespare" plug-in function.
+* * *
+#  B.4. Faulty objects
+As discussed in the previous section, if one of the active objects in a RAID-1 or RAID-4/5 region has a problem, that object will be kicked out and the region will become degraded. A problem can occur with active objects in a variety of ways. For instance, a disk can crash, a disk can be pulled out of the system, a drive cable can be removed, or one or more I/Os can cause errors. Any of these will result in the object being kicked out and the RAID region becoming degraded.
+If a disk has completely stopped working or has been removed from the machine, EVMS obviously will no longer recognize that disk, and it will not show up as part of the RAID region when running the EVMS user interfaces. However, if the disk is still available in the machine, EVMS will likely be able to recognize that the disk is assigned to the RAID region, but has been removed from any active service by the kernel. This type of disk is referred to as a faulty object.
+* * *
+##  B.4.1. Removing faulty objects
+Faulty objects are no longer usable by the RAID region, and should be removed. You can remove faulty objects with the "remfaulty" plug-in function for both RAID-1 and RAID-4/5. This operation is very similar to removing spare objects. After the object is removed, it will appear in the Available-Objects list in the EVMS user interfaces.
+Faulty objects can be removed while the RAID region is active and in use.
+* * *
+##  B.4.2. Fixing temporarily failed objects
+Sometimes a disk can have a temporary problem that causes the disk to be marked faulty and the RAID region to become degraded. For instance, a drive cable can come loose, causing the MD kernel driver to think the disk has disappeared. However, if the cable is plugged back in, the disk should be available for normal use. However, the MD kernel driver and the EVMS MD plug-in will continue to indicate that the disk is a faulty object because the disk might have missed some writes to the RAID region and would therefore be out of sync with the rest of the disks in the region.
+In order to correct this situation, the faulty object should be removed from the RAID region (as discussed in the previous section). The object will then show up as an Available-Object. Next, that object should be added back to the RAID region as a spare (as discussed in [Section B.3.1](https://tldp.org/LDP/EVMSUG/html/EVMSUG.html#addspareobjs). When the changes are saved, the MD kernel driver will activate the spare and sync the data and parity. When the sync is complete, the RAID region will be operating in its original, normal configuration.
+This procedure can be accomplished while the RAID region is active and in use.
+* * *
+##  B.4.3. Marking objects faulty
+EVMS provides the ability to manually mark a child of a RAID-1 or RAID-4/5 region as faulty. This has the same effect as if the object had some problem or caused I/O errors. The object will be kicked out from active service in the region, and will then show up as a faulty object in EVMS. It can then be removed from the region as discussed in the previous sections.
+There are a variety of reasons why you might want to manually mark an object faulty. One example would be to test failure scenarios to learn how Linux and EVMS deal with the hardware failures. Another example would be that you want to replace one of the current active objects with a different object. To do this, you would add the new object as a spare, then mark the current object faulty (causing the new object to be activated and the data to be resynced), and finally remove the faulty object.
+EVMS allows you to mark an object faulty in a RAID-1 region if there are more than one active objects in the region. EVMS allows you to mark an object faulty in a RAID-4/5 region if the region has a spare object.
+Use the "markfaulty" plug-in function for both RAID-1 and RAID-4/5. This command can be used while the RAID region is active and in use.
+* * *
+#  B.5. Resizing MD regions
+RAID regions can be resized in order to expand or shrink the available data space in the region. Each RAID level has different characteristics, and thus each RAID level has different requirements for when and how they can expand or shrink.
+See [Chapter 16](https://tldp.org/LDP/EVMSUG/html/EVMSUG.html#expandshrink) for general information about resizing EVMS volumes and objects.
+* * *
+##  B.5.1. Linear
+A Linear-RAID region can be expanded in two ways. First, if the last child object in the Linear-RAID region is expandable, then that object can be expanded, and the RAID region can expand into that new space. Second, one or more new objects can be added to the end of the region.
+Likewise, a Linear-RAID region can be shrunk in two ways. If the last child object in the region is shrinkable, then that object can be shrunk, and the RAID region will shrink by the same amount. Also, one or more objects can be removed from the end of the RAID region (but the first object in the region cannot be removed).
+Linear-RAID regions can be resized while they are active and in use.
+* * *
+##  B.5.2. RAID-0
+You can expand a RAID-0 region by adding one new object to the region. You can shrink a RAID-0 region by removing up to N-1 of the current child objects in a region with N objects.

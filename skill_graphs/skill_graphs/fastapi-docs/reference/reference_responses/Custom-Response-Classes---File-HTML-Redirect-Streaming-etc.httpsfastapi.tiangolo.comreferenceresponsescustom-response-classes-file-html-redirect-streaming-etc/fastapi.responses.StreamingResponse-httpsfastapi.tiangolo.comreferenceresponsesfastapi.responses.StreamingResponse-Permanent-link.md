@@ -361,3 +361,8 @@ def delete_cookie(
 ```
 
 ---|---
+[ Previous  Response class  ](https://fastapi.tiangolo.com/reference/response/) [ Next  Middleware  ](https://fastapi.tiangolo.com/reference/middleware/)
+The FastAPI trademark is owned by [@tiangolo](https://tiangolo.com) and is registered in the US and across other regions
+Made with
+[ ](https://tiangolo.com "tiangolo.com")
+starlette.responses.Response(self).render

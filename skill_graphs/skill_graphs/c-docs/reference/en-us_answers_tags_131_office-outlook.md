@@ -259,7 +259,7 @@ edited an answer Mar 7, 2026, 11:59 PM
 ![](data:image/svg+xml,%20%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20height='64'%20class='font-weight-bold'%20style='font:%20600%2030.11764705882353px%20"SegoeUI",%20Arial'%20width='64'%3E%3Ccircle%20fill='hsl\(22.400000000000002,%2040%,%2012%\)'%20cx='32'%20cy='32'%20r='32'%20/%3E%3Ctext%20x='50%25'%20y='55%25'%20dominant-baseline='middle'%20text-anchor='middle'%20fill='%23FFF'%20%3EWB%3C/text%3E%3C/svg%3E)
 [Winnie-B](https://learn.microsoft.com/en-us/users/na/?userid=f07b4d01-fda0-46c2-b967-7bbe30342586) 6,035 Reputation points • Microsoft External Staff • Moderator
 0 answers
-##  [ Ancienne adresse outlook qui ne fonctionne pas ](https://learn.microsoft.com/en-us/answers/questions/5812752/ancienne-adresse-outlook-qui-ne-fonctionne-pas)
+##  [ Ancienne address outlook qui ne fonctionne pas ](https://learn.microsoft.com/en-us/answers/questions/5812752/ancienne-address-outlook-qui-ne-fonctionne-pas)
 An outlook.fr address was created some time ago. It exists according to Microsoft, but when I send messages to this address, outlook.com responds with "mailbox unavailable". How can I fix this authentication problem? I can't find this address…
 Outlook | Web | Outlook.com | Email
 [ Outlook | Web | Outlook.com | Email ](https://learn.microsoft.com/en-us/answers/tags/1359/office-outlook-web-outlook-dotcom-email/)
@@ -274,7 +274,7 @@ asked Mar 7, 2026, 11:41 PM
 [Jean-Louis LAURENT](https://learn.microsoft.com/en-us/users/na/?userid=fd389095-63f7-41f4-93f2-3edb7eade82e) 0 Reputation points
 2 answers
 ##  [ outlook not delivering emails ](https://learn.microsoft.com/en-us/answers/questions/5811416/outlook-not-delivering-emails)
-Third party emails being delivred to the server. However, outlook not delivering emails. Occassionally i can send emails out from the outlook on my HP desk top. Same situation on two differnt computers. Incoming mail set up properly but mail not being…
+Third party emails being delivred to the server. However, outlook not delivering emails. Occasionally i can send emails out from the outlook on my HP desk top. Same situation on two different computers. Incoming mail set up properly but mail not being…
 Outlook | Windows | New Outlook for Windows | For home
 [ Outlook | Windows | New Outlook for Windows | For home ](https://learn.microsoft.com/en-us/answers/tags/1551/office-outlook-platform-windows-new-outlook-windows-home/)
 ![](https://learn.microsoft.com/answers/media/logo_outlook.svg)
@@ -316,7 +316,7 @@ commented Mar 7, 2026, 11:24 PM
 [Alina Le](https://learn.microsoft.com/en-us/users/na/?userid=03281238-a784-4f1d-81bf-c6596554d96d) 240 Reputation points • Independent Advisor
 1 answer
 ##  [ How do i recover my account when my it sends the verification message to a different email? ](https://learn.microsoft.com/en-us/answers/questions/5812627/how-do-i-recover-my-account-when-my-it-sends-the-v)
-So recently I've had a problem with logging into my Microsoft account due to some un expected outcomes they stole both the account and email some how i cant access both and am worried my device is now compromised because it runs off of this system I've…
+So recently I've had a problem with logging into my Microsoft account due to some un expected outcomes they stole both the account and email some how i can't access both and am worried my device is now compromised because it runs off of this system I've…
 Outlook | Web | Outlook.com | Account management, security, and privacy
 [ Outlook | Web | Outlook.com | Account management, security, and privacy ](https://learn.microsoft.com/en-us/answers/tags/1466/office-outlook-web-outlook-dotcom-outlook-account/)
 ![](https://learn.microsoft.com/answers/media/logo_outlook.svg)

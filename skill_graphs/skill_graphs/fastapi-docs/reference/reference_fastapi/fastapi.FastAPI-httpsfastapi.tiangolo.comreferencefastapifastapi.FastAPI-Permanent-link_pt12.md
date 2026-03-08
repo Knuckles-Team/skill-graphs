@@ -713,3 +713,7 @@ def exception_handler(
 ```
 
 ---|---
+[ Previous  Reference  ](https://fastapi.tiangolo.com/reference/) [ Next  Request Parameters  ](https://fastapi.tiangolo.com/reference/parameters/)
+The FastAPI trademark is owned by [@tiangolo](https://tiangolo.com) and is registered in the US and across other regions
+Made with
+[ ](https://tiangolo.com "tiangolo.com")

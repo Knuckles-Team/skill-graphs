@@ -1,0 +1,9 @@
+# Access Groups
+Last updated September 24, 2025
+Access Groups are available on [Enterprise plans](https://vercel.com/docs/plans/enterprise)
+Those with the [owner](https://vercel.com/docs/rbac/access-roles#owner-role) role can access this feature
+Access Groups provide a way to manage groups of Vercel users across projects on your team. They are a set of project role assignations, a combination of Vercel users and the projects they work on.
+An Access Group consists of one or many projects in a team and assigns project roles to team members. Any team member included in an Access Group gets assigned the projects in that Access Group. They also get a default role.
+Team administrators can apply automatic role assignments for default roles. And for more restricted projects, you can ensure only a subset of users have access to those projects. This gets handled with project-level role-based access control (RBAC).
+![Example access group relationship diagram](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Ffront%2Fdocs%2Frbac%2Faccess-groups-light.png%3Flightbox&w=3840&q=75)![Example access group relationship diagram](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Ffront%2Fdocs%2Frbac%2Faccess-groups-dark.png%3Flightbox&w=3840&q=75)Example access group relationship diagramZoom Image
+![Example access group relationship diagram](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Ffront%2Fdocs%2Frbac%2Faccess-groups-light.png%3Flightbox&w=3840&q=75)![Example access group relationship diagram](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Ffront%2Fdocs%2Frbac%2Faccess-groups-dark.png%3Flightbox&w=3840&q=75)Example access group relationship diagram

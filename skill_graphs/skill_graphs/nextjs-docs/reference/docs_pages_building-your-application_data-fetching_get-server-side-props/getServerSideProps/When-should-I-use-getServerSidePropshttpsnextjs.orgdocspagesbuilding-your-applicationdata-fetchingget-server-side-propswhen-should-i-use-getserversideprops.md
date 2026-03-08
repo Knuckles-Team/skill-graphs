@@ -1,0 +1,3 @@
+## When should I use `getServerSideProps`?[](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-server-side-props#when-should-i-use-getserversideprops)
+You should use `getServerSideProps` if you need to render a page that relies on personalized user data, or information that can only be known at request time. For example, `authorization` headers or a geolocation.
+If you do not need to fetch the data at request time, or would prefer to cache the data and pre-rendered HTML, we recommend using [`getStaticProps`](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-props).

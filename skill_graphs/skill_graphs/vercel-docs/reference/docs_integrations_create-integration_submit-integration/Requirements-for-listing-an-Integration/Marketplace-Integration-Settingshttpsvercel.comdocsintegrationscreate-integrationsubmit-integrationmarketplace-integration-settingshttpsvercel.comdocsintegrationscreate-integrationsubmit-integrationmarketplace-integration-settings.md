@@ -1,0 +1,1 @@
+##  [Marketplace Integration Settings](https://vercel.com/docs/integrations/create-integration/submit-integration#marketplace-integration-settings)[](https://vercel.com/docs/integrations/create-integration/submit-integration#marketplace-integration-settings)

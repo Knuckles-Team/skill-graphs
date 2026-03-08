@@ -1,0 +1,2 @@
+##  [Routing to externally hosted applications](https://vercel.com/docs/deployments#routing-to-externally-hosted-applications)[](https://vercel.com/docs/deployments#routing-to-externally-hosted-applications)
+If a microfrontend is not yet hosted on Vercel, you can [create a new Vercel project](https://vercel.com/docs/projects/managing-projects#creating-a-project) to [rewrite requests](https://vercel.com/docs/rewrites) to the external application. You will then use this Vercel project in your microfrontends configuration on Vercel.

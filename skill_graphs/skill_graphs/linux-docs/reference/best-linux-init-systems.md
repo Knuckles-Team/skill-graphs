@@ -158,7 +158,7 @@ $ sudo zypper ref
 
 ```
 
-### Step 3: Instal Icinga2 and Monitoring Plugins in OpenSUSE
+### Step 3: Install Icinga2 and Monitoring Plugins in OpenSUSE
 With the **Icinga** repository enabled, the next step is to install **Icinga** and the monitoring plugins. To do so, run the command:
 ```
 $ sudo zypper install icinga2 nagios-plugins-all

@@ -337,7 +337,7 @@
     * [ ](https://fastapi.tiangolo.com/reference/security/#fastapi.security.OAuth2PasswordRequestForm.scopes)
     * [ ](https://fastapi.tiangolo.com/reference/security/#fastapi.security.OAuth2PasswordRequestForm.client_id)
     * [ ](https://fastapi.tiangolo.com/reference/security/#fastapi.security.OAuth2PasswordRequestForm.client_secret)
-  * [ ](https://fastapi.tiangolo.com/reference/security/#fastapi.security.OAuth2PasswordRequestFormStrict)
+  * [ ](https://fastapi.tiangolo.com/reference/security/#fastapi.security.OAuth2PasswordRequestFormStrict " OAuth2PasswordRequestFormStrict")
     * [ Example  ](https://fastapi.tiangolo.com/reference/security/#fastapi.security.OAuth2PasswordRequestFormStrict--example)
     * [ ](https://fastapi.tiangolo.com/reference/security/#fastapi.security.OAuth2PasswordRequestFormStrict.grant_type)
     * [ ](https://fastapi.tiangolo.com/reference/security/#fastapi.security.OAuth2PasswordRequestFormStrict.username)

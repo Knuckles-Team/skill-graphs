@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_vercel-firewall_vercel-waf_rate-limiting](<./docs_vercel-firewall_vercel-waf_rate-limiting.md>)
+- [WAF Rate Limiting](<./WAF-Rate-Limiting.md>)
+  - [[Get started](https://vercel.com/docs/vercel-firewall/vercel-waf/rate-limiting#get-started)[](https://vercel.com/docs/vercel-firewall/vercel-waf/rate-limiting#get-started)](<./WAF-Rate-Limiting/Get-startedhttpsvercel.comdocsvercel-firewallvercel-wafrate-limitingget-startedhttpsvercel.comdocsvercel-firewallvercel-wafrate-limitingget-started.md>)
+  - [[Limits](https://vercel.com/docs/vercel-firewall/vercel-waf/rate-limiting#limits)[](https://vercel.com/docs/vercel-firewall/vercel-waf/rate-limiting#limits)](<./WAF-Rate-Limiting/Limitshttpsvercel.comdocsvercel-firewallvercel-wafrate-limitinglimitshttpsvercel.comdocsvercel-firewallvercel-wafrate-limitinglimits.md>)
+  - [[Pricing](https://vercel.com/docs/vercel-firewall/vercel-waf/rate-limiting#pricing)[](https://vercel.com/docs/vercel-firewall/vercel-waf/rate-limiting#pricing)](<./WAF-Rate-Limiting/Pricinghttpsvercel.comdocsvercel-firewallvercel-wafrate-limitingpricinghttpsvercel.comdocsvercel-firewallvercel-wafrate-limitingpricing.md>)
+  - [Get Started](<./WAF-Rate-Limiting/Get-Started.md>)
+  - [Build](<./WAF-Rate-Limiting/Build.md>)
+  - [Scale](<./WAF-Rate-Limiting/Scale.md>)
+  - [Secure](<./WAF-Rate-Limiting/Secure.md>)
+  - [Resources](<./WAF-Rate-Limiting/Resources.md>)
+  - [Learn](<./WAF-Rate-Limiting/Learn.md>)
+  - [Frameworks](<./WAF-Rate-Limiting/Frameworks.md>)
+  - [SDKs](<./WAF-Rate-Limiting/SDKs.md>)
+  - [Use Cases](<./WAF-Rate-Limiting/Use-Cases.md>)
+  - [Company](<./WAF-Rate-Limiting/Company.md>)
+  - [Community](<./WAF-Rate-Limiting/Community.md>)

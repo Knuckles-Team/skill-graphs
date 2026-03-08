@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [docs_build-output-api_configuration](<./docs_build-output-api_configuration.md>)
+- [Build Output Configuration](<./Build-Output-Configuration.md>)
+  - [[`config.json` supported properties](https://vercel.com/docs/build-output-api/configuration#config.json-supported-properties)[](https://vercel.com/docs/build-output-api/configuration#config.json-supported-properties)](<./Build-Output-Configuration/config.json-supported-propertieshttpsvercel.comdocsbuild-output-apiconfigurationconfig.json-supported-propertieshttpsvercel.comdocsbuild-output-apiconfigurationconfig.json-supported-properties.md>)
+  - [[Full `config.json` example](https://vercel.com/docs/build-output-api/configuration#full-config.json-example)[](https://vercel.com/docs/build-output-api/configuration#full-config.json-example)](<./Build-Output-Configuration/Full-config.json-examplehttpsvercel.comdocsbuild-output-apiconfigurationfull-config.json-examplehttpsvercel.comdocsbuild-output-apiconfigurationfull-config.json-example.md>)
+  - [Get Started](<./Build-Output-Configuration/Get-Started.md>)
+  - [Build](<./Build-Output-Configuration/Build.md>)
+  - [Scale](<./Build-Output-Configuration/Scale.md>)
+  - [Secure](<./Build-Output-Configuration/Secure.md>)
+  - [Resources](<./Build-Output-Configuration/Resources.md>)
+  - [Learn](<./Build-Output-Configuration/Learn.md>)
+  - [Frameworks](<./Build-Output-Configuration/Frameworks.md>)
+  - [SDKs](<./Build-Output-Configuration/SDKs.md>)
+  - [Use Cases](<./Build-Output-Configuration/Use-Cases.md>)
+  - [Company](<./Build-Output-Configuration/Company.md>)
+  - [Community](<./Build-Output-Configuration/Community.md>)

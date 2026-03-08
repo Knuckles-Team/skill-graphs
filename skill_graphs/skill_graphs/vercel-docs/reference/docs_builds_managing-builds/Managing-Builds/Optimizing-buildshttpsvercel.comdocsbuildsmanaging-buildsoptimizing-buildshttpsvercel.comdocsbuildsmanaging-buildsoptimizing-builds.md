@@ -1,0 +1,5 @@
+##  [Optimizing builds](https://vercel.com/docs/builds/managing-builds#optimizing-builds)[](https://vercel.com/docs/builds/managing-builds#optimizing-builds)
+Some other considerations to take into account when optimizing your builds include:
+  * [Understand](https://vercel.com/docs/deployments/troubleshoot-a-build#understanding-build-cache) and [manage](https://vercel.com/docs/deployments/troubleshoot-a-build#managing-build-cache) the build cache. By default, Vercel caches the dependencies of your project, based on your framework, to speed up the build process
+  * You may choose to [Ignore the Build Step](https://vercel.com/docs/project-configuration/project-settings#ignored-build-step) on redeployments if you know that the build step is not necessary under certain conditions
+  * Use the most recent version of your runtime, particularly Node.js, to take advantage of the latest performance improvements. To learn more, see [Node.js](https://vercel.com/docs/functions/runtimes/node-js#default-and-available-versions)

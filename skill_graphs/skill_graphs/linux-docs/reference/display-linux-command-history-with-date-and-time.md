@@ -215,7 +215,7 @@ Find the sections below and set credentials to access the PostgreSQL database:
 ![Configure Database Access](https://www.tecmint.com/wp-content/uploads/2019/06/configure-db-access.png) Configure Database Access
 Save the changes in the file and close it.
 ### Step 4: Initialize and start OpenNMS Horizon
-To initialize **OpenNMS** , you need to intergrate it with **Java**. So, run the following command to detect the Java environment and persist in **/usr/share/opennms/etc/java.conf** configuration file.
+To initialize **OpenNMS** , you need to integrate it with **Java**. So, run the following command to detect the Java environment and persist in **/usr/share/opennms/etc/java.conf** configuration file.
 ```
 $ sudo /usr/share/opennms/bin/runjava -s
 

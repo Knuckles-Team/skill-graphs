@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_conformance_rules_TESTS_NO_CONDITIONAL_ASSERTIONS](<./docs_conformance_rules_TESTS_NO_CONDITIONAL_ASSERTIONS.md>)
+- [TESTS_NO_CONDITIONAL_ASSERTIONS](<./TESTS_NO_CONDITIONAL_ASSERTIONS.md>)
+  - [[Example](https://vercel.com/docs/conformance/rules/TESTS_NO_CONDITIONAL_ASSERTIONS#example)[](https://vercel.com/docs/conformance/rules/TESTS_NO_CONDITIONAL_ASSERTIONS#example)](<./TESTS_NO_CONDITIONAL_ASSERTIONS/Examplehttpsvercel.comdocsconformancerulesTESTS_NO_CONDITIONAL_ASSERTIONSexamplehttpsvercel.comdocsconformancerulesTESTS_NO_CONDITIONAL_ASSERTIONSexample.md>)
+  - [[How to fix](https://vercel.com/docs/conformance/rules/TESTS_NO_CONDITIONAL_ASSERTIONS#how-to-fix)[](https://vercel.com/docs/conformance/rules/TESTS_NO_CONDITIONAL_ASSERTIONS#how-to-fix)](<./TESTS_NO_CONDITIONAL_ASSERTIONS/How-to-fixhttpsvercel.comdocsconformancerulesTESTS_NO_CONDITIONAL_ASSERTIONShow-to-fixhttpsvercel.comdocsconformancerulesTESTS_NO_CONDITIONAL_ASSERTIONShow-to-fix.md>)
+  - [[Customization](https://vercel.com/docs/conformance/rules/TESTS_NO_CONDITIONAL_ASSERTIONS#customization)[](https://vercel.com/docs/conformance/rules/TESTS_NO_CONDITIONAL_ASSERTIONS#customization)](<./TESTS_NO_CONDITIONAL_ASSERTIONS/Customizationhttpsvercel.comdocsconformancerulesTESTS_NO_CONDITIONAL_ASSERTIONScustomizationhttpsvercel.comdocsconformancerulesTESTS_NO_CONDITIONAL_ASSERTIONScustomization.md>)
+  - [Get Started](<./TESTS_NO_CONDITIONAL_ASSERTIONS/Get-Started.md>)
+  - [Build](<./TESTS_NO_CONDITIONAL_ASSERTIONS/Build.md>)
+  - [Scale](<./TESTS_NO_CONDITIONAL_ASSERTIONS/Scale.md>)
+  - [Secure](<./TESTS_NO_CONDITIONAL_ASSERTIONS/Secure.md>)
+  - [Resources](<./TESTS_NO_CONDITIONAL_ASSERTIONS/Resources.md>)
+  - [Learn](<./TESTS_NO_CONDITIONAL_ASSERTIONS/Learn.md>)
+  - [Frameworks](<./TESTS_NO_CONDITIONAL_ASSERTIONS/Frameworks.md>)
+  - [SDKs](<./TESTS_NO_CONDITIONAL_ASSERTIONS/SDKs.md>)
+  - [Use Cases](<./TESTS_NO_CONDITIONAL_ASSERTIONS/Use-Cases.md>)
+  - [Company](<./TESTS_NO_CONDITIONAL_ASSERTIONS/Company.md>)
+  - [Community](<./TESTS_NO_CONDITIONAL_ASSERTIONS/Community.md>)

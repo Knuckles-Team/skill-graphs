@@ -74,4 +74,4 @@ app.run(
 
 ### Quick search
 ·
-![](https://server.ethicalads.io/proxy/view/10198/019ccc19-fbbb-73e1-ae2b-ca6fbf16d95b/)
+![](https://server.ethicalads.io/proxy/view/10132/019ccf13-2a40-7603-93bc-c521e8b0f85c/)

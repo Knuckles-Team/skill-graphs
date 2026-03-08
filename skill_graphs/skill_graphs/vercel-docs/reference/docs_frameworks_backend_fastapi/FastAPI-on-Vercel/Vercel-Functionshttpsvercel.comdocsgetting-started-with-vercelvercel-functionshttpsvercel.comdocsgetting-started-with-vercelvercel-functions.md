@@ -1,0 +1,2 @@
+##  [Vercel Functions](https://vercel.com/docs/getting-started-with-vercel#vercel-functions)[](https://vercel.com/docs/getting-started-with-vercel#vercel-functions)
+When you deploy a FastAPI app to Vercel, the application becomes a single [Vercel Function](https://vercel.com/docs/functions) and uses [Fluid compute](https://vercel.com/docs/fluid-compute) by default. This means your FastAPI app will automatically scale up and down based on traffic.

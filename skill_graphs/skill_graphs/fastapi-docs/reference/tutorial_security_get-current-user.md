@@ -550,7 +550,7 @@ But here's the key point.
 The security and dependency injection stuff is written once.
 And you can make it as complex as you want. And still, have it written only once, in a single place. With all the flexibility.
 But you can have thousands of endpoints (_path operations_) using the same security system.
-And all of them (or any portion of them that you want) can take advantage of re-using these dependencies or any other dependencies you create.
+And all of them (or any portion of them that you want) can take advantage of reusing these dependencies or any other dependencies you create.
 And all these thousands of _path operations_ can be as small as 3 lines:
 [Python 3.10+](https://fastapi.tiangolo.com/tutorial/security/get-current-user/#__tabbed_11_1)
 ```

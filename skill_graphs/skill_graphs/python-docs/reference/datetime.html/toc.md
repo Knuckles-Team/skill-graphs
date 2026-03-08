@@ -1,0 +1,9 @@
+# Table of Contents
+
+- [datetime.html](<./datetime.html.md>)
+- [`datetime` — Basic date and time types[¶](https://docs.python.org/3/library/datetime.html#module-datetime "Link to this heading")](<./datetime--Basic-date-and-time-typeshttpsdocs.python.org3librarydatetime.htmlmodule-datetime-Link-to-this-heading.md>)
+  - [Aware and naive objects[¶](https://docs.python.org/3/library/datetime.html#aware-and-naive-objects "Link to this heading")](<./datetime--Basic-date-and-time-typeshttpsdocs.python.org3librarydatetime.htmlmodule-datetime-Link-to-this-heading/Aware-and-naive-objectshttpsdocs.python.org3librarydatetime.htmlaware-and-naive-objects-Link-to-this-heading.md>)
+  - [Constants[¶](https://docs.python.org/3/library/datetime.html#constants "Link to this heading")](<./datetime--Basic-date-and-time-typeshttpsdocs.python.org3librarydatetime.htmlmodule-datetime-Link-to-this-heading/Constantshttpsdocs.python.org3librarydatetime.htmlconstants-Link-to-this-heading.md>)
+  - [Available types[¶](https://docs.python.org/3/library/datetime.html#available-types "Link to this heading")](<./datetime--Basic-date-and-time-typeshttpsdocs.python.org3librarydatetime.htmlmodule-datetime-Link-to-this-heading/Available-typeshttpsdocs.python.org3librarydatetime.htmlavailable-types-Link-to-this-heading.md>)
+  - [`timedelta` objects[¶](https://docs.python.org/3/library/datetime.html#timedelta-objects "Link to this heading")](<./datetime--Basic-date-and-time-typeshttpsdocs.python.org3librarydatetime.htmlmodule-datetime-Link-to-this-heading/timedelta-objectshttpsdocs.python.org3librarydatetime.htmltimedelta-objects-Link-to-this-heading.md>)
+  - [`datetime` objects[¶](https://docs.python.org/3/library/datetime.html#datetime-objects "Link to this heading")](<./datetime--Basic-date-and-time-typeshttpsdocs.python.org3librarydatetime.htmlmodule-datetime-Link-to-this-heading/datetime-objectshttpsdocs.python.org3librarydatetime.htmldatetime-objects-Link-to-this-heading.md>)

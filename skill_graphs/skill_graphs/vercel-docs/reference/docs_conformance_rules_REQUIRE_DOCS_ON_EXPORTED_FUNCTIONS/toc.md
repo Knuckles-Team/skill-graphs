@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [docs_conformance_rules_REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS](<./docs_conformance_rules_REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS.md>)
+- [REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS](<./REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS.md>)
+  - [[Examples](https://vercel.com/docs/conformance/rules/REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS#examples)[](https://vercel.com/docs/conformance/rules/REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS#examples)](<./REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS/Exampleshttpsvercel.comdocsconformancerulesREQUIRE_DOCS_ON_EXPORTED_FUNCTIONSexampleshttpsvercel.comdocsconformancerulesREQUIRE_DOCS_ON_EXPORTED_FUNCTIONSexamples.md>)
+  - [[How to fix](https://vercel.com/docs/conformance/rules/REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS#how-to-fix)[](https://vercel.com/docs/conformance/rules/REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS#how-to-fix)](<./REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS/How-to-fixhttpsvercel.comdocsconformancerulesREQUIRE_DOCS_ON_EXPORTED_FUNCTIONShow-to-fixhttpsvercel.comdocsconformancerulesREQUIRE_DOCS_ON_EXPORTED_FUNCTIONShow-to-fix.md>)
+  - [Get Started](<./REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS/Get-Started.md>)
+  - [Build](<./REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS/Build.md>)
+  - [Scale](<./REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS/Scale.md>)
+  - [Secure](<./REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS/Secure.md>)
+  - [Resources](<./REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS/Resources.md>)
+  - [Learn](<./REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS/Learn.md>)
+  - [Frameworks](<./REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS/Frameworks.md>)
+  - [SDKs](<./REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS/SDKs.md>)
+  - [Use Cases](<./REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS/Use-Cases.md>)
+  - [Company](<./REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS/Company.md>)
+  - [Community](<./REQUIRE_DOCS_ON_EXPORTED_FUNCTIONS/Community.md>)

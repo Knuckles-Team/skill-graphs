@@ -1,0 +1,2 @@
+##  [Search indexing](https://vercel.com/docs/vercel-firewall/attack-challenge-mode#search-indexing)[](https://vercel.com/docs/vercel-firewall/attack-challenge-mode#search-indexing)
+Search engine crawlers like Googlebot are automatically allowed through Attack Challenge Mode without being challenged. This means enabling Attack Challenge Mode will not negatively impact your site's SEO or search engine indexing, even when used for extended periods.

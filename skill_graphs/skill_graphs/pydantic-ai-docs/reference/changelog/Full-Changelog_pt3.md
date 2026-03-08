@@ -22,7 +22,7 @@
 ### v0.4.8 (2025-07-28)
 #### What's Changed
   * Add tenacity utilities/integration for improved retry handling by
-  * fix: close initialized MCP server if any MCP server fails to initalize by
+  * fix: close initialized MCP server if any MCP server fails to initialize by
   * Adding thinkingpart to otel_events in ModelResponse by
   * Fix: TypeError in MCPServerSSE due to improper initialization by
   * Fix: AG-UI assistant text and tool call order by
@@ -138,7 +138,7 @@
   * Add `model_request_stream_sync` to direct API by
   * Add GitHub Models provider by
   * Added support for google specific arguments for video analysis by
-  * Implemented a convenient way to use ACI.dev Tools in PydanticAI by
+  * Implemented a convenient way to use ACPI.dev Tools in PydanticAI by
   * Fix list rendering in documentation by
   * Raise consistent deprecation warnings by
   * Move docstring warning of model settings as a comment by

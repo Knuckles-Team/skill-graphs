@@ -1,0 +1,2 @@
+##  [Using the CLI](https://vercel.com/docs/code-owners/cli#using-the-cli)[](https://vercel.com/docs/code-owners/cli#using-the-cli)
+The Code Owners CLI is separate to the [Vercel CLI](https://vercel.com/docs/cli). However you must ensure that the Vercel CLI is [installed](https://vercel.com/docs/cli#installing-vercel-cli) and that you are [logged in](https://vercel.com/docs/cli/login) to use the Code Owners CLI.

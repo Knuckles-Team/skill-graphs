@@ -1,0 +1,3 @@
+##  [Domain verification through CLI](https://vercel.com/docs/getting-started-with-vercel#domain-verification-through-cli)[](https://vercel.com/docs/getting-started-with-vercel#domain-verification-through-cli)
+To verify your domain, point the domain to Vercel by configuring our nameservers or a DNS Record. You can learn more about what to do for your Domain by running `vercel domains inspect <domain>`, where `<domain>` is the domain you're interested in.
+Alternatively, if you already added the domain to a project, read [the configuring a domain section](https://vercel.com/docs/projects/custom-domains#step-4:-configuring-the-domain) of the custom domain documentation.

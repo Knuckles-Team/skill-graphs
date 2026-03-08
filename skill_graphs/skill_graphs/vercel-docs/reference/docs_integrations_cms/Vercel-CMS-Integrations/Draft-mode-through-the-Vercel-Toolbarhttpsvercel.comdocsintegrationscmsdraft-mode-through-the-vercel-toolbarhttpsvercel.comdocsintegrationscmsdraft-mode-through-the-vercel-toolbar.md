@@ -1,0 +1,2 @@
+##  [Draft mode through the Vercel Toolbar](https://vercel.com/docs/integrations/cms#draft-mode-through-the-vercel-toolbar)[](https://vercel.com/docs/integrations/cms#draft-mode-through-the-vercel-toolbar)
+Draft mode allows you to view unpublished content from your CMS within a Vercel preview, and works with Next.js and SvelteKit. See the [Draft Mode documentation](https://vercel.com/docs/draft-mode) for information and setup and configuration.

@@ -136,7 +136,7 @@ Here we are going to see how to reduce the Logical Volumes. Everyone say its cri
   3. While extending a volume we can extend it while the volume under mount status (online), but for reduce we must need to unmount the file system before reducing.
 
 
-Let’s wee what are the 5 steps below.
+Let’s we what are the 5 steps below.
   1. unmount the file system for reducing.
   2. Check the file system after unmount.
   3. Reduce the file system.
@@ -169,12 +169,12 @@ First unmount the mount point.
 ```
 # umount -v /mnt/tecmint_reduce_test/
 ```
-![Unmount Parition](https://www.tecmint.com/wp-content/uploads/2014/08/Unmount-Parition.jpg)Unmount Parition
+![Unmount Partition](https://www.tecmint.com/wp-content/uploads/2014/08/Unmount-Partition.jpg)Unmount Partition
 Then check for the file-system error using following command.
 ```
 # e2fsck -ff /dev/vg_tecmint_extra/tecmint_reduce_test
 ```
-![Scan Parition for Errors](https://www.tecmint.com/wp-content/uploads/2014/08/Scan-Parition-for-Errors-620x223.jpg)Scan Parition for Errors
+![Scan Partition for Errors](https://www.tecmint.com/wp-content/uploads/2014/08/Scan-Partition-for-Errors-620x223.jpg)Scan Partition for Errors
 **Note** : Must pass in every 5 steps of file-system check if not there might be some issue with your file-system.
 Next, reduce the file-system.
 ```
@@ -286,7 +286,7 @@ helwie
 [ June 9, 2022 at 10:24 pm  ](https://www.tecmint.com/extend-and-reduce-lvms-in-linux/#comment-1822089)
 Nice post.
 I have a question related to that article above. can I reduce my multiple HDD were use by home partition? we have five HDD @2TB extend with lvm with xfs format in centos 7.
-So we need to resize the partition home from 10TB to 5TB. I need to remove two HDDs and make sure all data cant corrupt.
+So we need to resize the partition home from 10TB to 5TB. I need to remove two HDDs and make sure all data can't corrupt.
 can you advise me step by step. thanks
 [Reply](https://www.tecmint.com/extend-and-reduce-lvms-in-linux/#comment-1822089)
   4. ![](https://secure.gravatar.com/avatar/7bd6d76d7f52798f112e5647c95e46a38cad13be42c35d0a0411601510ef609e?s=50&d=blank&r=g)

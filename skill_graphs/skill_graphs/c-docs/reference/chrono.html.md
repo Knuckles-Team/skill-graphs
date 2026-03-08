@@ -16,7 +16,6 @@
 
 
 #####  Actions[](https://en.cppreference.com/w/c/chrono.html)
-![ads via Carbon](https://ad.doubleclick.net/ddm/trackimp/N718679.452584BUYSELLADS.COM/B29332811.421611897;dc_trk_aid=613858979;dc_trk_cid=235700574;ord=177295379;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$;gdpr_consent=$;ltd=;dc_tdv=1)
 # Date and time utilities
 From cppreference.com
 < [c](https://en.cppreference.com/w/c.html "c")

@@ -499,7 +499,7 @@ Yes you can, just follow the instructions as shown in this article and setup ban
 hafuz
 [ September 17, 2015 at 6:52 pm  ](https://www.tecmint.com/limit-linux-network-bandwidth-usage-with-trickle/#comment-668008)
 Hi,
-How to limite bandwidth only when needed.
+How to limit bandwidth only when needed.
 Ex: I want use app1 to download on a system with total bandwidth of 800 ko/s
 # trickle -d 600 foo_app1
 To let 200 ko/s to other apps.

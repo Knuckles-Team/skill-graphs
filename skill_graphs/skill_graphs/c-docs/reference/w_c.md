@@ -17,7 +17,7 @@ You can view its source \[e\]")
 
 
 #####  Actions[](https://en.cppreference.com/w/c.html)
-![ads via Carbon](https://ad.doubleclick.net/ddm/trackimp/N718679.452584BUYSELLADS.COM/B29332811.401293666;dc_trk_aid=593420487;dc_trk_cid=207494836;ord=177295378;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$;gdpr_consent=$;ltd=;dc_tdv=1)
+![ads via Carbon](https://ad.double-click.net/ddm/trackimp/N718679.452584BUYSELLADS.COM/B29332811.401293666;dc_trk_aid=593420487;dc_trk_cid=207494836;ord=177299880;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$;gdpr_consent=$;ltd=;dc_tdv=1)
 # C reference
 From cppreference.com
 **C**

@@ -127,7 +127,7 @@ Processes in Microsoft 365 for setting up Office apps, redeeming product keys, a
 Sign in to follow  Follow
 asked Mar 8, 2026, 12:48 AM
 ![](data:image/svg+xml,%20%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20height='64'%20class='font-weight-bold'%20style='font:%20600%2030.11764705882353px%20"SegoeUI",%20Arial'%20width='64'%3E%3Ccircle%20fill='hsl\(307.2,%2073%,%2039%\)'%20cx='32'%20cy='32'%20r='32'%20/%3E%3Ctext%20x='50%25'%20y='55%25'%20dominant-baseline='middle'%20text-anchor='middle'%20fill='%23FFF'%20%3EPK%3C/text%3E%3C/svg%3E)
-[Parth K](https://learn.microsoft.com/en-us/users/na/?userid=967f3d19-7130-48e8-8d43-202697348bce) 0 Reputation points
+[Path K](https://learn.microsoft.com/en-us/users/na/?userid=967f3d19-7130-48e8-8d43-202697348bce) 0 Reputation points
 answered Mar 8, 2026, 12:48 AM
 ![](https://learn.microsoft.com/en-us/media/profile/user-copilot.png)
 Q&A Assist
@@ -247,7 +247,7 @@ edited the question Mar 8, 2026, 12:34 AM
 [simo-k](https://learn.microsoft.com/en-us/users/na/?userid=ec2dc119-5543-41b7-a237-7451fc5147b9) 76,830 Reputation points • Volunteer Moderator
 0 answers
 ##  [ My Azure Database for PostgreSQL flexible server is stuck in 'Starting' state ](https://learn.microsoft.com/en-us/answers/questions/5812204/my-azure-database-for-postgresql-flexible-server-i)
-Because of a storage capacity issue, my server is unable to start, and is not responding. The storage percent of is at 99.871%. I woud like to rescale the storage so that I'm able to start it again. However the storage scaling options are disabled. How…
+Because of a storage capacity issue, my server is unable to start, and is not responding. The storage percent of is at 99.871%. I would like to rescale the storage so that I'm able to start it again. However the storage scaling options are disabled. How…
 Azure Database for PostgreSQL
 [ Azure Database for PostgreSQL ](https://learn.microsoft.com/en-us/answers/tags/214/azure-database-postgresql/)
 An Azure managed PostgreSQL database service for app development and deployment.
@@ -261,7 +261,7 @@ commented Mar 8, 2026, 12:31 AM
 [Saraswathi Devadula](https://learn.microsoft.com/en-us/users/na/?userid=52959f0a-08b1-411d-9661-d5e44cadbcd5) 14,405 Reputation points • Microsoft External Staff • Moderator
 2 answers
 ##  [ administrative issue ](https://learn.microsoft.com/en-us/answers/questions/5812621/administrative-issue)
-I am trying to change my accounts administrative access but cant because it wont even let me put in my administrative password the only option i have when it asks if i would like to allow it to make changes is no
+I am trying to change my accounts administrative access but can't because it won't even let me put in my administrative password the only option i have when it asks if i would like to allow it to make changes is no
 Windows for home | Windows 11 | Accounts, profiles, and login
 [ Windows for home | Windows 11 | Accounts, profiles, and login ](https://learn.microsoft.com/en-us/answers/tags/1064/windows-home-windows-11-platform-accounts-profiles-login/)
 ![](https://learn.microsoft.com/en-us/media/logos/logo_windows.svg)

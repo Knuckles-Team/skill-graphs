@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [docs_speed-insights](<./docs_speed-insights.md>)
+- [Speed Insights Overview](<./Speed-Insights-Overview.md>)
+  - [[Dashboard view](https://vercel.com/docs/speed-insights#dashboard-view)[](https://vercel.com/docs/speed-insights#dashboard-view)](<./Speed-Insights-Overview/Dashboard-viewhttpsvercel.comdocsspeed-insightsdashboard-viewhttpsvercel.comdocsspeed-insightsdashboard-view.md>)
+  - [[More resources](https://vercel.com/docs/speed-insights#more-resources)[](https://vercel.com/docs/speed-insights#more-resources)](<./Speed-Insights-Overview/More-resourceshttpsvercel.comdocsspeed-insightsmore-resourceshttpsvercel.comdocsspeed-insightsmore-resources.md>)
+  - [Get Started](<./Speed-Insights-Overview/Get-Started.md>)
+  - [Build](<./Speed-Insights-Overview/Build.md>)
+  - [Scale](<./Speed-Insights-Overview/Scale.md>)
+  - [Secure](<./Speed-Insights-Overview/Secure.md>)
+  - [Resources](<./Speed-Insights-Overview/Resources.md>)
+  - [Learn](<./Speed-Insights-Overview/Learn.md>)
+  - [Frameworks](<./Speed-Insights-Overview/Frameworks.md>)
+  - [SDKs](<./Speed-Insights-Overview/SDKs.md>)
+  - [Use Cases](<./Speed-Insights-Overview/Use-Cases.md>)
+  - [Company](<./Speed-Insights-Overview/Company.md>)
+  - [Community](<./Speed-Insights-Overview/Community.md>)

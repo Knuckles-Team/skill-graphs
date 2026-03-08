@@ -16,7 +16,6 @@
 
 
 #####  Actions[](https://en.cppreference.com/w/c/string/multibyte.html)
-![ads via Carbon](https://ad.doubleclick.net/ddm/trackimp/N718679.452584BUYSELLADS.COM/B29332811.421611894;dc_trk_aid=613858970;dc_trk_cid=235700574;ord=177295382;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$;gdpr_consent=$;ltd=;dc_tdv=1)
 # Null-terminated multibyte strings
 From cppreference.com
 < [c](https://en.cppreference.com/w/c.html "c")‎ | [string](https://en.cppreference.com/w/c/string.html "c/string")

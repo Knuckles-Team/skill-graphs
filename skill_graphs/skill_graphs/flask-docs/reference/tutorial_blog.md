@@ -1,271 +1,323 @@
 ### Navigation
   * [index](https://flask.palletsprojects.com/en/stable/genindex/ "General Index")
   * [modules](https://flask.palletsprojects.com/en/stable/py-modindex/ "Python Module Index") |
-  * [next](https://flask.palletsprojects.com/en/stable/tutorial/install/ "Make the Project Installable") |
-  * [previous](https://flask.palletsprojects.com/en/stable/tutorial/static/ "Static Files") |
+  * [next](https://flask.palletsprojects.com/en/stable/installation/ "Installation") |
   * [Flask Documentation (3.1.x)](https://flask.palletsprojects.com/en/stable/) »
-  * [Tutorial](https://flask.palletsprojects.com/en/stable/tutorial/) »
-  * [Blog Blueprint](https://flask.palletsprojects.com/en/stable/tutorial/blog/)
+  * [Welcome to Flask](https://flask.palletsprojects.com/en/stable/)
 
 
-# Blog Blueprint[¶](https://flask.palletsprojects.com/en/stable/tutorial/blog/#blog-blueprint "Link to this heading")
-You’ll use the same techniques you learned about when writing the authentication blueprint to write the blog blueprint. The blog should list all posts, allow logged in users to create posts, and allow the author of a post to edit or delete it.
-As you implement each view, keep the development server running. As you save your changes, try going to the URL in your browser and testing them out.
-## The Blueprint[¶](https://flask.palletsprojects.com/en/stable/tutorial/blog/#the-blueprint "Link to this heading")
-Define the blueprint and register it in the application factory.
-`flaskr/blog.py`[¶](https://flask.palletsprojects.com/en/stable/tutorial/blog/#id1 "Link to this code")
-```
-from flask import (
-    Blueprint, flash, g, redirect, render_template, request, url_for
-)
-from werkzeug.exceptions import abort
+# Welcome to Flask[¶](https://flask.palletsprojects.com/en/stable/#welcome-to-flask "Link to this heading")
+[![_images/flask-name.svg](https://flask.palletsprojects.com/en/stable/_images/flask-name.svg) ](https://flask.palletsprojects.com/en/stable/_images/flask-name.svg)
+Welcome to Flask’s documentation. Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications.
+Get started with [Installation](https://flask.palletsprojects.com/en/stable/installation/) and then get an overview with the [Quickstart](https://flask.palletsprojects.com/en/stable/quickstart/). There is also a more detailed [Tutorial](https://flask.palletsprojects.com/en/stable/tutorial/) that shows how to create a small but complete application with Flask. Common patterns are described in the [Patterns for Flask](https://flask.palletsprojects.com/en/stable/patterns/) section. The rest of the docs describe each component of Flask in detail, with a full reference in the [API](https://flask.palletsprojects.com/en/stable/api/) section.
+Flask depends on the [Werkzeug](https://werkzeug.palletsprojects.com) WSGI toolkit, the [Jinja](https://jinja.palletsprojects.com) template engine, and the [Click](https://click.palletsprojects.com) CLI toolkit. Be sure to check their documentation as well as Flask’s when looking for information.
+## User’s Guide[¶](https://flask.palletsprojects.com/en/stable/#user-s-guide "Link to this heading")
+Flask provides configuration and conventions, with sensible defaults, to get started. This section of the documentation explains the different parts of the Flask framework and how they can be used, customized, and extended. Beyond Flask itself, look for community-maintained extensions to add even more functionality.
+  * [Installation](https://flask.palletsprojects.com/en/stable/installation/)
+    * [Python Version](https://flask.palletsprojects.com/en/stable/installation/#python-version)
+    * [Dependencies](https://flask.palletsprojects.com/en/stable/installation/#dependencies)
+    * [Virtual environments](https://flask.palletsprojects.com/en/stable/installation/#virtual-environments)
+    * [Install Flask](https://flask.palletsprojects.com/en/stable/installation/#install-flask)
+  * [Quickstart](https://flask.palletsprojects.com/en/stable/quickstart/)
+    * [A Minimal Application](https://flask.palletsprojects.com/en/stable/quickstart/#a-minimal-application)
+    * [Debug Mode](https://flask.palletsprojects.com/en/stable/quickstart/#debug-mode)
+    * [HTML Escaping](https://flask.palletsprojects.com/en/stable/quickstart/#html-escaping)
+    * [Routing](https://flask.palletsprojects.com/en/stable/quickstart/#routing)
+    * [Static Files](https://flask.palletsprojects.com/en/stable/quickstart/#static-files)
+    * [Rendering Templates](https://flask.palletsprojects.com/en/stable/quickstart/#rendering-templates)
+    * [Accessing Request Data](https://flask.palletsprojects.com/en/stable/quickstart/#accessing-request-data)
+    * [Redirects and Errors](https://flask.palletsprojects.com/en/stable/quickstart/#redirects-and-errors)
+    * [About Responses](https://flask.palletsprojects.com/en/stable/quickstart/#about-responses)
+    * [Sessions](https://flask.palletsprojects.com/en/stable/quickstart/#sessions)
+    * [Message Flashing](https://flask.palletsprojects.com/en/stable/quickstart/#message-flashing)
+    * [Logging](https://flask.palletsprojects.com/en/stable/quickstart/#logging)
+    * [Hooking in WSGI Middleware](https://flask.palletsprojects.com/en/stable/quickstart/#hooking-in-wsgi-middleware)
+    * [Using Flask Extensions](https://flask.palletsprojects.com/en/stable/quickstart/#using-flask-extensions)
+    * [Deploying to a Web Server](https://flask.palletsprojects.com/en/stable/quickstart/#deploying-to-a-web-server)
+  * [Tutorial](https://flask.palletsprojects.com/en/stable/tutorial/)
+    * [Project Layout](https://flask.palletsprojects.com/en/stable/tutorial/layout/)
+    * [Application Setup](https://flask.palletsprojects.com/en/stable/tutorial/factory/)
+    * [Define and Access the Database](https://flask.palletsprojects.com/en/stable/tutorial/database/)
+    * [Blueprints and Views](https://flask.palletsprojects.com/en/stable/tutorial/views/)
+    * [Templates](https://flask.palletsprojects.com/en/stable/tutorial/templates/)
+    * [Static Files](https://flask.palletsprojects.com/en/stable/tutorial/static/)
+    * [Blog Blueprint](https://flask.palletsprojects.com/en/stable/tutorial/blog/)
+    * [Make the Project Installable](https://flask.palletsprojects.com/en/stable/tutorial/install/)
+    * [Test Coverage](https://flask.palletsprojects.com/en/stable/tutorial/tests/)
+    * [Deploy to Production](https://flask.palletsprojects.com/en/stable/tutorial/deploy/)
+    * [Keep Developing!](https://flask.palletsprojects.com/en/stable/tutorial/next/)
+  * [Templates](https://flask.palletsprojects.com/en/stable/templating/)
+    * [Jinja Setup](https://flask.palletsprojects.com/en/stable/templating/#jinja-setup)
+    * [Standard Context](https://flask.palletsprojects.com/en/stable/templating/#standard-context)
+    * [Controlling Autoescaping](https://flask.palletsprojects.com/en/stable/templating/#controlling-autoescaping)
+    * [Registering Filters](https://flask.palletsprojects.com/en/stable/templating/#registering-filters)
+    * [Context Processors](https://flask.palletsprojects.com/en/stable/templating/#context-processors)
+    * [Streaming](https://flask.palletsprojects.com/en/stable/templating/#streaming)
+  * [Testing Flask Applications](https://flask.palletsprojects.com/en/stable/testing/)
+    * [Identifying Tests](https://flask.palletsprojects.com/en/stable/testing/#identifying-tests)
+    * [Fixtures](https://flask.palletsprojects.com/en/stable/testing/#fixtures)
+    * [Sending Requests with the Test Client](https://flask.palletsprojects.com/en/stable/testing/#sending-requests-with-the-test-client)
+    * [Following Redirects](https://flask.palletsprojects.com/en/stable/testing/#following-redirects)
+    * [Accessing and Modifying the Session](https://flask.palletsprojects.com/en/stable/testing/#accessing-and-modifying-the-session)
+    * [Running Commands with the CLI Runner](https://flask.palletsprojects.com/en/stable/testing/#running-commands-with-the-cli-runner)
+    * [Tests that depend on an Active Context](https://flask.palletsprojects.com/en/stable/testing/#tests-that-depend-on-an-active-context)
+  * [Handling Application Errors](https://flask.palletsprojects.com/en/stable/errorhandling/)
+    * [Error Logging Tools](https://flask.palletsprojects.com/en/stable/errorhandling/#error-logging-tools)
+    * [Error Handlers](https://flask.palletsprojects.com/en/stable/errorhandling/#error-handlers)
+    * [Custom Error Pages](https://flask.palletsprojects.com/en/stable/errorhandling/#custom-error-pages)
+    * [Blueprint Error Handlers](https://flask.palletsprojects.com/en/stable/errorhandling/#blueprint-error-handlers)
+    * [Returning API Errors as JSON](https://flask.palletsprojects.com/en/stable/errorhandling/#returning-api-errors-as-json)
+    * [Logging](https://flask.palletsprojects.com/en/stable/errorhandling/#logging)
+    * [Debugging](https://flask.palletsprojects.com/en/stable/errorhandling/#debugging)
+  * [Debugging Application Errors](https://flask.palletsprojects.com/en/stable/debugging/)
+    * [In Production](https://flask.palletsprojects.com/en/stable/debugging/#in-production)
+    * [The Built-In Debugger](https://flask.palletsprojects.com/en/stable/debugging/#the-built-in-debugger)
+    * [External Debuggers](https://flask.palletsprojects.com/en/stable/debugging/#external-debuggers)
+  * [Logging](https://flask.palletsprojects.com/en/stable/logging/)
+    * [Basic Configuration](https://flask.palletsprojects.com/en/stable/logging/#basic-configuration)
+    * [Email Errors to Admins](https://flask.palletsprojects.com/en/stable/logging/#email-errors-to-admins)
+    * [Injecting Request Information](https://flask.palletsprojects.com/en/stable/logging/#injecting-request-information)
+    * [Other Libraries](https://flask.palletsprojects.com/en/stable/logging/#other-libraries)
+  * [Configuration Handling](https://flask.palletsprojects.com/en/stable/config/)
+    * [Configuration Basics](https://flask.palletsprojects.com/en/stable/config/#configuration-basics)
+    * [Debug Mode](https://flask.palletsprojects.com/en/stable/config/#debug-mode)
+    * [Builtin Configuration Values](https://flask.palletsprojects.com/en/stable/config/#builtin-configuration-values)
+    * [Configuring from Python Files](https://flask.palletsprojects.com/en/stable/config/#configuring-from-python-files)
+    * [Configuring from Data Files](https://flask.palletsprojects.com/en/stable/config/#configuring-from-data-files)
+    * [Configuring from Environment Variables](https://flask.palletsprojects.com/en/stable/config/#configuring-from-environment-variables)
+    * [Configuration Best Practices](https://flask.palletsprojects.com/en/stable/config/#configuration-best-practices)
+    * [Development / Production](https://flask.palletsprojects.com/en/stable/config/#development-production)
+    * [Instance Folders](https://flask.palletsprojects.com/en/stable/config/#instance-folders)
+  * [Signals](https://flask.palletsprojects.com/en/stable/signals/)
+    * [Core Signals](https://flask.palletsprojects.com/en/stable/signals/#core-signals)
+    * [Subscribing to Signals](https://flask.palletsprojects.com/en/stable/signals/#subscribing-to-signals)
+    * [Creating Signals](https://flask.palletsprojects.com/en/stable/signals/#creating-signals)
+    * [Sending Signals](https://flask.palletsprojects.com/en/stable/signals/#sending-signals)
+    * [Signals and Flask’s Request Context](https://flask.palletsprojects.com/en/stable/signals/#signals-and-flask-s-request-context)
+    * [Decorator Based Signal Subscriptions](https://flask.palletsprojects.com/en/stable/signals/#decorator-based-signal-subscriptions)
+  * [Class-based Views](https://flask.palletsprojects.com/en/stable/views/)
+    * [Basic Reusable View](https://flask.palletsprojects.com/en/stable/views/#basic-reusable-view)
+    * [URL Variables](https://flask.palletsprojects.com/en/stable/views/#url-variables)
+    * [View Lifetime and `self`](https://flask.palletsprojects.com/en/stable/views/#view-lifetime-and-self)
+    * [View Decorators](https://flask.palletsprojects.com/en/stable/views/#view-decorators)
+    * [Method Hints](https://flask.palletsprojects.com/en/stable/views/#method-hints)
+    * [Method Dispatching and APIs](https://flask.palletsprojects.com/en/stable/views/#method-dispatching-and-apis)
+  * [Application Structure and Lifecycle](https://flask.palletsprojects.com/en/stable/lifecycle/)
+    * [Application Setup](https://flask.palletsprojects.com/en/stable/lifecycle/#application-setup)
+    * [Serving the Application](https://flask.palletsprojects.com/en/stable/lifecycle/#serving-the-application)
+    * [How a Request is Handled](https://flask.palletsprojects.com/en/stable/lifecycle/#how-a-request-is-handled)
+  * [The Application Context](https://flask.palletsprojects.com/en/stable/appcontext/)
+    * [Purpose of the Context](https://flask.palletsprojects.com/en/stable/appcontext/#purpose-of-the-context)
+    * [Lifetime of the Context](https://flask.palletsprojects.com/en/stable/appcontext/#lifetime-of-the-context)
+    * [Manually Push a Context](https://flask.palletsprojects.com/en/stable/appcontext/#manually-push-a-context)
+    * [Storing Data](https://flask.palletsprojects.com/en/stable/appcontext/#storing-data)
+    * [Events and Signals](https://flask.palletsprojects.com/en/stable/appcontext/#events-and-signals)
+  * [The Request Context](https://flask.palletsprojects.com/en/stable/reqcontext/)
+    * [Purpose of the Context](https://flask.palletsprojects.com/en/stable/reqcontext/#purpose-of-the-context)
+    * [Lifetime of the Context](https://flask.palletsprojects.com/en/stable/reqcontext/#lifetime-of-the-context)
+    * [Manually Push a Context](https://flask.palletsprojects.com/en/stable/reqcontext/#manually-push-a-context)
+    * [How the Context Works](https://flask.palletsprojects.com/en/stable/reqcontext/#how-the-context-works)
+    * [Callbacks and Errors](https://flask.palletsprojects.com/en/stable/reqcontext/#callbacks-and-errors)
+    * [Notes On Proxies](https://flask.palletsprojects.com/en/stable/reqcontext/#notes-on-proxies)
+  * [Modular Applications with Blueprints](https://flask.palletsprojects.com/en/stable/blueprints/)
+    * [Why Blueprints?](https://flask.palletsprojects.com/en/stable/blueprints/#why-blueprints)
+    * [The Concept of Blueprints](https://flask.palletsprojects.com/en/stable/blueprints/#the-concept-of-blueprints)
+    * [My First Blueprint](https://flask.palletsprojects.com/en/stable/blueprints/#my-first-blueprint)
+    * [Registering Blueprints](https://flask.palletsprojects.com/en/stable/blueprints/#registering-blueprints)
+    * [Nesting Blueprints](https://flask.palletsprojects.com/en/stable/blueprints/#nesting-blueprints)
+    * [Blueprint Resources](https://flask.palletsprojects.com/en/stable/blueprints/#blueprint-resources)
+    * [Building URLs](https://flask.palletsprojects.com/en/stable/blueprints/#building-urls)
+    * [Blueprint Error Handlers](https://flask.palletsprojects.com/en/stable/blueprints/#blueprint-error-handlers)
+  * [Extensions](https://flask.palletsprojects.com/en/stable/extensions/)
+    * [Finding Extensions](https://flask.palletsprojects.com/en/stable/extensions/#finding-extensions)
+    * [Using Extensions](https://flask.palletsprojects.com/en/stable/extensions/#using-extensions)
+    * [Building Extensions](https://flask.palletsprojects.com/en/stable/extensions/#building-extensions)
+  * [Command Line Interface](https://flask.palletsprojects.com/en/stable/cli/)
+    * [Application Discovery](https://flask.palletsprojects.com/en/stable/cli/#application-discovery)
+    * [Run the Development Server](https://flask.palletsprojects.com/en/stable/cli/#run-the-development-server)
+    * [Open a Shell](https://flask.palletsprojects.com/en/stable/cli/#open-a-shell)
+    * [Environment Variables From dotenv](https://flask.palletsprojects.com/en/stable/cli/#environment-variables-from-dotenv)
+    * [Environment Variables From virtualenv](https://flask.palletsprojects.com/en/stable/cli/#environment-variables-from-virtualenv)
+    * [Custom Commands](https://flask.palletsprojects.com/en/stable/cli/#custom-commands)
+    * [Plugins](https://flask.palletsprojects.com/en/stable/cli/#plugins)
+    * [Custom Scripts](https://flask.palletsprojects.com/en/stable/cli/#custom-scripts)
+    * [PyCharm Integration](https://flask.palletsprojects.com/en/stable/cli/#pycharm-integration)
+  * [Development Server](https://flask.palletsprojects.com/en/stable/server/)
+    * [Command Line](https://flask.palletsprojects.com/en/stable/server/#command-line)
+    * [In Code](https://flask.palletsprojects.com/en/stable/server/#in-code)
+  * [Working with the Shell](https://flask.palletsprojects.com/en/stable/shell/)
+    * [Command Line Interface](https://flask.palletsprojects.com/en/stable/shell/#command-line-interface)
+    * [Creating a Request Context](https://flask.palletsprojects.com/en/stable/shell/#creating-a-request-context)
+    * [Firing Before/After Request](https://flask.palletsprojects.com/en/stable/shell/#firing-before-after-request)
+    * [Further Improving the Shell Experience](https://flask.palletsprojects.com/en/stable/shell/#further-improving-the-shell-experience)
+  * [Patterns for Flask](https://flask.palletsprojects.com/en/stable/patterns/)
+    * [Large Applications as Packages](https://flask.palletsprojects.com/en/stable/patterns/packages/)
+    * [Application Factories](https://flask.palletsprojects.com/en/stable/patterns/appfactories/)
+    * [Application Dispatching](https://flask.palletsprojects.com/en/stable/patterns/appdispatch/)
+    * [Using URL Processors](https://flask.palletsprojects.com/en/stable/patterns/urlprocessors/)
+    * [Using SQLite 3 with Flask](https://flask.palletsprojects.com/en/stable/patterns/sqlite3/)
+    * [SQLAlchemy in Flask](https://flask.palletsprojects.com/en/stable/patterns/sqlalchemy/)
+    * [Uploading Files](https://flask.palletsprojects.com/en/stable/patterns/fileuploads/)
+    * [Caching](https://flask.palletsprojects.com/en/stable/patterns/caching/)
+    * [View Decorators](https://flask.palletsprojects.com/en/stable/patterns/viewdecorators/)
+    * [Form Validation with WTForms](https://flask.palletsprojects.com/en/stable/patterns/wtforms/)
+    * [Template Inheritance](https://flask.palletsprojects.com/en/stable/patterns/templateinheritance/)
+    * [Message Flashing](https://flask.palletsprojects.com/en/stable/patterns/flashing/)
+    * [JavaScript, `fetch`, and JSON](https://flask.palletsprojects.com/en/stable/patterns/javascript/)
+    * [Lazily Loading Views](https://flask.palletsprojects.com/en/stable/patterns/lazyloading/)
+    * [MongoDB with MongoEngine](https://flask.palletsprojects.com/en/stable/patterns/mongoengine/)
+    * [Adding a favicon](https://flask.palletsprojects.com/en/stable/patterns/favicon/)
+    * [Streaming Contents](https://flask.palletsprojects.com/en/stable/patterns/streaming/)
+    * [Deferred Request Callbacks](https://flask.palletsprojects.com/en/stable/patterns/deferredcallbacks/)
+    * [Adding HTTP Method Overrides](https://flask.palletsprojects.com/en/stable/patterns/methodoverrides/)
+    * [Request Content Checksums](https://flask.palletsprojects.com/en/stable/patterns/requestchecksum/)
+    * [Background Tasks with Celery](https://flask.palletsprojects.com/en/stable/patterns/celery/)
+    * [Subclassing Flask](https://flask.palletsprojects.com/en/stable/patterns/subclassing/)
+    * [Single-Page Applications](https://flask.palletsprojects.com/en/stable/patterns/singlepageapplications/)
+  * [Security Considerations](https://flask.palletsprojects.com/en/stable/web-security/)
+    * [Resource Use](https://flask.palletsprojects.com/en/stable/web-security/#resource-use)
+    * [Cross-Site Scripting (XSS)](https://flask.palletsprojects.com/en/stable/web-security/#cross-site-scripting-xss)
+    * [Cross-Site Request Forgery (CSRF)](https://flask.palletsprojects.com/en/stable/web-security/#cross-site-request-forgery-csrf)
+    * [JSON Security](https://flask.palletsprojects.com/en/stable/web-security/#json-security)
+    * [Security Headers](https://flask.palletsprojects.com/en/stable/web-security/#security-headers)
+    * [Host Header Validation](https://flask.palletsprojects.com/en/stable/web-security/#host-header-validation)
+    * [Copy/Paste to Terminal](https://flask.palletsprojects.com/en/stable/web-security/#copy-paste-to-terminal)
+  * [Deploying to Production](https://flask.palletsprojects.com/en/stable/deploying/)
+    * [Self-Hosted Options](https://flask.palletsprojects.com/en/stable/deploying/#self-hosted-options)
+    * [Hosting Platforms](https://flask.palletsprojects.com/en/stable/deploying/#hosting-platforms)
+  * [Async with Gevent](https://flask.palletsprojects.com/en/stable/gevent/)
+    * [Enabling gevent](https://flask.palletsprojects.com/en/stable/gevent/#enabling-gevent)
+    * [Combining with `async`/`await`](https://flask.palletsprojects.com/en/stable/gevent/#combining-with-async-await)
+  * [Using `async` and `await`](https://flask.palletsprojects.com/en/stable/async-await/)
+    * [Performance](https://flask.palletsprojects.com/en/stable/async-await/#performance)
+    * [Background tasks](https://flask.palletsprojects.com/en/stable/async-await/#background-tasks)
+    * [When to use Quart instead](https://flask.palletsprojects.com/en/stable/async-await/#when-to-use-quart-instead)
+    * [Extensions](https://flask.palletsprojects.com/en/stable/async-await/#extensions)
+    * [Other event loops](https://flask.palletsprojects.com/en/stable/async-await/#other-event-loops)
 
-from flaskr.auth import login_required
-from flaskr.db import get_db
 
-bp = Blueprint('blog', __name__)
+## API Reference[¶](https://flask.palletsprojects.com/en/stable/#api-reference "Link to this heading")
+If you are looking for information on a specific function, class or method, this part of the documentation is for you.
+  * [API](https://flask.palletsprojects.com/en/stable/api/)
+    * [Application Object](https://flask.palletsprojects.com/en/stable/api/#application-object)
+    * [Blueprint Objects](https://flask.palletsprojects.com/en/stable/api/#blueprint-objects)
+    * [Incoming Request Data](https://flask.palletsprojects.com/en/stable/api/#incoming-request-data)
+    * [Response Objects](https://flask.palletsprojects.com/en/stable/api/#response-objects)
+    * [Sessions](https://flask.palletsprojects.com/en/stable/api/#sessions)
+    * [Session Interface](https://flask.palletsprojects.com/en/stable/api/#session-interface)
+    * [Test Client](https://flask.palletsprojects.com/en/stable/api/#test-client)
+    * [Test CLI Runner](https://flask.palletsprojects.com/en/stable/api/#test-cli-runner)
+    * [Application Globals](https://flask.palletsprojects.com/en/stable/api/#application-globals)
+    * [Useful Functions and Classes](https://flask.palletsprojects.com/en/stable/api/#useful-functions-and-classes)
+    * [Message Flashing](https://flask.palletsprojects.com/en/stable/api/#message-flashing)
+    * [JSON Support](https://flask.palletsprojects.com/en/stable/api/#module-flask.json)
+    * [Template Rendering](https://flask.palletsprojects.com/en/stable/api/#template-rendering)
+    * [Configuration](https://flask.palletsprojects.com/en/stable/api/#configuration)
+    * [Stream Helpers](https://flask.palletsprojects.com/en/stable/api/#stream-helpers)
+    * [Useful Internals](https://flask.palletsprojects.com/en/stable/api/#useful-internals)
+    * [Signals](https://flask.palletsprojects.com/en/stable/api/#signals)
+    * [Class-Based Views](https://flask.palletsprojects.com/en/stable/api/#class-based-views)
+    * [URL Route Registrations](https://flask.palletsprojects.com/en/stable/api/#url-route-registrations)
+    * [View Function Options](https://flask.palletsprojects.com/en/stable/api/#view-function-options)
+    * [Command Line Interface](https://flask.palletsprojects.com/en/stable/api/#command-line-interface)
 
-```
 
-Import and register the blueprint from the factory using [`app.register_blueprint()`](https://flask.palletsprojects.com/en/stable/api/#flask.Flask.register_blueprint "flask.Flask.register_blueprint"). Place the new code at the end of the factory function before returning the app.
-`flaskr/__init__.py`[¶](https://flask.palletsprojects.com/en/stable/tutorial/blog/#id2 "Link to this code")
-```
-def create_app():
-    app = ...
-    # existing code omitted
+## Additional Notes[¶](https://flask.palletsprojects.com/en/stable/#additional-notes "Link to this heading")
+  * [Design Decisions in Flask](https://flask.palletsprojects.com/en/stable/design/)
+    * [The Explicit Application Object](https://flask.palletsprojects.com/en/stable/design/#the-explicit-application-object)
+    * [The Routing System](https://flask.palletsprojects.com/en/stable/design/#the-routing-system)
+    * [One Template Engine](https://flask.palletsprojects.com/en/stable/design/#one-template-engine)
+    * [What does “micro” mean?](https://flask.palletsprojects.com/en/stable/design/#what-does-micro-mean)
+    * [Thread Locals](https://flask.palletsprojects.com/en/stable/design/#thread-locals)
+    * [Async/await and ASGI support](https://flask.palletsprojects.com/en/stable/design/#async-await-and-asgi-support)
+    * [What Flask is, What Flask is Not](https://flask.palletsprojects.com/en/stable/design/#what-flask-is-what-flask-is-not)
+  * [Flask Extension Development](https://flask.palletsprojects.com/en/stable/extensiondev/)
+    * [Naming](https://flask.palletsprojects.com/en/stable/extensiondev/#naming)
+    * [The Extension Class and Initialization](https://flask.palletsprojects.com/en/stable/extensiondev/#the-extension-class-and-initialization)
+    * [Adding Behavior](https://flask.palletsprojects.com/en/stable/extensiondev/#adding-behavior)
+    * [Configuration Techniques](https://flask.palletsprojects.com/en/stable/extensiondev/#configuration-techniques)
+    * [Data During a Request](https://flask.palletsprojects.com/en/stable/extensiondev/#data-during-a-request)
+    * [Views and Models](https://flask.palletsprojects.com/en/stable/extensiondev/#views-and-models)
+    * [Recommended Extension Guidelines](https://flask.palletsprojects.com/en/stable/extensiondev/#recommended-extension-guidelines)
+  * [Contributing](https://flask.palletsprojects.com/en/stable/contributing/)
+  * [BSD-3-Clause License](https://flask.palletsprojects.com/en/stable/license/)
+  * [Changes](https://flask.palletsprojects.com/en/stable/changes/)
+    * [Version 3.1.3](https://flask.palletsprojects.com/en/stable/changes/#version-3-1-3)
+    * [Version 3.1.2](https://flask.palletsprojects.com/en/stable/changes/#version-3-1-2)
+    * [Version 3.1.1](https://flask.palletsprojects.com/en/stable/changes/#version-3-1-1)
+    * [Version 3.1.0](https://flask.palletsprojects.com/en/stable/changes/#version-3-1-0)
+    * [Version 3.0.3](https://flask.palletsprojects.com/en/stable/changes/#version-3-0-3)
+    * [Version 3.0.2](https://flask.palletsprojects.com/en/stable/changes/#version-3-0-2)
+    * [Version 3.0.1](https://flask.palletsprojects.com/en/stable/changes/#version-3-0-1)
+    * [Version 3.0.0](https://flask.palletsprojects.com/en/stable/changes/#version-3-0-0)
+    * [Version 2.3.3](https://flask.palletsprojects.com/en/stable/changes/#version-2-3-3)
+    * [Version 2.3.2](https://flask.palletsprojects.com/en/stable/changes/#version-2-3-2)
+    * [Version 2.3.1](https://flask.palletsprojects.com/en/stable/changes/#version-2-3-1)
+    * [Version 2.3.0](https://flask.palletsprojects.com/en/stable/changes/#version-2-3-0)
+    * [Version 2.2.5](https://flask.palletsprojects.com/en/stable/changes/#version-2-2-5)
+    * [Version 2.2.4](https://flask.palletsprojects.com/en/stable/changes/#version-2-2-4)
+    * [Version 2.2.3](https://flask.palletsprojects.com/en/stable/changes/#version-2-2-3)
+    * [Version 2.2.2](https://flask.palletsprojects.com/en/stable/changes/#version-2-2-2)
+    * [Version 2.2.1](https://flask.palletsprojects.com/en/stable/changes/#version-2-2-1)
+    * [Version 2.2.0](https://flask.palletsprojects.com/en/stable/changes/#version-2-2-0)
+    * [Version 2.1.3](https://flask.palletsprojects.com/en/stable/changes/#version-2-1-3)
+    * [Version 2.1.2](https://flask.palletsprojects.com/en/stable/changes/#version-2-1-2)
+    * [Version 2.1.1](https://flask.palletsprojects.com/en/stable/changes/#version-2-1-1)
+    * [Version 2.1.0](https://flask.palletsprojects.com/en/stable/changes/#version-2-1-0)
+    * [Version 2.0.3](https://flask.palletsprojects.com/en/stable/changes/#version-2-0-3)
+    * [Version 2.0.2](https://flask.palletsprojects.com/en/stable/changes/#version-2-0-2)
+    * [Version 2.0.1](https://flask.palletsprojects.com/en/stable/changes/#version-2-0-1)
+    * [Version 2.0.0](https://flask.palletsprojects.com/en/stable/changes/#version-2-0-0)
+    * [Version 1.1.4](https://flask.palletsprojects.com/en/stable/changes/#version-1-1-4)
+    * [Version 1.1.3](https://flask.palletsprojects.com/en/stable/changes/#version-1-1-3)
+    * [Version 1.1.2](https://flask.palletsprojects.com/en/stable/changes/#version-1-1-2)
+    * [Version 1.1.1](https://flask.palletsprojects.com/en/stable/changes/#version-1-1-1)
+    * [Version 1.1.0](https://flask.palletsprojects.com/en/stable/changes/#version-1-1-0)
+    * [Version 1.0.4](https://flask.palletsprojects.com/en/stable/changes/#version-1-0-4)
+    * [Version 1.0.3](https://flask.palletsprojects.com/en/stable/changes/#version-1-0-3)
+    * [Version 1.0.2](https://flask.palletsprojects.com/en/stable/changes/#version-1-0-2)
+    * [Version 1.0.1](https://flask.palletsprojects.com/en/stable/changes/#version-1-0-1)
+    * [Version 1.0](https://flask.palletsprojects.com/en/stable/changes/#version-1-0)
+    * [Version 0.12.5](https://flask.palletsprojects.com/en/stable/changes/#version-0-12-5)
+    * [Version 0.12.4](https://flask.palletsprojects.com/en/stable/changes/#version-0-12-4)
+    * [Version 0.12.3](https://flask.palletsprojects.com/en/stable/changes/#version-0-12-3)
+    * [Version 0.12.2](https://flask.palletsprojects.com/en/stable/changes/#version-0-12-2)
+    * [Version 0.12.1](https://flask.palletsprojects.com/en/stable/changes/#version-0-12-1)
+    * [Version 0.12](https://flask.palletsprojects.com/en/stable/changes/#version-0-12)
+    * [Version 0.11.1](https://flask.palletsprojects.com/en/stable/changes/#version-0-11-1)
+    * [Version 0.11](https://flask.palletsprojects.com/en/stable/changes/#version-0-11)
+    * [Version 0.10.1](https://flask.palletsprojects.com/en/stable/changes/#version-0-10-1)
+    * [Version 0.10](https://flask.palletsprojects.com/en/stable/changes/#version-0-10)
+    * [Version 0.9](https://flask.palletsprojects.com/en/stable/changes/#version-0-9)
+    * [Version 0.8.1](https://flask.palletsprojects.com/en/stable/changes/#version-0-8-1)
+    * [Version 0.8](https://flask.palletsprojects.com/en/stable/changes/#version-0-8)
+    * [Version 0.7.2](https://flask.palletsprojects.com/en/stable/changes/#version-0-7-2)
+    * [Version 0.7.1](https://flask.palletsprojects.com/en/stable/changes/#version-0-7-1)
+    * [Version 0.7](https://flask.palletsprojects.com/en/stable/changes/#version-0-7)
+    * [Version 0.6.1](https://flask.palletsprojects.com/en/stable/changes/#version-0-6-1)
+    * [Version 0.6](https://flask.palletsprojects.com/en/stable/changes/#version-0-6)
+    * [Version 0.5.2](https://flask.palletsprojects.com/en/stable/changes/#version-0-5-2)
+    * [Version 0.5.1](https://flask.palletsprojects.com/en/stable/changes/#version-0-5-1)
+    * [Version 0.5](https://flask.palletsprojects.com/en/stable/changes/#version-0-5)
+    * [Version 0.4](https://flask.palletsprojects.com/en/stable/changes/#version-0-4)
+    * [Version 0.3.1](https://flask.palletsprojects.com/en/stable/changes/#version-0-3-1)
+    * [Version 0.3](https://flask.palletsprojects.com/en/stable/changes/#version-0-3)
+    * [Version 0.2](https://flask.palletsprojects.com/en/stable/changes/#version-0-2)
+    * [Version 0.1](https://flask.palletsprojects.com/en/stable/changes/#version-0-1)
 
-    from . import blog
-    app.register_blueprint(blog.bp)
-    app.add_url_rule('/', endpoint='index')
 
-    return app
+### Project Links
+  * [Donate](https://palletsprojects.com/donate)
 
-```
 
-Unlike the auth blueprint, the blog blueprint does not have a `url_prefix`. So the `index` view will be at `/`, the `create` view at `/create`, and so on. The blog is the main feature of Flaskr, so it makes sense that the blog index will be the main index.
-However, the endpoint for the `index` view defined below will be `blog.index`. Some of the authentication views referred to a plain `index` endpoint. [`app.add_url_rule()`](https://flask.palletsprojects.com/en/stable/api/#flask.Flask.add_url_rule "flask.Flask.add_url_rule") associates the endpoint name `'index'` with the `/` url so that `url_for('index')` or `url_for('blog.index')` will both work, generating the same `/` URL either way.
-In another application you might give the blog blueprint a `url_prefix` and define a separate `index` view in the application factory, similar to the `hello` view. Then the `index` and `blog.index` endpoints and URLs would be different.
-## Index[¶](https://flask.palletsprojects.com/en/stable/tutorial/blog/#index "Link to this heading")
-The index will show all of the posts, most recent first. A `JOIN` is used so that the author information from the `user` table is available in the result.
-`flaskr/blog.py`[¶](https://flask.palletsprojects.com/en/stable/tutorial/blog/#id3 "Link to this code")
-```
-@bp.route('/')
-def index():
-    db = get_db()
-    posts = db.execute(
-        'SELECT p.id, title, body, created, author_id, username'
-        ' FROM post p JOIN user u ON p.author_id = u.id'
-        ' ORDER BY created DESC'
-    ).fetchall()
-    return render_template('blog/index.html', posts=posts)
-
-```
-
-`flaskr/templates/blog/index.html`[¶](https://flask.palletsprojects.com/en/stable/tutorial/blog/#id4 "Link to this code")
-```
-{% extends 'base.html' %}
-
-{% block header %}
-  <h1>{% block title %}Posts{% endblock %}</h1>
-  {% if g.user %}
-    <a class="action" href="{{ url_for('blog.create') }}">New</a>
-  {% endif %}
-{% endblock %}
-
-{% block content %}
-  {% for post in posts %}
-    <article class="post">
-      <header>
-        <div>
-          <h1>{{ post['title'] }}</h1>
-          <div class="about">by {{ post['username'] }} on {{ post['created'].strftime('%Y-%m-%d') }}</div>
-        </div>
-        {% if g.user['id'] == post['author_id'] %}
-          <a class="action" href="{{ url_for('blog.update', id=post['id']) }}">Edit</a>
-        {% endif %}
-      </header>
-      <p class="body">{{ post['body'] }}</p>
-    </article>
-    {% if not loop.last %}
-      <hr>
-    {% endif %}
-  {% endfor %}
-{% endblock %}
-
-```
-
-When a user is logged in, the `header` block adds a link to the `create` view. When the user is the author of a post, they’ll see an “Edit” link to the `update` view for that post. `loop.last` is a special variable available inside [Jinja for loops](https://jinja.palletsprojects.com/templates/#for). It’s used to display a line after each post except the last one, to visually separate them.
-## Create[¶](https://flask.palletsprojects.com/en/stable/tutorial/blog/#create "Link to this heading")
-The `create` view works the same as the auth `register` view. Either the form is displayed, or the posted data is validated and the post is added to the database or an error is shown.
-The `login_required` decorator you wrote earlier is used on the blog views. A user must be logged in to visit these views, otherwise they will be redirected to the login page.
-`flaskr/blog.py`[¶](https://flask.palletsprojects.com/en/stable/tutorial/blog/#id5 "Link to this code")
-```
-@bp.route('/create', methods=('GET', 'POST'))
-@login_required
-def create():
-    if request.method == 'POST':
-        title = request.form['title']
-        body = request.form['body']
-        error = None
-
-        if not title:
-            error = 'Title is required.'
-
-        if error is not None:
-            flash(error)
-        else:
-            db = get_db()
-            db.execute(
-                'INSERT INTO post (title, body, author_id)'
-                ' VALUES (?, ?, ?)',
-                (title, body, g.user['id'])
-            )
-            db.commit()
-            return redirect(url_for('blog.index'))
-
-    return render_template('blog/create.html')
-
-```
-
-`flaskr/templates/blog/create.html`[¶](https://flask.palletsprojects.com/en/stable/tutorial/blog/#id6 "Link to this code")
-```
-{% extends 'base.html' %}
-
-{% block header %}
-  <h1>{% block title %}New Post{% endblock %}</h1>
-{% endblock %}
-
-{% block content %}
-  <form method="post">
-    <label for="title">Title</label>
-    <input name="title" id="title" value="{{ request.form['title'] }}" required>
-    <label for="body">Body</label>
-    <textarea name="body" id="body">{{ request.form['body'] }}</textarea>
-    <input type="submit" value="Save">
-  </form>
-{% endblock %}
-
-```
-
-## Update[¶](https://flask.palletsprojects.com/en/stable/tutorial/blog/#update "Link to this heading")
-Both the `update` and `delete` views will need to fetch a `post` by `id` and check if the author matches the logged in user. To avoid duplicating code, you can write a function to get the `post` and call it from each view.
-`flaskr/blog.py`[¶](https://flask.palletsprojects.com/en/stable/tutorial/blog/#id7 "Link to this code")
-```
-def get_post(id, check_author=True):
-    post = get_db().execute(
-        'SELECT p.id, title, body, created, author_id, username'
-        ' FROM post p JOIN user u ON p.author_id = u.id'
-        ' WHERE p.id = ?',
-        (id,)
-    ).fetchone()
-
-    if post is None:
-        abort(404, f"Post id {id} doesn't exist.")
-
-    if check_author and post['author_id'] != g.user['id']:
-        abort(403)
-
-    return post
-
-```
-
-[`abort()`](https://flask.palletsprojects.com/en/stable/api/#flask.abort "flask.abort") will raise a special exception that returns an HTTP status code. It takes an optional message to show with the error, otherwise a default message is used. `404` means “Not Found”, and `403` means “Forbidden”. (`401` means “Unauthorized”, but you redirect to the login page instead of returning that status.)
-The `check_author` argument is defined so that the function can be used to get a `post` without checking the author. This would be useful if you wrote a view to show an individual post on a page, where the user doesn’t matter because they’re not modifying the post.
-`flaskr/blog.py`[¶](https://flask.palletsprojects.com/en/stable/tutorial/blog/#id8 "Link to this code")
-```
-@bp.route('/<int:id>/update', methods=('GET', 'POST'))
-@login_required
-def update(id):
-    post = get_post(id)
-
-    if request.method == 'POST':
-        title = request.form['title']
-        body = request.form['body']
-        error = None
-
-        if not title:
-            error = 'Title is required.'
-
-        if error is not None:
-            flash(error)
-        else:
-            db = get_db()
-            db.execute(
-                'UPDATE post SET title = ?, body = ?'
-                ' WHERE id = ?',
-                (title, body, id)
-            )
-            db.commit()
-            return redirect(url_for('blog.index'))
-
-    return render_template('blog/update.html', post=post)
-
-```
-
-Unlike the views you’ve written so far, the `update` function takes an argument, `id`. That corresponds to the `<int:id>` in the route. A real URL will look like `/1/update`. Flask will capture the `1`, ensure it’s an `id` argument. If you don’t specify `int:` and instead do `<id>`, it will be a string. To generate a URL to the update page, [`url_for()`](https://flask.palletsprojects.com/en/stable/api/#flask.url_for "flask.url_for") needs to be passed the `id` so it knows what to fill in: `url_for('blog.update', id=post['id'])`. This is also in the `index.html` file above.
-The `create` and `update` views look very similar. The main difference is that the `update` view uses a `post` object and an `UPDATE` query instead of an `INSERT`. With some clever refactoring, you could use one view and template for both actions, but for the tutorial it’s clearer to keep them separate.
-`flaskr/templates/blog/update.html`[¶](https://flask.palletsprojects.com/en/stable/tutorial/blog/#id9 "Link to this code")
-```
-{% extends 'base.html' %}
-
-{% block header %}
-  <h1>{% block title %}Edit "{{ post['title'] }}"{% endblock %}</h1>
-{% endblock %}
-
-{% block content %}
-  <form method="post">
-    <label for="title">Title</label>
-    <input name="title" id="title"
-      value="{{ request.form['title'] or post['title'] }}" required>
-    <label for="body">Body</label>
-    <textarea name="body" id="body">{{ request.form['body'] or post['body'] }}</textarea>
-    <input type="submit" value="Save">
-  </form>
-  <hr>
-  <form action="{{ url_for('blog.delete', id=post['id']) }}" method="post">
-    <input class="danger" type="submit" value="Delete" onclick="return confirm('Are you sure?');">
-  </form>
-{% endblock %}
-
-```
-
-This template has two forms. The first posts the edited data to the current page (`/<id>/update`). The other form contains only a button and specifies an `action` attribute that posts to the delete view instead. The button uses some JavaScript to show a confirmation dialog before submitting.
-The pattern `{{ request.form['title'] or post['title'] }}` is used to choose what data appears in the form. When the form hasn’t been submitted, the original `post` data appears, but if invalid form data was posted you want to display that so the user can fix the error, so `request.form` is used instead. [`request`](https://flask.palletsprojects.com/en/stable/api/#flask.request "flask.request") is another variable that’s automatically available in templates.
-## Delete[¶](https://flask.palletsprojects.com/en/stable/tutorial/blog/#delete "Link to this heading")
-The delete view doesn’t have its own template, the delete button is part of `update.html` and posts to the `/<id>/delete` URL. Since there is no template, it will only handle the `POST` method and then redirect to the `index` view.
-`flaskr/blog.py`[¶](https://flask.palletsprojects.com/en/stable/tutorial/blog/#id10 "Link to this code")
-```
-@bp.route('/<int:id>/delete', methods=('POST',))
-@login_required
-def delete(id):
-    get_post(id)
-    db = get_db()
-    db.execute('DELETE FROM post WHERE id = ?', (id,))
-    db.commit()
-    return redirect(url_for('blog.index'))
-
-```
-
-Congratulations, you’ve now finished writing your application! Take some time to try out everything in the browser. However, there’s still more to do before the project is complete.
-Continue to [Make the Project Installable](https://flask.palletsprojects.com/en/stable/tutorial/install/).
-[ ![Logo of Flask](https://flask.palletsprojects.com/en/stable/_static/flask-logo.svg) ](https://flask.palletsprojects.com/en/stable/)
 ### Contents
-  * [Blog Blueprint](https://flask.palletsprojects.com/en/stable/tutorial/blog/)
-    * [The Blueprint](https://flask.palletsprojects.com/en/stable/tutorial/blog/#the-blueprint)
-    * [Index](https://flask.palletsprojects.com/en/stable/tutorial/blog/#index)
-    * [Create](https://flask.palletsprojects.com/en/stable/tutorial/blog/#create)
-    * [Update](https://flask.palletsprojects.com/en/stable/tutorial/blog/#update)
-    * [Delete](https://flask.palletsprojects.com/en/stable/tutorial/blog/#delete)
-
-
-### Navigation
-  * [Overview](https://flask.palletsprojects.com/en/stable/)
-    * [Tutorial](https://flask.palletsprojects.com/en/stable/tutorial/)
-      * Previous: [Static Files](https://flask.palletsprojects.com/en/stable/tutorial/static/ "previous chapter")
-      * Next: [Make the Project Installable](https://flask.palletsprojects.com/en/stable/tutorial/install/ "next chapter")
+  * [Welcome to Flask](https://flask.palletsprojects.com/en/stable/)
+    * [User’s Guide](https://flask.palletsprojects.com/en/stable/#user-s-guide)
+    * [API Reference](https://flask.palletsprojects.com/en/stable/#api-reference)
+    * [Additional Notes](https://flask.palletsprojects.com/en/stable/#additional-notes)
 
 
 ### Quick search
 ·
-![](https://server.ethicalads.io/proxy/view/10130/019ccc1c-813e-73f1-a9a8-2807ee73f037/)
+![](https://server.ethicalads.io/proxy/view/10070/019ccf14-eb37-7252-808c-57582e15dadf/)
 © Copyright 2010 Pallets. Created using

@@ -49,7 +49,7 @@ echo -e “\e[1;36mKernel Release\e[0m: $knl”
 #Network
 ping -c 1 192.168.1.1 &> /dev/null && echo -e “\e[1;36mNetwork\e[0m:\e[1;32m UP\e[0m” || echo -e ” \e[1;36mNetwork\e[0m :\e[1;31m Down\e[0m”
 #Internet
-ping -c 1 google.com &> /dev/null && echo -e “\e[1;36mInternet\e[0m:\e[1;32m Connected\e[0m” || echo -e “\e[1;36mInternet\e[0m :\e[1;31m Diconnected\e[0m”
+ping -c 1 google.com &> /dev/null && echo -e “\e[1;36mInternet\e[0m:\e[1;32m Connected\e[0m” || echo -e “\e[1;36mInternet\e[0m :\e[1;31m Disconnected\e[0m”
 #Network speed
 rx=$(ifconfig eth0 | grep bytes | grep RX | cut -d ‘:’ -f2 | cut -d ‘ ‘ -f 1)
 tx=$(ifconfig eth0 | grep bytes | grep TX | cut -d ‘:’ -f3 | cut -d ‘ ‘ -f 1)
@@ -242,7 +242,7 @@ if we have a data center or upload center like dropbox how can we write an scrip
   49. ![](https://secure.gravatar.com/avatar/524aa45d87a7f32a479c0b54158c5168be5b043b00fb0478c816d9d139522c0e?s=50&d=blank&r=g)
 Omah Linux
 [ January 29, 2016 at 9:58 am  ](https://www.tecmint.com/linux-server-health-monitoring-script/#comment-745478)
-On Xubuntu 14.04.3, I found “/usr/bin/monitor: line 79: curl: command not found”.. whats wrong?
+On Xubuntu 14.04.3, I found “/usr/bin/monitor: line 79: curl: command not found”.. what's wrong?
 [Reply](https://www.tecmint.com/linux-server-health-monitoring-script/#comment-745478)
      * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
 Ravi Saive

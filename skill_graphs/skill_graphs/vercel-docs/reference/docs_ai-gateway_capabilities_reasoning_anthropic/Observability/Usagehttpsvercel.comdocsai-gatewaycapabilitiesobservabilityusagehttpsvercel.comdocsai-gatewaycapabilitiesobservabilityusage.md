@@ -1,0 +1,11 @@
+##  [Usage](https://vercel.com/docs/ai-gateway/capabilities/observability#usage)[](https://vercel.com/docs/ai-gateway/capabilities/observability#usage)
+The Usage section displays four metrics to help you monitor your AI Gateway activity. For extended timeframes and further retention, you need [Observability Plus](https://vercel.com/docs/observability/observability-plus).
+![](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Fdocs-assets%2Fstatic%2Fdocs%2Fai-gateway%2Foverview-observability%2Fgraphs-light.png&w=3840&q=75)![](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Fdocs-assets%2Fstatic%2Fdocs%2Fai-gateway%2Foverview-observability%2Fgraphs-dark.png&w=3840&q=75)
+###  [Requests by model](https://vercel.com/docs/ai-gateway/capabilities/observability#requests-by-model)[](https://vercel.com/docs/ai-gateway/capabilities/observability#requests-by-model)
+The Requests by Model chart shows the number of requests made to each model over time. This can help you identify which models are being used most frequently and whether there are any spikes in usage.
+###  [Time to first token (TTFT)](https://vercel.com/docs/ai-gateway/capabilities/observability#time-to-first-token-ttft)[](https://vercel.com/docs/ai-gateway/capabilities/observability#time-to-first-token-ttft)
+The Time to First Token chart shows the average time it takes for the AI Gateway to return the first token of a response. This can help you understand the latency of your requests and identify any performance issues.
+###  [Input/output token counts](https://vercel.com/docs/ai-gateway/capabilities/observability#input/output-token-counts)[](https://vercel.com/docs/ai-gateway/capabilities/observability#input/output-token-counts)
+The Input/Output Token Counts chart shows the number of input and output tokens for each request. This can help you understand the size of the requests being made and the responses being returned.
+###  [Spend](https://vercel.com/docs/ai-gateway/capabilities/observability#spend)[](https://vercel.com/docs/ai-gateway/capabilities/observability#spend)
+The Spend chart shows the total amount spent on AI Gateway requests over time. This can help you monitor your spending and identify any unexpected costs.

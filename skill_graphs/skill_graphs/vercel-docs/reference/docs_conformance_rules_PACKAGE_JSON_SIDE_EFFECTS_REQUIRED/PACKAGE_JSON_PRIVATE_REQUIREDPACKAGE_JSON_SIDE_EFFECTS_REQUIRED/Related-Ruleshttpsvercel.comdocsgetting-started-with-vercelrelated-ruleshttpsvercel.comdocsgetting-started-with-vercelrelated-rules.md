@@ -1,0 +1,5 @@
+##  [Related Rules](https://vercel.com/docs/getting-started-with-vercel#related-rules)[](https://vercel.com/docs/getting-started-with-vercel#related-rules)
+  * [PACKAGE_JSON_NAME_REQUIRED](https://vercel.com/docs/conformance/rules/PACKAGE_JSON_NAME_REQUIRED)
+  * [PACKAGE_JSON_DESCRIPTION_REQUIRED](https://vercel.com/docs/conformance/rules/PACKAGE_JSON_DESCRIPTION_REQUIRED)
+  * [PACKAGE_JSON_PRIVATE_REQUIRED](https://vercel.com/docs/conformance/rules/PACKAGE_JSON_PRIVATE_REQUIRED)
+  * [PACKAGE_JSON_TYPE_REQUIRED](https://vercel.com/docs/conformance/rules/PACKAGE_JSON_TYPE_REQUIRED)

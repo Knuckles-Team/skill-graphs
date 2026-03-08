@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [notifications](<./notifications.md>)
+- [Notifications](<./Notifications.md>)
+  - [[Introduction](https://laravel.com/docs/12.x/notifications#introduction)](<./Notifications/Introductionhttpslaravel.comdocs12.xnotificationsintroduction.md>)
+  - [[Generating Notifications](https://laravel.com/docs/12.x/notifications#generating-notifications)](<./Notifications/Generating-Notificationshttpslaravel.comdocs12.xnotificationsgenerating-notifications.md>)
+  - [[Sending Notifications](https://laravel.com/docs/12.x/notifications#sending-notifications)](<./Notifications/Sending-Notificationshttpslaravel.comdocs12.xnotificationssending-notifications.md>)
+  - [[Mail Notifications](https://laravel.com/docs/12.x/notifications#mail-notifications)](<./Notifications/Mail-Notificationshttpslaravel.comdocs12.xnotificationsmail-notifications.md>)
+  - [[Markdown Mail Notifications](https://laravel.com/docs/12.x/notifications#markdown-mail-notifications)](<./Notifications/Markdown-Mail-Notificationshttpslaravel.comdocs12.xnotificationsmarkdown-mail-notifications.md>)
+  - [[Database Notifications](https://laravel.com/docs/12.x/notifications#database-notifications)](<./Notifications/Database-Notificationshttpslaravel.comdocs12.xnotificationsdatabase-notifications.md>)
+  - [[Broadcast Notifications](https://laravel.com/docs/12.x/notifications#broadcast-notifications)](<./Notifications/Broadcast-Notificationshttpslaravel.comdocs12.xnotificationsbroadcast-notifications.md>)
+  - [[SMS Notifications](https://laravel.com/docs/12.x/notifications#sms-notifications)](<./Notifications/SMS-Notificationshttpslaravel.comdocs12.xnotificationssms-notifications.md>)
+  - [[Slack Notifications](https://laravel.com/docs/12.x/notifications#slack-notifications)](<./Notifications/Slack-Notificationshttpslaravel.comdocs12.xnotificationsslack-notifications.md>)
+  - [[Localizing Notifications](https://laravel.com/docs/12.x/notifications#localizing-notifications)](<./Notifications/Localizing-Notificationshttpslaravel.comdocs12.xnotificationslocalizing-notifications.md>)
+  - [[Testing](https://laravel.com/docs/12.x/notifications#testing)](<./Notifications/Testinghttpslaravel.comdocs12.xnotificationstesting.md>)
+  - [[Notification Events](https://laravel.com/docs/12.x/notifications#notification-events)](<./Notifications/Notification-Eventshttpslaravel.comdocs12.xnotificationsnotification-events.md>)
+  - [[Custom Channels](https://laravel.com/docs/12.x/notifications#custom-channels)](<./Notifications/Custom-Channelshttpslaravel.comdocs12.xnotificationscustom-channels.md>)

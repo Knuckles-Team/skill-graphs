@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [vite](<./vite.md>)
+- [Asset Bundling (Vite)](<./Asset-Bundling-Vite.md>)
+  - [[Introduction](https://laravel.com/docs/12.x/vite#introduction)](<./Asset-Bundling-Vite/Introductionhttpslaravel.comdocs12.xviteintroduction.md>)
+  - [[Installation & Setup](https://laravel.com/docs/12.x/vite#installation)](<./Asset-Bundling-Vite/Installation--Setuphttpslaravel.comdocs12.xviteinstallation.md>)
+  - [[Running Vite](https://laravel.com/docs/12.x/vite#running-vite)](<./Asset-Bundling-Vite/Running-Vitehttpslaravel.comdocs12.xviterunning-vite.md>)
+  - [[Working With JavaScript](https://laravel.com/docs/12.x/vite#working-with-scripts)](<./Asset-Bundling-Vite/Working-With-JavaScripthttpslaravel.comdocs12.xviteworking-with-scripts.md>)
+  - [[Working With Stylesheets](https://laravel.com/docs/12.x/vite#working-with-stylesheets)](<./Asset-Bundling-Vite/Working-With-Stylesheetshttpslaravel.comdocs12.xviteworking-with-stylesheets.md>)
+  - [[Working With Blade and Routes](https://laravel.com/docs/12.x/vite#working-with-blade-and-routes)](<./Asset-Bundling-Vite/Working-With-Blade-and-Routeshttpslaravel.comdocs12.xviteworking-with-blade-and-routes.md>)
+  - [[Asset Prefetching](https://laravel.com/docs/12.x/vite#asset-prefetching)](<./Asset-Bundling-Vite/Asset-Prefetchinghttpslaravel.comdocs12.xviteasset-prefetching.md>)
+  - [[Custom Base URLs](https://laravel.com/docs/12.x/vite#custom-base-urls)](<./Asset-Bundling-Vite/Custom-Base-URLshttpslaravel.comdocs12.xvitecustom-base-urls.md>)
+  - [[Environment Variables](https://laravel.com/docs/12.x/vite#environment-variables)](<./Asset-Bundling-Vite/Environment-Variableshttpslaravel.comdocs12.xviteenvironment-variables.md>)
+  - [[Disabling Vite in Tests](https://laravel.com/docs/12.x/vite#disabling-vite-in-tests)](<./Asset-Bundling-Vite/Disabling-Vite-in-Testshttpslaravel.comdocs12.xvitedisabling-vite-in-tests.md>)
+  - [[Server-Side Rendering (SSR)](https://laravel.com/docs/12.x/vite#ssr)](<./Asset-Bundling-Vite/Server-Side-Rendering-SSRhttpslaravel.comdocs12.xvitessr.md>)
+  - [[Script and Style Tag Attributes](https://laravel.com/docs/12.x/vite#script-and-style-attributes)](<./Asset-Bundling-Vite/Script-and-Style-Tag-Attributeshttpslaravel.comdocs12.xvitescript-and-style-attributes.md>)
+  - [[Advanced Customization](https://laravel.com/docs/12.x/vite#advanced-customization)](<./Asset-Bundling-Vite/Advanced-Customizationhttpslaravel.comdocs12.xviteadvanced-customization.md>)

@@ -102,7 +102,7 @@ Menu
 [](https://www.tecmint.com/goaccess-a-real-time-apache-and-nginx-web-server-log-analyzer/)
 # GoAccess (A Real-Time Apache and Nginx) Web Server Log Analyzer
 [Ravi Saive](https://www.tecmint.com/author/admin/ "View all posts by Ravi Saive")Last Updated: October 20, 2020 Read Time: 3 minsCategories [Apache](https://www.tecmint.com/category/web-servers/apache/), [Monitoring Tools](https://www.tecmint.com/category/monitoring-tools/), [Nginx](https://www.tecmint.com/category/web-servers/nginx/) [15 Comments](https://www.tecmint.com/goaccess-a-real-time-apache-and-nginx-web-server-log-analyzer/#comments)
-**GoAccess** is an interactive and real-time web server log analyzer program that quickly analyze and view web server logs. It comes as an open-source and runs as a command line in Unix/Linux operating systems. It provides brief and beneficial HTTP (webserver) statistics report for Linux administrators on the fly. It also takes care of both the **Apache** and **Ngnix** web server log formats.
+**GoAccess** is an interactive and real-time web server log analyzer program that quickly analyze and view web server logs. It comes as an open-source and runs as a command line in Unix/Linux operating systems. It provides brief and beneficial HTTP (webserver) statistics report for Linux administrators on the fly. It also takes care of both the **Apache** and **Nginx** web server log formats.
 **GoAccess** parses and analyze the given web server log formats in preferred options including **CLF** (**Common Log Format**), **W3C** format (**IIS**), and Apache virtual hosts, and then generate an output of the data to the terminal.
 **Related Read** : [How to Monitor Apache Performance Using mod_status in Ubuntu](https://www.tecmint.com/ubuntu-apache-mod_status/ "How to Monitor Apache Performance Using mod_status in Ubuntu")
 Check out the Live Demo of Goaccess –
@@ -248,7 +248,7 @@ How it can be work in cpanel server, getting below error ?
 GoAccess – version 0.9.8 – May 20 2016 13:21:04
 Config file: /usr/local/etc/goaccess.conf
 Fatal error has occurred
-Error occured at: src/parser.c – verify_formats – 2215
+Error occurred at: src/parser.c – verify_formats – 2215
 No time format was found on your conf file.
 [Reply](https://www.tecmint.com/goaccess-a-real-time-apache-and-nginx-web-server-log-analyzer/#comment-782595)
      * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
@@ -271,7 +271,7 @@ I am getting the below error, please let me know where i have to make changes an
 [root@nagios goaccess-0.5]# goaccess -f /var/log/httpd/
 GoAccess – version 0.5 – Oct 16 2015 02:38:28
 An error has occurred
-Error occured at: goaccess.c – render_screens – 239
+Error occurred at: goaccess.c – render_screens – 239
 Message: Nothing valid to process.
 [Reply](https://www.tecmint.com/goaccess-a-real-time-apache-and-nginx-web-server-log-analyzer/#comment-690167)
      * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)

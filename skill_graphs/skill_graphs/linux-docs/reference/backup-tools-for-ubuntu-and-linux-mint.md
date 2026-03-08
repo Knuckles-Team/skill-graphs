@@ -258,7 +258,7 @@ Join the **[TecMint Weekly Newsletter](https://newsletter.tecmint.com/subscripti
 mosi
 [ October 28, 2020 at 5:05 pm  ](https://www.tecmint.com/ngxtop-monitor-nginx-log-files-in-real-time-in-linux/#comment-1382160)
 Why show my **script.js** file in ngxtop?
-I use laravel and cache **sytle.css** and **script.js**
+I use laravel and cache **style.css** and **script.js**
 ```
 /js/script.js     | 542 | 94061.952 | 40 |  2 | 0 | 0 |
 

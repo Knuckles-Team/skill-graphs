@@ -1,0 +1,2 @@
+## Streaming[](https://nextjs.org/docs/app/glossary#streaming)
+A technique that allows the server to send parts of a page to the client as they become ready, rather than waiting for the entire page to render. Enabled automatically with [`loading.js`](https://nextjs.org/docs/app/api-reference/file-conventions/loading) or manual `<Suspense>` boundaries. Learn more in [Linking and Navigating - Streaming](https://nextjs.org/docs/app/getting-started/linking-and-navigating#streaming).

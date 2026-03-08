@@ -1,6 +1,0 @@
-#  `django-admin` and `manage.py`[¶](https://docs.djangoproject.com/en/5.0/ref/django-admin/#django-admin-and-manage-py "Link to this heading")
-`django-admin` is Django’s command-line utility for administrative tasks. This document outlines all it can do.
-In addition, `manage.py` is automatically created in each Django project. It does the same thing as `django-admin` but also sets the [`DJANGO_SETTINGS_MODULE`](https://docs.djangoproject.com/en/5.0/topics/settings/#envvar-DJANGO_SETTINGS_MODULE) environment variable so that it points to your project’s `settings.py` file.
-The `django-admin` script should be on your system path if you installed Django via `pip`. If it’s not in your path, ensure you have your virtual environment activated.
-Generally, when working on a single Django project, it’s easier to use `manage.py` than `django-admin`. If you need to switch between multiple Django settings files, use `django-admin` with [`DJANGO_SETTINGS_MODULE`](https://docs.djangoproject.com/en/5.0/topics/settings/#envvar-DJANGO_SETTINGS_MODULE) or the [`--settings`](https://docs.djangoproject.com/en/5.0/ref/django-admin/#cmdoption-settings) command line option.
-The command-line examples throughout this document use `django-admin` to be consistent, but any example can use `manage.py` or `python -m django` just as well.

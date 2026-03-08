@@ -427,7 +427,7 @@ print(Settings().model_dump())
 ```
 
 ## Nested model default partial updates[¶](https://docs.pydantic.dev/latest/concepts/pydantic_settings/#nested-model-default-partial-updates)
-By default, Pydantic settings does not allow partial updates to nested model default objects. This behavior can be overriden by setting the `nested_model_default_partial_update` flag to `True`, which will allow partial updates on nested model default object fields.
+By default, Pydantic settings does not allow partial updates to nested model default objects. This behavior can be overridden by setting the `nested_model_default_partial_update` flag to `True`, which will allow partial updates on nested model default object fields.
 ```
 import os
 

@@ -1,0 +1,2 @@
+## Catch-all Segments[](https://nextjs.org/docs/app/glossary#catch-all-segments)
+Dynamic route segments that can match multiple URL parts using the `[...folder]/page.js` syntax. These segments capture all remaining URL segments and are useful for implementing features like documentation sites or file browsers. Learn more in [Dynamic Route Segments](https://nextjs.org/docs/app/api-reference/file-conventions/dynamic-routes#catch-all-segments).

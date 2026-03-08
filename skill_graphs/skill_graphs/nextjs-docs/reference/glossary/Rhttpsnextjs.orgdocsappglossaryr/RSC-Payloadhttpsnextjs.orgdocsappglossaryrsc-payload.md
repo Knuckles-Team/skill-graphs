@@ -1,0 +1,2 @@
+## RSC Payload[](https://nextjs.org/docs/app/glossary#rsc-payload)
+The React Server Component Payload—a compact binary representation of the rendered React Server Components tree. Contains the rendered result of Server Components, placeholders for Client Components, and props passed between them. Learn more in [Server and Client Components](https://nextjs.org/docs/app/getting-started/server-and-client-components#how-do-server-and-client-components-work-in-nextjs).

@@ -1,0 +1,9 @@
+##  [Managing Edge Configs](https://vercel.com/docs/edge-config/edge-config-dashboard#managing-edge-configs)[](https://vercel.com/docs/edge-config/edge-config-dashboard#managing-edge-configs)
+To view a list of all Edge Configs available in your account or team, go to [Storage](https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fstores&title=Go+to+Storage) then select Edge Config from the drop-down.
+![](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Fdocs-assets%2Fstatic%2Fdocs%2Fstorage%2Fedge-config%2Fedge-config-view-all-configs-light.png&w=3840&q=75)![](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Fdocs-assets%2Fstatic%2Fdocs%2Fstorage%2Fedge-config%2Fedge-config-view-all-configs-dark.png&w=3840&q=75)
+List of Edge Configs in a team account
+In the Used by column, you can see in which project(s) the Edge Config is used. The right column shows the size of the data contained in the config. To manage the Edge Config, its store and tokens, click on the Edge Config's row to open the detail page.
+![](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Fdocs-assets%2Fstatic%2Fdocs%2Fstorage%2Fedge-config%2Fedge-config-usage-light.png&w=3840&q=75)![](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Fdocs-assets%2Fstatic%2Fdocs%2Fstorage%2Fedge-config%2Fedge-config-usage-dark.png&w=3840&q=75)
+Edge Config detail page
+To rename the Edge Config, select the Settings item in the sidebar, update the Edge Config Name, and select Save.
+To delete the Edge Config, select the Settings item in the sidebar, then select Delete Edge Config.

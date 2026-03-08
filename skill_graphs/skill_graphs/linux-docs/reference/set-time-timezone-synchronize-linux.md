@@ -255,7 +255,7 @@ Would be nice to have a comparison with the “[glances](https://www.tecmint.com
 karthick Sudhakar
 [ November 15, 2020 at 11:14 pm  ](https://www.tecmint.com/bpytop-linux-resource-monitor-tool/#comment-1389979)
 @clalove
-Thanks for the feeback. We will create an article for glances vs bpytop in future.
+Thanks for the feedback. We will create an article for glances vs bpytop in future.
 [Reply](https://www.tecmint.com/bpytop-linux-resource-monitor-tool/#comment-1389979)
   4. ![](https://secure.gravatar.com/avatar/1c6a989553e68c5277b7f574442c4d54718bd3053b5fc2521e36562f9be646d2?s=50&d=blank&r=g)
 Jalal

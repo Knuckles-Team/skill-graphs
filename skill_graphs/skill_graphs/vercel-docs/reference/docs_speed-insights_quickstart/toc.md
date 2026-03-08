@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [docs_speed-insights_quickstart](<./docs_speed-insights_quickstart.md>)
+- [Getting started with Speed Insights](<./Getting-started-with-Speed-Insights.md>)
+  - [[Prerequisites](https://vercel.com/docs/speed-insights/quickstart#prerequisites)[](https://vercel.com/docs/speed-insights/quickstart#prerequisites)](<./Getting-started-with-Speed-Insights/Prerequisiteshttpsvercel.comdocsspeed-insightsquickstartprerequisiteshttpsvercel.comdocsspeed-insightsquickstartprerequisites.md>)
+  - [[Next steps](https://vercel.com/docs/speed-insights/quickstart#next-steps)[](https://vercel.com/docs/speed-insights/quickstart#next-steps)](<./Getting-started-with-Speed-Insights/Next-stepshttpsvercel.comdocsspeed-insightsquickstartnext-stepshttpsvercel.comdocsspeed-insightsquickstartnext-steps.md>)
+  - [Get Started](<./Getting-started-with-Speed-Insights/Get-Started.md>)
+  - [Build](<./Getting-started-with-Speed-Insights/Build.md>)
+  - [Scale](<./Getting-started-with-Speed-Insights/Scale.md>)
+  - [Secure](<./Getting-started-with-Speed-Insights/Secure.md>)
+  - [Resources](<./Getting-started-with-Speed-Insights/Resources.md>)
+  - [Learn](<./Getting-started-with-Speed-Insights/Learn.md>)
+  - [Frameworks](<./Getting-started-with-Speed-Insights/Frameworks.md>)
+  - [SDKs](<./Getting-started-with-Speed-Insights/SDKs.md>)
+  - [Use Cases](<./Getting-started-with-Speed-Insights/Use-Cases.md>)
+  - [Company](<./Getting-started-with-Speed-Insights/Company.md>)
+  - [Community](<./Getting-started-with-Speed-Insights/Community.md>)

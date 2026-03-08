@@ -226,7 +226,7 @@ $ sudo vi /etc/httpd/conf.d/uptime-kuma.conf                [On **RHEL** systems
 
 ```
 
-Paste the following lines of code. For the **ServerName** directive, specify your server’s Fully Qualified Doman Name or public IP address.
+Paste the following lines of code. For the **ServerName** directive, specify your server’s Fully Qualified Domain Name or public IP address.
 ```
 <VirtualHost *:80>
   ServerName kuma.example.com

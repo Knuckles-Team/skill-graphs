@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_comments_managing-comments](<./docs_comments_managing-comments.md>)
+- [Managing Comments on Preview Deployments](<./Managing-Comments-on-Preview-Deployments.md>)
+  - [[Resolve comments](https://vercel.com/docs/comments/managing-comments#resolve-comments)[](https://vercel.com/docs/comments/managing-comments#resolve-comments)](<./Managing-Comments-on-Preview-Deployments/Resolve-commentshttpsvercel.comdocscommentsmanaging-commentsresolve-commentshttpsvercel.comdocscommentsmanaging-commentsresolve-comments.md>)
+  - [[Notifications](https://vercel.com/docs/comments/managing-comments#notifications)[](https://vercel.com/docs/comments/managing-comments#notifications)](<./Managing-Comments-on-Preview-Deployments/Notificationshttpsvercel.comdocscommentsmanaging-commentsnotificationshttpsvercel.comdocscommentsmanaging-commentsnotifications.md>)
+  - [[Troubleshooting comments](https://vercel.com/docs/comments/managing-comments#troubleshooting-comments)[](https://vercel.com/docs/comments/managing-comments#troubleshooting-comments)](<./Managing-Comments-on-Preview-Deployments/Troubleshooting-commentshttpsvercel.comdocscommentsmanaging-commentstroubleshooting-commentshttpsvercel.comdocscommentsmanaging-commentstroubleshooting-comments.md>)
+  - [Get Started](<./Managing-Comments-on-Preview-Deployments/Get-Started.md>)
+  - [Build](<./Managing-Comments-on-Preview-Deployments/Build.md>)
+  - [Scale](<./Managing-Comments-on-Preview-Deployments/Scale.md>)
+  - [Secure](<./Managing-Comments-on-Preview-Deployments/Secure.md>)
+  - [Resources](<./Managing-Comments-on-Preview-Deployments/Resources.md>)
+  - [Learn](<./Managing-Comments-on-Preview-Deployments/Learn.md>)
+  - [Frameworks](<./Managing-Comments-on-Preview-Deployments/Frameworks.md>)
+  - [SDKs](<./Managing-Comments-on-Preview-Deployments/SDKs.md>)
+  - [Use Cases](<./Managing-Comments-on-Preview-Deployments/Use-Cases.md>)
+  - [Company](<./Managing-Comments-on-Preview-Deployments/Company.md>)
+  - [Community](<./Managing-Comments-on-Preview-Deployments/Community.md>)

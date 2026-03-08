@@ -1,0 +1,15 @@
+# Table of Contents
+
+- [docs_ai-gateway_sdks-and-apis_openai-chat-completions_structured-outputs](<./docs_ai-gateway_sdks-and-apis_openai-chat-completions_structured-outputs.md>)
+- [Structured Outputs](<./Structured-Outputs.md>)
+  - [Get Started](<./Structured-Outputs/Get-Started.md>)
+  - [Build](<./Structured-Outputs/Build.md>)
+  - [Scale](<./Structured-Outputs/Scale.md>)
+  - [Secure](<./Structured-Outputs/Secure.md>)
+  - [Resources](<./Structured-Outputs/Resources.md>)
+  - [Learn](<./Structured-Outputs/Learn.md>)
+  - [Frameworks](<./Structured-Outputs/Frameworks.md>)
+  - [SDKs](<./Structured-Outputs/SDKs.md>)
+  - [Use Cases](<./Structured-Outputs/Use-Cases.md>)
+  - [Company](<./Structured-Outputs/Company.md>)
+  - [Community](<./Structured-Outputs/Community.md>)

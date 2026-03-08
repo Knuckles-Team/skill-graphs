@@ -1,0 +1,158 @@
+```
+# Docker Documentation
+
+## Get started
+- [Build, tag, and publish an image](https://docs.docker.com/get-started/docker-concepts/building-images/build-tag-and-publish-an-image/): This concept page will teach you how to build, tag, and publish an image to Docker Hub or any other registry
+- [Multi-stage builds](https://docs.docker.com/get-started/docker-concepts/building-images/multi-stage-builds/): This concept page will teach you about the purpose of the multi-stage build and its benefits
+- [Understanding the image layers](https://docs.docker.com/get-started/docker-concepts/building-images/understanding-image-layers/): This concept page will teach you about the layers of container image.
+- [Using the build cache](https://docs.docker.com/get-started/docker-concepts/building-images/using-the-build-cache/): This concept page will teach you about the build cache, what changes invalidate the cache and how to effectively use the build cache.
+- [Writing a Dockerfile](https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/): This concept page will teach you how to create image using Dockerfile.
+- [Multi-container applications](https://docs.docker.com/get-started/docker-concepts/running-containers/multi-container-applications/): This concept page will teach you the significance of multi-container application and how it is different from single-container application
+- [Overriding container defaults](https://docs.docker.com/get-started/docker-concepts/running-containers/overriding-container-defaults/): This concept page will teach you how to override the container defaults using the `docker run` command.
+- [Persisting container data](https://docs.docker.com/get-started/docker-concepts/running-containers/persisting-container-data/): This concept page will teach you the significance of data persistence in Docker
+- [Publishing and exposing ports](https://docs.docker.com/get-started/docker-concepts/running-containers/publishing-ports/): This concept page will teach you the significance of publishing and exposing ports in Docker
+- [Sharing local files with containers](https://docs.docker.com/get-started/docker-concepts/running-containers/sharing-local-files/): This concept page will teach you the various storage options available in Docker and their common usage.
+- [What is a container?](https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/): What is a container? This concept page will teach you about containers and provide a quick hands-on where you will run your first container.
+- [What is a registry?](https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-registry/): What is a registry? This Docker Concept will explain what a registry is, explore their interoperability, and have you interact with registries.
+- [What is an image?](https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/): What is an image
+- [What is Docker Compose?](https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-docker-compose/): What is Docker Compose?
+- [What is Docker?](https://docs.docker.com/get-started/docker-overview/): Get an in-depth overview of the Docker platform including what it can be used for, the architecture it employs, and its underlying technology.
+- [Get Docker](https://docs.docker.com/get-started/get-docker/): Download and install Docker on the platform of your choice, including Mac, Linux, or Windows.
+- [Build and push your first image](https://docs.docker.com/get-started/introduction/build-and-push-first-image/): This concept page will teach you how to build and push your first image
+- [Develop with containers](https://docs.docker.com/get-started/introduction/develop-with-containers/): This concept page will teach you how to develop with containers
+- [Get Docker Desktop](https://docs.docker.com/get-started/introduction/get-docker-desktop/): This concept page will teach you download Docker Desktop and install it on Windows, Mac, and Linux
+- [What's next](https://docs.docker.com/get-started/introduction/whats-next/): Explore step-by-step guides to hep you understand core Docker concepts, building images, and running containers.
+- [Educational resources](https://docs.docker.com/get-started/resources/): Get started resources learning docker
+- [Containerize an application](https://docs.docker.com/get-started/workshop/02_our_app/): Follow this step-by-step guide to learn how to create and run a containerized application using Docker
+- [Update the application](https://docs.docker.com/get-started/workshop/03_updating_app/): Making changes to your application
+- [Share the application](https://docs.docker.com/get-started/workshop/04_sharing_app/): Sharing your image you built for your example application so you can run it else where and other developers can use it
+- [Persist the DB](https://docs.docker.com/get-started/workshop/05_persisting_data/): Making your DB persistent in your application
+- [Use bind mounts](https://docs.docker.com/get-started/workshop/06_bind_mounts/): Using bind mounts in our application
+- [Multi container apps](https://docs.docker.com/get-started/workshop/07_multi_container/): Using more than one container in your application
+- [Use Docker Compose](https://docs.docker.com/get-started/workshop/08_using_compose/): Using Docker Compose for multi-container applications
+- [Image-building best practices](https://docs.docker.com/get-started/workshop/09_image_best/): Tips for building images for your application
+- [What next after the Docker workshop](https://docs.docker.com/get-started/workshop/10_what_next/): Explore what to do next after completing the Docker workshop, including securing your images, AI development, and language-specific guides.
+
+## Guides
+- [Communication and information gathering](https://docs.docker.com/guides/admin-set-up/comms-and-info-gathering/): Gather your company's requirements from key stakeholders and communicate to your developers.
+- [Deploy your Docker setup](https://docs.docker.com/guides/admin-set-up/deploy/): Deploy your Docker setup across your company.
+- [Finalize plans and begin setup](https://docs.docker.com/guides/admin-set-up/finalize-plans-and-setup/): Collaborate with your MDM team to distribute configurations and set up SSO and Docker product trials.
+- [Testing](https://docs.docker.com/guides/admin-set-up/testing/): Test your Docker setup.
+- [Monitoring and insights](https://docs.docker.com/guides/admin-user-management/audit-and-monitor/): Track user actions, team workflows, and organizational trends with Activity logs and Insights to enhance security and productivity in Docker.
+- [Onboarding and managing roles and permissions in Docker](https://docs.docker.com/guides/admin-user-management/onboard/): Learn how to manage roles, invite members, and implement scalable access control in Docker for secure and efficient collaboration.
+- [Setting up roles and permissions in Docker](https://docs.docker.com/guides/admin-user-management/setup/): A guide to securely managing access and collaboration in Docker through roles and teams.
+- [Build and run agentic AI applications with Docker](https://docs.docker.com/guides/agentic-ai/)
+- [Automate your builds with GitHub Actions](https://docs.docker.com/guides/angular/configure-github-actions/): Learn how to configure CI/CD using GitHub Actions for your Angular application.
+- [Containerize an Angular Application](https://docs.docker.com/guides/angular/containerize/): Learn how to containerize an Angular application with Docker by creating an optimized, production-ready image using best practices for performance, security, and scalability.
+- [Test your Angular deployment](https://docs.docker.com/guides/angular/deploy/): Learn how to deploy locally to test and debug your Kubernetes deployment
+- [Use containers for Angular development](https://docs.docker.com/guides/angular/develop/): Learn how to develop your Angular application locally using containers.
+- [Run Angular tests in a container](https://docs.docker.com/guides/angular/run-tests/): Learn how to run your Angular tests in a container.
+- [Introduction to Azure Pipelines with Docker](https://docs.docker.com/guides/azure-pipelines/)
+- [Mastering multi-platform builds, testing, and more with Docker Buildx Bake](https://docs.docker.com/guides/bake/): Learn how to manage simple and complex build configurations with Buildx Bake.
+- [Configure CI/CD for your Bun application](https://docs.docker.com/guides/bun/configure-ci-cd/): Learn how to configure CI/CD using GitHub Actions for your Bun application.
+- [Containerize a Bun application](https://docs.docker.com/guides/bun/containerize/): Learn how to containerize a Bun application.
+- [Test your Bun deployment](https://docs.docker.com/guides/bun/deploy/): Learn how to develop locally using Kubernetes
+- [Use containers for Bun development](https://docs.docker.com/guides/bun/develop/): Learn how to develop your Bun application locally.
+- [Building Compose projects with Bake](https://docs.docker.com/guides/compose-bake/): Learn how to build Docker Compose projects with Docker Buildx Bake
+- [Faster development and testing with container-supported development](https://docs.docker.com/guides/container-supported-development/): Use containers in your local development loop to develop and test fasterâ€¦ even if your main app isn't running in containers.
+- [Configure CI/CD for your C++ application](https://docs.docker.com/guides/cpp/configure-ci-cd/): Learn how to configure CI/CD using GitHub Actions for your C++ application.
+- [Containerize a C++ application](https://docs.docker.com/guides/cpp/containerize/): Learn how to use Docker Compose to build and run a C++ application.
+- [Test your C++ deployment](https://docs.docker.com/guides/cpp/deploy/): Learn how to develop locally using Kubernetes
+- [Use containers for C++ development](https://docs.docker.com/guides/cpp/develop/): Learn how to develop your C++ application locally.
+- [Create a multi-stage build for your C++ application](https://docs.docker.com/guides/cpp/multistage/): Learn how to create a multi-stage build for a C++ application.
+- [Supply-chain security for C++ Docker images](https://docs.docker.com/guides/cpp/security/): Learn how to extract SBOMs from C++ Docker images.
+- [Use containerized databases](https://docs.docker.com/guides/databases/): Learn how to run, connect to, and persist data in a local containerized database.
+- [Configure CI/CD for your Deno application](https://docs.docker.com/guides/deno/configure-ci-cd/): Learn how to configure CI/CD using GitHub Actions for your Deno application.
+- [Containerize a Deno application](https://docs.docker.com/guides/deno/containerize/): Learn how to containerize a Deno application.
+- [Test your Deno deployment](https://docs.docker.com/guides/deno/deploy/): Learn how to develop locally using Kubernetes
+- [Use containers for Deno development](https://docs.docker.com/guides/deno/develop/): Learn how to develop your Deno application locally.
+- [Mocking OAuth services in testing with Dex](https://docs.docker.com/guides/dex/): Mocking OAuth services in testing with Dex
+- [Migrate to DHI from Docker Official Images](https://docs.docker.com/guides/dhi-from-doi/)
+- [Migrate to DHI from Wolfi](https://docs.docker.com/guides/dhi-from-wolfi/)
+- [Migrate a Go app to DHI](https://docs.docker.com/guides/dhi-go-example/)
+- [Migrate a Node.js app to DHI](https://docs.docker.com/guides/dhi-nodejs-example/)
+- [Migrate a Python app to DHI](https://docs.docker.com/guides/dhi-python-example/)
+- [Demo: Using Docker Build Cloud in CI](https://docs.docker.com/guides/docker-build-cloud/ci/): Learn how to use Docker Build Cloud to build your app faster in CI.
+- [Common challenges and questions](https://docs.docker.com/guides/docker-build-cloud/common-questions/): Explore common challenges and questions related to Docker Build Cloud.
+- [Demo: set up and use Docker Build Cloud in development](https://docs.docker.com/guides/docker-build-cloud/dev/): Learn how to use Docker Build Cloud for local builds.
+- [Why Docker Build Cloud?](https://docs.docker.com/guides/docker-build-cloud/why/): Learn how Docker Build Cloud makes your builds faster.
+- [Common challenges and questions](https://docs.docker.com/guides/docker-compose/common-questions/): Explore common challenges and questions related to Docker Compose.
+- [Demo: set up and use Docker Compose](https://docs.docker.com/guides/docker-compose/setup/): Learn how to get started with Docker Compose.
+- [Why Docker Compose?](https://docs.docker.com/guides/docker-compose/why/): Learn how Docker Compose can help you simplify app development.
+- [Attestations](https://docs.docker.com/guides/docker-scout/attestations/): Introduction to SBOM and provenance attestations with Docker Build, what they are, and why they exist
+- [Common challenges and questions](https://docs.docker.com/guides/docker-scout/common-questions/): Explore common challenges and questions related to Docker Scout.
+- [Docker Scout demo](https://docs.docker.com/guides/docker-scout/demo/): Learn about Docker Scout's powerful features for enhanced supply chain security.
+- [Remediation](https://docs.docker.com/guides/docker-scout/remediation/): Learn how Docker Scout can help you improve your software quality automatically, using remediation
+- [Software supply chain security](https://docs.docker.com/guides/docker-scout/s3c/): Learn about software supply chain security (S3C), what it means, and why it is important.
+- [Software Bill of Materials](https://docs.docker.com/guides/docker-scout/sbom/): Learn about Software Bill of Materials (SBOM) and how Docker Scout uses it.
+- [Why Docker Scout?](https://docs.docker.com/guides/docker-scout/why/): Learn how Docker Scout can help you secure your supply chain.
+- [Configure CI/CD for your .NET application](https://docs.docker.com/guides/dotnet/configure-ci-cd/): Learn how to Configure CI/CD for your .NET application
+- [Containerize a .NET application](https://docs.docker.com/guides/dotnet/containerize/): Learn how to containerize an ASP.NET application.
+- [Test your .NET deployment](https://docs.docker.com/guides/dotnet/deploy/): Learn how to deploy your application
+- [Use containers for .NET development](https://docs.docker.com/guides/dotnet/develop/): Learn how to develop your .NET application locally using containers.
+- [Run .NET tests in a container](https://docs.docker.com/guides/dotnet/run-tests/): Learn how to run your .NET tests in a container.
+- [Common Questions on Using Laravel with Docker](https://docs.docker.com/guides/frameworks/laravel/common-questions/): Find answers to common questions about setting up and managing Laravel environments with Docker Compose, including troubleshooting and best practices.
+- [Laravel Development Setup with Docker Compose](https://docs.docker.com/guides/frameworks/laravel/development-setup/): Set up a Laravel development environment using Docker Compose.
+- [Prerequisites for Setting Up Laravel with Docker Compose](https://docs.docker.com/guides/frameworks/laravel/prerequisites/): Ensure you have the required tools and knowledge before setting up Laravel with Docker Compose.
+- [Laravel Production Setup with Docker Compose](https://docs.docker.com/guides/frameworks/laravel/production-setup/): Set up a production-ready environment for Laravel using Docker Compose.
+- [Generate Docker Compose Files with Claude Code and Docker MCP Toolkit](https://docs.docker.com/guides/genai-claude-code-mcp/claude-code-mcp-guide/): Learn how to use Claude Code with Docker MCP Toolkit to generate production-ready Docker Compose files from natural language using the Docker Hub MCP server.
+- [Leveraging RAG in GenAI to teach new information](https://docs.docker.com/guides/genai-leveraging-rag/): This guide walks through the process of setting up and utilizing a GenAI stack with Retrieval-Augmented Generation (RAG) systems and graph databases. Learn how to integrate graph databases like Neo4j with AI models for more accurate, contextually-aware responses.
+- [Containerize a generative AI application](https://docs.docker.com/guides/genai-pdf-bot/containerize/): Learn how to containerize a generative AI (GenAI) application.
+- [Use containers for generative AI development](https://docs.docker.com/guides/genai-pdf-bot/develop/): Learn how to develop your generative AI (GenAI) application locally.
+- [GenAI video transcription and chat](https://docs.docker.com/guides/genai-video-bot/): Explore a generative AI video analysis app that uses Docker, OpenAI, and Pinecone.
+- [Introduction to GitHub Actions with Docker](https://docs.docker.com/guides/gha/)
+- [Customize a code quality check workflow](https://docs.docker.com/guides/github-sonarqube-sandbox/customize/): Learn how to customize prompts for specific quality issues, filter by file patterns, set quality thresholds, and integrate your workflow with GitHub Actions for automated code quality checks.
+- [Troubleshoot code quality workflows](https://docs.docker.com/guides/github-sonarqube-sandbox/troubleshoot/): Solutions for MCP tools not loading, authentication errors, permission issues, workflow timeouts, and other common problems when building code quality workflows with E2B.
+- [Build a code quality check workflow](https://docs.docker.com/guides/github-sonarqube-sandbox/workflow/): Create E2B sandboxes, discover MCP tools, test individual operations, and build complete quality-gated PR workflows.
+- [Building the application](https://docs.docker.com/guides/go-prometheus-monitoring/application/): Learn how to create a Golang server to register metrics with Prometheus.
+- [Connecting services with Docker Compose](https://docs.docker.com/guides/go-prometheus-monitoring/compose/): Learn how to connect services with Docker Compose to monitor a Golang application with Prometheus and Grafana.
+- [Containerize a Golang application](https://docs.docker.com/guides/go-prometheus-monitoring/containerize/): Learn how to containerize a Golang application.
+- [Developing your application](https://docs.docker.com/guides/go-prometheus-monitoring/develop/): Learn how to develop the Golang application with Docker.
+- [Build your Go image](https://docs.docker.com/guides/golang/build-images/): Learn how to build your first Docker image by writing a Dockerfile
+- [Configure CI/CD for your Go application](https://docs.docker.com/guides/golang/configure-ci-cd/): Learn how to Configure CI/CD for your Go application
+- [Test your Go deployment](https://docs.docker.com/guides/golang/deploy/): Learn how to deploy your Go application
+- [Use containers for Go development](https://docs.docker.com/guides/golang/develop/): Learn how to develop your application locally.
+- [Run your Go image as a container](https://docs.docker.com/guides/golang/run-containers/): Learn how to run the image as a container.
+- [Run your tests using Go test](https://docs.docker.com/guides/golang/run-tests/): How to build and run your Go tests in a container
+- [Configure CI/CD for your Java application](https://docs.docker.com/guides/java/configure-ci-cd/): Learn how to Configure CI/CD for your Java application
+- [Containerize a Java application](https://docs.docker.com/guides/java/containerize/): Learn how to containerize a Java application.
+- [Test your Java deployment](https://docs.docker.com/guides/java/deploy/): Learn how to develop locally using Kubernetes
+- [Use containers for Java development](https://docs.docker.com/guides/java/develop/): Learn how to develop your application locally.
+- [Run your Java tests](https://docs.docker.com/guides/java/run-tests/): How to build and run your Java tests
+- [Data science with JupyterLab](https://docs.docker.com/guides/jupyter/): Run, develop, and share data science projects using JupyterLab and Docker
+- [Developing event-driven applications with Kafka and Docker](https://docs.docker.com/guides/kafka/): Developing event-driven applications with Kafka and Docker
+- [Deploy to Kubernetes](https://docs.docker.com/guides/kube-deploy/): Learn how to describe and deploy a simple application on Kubernetes.
+- [Lab: Building Agentic Apps with Docker](https://docs.docker.com/guides/lab-agentic-apps/): Build agentic applications with Docker Model Runner, MCP Gateway, and Compose in this hands-on interactive lab.
+- [Lab: Getting Started with Docker Agent](https://docs.docker.com/guides/lab-docker-agent/): Build intelligent multi-agent teams with Docker Agent and Docker in this hands-on interactive lab.
+- [Docker for AI Labs](https://docs.docker.com/guides/lab-docker-for-ai-redirect/)
+- [Lab: Fine-Tuning Local Models](https://docs.docker.com/guides/lab-fine-tuning/): Fine-tune AI models using Docker Offload, Docker Model Runner, and Unsloth in this hands-on interactive lab.
+- [Lab: Docker MCP Gateway](https://docs.docker.com/guides/lab-mcp-gateway/): Run containerized MCP servers safely and securely with the Docker MCP Gateway in this hands-on interactive lab.
+- [Build a language translation app](https://docs.docker.com/guides/language-translation/): Learn how to build and run a language translation application using Python, Googletrans, and Docker.
+- [Develop and test AWS Cloud applications using LocalStack and Docker](https://docs.docker.com/guides/localstack/): How to develop and test AWS Cloud applications using LocalStack and Docker
+- [Build a named entity recognition app](https://docs.docker.com/guides/named-entity-recognition/): Learn how to build and run a named entity recognition application using Python, spaCy, and Docker.
+- [Automate your builds with GitHub Actions](https://docs.docker.com/guides/nodejs/configure-github-actions/): Learn how to configure CI/CD using GitHub Actions for your Node.js application.
+- [Containerize a Node.js application](https://docs.docker.com/guides/nodejs/containerize/): Learn how to containerize a Node.js application with Docker by creating an optimized, production-ready image using best practices for performance, security, and scalability.
+- [Deploy your Node.js application](https://docs.docker.com/guides/nodejs/deploy/): Learn how to deploy your containerized Node.js application to Kubernetes with production-ready configuration
+- [Use containers for Node.js development](https://docs.docker.com/guides/nodejs/develop/): Learn how to develop your Node.js application locally using containers.
+- [Run Node.js tests in a container](https://docs.docker.com/guides/nodejs/run-tests/): Learn how to run your Node.js tests in a container.
+- [Instrumenting a JavaScript App with OpenTelemetry](https://docs.docker.com/guides/opentelemetry/): Learn how to instrument a JavaScript application using OpenTelemetry in a Dockerized environment.
+- [Deployment and orchestration](https://docs.docker.com/guides/orchestration/): Get oriented on some basics of Docker and install Docker Desktop.
+- [Visualizing your PostgreSQL databases with pgAdmin](https://docs.docker.com/guides/pgadmin/): Visualizing your PostgreSQL databases with pgAdmin
+- [Configure CI/CD for your PHP application](https://docs.docker.com/guides/php/configure-ci-cd/): Learn how to Configure CI/CD for your PHP application
+- [Containerize a PHP application](https://docs.docker.com/guides/php/containerize/): Learn how to containerize a PHP application.
+- [Test your PHP deployment](https://docs.docker.com/guides/php/deploy/): Learn how to deploy your application
+- [Use containers for PHP development](https://docs.docker.com/guides/php/develop/): Learn how to develop your PHP application locally using containers.
+- [Run PHP tests in a container](https://docs.docker.com/guides/php/run-tests/): Learn how to run your PHP tests in a container.
+- [Pre-seeding database with schema and data at startup for development environment](https://docs.docker.com/guides/pre-seeding/): Pre-seeding database with schema and data at startup for development environment
+- [Automate your builds with GitHub Actions](https://docs.docker.com/guides/python/configure-github-actions/): Learn how to configure CI/CD using GitHub Actions for your Python application.
+- [Containerize a Python application](https://docs.docker.com/guides/python/containerize/): Learn how to containerize a Python application.
+- [Test your Python deployment](https://docs.docker.com/guides/python/deploy/): Learn how to develop locally using Kubernetes
+- [Use containers for Python development](https://docs.docker.com/guides/python/develop/): Learn how to develop your Python application locally.
+- [Linting, formatting, and type checking for Python](https://docs.docker.com/guides/python/lint-format-typing/): Learn how to set up linting, formatting and type checking for your Python application.
+- [Configure CI/CD for your R application](https://docs.docker.com/guides/r/configure-ci-cd/): Learn how to configure CI/CD using GitHub Actions for your R application.
+- [Containerize a R application](https://docs.docker.com/guides/r/containerize/): Learn how to containerize a R application.
+- [Test your R deployment](https://docs.docker.com/guides/r/deploy/): Learn how to develop locally using Kubernetes
+- [Use containers for R development](https://docs.docker.com/guides/r/develop/): Learn how to develop your R application locally.
+- [Containerize a RAG application](https://docs.docker.com/guides/rag-ollama/containerize/): Learn how to containerize a RAG application.
+- [Use containers for RAG development](https://docs.docker.com/guides/rag-ollama/develop/): Learn how to develop your generative RAG application locally.
+- [Automate your builds with GitHub Actions](https://docs.docker.com/guides/reactjs/configure-github-actions/): Learn how to configure CI/CD using GitHub Actions for your React.js application.

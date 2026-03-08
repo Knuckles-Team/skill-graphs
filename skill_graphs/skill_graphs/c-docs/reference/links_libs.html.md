@@ -16,7 +16,6 @@
 
 
 #####  Actions[](https://en.cppreference.com/w/c/links/libs.html)
-![ads via Carbon](https://ad.doubleclick.net/ddm/trackimp/N718679.452584BUYSELLADS.COM/B29332811.421611897;dc_trk_aid=613858979;dc_trk_cid=235700574;ord=177295381;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$;gdpr_consent=$;ltd=;dc_tdv=1)
 # A list of open source C libraries
 From cppreference.com
 < [c](https://en.cppreference.com/w/c.html "c")‎ | [links](https://en.cppreference.com/w/c/links.html "c/links")
@@ -187,7 +186,7 @@ Library  |  Description  |  License  |  Configuration
 |  A cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.  |  BSD 2  |
 |  |  |
 |  A cross-platform C99 gamedev library featuring OpenGL hardware acceleration, full 3D support, skeletal animation, shaders, fonts, audio, math, GUI, etc. ( |  Zlib  |  cmake, make, vcpkg, zig
-|  **S** quirrel **A** bstract **I** mage **L** ibrary is a small, fast, and cross-platform image decoding library.  |  |
+|  **S** quirrel **A** bstract **I** mage **L** library is a small, fast, and cross-platform image decoding library.  |  |
 |  **S** imple **D** irectMedia **L** ayer is a cross-platform library for input, audio, drawing and much more.  |  |
 |  |  |
 |  A small, simple, cross-platform SDL2/OpenGL wrapper that provides drawing, media, windowing, and input capabilities.  |  MIT  |
@@ -227,7 +226,7 @@ Library  |  Description  |  License  |  Configuration
 |  |  |
 |  |  |
 |  |  MIT  |
-|  A socket library that provides common communication patterns; has no dependencies; cross-platform. Superceded by the  |  MIT/X11  |
+|  A socket library that provides common communication patterns; has no dependencies; cross-platform. Superseded by the  |  MIT/X11  |
 |  Unified Communication X (UCX) provides an optimized communication layer for Message Passing (MPI), Shared Memory (PGAS) and RPC/data-centric applications.  |  BSD3  |
 |  |  |
 |  A portable C library that provides generic access to USB devices.  |  |

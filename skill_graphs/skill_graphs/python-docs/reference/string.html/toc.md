@@ -1,0 +1,8 @@
+# Table of Contents
+
+- [string.html](<./string.html.md>)
+- [`string` — Common string operations[¶](https://docs.python.org/3/library/string.html#module-string "Link to this heading")](<./string--Common-string-operationshttpsdocs.python.org3librarystring.htmlmodule-string-Link-to-this-heading.md>)
+  - [String constants[¶](https://docs.python.org/3/library/string.html#string-constants "Link to this heading")](<./string--Common-string-operationshttpsdocs.python.org3librarystring.htmlmodule-string-Link-to-this-heading/String-constantshttpsdocs.python.org3librarystring.htmlstring-constants-Link-to-this-heading.md>)
+  - [Custom String Formatting[¶](https://docs.python.org/3/library/string.html#custom-string-formatting "Link to this heading")](<./string--Common-string-operationshttpsdocs.python.org3librarystring.htmlmodule-string-Link-to-this-heading/Custom-String-Formattinghttpsdocs.python.org3librarystring.htmlcustom-string-formatting-Link-to-this-heading.md>)
+  - [Format String Syntax[¶](https://docs.python.org/3/library/string.html#format-string-syntax "Link to this heading")](<./string--Common-string-operationshttpsdocs.python.org3librarystring.htmlmodule-string-Link-to-this-heading/Format-String-Syntaxhttpsdocs.python.org3librarystring.htmlformat-string-syntax-Link-to-this-heading.md>)
+  - [Template strings ($-strings)[¶](https://docs.python.org/3/library/string.html#template-strings-strings "Link to this heading")](<./string--Common-string-operationshttpsdocs.python.org3librarystring.htmlmodule-string-Link-to-this-heading/Template-strings--stringshttpsdocs.python.org3librarystring.htmltemplate-strings-strings-Link-to-this-heading.md>)

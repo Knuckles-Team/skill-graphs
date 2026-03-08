@@ -1,0 +1,3 @@
+#  Chapter 4. Working with the Media
+In this part, we look at how to motivate the news media to use your stories. We will review the duties of editors and producers, the characteristics of different news media, and the ways in which your organization can increase the chances of gaining visibility. We will see how to create news media interest in your story, not only through the information contained in your release, but also through contact with the editors. We will try to create a better understanding of the editors' side of the public relations channel with some insight into the little things—and the big things—that editors look for.
+* * *

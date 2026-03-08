@@ -1,0 +1,2 @@
+## Revalidation[](https://nextjs.org/docs/app/glossary#revalidation)
+The process of updating cached data. Can be time-based (using [`cacheLife()`](https://nextjs.org/docs/app/api-reference/functions/cacheLife) to set cache duration) or on-demand (using [`cacheTag()`](https://nextjs.org/docs/app/api-reference/functions/cacheTag) to tag data, then [`updateTag()`](https://nextjs.org/docs/app/api-reference/functions/updateTag) to invalidate). Learn more in [Caching and Revalidating](https://nextjs.org/docs/app/getting-started/caching-and-revalidating).

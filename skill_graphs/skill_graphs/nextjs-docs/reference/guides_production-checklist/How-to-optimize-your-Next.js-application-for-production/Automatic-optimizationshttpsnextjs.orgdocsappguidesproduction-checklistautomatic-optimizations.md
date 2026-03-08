@@ -1,0 +1,10 @@
+## Automatic optimizations[](https://nextjs.org/docs/app/guides/production-checklist#automatic-optimizations)
+These Next.js optimizations are enabled by default and require no configuration:
+  * **[Server Components](https://nextjs.org/docs/app/getting-started/server-and-client-components):** Next.js uses Server Components by default. Server Components run on the server, and don't require JavaScript to render on the client. As such, they have no impact on the size of your client-side JavaScript bundles. You can then use [Client Components](https://nextjs.org/docs/app/getting-started/server-and-client-components) as needed for interactivity.
+  * **[Code-splitting](https://nextjs.org/docs/app/getting-started/linking-and-navigating#how-navigation-works):** Server Components enable automatic code-splitting by route segments. You may also consider [lazy loading](https://nextjs.org/docs/app/guides/lazy-loading) Client Components and third-party libraries, where appropriate.
+  * **[Prefetching](https://nextjs.org/docs/app/getting-started/linking-and-navigating#prefetching):** When a link to a new route enters the user's viewport, Next.js prefetches the route in background. This makes navigation to new routes almost instant. You can opt out of prefetching, where appropriate.
+  * **[Static Rendering](https://nextjs.org/docs/app/guides/caching#static-rendering):** Next.js statically renders Server and Client Components on the server at build time and caches the rendered result to improve your application's performance. You can opt into [Dynamic Rendering](https://nextjs.org/docs/app/guides/caching#dynamic-rendering) for specific routes, where appropriate.
+  * **[Caching](https://nextjs.org/docs/app/guides/caching):** Next.js caches data requests, the rendered result of Server and Client Components, static assets, and more, to reduce the number of network requests to your server, database, and backend services. You may opt out of caching, where appropriate.
+
+
+These defaults aim to improve your application's performance, and reduce the cost and amount of data transferred on each network request.

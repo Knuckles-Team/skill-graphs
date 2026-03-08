@@ -1,0 +1,2 @@
+## Layout[](https://nextjs.org/docs/app/glossary#layout)
+UI that is shared between multiple pages. Layouts preserve state, remain interactive, and do not re-render on navigation. Defined by exporting a React component from a [`layout.js` file](https://nextjs.org/docs/app/api-reference/file-conventions/layout). Learn more in [Layouts and Pages](https://nextjs.org/docs/app/getting-started/layouts-and-pages).

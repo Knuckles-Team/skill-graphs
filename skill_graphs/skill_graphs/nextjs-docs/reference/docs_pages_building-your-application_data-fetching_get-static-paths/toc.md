@@ -1,0 +1,9 @@
+# Table of Contents
+
+- [docs_pages_building-your-application_data-fetching_get-static-paths](<./docs_pages_building-your-application_data-fetching_get-static-paths.md>)
+- [getStaticPaths](<./getStaticPaths.md>)
+  - [When should I use getStaticPaths?[](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-paths#when-should-i-use-getstaticpaths)](<./getStaticPaths/When-should-I-use-getStaticPathshttpsnextjs.orgdocspagesbuilding-your-applicationdata-fetchingget-static-pathswhen-should-i-use-getstaticpaths.md>)
+  - [When does getStaticPaths run[](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-paths#when-does-getstaticpaths-run)](<./getStaticPaths/When-does-getStaticPaths-runhttpsnextjs.orgdocspagesbuilding-your-applicationdata-fetchingget-static-pathswhen-does-getstaticpaths-run.md>)
+  - [Where can I use getStaticPaths[](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-paths#where-can-i-use-getstaticpaths)](<./getStaticPaths/Where-can-I-use-getStaticPathshttpsnextjs.orgdocspagesbuilding-your-applicationdata-fetchingget-static-pathswhere-can-i-use-getstaticpaths.md>)
+  - [Runs on every request in development[](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-paths#runs-on-every-request-in-development)](<./getStaticPaths/Runs-on-every-request-in-developmenthttpsnextjs.orgdocspagesbuilding-your-applicationdata-fetchingget-static-pathsruns-on-every-request-in-development.md>)
+  - [Generating paths on-demand[](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-paths#generating-paths-on-demand)](<./getStaticPaths/Generating-paths-on-demandhttpsnextjs.orgdocspagesbuilding-your-applicationdata-fetchingget-static-pathsgenerating-paths-on-demand.md>)

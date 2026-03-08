@@ -1,0 +1,1 @@
+##  [Terms of Service](https://vercel.com/docs/integrations/create-integration/submit-integration#terms-of-service)[](https://vercel.com/docs/integrations/create-integration/submit-integration#terms-of-service)

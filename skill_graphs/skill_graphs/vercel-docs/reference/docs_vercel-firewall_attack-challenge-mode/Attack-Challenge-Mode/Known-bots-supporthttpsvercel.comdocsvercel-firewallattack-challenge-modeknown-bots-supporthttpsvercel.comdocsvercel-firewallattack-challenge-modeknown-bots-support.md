@@ -1,0 +1,5 @@
+##  [Known bots support](https://vercel.com/docs/vercel-firewall/attack-challenge-mode#known-bots-support)[](https://vercel.com/docs/vercel-firewall/attack-challenge-mode#known-bots-support)
+Vercel maintains and continuously updates a comprehensive directory of known legitimate bots from across the internet. Attack Challenge Mode automatically recognizes and allows these bots to pass through without being challenged.
+Review [Verified bots](https://vercel.com/docs/bot-management#verified-bots) for examples of bot categories and services that are automatically allowed. [Internal Requests](https://vercel.com/docs/vercel-firewall/attack-challenge-mode#internal-requests) are also allowed through.
+Vercel's bot directory is regularly updated to include new legitimate services as they emerge, ensuring your SEO, analytics, integrations, and essential services continue to function even with Attack Challenge Mode enabled.
+To block specific known bots instead of allowing them through, you can create a [Custom Rule](https://vercel.com/docs/security/vercel-waf/custom-rules) that matches their User Agent.

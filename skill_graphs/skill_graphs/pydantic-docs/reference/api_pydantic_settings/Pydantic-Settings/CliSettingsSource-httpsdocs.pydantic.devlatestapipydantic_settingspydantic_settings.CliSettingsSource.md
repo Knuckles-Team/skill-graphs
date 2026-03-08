@@ -44,7 +44,7 @@ A `CliSettingsSource` connects with a `root_parser` object by using the parser m
 Parameters:
 Name | Type | Description | Default
 ---|---|---|---
-`cli_prog_name` |  |  The CLI program name to display in help text. Defaults to `None` if cli_parse_args is `None`. Otherwse, defaults to sys.argv[0]. |  `None`
+`cli_prog_name` |  |  The CLI program name to display in help text. Defaults to `None` if cli_parse_args is `None`. Otherwise, defaults to sys.argv[0]. |  `None`
 `cli_parse_args` |  |  The list of CLI arguments to parse. Defaults to None. If set to `True`, defaults to sys.argv[1:]. |  `None`
 `cli_parse_none_str` |  |  The CLI string value that should be parsed (e.g. "null", "void", "None", etc.) into `None` type(None). Defaults to "null" if cli_avoid_json is `False`, and "None" if cli_avoid_json is `True`. |  `None`
 `cli_hide_none_type` |  |  Hide `None` values in CLI help text. Defaults to `False`. |  `None`
@@ -310,7 +310,7 @@ def __init__(
             cli_parse_args = sys.argv[1:]
         elif not isinstance(cli_parse_args, (list, tuple)):
             raise SettingsError(
-                f'cli_parse_args must be List[str] or Tuple[str, ...], recieved {type(cli_parse_args)}'
+                f'cli_parse_args must be List[str] or Tuple[str, ...], received {type(cli_parse_args)}'
             )
         self._load_env_vars(parsed_args=self._parse_args(self.root_parser, cli_parse_args))
 

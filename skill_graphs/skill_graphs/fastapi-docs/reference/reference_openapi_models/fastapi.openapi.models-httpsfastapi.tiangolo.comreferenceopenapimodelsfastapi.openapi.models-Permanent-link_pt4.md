@@ -62,3 +62,8 @@ externalDocs = None
 model_config = {'extra': 'allow'}
 
 ```
+
+[ Previous  OpenAPI docs  ](https://fastapi.tiangolo.com/reference/openapi/docs/) [ Next  Security Tools  ](https://fastapi.tiangolo.com/reference/security/)
+The FastAPI trademark is owned by [@tiangolo](https://tiangolo.com) and is registered in the US and across other regions
+Made with
+[ ](https://tiangolo.com "tiangolo.com")

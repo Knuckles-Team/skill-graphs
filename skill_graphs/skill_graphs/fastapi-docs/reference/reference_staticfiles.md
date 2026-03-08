@@ -343,7 +343,7 @@ def get_directories(
         if isinstance(package, tuple):
             package, statics_dir = package
         else:
-            statics_dir = "statics"
+            statics_dir = "statistics"
         spec = importlib.util.find_spec(package)
         assert spec is not None, f"Package {package!r} could not be found."
         assert spec.origin is not None, f"Package {package!r} could not be found."

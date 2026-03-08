@@ -207,7 +207,7 @@ The maximum verbosity level supported by SSH is 3. Let’s see this in action:
 $ ssh -vvv -l root 192.168.19.130 hostname
 
 ```
-![SSH Enbale Verbose Mode](https://www.tecmint.com/wp-content/uploads/2018/08/SSH-Enbale-Verbose-Mode.png)SSH Enbale Verbose Mode
+![SSH Enable Verbose Mode](https://www.tecmint.com/wp-content/uploads/2018/08/SSH-Enable-Verbose-Mode.png)SSH Enable Verbose Mode
 In the above example, **debug1** represents the debug message enabled by the verbosity level 1. Similarly, **debug2** and **debug3** represent the debug messages enabled by the verbosity levels 2 and 3 respectively.
 #### Escape Sequences in SSH
 We can use escape sequences with the **SSH** to manage the client terminal sessions. Let’s discuss commonly used escape sequences with the appropriate use cases.

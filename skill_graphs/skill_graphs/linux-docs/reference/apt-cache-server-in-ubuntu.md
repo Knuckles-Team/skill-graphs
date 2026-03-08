@@ -381,13 +381,13 @@ Oh wait, i just realized my mistake. I was thinking apt-cacher-ng was a caching 
 Brent
 [ January 23, 2015 at 9:53 am  ](https://www.tecmint.com/apt-cache-server-in-ubuntu/#comment-460326)
 I am trying to get this working for ubuntu 14.04 LTS installs. I am playing with MAAS and it has the ability to populate an archive server for installs. I setup a separate VM with just 14.04 and apt-cacher-ng and pointed the MAAS archive setting to it. The setup is working as it shows the proxy information when you go to the VM with the apt-cacher-ng installed. When tell MAAS to start a machine, it runs the PXE installer and starts the ubuntu server 14.04 LTS install. The installer stops at the archive part with bad archive mirror. I set the mirror to
-I do lots of test installs at my house, so i thought i would save everyone some bandwidth with this setup. I use a mirror at the datacenter, but i didnt want to download 50GB to a machine i may or may not keep super long.
+I do lots of test installs at my house, so i thought i would save everyone some bandwidth with this setup. I use a mirror at the datacenter, but i didn't want to download 50GB to a machine i may or may not keep super long.
 Did i miss something? I followed the instructions in this post to the letter….
 [Reply](https://www.tecmint.com/apt-cache-server-in-ubuntu/#comment-460326)
      * ![](https://secure.gravatar.com/avatar/aee0f4132b51db24f8e9b0685778f38002014aae575549ca7881f21e71b58d9b?s=50&d=blank&r=g)
 Babin Lonston
 [ January 23, 2015 at 7:33 pm  ](https://www.tecmint.com/apt-cache-server-in-ubuntu/#comment-460657)
-@ Brent Have you read the article without loosing every line ?
+@ Brent Have you read the article without losing every line ?
 //Note: This is not an Ubuntu or Debian Mirror, this is just a cache server for apt packages.// Here i have said clearly it’s not a Mirror it’s a cache.
 [Reply](https://www.tecmint.com/apt-cache-server-in-ubuntu/#comment-460657)
   12. ![](https://secure.gravatar.com/avatar/53cf55ba64d8361f599fa7c7f3abf67e3e5d96830d8f82e6aade7f0cc4fe7627?s=50&d=blank&r=g)
@@ -412,7 +412,7 @@ alberto
 [ October 19, 2014 at 9:37 am  ](https://www.tecmint.com/apt-cache-server-in-ubuntu/#comment-339109)
 hi babin.
 realy, this article is good, very good. no difficulty.
-I implemented apt-cacher-ng in the company by your steps and I get sucess.
+I implemented apt-cacher-ng in the company by your steps and I get success.
 i’m using mint17 32 e 64 bits and I’m thinking about translate it for brazilian mint community (of course, with references to you).
 tks.
 [Reply](https://www.tecmint.com/apt-cache-server-in-ubuntu/#comment-339109)

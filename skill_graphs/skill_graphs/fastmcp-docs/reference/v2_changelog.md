@@ -1997,7 +1997,7 @@ New Features 🎉
 ###
 [​](https://gofastmcp.com/v2/changelog#fixes--36)
 Fixes 🐞
-  * Pin to mcp 1.8.1 to resolve callback deadlocks with SHTTP by
+  * Pin to mcp 1.8.1 to resolve callback deadlocks with HTTPS by
   * Add reprs for OpenAPI objects by
   * Ensure openapi defs for structured objects are loaded properly by
   * Ensure tests run against correct python version by
@@ -2079,7 +2079,7 @@ This release primarily patches a long-standing bug with nested ASGI SSE servers.
 [​](https://gofastmcp.com/v2/changelog#fixes--38)
 Fixes 🐞
   * Fix tool result serialization when the tool returns a list by
-  * Ensure FastMCP handles nested SSE and SHTTP apps properly in ASGI frameworks by
+  * Ensure FastMCP handles nested SSE and HTTPS apps properly in ASGI frameworks by
 
 
 ###

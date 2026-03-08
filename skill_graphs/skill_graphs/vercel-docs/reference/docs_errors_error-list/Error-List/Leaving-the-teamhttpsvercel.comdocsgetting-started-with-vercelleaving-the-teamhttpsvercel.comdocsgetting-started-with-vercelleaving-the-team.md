@@ -1,0 +1,3 @@
+##  [Leaving the team](https://vercel.com/docs/getting-started-with-vercel#leaving-the-team)[](https://vercel.com/docs/getting-started-with-vercel#leaving-the-team)
+You cannot leave a team if you are the last remaining [Owner](https://vercel.com/docs/rbac/access-roles#owner-role) or the last confirmed [Member](https://vercel.com/docs/rbac/access-roles#member-role). In order to leave the Team, first designate a different confirmed [Member](https://vercel.com/docs/rbac/access-roles#member-role) to be an [Team Owner](https://vercel.com/docs/rbac/access-roles#owner-role).
+If you are the only remaining [Member](https://vercel.com/docs/rbac/access-roles#member-role), you should instead delete the Team.

@@ -1,0 +1,5 @@
+# Getting Started with Routing Middleware
+Last updated January 28, 2026
+Routing Middleware lets you to run code before your pages load, giving you control over incoming requests. It runs close to your users for fast response times and are perfect for redirects, authentication, and request modification.
+Routing Middleware is available on the [Node.js](https://vercel.com/docs/functions/runtimes/node-js), [Bun](https://vercel.com/docs/functions/runtimes/bun), and [Edge](https://vercel.com/docs/functions/runtimes/edge) runtimes. Edge is the default runtime for Routing Middleware. To use Node.js, configure the `runtime` in your middleware config. To use Bun, set [`bunVersion`](https://vercel.com/docs/project-configuration#bunversion) in your `vercel.json` file.
+Next.js 16 users: Next.js 16 renamed the middleware file from `middleware.ts` to `proxy.ts` and changed the function export from `middleware` to `proxy`. When using Next.js 16 or later, use `proxy.ts` instead of `middleware.ts`. The proxy function runs on Node.js only (Edge runtime is not supported). See the

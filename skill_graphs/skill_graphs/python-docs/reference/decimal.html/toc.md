@@ -1,0 +1,10 @@
+# Table of Contents
+
+- [decimal.html](<./decimal.html.md>)
+- [`decimal` — Decimal fixed-point and floating-point arithmetic[¶](https://docs.python.org/3/library/decimal.html#module-decimal "Link to this heading")](<./decimal--Decimal-fixed-point-and-floating-point-arithmetichttpsdocs.python.org3librarydecimal.htmlmodule-decimal-Link-to-this-heading.md>)
+  - [Constants[¶](https://docs.python.org/3/library/decimal.html#constants "Link to this heading")](<./decimal--Decimal-fixed-point-and-floating-point-arithmetichttpsdocs.python.org3librarydecimal.htmlmodule-decimal-Link-to-this-heading/Constantshttpsdocs.python.org3librarydecimal.htmlconstants-Link-to-this-heading.md>)
+  - [Rounding modes[¶](https://docs.python.org/3/library/decimal.html#rounding-modes "Link to this heading")](<./decimal--Decimal-fixed-point-and-floating-point-arithmetichttpsdocs.python.org3librarydecimal.htmlmodule-decimal-Link-to-this-heading/Rounding-modeshttpsdocs.python.org3librarydecimal.htmlrounding-modes-Link-to-this-heading.md>)
+  - [Signals[¶](https://docs.python.org/3/library/decimal.html#signals "Link to this heading")](<./decimal--Decimal-fixed-point-and-floating-point-arithmetichttpsdocs.python.org3librarydecimal.htmlmodule-decimal-Link-to-this-heading/Signalshttpsdocs.python.org3librarydecimal.htmlsignals-Link-to-this-heading.md>)
+  - [Floating-point notes[¶](https://docs.python.org/3/library/decimal.html#floating-point-notes "Link to this heading")](<./decimal--Decimal-fixed-point-and-floating-point-arithmetichttpsdocs.python.org3librarydecimal.htmlmodule-decimal-Link-to-this-heading/Floating-point-noteshttpsdocs.python.org3librarydecimal.htmlfloating-point-notes-Link-to-this-heading.md>)
+- [Examples from Seminumerical Algorithms, Section 4.2.2.](<./Examples-from-Seminumerical-Algorithms-Section-4.2.2..md>)
+  - [Recipes[¶](https://docs.python.org/3/library/decimal.html#recipes "Link to this heading")](<./Examples-from-Seminumerical-Algorithms-Section-4.2.2./Recipeshttpsdocs.python.org3librarydecimal.htmlrecipes-Link-to-this-heading.md>)

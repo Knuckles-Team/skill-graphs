@@ -47,7 +47,7 @@ The updated version of script is available at Github, the link can be found at t
      * ![](https://secure.gravatar.com/avatar/a61b9424d142be37cb9cccd7ebc204d68a2a4fd21e42ed9aba5eea961e375a3f?s=50&d=blank&r=g)
 Andres Tarallo
 [ July 25, 2016 at 9:42 pm  ](https://www.tecmint.com/linux-server-health-monitoring-script/#comment-802182)
-@Ariel, those are scape codes that make certain messages appear in color. Making the script work on other UNIXES (*BSD, AIX or Solaris) is not my priority. When I have time I’ll be testing it on AIX, that I have availiable.
+@Ariel, those are scape codes that make certain messages appear in color. Making the script work on other UNIXES (*BSD, AIX or Solaris) is not my priority. When I have time I’ll be testing it on AIX, that I have available.
 [Reply](https://www.tecmint.com/linux-server-health-monitoring-script/#comment-802182)
   32. ![](https://secure.gravatar.com/avatar/25feda3ef2224c33901e37d9bbb981f6cb1d3119ab19c37d2be8ffa3e48a9bbc?s=50&d=blank&r=g)
 Immanuel

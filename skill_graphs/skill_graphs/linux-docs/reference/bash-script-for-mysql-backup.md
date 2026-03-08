@@ -158,7 +158,7 @@ To start monitoring the performance of your running Linux system, issue the foll
 # glances
 
 ```
-![Glances - Monitor Linux Peformance](https://www.tecmint.com/wp-content/uploads/2014/02/Glances-Monitor-Linux-Peformance.png)Glances – Monitor Linux Performance
+![Glances - Monitor Linux Performance](https://www.tecmint.com/wp-content/uploads/2014/02/Glances-Monitor-Linux-Performance.png)Glances – Monitor Linux Performance
 To stop **Glances** , you can press ‘`q`‘ or (‘`ESC`‘ or ‘`Ctrl&C`‘) in the terminal where Glances is running.
 ### Run Glances in Web Server Mode
 To run **Glances** in Web server mode, you need to add `-w` option to remotely monitor the system’s performance and resource usage through a user-friendly web interface.

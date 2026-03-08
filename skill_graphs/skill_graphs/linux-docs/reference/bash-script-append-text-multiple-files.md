@@ -227,7 +227,7 @@ Join the **[TecMint Weekly Newsletter](https://newsletter.tecmint.com/subscripti
 Marko
 [ January 10, 2020 at 5:58 am  ](https://www.tecmint.com/install-zabbix-agent-and-add-windows-host-to-zabbix-monioring/#comment-1311038)
 Hi,
-I am having problems with the agent, Zabbix server cant read the network interface from Zabbix agent. in log I get error
+I am having problems with the agent, Zabbix server can't read the network interface from Zabbix agent. in log I get error
 `active check "net.if.in["Broadcom BCM5709C NetXtreme II GigE (NDIS VBD Client)",dropped]" is not supported: Cannot obtain network interface information.`
 I am using HyperV on this server and have a virtual network that is connected to the virtual switch. Zabbix agent is trying to get information from my physical network on the server, and not from the virtual network that has all required information for the network (IP, DNS.. etc)
 can I specify to zabbix_agent which interface should it get information from?

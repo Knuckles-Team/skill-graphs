@@ -1,0 +1,15 @@
+# Table of Contents
+
+- [docs_ai-gateway_sdks-and-apis_openai-chat-completions_embeddings](<./docs_ai-gateway_sdks-and-apis_openai-chat-completions_embeddings.md>)
+- [Embeddings](<./Embeddings.md>)
+  - [Get Started](<./Embeddings/Get-Started.md>)
+  - [Build](<./Embeddings/Build.md>)
+  - [Scale](<./Embeddings/Scale.md>)
+  - [Secure](<./Embeddings/Secure.md>)
+  - [Resources](<./Embeddings/Resources.md>)
+  - [Learn](<./Embeddings/Learn.md>)
+  - [Frameworks](<./Embeddings/Frameworks.md>)
+  - [SDKs](<./Embeddings/SDKs.md>)
+  - [Use Cases](<./Embeddings/Use-Cases.md>)
+  - [Company](<./Embeddings/Company.md>)
+  - [Community](<./Embeddings/Community.md>)

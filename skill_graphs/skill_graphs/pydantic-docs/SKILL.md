@@ -14,7 +14,7 @@ Comprehensive reference documentation for Pydantic Docs.
 **Original Sources**:
 - [https://docs.pydantic.dev/](https://docs.pydantic.dev/)
 
-**Contains**: 633 markdown files with full folder structure (crawled at depth 2).
+**Contains**: 620 markdown files with full folder structure (crawled at depth 2).
 *Last updated: March 08, 2026*
 
 ## 📚 Table of Contents
@@ -391,19 +391,6 @@ Comprehensive reference documentation for Pydantic Docs.
   - [Changelog Pt3](reference/changelog/changelog_pt3.md)
   - [the repr() method for a url will display all properties of the url](reference/changelog/the-repr-method-for-a-url-will-display-all-properties-of-the-url.md)
   - [Table of Contents](reference/changelog/toc.md)
-- 📁 **concepts_dataclasses/**
-  - 📁 **Dataclasses/**
-    - [Option 1 -- using the decorator argument:](reference/concepts_dataclasses/Dataclasses/Dataclass-confighttpsdocs.pydantic.devlatestconceptsdataclassesdataclass-config.md)
-    - [Rebuilding Dataclass Schemahttpsdocs.Pydantic.Devlatestconceptsdataclassesrebuilding Dataclass Schema](reference/concepts_dataclasses/Dataclasses/Rebuilding-dataclass-schemahttpsdocs.pydantic.devlatestconceptsdataclassesrebuilding-dataclass-schema.md)
-    - [nothing is validated as expected:](reference/concepts_dataclasses/Dataclasses/Stdlib-dataclasses-and-Pydantic-dataclasseshttpsdocs.pydantic.devlatestconceptsdataclassesstdlib-dataclasses-and-pydantic-dataclasses.md)
-    - [Validators And Initialization Hookshttpsdocs.Pydantic.Devlatestconceptsdataclassesvalidators And Initialization Hooks](reference/concepts_dataclasses/Dataclasses/Validators-and-initialization-hookshttpsdocs.pydantic.devlatestconceptsdataclassesvalidators-and-initialization-hooks.md)
-    - [Dump Python Httpsdocs.Pydantic.Devlatestapitype Adapterpydantic.Type Adapter.Typeadapter.Dump Python Permanent Link](reference/concepts_dataclasses/Dataclasses/dump_python-httpsdocs.pydantic.devlatestapitype_adapterpydantic.type_adapter.TypeAdapter.dump_python-Permanent-link.md)
-    - [Json Schema Httpsdocs.Pydantic.Devlatestapitype Adapterpydantic.Type Adapter.Typeadapter.Json Schema Permanent Link](reference/concepts_dataclasses/Dataclasses/json_schema-httpsdocs.pydantic.devlatestapitype_adapterpydantic.type_adapter.TypeAdapter.json_schema-Permanent-link.md)
-    - [Validate Python Httpsdocs.Pydantic.Devlatestapitype Adapterpydantic.Type Adapter.Typeadapter.Validate Python Permanent Link](reference/concepts_dataclasses/Dataclasses/validate_python-httpsdocs.pydantic.devlatestapitype_adapterpydantic.type_adapter.TypeAdapter.validate_python-Permanent-link.md)
-    - [Validate Strings Httpsdocs.Pydantic.Devlatestapitype Adapterpydantic.Type Adapter.Typeadapter.Validate Strings Permanent Link](reference/concepts_dataclasses/Dataclasses/validate_strings-httpsdocs.pydantic.devlatestapitype_adapterpydantic.type_adapter.TypeAdapter.validate_strings-Permanent-link.md)
-  - [Dataclasses](reference/concepts_dataclasses/Dataclasses.md)
-  - [Concepts Dataclasses](reference/concepts_dataclasses/concepts_dataclasses.md)
-  - [Table of Contents](reference/concepts_dataclasses/toc.md)
 - 📁 **concepts_json_schema/**
   - [JSON Schema](reference/concepts_json_schema/JSON-Schema.md)
   - [Concepts Json Schema](reference/concepts_json_schema/concepts_json_schema.md)
@@ -622,6 +609,7 @@ Comprehensive reference documentation for Pydantic Docs.
 - [Api Aliases](reference/api_aliases.md)
 - [Api Annotated Handlers](reference/api_annotated_handlers.md)
 - [Api Dataclasses](reference/api_dataclasses.md)
+- [Api Errors](reference/api_errors.md)
 - [Api Experimental](reference/api_experimental.md)
 - [Api Functional Serializers](reference/api_functional_serializers.md)
 - [Api Functional Validators](reference/api_functional_validators.md)
@@ -629,11 +617,9 @@ Comprehensive reference documentation for Pydantic Docs.
 - [Api Pydantic Extra Types Color](reference/api_pydantic_extra_types_color.md)
 - [Api Pydantic Extra Types Coordinate](reference/api_pydantic_extra_types_coordinate.md)
 - [Api Pydantic Extra Types Country](reference/api_pydantic_extra_types_country.md)
+- [Api Pydantic Extra Types Isbn](reference/api_pydantic_extra_types_isbn.md)
 - [Api Pydantic Extra Types Payment](reference/api_pydantic_extra_types_payment.md)
 - [Api Pydantic Extra Types Pendulum Dt](reference/api_pydantic_extra_types_pendulum_dt.md)
-- [Api Pydantic Extra Types Phone Numbers](reference/api_pydantic_extra_types_phone_numbers.md)
-- [Api Pydantic Extra Types Routing Numbers](reference/api_pydantic_extra_types_routing_numbers.md)
-- [Api Pydantic Extra Types Script Code](reference/api_pydantic_extra_types_script_code.md)
 - [Api Pydantic Extra Types Semantic Version](reference/api_pydantic_extra_types_semantic_version.md)
 - [Api Pydantic Extra Types Timezone Name](reference/api_pydantic_extra_types_timezone_name.md)
 - [Api Root Model](reference/api_root_model.md)
@@ -642,6 +628,7 @@ Comprehensive reference documentation for Pydantic Docs.
 - [Concepts Alias](reference/concepts_alias.md)
 - [Concepts Config](reference/concepts_config.md)
 - [Concepts Conversion Table](reference/concepts_conversion_table.md)
+- [Concepts Dataclasses](reference/concepts_dataclasses.md)
 - [Concepts Experimental](reference/concepts_experimental.md)
 - [Concepts Fields](reference/concepts_fields.md)
 - [Concepts Forward Annotations](reference/concepts_forward_annotations.md)
@@ -661,11 +648,9 @@ Comprehensive reference documentation for Pydantic Docs.
 - [Examples Files](reference/examples_files.md)
 - [Examples Orms](reference/examples_orms.md)
 - [Examples Queues](reference/examples_queues.md)
-- [Examples Requests](reference/examples_requests.md)
 - [FastUI[¶](https://docs.pydantic.dev/fastui/#fastui "Permanent link")](reference/fastui.md)
 - [TypeScript Components[¶](https://docs.pydantic.dev/fastui/api/typescript_components/#typescript-components "Permanent link")](reference/fastui_api_typescript_components.md)
 - [Guide](reference/fastui_guide.md)
-- [Help With Pydantic](reference/help_with_pydantic.md)
 - [Install](reference/install.md)
 - [Integrations Aws Lambda](reference/integrations_aws_lambda.md)
 - [Integrations Datamodel Code Generator](reference/integrations_datamodel_code_generator.md)

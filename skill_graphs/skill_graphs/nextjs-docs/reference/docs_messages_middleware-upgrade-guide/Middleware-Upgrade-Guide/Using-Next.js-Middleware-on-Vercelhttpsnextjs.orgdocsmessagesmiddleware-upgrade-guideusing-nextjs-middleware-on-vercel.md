@@ -1,0 +1,2 @@
+## Using Next.js Middleware on Vercel[](https://nextjs.org/docs/messages/middleware-upgrade-guide#using-nextjs-middleware-on-vercel)
+If you're using Next.js on Vercel, your existing deploys using Middleware will continue to work, and you can continue to deploy your site using Middleware. When you upgrade your site to the next stable version of Next.js (`v12.2`), you will need to follow this upgrade guide to update your Middleware.

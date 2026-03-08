@@ -1,0 +1,2 @@
+## Prerendering[](https://nextjs.org/docs/app/glossary#prerendering)
+When a component is rendered at [build time](https://nextjs.org/docs/app/glossary#build-time) or in the background during [revalidation](https://nextjs.org/docs/app/glossary#revalidation). The result is HTML and [RSC Payload](https://nextjs.org/docs/app/glossary#rsc-payload), which can be cached and served from a CDN. Prerendering is the default for components that don't use [Request-time APIs](https://nextjs.org/docs/app/glossary#request-time-apis).

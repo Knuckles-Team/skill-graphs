@@ -1,0 +1,6 @@
+This is The GNU C Library Reference Manual, for version 2.43.
+Copyright © 1993–2026 Free Software Foundation, Inc.
+Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with the Invariant Sections being “Free Software Needs Free Documentation” and “GNU Lesser General Public License”, the Front-Cover texts being “A GNU Manual”, and with the Back-Cover Texts as in (a) below. A copy of the license is included in the section entitled "GNU Free Documentation License".
+(a) The FSF’s Back-Cover Text is: “You have the freedom to copy and modify this GNU manual. Buying copies from the FSF supports it in developing GNU and promoting software freedom.”
+Next: [Introduction](https://sourceware.org/glibc/manual/latest/html_node/Introduction.html), Previous: [(dir)](https://sourceware.org/glibc/manual/latest/dir_html/index.html), Up: [(dir)](https://sourceware.org/glibc/manual/latest/dir_html/index.html) [[Contents](https://sourceware.org/glibc/manual/latest/html_node/index.html#SEC_Contents "Table of contents")][[Index](https://sourceware.org/glibc/manual/latest/html_node/Concept-Index.html "Index")]
+* * *

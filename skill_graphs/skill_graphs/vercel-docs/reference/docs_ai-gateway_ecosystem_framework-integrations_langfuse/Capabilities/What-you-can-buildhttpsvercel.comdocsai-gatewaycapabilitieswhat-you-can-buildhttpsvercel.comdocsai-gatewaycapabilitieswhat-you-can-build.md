@@ -1,0 +1,8 @@
+##  [What you can build](https://vercel.com/docs/ai-gateway/capabilities#what-you-can-build)[](https://vercel.com/docs/ai-gateway/capabilities#what-you-can-build)
+  * Complex problem solving: Enable models to think step-by-step for coding, math, and analysis with [Reasoning](https://vercel.com/docs/ai-gateway/capabilities/reasoning)
+  * Visual content apps: Generate product images, marketing assets, or UI mockups with [Image Generation](https://vercel.com/docs/ai-gateway/capabilities/image-generation)
+  * Video content: Create videos from text prompts, images, or video input with [Video Generation](https://vercel.com/docs/ai-gateway/capabilities/video-generation)
+  * Research assistants: Give models access to current information with [Web Search](https://vercel.com/docs/ai-gateway/capabilities/web-search)
+  * Production dashboards: Monitor costs, latency, and usage across all your AI requests with [Observability](https://vercel.com/docs/ai-gateway/capabilities/observability)
+  * Compliant applications: Meet data privacy requirements with [Zero Data Retention](https://vercel.com/docs/ai-gateway/capabilities/zdr)
+  * Usage tracking: Check credit balances and look up generation details with the [Usage API](https://vercel.com/docs/ai-gateway/capabilities/usage)

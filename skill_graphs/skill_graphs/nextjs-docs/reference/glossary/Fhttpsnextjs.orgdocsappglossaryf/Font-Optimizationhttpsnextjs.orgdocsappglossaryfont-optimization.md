@@ -1,0 +1,2 @@
+## Font Optimization[](https://nextjs.org/docs/app/glossary#font-optimization)
+Automatic font optimization using [`next/font`](https://nextjs.org/docs/app/api-reference/components/font). Next.js self-hosts fonts, eliminates layout shift, and applies best practices for performance. Works with Google Fonts and local font files. Learn more in [Fonts](https://nextjs.org/docs/app/getting-started/fonts).

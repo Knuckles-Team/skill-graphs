@@ -202,13 +202,13 @@ Cheers,
 [Reply](https://www.tecmint.com/why-the-world-runs-on-linux/#comment-316532)
      * every child know that Linux is kernel and GNU/Linux is OS. and the proper way to write Linux is – ‘Linux’ and not ‘linux’. Similarly proper way to write ‘UNIX’ is ‘UNIX’ and not ‘Unix’ or ‘unix’.
 still we refer to linux os in day to day talk by saying it linux.
-isnt it?
+isn't it?
 [Reply](https://www.tecmint.com/why-the-world-runs-on-linux/#comment-319055)
   11. I wasn’t a geek when i first installed linux, and it was fine, easy to use and understandable system, but after using it for a while I became one.. I have learned to code in python, php, java, etc.. I am thankful to linux community, they made me a better human being they forced me to think by my self not just to take what is given. I now believe that only lazy people choose windows or mac, those, who like to get everything on the plate, those who are afraid or too lazy to try something themselves…
 [Reply](https://www.tecmint.com/why-the-world-runs-on-linux/#comment-219856)
   12. Linux is the best OS in the world
 [Reply](https://www.tecmint.com/why-the-world-runs-on-linux/#comment-128820)
-     * correction: it is kernal not OS :)
+     * correction: it is kernel not OS :)
 [Reply](https://www.tecmint.com/why-the-world-runs-on-linux/#comment-164862)
        * Yes, Linux is a kernel or a family of kernels. But it is also any operating system that is using a Linux kernel. If it is an official version of kernel we are talking about a real Linux and if it is a modified version, like in Android, we are talking about Linux based OS.
 [Reply](https://www.tecmint.com/why-the-world-runs-on-linux/#comment-351055)

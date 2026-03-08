@@ -1,0 +1,2 @@
+## Metadata[](https://nextjs.org/docs/app/glossary#metadata)
+Information about a page used by browsers and search engines, such as title, description, and Open Graph images. In Next.js, define metadata using the [`metadata` export](https://nextjs.org/docs/app/api-reference/functions/generate-metadata) or [`generateMetadata` function](https://nextjs.org/docs/app/api-reference/functions/generate-metadata) in layout or page files. Learn more in [Metadata and OG Images](https://nextjs.org/docs/app/getting-started/metadata-and-og-images).

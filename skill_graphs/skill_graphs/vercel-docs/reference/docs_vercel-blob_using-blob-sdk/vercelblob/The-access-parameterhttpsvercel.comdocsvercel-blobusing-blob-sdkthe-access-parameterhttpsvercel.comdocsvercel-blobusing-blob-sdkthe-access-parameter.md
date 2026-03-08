@@ -1,0 +1,2 @@
+##  [The `access` parameter](https://vercel.com/docs/vercel-blob/using-blob-sdk#the-access-parameter)[](https://vercel.com/docs/vercel-blob/using-blob-sdk#the-access-parameter)
+While the store itself determines whether files are [private or public](https://vercel.com/docs/vercel-blob#private-and-public-storage), most SDK methods require you to pass `access: 'private'` or `access: 'public'`. This makes it explicit in your code what kind of data access you're dealing with, so anyone reading the code immediately understands the security context.

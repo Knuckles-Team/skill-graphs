@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_security_shared-responsibility](<./docs_security_shared-responsibility.md>)
+- [Shared Responsibility Model](<./Shared-Responsibility-Model.md>)
+  - [[Customer responsibilities](https://vercel.com/docs/security/shared-responsibility#customer-responsibilities)[](https://vercel.com/docs/security/shared-responsibility#customer-responsibilities)](<./Shared-Responsibility-Model/Customer-responsibilitieshttpsvercel.comdocssecurityshared-responsibilitycustomer-responsibilitieshttpsvercel.comdocssecurityshared-responsibilitycustomer-responsibilities.md>)
+  - [[Shared responsibilities](https://vercel.com/docs/security/shared-responsibility#shared-responsibilities)[](https://vercel.com/docs/security/shared-responsibility#shared-responsibilities)](<./Shared-Responsibility-Model/Shared-responsibilitieshttpsvercel.comdocssecurityshared-responsibilityshared-responsibilitieshttpsvercel.comdocssecurityshared-responsibilityshared-responsibilities.md>)
+  - [[Vercel responsibilities](https://vercel.com/docs/security/shared-responsibility#vercel-responsibilities)[](https://vercel.com/docs/security/shared-responsibility#vercel-responsibilities)](<./Shared-Responsibility-Model/Vercel-responsibilitieshttpsvercel.comdocssecurityshared-responsibilityvercel-responsibilitieshttpsvercel.comdocssecurityshared-responsibilityvercel-responsibilities.md>)
+  - [Get Started](<./Shared-Responsibility-Model/Get-Started.md>)
+  - [Build](<./Shared-Responsibility-Model/Build.md>)
+  - [Scale](<./Shared-Responsibility-Model/Scale.md>)
+  - [Secure](<./Shared-Responsibility-Model/Secure.md>)
+  - [Resources](<./Shared-Responsibility-Model/Resources.md>)
+  - [Learn](<./Shared-Responsibility-Model/Learn.md>)
+  - [Frameworks](<./Shared-Responsibility-Model/Frameworks.md>)
+  - [SDKs](<./Shared-Responsibility-Model/SDKs.md>)
+  - [Use Cases](<./Shared-Responsibility-Model/Use-Cases.md>)
+  - [Company](<./Shared-Responsibility-Model/Company.md>)
+  - [Community](<./Shared-Responsibility-Model/Community.md>)

@@ -1,0 +1,350 @@
+[![VercelLogotype](https://vercel.com/vc-ap-vercel-docs/_next/static/media/vercel-logotype-light.e2cdcb0f.svg?dpl=dpl_DE7Y8GHQ8H82uFbmGbptfd563kRs)![VercelLogotype](https://vercel.com/vc-ap-vercel-docs/_next/static/media/vercel-logotype-dark.2944928d.svg?dpl=dpl_DE7Y8GHQ8H82uFbmGbptfd563kRs)](https://vercel.com/home)![Vercel](https://vercel.com/vc-ap-vercel-docs/_next/static/media/vercel-light.819e7467.svg?dpl=dpl_DE7Y8GHQ8H82uFbmGbptfd563kRs)![Vercel](https://vercel.com/vc-ap-vercel-docs/_next/static/media/vercel-dark.094502c2.svg?dpl=dpl_DE7Y8GHQ8H82uFbmGbptfd563kRs)
+  * Products
+    * ##### [AI Cloud](https://vercel.com/ai)
+      *       *       * [ AI Gateway One endpoint, all your models ](https://vercel.com/ai-gateway)
+      * [ Vercel Agent An agent that knows your stack ](https://vercel.com/agent)
+      * [ Sandbox AI workflows in live environments ](https://vercel.com/sandbox)
+    * ##### Core Platform
+      * [ CI/CD Helping teams ship 6× faster ](https://vercel.com/products/previews)
+      * [ Content Delivery Fast, scalable, and reliable ](https://vercel.com/cdn)
+      * [ Fluid Compute Servers, in serverless form ](https://vercel.com/fluid)
+      * [ Observability Trace every step ](https://vercel.com/products/observability)
+    * ##### [Security](https://vercel.com/security)
+      * [ Bot Management Scalable bot protection ](https://vercel.com/security/bot-management)
+      * [ BotID Invisible CAPTCHA ](https://vercel.com/botid)
+      * [ Platform Security DDoS Protection, Firewall ](https://vercel.com/security)
+      * [ Web Application Firewall Granular, custom protection ](https://vercel.com/security/web-application-firewall)
+  * Resources
+    * ##### Company
+      * [ Customers Trusted by the best teams ](https://vercel.com/customers)
+      * [ Blog The latest posts and changes ](https://vercel.com/blog)
+      * [ Changelog See what shipped ](https://vercel.com/changelog)
+      * [ Press Read the latest news ](https://vercel.com/press)
+      * [ Events Join us at an event ](https://vercel.com/events)
+    * ##### Learn
+      * [ Docs Vercel documentation ](https://vercel.com/docs)
+      * [ Academy Linear courses to level up ](https://vercel.com/academy)
+      * [ Knowledge Base Find help quickly ](https://vercel.com/kb)
+      * [ Community Join the conversation ](https://community.vercel.com/)
+    * ##### Open Source
+      * [ Next.js The native Next.js platform ](https://vercel.com/frameworks/nextjs)
+      *       *       * [ Turborepo Speed with Enterprise scale ](https://vercel.com/solutions/turborepo)
+  * Solutions
+    * ##### Use Cases
+      * [ AI Apps Deploy at the speed of AI ](https://vercel.com/ai)
+      * [ Composable Commerce Power storefronts that convert ](https://vercel.com/solutions/composable-commerce)
+      * [ Marketing Sites Launch campaigns fast ](https://vercel.com/solutions/marketing-sites)
+      * [ Multi-tenant Platforms Scale apps with one codebase ](https://vercel.com/solutions/multi-tenant-saas)
+      * [ Web Apps Ship features, not infrastructure ](https://vercel.com/solutions/web-apps)
+    * ##### Tools
+      * [ Marketplace Extend and automate workflows ](https://vercel.com/marketplace)
+      * [ Templates Jumpstart app development ](https://vercel.com/templates)
+      * [ Partner Finder Get help from solution partners ](https://vercel.com/partners/solution-partners)
+    * ##### Users
+      * [ Platform Engineers Automate away repetition ](https://vercel.com/solutions/platform-engineering)
+      * [ Design Engineers Deploy for every idea ](https://vercel.com/solutions/design-engineering)
+  * [Enterprise](https://vercel.com/enterprise)
+  * [Pricing](https://vercel.com/pricing)
+
+
+Search DocumentationSearch...`⌘ K`
+Ask AI
+Search DocumentationSearch...`⌘ K`
+Ask AI
+Sign in with Vercel
+  * [Getting Started](https://vercel.com/docs/getting-started-with-vercel)
+Expand menu
+    * [Projects and Deployments](https://vercel.com/docs/getting-started-with-vercel/projects-deployments)
+    * [Use a Template](https://vercel.com/docs/getting-started-with-vercel/template)
+    * [Import Existing Project](https://vercel.com/docs/getting-started-with-vercel/import)
+    * [Add a Domain](https://vercel.com/docs/getting-started-with-vercel/domains)
+    * [Buy a Domain](https://vercel.com/docs/getting-started-with-vercel/buy-domain)
+    * [Transfer an Existing Domain](https://vercel.com/docs/getting-started-with-vercel/use-existing)
+    * [Collaborate](https://vercel.com/docs/getting-started-with-vercel/collaborate)
+    * [Next Steps](https://vercel.com/docs/getting-started-with-vercel/next-steps)
+    * [Fundamental Concepts](https://vercel.com/docs/getting-started-with-vercel/fundamental-concepts)
+Expand menu
+      * [Request Lifecycle](https://vercel.com/docs/getting-started-with-vercel/fundamental-concepts/infrastructure)
+      * [Build System](https://vercel.com/docs/getting-started-with-vercel/fundamental-concepts/builds)
+      * [What is Compute?](https://vercel.com/docs/getting-started-with-vercel/fundamental-concepts/what-is-compute)
+  * [Supported Frameworks](https://vercel.com/docs/frameworks)
+Expand menu
+    * [Full-stack](https://vercel.com/docs/frameworks/full-stack)
+Expand menu
+      * [Next.js](https://vercel.com/docs/frameworks/full-stack/nextjs)
+      * [SvelteKit](https://vercel.com/docs/frameworks/full-stack/sveltekit)
+      * [Nuxt](https://vercel.com/docs/frameworks/full-stack/nuxt)
+      * [Remix](https://vercel.com/docs/frameworks/full-stack/remix)
+      * [TanStack Start](https://vercel.com/docs/frameworks/full-stack/tanstack-start)
+    * [Frontends](https://vercel.com/docs/frameworks/frontend)
+Expand menu
+      * [Astro](https://vercel.com/docs/frameworks/frontend/astro)
+      * [Vite](https://vercel.com/docs/frameworks/frontend/vite)
+      * [React Router](https://vercel.com/docs/frameworks/frontend/react-router)
+      * [Create React App](https://vercel.com/docs/frameworks/frontend/create-react-app)
+    * [Backends](https://vercel.com/docs/frameworks/backend)
+Expand menu
+      * [Nitro](https://vercel.com/docs/frameworks/backend/nitro)
+      * [Express](https://vercel.com/docs/frameworks/backend/express)
+      * [Elysia](https://vercel.com/docs/frameworks/backend/elysia)
+      * [FastAPI](https://vercel.com/docs/frameworks/backend/fastapi)
+      * [Fastify](https://vercel.com/docs/frameworks/backend/fastify)
+      * [Flask](https://vercel.com/docs/frameworks/backend/flask)
+      * [Hono](https://vercel.com/docs/frameworks/backend/hono)
+      * [Koa](https://vercel.com/docs/frameworks/backend/koa)
+      * [NestJS](https://vercel.com/docs/frameworks/backend/nestjs)
+      * [xmcp](https://vercel.com/docs/frameworks/backend/xmcp)
+    * [All Frameworks](https://vercel.com/docs/frameworks/more-frameworks)
+  * [Incremental Migration](https://vercel.com/docs/incremental-migration)
+  * [Production Checklist](https://vercel.com/docs/production-checklist)
+  * [Knowledge Base](https://vercel.com/kb)
+  * APIs & SDKs
+Expand menu
+    * [Rest API](https://vercel.com/docs/rest-api)
+    * [Vercel SDK](https://vercel.com/docs/rest-api/sdk)
+    * [Marketplace Partner API](https://vercel.com/docs/integrations/create-integration/marketplace-api/reference/partner)
+    * [Marketplace Vercel API](https://vercel.com/docs/integrations/create-integration/marketplace-api/reference/vercel)
+
+
+* * *
+  * Access
+Expand menu
+    * [Account Management](https://vercel.com/docs/accounts)
+    * [Sign in with Vercel](https://vercel.com/docs/sign-in-with-vercel)
+Expand menu
+      * [Getting Started](https://vercel.com/docs/sign-in-with-vercel/getting-started)
+      * [Agent Quickstart](https://vercel.com/docs/sign-in-with-vercel/agent-quickstart)
+      * [Scopes & Permissions](https://vercel.com/docs/sign-in-with-vercel/scopes-and-permissions)
+      * [Tokens](https://vercel.com/docs/sign-in-with-vercel/tokens)
+      * [Authorization Server API](https://vercel.com/docs/sign-in-with-vercel/authorization-server-api)
+      * [Manage from Dashboard](https://vercel.com/docs/sign-in-with-vercel/manage-from-dashboard)
+      * [Consent Page](https://vercel.com/docs/sign-in-with-vercel/consent-page)
+      * [Troubleshooting](https://vercel.com/docs/sign-in-with-vercel/troubleshooting)
+    * [Activity Log](https://vercel.com/docs/activity-log)
+    * [Deployment Protection](https://vercel.com/docs/deployment-protection)
+Expand menu
+      * [Bypass Deployment Protection](https://vercel.com/docs/deployment-protection/methods-to-bypass-deployment-protection)
+Expand menu
+        * [Exceptions](https://vercel.com/docs/deployment-protection/methods-to-bypass-deployment-protection/deployment-protection-exceptions)
+        * [OPTIONS Allowlist](https://vercel.com/docs/deployment-protection/methods-to-bypass-deployment-protection/options-allowlist)
+        * [Protection Bypass for Automation](https://vercel.com/docs/deployment-protection/methods-to-bypass-deployment-protection/protection-bypass-automation)
+        * [Sharable Links](https://vercel.com/docs/deployment-protection/methods-to-bypass-deployment-protection/sharable-links)
+      * [Protect Deployments](https://vercel.com/docs/deployment-protection/methods-to-protect-deployments)
+Expand menu
+        * [Password Protection](https://vercel.com/docs/deployment-protection/methods-to-protect-deployments/password-protection)
+        * [Trusted IPs](https://vercel.com/docs/deployment-protection/methods-to-protect-deployments/trusted-ips)
+        * [Vercel Authentication](https://vercel.com/docs/deployment-protection/methods-to-protect-deployments/vercel-authentication)
+    * [Directory Sync](https://vercel.com/docs/directory-sync)
+    * [SAML SSO](https://vercel.com/docs/saml)
+    * [Two-factor (2FA)](https://vercel.com/docs/two-factor-authentication)
+  * AI
+Expand menu
+    * [Vercel Agent](https://vercel.com/docs/agent)
+Expand menu
+      * [Code Reviewbeta](https://vercel.com/docs/agent/pr-review)
+Expand menu
+        * [Managing Reviews](https://vercel.com/docs/agent/pr-review/usage)
+      * [Investigationbeta](https://vercel.com/docs/agent/investigation)
+      * [Installationbeta](https://vercel.com/docs/agent/installation)
+      * [Pricing](https://vercel.com/docs/agent/pricing)
+    * [AI SDK](https://vercel.com/docs/ai-sdk)
+    * [AI Gateway](https://vercel.com/docs/ai-gateway)
+Expand menu
+      * [Getting Started](https://vercel.com/docs/ai-gateway/getting-started)
+Expand menu
+        * [Text](https://vercel.com/docs/ai-gateway/getting-started/text)
+        * [Image](https://vercel.com/docs/ai-gateway/getting-started/image)
+        * [Videobeta](https://vercel.com/docs/ai-gateway/getting-started/video)
+      * [Agent Quickstart](https://vercel.com/docs/ai-gateway/agent-quickstart)
+      * [Models & Providers](https://vercel.com/docs/ai-gateway/models-and-providers)
+Expand menu
+        * [Provider Options](https://vercel.com/docs/ai-gateway/models-and-providers/provider-options)
+        * [Model Fallbacks](https://vercel.com/docs/ai-gateway/models-and-providers/model-fallbacks)
+        * [Provider Timeoutsbeta](https://vercel.com/docs/ai-gateway/models-and-providers/provider-timeouts)
+        * [Automatic Caching](https://vercel.com/docs/ai-gateway/models-and-providers/automatic-caching)
+        * [Provider Filtering & Ordering](https://vercel.com/docs/ai-gateway/models-and-providers/provider-filtering-and-ordering)
+        * [Model Variants](https://vercel.com/docs/ai-gateway/models-and-providers/model-variants)
+      * [Capabilities](https://vercel.com/docs/ai-gateway/capabilities)
+Expand menu
+        * [Observability](https://vercel.com/docs/ai-gateway/capabilities/observability)
+        * [Usage & Billing](https://vercel.com/docs/ai-gateway/capabilities/usage)
+        * [Image Generation](https://vercel.com/docs/ai-gateway/capabilities/image-generation)
+Expand menu
+          * [Using AI SDK](https://vercel.com/docs/ai-gateway/capabilities/image-generation/ai-sdk)
+          * [Using Chat Completions API](https://vercel.com/docs/ai-gateway/capabilities/image-generation/openai)
+        * [Video Generationbeta](https://vercel.com/docs/ai-gateway/capabilities/video-generation)
+Expand menu
+          * [Text-to-Videobeta](https://vercel.com/docs/ai-gateway/capabilities/video-generation/text-to-video)
+          * [Image-to-Videobeta](https://vercel.com/docs/ai-gateway/capabilities/video-generation/image-to-video)
+          * [Reference-to-Videobeta](https://vercel.com/docs/ai-gateway/capabilities/video-generation/reference-to-video)
+          * [Motion Controlbeta](https://vercel.com/docs/ai-gateway/capabilities/video-generation/motion-control)
+          * [Video Editingbeta](https://vercel.com/docs/ai-gateway/capabilities/video-generation/video-editing)
+        * [Web Search](https://vercel.com/docs/ai-gateway/capabilities/web-search)
+        * [Reasoning](https://vercel.com/docs/ai-gateway/capabilities/reasoning)
+Expand menu
+          * [OpenAI](https://vercel.com/docs/ai-gateway/capabilities/reasoning/openai)
+          * [Anthropic](https://vercel.com/docs/ai-gateway/capabilities/reasoning/anthropic)
+          * [Google / Vertex](https://vercel.com/docs/ai-gateway/capabilities/reasoning/google)
+          * [Amazon Bedrock](https://vercel.com/docs/ai-gateway/capabilities/reasoning/amazon-bedrock)
+        * [Zero Data Retention](https://vercel.com/docs/ai-gateway/capabilities/zdr)
+      * [SDKs & APIs](https://vercel.com/docs/ai-gateway/sdks-and-apis)
+Expand menu
+        * [AI SDK](https://vercel.com/docs/ai-gateway/sdks-and-apis/ai-sdk)
+        * [OpenAI Responses API](https://vercel.com/docs/ai-gateway/sdks-and-apis/responses)
+        * [OpenAI Chat Completions API](https://vercel.com/docs/ai-gateway/sdks-and-apis/openai-chat-completions)
+Expand menu
+          * [Chat Completions](https://vercel.com/docs/ai-gateway/sdks-and-apis/openai-chat-completions/chat-completions)
+          * [Tool Calls](https://vercel.com/docs/ai-gateway/sdks-and-apis/openai-chat-completions/tool-calls)
+          * [Structured Outputs](https://vercel.com/docs/ai-gateway/sdks-and-apis/openai-chat-completions/structured-outputs)
+          * [Advanced](https://vercel.com/docs/ai-gateway/sdks-and-apis/openai-chat-completions/advanced)
+          * [Embeddings](https://vercel.com/docs/ai-gateway/sdks-and-apis/openai-chat-completions/embeddings)
+          * [Image Generation](https://vercel.com/docs/ai-gateway/sdks-and-apis/openai-chat-completions/image-generation)
+          * [REST API](https://vercel.com/docs/ai-gateway/sdks-and-apis/openai-chat-completions/rest-api)
+        * [Anthropic Messages API](https://vercel.com/docs/ai-gateway/sdks-and-apis/anthropic-messages-api)
+Expand menu
+          * [Messages](https://vercel.com/docs/ai-gateway/sdks-and-apis/anthropic-messages-api/messages)
+          * [Tool Calls](https://vercel.com/docs/ai-gateway/sdks-and-apis/anthropic-messages-api/tool-calls)
+          * [Advanced](https://vercel.com/docs/ai-gateway/sdks-and-apis/anthropic-messages-api/advanced)
+          * [File Attachments](https://vercel.com/docs/ai-gateway/sdks-and-apis/anthropic-messages-api/file-attachments)
+          * [Structured Outputs](https://vercel.com/docs/ai-gateway/sdks-and-apis/anthropic-messages-api/structured-outputs)
+        * [OpenResponses API](https://vercel.com/docs/ai-gateway/sdks-and-apis/openresponses)
+Expand menu
+          * [Text Generation](https://vercel.com/docs/ai-gateway/sdks-and-apis/openresponses/text-generation)
+          * [Streaming](https://vercel.com/docs/ai-gateway/sdks-and-apis/openresponses/streaming)
+          * [Image Input](https://vercel.com/docs/ai-gateway/sdks-and-apis/openresponses/image-input)
+          * [Tool Calling](https://vercel.com/docs/ai-gateway/sdks-and-apis/openresponses/tool-calling)
+          * [Provider Options](https://vercel.com/docs/ai-gateway/sdks-and-apis/openresponses/provider-options)
+        * [Python](https://vercel.com/docs/ai-gateway/sdks-and-apis/python)
+      * [Authentication & BYOK](https://vercel.com/docs/ai-gateway/authentication-and-byok)
+Expand menu
+        * [Authentication](https://vercel.com/docs/ai-gateway/authentication-and-byok/authentication)
+        * [BYOK](https://vercel.com/docs/ai-gateway/authentication-and-byok/byok)
+      * [Ecosystem](https://vercel.com/docs/ai-gateway/ecosystem)
+Expand menu
+        * [Framework Integrations](https://vercel.com/docs/ai-gateway/ecosystem/framework-integrations)
+Expand menu
+          * [LangChain](https://vercel.com/docs/ai-gateway/ecosystem/framework-integrations/langchain)
+          * [LangFuse](https://vercel.com/docs/ai-gateway/ecosystem/framework-integrations/langfuse)
+          * [LiteLLM](https://vercel.com/docs/ai-gateway/ecosystem/framework-integrations/litellm)
+          * [LlamaIndex](https://vercel.com/docs/ai-gateway/ecosystem/framework-integrations/llamaindex)
+          * [Mastra](https://vercel.com/docs/ai-gateway/ecosystem/framework-integrations/mastra)
+          * [Pydantic AI](https://vercel.com/docs/ai-gateway/ecosystem/framework-integrations/pydantic-ai)
+        * [App Attribution](https://vercel.com/docs/ai-gateway/ecosystem/app-attribution)
+      * [Pricing](https://vercel.com/docs/ai-gateway/pricing)
+      * [Chat Platforms](https://vercel.com/docs/ai-gateway/chat-platforms)
+Expand menu
+        * [LibreChat](https://vercel.com/docs/ai-gateway/chat-platforms/librechat)
+        * [OpenClaw (Clawdbot)](https://vercel.com/docs/ai-gateway/chat-platforms/openclaw)
+        * [Chatbox](https://vercel.com/docs/ai-gateway/chat-platforms/chatbox)
+        * [Open WebUI](https://vercel.com/docs/ai-gateway/chat-platforms/open-webui)
+    * [MCP](https://vercel.com/docs/mcp)
+Expand menu
+      * [Deploy MCP servers](https://vercel.com/docs/mcp/deploy-mcp-servers-to-vercel)
+    * [Agent Resources](https://vercel.com/docs/agent-resources)
+Expand menu
+      * [Markdown Access](https://vercel.com/docs/agent-resources/markdown-access)
+      * [Vercel MCP serverbeta](https://vercel.com/docs/agent-resources/vercel-mcp)
+Expand menu
+        * [Tools](https://vercel.com/docs/agent-resources/vercel-mcp/tools)
+      * [Coding Agents](https://vercel.com/docs/agent-resources/coding-agents)
+Expand menu
+        * [Claude Code](https://vercel.com/docs/agent-resources/coding-agents/claude-code)
+        * [Conductor](https://vercel.com/docs/agent-resources/coding-agents/conductor)
+        * [Roo Code](https://vercel.com/docs/agent-resources/coding-agents/roo-code)
+        * [Cline](https://vercel.com/docs/agent-resources/coding-agents/cline)
+        * [Blackbox AI](https://vercel.com/docs/agent-resources/coding-agents/blackbox)
+        * [Crush](https://vercel.com/docs/agent-resources/coding-agents/crush)
+        * [OpenCode](https://vercel.com/docs/agent-resources/coding-agents/opencode)
+        * [Superset](https://vercel.com/docs/agent-resources/coding-agents/superset)
+      * [Integrations for Agents](https://vercel.com/docs/agent-resources/integrations-for-agents)
+      * [Integrations for Models](https://vercel.com/docs/agent-resources/integrations-for-models)
+Expand menu
+        * [Adding a Provider](https://vercel.com/docs/agent-resources/integrations-for-models/adding-a-provider)
+        * [Adding a Model](https://vercel.com/docs/agent-resources/integrations-for-models/adding-a-model)
+        * [xAI](https://vercel.com/docs/agent-resources/integrations-for-models/xai)
+        * [Groq](https://vercel.com/docs/agent-resources/integrations-for-models/groq)
+        * [fal](https://vercel.com/docs/agent-resources/integrations-for-models/fal)
+        * [Deep Infra](https://vercel.com/docs/agent-resources/integrations-for-models/deepinfra)
+        * [ElevenLabs](https://vercel.com/docs/agent-resources/integrations-for-models/elevenlabs)
+        * [LMNT](https://vercel.com/docs/agent-resources/integrations-for-models/lmnt)
+        * [OpenAI](https://vercel.com/docs/agent-resources/integrations-for-models/openai)
+        * [Perplexity](https://vercel.com/docs/agent-resources/integrations-for-models/perplexity)
+        * [Pinecone](https://vercel.com/docs/agent-resources/integrations-for-models/pinecone)
+        * [Replicate](https://vercel.com/docs/agent-resources/integrations-for-models/replicate)
+        * [Together AI](https://vercel.com/docs/agent-resources/integrations-for-models/togetherai)
+      * [CLI Workflows](https://vercel.com/docs/agent-resources/workflows)
+      * [Skills](https://vercel.com/docs/agent-resources/skills)
+      * [llms.txt](https://vercel.com/llms.txt)
+      * [sitemap.md](https://vercel.com/docs/sitemap.md)
+  * Build & Deploy
+Expand menu
+    * [Builds](https://vercel.com/docs/builds)
+Expand menu
+      * [Build Features](https://vercel.com/docs/builds/build-features)
+      * [Build Image](https://vercel.com/docs/builds/build-image)
+      * [Build Queues](https://vercel.com/docs/builds/build-queues)
+      * [Configuring a Build](https://vercel.com/docs/builds/configure-a-build)
+      * [Managing Builds](https://vercel.com/docs/builds/managing-builds)
+    * [Deploy Hooks](https://vercel.com/docs/deploy-hooks)
+    * [Deployment Checks](https://vercel.com/docs/deployment-checks)
+    * [Deployment Retention](https://vercel.com/docs/deployment-retention)
+    * [Deployments](https://vercel.com/docs/deployments)
+Expand menu
+      * [Environments](https://vercel.com/docs/deployments/environments)
+      * [Generated URLs](https://vercel.com/docs/deployments/generated-urls)
+      * [Managing Deployments](https://vercel.com/docs/deployments/managing-deployments)
+      * [Promoting Deployments](https://vercel.com/docs/deployments/promoting-a-deployment)
+      * [Troubleshoot Build Errors](https://vercel.com/docs/deployments/troubleshoot-a-build)
+      * [Accessing Build Logs](https://vercel.com/docs/deployments/logs)
+      * [Claim Deployments](https://vercel.com/docs/deployments/claim-deployments)
+      * [Inspect OG Metadata](https://vercel.com/docs/deployments/og-preview)
+      * [Preview Deployment Suffix](https://vercel.com/docs/deployments/preview-deployment-suffix)
+      * [Promote Preview to Production](https://vercel.com/docs/deployments/promote-preview-to-production)
+      * [Rollback Production](https://vercel.com/docs/deployments/rollback-production-deployment)
+      * [Sharing a Preview Deployment](https://vercel.com/docs/deployments/sharing-deployments)
+      * [Troubleshoot project collaboration](https://vercel.com/docs/deployments/troubleshoot-project-collaboration)
+    * [Environment Variables](https://vercel.com/docs/environment-variables)
+Expand menu
+      * [Framework Environment Variables](https://vercel.com/docs/environment-variables/framework-environment-variables)
+      * [Manage Across Environments](https://vercel.com/docs/environment-variables/manage-across-environments)
+      * [Managing Environment Variables](https://vercel.com/docs/environment-variables/managing-environment-variables)
+      * [Reserved Environment Variables](https://vercel.com/docs/environment-variables/reserved-environment-variables)
+      * [Rotating Environment Variables](https://vercel.com/docs/environment-variables/rotating-secrets)
+      * [Sensitive Environment Variables](https://vercel.com/docs/environment-variables/sensitive-environment-variables)
+      * [Shared Environment Variables](https://vercel.com/docs/environment-variables/shared-environment-variables)
+      * [System Environment Variables](https://vercel.com/docs/environment-variables/system-environment-variables)
+    * [Git Integrations](https://vercel.com/docs/git)
+Expand menu
+      * [GitHub](https://vercel.com/docs/git/vercel-for-github)
+      * [Azure DevOps](https://vercel.com/docs/git/vercel-for-azure-pipelines)
+      * [Bitbucket](https://vercel.com/docs/git/vercel-for-bitbucket)
+      * [GitLab](https://vercel.com/docs/git/vercel-for-gitlab)
+    * [Instant Rollback](https://vercel.com/docs/instant-rollback)
+    * [Microfrontends](https://vercel.com/docs/microfrontends)
+Expand menu
+      * [Getting Started](https://vercel.com/docs/microfrontends/quickstart)
+      * [Local Development](https://vercel.com/docs/microfrontends/local-development)
+      * [Path Routing](https://vercel.com/docs/microfrontends/path-routing)
+      * [Configuration](https://vercel.com/docs/microfrontends/configuration)
+      * [Managing Microfrontends](https://vercel.com/docs/microfrontends/managing-microfrontends)
+Expand menu
+        * [Security](https://vercel.com/docs/microfrontends/managing-microfrontends/security)
+        * [Using Vercel Toolbar](https://vercel.com/docs/microfrontends/managing-microfrontends/vercel-toolbar)
+      * [Testing & Troubleshooting](https://vercel.com/docs/microfrontends/troubleshooting)
+    * [Monorepos](https://vercel.com/docs/monorepos)
+Expand menu
+      * [Turborepo](https://vercel.com/docs/monorepos/turborepo)
+      * [Remote Caching](https://vercel.com/docs/monorepos/remote-caching)
+      * [Nx](https://vercel.com/docs/monorepos/nx)
+      * [Monorepos FAQ](https://vercel.com/docs/monorepos/monorepo-faq)
+    * [Package Managers](https://vercel.com/docs/package-managers)
+    * [Restricting Git Connections to a single Vercel team](https://vercel.com/docs/protected-git-scopes)
+    * [Rolling Releases](https://vercel.com/docs/rolling-releases)
+Expand menu
+      * [Rolling Release Deployment](https://vercel.com/docs/rolling-releases/rolling-release-deployment)
+    * [Skew Protection](https://vercel.com/docs/skew-protection)
+    * [Webhooks](https://vercel.com/docs/webhooks)
+Expand menu
+      * [Webhooks API Reference](https://vercel.com/docs/webhooks/webhooks-api)
+  * CDN
+Expand menu

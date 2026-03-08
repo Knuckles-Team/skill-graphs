@@ -115,7 +115,7 @@ In some cases, an object is empty-initialized if it is not initialized explicitl
   * objects of floating types are initialized to positive zero
   * all elements of arrays, all members of structs, and the first members of unions are empty-initialized, recursively, plus all padding bits are initialized to zero
 
-    (on platforms where null pointer values and floating zeroes have all-bit-zero representations, this form of initialization for statics is normally implemented by allocating them in the .bss section of the program image)
+    (on platforms where null pointer values and floating zeroes have all-bit-zero representations, this form of initialization for statistics is normally implemented by allocating them in the .bss section of the program image)
 ###  [[edit](https://en.cppreference.com/mwiki/index.php?title=c/language/initialization&action=edit&section=5 "Edit section: Notes")] Notes
 When initializing an object of static or thread-local [storage duration](https://en.cppreference.com/w/c/language/storage_class_specifiers.html "c/language/storage duration"), every expression in the initializer must be a [constant expression](https://en.cppreference.com/w/c/language/constant_expression.html "c/language/constant expression") or [string literal](https://en.cppreference.com/w/c/language/string_literal.html "c/language/string literal").
 Initializers cannot be used in declarations of objects of incomplete type, VLAs, and block-scope objects with linkage.

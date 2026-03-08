@@ -1,0 +1,2 @@
+## Reverse Proxy[](https://nextjs.org/docs/app/guides/self-hosting#reverse-proxy)
+When self-hosting, it's recommended to use a reverse proxy (like nginx) in front of your Next.js server rather than exposing it directly to the internet. A reverse proxy can handle malformed requests, slow connection attacks, payload size limits, rate limiting, and other security concerns, offloading these tasks from the Next.js server. This allows the server to dedicate its resources to rendering rather than request validation.

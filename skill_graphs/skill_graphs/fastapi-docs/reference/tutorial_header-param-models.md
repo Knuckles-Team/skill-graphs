@@ -172,7 +172,7 @@
 
 # Header Parameter Models[¶](https://fastapi.tiangolo.com/tutorial/header-param-models/#header-parameter-models)
 If you have a group of related **header parameters** , you can create a **Pydantic model** to declare them.
-This would allow you to **re-use the model** in **multiple places** and also to declare validations and metadata for all the parameters at once. 😎
+This would allow you to **reuse the model** in **multiple places** and also to declare validations and metadata for all the parameters at once. 😎
 Note
 This is supported since FastAPI version `0.115.0`. 🤓
 ## Header Parameters with a Pydantic Model[¶](https://fastapi.tiangolo.com/tutorial/header-param-models/#header-parameters-with-a-pydantic-model)

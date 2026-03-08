@@ -1,4 +1,34 @@
 [ Skip to content ](https://fastapi.tiangolo.com/tutorial/path-params/#path-parameters)
+[ **FastAPI and friends** newsletter 🎉 ](https://fastapi.tiangolo.com/newsletter/)
+[ ![logo](https://fastapi.tiangolo.com/img/icon-white.svg) ](https://fastapi.tiangolo.com/ "FastAPI")
+FastAPI
+Path Parameters
+  * [ en - English ](https://fastapi.tiangolo.com/)
+  * [ de - Deutsch ](https://fastapi.tiangolo.com/de/)
+  * [ es - español ](https://fastapi.tiangolo.com/es/)
+  * [ fr - français ](https://fastapi.tiangolo.com/fr/)
+  * [ ja - 日本語 ](https://fastapi.tiangolo.com/ja/)
+  * [ ko - 한국어 ](https://fastapi.tiangolo.com/ko/)
+  * [ pt - português ](https://fastapi.tiangolo.com/pt/)
+  * [ ru - русский язык ](https://fastapi.tiangolo.com/ru/)
+  * [ tr - Türkçe ](https://fastapi.tiangolo.com/tr/)
+  * [ uk - українська мова ](https://fastapi.tiangolo.com/uk/)
+  * [ zh - 简体中文 ](https://fastapi.tiangolo.com/zh/)
+  * [ zh-hant - 繁體中文 ](https://fastapi.tiangolo.com/zh-hant/)
+
+
+[ ](https://fastapi.tiangolo.com/tutorial/path-params/?q= "Share")
+Type to start searching
+  * [ FastAPI ](https://fastapi.tiangolo.com/)
+  * [ Features ](https://fastapi.tiangolo.com/features/)
+  * [ Learn ](https://fastapi.tiangolo.com/learn/)
+  * [ Reference ](https://fastapi.tiangolo.com/reference/)
+  * [ FastAPI People ](https://fastapi.tiangolo.com/fastapi-people/)
+  * [ Resources ](https://fastapi.tiangolo.com/resources/)
+  * [ About ](https://fastapi.tiangolo.com/about/)
+  * [ Release Notes ](https://fastapi.tiangolo.com/release-notes/)
+
+
 [ ![logo](https://fastapi.tiangolo.com/img/icon-white.svg) ](https://fastapi.tiangolo.com/ "FastAPI") FastAPI
   * [ FastAPI  ](https://fastapi.tiangolo.com/)
   * [ Features  ](https://fastapi.tiangolo.com/features/)
@@ -27,7 +57,7 @@
             * [ Return _enumeration members_ ](https://fastapi.tiangolo.com/tutorial/path-params/#return-enumeration-members)
         * [ Path parameters containing paths  ](https://fastapi.tiangolo.com/tutorial/path-params/#path-parameters-containing-paths)
           * [ OpenAPI support  ](https://fastapi.tiangolo.com/tutorial/path-params/#openapi-support)
-          * [ Path convertor  ](https://fastapi.tiangolo.com/tutorial/path-params/#path-convertor)
+          * [ Path converter  ](https://fastapi.tiangolo.com/tutorial/path-params/#path-converter)
         * [ Recap  ](https://fastapi.tiangolo.com/tutorial/path-params/#recap)
       * [ Query Parameters  ](https://fastapi.tiangolo.com/tutorial/query-params/)
       * [ Request Body  ](https://fastapi.tiangolo.com/tutorial/body/)
@@ -189,7 +219,7 @@
       * [ Return _enumeration members_ ](https://fastapi.tiangolo.com/tutorial/path-params/#return-enumeration-members)
   * [ Path parameters containing paths  ](https://fastapi.tiangolo.com/tutorial/path-params/#path-parameters-containing-paths)
     * [ OpenAPI support  ](https://fastapi.tiangolo.com/tutorial/path-params/#openapi-support)
-    * [ Path convertor  ](https://fastapi.tiangolo.com/tutorial/path-params/#path-convertor)
+    * [ Path converter  ](https://fastapi.tiangolo.com/tutorial/path-params/#path-converter)
   * [ Recap  ](https://fastapi.tiangolo.com/tutorial/path-params/#recap)
 
 
@@ -513,7 +543,7 @@ So, the URL for that file would be something like: `/files/home/johndoe/myfile.t
 OpenAPI doesn't support a way to declare a _path parameter_ to contain a _path_ inside, as that could lead to scenarios that are difficult to test and define.
 Nevertheless, you can still do it in **FastAPI** , using one of the internal tools from Starlette.
 And the docs would still work, although not adding any documentation telling that the parameter should contain a path.
-### Path convertor[¶](https://fastapi.tiangolo.com/tutorial/path-params/#path-convertor)
+### Path converter[¶](https://fastapi.tiangolo.com/tutorial/path-params/#path-converter)
 Using an option directly from Starlette you can declare a _path parameter_ containing a _path_ using a URL like:
 ```
 /files/{file_path:path}
@@ -548,4 +578,8 @@ With **FastAPI** , by using short, intuitive and standard Python type declaratio
 
 And you only have to declare them once.
 That's probably the main visible advantage of **FastAPI** compared to alternative frameworks (apart from the raw performance).
+[ Previous  First Steps  ](https://fastapi.tiangolo.com/tutorial/first-steps/) [ Next  Query Parameters  ](https://fastapi.tiangolo.com/tutorial/query-params/)
+The FastAPI trademark is owned by [@tiangolo](https://tiangolo.com) and is registered in the US and across other regions
+Made with
+[ ](https://tiangolo.com "tiangolo.com")
   *[`Enum`]: Enumeration

@@ -1,0 +1,13 @@
+# Index of /museum/alfs-museum
+  * [ Parent Directory](https://www.linuxfromscratch.org/museum/)
+  * [ nALFS-1.1.8.tar.bz2](https://www.linuxfromscratch.org/museum/alfs-museum/nALFS-1.1.8.tar.bz2)
+  * [ nALFS-1.2.0.tar.bz2](https://www.linuxfromscratch.org/museum/alfs-museum/nALFS-1.2.0.tar.bz2)
+  * [ nALFS-1.2.1.tar.bz2](https://www.linuxfromscratch.org/museum/alfs-museum/nALFS-1.2.1.tar.bz2)
+  * [ nALFS-1.2.2.tar.bz2](https://www.linuxfromscratch.org/museum/alfs-museum/nALFS-1.2.2.tar.bz2)
+  * [ nALFS-1.2.3.tar.bz2](https://www.linuxfromscratch.org/museum/alfs-museum/nALFS-1.2.3.tar.bz2)
+  * [ profile-LFS-5.0-1.tar.bz2](https://www.linuxfromscratch.org/museum/alfs-museum/profile-LFS-5.0-1.tar.bz2)
+  * [ profile-LFS-5.0-2.tar.bz2](https://www.linuxfromscratch.org/museum/alfs-museum/profile-LFS-5.0-2.tar.bz2)
+  * [ profile-LFS-5.0-3.tar.bz2](https://www.linuxfromscratch.org/museum/alfs-museum/profile-LFS-5.0-3.tar.bz2)
+  * [ profile-LFS-5.0-pre2.tar.bz2](https://www.linuxfromscratch.org/museum/alfs-museum/profile-LFS-5.0-pre2.tar.bz2)
+  * [ profile-LFS-5.0-pre3.tar.bz2](https://www.linuxfromscratch.org/museum/alfs-museum/profile-LFS-5.0-pre3.tar.bz2)
+  * [ profile-LFS-5.0.tar.bz2](https://www.linuxfromscratch.org/museum/alfs-museum/profile-LFS-5.0.tar.bz2)

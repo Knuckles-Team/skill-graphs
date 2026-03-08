@@ -14,7 +14,7 @@ Krishna Mohan
 [ July 24, 2014 at 5:45 pm  ](https://www.tecmint.com/how-to-add-windows-host-to-nagios-monitoring-server/#comment-222700)
 Hi Ravi,
 I have a one question. i have installed nrpe client in one linux sever and have monitoring service and server in the host server..
-Now i need to install a new pulgin in client machine it is not available on the below mentioned location. an you please tell me the steps how to install a new pulgin in the client machine.
+Now i need to install a new plugin in client machine it is not available on the below mentioned location. an you please tell me the steps how to install a new plugin in the client machine.
 /usr/local/nagios/libexec in this location.
 Thanks in advance.
 [Reply](https://www.tecmint.com/how-to-add-windows-host-to-nagios-monitoring-server/#comment-222700)
@@ -26,7 +26,7 @@ This means your client plugin installation was unsuccessful. Please try to follo
        * ![](https://secure.gravatar.com/avatar/5c144b2289f3648378b6e17cee80f0a479b6e247c08087e626081a7fa07d6799?s=50&d=blank&r=g)
 Krishna Mohan
 [ July 28, 2014 at 11:32 am  ](https://www.tecmint.com/how-to-add-windows-host-to-nagios-monitoring-server/#comment-225838)
-Thanks for reply. I have installed client pulgin,it was installed successfully i am able to monitor .But i need to monitor a new service like file utilisation of the client in host. For that we dont have a perdefined plugin so i have download a plugin from the google.. how to install nee service plugin.
+Thanks for reply. I have installed client plugin,it was installed successfully i am able to monitor .But i need to monitor a new service like file utilisation of the client in host. For that we dont have a perdefined plugin so i have download a plugin from the google.. how to install nee service plugin.
 Thanks in advance.
 [Reply](https://www.tecmint.com/how-to-add-windows-host-to-nagios-monitoring-server/#comment-225838)
          * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
@@ -38,7 +38,7 @@ Why you need a additional plugin, just use default check_disk plugin to achieve 
 Vishal Wadkar
 [ July 18, 2014 at 12:12 pm  ](https://www.tecmint.com/how-to-add-windows-host-to-nagios-monitoring-server/#comment-217106)
 Hi,
-Ravi gr8 Artical but After installing nagios and opening web page I get below error when clicking any of the tab in homepage of nagios core
+Ravi gr8 Article but After installing nagios and opening web page I get below error when clicking any of the tab in homepage of nagios core
 Internal Server Error
 The server encountered an internal error or misconfiguration and was unable to complete your request.
 Please contact the server administrator, root@localhost and inform them of the time the error occurred, and anything you might have done that may have caused the error.
@@ -208,13 +208,13 @@ hung
 excuse me! please give me more details.
 where are the hosts file and the services.cfg?
 and how to add one more host
-thanks i really appriciate
+thanks i really appreciate
 [Reply](https://www.tecmint.com/how-to-add-windows-host-to-nagios-monitoring-server/#comment-112631)
   53. ![](https://secure.gravatar.com/avatar/25c4d36d7d155381576a0f7f770d5a67444d3450e02f24b58b6ba6c844252129?s=50&d=blank&r=g)
 Sarith
 [ December 13, 2013 at 7:56 pm  ](https://www.tecmint.com/how-to-add-windows-host-to-nagios-monitoring-server/#comment-84965)
 Hi ..
-After I downloaded NSCP-0.4.1.73-x64 and setup it require ip of nagios server and password but I don’t understand about pasword .What is password ? ANd I also get error : “NSClient – ERROR: Invalid password” . Can you help me ?
+After I downloaded NSCP-0.4.1.73-x64 and setup it require ip of nagios server and password but I don’t understand about password .What is password ? ANd I also get error : “NSClient – ERROR: Invalid password” . Can you help me ?
 Thanks
 Sarith
 [Reply](https://www.tecmint.com/how-to-add-windows-host-to-nagios-monitoring-server/#comment-84965)
@@ -239,10 +239,10 @@ uncomment the password in NSC.ini
 Freman
 [ November 26, 2013 at 11:56 am  ](https://www.tecmint.com/how-to-add-windows-host-to-nagios-monitoring-server/#comment-75678)
 Hi Ravi,
-Do you have any userful plugins to monitor windows hosts’ interfaces traffic for nagios?
+Do you have any useful plugins to monitor windows hosts’ interfaces traffic for nagios?
 I had used the check_traffic.sh tools , but it was not work well for me.
 I need the one can automatically discover the interfaces and monitor those.
-Any suggestion is appriciate for me.
+Any suggestion is appreciate for me.
 [Reply](https://www.tecmint.com/how-to-add-windows-host-to-nagios-monitoring-server/#comment-75678)
      * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
 Ravi Saive

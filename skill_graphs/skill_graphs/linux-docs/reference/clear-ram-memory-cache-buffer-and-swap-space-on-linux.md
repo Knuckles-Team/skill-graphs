@@ -165,7 +165,7 @@ Your support helps us keep creating quality Linux content for everyone.
 [How to Install Icinga2 Monitoring Tool on Ubuntu 20.04/22.04](https://www.tecmint.com/install-icinga-monitoring-ubuntu/)
 [4 Useful Tools to Monitor CPU and GPU Temperature in Ubuntu](https://www.tecmint.com/monitor-cpu-and-gpu-temperature-in-ubuntu/)
 [nload – Monitor Linux Network Bandwidth Usage in Real Time](https://www.tecmint.com/nload-monitor-linux-network-traffic-bandwidth-usage/)
-[Web VMStat: A Real Time System Statistics (Memory, CPU, Processess, etc) Monitoring Tool for Linux](https://www.tecmint.com/install-web-vmstat-in-linux/)
+[Web VMStat: A Real Time System Statistics (Memory, CPU, Processes, etc) Monitoring Tool for Linux](https://www.tecmint.com/install-web-vmstat-in-linux/)
 [Conky – A System Monitor Tool for Linux Desktop](https://www.tecmint.com/conky-system-monitor/)
 [Arpwatch – Monitor Ethernet Activity {IP and Mac Address} in Linux](https://www.tecmint.com/monitor-ethernet-activity-in-linux/)
 ## Learn Linux Tricks & Tips

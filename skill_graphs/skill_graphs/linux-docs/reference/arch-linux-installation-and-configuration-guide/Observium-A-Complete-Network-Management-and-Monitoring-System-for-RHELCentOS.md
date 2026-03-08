@@ -374,7 +374,7 @@ Should I configure snmp parameters(v1 or v2c) on Windows 7 snmp service or the p
   12. ![](https://secure.gravatar.com/avatar/23eca3ba40b322386ad943ee47a7d9aee877bf6633f3cdc827852761f8406f8f?s=50&d=blank&r=g)
 Mike
 [ December 4, 2014 at 11:19 pm  ](https://www.tecmint.com/install-observium-in-centos/#comment-393307)
-new instance of Observium running on Unbuntu 14.04. i add devices to /etc/hosts and save, go to the GUI and ad Device but it never finishes polling.
+new instance of Observium running on Ubuntu 14.04. i add devices to /etc/hosts and save, go to the GUI and ad Device but it never finishes polling.
 Thanks,
 Mike
 [Reply](https://www.tecmint.com/install-observium-in-centos/#comment-393307)
@@ -463,7 +463,7 @@ Again, the errors indicates that your remote host name is not resolved by the Ob
   17. ![](https://secure.gravatar.com/avatar/52ee551933e22d52844509d5b7d65d545913c2a62e427f71d9c585608406b035?s=50&d=blank&r=g)
 sriram
 [ July 8, 2014 at 6:41 pm  ](https://www.tecmint.com/install-observium-in-centos/#comment-209885)
-hi im very new to observium.. i have some doubts on if observium can manage with only manageable switches like cisco.. because i couldn’t find any host in my network.. im using 192.168.1.0 range of IP. i dont have manageable switch.. i confiugred observium i can logoin.. how to find other hosts in my network..
+hi im very new to observium.. i have some doubts on if observium can manage with only manageable switches like cisco.. because i couldn’t find any host in my network.. im using 192.168.1.0 range of IP. i dont have manageable switch.. i configured observium i can logoin.. how to find other hosts in my network..
 [Reply](https://www.tecmint.com/install-observium-in-centos/#comment-209885)
      * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
 Ravi Saive
@@ -528,11 +528,11 @@ but still getting same problem and iam working on vmplayer centos 6.5 machine wi
 [root@observium ~]# tail -f /var/log/messages
 Jul 3 03:12:55 observium kernel: br0: port 1(eth0) entering forwarding state
 Jul 3 03:12:57 observium polkitd[2255]: started daemon version 0.96 using authority implementat ion `local’ version `0.96′
-Jul 3 03:12:58 observium rtkit-daemon[2264]: Sucessfully made thread 2262 of process 2262 (/usr /bin/pulseaudio) owned by ’42’ high priority at nice level -11.
-Jul 3 03:12:58 observium pulseaudio[2262]: alsa-util.c: Disabling timer-based scheduling becaus e running inside a VM.
-Jul 3 03:12:58 observium rtkit-daemon[2264]: Sucessfully made thread 2270 of process 2262 (/usr /bin/pulseaudio) owned by ’42’ RT at priority 5.
-Jul 3 03:12:58 observium pulseaudio[2262]: alsa-util.c: Disabling timer-based scheduling becaus e running inside a VM.
-Jul 3 03:12:58 observium rtkit-daemon[2264]: Sucessfully made thread 2271 of process 2262 (/usr /bin/pulseaudio) owned by ’42’ RT at priority 5.
+Jul 3 03:12:58 observium rtkit-daemon[2264]: Successfully made thread 2262 of process 2262 (/usr /bin/pulseaudio) owned by ’42’ high priority at nice level -11.
+Jul 3 03:12:58 observium pulseaudio[2262]: alsa-util.c: Disabling timer-based scheduling because e running inside a VM.
+Jul 3 03:12:58 observium rtkit-daemon[2264]: Successfully made thread 2270 of process 2262 (/usr /bin/pulseaudio) owned by ’42’ RT at priority 5.
+Jul 3 03:12:58 observium pulseaudio[2262]: alsa-util.c: Disabling timer-based scheduling because e running inside a VM.
+Jul 3 03:12:58 observium rtkit-daemon[2264]: Successfully made thread 2271 of process 2262 (/usr /bin/pulseaudio) owned by ’42’ RT at priority 5.
 Jul 3 03:12:58 observium pulseaudio[2262]: alsa-source.c: ALSA woke us up to read new data from the device, but there was actually nothing to read!
 Jul 3 03:12:58 observium pulseaudio[2262]: alsa-source.c: Most likely this is a bug in the ALSA driver ‘snd_ens1371’. Please report this issue to the ALSA developers.
 Jul 3 03:12:58 observium pulseaudio[2262]: alsa-source.c: We were woken up with POLLIN set — h owever a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
@@ -662,7 +662,7 @@ Your support helps us keep creating quality Linux content for everyone.
 [How to Search and Remove Directories Recursively on Linux](https://www.tecmint.com/find-remove-directory-in-linux/)
 [How to Copy a File to Multiple Directories in Linux](https://www.tecmint.com/copy-file-to-multiple-directories-in-linux/)
 [How to Send a Message to Logged Users in Linux Terminal](https://www.tecmint.com/send-a-message-to-logged-users-in-linux-terminal/)
-[Ternimal – Show Animated Lifeform in Your Linux Terminal](https://www.tecmint.com/ternimal-show-animated-lifeform-in-linux-terminal/)
+[Terminal – Show Animated Lifeform in Your Linux Terminal](https://www.tecmint.com/ternimal-show-animated-lifeform-in-linux-terminal/)
 ## Best Linux Tools
 [5 Best Open Source Internet Radio Player for Linux](https://www.tecmint.com/internet-radio-player-linux/)
 [10 Best PDF Document Viewers for Linux Systems](https://www.tecmint.com/linux-pdf-viewers-and-readers-tools/)

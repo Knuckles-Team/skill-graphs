@@ -1,0 +1,6 @@
+# OPTIMIZED_EXTERNAL_IMAGE_REQUEST_INVALID
+Last updated February 9, 2026
+The `OPTIMIZED_EXTERNAL_IMAGE_REQUEST_INVALID` error occurs when the external image request is invalid.
+502
+OPTIMIZED_EXTERNAL_IMAGE_REQUEST_INVALID:
+Bad Gateway

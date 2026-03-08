@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_conformance_custom-rules_forbidden-properties](<./docs_conformance_custom-rules_forbidden-properties.md>)
+- [forbidden-properties](<./forbidden-properties.md>)
+  - [[When to use this rule type](https://vercel.com/docs/conformance/custom-rules/forbidden-properties#when-to-use-this-rule-type)[](https://vercel.com/docs/conformance/custom-rules/forbidden-properties#when-to-use-this-rule-type)](<./forbidden-properties/When-to-use-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-propertieswhen-to-use-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-propertieswhen-to-use-this-rule-type.md>)
+  - [[Configuring this rule type](https://vercel.com/docs/conformance/custom-rules/forbidden-properties#configuring-this-rule-type)[](https://vercel.com/docs/conformance/custom-rules/forbidden-properties#configuring-this-rule-type)](<./forbidden-properties/Configuring-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-propertiesconfiguring-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-propertiesconfiguring-this-rule-type.md>)
+  - [[Enabling this rule type](https://vercel.com/docs/conformance/custom-rules/forbidden-properties#enabling-this-rule-type)[](https://vercel.com/docs/conformance/custom-rules/forbidden-properties#enabling-this-rule-type)](<./forbidden-properties/Enabling-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-propertiesenabling-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-propertiesenabling-this-rule-type.md>)
+  - [Get Started](<./forbidden-properties/Get-Started.md>)
+  - [Build](<./forbidden-properties/Build.md>)
+  - [Scale](<./forbidden-properties/Scale.md>)
+  - [Secure](<./forbidden-properties/Secure.md>)
+  - [Resources](<./forbidden-properties/Resources.md>)
+  - [Learn](<./forbidden-properties/Learn.md>)
+  - [Frameworks](<./forbidden-properties/Frameworks.md>)
+  - [SDKs](<./forbidden-properties/SDKs.md>)
+  - [Use Cases](<./forbidden-properties/Use-Cases.md>)
+  - [Company](<./forbidden-properties/Company.md>)
+  - [Community](<./forbidden-properties/Community.md>)

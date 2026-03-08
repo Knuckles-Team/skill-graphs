@@ -16,7 +16,6 @@
 
 
 #####  Actions[](https://en.cppreference.com/w/c/numeric/complex.html)
-![ads via Carbon](https://ad.doubleclick.net/ddm/trackimp/N718679.452584BUYSELLADS.COM/B29332811.401293666;dc_trk_aid=593420487;dc_trk_cid=207494836;ord=177295381;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$;gdpr_consent=$;ltd=;dc_tdv=1)
 # Complex number arithmetic
 From cppreference.com
 < [c](https://en.cppreference.com/w/c.html "c")‎ | [numeric](https://en.cppreference.com/w/c/numeric.html "c/numeric")

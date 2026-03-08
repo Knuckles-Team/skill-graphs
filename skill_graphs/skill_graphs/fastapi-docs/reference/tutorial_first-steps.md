@@ -1,4 +1,34 @@
 [ Skip to content ](https://fastapi.tiangolo.com/tutorial/first-steps/#first-steps)
+[ **FastAPI and friends** newsletter 🎉 ](https://fastapi.tiangolo.com/newsletter/)
+[ ![logo](https://fastapi.tiangolo.com/img/icon-white.svg) ](https://fastapi.tiangolo.com/ "FastAPI")
+FastAPI
+First Steps
+  * [ en - English ](https://fastapi.tiangolo.com/)
+  * [ de - Deutsch ](https://fastapi.tiangolo.com/de/)
+  * [ es - español ](https://fastapi.tiangolo.com/es/)
+  * [ fr - français ](https://fastapi.tiangolo.com/fr/)
+  * [ ja - 日本語 ](https://fastapi.tiangolo.com/ja/)
+  * [ ko - 한국어 ](https://fastapi.tiangolo.com/ko/)
+  * [ pt - português ](https://fastapi.tiangolo.com/pt/)
+  * [ ru - русский язык ](https://fastapi.tiangolo.com/ru/)
+  * [ tr - Türkçe ](https://fastapi.tiangolo.com/tr/)
+  * [ uk - українська мова ](https://fastapi.tiangolo.com/uk/)
+  * [ zh - 简体中文 ](https://fastapi.tiangolo.com/zh/)
+  * [ zh-hant - 繁體中文 ](https://fastapi.tiangolo.com/zh-hant/)
+
+
+[ ](https://fastapi.tiangolo.com/tutorial/first-steps/?q= "Share")
+Type to start searching
+  * [ FastAPI ](https://fastapi.tiangolo.com/)
+  * [ Features ](https://fastapi.tiangolo.com/features/)
+  * [ Learn ](https://fastapi.tiangolo.com/learn/)
+  * [ Reference ](https://fastapi.tiangolo.com/reference/)
+  * [ FastAPI People ](https://fastapi.tiangolo.com/fastapi-people/)
+  * [ Resources ](https://fastapi.tiangolo.com/resources/)
+  * [ About ](https://fastapi.tiangolo.com/about/)
+  * [ Release Notes ](https://fastapi.tiangolo.com/release-notes/)
+
+
 [ ![logo](https://fastapi.tiangolo.com/img/icon-white.svg) ](https://fastapi.tiangolo.com/ "FastAPI") FastAPI
   * [ FastAPI  ](https://fastapi.tiangolo.com/)
   * [ Features  ](https://fastapi.tiangolo.com/features/)
@@ -610,3 +640,9 @@ Follow your cloud provider's guides to deploy FastAPI apps with them. 🤓
   * Define a **path operation function** ; for example, `def root(): ...`.
   * Run the development server using the command `fastapi dev`.
   * Optionally deploy your app with `fastapi deploy`.
+
+
+[ Previous  Tutorial - User Guide  ](https://fastapi.tiangolo.com/tutorial/) [ Next  Path Parameters  ](https://fastapi.tiangolo.com/tutorial/path-params/)
+The FastAPI trademark is owned by [@tiangolo](https://tiangolo.com) and is registered in the US and across other regions
+Made with
+[ ](https://tiangolo.com "tiangolo.com")

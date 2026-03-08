@@ -1,0 +1,15 @@
+# Table of Contents
+
+- [docs_vercel-toolbar_in-production-and-localhost_add-to-localhost](<./docs_vercel-toolbar_in-production-and-localhost_add-to-localhost.md>)
+- [Add the Vercel Toolbar to your local environment](<./Add-the-Vercel-Toolbar-to-your-local-environment.md>)
+  - [Get Started](<./Add-the-Vercel-Toolbar-to-your-local-environment/Get-Started.md>)
+  - [Build](<./Add-the-Vercel-Toolbar-to-your-local-environment/Build.md>)
+  - [Scale](<./Add-the-Vercel-Toolbar-to-your-local-environment/Scale.md>)
+  - [Secure](<./Add-the-Vercel-Toolbar-to-your-local-environment/Secure.md>)
+  - [Resources](<./Add-the-Vercel-Toolbar-to-your-local-environment/Resources.md>)
+  - [Learn](<./Add-the-Vercel-Toolbar-to-your-local-environment/Learn.md>)
+  - [Frameworks](<./Add-the-Vercel-Toolbar-to-your-local-environment/Frameworks.md>)
+  - [SDKs](<./Add-the-Vercel-Toolbar-to-your-local-environment/SDKs.md>)
+  - [Use Cases](<./Add-the-Vercel-Toolbar-to-your-local-environment/Use-Cases.md>)
+  - [Company](<./Add-the-Vercel-Toolbar-to-your-local-environment/Company.md>)
+  - [Community](<./Add-the-Vercel-Toolbar-to-your-local-environment/Community.md>)

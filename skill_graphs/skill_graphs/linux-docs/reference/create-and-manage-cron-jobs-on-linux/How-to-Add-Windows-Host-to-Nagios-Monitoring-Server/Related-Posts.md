@@ -162,7 +162,7 @@ How do i monitor Windows services running under a different user account.i.e not
   13. ![](https://secure.gravatar.com/avatar/e02ae670b8dac3db99929dab018a66108e460938b1778dce2ce9dfba4fba89f7?s=50&d=blank&r=g)
 Hussain
 [ January 30, 2017 at 2:33 pm  ](https://www.tecmint.com/how-to-add-windows-host-to-nagios-monitoring-server/#comment-863529)
-Hi Ravi, Thanks for your wonderful article. I have added windows host to Linux monitoring server but I have got critcal – Socket timeout in Nagios. What would be the issue? If I try to verify configuration.
+Hi Ravi, Thanks for your wonderful article. I have added windows host to Linux monitoring server but I have got critical – Socket timeout in Nagios. What would be the issue? If I try to verify configuration.
 ===============================================
 [root@hostingdbsrv1 ~]# /usr/lib64/nagios/plugins/check_nrpe -H 192.168.216.4
 CHECK_NRPE: Socket timeout after 10 seconds.
@@ -396,7 +396,7 @@ Jonus Joseph
 [ December 31, 2014 at 3:35 pm  ](https://www.tecmint.com/how-to-add-windows-host-to-nagios-monitoring-server/#comment-439064)
 Hello Ravi,
 I got the solution for this issue on same day
-we need to increase the timout value in check_nt. command,
+we need to increase the timeout value in check_nt. command,
 I have done the same and issue is resolved now.
 -Jonus Joseph
 [Reply](https://www.tecmint.com/how-to-add-windows-host-to-nagios-monitoring-server/#comment-439064)
@@ -544,7 +544,7 @@ When I added windows host to Nagios, it work. But it doesn’t check process suc
 Ravi Saive
 [ November 10, 2014 at 4:50 pm  ](https://www.tecmint.com/how-to-add-windows-host-to-nagios-monitoring-server/#comment-366024)
 @Sophearak,
-Please check the instructions correctly, as we alredy included the steps to monitor cpu and memory in the article..
+Please check the instructions correctly, as we already included the steps to monitor cpu and memory in the article..
 [Reply](https://www.tecmint.com/how-to-add-windows-host-to-nagios-monitoring-server/#comment-366024)
   37. ![](https://secure.gravatar.com/avatar/953b0df1ee4af9eb68d6d4642e416bafe8c00922490958dd49c17ec2fe8c12d0?s=50&d=blank&r=g)
 Amit

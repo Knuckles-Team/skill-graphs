@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_vercel-toolbar_browser-extension](<./docs_vercel-toolbar_browser-extension.md>)
+- [Toolbar Browser Extensions](<./Toolbar-Browser-Extensions.md>)
+  - [[Installing the browser extension](https://vercel.com/docs/vercel-toolbar/browser-extension#installing-the-browser-extension)[](https://vercel.com/docs/vercel-toolbar/browser-extension#installing-the-browser-extension)](<./Toolbar-Browser-Extensions/Installing-the-browser-extensionhttpsvercel.comdocsvercel-toolbarbrowser-extensioninstalling-the-browser-extensionhttpsvercel.comdocsvercel-toolbarbrowser-extensioninstalling-the-browser-extension.md>)
+  - [[Setting user preferences](https://vercel.com/docs/vercel-toolbar/browser-extension#setting-user-preferences)[](https://vercel.com/docs/vercel-toolbar/browser-extension#setting-user-preferences)](<./Toolbar-Browser-Extensions/Setting-user-preferenceshttpsvercel.comdocsvercel-toolbarbrowser-extensionsetting-user-preferenceshttpsvercel.comdocsvercel-toolbarbrowser-extensionsetting-user-preferences.md>)
+  - [[Taking screenshots with the extension](https://vercel.com/docs/vercel-toolbar/browser-extension#taking-screenshots-with-the-extension)[](https://vercel.com/docs/vercel-toolbar/browser-extension#taking-screenshots-with-the-extension)](<./Toolbar-Browser-Extensions/Taking-screenshots-with-the-extensionhttpsvercel.comdocsvercel-toolbarbrowser-extensiontaking-screenshots-with-the-extensionhttpsvercel.comdocsvercel-toolbarbrowser-extensiontaking-screenshots-with-the-extension.md>)
+  - [Get Started](<./Toolbar-Browser-Extensions/Get-Started.md>)
+  - [Build](<./Toolbar-Browser-Extensions/Build.md>)
+  - [Scale](<./Toolbar-Browser-Extensions/Scale.md>)
+  - [Secure](<./Toolbar-Browser-Extensions/Secure.md>)
+  - [Resources](<./Toolbar-Browser-Extensions/Resources.md>)
+  - [Learn](<./Toolbar-Browser-Extensions/Learn.md>)
+  - [Frameworks](<./Toolbar-Browser-Extensions/Frameworks.md>)
+  - [SDKs](<./Toolbar-Browser-Extensions/SDKs.md>)
+  - [Use Cases](<./Toolbar-Browser-Extensions/Use-Cases.md>)
+  - [Company](<./Toolbar-Browser-Extensions/Company.md>)
+  - [Community](<./Toolbar-Browser-Extensions/Community.md>)

@@ -1,0 +1,2 @@
+# Linux Kernel Hackers' Guide
+Due to the fact that nearly every post to this site recently has been either by rude cracker-wannabes asking how to break into other people's systems or a request for basic technical support, posting to the KHG has been disabled, probably permanently. For now, you can read old posts, but you cannot send replies. In any case, there are now far better resources available.

@@ -322,7 +322,7 @@ centosuser
 [ December 12, 2014 at 8:43 pm  ](https://www.tecmint.com/linux-performance-monitoring-tools/#comment-409744)
 Again a great article !!
 Thanks,
-Also I am looking forward for an article related with some specific Opensource tools/softwares to analyse Apache Error and Access logs
+Also I am looking forward for an article related with some specific Opensource tools/software to analyse Apache Error and Access logs
 More better will be to know a Open Source tool to analyse MySQL logs in realtime i.e. If someone have Webfrontend based on a Customer Java program but uses MySQL for most of the operations then a tool which can show which MySQL query was executed during an operation performed by the end user
 [Reply](https://www.tecmint.com/linux-performance-monitoring-tools/#comment-409744)
      * ![](https://secure.gravatar.com/avatar/536067b1af87bfce239226886b66665e9d2d88757a0ed5c96a6e29ed3f84e792?s=50&d=blank&r=g)
@@ -339,7 +339,7 @@ How about monitoring tool for SAMBA, GUI to know who touch or edit the file in f
 Ravi Saive
 [ December 10, 2014 at 1:33 pm  ](https://www.tecmint.com/linux-performance-monitoring-tools/#comment-403172)
 @Bienlac,
-Do you have any monitoring tool for samba in your mind? Please tell us so that we can write a detailed artilce on the requested topic..
+Do you have any monitoring tool for samba in your mind? Please tell us so that we can write a detailed article on the requested topic..
 [Reply](https://www.tecmint.com/linux-performance-monitoring-tools/#comment-403172)
   6. ![](https://secure.gravatar.com/avatar/0989a354df590913c9564f00bed2e0c332a209488731919957f53aaeafb25b71?s=50&d=blank&r=g)
 marykaichini

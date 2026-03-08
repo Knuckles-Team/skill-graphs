@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [docs_getting-started-with-vercel](<./docs_getting-started-with-vercel.md>)
+- [Getting started with Vercel](<./Getting-started-with-Vercel.md>)
+  - [[Before you begin](https://vercel.com/docs/getting-started-with-vercel#before-you-begin)[](https://vercel.com/docs/getting-started-with-vercel#before-you-begin)](<./Getting-started-with-Vercel/Before-you-beginhttpsvercel.comdocsgetting-started-with-vercelbefore-you-beginhttpsvercel.comdocsgetting-started-with-vercelbefore-you-begin.md>)
+  - [[Customizing your journey](https://vercel.com/docs/getting-started-with-vercel#customizing-your-journey)[](https://vercel.com/docs/getting-started-with-vercel#customizing-your-journey)](<./Getting-started-with-Vercel/Customizing-your-journeyhttpsvercel.comdocsgetting-started-with-vercelcustomizing-your-journeyhttpsvercel.comdocsgetting-started-with-vercelcustomizing-your-journey.md>)
+  - [Get Started](<./Getting-started-with-Vercel/Get-Started.md>)
+  - [Build](<./Getting-started-with-Vercel/Build.md>)
+  - [Scale](<./Getting-started-with-Vercel/Scale.md>)
+  - [Secure](<./Getting-started-with-Vercel/Secure.md>)
+  - [Resources](<./Getting-started-with-Vercel/Resources.md>)
+  - [Learn](<./Getting-started-with-Vercel/Learn.md>)
+  - [Frameworks](<./Getting-started-with-Vercel/Frameworks.md>)
+  - [SDKs](<./Getting-started-with-Vercel/SDKs.md>)
+  - [Use Cases](<./Getting-started-with-Vercel/Use-Cases.md>)
+  - [Company](<./Getting-started-with-Vercel/Company.md>)
+  - [Community](<./Getting-started-with-Vercel/Community.md>)

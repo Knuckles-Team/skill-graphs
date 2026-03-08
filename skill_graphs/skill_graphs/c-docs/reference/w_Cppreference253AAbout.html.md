@@ -17,7 +17,6 @@ You can view its source \[e\]")
 
 
 #####  Actions[](https://en.cppreference.com/w/Cppreference%253AAbout.html)
-![ads via Carbon](https://ad.doubleclick.net/ddm/trackimp/N718679.452584BUYSELLADS.COM/B29332811.421611897;dc_trk_aid=613858979;dc_trk_cid=235700574;ord=177295378;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$;gdpr_consent=$;ltd=;dc_tdv=1)
 # Frequently asked questions
 From cppreference.com
 [C++](https://en.cppreference.com/w/cpp.html "cpp")

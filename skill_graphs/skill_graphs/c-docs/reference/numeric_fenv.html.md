@@ -16,6 +16,7 @@
 
 
 #####  Actions[](https://en.cppreference.com/w/c/numeric/fenv.html)
+![ads via Carbon](https://ad.double-click.net/ddm/trackimp/N718679.452584BUYSELLADS.COM/B29332811.401293654;dc_trk_aid=593420481;dc_trk_cid=207494836;ord=177299884;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$;gdpr_consent=$;ltd=;dc_tdv=1)
 # Floating-point environment
 From cppreference.com
 < [c](https://en.cppreference.com/w/c.html "c")‎ | [numeric](https://en.cppreference.com/w/c/numeric.html "c/numeric")

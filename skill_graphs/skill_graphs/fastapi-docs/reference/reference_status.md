@@ -1,4 +1,34 @@
 [ Skip to content ](https://fastapi.tiangolo.com/reference/status/#status-codes)
+[ **FastAPI and friends** newsletter 🎉 ](https://fastapi.tiangolo.com/newsletter/)
+[ ![logo](https://fastapi.tiangolo.com/img/icon-white.svg) ](https://fastapi.tiangolo.com/ "FastAPI")
+FastAPI
+Status Codes
+  * [ en - English ](https://fastapi.tiangolo.com/)
+  * [ de - Deutsch ](https://fastapi.tiangolo.com/de/)
+  * [ es - español ](https://fastapi.tiangolo.com/es/)
+  * [ fr - français ](https://fastapi.tiangolo.com/fr/)
+  * [ ja - 日本語 ](https://fastapi.tiangolo.com/ja/)
+  * [ ko - 한국어 ](https://fastapi.tiangolo.com/ko/)
+  * [ pt - português ](https://fastapi.tiangolo.com/pt/)
+  * [ ru - русский язык ](https://fastapi.tiangolo.com/ru/)
+  * [ tr - Türkçe ](https://fastapi.tiangolo.com/tr/)
+  * [ uk - українська мова ](https://fastapi.tiangolo.com/uk/)
+  * [ zh - 简体中文 ](https://fastapi.tiangolo.com/zh/)
+  * [ zh-hant - 繁體中文 ](https://fastapi.tiangolo.com/zh-hant/)
+
+
+[ ](https://fastapi.tiangolo.com/reference/status/?q= "Share")
+Type to start searching
+  * [ FastAPI ](https://fastapi.tiangolo.com/)
+  * [ Features ](https://fastapi.tiangolo.com/features/)
+  * [ Learn ](https://fastapi.tiangolo.com/learn/)
+  * [ Reference ](https://fastapi.tiangolo.com/reference/)
+  * [ FastAPI People ](https://fastapi.tiangolo.com/fastapi-people/)
+  * [ Resources ](https://fastapi.tiangolo.com/resources/)
+  * [ About ](https://fastapi.tiangolo.com/about/)
+  * [ Release Notes ](https://fastapi.tiangolo.com/release-notes/)
+
+
 [ ![logo](https://fastapi.tiangolo.com/img/icon-white.svg) ](https://fastapi.tiangolo.com/ "FastAPI") FastAPI
   * [ FastAPI  ](https://fastapi.tiangolo.com/)
   * [ Features  ](https://fastapi.tiangolo.com/features/)
@@ -260,31 +290,31 @@
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_308_PERMANENT_REDIRECT)
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_400_BAD_REQUEST)
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_401_UNAUTHORIZED)
-    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_402_PAYMENT_REQUIRED " HTTP_402_PAYMENT_REQUIRED")
+    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_402_PAYMENT_REQUIRED)
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_403_FORBIDDEN)
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_404_NOT_FOUND)
-    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_405_METHOD_NOT_ALLOWED " HTTP_405_METHOD_NOT_ALLOWED")
+    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_405_METHOD_NOT_ALLOWED)
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_406_NOT_ACCEPTABLE)
-    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_407_PROXY_AUTHENTICATION_REQUIRED " HTTP_407_PROXY_AUTHENTICATION_REQUIRED")
-    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_408_REQUEST_TIMEOUT " HTTP_408_REQUEST_TIMEOUT")
+    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_407_PROXY_AUTHENTICATION_REQUIRED)
+    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_408_REQUEST_TIMEOUT)
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_409_CONFLICT)
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_410_GONE)
-    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_411_LENGTH_REQUIRED " HTTP_411_LENGTH_REQUIRED")
+    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_411_LENGTH_REQUIRED)
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_412_PRECONDITION_FAILED)
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_413_CONTENT_TOO_LARGE)
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_414_URI_TOO_LONG)
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_415_UNSUPPORTED_MEDIA_TYPE)
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_416_RANGE_NOT_SATISFIABLE)
-    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_417_EXPECTATION_FAILED)
+    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_417_EXPECTATION_FAILED " HTTP_417_EXPECTATION_FAILED")
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_418_IM_A_TEAPOT)
-    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_421_MISDIRECTED_REQUEST)
-    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_422_UNPROCESSABLE_CONTENT)
+    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_421_MISDIRECTED_REQUEST " HTTP_421_MISDIRECTED_REQUEST")
+    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_422_UNPROCESSABLE_CONTENT " HTTP_422_UNPROCESSABLE_CONTENT")
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_423_LOCKED)
-    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_424_FAILED_DEPENDENCY)
+    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_424_FAILED_DEPENDENCY " HTTP_424_FAILED_DEPENDENCY")
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_425_TOO_EARLY)
-    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_426_UPGRADE_REQUIRED)
-    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_428_PRECONDITION_REQUIRED)
-    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_429_TOO_MANY_REQUESTS)
+    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_426_UPGRADE_REQUIRED " HTTP_426_UPGRADE_REQUIRED")
+    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_428_PRECONDITION_REQUIRED " HTTP_428_PRECONDITION_REQUIRED")
+    * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_429_TOO_MANY_REQUESTS " HTTP_429_TOO_MANY_REQUESTS")
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE " HTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE")
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS " HTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS")
     * [ ](https://fastapi.tiangolo.com/reference/status/#fastapi.status.HTTP_500_INTERNAL_SERVER_ERROR " HTTP_500_INTERNAL_SERVER_ERROR")
@@ -820,3 +850,8 @@ WS_1014_BAD_GATEWAY = 1014
 WS_1015_TLS_HANDSHAKE = 1015
 
 ```
+
+[ Previous  Request Parameters  ](https://fastapi.tiangolo.com/reference/parameters/) [ Next  UploadFile class  ](https://fastapi.tiangolo.com/reference/uploadfile/)
+The FastAPI trademark is owned by [@tiangolo](https://tiangolo.com) and is registered in the US and across other regions
+Made with
+[ ](https://tiangolo.com "tiangolo.com")

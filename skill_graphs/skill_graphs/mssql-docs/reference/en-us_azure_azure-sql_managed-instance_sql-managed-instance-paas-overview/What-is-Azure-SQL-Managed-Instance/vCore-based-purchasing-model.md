@@ -1,0 +1,11 @@
+## vCore-based purchasing model
+The [vCore-based purchasing model](https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/service-tiers-managed-instance-vcore?view=azuresql) for SQL Managed Instance gives you flexibility, control, transparency, and a straightforward way to translate on-premises workload requirements to the cloud. This model allows you to change compute, memory, and storage based upon your workload needs. The vCore model is also eligible for savings with the [Azure Hybrid Benefit](https://azure.microsoft.com/pricing/hybrid-benefit/) for SQL Server.
+In the vCore model, you can choose hardware configurations as follows:
+  * **Standard Series (Gen5)** logical CPUs are based on Intel® E5-2673 v4 (Broadwell) 2.3 GHz, Intel® SP-8160 (Skylake), and Intel® 8272CL (Cascade Lake) 2.5-GHz processors, with **5.1 GB of RAM per CPU vCore** , fast NVMe SSD, hyper-threaded logical core, and compute sizes between 4 and 80 cores.
+  * **Premium Series** logical CPUs are based on Intel® 8370C (Ice Lake) 2.8-GHz processors, with **7 GB of RAM per CPU vCore** (up to 128 vCores), fast NVMe SSD, hyper-threaded logical core, and compute sizes between 4 and 128 cores.
+  * **Premium Series Memory-Optimized** logical CPUs are based on Intel® 8370C (Ice Lake) 2.8-GHz processors, with **13.6 GB of RAM per CPU vCore** (up to 64 vCores), fast NVMe SSD, hyper-threaded logical core, and compute sizes between 4 and 64 cores.
+
+
+Additionally, with the [Next-gen General Purpose service tier](https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/service-tiers-next-gen-general-purpose-use?view=azuresql), you can choose the amount of memory to allocate to your instance when you use the [flexible memory](https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/resource-limits?view=azuresql#flexible-memory) feature.
+Find more information about the difference between hardware configurations in [SQL Managed Instance resource limits](https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/resource-limits?view=azuresql#hardware-configuration-characteristics).
+[](https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql#service-tiers)

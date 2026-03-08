@@ -231,7 +231,7 @@ For example, to install Uvicorn:
 pip install "uvicorn[standard]"
 
 pip install "uvicorn[standard]"
-██████████████████████████████████ 85%
+████████████████████████████████████ 90%
 
 
 ```

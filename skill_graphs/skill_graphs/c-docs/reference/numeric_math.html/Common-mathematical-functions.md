@@ -230,7 +230,7 @@ Error handling
 Fast operation indicators
 |  [FP_FAST_FMAFFP_FAST_FMA](https://en.cppreference.com/w/c/numeric/math/fma.html "c/numeric/math/fma") (C99)(C99)
 ---
-[FP_FAST_FADDFP_FAST_FADDLFP_FAST_DADDLFP_FAST_D _M_ ADDD _N_](https://en.cppreference.com/mwiki/index.php?title=c/numeric/math/fadd&action=edit&redlink=1 "c/numeric/math/fadd \(page does not exist\)") (C23)(C23)(C23)(C23)
+[FP_FAST_FADDFP_FAST_FADDLFP_FAST_DADDLFP_FAST_D _M_ ADD _N_](https://en.cppreference.com/mwiki/index.php?title=c/numeric/math/fadd&action=edit&redlink=1 "c/numeric/math/fadd \(page does not exist\)") (C23)(C23)(C23)(C23)
 [FP_FAST_FMULFP_FAST_FMULLFP_FAST_DMULLFP_FAST_D _M_ MULD _N_](https://en.cppreference.com/mwiki/index.php?title=c/numeric/math/fmul&action=edit&redlink=1 "c/numeric/math/fmul \(page does not exist\)") (C23)(C23)(C23)(C23)
 [FP_FAST_FFMAFP_FAST_FFMALFP_FAST_DFMALFP_FAST_D _M_ FMAD _N_](https://en.cppreference.com/mwiki/index.php?title=c/numeric/math/ffma&action=edit&redlink=1 "c/numeric/math/ffma \(page does not exist\)") (C23)(C23)(C23)(C23)
 |  [FP_FAST_FMALFP_FAST_FMAD _N_](https://en.cppreference.com/w/c/numeric/math/fma.html "c/numeric/math/fma") (C99)(C23)

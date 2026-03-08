@@ -1,0 +1,2 @@
+## Why This Error Occurred[](https://nextjs.org/docs/messages/no-before-interactive-script-outside-document#why-this-error-occurred)
+You cannot use the `next/script` component with the `beforeInteractive` strategy outside `app/layout.jsx` or `pages/_document.js`. That's because `beforeInteractive` strategy only works inside **`app/layout.jsx`**or**`pages/_document.js`**and is designed to load scripts that are needed by the entire site (i.e. the script will load when any page in the application has been loaded server-side).

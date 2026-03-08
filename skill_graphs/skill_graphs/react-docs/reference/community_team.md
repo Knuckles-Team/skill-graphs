@@ -31,47 +31,47 @@ Current members of the React team are listed in alphabetical order below.
 ### Andrew Clark[](https://react.dev/community/team#andrew-clark "Link for Andrew Clark")
 Engineer at Vercel
 Andrew got started with web development by making sites with WordPress, and eventually tricked himself into doing JavaScript. His favorite pastime is karaoke. Andrew is either a Disney villain or a Disney princess, depending on the day.
-![Dan Abramov](https://react.dev/community/team)
+![Dan Abramov](https://react.dev/_next/image?url=%2Fimages%2Fteam%2Fgaearon.jpg&w=3840&q=75)
 ![Dan Abramov](https://react.dev/community/team)
 ### Dan Abramov[](https://react.dev/community/team#dan-abramov "Link for Dan Abramov")
 Independent Engineer
 Dan got into programming after he accidentally discovered Visual Basic inside Microsoft PowerPoint. He has found his true calling in turning [Sebastian](https://react.dev/community/team#sebastian-markb%C3%A5ge)’s tweets into long-form blog posts. Dan occasionally wins at Fortnite by hiding in a bush until the game ends.
-![Eli White](https://react.dev/community/team)
+![Eli White](https://react.dev/_next/image?url=%2Fimages%2Fteam%2Feli-white.jpg&w=3840&q=75)
 ![Eli White](https://react.dev/community/team)
 ### Eli White[](https://react.dev/community/team#eli-white "Link for Eli White")
 Engineering Manager at Meta
 Eli got into programming after he got suspended from middle school for hacking. He has been working on React and React Native since 2017. He enjoys eating treats, especially ice cream and apple pie. You can find Eli trying quirky activities like parkour, indoor skydiving, and aerial silks.
-![Hendrik Liebau](https://react.dev/community/team)
+![Hendrik Liebau](https://react.dev/_next/image?url=%2Fimages%2Fteam%2Fhendrik.jpg&w=3840&q=75)
 ![Hendrik Liebau](https://react.dev/community/team)
 ### Hendrik Liebau[](https://react.dev/community/team#hendrik-liebau "Link for Hendrik Liebau")
 Engineer at Vercel
 Hendrik’s journey in tech started in the late 90s when he built his first websites with Netscape Communicator. After earning a diploma in computer science and working at digital agencies, he built a React Server Components bundler and library, paving the way to his role on the Next.js team. Outside of work, he enjoys cycling and tinkering in his workshop.
-![Jack Pope](https://react.dev/_next/image?url=%2Fimages%2Fteam%2Fjack-pope.jpg&w=3840&q=75)
+![Jack Pope](https://react.dev/community/team)
 ![Jack Pope](https://react.dev/community/team)
 ### Jack Pope[](https://react.dev/community/team#jack-pope "Link for Jack Pope")
 Engineer at Meta
 Shortly after being introduced to AutoHotkey, Jack had written scripts to automate everything he could think of. When reaching limitations there, he dove headfirst into web app development and hasn’t looked back. Most recently, Jack worked on the web platform at Instagram before moving to React. His favorite programming language is JSX.
-![Jason Bonta](https://react.dev/_next/image?url=%2Fimages%2Fteam%2Fjasonbonta.jpg&w=3840&q=75)
+![Jason Bonta](https://react.dev/community/team)
 ![Jason Bonta](https://react.dev/community/team)
 ### Jason Bonta[](https://react.dev/community/team#jason-bonta "Link for Jason Bonta")
 Engineering Manager at Meta
 Jason abandoned embedded C for a career in front-end engineering and never looked back. Armed with esoteric CSS knowledge and a passion for beautiful UI, Jason joined Facebook in 2010, where he now feels privileged to have seen JavaScript development come of age. Though he may not understand how `for...of` loops work, he loves getting to work with brilliant people on projects that enable amazing UX.
-![Joe Savona](https://react.dev/_next/image?url=%2Fimages%2Fteam%2Fjoe.jpg&w=3840&q=75)
+![Joe Savona](https://react.dev/community/team)
 ![Joe Savona](https://react.dev/community/team)
 ### Joe Savona[](https://react.dev/community/team#joe-savona "Link for Joe Savona")
 Engineer at Meta
 Joe was planning to major in math and philosophy but got into computer science after writing physics simulations in Matlab. Prior to React, he worked on Relay, RSocket.js, and the Skip programming language. While he’s not building some sort of reactive system he enjoys running, studying Japanese, and spending time with his family.
-![Jordan Brown](https://react.dev/_next/image?url=%2Fimages%2Fteam%2Fjordan.jpg&w=3840&q=75)
+![Jordan Brown](https://react.dev/community/team)
 ![Jordan Brown](https://react.dev/community/team)
 ### Jordan Brown[](https://react.dev/community/team#jordan-brown "Link for Jordan Brown")
 Engineer at Meta
 Jordan started coding by building iPhone apps, where he was pushing and popping view controllers before he knew that for-loops were a thing. He enjoys working on technology that developers love, which naturally drew him to React. Outside of work he enjoys reading, kiteboarding, and playing guitar.
-![Josh Story](https://react.dev/_next/image?url=%2Fimages%2Fteam%2Fjosh.jpg&w=3840&q=75)
+![Josh Story](https://react.dev/community/team)
 ![Josh Story](https://react.dev/community/team)
 ### Josh Story[](https://react.dev/community/team#josh-story "Link for Josh Story")
 Engineer at Vercel
 Josh majored in Mathematics and discovered programming while in college. His first professional developer job was to program insurance rate calculations in Microsoft Excel, the paragon of Reactive Programming which must be why he now works on React. In between that time Josh has been an IC, Manager, and Executive at a few startups. outside of work he likes to push his limits with cooking.
-![Lauren Tan](https://react.dev/_next/image?url=%2Fimages%2Fteam%2Flauren.jpg&w=3840&q=75)
+![Lauren Tan](https://react.dev/community/team)
 ![Lauren Tan](https://react.dev/community/team)
 ### Lauren Tan[](https://react.dev/community/team#lauren-tan "Link for Lauren Tan")
 Engineer at Meta

@@ -1,5 +1,5 @@
 [ Skip to content ](https://docs.pydantic.dev/latest/integrations/datamodel_code_generator/#code-generation-with-datamodel-code-generator)
-What's new — we've launched [Pydantic Logfire](https://pydantic.dev/articles/logfire-announcement) ![🔥](https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f525.svg) to help you monitor and understand your [FastAPI app.](https://logfire.pydantic.dev/docs/integrations/fastapi/)
+What's new — we've launched [Pydantic Logfire](https://pydantic.dev/articles/logfire-announcement) ![🔥](https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f525.svg) to help you monitor and understand your [Pydantic validati](https://logfire.pydantic.dev/docs/integrations/pydantic/)
 [ ![logo](https://docs.pydantic.dev/latest/logo-white.svg) ](https://docs.pydantic.dev/latest/ "Pydantic Validation")
 Pydantic Validation
 2.12

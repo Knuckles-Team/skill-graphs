@@ -141,7 +141,7 @@ The iptraf interactive screen displays a menu system with different options to c
 #### Check IP Traffic in Linux
 ![Linux IP Traffic Monitor](https://www.tecmint.com/wp-content/uploads/2013/02/Linux-IP-Traffic-Monitor.png)Linux IP Traffic Monitor
 #### General Interface Statistics
-![Linux Network Inerface Statistics](https://www.tecmint.com/wp-content/uploads/2013/02/Linux-Network-Inerface-Statistics.png)Linux Network Interface Statistics
+![Linux Network Interface Statistics](https://www.tecmint.com/wp-content/uploads/2013/02/Linux-Network-Interface-Statistics.png)Linux Network Interface Statistics
 #### Detailed Interface Statistics
 ![Linux Monitor Network Statistics](https://www.tecmint.com/wp-content/uploads/2013/02/Linux-Monitor-Network-Statistics.png)Linux Monitor Network Statistics
 #### Statistical Breakdowns

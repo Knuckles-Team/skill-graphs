@@ -1,0 +1,16 @@
+# Table of Contents
+
+- [guides_upgrading_version-15](<./guides_upgrading_version-15.md>)
+- [How to upgrade to version 15](<./How-to-upgrade-to-version-15.md>)
+  - [Upgrading from 14 to 15[](https://nextjs.org/docs/app/guides/upgrading/version-15#upgrading-from-14-to-15)](<./How-to-upgrade-to-version-15/Upgrading-from-14-to-15httpsnextjs.orgdocsappguidesupgradingversion-15upgrading-from-14-to-15.md>)
+  - [React 19[](https://nextjs.org/docs/app/guides/upgrading/version-15#react-19)](<./How-to-upgrade-to-version-15/React-19httpsnextjs.orgdocsappguidesupgradingversion-15react-19.md>)
+  - [Async Request APIs (Breaking change)[](https://nextjs.org/docs/app/guides/upgrading/version-15#async-request-apis-breaking-change)](<./How-to-upgrade-to-version-15/Async-Request-APIs-Breaking-changehttpsnextjs.orgdocsappguidesupgradingversion-15async-request-apis-breaking-change.md>)
+  - [`runtime` configuration (Breaking change)[](https://nextjs.org/docs/app/guides/upgrading/version-15#runtime-configuration-breaking-change)](<./How-to-upgrade-to-version-15/runtime-configuration-Breaking-changehttpsnextjs.orgdocsappguidesupgradingversion-15runtime-configuration-breaking-change.md>)
+  - [`fetch` requests[](https://nextjs.org/docs/app/guides/upgrading/version-15#fetch-requests)](<./How-to-upgrade-to-version-15/fetch-requestshttpsnextjs.orgdocsappguidesupgradingversion-15fetch-requests.md>)
+  - [Route Handlers[](https://nextjs.org/docs/app/guides/upgrading/version-15#route-handlers-1)](<./How-to-upgrade-to-version-15/Route-Handlershttpsnextjs.orgdocsappguidesupgradingversion-15route-handlers-1.md>)
+  - [Client-side Router Cache[](https://nextjs.org/docs/app/guides/upgrading/version-15#client-side-router-cache)](<./How-to-upgrade-to-version-15/Client-side-Router-Cachehttpsnextjs.orgdocsappguidesupgradingversion-15client-side-router-cache.md>)
+  - [`next/font`[](https://nextjs.org/docs/app/guides/upgrading/version-15#nextfont)](<./How-to-upgrade-to-version-15/nextfonthttpsnextjs.orgdocsappguidesupgradingversion-15nextfont.md>)
+  - [bundlePagesRouterDependencies[](https://nextjs.org/docs/app/guides/upgrading/version-15#bundlepagesrouterdependencies)](<./How-to-upgrade-to-version-15/bundlePagesRouterDependencieshttpsnextjs.orgdocsappguidesupgradingversion-15bundlepagesrouterdependencies.md>)
+  - [serverExternalPackages[](https://nextjs.org/docs/app/guides/upgrading/version-15#serverexternalpackages)](<./How-to-upgrade-to-version-15/serverExternalPackageshttpsnextjs.orgdocsappguidesupgradingversion-15serverexternalpackages.md>)
+  - [Speed Insights[](https://nextjs.org/docs/app/guides/upgrading/version-15#speed-insights)](<./How-to-upgrade-to-version-15/Speed-Insightshttpsnextjs.orgdocsappguidesupgradingversion-15speed-insights.md>)
+  - [`NextRequest` Geolocation[](https://nextjs.org/docs/app/guides/upgrading/version-15#nextrequest-geolocation)](<./How-to-upgrade-to-version-15/NextRequest-Geolocationhttpsnextjs.orgdocsappguidesupgradingversion-15nextrequest-geolocation.md>)

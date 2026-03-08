@@ -1,0 +1,40 @@
+## Components and concepts
+[](https://learn.microsoft.com/en-us/sql/relational-databases/statistics/statistics?view=sql-server-ver17#statistics-1)
+### Statistics
+Statistics for query optimization are binary large objects (BLOBs) that contain statistical information about the distribution of values in one or more columns of a table or indexed view. The Query Optimizer uses these statistics to estimate the _cardinality_ , or number of rows, in the query result. These _cardinality estimates_ enable the Query Optimizer to create a high-quality query plan. For example, depending on your predicates, the Query Optimizer could use cardinality estimates to choose the index seek operator instead of the more resource-intensive index scan operator, if doing so improves query performance.
+Each statistics object is created on a list of one or more table columns and includes a _histogram_ displaying the distribution of values in the first column. Statistics objects on multiple columns also store statistical information about the correlation of values among the columns. These correlation statistics, or _densities_ , are derived from the number of distinct rows of column values.
+[](https://learn.microsoft.com/en-us/sql/relational-databases/statistics/statistics?view=sql-server-ver17#histogram)
+#### Histogram
+A **histogram** measures the frequency of occurrence for each distinct value in a data set. The Query Optimizer computes a histogram on the column values in the first key column of the statistics object, selecting the column values by statistically sampling the rows or by performing a full scan of all rows in the table or view. If the histogram is created from a sampled set of rows, the stored totals for number of rows and number of distinct values are estimates and don't need to be whole integers.
+Histograms in SQL Server are only built for a single column-the first column in the set of key columns of the statistics object.
+To create the histogram, the Query Optimizer sorts the column values, computes the number of values that match each distinct column value, and then aggregates the column values into a maximum of 200 contiguous histogram steps. Each histogram step includes a range of column values followed by an upper bound column value. The range includes all possible column values between boundary values, excluding the boundary values themselves. The lowest of the sorted column values is the upper boundary value for the first histogram step.
+In more detail, SQL Server creates the **histogram** from the sorted set of column values in three steps:
+  * **Histogram initialization** : In the first step, a sequence of values starting at the beginning of the sorted set is processed, and up to 200 values of _range_high_key_ , _equal_rows_ , _range_rows_ , and _distinct_range_rows_ are collected (_range_rows_ and _distinct_range_rows_ are always zero during this step). The first step ends either when all input has been exhausted, or when 200 values have been found.
+  * **Scan with bucket merge** : Each additional value from the leading column of the statistics key is processed in the second step, in sorted order; each successive value is either added to the last range or a new range at the end is created (this is possible because the input values are sorted). If a new range is created, then one pair of existing, neighboring ranges is collapsed into a single range. This pair of ranges is selected in order to minimize information loss. This method uses a _maximum difference_ algorithm to minimize the number of steps in the histogram while maximizing the difference between the boundary values. The number of steps after collapsing ranges stays at 200 throughout this step.
+  * **Histogram consolidation** : In the third step, more ranges can be collapsed if a significant amount of information isn't lost. The number of histogram steps can be fewer than the number of distinct values, even for columns with fewer than 200 boundary points. Therefore, even if the column has more than 200 unique values, the histogram might have fewer than 200 steps. For a column consisting of only unique values, then the consolidated histogram has a minimum of three steps.
+
+
+If the histogram has been built using a sample rather than fullscan, then the values of _equal_rows_ , _range_rows_ , and _distinct_range_rows_ and _average_range_rows_ are estimated, and therefore they don't need to be whole integers.
+The following diagram shows a histogram with six steps. The area to the left of the first upper boundary value is the first step.
+![Diagram of how a histogram is calculated from sampled column values.](https://learn.microsoft.com/en-us/sql/relational-databases/system-dynamic-management-views/media/histogram-2.svg?view=sql-server-ver17)
+For each histogram step in the previous example:
+  * Bold line represents the upper boundary value (_range_high_key_) and the number of times it occurs (_equal_rows_)
+  * Solid area left of _range_high_key_ represents the range of column values and the average number of times each column value occurs (_average_range_rows_). The _average_range_rows_ for the first histogram step is always 0.
+  * Dotted lines represent the sampled values used to estimate total number of distinct values in the range (_distinct_range_rows_) and total number of values in the range (_range_rows_). The Query Optimizer uses _range_rows_ and _distinct_range_rows_ to compute _average_range_rows_ and doesn't store the sampled values.
+
+
+[](https://learn.microsoft.com/en-us/sql/relational-databases/statistics/statistics?view=sql-server-ver17#density-vector)
+#### Density vector
+**Density** is information about the number of duplicates in a given column or combination of columns and it's calculated as 1/(number of distinct values). The Query Optimizer uses densities to enhance cardinality estimates for queries that return multiple columns from the same table or indexed view. As density decreases, selectivity of a value increases. For example, in a table representing cars, many cars have the same manufacturer, but each car has a unique vehicle identification number (VIN). An index on the VIN is more selective than an index on the manufacturer, because VIN has lower density than manufacturer.
+Frequency is information about the occurrence of each distinct value in the first key column of the statistics object, and is calculated as `row count * density`. A maximum frequency of 1 can be found in columns with unique values.
+The density vector contains one density for each prefix of columns in the statistics object. For example, if a statistics object has the key columns `CustomerId`, `ItemId` and `Price`, density is calculated on each of the following column prefixes.
+Expand table
+Column prefix | Density calculated on
+---|---
+(`CustomerId`) | Rows with matching values for `CustomerId`
+(`CustomerId`, `ItemId`) | Rows with matching values for `CustomerId` and `ItemId`
+(`CustomerId`, `ItemId`, `Price`) | Rows with matching values for `CustomerId`, `ItemId`, and `Price`
+[](https://learn.microsoft.com/en-us/sql/relational-databases/statistics/statistics?view=sql-server-ver17#filtered-statistics)
+### Filtered statistics
+Filtered statistics can improve query performance for queries that select from well-defined subsets of data. Filtered statistics use a filter predicate to select the subset of data that is included in the statistics. Well-designed filtered statistics can improve the query execution plan compared with full-table statistics. For more information about the filter predicate, see [CREATE STATISTICS](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-statistics-transact-sql?view=sql-server-ver17). For more information about when to create filtered statistics, see the [When to Create Statistics](https://learn.microsoft.com/en-us/sql/relational-databases/statistics/statistics?view=sql-server-ver17#CreateStatistics) section in this article.
+[](https://learn.microsoft.com/en-us/sql/relational-databases/statistics/statistics?view=sql-server-ver17#statistics-options)

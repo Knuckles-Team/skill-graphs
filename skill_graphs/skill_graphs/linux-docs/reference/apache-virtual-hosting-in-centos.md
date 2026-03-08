@@ -144,7 +144,7 @@ The following are some useful [systemctl commands](https://www.tecmint.com/manag
 # systemctl status mariadb
 
 ```
-![Checkk MariaDB Status in Debian](https://www.tecmint.com/wp-content/uploads/2019/09/check-mariadb-service-status.png)Checkk MariaDB Status in Debian
+![Check MariaDB Status in Debian](https://www.tecmint.com/wp-content/uploads/2019/09/check-mariadb-service-status.png)Check MariaDB Status in Debian
 **5.** Next, you need to secure your **MariaDB** server database installation. The installed package ships with a script that you need to run and follow the security recommendations.
 ```
 # mysql_secure_installation

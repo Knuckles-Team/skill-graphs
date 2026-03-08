@@ -1,0 +1,5 @@
+##  [Production branch used as preview branch](https://vercel.com/docs/getting-started-with-vercel#production-branch-used-as-preview-branch)[](https://vercel.com/docs/getting-started-with-vercel#production-branch-used-as-preview-branch)
+The Git branch that is configured using the [production branch](https://vercel.com/docs/git#production-branch) field in the project settings, is considered the branch that contains the code served to your visitors.
+If you'd like to assign a domain or environment variable to that particular Git branch, there's no need to manually fill it in.
+By default, if no custom Git branch is defined for them, domains are already assigned to the production branch. The same is true for environment variables: If no custom Git branch is defined for them and Production is selected as an environment, they're already assigned to the production branch.
+If you still want to enter a specific Git branch for a domain or an environment variable, it has to be a [preview branch](https://vercel.com/docs/git#preview-branches).

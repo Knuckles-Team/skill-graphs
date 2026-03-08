@@ -498,7 +498,7 @@ def delete_hero(hero_id: int, session: Session = Depends(get_session)):
 Next, we create a `HeroPublic` model, this is the one that will be **returned** to the clients of the API.
 It has the same fields as `HeroBase`, so it won't include `secret_name`.
 Finally, the identity of our heroes is protected! 🥷
-It also re-declares `id: int`. By doing this, we are making a **contract** with the API clients, so that they can always expect the `id` to be there and to be an `int` (it will never be `None`).
+It also redeclares `id: int`. By doing this, we are making a **contract** with the API clients, so that they can always expect the `id` to be there and to be an `int` (it will never be `None`).
 Tip
 Having the return model ensure that a value is always available and always `int` (not `None`) is very useful for the API clients, they can write much simpler code having this certainty.
 Also, **automatically generated clients** will have simpler interfaces, so that the developers communicating with your API can have a much better time working with your API. 😎

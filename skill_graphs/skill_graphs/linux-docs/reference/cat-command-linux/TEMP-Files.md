@@ -106,7 +106,7 @@ That’s good to hear, can you tell us what’s the problem and and how you solv
            * ![](https://secure.gravatar.com/avatar/9192d6144911d7ac413df2227bcc5795303652a93497630a1db7e0eaa1a74957?s=50&d=blank&r=g)
 tewelde
 [ March 5, 2015 at 2:07 pm  ](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-499023)
-I have only correct the full path in the document root then when i try to access by IP address it works but when I try to browse Ip address/sarg it dosnt work
+I have only correct the full path in the document root then when i try to access by IP address it works but when I try to browse Ip address/sarg it doesn't work
 DocumentRoot “/var/www/sarg”
 Options FollowSymLinks
 AllowOverride All
@@ -138,14 +138,14 @@ i have installed sarg-squid analysis under debian based on this instruction but 
 Not Found
 The requested URL /squid-reports was not found on this server.
 Apache/2.2.22 (Debian) Server at 10.*.*.* Port 80
-and my appache error log is
+and my apache error log is
 please help me i realy need it
 [Reply](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-491369)
      * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
 Ravi Saive
 [ February 24, 2015 at 3:50 pm  ](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-491388)
 @Tewelde,
-It’s due to wrong Apache document directory configuration in sarg.conf file, it should be ‘/var/www’ for debian based distros, not /var/www/html..Correct the path in the sarg.conf file and try agian…let me know if any errors..
+It’s due to wrong Apache document directory configuration in sarg.conf file, it should be ‘/var/www’ for debian based distros, not /var/www/html..Correct the path in the sarg.conf file and try again…let me know if any errors..
 [Reply](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-491388)
        * ![](https://secure.gravatar.com/avatar/9192d6144911d7ac413df2227bcc5795303652a93497630a1db7e0eaa1a74957?s=50&d=blank&r=g)
 tewelde
@@ -155,7 +155,7 @@ i have already try but nothing change still the error is the same
 Not Found
 The requested URL /sarg was not found on this server.
 Apache/2.2.22 (Debian) Server at 10.*.*.* Port 80
-i have try to correct document directory in appache even it is not working
+i have try to correct document directory in apache even it is not working
 and sarg.conf configuration n look like this
 [Reply](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-492226)
          * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
@@ -586,7 +586,7 @@ Thanks
 mir
 [ April 26, 2014 at 3:40 pm  ](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-153673)
 Please help me to resolve following error.
-I hv already installed all dependicies above mentioned.
+I hv already installed all dependencies above mentioned.
 ver 2.3.8
 gcc -std=gnu99 -c -I. -DBINDIR=\”/usr/local/bin\” -DSYSCONFDIR=\”/usr/local/etc\” -DFONTDIR=\”/usr/local/share/sarg/fonts\” -DIMAGEDIR=\”/usr/local/share/sarg/images\” -DSARGPHPDIR=\”/var/www/html\” -DLOCALEDIR=\”/usr/local/share/locale\” -DPACKAGE_NAME=\”sarg\” -DPACKAGE_TARNAME=\”sarg\” -DPACKAGE_VERSION=\”2.3.8\” -DPACKAGE_STRING=\”sarg\ 2.3.8\” -DPACKAGE_BUGREPORT=\”\” -DPACKAGE_URL=\”\” -DHAVE_DIRENT_H=1 -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_TIME_H=1 -DHAVE_TIME_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DIRENT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_NETDB_H=1 -DHAVE_ARPA_INET_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_CTYPE_H=1 -DHAVE_ERRNO_H=1 -DHAVE_SYS_RESOURCE_H=1 -DHAVE_SYS_WAIT_H=1 -DHAVE_STDARG_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_LIMITS_H=1 -DHAVE_LOCALE_H=1 -DHAVE_EXECINFO_H=1 -DHAVE_MATH_H=1 -DHAVE_LIBINTL_H=1 -DHAVE_LIBGEN_H=1 -DHAVE_STDBOOL_H=1 -DHAVE_GETOPT_H=1 -DHAVE_FCNTL_H=1 -DHAVE_GD_H=1 -DHAVE_GDFONTL_H=1 -DHAVE_GDFONTT_H=1 -DHAVE_GDFONTS_H=1 -DHAVE_GDFONTMB_H=1 -DHAVE_GDFONTG_H=1 -DHAVE_LDAP_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_ICONV_H=1 -DHAVE_PCRE_H=1 -DENABLE_NLS=1 -DHAVE_GETTEXT=1 -DHAVE_DCGETTEXT=1 -DHAVE_FOPEN64=1 -D_LARGEFILE64_SOURCE=1 -DHAVE_BZERO=1 -DHAVE_BACKTRACE=1 -DHAVE_SYMLINK=1 -DHAVE_LSTAT=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_MKSTEMP=1 -DSIZEOF_RLIM_T=8 -DRLIM_STRING=\”%lli\” -g -O2 -Wall -Wno-sign-compare -Wextra -Wno-unused-parameter -Werror=implicit-function-declaration -Werror=format log.c
 log.c: In function ‘main’:
@@ -612,7 +612,7 @@ Apache/2.2.17 (Fedora) Server at 192.168.50.4 Port 80 please help!!
 R.bibin
 [ March 18, 2014 at 1:11 am  ](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-137880)
 hi ravi,
-i got a gud result upto sample output,but i have not been get a access report in web browser.pls help me
+i got a good result upto sample output,but i have not been get a access report in web browser.pls help me
 [Reply](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-137880)
   56. ![](https://secure.gravatar.com/avatar/37412819cfa9ea7f74071cf799e4a66c95d656aed29d0f3f99f3d8e5bea0dd5b?s=50&d=blank&r=g)
 Turko

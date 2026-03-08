@@ -1,0 +1,6 @@
+##  [How it works](https://vercel.com/docs/integrations/cms/agility-cms#how-it-works)[](https://vercel.com/docs/integrations/cms/agility-cms#how-it-works)
+Sitecore XM Cloud offers a GraphQL endpoint for its sites, serving as the primary mechanism for both retrieving and updating content. The Sitecore JSS library for Next.js provides the necessary components and tools for rendering and editing Sitecore data.
+Through this integration, content editors can log into XM Cloud to not only modify content but also adjust the composition of pages.
+The frontend application hosted on Vercel establishes a connection to Sitecore XM Cloud using the `GRAPH_QL_ENDPOINT` to determine the data source and the `SITECORE_API_KEY` to ensure secure access to the content.
+With these components in place, developers can seamlessly integrate content from Sitecore XM Cloud into a Next.js application on Vercel.
+Vercel Deployment Protection is enabled for new projects by [default](https://vercel.com/changelog/deployment-protection-is-now-enabled-by-default-for-new-projects) which limits access to preview and production URLs. This may impact Sitecore Experience Editor and Pages functionality. Refer to Deployment Protection [documentation](https://vercel.com/docs/security/deployment-protection) and Sitecore XM Cloud

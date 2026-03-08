@@ -244,7 +244,7 @@ This article is really helpful. I looked forward to finding some information to 
   63. ![](https://secure.gravatar.com/avatar/233e36436affba019f63175d2f543992f1724a243485284161d2153332831503?s=50&d=blank&r=g)
 Torbjrön Rasmusson
 [ January 13, 2015 at 3:05 pm  ](https://www.tecmint.com/extend-and-reduce-lvms-in-linux/#comment-451340)
-Thank you for the awsome guide! It saved me a lot of trouble!
+Thank you for the awesome guide! It saved me a lot of trouble!
 [Reply](https://www.tecmint.com/extend-and-reduce-lvms-in-linux/#comment-451340)
   64. ![](https://secure.gravatar.com/avatar/1dccc868983142f32aa841bb0d3031221af289cf1f5ba9eb52c9cb0c66cf6560?s=50&d=blank&r=g)
 manzoor

@@ -1,0 +1,16 @@
+# Table of Contents
+
+- [docs_conformance_rules_NO_SERIAL_ASYNC_CALLS](<./docs_conformance_rules_NO_SERIAL_ASYNC_CALLS.md>)
+- [NO_SERIAL_ASYNC_CALLS](<./NO_SERIAL_ASYNC_CALLS.md>)
+  - [[How to fix](https://vercel.com/docs/conformance/rules/NO_SERIAL_ASYNC_CALLS#how-to-fix)[](https://vercel.com/docs/conformance/rules/NO_SERIAL_ASYNC_CALLS#how-to-fix)](<./NO_SERIAL_ASYNC_CALLS/How-to-fixhttpsvercel.comdocsconformancerulesNO_SERIAL_ASYNC_CALLShow-to-fixhttpsvercel.comdocsconformancerulesNO_SERIAL_ASYNC_CALLShow-to-fix.md>)
+  - [Get Started](<./NO_SERIAL_ASYNC_CALLS/Get-Started.md>)
+  - [Build](<./NO_SERIAL_ASYNC_CALLS/Build.md>)
+  - [Scale](<./NO_SERIAL_ASYNC_CALLS/Scale.md>)
+  - [Secure](<./NO_SERIAL_ASYNC_CALLS/Secure.md>)
+  - [Resources](<./NO_SERIAL_ASYNC_CALLS/Resources.md>)
+  - [Learn](<./NO_SERIAL_ASYNC_CALLS/Learn.md>)
+  - [Frameworks](<./NO_SERIAL_ASYNC_CALLS/Frameworks.md>)
+  - [SDKs](<./NO_SERIAL_ASYNC_CALLS/SDKs.md>)
+  - [Use Cases](<./NO_SERIAL_ASYNC_CALLS/Use-Cases.md>)
+  - [Company](<./NO_SERIAL_ASYNC_CALLS/Company.md>)
+  - [Community](<./NO_SERIAL_ASYNC_CALLS/Community.md>)

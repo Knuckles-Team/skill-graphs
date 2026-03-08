@@ -332,7 +332,7 @@ Thanks for your useful tutorial ^_^
 Avishek Kumar
 [ December 2, 2013 at 11:15 am  ](https://www.tecmint.com/secret-linux-commands/#comment-79198)
 Thanks @ quydo,
-for your such valueable feedback.
+for your such valuable feedback.
 All the commands are useful, at some point of time.
 [Reply](https://www.tecmint.com/secret-linux-commands/#comment-79198)
   4. ![](https://secure.gravatar.com/avatar/c181bad6de79ff4f3a90e12eac224e6dc75637de431938e2fbef4c6f975377c3?s=50&d=blank&r=g)

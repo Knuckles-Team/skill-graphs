@@ -53,7 +53,7 @@ Name | Type | Description | Default
 `_env_nested_delimiter` |  |  The nested env values delimiter. Defaults to `None`. |  `None`
 `_env_parse_none_str` |  |  The env string value that should be parsed (e.g. "null", "void", "None", etc.) into `None` type(None). Defaults to `None` type(None), which means no parsing should occur. |  `None`
 `_env_parse_enums` |  |  Parse enum field names to values. Defaults to `None.`, which means no parsing should occur. |  `None`
-`_cli_prog_name` |  |  The CLI program name to display in help text. Defaults to `None` if _cli_parse_args is `None`. Otherwse, defaults to sys.argv[0]. |  `None`
+`_cli_prog_name` |  |  The CLI program name to display in help text. Defaults to `None` if _cli_parse_args is `None`. Otherwise, defaults to sys.argv[0]. |  `None`
 `_cli_parse_args` |  |  The list of CLI arguments to parse. Defaults to None. If set to `True`, defaults to sys.argv[1:]. |  `None`
 `_cli_settings_source` |  `CliSettingsSource[](https://docs.pydantic.dev/latest/api/pydantic_settings/#pydantic_settings.CliSettingsSource)[` |  Override the default CLI settings source with a user defined instance. Defaults to None. |  `None`
 `_cli_parse_none_str` |  |  The CLI string value that should be parsed (e.g. "null", "void", "None", etc.) into `None` type(None). Defaults to _env_parse_none_str value if set. Otherwise, defaults to "null" if _cli_avoid_json is `False`, and "None" if _cli_avoid_json is `True`. |  `None`

@@ -586,7 +586,7 @@ Thank you :) !!
 You have to change “HISTORY” parameter to 30 days.
 File need to modify:
 /etc/sysconfig/sysstat
-Paramter:
+Parameter:
 HISTORY=30
 Thanks!!
 [Reply](https://www.tecmint.com/sysstat-commands-to-monitor-linux/#comment-263287)

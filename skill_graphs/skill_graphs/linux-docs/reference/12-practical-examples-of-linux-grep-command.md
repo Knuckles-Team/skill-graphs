@@ -277,7 +277,7 @@ Check out [**Pro.Tecmint.com**](https://pro.tecmint.com) for **ad-free reading**
 Previous article:
 [How to Compile Linux Kernel on CentOS 7](https://www.tecmint.com/compile-linux-kernel-on-centos-7/)
 Next article:
-[Discus – Show Colourised Disk Space Usage in Linux](https://www.tecmint.com/colourised-disk-space-usage-in-linux/)
+[Discuss – Show Colourised Disk Space Usage in Linux](https://www.tecmint.com/colourised-disk-space-usage-in-linux/)
 ![Photo of author](https://secure.gravatar.com/avatar/87e5179d8a999bace5a9739e27a309e1dfaea9ef2c54c7310fe6235531340eb4?s=100&d=blank&r=g)
 Aaron Kili
 Aaron Kili is a Linux and F.O.S.S enthusiast, an upcoming Linux SysAdmin, web developer, and currently a content creator for TecMint who loves working with computers and strongly believes in sharing knowledge.

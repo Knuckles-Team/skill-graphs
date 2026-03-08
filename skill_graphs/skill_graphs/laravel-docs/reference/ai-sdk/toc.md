@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [ai-sdk](<./ai-sdk.md>)
+- [Laravel AI SDK](<./Laravel-AI-SDK.md>)
+  - [[Introduction](https://laravel.com/docs/12.x/ai-sdk#introduction)](<./Laravel-AI-SDK/Introductionhttpslaravel.comdocs12.xai-sdkintroduction.md>)
+  - [[Installation](https://laravel.com/docs/12.x/ai-sdk#installation)](<./Laravel-AI-SDK/Installationhttpslaravel.comdocs12.xai-sdkinstallation.md>)
+  - [[Agents](https://laravel.com/docs/12.x/ai-sdk#agents)](<./Laravel-AI-SDK/Agentshttpslaravel.comdocs12.xai-sdkagents.md>)
+  - [[Images](https://laravel.com/docs/12.x/ai-sdk#images)](<./Laravel-AI-SDK/Imageshttpslaravel.comdocs12.xai-sdkimages.md>)
+  - [[Audio](https://laravel.com/docs/12.x/ai-sdk#audio)](<./Laravel-AI-SDK/Audiohttpslaravel.comdocs12.xai-sdkaudio.md>)
+  - [[Transcriptions](https://laravel.com/docs/12.x/ai-sdk#transcription)](<./Laravel-AI-SDK/Transcriptionshttpslaravel.comdocs12.xai-sdktranscription.md>)
+  - [[Embeddings](https://laravel.com/docs/12.x/ai-sdk#embeddings)](<./Laravel-AI-SDK/Embeddingshttpslaravel.comdocs12.xai-sdkembeddings.md>)
+  - [[Reranking](https://laravel.com/docs/12.x/ai-sdk#reranking)](<./Laravel-AI-SDK/Rerankinghttpslaravel.comdocs12.xai-sdkreranking.md>)
+  - [[Files](https://laravel.com/docs/12.x/ai-sdk#files)](<./Laravel-AI-SDK/Fileshttpslaravel.comdocs12.xai-sdkfiles.md>)
+  - [[Vector Stores](https://laravel.com/docs/12.x/ai-sdk#vector-stores)](<./Laravel-AI-SDK/Vector-Storeshttpslaravel.comdocs12.xai-sdkvector-stores.md>)
+  - [[Failover](https://laravel.com/docs/12.x/ai-sdk#failover)](<./Laravel-AI-SDK/Failoverhttpslaravel.comdocs12.xai-sdkfailover.md>)
+  - [[Testing](https://laravel.com/docs/12.x/ai-sdk#testing)](<./Laravel-AI-SDK/Testinghttpslaravel.comdocs12.xai-sdktesting.md>)
+  - [[Events](https://laravel.com/docs/12.x/ai-sdk#events)](<./Laravel-AI-SDK/Eventshttpslaravel.comdocs12.xai-sdkevents.md>)

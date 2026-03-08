@@ -1,0 +1,7 @@
+# Shared Responsibility Model
+Last updated January 21, 2026
+A shared responsibility model is a framework designed to split tasks and obligations between two groups in cloud computing. The model divides duties to ensure security, maintenance, and service functionality.
+When using a cloud platform such as Vercel, it is important to understand where your security responsibilities lie, and where Vercel takes responsibility. This is especially important when it comes to handling data, such as user account information, payment details, source code and other sensitive information.
+The customer handles their data, applications, and user access management. This includes data encryption, safeguarding sensitive information, and assigning appropriate permissions to users.
+Vercel manages infrastructure components, such as compute, storage, and networking. Our role is to guarantee that the platform is secure, dependable, and maintained.
+![The shared responsibility model for Vercel.](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Fdocs-assets%2Fstatic%2Fdocs%2Fsecurity%2Fshared-responsibility-model-light-mode.png&w=3840&q=75)![The shared responsibility model for Vercel.](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Fdocs-assets%2Fstatic%2Fdocs%2Fsecurity%2Fshared-responsibility-model-dark-mode.png&w=3840&q=75)The shared responsibility model for Vercel.

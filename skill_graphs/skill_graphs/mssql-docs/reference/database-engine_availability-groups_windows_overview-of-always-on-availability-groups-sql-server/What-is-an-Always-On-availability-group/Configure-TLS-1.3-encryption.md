@@ -1,0 +1,5 @@
+## Configure TLS 1.3 encryption
+SQL Server 2025 (17.x) introduces [Tabular Data Stream 8.0](https://learn.microsoft.com/en-us/sql/relational-databases/security/networking/tds-8?view=sql-server-ver17) support, which allows you to enforce [TLS 1.3](https://learn.microsoft.com/en-us/sql/relational-databases/security/networking/tls-1-3?view=sql-server-ver17) encryption for communication between the Windows Server Failover Cluster and your Always On availability group replicas.
+For more information, see [TDS 8 support in SQL Server 2025](https://learn.microsoft.com/en-us/sql/database-engine/availability-groups/windows/overview-of-always-on-availability-groups-sql-server?view=sql-server-ver17#tds-8-support-in-sql-server-2025) later in this article.
+To get started, review [Connect with strict encryption](https://learn.microsoft.com/en-us/sql/relational-databases/security/networking/connect-with-strict-encryption?view=sql-server-ver17#connect-to-an-always-on-availability-group).
+[](https://learn.microsoft.com/en-us/sql/database-engine/availability-groups/windows/overview-of-always-on-availability-groups-sql-server?view=sql-server-ver17#terms-and-definitions)

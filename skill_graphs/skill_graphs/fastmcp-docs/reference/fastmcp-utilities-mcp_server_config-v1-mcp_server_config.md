@@ -208,7 +208,7 @@ apply_runtime_settings(self, config_path: Path | None = None) -> None
 Apply runtime settings like environment variables and working directory. **Args:**
   * `config_path`: Path to config file for resolving relative paths
 
-Environment variables support interpolation with VARNAMEsyntax.Forexample:"APIURL":"https://api.{VAR_NAME} syntax. For example: "API_URL": "https://api.VARN​AMEsyntax.Forexample:"APIU​RL":"https://api..example.com” will substitute the value of the ENVIRONMENT variable at runtime.
+Environment variables support interpolation with VARNAMEsyntax.Forexample:"APIURL":"https://api.{VAR_NAME} syntax. For example: "API_URL": "https://api.WARN​AMEsyntax.Forexample:"APIU​RL":"https://api..example.com” will substitute the value of the ENVIRONMENT variable at runtime.
 ###
 [​](https://gofastmcp.com/python-sdk/fastmcp-utilities-mcp_server_config-v1-mcp_server_config#mcpserverconfig)
 `MCPServerConfig`

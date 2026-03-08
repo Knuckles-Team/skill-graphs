@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_errors_TOO_MANY_FORKS](<./docs_errors_TOO_MANY_FORKS.md>)
+- [Getting started with Vercel](<./Getting-started-with-Vercel.md>)
+  - [[Before you begin](https://vercel.com/docs/getting-started-with-vercel#before-you-begin)[](https://vercel.com/docs/getting-started-with-vercel#before-you-begin)](<./Getting-started-with-Vercel/Before-you-beginhttpsvercel.comdocsgetting-started-with-vercelbefore-you-beginhttpsvercel.comdocsgetting-started-with-vercelbefore-you-begin.md>)
+  - [[Customizing your journey](https://vercel.com/docs/getting-started-with-vercel#customizing-your-journey)[](https://vercel.com/docs/getting-started-with-vercel#customizing-your-journey)](<./Getting-started-with-Vercel/Customizing-your-journeyhttpsvercel.comdocsgetting-started-with-vercelcustomizing-your-journeyhttpsvercel.comdocsgetting-started-with-vercelcustomizing-your-journey.md>)
+- [TOO_MANY_FORKS](<./TOO_MANY_FORKS.md>)
+  - [Get Started](<./TOO_MANY_FORKS/Get-Started.md>)
+  - [Build](<./TOO_MANY_FORKS/Build.md>)
+  - [Scale](<./TOO_MANY_FORKS/Scale.md>)
+  - [Secure](<./TOO_MANY_FORKS/Secure.md>)
+  - [Resources](<./TOO_MANY_FORKS/Resources.md>)
+  - [Learn](<./TOO_MANY_FORKS/Learn.md>)
+  - [Frameworks](<./TOO_MANY_FORKS/Frameworks.md>)
+  - [SDKs](<./TOO_MANY_FORKS/SDKs.md>)
+  - [Use Cases](<./TOO_MANY_FORKS/Use-Cases.md>)
+  - [Company](<./TOO_MANY_FORKS/Company.md>)
+  - [Community](<./TOO_MANY_FORKS/Community.md>)

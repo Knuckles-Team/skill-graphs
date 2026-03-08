@@ -1,0 +1,14 @@
+##  [Add a monorepo through the Vercel Dashboard](https://vercel.com/docs/deployment-checks#add-a-monorepo-through-the-vercel-dashboard)[](https://vercel.com/docs/deployment-checks#add-a-monorepo-through-the-vercel-dashboard)
+  1. Go to the [Vercel Dashboard](https://vercel.com/d?to=%2Fdashboard&title=Open+Dashboard) and ensure your team is selected from the team switcher.
+  2. Select the Add New… button, and then choose Project from the list. You'll create a new [project](https://vercel.com/docs/projects/overview) for each directory in your monorepo that you wish to import.
+  3. From the Import Git Repository section, select the Import button next to the repository you want to import.
+  4. Before you deploy, you'll need to specify the directory within your monorepo that you want to deploy. Click the Edit button next to the [Root Directory setting](https://vercel.com/docs/deployments/configure-a-build#root-directory) to select the directory, or project, you want to deploy. This will configure the root directory of each project to its relevant directory in the repository:
+
+![Selecting a Root Directory for one of your new Projects.](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Fdocs-assets%2Fstatic%2Fdocs%2Fconcepts%2Fprojects%2Fmonorepo-import-light.png&w=1080&q=75)![Selecting a Root Directory for one of your new Projects.](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Fdocs-assets%2Fstatic%2Fdocs%2Fconcepts%2Fprojects%2Fmonorepo-import-dark.png&w=1080&q=75)Selecting a Root Directory for one of your new Projects.
+  1. Configure any necessary settings and click the Deploy button to deploy that project.
+  2. Repeat steps 2-5 to [import each directory](https://vercel.com/docs/git#deploying-a-git-repository) from your monorepo that you want to deploy.
+
+
+Once you've created a separate project for each of the directories within your Git repository, every commit will issue a deployment for all connected projects and display the resulting URLs on your pull requests and commits:
+![An example of Deployment URLs provided for a Deployment through Git.](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Fdocs-assets%2Fstatic%2Fdocs%2Fconcepts%2Fprojects%2Fgithub-comment-light.png&w=1920&q=75)![An example of Deployment URLs provided for a Deployment through Git.](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Fdocs-assets%2Fstatic%2Fdocs%2Fconcepts%2Fprojects%2Fgithub-comment-dark.png&w=1920&q=75)An example of Deployment URLs provided for a Deployment through Git.
+The number of Vercel Projects connected with the same Git repository is [limited depending on your plan](https://vercel.com/docs/limits#general-limits).

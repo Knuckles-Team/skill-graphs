@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [docs_domains_custom-SSL-certificate](<./docs_domains_custom-SSL-certificate.md>)
+- [Uploading Custom SSL Certificates](<./Uploading-Custom-SSL-Certificates.md>)
+  - [[SSL best practices](https://vercel.com/docs/domains/custom-SSL-certificate#ssl-best-practices)[](https://vercel.com/docs/domains/custom-SSL-certificate#ssl-best-practices)](<./Uploading-Custom-SSL-Certificates/SSL-best-practiceshttpsvercel.comdocsdomainscustom-SSL-certificatessl-best-practiceshttpsvercel.comdocsdomainscustom-SSL-certificatessl-best-practices.md>)
+  - [[Using self-signed certificates](https://vercel.com/docs/domains/custom-SSL-certificate#using-self-signed-certificates)[](https://vercel.com/docs/domains/custom-SSL-certificate#using-self-signed-certificates)](<./Uploading-Custom-SSL-Certificates/Using-self-signed-certificateshttpsvercel.comdocsdomainscustom-SSL-certificateusing-self-signed-certificateshttpsvercel.comdocsdomainscustom-SSL-certificateusing-self-signed-certificates.md>)
+  - [Get Started](<./Uploading-Custom-SSL-Certificates/Get-Started.md>)
+  - [Build](<./Uploading-Custom-SSL-Certificates/Build.md>)
+  - [Scale](<./Uploading-Custom-SSL-Certificates/Scale.md>)
+  - [Secure](<./Uploading-Custom-SSL-Certificates/Secure.md>)
+  - [Resources](<./Uploading-Custom-SSL-Certificates/Resources.md>)
+  - [Learn](<./Uploading-Custom-SSL-Certificates/Learn.md>)
+  - [Frameworks](<./Uploading-Custom-SSL-Certificates/Frameworks.md>)
+  - [SDKs](<./Uploading-Custom-SSL-Certificates/SDKs.md>)
+  - [Use Cases](<./Uploading-Custom-SSL-Certificates/Use-Cases.md>)
+  - [Company](<./Uploading-Custom-SSL-Certificates/Company.md>)
+  - [Community](<./Uploading-Custom-SSL-Certificates/Community.md>)

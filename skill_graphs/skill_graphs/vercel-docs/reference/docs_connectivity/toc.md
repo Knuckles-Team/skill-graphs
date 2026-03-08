@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_connectivity](<./docs_connectivity.md>)
+- [Connectivity](<./Connectivity.md>)
+  - [[Static IPs (shared pool)](https://vercel.com/docs/connectivity#static-ips-shared-pool)[](https://vercel.com/docs/connectivity#static-ips-shared-pool)](<./Connectivity/Static-IPs-shared-poolhttpsvercel.comdocsconnectivitystatic-ips-shared-poolhttpsvercel.comdocsconnectivitystatic-ips-shared-pool.md>)
+  - [[Secure Compute](https://vercel.com/docs/connectivity#secure-compute)[](https://vercel.com/docs/connectivity#secure-compute)](<./Connectivity/Secure-Computehttpsvercel.comdocsconnectivitysecure-computehttpsvercel.comdocsconnectivitysecure-compute.md>)
+  - [[Pricing](https://vercel.com/docs/connectivity#pricing)[](https://vercel.com/docs/connectivity#pricing)](<./Connectivity/Pricinghttpsvercel.comdocsconnectivitypricinghttpsvercel.comdocsconnectivitypricing.md>)
+  - [Get Started](<./Connectivity/Get-Started.md>)
+  - [Build](<./Connectivity/Build.md>)
+  - [Scale](<./Connectivity/Scale.md>)
+  - [Secure](<./Connectivity/Secure.md>)
+  - [Resources](<./Connectivity/Resources.md>)
+  - [Learn](<./Connectivity/Learn.md>)
+  - [Frameworks](<./Connectivity/Frameworks.md>)
+  - [SDKs](<./Connectivity/SDKs.md>)
+  - [Use Cases](<./Connectivity/Use-Cases.md>)
+  - [Company](<./Connectivity/Company.md>)
+  - [Community](<./Connectivity/Community.md>)

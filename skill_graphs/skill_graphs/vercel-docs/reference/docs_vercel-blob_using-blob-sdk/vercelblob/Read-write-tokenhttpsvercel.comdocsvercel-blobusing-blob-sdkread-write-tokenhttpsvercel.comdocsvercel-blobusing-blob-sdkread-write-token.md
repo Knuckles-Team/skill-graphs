@@ -1,0 +1,5 @@
+##  [Read-write token](https://vercel.com/docs/vercel-blob/using-blob-sdk#read-write-token)[](https://vercel.com/docs/vercel-blob/using-blob-sdk#read-write-token)
+A read-write token is required to interact with the Blob SDK. When you create a Blob store in your Vercel Dashboard, an environment variable with the value of the token is created for you. You have the following options when deploying your application:
+  * If you deploy your application in the same Vercel project where your Blob store is located, you _do not_ need to specify the `token` parameter, as its default value is equal to the store's token environment variable
+  * If you deploy your application in a different Vercel project or scope, you can create an environment variable there and assign the token value from your Blob store settings to this variable. You will then set the `token` parameter to this environment variable
+  * If you deploy your application outside of Vercel, you can copy the `token` value from the store settings and pass it as the `token` parameter when you call a Blob SDK method

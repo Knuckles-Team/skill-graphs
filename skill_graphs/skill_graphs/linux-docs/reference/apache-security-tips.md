@@ -119,7 +119,7 @@ Following are the list of tools included in sysstat packages.
   11. **cifsiostat** : Statistics for CIFS.
 
 
-Recenlty, on 17th of June 2014, **Sysstat 11.0.0** (stable version) has been released with some new interesting features as follows.
+Recently, on 17th of June 2014, **Sysstat 11.0.0** (stable version) has been released with some new interesting features as follows.
 pidstat command has been enhanced with some new options: first is “**-R** ” which will provide information about the policy and task scheduling priority. And second one is “**-G** ” which we can search processes with name and to get the list of all matching threads.
 Some new enhancement have been brought to sar, sadc and sadf with regards to the data files: Now data files can be renamed using “**saYYYYMMDD** ” instead of “**saDD** ” using option **–D** and can be located in directory different from “**/var/log/sa** ”. We can define new directory by setting variable “**SA_DIR** ”, which is being used by sa1 and sa2.
 ### Installation of Sysstat in Linux

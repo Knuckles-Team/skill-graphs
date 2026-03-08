@@ -14,7 +14,7 @@ Another problem encountered was booting
 reza
 [ July 23, 2015 at 12:27 pm  ](https://www.tecmint.com/install-and-configure-zabbix-monitoring-on-debian-centos-rhel/#comment-628993)
 Hi
-Thats Nice !
+That's Nice !
 so thanks, ;)
 [Reply](https://www.tecmint.com/install-and-configure-zabbix-monitoring-on-debian-centos-rhel/#comment-628993)
   47. ![](https://secure.gravatar.com/avatar/43e1e010b8ffe4d954910c5e7ff6249acf161b5ac051de6219aeaececbafa8dd?s=50&d=blank&r=g)
@@ -30,7 +30,7 @@ Why are you using /etc/rc.local to startup the services? Seriously?
      * ![](https://secure.gravatar.com/avatar/50136dbf8e50d81191a1ac124290ae16c02399e2abcb49cdbeb04ae0e4b5482f?s=50&d=blank&r=g)
 Matei Cezar
 [ July 14, 2015 at 8:16 pm  ](https://www.tecmint.com/install-and-configure-zabbix-monitoring-on-debian-centos-rhel/#comment-624234)
-Yes, because the official zabbix sources does’nt provide any systemd services conf files. Also, the old upstart (init.d) scripts are not fully compatible and run a little bit tricky on systemd, so i suggest you use this method for now to be safe!
+Yes, because the official zabbix sources doesn’t provide any systemd services conf files. Also, the old upstart (init.d) scripts are not fully compatible and run a little bit tricky on systemd, so i suggest you use this method for now to be safe!
 [Reply](https://www.tecmint.com/install-and-configure-zabbix-monitoring-on-debian-centos-rhel/#comment-624234)
   49. ![](https://secure.gravatar.com/avatar/956781a7724acc239ed19e1e47285f9957b2733f6d30e3b776a40ca51503695b?s=50&d=blank&r=g)
 pinkman

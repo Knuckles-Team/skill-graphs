@@ -427,7 +427,7 @@ Hi, I tried your directives but they just caused an error. Any ideas?
 
 rsyslogd: version 8.4.2, config validation run (level 1), master config /etc/rsyslog.conf
 rsyslogd: invalid character in selector line – ‘;template’ expected
-rsyslogd: error during parsing file /etc/rsyslog.conf, on or before line 13: errors occured in file ‘/etc/rsyslog.conf’ around line 13 [try
+rsyslogd: error during parsing file /etc/rsyslog.conf, on or before line 13: errors occurred in file ‘/etc/rsyslog.conf’ around line 13 [try
 /etc/rsyslod.conf
 $ModLoad imsolaris # for Solaris kernel logging
 $ModLoad imtcp
@@ -462,7 +462,7 @@ Changed to read:
   15. ![](https://secure.gravatar.com/avatar/f29eecc33465f4d4d08c50d4ee5bc73b9d8159264c6494e7ec50812a5db5f292?s=50&d=blank&r=g)
 Matei Cezar
 [ September 14, 2017 at 1:27 pm  ](https://www.tecmint.com/create-centralized-log-server-with-rsyslog-in-centos-7/#comment-913297)
-The point 5 code lines should shoud have the following conetent:
+The point 5 code lines should should have the following content:
 **
 $template RemoteLogs,”/var/log/%HOSTNAME%/%PROGRAMNAME%.log”
 *.* ?RemoteLogs
@@ -476,7 +476,7 @@ $template FromIp,”/var/log/%FROMHOST-IP%.log”
   16. ![](https://secure.gravatar.com/avatar/51205fdfb7777a8d177eeea7d8b28d267df99f4d275ba06fb04f2d87a2d2f681?s=50&d=blank&r=g)
 IWO
 [ September 5, 2017 at 1:54 am  ](https://www.tecmint.com/create-centralized-log-server-with-rsyslog-in-centos-7/#comment-910909)
-Hellow Matei:
+Hello Matei:
 ```
 # mkdir /var/log/rsyslog
 # cp -p /etc/rsyslog.conf	/etc/rsyslog.conf.original

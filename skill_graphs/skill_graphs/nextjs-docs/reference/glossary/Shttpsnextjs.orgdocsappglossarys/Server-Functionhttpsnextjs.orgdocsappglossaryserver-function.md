@@ -1,0 +1,2 @@
+## Server Function[](https://nextjs.org/docs/app/glossary#server-function)
+An asynchronous function that runs on the server, marked with the [`"use server"` directive](https://nextjs.org/docs/app/api-reference/directives/use-server). Server Functions can be invoked from Client Components. When passed as a prop to a Client Component or bound to a form action, they are called [Server Actions](https://nextjs.org/docs/app/glossary#server-action). Learn more in

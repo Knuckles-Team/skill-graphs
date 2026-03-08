@@ -1,0 +1,3 @@
+##  [Command not found in vercel dev](https://vercel.com/docs/getting-started-with-vercel#command-not-found-in-vercel-dev)[](https://vercel.com/docs/getting-started-with-vercel#command-not-found-in-vercel-dev)
+The _"Command not found"_ error message happens when a sub-process that `vercel dev` is attempting to create is not installed on your local machine. You need to install the particular program onto your operating system before `vercel dev` will work correctly.
+For example, you may see the error _"Command not found: go"_ if you are writing a Vercel Function in Go, but do not have the `go` binary installed. In this case you need to

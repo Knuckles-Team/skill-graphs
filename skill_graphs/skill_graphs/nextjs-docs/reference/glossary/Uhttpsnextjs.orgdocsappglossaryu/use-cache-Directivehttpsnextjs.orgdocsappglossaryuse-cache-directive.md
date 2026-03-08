@@ -1,0 +1,2 @@
+##  `"use cache"` Directive[](https://nextjs.org/docs/app/glossary#use-cache-directive)
+A directive that marks a component or function as cacheable. It can be placed at the top of a file to indicate that all exports in the file are cacheable, or inline at the top of a function or component to mark that specific scope as cacheable. Learn more in the [`"use cache"` reference](https://nextjs.org/docs/app/api-reference/directives/use-cache).

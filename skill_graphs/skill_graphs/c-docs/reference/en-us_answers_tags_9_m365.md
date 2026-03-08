@@ -175,7 +175,7 @@ Processes in Microsoft 365 for setting up Office apps, redeeming product keys, a
 Sign in to follow  Follow
 asked Mar 8, 2026, 12:48 AM
 ![](data:image/svg+xml,%20%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20height='64'%20class='font-weight-bold'%20style='font:%20600%2030.11764705882353px%20"SegoeUI",%20Arial'%20width='64'%3E%3Ccircle%20fill='hsl\(307.2,%2073%,%2039%\)'%20cx='32'%20cy='32'%20r='32'%20/%3E%3Ctext%20x='50%25'%20y='55%25'%20dominant-baseline='middle'%20text-anchor='middle'%20fill='%23FFF'%20%3EPK%3C/text%3E%3C/svg%3E)
-[Parth K](https://learn.microsoft.com/en-us/users/na/?userid=967f3d19-7130-48e8-8d43-202697348bce) 0 Reputation points
+[Path K](https://learn.microsoft.com/en-us/users/na/?userid=967f3d19-7130-48e8-8d43-202697348bce) 0 Reputation points
 answered Mar 8, 2026, 12:48 AM
 ![](https://learn.microsoft.com/en-us/media/profile/user-copilot.png)
 Q&A Assist
@@ -225,7 +225,7 @@ commented Mar 8, 2026, 12:05 AM
 ![](data:image/svg+xml,%20%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20height='64'%20class='font-weight-bold'%20style='font:%20600%2030.11764705882353px%20"SegoeUI",%20Arial'%20width='64'%3E%3Ccircle%20fill='hsl\(124.80000000000001,%2050%,%2022%\)'%20cx='32'%20cy='32'%20r='32'%20/%3E%3Ctext%20x='50%25'%20y='55%25'%20dominant-baseline='middle'%20text-anchor='middle'%20fill='%23FFF'%20%3EDN%3C/text%3E%3C/svg%3E)
 [Darren-Ng](https://learn.microsoft.com/en-us/users/na/?userid=3c95a0df-f4b1-45b0-b95a-f8db1c2e1470) 8,255 Reputation points • Microsoft External Staff • Moderator
 2 answers
-##  [ Student Microsoft 365 Premium but Linkedin isnt activated ](https://learn.microsoft.com/en-us/answers/questions/5776315/student-microsoft-365-premium-but-linkedin-isnt-ac)
+##  [ Student Microsoft 365 Premium but Linkedin isn't activated ](https://learn.microsoft.com/en-us/answers/questions/5776315/student-microsoft-365-premium-but-linkedin-isn't-ac)
 I signed up for the student account, but I can't get LinkedIn Premium. I logged in to LinkedIn using my Microsoft account, but could not find the activate button. I did not receive any email. And I could not find any option to activate LinkedIn in…
 Microsoft 365 and Office | Subscription, account, billing | For education | Windows
 [ Microsoft 365 and Office | Subscription, account, billing | For education | Windows ](https://learn.microsoft.com/en-us/answers/tags/1269/m365-office-subscription-account-billing-education-platform-windows/)

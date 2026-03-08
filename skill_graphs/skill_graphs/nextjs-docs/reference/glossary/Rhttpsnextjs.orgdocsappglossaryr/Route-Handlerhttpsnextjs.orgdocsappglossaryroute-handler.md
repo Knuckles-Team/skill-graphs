@@ -1,0 +1,2 @@
+## Route Handler[](https://nextjs.org/docs/app/glossary#route-handler)
+A function that handles HTTP requests for a specific route, defined in a [`route.js` file](https://nextjs.org/docs/app/api-reference/file-conventions/route). Route Handlers use the Web Request and Response APIs and can handle `GET`, `POST`, `PUT`, `PATCH`, `DELETE`, `HEAD`, and `OPTIONS` methods. Learn more in [Route Handlers](https://nextjs.org/docs/app/getting-started/route-handlers).

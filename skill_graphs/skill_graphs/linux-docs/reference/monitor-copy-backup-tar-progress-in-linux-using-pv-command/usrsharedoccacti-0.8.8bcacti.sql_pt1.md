@@ -181,7 +181,7 @@ May I know on which Linux distribution version you guys trying? so that I can se
 Saguu
 [ July 5, 2016 at 1:04 pm  ](https://www.tecmint.com/install-cacti-network-monitoring-on-rhel-centos-fedora/comment-page-2/#comment-797523)
 @Ravi
-For informations : CentOS 6.8 and cacti version 0.8.8h from repo el6
+For information : CentOS 6.8 and cacti version 0.8.8h from repo el6
 [Reply](https://www.tecmint.com/install-cacti-network-monitoring-on-rhel-centos-fedora/#comment-797523)
          * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
 Ravi Saive
@@ -216,7 +216,7 @@ I don’t think your Cacti installation was successful, please try to re-install
 Saguu
 [ July 4, 2016 at 3:43 pm  ](https://www.tecmint.com/install-cacti-network-monitoring-on-rhel-centos-fedora/comment-page-2/#comment-797309)
 Nice try but it’s the second installation (clean VM). I followed your tutorial step by step. :(
-For informations : CentOS 6.8 and cacti version 0.8.8h from repo el6
+For information : CentOS 6.8 and cacti version 0.8.8h from repo el6
 [Reply](https://www.tecmint.com/install-cacti-network-monitoring-on-rhel-centos-fedora/#comment-797309)
   63. ![](https://secure.gravatar.com/avatar/2b01ee514d978be9db6a7dce10cad6b569b94ced7a1b285c0b996d0ec98c3c8d?s=50&d=blank&r=g)
 Sandalia

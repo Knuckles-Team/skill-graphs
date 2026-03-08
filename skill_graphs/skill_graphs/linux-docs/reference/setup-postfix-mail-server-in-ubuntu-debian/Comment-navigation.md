@@ -83,7 +83,7 @@ You can install the Roundcube email client on the same machine, no need to have 
 [Reply](https://www.tecmint.com/setup-postfix-mail-server-in-ubuntu-debian/#comment-1799085)
   9. Is there any advantage to joining the Ubuntu machine to our Active Directory domain before installing the email server?
 [Reply](https://www.tecmint.com/setup-postfix-mail-server-in-ubuntu-debian/#comment-1729222)
-  10. So I did everything like the turtorial but apache says that this url doesnt exist.
+  10. So I did everything like the tutorial but apache says that this url doesnt exist.
 [Reply](https://www.tecmint.com/setup-postfix-mail-server-in-ubuntu-debian/#comment-1607690)
      * Have you registered your domain ??
 [Reply](https://www.tecmint.com/setup-postfix-mail-server-in-ubuntu-debian/#comment-1715035)

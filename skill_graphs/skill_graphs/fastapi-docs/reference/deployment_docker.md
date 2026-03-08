@@ -1,4 +1,34 @@
 [ Skip to content ](https://fastapi.tiangolo.com/deployment/docker/#fastapi-in-containers-docker)
+[ **FastAPI and friends** newsletter 🎉 ](https://fastapi.tiangolo.com/newsletter/)
+[ ![logo](https://fastapi.tiangolo.com/img/icon-white.svg) ](https://fastapi.tiangolo.com/ "FastAPI")
+FastAPI
+FastAPI in Containers - Docker
+  * [ en - English ](https://fastapi.tiangolo.com/)
+  * [ de - Deutsch ](https://fastapi.tiangolo.com/de/)
+  * [ es - español ](https://fastapi.tiangolo.com/es/)
+  * [ fr - français ](https://fastapi.tiangolo.com/fr/)
+  * [ ja - 日本語 ](https://fastapi.tiangolo.com/ja/)
+  * [ ko - 한국어 ](https://fastapi.tiangolo.com/ko/)
+  * [ pt - português ](https://fastapi.tiangolo.com/pt/)
+  * [ ru - русский язык ](https://fastapi.tiangolo.com/ru/)
+  * [ tr - Türkçe ](https://fastapi.tiangolo.com/tr/)
+  * [ uk - українська мова ](https://fastapi.tiangolo.com/uk/)
+  * [ zh - 简体中文 ](https://fastapi.tiangolo.com/zh/)
+  * [ zh-hant - 繁體中文 ](https://fastapi.tiangolo.com/zh-hant/)
+
+
+[ ](https://fastapi.tiangolo.com/deployment/docker/?q= "Share")
+Type to start searching
+  * [ FastAPI ](https://fastapi.tiangolo.com/)
+  * [ Features ](https://fastapi.tiangolo.com/features/)
+  * [ Learn ](https://fastapi.tiangolo.com/learn/)
+  * [ Reference ](https://fastapi.tiangolo.com/reference/)
+  * [ FastAPI People ](https://fastapi.tiangolo.com/fastapi-people/)
+  * [ Resources ](https://fastapi.tiangolo.com/resources/)
+  * [ About ](https://fastapi.tiangolo.com/about/)
+  * [ Release Notes ](https://fastapi.tiangolo.com/release-notes/)
+
+
 [ ![logo](https://fastapi.tiangolo.com/img/icon-white.svg) ](https://fastapi.tiangolo.com/ "FastAPI") FastAPI
   * [ FastAPI  ](https://fastapi.tiangolo.com/)
   * [ Features  ](https://fastapi.tiangolo.com/features/)
@@ -307,9 +337,7 @@ pydantic>=2.7.0,<3.0.0
 And you would normally install those package dependencies with `pip`, for example:
 ```
 pip install -r requirements.txt
-
-pip install -r requirements.txt██████████████████████████████████ 85%
-
+pip install -r requirements.tx
 
 ```
 
@@ -341,22 +369,22 @@ def read_item(item_id: int, q: str | None = None):
 ### Dockerfile[¶](https://fastapi.tiangolo.com/deployment/docker/#dockerfile)
 Now in the same project directory create a file `Dockerfile` with:
 ```
-
+[](https://fastapi.tiangolo.com/deployment/docker/#__code_4_annotation_1)
 FROM python:3.14
 
-
+[](https://fastapi.tiangolo.com/deployment/docker/#__code_4_annotation_2)
 WORKDIR /code
 
-
+[](https://fastapi.tiangolo.com/deployment/docker/#__code_4_annotation_3)
 COPY ./requirements.txt /code/requirements.txt
 
-
+[](https://fastapi.tiangolo.com/deployment/docker/#__code_4_annotation_4)
 RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
-
+[](https://fastapi.tiangolo.com/deployment/docker/#__code_4_annotation_5)
 COPY ./app /code/app
 
-
+[](https://fastapi.tiangolo.com/deployment/docker/#__code_4_annotation_6)
 CMD ["fastapi", "run", "app/main.py", "--port", "80"]
 
 ```
@@ -436,10 +464,7 @@ Now that all the files are in place, let's build the container image.
 
 ```
 docker build -t myimage .
-
 docker build -t myimage .
-██████████████████████████████████████ 95%
-
 
 ```
 
@@ -452,10 +477,7 @@ In this case, it's the same current directory (`.`).
 
 ```
 docker run -d --name mycontainer -p 80:80 myimage
-
-docker run -d --name mycontainer -p 80:80 myimage
-
-
+docker run -d --name mycontain
 
 ```
 
@@ -495,10 +517,10 @@ COPY ./requirements.txt /code/requirements.txt
 
 RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
-
+[](https://fastapi.tiangolo.com/deployment/docker/#__code_16_annotation_1)
 COPY ./main.py /code/
 
-
+[](https://fastapi.tiangolo.com/deployment/docker/#__code_16_annotation_2)
 CMD ["fastapi", "run", "main.py", "--port", "80"]
 
 ```
@@ -561,7 +583,7 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
 COPY ./app /code/app
 
-
+[](https://fastapi.tiangolo.com/deployment/docker/#__code_17_annotation_1)
 CMD ["fastapi", "run", "app/main.py", "--port", "80", "--workers", "4"]
 
 ```
@@ -628,3 +650,7 @@ Using container systems (e.g. with **Docker** and **Kubernetes**) it becomes fai
 
 In most cases, you probably won't want to use any base image, and instead **build a container image from scratch** based on the official Python Docker image.
 Taking care of the **order** of instructions in the `Dockerfile` and the **Docker cache** you can **minimize build times** , to maximize your productivity (and avoid boredom). 😎
+[ Previous  Server Workers - Uvicorn with Workers  ](https://fastapi.tiangolo.com/deployment/server-workers/) [ Next  How To - Recipes  ](https://fastapi.tiangolo.com/how-to/)
+The FastAPI trademark is owned by [@tiangolo](https://tiangolo.com) and is registered in the US and across other regions
+Made with
+[ ](https://tiangolo.com "tiangolo.com")

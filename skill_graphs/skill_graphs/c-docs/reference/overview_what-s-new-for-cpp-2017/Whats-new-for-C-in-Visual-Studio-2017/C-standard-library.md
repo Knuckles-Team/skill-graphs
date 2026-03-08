@@ -3,7 +3,7 @@
 ### Correctness Improvements
 [](https://learn.microsoft.com/en-us/cpp/overview/what-s-new-for-cpp-2017?view=msvc-170#visual-studio-2017-rtm-version-150)
 ##### Visual Studio 2017 RTM (version 15.0)
-  * Minor `basic_string` `_ITERATOR_DEBUG_LEVEL != 0` diagnostics improvements. When an IDL check gets tripped in string machinery, it now reports the specific behavior that caused the trip. For example, instead of "string iterator not dereferencable" you get "cannot dereference string iterator because it is out of range (e.g. an end iterator)".
+  * Minor `basic_string` `_ITERATOR_DEBUG_LEVEL != 0` diagnostics improvements. When an IDL check gets tripped in string machinery, it now reports the specific behavior that caused the trip. For example, instead of "string iterator not dereferenceable" you get "cannot dereference string iterator because it is out of range (e.g. an end iterator)".
   * Fixed the `std::promise` move assignment operator, which previously could cause code to block forever.
   * Fixed compiler errors with the `atomic<T*>` implicit conversion to `T*`.
   * `pointer_traits<Ptr>` now correctly detects `Ptr::rebind<U>`.
@@ -43,7 +43,7 @@ There are more standard library improvements in Visual Studio 2017 RTM. For a co
 [](https://learn.microsoft.com/en-us/cpp/overview/what-s-new-for-cpp-2017?view=msvc-170#visual-studio-2017-version-155-2)
 ##### Visual Studio 2017 version 15.5
   * `std::partition` now calls the predicate `N` times instead of `N + 1` times, as the standard requires.
-  * Attempts to avoid magic statics in version 15.3 are repaired in version 15.5.
+  * Attempts to avoid magic statistics in version 15.3 are repaired in version 15.5.
   * `std::atomic<T>` no longer requires `T` to be default constructible.
   * Heap algorithms that take logarithmic time behave differently when iterator debugging is enabled. They no longer do a linear time assertion that the input is in fact a heap.
   * `__declspec(allocator)` is now guarded for C1XX only, to prevent warnings from Clang, which doesn't understand this declspec.
@@ -138,7 +138,7 @@ For more information, see [Microsoft C/C++ language conformance](https://learn.m
 
 [](https://learn.microsoft.com/en-us/cpp/overview/what-s-new-for-cpp-2017?view=msvc-170#visual-studio-2017-version-153-4)
 ##### Visual Studio 2017 version 15.3
-  * Worked around interactions with **`noexcept`**, which prevented inlining the`std::atomic` implementation into functions that use Structured Exception Handling (SEH).
+  * Worked around interactions with **`noexcept`**, which prevented inlining the`std::atomic` implementation into functions that use Structured Exception Handling (SHE).
   * Changed the standard library's internal `_Deallocate()` function to optimize into smaller code, allowing it to be inlined into more places.
   * Changed `std::try_lock()` to use pack expansion instead of recursion.
   * Improved the `std::lock()` deadlock avoidance algorithm to use `lock()` operations instead of spinning on `try_lock()` on all the locks.

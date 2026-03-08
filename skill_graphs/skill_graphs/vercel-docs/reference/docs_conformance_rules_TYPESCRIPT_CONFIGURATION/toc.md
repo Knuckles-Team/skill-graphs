@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [docs_conformance_rules_TYPESCRIPT_CONFIGURATION](<./docs_conformance_rules_TYPESCRIPT_CONFIGURATION.md>)
+- [TYPESCRIPT_CONFIGURATION](<./TYPESCRIPT_CONFIGURATION.md>)
+  - [[Example](https://vercel.com/docs/conformance/rules/TYPESCRIPT_CONFIGURATION#example)[](https://vercel.com/docs/conformance/rules/TYPESCRIPT_CONFIGURATION#example)](<./TYPESCRIPT_CONFIGURATION/Examplehttpsvercel.comdocsconformancerulesTYPESCRIPT_CONFIGURATIONexamplehttpsvercel.comdocsconformancerulesTYPESCRIPT_CONFIGURATIONexample.md>)
+  - [[How To Fix](https://vercel.com/docs/conformance/rules/TYPESCRIPT_CONFIGURATION#how-to-fix)[](https://vercel.com/docs/conformance/rules/TYPESCRIPT_CONFIGURATION#how-to-fix)](<./TYPESCRIPT_CONFIGURATION/How-To-Fixhttpsvercel.comdocsconformancerulesTYPESCRIPT_CONFIGURATIONhow-to-fixhttpsvercel.comdocsconformancerulesTYPESCRIPT_CONFIGURATIONhow-to-fix.md>)
+  - [Get Started](<./TYPESCRIPT_CONFIGURATION/Get-Started.md>)
+  - [Build](<./TYPESCRIPT_CONFIGURATION/Build.md>)
+  - [Scale](<./TYPESCRIPT_CONFIGURATION/Scale.md>)
+  - [Secure](<./TYPESCRIPT_CONFIGURATION/Secure.md>)
+  - [Resources](<./TYPESCRIPT_CONFIGURATION/Resources.md>)
+  - [Learn](<./TYPESCRIPT_CONFIGURATION/Learn.md>)
+  - [Frameworks](<./TYPESCRIPT_CONFIGURATION/Frameworks.md>)
+  - [SDKs](<./TYPESCRIPT_CONFIGURATION/SDKs.md>)
+  - [Use Cases](<./TYPESCRIPT_CONFIGURATION/Use-Cases.md>)
+  - [Company](<./TYPESCRIPT_CONFIGURATION/Company.md>)
+  - [Community](<./TYPESCRIPT_CONFIGURATION/Community.md>)

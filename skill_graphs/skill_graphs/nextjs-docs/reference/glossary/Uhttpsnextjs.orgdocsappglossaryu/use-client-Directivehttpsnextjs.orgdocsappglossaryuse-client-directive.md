@@ -1,0 +1,2 @@
+##  `"use client"` Directive[](https://nextjs.org/docs/app/glossary#use-client-directive)
+A special React directive that marks the boundary between server and client code. It must be placed at the top of a file, before any imports or other code. It indicates that React Components, helper functions, variable declarations, and all imported dependencies should be included in the [client bundle](https://nextjs.org/docs/app/glossary#client-bundles). Learn more in the [`"use client"` reference](https://nextjs.org/docs/app/api-reference/directives/use-client).

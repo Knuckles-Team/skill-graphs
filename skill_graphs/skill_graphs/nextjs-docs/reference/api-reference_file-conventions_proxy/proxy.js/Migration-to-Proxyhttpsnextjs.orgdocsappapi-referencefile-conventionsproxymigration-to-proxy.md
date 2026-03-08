@@ -1,0 +1,21 @@
+## Migration to Proxy[](https://nextjs.org/docs/app/api-reference/file-conventions/proxy#migration-to-proxy)
+### Why the Change[](https://nextjs.org/docs/app/api-reference/file-conventions/proxy#why-the-change)
+The reason behind the renaming of `middleware` is that the term "middleware" can often be confused with Express.js middleware, leading to a misinterpretation of its purpose. Also, Middleware is highly capable, so it may encourage the usage; however, this feature is recommended to be used as a last resort.
+Next.js is moving forward to provide better APIs with better ergonomics so that developers can achieve their goals without Middleware. This is the reason behind the renaming of `middleware`.
+### Why "Proxy"[](https://nextjs.org/docs/app/api-reference/file-conventions/proxy#why-proxy)
+The name Proxy clarifies what Middleware is capable of. The term "proxy" implies that it has a network boundary in front of the app, which is the behavior of Middleware. Also, Middleware defaults to run at the [Edge Runtime](https://nextjs.org/docs/app/api-reference/edge), which can run closer to the client, separated from the app's region. These behaviors align better with the term "proxy" and provide a clearer purpose of the feature.
+### How to Migrate[](https://nextjs.org/docs/app/api-reference/file-conventions/proxy#how-to-migrate)
+We recommend users avoid relying on Middleware unless no other options exist. Our goal is to give them APIs with better ergonomics so they can achieve their goals without Middleware.
+The term “middleware” often confuses users with Express.js middleware, which can encourage misuse. To clarify our direction, we are renaming the file convention to “proxy.” This highlights that we are moving away from Middleware, breaking down its overloaded features, and making the Proxy clear in its purpose.
+Next.js provides a codemod to migrate from `middleware.ts` to `proxy.ts`. You can run the following command to migrate:
+```
+npx @next/codemod@canary middleware-to-proxy .
+```
+
+The codemod will rename the file and the function name from `middleware` to `proxy`.
+```
+// middleware.ts -> proxy.ts
+
+- export function middleware() {
++ export function proxy() {
+```

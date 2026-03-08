@@ -1,0 +1,5 @@
+## GB18030 support
+GB18030 is a separate standard that's used in the People's Republic of China for encoding Chinese characters. In GB18030, characters can be 1, 2, or 4 bytes in length. SQL Server provides support for GB18030-encoded characters by recognizing them when they enter the server from a client-side application and converting and storing them natively as Unicode characters. After they're stored in the server, they're treated as Unicode characters in any subsequent operations.
+You can use any Chinese collation, preferably the latest 100 version. All version 100 collations support linguistic sorting with GB18030 characters. If the data includes supplementary characters (surrogate pairs), you can use the SC collations that are available in SQL Server to improve searching and sorting.
+Ensure that your client tools, such as SQL Server Management Studio, use the Dengxian font to correctly display strings that contain GB18030-encoded characters.
+[](https://learn.microsoft.com/en-us/sql/relational-databases/collations/collation-and-unicode-support?view=sql-server-ver17#complex-script-support)

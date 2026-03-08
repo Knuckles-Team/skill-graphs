@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [docs_botid_get-started](<./docs_botid_get-started.md>)
+- [Get Started with BotID](<./Get-Started-with-BotID.md>)
+  - [[Step by step guide](https://vercel.com/docs/botid/get-started#step-by-step-guide)[](https://vercel.com/docs/botid/get-started#step-by-step-guide)](<./Get-Started-with-BotID/Step-by-step-guidehttpsvercel.comdocsbotidget-startedstep-by-step-guidehttpsvercel.comdocsbotidget-startedstep-by-step-guide.md>)
+  - [[Complete examples](https://vercel.com/docs/botid/get-started#complete-examples)[](https://vercel.com/docs/botid/get-started#complete-examples)](<./Get-Started-with-BotID/Complete-exampleshttpsvercel.comdocsbotidget-startedcomplete-exampleshttpsvercel.comdocsbotidget-startedcomplete-examples.md>)
+  - [Get Started](<./Get-Started-with-BotID/Get-Started.md>)
+  - [Build](<./Get-Started-with-BotID/Build.md>)
+  - [Scale](<./Get-Started-with-BotID/Scale.md>)
+  - [Secure](<./Get-Started-with-BotID/Secure.md>)
+  - [Resources](<./Get-Started-with-BotID/Resources.md>)
+  - [Learn](<./Get-Started-with-BotID/Learn.md>)
+  - [Frameworks](<./Get-Started-with-BotID/Frameworks.md>)
+  - [SDKs](<./Get-Started-with-BotID/SDKs.md>)
+  - [Use Cases](<./Get-Started-with-BotID/Use-Cases.md>)
+  - [Company](<./Get-Started-with-BotID/Company.md>)
+  - [Community](<./Get-Started-with-BotID/Community.md>)

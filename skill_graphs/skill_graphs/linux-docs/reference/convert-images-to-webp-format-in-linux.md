@@ -351,7 +351,7 @@ Thanks
 Edward
 [ July 17, 2017 at 11:36 pm  ](https://www.tecmint.com/netdata-real-time-linux-performance-network-monitoring-tool/#comment-900173)
 On mine this was missing ( libuuid-devel )
-See if thats what you need
+See if that's what you need
 [Reply](https://www.tecmint.com/netdata-real-time-linux-performance-network-monitoring-tool/#comment-900173)
   9. ![](https://secure.gravatar.com/avatar/9abdefd9c407a2305241d821be7c1c3a59f1f339c37d03e9c3f77de497ffdc93?s=50&d=blank&r=g)
 Superior
@@ -495,7 +495,7 @@ But anyway – for “real” multi-machine monitoring and alerting I’ll choos
          * ![](https://secure.gravatar.com/avatar/47332f6e382aec87510fad784f39ee9dadeaf4845a43656785d19ab21f647235?s=50&d=blank&r=g)
 BikerSco
 [ April 12, 2016 at 8:42 pm  ](https://www.tecmint.com/netdata-real-time-linux-performance-network-monitoring-tool/#comment-772280)
-Thats the whole point of this tool, there are loads of centralised monitoring tools out there. NetData is for realtime monitoring of a server so needs to run on that server so its actually real time data your seeing.
+That's the whole point of this tool, there are loads of centralised monitoring tools out there. NetData is for realtime monitoring of a server so needs to run on that server so its actually real time data your seeing.
 [Reply](https://www.tecmint.com/netdata-real-time-linux-performance-network-monitoring-tool/#comment-772280)
        * ![](https://secure.gravatar.com/avatar/2c142108a47d2a40b160b99fc2d8ca5ba43bcf0fb9429e757022be5b8514ebf7?s=50&d=blank&r=g)
 Rafael Rojas

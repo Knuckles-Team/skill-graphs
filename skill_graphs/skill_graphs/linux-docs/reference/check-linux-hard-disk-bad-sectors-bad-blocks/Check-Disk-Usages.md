@@ -156,7 +156,7 @@ I’ll add to the modified script (I’m working actually) to check for CURL ava
      * ![](https://secure.gravatar.com/avatar/4f2d0693690cbb324e00ec4ed125c5b33a48df416d967ff62105be1f8ed3e1d5?s=50&d=blank&r=g)
 Andres Tarallo
 [ July 22, 2016 at 9:27 pm  ](https://www.tecmint.com/linux-server-health-monitoring-script/#comment-801419)
-I’ve added a check for availiability of CURL, you can find the script on:
+I’ve added a check for availability of CURL, you can find the script on:
 [Reply](https://www.tecmint.com/linux-server-health-monitoring-script/#comment-801419)
        * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
 Ravi Saive
@@ -267,7 +267,7 @@ Ronaldo
 [ May 9, 2015 at 8:39 pm  ](https://www.tecmint.com/linux-server-health-monitoring-script/#comment-565101)
 Very nice script, thanks so much.Linux forever 100 % optimal O.S.
 i found a issue see:
-./tecmint_monitor.sh: linha 79: curl: comando não encontrado curl: command not found
+./tecmint_monitor.sh: linha 79: curl: commando não encontrado curl: command not found
 I use peppermint 5 ( Ubuntu 14.04 based ) and great O.S.
 thanks and advance ( keep running ;) )
 [Reply](https://www.tecmint.com/linux-server-health-monitoring-script/#comment-565101)

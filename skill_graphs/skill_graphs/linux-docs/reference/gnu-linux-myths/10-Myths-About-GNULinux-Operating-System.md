@@ -24,7 +24,7 @@ However, over the years, the open-source community has ramped up efforts to enha
 Nowadays, most [modern Linux distributions](https://www.tecmint.com/top-most-popular-linux-distributions/ "Most Popular Linux Distributions") provide a **GUI** (**Graphical User Interface**) by way of graphical features such as windows, menus, icons, panels, and widgets in order to enhance user interaction and experience.
 ![Debian Linux](https://www.tecmint.com/wp-content/uploads/2013/09/Debian-Linux.png)Debian Linux
 A distribution like **Zorin** closely resembles **Windows** while others such as **Ubuntu** , **Fedora** , **Elementary** , and **Linux Mint** are recommended for beginners transitioning to Linux. They provide a simple and intuitive UI to help users get their way around the system.
-The GUI versions of these distributions provide an exemplary user experience and allow users to undertake everyday tasks such as [web browsing](https://www.tecmint.com/linux-web-browsers/ "Linux Best Web Browsers"), word processing, [video editing](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/ "Best Linux Video Editing Softwares"), gaming, and software development much the same way they would on **Windows** or **Mac**.
+The GUI versions of these distributions provide an exemplary user experience and allow users to undertake everyday tasks such as [web browsing](https://www.tecmint.com/linux-web-browsers/ "Linux Best Web Browsers"), word processing, [video editing](https://www.tecmint.com/best-free-video-editing-softwares-for-linux/ "Best Linux Video Editing Software"), gaming, and software development much the same way they would on **Windows** or **Mac**.
 **You might also like:**
   * [Learn Basic Linux System Commands](https://www.tecmint.com/basic-linux-commands/ "Basic Linux System Commands")
   * [Learn Basic File Management Commands in Linux](https://www.tecmint.com/linux-file-management-commands/ "Learn Basic File Management Commands in Linux")
@@ -175,11 +175,11 @@ Ben
 3. Linux does not support After Effects or any professional grade video production software. FACT
 4. Linux does not make installing most programs easy for the end user. FACT
 5. Linux nerds think the general public want to use MS-DOS terminals that have been obsolete for 30-40 years. FACT
-6. Every year for the past decade it is proclaimed that it is “the year” Linux will take over the world, even though it doesn’t even support releveant software. FACT
+6. Every year for the past decade it is proclaimed that it is “the year” Linux will take over the world, even though it doesn’t even support relevant software. FACT
 7. Wine is buggy and doesn’t not work with a lot of programs. FACT
 8. If Linux was so great it would be the #1 OS and it’s not even close(1% market share). FACT
 9. Linux nerds will proclaim about how its used in server farms, databases, and rendering machines but fail to realize those are dummy machines that any os can do and is a small percentage of total devices being used on a daily basis.
-10. Linux nerds when presented with facts will cry that I am refering to Linux(Kernel) and not a single distribution because they have no real argument. FACT
+10. Linux nerds when presented with facts will cry that I am referring to Linux(Kernel) and not a single distribution because they have no real argument. FACT
 11. When presented how useless Linux is as a desktop OS for the average user they will point to Android, which last time I checked is not a desktop OS. FACT
 12. Fanboys will point to xyz browser based cloud software and say “See Linux can run that”, when by that measure we can say the same thing about windows 95, WebTV and any other ancient devices and/or OS’s that have a browser. FACT
 13. Fanboys will throw a fit and just claim you don’t know how to use a computer and in complete denial that it’s not operator error, it’s just that Linux sucks. FACT
@@ -228,10 +228,10 @@ If none of this bothers you, then you’re a fool. If it does bother you, then y
   12. ![](https://secure.gravatar.com/avatar/07cc45213c9297bdec08df537476472eeb66653d28ea4f33b07d50278acea246?s=50&d=blank&r=g)
 Lilltiger
 [ September 21, 2013 at 3:49 pm  ](https://www.tecmint.com/gnu-linux-myths/#comment-49772)
-#3: Why noit show QtCreator/KDevelop/Eclips doing C++ or something like that, or the Unity3D engine scripting, insted of silly HTML.
+#3: Why noit show QtCreator/KDevelop/Eclips doing C++ or something like that, or the Unity3D engine scripting, instead of silly HTML.
 #4: Are you trying to give liux a bad name, that is not much of a game, Show some real games like Dota2/HoN/CK2.
 #5: Amarok is way more impressive music player.
-#8: Why not show Skype insted as it’s a well known app.
+#8: Why not show Skype instead as it’s a well known app.
 #10: Show something real in Blender or Maya, not som silly cml viewer where it looks like something from the 80’s.
 #11: How about mentioning that 90% of all supercomputers runs linux, most webservers etc.
 [Reply](https://www.tecmint.com/gnu-linux-myths/#comment-49772)
@@ -288,7 +288,7 @@ this mythical collection. is stretching it…
   19. ![](https://secure.gravatar.com/avatar/563fc240cf3d1dff961ad722bbe6ea1ac34a96d47b3712fddde4c126ec18c8aa?s=50&d=blank&r=g)
 veggen
 [ September 7, 2013 at 10:52 pm  ](https://www.tecmint.com/gnu-linux-myths/#comment-42306)
-Your myths are myths. Noone thinks any of those.
+Your myths are myths. No one thinks any of those.
 [Reply](https://www.tecmint.com/gnu-linux-myths/#comment-42306)
   20. ![](https://secure.gravatar.com/avatar/defab33801a2cf71c78a57aa1341bc231ab7ae2b9a5737216f7c2b1d0fd19fb4?s=50&d=blank&r=g)
 Prime

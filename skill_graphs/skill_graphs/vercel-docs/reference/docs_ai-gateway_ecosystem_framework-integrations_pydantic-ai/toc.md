@@ -1,0 +1,16 @@
+# Table of Contents
+
+- [docs_ai-gateway_ecosystem_framework-integrations_pydantic-ai](<./docs_ai-gateway_ecosystem_framework-integrations_pydantic-ai.md>)
+- [Pydantic AI](<./Pydantic-AI.md>)
+  - [[Getting started](https://vercel.com/docs/ai-gateway/ecosystem/framework-integrations/pydantic-ai#getting-started)[](https://vercel.com/docs/ai-gateway/ecosystem/framework-integrations/pydantic-ai#getting-started)](<./Pydantic-AI/Getting-startedhttpsvercel.comdocsai-gatewayecosystemframework-integrationspydantic-aigetting-startedhttpsvercel.comdocsai-gatewayecosystemframework-integrationspydantic-aigetting-started.md>)
+  - [Get Started](<./Pydantic-AI/Get-Started.md>)
+  - [Build](<./Pydantic-AI/Build.md>)
+  - [Scale](<./Pydantic-AI/Scale.md>)
+  - [Secure](<./Pydantic-AI/Secure.md>)
+  - [Resources](<./Pydantic-AI/Resources.md>)
+  - [Learn](<./Pydantic-AI/Learn.md>)
+  - [Frameworks](<./Pydantic-AI/Frameworks.md>)
+  - [SDKs](<./Pydantic-AI/SDKs.md>)
+  - [Use Cases](<./Pydantic-AI/Use-Cases.md>)
+  - [Company](<./Pydantic-AI/Company.md>)
+  - [Community](<./Pydantic-AI/Community.md>)

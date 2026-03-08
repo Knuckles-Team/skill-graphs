@@ -1,0 +1,3 @@
+##  [Access roles](https://vercel.com/docs/vercel-firewall/vercel-waf/custom-rules#access-roles)[](https://vercel.com/docs/vercel-firewall/vercel-waf/custom-rules#access-roles)
+  * You need to be a [Developer](https://vercel.com/docs/rbac/access-roles#developer-role) or viewer ([Viewer Pro](https://vercel.com/docs/rbac/access-roles#viewer-pro-role) or [Viewer Enterprise](https://vercel.com/docs/rbac/access-roles#viewer-enterprise-role)) in the team to view the Firewall overview page and list the rules
+  * You need to be a [Project administrator](https://vercel.com/docs/rbac/access-roles#project-administrators) or [Team member](https://vercel.com/docs/rbac/access-roles#member-role) to configure, save and apply any rule and configuration

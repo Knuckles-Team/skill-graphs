@@ -1,0 +1,3 @@
+## More examples[](https://nextjs.org/docs/app/guides/backend-for-frontend#more-examples)
+See more examples on using [Router Handlers](https://nextjs.org/docs/app/api-reference/file-conventions/route#examples) and the [`proxy`](https://nextjs.org/docs/app/api-reference/file-conventions/proxy#examples) API references.
+These examples include, working with [Cookies](https://nextjs.org/docs/app/api-reference/file-conventions/route#cookies), [Headers](https://nextjs.org/docs/app/api-reference/file-conventions/route#headers), [Streaming](https://nextjs.org/docs/app/api-reference/file-conventions/route#streaming), Proxy [negative matching](https://nextjs.org/docs/app/api-reference/file-conventions/proxy#negative-matching), and other useful code snippets.

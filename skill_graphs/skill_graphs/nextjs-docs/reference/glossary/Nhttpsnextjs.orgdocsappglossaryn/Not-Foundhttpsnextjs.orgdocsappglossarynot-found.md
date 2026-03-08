@@ -1,0 +1,2 @@
+## Not Found[](https://nextjs.org/docs/app/glossary#not-found)
+A special component shown when a route doesn't exist or when the [`notFound()` function](https://nextjs.org/docs/app/api-reference/functions/not-found) is called. Created by adding a [`not-found.js` file](https://nextjs.org/docs/app/api-reference/file-conventions/not-found) to your app directory. Learn more in [Error Handling](https://nextjs.org/docs/app/getting-started/error-handling#not-found).

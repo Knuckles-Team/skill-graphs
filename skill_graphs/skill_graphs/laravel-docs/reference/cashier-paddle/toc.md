@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [cashier-paddle](<./cashier-paddle.md>)
+- [Laravel Cashier (Paddle)](<./Laravel-Cashier-Paddle.md>)
+  - [[Introduction](https://laravel.com/docs/12.x/cashier-paddle#introduction)](<./Laravel-Cashier-Paddle/Introductionhttpslaravel.comdocs12.xcashier-paddleintroduction.md>)
+  - [[Upgrading Cashier](https://laravel.com/docs/12.x/cashier-paddle#upgrading-cashier)](<./Laravel-Cashier-Paddle/Upgrading-Cashierhttpslaravel.comdocs12.xcashier-paddleupgrading-cashier.md>)
+  - [[Installation](https://laravel.com/docs/12.x/cashier-paddle#installation)](<./Laravel-Cashier-Paddle/Installationhttpslaravel.comdocs12.xcashier-paddleinstallation.md>)
+  - [[Configuration](https://laravel.com/docs/12.x/cashier-paddle#configuration)](<./Laravel-Cashier-Paddle/Configurationhttpslaravel.comdocs12.xcashier-paddleconfiguration.md>)
+  - [[Quickstart](https://laravel.com/docs/12.x/cashier-paddle#quickstart)](<./Laravel-Cashier-Paddle/Quickstarthttpslaravel.comdocs12.xcashier-paddlequickstart.md>)
+  - [[Checkout Sessions](https://laravel.com/docs/12.x/cashier-paddle#checkout-sessions)](<./Laravel-Cashier-Paddle/Checkout-Sessionshttpslaravel.comdocs12.xcashier-paddlecheckout-sessions.md>)
+  - [[Price Previews](https://laravel.com/docs/12.x/cashier-paddle#price-previews)](<./Laravel-Cashier-Paddle/Price-Previewshttpslaravel.comdocs12.xcashier-paddleprice-previews.md>)
+  - [[Customers](https://laravel.com/docs/12.x/cashier-paddle#customers)](<./Laravel-Cashier-Paddle/Customershttpslaravel.comdocs12.xcashier-paddlecustomers.md>)
+  - [[Subscriptions](https://laravel.com/docs/12.x/cashier-paddle#subscriptions)](<./Laravel-Cashier-Paddle/Subscriptionshttpslaravel.comdocs12.xcashier-paddlesubscriptions.md>)
+  - [[Subscription Trials](https://laravel.com/docs/12.x/cashier-paddle#subscription-trials)](<./Laravel-Cashier-Paddle/Subscription-Trialshttpslaravel.comdocs12.xcashier-paddlesubscription-trials.md>)
+  - [[Handling Paddle Webhooks](https://laravel.com/docs/12.x/cashier-paddle#handling-paddle-webhooks)](<./Laravel-Cashier-Paddle/Handling-Paddle-Webhookshttpslaravel.comdocs12.xcashier-paddlehandling-paddle-webhooks.md>)
+  - [[Single Charges](https://laravel.com/docs/12.x/cashier-paddle#single-charges)](<./Laravel-Cashier-Paddle/Single-Chargeshttpslaravel.comdocs12.xcashier-paddlesingle-charges.md>)
+  - [[Transactions](https://laravel.com/docs/12.x/cashier-paddle#transactions)](<./Laravel-Cashier-Paddle/Transactionshttpslaravel.comdocs12.xcashier-paddletransactions.md>)
+  - [[Testing](https://laravel.com/docs/12.x/cashier-paddle#testing)](<./Laravel-Cashier-Paddle/Testinghttpslaravel.comdocs12.xcashier-paddletesting.md>)

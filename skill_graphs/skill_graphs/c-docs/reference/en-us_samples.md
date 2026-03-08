@@ -149,7 +149,7 @@ Content will filter as you type
     * Azure IoT Edge
     * Azure IoT Hub
     * Azure Key Vault
-    * Azure Kubernetes Service (AKS)
+    * Azure Kubernetes Service (ASK)
     * Azure Load Balancer
     * Azure Load Testing
     * Azure Log Analytics

@@ -1,5 +1,5 @@
 [ Skip to content ](https://docs.pydantic.dev/latest/concepts/serialization/#serializing-data)
-What's new — we've launched [Pydantic Logfire](https://pydantic.dev/articles/logfire-announcement) ![🔥](https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f525.svg) to help you monitor and understand your [FastAPI a](https://logfire.pydantic.dev/docs/integrations/fastapi/)
+What's new — we've launched [Pydantic Logfire](https://pydantic.dev/articles/logfire-announcement) ![🔥](https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f525.svg) to help you monitor and understand your [Pydantic validatio](https://logfire.pydantic.dev/docs/integrations/pydantic/)
 [ ![logo](https://docs.pydantic.dev/latest/logo-white.svg) ](https://docs.pydantic.dev/latest/ "Pydantic Validation")
 Pydantic Validation
 2.12
@@ -207,7 +207,7 @@ Want to quickly jump to the relevant serializer section?
 
 ## Serializing data[¶](https://docs.pydantic.dev/latest/concepts/serialization/#serializing-data)
 Pydantic allows models (and any other type using [type adapters](https://docs.pydantic.dev/latest/concepts/type_adapter/)) to be serialized in _two_ modes: [Python](https://docs.pydantic.dev/latest/concepts/serialization/#python-mode) and [JSON](https://docs.pydantic.dev/latest/concepts/serialization/#json-mode). The Python output may contain non-JSON serializable data (although this can be emulated).
-[](https://docs.pydantic.dev/latest/concepts/serialization/)
+[](https://docs.pydantic.dev/latest/concepts/serialization/#excluding-and-including-fields-based-on-their-value)
 ### Python mode[¶](https://docs.pydantic.dev/latest/concepts/serialization/#python-mode)
 When using the Python mode, Pydantic models (and model-like types such as [`model_dump()`](https://docs.pydantic.dev/latest/api/base_model/#pydantic.BaseModel.model_dump) method:
 [Python 3.9 and above](https://docs.pydantic.dev/latest/concepts/serialization/#__tabbed_1_1)[Python 3.10 and above](https://docs.pydantic.dev/latest/concepts/serialization/#__tabbed_1_2)
@@ -272,7 +272,7 @@ print(m.model_dump(mode='json'))
 
 See also
 The [`TypeAdapter.dump_python()`](https://docs.pydantic.dev/latest/api/type_adapter/#pydantic.type_adapter.TypeAdapter.dump_python) method, useful when _not_ dealing with Pydantic models.
-[](https://docs.pydantic.dev/latest/concepts/serialization/)
+[](https://docs.pydantic.dev/latest/concepts/serialization/#excluding-and-including-fields-based-on-their-value)
 ### JSON mode[¶](https://docs.pydantic.dev/latest/concepts/serialization/#json-mode)
 Pydantic allows data to be serialized directly to a JSON-encoded string, by trying its best to convert Python values to valid JSON data. This is achievable by using the [`model_dump_json()`](https://docs.pydantic.dev/latest/api/base_model/#pydantic.BaseModel.model_dump_json) method:
 ```
@@ -310,7 +310,7 @@ print(m.model_dump_json(indent=2))
 In addition to the [`PydanticSerializationError`](https://docs.pydantic.dev/latest/api/pydantic_core/#pydantic_core.PydanticSerializationError) exception is raised.
 See also
 The [`TypeAdapter.dump_json()`](https://docs.pydantic.dev/latest/api/type_adapter/#pydantic.type_adapter.TypeAdapter.dump_json) method, useful when _not_ dealing with Pydantic models.
-[](https://docs.pydantic.dev/latest/concepts/serialization/)
+[](https://docs.pydantic.dev/latest/concepts/serialization/#excluding-and-including-fields-based-on-their-value)
 ## Iterating over models[¶](https://docs.pydantic.dev/latest/concepts/serialization/#iterating-over-models)
 Pydantic models can also be iterated over, yielding `(field_name, field_value)` pairs. Note that field values are left as is, so sub-models will _not_ be converted to dictionaries:
 ```
@@ -346,7 +346,7 @@ print(dict(m))
 
 Note
 [Root models](https://docs.pydantic.dev/latest/concepts/models/#rootmodel-and-custom-root-types) _does_ get converted to a dictionary with the key `'root'`.
-[](https://docs.pydantic.dev/latest/concepts/serialization/)
+[](https://docs.pydantic.dev/latest/concepts/serialization/#excluding-and-including-fields-based-on-their-value)
 ## Pickling support[¶](https://docs.pydantic.dev/latest/concepts/serialization/#pickling-support)
 Pydantic models support efficient pickling and unpickling.
 ```
@@ -372,7 +372,7 @@ print(m2)
 
 ```
 
-[](https://docs.pydantic.dev/latest/concepts/serialization/)
+[](https://docs.pydantic.dev/latest/concepts/serialization/#excluding-and-including-fields-based-on-their-value)
 ## Serializers[¶](https://docs.pydantic.dev/latest/concepts/serialization/#serializers)
 Similar to [custom validators](https://docs.pydantic.dev/latest/concepts/validators/), you can leverage custom serializers at the field and model levels to further control the serialization behavior.
 Warning
@@ -626,7 +626,7 @@ print(model.model_dump(context={'stopwords': ['this', 'is', 'an']}))
 
 Similarly, you can [use a context for validation](https://docs.pydantic.dev/latest/concepts/validators/#validation-context).
 ## Serializing subclasses[¶](https://docs.pydantic.dev/latest/concepts/serialization/#serializing-subclasses)
-[](https://docs.pydantic.dev/latest/concepts/serialization/)
+[](https://docs.pydantic.dev/latest/concepts/serialization/#excluding-and-including-fields-based-on-their-value)
 ### Subclasses of supported types[¶](https://docs.pydantic.dev/latest/concepts/serialization/#subclasses-of-supported-types)
 Subclasses of supported types are serialized according to their super class:
 ```
@@ -651,7 +651,7 @@ print(m.model_dump_json())
 
 ```
 
-[](https://docs.pydantic.dev/latest/concepts/serialization/)
+[](https://docs.pydantic.dev/latest/concepts/serialization/#excluding-and-including-fields-based-on-their-value)
 ### Subclasses of model-like types[¶](https://docs.pydantic.dev/latest/concepts/serialization/#subclasses-of-model-like-types)
 When using model-like classes (Pydantic models, dataclasses, etc.) as field annotations, the default behavior is to serializer the field value as though it was an instance of the class, even if it is a subclass. More specifically, only the fields declared on the type annotation will be included in the serialization result:
 ```
@@ -760,8 +760,8 @@ print(outer_model.model_dump(serialize_as_any=False))  [](https://docs.pydantic.
 ```
 
 However, do note that the _serialize as any_ behavior will apply to _all_ values, not only the values where duck typing is relevant. You may want to prefer using the `SerializeAsAny` annotation when required instead.
-[](https://docs.pydantic.dev/latest/concepts/serialization/)
-[](https://docs.pydantic.dev/latest/concepts/serialization/)
+[](https://docs.pydantic.dev/latest/concepts/serialization/#excluding-and-including-fields-based-on-their-value)
+[](https://docs.pydantic.dev/latest/concepts/serialization/#excluding-and-including-fields-based-on-their-value)
 ## Field inclusion and exclusion[¶](https://docs.pydantic.dev/latest/concepts/serialization/#field-inclusion-and-exclusion)
 For serialization, field inclusion and exclusion can be configured in two ways:
   * at the field level, using the `exclude` and `exclude_if` parameters on [the `Field()` function](https://docs.pydantic.dev/latest/concepts/fields/).

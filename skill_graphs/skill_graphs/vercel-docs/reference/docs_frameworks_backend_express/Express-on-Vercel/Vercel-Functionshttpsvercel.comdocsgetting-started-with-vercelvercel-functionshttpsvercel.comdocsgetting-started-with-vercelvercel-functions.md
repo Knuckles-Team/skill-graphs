@@ -1,0 +1,2 @@
+##  [Vercel Functions](https://vercel.com/docs/getting-started-with-vercel#vercel-functions)[](https://vercel.com/docs/getting-started-with-vercel#vercel-functions)
+When you deploy an Express app to Vercel, your Express application becomes a single [Vercel Function](https://vercel.com/docs/functions) and uses [Fluid compute](https://vercel.com/docs/fluid-compute) by default. This means your Express app will automatically scale up and down based on traffic.

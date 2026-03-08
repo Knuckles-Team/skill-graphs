@@ -1,0 +1,3 @@
+##  [Customer Success Code Visibility](https://vercel.com/docs/project-configuration/vercel-json#customer-success-code-visibility)[](https://vercel.com/docs/project-configuration/vercel-json#customer-success-code-visibility)
+Customer Success Code Visibility is available on [Enterprise](https://vercel.com/docs/plans/enterprise) and [Pro](https://vercel.com/docs/plans/pro) plans
+Vercel provides a setting that controls the visibility of your source code to our Customer Success team. By default, this setting is disabled, ensuring that your code remains confidential and accessible only to you and your team. The Customer Success team might request for this setting to be enabled to troubleshoot specific issues related to your code.

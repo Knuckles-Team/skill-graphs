@@ -114,7 +114,7 @@ The requirements for this setup is to configure one **Collectd** daemon (with **
 To achieve this goal you can install the the **ntp** server on your machine, or, a more convenient method would be to synchronize system time regularly by executing the **ntpdate** command from cron against a local time server or a public time server near your premises by consulting the
 So, install **ntpdate** command, if is not already present on your system, and do a time syncing with the closest time server by issuing the following commands:
 ```
-# apt-get install ntpdate		[On **Debain** based Systems]
+# apt-get install ntpdate		[On **Debian** based Systems]
 # yum install ntpdate			[On **RedHat** based Systems]
 OR
 # dnf install ntpdate

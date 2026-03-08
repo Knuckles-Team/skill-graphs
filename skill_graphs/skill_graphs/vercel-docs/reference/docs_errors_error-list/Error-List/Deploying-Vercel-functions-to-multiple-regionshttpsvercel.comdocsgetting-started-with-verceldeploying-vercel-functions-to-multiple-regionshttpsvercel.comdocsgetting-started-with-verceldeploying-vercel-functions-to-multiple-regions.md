@@ -1,0 +1,4 @@
+##  [Deploying Vercel functions to multiple regions](https://vercel.com/docs/getting-started-with-vercel#deploying-vercel-functions-to-multiple-regions)[](https://vercel.com/docs/getting-started-with-vercel#deploying-vercel-functions-to-multiple-regions)
+It's possible to deploy Vercel functions to multiple regions. This functionality is only available to [Enterprise teams](https://vercel.com/docs/plans/enterprise).
+On the [Pro plan](https://vercel.com/docs/plans/pro-plan), the limitation has existed since the [launch](https://vercel.com/blog/simpler-pricing) of the current pricing model but was applied on July 10, 2020. For Projects created on or after the date, it's no longer possible to deploy to multiple regions.
+To select the region closest to you, read our [guide](https://vercel.com/docs/functions/configuring-functions/region) on choosing deployment regions for Vercel functions.

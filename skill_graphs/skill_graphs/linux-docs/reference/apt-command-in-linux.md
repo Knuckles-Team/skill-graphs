@@ -411,7 +411,7 @@ I want a user not to access all the munin graphs except few. how can i do that. 
   7. ![](https://secure.gravatar.com/avatar/de4b36f913868d676ea28b1c94967e72a4e42b562551f873f478c0ad4f9d4238?s=50&d=blank&r=g)
 Shalini
 [ April 17, 2015 at 8:16 am  ](https://www.tecmint.com/install-munin-network-monitoring-in-rhel-centos-fedora/#comment-544287)
-Also provide complete,i dont think so oly above steps could give munin inetrface
+Also provide complete,i dont think so only above steps could give munin inetrface
 [Reply](https://www.tecmint.com/install-munin-network-monitoring-in-rhel-centos-fedora/#comment-544287)
   8. ![](https://secure.gravatar.com/avatar/de4b36f913868d676ea28b1c94967e72a4e42b562551f873f478c0ad4f9d4238?s=50&d=blank&r=g)
 hema
@@ -430,7 +430,7 @@ Mr.Right
 Hey guys !!!!
 I have installed MUNIN on rhel 6 ,
 But in webpage am getting only index .
-No grpahs etc…..
+No graphs etc…..
 [Reply](https://www.tecmint.com/install-munin-network-monitoring-in-rhel-centos-fedora/#comment-472587)
   10. ![](https://secure.gravatar.com/avatar/d2c6307167b3c22278a70b502fd91a229fba1665d196dd5b6bfc3d5ec4eda210?s=50&d=blank&r=g)
 sudarshan

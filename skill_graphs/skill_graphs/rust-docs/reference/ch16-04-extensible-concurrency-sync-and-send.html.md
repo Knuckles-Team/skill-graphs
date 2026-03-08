@@ -1,0 +1,480 @@
+## Keyboard shortcuts
+Press `←` or `→` to navigate between chapters
+Press `S` or `/` to search in the book
+Press `?` to show this help
+Press `Esc` to hide this help
+  1. [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
+  2. [Foreword](https://doc.rust-lang.org/book/foreword.html)
+  3. [Introduction](https://doc.rust-lang.org/book/ch00-00-introduction.html)
+  4. [**1.** Getting Started](https://doc.rust-lang.org/book/ch01-00-getting-started.html)
+    1. [**1.1.** Installation](https://doc.rust-lang.org/book/ch01-01-installation.html)
+    2. [**1.2.** Hello, World!](https://doc.rust-lang.org/book/ch01-02-hello-world.html)
+    3. [**1.3.** Hello, Cargo!](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html)
+  5. [**2.** Programming a Guessing Game](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html)
+  6. [**3.** Common Programming Concepts](https://doc.rust-lang.org/book/ch03-00-common-programming-concepts.html)
+    1. [**3.1.** Variables and Mutability](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
+    2. [**3.2.** Data Types](https://doc.rust-lang.org/book/ch03-02-data-types.html)
+    3. [**3.3.** Functions](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html)
+    4. [**3.4.** Comments](https://doc.rust-lang.org/book/ch03-04-comments.html)
+    5. [**3.5.** Control Flow](https://doc.rust-lang.org/book/ch03-05-control-flow.html)
+  7. [**4.** Understanding Ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html)
+    1. [**4.1.** What is Ownership?](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html)
+    2. [**4.2.** References and Borrowing](https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html)
+    3. [**4.3.** The Slice Type](https://doc.rust-lang.org/book/ch04-03-slices.html)
+  8. [**5.** Using Structs to Structure Related Data](https://doc.rust-lang.org/book/ch05-00-structs.html)
+    1. [**5.1.** Defining and Instantiating Structs](https://doc.rust-lang.org/book/ch05-01-defining-structs.html)
+    2. [**5.2.** An Example Program Using Structs](https://doc.rust-lang.org/book/ch05-02-example-structs.html)
+    3. [**5.3.** Methods](https://doc.rust-lang.org/book/ch05-03-method-syntax.html)
+  9. [**6.** Enums and Pattern Matching](https://doc.rust-lang.org/book/ch06-00-enums.html)
+    1. [**6.1.** Defining an Enum](https://doc.rust-lang.org/book/ch06-01-defining-an-enum.html)
+    2. [**6.2.** The match Control Flow Construct](https://doc.rust-lang.org/book/ch06-02-match.html)
+    3. [**6.3.** Concise Control Flow with if let and let...else](https://doc.rust-lang.org/book/ch06-03-if-let.html)
+  10. [**7.** Packages, Crates, and Modules](https://doc.rust-lang.org/book/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html)
+    1. [**7.1.** Packages and Crates](https://doc.rust-lang.org/book/ch07-01-packages-and-crates.html)
+    2. [**7.2.** Control Scope and Privacy with Modules](https://doc.rust-lang.org/book/ch07-02-defining-modules-to-control-scope-and-privacy.html)
+    3. [**7.3.** Paths for Referring to an Item in the Module Tree](https://doc.rust-lang.org/book/ch07-03-paths-for-referring-to-an-item-in-the-module-tree.html)
+    4. [**7.4.** Bringing Paths Into Scope with the use Keyword](https://doc.rust-lang.org/book/ch07-04-bringing-paths-into-scope-with-the-use-keyword.html)
+    5. [**7.5.** Separating Modules into Different Files](https://doc.rust-lang.org/book/ch07-05-separating-modules-into-different-files.html)
+  11. [**8.** Common Collections](https://doc.rust-lang.org/book/ch08-00-common-collections.html)
+    1. [**8.1.** Storing Lists of Values with Vectors](https://doc.rust-lang.org/book/ch08-01-vectors.html)
+    2. [**8.2.** Storing UTF-8 Encoded Text with Strings](https://doc.rust-lang.org/book/ch08-02-strings.html)
+    3. [**8.3.** Storing Keys with Associated Values in Hash Maps](https://doc.rust-lang.org/book/ch08-03-hash-maps.html)
+  12. [**9.** Error Handling](https://doc.rust-lang.org/book/ch09-00-error-handling.html)
+    1. [**9.1.** Unrecoverable Errors with panic!](https://doc.rust-lang.org/book/ch09-01-unrecoverable-errors-with-panic.html)
+    2. [**9.2.** Recoverable Errors with Result](https://doc.rust-lang.org/book/ch09-02-recoverable-errors-with-result.html)
+    3. [**9.3.** To panic! or Not to panic!](https://doc.rust-lang.org/book/ch09-03-to-panic-or-not-to-panic.html)
+  13. [**10.** Generic Types, Traits, and Lifetimes](https://doc.rust-lang.org/book/ch10-00-generics.html)
+    1. [**10.1.** Generic Data Types](https://doc.rust-lang.org/book/ch10-01-syntax.html)
+    2. [**10.2.** Defining Shared Behavior with Traits](https://doc.rust-lang.org/book/ch10-02-traits.html)
+    3. [**10.3.** Validating References with Lifetimes](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)
+  14. [**11.** Writing Automated Tests](https://doc.rust-lang.org/book/ch11-00-testing.html)
+    1. [**11.1.** How to Write Tests](https://doc.rust-lang.org/book/ch11-01-writing-tests.html)
+    2. [**11.2.** Controlling How Tests Are Run](https://doc.rust-lang.org/book/ch11-02-running-tests.html)
+    3. [**11.3.** Test Organization](https://doc.rust-lang.org/book/ch11-03-test-organization.html)
+  15. [**12.** An I/O Project: Building a Command Line Program](https://doc.rust-lang.org/book/ch12-00-an-io-project.html)
+    1. [**12.1.** Accepting Command Line Arguments](https://doc.rust-lang.org/book/ch12-01-accepting-command-line-arguments.html)
+    2. [**12.2.** Reading a File](https://doc.rust-lang.org/book/ch12-02-reading-a-file.html)
+    3. [**12.3.** Refactoring to Improve Modularity and Error Handling](https://doc.rust-lang.org/book/ch12-03-improving-error-handling-and-modularity.html)
+    4. [**12.4.** Adding Functionality with Test Driven Development](https://doc.rust-lang.org/book/ch12-04-testing-the-librarys-functionality.html)
+    5. [**12.5.** Working with Environment Variables](https://doc.rust-lang.org/book/ch12-05-working-with-environment-variables.html)
+    6. [**12.6.** Redirecting Errors to Standard Error](https://doc.rust-lang.org/book/ch12-06-writing-to-stderr-instead-of-stdout.html)
+  16. [**13.** Functional Language Features: Iterators and Closures](https://doc.rust-lang.org/book/ch13-00-functional-features.html)
+    1. [**13.1.** Closures](https://doc.rust-lang.org/book/ch13-01-closures.html)
+    2. [**13.2.** Processing a Series of Items with Iterators](https://doc.rust-lang.org/book/ch13-02-iterators.html)
+    3. [**13.3.** Improving Our I/O Project](https://doc.rust-lang.org/book/ch13-03-improving-our-io-project.html)
+    4. [**13.4.** Performance in Loops vs. Iterators](https://doc.rust-lang.org/book/ch13-04-performance.html)
+  17. [**14.** More about Cargo and Crates.io](https://doc.rust-lang.org/book/ch14-00-more-about-cargo.html)
+    1. [**14.1.** Customizing Builds with Release Profiles](https://doc.rust-lang.org/book/ch14-01-release-profiles.html)
+    2. [**14.2.** Publishing a Crate to Crates.io](https://doc.rust-lang.org/book/ch14-02-publishing-to-crates-io.html)
+    3. [**14.3.** Cargo Workspaces](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html)
+    4. [**14.4.** Installing Binaries with cargo install](https://doc.rust-lang.org/book/ch14-04-installing-binaries.html)
+    5. [**14.5.** Extending Cargo with Custom Commands](https://doc.rust-lang.org/book/ch14-05-extending-cargo.html)
+  18. [**15.** Smart Pointers](https://doc.rust-lang.org/book/ch15-00-smart-pointers.html)
+    1. [**15.1.** Using Box<T> to Point to Data on the Heap](https://doc.rust-lang.org/book/ch15-01-box.html)
+    2. [**15.2.** Treating Smart Pointers Like Regular References](https://doc.rust-lang.org/book/ch15-02-deref.html)
+    3. [**15.3.** Running Code on Cleanup with the Drop Trait](https://doc.rust-lang.org/book/ch15-03-drop.html)
+    4. [**15.4.** Rc<T>, the Reference Counted Smart Pointer](https://doc.rust-lang.org/book/ch15-04-rc.html)
+    5. [**15.5.** RefCell<T> and the Interior Mutability Pattern](https://doc.rust-lang.org/book/ch15-05-interior-mutability.html)
+    6. [**15.6.** Reference Cycles Can Leak Memory](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html)
+      1. [Reference Cycles Can Leak Memory](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#reference-cycles-can-leak-memory)
+        1. [Creating a Reference Cycle](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#creating-a-reference-cycle)
+        2. [Preventing Reference Cycles Using `Weak<T>`](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#preventing-reference-cycles-using-weakt)❱
+          1. [Creating a Tree Data Structure](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#creating-a-tree-data-structure)
+          2. [Adding a Reference from a Child to Its Parent](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#adding-a-reference-from-a-child-to-its-parent)
+          3. [Visualizing Changes to `strong_count` and `weak_count`](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#visualizing-changes-to-strong_count-and-weak_count)
+      2. [Summary](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#summary)
+  19. [**16.** Fearless Concurrency](https://doc.rust-lang.org/book/ch16-00-concurrency.html)
+    1. [**16.1.** Using Threads to Run Code Simultaneously](https://doc.rust-lang.org/book/ch16-01-threads.html)
+    2. [**16.2.** Transfer Data Between Threads with Message Passing](https://doc.rust-lang.org/book/ch16-02-message-passing.html)
+    3. [**16.3.** Shared-State Concurrency](https://doc.rust-lang.org/book/ch16-03-shared-state.html)
+    4. [**16.4.** Extensible Concurrency with Send and Sync](https://doc.rust-lang.org/book/ch16-04-extensible-concurrency-sync-and-send.html)
+  20. [**17.** Fundamentals of Asynchronous Programming: Async, Await, Futures, and Streams](https://doc.rust-lang.org/book/ch17-00-async-await.html)
+    1. [**17.1.** Futures and the Async Syntax](https://doc.rust-lang.org/book/ch17-01-futures-and-syntax.html)
+    2. [**17.2.** Applying Concurrency with Async](https://doc.rust-lang.org/book/ch17-02-concurrency-with-async.html)
+    3. [**17.3.** Working With Any Number of Futures](https://doc.rust-lang.org/book/ch17-03-more-futures.html)
+    4. [**17.4.** Streams: Futures in Sequence](https://doc.rust-lang.org/book/ch17-04-streams.html)
+    5. [**17.5.** A Closer Look at the Traits for Async](https://doc.rust-lang.org/book/ch17-05-traits-for-async.html)
+    6. [**17.6.** Futures, Tasks, and Threads](https://doc.rust-lang.org/book/ch17-06-futures-tasks-threads.html)
+  21. [**18.** Object Oriented Programming Features](https://doc.rust-lang.org/book/ch18-00-oop.html)
+    1. [**18.1.** Characteristics of Object-Oriented Languages](https://doc.rust-lang.org/book/ch18-01-what-is-oo.html)
+    2. [**18.2.** Using Trait Objects to Abstract over Shared Behavior](https://doc.rust-lang.org/book/ch18-02-trait-objects.html)
+    3. [**18.3.** Implementing an Object-Oriented Design Pattern](https://doc.rust-lang.org/book/ch18-03-oo-design-patterns.html)
+  22. [**19.** Patterns and Matching](https://doc.rust-lang.org/book/ch19-00-patterns.html)
+    1. [**19.1.** All the Places Patterns Can Be Used](https://doc.rust-lang.org/book/ch19-01-all-the-places-for-patterns.html)
+    2. [**19.2.** Refutability: Whether a Pattern Might Fail to Match](https://doc.rust-lang.org/book/ch19-02-refutability.html)
+    3. [**19.3.** Pattern Syntax](https://doc.rust-lang.org/book/ch19-03-pattern-syntax.html)
+  23. [**20.** Advanced Features](https://doc.rust-lang.org/book/ch20-00-advanced-features.html)
+    1. [**20.1.** Unsafe Rust](https://doc.rust-lang.org/book/ch20-01-unsafe-rust.html)
+    2. [**20.2.** Advanced Traits](https://doc.rust-lang.org/book/ch20-02-advanced-traits.html)
+    3. [**20.3.** Advanced Types](https://doc.rust-lang.org/book/ch20-03-advanced-types.html)
+    4. [**20.4.** Advanced Functions and Closures](https://doc.rust-lang.org/book/ch20-04-advanced-functions-and-closures.html)
+    5. [**20.5.** Macros](https://doc.rust-lang.org/book/ch20-05-macros.html)
+  24. [**21.** Final Project: Building a Multithreaded Web Server](https://doc.rust-lang.org/book/ch21-00-final-project-a-web-server.html)
+    1. [**21.1.** Building a Single-Threaded Web Server](https://doc.rust-lang.org/book/ch21-01-single-threaded.html)
+    2. [**21.2.** From Single-Threaded to Multithreaded Server](https://doc.rust-lang.org/book/ch21-02-multithreaded.html)
+    3. [**21.3.** Graceful Shutdown and Cleanup](https://doc.rust-lang.org/book/ch21-03-graceful-shutdown-and-cleanup.html)
+  25. [**22.** Appendix](https://doc.rust-lang.org/book/appendix-00.html)
+    1. [**22.1.** A - Keywords](https://doc.rust-lang.org/book/appendix-01-keywords.html)
+    2. [**22.2.** B - Operators and Symbols](https://doc.rust-lang.org/book/appendix-02-operators.html)
+    3. [**22.3.** C - Derivable Traits](https://doc.rust-lang.org/book/appendix-03-derivable-traits.html)
+    4. [**22.4.** D - Useful Development Tools](https://doc.rust-lang.org/book/appendix-04-useful-development-tools.html)
+    5. [**22.5.** E - Editions](https://doc.rust-lang.org/book/appendix-05-editions.html)
+    6. [**22.6.** F - Translations of the Book](https://doc.rust-lang.org/book/appendix-06-translation.html)
+    7. [**22.7.** G - How Rust is Made and “Nightly Rust”](https://doc.rust-lang.org/book/appendix-07-nightly-rust.html)
+
+
+  * Auto
+  * Light
+  * Rust
+  * Coal
+  * Navy
+  * Ayu
+
+
+# The Rust Programming Language
+[ ](https://doc.rust-lang.org/book/print.html "Print this book")
+## [Reference Cycles Can Leak Memory](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#reference-cycles-can-leak-memory)
+Rust’s memory safety guarantees make it difficult, but not impossible, to accidentally create memory that is never cleaned up (known as a _memory leak_). Preventing memory leaks entirely is not one of Rust’s guarantees, meaning memory leaks are memory safe in Rust. We can see that Rust allows memory leaks by using `Rc<T>` and `RefCell<T>`: It’s possible to create references where items refer to each other in a cycle. This creates memory leaks because the reference count of each item in the cycle will never reach 0, and the values will never be dropped.
+### [Creating a Reference Cycle](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#creating-a-reference-cycle)
+Let’s look at how a reference cycle might happen and how to prevent it, starting with the definition of the `List` enum and a `tail` method in Listing 15-25.
+Filename: src/main.rs ```
+
+
+__
+
+use crate::List::{Cons, Nil};
+use std::cell::RefCell;
+use std::rc::Rc;
+
+#[derive(Debug)]
+enum List {
+    Cons(i32, RefCell<Rc<List>>),
+    Nil,
+}
+
+impl List {
+    fn tail(&self) -> Option<&RefCell<Rc<List>>> {
+        match self {
+            Cons(_, item) => Some(item),
+            Nil => None,
+        }
+    }
+}
+
+fn main() {}
+```
+[Listing 15-25](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#listing-15-25): A cons list definition that holds a `RefCell<T>` so that we can modify what a `Cons` variant is referring to
+We’re using another variation of the `List` definition from Listing 15-5. The second element in the `Cons` variant is now `RefCell<Rc<List>>`, meaning that instead of having the ability to modify the `i32` value as we did in Listing 15-24, we want to modify the `List` value a `Cons` variant is pointing to. We’re also adding a `tail` method to make it convenient for us to access the second item if we have a `Cons` variant.
+In Listing 15-26, we’re adding a `main` function that uses the definitions in Listing 15-25. This code creates a list in `a` and a list in `b` that points to the list in `a`. Then, it modifies the list in `a` to point to `b`, creating a reference cycle. There are `println!` statements along the way to show what the reference counts are at various points in this process.
+Filename: src/main.rs ```
+
+
+__
+
+use crate::List::{Cons, Nil};
+use std::cell::RefCell;
+use std::rc::Rc;
+
+#[derive(Debug)]
+enum List {
+    Cons(i32, RefCell<Rc<List>>),
+    Nil,
+}
+
+impl List {
+    fn tail(&self) -> Option<&RefCell<Rc<List>>> {
+        match self {
+            Cons(_, item) => Some(item),
+            Nil => None,
+        }
+    }
+}
+
+fn main() {
+    let a = Rc::new(Cons(5, RefCell::new(Rc::new(Nil))));
+
+    println!("a initial rc count = {}", Rc::strong_count(&a));
+    println!("a next item = {:?}", a.tail());
+
+    let b = Rc::new(Cons(10, RefCell::new(Rc::clone(&a))));
+
+    println!("a rc count after b creation = {}", Rc::strong_count(&a));
+    println!("b initial rc count = {}", Rc::strong_count(&b));
+    println!("b next item = {:?}", b.tail());
+
+    if let Some(link) = a.tail() {
+        *link.borrow_mut() = Rc::clone(&b);
+    }
+
+    println!("b rc count after changing a = {}", Rc::strong_count(&b));
+    println!("a rc count after changing a = {}", Rc::strong_count(&a));
+
+    // Uncomment the next line to see that we have a cycle;
+    // it will overflow the stack.
+    // println!("a next item = {:?}", a.tail());
+}
+```
+[Listing 15-26](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#listing-15-26): Creating a reference cycle of two `List` values pointing to each other
+We create an `Rc<List>` instance holding a `List` value in the variable `a` with an initial list of `5, Nil`. We then create an `Rc<List>` instance holding another `List` value in the variable `b` that contains the value `10` and points to the list in `a`.
+We modify `a` so that it points to `b` instead of `Nil`, creating a cycle. We do that by using the `tail` method to get a reference to the `RefCell<Rc<List>>` in `a`, which we put in the variable `link`. Then, we use the `borrow_mut` method on the `RefCell<Rc<List>>` to change the value inside from an `Rc<List>` that holds a `Nil` value to the `Rc<List>` in `b`.
+When we run this code, keeping the last `println!` commented out for the moment, we’ll get this output:
+```
+
+__
+$ cargo run
+   Compiling cons-list v0.1.0 (file:///projects/cons-list)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.53s
+     Running `target/debug/cons-list`
+a initial rc count = 1
+a next item = Some(RefCell { value: Nil })
+a rc count after b creation = 2
+b initial rc count = 1
+b next item = Some(RefCell { value: Cons(5, RefCell { value: Nil }) })
+b rc count after changing a = 2
+a rc count after changing a = 2
+
+```
+
+The reference count of the `Rc<List>` instances in both `a` and `b` is 2 after we change the list in `a` to point to `b`. At the end of `main`, Rust drops the variable `b`, which decreases the reference count of the `b` `Rc<List>` instance from 2 to 1. The memory that `Rc<List>` has on the heap won’t be dropped at this point because its reference count is 1, not 0. Then, Rust drops `a`, which decreases the reference count of the `a` `Rc<List>` instance from 2 to 1 as well. This instance’s memory can’t be dropped either, because the other `Rc<List>` instance still refers to it. The memory allocated to the list will remain uncollected forever. To visualize this reference cycle, we’ve created the diagram in Figure 15-4.
+![A rectangle labeled 'a' that points to a rectangle containing the integer 5. A rectangle labeled 'b' that points to a rectangle containing the integer 10. The rectangle containing 5 points to the rectangle containing 10, and the rectangle containing 10 points back to the rectangle containing 5, creating a cycle.](https://doc.rust-lang.org/book/img/trpl15-04.svg)
+Figure 15-4: A reference cycle of lists `a` and `b` pointing to each other
+If you uncomment the last `println!` and run the program, Rust will try to print this cycle with `a` pointing to `b` pointing to `a` and so forth until it overflows the stack.
+Compared to a real-world program, the consequences of creating a reference cycle in this example aren’t very dire: Right after we create the reference cycle, the program ends. However, if a more complex program allocated lots of memory in a cycle and held onto it for a long time, the program would use more memory than it needed and might overwhelm the system, causing it to run out of available memory.
+Creating reference cycles is not easily done, but it’s not impossible either. If you have `RefCell<T>` values that contain `Rc<T>` values or similar nested combinations of types with interior mutability and reference counting, you must ensure that you don’t create cycles; you can’t rely on Rust to catch them. Creating a reference cycle would be a logic bug in your program that you should use automated tests, code reviews, and other software development practices to minimize.
+Another solution for avoiding reference cycles is reorganizing your data structures so that some references express ownership and some references don’t. As a result, you can have cycles made up of some ownership relationships and some non-ownership relationships, and only the ownership relationships affect whether or not a value can be dropped. In Listing 15-25, we always want `Cons` variants to own their list, so reorganizing the data structure isn’t possible. Let’s look at an example using graphs made up of parent nodes and child nodes to see when non-ownership relationships are an appropriate way to prevent reference cycles.
+### [Preventing Reference Cycles Using `Weak<T>`](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#preventing-reference-cycles-using-weakt)
+So far, we’ve demonstrated that calling `Rc::clone` increases the `strong_count` of an `Rc<T>` instance, and an `Rc<T>` instance is only cleaned up if its `strong_count` is 0. You can also create a weak reference to the value within an `Rc<T>` instance by calling `Rc::downgrade` and passing a reference to the `Rc<T>`. _Strong references_ are how you can share ownership of an `Rc<T>` instance. _Weak references_ don’t express an ownership relationship, and their count doesn’t affect when an `Rc<T>` instance is cleaned up. They won’t cause a reference cycle, because any cycle involving some weak references will be broken once the strong reference count of values involved is 0.
+When you call `Rc::downgrade`, you get a smart pointer of type `Weak<T>`. Instead of increasing the `strong_count` in the `Rc<T>` instance by 1, calling `Rc::downgrade` increases the `weak_count` by 1. The `Rc<T>` type uses `weak_count` to keep track of how many `Weak<T>` references exist, similar to `strong_count`. The difference is the `weak_count` doesn’t need to be 0 for the `Rc<T>` instance to be cleaned up.
+Because the value that `Weak<T>` references might have been dropped, to do anything with the value that a `Weak<T>` is pointing to you must make sure the value still exists. Do this by calling the `upgrade` method on a `Weak<T>` instance, which will return an `Option<Rc<T>>`. You’ll get a result of `Some` if the `Rc<T>` value has not been dropped yet and a result of `None` if the `Rc<T>` value has been dropped. Because `upgrade` returns an `Option<Rc<T>>`, Rust will ensure that the `Some` case and the `None` case are handled, and there won’t be an invalid pointer.
+As an example, rather than using a list whose items know only about the next item, we’ll create a tree whose items know about their child items _and_ their parent items.
+#### [Creating a Tree Data Structure](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#creating-a-tree-data-structure)
+To start, we’ll build a tree with nodes that know about their child nodes. We’ll create a struct named `Node` that holds its own `i32` value as well as references to its child `Node` values:
+Filename: src/main.rs
+```
+
+
+__
+
+use std::cell::RefCell;
+use std::rc::Rc;
+
+#[derive(Debug)]
+struct Node {
+    value: i32,
+    children: RefCell<Vec<Rc<Node>>>,
+}
+
+fn main() {
+    let leaf = Rc::new(Node {
+        value: 3,
+        children: RefCell::new(vec![]),
+    });
+
+    let branch = Rc::new(Node {
+        value: 5,
+        children: RefCell::new(vec![Rc::clone(&leaf)]),
+    });
+}
+```
+
+We want a `Node` to own its children, and we want to share that ownership with variables so that we can access each `Node` in the tree directly. To do this, we define the `Vec<T>` items to be values of type `Rc<Node>`. We also want to modify which nodes are children of another node, so we have a `RefCell<T>` in `children` around the `Vec<Rc<Node>>`.
+Next, we’ll use our struct definition and create one `Node` instance named `leaf` with the value `3` and no children, and another instance named `branch` with the value `5` and `leaf` as one of its children, as shown in Listing 15-27.
+Filename: src/main.rs ```
+
+
+__
+
+use std::cell::RefCell;
+use std::rc::Rc;
+
+#[derive(Debug)]
+struct Node {
+    value: i32,
+    children: RefCell<Vec<Rc<Node>>>,
+}
+
+fn main() {
+    let leaf = Rc::new(Node {
+        value: 3,
+        children: RefCell::new(vec![]),
+    });
+
+    let branch = Rc::new(Node {
+        value: 5,
+        children: RefCell::new(vec![Rc::clone(&leaf)]),
+    });
+}
+```
+[Listing 15-27](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#listing-15-27): Creating a `leaf` node with no children and a `branch` node with `leaf` as one of its children
+We clone the `Rc<Node>` in `leaf` and store that in `branch`, meaning the `Node` in `leaf` now has two owners: `leaf` and `branch`. We can get from `branch` to `leaf` through `branch.children`, but there’s no way to get from `leaf` to `branch`. The reason is that `leaf` has no reference to `branch` and doesn’t know they’re related. We want `leaf` to know that `branch` is its parent. We’ll do that next.
+#### [Adding a Reference from a Child to Its Parent](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#adding-a-reference-from-a-child-to-its-parent)
+To make the child node aware of its parent, we need to add a `parent` field to our `Node` struct definition. The trouble is in deciding what the type of `parent` should be. We know it can’t contain an `Rc<T>`, because that would create a reference cycle with `leaf.parent` pointing to `branch` and `branch.children` pointing to `leaf`, which would cause their `strong_count` values to never be 0.
+Thinking about the relationships another way, a parent node should own its children: If a parent node is dropped, its child nodes should be dropped as well. However, a child should not own its parent: If we drop a child node, the parent should still exist. This is a case for weak references!
+So, instead of `Rc<T>`, we’ll make the type of `parent` use `Weak<T>`, specifically a `RefCell<Weak<Node>>`. Now our `Node` struct definition looks like this:
+Filename: src/main.rs
+```
+
+
+__
+
+use std::cell::RefCell;
+use std::rc::{Rc, Weak};
+
+#[derive(Debug)]
+struct Node {
+    value: i32,
+    parent: RefCell<Weak<Node>>,
+    children: RefCell<Vec<Rc<Node>>>,
+}
+
+fn main() {
+    let leaf = Rc::new(Node {
+        value: 3,
+        parent: RefCell::new(Weak::new()),
+        children: RefCell::new(vec![]),
+    });
+
+    println!("leaf parent = {:?}", leaf.parent.borrow().upgrade());
+
+    let branch = Rc::new(Node {
+        value: 5,
+        parent: RefCell::new(Weak::new()),
+        children: RefCell::new(vec![Rc::clone(&leaf)]),
+    });
+
+    *leaf.parent.borrow_mut() = Rc::downgrade(&branch);
+
+    println!("leaf parent = {:?}", leaf.parent.borrow().upgrade());
+}
+```
+
+A node will be able to refer to its parent node but doesn’t own its parent. In Listing 15-28, we update `main` to use this new definition so that the `leaf` node will have a way to refer to its parent, `branch`.
+Filename: src/main.rs ```
+
+
+__
+
+use std::cell::RefCell;
+use std::rc::{Rc, Weak};
+
+#[derive(Debug)]
+struct Node {
+    value: i32,
+    parent: RefCell<Weak<Node>>,
+    children: RefCell<Vec<Rc<Node>>>,
+}
+
+fn main() {
+    let leaf = Rc::new(Node {
+        value: 3,
+        parent: RefCell::new(Weak::new()),
+        children: RefCell::new(vec![]),
+    });
+
+    println!("leaf parent = {:?}", leaf.parent.borrow().upgrade());
+
+    let branch = Rc::new(Node {
+        value: 5,
+        parent: RefCell::new(Weak::new()),
+        children: RefCell::new(vec![Rc::clone(&leaf)]),
+    });
+
+    *leaf.parent.borrow_mut() = Rc::downgrade(&branch);
+
+    println!("leaf parent = {:?}", leaf.parent.borrow().upgrade());
+}
+```
+[Listing 15-28](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#listing-15-28): A `leaf` node with a weak reference to its parent node, `branch`
+Creating the `leaf` node looks similar to Listing 15-27 with the exception of the `parent` field: `leaf` starts out without a parent, so we create a new, empty `Weak<Node>` reference instance.
+At this point, when we try to get a reference to the parent of `leaf` by using the `upgrade` method, we get a `None` value. We see this in the output from the first `println!` statement:
+```
+
+__
+leaf parent = None
+
+```
+
+When we create the `branch` node, it will also have a new `Weak<Node>` reference in the `parent` field because `branch` doesn’t have a parent node. We still have `leaf` as one of the children of `branch`. Once we have the `Node` instance in `branch`, we can modify `leaf` to give it a `Weak<Node>` reference to its parent. We use the `borrow_mut` method on the `RefCell<Weak<Node>>` in the `parent` field of `leaf`, and then we use the `Rc::downgrade` function to create a `Weak<Node>` reference to `branch` from the `Rc<Node>` in `branch`.
+When we print the parent of `leaf` again, this time we’ll get a `Some` variant holding `branch`: Now `leaf` can access its parent! When we print `leaf`, we also avoid the cycle that eventually ended in a stack overflow like we had in Listing 15-26; the `Weak<Node>` references are printed as `(Weak)`:
+```
+
+__
+leaf parent = Some(Node { value: 5, parent: RefCell { value: (Weak) },
+children: RefCell { value: [Node { value: 3, parent: RefCell { value: (Weak) },
+children: RefCell { value: [] } }] } })
+
+```
+
+The lack of infinite output indicates that this code didn’t create a reference cycle. We can also tell this by looking at the values we get from calling `Rc::strong_count` and `Rc::weak_count`.
+#### [Visualizing Changes to `strong_count` and `weak_count`](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#visualizing-changes-to-strong_count-and-weak_count)
+Let’s look at how the `strong_count` and `weak_count` values of the `Rc<Node>` instances change by creating a new inner scope and moving the creation of `branch` into that scope. By doing so, we can see what happens when `branch` is created and then dropped when it goes out of scope. The modifications are shown in Listing 15-29.
+Filename: src/main.rs ```
+
+
+__
+
+use std::cell::RefCell;
+use std::rc::{Rc, Weak};
+
+#[derive(Debug)]
+struct Node {
+    value: i32,
+    parent: RefCell<Weak<Node>>,
+    children: RefCell<Vec<Rc<Node>>>,
+}
+
+fn main() {
+    let leaf = Rc::new(Node {
+        value: 3,
+        parent: RefCell::new(Weak::new()),
+        children: RefCell::new(vec![]),
+    });
+
+    println!(
+        "leaf strong = {}, weak = {}",
+        Rc::strong_count(&leaf),
+        Rc::weak_count(&leaf),
+    );
+
+    {
+        let branch = Rc::new(Node {
+            value: 5,
+            parent: RefCell::new(Weak::new()),
+            children: RefCell::new(vec![Rc::clone(&leaf)]),
+        });
+
+        *leaf.parent.borrow_mut() = Rc::downgrade(&branch);
+
+        println!(
+            "branch strong = {}, weak = {}",
+            Rc::strong_count(&branch),
+            Rc::weak_count(&branch),
+        );
+
+        println!(
+            "leaf strong = {}, weak = {}",
+            Rc::strong_count(&leaf),
+            Rc::weak_count(&leaf),
+        );
+    }
+
+    println!("leaf parent = {:?}", leaf.parent.borrow().upgrade());
+    println!(
+        "leaf strong = {}, weak = {}",
+        Rc::strong_count(&leaf),
+        Rc::weak_count(&leaf),
+    );
+}
+```
+[Listing 15-29](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#listing-15-29): Creating `branch` in an inner scope and examining strong and weak reference counts
+After `leaf` is created, its `Rc<Node>` has a strong count of 1 and a weak count of 0. In the inner scope, we create `branch` and associate it with `leaf`, at which point when we print the counts, the `Rc<Node>` in `branch` will have a strong count of 1 and a weak count of 1 (for `leaf.parent` pointing to `branch` with a `Weak<Node>`). When we print the counts in `leaf`, we’ll see it will have a strong count of 2 because `branch` now has a clone of the `Rc<Node>` of `leaf` stored in `branch.children` but will still have a weak count of 0.
+When the inner scope ends, `branch` goes out of scope and the strong count of the `Rc<Node>` decreases to 0, so its `Node` is dropped. The weak count of 1 from `leaf.parent` has no bearing on whether or not `Node` is dropped, so we don’t get any memory leaks!
+If we try to access the parent of `leaf` after the end of the scope, we’ll get `None` again. At the end of the program, the `Rc<Node>` in `leaf` has a strong count of 1 and a weak count of 0 because the variable `leaf` is now the only reference to the `Rc<Node>` again.
+All of the logic that manages the counts and value dropping is built into `Rc<T>` and `Weak<T>` and their implementations of the `Drop` trait. By specifying that the relationship from a child to its parent should be a `Weak<T>` reference in the definition of `Node`, you’re able to have parent nodes point to child nodes and vice versa without creating a reference cycle and memory leaks.
+## [Summary](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html#summary)
+This chapter covered how to use smart pointers to make different guarantees and trade-offs from those Rust makes by default with regular references. The `Box<T>` type has a known size and points to data allocated on the heap. The `Rc<T>` type keeps track of the number of references to data on the heap so that the data can have multiple owners. The `RefCell<T>` type with its interior mutability gives us a type that we can use when we need an immutable type but need to change an inner value of that type; it also enforces the borrowing rules at runtime instead of at compile time.
+Also discussed were the `Deref` and `Drop` traits, which enable a lot of the functionality of smart pointers. We explored reference cycles that can cause memory leaks and how to prevent them using `Weak<T>`.
+If this chapter has piqued your interest and you want to implement your own smart pointers, check out [“The Rustonomicon”](https://doc.rust-lang.org/nomicon/index.html) for more useful information.
+Next, we’ll talk about concurrency in Rust. You’ll even learn about a few new smart pointers.
+[ ](https://doc.rust-lang.org/book/ch15-05-interior-mutability.html "Previous chapter") [ ](https://doc.rust-lang.org/book/ch16-00-concurrency.html "Next chapter")
+[ ](https://doc.rust-lang.org/book/ch15-05-interior-mutability.html "Previous chapter") [ ](https://doc.rust-lang.org/book/ch16-00-concurrency.html "Next chapter")

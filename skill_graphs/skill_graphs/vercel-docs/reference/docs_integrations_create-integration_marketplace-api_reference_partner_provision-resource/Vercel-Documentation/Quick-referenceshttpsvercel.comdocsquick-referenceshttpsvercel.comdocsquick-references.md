@@ -1,0 +1,2 @@
+##  [Quick references](https://vercel.com/docs#quick-references)[](https://vercel.com/docs#quick-references)
+[Configuring vercel.json](https://vercel.com/docs/project-configuration)[Working with Domains](https://vercel.com/docs/domains/working-with-domains)[Storage for your Vercel project](https://vercel.com/docs/storage)[Vercel MCP](https://vercel.com/docs/agent-resources/vercel-mcp)[Caching on Vercel](https://vercel.com/docs/cdn-cache)

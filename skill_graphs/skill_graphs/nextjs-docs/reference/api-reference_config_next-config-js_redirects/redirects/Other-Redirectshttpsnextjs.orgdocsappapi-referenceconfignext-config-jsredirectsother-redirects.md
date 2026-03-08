@@ -1,0 +1,3 @@
+## Other Redirects[](https://nextjs.org/docs/app/api-reference/config/next-config-js/redirects#other-redirects)
+  * Inside [API Routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) and [Route Handlers](https://nextjs.org/docs/app/api-reference/file-conventions/route), you can redirect based on the incoming request.
+  * Inside [`getStaticProps`](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-props) and [`getServerSideProps`](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-server-side-props), you can redirect specific pages at request-time.

@@ -55,7 +55,7 @@ Type to start searching
           * [ File Operations  ](https://ai.pydantic.dev/toolsets/#file-operations)
           * [ Code Execution  ](https://ai.pydantic.dev/toolsets/#code-execution)
           * [ LangChain Tools  ](https://ai.pydantic.dev/toolsets/#langchain-tools)
-          * [ ACI.dev Tools  ](https://ai.pydantic.dev/toolsets/#aci-tools)
+          * [ ACPI.dev Tools  ](https://ai.pydantic.dev/toolsets/#aci-tools)
       * [ Deferred Tools  ](https://ai.pydantic.dev/deferred-tools/)
       * [ Built-in Tools  ](https://ai.pydantic.dev/builtin-tools/)
       * [ Common Tools  ](https://ai.pydantic.dev/common-tools/)
@@ -232,7 +232,7 @@ Type to start searching
     * [ File Operations  ](https://ai.pydantic.dev/toolsets/#file-operations)
     * [ Code Execution  ](https://ai.pydantic.dev/toolsets/#code-execution)
     * [ LangChain Tools  ](https://ai.pydantic.dev/toolsets/#langchain-tools)
-    * [ ACI.dev Tools  ](https://ai.pydantic.dev/toolsets/#aci-tools)
+    * [ ACPI.dev Tools  ](https://ai.pydantic.dev/toolsets/#aci-tools)
 
 
   1. [ Pydantic AI  ](https://ai.pydantic.dev/)

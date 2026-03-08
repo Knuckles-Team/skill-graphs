@@ -1,0 +1,12 @@
+# Helpers
+  * [Introduction](https://laravel.com/docs/12.x/helpers#introduction)
+  * [Available Methods](https://laravel.com/docs/12.x/helpers#available-methods)
+  * [Other Utilities](https://laravel.com/docs/12.x/helpers#other-utilities)
+    * [Benchmarking](https://laravel.com/docs/12.x/helpers#benchmarking)
+    * [Dates and Time](https://laravel.com/docs/12.x/helpers#dates)
+    * [Deferred Functions](https://laravel.com/docs/12.x/helpers#deferred-functions)
+    * [Lottery](https://laravel.com/docs/12.x/helpers#lottery)
+    * [Pipeline](https://laravel.com/docs/12.x/helpers#pipeline)
+    * [Sleep](https://laravel.com/docs/12.x/helpers#sleep)
+    * [Timebox](https://laravel.com/docs/12.x/helpers#timebox)
+    * [URI](https://laravel.com/docs/12.x/helpers#uri)

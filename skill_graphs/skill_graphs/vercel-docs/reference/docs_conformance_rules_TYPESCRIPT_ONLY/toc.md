@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_conformance_rules_TYPESCRIPT_ONLY](<./docs_conformance_rules_TYPESCRIPT_ONLY.md>)
+- [TYPESCRIPT_ONLY](<./TYPESCRIPT_ONLY.md>)
+  - [[Example](https://vercel.com/docs/conformance/rules/TYPESCRIPT_ONLY#example)[](https://vercel.com/docs/conformance/rules/TYPESCRIPT_ONLY#example)](<./TYPESCRIPT_ONLY/Examplehttpsvercel.comdocsconformancerulesTYPESCRIPT_ONLYexamplehttpsvercel.comdocsconformancerulesTYPESCRIPT_ONLYexample.md>)
+  - [[How To Fix](https://vercel.com/docs/conformance/rules/TYPESCRIPT_ONLY#how-to-fix)[](https://vercel.com/docs/conformance/rules/TYPESCRIPT_ONLY#how-to-fix)](<./TYPESCRIPT_ONLY/How-To-Fixhttpsvercel.comdocsconformancerulesTYPESCRIPT_ONLYhow-to-fixhttpsvercel.comdocsconformancerulesTYPESCRIPT_ONLYhow-to-fix.md>)
+  - [[Customization](https://vercel.com/docs/conformance/rules/TYPESCRIPT_ONLY#customization)[](https://vercel.com/docs/conformance/rules/TYPESCRIPT_ONLY#customization)](<./TYPESCRIPT_ONLY/Customizationhttpsvercel.comdocsconformancerulesTYPESCRIPT_ONLYcustomizationhttpsvercel.comdocsconformancerulesTYPESCRIPT_ONLYcustomization.md>)
+  - [Get Started](<./TYPESCRIPT_ONLY/Get-Started.md>)
+  - [Build](<./TYPESCRIPT_ONLY/Build.md>)
+  - [Scale](<./TYPESCRIPT_ONLY/Scale.md>)
+  - [Secure](<./TYPESCRIPT_ONLY/Secure.md>)
+  - [Resources](<./TYPESCRIPT_ONLY/Resources.md>)
+  - [Learn](<./TYPESCRIPT_ONLY/Learn.md>)
+  - [Frameworks](<./TYPESCRIPT_ONLY/Frameworks.md>)
+  - [SDKs](<./TYPESCRIPT_ONLY/SDKs.md>)
+  - [Use Cases](<./TYPESCRIPT_ONLY/Use-Cases.md>)
+  - [Company](<./TYPESCRIPT_ONLY/Company.md>)
+  - [Community](<./TYPESCRIPT_ONLY/Community.md>)

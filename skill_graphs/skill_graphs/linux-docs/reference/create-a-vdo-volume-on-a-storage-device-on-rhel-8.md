@@ -100,7 +100,7 @@ Menu
 
 
 [](https://www.tecmint.com/install-web-vmstat-in-linux/)
-# Web VMStat: A Real Time System Statistics (Memory, CPU, Processess, etc) Monitoring Tool for Linux
+# Web VMStat: A Real Time System Statistics (Memory, CPU, Processes, etc) Monitoring Tool for Linux
 [Matei Cezar](https://www.tecmint.com/author/cezarmatei/ "View all posts by Matei Cezar")Last Updated: January 7, 2015 Read Time: 4 minsCategories [Monitoring Tools](https://www.tecmint.com/category/monitoring-tools/) [8 Comments](https://www.tecmint.com/install-web-vmstat-in-linux/#comments)
 **Web-Vmstat** it’s a small application written in Java and HTML which displays live Linux system statistics, such as **Memory** , **CPU** , **I/O** , **Processes** , etc. taken over vmstat monitoring command line in a pretty Web page with charts (
 ![Install Web-Vmstat in Linux](https://www.tecmint.com/wp-content/uploads/2014/06/Install-Web-Vmstat-in-Linux-620x429.png)Install Web-Vmstat in Linux

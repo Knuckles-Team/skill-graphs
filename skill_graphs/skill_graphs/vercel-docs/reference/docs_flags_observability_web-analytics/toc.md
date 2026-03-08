@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [docs_flags_observability_web-analytics](<./docs_flags_observability_web-analytics.md>)
+- [Integrate flags with Vercel Web Analytics](<./Integrate-flags-with-Vercel-Web-Analytics.md>)
+  - [[Client-side tracking](https://vercel.com/docs/flags/observability/web-analytics#client-side-tracking)[](https://vercel.com/docs/flags/observability/web-analytics#client-side-tracking)](<./Integrate-flags-with-Vercel-Web-Analytics/Client-side-trackinghttpsvercel.comdocsflagsobservabilityweb-analyticsclient-side-trackinghttpsvercel.comdocsflagsobservabilityweb-analyticsclient-side-tracking.md>)
+  - [[Server-side tracking](https://vercel.com/docs/flags/observability/web-analytics#server-side-tracking)[](https://vercel.com/docs/flags/observability/web-analytics#server-side-tracking)](<./Integrate-flags-with-Vercel-Web-Analytics/Server-side-trackinghttpsvercel.comdocsflagsobservabilityweb-analyticsserver-side-trackinghttpsvercel.comdocsflagsobservabilityweb-analyticsserver-side-tracking.md>)
+  - [Get Started](<./Integrate-flags-with-Vercel-Web-Analytics/Get-Started.md>)
+  - [Build](<./Integrate-flags-with-Vercel-Web-Analytics/Build.md>)
+  - [Scale](<./Integrate-flags-with-Vercel-Web-Analytics/Scale.md>)
+  - [Secure](<./Integrate-flags-with-Vercel-Web-Analytics/Secure.md>)
+  - [Resources](<./Integrate-flags-with-Vercel-Web-Analytics/Resources.md>)
+  - [Learn](<./Integrate-flags-with-Vercel-Web-Analytics/Learn.md>)
+  - [Frameworks](<./Integrate-flags-with-Vercel-Web-Analytics/Frameworks.md>)
+  - [SDKs](<./Integrate-flags-with-Vercel-Web-Analytics/SDKs.md>)
+  - [Use Cases](<./Integrate-flags-with-Vercel-Web-Analytics/Use-Cases.md>)
+  - [Company](<./Integrate-flags-with-Vercel-Web-Analytics/Company.md>)
+  - [Community](<./Integrate-flags-with-Vercel-Web-Analytics/Community.md>)

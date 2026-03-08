@@ -1,0 +1,3 @@
+#  Chapter 3. Contacting the News Media
+All contacts with the news media create an impression of you and your organization that carries into the public perception. Creating and updating a media contact database is the first step towards developing good relationships with editors and writers. When you are contacting editors, remember that editors are busy professionals, so being polite and to-the-point are vitally important. Customizing your pitch for different editors and types of media will also give your information a better chance of being published. Effective media contacts will make your public relations campaign a success for your organization and the publications that you are featured in.
+* * *

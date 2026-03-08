@@ -1,0 +1,16 @@
+# Table of Contents
+
+- [svelte_v5-migration-guide](<./svelte_v5-migration-guide.md>)
+- [Svelte 5 migration guide](<./Svelte-5-migration-guide.md>)
+  - [Reactivity syntax changes[](https://svelte.dev/docs/svelte/v5-migration-guide#Reactivity-syntax-changes)](<./Svelte-5-migration-guide/Reactivity-syntax-changeshttpssvelte.devdocssveltev5-migration-guideReactivity-syntax-changes.md>)
+  - [Event changes[](https://svelte.dev/docs/svelte/v5-migration-guide#Event-changes)](<./Svelte-5-migration-guide/Event-changeshttpssvelte.devdocssveltev5-migration-guideEvent-changes.md>)
+  - [Snippets instead of slots[](https://svelte.dev/docs/svelte/v5-migration-guide#Snippets-instead-of-slots)](<./Svelte-5-migration-guide/Snippets-instead-of-slotshttpssvelte.devdocssveltev5-migration-guideSnippets-instead-of-slots.md>)
+  - [Migration script[](https://svelte.dev/docs/svelte/v5-migration-guide#Migration-script)](<./Svelte-5-migration-guide/Migration-scripthttpssvelte.devdocssveltev5-migration-guideMigration-script.md>)
+  - [Components are no longer classes[](https://svelte.dev/docs/svelte/v5-migration-guide#Components-are-no-longer-classes)](<./Svelte-5-migration-guide/Components-are-no-longer-classeshttpssvelte.devdocssveltev5-migration-guideComponents-are-no-longer-classes.md>)
+  - [<svelte:component> is no longer necessary[](https://svelte.dev/docs/svelte/v5-migration-guide#svelte:component-is-no-longer-necessary)](<./Svelte-5-migration-guide/sveltecomponent-is-no-longer-necessaryhttpssvelte.devdocssveltev5-migration-guidesveltecomponent-is-no-longer-necessary.md>)
+  - [Whitespace handling changed[](https://svelte.dev/docs/svelte/v5-migration-guide#Whitespace-handling-changed)](<./Svelte-5-migration-guide/Whitespace-handling-changedhttpssvelte.devdocssveltev5-migration-guideWhitespace-handling-changed.md>)
+  - [Modern browser required[](https://svelte.dev/docs/svelte/v5-migration-guide#Modern-browser-required)](<./Svelte-5-migration-guide/Modern-browser-requiredhttpssvelte.devdocssveltev5-migration-guideModern-browser-required.md>)
+  - [Changes to compiler options[](https://svelte.dev/docs/svelte/v5-migration-guide#Changes-to-compiler-options)](<./Svelte-5-migration-guide/Changes-to-compiler-optionshttpssvelte.devdocssveltev5-migration-guideChanges-to-compiler-options.md>)
+  - [The children prop is reserved[](https://svelte.dev/docs/svelte/v5-migration-guide#The-children-prop-is-reserved)](<./Svelte-5-migration-guide/The-children-prop-is-reservedhttpssvelte.devdocssveltev5-migration-guideThe-children-prop-is-reserved.md>)
+  - [Breaking changes in runes mode[](https://svelte.dev/docs/svelte/v5-migration-guide#Breaking-changes-in-runes-mode)](<./Svelte-5-migration-guide/Breaking-changes-in-runes-modehttpssvelte.devdocssveltev5-migration-guideBreaking-changes-in-runes-mode.md>)
+  - [Other breaking changes[](https://svelte.dev/docs/svelte/v5-migration-guide#Other-breaking-changes)](<./Svelte-5-migration-guide/Other-breaking-changeshttpssvelte.devdocssveltev5-migration-guideOther-breaking-changes.md>)

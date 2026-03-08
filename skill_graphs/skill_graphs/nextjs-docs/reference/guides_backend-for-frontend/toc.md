@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [guides_backend-for-frontend](<./guides_backend-for-frontend.md>)
+- [How to use Next.js as a backend for your frontend](<./How-to-use-Next.js-as-a-backend-for-your-frontend.md>)
+  - [Public Endpoints[](https://nextjs.org/docs/app/guides/backend-for-frontend#public-endpoints)](<./How-to-use-Next.js-as-a-backend-for-your-frontend/Public-Endpointshttpsnextjs.orgdocsappguidesbackend-for-frontendpublic-endpoints.md>)
+  - [Content types[](https://nextjs.org/docs/app/guides/backend-for-frontend#content-types)](<./How-to-use-Next.js-as-a-backend-for-your-frontend/Content-typeshttpsnextjs.orgdocsappguidesbackend-for-frontendcontent-types.md>)
+  - [Manipulating data[](https://nextjs.org/docs/app/guides/backend-for-frontend#manipulating-data)](<./How-to-use-Next.js-as-a-backend-for-your-frontend/Manipulating-datahttpsnextjs.orgdocsappguidesbackend-for-frontendmanipulating-data.md>)
+  - [Proxying to a backend[](https://nextjs.org/docs/app/guides/backend-for-frontend#proxying-to-a-backend)](<./How-to-use-Next.js-as-a-backend-for-your-frontend/Proxying-to-a-backendhttpsnextjs.orgdocsappguidesbackend-for-frontendproxying-to-a-backend.md>)
+  - [NextRequest and NextResponse[](https://nextjs.org/docs/app/guides/backend-for-frontend#nextrequest-and-nextresponse)](<./How-to-use-Next.js-as-a-backend-for-your-frontend/NextRequest-and-NextResponsehttpsnextjs.orgdocsappguidesbackend-for-frontendnextrequest-and-nextresponse.md>)
+  - [Webhooks and callback URLs[](https://nextjs.org/docs/app/guides/backend-for-frontend#webhooks-and-callback-urls)](<./How-to-use-Next.js-as-a-backend-for-your-frontend/Webhooks-and-callback-URLshttpsnextjs.orgdocsappguidesbackend-for-frontendwebhooks-and-callback-urls.md>)
+  - [Redirects[](https://nextjs.org/docs/app/guides/backend-for-frontend#redirects)](<./How-to-use-Next.js-as-a-backend-for-your-frontend/Redirectshttpsnextjs.orgdocsappguidesbackend-for-frontendredirects.md>)
+  - [Proxy[](https://nextjs.org/docs/app/guides/backend-for-frontend#proxy)](<./How-to-use-Next.js-as-a-backend-for-your-frontend/Proxyhttpsnextjs.orgdocsappguidesbackend-for-frontendproxy.md>)
+  - [Security[](https://nextjs.org/docs/app/guides/backend-for-frontend#security)](<./How-to-use-Next.js-as-a-backend-for-your-frontend/Securityhttpsnextjs.orgdocsappguidesbackend-for-frontendsecurity.md>)
+  - [Preflight Requests[](https://nextjs.org/docs/app/guides/backend-for-frontend#preflight-requests)](<./How-to-use-Next.js-as-a-backend-for-your-frontend/Preflight-Requestshttpsnextjs.orgdocsappguidesbackend-for-frontendpreflight-requests.md>)
+  - [Library patterns[](https://nextjs.org/docs/app/guides/backend-for-frontend#library-patterns)](<./How-to-use-Next.js-as-a-backend-for-your-frontend/Library-patternshttpsnextjs.orgdocsappguidesbackend-for-frontendlibrary-patterns.md>)
+  - [More examples[](https://nextjs.org/docs/app/guides/backend-for-frontend#more-examples)](<./How-to-use-Next.js-as-a-backend-for-your-frontend/More-exampleshttpsnextjs.orgdocsappguidesbackend-for-frontendmore-examples.md>)
+  - [Caveats[](https://nextjs.org/docs/app/guides/backend-for-frontend#caveats)](<./How-to-use-Next.js-as-a-backend-for-your-frontend/Caveatshttpsnextjs.orgdocsappguidesbackend-for-frontendcaveats.md>)
+  - [API Reference](<./How-to-use-Next.js-as-a-backend-for-your-frontend/API-Reference.md>)

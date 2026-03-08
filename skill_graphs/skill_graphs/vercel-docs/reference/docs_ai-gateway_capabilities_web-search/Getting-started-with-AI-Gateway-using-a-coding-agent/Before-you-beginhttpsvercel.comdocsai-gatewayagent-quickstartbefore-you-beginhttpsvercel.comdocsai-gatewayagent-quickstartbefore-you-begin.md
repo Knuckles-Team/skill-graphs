@@ -1,0 +1,2 @@
+##  [Before you begin](https://vercel.com/docs/ai-gateway/agent-quickstart#before-you-begin)[](https://vercel.com/docs/ai-gateway/agent-quickstart#before-you-begin)
+Go to the [AI Gateway API Keys page](https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai-gateway%2Fapi-keys&title=AI+Gateway+API+Keys) in your Vercel dashboard and click Create key to generate a new API key. Save the key as `AI_GATEWAY_API_KEY` in your environment.

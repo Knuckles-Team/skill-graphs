@@ -1,34 +1,4 @@
 [ Skip to content ](https://fastapi.tiangolo.com/environment-variables/#environment-variables)
-[ **FastAPI and friends** newsletter 🎉 ](https://fastapi.tiangolo.com/newsletter/)
-[ ![logo](https://fastapi.tiangolo.com/img/icon-white.svg) ](https://fastapi.tiangolo.com/ "FastAPI")
-FastAPI
-Environment Variables
-  * [ en - English ](https://fastapi.tiangolo.com/)
-  * [ de - Deutsch ](https://fastapi.tiangolo.com/de/)
-  * [ es - español ](https://fastapi.tiangolo.com/es/)
-  * [ fr - français ](https://fastapi.tiangolo.com/fr/)
-  * [ ja - 日本語 ](https://fastapi.tiangolo.com/ja/)
-  * [ ko - 한국어 ](https://fastapi.tiangolo.com/ko/)
-  * [ pt - português ](https://fastapi.tiangolo.com/pt/)
-  * [ ru - русский язык ](https://fastapi.tiangolo.com/ru/)
-  * [ tr - Türkçe ](https://fastapi.tiangolo.com/tr/)
-  * [ uk - українська мова ](https://fastapi.tiangolo.com/uk/)
-  * [ zh - 简体中文 ](https://fastapi.tiangolo.com/zh/)
-  * [ zh-hant - 繁體中文 ](https://fastapi.tiangolo.com/zh-hant/)
-
-
-[ ](https://fastapi.tiangolo.com/environment-variables/?q= "Share")
-Type to start searching
-  * [ FastAPI ](https://fastapi.tiangolo.com/)
-  * [ Features ](https://fastapi.tiangolo.com/features/)
-  * [ Learn ](https://fastapi.tiangolo.com/learn/)
-  * [ Reference ](https://fastapi.tiangolo.com/reference/)
-  * [ FastAPI People ](https://fastapi.tiangolo.com/fastapi-people/)
-  * [ Resources ](https://fastapi.tiangolo.com/resources/)
-  * [ About ](https://fastapi.tiangolo.com/about/)
-  * [ Release Notes ](https://fastapi.tiangolo.com/release-notes/)
-
-
 [ ![logo](https://fastapi.tiangolo.com/img/icon-white.svg) ](https://fastapi.tiangolo.com/ "FastAPI") FastAPI
   * [ FastAPI  ](https://fastapi.tiangolo.com/)
   * [ Features  ](https://fastapi.tiangolo.com/features/)
@@ -214,7 +184,10 @@ export MY_NAME="Wade Wilson"
 echo "Hello $MY_NAME"
 
 💬 You could create an env var MY_NAME withexport MY_NAME="Wade Wilson"
-💬 Then you could use it with other programs, likee
+💬 Then you could use it with other programs, likeecho "Hello $MY_NAME"
+Hello Wade Wilson
+
+
 
 
 ```
@@ -257,7 +230,8 @@ python main.py
 💬 As we didn't set the env var, we get the default value
 Hello World from Python
 
-💬 But if we create an environment variable firstexpor
+💬 But if we create an environment variable firstexport MY_NAME="Wade Wilson"
+💬 And then call the program againpython main.p
 
 
 ```
@@ -288,7 +262,14 @@ To do that, create it right before the program itself, on the same line:
 MY_NAME="Wade Wilson" python main.py
 python main.py
 
-💬 Create an env var MY_NAME in line for this program callMY_NAME="Wade Wilson" python m
+💬 Create an env var MY_NAME in line for this program callMY_NAME="Wade Wilson" python main.py
+💬 Now it can read the environment variable
+Hello Wade Wilson from Python
+
+💬 The env var no longer exists afterwardspython main.py
+Hello World from Python
+
+
 
 
 ```
@@ -390,7 +371,3 @@ With this you should have a basic understanding of what **environment variables*
 You can also read more about them in the
 In many cases it's not very obvious how environment variables would be useful and applicable right away. But they keep showing up in many different scenarios when you are developing, so it's good to know about them.
 For example, you will need this information in the next section, about [Virtual Environments](https://fastapi.tiangolo.com/virtual-environments/).
-[ Previous  Concurrency and async / await  ](https://fastapi.tiangolo.com/async/) [ Next  Virtual Environments  ](https://fastapi.tiangolo.com/virtual-environments/)
-The FastAPI trademark is owned by [@tiangolo](https://tiangolo.com) and is registered in the US and across other regions
-Made with
-[ ](https://tiangolo.com "tiangolo.com")

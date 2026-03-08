@@ -128,9 +128,9 @@
         * [ langchain  ](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.langchain)
         * [ tool_from_langchain  ](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.langchain.tool_from_langchain)
         * [ LangChainToolset  ](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.langchain.LangChainToolset)
-        * [ aci  ](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.aci)
-        * [ tool_from_aci  ](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.aci.tool_from_aci)
-        * [ ACIToolset  ](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.aci.ACIToolset)
+        * [ acpi  ](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.acpi)
+        * [ tool_from_aci  ](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.acpi.tool_from_aci)
+        * [ ACIToolset  ](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.acpi.ACIToolset)
       * [ pydantic_ai.format_prompt  ](https://ai.pydantic.dev/api/format_prompt/)
       * [ pydantic_ai.mcp  ](https://ai.pydantic.dev/api/mcp/)
       * [ pydantic_ai.messages  ](https://ai.pydantic.dev/api/messages/)
@@ -197,9 +197,9 @@
   * [ langchain  ](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.langchain)
   * [ tool_from_langchain  ](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.langchain.tool_from_langchain)
   * [ LangChainToolset  ](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.langchain.LangChainToolset)
-  * [ aci  ](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.aci)
-  * [ tool_from_aci  ](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.aci.tool_from_aci)
-  * [ ACIToolset  ](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.aci.ACIToolset)
+  * [ acpi  ](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.acpi)
+  * [ tool_from_aci  ](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.acpi.tool_from_aci)
+  * [ ACIToolset  ](https://ai.pydantic.dev/api/ext/#pydantic_ai.ext.acpi.ACIToolset)
 
 
   1. [ Pydantic AI  ](https://ai.pydantic.dev/)
@@ -341,12 +341,12 @@ tool_from_aci(
 
 ```
 
-Creates a Pydantic AI tool proxy from an ACI.dev function.
+Creates a Pydantic AI tool proxy from an ACPI.dev function.
 Parameters:
 Name | Type | Description | Default
 ---|---|---|---
-`aci_function` |  |  The ACI.dev function to wrap. |  _required_
-`linked_account_owner_id` |  |  The ACI user ID to execute the function on behalf of. |  _required_
+`aci_function` |  |  The ACPI.dev function to wrap. |  _required_
+`linked_account_owner_id` |  |  The ACPI user ID to execute the function on behalf of. |  _required_
 Returns:
 Type | Description
 ---|---
@@ -355,8 +355,8 @@ Type | Description
 
 
       dataclass
-   \(pydantic_ai.tools.Tool\)")` |  A Pydantic AI tool that corresponds to the ACI.dev tool.
-Source code in `pydantic_ai_slim/pydantic_ai/ext/aci.py`
+   \(pydantic_ai.tools.Tool\)")` |  A Pydantic AI tool that corresponds to the ACPI.dev tool.
+Source code in `pydantic_ai_slim/pydantic_ai/ext/acpi.py`
 ```
 25
 26
@@ -404,17 +404,17 @@ Source code in `pydantic_ai_slim/pydantic_ai/ext/aci.py`
 ```
 | ```
 def tool_from_aci(aci_function: str, linked_account_owner_id: str) -> Tool:
-    """Creates a Pydantic AI tool proxy from an ACI.dev function.
+    """Creates a Pydantic AI tool proxy from an ACPI.dev function.
 
     Args:
-        aci_function: The ACI.dev function to wrap.
-        linked_account_owner_id: The ACI user ID to execute the function on behalf of.
+        aci_function: The ACPI.dev function to wrap.
+        linked_account_owner_id: The ACPI user ID to execute the function on behalf of.
 
     Returns:
-        A Pydantic AI tool that corresponds to the ACI.dev tool.
+        A Pydantic AI tool that corresponds to the ACPI.dev tool.
     """
-    aci = ACI()
-    function_definition = aci.functions.get_definition(aci_function)
+    acpi = ACPI()
+    function_definition = acpi.functions.get_definition(aci_function)
     function_name = function_definition['function']['name']
     function_description = function_definition['function']['description']
     inputs = function_definition['function']['parameters']
@@ -433,7 +433,7 @@ def tool_from_aci(aci_function: str, linked_account_owner_id: str) -> Tool:
     def implementation(*args: Any, **kwargs: Any) -> str:
         if args:
             raise TypeError('Positional arguments are not allowed')
-        return aci.handle_function_call(
+        return acpi.handle_function_call(
             function_name,
             kwargs,
             linked_account_owner_id=linked_account_owner_id,
@@ -452,8 +452,8 @@ def tool_from_aci(aci_function: str, linked_account_owner_id: str) -> Tool:
 ---|---
 ###  ACIToolset
 Bases: `FunctionToolset[](https://ai.pydantic.dev/api/toolsets/#pydantic_ai.toolsets.FunctionToolset "FunctionToolset \(pydantic_ai.FunctionToolset\)")`
-A toolset that wraps ACI.dev tools.
-Source code in `pydantic_ai_slim/pydantic_ai/ext/aci.py`
+A toolset that wraps ACPI.dev tools.
+Source code in `pydantic_ai_slim/pydantic_ai/ext/acpi.py`
 ```
 70
 71
@@ -465,7 +465,7 @@ Source code in `pydantic_ai_slim/pydantic_ai/ext/aci.py`
 ```
 | ```
 class ACIToolset(FunctionToolset):
-    """A toolset that wraps ACI.dev tools."""
+    """A toolset that wraps ACPI.dev tools."""
 
     def __init__(self, aci_functions: Sequence[str], linked_account_owner_id: str, *, id: str | None = None):
         super().__init__(

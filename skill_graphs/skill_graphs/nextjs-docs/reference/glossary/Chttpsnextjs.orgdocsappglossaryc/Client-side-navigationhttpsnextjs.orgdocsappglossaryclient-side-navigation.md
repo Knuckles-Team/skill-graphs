@@ -1,0 +1,2 @@
+## Client-side navigation[](https://nextjs.org/docs/app/glossary#client-side-navigation)
+A navigation technique where the page content updates dynamically without a full page reload. Next.js uses client-side navigation with the [`<Link>` component](https://nextjs.org/docs/app/api-reference/components/link), keeping shared layouts interactive and preserving browser state. Learn more in [Linking and Navigating](https://nextjs.org/docs/app/getting-started/linking-and-navigating#client-side-transitions).

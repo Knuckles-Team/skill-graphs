@@ -1,0 +1,2 @@
+##  [Unsupported functions configuration with Nextjs](https://vercel.com/docs/getting-started-with-vercel#unsupported-functions-configuration-with-nextjs)[](https://vercel.com/docs/getting-started-with-vercel#unsupported-functions-configuration-with-nextjs)
+When using Next.js, only `memory` and `maxDuration` can be configured within the [functions](https://vercel.com/docs/project-configuration#functions) property. Next.js automatically handles the other configuration values for you.

@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [docs_agent-resources_integrations-for-models_adding-a-model](<./docs_agent-resources_integrations-for-models_adding-a-model.md>)
+- [Adding a Model](<./Adding-a-Model.md>)
+  - [[Exploring models](https://vercel.com/docs/agent-resources/integrations-for-models/adding-a-model#exploring-models)[](https://vercel.com/docs/agent-resources/integrations-for-models/adding-a-model#exploring-models)](<./Adding-a-Model/Exploring-modelshttpsvercel.comdocsagent-resourcesintegrations-for-modelsadding-a-modelexploring-modelshttpsvercel.comdocsagent-resourcesintegrations-for-modelsadding-a-modelexploring-models.md>)
+  - [[Featured AI integrations](https://vercel.com/docs/agent-resources/integrations-for-models/adding-a-model#featured-ai-integrations)[](https://vercel.com/docs/agent-resources/integrations-for-models/adding-a-model#featured-ai-integrations)](<./Adding-a-Model/Featured-AI-integrationshttpsvercel.comdocsagent-resourcesintegrations-for-modelsadding-a-modelfeatured-ai-integrationshttpsvercel.comdocsagent-resourcesintegrations-for-modelsadding-a-modelfeatured-ai-integrations.md>)
+  - [Get Started](<./Adding-a-Model/Get-Started.md>)
+  - [Build](<./Adding-a-Model/Build.md>)
+  - [Scale](<./Adding-a-Model/Scale.md>)
+  - [Secure](<./Adding-a-Model/Secure.md>)
+  - [Resources](<./Adding-a-Model/Resources.md>)
+  - [Learn](<./Adding-a-Model/Learn.md>)
+  - [Frameworks](<./Adding-a-Model/Frameworks.md>)
+  - [SDKs](<./Adding-a-Model/SDKs.md>)
+  - [Use Cases](<./Adding-a-Model/Use-Cases.md>)
+  - [Company](<./Adding-a-Model/Company.md>)
+  - [Community](<./Adding-a-Model/Community.md>)

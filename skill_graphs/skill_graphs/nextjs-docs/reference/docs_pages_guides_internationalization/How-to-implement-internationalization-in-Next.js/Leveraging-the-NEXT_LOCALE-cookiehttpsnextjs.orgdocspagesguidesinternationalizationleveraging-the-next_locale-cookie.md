@@ -1,0 +1,3 @@
+## Leveraging the `NEXT_LOCALE` cookie[](https://nextjs.org/docs/pages/guides/internationalization#leveraging-the-next_locale-cookie)
+Next.js allows setting a `NEXT_LOCALE=the-locale` cookie, which takes priority over the accept-language header. This cookie can be set using a language switcher and then when a user comes back to the site it will leverage the locale specified in the cookie when redirecting from `/` to the correct locale location.
+For example, if a user prefers the locale `fr` in their accept-language header but a `NEXT_LOCALE=en` cookie is set the `en` locale when visiting `/` the user will be redirected to the `en` locale location until the cookie is removed or expired.

@@ -352,7 +352,7 @@ Your support helps us keep creating quality Linux content for everyone.
 ## Linux Commands and Tools
 [Linux Uptime Command With Usage Examples](https://www.tecmint.com/linux-uptime-command-examples/)
 [How to View Colored Man Pages in Linux](https://www.tecmint.com/view-colored-man-pages-in-linux/)
-[Discus – Show Colourised Disk Space Usage in Linux](https://www.tecmint.com/colourised-disk-space-usage-in-linux/)
+[Discuss – Show Colourised Disk Space Usage in Linux](https://www.tecmint.com/colourised-disk-space-usage-in-linux/)
 [Assign Read/Write Access to a User on Specific Directory in Linux](https://www.tecmint.com/give-read-write-access-to-directory-in-linux/)
 [Pssh – Execute Commands on Multiple Remote Linux Servers](https://www.tecmint.com/execute-commands-on-multiple-linux-servers-using-pssh/)
 [How to Use IP Command in Linux [24 Useful Examples]](https://www.tecmint.com/ip-command-examples/)

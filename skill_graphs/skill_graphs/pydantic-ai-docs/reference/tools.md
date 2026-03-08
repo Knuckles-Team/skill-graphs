@@ -679,7 +679,7 @@ For more tool features and integrations, see:
   * [Toolsets](https://ai.pydantic.dev/toolsets/) - Managing collections of tools
   * [Builtin Tools](https://ai.pydantic.dev/builtin-tools/) - Native tools provided by LLM providers
   * [Common Tools](https://ai.pydantic.dev/common-tools/) - Ready-to-use tool implementations
-  * [Third-Party Tools](https://ai.pydantic.dev/third-party-tools/) - Integrations with MCP, LangChain, ACI.dev and other tool libraries
+  * [Third-Party Tools](https://ai.pydantic.dev/third-party-tools/) - Integrations with MCP, LangChain, ACPI.dev and other tool libraries
   * [Deferred Tools](https://ai.pydantic.dev/deferred-tools/) - Tools requiring approval or external execution
 
 

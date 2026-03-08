@@ -1,0 +1,2 @@
+## Client Component[](https://nextjs.org/docs/app/glossary#client-component)
+A React component that runs in the browser. In Next.js, Client Components can also be rendered on the server during initial page generation. They can use state, effects, event handlers, and browser APIs, and are marked with the [`"use client"` directive](https://nextjs.org/docs/app/glossary#use-client-directive) at the top of a file. Learn more in [Server and Client Components](https://nextjs.org/docs/app/getting-started/server-and-client-components).

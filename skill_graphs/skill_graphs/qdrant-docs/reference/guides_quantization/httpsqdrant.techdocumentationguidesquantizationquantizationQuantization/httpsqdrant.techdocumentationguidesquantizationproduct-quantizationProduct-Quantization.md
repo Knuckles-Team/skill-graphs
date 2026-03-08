@@ -1,0 +1,5 @@
+##  [](https://qdrant.tech/documentation/guides/quantization/#product-quantization)Product Quantization
+_Available as of v1.2.0_
+Product quantization is a method of compressing vectors to minimize their memory usage by dividing them into chunks and quantizing each segment individually. Each chunk is approximated by a centroid index that represents the original vector component. The positions of the centroids are determined through the utilization of a clustering algorithm such as k-means. For now, Qdrant uses only 256 centroids, so each centroid index can be represented by a single byte.
+Product quantization can compress by a more prominent factor than a scalar one. But there are some tradeoffs. Product quantization distance calculations are not SIMD-friendly, so it is slower than scalar quantization. Also, product quantization has a loss of accuracy, so it is recommended to use it only for high-dimensional vectors.
+Please refer to the [Quantization Tips](https://qdrant.tech/documentation/guides/quantization/#quantization-tips) section for more information on how to optimize the quantization parameters for your use case.

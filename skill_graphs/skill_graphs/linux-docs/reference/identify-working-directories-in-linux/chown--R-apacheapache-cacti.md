@@ -1,11 +1,11 @@
 # chown -R apache:apache cacti
-and the issue got resolved ..but he entered this command in a directory names as “html” . may be he created it or whatever ..i cant find this directory
+and the issue got resolved ..but he entered this command in a directory names as “html” . may be he created it or whatever ..i can't find this directory
 please help
 [Reply](https://www.tecmint.com/install-cacti-network-monitoring-on-rhel-centos-fedora/#comment-887536)
   34. ![](https://secure.gravatar.com/avatar/df43e5fc515b366378e195d0290e1f94bbb5800ff718637c289b33aa32b5d08f?s=50&d=blank&r=g)
 D Singh
 [ April 24, 2017 at 12:58 am  ](https://www.tecmint.com/install-cacti-network-monitoring-on-rhel-centos-fedora/comment-page-2/#comment-885601)
-my cron job never runs. If I run it mannually I get following error:
+my cron job never runs. If I run it manually I get following error:
 ```
 [root@7cacti share]# cacti php -q /usr/share/cacti/poller.php
 bash: cacti: command not found
@@ -35,7 +35,7 @@ Yes, you can easily install Cacti on Fedora 25 by following these instructions..
 Deepak
 [ February 13, 2017 at 3:40 pm  ](https://www.tecmint.com/install-cacti-network-monitoring-on-rhel-centos-fedora/comment-page-2/#comment-867040)
 Hello,
-I having this error “**FATAL: Cannot connect to MySQL server on ‘localhost** ‘. Please make sure you have specified a valid MySQL database name in ‘**include/config.php** ‘ ” When I tried to connect the webserver. I am installing in a hyper-V enviorment with host also in same subnet . Do I need to change anything from the above? the “localhost ” would remain the same right ?
+I having this error “**FATAL: Cannot connect to MySQL server on ‘localhost** ‘. Please make sure you have specified a valid MySQL database name in ‘**include/config.php** ‘ ” When I tried to connect the webserver. I am installing in a hyper-V environment with host also in same subnet . Do I need to change anything from the above? the “localhost ” would remain the same right ?
 [Reply](https://www.tecmint.com/install-cacti-network-monitoring-on-rhel-centos-fedora/#comment-867040)
      * ![](https://secure.gravatar.com/avatar/af85f593e58f64c9070aecd317e2f456bde2cd78316ed537cac7397a1f032c96?s=50&d=blank&r=g)
 Deepak
@@ -158,7 +158,7 @@ Please suggest.
 Aun Ali
 [ October 24, 2016 at 9:38 pm  ](https://www.tecmint.com/install-cacti-network-monitoring-on-rhel-centos-fedora/comment-page-2/#comment-831410)
 Dear Ravi,
-Thanks for your support , one more thing ..it seems to be a time mismatch in cacti time range..i have edited RTC to local timezone but still my graphs are not showing on current timings instead they are shown with a differnce of 5 hours. My timezone is Asia/Karachi
+Thanks for your support , one more thing ..it seems to be a time mismatch in cacti time range..i have edited RTC to local timezone but still my graphs are not showing on current timings instead they are shown with a difference of 5 hours. My timezone is Asia/Karachi
 [Reply](https://www.tecmint.com/install-cacti-network-monitoring-on-rhel-centos-fedora/#comment-831410)
      * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
 Ravi Saive

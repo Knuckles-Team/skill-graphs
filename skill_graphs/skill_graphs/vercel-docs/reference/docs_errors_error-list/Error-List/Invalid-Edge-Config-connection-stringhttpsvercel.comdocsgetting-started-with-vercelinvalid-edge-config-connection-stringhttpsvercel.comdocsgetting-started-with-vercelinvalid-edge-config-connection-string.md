@@ -1,0 +1,3 @@
+##  [Invalid Edge Config connection string](https://vercel.com/docs/getting-started-with-vercel#invalid-edge-config-connection-string)[](https://vercel.com/docs/getting-started-with-vercel#invalid-edge-config-connection-string)
+This error occurs when attempting to create a deployment where at least one of its environment variables contains an outdated Edge Config connection string. A connection string can be outdated if either the Edge Config itself was deleted or if the token used in the connection string is invalid or has been deleted.
+To resolve this error, delete or update the environment variable that contains the connection string. In most cases, the environment variable is named `EDGE_CONFIG`.

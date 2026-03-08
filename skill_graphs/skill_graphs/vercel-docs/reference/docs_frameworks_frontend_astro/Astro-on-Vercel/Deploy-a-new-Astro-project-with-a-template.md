@@ -1,0 +1,7 @@
+## Deploy a new Astro project with a template
+[View All Templates](https://vercel.com/templates/astro)
+[![Welcome to Astro](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F5nLyExP9vLvaH6Pm9YHYP5%2F49cdf1aae426bfd1f7ad064f428ff981%2Fjust-the-basics_-_Tony_Sullivan.png&w=3840&q=75) Welcome to Astro The official 'Getting Started' template for Astro. ](https://vercel.com/templates/astro/welcome-to-astro)[![Astroship](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F5dB0dDqBr1BfvIoNOmffVB%2F784984a8d3fe5e3db123e7c655166046%2Fastroship_-_Tony_Sullivan.jpg&w=3840&q=75) Astroship Starter template for startups, marketing websites & blogs built with Astro and TailwindCSS. ](https://vercel.com/templates/astro/astroship)[![AstroPaper](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F5HjzyjTR86zHUltXBrlpdZ%2F2bb39d21b535f3fa7b071beb43ac1fb2%2Fastro-paper-hero_-_Tony_Sullivan.png&w=3840&q=75) AstroPaper A minimal, responsive and SEO-friendly Astro blog theme. ](https://vercel.com/templates/astro/astro-paper)
+[View All Templates](https://vercel.com/templates/astro)
+
+
+Vercel deployments can [integrate with your git provider](https://vercel.com/docs/git) to [generate preview URLs](https://vercel.com/docs/deployments/environments#preview-environment-pre-production) for each pull request you make to your Astro project.

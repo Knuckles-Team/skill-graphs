@@ -1,0 +1,10 @@
+## [Products inside Docker Desktop](https://docs.docker.com/desktop#products-inside-docker-desktop)
+  * [Docker MCP Toolkit and Catalog](https://docs.docker.com/ai/mcp-catalog-and-toolkit/)
+  * [Docker Model Runner](https://docs.docker.com/ai/model-runner/)
+  * [Ask Gordon](https://docs.docker.com/ai/gordon/)
+  * [Docker Offload](https://docs.docker.com/offload/)
+  * [Docker Engine](https://docs.docker.com/engine/)
+  * Docker CLI client
+  * [Docker Build](https://docs.docker.com/build/)
+  * [Docker Compose](https://docs.docker.com/compose/)
+  * [Docker Scout](https://docs.docker.com/scout/)

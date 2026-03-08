@@ -423,7 +423,7 @@ Shahid
 Edward
 [ July 17, 2017 at 10:58 pm  ](https://www.tecmint.com/linux-server-health-monitoring-script/#comment-900172)
 The Free -h is giving an error.
-I tried -l and -m but the monitor still outputs -h. As though it isnt reading the file. any ideas?
+I tried -l and -m but the monitor still outputs -h. As though it isn't reading the file. any ideas?
 [Reply](https://www.tecmint.com/linux-server-health-monitoring-script/#comment-900172)
   22. ![](https://secure.gravatar.com/avatar/f464956703ff549c4667ba77470d99a5589e0d08a9a2459b0b33d9ca090d3665?s=50&d=blank&r=g)
 Tom

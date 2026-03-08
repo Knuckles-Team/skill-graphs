@@ -1,0 +1,2 @@
+##  [Compute layer](https://vercel.com/docs/how-vercel-cdn-works#compute-layer)[](https://vercel.com/docs/how-vercel-cdn-works#compute-layer)
+If no cache has the content, the request reaches [Vercel Functions](https://vercel.com/docs/functions) in the nearest compute region. Your function generates a response. Vercel caches it based on the caching headers or framework configuration, then serves it to the visitor.

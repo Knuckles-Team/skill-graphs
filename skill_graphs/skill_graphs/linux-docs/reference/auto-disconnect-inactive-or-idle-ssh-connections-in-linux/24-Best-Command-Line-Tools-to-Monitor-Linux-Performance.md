@@ -298,7 +298,7 @@ sudo pkg install btop         [On FreeBSD]
 ```
 
 ### 24. Netdata – Real-Time System and Application Monitoring
-Unlike traditional command-line tools that show raw numbers, **Netdata** offers a highly interactive web-based dashboard that updates metrics in real time by dispalying CPU usage, memory consumption, disk activity, network bandwidth, application performance, and much more, all in colorful and detailed charts.
+Unlike traditional command-line tools that show raw numbers, **Netdata** offers a highly interactive web-based dashboard that updates metrics in real time by displaying CPU usage, memory consumption, disk activity, network bandwidth, application performance, and much more, all in colorful and detailed charts.
 ![Netdata - Real-Time Infrastructure Monitoring Platform](https://www.tecmint.com/wp-content/uploads/2023/08/Netdata-real-time-infrastructure-monitoring-platform.webp)Netdata – Real-Time Infrastructure Monitoring Platform
 To start Netdata, simply install it and access the web dashboard from your browser.
 ```

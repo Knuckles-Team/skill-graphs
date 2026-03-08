@@ -1,0 +1,4 @@
+##  [How it works](https://vercel.com/docs/ai-gateway/models-and-providers/automatic-caching#how-it-works)[](https://vercel.com/docs/ai-gateway/models-and-providers/automatic-caching#how-it-works)
+When you set `caching: 'auto'` and the request routes to a provider that requires explicit cache markers (Anthropic or MiniMax), AI Gateway adds a `cache_control` breakpoint at the end of your static content. For providers with implicit caching (OpenAI, Google, DeepSeek), no modification is needed and caching works automatically.
+Default behavior: When `caching` is not set, AI Gateway passes your request through without modification. Providers with implicit caching still cache automatically. For Anthropic, you'll need to set `caching: 'auto'` or manually add cache markers to your messages.
+Supported providers: Automatic caching works with Anthropic (direct and Vertex) and MiniMax. Bedrock is not yet supported for automatic caching.

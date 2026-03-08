@@ -1,0 +1,508 @@
+   other operating systems, Linux still supports and runs well on even
+   very old hardware, so you might give your outdated portable a new
+   purpose in life by installing Linux on it."
+
+   One of the great benefits of Linux are its numerous and flexible
+   installation features, which I don't want to describe in detail.
+   Instead I try to focus on laptop specific methods, which are
+   necessary only in certain circumstances.
+
+   Most current distributions support installation methods which are
+   useful for laptops, including installation from CD-ROM/DVD, via
+   PCMCIA and NFS (or maybe SMB). Please see the documents which are
+   provided with these distributions for further details or take a look
+   at the above mentioned manuals and HOWTOs.
+     ________________________________________________________________
+
+3.4.1. From a Boot Floppy plus CD/DVD-ROM - The Traditional Way
+
+   With modern laptops, the traditional Linux installation method (from
+   one boot floppy, one support floppy and a package of CD-ROMs or one
+   DVD) should be no problem, if there is a floppy drive and a CD-ROM
+   drive available. Though with certain laptops you might get trouble,
+   if you can not use the floppy drive and the CD/DVD-ROM drive
+   simultaneously, or if the floppy drive is only available as a PCMCIA
+   device, as with the Toshiba Libretto 100. Some laptops support also
+   booting and therefore installation completely from a CD drive, as
+   reported for the SONY VAIO in the
+   [http://tldp.org/HOWTO/VAIO+Linux.html] VAIO+Linux-HOWTO . Note:
+   Check the BIOS for the CD boot option and make sure your Linux
+   distribution comes on a bootable CD.
+
+   Certain laptops will only boot zImage kernels. bzImage kernels won't
+   work. This is a known problem with the IBM(TM) Thinkpad 600 and
+   Toshiba Tecra series, for instance. Some distributions provide
+   certain boot floppies for these machines or for machines with limited
+   memory resources, [http://www.debian.org] Debian/GNU Linux for
+   instance.
+     ________________________________________________________________
+
+3.4.2. From a CD/DVD-ROM - The Usual Way
+
+   Newer laptops are able to boot a Linux distribution from a bootable
+   CD/DVD-ROM. This allows installation without a floppy disk drive. If
+   the CD/DVD drive is only available as a PCMCIA device, as with the
+   SONY VAIO PCG-Z600TEK, see the chapter about installing from PCMCIA
+   devices below.
+     ________________________________________________________________
+
+3.4.3. From a DOS or Windows Partition on the same Machine
+
+   This is a short description of how to install from a CD-ROM under DOS
+   without using boot or supplemental floppy diskettes. This is
+   especially useful for notebooks with swappable floppy and CD-ROM
+   components (if both are mutually exclusive) or if they are only
+   available as PCMCIA devices. I have taken this method from
+   [http://www.us.debian.org/releases/stable/installmanual] Installing
+   Debian GNU/Linux 2.1 For Intel x86 - Chapter 5 Methods for Installing
+   Debian :
+
+    1. Get the following files from your nearest Debian FTP mirror and
+       put them into a directory on your DOS partition: resc1440.bin
+       drv1440.bin base2_1.tgz root.bin linux install.bat and
+       loadlin.exe.
+    2. Boot into DOS (not Windows) without any drivers being loaded. To
+       do this, you have to press <F8> at exactly the right moment
+       during boot.
+    3. Execute install.bat from the directory where you have put the
+       downloaded files.
+    4. Reboot the system and install the rest of the distribution, you
+       may now use all the advanced features such as PCMCIA, PPP and
+       others.
+
+   This should work for other distributions as well. Maybe you have to
+   do some appropriate changes.
+     ________________________________________________________________
+
+3.4.4. From a Second Machine With a Micro Linux On a Floppy
+
+3.4.4.1. Introduction
+
+   Because of their small or nonexistent footprint, micro-Linuxes are
+   especially suited to run on laptops, particularly if you use a
+   company-provided laptop running Windows9x/NT. Or for installation
+   purposes using another non Linux machine. There are several micro
+   Linux distributions out there that boot from one or two floppies and
+   run off a ramdisk. See Appendix A Appendix A for a listing of
+   distributions.
+
+   I tried the following with muLinux ( available at
+   [http://sunsite.auc.dk/mulinux] muLinux ) to clone my HP OmniBook 800
+   to a COMPAQ Armada 1592DT. Thanks to Michele Andreoli, maintainer of
+   muLinux for his support. Since muLinux doesn't support PCMCIA yet,
+   you may use TomsRtBt instead. In turn TomsRtBt doesn't support PPP
+   but provides slip. Note: Since version 7.0 muLinux provides an Add-On
+   with PCMCIA support.
+
+   I have described how to copy an already existing partition, but it
+   might also be possible to achieve a customized installation. Note:
+   Usually you would try to achieve an installation via NFS, which is
+   supported by many distributions. Or if your sources are not at a
+   Linux machine you might try the SMB protocol with SAMBA, which is
+   also supported by muLinux .
+     ________________________________________________________________
+
+3.4.4.2. Prerequisites
+
+   You need two machines equipped with Linux. With the laptop
+   (client/destination) on which you want to install Linux use the
+   muLinux floppy. The other machine (server/source) may be a usual
+   Linux box or also using muLinux. Though its low transfer rate I use a
+   serial null modem cable because its cheap. You may apply the
+   appropriate method using a PCMCIA network card and a crossover
+   network cable or a HUB, or a parallel "null modem" cable and PLIP. As
+   the basic protocol I used PPP, but you may also use SLIP. For the
+   data-transfer I used nc. Note: this is an abbreviation for netcat,
+   some distributions use this as the program name. You may use ftp,
+   tftp, rsh, ssh, dd, rcp, kermit, NFS, SMB and other programs instead.
+   If you prefer encrypted connections there is
+   [http://sourceforge.net/projects/cryptcat/] Cryptcat a lightweight
+   version of netcat with integrated transport encryption capabilities.
+
+   Basic requirements are:
+
+    1. A good knowledge about using Linux. You have to know exactly what
+       you are doing, if not you might end destroying former
+       installations.
+    2. A null modem serial cable.
+     ________________________________________________________________
+
+3.4.4.3. Source Machine
+
+   At your source machine issue the following commands (attention: IP
+   address, port number, partition and tty are just examples!):
+
+    1. Edit /etc/ppp/options, it should contain only:
+
+/dev/ttyS0
+115200
+passive
+
+    2. With muLinux versions 3.x you may even use the convenient command
+       setup -f ppp .
+    3. Start PPP: pppd .
+    4. Configure the PPP network device: ifconfig ppp0 192.168.0.1 .
+    5. Add the default route: route add default gw 192.168.0.1 .
+    6. Check the network connection: ping 192.168.0.2, though the
+       destination machine isn't up yet.
+    7. Start the transfer from another console, remember <LEFT-ALT><Fx>:
+       cat /dev/hda2 | gzip -c | nc -l -p 5555 .
+    8. After the transfer (there are no more harddisk writings) stop the
+       ping: killall ping .
+     ________________________________________________________________
+
+3.4.4.4. Destination Machine
+
+   At the destination machine issue:
+
+    1. Edit /etc/ppp/options, it should contain only:
+
+/dev/ttyS0
+115200
+passive
+
+    2. With muLinux versions >= 3.x you may even use the convenient
+       command setup -f ppp .
+    3. Start PPP: pppd .
+    4. Configure the PPP network device: ifconfig ppp0 192.168.0.2 .
+    5. Add the default route: route add default gw 192.168.0.2 .
+    6. Check the network connection, by pinging to the source machine:
+       ping 192.168.0.1 .
+    7. Change to another console and get the data from the server: nc
+       192.168.0.1 5555 | gzip -dc >/dev/hda4 .
+    8. 400 MB may take app. 6 hours, but your mileage may vary.
+    9. Stop the transfer, when it is finished with: <CTL><C> . This can
+       probably be avoided (but I didn't test it) by adding a timeout of
+       3 seconds using the -w 3 parameter for nc at the destination
+       machine nc -w 3 192.168.0.1 5555 | gzip -dc >/dev/hda4
+   10. After the transfer is completed, stop the ping: killall ping .
+     ________________________________________________________________
+
+3.4.4.5. Configuration of the Destination Machine after the Transfer
+
+    1. Edit /etc/fstab .
+    2. Edit /etc/lilo.conf and /etc/lilo.msg and start lilo .
+    3. Set the new root device to the kernel: rdev image root_device .
+     ________________________________________________________________
+
+3.4.4.6. Miscellaneous
+
+    1. You may use bzip2 the same way as gzip (untested).
+    2. Since rshd, sshd, ftpd daemons are not available with muLinux,
+       you have to build your own file transfer mechanism with nc also
+       known as netcat, as described above.
+    3. I had to set up both PPP sides very quickly or the connection
+       broke, I don't know why.
+    4. Speed optimization has to be done. Maybe these PPP options will
+       help: asyncmap 0 or local.
+    5. I checked this only with a destination partition greater than the
+       source partition. Please check dd instead of cat therefore.
+       Or do the following (untested): At the destination machine cd
+       into the root directory / and do nc -l -p 5555 | bzip2 -dc | tar
+       xvf -. At the source machine cd into the root directory / and do
+       tar cvf - . | bzip2 | nc -w 3 192.168.0.2 5555. This should
+       shorten the time needed for the operation, too. Because only the
+       allocated blocks need to be transferred.
+    6. Don't mount the destination partition.
+     ________________________________________________________________
+
+3.4.5. From a Second (Desktop) Machine With a Hard Disk Adapter
+
+   From Adam Sulmicki <adam_AT_cfar.unc.edu> I got this hint: Most but
+   not all harddisks in laptops are removable, but this might be not an
+   easy task. You could just buy one of those cheap 2.5" IDE
+   converters/adapters which allow you to connect this harddisk
+   temporarily to a desktop PC with IDE subsystem, and install Linux as
+   usual using that PC. You may do so using the harddisk as the first
+   IDE drive or besides as the second IDE drive. But then you need to be
+   sure that the bootloader (e.g. lilo) writes to the right partition.
+   Also you have to make sure that you use the same translation style as
+   your laptop is going to use (i.e. LBA vs. LARGE vs. CHS ). You will
+   find additional information in the
+   [http://tldp.org/HOWTO/Hard-Disk-Upgrade/index.html]
+   Hard-Disk-Upgrade-HOWTO. You might copy an existing partition, but it
+   is also possible to achieve a customized installation. Instead of a
+   desktop PC you may use a second laptop, which may offer better
+   features like a CD/DVD, to put the harddisk in.
+
+   The most common adapter formats are 2.5" IDE adapters (Parallel ATA -
+   PATA). As far as I know Serial ATA (SATA) harddisks are not available
+   for laptops yet. But they could be attached to Serial ATA interfaces
+   in a desktop PC even without an adapter (at least I guess, but I will
+   verify this as soon as I have SATA equipment available). Some small
+   subnotebooks feature 1.8" harddisks with ZIF connectors. These
+   connectors are ATA compatible, and IDE adaptors for them are
+   available also.
+     ________________________________________________________________
+
+3.4.6. From a PCMCIA Device
+
+   Since I don't have a laptop which comes with a PCMCIA floppy drive
+   (for instance Toshiba Libretto 100), I couldn't check this method.
+   Please see the chapter Booting from a PCMCIA Device in the
+   PCMCIA-HOWTO. Also I couldn't check whether booting from a PCMCIA
+   harddisk is possible.
+
+   Anyway, when you are able to boot from a floppy and the laptop
+   provides a PCMCIA slot, it should be possible to use different PCMCIA
+   cards to connect to another machine, to an external SCSI device,
+   different external CD and ZIP drives and others. Usually these
+   methods are described in the documentation which is provided with the
+   distribution.
+
+   The Sony Vaio (PCG-Z600) comes with an external USB-Floppy and an
+   external CD-ROM (PCMCIA). You can boot from the CD-ROM, but
+   afterwards Linux doesn't recognize the same drive anymore so that you
+   can't install from it. You'll have to add the bootparameter linux
+   ide2=0x180,0x360 (or 0x180,0x386?) at the LILO boot prompt if you
+   want Linux to recognize a PCMCIA CDROM after the kernel has booted.
+     ________________________________________________________________
+
+3.4.7. From a Parallel Port ZIP Drive
+
+   I couldn't check this method by myself, because I don't have such a
+   device. Please check the appropriate
+   [http://tldp.org/HOWTO/Install-From-ZIP.html] Install-From-Zip-HOWTO
+   . Also I don't know how much these installation methods are supported
+   by the Linux distributions or the micro Linuxes. I suppose you have
+   to fiddle around a bit to get this working.
+
+   From Jeremy Impson <jdimpson_AT_acm.org>: I installed Red Hat 6.1 on
+   a Libretto 50CT. It only has a PCMCIA floppy drive. (Which BTW isn't
+   well supported by the default PCMCIA floppy driver. I needed to
+   download a patch from some Linux on Libretto web site.)
+
+   Linux will boot off the PCMCIA floppy drive, however. It just can't
+   go back to the floppy after loading the kernel. My Libretto (the
+   50CT) only has one PCMCIA slot (later models had two slots, or I
+   could have gotten the enhanced port replicator, which gave it another
+   slot). So I couldn't boot off a floppy and then mount a remote
+   filesystem.
+
+   So I downloaded ZipSlack (Slackware designed for running from a ZIP
+   disk) and used another PC to load it onto a ZIP disk. I attached the
+   ZIP drive to the Libretto (via the parallel port on the regular port
+   replicator that comes with it) and booted from the Slackware boot
+   disk in the PCMCIA floppy drive. When booted, I removed the floppy
+   drive and inserted and configured a network PCMCIA card. At this
+   point the kernel is in memory and it is using the filesystem on the
+   ZIP disk.
+
+   I partitioned and formatted the Libretto's harddrive and then ftp'd
+   Red Hat 6.1 installation source onto one of the new partitions (the
+   partition that would become /home when everything gets done). This is
+   the key: if you don't have enough disk space to have the installation
+   files plus enough to actually install the OS on to, this method won't
+   work.
+
+   I shut down the ZipSlack kernel and rebooted it using a RedHat
+   install disk in the floppy drive. I pointed it at the RH6.1
+   installation media already on the harddrive and started the install.
+     ________________________________________________________________
+
+3.4.8. From a Parallel Port CD Drive (MicroSolutions BackPack)
+
+   I had tried myself to install Linux using the MicroSolutions BackPack
+   parallel CD-ROM drive. It is fully supported by Linux and I haven't
+   had any major problem running it. Until version 2.0.36 it is
+   supported by its own module (bpck) while in later versions it has
+   been merged in the more general parallel port ide adaptors (the
+   paride module that relays then of course on more specific low level
+   drivers, which in the BackPack case is still called bpck).
+
+   In RedHat 5.x based installations the bpck module is available
+   already at installation stage so you'll just have to select the
+   BackPack cdrom from the Other CD-ROMs at the installation stage and
+   then give it some more options (but autoprobe should work just fine).
+
+   In RedHat 6.x (which uses 2.2.x kernels and should then use paride),
+   the BackPack support was dropped. So to install the distribution from
+   such a device, you will have to customize the bootdisk (adding the
+   necessary modules) and the installation will be done without any
+   problem.
+
+   Federico Pellegrin has customized a RedHat bootdisk that includes all
+   the parallel CDROM devices that are supported by the distribution
+   Linux kernel version (2.2.12) that should then work on all the
+   supported parallel CDROM devices (even if he only tested it on his
+   MicroSolutions BackPack since he doesn't have other similar
+   hardware). You can find
+   [http://web.archive.org/web/*/http://sole.infis.univ.trieste.it/~drze
+   us/rh_pcd.html] some information on it and the bootdisk image.
+
+   As from RedHat 6.2 a supplementary driver disk was included in the
+   distribution to support the paride devices. You'll just have to
+   create the driver disk (the image file is paride.img and can be found
+   in the images/drivers directory) in the usual way and insert it when
+   the installer will ask for it.
+
+   Of course I suppose there isn't any problem in installing any other
+   Linux distribution using such a device as long as you can add and
+   configure the appropriate modules at the very beginning of the
+   installation stage, but I haven't tested any.
+
+   You should take care of the mode the parallel port uses (ECP, EPP,
+   Output only, PS/2) since some of them may cause your laptop to
+   suddenly freeze or cause serious data corruption. On the other side
+   some modes make the communication dramatically slow (I found the best
+   choice on my laptop the PS/2, but you should make some tests).
+
+   This chapter is a courtesy of Federico Pellegrin. Please check also
+   the [http://tldp.org/HOWTO/CDROM-HOWTO/] CDROM-HOWTO.
+     ________________________________________________________________
+
+3.4.9. From a Parallel Port Using a Second Machine
+
+   PLIP Network Install
+
+   I got this courtesy by Nathan Myers <ncm_AT_cantrip.org>: "Many
+   distributions support installing via a network, using FTP, HTTP, or
+   NFS. It is increasingly common for laptops to have only a single
+   PCMCIA slot, already occupied by the boot floppy drive. Usually the
+   boot floppy image has drivers for neither the floppy drive itself,
+   nor the PCMCIA subsystem. Thus, the only network interface available
+   may be the parallel port.
+
+   Installation via the parallel port using the PLIP protocol has been
+   demonstrated on, at least, Red Hat. All you need is a Laplink
+   parallel cable, cheap at any computer store. See the
+   [http://tldp.org/HOWTO/PLIP.html] PLIP-HOWTO for details on setting
+   up the connection. Note that (uniquely) the RedHat installation
+   requires that the other end of the PLIP connection be configured to
+   use ARP (apparently because RedHat uses the DOS driver in their
+   installer). On the host, either export your CD file system on NFS, or
+   mount it where the ftp or web daemon can find it, as needed for the
+   installation."
+
+   The [http://www.tldp.org/HOWTO/PLIP-Install-HOWTO.html] PLIP Install
+   HOWTO by Gilles Lamiral describes how to install a Linux distribution
+   on a computer without ethernet card, nor CD drive, but just a local
+   floppy drive and a remote NFS server attached by a nullmodem parallel
+   cable.
+     ________________________________________________________________
+
+3.4.10. From a USB Storage Device (Stick, CD, DVD, Floppy)
+
+   If booting from an USB device is supported from the BIOS, it is
+   possible to install Linux from this drive. Besides some old laptops,
+   almost all laptops equipped with USB ports support this feature.
+
+   First you have to configure the BIOS to boot from an USB device.
+   Sometimes it is possible to use a certain key combination (e.g.
+   <ESC>) during the boot process to select the boot device.
+
+   Second you have to install Linux on the boot medium (let's say an
+   USB-Stick) and make it bootable. There are some special Linux
+   distributions available, which are dedicated for such purposes, e.g.:
+
+   [http://featherlinux.berlios.de/about.htm] Feather Linux is a Linux
+   distribution which runs completely off a CD or a USB pendrive and
+   takes up under 64Mb of space. It is a Knoppix remastered (based on
+   Debian/GNU Linux), and tries to include software which most people
+   would use every day on their desktop. See these
+   [http://featherlinux.berlios.de/usb-instructions.htm] instructions
+   about installing Feather Linux on an USB drive.
+
+   [http://www003.upp.so-net.ne.jp/tshiono/partboot-usb/] Partboot is
+   dedictated to USB floppy drives and tailored for Linux laptop and
+   notebook installations (you may find tools to resize your partitions
+   as well as PCMCIA support and more).
+
+   [http://www.damnsmalllinux.org/] Damn Small Linux (DSL) is a
+   business-card size (50MB) Live CD Linux distribution. Despite its
+   minuscule size it strives to have a functional and easy to use
+   desktop.
+
+   [http://www.puppyos.com/] Puppy Linux installs anywhere flash drive,
+   live-CD, zip disk, hard drive, network emulator. All of the
+   applications are in an approx 50-70MB distribution. So, it all runs
+   in a ramdisk, and it all installs in a 128M usb flash card with over
+   half left over for your data.
+     ________________________________________________________________
+
+3.4.11. Installing via Network Interface
+
+   On most modern laptops and notebooks with integrated network card, a
+   network installation via the PXE protocol is easy to achieve. This
+   comes in handy especially if there is no CD or DVD drive available.
+     ________________________________________________________________
+
+3.4.11.1. How to Prepare the Source Machine
+
+   For my installation I have used a Knoppix CD in the source machine.
+   Just enable the Terminal Server
+   (KNOPPIX->Server-Dienste->Terminal-Server KNOPPIX-Services-Start->
+   KNOPPIX Terminal Server) For almost any laptop model the default
+   network drivers should work. Disable secure options, otherwise you
+   will not be able to become the root user on the target machine.
+   Besides using Knoppix, there are numerous ways to prepare the source
+   machine for PXE. I haven't checked the EtherBoot protocol yet, but
+   this might work too.
+     ________________________________________________________________
+
+3.4.11.2. How to Prepare the Target Machine
+
+   Look up the BIOS for something like a NetBoot Option and set it on.
+   Boot the machine and choose booting from the network device. This is
+   usually achieved by pressing a certain key during boot up or by
+   preselecting the network interface as the boot device in the BIOS.
+   Now Knoppix should come up. Open a shell and do an su to become root.
+   To achieve a hard disk installation do either knx-hdinstall for
+   Knoppix <=3.3 or knoppix-installer for Knoppix >=3.3.
+     ________________________________________________________________
+
+3.4.12. Installing via VNC
+
+   You might ask why do a laptop installation via the VNC protocol?
+   Indeed I know only of one reason to do so. Imagine you want to use a
+   laptop with a broken keyboard you may use the keyboard of the remote
+   machine to achieve the installation. Though you have to do a few key
+   stroke to initiate the VNC installation! You have to prepare the
+   source machine accordingly (instructions how to do so will follow
+   later). For recent SuSE versions the distribution is already
+   prepared, see the handbook for details.
+     ________________________________________________________________
+
+3.4.13. Installing Linux on Small Machines
+
+   If you have less than 8MB memory and want to install via NFS you may
+   get the message "fork: out of memory". To handle this problem, use
+   fdisk to make a swap partition (fdisk should be on the install floppy
+   or take one of the mini Linuxes described above). Then try to boot
+   from the install floppy again. Before configuring the NFS connection
+   change to another console (for instance by pressing <ALT><F2>) and
+   issue swapon /dev/xxx (xxx = swap partition ). Thanks to Thomas
+   Schmaltz.
+
+   Bruce Richardson has written the
+   [http://tldp.org/HOWTO/4mb-Laptops.html] 4MB-Laptop-HOWTO on
+   installing a modern Linux distribution (specifically Slackware 7.0)
+   onto laptops with 4MB RAM and <= 200MB hard disks. Another HOWTO is
+   [http://www.xs4all.nl/~lennartb/rescuedisk/index.html] Getting Linux
+   into Small Machines - HOWTO by L.C. Benschop.
+     ________________________________________________________________
+
+3.4.14. Installing Linux on Apple Macintosh PowerBooks and iBooks
+
+   Macintosh PowerBooks these days come with a CD/DVD drive but not a
+   floppy drive, but the Linux distributions for PPC support booting and
+   installation off of a CD without any need for a floppy.
+
+   Sometimes, when you boot the installer on the PowerBooks, the screen
+   is black; this is easily fixed by tapping the brightness key on the
+   keyboard (somehow, the screen brightness gets reset to zero).
+
+   If you have a very recent PowerBook, it may not be supported by the
+   kernel on the installation CD. You can get around this by booting off
+   of a recent kernel downloaded onto your hard drive and using a
+   ramdisk on the CD or hard drive, while still loading the installation
+   packages from the CD (the default). (See the instructions available
+   online for yaBoot or BootX, the Linux/PPC boot loaders; yaBoot is
+   currently better-supported on the newest machines.)
+
+   They can also boot/install from the Macintosh (HFS) partition on the
+   internal hard disk.
+
+   This part is a courtesy of Steven G. Johnson.
+
+   For Linux installation reports see [http://tuxmobil.org/apple.html]

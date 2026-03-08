@@ -1,0 +1,16 @@
+# Table of Contents
+
+- [docs_routing_redirects_configuration-redirects](<./docs_routing_redirects_configuration-redirects.md>)
+- [Configuration Redirects](<./Configuration-Redirects.md>)
+  - [[Limits](https://vercel.com/docs/routing/redirects/configuration-redirects#limits)[](https://vercel.com/docs/routing/redirects/configuration-redirects#limits)](<./Configuration-Redirects/Limitshttpsvercel.comdocsroutingredirectsconfiguration-redirectslimitshttpsvercel.comdocsroutingredirectsconfiguration-redirectslimits.md>)
+  - [Get Started](<./Configuration-Redirects/Get-Started.md>)
+  - [Build](<./Configuration-Redirects/Build.md>)
+  - [Scale](<./Configuration-Redirects/Scale.md>)
+  - [Secure](<./Configuration-Redirects/Secure.md>)
+  - [Resources](<./Configuration-Redirects/Resources.md>)
+  - [Learn](<./Configuration-Redirects/Learn.md>)
+  - [Frameworks](<./Configuration-Redirects/Frameworks.md>)
+  - [SDKs](<./Configuration-Redirects/SDKs.md>)
+  - [Use Cases](<./Configuration-Redirects/Use-Cases.md>)
+  - [Company](<./Configuration-Redirects/Company.md>)
+  - [Community](<./Configuration-Redirects/Community.md>)

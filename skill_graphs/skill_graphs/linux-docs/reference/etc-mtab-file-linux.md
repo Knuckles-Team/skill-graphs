@@ -256,7 +256,7 @@ Your support helps us keep creating quality Linux content for everyone.
 [How to Configure Custom Access and Error Log Formats in Nginx](https://www.tecmint.com/configure-custom-access-and-error-log-formats-in-nginx/)
 ## Learn Linux Tricks & Tips
 [Find Out All Live Hosts IP Addresses Connected on Network in Linux](https://www.tecmint.com/find-live-hosts-ip-addresses-on-linux-network/)
-[Ternimal – Show Animated Lifeform in Your Linux Terminal](https://www.tecmint.com/ternimal-show-animated-lifeform-in-linux-terminal/)
+[Terminal – Show Animated Lifeform in Your Linux Terminal](https://www.tecmint.com/ternimal-show-animated-lifeform-in-linux-terminal/)
 [How to Send a Message to Logged Users in Linux Terminal](https://www.tecmint.com/send-a-message-to-logged-users-in-linux-terminal/)
 [How to Watch TCP and UDP Ports in Real-time](https://www.tecmint.com/watch-tcp-and-udp-ports-in-linux/)
 [How to Disable Shutdown and Reboot Commands in Linux](https://www.tecmint.com/disable-shutdown-and-reboot-commands-in-linux/)

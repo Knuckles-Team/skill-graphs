@@ -1,0 +1,20 @@
+## Usage with Turbopack[](https://nextjs.org/docs/app/guides/tailwind-v3-css#usage-with-turbopack)
+As of Next.js 13.1, Tailwind CSS and PostCSS are supported with
+[PreviousStatic Exports](https://nextjs.org/docs/app/guides/static-exports)[NextTesting](https://nextjs.org/docs/app/guides/testing)
+Was this helpful?
+Send
+* * *
+* * *
+#### Resources
+[Docs](https://nextjs.org/docs)[Support Policy](https://nextjs.org/support-policy)[Learn](https://nextjs.org/learn)[Showcase](https://nextjs.org/showcase)[Blog](https://nextjs.org/blog)[Team](https://nextjs.org/team)[Next.js Conf](https://nextjs.org/conf)[Evals](https://nextjs.org/evals)
+#### More
+[Telemetry](https://nextjs.org/telemetry)[Governance](https://nextjs.org/governance)
+#### About Vercel
+#### Legal
+Cookie Preferences
+#### Subscribe to our newsletter
+Stay updated on new releases and features, guides, and case studies.
+Subscribe
+© 2026 Vercel, Inc.
+* * *
+* * *

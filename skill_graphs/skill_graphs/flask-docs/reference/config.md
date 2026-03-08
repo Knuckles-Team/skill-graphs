@@ -1,570 +1,323 @@
 ### Navigation
   * [index](https://flask.palletsprojects.com/en/stable/genindex/ "General Index")
   * [modules](https://flask.palletsprojects.com/en/stable/py-modindex/ "Python Module Index") |
-  * [next](https://flask.palletsprojects.com/en/stable/signals/ "Signals") |
-  * [previous](https://flask.palletsprojects.com/en/stable/logging/ "Logging") |
+  * [next](https://flask.palletsprojects.com/en/stable/installation/ "Installation") |
   * [Flask Documentation (3.1.x)](https://flask.palletsprojects.com/en/stable/) »
-  * [Configuration Handling](https://flask.palletsprojects.com/en/stable/config/)
-
-
-# Configuration Handling[¶](https://flask.palletsprojects.com/en/stable/config/#configuration-handling "Link to this heading")
-Applications need some kind of configuration. There are different settings you might want to change depending on the application environment like toggling the debug mode, setting the secret key, and other such environment-specific things.
-The way Flask is designed usually requires the configuration to be available when the application starts up. You can hard code the configuration in the code, which for many small applications is not actually that bad, but there are better ways.
-Independent of how you load your config, there is a config object available which holds the loaded configuration values: The [`config`](https://flask.palletsprojects.com/en/stable/api/#flask.Flask.config "flask.Flask.config") attribute of the [`Flask`](https://flask.palletsprojects.com/en/stable/api/#flask.Flask "flask.Flask") object. This is the place where Flask itself puts certain configuration values and also where extensions can put their configuration values. But this is also where you can have your own configuration.
-## Configuration Basics[¶](https://flask.palletsprojects.com/en/stable/config/#configuration-basics "Link to this heading")
-The [`config`](https://flask.palletsprojects.com/en/stable/api/#flask.Flask.config "flask.Flask.config") is actually a subclass of a dictionary and can be modified just like any dictionary:
-```
-app = Flask(__name__)
-app.config['TESTING'] = True
-
-```
-
-Certain configuration values are also forwarded to the [`Flask`](https://flask.palletsprojects.com/en/stable/api/#flask.Flask "flask.Flask") object so you can read and write them from there:
-```
-app.testing = True
-
-```
-
-To update multiple keys at once you can use the
-```
-app.config.update(
-    TESTING=True,
-    SECRET_KEY='192b9bdd22ab9ed4d12e236c78afcb9a393ec15f71bbf5dc987d54727823bcbf'
-)
-
-```
-
-## Debug Mode[¶](https://flask.palletsprojects.com/en/stable/config/#debug-mode "Link to this heading")
-The [`DEBUG`](https://flask.palletsprojects.com/en/stable/config/#DEBUG "DEBUG") config value is special because it may behave inconsistently if changed after the app has begun setting up. In order to set debug mode reliably, use the `--debug` option on the `flask` or `flask run` command. `flask run` will use the interactive debugger and reloader by default in debug mode.
-```
-$ flask --app hello run --debug
-
-```
-
-Using the option is recommended. While it is possible to set [`DEBUG`](https://flask.palletsprojects.com/en/stable/config/#DEBUG "DEBUG") in your config or code, this is strongly discouraged. It can’t be read early by the `flask run` command, and some systems or extensions may have already configured themselves based on a previous value.
-## Builtin Configuration Values[¶](https://flask.palletsprojects.com/en/stable/config/#builtin-configuration-values "Link to this heading")
-The following configuration values are used internally by Flask:
-
-DEBUG[¶](https://flask.palletsprojects.com/en/stable/config/#DEBUG "Link to this definition")
-
-Whether debug mode is enabled. When using `flask run` to start the development server, an interactive debugger will be shown for unhandled exceptions, and the server will be reloaded when code changes. The [`debug`](https://flask.palletsprojects.com/en/stable/api/#flask.Flask.debug "flask.Flask.debug") attribute maps to this config key. This is set with the `FLASK_DEBUG` environment variable. It may not behave as expected if set in code.
-**Do not enable debug mode when deploying in production.**
-Default: `False`
-
-TESTING[¶](https://flask.palletsprojects.com/en/stable/config/#TESTING "Link to this definition")
-
-Enable testing mode. Exceptions are propagated rather than handled by the the app’s error handlers. Extensions may also change their behavior to facilitate easier testing. You should enable this in your own tests.
-Default: `False`
-
-PROPAGATE_EXCEPTIONS[¶](https://flask.palletsprojects.com/en/stable/config/#PROPAGATE_EXCEPTIONS "Link to this definition")
-
-Exceptions are re-raised rather than being handled by the app’s error handlers. If not set, this is implicitly true if `TESTING` or `DEBUG` is enabled.
-Default: `None`
-
-TRAP_HTTP_EXCEPTIONS[¶](https://flask.palletsprojects.com/en/stable/config/#TRAP_HTTP_EXCEPTIONS "Link to this definition")
-
-If there is no handler for an `HTTPException`-type exception, re-raise it to be handled by the interactive debugger instead of returning it as a simple error response.
-Default: `False`
-
-TRAP_BAD_REQUEST_ERRORS[¶](https://flask.palletsprojects.com/en/stable/config/#TRAP_BAD_REQUEST_ERRORS "Link to this definition")
-
-Trying to access a key that doesn’t exist from request dicts like `args` and `form` will return a 400 Bad Request error page. Enable this to treat the error as an unhandled exception instead so that you get the interactive debugger. This is a more specific version of `TRAP_HTTP_EXCEPTIONS`. If unset, it is enabled in debug mode.
-Default: `None`
-
-SECRET_KEY[¶](https://flask.palletsprojects.com/en/stable/config/#SECRET_KEY "Link to this definition")
-
-A secret key that will be used for securely signing the session cookie and can be used for any other security related needs by extensions or your application. It should be a long random `bytes` or `str`. For example, copy the output of this to your config:
-```
-$ python -c 'import secrets; print(secrets.token_hex())'
-'192b9bdd22ab9ed4d12e236c78afcb9a393ec15f71bbf5dc987d54727823bcbf'
-
-```
-
-**Do not reveal the secret key when posting questions or committing code.**
-Default: `None`
-
-SECRET_KEY_FALLBACKS[¶](https://flask.palletsprojects.com/en/stable/config/#SECRET_KEY_FALLBACKS "Link to this definition")
-
-A list of old secret keys that can still be used for unsigning. This allows a project to implement key rotation without invalidating active sessions or other recently-signed secrets.
-Keys should be removed after an appropriate period of time, as checking each additional key adds some overhead.
-Order should not matter, but the default implementation will test the last key in the list first, so it might make sense to order oldest to newest.
-Flask’s built-in secure cookie session supports this. Extensions that use [`SECRET_KEY`](https://flask.palletsprojects.com/en/stable/config/#SECRET_KEY "SECRET_KEY") may not support this yet.
-Default: `None`
-Added in version 3.1.
-
-SESSION_COOKIE_NAME[¶](https://flask.palletsprojects.com/en/stable/config/#SESSION_COOKIE_NAME "Link to this definition")
-
-The name of the session cookie. Can be changed in case you already have a cookie with the same name.
-Default: `'session'`
-
-SESSION_COOKIE_DOMAIN[¶](https://flask.palletsprojects.com/en/stable/config/#SESSION_COOKIE_DOMAIN "Link to this definition")
-
-The value of the `Domain` parameter on the session cookie. If not set, browsers will only send the cookie to the exact domain it was set from. Otherwise, they will send it to any subdomain of the given value as well.
-Not setting this value is more restricted and secure than setting it.
-Default: `None`
-Warning
-If this is changed after the browser created a cookie is created with one setting, it may result in another being created. Browsers may send send both in an undefined order. In that case, you may want to change [`SESSION_COOKIE_NAME`](https://flask.palletsprojects.com/en/stable/config/#SESSION_COOKIE_NAME "SESSION_COOKIE_NAME") as well or otherwise invalidate old sessions.
-Changelog
-Changed in version 2.3: Not set by default, does not fall back to `SERVER_NAME`.
-
-SESSION_COOKIE_PATH[¶](https://flask.palletsprojects.com/en/stable/config/#SESSION_COOKIE_PATH "Link to this definition")
-
-The path that the session cookie will be valid for. If not set, the cookie will be valid underneath `APPLICATION_ROOT` or `/` if that is not set.
-Default: `None`
-
-SESSION_COOKIE_HTTPONLY[¶](https://flask.palletsprojects.com/en/stable/config/#SESSION_COOKIE_HTTPONLY "Link to this definition")
-
-Browsers will not allow JavaScript access to cookies marked as “HTTP only” for security.
-Default: `True`
-
-SESSION_COOKIE_SECURE[¶](https://flask.palletsprojects.com/en/stable/config/#SESSION_COOKIE_SECURE "Link to this definition")
-
-Browsers will only send cookies with requests over HTTPS if the cookie is marked “secure”. The application must be served over HTTPS for this to make sense.
-Default: `False`
-
-SESSION_COOKIE_PARTITIONED[¶](https://flask.palletsprojects.com/en/stable/config/#SESSION_COOKIE_PARTITIONED "Link to this definition")
-
-Browsers will send cookies based on the top-level document’s domain, rather than only the domain of the document setting the cookie. This prevents third party cookies set in iframes from “leaking” between separate sites.
-Browsers are beginning to disallow non-partitioned third party cookies, so you need to mark your cookies partitioned if you expect them to work in such embedded situations.
-Enabling this implicitly enables [`SESSION_COOKIE_SECURE`](https://flask.palletsprojects.com/en/stable/config/#SESSION_COOKIE_SECURE "SESSION_COOKIE_SECURE") as well, as it is only valid when served over HTTPS.
-Default: `False`
-Added in version 3.1.
-
-SESSION_COOKIE_SAMESITE[¶](https://flask.palletsprojects.com/en/stable/config/#SESSION_COOKIE_SAMESITE "Link to this definition")
-
-Restrict how cookies are sent with requests from external sites. Can be set to `'Lax'` (recommended) or `'Strict'`. See [Set-Cookie options](https://flask.palletsprojects.com/en/stable/web-security/#security-cookie).
-Default: `None`
-Changelog
-Added in version 1.0.
-
-PERMANENT_SESSION_LIFETIME[¶](https://flask.palletsprojects.com/en/stable/config/#PERMANENT_SESSION_LIFETIME "Link to this definition")
-
-If `session.permanent` is true, the cookie’s expiration will be set this number of seconds in the future. Can either be a `int`.
-Flask’s default cookie implementation validates that the cryptographic signature is not older than this value.
-Default: `timedelta(days=31)` (`2678400` seconds)
-
-SESSION_REFRESH_EACH_REQUEST[¶](https://flask.palletsprojects.com/en/stable/config/#SESSION_REFRESH_EACH_REQUEST "Link to this definition")
-
-Control whether the cookie is sent with every response when `session.permanent` is true. Sending the cookie every time (the default) can more reliably keep the session from expiring, but uses more bandwidth. Non-permanent sessions are not affected.
-Default: `True`
-
-USE_X_SENDFILE[¶](https://flask.palletsprojects.com/en/stable/config/#USE_X_SENDFILE "Link to this definition")
-
-When serving files, set the `X-Sendfile` header instead of serving the data with Flask. Some web servers, such as Apache, recognize this and serve the data more efficiently. This only makes sense when using such a server.
-Default: `False`
-
-SEND_FILE_MAX_AGE_DEFAULT[¶](https://flask.palletsprojects.com/en/stable/config/#SEND_FILE_MAX_AGE_DEFAULT "Link to this definition")
-
-When serving files, set the cache control max age to this number of seconds. Can be a `int`. Override this value on a per-file basis using [`get_send_file_max_age()`](https://flask.palletsprojects.com/en/stable/api/#flask.Flask.get_send_file_max_age "flask.Flask.get_send_file_max_age") on the application or blueprint.
-If `None`, `send_file` tells the browser to use conditional requests will be used instead of a timed cache, which is usually preferable.
-Default: `None`
-
-TRUSTED_HOSTS[¶](https://flask.palletsprojects.com/en/stable/config/#TRUSTED_HOSTS "Link to this definition")
-
-Validate [`Request.host`](https://flask.palletsprojects.com/en/stable/api/#flask.Request.host "flask.Request.host") and other attributes that use it against these trusted values. Raise a [`SecurityError`](https://werkzeug.palletsprojects.com/en/stable/exceptions/#werkzeug.exceptions.SecurityError "\(in Werkzeug v3.1.x\)") if the host is invalid, which results in a 400 error. If it is `None`, all hosts are valid. Each value is either an exact match, or can start with a dot `.` to match any subdomain.
-Validation is done during routing against this value. `before_request` and `after_request` callbacks will still be called.
-Default: `None`
-Added in version 3.1.
-
-SERVER_NAME[¶](https://flask.palletsprojects.com/en/stable/config/#SERVER_NAME "Link to this definition")
-
-Inform the application what host and port it is bound to.
-Must be set if `subdomain_matching` is enabled, to be able to extract the subdomain from the request.
-Must be set for `url_for` to generate external URLs outside of a request context.
-Default: `None`
-Changed in version 3.1: Does not restrict requests to only this domain, for both `subdomain_matching` and `host_matching`.
-Changelog
-Changed in version 2.3: Does not affect `SESSION_COOKIE_DOMAIN`.
-Changed in version 1.0: Does not implicitly enable `subdomain_matching`.
-
-APPLICATION_ROOT[¶](https://flask.palletsprojects.com/en/stable/config/#APPLICATION_ROOT "Link to this definition")
-
-Inform the application what path it is mounted under by the application / web server. This is used for generating URLs outside the context of a request (inside a request, the dispatcher is responsible for setting `SCRIPT_NAME` instead; see [Application Dispatching](https://flask.palletsprojects.com/en/stable/patterns/appdispatch/) for examples of dispatch configuration).
-Will be used for the session cookie path if `SESSION_COOKIE_PATH` is not set.
-Default: `'/'`
-
-PREFERRED_URL_SCHEME[¶](https://flask.palletsprojects.com/en/stable/config/#PREFERRED_URL_SCHEME "Link to this definition")
-
-Use this scheme for generating external URLs when not in a request context.
-Default: `'http'`
-
-MAX_CONTENT_LENGTH[¶](https://flask.palletsprojects.com/en/stable/config/#MAX_CONTENT_LENGTH "Link to this definition")
-
-The maximum number of bytes that will be read during this request. If this limit is exceeded, a 413 [`RequestEntityTooLarge`](https://werkzeug.palletsprojects.com/en/stable/exceptions/#werkzeug.exceptions.RequestEntityTooLarge "\(in Werkzeug v3.1.x\)") error is raised. If it is set to `None`, no limit is enforced at the Flask application level. However, if it is `None` and the request has no `Content-Length` header and the WSGI server does not indicate that it terminates the stream, then no data is read to avoid an infinite stream.
-Each request defaults to this config. It can be set on a specific [`Request.max_content_length`](https://flask.palletsprojects.com/en/stable/api/#flask.Request.max_content_length "flask.Request.max_content_length") to apply the limit to that specific view. This should be set appropriately based on an application’s or view’s specific needs.
-Default: `None`
-Changelog
-Added in version 0.6.
-
-MAX_FORM_MEMORY_SIZE[¶](https://flask.palletsprojects.com/en/stable/config/#MAX_FORM_MEMORY_SIZE "Link to this definition")
-
-The maximum size in bytes any non-file form field may be in a `multipart/form-data` body. If this limit is exceeded, a 413 [`RequestEntityTooLarge`](https://werkzeug.palletsprojects.com/en/stable/exceptions/#werkzeug.exceptions.RequestEntityTooLarge "\(in Werkzeug v3.1.x\)") error is raised. If it is set to `None`, no limit is enforced at the Flask application level.
-Each request defaults to this config. It can be set on a specific `Request.max_form_memory_parts` to apply the limit to that specific view. This should be set appropriately based on an application’s or view’s specific needs.
-Default: `500_000`
-Added in version 3.1.
-
-MAX_FORM_PARTS[¶](https://flask.palletsprojects.com/en/stable/config/#MAX_FORM_PARTS "Link to this definition")
-
-The maximum number of fields that may be present in a `multipart/form-data` body. If this limit is exceeded, a 413 [`RequestEntityTooLarge`](https://werkzeug.palletsprojects.com/en/stable/exceptions/#werkzeug.exceptions.RequestEntityTooLarge "\(in Werkzeug v3.1.x\)") error is raised. If it is set to `None`, no limit is enforced at the Flask application level.
-Each request defaults to this config. It can be set on a specific [`Request.max_form_parts`](https://flask.palletsprojects.com/en/stable/api/#flask.Request.max_form_parts "flask.Request.max_form_parts") to apply the limit to that specific view. This should be set appropriately based on an application’s or view’s specific needs.
-Default: `1_000`
-Added in version 3.1.
-
-TEMPLATES_AUTO_RELOAD[¶](https://flask.palletsprojects.com/en/stable/config/#TEMPLATES_AUTO_RELOAD "Link to this definition")
-
-Reload templates when they are changed. If not set, it will be enabled in debug mode.
-Default: `None`
-
-EXPLAIN_TEMPLATE_LOADING[¶](https://flask.palletsprojects.com/en/stable/config/#EXPLAIN_TEMPLATE_LOADING "Link to this definition")
-
-Log debugging information tracing how a template file was loaded. This can be useful to figure out why a template was not loaded or the wrong file appears to be loaded.
-Default: `False`
-
-MAX_COOKIE_SIZE[¶](https://flask.palletsprojects.com/en/stable/config/#MAX_COOKIE_SIZE "Link to this definition")
-
-Warn if cookie headers are larger than this many bytes. Defaults to `4093`. Larger cookies may be silently ignored by browsers. Set to `0` to disable the warning.
-
-PROVIDE_AUTOMATIC_OPTIONS[¶](https://flask.palletsprojects.com/en/stable/config/#PROVIDE_AUTOMATIC_OPTIONS "Link to this definition")
-
-Set to `False` to disable the automatic addition of OPTIONS responses. This can be overridden per route by altering the `provide_automatic_options` attribute.
-Added in version 3.10: Added [`PROVIDE_AUTOMATIC_OPTIONS`](https://flask.palletsprojects.com/en/stable/config/#PROVIDE_AUTOMATIC_OPTIONS "PROVIDE_AUTOMATIC_OPTIONS") to control the default addition of autogenerated OPTIONS responses.
-Changelog
-Changed in version 2.3: `JSON_AS_ASCII`, `JSON_SORT_KEYS`, `JSONIFY_MIMETYPE`, and `JSONIFY_PRETTYPRINT_REGULAR` were removed. The default `app.json` provider has equivalent attributes instead.
-Changed in version 2.3: `ENV` was removed.
-Changed in version 2.2: Removed `PRESERVE_CONTEXT_ON_EXCEPTION`.
-Changed in version 1.0: `LOGGER_NAME` and `LOGGER_HANDLER_POLICY` were removed. See [Logging](https://flask.palletsprojects.com/en/stable/logging/) for information about configuration.
-Added `ENV` to reflect the `FLASK_ENV` environment variable.
-Added [`SESSION_COOKIE_SAMESITE`](https://flask.palletsprojects.com/en/stable/config/#SESSION_COOKIE_SAMESITE "SESSION_COOKIE_SAMESITE") to control the session cookie’s `SameSite` option.
-Added [`MAX_COOKIE_SIZE`](https://flask.palletsprojects.com/en/stable/config/#MAX_COOKIE_SIZE "MAX_COOKIE_SIZE") to control a warning from Werkzeug.
-Added in version 0.11: `SESSION_REFRESH_EACH_REQUEST`, `TEMPLATES_AUTO_RELOAD`, `LOGGER_HANDLER_POLICY`, `EXPLAIN_TEMPLATE_LOADING`
-Added in version 0.10: `JSON_AS_ASCII`, `JSON_SORT_KEYS`, `JSONIFY_PRETTYPRINT_REGULAR`
-Added in version 0.9: `PREFERRED_URL_SCHEME`
-Added in version 0.8: `TRAP_BAD_REQUEST_ERRORS`, `TRAP_HTTP_EXCEPTIONS`, `APPLICATION_ROOT`, `SESSION_COOKIE_DOMAIN`, `SESSION_COOKIE_PATH`, `SESSION_COOKIE_HTTPONLY`, `SESSION_COOKIE_SECURE`
-Added in version 0.7: `PROPAGATE_EXCEPTIONS`, `PRESERVE_CONTEXT_ON_EXCEPTION`
-Added in version 0.6: `MAX_CONTENT_LENGTH`
-Added in version 0.5: `SERVER_NAME`
-Added in version 0.4: `LOGGER_NAME`
-## Configuring from Python Files[¶](https://flask.palletsprojects.com/en/stable/config/#configuring-from-python-files "Link to this heading")
-Configuration becomes more useful if you can store it in a separate file, ideally located outside the actual application package. You can deploy your application, then separately configure it for the specific deployment.
-A common pattern is this:
-```
-app = Flask(__name__)
-app.config.from_object('yourapplication.default_settings')
-app.config.from_envvar('YOURAPPLICATION_SETTINGS')
-
-```
-
-This first loads the configuration from the `yourapplication.default_settings` module and then overrides the values with the contents of the file the `YOURAPPLICATION_SETTINGS` environment variable points to. This environment variable can be set in the shell before starting the server:
-BashFishCMDPowershell
-```
-$ export YOURAPPLICATION_SETTINGS=/path/to/settings.cfg
-$ flask run
- * Running on http://127.0.0.1:5000/
-
-```
-
-```
-$ set -x YOURAPPLICATION_SETTINGS /path/to/settings.cfg
-$ flask run
- * Running on http://127.0.0.1:5000/
-
-```
-
-```
-> set YOURAPPLICATION_SETTINGS=\path\to\settings.cfg
-> flask run
- * Running on http://127.0.0.1:5000/
-
-```
-
-```
-> $env:YOURAPPLICATION_SETTINGS = "\path\to\settings.cfg"
-> flask run
- * Running on http://127.0.0.1:5000/
-
-```
-
-The configuration files themselves are actual Python files. Only values in uppercase are actually stored in the config object later on. So make sure to use uppercase letters for your config keys.
-Here is an example of a configuration file:
-```
-# Example configuration
-SECRET_KEY = '192b9bdd22ab9ed4d12e236c78afcb9a393ec15f71bbf5dc987d54727823bcbf'
-
-```
-
-Make sure to load the configuration very early on, so that extensions have the ability to access the configuration when starting up. There are other methods on the config object as well to load from individual files. For a complete reference, read the [`Config`](https://flask.palletsprojects.com/en/stable/api/#flask.Config "flask.Config") object’s documentation.
-## Configuring from Data Files[¶](https://flask.palletsprojects.com/en/stable/config/#configuring-from-data-files "Link to this heading")
-It is also possible to load configuration from a file in a format of your choice using [`from_file()`](https://flask.palletsprojects.com/en/stable/api/#flask.Config.from_file "flask.Config.from_file"). For example to load from a TOML file:
-```
-import tomllib
-app.config.from_file("config.toml", load=tomllib.load, text=False)
-
-```
-
-Or from a JSON file:
-```
-import json
-app.config.from_file("config.json", load=json.load)
-
-```
-
-## Configuring from Environment Variables[¶](https://flask.palletsprojects.com/en/stable/config/#configuring-from-environment-variables "Link to this heading")
-In addition to pointing to configuration files using environment variables, you may find it useful (or necessary) to control your configuration values directly from the environment. Flask can be instructed to load all environment variables starting with a specific prefix into the config using [`from_prefixed_env()`](https://flask.palletsprojects.com/en/stable/api/#flask.Config.from_prefixed_env "flask.Config.from_prefixed_env").
-Environment variables can be set in the shell before starting the server:
-BashFishCMDPowershell
-```
-$ export FLASK_SECRET_KEY="5f352379324c22463451387a0aec5d2f"
-$ export FLASK_MAIL_ENABLED=false
-$ flask run
- * Running on http://127.0.0.1:5000/
-
-```
-
-```
-$ set -x FLASK_SECRET_KEY "5f352379324c22463451387a0aec5d2f"
-$ set -x FLASK_MAIL_ENABLED false
-$ flask run
- * Running on http://127.0.0.1:5000/
-
-```
-
-```
-> set FLASK_SECRET_KEY="5f352379324c22463451387a0aec5d2f"
-> set FLASK_MAIL_ENABLED=false
-> flask run
- * Running on http://127.0.0.1:5000/
-
-```
-
-```
-> $env:FLASK_SECRET_KEY = "5f352379324c22463451387a0aec5d2f"
-> $env:FLASK_MAIL_ENABLED = "false"
-> flask run
- * Running on http://127.0.0.1:5000/
-
-```
-
-The variables can then be loaded and accessed via the config with a key equal to the environment variable name without the prefix i.e.
-```
-app.config.from_prefixed_env()
-app.config["SECRET_KEY"]  # Is "5f352379324c22463451387a0aec5d2f"
-
-```
-
-The prefix is `FLASK_` by default. This is configurable via the `prefix` argument of [`from_prefixed_env()`](https://flask.palletsprojects.com/en/stable/api/#flask.Config.from_prefixed_env "flask.Config.from_prefixed_env").
-Values will be parsed to attempt to convert them to a more specific type than strings. By default `loads` argument of [`from_prefixed_env()`](https://flask.palletsprojects.com/en/stable/api/#flask.Config.from_prefixed_env "flask.Config.from_prefixed_env").
-When adding a boolean value with the default JSON parsing, only “true” and “false”, lowercase, are valid values. Keep in mind that any non-empty string is considered `True` by Python.
-It is possible to set keys in nested dictionaries by separating the keys with double underscore (`__`). Any intermediate keys that don’t exist on the parent dict will be initialized to an empty dict.
-```
-$ export FLASK_MYAPI__credentials__username=user123
-
-```
-
-```
-app.config["MYAPI"]["credentials"]["username"]  # Is "user123"
-
-```
-
-On Windows, environment variable keys are always uppercase, therefore the above example would end up as `MYAPI__CREDENTIALS__USERNAME`.
-For even more config loading features, including merging and case-insensitive Windows support, try a dedicated library such as
-## Configuration Best Practices[¶](https://flask.palletsprojects.com/en/stable/config/#configuration-best-practices "Link to this heading")
-The downside with the approach mentioned earlier is that it makes testing a little harder. There is no single 100% solution for this problem in general, but there are a couple of things you can keep in mind to improve that experience:
-  1. Create your application in a function and register blueprints on it. That way you can create multiple instances of your application with different configurations attached which makes unit testing a lot easier. You can use this to pass in configuration as needed.
-  2. Do not write code that needs the configuration at import time. If you limit yourself to request-only accesses to the configuration you can reconfigure the object later on as needed.
-  3. Make sure to load the configuration very early on, so that extensions can access the configuration when calling `init_app`.
-
-
-## Development / Production[¶](https://flask.palletsprojects.com/en/stable/config/#development-production "Link to this heading")
-Most applications need more than one configuration. There should be at least separate configurations for the production server and the one used during development. The easiest way to handle this is to use a default configuration that is always loaded and part of the version control, and a separate configuration that overrides the values as necessary as mentioned in the example above:
-```
-app = Flask(__name__)
-app.config.from_object('yourapplication.default_settings')
-app.config.from_envvar('YOURAPPLICATION_SETTINGS')
-
-```
-
-Then you just have to add a separate `config.py` file and export `YOURAPPLICATION_SETTINGS=/path/to/config.py` and you are done. However there are alternative ways as well. For example you could use imports or subclassing.
-What is very popular in the Django world is to make the import explicit in the config file by adding `from yourapplication.default_settings import *` to the top of the file and then overriding the changes by hand. You could also inspect an environment variable like `YOURAPPLICATION_MODE` and set that to `production`, `development` etc and import different hard-coded files based on that.
-An interesting pattern is also to use classes and inheritance for configuration:
-```
-class Config(object):
-    TESTING = False
-
-class ProductionConfig(Config):
-    DATABASE_URI = 'mysql://user@localhost/foo'
-
-class DevelopmentConfig(Config):
-    DATABASE_URI = "sqlite:////tmp/foo.db"
-
-class TestingConfig(Config):
-    DATABASE_URI = 'sqlite:///:memory:'
-    TESTING = True
-
-```
-
-To enable such a config you just have to call into [`from_object()`](https://flask.palletsprojects.com/en/stable/api/#flask.Config.from_object "flask.Config.from_object"):
-```
-app.config.from_object('configmodule.ProductionConfig')
-
-```
-
-Note that [`from_object()`](https://flask.palletsprojects.com/en/stable/api/#flask.Config.from_object "flask.Config.from_object") does not instantiate the class object. If you need to instantiate the class, such as to access a property, then you must do so before calling [`from_object()`](https://flask.palletsprojects.com/en/stable/api/#flask.Config.from_object "flask.Config.from_object"):
-```
-from configmodule import ProductionConfig
-app.config.from_object(ProductionConfig())
-
-# Alternatively, import via string:
-from werkzeug.utils import import_string
-cfg = import_string('configmodule.ProductionConfig')()
-app.config.from_object(cfg)
-
-```
-
-Instantiating the configuration object allows you to use `@property` in your configuration classes:
-```
-class Config(object):
-    """Base config, uses staging database server."""
-    TESTING = False
-    DB_SERVER = '192.168.1.56'
-
-    @property
-    def DATABASE_URI(self):  # Note: all caps
-        return f"mysql://user@{self.DB_SERVER}/foo"
-
-class ProductionConfig(Config):
-    """Uses production database server."""
-    DB_SERVER = '192.168.19.32'
-
-class DevelopmentConfig(Config):
-    DB_SERVER = 'localhost'
-
-class TestingConfig(Config):
-    DB_SERVER = 'localhost'
-    DATABASE_URI = 'sqlite:///:memory:'
-
-```
-
-There are many different ways and it’s up to you how you want to manage your configuration files. However here a list of good recommendations:
-  * Keep a default configuration in version control. Either populate the config with this default configuration or import it in your own configuration files before overriding values.
-  * Use an environment variable to switch between the configurations. This can be done from outside the Python interpreter and makes development and deployment much easier because you can quickly and easily switch between different configs without having to touch the code at all. If you are working often on different projects you can even create your own script for sourcing that activates a virtualenv and exports the development configuration for you.
-  * Use a tool like
-
-
-## Instance Folders[¶](https://flask.palletsprojects.com/en/stable/config/#instance-folders "Link to this heading")
-Changelog
-Added in version 0.8.
-Flask 0.8 introduces instance folders. Flask for a long time made it possible to refer to paths relative to the application’s folder directly (via `Flask.root_path`). This was also how many developers loaded configurations stored next to the application. Unfortunately however this only works well if applications are not packages in which case the root path refers to the contents of the package.
-With Flask 0.8 a new attribute was introduced: `Flask.instance_path`. It refers to a new concept called the “instance folder”. The instance folder is designed to not be under version control and be deployment specific. It’s the perfect place to drop things that either change at runtime or configuration files.
-You can either explicitly provide the path of the instance folder when creating the Flask application or you can let Flask autodetect the instance folder. For explicit configuration use the `instance_path` parameter:
-```
-app = Flask(__name__, instance_path='/path/to/instance/folder')
-
-```
-
-Please keep in mind that this path _must_ be absolute when provided.
-If the `instance_path` parameter is not provided the following default locations are used:
-  * Uninstalled module:
-```
-/myapp.py
-/instance
-
-```
-
-  * Uninstalled package:
-```
-/myapp
-    /__init__.py
-/instance
-
-```
-
-  * Installed module or package:
-```
-$PREFIX/lib/pythonX.Y/site-packages/myapp
-$PREFIX/var/myapp-instance
-
-```
-
-`$PREFIX` is the prefix of your Python installation. This can be `/usr` or the path to your virtualenv. You can print the value of `sys.prefix` to see what the prefix is set to.
-
-
-Since the config object provided loading of configuration files from relative filenames we made it possible to change the loading via filenames to be relative to the instance path if wanted. The behavior of relative paths in config files can be flipped between “relative to the application root” (the default) to “relative to instance folder” via the `instance_relative_config` switch to the application constructor:
-```
-app = Flask(__name__, instance_relative_config=True)
-
-```
-
-Here is a full example of how to configure Flask to preload the config from a module and then override the config from a file in the instance folder if it exists:
-```
-app = Flask(__name__, instance_relative_config=True)
-app.config.from_object('yourapplication.default_settings')
-app.config.from_pyfile('application.cfg', silent=True)
-
-```
-
-The path to the instance folder can be found via the `Flask.instance_path`. Flask also provides a shortcut to open a file from the instance folder with `Flask.open_instance_resource()`.
-Example usage for both:
-```
-filename = os.path.join(app.instance_path, 'application.cfg')
-with open(filename) as f:
-    config = f.read()
-
-# or via open_instance_resource:
-with app.open_instance_resource('application.cfg') as f:
-    config = f.read()
-
-```
-
-[ ![Logo of Flask](https://flask.palletsprojects.com/en/stable/_static/flask-logo.svg) ](https://flask.palletsprojects.com/en/stable/)
-### Contents
+  * [Welcome to Flask](https://flask.palletsprojects.com/en/stable/)
+
+
+# Welcome to Flask[¶](https://flask.palletsprojects.com/en/stable/#welcome-to-flask "Link to this heading")
+[![_images/flask-name.svg](https://flask.palletsprojects.com/en/stable/_images/flask-name.svg) ](https://flask.palletsprojects.com/en/stable/_images/flask-name.svg)
+Welcome to Flask’s documentation. Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications.
+Get started with [Installation](https://flask.palletsprojects.com/en/stable/installation/) and then get an overview with the [Quickstart](https://flask.palletsprojects.com/en/stable/quickstart/). There is also a more detailed [Tutorial](https://flask.palletsprojects.com/en/stable/tutorial/) that shows how to create a small but complete application with Flask. Common patterns are described in the [Patterns for Flask](https://flask.palletsprojects.com/en/stable/patterns/) section. The rest of the docs describe each component of Flask in detail, with a full reference in the [API](https://flask.palletsprojects.com/en/stable/api/) section.
+Flask depends on the [Werkzeug](https://werkzeug.palletsprojects.com) WSGI toolkit, the [Jinja](https://jinja.palletsprojects.com) template engine, and the [Click](https://click.palletsprojects.com) CLI toolkit. Be sure to check their documentation as well as Flask’s when looking for information.
+## User’s Guide[¶](https://flask.palletsprojects.com/en/stable/#user-s-guide "Link to this heading")
+Flask provides configuration and conventions, with sensible defaults, to get started. This section of the documentation explains the different parts of the Flask framework and how they can be used, customized, and extended. Beyond Flask itself, look for community-maintained extensions to add even more functionality.
+  * [Installation](https://flask.palletsprojects.com/en/stable/installation/)
+    * [Python Version](https://flask.palletsprojects.com/en/stable/installation/#python-version)
+    * [Dependencies](https://flask.palletsprojects.com/en/stable/installation/#dependencies)
+    * [Virtual environments](https://flask.palletsprojects.com/en/stable/installation/#virtual-environments)
+    * [Install Flask](https://flask.palletsprojects.com/en/stable/installation/#install-flask)
+  * [Quickstart](https://flask.palletsprojects.com/en/stable/quickstart/)
+    * [A Minimal Application](https://flask.palletsprojects.com/en/stable/quickstart/#a-minimal-application)
+    * [Debug Mode](https://flask.palletsprojects.com/en/stable/quickstart/#debug-mode)
+    * [HTML Escaping](https://flask.palletsprojects.com/en/stable/quickstart/#html-escaping)
+    * [Routing](https://flask.palletsprojects.com/en/stable/quickstart/#routing)
+    * [Static Files](https://flask.palletsprojects.com/en/stable/quickstart/#static-files)
+    * [Rendering Templates](https://flask.palletsprojects.com/en/stable/quickstart/#rendering-templates)
+    * [Accessing Request Data](https://flask.palletsprojects.com/en/stable/quickstart/#accessing-request-data)
+    * [Redirects and Errors](https://flask.palletsprojects.com/en/stable/quickstart/#redirects-and-errors)
+    * [About Responses](https://flask.palletsprojects.com/en/stable/quickstart/#about-responses)
+    * [Sessions](https://flask.palletsprojects.com/en/stable/quickstart/#sessions)
+    * [Message Flashing](https://flask.palletsprojects.com/en/stable/quickstart/#message-flashing)
+    * [Logging](https://flask.palletsprojects.com/en/stable/quickstart/#logging)
+    * [Hooking in WSGI Middleware](https://flask.palletsprojects.com/en/stable/quickstart/#hooking-in-wsgi-middleware)
+    * [Using Flask Extensions](https://flask.palletsprojects.com/en/stable/quickstart/#using-flask-extensions)
+    * [Deploying to a Web Server](https://flask.palletsprojects.com/en/stable/quickstart/#deploying-to-a-web-server)
+  * [Tutorial](https://flask.palletsprojects.com/en/stable/tutorial/)
+    * [Project Layout](https://flask.palletsprojects.com/en/stable/tutorial/layout/)
+    * [Application Setup](https://flask.palletsprojects.com/en/stable/tutorial/factory/)
+    * [Define and Access the Database](https://flask.palletsprojects.com/en/stable/tutorial/database/)
+    * [Blueprints and Views](https://flask.palletsprojects.com/en/stable/tutorial/views/)
+    * [Templates](https://flask.palletsprojects.com/en/stable/tutorial/templates/)
+    * [Static Files](https://flask.palletsprojects.com/en/stable/tutorial/static/)
+    * [Blog Blueprint](https://flask.palletsprojects.com/en/stable/tutorial/blog/)
+    * [Make the Project Installable](https://flask.palletsprojects.com/en/stable/tutorial/install/)
+    * [Test Coverage](https://flask.palletsprojects.com/en/stable/tutorial/tests/)
+    * [Deploy to Production](https://flask.palletsprojects.com/en/stable/tutorial/deploy/)
+    * [Keep Developing!](https://flask.palletsprojects.com/en/stable/tutorial/next/)
+  * [Templates](https://flask.palletsprojects.com/en/stable/templating/)
+    * [Jinja Setup](https://flask.palletsprojects.com/en/stable/templating/#jinja-setup)
+    * [Standard Context](https://flask.palletsprojects.com/en/stable/templating/#standard-context)
+    * [Controlling Autoescaping](https://flask.palletsprojects.com/en/stable/templating/#controlling-autoescaping)
+    * [Registering Filters](https://flask.palletsprojects.com/en/stable/templating/#registering-filters)
+    * [Context Processors](https://flask.palletsprojects.com/en/stable/templating/#context-processors)
+    * [Streaming](https://flask.palletsprojects.com/en/stable/templating/#streaming)
+  * [Testing Flask Applications](https://flask.palletsprojects.com/en/stable/testing/)
+    * [Identifying Tests](https://flask.palletsprojects.com/en/stable/testing/#identifying-tests)
+    * [Fixtures](https://flask.palletsprojects.com/en/stable/testing/#fixtures)
+    * [Sending Requests with the Test Client](https://flask.palletsprojects.com/en/stable/testing/#sending-requests-with-the-test-client)
+    * [Following Redirects](https://flask.palletsprojects.com/en/stable/testing/#following-redirects)
+    * [Accessing and Modifying the Session](https://flask.palletsprojects.com/en/stable/testing/#accessing-and-modifying-the-session)
+    * [Running Commands with the CLI Runner](https://flask.palletsprojects.com/en/stable/testing/#running-commands-with-the-cli-runner)
+    * [Tests that depend on an Active Context](https://flask.palletsprojects.com/en/stable/testing/#tests-that-depend-on-an-active-context)
+  * [Handling Application Errors](https://flask.palletsprojects.com/en/stable/errorhandling/)
+    * [Error Logging Tools](https://flask.palletsprojects.com/en/stable/errorhandling/#error-logging-tools)
+    * [Error Handlers](https://flask.palletsprojects.com/en/stable/errorhandling/#error-handlers)
+    * [Custom Error Pages](https://flask.palletsprojects.com/en/stable/errorhandling/#custom-error-pages)
+    * [Blueprint Error Handlers](https://flask.palletsprojects.com/en/stable/errorhandling/#blueprint-error-handlers)
+    * [Returning API Errors as JSON](https://flask.palletsprojects.com/en/stable/errorhandling/#returning-api-errors-as-json)
+    * [Logging](https://flask.palletsprojects.com/en/stable/errorhandling/#logging)
+    * [Debugging](https://flask.palletsprojects.com/en/stable/errorhandling/#debugging)
+  * [Debugging Application Errors](https://flask.palletsprojects.com/en/stable/debugging/)
+    * [In Production](https://flask.palletsprojects.com/en/stable/debugging/#in-production)
+    * [The Built-In Debugger](https://flask.palletsprojects.com/en/stable/debugging/#the-built-in-debugger)
+    * [External Debuggers](https://flask.palletsprojects.com/en/stable/debugging/#external-debuggers)
+  * [Logging](https://flask.palletsprojects.com/en/stable/logging/)
+    * [Basic Configuration](https://flask.palletsprojects.com/en/stable/logging/#basic-configuration)
+    * [Email Errors to Admins](https://flask.palletsprojects.com/en/stable/logging/#email-errors-to-admins)
+    * [Injecting Request Information](https://flask.palletsprojects.com/en/stable/logging/#injecting-request-information)
+    * [Other Libraries](https://flask.palletsprojects.com/en/stable/logging/#other-libraries)
   * [Configuration Handling](https://flask.palletsprojects.com/en/stable/config/)
     * [Configuration Basics](https://flask.palletsprojects.com/en/stable/config/#configuration-basics)
     * [Debug Mode](https://flask.palletsprojects.com/en/stable/config/#debug-mode)
     * [Builtin Configuration Values](https://flask.palletsprojects.com/en/stable/config/#builtin-configuration-values)
-      * [`DEBUG`](https://flask.palletsprojects.com/en/stable/config/#DEBUG)
-      * [`TESTING`](https://flask.palletsprojects.com/en/stable/config/#TESTING)
-      * [`PROPAGATE_EXCEPTIONS`](https://flask.palletsprojects.com/en/stable/config/#PROPAGATE_EXCEPTIONS)
-      * [`TRAP_HTTP_EXCEPTIONS`](https://flask.palletsprojects.com/en/stable/config/#TRAP_HTTP_EXCEPTIONS)
-      * [`TRAP_BAD_REQUEST_ERRORS`](https://flask.palletsprojects.com/en/stable/config/#TRAP_BAD_REQUEST_ERRORS)
-      * [`SECRET_KEY`](https://flask.palletsprojects.com/en/stable/config/#SECRET_KEY)
-      * [`SECRET_KEY_FALLBACKS`](https://flask.palletsprojects.com/en/stable/config/#SECRET_KEY_FALLBACKS)
-      * [`SESSION_COOKIE_NAME`](https://flask.palletsprojects.com/en/stable/config/#SESSION_COOKIE_NAME)
-      * [`SESSION_COOKIE_DOMAIN`](https://flask.palletsprojects.com/en/stable/config/#SESSION_COOKIE_DOMAIN)
-      * [`SESSION_COOKIE_PATH`](https://flask.palletsprojects.com/en/stable/config/#SESSION_COOKIE_PATH)
-      * [`SESSION_COOKIE_HTTPONLY`](https://flask.palletsprojects.com/en/stable/config/#SESSION_COOKIE_HTTPONLY)
-      * [`SESSION_COOKIE_SECURE`](https://flask.palletsprojects.com/en/stable/config/#SESSION_COOKIE_SECURE)
-      * [`SESSION_COOKIE_PARTITIONED`](https://flask.palletsprojects.com/en/stable/config/#SESSION_COOKIE_PARTITIONED)
-      * [`SESSION_COOKIE_SAMESITE`](https://flask.palletsprojects.com/en/stable/config/#SESSION_COOKIE_SAMESITE)
-      * [`PERMANENT_SESSION_LIFETIME`](https://flask.palletsprojects.com/en/stable/config/#PERMANENT_SESSION_LIFETIME)
-      * [`SESSION_REFRESH_EACH_REQUEST`](https://flask.palletsprojects.com/en/stable/config/#SESSION_REFRESH_EACH_REQUEST)
-      * [`USE_X_SENDFILE`](https://flask.palletsprojects.com/en/stable/config/#USE_X_SENDFILE)
-      * [`SEND_FILE_MAX_AGE_DEFAULT`](https://flask.palletsprojects.com/en/stable/config/#SEND_FILE_MAX_AGE_DEFAULT)
-      * [`TRUSTED_HOSTS`](https://flask.palletsprojects.com/en/stable/config/#TRUSTED_HOSTS)
-      * [`SERVER_NAME`](https://flask.palletsprojects.com/en/stable/config/#SERVER_NAME)
-      * [`APPLICATION_ROOT`](https://flask.palletsprojects.com/en/stable/config/#APPLICATION_ROOT)
-      * [`PREFERRED_URL_SCHEME`](https://flask.palletsprojects.com/en/stable/config/#PREFERRED_URL_SCHEME)
-      * [`MAX_CONTENT_LENGTH`](https://flask.palletsprojects.com/en/stable/config/#MAX_CONTENT_LENGTH)
-      * [`MAX_FORM_MEMORY_SIZE`](https://flask.palletsprojects.com/en/stable/config/#MAX_FORM_MEMORY_SIZE)
-      * [`MAX_FORM_PARTS`](https://flask.palletsprojects.com/en/stable/config/#MAX_FORM_PARTS)
-      * [`TEMPLATES_AUTO_RELOAD`](https://flask.palletsprojects.com/en/stable/config/#TEMPLATES_AUTO_RELOAD)
-      * [`EXPLAIN_TEMPLATE_LOADING`](https://flask.palletsprojects.com/en/stable/config/#EXPLAIN_TEMPLATE_LOADING)
-      * [`MAX_COOKIE_SIZE`](https://flask.palletsprojects.com/en/stable/config/#MAX_COOKIE_SIZE)
-      * [`PROVIDE_AUTOMATIC_OPTIONS`](https://flask.palletsprojects.com/en/stable/config/#PROVIDE_AUTOMATIC_OPTIONS)
     * [Configuring from Python Files](https://flask.palletsprojects.com/en/stable/config/#configuring-from-python-files)
     * [Configuring from Data Files](https://flask.palletsprojects.com/en/stable/config/#configuring-from-data-files)
     * [Configuring from Environment Variables](https://flask.palletsprojects.com/en/stable/config/#configuring-from-environment-variables)
     * [Configuration Best Practices](https://flask.palletsprojects.com/en/stable/config/#configuration-best-practices)
     * [Development / Production](https://flask.palletsprojects.com/en/stable/config/#development-production)
     * [Instance Folders](https://flask.palletsprojects.com/en/stable/config/#instance-folders)
+  * [Signals](https://flask.palletsprojects.com/en/stable/signals/)
+    * [Core Signals](https://flask.palletsprojects.com/en/stable/signals/#core-signals)
+    * [Subscribing to Signals](https://flask.palletsprojects.com/en/stable/signals/#subscribing-to-signals)
+    * [Creating Signals](https://flask.palletsprojects.com/en/stable/signals/#creating-signals)
+    * [Sending Signals](https://flask.palletsprojects.com/en/stable/signals/#sending-signals)
+    * [Signals and Flask’s Request Context](https://flask.palletsprojects.com/en/stable/signals/#signals-and-flask-s-request-context)
+    * [Decorator Based Signal Subscriptions](https://flask.palletsprojects.com/en/stable/signals/#decorator-based-signal-subscriptions)
+  * [Class-based Views](https://flask.palletsprojects.com/en/stable/views/)
+    * [Basic Reusable View](https://flask.palletsprojects.com/en/stable/views/#basic-reusable-view)
+    * [URL Variables](https://flask.palletsprojects.com/en/stable/views/#url-variables)
+    * [View Lifetime and `self`](https://flask.palletsprojects.com/en/stable/views/#view-lifetime-and-self)
+    * [View Decorators](https://flask.palletsprojects.com/en/stable/views/#view-decorators)
+    * [Method Hints](https://flask.palletsprojects.com/en/stable/views/#method-hints)
+    * [Method Dispatching and APIs](https://flask.palletsprojects.com/en/stable/views/#method-dispatching-and-apis)
+  * [Application Structure and Lifecycle](https://flask.palletsprojects.com/en/stable/lifecycle/)
+    * [Application Setup](https://flask.palletsprojects.com/en/stable/lifecycle/#application-setup)
+    * [Serving the Application](https://flask.palletsprojects.com/en/stable/lifecycle/#serving-the-application)
+    * [How a Request is Handled](https://flask.palletsprojects.com/en/stable/lifecycle/#how-a-request-is-handled)
+  * [The Application Context](https://flask.palletsprojects.com/en/stable/appcontext/)
+    * [Purpose of the Context](https://flask.palletsprojects.com/en/stable/appcontext/#purpose-of-the-context)
+    * [Lifetime of the Context](https://flask.palletsprojects.com/en/stable/appcontext/#lifetime-of-the-context)
+    * [Manually Push a Context](https://flask.palletsprojects.com/en/stable/appcontext/#manually-push-a-context)
+    * [Storing Data](https://flask.palletsprojects.com/en/stable/appcontext/#storing-data)
+    * [Events and Signals](https://flask.palletsprojects.com/en/stable/appcontext/#events-and-signals)
+  * [The Request Context](https://flask.palletsprojects.com/en/stable/reqcontext/)
+    * [Purpose of the Context](https://flask.palletsprojects.com/en/stable/reqcontext/#purpose-of-the-context)
+    * [Lifetime of the Context](https://flask.palletsprojects.com/en/stable/reqcontext/#lifetime-of-the-context)
+    * [Manually Push a Context](https://flask.palletsprojects.com/en/stable/reqcontext/#manually-push-a-context)
+    * [How the Context Works](https://flask.palletsprojects.com/en/stable/reqcontext/#how-the-context-works)
+    * [Callbacks and Errors](https://flask.palletsprojects.com/en/stable/reqcontext/#callbacks-and-errors)
+    * [Notes On Proxies](https://flask.palletsprojects.com/en/stable/reqcontext/#notes-on-proxies)
+  * [Modular Applications with Blueprints](https://flask.palletsprojects.com/en/stable/blueprints/)
+    * [Why Blueprints?](https://flask.palletsprojects.com/en/stable/blueprints/#why-blueprints)
+    * [The Concept of Blueprints](https://flask.palletsprojects.com/en/stable/blueprints/#the-concept-of-blueprints)
+    * [My First Blueprint](https://flask.palletsprojects.com/en/stable/blueprints/#my-first-blueprint)
+    * [Registering Blueprints](https://flask.palletsprojects.com/en/stable/blueprints/#registering-blueprints)
+    * [Nesting Blueprints](https://flask.palletsprojects.com/en/stable/blueprints/#nesting-blueprints)
+    * [Blueprint Resources](https://flask.palletsprojects.com/en/stable/blueprints/#blueprint-resources)
+    * [Building URLs](https://flask.palletsprojects.com/en/stable/blueprints/#building-urls)
+    * [Blueprint Error Handlers](https://flask.palletsprojects.com/en/stable/blueprints/#blueprint-error-handlers)
+  * [Extensions](https://flask.palletsprojects.com/en/stable/extensions/)
+    * [Finding Extensions](https://flask.palletsprojects.com/en/stable/extensions/#finding-extensions)
+    * [Using Extensions](https://flask.palletsprojects.com/en/stable/extensions/#using-extensions)
+    * [Building Extensions](https://flask.palletsprojects.com/en/stable/extensions/#building-extensions)
+  * [Command Line Interface](https://flask.palletsprojects.com/en/stable/cli/)
+    * [Application Discovery](https://flask.palletsprojects.com/en/stable/cli/#application-discovery)
+    * [Run the Development Server](https://flask.palletsprojects.com/en/stable/cli/#run-the-development-server)
+    * [Open a Shell](https://flask.palletsprojects.com/en/stable/cli/#open-a-shell)
+    * [Environment Variables From dotenv](https://flask.palletsprojects.com/en/stable/cli/#environment-variables-from-dotenv)
+    * [Environment Variables From virtualenv](https://flask.palletsprojects.com/en/stable/cli/#environment-variables-from-virtualenv)
+    * [Custom Commands](https://flask.palletsprojects.com/en/stable/cli/#custom-commands)
+    * [Plugins](https://flask.palletsprojects.com/en/stable/cli/#plugins)
+    * [Custom Scripts](https://flask.palletsprojects.com/en/stable/cli/#custom-scripts)
+    * [PyCharm Integration](https://flask.palletsprojects.com/en/stable/cli/#pycharm-integration)
+  * [Development Server](https://flask.palletsprojects.com/en/stable/server/)
+    * [Command Line](https://flask.palletsprojects.com/en/stable/server/#command-line)
+    * [In Code](https://flask.palletsprojects.com/en/stable/server/#in-code)
+  * [Working with the Shell](https://flask.palletsprojects.com/en/stable/shell/)
+    * [Command Line Interface](https://flask.palletsprojects.com/en/stable/shell/#command-line-interface)
+    * [Creating a Request Context](https://flask.palletsprojects.com/en/stable/shell/#creating-a-request-context)
+    * [Firing Before/After Request](https://flask.palletsprojects.com/en/stable/shell/#firing-before-after-request)
+    * [Further Improving the Shell Experience](https://flask.palletsprojects.com/en/stable/shell/#further-improving-the-shell-experience)
+  * [Patterns for Flask](https://flask.palletsprojects.com/en/stable/patterns/)
+    * [Large Applications as Packages](https://flask.palletsprojects.com/en/stable/patterns/packages/)
+    * [Application Factories](https://flask.palletsprojects.com/en/stable/patterns/appfactories/)
+    * [Application Dispatching](https://flask.palletsprojects.com/en/stable/patterns/appdispatch/)
+    * [Using URL Processors](https://flask.palletsprojects.com/en/stable/patterns/urlprocessors/)
+    * [Using SQLite 3 with Flask](https://flask.palletsprojects.com/en/stable/patterns/sqlite3/)
+    * [SQLAlchemy in Flask](https://flask.palletsprojects.com/en/stable/patterns/sqlalchemy/)
+    * [Uploading Files](https://flask.palletsprojects.com/en/stable/patterns/fileuploads/)
+    * [Caching](https://flask.palletsprojects.com/en/stable/patterns/caching/)
+    * [View Decorators](https://flask.palletsprojects.com/en/stable/patterns/viewdecorators/)
+    * [Form Validation with WTForms](https://flask.palletsprojects.com/en/stable/patterns/wtforms/)
+    * [Template Inheritance](https://flask.palletsprojects.com/en/stable/patterns/templateinheritance/)
+    * [Message Flashing](https://flask.palletsprojects.com/en/stable/patterns/flashing/)
+    * [JavaScript, `fetch`, and JSON](https://flask.palletsprojects.com/en/stable/patterns/javascript/)
+    * [Lazily Loading Views](https://flask.palletsprojects.com/en/stable/patterns/lazyloading/)
+    * [MongoDB with MongoEngine](https://flask.palletsprojects.com/en/stable/patterns/mongoengine/)
+    * [Adding a favicon](https://flask.palletsprojects.com/en/stable/patterns/favicon/)
+    * [Streaming Contents](https://flask.palletsprojects.com/en/stable/patterns/streaming/)
+    * [Deferred Request Callbacks](https://flask.palletsprojects.com/en/stable/patterns/deferredcallbacks/)
+    * [Adding HTTP Method Overrides](https://flask.palletsprojects.com/en/stable/patterns/methodoverrides/)
+    * [Request Content Checksums](https://flask.palletsprojects.com/en/stable/patterns/requestchecksum/)
+    * [Background Tasks with Celery](https://flask.palletsprojects.com/en/stable/patterns/celery/)
+    * [Subclassing Flask](https://flask.palletsprojects.com/en/stable/patterns/subclassing/)
+    * [Single-Page Applications](https://flask.palletsprojects.com/en/stable/patterns/singlepageapplications/)
+  * [Security Considerations](https://flask.palletsprojects.com/en/stable/web-security/)
+    * [Resource Use](https://flask.palletsprojects.com/en/stable/web-security/#resource-use)
+    * [Cross-Site Scripting (XSS)](https://flask.palletsprojects.com/en/stable/web-security/#cross-site-scripting-xss)
+    * [Cross-Site Request Forgery (CSRF)](https://flask.palletsprojects.com/en/stable/web-security/#cross-site-request-forgery-csrf)
+    * [JSON Security](https://flask.palletsprojects.com/en/stable/web-security/#json-security)
+    * [Security Headers](https://flask.palletsprojects.com/en/stable/web-security/#security-headers)
+    * [Host Header Validation](https://flask.palletsprojects.com/en/stable/web-security/#host-header-validation)
+    * [Copy/Paste to Terminal](https://flask.palletsprojects.com/en/stable/web-security/#copy-paste-to-terminal)
+  * [Deploying to Production](https://flask.palletsprojects.com/en/stable/deploying/)
+    * [Self-Hosted Options](https://flask.palletsprojects.com/en/stable/deploying/#self-hosted-options)
+    * [Hosting Platforms](https://flask.palletsprojects.com/en/stable/deploying/#hosting-platforms)
+  * [Async with Gevent](https://flask.palletsprojects.com/en/stable/gevent/)
+    * [Enabling gevent](https://flask.palletsprojects.com/en/stable/gevent/#enabling-gevent)
+    * [Combining with `async`/`await`](https://flask.palletsprojects.com/en/stable/gevent/#combining-with-async-await)
+  * [Using `async` and `await`](https://flask.palletsprojects.com/en/stable/async-await/)
+    * [Performance](https://flask.palletsprojects.com/en/stable/async-await/#performance)
+    * [Background tasks](https://flask.palletsprojects.com/en/stable/async-await/#background-tasks)
+    * [When to use Quart instead](https://flask.palletsprojects.com/en/stable/async-await/#when-to-use-quart-instead)
+    * [Extensions](https://flask.palletsprojects.com/en/stable/async-await/#extensions)
+    * [Other event loops](https://flask.palletsprojects.com/en/stable/async-await/#other-event-loops)
 
 
-### Navigation
-  * [Overview](https://flask.palletsprojects.com/en/stable/)
-    * Previous: [Logging](https://flask.palletsprojects.com/en/stable/logging/ "previous chapter")
-    * Next: [Signals](https://flask.palletsprojects.com/en/stable/signals/ "next chapter")
+## API Reference[¶](https://flask.palletsprojects.com/en/stable/#api-reference "Link to this heading")
+If you are looking for information on a specific function, class or method, this part of the documentation is for you.
+  * [API](https://flask.palletsprojects.com/en/stable/api/)
+    * [Application Object](https://flask.palletsprojects.com/en/stable/api/#application-object)
+    * [Blueprint Objects](https://flask.palletsprojects.com/en/stable/api/#blueprint-objects)
+    * [Incoming Request Data](https://flask.palletsprojects.com/en/stable/api/#incoming-request-data)
+    * [Response Objects](https://flask.palletsprojects.com/en/stable/api/#response-objects)
+    * [Sessions](https://flask.palletsprojects.com/en/stable/api/#sessions)
+    * [Session Interface](https://flask.palletsprojects.com/en/stable/api/#session-interface)
+    * [Test Client](https://flask.palletsprojects.com/en/stable/api/#test-client)
+    * [Test CLI Runner](https://flask.palletsprojects.com/en/stable/api/#test-cli-runner)
+    * [Application Globals](https://flask.palletsprojects.com/en/stable/api/#application-globals)
+    * [Useful Functions and Classes](https://flask.palletsprojects.com/en/stable/api/#useful-functions-and-classes)
+    * [Message Flashing](https://flask.palletsprojects.com/en/stable/api/#message-flashing)
+    * [JSON Support](https://flask.palletsprojects.com/en/stable/api/#module-flask.json)
+    * [Template Rendering](https://flask.palletsprojects.com/en/stable/api/#template-rendering)
+    * [Configuration](https://flask.palletsprojects.com/en/stable/api/#configuration)
+    * [Stream Helpers](https://flask.palletsprojects.com/en/stable/api/#stream-helpers)
+    * [Useful Internals](https://flask.palletsprojects.com/en/stable/api/#useful-internals)
+    * [Signals](https://flask.palletsprojects.com/en/stable/api/#signals)
+    * [Class-Based Views](https://flask.palletsprojects.com/en/stable/api/#class-based-views)
+    * [URL Route Registrations](https://flask.palletsprojects.com/en/stable/api/#url-route-registrations)
+    * [View Function Options](https://flask.palletsprojects.com/en/stable/api/#view-function-options)
+    * [Command Line Interface](https://flask.palletsprojects.com/en/stable/api/#command-line-interface)
+
+
+## Additional Notes[¶](https://flask.palletsprojects.com/en/stable/#additional-notes "Link to this heading")
+  * [Design Decisions in Flask](https://flask.palletsprojects.com/en/stable/design/)
+    * [The Explicit Application Object](https://flask.palletsprojects.com/en/stable/design/#the-explicit-application-object)
+    * [The Routing System](https://flask.palletsprojects.com/en/stable/design/#the-routing-system)
+    * [One Template Engine](https://flask.palletsprojects.com/en/stable/design/#one-template-engine)
+    * [What does “micro” mean?](https://flask.palletsprojects.com/en/stable/design/#what-does-micro-mean)
+    * [Thread Locals](https://flask.palletsprojects.com/en/stable/design/#thread-locals)
+    * [Async/await and ASGI support](https://flask.palletsprojects.com/en/stable/design/#async-await-and-asgi-support)
+    * [What Flask is, What Flask is Not](https://flask.palletsprojects.com/en/stable/design/#what-flask-is-what-flask-is-not)
+  * [Flask Extension Development](https://flask.palletsprojects.com/en/stable/extensiondev/)
+    * [Naming](https://flask.palletsprojects.com/en/stable/extensiondev/#naming)
+    * [The Extension Class and Initialization](https://flask.palletsprojects.com/en/stable/extensiondev/#the-extension-class-and-initialization)
+    * [Adding Behavior](https://flask.palletsprojects.com/en/stable/extensiondev/#adding-behavior)
+    * [Configuration Techniques](https://flask.palletsprojects.com/en/stable/extensiondev/#configuration-techniques)
+    * [Data During a Request](https://flask.palletsprojects.com/en/stable/extensiondev/#data-during-a-request)
+    * [Views and Models](https://flask.palletsprojects.com/en/stable/extensiondev/#views-and-models)
+    * [Recommended Extension Guidelines](https://flask.palletsprojects.com/en/stable/extensiondev/#recommended-extension-guidelines)
+  * [Contributing](https://flask.palletsprojects.com/en/stable/contributing/)
+  * [BSD-3-Clause License](https://flask.palletsprojects.com/en/stable/license/)
+  * [Changes](https://flask.palletsprojects.com/en/stable/changes/)
+    * [Version 3.1.3](https://flask.palletsprojects.com/en/stable/changes/#version-3-1-3)
+    * [Version 3.1.2](https://flask.palletsprojects.com/en/stable/changes/#version-3-1-2)
+    * [Version 3.1.1](https://flask.palletsprojects.com/en/stable/changes/#version-3-1-1)
+    * [Version 3.1.0](https://flask.palletsprojects.com/en/stable/changes/#version-3-1-0)
+    * [Version 3.0.3](https://flask.palletsprojects.com/en/stable/changes/#version-3-0-3)
+    * [Version 3.0.2](https://flask.palletsprojects.com/en/stable/changes/#version-3-0-2)
+    * [Version 3.0.1](https://flask.palletsprojects.com/en/stable/changes/#version-3-0-1)
+    * [Version 3.0.0](https://flask.palletsprojects.com/en/stable/changes/#version-3-0-0)
+    * [Version 2.3.3](https://flask.palletsprojects.com/en/stable/changes/#version-2-3-3)
+    * [Version 2.3.2](https://flask.palletsprojects.com/en/stable/changes/#version-2-3-2)
+    * [Version 2.3.1](https://flask.palletsprojects.com/en/stable/changes/#version-2-3-1)
+    * [Version 2.3.0](https://flask.palletsprojects.com/en/stable/changes/#version-2-3-0)
+    * [Version 2.2.5](https://flask.palletsprojects.com/en/stable/changes/#version-2-2-5)
+    * [Version 2.2.4](https://flask.palletsprojects.com/en/stable/changes/#version-2-2-4)
+    * [Version 2.2.3](https://flask.palletsprojects.com/en/stable/changes/#version-2-2-3)
+    * [Version 2.2.2](https://flask.palletsprojects.com/en/stable/changes/#version-2-2-2)
+    * [Version 2.2.1](https://flask.palletsprojects.com/en/stable/changes/#version-2-2-1)
+    * [Version 2.2.0](https://flask.palletsprojects.com/en/stable/changes/#version-2-2-0)
+    * [Version 2.1.3](https://flask.palletsprojects.com/en/stable/changes/#version-2-1-3)
+    * [Version 2.1.2](https://flask.palletsprojects.com/en/stable/changes/#version-2-1-2)
+    * [Version 2.1.1](https://flask.palletsprojects.com/en/stable/changes/#version-2-1-1)
+    * [Version 2.1.0](https://flask.palletsprojects.com/en/stable/changes/#version-2-1-0)
+    * [Version 2.0.3](https://flask.palletsprojects.com/en/stable/changes/#version-2-0-3)
+    * [Version 2.0.2](https://flask.palletsprojects.com/en/stable/changes/#version-2-0-2)
+    * [Version 2.0.1](https://flask.palletsprojects.com/en/stable/changes/#version-2-0-1)
+    * [Version 2.0.0](https://flask.palletsprojects.com/en/stable/changes/#version-2-0-0)
+    * [Version 1.1.4](https://flask.palletsprojects.com/en/stable/changes/#version-1-1-4)
+    * [Version 1.1.3](https://flask.palletsprojects.com/en/stable/changes/#version-1-1-3)
+    * [Version 1.1.2](https://flask.palletsprojects.com/en/stable/changes/#version-1-1-2)
+    * [Version 1.1.1](https://flask.palletsprojects.com/en/stable/changes/#version-1-1-1)
+    * [Version 1.1.0](https://flask.palletsprojects.com/en/stable/changes/#version-1-1-0)
+    * [Version 1.0.4](https://flask.palletsprojects.com/en/stable/changes/#version-1-0-4)
+    * [Version 1.0.3](https://flask.palletsprojects.com/en/stable/changes/#version-1-0-3)
+    * [Version 1.0.2](https://flask.palletsprojects.com/en/stable/changes/#version-1-0-2)
+    * [Version 1.0.1](https://flask.palletsprojects.com/en/stable/changes/#version-1-0-1)
+    * [Version 1.0](https://flask.palletsprojects.com/en/stable/changes/#version-1-0)
+    * [Version 0.12.5](https://flask.palletsprojects.com/en/stable/changes/#version-0-12-5)
+    * [Version 0.12.4](https://flask.palletsprojects.com/en/stable/changes/#version-0-12-4)
+    * [Version 0.12.3](https://flask.palletsprojects.com/en/stable/changes/#version-0-12-3)
+    * [Version 0.12.2](https://flask.palletsprojects.com/en/stable/changes/#version-0-12-2)
+    * [Version 0.12.1](https://flask.palletsprojects.com/en/stable/changes/#version-0-12-1)
+    * [Version 0.12](https://flask.palletsprojects.com/en/stable/changes/#version-0-12)
+    * [Version 0.11.1](https://flask.palletsprojects.com/en/stable/changes/#version-0-11-1)
+    * [Version 0.11](https://flask.palletsprojects.com/en/stable/changes/#version-0-11)
+    * [Version 0.10.1](https://flask.palletsprojects.com/en/stable/changes/#version-0-10-1)
+    * [Version 0.10](https://flask.palletsprojects.com/en/stable/changes/#version-0-10)
+    * [Version 0.9](https://flask.palletsprojects.com/en/stable/changes/#version-0-9)
+    * [Version 0.8.1](https://flask.palletsprojects.com/en/stable/changes/#version-0-8-1)
+    * [Version 0.8](https://flask.palletsprojects.com/en/stable/changes/#version-0-8)
+    * [Version 0.7.2](https://flask.palletsprojects.com/en/stable/changes/#version-0-7-2)
+    * [Version 0.7.1](https://flask.palletsprojects.com/en/stable/changes/#version-0-7-1)
+    * [Version 0.7](https://flask.palletsprojects.com/en/stable/changes/#version-0-7)
+    * [Version 0.6.1](https://flask.palletsprojects.com/en/stable/changes/#version-0-6-1)
+    * [Version 0.6](https://flask.palletsprojects.com/en/stable/changes/#version-0-6)
+    * [Version 0.5.2](https://flask.palletsprojects.com/en/stable/changes/#version-0-5-2)
+    * [Version 0.5.1](https://flask.palletsprojects.com/en/stable/changes/#version-0-5-1)
+    * [Version 0.5](https://flask.palletsprojects.com/en/stable/changes/#version-0-5)
+    * [Version 0.4](https://flask.palletsprojects.com/en/stable/changes/#version-0-4)
+    * [Version 0.3.1](https://flask.palletsprojects.com/en/stable/changes/#version-0-3-1)
+    * [Version 0.3](https://flask.palletsprojects.com/en/stable/changes/#version-0-3)
+    * [Version 0.2](https://flask.palletsprojects.com/en/stable/changes/#version-0-2)
+    * [Version 0.1](https://flask.palletsprojects.com/en/stable/changes/#version-0-1)
+
+
+### Project Links
+  * [Donate](https://palletsprojects.com/donate)
+
+
+### Contents
+  * [Welcome to Flask](https://flask.palletsprojects.com/en/stable/)
+    * [User’s Guide](https://flask.palletsprojects.com/en/stable/#user-s-guide)
+    * [API Reference](https://flask.palletsprojects.com/en/stable/#api-reference)
+    * [Additional Notes](https://flask.palletsprojects.com/en/stable/#additional-notes)
 
 
 ### Quick search
 ·
-![](https://server.ethicalads.io/proxy/view/10134/019ccc19-a14c-7950-b58d-a059918bf680/)
+![](https://server.ethicalads.io/proxy/view/10132/019ccf13-2a40-7603-93bc-c521e8b0f85c/)
 © Copyright 2010 Pallets. Created using

@@ -148,7 +148,7 @@ commented Mar 8, 2026, 12:38 AM
 [Manas Mohanty](https://learn.microsoft.com/en-us/users/na/?userid=6ed415a7-b41e-41ad-bd5b-ede8461a8b16) 14,750 Reputation points • Microsoft External Staff • Moderator
 0 answers
 ##  [ My Azure Database for PostgreSQL flexible server is stuck in 'Starting' state ](https://learn.microsoft.com/en-us/answers/questions/5812204/my-azure-database-for-postgresql-flexible-server-i)
-Because of a storage capacity issue, my server is unable to start, and is not responding. The storage percent of is at 99.871%. I woud like to rescale the storage so that I'm able to start it again. However the storage scaling options are disabled. How…
+Because of a storage capacity issue, my server is unable to start, and is not responding. The storage percent of is at 99.871%. I would like to rescale the storage so that I'm able to start it again. However the storage scaling options are disabled. How…
 Azure Database for PostgreSQL
 [ Azure Database for PostgreSQL ](https://learn.microsoft.com/en-us/answers/tags/214/azure-database-postgresql/)
 An Azure managed PostgreSQL database service for app development and deployment.
@@ -301,8 +301,8 @@ commented Mar 7, 2026, 7:46 PM
 ![](data:image/svg+xml,%20%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20height='64'%20class='font-weight-bold'%20style='font:%20600%2030.11764705882353px%20"SegoeUI",%20Arial'%20width='64'%3E%3Ccircle%20fill='hsl\(99.2,%2064%,%2019%\)'%20cx='32'%20cy='32'%20r='32'%20/%3E%3Ctext%20x='50%25'%20y='55%25'%20dominant-baseline='middle'%20text-anchor='middle'%20fill='%23FFF'%20%3EJ%3C/text%3E%3C/svg%3E)
 [JT](https://learn.microsoft.com/en-us/users/na/?userid=c31645f5-c6df-4725-8b77-5df390c62df8) 0 Reputation points
 0 answers
-##  [ Me suscribi hace 4 meses a travez de CENTEIA, empece y aprobe los cursos, no he podido volver a entrar ](https://learn.microsoft.com/en-us/answers/questions/5812655/me-suscribi-hace-4-meses-a-travez-de-centeia-empec)
-Me suscribi a AI900 hace 4 meses aprobe algunos cursos, mi insipcion la hice por mi ESCUELA CENTEIA eN Espana. no pude volver a entrar para continuar mis cursos: gracias.
+##  [ Me suscribi have 4 meses a travez de CENTEIA, empece y aprobe los cursos, no he podido volver a entrar ](https://learn.microsoft.com/en-us/answers/questions/5812655/me-suscribi-have-4-meses-a-travez-de-centeia-empec)
+Me suscribi a AI900 have 4 meses aprobe algunos cursos, mi insipcion la hice por mi ESCUELA CENTEIA eN Espana. no pude volver a entrar para continuar mis cursos: gracias.
 Azure | Azure Training
 [ Azure | Azure Training ](https://learn.microsoft.com/en-us/answers/tags/447/azure-azure-training/)
 Training: Instruction to develop new skills.
@@ -344,7 +344,7 @@ commented Mar 7, 2026, 6:22 PM
 ![](data:image/svg+xml,%20%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20height='64'%20class='font-weight-bold'%20style='font:%20600%2030.11764705882353px%20"SegoeUI",%20Arial'%20width='64'%3E%3Ccircle%20fill='hsl\(192,%2050%,%2028%\)'%20cx='32'%20cy='32'%20r='32'%20/%3E%3Ctext%20x='50%25'%20y='55%25'%20dominant-baseline='middle'%20text-anchor='middle'%20fill='%23FFF'%20%3ELB%3C/text%3E%3C/svg%3E)
 [Louis Batson](https://learn.microsoft.com/en-us/users/na/?userid=60d50982-5370-4e5b-b04e-5d771685703a) 0 Reputation points
 0 answers
-##  [ Unable to acess terraform remote backend azure storage account from other Subscription ](https://learn.microsoft.com/en-us/answers/questions/5812042/unable-to-acess-terraform-remote-backend-azure-sto)
+##  [ Unable to access terraform remote backend azure storage account from other Subscription ](https://learn.microsoft.com/en-us/answers/questions/5812042/unable-to-access-terraform-remote-backend-azure-sto)
 Hi Team, I have 2 Azure Subscriptions (Like final & testing).Iam storing terraform remote backend storage account in final subscription and this storage account we have disabled public access & configured private end point. While running testing…
 Azure Blob Storage
 [ Azure Blob Storage ](https://learn.microsoft.com/en-us/answers/tags/125/azure-blob-storage/)

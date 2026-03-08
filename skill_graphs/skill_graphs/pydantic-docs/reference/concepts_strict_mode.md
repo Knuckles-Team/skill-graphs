@@ -1,4 +1,27 @@
 [ Skip to content ](https://docs.pydantic.dev/latest/concepts/strict_mode/#as-a-validation-parameter)
+What's new — we've launched [Pydantic Logfire](https://pydantic.dev/articles/logfire-announcement) ![🔥](https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f525.svg) to help you monitor and understand your [Pydantic validations.](https://logfire.pydantic.dev/docs/integrations/pydantic/)
+[ ![logo](https://docs.pydantic.dev/latest/logo-white.svg) ](https://docs.pydantic.dev/latest/ "Pydantic Validation")
+Pydantic Validation
+2.12
+  * [dev](https://docs.pydantic.dev/dev/)
+  * [2.12](https://docs.pydantic.dev/2.12/)
+  * [2.11](https://docs.pydantic.dev/2.11/)
+  * [2.10](https://docs.pydantic.dev/2.10/)
+  * [2.9](https://docs.pydantic.dev/2.9/)
+  * [2.8](https://docs.pydantic.dev/2.8/)
+  * [2.7](https://docs.pydantic.dev/2.7/)
+  * [2.6](https://docs.pydantic.dev/2.6/)
+  * [2.5](https://docs.pydantic.dev/2.5/)
+  * [2.4](https://docs.pydantic.dev/2.4/)
+  * [2.3](https://docs.pydantic.dev/2.3/)
+  * [2.2](https://docs.pydantic.dev/2.2/)
+  * [2.1](https://docs.pydantic.dev/2.1/)
+  * [2.0](https://docs.pydantic.dev/2.0/)
+  * [1.10](https://docs.pydantic.dev/1.10/)
+
+
+Strict Mode
+Type to start searching
   * [ Get Started ](https://docs.pydantic.dev/latest/)
   * [ Concepts ](https://docs.pydantic.dev/latest/concepts/models/)
   * [ API Documentation ](https://docs.pydantic.dev/latest/api/base_model/)
@@ -163,7 +186,7 @@ Strict mode can be enabled in various ways:
   * [At the configuration level](https://docs.pydantic.dev/latest/concepts/strict_mode/#as-a-configuration-value) (with the possibility to override at the field level).
 
 
-[](https://docs.pydantic.dev/latest/concepts/strict_mode/#as-a-configuration-value)
+[](https://docs.pydantic.dev/latest/concepts/strict_mode/)
 ## As a validation parameter[¶](https://docs.pydantic.dev/latest/concepts/strict_mode/#as-a-validation-parameter)
 Strict mode can be enaled on a per-validation-call basis, when using the [validation methods](https://docs.pydantic.dev/latest/concepts/models/#validating-data) on [Pydantic models](https://docs.pydantic.dev/latest/concepts/models/) and [type adapters](https://docs.pydantic.dev/latest/concepts/type_adapter/).
 ```
@@ -184,12 +207,12 @@ except ValidationError as exc:
       Input should be a valid date [type=date_type, input_value='2000-01-01', input_type=str]
     """
 
-TypeAdapter(date).validate_json('"2000-01-01"', strict=True)
+TypeAdapter(date).validate_json('"2000-01-01"', strict=True)  [](https://docs.pydantic.dev/latest/concepts/strict_mode/#__code_1_annotation_1)
 #> 2000-01-01
 
 ```
 
-[](https://docs.pydantic.dev/latest/concepts/strict_mode/#as-a-configuration-value)
+[](https://docs.pydantic.dev/latest/concepts/strict_mode/)
 ## At the field level[¶](https://docs.pydantic.dev/latest/concepts/strict_mode/#at-the-field-level)
 Strict mode can be enabled on specific fields, by setting the `strict` parameter of the [`Field()`](https://docs.pydantic.dev/latest/api/fields/#pydantic.fields.Field) function to `True`. Strict mode will be applied for such fields, even when the [validation methods](https://docs.pydantic.dev/latest/concepts/models/#validating-data) are called in lax mode.
 ```
@@ -198,7 +221,7 @@ from pydantic import BaseModel, Field, ValidationError
 
 class User(BaseModel):
     name: str
-    age: int = Field(strict=True)
+    age: int = Field(strict=True)  [](https://docs.pydantic.dev/latest/concepts/strict_mode/#__code_2_annotation_1)
 
 
 user = User(name='John', age=42)
@@ -218,7 +241,7 @@ except ValidationError as e:
 
 ```
 
-[](https://docs.pydantic.dev/latest/concepts/strict_mode/#as-a-configuration-value)
+[](https://docs.pydantic.dev/latest/concepts/strict_mode/)
 ### Using the `Strict()` metadata class[¶](https://docs.pydantic.dev/latest/concepts/strict_mode/#using-the-strict-metadata-class)
 API Documentation
 [`pydantic.types.Strict`](https://docs.pydantic.dev/latest/api/types/#pydantic.types.Strict)
@@ -233,11 +256,11 @@ from pydantic import BaseModel, Strict, StrictInt
 
 class User(BaseModel):
     id: Annotated[UUID, Strict()]
-    age: StrictInt
+    age: StrictInt  [](https://docs.pydantic.dev/latest/concepts/strict_mode/#__code_3_annotation_1)
 
 ```
 
-[](https://docs.pydantic.dev/latest/concepts/strict_mode/#as-a-configuration-value)
+[](https://docs.pydantic.dev/latest/concepts/strict_mode/)
 ## As a configuration value[¶](https://docs.pydantic.dev/latest/concepts/strict_mode/#as-a-configuration-value)
 Strict mode behavior can be controlled at the [configuration](https://docs.pydantic.dev/latest/concepts/config/) level. When used on a Pydantic model (or model like class such as [dataclasses](https://docs.pydantic.dev/latest/concepts/dataclasses/)), strictness can still be overridden at the [field level](https://docs.pydantic.dev/latest/concepts/strict_mode/#at-the-field-level):
 ```
@@ -259,3 +282,4 @@ print(User(name='John', age='18'))
 Was this page helpful?
 Thanks for your feedback!
 Thanks for your feedback!
+Made with

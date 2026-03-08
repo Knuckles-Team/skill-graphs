@@ -1,0 +1,25 @@
+# Static Configuration with vercel.json
+Last updated December 19, 2025
+The `vercel.json` file lets you configure, and override the default behavior of Vercel from within your project.
+This file should be created in your project's root directory and allows you to set:
+  * [schema autocomplete](https://vercel.com/docs/project-configuration/vercel-json#schema-autocomplete)
+  * [buildCommand](https://vercel.com/docs/project-configuration/vercel-json#buildcommand)
+  * [bunVersion](https://vercel.com/docs/project-configuration/vercel-json#bunversion)
+  * [cleanUrls](https://vercel.com/docs/project-configuration/vercel-json#cleanurls)
+  * [crons](https://vercel.com/docs/project-configuration/vercel-json#crons)
+  * [devCommand](https://vercel.com/docs/project-configuration/vercel-json#devcommand)
+  * [fluid](https://vercel.com/docs/project-configuration/vercel-json#fluid)
+  * [framework](https://vercel.com/docs/project-configuration/vercel-json#framework)
+  * [functions](https://vercel.com/docs/project-configuration/vercel-json#functions)
+  * [headers](https://vercel.com/docs/project-configuration/vercel-json#headers)
+  * [ignoreCommand](https://vercel.com/docs/project-configuration/vercel-json#ignorecommand)
+  * [images](https://vercel.com/docs/project-configuration/vercel-json#images)
+  * [installCommand](https://vercel.com/docs/project-configuration/vercel-json#installcommand)
+  * [outputDirectory](https://vercel.com/docs/project-configuration/vercel-json#outputdirectory)
+  * [public](https://vercel.com/docs/project-configuration/vercel-json#public)
+  * [redirects](https://vercel.com/docs/project-configuration/vercel-json#redirects)
+  * [bulkRedirectsPath](https://vercel.com/docs/project-configuration/vercel-json#bulkredirectspath)
+  * [regions](https://vercel.com/docs/project-configuration/vercel-json#regions)
+  * [functionFailoverRegions](https://vercel.com/docs/project-configuration/vercel-json#functionfailoverregions)
+  * [rewrites](https://vercel.com/docs/project-configuration/vercel-json#rewrites)
+  * [trailingSlash](https://vercel.com/docs/project-configuration/vercel-json#trailingslash)

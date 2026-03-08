@@ -1,0 +1,4 @@
+##  [Pricing and limitations](https://vercel.com/docs/observability#pricing-and-limitations)[](https://vercel.com/docs/observability#pricing-and-limitations)
+Users on all plans can use Observability at no additional cost, with some [limitations](https://vercel.com/docs/observability/observability-plus#limitations). The Observability section in the sidebar is available on the project dashboard for all projects in the team.
+[Owners](https://vercel.com/docs/rbac/access-roles#owner-role) on Pro and Enterprise teams can [upgrade](https://vercel.com/docs/observability/observability-plus#enabling-observability-plus) to Observability Plus to get access to additional features higher limits, and increased retention.
+For more information on pricing, see [Pricing](https://vercel.com/docs/observability/observability-plus#pricing).

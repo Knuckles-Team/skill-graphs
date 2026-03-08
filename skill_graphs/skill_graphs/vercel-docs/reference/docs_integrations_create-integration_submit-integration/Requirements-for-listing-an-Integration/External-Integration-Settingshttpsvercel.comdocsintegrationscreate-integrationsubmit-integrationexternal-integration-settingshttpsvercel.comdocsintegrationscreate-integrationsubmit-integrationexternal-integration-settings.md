@@ -1,0 +1,1 @@
+##  [External Integration Settings](https://vercel.com/docs/integrations/create-integration/submit-integration#external-integration-settings)[](https://vercel.com/docs/integrations/create-integration/submit-integration#external-integration-settings)

@@ -318,7 +318,6 @@ If you are looking for information on a specific function, class or method, this
 
 
 ### Quick search
-![](https://server.ethicalads.io/proxy/view/10021/019ccc1c-93be-7a00-86b8-2f33e4c458f5/)
-Close Ad
-![](https://server.ethicalads.io/proxy/view/10021/019ccc1c-93be-7a00-86b8-2f33e4c458f5/)
+·
+![](https://server.ethicalads.io/proxy/view/10070/019ccf14-eb37-7252-808c-57582e15dadf/)
 © Copyright 2010 Pallets. Created using

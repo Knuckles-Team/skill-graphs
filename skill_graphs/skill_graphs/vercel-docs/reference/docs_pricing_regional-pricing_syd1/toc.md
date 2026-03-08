@@ -1,0 +1,16 @@
+# Table of Contents
+
+- [docs_pricing_regional-pricing_syd1](<./docs_pricing_regional-pricing_syd1.md>)
+- [Paris, France (cdg1) pricing](<./Paris-France-cdg1-pricing.md>)
+- [Sydney, Australia (syd1) pricing](<./Sydney-Australia-syd1-pricing.md>)
+  - [Get Started](<./Sydney-Australia-syd1-pricing/Get-Started.md>)
+  - [Build](<./Sydney-Australia-syd1-pricing/Build.md>)
+  - [Scale](<./Sydney-Australia-syd1-pricing/Scale.md>)
+  - [Secure](<./Sydney-Australia-syd1-pricing/Secure.md>)
+  - [Resources](<./Sydney-Australia-syd1-pricing/Resources.md>)
+  - [Learn](<./Sydney-Australia-syd1-pricing/Learn.md>)
+  - [Frameworks](<./Sydney-Australia-syd1-pricing/Frameworks.md>)
+  - [SDKs](<./Sydney-Australia-syd1-pricing/SDKs.md>)
+  - [Use Cases](<./Sydney-Australia-syd1-pricing/Use-Cases.md>)
+  - [Company](<./Sydney-Australia-syd1-pricing/Company.md>)
+  - [Community](<./Sydney-Australia-syd1-pricing/Community.md>)

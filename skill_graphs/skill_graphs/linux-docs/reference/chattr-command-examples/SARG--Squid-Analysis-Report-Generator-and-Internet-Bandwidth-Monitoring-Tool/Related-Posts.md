@@ -215,7 +215,7 @@ Yes you can password protect squid report page with [Apache Password Protect Dir
 tuem
 [ November 24, 2017 at 12:14 pm  ](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-939702)
 Hi Ravi,
-Thanks for your guide, but i have some problem with my Squid. I use Squid 3.5.20 on Centos7 as transparent proxy. But my squid can’t show domain name of destination server like you. So my reports in top Sites are all ip address like xxx.xxx.xxx.xxx:443 for HTTPS conenction. How can i fix it ?
+Thanks for your guide, but i have some problem with my Squid. I use Squid 3.5.20 on Centos7 as transparent proxy. But my squid can’t show domain name of destination server like you. So my reports in top Sites are all ip address like xxx.xxx.xxx.xxx:443 for HTTPS connection. How can i fix it ?
 Thanks a lot !
 [Reply](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-939702)
      * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
@@ -263,7 +263,7 @@ Yes, you can implement SARG, but you won’t edit its design, unless you know so
 SuperMario
 [ September 25, 2017 at 6:14 pm  ](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-915942)
 Thanks for your fast answer!
-Can you give me a guide, what i have to do? I didn’t find something helpfull yet..
+Can you give me a guide, what i have to do? I didn’t find something helpful yet..
 It’s not necessary to change the design, if i can implement it ;)
 [Reply](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-915942)
          * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
@@ -293,7 +293,7 @@ Basid Rahman
 [ December 13, 2016 at 11:58 am  ](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-847139)
 Hi Ravi
 Thanks for for this great article.
-I was wondering if SARG can be installed on seperate linux box where I have management tools installed, cause I have a old installed and configured squid server running and don’t want to do any installation on that box.
+I was wondering if SARG can be installed on separate linux box where I have management tools installed, cause I have a old installed and configured squid server running and don’t want to do any installation on that box.
 Thanks,
 Basid.
 [Reply](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-847139)
@@ -401,7 +401,7 @@ JB
 [ April 12, 2016 at 4:25 pm  ](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-772246)
 Hi Ravi,
 Once again thank you so much for getting me up and running with SARG.
-I have been using it for a while now and we accessing reports. Now a new challenge for me as came up, a few of our users have complained that they can not access the internet outside of the office i.e their wfi at home or public wifi. Does this maybe have something to do with the access list in squid? whats the best way to set up the acl so that users can access the internet without having to modify internet settings all the time?
+I have been using it for a while now and we accessing reports. Now a new challenge for me as came up, a few of our users have complained that they can not access the internet outside of the office i.e their wfi at home or public wifi. Does this maybe have something to do with the access list in squid? what's the best way to set up the acl so that users can access the internet without having to modify internet settings all the time?
 Regards
 JB
 [Reply](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-772246)
@@ -409,7 +409,7 @@ JB
 Ravi Saive
 [ April 12, 2016 at 5:24 pm  ](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-772253)
 @JB,
-Thanks for appreciating our work and suppot, yes this may be due to wrong ACL configured in squid access list, you need to check your squid acl entires, I suggest you to go through this article might this will help you <https://www.tecmint.com/configure-squid-server-in-linux/>
+Thanks for appreciating our work and support, yes this may be due to wrong ACL configured in squid access list, you need to check your squid acl entries, I suggest you to go through this article might this will help you <https://www.tecmint.com/configure-squid-server-in-linux/>
 [Reply](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-772253)
   24. ![](https://secure.gravatar.com/avatar/7bad2fb92894a991f0791248d7b3d195e8b3fba4e7d480a4d5a5fd3ba2dbff5d?s=50&d=blank&r=g)
 JB
@@ -440,7 +440,7 @@ Thanks for updating about the gettext version problem, and I am glad that you’
 JB
 [ March 14, 2016 at 3:18 pm  ](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-760070)
 Hi,
-I followed the steps given but still cant generate reports using the browser.
+I followed the steps given but still can't generate reports using the browser.
 Please assist
 [Reply](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-760070)
      * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
@@ -481,7 +481,7 @@ That means something is blocking in the firewall, the connection refused general
 JB
 [ March 15, 2016 at 3:03 pm  ](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-760415)
 Hi Ravi,
-Thank you again after double checking everything I realize that i made one error, i didnt install apache, so after running apt-get install apache2 commands and rebooting the linux machine I was able to access the web report.
+Thank you again after double checking everything I realize that i made one error, i didn't install apache, so after running apt-get install apache2 commands and rebooting the linux machine I was able to access the web report.
 now one more challenge, is how do I make sarg generate report hourly? Does it have a specific time or can i edit it myself?
 Once again thanks a million for your help.
            * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
@@ -596,7 +596,7 @@ Does you read the last 5 lines – it’s clearing saying that the reports are n
 JB
 [ March 16, 2016 at 1:21 am  ](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-760492)
 Hi Ravi,
-Me again, I have tried the last steps to generate sarg reports but still cant, the only report i see was generated yesterday afternoon but since then i cant generate any report.
+Me again, I have tried the last steps to generate sarg reports but still can't, the only report i see was generated yesterday afternoon but since then i can't generate any report.
 Please assist don’t know what to do next :(
 [Reply](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-760492)
          * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
@@ -631,7 +631,7 @@ I updated this current article to most recent version of sarg, just go through t
 Sarfraz Aslam
 [ March 11, 2016 at 11:22 am  ](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/#comment-758677)
 Hi,
-Thank you for the such nice article. I am having problem from last few days that SARG folder created in /tmp folder as per the script in cron job, but didnot update index.html and also not automatically delete SARG folder from /tmp. It was working fine before. The thing i figured out that SARG tool is unable to read large access.log file. When i run the script in debug mode, it shows an error that “SARG: line too long in /var/logs/access.log” and when there are less entries in access.log file SARG tool created reports successfullly.
+Thank you for the such nice article. I am having problem from last few days that SARG folder created in /tmp folder as per the script in cron job, but didnot update index.html and also not automatically delete SARG folder from /tmp. It was working fine before. The thing i figured out that SARG tool is unable to read large access.log file. When i run the script in debug mode, it shows an error that “SARG: line too long in /var/logs/access.log” and when there are less entries in access.log file SARG tool created reports successfully.
 Any idea how to enable SARG to read large access.log file ?
 Regards,
 Sarfraz
@@ -643,7 +643,7 @@ Hi Ravi,
 Great tutorial, help me getting sarg working :)
 Been trying for days to auto-generate the report which doesn’t work for me.
 Manually doing sarg -x – but of course I work get a constant supply of daily reports at same time.
-Have also tried setting up weekly, monthly reports but cant get this to work.
+Have also tried setting up weekly, monthly reports but can't get this to work.
 Can you advise how I can generate these (daily,weekly & monthly) without overriding existing data?
 I’ve been using this script, but happy to start from scratch as doesn’t generate anything.
 [code]

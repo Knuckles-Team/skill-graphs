@@ -283,7 +283,7 @@ Timothy Crosley - **[Hug](https://github.com/hugapi/hug) creator**
 * * *
 "_If you're looking to learn one**modern framework** for building REST APIs, check out **FastAPI** [...] It's fast, easy to use and easy to learn [...]_"
 "_We've switched over to**FastAPI** for our **APIs** [...] I think you'll like it [...]_"
-Ines Montani - Matthew Honnibal - **[Explosion AI](https://explosion.ai) founders - [spaCy](https://spacy.io) creators**
+Lines Montani - Matthew Honnibal - **[Explosion AI](https://explosion.ai) founders - [spaCy](https://spacy.io) creators**
 * * *
 "_If anyone is looking to build a production Python API, I would highly recommend**FastAPI**. It is **beautifully designed** , **simple to use** and **highly scalable** , it has become a **key component** in our API first development strategy and is driving many automations and services such as our Virtual TAC Engineer._"
 Deon Pillsbury - **Cisco**
@@ -302,7 +302,7 @@ Create and activate a [virtual environment](https://fastapi.tiangolo.com/virtual
 pip install "fastapi[standard]"
 
 pip install "fastapi[standard]"
-████████████████ 40%
+███████████████████████████ 68%
 
 
 ```

@@ -1,0 +1,16 @@
+# Table of Contents
+
+- [docs_conformance_rules_NO_INLINE_SVG](<./docs_conformance_rules_NO_INLINE_SVG.md>)
+- [NO_INLINE_SVG](<./NO_INLINE_SVG.md>)
+  - [[How to fix](https://vercel.com/docs/conformance/rules/NO_INLINE_SVG#how-to-fix)[](https://vercel.com/docs/conformance/rules/NO_INLINE_SVG#how-to-fix)](<./NO_INLINE_SVG/How-to-fixhttpsvercel.comdocsconformancerulesNO_INLINE_SVGhow-to-fixhttpsvercel.comdocsconformancerulesNO_INLINE_SVGhow-to-fix.md>)
+  - [Get Started](<./NO_INLINE_SVG/Get-Started.md>)
+  - [Build](<./NO_INLINE_SVG/Build.md>)
+  - [Scale](<./NO_INLINE_SVG/Scale.md>)
+  - [Secure](<./NO_INLINE_SVG/Secure.md>)
+  - [Resources](<./NO_INLINE_SVG/Resources.md>)
+  - [Learn](<./NO_INLINE_SVG/Learn.md>)
+  - [Frameworks](<./NO_INLINE_SVG/Frameworks.md>)
+  - [SDKs](<./NO_INLINE_SVG/SDKs.md>)
+  - [Use Cases](<./NO_INLINE_SVG/Use-Cases.md>)
+  - [Company](<./NO_INLINE_SVG/Company.md>)
+  - [Community](<./NO_INLINE_SVG/Community.md>)

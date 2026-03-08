@@ -1,0 +1,2 @@
+## Import Aliases[](https://nextjs.org/docs/app/glossary#import-aliases)
+Custom path mappings that provide shorthand references for frequently used directories. Import aliases reduce the complexity of relative imports and make code more readable and maintainable. Learn more in [Absolute Imports and Module Path Aliases](https://nextjs.org/docs/app/getting-started/installation#set-up-absolute-imports-and-module-path-aliases).

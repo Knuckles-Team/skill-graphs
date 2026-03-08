@@ -1,0 +1,4 @@
+## Favicons[](https://nextjs.org/docs/app/getting-started/metadata-and-og-images#favicons)
+Favicons are small icons that represent your site in bookmarks and search results. To add a favicon to your application, create a `favicon.ico` and add to the root of the app folder.
+![Favicon Special File inside the App Folder with sibling layout and page files](https://nextjs.org/_next/image?url=https%3A%2F%2Fh8DxKfmAPhn8O0p3.public.blob.vercel-storage.com%2Fdocs%2Flight%2Ffavicon-ico.png&w=3840&q=75)![Favicon Special File inside the App Folder with sibling layout and page files](https://nextjs.org/_next/image?url=https%3A%2F%2Fh8DxKfmAPhn8O0p3.public.blob.vercel-storage.com%2Fdocs%2Fdark%2Ffavicon-ico.png&w=3840&q=75)
+> You can also programmatically generate favicons using code. See the [favicon docs](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons) for more information.

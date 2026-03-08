@@ -1,0 +1,15 @@
+# Table of Contents
+
+- [docs_ai-gateway_sdks-and-apis_openai-chat-completions_tool-calls](<./docs_ai-gateway_sdks-and-apis_openai-chat-completions_tool-calls.md>)
+- [Tool Calls](<./Tool-Calls.md>)
+  - [Get Started](<./Tool-Calls/Get-Started.md>)
+  - [Build](<./Tool-Calls/Build.md>)
+  - [Scale](<./Tool-Calls/Scale.md>)
+  - [Secure](<./Tool-Calls/Secure.md>)
+  - [Resources](<./Tool-Calls/Resources.md>)
+  - [Learn](<./Tool-Calls/Learn.md>)
+  - [Frameworks](<./Tool-Calls/Frameworks.md>)
+  - [SDKs](<./Tool-Calls/SDKs.md>)
+  - [Use Cases](<./Tool-Calls/Use-Cases.md>)
+  - [Company](<./Tool-Calls/Company.md>)
+  - [Community](<./Tool-Calls/Community.md>)

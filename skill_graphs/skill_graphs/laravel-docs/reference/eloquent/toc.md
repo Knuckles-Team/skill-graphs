@@ -1,0 +1,16 @@
+# Table of Contents
+
+- [eloquent](<./eloquent.md>)
+- [Eloquent: Getting Started](<./Eloquent-Getting-Started.md>)
+  - [[Introduction](https://laravel.com/docs/12.x/eloquent#introduction)](<./Eloquent-Getting-Started/Introductionhttpslaravel.comdocs12.xeloquentintroduction.md>)
+  - [[Generating Model Classes](https://laravel.com/docs/12.x/eloquent#generating-model-classes)](<./Eloquent-Getting-Started/Generating-Model-Classeshttpslaravel.comdocs12.xeloquentgenerating-model-classes.md>)
+  - [[Eloquent Model Conventions](https://laravel.com/docs/12.x/eloquent#eloquent-model-conventions)](<./Eloquent-Getting-Started/Eloquent-Model-Conventionshttpslaravel.comdocs12.xeloquenteloquent-model-conventions.md>)
+  - [[Retrieving Models](https://laravel.com/docs/12.x/eloquent#retrieving-models)](<./Eloquent-Getting-Started/Retrieving-Modelshttpslaravel.comdocs12.xeloquentretrieving-models.md>)
+  - [[Retrieving Single Models / Aggregates](https://laravel.com/docs/12.x/eloquent#retrieving-single-models)](<./Eloquent-Getting-Started/Retrieving-Single-Models--Aggregateshttpslaravel.comdocs12.xeloquentretrieving-single-models.md>)
+  - [[Inserting and Updating Models](https://laravel.com/docs/12.x/eloquent#inserting-and-updating-models)](<./Eloquent-Getting-Started/Inserting-and-Updating-Modelshttpslaravel.comdocs12.xeloquentinserting-and-updating-models.md>)
+  - [[Deleting Models](https://laravel.com/docs/12.x/eloquent#deleting-models)](<./Eloquent-Getting-Started/Deleting-Modelshttpslaravel.comdocs12.xeloquentdeleting-models.md>)
+  - [[Pruning Models](https://laravel.com/docs/12.x/eloquent#pruning-models)](<./Eloquent-Getting-Started/Pruning-Modelshttpslaravel.comdocs12.xeloquentpruning-models.md>)
+  - [[Replicating Models](https://laravel.com/docs/12.x/eloquent#replicating-models)](<./Eloquent-Getting-Started/Replicating-Modelshttpslaravel.comdocs12.xeloquentreplicating-models.md>)
+  - [[Query Scopes](https://laravel.com/docs/12.x/eloquent#query-scopes)](<./Eloquent-Getting-Started/Query-Scopeshttpslaravel.comdocs12.xeloquentquery-scopes.md>)
+  - [[Comparing Models](https://laravel.com/docs/12.x/eloquent#comparing-models)](<./Eloquent-Getting-Started/Comparing-Modelshttpslaravel.comdocs12.xeloquentcomparing-models.md>)
+  - [[Events](https://laravel.com/docs/12.x/eloquent#events)](<./Eloquent-Getting-Started/Eventshttpslaravel.comdocs12.xeloquentevents.md>)

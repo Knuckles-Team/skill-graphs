@@ -399,7 +399,7 @@ Processes: CPU: % used - top 5 active
 
 ```
 ```
-**----------------- Linux Memoery Usage -----------------**
+**----------------- Linux Memory Usage -----------------**
 **$ inxi -t m**
 Processes: Memory: MB / % used - Used/Total: 3212.5/7879.9MB - top 5 active
            1: mem: 980.51MB (12.4%) command: plugin-container pid: 3066
@@ -494,7 +494,7 @@ Weather:   Conditions: 70 F (21 C) - Mostly Cloudy Time: February 20, 11:08 AM E
 
 ```
 
-#### Find All Linux Repsitory Information
+#### Find All Linux Repository Information
 We can additionally view a distro repository data with the `-r` flag:
 ```
 **$ inxi -r**
@@ -614,7 +614,7 @@ Your support helps us keep creating quality Linux content for everyone.
 ## Linux Commands and Tools
 [How to Use the Linux column Command to Format Text into Tables](https://www.tecmint.com/linux-column-command/)
 [Translate rwx Permissions into Octal Format in Linux](https://www.tecmint.com/check-linux-file-octal-permissions-using-stat-command/)
-[Discus – Show Colourised Disk Space Usage in Linux](https://www.tecmint.com/colourised-disk-space-usage-in-linux/)
+[Discuss – Show Colourised Disk Space Usage in Linux](https://www.tecmint.com/colourised-disk-space-usage-in-linux/)
 [Dtrx – An Intelligent Archive Extraction (tar, zip, cpio, rpm, deb, rar) Tool for Linux](https://www.tecmint.com/dtrx-archive-extraction-tool-for-linux/)
 [How to Convert Images to WebP Format in Linux](https://www.tecmint.com/convert-images-to-webp-format-in-linux/)
 [How to Remove Packages with Dependencies Using Yum](https://www.tecmint.com/remove-package-with-dependencies-using-yum/)
@@ -624,7 +624,7 @@ Your support helps us keep creating quality Linux content for everyone.
 [Observium: A Complete Network Management and Monitoring System for RHEL/CentOS](https://www.tecmint.com/install-observium-in-centos/)
 [Glances – An Advanced Real Time System Monitoring Tool for Linux](https://www.tecmint.com/glances-linux-monitoring/)
 [systemd-analyze – Find System Boot-up Performance Statistics in Linux](https://www.tecmint.com/systemd-analyze-monitor-linux-bootup-performance/)
-[Web VMStat: A Real Time System Statistics (Memory, CPU, Processess, etc) Monitoring Tool for Linux](https://www.tecmint.com/install-web-vmstat-in-linux/)
+[Web VMStat: A Real Time System Statistics (Memory, CPU, Processes, etc) Monitoring Tool for Linux](https://www.tecmint.com/install-web-vmstat-in-linux/)
 ## Learn Linux Tricks & Tips
 [How to Download and Extract Tar Files with One Command](https://www.tecmint.com/download-and-extract-tar-files-with-one-command/)
 [How to Delete Root Mails (Mailbox) File in Linux](https://www.tecmint.com/delete-root-mails-mailbox-file-in-linux/)

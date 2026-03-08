@@ -1,0 +1,3 @@
+##  [Viewing the toolbar](https://vercel.com/docs/vercel-toolbar/managing-toolbar#viewing-the-toolbar)[](https://vercel.com/docs/vercel-toolbar/managing-toolbar#viewing-the-toolbar)
+When the toolbar is enabled, you'll be able to view it on any preview or enabled environment. By default, the toolbar will appear as a circle with a menu icon. Clicking activates it, at which point you will see any comments on the page and notifications for issues detected by tools running in the background. When the toolbar has not been activated it will show a small Vercel icon over the menu icon.
+Once a tool is used, the toolbar will show a second icon next to the menu, so you can access your most recently used tool.

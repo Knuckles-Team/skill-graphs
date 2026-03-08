@@ -1,0 +1,4 @@
+## Understanding Cookie Behavior in Server Functions[](https://nextjs.org/docs/app/api-reference/functions/cookies#understanding-cookie-behavior-in-server-functions)
+After you set or delete a cookie in a Server Function, Next.js can return both the updated UI and new data in a single server roundtrip when the function is used as a [Server Action](https://nextjs.org/docs/app/getting-started/updating-data#what-are-server-functions) (e.g., passed to a form's `action` prop). See the [Caching guide](https://nextjs.org/docs/app/guides/caching#cookies).
+The UI is not unmounted, but effects that depend on data coming from the server will re-run.
+To refresh cached data too, call [`revalidatePath`](https://nextjs.org/docs/app/api-reference/functions/revalidatePath) or [`revalidateTag`](https://nextjs.org/docs/app/api-reference/functions/revalidateTag) inside the function.

@@ -139,7 +139,7 @@ sudo logkeys --kill
 ```
 
 ### Get Help / View Available Options
-The follwing command will displays all available command-line options and flags you can use with LogKeys.
+The following command will displays all available command-line options and flags you can use with LogKeys.
 ```
 logkeys --help
 
@@ -241,7 +241,7 @@ If you’ve installed from source, just find and remove all files related to key
 The given instructions in this article, will also works on CentOS 6.6. Have you tried the steps? let me know..
 [Reply](https://www.tecmint.com/logkeys-monitor-keyboard-keystroke-linux/#comment-702119)
   8. Nice =), so far for my system security this happens when you boot my system without it’s special usb key i made for it….. automatically connects to nearest hotspot, connects to tor, enables sshd on tor as hidden service, pings my terminal via tor, starts capturing the screen via /dev/fb0 and takes pictures via the webcam and uploads them via tor to my terminal, 4 times a minute…. so having this makes the security so much more…… so many many thanks for such a useful things…. cheers….. __A
-all thats missing now is package capture and mouse tracking….. bottom line, dont nick my laptop as i will be knocking on your door =)
+all that's missing now is package capture and mouse tracking….. bottom line, dont nick my laptop as i will be knocking on your door =)
 [Reply](https://www.tecmint.com/logkeys-monitor-keyboard-keystroke-linux/#comment-677143)
   9. Nice and very helpful article. I have done all the steps as in the post and but my log file is empty. Your help is much appreciated .
 [Reply](https://www.tecmint.com/logkeys-monitor-keyboard-keystroke-linux/#comment-538071)
@@ -258,7 +258,7 @@ please assist
 [Reply](https://www.tecmint.com/logkeys-monitor-keyboard-keystroke-linux/#comment-405919)
      * Dear Henrx its the raw data which you can not use directly.
 [Reply](https://www.tecmint.com/logkeys-monitor-keyboard-keystroke-linux/#comment-472628)
-  12. Thanks for the complete tutorial. It worked for me. But, how do we make the tracker automatically start everytime?
+  12. Thanks for the complete tutorial. It worked for me. But, how do we make the tracker automatically start every time?
 [Reply](https://www.tecmint.com/logkeys-monitor-keyboard-keystroke-linux/#comment-394188)
      * You may write a script and make it start automatically at System Boot.
 Here is the Process Algo.
@@ -286,7 +286,7 @@ bash: locale-gen: command not found
      * Sorry chris unable to understand you.
 will you be more clear please!
 [Reply](https://www.tecmint.com/logkeys-monitor-keyboard-keystroke-linux/#comment-472631)
-  15. I appreciate your effort. The problem as I see it is that at the end of the day logkeys provides heaps of raw data in a hard-to-read format. Not directly useable. Aren’t there any tools that can be run against a logkeys log file that give some idea of what you did during the day… (not limited to e.g.) stuff like… total number of key presses… total number of times each key was pressed… for each key pressed.. what percentage of the total it accounts for.. times when you were actually typing.. typing speed… total time you actually typed… etc. ? these are just a few examples of stuff that comes to mind without giving it much thought… so there’s surely a lot more… Naturally it would be nice to have the possibility to graph all those stats… If such tools are not available the only purpose of the logkeys program would appear to let someone with administrator privileges snoop on whatever other users of the system are typing.
+  15. I appreciate your effort. The problem as I see it is that at the end of the day logkeys provides heaps of raw data in a hard-to-read format. Not directly usable. Aren’t there any tools that can be run against a logkeys log file that give some idea of what you did during the day… (not limited to e.g.) stuff like… total number of key presses… total number of times each key was pressed… for each key pressed.. what percentage of the total it accounts for.. times when you were actually typing.. typing speed… total time you actually typed… etc. ? these are just a few examples of stuff that comes to mind without giving it much thought… so there’s surely a lot more… Naturally it would be nice to have the possibility to graph all those stats… If such tools are not available the only purpose of the logkeys program would appear to let someone with administrator privileges snoop on whatever other users of the system are typing.
 [Reply](https://www.tecmint.com/logkeys-monitor-keyboard-keystroke-linux/#comment-167983)
      * hahaha
 [Reply](https://www.tecmint.com/logkeys-monitor-keyboard-keystroke-linux/#comment-472632)

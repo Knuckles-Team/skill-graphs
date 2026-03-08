@@ -431,7 +431,7 @@ Sam Smith
 No that’s not possible, it should be same size on server B, may be you’re doing some mistake while transferring data from server A, please check carefully and do a transfer over scp..
 [Reply](https://www.tecmint.com/scp-commands-examples/#comment-783552)
      * Probably you did SCP recursively, that is copy all files and folders inside a folder being copied.
-Use **SCP -r commnad** , see “Copy files inside directory recursively section above”
+Use **SCP -r command** , see “Copy files inside directory recursively section above”
 [Reply](https://www.tecmint.com/scp-commands-examples/#comment-975865)
   16. I love it when looking around for linux tutorial and found a good one written by old friend. Hi Pungki!
 [Reply](https://www.tecmint.com/scp-commands-examples/#comment-766834)
@@ -447,7 +447,7 @@ Use **SCP -r commnad** , see “Copy files inside directory recursively section 
 I tried scp and now I can copy file (flawless).
 Just my two cents. Again great article!
 [Reply](https://www.tecmint.com/scp-commands-examples/#comment-503444)
-  21. Hi, thanks for sharing. One question: I try copy a folder in Linux to Windows… by command line in Linux. Exactly through .sh file (Is a automatic backup). Both PC are in same LAN. This is my instruccion:
+  21. Hi, thanks for sharing. One question: I try copy a folder in Linux to Windows… by command line in Linux. Exactly through .sh file (Is a automatic backup). Both PC are in same LAN. This is my instruction:
 scp /srv/zimbra_mail/
 But it doesn’t work. ¿Can you help me? Thanks
 [Reply](https://www.tecmint.com/scp-commands-examples/#comment-457980)
@@ -483,7 +483,7 @@ I don’t know if the Linux server cares what the Windows directory looks like o
 [Reply](https://www.tecmint.com/scp-commands-examples/#comment-221002)
      * No idea, never ever tried this.
 [Reply](https://www.tecmint.com/scp-commands-examples/#comment-221603)
-  28. Excellent write up. Very helpful. Thank you! But the local user directory on Mac OS X wasn’t being recognized for me. It kept throwing me a ‘no such directory’ error. I could only get it to find a folder in my root directory, but the transfer broke off and nothing was actually copied, possilby due to permissions accessing a root directory, for which I needed a password just to create a new folder. Any suggestions?
+  28. Excellent write up. Very helpful. Thank you! But the local user directory on Mac OS X wasn’t being recognized for me. It kept throwing me a ‘no such directory’ error. I could only get it to find a folder in my root directory, but the transfer broke off and nothing was actually copied, possibly due to permissions accessing a root directory, for which I needed a password just to create a new folder. Any suggestions?
 My command was as follows, for copying remote to local: scp -prC root@lvps178-77-101-202:/var/www/vhosts ~/Downloads/ppcom-backup
 [Reply](https://www.tecmint.com/scp-commands-examples/#comment-148585)
   29. Incredibly useful stuff. Thank so much for publishing. -C is a life saver!
@@ -508,7 +508,7 @@ Its very useful.
 [Reply](https://www.tecmint.com/scp-commands-examples/#comment-71021)
      * Thank you very much.
 [Reply](https://www.tecmint.com/scp-commands-examples/#comment-72387)
-  35. SCP displays the speed in KB/s would be better to say. You should clearify it more that the parameter expects bits, but it displays in bytes..
+  35. SCP displays the speed in KB/s would be better to say. You should clarify it more that the parameter expects bits, but it displays in bytes..
 [Reply](https://www.tecmint.com/scp-commands-examples/#comment-54684)
   36. “While SCP counts in Kilobyte/sec (KB/s). So if you want to limit your bandwidth for SCP maximum only 50 KB/s, you need to set it into 50 x 8 = 400.”
 SCP counts in kilobits, you mean. Kb/s. Otherwise you wouldn’t have to multiply..

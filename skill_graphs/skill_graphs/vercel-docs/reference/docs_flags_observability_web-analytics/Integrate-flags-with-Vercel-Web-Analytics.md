@@ -1,0 +1,4 @@
+# Integrate flags with Vercel Web Analytics
+Last updated September 24, 2025
+Web Analytics integration is available in [Beta](https://vercel.com/docs/release-phases#beta) on [all plans](https://vercel.com/docs/plans)
+![Feature Flags section in Vercel Web Analytics](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Fdocs-assets%2Fstatic%2Fdocs%2Fworkflow-collaboration%2Ffeature-flags%2Fflags-in-web-analytics-light.png&w=3840&q=75)![Feature Flags section in Vercel Web Analytics](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Fdocs-assets%2Fstatic%2Fdocs%2Fworkflow-collaboration%2Ffeature-flags%2Fflags-in-web-analytics-dark.png&w=3840&q=75)Feature Flags section in Vercel Web Analytics

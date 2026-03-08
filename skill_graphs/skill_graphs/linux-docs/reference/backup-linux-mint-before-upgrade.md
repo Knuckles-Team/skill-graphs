@@ -140,7 +140,7 @@ If this is your first time using Timeshift, you will be prompted to configure it
 **3**. You can choose to schedule automatic snapshots daily, weekly, or monthly. For upgrades, manual snapshots are often sufficient.
 ![Choose Snapshot Levels](https://www.tecmint.com/wp-content/uploads/2013/06/Choose-Snapshot-Levels.webp)Choose Snapshot Levels
 **4**. Finally, click on the **Create** button to start creating a new snapshot.
-![Creating System Sanpshot](https://www.tecmint.com/wp-content/uploads/2013/06/Creating-System-Sanpshot.webp)Creating System Sanpshot
+![Creating System Snapshot](https://www.tecmint.com/wp-content/uploads/2013/06/Creating-System-Snapshot.webp)Creating System Snapshot
 Timeshift will now begin the process of creating the snapshot, which may take some time, depending on the size of your system and the amount of data.
 ## Upgrading Linux Mint
 Now that you have a reliable snapshot, you can proceed to upgrade **Linux Mint** by going to **Update Manager** tool.

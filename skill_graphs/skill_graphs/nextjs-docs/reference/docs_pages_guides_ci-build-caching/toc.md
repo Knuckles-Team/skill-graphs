@@ -1,0 +1,15 @@
+# Table of Contents
+
+- [docs_pages_guides_ci-build-caching](<./docs_pages_guides_ci-build-caching.md>)
+- [How to configure Continuous Integration (CI) build caching](<./How-to-configure-Continuous-Integration-CI-build-caching.md>)
+  - [Vercel[](https://nextjs.org/docs/pages/guides/ci-build-caching#vercel)](<./How-to-configure-Continuous-Integration-CI-build-caching/Vercelhttpsnextjs.orgdocspagesguidesci-build-cachingvercel.md>)
+  - [CircleCI[](https://nextjs.org/docs/pages/guides/ci-build-caching#circleci)](<./How-to-configure-Continuous-Integration-CI-build-caching/CircleCIhttpsnextjs.orgdocspagesguidesci-build-cachingcircleci.md>)
+  - [Travis CI[](https://nextjs.org/docs/pages/guides/ci-build-caching#travis-ci)](<./How-to-configure-Continuous-Integration-CI-build-caching/Travis-CIhttpsnextjs.orgdocspagesguidesci-build-cachingtravis-ci.md>)
+  - [GitLab CI[](https://nextjs.org/docs/pages/guides/ci-build-caching#gitlab-ci)](<./How-to-configure-Continuous-Integration-CI-build-caching/GitLab-CIhttpsnextjs.orgdocspagesguidesci-build-cachinggitlab-ci.md>)
+  - [Netlify CI[](https://nextjs.org/docs/pages/guides/ci-build-caching#netlify-ci)](<./How-to-configure-Continuous-Integration-CI-build-caching/Netlify-CIhttpsnextjs.orgdocspagesguidesci-build-cachingnetlify-ci.md>)
+  - [AWS CodeBuild[](https://nextjs.org/docs/pages/guides/ci-build-caching#aws-codebuild)](<./How-to-configure-Continuous-Integration-CI-build-caching/AWS-CodeBuildhttpsnextjs.orgdocspagesguidesci-build-cachingaws-codebuild.md>)
+  - [GitHub Actions[](https://nextjs.org/docs/pages/guides/ci-build-caching#github-actions)](<./How-to-configure-Continuous-Integration-CI-build-caching/GitHub-Actionshttpsnextjs.orgdocspagesguidesci-build-cachinggithub-actions.md>)
+  - [Bitbucket Pipelines[](https://nextjs.org/docs/pages/guides/ci-build-caching#bitbucket-pipelines)](<./How-to-configure-Continuous-Integration-CI-build-caching/Bitbucket-Pipelineshttpsnextjs.orgdocspagesguidesci-build-cachingbitbucket-pipelines.md>)
+  - [Heroku[](https://nextjs.org/docs/pages/guides/ci-build-caching#heroku)](<./How-to-configure-Continuous-Integration-CI-build-caching/Herokuhttpsnextjs.orgdocspagesguidesci-build-cachingheroku.md>)
+  - [Azure Pipelines[](https://nextjs.org/docs/pages/guides/ci-build-caching#azure-pipelines)](<./How-to-configure-Continuous-Integration-CI-build-caching/Azure-Pipelineshttpsnextjs.orgdocspagesguidesci-build-cachingazure-pipelines.md>)
+  - [Jenkins (Pipeline)[](https://nextjs.org/docs/pages/guides/ci-build-caching#jenkins-pipeline)](<./How-to-configure-Continuous-Integration-CI-build-caching/Jenkins-Pipelinehttpsnextjs.orgdocspagesguidesci-build-cachingjenkins-pipeline.md>)

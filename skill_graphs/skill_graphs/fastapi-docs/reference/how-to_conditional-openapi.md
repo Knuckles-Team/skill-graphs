@@ -210,7 +210,12 @@ And then we use it when creating the `FastAPI` app.
 Then you could disable OpenAPI (including the UI docs) by setting the environment variable `OPENAPI_URL` to the empty string, like:
 ```
 OPENAPI_URL= uvicorn main:app
+
 OPENAPI_URL= uvicorn main:app
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+
+
+
 
 ```
 

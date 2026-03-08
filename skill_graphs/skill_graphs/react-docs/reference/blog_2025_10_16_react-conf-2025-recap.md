@@ -119,3 +119,23 @@ Finally, thank you to everyone who attended in person and online to show what ma
 See you next time!
 [ PreviousCritical Security Vulnerability in React Server Components ](https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components)[ NextReact Compiler v1.0 ](https://react.dev/blog/2025/10/07/react-compiler-1)
 * * *
+Copyright © Meta Platforms, Inc
+no uwu plz
+uwu?
+Logo by
+[Learn React](https://react.dev/learn)
+[Quick Start](https://react.dev/learn)
+[Installation](https://react.dev/learn/installation)
+[Describing the UI](https://react.dev/learn/describing-the-ui)
+[Adding Interactivity](https://react.dev/learn/adding-interactivity)
+[Managing State](https://react.dev/learn/managing-state)
+[Escape Hatches](https://react.dev/learn/escape-hatches)
+[API Reference](https://react.dev/reference/react)
+[React APIs](https://react.dev/reference/react)
+[React DOM APIs](https://react.dev/reference/react-dom)
+[Community](https://react.dev/community)
+[Meet the Team](https://react.dev/community/team)
+[Docs Contributors](https://react.dev/community/docs-contributors)
+[Acknowledgements](https://react.dev/community/acknowledgements)
+More
+[Blog](https://react.dev/blog)

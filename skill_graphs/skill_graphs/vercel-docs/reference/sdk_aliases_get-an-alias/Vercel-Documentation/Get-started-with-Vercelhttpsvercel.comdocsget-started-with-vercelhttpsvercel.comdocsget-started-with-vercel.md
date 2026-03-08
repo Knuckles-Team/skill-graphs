@@ -1,0 +1,5 @@
+##  [Get started with Vercel](https://vercel.com/docs#get-started-with-vercel)[](https://vercel.com/docs#get-started-with-vercel)
+Build any type of application on Vercel: static sites with your favorite [framework](https://vercel.com/docs/frameworks), [multi-tenant](https://vercel.com/docs/multi-tenant) SaaS products, [microfrontends](https://vercel.com/docs/microfrontends), or [AI-powered agents](https://vercel.com/kb/guide/how-to-build-ai-agents-with-vercel-and-the-ai-sdk).
+The [Vercel Marketplace](https://vercel.com/docs/integrations) provides integrations for AI providers, databases, CMSs, analytics, and storage.
+Connect your [Git repository](https://vercel.com/docs/git) to deploy on every push, with [automatic preview environments](https://vercel.com/docs/deployments/environments#preview-environment-pre-production) for testing changes before production.
+See the [getting started guide](https://vercel.com/docs/getting-started-with-vercel) for more information, or the [incremental migration guide](https://vercel.com/docs/incremental-migration) to migrate an existing application.

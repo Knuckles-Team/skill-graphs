@@ -233,7 +233,7 @@ $ pgrep -u tecmint glances
 ```
 ![Control Linux Processes](https://www.tecmint.com/wp-content/uploads/2017/03/Control-Linux-Processes.png)Control Linux Processes
 To learn how to use these commands in-depth, to kill/terminate active processes in Linux, open the links below:
-  1. [A Guide to Kill, Pkill and Killall Commands to Terminate Linux Processess](https://www.tecmint.com/how-to-kill-a-process-in-linux/)
+  1. [A Guide to Kill, Pkill and Killall Commands to Terminate Linux Processes](https://www.tecmint.com/how-to-kill-a-process-in-linux/)
   2. [How to Find and Kill Running Processes in Linux](https://www.tecmint.com/find-and-kill-running-processes-pid-in-linux/)
 
 
@@ -476,7 +476,7 @@ Your support helps us keep creating quality Linux content for everyone.
 [6 Useful Tools to Remember Linux Commands Forever](https://www.tecmint.com/remember-linux-commands/)
 [Find Top 15 Processes by Memory Usage with ‘top’ in Batch Mode](https://www.tecmint.com/find-processes-by-memory-usage-top-batch-mode/)
 [Find Top Running Processes by Highest Memory and CPU Usage in Linux](https://www.tecmint.com/find-linux-processes-memory-ram-cpu-usage/)
-[Ternimal – Show Animated Lifeform in Your Linux Terminal](https://www.tecmint.com/ternimal-show-animated-lifeform-in-linux-terminal/)
+[Terminal – Show Animated Lifeform in Your Linux Terminal](https://www.tecmint.com/ternimal-show-animated-lifeform-in-linux-terminal/)
 [Googler: A Command Line Tool to Do ‘Google Search’ from Linux Terminal](https://www.tecmint.com/google-commandline-search-terminal/)
 ## Best Linux Tools
 [16 Best Tools to Access Remote Linux Desktop](https://www.tecmint.com/best-remote-linux-desktop-sharing-software/)

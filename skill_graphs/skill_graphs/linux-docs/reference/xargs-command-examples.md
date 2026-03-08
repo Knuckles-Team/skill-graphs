@@ -163,7 +163,7 @@ OR
 ```
 
 ### 6. replSetGetStatus Command
-The **replSetGetStatus** command outputs the status of the replica set from the perspective of the server that processed the command. This command must be run against the **admin** database in the followiing form.
+The **replSetGetStatus** command outputs the status of the replica set from the perspective of the server that processed the command. This command must be run against the **admin** database in the following form.
 ```
 >db.adminCommand( { replSetGetStatus : 1 } )
 

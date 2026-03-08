@@ -1,0 +1,2 @@
+##  [Workspace-specific configuration](https://vercel.com/docs/agent-resources/coding-agents/claude-code#workspace-specific-configuration)[](https://vercel.com/docs/agent-resources/coding-agents/claude-code#workspace-specific-configuration)
+You can also set environment variables per workspace through Settings > Env in Superset. This is useful when you need different configurations for different projects.

@@ -309,7 +309,7 @@ Antonio
 [ July 4, 2021 at 1:37 pm  ](https://www.tecmint.com/install-rsyslog-centralized-logging-in-centos-ubuntu/#comment-1537012)
 Hi Everyone,
 I would like to share with the community about a critical instruction ‘**rsyslog** ‘ which is mandatory in order to make work exporting to **CentOS 7/RHEL 8** as a logs server with mariadb-mysql database.
-Very usefull in uses with “**Adiscon LogAnalyzer WebApp** “. You just need to add to the “**/etc/rsyslog.conf** ” file as follows gère :
+Very useful in uses with “**Adiscon LogAnalyzer WebApp** “. You just need to add to the “**/etc/rsyslog.conf** ” file as follows gère :
 ```
 $ModLoad ommysql
 $ActionOmmysqlServerPort 1234

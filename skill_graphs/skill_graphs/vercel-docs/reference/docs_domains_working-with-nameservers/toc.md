@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [docs_domains_working-with-nameservers](<./docs_domains_working-with-nameservers.md>)
+- [Working with nameservers](<./Working-with-nameservers.md>)
+  - [[Troubleshooting](https://vercel.com/docs/domains/working-with-nameservers#troubleshooting)[](https://vercel.com/docs/domains/working-with-nameservers#troubleshooting)](<./Working-with-nameservers/Troubleshootinghttpsvercel.comdocsdomainsworking-with-nameserverstroubleshootinghttpsvercel.comdocsdomainsworking-with-nameserverstroubleshooting.md>)
+  - [[Related](https://vercel.com/docs/domains/working-with-nameservers#related)[](https://vercel.com/docs/domains/working-with-nameservers#related)](<./Working-with-nameservers/Relatedhttpsvercel.comdocsdomainsworking-with-nameserversrelatedhttpsvercel.comdocsdomainsworking-with-nameserversrelated.md>)
+  - [Get Started](<./Working-with-nameservers/Get-Started.md>)
+  - [Build](<./Working-with-nameservers/Build.md>)
+  - [Scale](<./Working-with-nameservers/Scale.md>)
+  - [Secure](<./Working-with-nameservers/Secure.md>)
+  - [Resources](<./Working-with-nameservers/Resources.md>)
+  - [Learn](<./Working-with-nameservers/Learn.md>)
+  - [Frameworks](<./Working-with-nameservers/Frameworks.md>)
+  - [SDKs](<./Working-with-nameservers/SDKs.md>)
+  - [Use Cases](<./Working-with-nameservers/Use-Cases.md>)
+  - [Company](<./Working-with-nameservers/Company.md>)
+  - [Community](<./Working-with-nameservers/Community.md>)

@@ -1,4 +1,27 @@
 [ Skip to content ](https://docs.pydantic.dev/latest/contributing/#issues)
+What's new — we've launched [Pydantic Logfire](https://pydantic.dev/articles/logfire-announcement) ![🔥](https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f525.svg) to help you monitor and understand your [OpenAI i](https://logfire.pydantic.dev/docs/integrations/openai/)
+[ ![logo](https://docs.pydantic.dev/latest/logo-white.svg) ](https://docs.pydantic.dev/latest/ "Pydantic Validation")
+Pydantic Validation
+2.12
+  * [dev](https://docs.pydantic.dev/dev/)
+  * [2.12](https://docs.pydantic.dev/2.12/)
+  * [2.11](https://docs.pydantic.dev/2.11/)
+  * [2.10](https://docs.pydantic.dev/2.10/)
+  * [2.9](https://docs.pydantic.dev/2.9/)
+  * [2.8](https://docs.pydantic.dev/2.8/)
+  * [2.7](https://docs.pydantic.dev/2.7/)
+  * [2.6](https://docs.pydantic.dev/2.6/)
+  * [2.5](https://docs.pydantic.dev/2.5/)
+  * [2.4](https://docs.pydantic.dev/2.4/)
+  * [2.3](https://docs.pydantic.dev/2.3/)
+  * [2.2](https://docs.pydantic.dev/2.2/)
+  * [2.1](https://docs.pydantic.dev/2.1/)
+  * [2.0](https://docs.pydantic.dev/2.0/)
+  * [1.10](https://docs.pydantic.dev/1.10/)
+
+
+Contributing
+Type to start searching
   * [ Get Started ](https://docs.pydantic.dev/latest/)
   * [ Concepts ](https://docs.pydantic.dev/latest/concepts/models/)
   * [ API Documentation ](https://docs.pydantic.dev/latest/api/base_model/)
@@ -329,6 +352,18 @@ Copy link
 2.5×
 4 min⚡️4 min 24 sec3 min 31 sec2 min 56 sec2 min 21 sec2 min 4 sec1 min 45 sec1 min 24 sec
 Powered by
+👀
+Anonymous
+😂
+Anonymous
+😮
+Anonymous
+😂
+Anonymous
+😍
+Anonymous
+😍
+Anonymous
 Introduction
 ![](https://cdn.loom.com/sessions/thumbnails/71019f8b92b04839ae233eb70c23c5b5-00001.jpg)
 Your user agent does not support the HTML5 Video element.
@@ -344,6 +379,18 @@ Copy link
 2.5×
 4 min⚡️4 min 24 sec3 min 31 sec2 min 56 sec2 min 21 sec2 min 4 sec1 min 45 sec1 min 24 sec
 Powered by
+👀
+Anonymous
+😂
+Anonymous
+😮
+Anonymous
+😂
+Anonymous
+😍
+Anonymous
+😍
+Anonymous
 Introduction
   *     * ❤️
 heart
@@ -452,3 +499,4 @@ If your project meets some of these criteria, you can
 Was this page helpful?
 Thanks for your feedback!
 Thanks for your feedback!
+Made with

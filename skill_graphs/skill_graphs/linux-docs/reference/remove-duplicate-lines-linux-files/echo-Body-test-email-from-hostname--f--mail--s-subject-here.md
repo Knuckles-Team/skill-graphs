@@ -108,7 +108,7 @@ Since Zabbix 3.0 you must configure the Media Type to pass the parameters manual
 
 ```
 
-if you don’t fix the media type like this, the script wont do anything.
+if you don’t fix the media type like this, the script won't do anything.
 [Reply](https://www.tecmint.com/configure-zabbix-to-send-email-alerts-to-gmail/#comment-865965)
   16. ![](https://secure.gravatar.com/avatar/67280601f778d4d06e9c402a0644c760ae6561c277e2214ca7ca2bfc06405e08?s=50&d=blank&r=g)
 anoop vijayan maniankara
@@ -130,7 +130,7 @@ Ailbert Riksen
 [ July 19, 2016 at 5:12 pm  ](https://www.tecmint.com/configure-zabbix-to-send-email-alerts-to-gmail/#comment-800552)
 Hi Matei,
 I just tried to send email via your sendmail script, but I do nog get any $1, $2 and $3 parameter. I checked this bij adding a log output of thes parameters in the zabbix-sendmail script.
-My dialog for creating a new mediatype also gives me the oportunity to define script parameters. I’m using Zabbix 3.0.0. You are using 2.4.5, as I can see from your screenshots.
+My dialog for creating a new mediatype also gives me the opportunity to define script parameters. I’m using Zabbix 3.0.0. You are using 2.4.5, as I can see from your screenshots.
 Any idea how to define these parameters?
 [Reply](https://www.tecmint.com/configure-zabbix-to-send-email-alerts-to-gmail/#comment-800552)
        * ![](https://secure.gravatar.com/avatar/b8ed0876644d168934079ae69c3c02a9ec03bb5761ef73b8de87fd5242c70ed9?s=50&d=blank&r=g)
@@ -155,7 +155,7 @@ Daniel
 [ May 18, 2016 at 1:47 am  ](https://www.tecmint.com/configure-zabbix-to-send-email-alerts-to-gmail/#comment-781496)
 I have the same error.
 My Zabbix tell sending emails reporting msg “status: sent”.
-but i cant see the mail
+but i can't see the mail
 Can u help me?
 sorry for my english.
 [Reply](https://www.tecmint.com/configure-zabbix-to-send-email-alerts-to-gmail/#comment-781496)
@@ -270,7 +270,7 @@ mailx-12.5-12.el7_0.x86_64
   28. ![](https://secure.gravatar.com/avatar/a4b65a460a7bed873a20b54d581ac308b782f5d312e7949ee2614ba7e26b42fc?s=50&d=blank&r=g)
 swap
 [ January 21, 2016 at 11:41 am  ](https://www.tecmint.com/configure-zabbix-to-send-email-alerts-to-gmail/#comment-742350)
-Verry good article.. Thanks a lott.! it Works for me..
+Very good article.. Thanks a lott.! it Works for me..
 [Reply](https://www.tecmint.com/configure-zabbix-to-send-email-alerts-to-gmail/#comment-742350)
   29. ![](https://secure.gravatar.com/avatar/7e86b0243acbf7a4f97812d576806efa8e64cb8d064e41222c8301c26113a194?s=50&d=blank&r=g)
 Steve

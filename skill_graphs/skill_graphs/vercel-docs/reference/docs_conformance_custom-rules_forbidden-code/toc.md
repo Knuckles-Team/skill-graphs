@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_conformance_custom-rules_forbidden-code](<./docs_conformance_custom-rules_forbidden-code.md>)
+- [forbidden-code](<./forbidden-code.md>)
+  - [[When to use this rule type](https://vercel.com/docs/conformance/custom-rules/forbidden-code#when-to-use-this-rule-type)[](https://vercel.com/docs/conformance/custom-rules/forbidden-code#when-to-use-this-rule-type)](<./forbidden-code/When-to-use-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-codewhen-to-use-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-codewhen-to-use-this-rule-type.md>)
+  - [[Configuring this rule type](https://vercel.com/docs/conformance/custom-rules/forbidden-code#configuring-this-rule-type)[](https://vercel.com/docs/conformance/custom-rules/forbidden-code#configuring-this-rule-type)](<./forbidden-code/Configuring-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-codeconfiguring-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-codeconfiguring-this-rule-type.md>)
+  - [[Enabling this rule type](https://vercel.com/docs/conformance/custom-rules/forbidden-code#enabling-this-rule-type)[](https://vercel.com/docs/conformance/custom-rules/forbidden-code#enabling-this-rule-type)](<./forbidden-code/Enabling-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-codeenabling-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-codeenabling-this-rule-type.md>)
+  - [Get Started](<./forbidden-code/Get-Started.md>)
+  - [Build](<./forbidden-code/Build.md>)
+  - [Scale](<./forbidden-code/Scale.md>)
+  - [Secure](<./forbidden-code/Secure.md>)
+  - [Resources](<./forbidden-code/Resources.md>)
+  - [Learn](<./forbidden-code/Learn.md>)
+  - [Frameworks](<./forbidden-code/Frameworks.md>)
+  - [SDKs](<./forbidden-code/SDKs.md>)
+  - [Use Cases](<./forbidden-code/Use-Cases.md>)
+  - [Company](<./forbidden-code/Company.md>)
+  - [Community](<./forbidden-code/Community.md>)

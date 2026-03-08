@@ -243,49 +243,49 @@ Share
 Copy link
 Watch on
 ## Explore careers
-  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heros/CareerPath_Administrator--1000x400_light.png)
+  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heroes/CareerPath_Administrator--1000x400_light.png)
 [Administrator](https://learn.microsoft.com/en-us/training/career-paths/administrator)
 Scale technical solutions across the company.
-  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heros/CareerPath_AI%20Engineer--1000x400_light.png)
+  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heroes/CareerPath_AI%20Engineer--1000x400_light.png)
 [AI Engineer](https://learn.microsoft.com/en-us/training/career-paths/ai-engineer)
 Define and implement cutting-edge AI solutions.
-  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heros/CareerPath_App%20Maker--1000x400_light.png)
+  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heroes/CareerPath_App%20Maker--1000x400_light.png)
 [App Maker](https://learn.microsoft.com/en-us/training/career-paths/app-maker)
 Build business applications the easy way.
-  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heros/CareerPath_BusinessUser--1000x400_light.png)
+  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heroes/CareerPath_BusinessUser--1000x400_light.png)
 [Business User](https://learn.microsoft.com/en-us/training/career-paths/business-user)
 Increase efficiency and productivity in your business.
-  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heros/CareerPath_DataAnalyst--1000x400_light.png)
+  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heroes/CareerPath_DataAnalyst--1000x400_light.png)
 [Data Analyst](https://learn.microsoft.com/en-us/training/career-paths/data-analyst)
 Make meaningful decisions with your data.
-  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heros/CareerPath_DataEngineer--1000x400_light.png)
+  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heroes/CareerPath_DataEngineer--1000x400_light.png)
 [Data Engineer](https://learn.microsoft.com/en-us/training/career-paths/data-engineer)
 Make your complex data available and accessible.
-  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heros/CareerPath_DataScientist--1000x400_light.png)
+  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heroes/CareerPath_DataScientist--1000x400_light.png)
 [Data Scientist](https://learn.microsoft.com/en-us/training/career-paths/data-scientist)
 Find the trends and develop data-driven solutions for your business.
-  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heros/CareerPath_Developer--1000x400_light.png)
+  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heroes/CareerPath_Developer--1000x400_light.png)
 [Developer](https://learn.microsoft.com/en-us/training/career-paths/developer)
 Make technology work for everyone.
-  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heros/CareerPath_DevOpsEngineer--1000x400_light.png)
+  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heroes/CareerPath_DevOpsEngineer--1000x400_light.png)
 [DevOps Engineer](https://learn.microsoft.com/en-us/training/career-paths/devops-engineer)
 Blend your technical expertise with business savvy.
-  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heros/CareerPath_FunctionalConsultant--1000x400_light.png)
+  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heroes/CareerPath_FunctionalConsultant--1000x400_light.png)
 [Functional Consultant](https://learn.microsoft.com/en-us/training/career-paths/functional-consultant)
 Implement custom business applications.
-  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heros/CareerPath_IdentityAccessAdmin--1000x400_light.png)
+  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heroes/CareerPath_IdentityAccessAdmin--1000x400_light.png)
 [Identity and Access Administrator](https://learn.microsoft.com/en-us/training/career-paths/identity-and-access-admin)
 Safeguard your organization's access.
-  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heros/CareerPath_InfoProtectionAdmin--1000x400_light.png)
+  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heroes/CareerPath_InfoProtectionAdmin--1000x400_light.png)
 [Information Protection Administrator](https://learn.microsoft.com/en-us/training/career-paths/information-protection-admin)
 Learn how Microsoft safeguards customer data.
-  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heros/CareerPath_SecurityEngineer--1000x400_light.png)
+  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heroes/CareerPath_SecurityEngineer--1000x400_light.png)
 [Security Engineer](https://learn.microsoft.com/en-us/training/career-paths/security-engineer)
 Secure your systems and protect your data.
-  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heros/CareerPath_SecurityOperations--1000x400_light.png)
+  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heroes/CareerPath_SecurityOperations--1000x400_light.png)
 [Security Operations Analyst](https://learn.microsoft.com/en-us/training/career-paths/security-operations-analyst)
 Protect your organization for security threats.
-  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heros/CareerPath_SolutionArchitect--1000x400_light.png)
+  * ![](https://learn.microsoft.com/en-us/training/media/career-paths/heroes/CareerPath_SolutionArchitect--1000x400_light.png)
 [Solutions Architect](https://learn.microsoft.com/en-us/training/career-paths/solution-architect)
 Define the vision and implementation of great technological solutions.
 

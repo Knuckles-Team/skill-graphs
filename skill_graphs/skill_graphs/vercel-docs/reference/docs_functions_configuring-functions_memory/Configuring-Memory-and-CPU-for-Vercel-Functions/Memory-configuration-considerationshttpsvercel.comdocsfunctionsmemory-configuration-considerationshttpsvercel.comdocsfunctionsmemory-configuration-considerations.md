@@ -1,0 +1,4 @@
+##  [Memory configuration considerations](https://vercel.com/docs/functions#memory-configuration-considerations)[](https://vercel.com/docs/functions#memory-configuration-considerations)
+You should consider the following points when changing the memory size of your functions:
+  * Performance: Increasing memory size can improve the performance of your functions, allowing them to run faster
+  * Cost: Vercel Functions are billed based on the function duration, which is affected by the memory size. While increasing the function CPU can increase costs if the function duration stays the same, the increase in CPU can also make functions execute faster. If your function executes faster, it is possible for it to incur less overall function duration usage. This is especially important if your function runs CPU-intensive tasks. See [Pricing](https://vercel.com/docs/functions#pricing) for more information on how function duration is calculated

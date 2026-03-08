@@ -1,0 +1,2 @@
+## Prefetching[](https://nextjs.org/docs/app/glossary#prefetching)
+Loading a route in the background before the user navigates to it. Next.js automatically prefetches routes linked with the [`<Link>` component](https://nextjs.org/docs/app/api-reference/components/link) when they enter the viewport, making navigation feel instant. Learn more in the [Prefetching guide](https://nextjs.org/docs/app/guides/prefetching).

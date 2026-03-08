@@ -1,0 +1,4 @@
+# Global network and regions
+Last updated March 8, 2026
+Vercel's CDN is a globally distributed platform that stores content and runs compute close to your users and data, reducing latency and improving performance. This page details the [supported regions](https://vercel.com/docs/regions#region-list) and explains our global infrastructure.
+![Our global CDN has 126 Points of Presence in 94 cities across 51 countries.](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Ffront%2Fdocs%2Fedge-network%2Fcdn-pops-light.png&w=3840&q=75)![Our global CDN has 126 Points of Presence in 94 cities across 51 countries.](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Ffront%2Fdocs%2Fedge-network%2Fcdn-pops-dark.png&w=3840&q=75)Our global CDN has 126 Points of Presence in 94 cities across 51 countries.

@@ -1,3 +1,0 @@
-# 429 Too Many Requests
-* * *
-nginx

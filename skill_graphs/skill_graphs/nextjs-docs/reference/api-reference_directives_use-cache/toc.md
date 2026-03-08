@@ -1,0 +1,15 @@
+# Table of Contents
+
+- [api-reference_directives_use-cache](<./api-reference_directives_use-cache.md>)
+- [use cache](<./use-cache.md>)
+  - [Usage[](https://nextjs.org/docs/app/api-reference/directives/use-cache#usage)](<./use-cache/Usagehttpsnextjs.orgdocsappapi-referencedirectivesuse-cacheusage.md>)
+  - [How `use cache` works[](https://nextjs.org/docs/app/api-reference/directives/use-cache#how-use-cache-works)](<./use-cache/How-use-cache-workshttpsnextjs.orgdocsappapi-referencedirectivesuse-cachehow-use-cache-works.md>)
+  - [Serialization[](https://nextjs.org/docs/app/api-reference/directives/use-cache#serialization)](<./use-cache/Serializationhttpsnextjs.orgdocsappapi-referencedirectivesuse-cacheserialization.md>)
+  - [Constraints[](https://nextjs.org/docs/app/api-reference/directives/use-cache#constraints)](<./use-cache/Constraintshttpsnextjs.orgdocsappapi-referencedirectivesuse-cacheconstraints.md>)
+  - [`use cache` at runtime[](https://nextjs.org/docs/app/api-reference/directives/use-cache#use-cache-at-runtime)](<./use-cache/use-cache-at-runtimehttpsnextjs.orgdocsappapi-referencedirectivesuse-cacheuse-cache-at-runtime.md>)
+  - [Revalidation[](https://nextjs.org/docs/app/api-reference/directives/use-cache#revalidation)](<./use-cache/Revalidationhttpsnextjs.orgdocsappapi-referencedirectivesuse-cacherevalidation.md>)
+  - [Examples[](https://nextjs.org/docs/app/api-reference/directives/use-cache#examples)](<./use-cache/Exampleshttpsnextjs.orgdocsappapi-referencedirectivesuse-cacheexamples.md>)
+  - [Troubleshooting[](https://nextjs.org/docs/app/api-reference/directives/use-cache#troubleshooting)](<./use-cache/Troubleshootinghttpsnextjs.orgdocsappapi-referencedirectivesuse-cachetroubleshooting.md>)
+  - [Platform Support[](https://nextjs.org/docs/app/api-reference/directives/use-cache#platform-support)](<./use-cache/Platform-Supporthttpsnextjs.orgdocsappapi-referencedirectivesuse-cacheplatform-support.md>)
+  - [Version History[](https://nextjs.org/docs/app/api-reference/directives/use-cache#version-history)](<./use-cache/Version-Historyhttpsnextjs.orgdocsappapi-referencedirectivesuse-cacheversion-history.md>)
+  - [Related](<./use-cache/Related.md>)

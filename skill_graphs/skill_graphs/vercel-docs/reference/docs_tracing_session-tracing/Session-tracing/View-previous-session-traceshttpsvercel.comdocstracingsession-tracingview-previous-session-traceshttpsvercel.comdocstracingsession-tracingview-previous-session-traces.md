@@ -1,0 +1,9 @@
+##  [View previous session traces](https://vercel.com/docs/tracing/session-tracing#view-previous-session-traces)[](https://vercel.com/docs/tracing/session-tracing#view-previous-session-traces)
+  1. In the Vercel toolbar on your deployment, click (or search for) Tracing.
+  2. Select View Previous Session Traces.
+  3. The dashboard will open to the Logs section in the sidebar, filtered to the session ID, and the tracing filter applied - indicated by the Traces icon
+
+
+You can filter traces using [all the same filters available](https://vercel.com/docs/runtime-logs#log-filters) in the Logs section in the sidebar of the dashboard. To view traces for requests to your browser, press the user icon next to the Traces icon.
+![View previous session traces in the dashboard.](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Ffront%2Fdocs%2Fobservability%2Fprevious-session-traces-light.png%3Flightbox&w=3840&q=75)![View previous session traces in the dashboard.](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Ffront%2Fdocs%2Fobservability%2Fprevious-session-traces-dark.png%3Flightbox&w=3840&q=75)View previous session traces in the dashboard.Zoom Image
+![View previous session traces in the dashboard.](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Ffront%2Fdocs%2Fobservability%2Fprevious-session-traces-light.png%3Flightbox&w=3840&q=75)![View previous session traces in the dashboard.](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Ffront%2Fdocs%2Fobservability%2Fprevious-session-traces-dark.png%3Flightbox&w=3840&q=75)View previous session traces in the dashboard.

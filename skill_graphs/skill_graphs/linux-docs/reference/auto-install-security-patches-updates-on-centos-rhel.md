@@ -196,7 +196,7 @@ top command can do these things too you mention, or are you testing these thing 
 Aaron Kili
 [ May 18, 2018 at 11:42 am  ](https://www.tecmint.com/htop-vs-top-in-linux/#comment-993651)
 @Kees
-Atleast top doesn’t support mouse operations, it is not configurable, requires a PID to kill or renice a process and others. Does it even display a process tree, i haven’t seen this feature yet.
+At least top doesn’t support mouse operations, it is not configurable, requires a PID to kill or renice a process and others. Does it even display a process tree, i haven’t seen this feature yet.
 [Reply](https://www.tecmint.com/htop-vs-top-in-linux/#comment-993651)
        * ![](https://secure.gravatar.com/avatar/39d0cfef8318c6127ff5dea6c68056f79ffd4bee388640368819d0e4fe641b4f?s=50&d=blank&r=g)
 Kees

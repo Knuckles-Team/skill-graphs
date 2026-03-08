@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_cli_deploying-from-cli](<./docs_cli_deploying-from-cli.md>)
+- [Deploying Projects from Vercel CLI](<./Deploying-Projects-from-Vercel-CLI.md>)
+  - [[Deploying from source](https://vercel.com/docs/cli/deploying-from-cli#deploying-from-source)[](https://vercel.com/docs/cli/deploying-from-cli#deploying-from-source)](<./Deploying-Projects-from-Vercel-CLI/Deploying-from-sourcehttpsvercel.comdocsclideploying-from-clideploying-from-sourcehttpsvercel.comdocsclideploying-from-clideploying-from-source.md>)
+  - [[Deploying a staged production build](https://vercel.com/docs/cli/deploying-from-cli#deploying-a-staged-production-build)[](https://vercel.com/docs/cli/deploying-from-cli#deploying-a-staged-production-build)](<./Deploying-Projects-from-Vercel-CLI/Deploying-a-staged-production-buildhttpsvercel.comdocsclideploying-from-clideploying-a-staged-production-buildhttpsvercel.comdocsclideploying-from-clideploying-a-staged-production-build.md>)
+  - [[Deploying from local build (prebuilt)](https://vercel.com/docs/cli/deploying-from-cli#deploying-from-local-build-prebuilt)[](https://vercel.com/docs/cli/deploying-from-cli#deploying-from-local-build-prebuilt)](<./Deploying-Projects-from-Vercel-CLI/Deploying-from-local-build-prebuilthttpsvercel.comdocsclideploying-from-clideploying-from-local-build-prebuilthttpsvercel.comdocsclideploying-from-clideploying-from-local-build-prebuilt.md>)
+  - [Get Started](<./Deploying-Projects-from-Vercel-CLI/Get-Started.md>)
+  - [Build](<./Deploying-Projects-from-Vercel-CLI/Build.md>)
+  - [Scale](<./Deploying-Projects-from-Vercel-CLI/Scale.md>)
+  - [Secure](<./Deploying-Projects-from-Vercel-CLI/Secure.md>)
+  - [Resources](<./Deploying-Projects-from-Vercel-CLI/Resources.md>)
+  - [Learn](<./Deploying-Projects-from-Vercel-CLI/Learn.md>)
+  - [Frameworks](<./Deploying-Projects-from-Vercel-CLI/Frameworks.md>)
+  - [SDKs](<./Deploying-Projects-from-Vercel-CLI/SDKs.md>)
+  - [Use Cases](<./Deploying-Projects-from-Vercel-CLI/Use-Cases.md>)
+  - [Company](<./Deploying-Projects-from-Vercel-CLI/Company.md>)
+  - [Community](<./Deploying-Projects-from-Vercel-CLI/Community.md>)

@@ -426,113 +426,65 @@ However, sometimes this is not what you want. In this chat app, typing a message
 App.jsContactList.jsChat.js
 App.js
 ReloadClear Fork
-99
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
+```
 import { useState } from 'react';
 import Chat from './Chat.js';
 import ContactList from './ContactList.js';
 
-
 export default function Messenger() {
-const [to, setTo] = useState(contacts[0]);
-return (
-<div>
-<ContactList
-contacts={contacts}
-selectedContact={to}
-onSelect={contact => setTo(contact)}
-/>
-<Chat contact={to} />
-</div>
-)
+  const [to, setTo] = useState(contacts[0]);
+  return (
+    <div>
+      <ContactList
+        contacts={contacts}
+        selectedContact={to}
+        onSelect={contact => setTo(contact)}
+      />
+      <Chat contact={to} />
+    </div>
+  )
 }
 
-
 const contacts = [
-{ name: 'Taylor', email: 'taylor@mail.com' },
-{ name: 'Alice', email: 'alice@mail.com' },
-{ name: 'Bob', email: 'bob@mail.com' }
+  { name: 'Taylor', email: 'taylor@mail.com' },
+  { name: 'Alice', email: 'alice@mail.com' },
+  { name: 'Bob', email: 'bob@mail.com' }
 ];
 
+
+```
 
 React lets you override the default behavior, and _force_ a component to reset its state by passing it a different `key`, like `<Chat key={email} />`. This tells React that if the recipient is different, it should be considered a _different_ `Chat` component that needs to be re-created from scratch with the new data (and UI like inputs). Now switching between the recipients resets the input field—even though you render the same component.
 App.jsContactList.jsChat.js
 App.js
 ReloadClear Fork
-99
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
+```
 import { useState } from 'react';
 import Chat from './Chat.js';
 import ContactList from './ContactList.js';
 
-
 export default function Messenger() {
-const [to, setTo] = useState(contacts[0]);
-return (
-<div>
-<ContactList
-contacts={contacts}
-selectedContact={to}
-onSelect={contact => setTo(contact)}
-/>
-<Chat key={to.email} contact={to} />
-</div>
-)
+  const [to, setTo] = useState(contacts[0]);
+  return (
+    <div>
+      <ContactList
+        contacts={contacts}
+        selectedContact={to}
+        onSelect={contact => setTo(contact)}
+      />
+      <Chat key={to.email} contact={to} />
+    </div>
+  )
 }
 
-
 const contacts = [
-{ name: 'Taylor', email: 'taylor@mail.com' },
-{ name: 'Alice', email: 'alice@mail.com' },
-{ name: 'Bob', email: 'bob@mail.com' }
+  { name: 'Taylor', email: 'taylor@mail.com' },
+  { name: 'Alice', email: 'alice@mail.com' },
+  { name: 'Bob', email: 'bob@mail.com' }
 ];
 
+
+```
 
 ## Ready to learn this topic?
 Read **[Preserving and Resetting State](https://react.dev/learn/preserving-and-resetting-state)** to learn the lifetime of state and how to control it.
@@ -543,84 +495,91 @@ Components with many state updates spread across many event handlers can get ove
 App.js
 App.js
 ReloadClear Fork
-99
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
+```
 import { useReducer } from 'react';
 import AddTask from './AddTask.js';
 import TaskList from './TaskList.js';
 
-
 export default function TaskApp() {
-const [tasks, dispatch] = useReducer(
-tasksReducer,
-initialTasks
-);
+  const [tasks, dispatch] = useReducer(
+    tasksReducer,
+    initialTasks
+  );
 
+  function handleAddTask(text) {
+    dispatch({
+      type: 'added',
+      id: nextId++,
+      text: text,
+    });
+  }
 
-function handleAddTask(text) {
-dispatch({
-type: 'added',
-id: nextId++,
-text: text,
-});
+  function handleChangeTask(task) {
+    dispatch({
+      type: 'changed',
+      task: task
+    });
+  }
+
+  function handleDeleteTask(taskId) {
+    dispatch({
+      type: 'deleted',
+      id: taskId
+    });
+  }
+
+  return (
+    <>
+      <h1>Prague itinerary</h1>
+      <AddTask
+        onAddTask={handleAddTask}
+      />
+      <TaskList
+        tasks={tasks}
+        onChangeTask={handleChangeTask}
+        onDeleteTask={handleDeleteTask}
+      />
+    </>
+  );
 }
 
-
-function handleChangeTask(task) {
-dispatch({
-type: 'changed',
-task: task
-});
+function tasksReducer(tasks, action) {
+  switch (action.type) {
+    case 'added': {
+      return [...tasks, {
+        id: action.id,
+        text: action.text,
+        done: false
+      }];
+    }
+    case 'changed': {
+      return tasks.map(t => {
+        if (t.id === action.task.id) {
+          return action.task;
+        } else {
+          return t;
+        }
+      });
+    }
+    case 'deleted': {
+      return tasks.filter(t => t.id !== action.id);
+    }
+    default: {
+      throw Error('Unknown action: ' + action.type);
+    }
+  }
 }
 
+let nextId = 3;
+const initialTasks = [
+  { id: 0, text: 'Visit Kafka Museum', done: true },
+  { id: 1, text: 'Watch a puppet show', done: false },
+  { id: 2, text: 'Lennon Wall pic', done: false }
+];
 
-function handleDeleteTask(taskId) {
-dispatch({
-type: 'deleted',
-id: taskId
-});
-}
 
+```
 
-return (
-<>
-<h1>Prague itinerary</h1>
-<AddTask
 ## Ready to learn this topic?
 Read **[Extracting State Logic into a Reducer](https://react.dev/learn/extracting-state-logic-into-a-reducer)** to learn how to consolidate logic in the reducer function.
 [Read More](https://react.dev/learn/extracting-state-logic-into-a-reducer)

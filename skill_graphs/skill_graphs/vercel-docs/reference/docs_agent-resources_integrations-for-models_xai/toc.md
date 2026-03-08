@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_agent-resources_integrations-for-models_xai](<./docs_agent-resources_integrations-for-models_xai.md>)
+- [Vercel xAI Integration](<./Vercel-xAI-Integration.md>)
+  - [[Use cases](https://vercel.com/docs/agent-resources/integrations-for-models/xai#use-cases)[](https://vercel.com/docs/agent-resources/integrations-for-models/xai#use-cases)](<./Vercel-xAI-Integration/Use-caseshttpsvercel.comdocsagent-resourcesintegrations-for-modelsxaiuse-caseshttpsvercel.comdocsagent-resourcesintegrations-for-modelsxaiuse-cases.md>)
+  - [[Getting started](https://vercel.com/docs/agent-resources/integrations-for-models/xai#getting-started)[](https://vercel.com/docs/agent-resources/integrations-for-models/xai#getting-started)](<./Vercel-xAI-Integration/Getting-startedhttpsvercel.comdocsagent-resourcesintegrations-for-modelsxaigetting-startedhttpsvercel.comdocsagent-resourcesintegrations-for-modelsxaigetting-started.md>)
+  - [[More resources](https://vercel.com/docs/agent-resources/integrations-for-models/xai#more-resources)[](https://vercel.com/docs/agent-resources/integrations-for-models/xai#more-resources)](<./Vercel-xAI-Integration/More-resourceshttpsvercel.comdocsagent-resourcesintegrations-for-modelsxaimore-resourceshttpsvercel.comdocsagent-resourcesintegrations-for-modelsxaimore-resources.md>)
+  - [Get Started](<./Vercel-xAI-Integration/Get-Started.md>)
+  - [Build](<./Vercel-xAI-Integration/Build.md>)
+  - [Scale](<./Vercel-xAI-Integration/Scale.md>)
+  - [Secure](<./Vercel-xAI-Integration/Secure.md>)
+  - [Resources](<./Vercel-xAI-Integration/Resources.md>)
+  - [Learn](<./Vercel-xAI-Integration/Learn.md>)
+  - [Frameworks](<./Vercel-xAI-Integration/Frameworks.md>)
+  - [SDKs](<./Vercel-xAI-Integration/SDKs.md>)
+  - [Use Cases](<./Vercel-xAI-Integration/Use-Cases.md>)
+  - [Company](<./Vercel-xAI-Integration/Company.md>)
+  - [Community](<./Vercel-xAI-Integration/Community.md>)

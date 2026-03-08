@@ -1,0 +1,3 @@
+# Add the Vercel Toolbar to your production environment
+Last updated January 13, 2026
+As a [team owner](https://vercel.com/docs/rbac/access-roles#owner-role) or [member](https://vercel.com/docs/rbac/access-roles#member-role), you can enable the toolbar in your production environment for sites that your team(s) own, either [through the dashboard](https://vercel.com/docs/vercel-toolbar/managing-toolbar#enable-or-disable-the-toolbar-project-wide) or by [adding the `@vercel/toolbar` package](https://vercel.com/docs/vercel-toolbar/in-production-and-localhost/add-to-production#adding-the-toolbar-using-the-@vercel/toolbar-package) to your project.

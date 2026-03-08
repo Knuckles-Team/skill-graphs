@@ -13,8 +13,8 @@ The CPPRestSDK, a cross-platform web API for C++, is updated to version 2.9.0. F
 ##### Visual Studio 2017 version 15.5
   * Yet another set of name-lookup conformance fixes
   * Existing move constructors and move assignment operators are now properly marked as nonthrowing
-  * Unsuppress valid warning C4640 about thread safe init of local statics in atlstr.h
-  * Thread-safe initialization of local statics was automatically turned off in the XP toolset when using ATL to build a DLL. Now it's not. You can add **`/Zc:threadSafeInit-`**in your Project settings if you don't want thread-safe initialization.
+  * Unsuppress valid warning C4640 about thread safe init of local statistics in atlstr.h
+  * Thread-safe initialization of local statistics was automatically turned off in the XP toolset when using ATL to build a DLL. Now it's not. You can add **`/Zc:threadSafeInit-`**in your Project settings if you don't want thread-safe initialization.
 
 
 [](https://learn.microsoft.com/en-us/cpp/overview/what-s-new-for-cpp-2017?view=msvc-170#visual-c-runtime)

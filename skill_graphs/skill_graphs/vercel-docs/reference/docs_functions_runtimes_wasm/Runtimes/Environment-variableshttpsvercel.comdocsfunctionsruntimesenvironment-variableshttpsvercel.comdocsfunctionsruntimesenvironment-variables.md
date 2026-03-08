@@ -1,0 +1,3 @@
+##  [Environment variables](https://vercel.com/docs/functions/runtimes#environment-variables)[](https://vercel.com/docs/functions/runtimes#environment-variables)
+You can use [environment variables](https://vercel.com/docs/environment-variables#environment-variable-size) to manage dynamic values and sensitive information affecting the operation of your functions. Vercel allows developers to define these variables either at deployment or during runtime.
+You can use a total of 64 KB in environments variables per-deployment on Vercel. This limit is for all variables combined, and so no single variable can be larger than 64 KB.

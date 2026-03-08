@@ -187,6 +187,7 @@ pip install jinja2
 ████████████████████████████████████████ 100%
 
 
+
 ```
 
 ## Using `Jinja2Templates`[¶](https://fastapi.tiangolo.com/advanced/templates/#using-jinja2templates)

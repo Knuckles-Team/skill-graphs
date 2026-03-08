@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [docs_security](<./docs_security.md>)
+- [Vercel security overview](<./Vercel-security-overview.md>)
+  - [[Governance and policies](https://vercel.com/docs/security#governance-and-policies)[](https://vercel.com/docs/security#governance-and-policies)](<./Vercel-security-overview/Governance-and-policieshttpsvercel.comdocssecuritygovernance-and-policieshttpsvercel.comdocssecuritygovernance-and-policies.md>)
+  - [[Multi-layered protection](https://vercel.com/docs/security#multi-layered-protection)[](https://vercel.com/docs/security#multi-layered-protection)](<./Vercel-security-overview/Multi-layered-protectionhttpsvercel.comdocssecuritymulti-layered-protectionhttpsvercel.comdocssecuritymulti-layered-protection.md>)
+  - [Get Started](<./Vercel-security-overview/Get-Started.md>)
+  - [Build](<./Vercel-security-overview/Build.md>)
+  - [Scale](<./Vercel-security-overview/Scale.md>)
+  - [Secure](<./Vercel-security-overview/Secure.md>)
+  - [Resources](<./Vercel-security-overview/Resources.md>)
+  - [Learn](<./Vercel-security-overview/Learn.md>)
+  - [Frameworks](<./Vercel-security-overview/Frameworks.md>)
+  - [SDKs](<./Vercel-security-overview/SDKs.md>)
+  - [Use Cases](<./Vercel-security-overview/Use-Cases.md>)
+  - [Company](<./Vercel-security-overview/Company.md>)
+  - [Community](<./Vercel-security-overview/Community.md>)

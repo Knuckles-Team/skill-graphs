@@ -1,0 +1,3 @@
+## Relationship with `revalidatePath`[](https://nextjs.org/docs/app/api-reference/functions/revalidateTag#relationship-with-revalidatepath)
+`revalidateTag` invalidates data with specific tags across all pages that use those tags, while [`revalidatePath`](https://nextjs.org/docs/app/api-reference/functions/revalidatePath) invalidates specific page or layout paths.
+> **Good to know** : These functions serve different purposes and may need to be used together for comprehensive data consistency. For detailed examples and considerations, see [relationship with revalidateTag and updateTag](https://nextjs.org/docs/app/api-reference/functions/revalidatePath#relationship-with-revalidatetag-and-updatetag) for more information.

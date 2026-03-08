@@ -1,0 +1,2 @@
+##  [Failover mode](https://vercel.com/docs/functions/runtimes/node-js#failover-mode)[](https://vercel.com/docs/functions/runtimes/node-js#failover-mode)
+In the event of regional downtime, Vercel will automatically reroute traffic to the next closest CDN region on all plans. For more information on which regions Vercel routes traffic to, see [Outage Resiliency](https://vercel.com/docs/regions#outage-resiliency).

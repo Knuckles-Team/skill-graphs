@@ -1,0 +1,2 @@
+## Error Boundary[](https://nextjs.org/docs/app/glossary#error-boundary)
+A React component that catches JavaScript errors in its child component tree and displays a fallback UI. In Next.js, create an [`error.js` file](https://nextjs.org/docs/app/api-reference/file-conventions/error) to automatically wrap a route segment in an error boundary. Learn more in [Error Handling](https://nextjs.org/docs/app/getting-started/error-handling).

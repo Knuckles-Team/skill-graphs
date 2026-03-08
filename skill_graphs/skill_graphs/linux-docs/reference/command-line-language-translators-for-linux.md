@@ -133,7 +133,7 @@ Nothing succeeds like success.
 > Was mich nicht umbringt, macht mich stärker.
 What does not kill me makes me stronger.
 > Юмор есть остроумие глубокого чувства.
-Humor has a deep sense of wit.
+Humor has a deep sense of with.
 > 幸福になるためには、人から愛されるのが一番の近道。
 In order to be happy, the best way is to be loved by people.
 ```

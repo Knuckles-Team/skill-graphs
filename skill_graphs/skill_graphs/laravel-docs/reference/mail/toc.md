@@ -1,0 +1,15 @@
+# Table of Contents
+
+- [mail](<./mail.md>)
+- [Mail](<./Mail.md>)
+  - [[Introduction](https://laravel.com/docs/12.x/mail#introduction)](<./Mail/Introductionhttpslaravel.comdocs12.xmailintroduction.md>)
+  - [[Generating Mailables](https://laravel.com/docs/12.x/mail#generating-mailables)](<./Mail/Generating-Mailableshttpslaravel.comdocs12.xmailgenerating-mailables.md>)
+  - [[Writing Mailables](https://laravel.com/docs/12.x/mail#writing-mailables)](<./Mail/Writing-Mailableshttpslaravel.comdocs12.xmailwriting-mailables.md>)
+  - [[Markdown Mailables](https://laravel.com/docs/12.x/mail#markdown-mailables)](<./Mail/Markdown-Mailableshttpslaravel.comdocs12.xmailmarkdown-mailables.md>)
+  - [[Sending Mail](https://laravel.com/docs/12.x/mail#sending-mail)](<./Mail/Sending-Mailhttpslaravel.comdocs12.xmailsending-mail.md>)
+  - [[Rendering Mailables](https://laravel.com/docs/12.x/mail#rendering-mailables)](<./Mail/Rendering-Mailableshttpslaravel.comdocs12.xmailrendering-mailables.md>)
+  - [[Localizing Mailables](https://laravel.com/docs/12.x/mail#localizing-mailables)](<./Mail/Localizing-Mailableshttpslaravel.comdocs12.xmaillocalizing-mailables.md>)
+  - [[Testing](https://laravel.com/docs/12.x/mail#testing-mailables)](<./Mail/Testinghttpslaravel.comdocs12.xmailtesting-mailables.md>)
+  - [[Mail and Local Development](https://laravel.com/docs/12.x/mail#mail-and-local-development)](<./Mail/Mail-and-Local-Developmenthttpslaravel.comdocs12.xmailmail-and-local-development.md>)
+  - [[Events](https://laravel.com/docs/12.x/mail#events)](<./Mail/Eventshttpslaravel.comdocs12.xmailevents.md>)
+  - [[Custom Transports](https://laravel.com/docs/12.x/mail#custom-transports)](<./Mail/Custom-Transportshttpslaravel.comdocs12.xmailcustom-transports.md>)

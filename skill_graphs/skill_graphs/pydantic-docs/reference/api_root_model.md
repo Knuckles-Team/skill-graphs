@@ -1,4 +1,27 @@
 [ Skip to content ](https://docs.pydantic.dev/latest/api/root_model/#pydantic.root_model)
+What's new — we've launched [Pydantic Logfire](https://pydantic.dev/articles/logfire-announcement) ![🔥](https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f525.svg) to help you monitor and understand your [Pydantic validations.](https://logfire.pydantic.dev/docs/integrations/pydantic/)
+[ ![logo](https://docs.pydantic.dev/latest/logo-white.svg) ](https://docs.pydantic.dev/latest/ "Pydantic Validation")
+Pydantic Validation
+2.12
+  * [dev](https://docs.pydantic.dev/dev/)
+  * [2.12](https://docs.pydantic.dev/2.12/)
+  * [2.11](https://docs.pydantic.dev/2.11/)
+  * [2.10](https://docs.pydantic.dev/2.10/)
+  * [2.9](https://docs.pydantic.dev/2.9/)
+  * [2.8](https://docs.pydantic.dev/2.8/)
+  * [2.7](https://docs.pydantic.dev/2.7/)
+  * [2.6](https://docs.pydantic.dev/2.6/)
+  * [2.5](https://docs.pydantic.dev/2.5/)
+  * [2.4](https://docs.pydantic.dev/2.4/)
+  * [2.3](https://docs.pydantic.dev/2.3/)
+  * [2.2](https://docs.pydantic.dev/2.2/)
+  * [2.1](https://docs.pydantic.dev/2.1/)
+  * [2.0](https://docs.pydantic.dev/2.0/)
+  * [1.10](https://docs.pydantic.dev/1.10/)
+
+
+RootModel
+Type to start searching
   * [ Get Started ](https://docs.pydantic.dev/latest/)
   * [ Concepts ](https://docs.pydantic.dev/latest/concepts/models/)
   * [ API Documentation ](https://docs.pydantic.dev/latest/api/base_model/)
@@ -328,3 +351,4 @@ def model_dump(  # type: ignore
 Was this page helpful?
 Thanks for your feedback!
 Thanks for your feedback!
+Made with

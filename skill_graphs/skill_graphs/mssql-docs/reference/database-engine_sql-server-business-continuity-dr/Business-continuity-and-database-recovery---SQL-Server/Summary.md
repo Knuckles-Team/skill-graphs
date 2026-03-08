@@ -1,0 +1,3 @@
+## Summary
+You can make instances and databases of SQL Server 2017 (14.x) and later versions highly available by using the same features on both Windows Server and Linux. Besides standard availability scenarios of local high availability and disaster recovery, you can minimize downtime associated with upgrades and migrations by using the availability features in SQL Server. AGs can also provide extra copies of a database as part of the same architecture to scale out readable copies. Whether you're deploying a new solution or considering an upgrade, SQL Server has the availability and reliability you require.
+[](https://learn.microsoft.com/en-us/sql/database-engine/sql-server-business-continuity-dr?view=sql-server-ver17#related-content)

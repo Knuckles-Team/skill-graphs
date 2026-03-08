@@ -1,0 +1,373 @@
+#  Q
+
+**QA**
+
+Quality Assurance From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QA**
+
+Question & Answers, "Q&A" From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QAP**
+
+Quality-Assurance Program (QA) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QAPI**
+
+Quality-Assurance Program Inspections (QA) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QAPP**
+
+Quality-Assurance Program Plan (QA) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QAZ**
+
+In the year 2000, there was a wide outbreak of the QAZ virus/trojan. The trojan leaves allows remote control TCP port 7597. Rumor has it that a Microsoft engineer disklike the performance cost of running anti-virus and disabled it. The engineer then got infected with QAZ. Somebody trolling on the Internet found the open port, remotely controlled the machine, and used it to log back into Microsoft and was able to steal some source code. From Hacking-Lexicon <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QBASIC**
+
+Quick Beginner's All-purpose Symbolic Instruction Code (BASIC, DOS) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QBBS**
+
+Quick Bulletin Board System (BBS) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QBE**
+
+Query By Example (DB) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QBF**
+
+Query By Forms (DB) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QBIC**
+
+Query By Image Content (IBM) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qbrew**
+
+homebrew recipe calculator QBrew is a homebrewer's recipe calculator. It provides facilities for creating beer recipes. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qcad**
+
+professional CAD System. QCad is a professional CAD System. With QCad you can easily construct and change drawings with ISO-texts and many other features and save them as DXF-files. These DXF-files are the interface to many CAD-systems such as AutoCADR and many others. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qcam**
+
+QuickCam image grabber Tools for grabbing single frames and videos from black and white Connectix QuickCam digital cameras. Includes X11 and svgalib versions. Note that nowadays there is support in the 2.2 kernels for this camera in the video4linux project, which is probably better than this. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QCB**
+
+Queue Control Block From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QCDP**
+
+Quality Color Dithering Modus From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QCIF**
+
+Quarter Common Interchange Format From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QD**
+
+Queueing Delay From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QDOS**
+
+Quick and Dirty Operating System (OS, PC, MS-DOS, predecessor) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qe**
+
+A PE2-like text full-screen color text editor qe is a PE2-like full-screen color text editor. It's called "qe" because the letter "Q" comes after "P", so hopefully QE will exceed PE2! Like PE2 on DOS, QE is a great editor for both English and Chinese (Big5 or GB) text. Features include: * Optional Big5/GB Chinese interface. * User-definable macros and keyboard settings. Author: Jiann-Ching Liu <center5@cc.ncu.edu.tw> Home Page: http://www.cc.ncu.edu.tw/~center5/product/qe/ (Big5 Chinese) http://members.xoom.com/linux4tw/qe/ (English) From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QF**
+
+Query Filter (DB) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QFA**
+
+Quick File Access From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QFE**
+
+Quick Fix Engineering (MS) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qgrid**
+
+Qt-based Maidenhead grid squares calculator Qgrid converts from Maidenhead grid squares to latitude/longitude, converts from latitude/longitude to Maidenhead grid squares, calculates the distance in miles or kilometers, calculates the bearing and shows a graphical representation of the bearing. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qhull-bin**
+
+Calculate convex hulls and related structures These executables use a practical convex hull algorithm that combines the two-dimensional Quickhull Algorithm with the general dimension Beneath-Beyond Algorithm. This algorithm is robust against floating point errors, often a problem for less sophisticated computational geometry algorithms. There are also programs that perform related computations, such as Delaunay triangulation. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QI**
+
+An acronym for Query Interface, The QI (generally based on the CCSO Nameserver) is a database system that can be accessed by ph client programs to retrieve and edit entries in the server. This is generally used for phonebook services, but can be used in any database application. Further information is available. From KADOWKEV <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QIC**
+
+Quarter Inch Committee (org., Streamer) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QICSC**
+
+Quarter Inch Cartridge Standards Committee (QIC) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QICW**
+
+Quarter Inch Cartridge Wide (QIC) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QIS**
+
+Quality Information System From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qiv**
+
+a quick image viewer for X Quick Image Viewer (qiv) is a very small and pretty fast GDK/Imlib image viewer. Features include zoom, maxpect, scale down, fullscreen, brightness/contrast/gamma correction, slideshow, flip, horizontal/vertical, rotate left/right, delete (move to .qiv-trash/), jump to image x, jump forward/backward x images, filename filter and you can use qiv to set your X11-Desktop background. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qiv**
+
+qiv is a fast image viewer for X based on gdk and imlib. From Mandrake 9.0 RPM <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QL**
+
+Query Language From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QLD**
+
+Queuing Literature Database (DB) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QLI**
+
+Query Language Interpreter From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QLLC**
+
+Qualified Logical Link Control [protocol] (IBM) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qm**
+
+Quality Management Tools Quality Management Tools, the former 'Software Carpentry Project'. QMTest is the first tool released as a result of the Software Carpentry project. (Hopefully) forthcoming tools are: - a platform investigation and project reconfiguration tool to supersede autoconf. - a dependency management and program reconstruction tool to to supersede make. - an issue tracking system to supersede gnats and bugzilla. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qm-extclass**
+
+QM's ExtensionClass Python Module The ExtensionClass Python Module distributed with the Quality Management Tools. Improves integration between Python and C++ classes. This is a lightweight mechanism, named "ExtensionClass", developed for making Python extension types more class-like. Classes can be developed in an extension language, such as C or C++, and these classes can be treated like other python classes. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qmtest**
+
+A Testing Framework CodeSourcery's QMTest provides a cost-effective general purpose testing solution that allows an organization to implement a robust, easy-to-use testing program tailored to its needs. QMTest works with most varieties of UNIX, including GNU/Linux, and with Microsoft Windows. QMTest's extensible architecture allows it to handle a wide range of application domains: everything from compilers to graphical user interfaces to web-based applications. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QOS**
+
+Quality Of Service (ATM, CLR, CTD, CDV), "QoS" From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QPA**
+
+Quality Program Analysis From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qpcr1k**
+
+Icom PCR-1000 GUI control icomlib is the ghetto.org PCR-1000 control suite. It consists of a library, command line programs, and a QT widget GUI application. This software controls an ICOM PCR-1000 receiver via a serial interface. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**Qplus-P**
+
+Qplus-P is ETRI's embedded Linux solution for internet appliances such as PDA, Digital TV setopbox and webpad. Target Builder is an embedded Linux development toolkit tightly coupled with ETRI Qplus-P . It provides many features for developers to build embedded Linux systems. These features include configuration, dependency checking, conflict resolution, project management and deployment support to the target system. Using Target Builder, developers can make fully functional operating systems easily and quickly. Version 1.0 was released December 16, 2002. From LWN Distribution List <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qpopper**
+
+Enhanced Post Office Protocol server (POP3). This is The Qualcomm enhanced version of the Post Office Protocol Daemon (POP3 daemon), based on the latest BSD version. The QualComm popper has some extensions to the normal pop3 daemon, such as UIDL and bulletin support. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qpopper-drac**
+
+Qpopper with DRAC Support Qpopper is The Qualcomm enhanced version of the Post Office Protocol Daemon (POP3 daemon), based on the latest BSD version. The QualComm popper has some extensions to the normal pop3 daemon, such as UIDL and bulletin support. DRAC means Dynamic Relay Authorization Control. Please read documents of the drac package for detail. This package included a version of qpoper with DRAC support. Please read the README.Debian of drac package to setup your MTA. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qps**
+
+Qt based process status monitor qps is an X11/Qt version of top or ps. qps is for Linux only, since there is no good standard way of getting process status information. It uses the /proc file system and need not to be run as root. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QPS**
+
+Quark Publishing System (DTP) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QPSK**
+
+Quadri Phase Shift Keying [modulation] From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QPSX**
+
+Queue Packet and Synchronous circuit Exchange From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QSAM**
+
+Queued Sequential Access Method (SAM) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qsstv**
+
+Qt-based slow-scan TV and fax Qsstv is a program for receiving slow-scan television and fax. These are modes used by hamradio operators. Qsstv uses a soundcard to send and receive images. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qstat**
+
+Command-line tool for querying quake (and other) servers Qstat provides a simple interface for querying servers for a number of games, including but not limited to quake, quakeworld, quake2, quake3arena, unreal tournament, kingpin and others. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**Qt**
+
+A powerful, fast open source graphics library for the X Window System on UNIX/Linux, which is used by programmers to create buttons, menus, and other graphical objects. (Also, see Gtk/Gtk+ and KDE.) From I-gloss <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**Qt**
+
+At about that time, a new GUI library was released. It was called Qt and was developed by Troll Tech. It was not free, but it was an outstanding technical accomplishment in that it worked efficiently and cleanly on many different platforms. It was shunned by some factions of the Free software community because it was written in C++, [Which is not considered to be the standard development language by the Free Software Foundation because it is not completely portable and possibly for other reasons.]and was only free for noncommercial applications to link with. Nevertheless, advocates of Qt went ahead and began producing the outstanding KDE desktop project--a set of higher-level development libraries, a window manager, and many core applications that together make up the KDE Desktop. The licensing issues with Qt have relaxed somewhat, and it is now available under both the GPL and a proprietary license. From Rute-Users-Guide <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qt**
+
+Qt is a GUI software toolkit which simplifies the task of writing and maintaining GUI (Graphical User Interface) applications for the X Window System. Qt is written in C++ and is fully object-oriented. This package contains the shared library needed to run qt applications, as well as the README files for qt. From Redhat 8.0 RPM <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qt-designer**
+
+Qt GUI Designer This package contains Qt Designer. Qt Designer is a tool that makes designing and implementing user interfaces a lot easier. With Qt Designer, you will learn how to create your own dialogs and how to arrange the user interface elements in the dialogs so that the dialogs look both nice and natural and can accommodate various environments, like different languages and user settings. This package does NOT contain KDE widget support From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qt3-tools**
+
+Qt GUI Designer and other Qt3 based tools This package contains Qt Designer, Qt Linguist, and other tools out of the Qt3 toolset. They are being provided in this package as to better allow testing of this beta release of Qt3. Once Qt3 is released this package will go away. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QTAM**
+
+Queued Terminal Access Method From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qtcups**
+
+Qt front-end for CUPS. This front-end is designed to behave like standard print front-ends like lpr or lp. It can be used to print a file "qtcups <filename>" and popup a nice configuration dialog. The Common UNIX Printing System (CUPS(tm)) is a printing system and general replacement for lpd. The terms "Common Unix Printing System" or "CUPS" are trademarks of Easy Software Products (www.easysw.com). From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qterm**
+
+BBS client for X Window System written in Qt QTerm is a BBS client for X Window System. The goal is to make a client similar to STerm and CTerm in MS Windows. Home Page: http://qterm.gnuchina.org/ From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qttudo**
+
+A program for ERP (enterprise resource planning) and administrative accounting. The main qualities are: Stability and security: LINUX is a high stability and security operating system and therefore especially fit for the operational encouragement and QtTudo base. Open Source concept with consequently openness: This guarants you 100% independence. You have the possibility to view and edit all program parts without exception. Exchangeable database: The program uses only simple SQL-Syntax. You can change fast to the database of another manufacturer, therefore you are also independent. You choose the database, which is the best for your operational requirements. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**quadra**
+
+multiplayer puzzle game This is Quadra, a full-featured multiplayer action puzzle game for the X Window System and Svgalib. Features include: - Recursive block chaining - Blocks shadows - Teams playing - TCP/IP networking (free Internet playing! Supports SOCKS proxies) - Smooth block falling - Sound effects - Watches on other players - Chat window - CD-based music - And much more! From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**quake2**
+
+popular 3D first person shooter game (engine only) Quake II is a 3D action game engine in first-person perspective, commonly known as a First Person Shooter. This package contains no data files. You will need to either install the commercial data from the Quake II CD-ROM with the quake2-data package, or install some free data files. This game currently supports software rendering with X11, SDL, or SVGAlib, or hardware accelerated rendering with OpenGL (directly or via SDL). From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**quanta**
+
+Quanta Plus is an HTML editor for the K Desktop Environment. This program is designed for quick Web development. Quanta is rapidly becoming a mature editor with a number of great features. The objective of Quanta is to produce a complete Web development environment for active development with a focus on supporting professional level development. This means full HTML 4.0 support including cascading style sheets and lots of time saving features. Support for Perl, Javascript, and PHP is currently being developed. From Redhat 8.0 RPM <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**quanta**
+
+Web Development Environment for KDE Quanta Plus is a web development environment for HTML and associate languages. It is designed for quick web development and is rapidly becoming a mature editor with a number of great features. Quanta already has a good deal of PHP support in it including the ability to run a debugger. Quanta Plus is not in any way affiliated with any commercial versions of Quanta. The primary coders from the original team left the GPL'd version to produce a commercial product. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**Quantian**
+
+The Quantian Scientific Computing Environment is a Knoppix / Debian variant tailored to numerical and quantitative analysis. Quantian is an extension of Knoppix from which it takes its base system of about 2.0 gigabytes of software, along with fully automatic hardware detection and configuration, then Quantian adds a set of programs of interest to applied or theoretical workers in quantitative or data-driven fields. Version 0.3 (now based on ClusterKnoppix) was released June 10, 2003. A CD-based distribution. From LWN Distribution List <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**query**
+
+To request or search for information contained in a database. From Redhat-9-Glossary <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**querybts**
+
+view outstanding bug reports on a debbugs server From whatis <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**queso**
+
+Guess the operating system of a remote machine This program probes a remote machine with a certain sequence of TCP packets. By analysing the response packets it can determine the type of operating system that runs on the remote machine, the version of that OS and sometimes it can even give information about the configuration of that machine. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**Queue**
+
+(Sometimes incorrectly spelled Que.) A list of tasks awaiting execution, as in the print queue. From I-gloss <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**queue**
+
+A list of jobs awaiting execution. Queues in a Linux system are nearly always processed by daemons. From Linux Guide @FirstLinux <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**queue**
+
+transparent load balancing system GNU Queue is a load-balancing system that lets users control their remote jobs in an intuitive, transparent and nearly seamless way. This is done with local shell job control and signaling and with Queue's innovative proxy daemon mechanism. Queue can be used as a local replacement for rsh to hosts within a homogeneous cluster under single administrative control. Queue also supports the more traditional email-based load-balancing and distributed batch-processing facilities using a number of criteria to decide where to send jobs. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QUICC**
+
+QUad Integrated Communications Controller (Motorola) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**quick-arrays**
+
+A library offering less flexible, but faster arrays. This library offers a replacement for the standard array-type in Lisp. It has less features then the standard type, but it's a little faster. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**quicklist**
+
+A simple GTK app for making lists of things QuickList allows novice and experienced users to keep track of "things" without any help from a system administrator. "Things" can be anything, including (but certainly not limited to!) bug lists, phone lists, restaurants, team members, calendars, cool urls, checkbooks, fishing holes, CDs, bunjee jumping cool sites, etc. It is completely flexible. QuickList lists "things" in column format, much as they would appear in a spreadsheet. Quicklist can sort lists of "things," search from them and generate printable reports from them. The native (.qlf) file format is non-relational, non-SQL. Comma and tab delimited files can be imported and exported. In addition, html can be exported for publishing to the World Wide Web. If you liked the Appleworks or Microsoft Works databases, you will like QuickList. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**quickplot**
+
+X-based data viewer A 2-D plotter that lets you "swim through" your data quickly, in X, "a zooming pager for data". It gives you a quick look at all your data, even when you don't have a clue of what your data looks like. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**quickppp**
+
+PPP configuration tool QuickPPP is a simple utility that sets up a PPP connection to your ISP using pppd. It uses PAP/CHAP authentication, so it will work with pretty much any ISP that works in Windows 9x Dial Up Networking. It has been tried with a few ISPs and has worked great. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**quickrecord-applet**
+
+GNOME applet providing one-click recording quickrecord lives on your task bar, and when you click on it, begins recording audio to a wav file named by a user specified convention. It also features a pre-record buffer, so no audio is lost while you go to click the button to start recording. The purpose of quickrecord is to allow you to easily save things you like as soon as you hear them. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**quickres-applet**
+
+GNOME QuickResolution Applet GNOME QuickRes Applet is a small program that sits on a GNOME panel, providing you with a list of all the valid X11 video modes defined in the XF86Config file for fast mode switching, just like that icon in Windoze 9X. More information can be found at the QuickRes-Applet web site http://members.es.tripod.de/~bisente/gquickres/indexe.html From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**quicktime4linux-utils**
+
+quicktime utilities This package has a few small utilities which come with the quicktime4linux library. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**Quinlan, Daniel**
+
+chairman of the Linux Standards Base. The LSB is an attempt to define compatibility standards for Linux distributions -- a project that many feel will be of crucial importance as Linux develops. From Linux Guide @FirstLinux <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**quinn-diff**
+
+Compares a Packages files and a Sources file This is a program to compare a Packages files and a Sources file to see which programs need (re)compiling for any given architecture. Quinn diff knows about architecture specific packages (e.g. lilo) and can easily exclude them via a Packages-arch-specific file. The output is a list of source packages complete with accurate section and version information, suitable for use in build daemons or just in a script to auto-snarf the necessary source. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**quintuple-agent**
+
+Secure store for secrets (passphrases, etc.). quintuple-agent serves as a cache for secrets, so that you don't have to enter them over and over again. You enter a secret once, and quintuple-agent stores it for a configurable timespan. Programs needing the secret can query the agent for it instead of bothering you. Included are wrappers for PGP 2 and GnuPG. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**quota**
+
+An implementation of the disk quota system. QUOTA is implemented using the BSD system call interface as the means of communication with the user level. This is based on the Melbourne quota system which uses both user and group quota files. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**quota**
+
+The quota package contains system administration tools for monitoring and limiting user and or group disk usage per filesystem. From Redhat 8.0 RPM <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**quota**
+
+Value limits set to manage access to system and network resources or the amount of storage used by a particular user or group. From Redhat-9-Glossary <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**quotatool**
+
+tool to edit disk quotas from the command line Quotatool lets you edit disk quotas from the command line. This is very useful to edit disk quotas from scripts. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**quoting**
+
+Preventing special characters from being interpreted as special characters, often using quotation marks. From Linux Guide @FirstLinux <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qvplay**
+
+Casio QV Camera Communications Tool Downloads/uploads and controls a Casio QV XX Digital Still Picture camera. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**qvwm**
+
+Windows95 like window manager for X Window System Qvwm is a Window95 like window manager for X Window System. The name is derived from 'q' standing for '9' (pronouncing '9' as [kju:] in Japanese) and 'v' standing for '5' in Roman numerals. All of the possible features of Windows95 and complete features as a window manager will be realized in the future. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QWERTY**
+
+Standard English-language keyboard arrangement; name represents the first six alphabetical keys on the top left corner of the keyboard. From Redhat-9-Glossary <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QWK**
+
+A format for offline mail and news reader packets, originally made popular on MS-DOS but available as a Unix command. From KADOWKEV <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+
+**QXGA**
+
+??? Graphics Array [2048 x 1536] From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>

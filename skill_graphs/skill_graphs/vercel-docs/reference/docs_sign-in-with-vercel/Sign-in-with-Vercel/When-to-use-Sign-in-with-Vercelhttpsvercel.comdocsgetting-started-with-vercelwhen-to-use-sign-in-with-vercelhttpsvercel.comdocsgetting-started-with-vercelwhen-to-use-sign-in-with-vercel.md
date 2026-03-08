@@ -1,0 +1,4 @@
+##  [When to use Sign in with Vercel](https://vercel.com/docs/getting-started-with-vercel#when-to-use-sign-in-with-vercel)[](https://vercel.com/docs/getting-started-with-vercel#when-to-use-sign-in-with-vercel)
+Sign in with Vercel should be used when you want to offer your users an easy way to sign in to your application.
+In the same way that you can sign in with Google, GitHub, or other providers on the web, you can use Sign in with Vercel to authenticate users with their Vercel account, meaning they don't need to create a new account or remember a new password, they can just use their Vercel account.
+When configuring the app you will be able to choose which user information will be shared to your application, and users will have to [consent to it](https://vercel.com/docs/sign-in-with-vercel/consent-page).

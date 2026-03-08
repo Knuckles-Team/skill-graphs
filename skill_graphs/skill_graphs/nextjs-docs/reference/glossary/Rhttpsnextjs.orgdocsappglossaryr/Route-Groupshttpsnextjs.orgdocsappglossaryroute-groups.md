@@ -1,0 +1,2 @@
+## Route Groups[](https://nextjs.org/docs/app/glossary#route-groups)
+A way to organize routes without affecting the URL structure. Created by wrapping a folder name in parentheses (e.g., `(marketing)`), route groups help organize related routes and enable per-group [layouts](https://nextjs.org/docs/app/glossary#layout). Learn more in [Route Groups](https://nextjs.org/docs/app/api-reference/file-conventions/route-groups).

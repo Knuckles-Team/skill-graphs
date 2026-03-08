@@ -257,7 +257,7 @@ except SettingsError as e:
 ```
 
 #### Enforce Required Arguments at CLI[¶](https://docs.pydantic.dev/latest/concepts/pydantic_settings/#enforce-required-arguments-at-cli)
-Pydantic settings is designed to pull values in from various sources when instantating a model. This means a field that is required is not strictly required from any single source (e.g. the CLI). Instead, all that matters is that one of the sources provides the required value.
+Pydantic settings is designed to pull values in from various sources when instantiating a model. This means a field that is required is not strictly required from any single source (e.g. the CLI). Instead, all that matters is that one of the sources provides the required value.
 However, if your use case [aligns more with #2](https://docs.pydantic.dev/latest/concepts/pydantic_settings/#command-line-support), using Pydantic models to define CLIs, you will likely want required fields to be _strictly required at the CLI_. We can enable this behavior by using `cli_enforce_required`.
 Note
 A required `CliPositionalArg` field is always strictly required (enforced) at the CLI.

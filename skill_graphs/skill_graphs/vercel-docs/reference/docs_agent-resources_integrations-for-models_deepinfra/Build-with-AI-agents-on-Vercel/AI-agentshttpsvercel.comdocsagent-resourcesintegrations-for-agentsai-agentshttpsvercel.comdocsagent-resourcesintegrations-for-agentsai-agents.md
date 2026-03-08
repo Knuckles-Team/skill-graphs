@@ -1,0 +1,3 @@
+##  [AI agents](https://vercel.com/docs/agent-resources/integrations-for-agents#ai-agents)[](https://vercel.com/docs/agent-resources/integrations-for-agents#ai-agents)
+Agents are pre-built systems that reason, act, and adapt inside your existing workflows, like CodeRabbit, Corridor, and Sourcery. For example, instead of building code review automation from scratch, you install an agent that operates where your applications already run.
+Each agent integrates with GitHub through a single onboarding flow. Once installed, the agent begins monitoring your repositories and acting on changes according to its specialization.

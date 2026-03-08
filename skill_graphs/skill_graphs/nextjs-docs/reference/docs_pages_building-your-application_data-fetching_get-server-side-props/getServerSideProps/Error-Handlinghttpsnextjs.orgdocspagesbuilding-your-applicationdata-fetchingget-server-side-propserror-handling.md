@@ -1,0 +1,2 @@
+## Error Handling[](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-server-side-props#error-handling)
+If an error is thrown inside `getServerSideProps`, it will show the `pages/500.js` file. Check out the documentation for [500 page](https://nextjs.org/docs/pages/building-your-application/routing/custom-error#500-page) to learn more on how to create it. During development, this file will not be used and the development error overlay will be shown instead.

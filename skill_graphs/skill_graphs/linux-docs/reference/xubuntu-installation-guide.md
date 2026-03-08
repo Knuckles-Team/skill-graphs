@@ -82,7 +82,7 @@ The installer provides two options for Installing Xubuntu. The first option – 
 The second option allows you to manually partition your hard drive. You can explicitly specify which partitions you want to create on your hard disk.
 For this guide, we will click on ‘**Something Else** ’ so that we can manually define the partitions to be created.
 ![Xubuntu Installation Type](https://www.tecmint.com/wp-content/uploads/2013/04/Xubuntu-Installation-Type.png)Xubuntu Installation Type
-In the next step, your drive will be highlighted as `/dev/sda` (for **SATA** hard drives) or `/dev/hda` (for the old IDE hard drives). You need to create a partition table for the drive before proceeding further.
+In the next step, your drive will be highlighted as `/dev/sda` (for **SATA** hard drives) or `/dev/had` (for the old IDE hard drives). You need to create a partition table for the drive before proceeding further.
 We have a **27.5 GB** hard drive and we will partition it as follows:
 ```
 /boot		- 	1024 MB

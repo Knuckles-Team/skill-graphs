@@ -111,7 +111,7 @@ It offers a groundwork to recapture CPU data with a high degree of accuracy:
   3. Number of instructions per cycle or second, IPS, IPC, or CPI.
   4. CPU C-States C0 C1 C3 C6 C7 – C1E – Auto/UnDemotion of C1 C3.
   5. DTS Temperature along with Tjunction Max, Thermal Monitoring TM1 TM2 state.
-  6. Topology map including Caches for boostrap together with application CPU.
+  6. Topology map including Caches for bootstrap together with application CPU.
   7. Processor features, brand plus architecture strings.
 
 

@@ -1,4 +1,34 @@
 [ Skip to content ](https://fastapi.tiangolo.com/reference/openapi/models/#openapi-models)
+[ **FastAPI and friends** newsletter 🎉 ](https://fastapi.tiangolo.com/newsletter/)
+[ ![logo](https://fastapi.tiangolo.com/img/icon-white.svg) ](https://fastapi.tiangolo.com/ "FastAPI")
+FastAPI
+OpenAPI models
+  * [ en - English ](https://fastapi.tiangolo.com/)
+  * [ de - Deutsch ](https://fastapi.tiangolo.com/de/)
+  * [ es - español ](https://fastapi.tiangolo.com/es/)
+  * [ fr - français ](https://fastapi.tiangolo.com/fr/)
+  * [ ja - 日本語 ](https://fastapi.tiangolo.com/ja/)
+  * [ ko - 한국어 ](https://fastapi.tiangolo.com/ko/)
+  * [ pt - português ](https://fastapi.tiangolo.com/pt/)
+  * [ ru - русский язык ](https://fastapi.tiangolo.com/ru/)
+  * [ tr - Türkçe ](https://fastapi.tiangolo.com/tr/)
+  * [ uk - українська мова ](https://fastapi.tiangolo.com/uk/)
+  * [ zh - 简体中文 ](https://fastapi.tiangolo.com/zh/)
+  * [ zh-hant - 繁體中文 ](https://fastapi.tiangolo.com/zh-hant/)
+
+
+[ ](https://fastapi.tiangolo.com/reference/openapi/models/?q= "Share")
+Type to start searching
+  * [ FastAPI ](https://fastapi.tiangolo.com/)
+  * [ Features ](https://fastapi.tiangolo.com/features/)
+  * [ Learn ](https://fastapi.tiangolo.com/learn/)
+  * [ Reference ](https://fastapi.tiangolo.com/reference/)
+  * [ FastAPI People ](https://fastapi.tiangolo.com/fastapi-people/)
+  * [ Resources ](https://fastapi.tiangolo.com/resources/)
+  * [ About ](https://fastapi.tiangolo.com/about/)
+  * [ Release Notes ](https://fastapi.tiangolo.com/release-notes/)
+
+
 [ ![logo](https://fastapi.tiangolo.com/img/icon-white.svg) ](https://fastapi.tiangolo.com/ "FastAPI") FastAPI
   * [ FastAPI  ](https://fastapi.tiangolo.com/)
   * [ Features  ](https://fastapi.tiangolo.com/features/)
@@ -238,16 +268,3 @@
             * [ ](https://fastapi.tiangolo.com/reference/openapi/models/#fastapi.openapi.models.Schema.description)
             * [ ](https://fastapi.tiangolo.com/reference/openapi/models/#fastapi.openapi.models.Schema.default)
             * [ ](https://fastapi.tiangolo.com/reference/openapi/models/#fastapi.openapi.models.Schema.deprecated)
-            * [ ](https://fastapi.tiangolo.com/reference/openapi/models/#fastapi.openapi.models.Schema.readOnly)
-            * [ ](https://fastapi.tiangolo.com/reference/openapi/models/#fastapi.openapi.models.Schema.writeOnly)
-            * [ ](https://fastapi.tiangolo.com/reference/openapi/models/#fastapi.openapi.models.Schema.examples)
-            * [ ](https://fastapi.tiangolo.com/reference/openapi/models/#fastapi.openapi.models.Schema.discriminator)
-            * [ ](https://fastapi.tiangolo.com/reference/openapi/models/#fastapi.openapi.models.Schema.xml)
-            * [ ](https://fastapi.tiangolo.com/reference/openapi/models/#fastapi.openapi.models.Schema.externalDocs)
-            * [ ](https://fastapi.tiangolo.com/reference/openapi/models/#fastapi.openapi.models.Schema.example)
-            * [ ](https://fastapi.tiangolo.com/reference/openapi/models/#fastapi.openapi.models.Schema.model_config)
-          * [ ](https://fastapi.tiangolo.com/reference/openapi/models/#fastapi.openapi.models.Example)
-            * [ ](https://fastapi.tiangolo.com/reference/openapi/models/#fastapi.openapi.models.Example.summary)
-            * [ ](https://fastapi.tiangolo.com/reference/openapi/models/#fastapi.openapi.models.Example.description)
-            * [ ](https://fastapi.tiangolo.com/reference/openapi/models/#fastapi.openapi.models.Example.value)
-            * [ ](https://fastapi.tiangolo.com/reference/openapi/models/#fastapi.openapi.models.Example.externalValue)

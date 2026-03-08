@@ -294,7 +294,7 @@ Try contacting the developers by posting the issue here:
      * @Jai
 Try to go to Session and Startup->Application Autostart, then locate Power Manager in the list and uncheck it. If you fail to find it, you can check the documentation for xfce.
 [Reply](https://www.tecmint.com/tlp-increase-and-optimize-linux-battery-life/#comment-958714)
-       * I already tried through “Default applications for LXSession->LXSession configuration->Autostart, uncheked power manager” as Admin user and normal user. It is not making any difference. Xfce Power manager always present.
+       * I already tried through “Default applications for LXSession->LXSession configuration->Autostart, unchecked power manager” as Admin user and normal user. It is not making any difference. Xfce Power manager always present.
 [Reply](https://www.tecmint.com/tlp-increase-and-optimize-linux-battery-life/#comment-958879)
          * @Jai
 Try to contact the developers of Xfce, possibly on via the project homepage:

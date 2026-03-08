@@ -282,9 +282,9 @@ chmod 777 -R * on /
   10. ![](https://secure.gravatar.com/avatar/9d6e871d1b87f8ac4a8b02ce545cfce3ce80b708639edf212c937f00687e743f?s=50&d=blank&r=g)
 braindeadLinux
 [ March 25, 2016 at 2:45 am  ](https://www.tecmint.com/dangerous-linux-commands/#comment-764505)
-Linux is so brain dead. Running comamnds is like releasing a bull in a kitchen. On older systems with CLI, you would type a commandName and it would spit out instructions and easy to understand help. Something like the format command would stop and ask for input. If you wanted to automate, you could force confirmation within a batch file (ie, Continue (Y/n)? | Y – or something similar).
+Linux is so brain dead. Running commands is like releasing a bull in a kitchen. On older systems with CLI, you would type a commandName and it would spit out instructions and easy to understand help. Something like the format command would stop and ask for input. If you wanted to automate, you could force confirmation within a batch file (ie, Continue (Y/n)? | Y – or something similar).
 So one would run a batch file for automated processing. When Linus decided to clone a unix-like OS, he didn’t bother to ask himself if he should improve it. He cloned garbage in and produced garbage out. All the s**t-grinning Unix users just nodded their heads and produced a community of Unix-like Linux users smiling that s**t-eating grin of conformity.
-To this day we’re still struggling with installing software using medieval techniques, producing 100s of distros – none of which are compatible with eachother for something that should be as simple as installing an app. Package managers that can’t even distinguish between a library or a program when searching for a programName like “editor”. Even if an editor is searchable within a PM, it doesn’t have a tagName of ‘editor’ and you need to know the exact weird, brain-dead name the developer gave it.
+To this day we’re still struggling with installing software using medieval techniques, producing 100s of distros – none of which are compatible with each other for something that should be as simple as installing an app. Package managers that can’t even distinguish between a library or a program when searching for a programName like “editor”. Even if an editor is searchable within a PM, it doesn’t have a tagName of ‘editor’ and you need to know the exact weird, brain-dead name the developer gave it.
 I don’t even think I’ve ever seen a bashScript anywhere written with any kind of errorlevel checking. It’s just one line, followed by another. It assumes that everything on the system is exactly the same. It’s that same mentality of sloppy coding, sloppy programs that permeate this sloppy system. At least with some older CLI systems, it was common to write things like (IF exist… DO this… if NOT, skip and do something else). It’s no wonder Linux has never taken off. Even the most inane user recognizes garbage when they see it.
 When someone suggests making any change to the system that might benefit everyone in terms if functionality, the grey-haired Linux zombies come out. If there was any group of software users that can’t stand change (for the better), it’s Linux Desktop users.
 [Reply](https://www.tecmint.com/dangerous-linux-commands/#comment-764505)
@@ -442,7 +442,7 @@ The last one seemed to be x86-only…
 sania
 [ November 28, 2013 at 1:36 am  ](https://www.tecmint.com/dangerous-linux-commands/#comment-76539)
 Seriously? Are you making all this up?
-How can one even come up with somehting like no.5. Also, no.6 is just a particular case of mkfs.XYZ. And how no.9 is “safer” than dd if=/dev/zero of=/dev/sda ? BTW, I use no.7 all the time when I need to erase a file. Therefore the following sentence doesn’t make much sense to me:
+How can one even come up with something like no.5. Also, no.6 is just a particular case of mkfs.XYZ. And how no.9 is “safer” than dd if=/dev/zero of=/dev/sda ? BTW, I use no.7 all the time when I need to erase a file. Therefore the following sentence doesn’t make much sense to me:
 “Note: Don’t execute any of the above command in your Linux terminal or shell or of your friend or school computer.”
 Regards
 [Reply](https://www.tecmint.com/dangerous-linux-commands/#comment-76539)
@@ -515,7 +515,7 @@ Your support helps us keep creating quality Linux content for everyone.
 [6 Useful Tools to Monitor MongoDB Performance](https://www.tecmint.com/monitor-mongodb-performance/)
 [SARG – Squid Analysis Report Generator and Internet Bandwidth Monitoring Tool](https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/)
 [How to Monitor Linux Server and Process Metrics from Browser](https://www.tecmint.com/monitor-linux-server-in-realtime/)
-[Web VMStat: A Real Time System Statistics (Memory, CPU, Processess, etc) Monitoring Tool for Linux](https://www.tecmint.com/install-web-vmstat-in-linux/)
+[Web VMStat: A Real Time System Statistics (Memory, CPU, Processes, etc) Monitoring Tool for Linux](https://www.tecmint.com/install-web-vmstat-in-linux/)
 [Icinga: A Next Generation Open Source ‘Linux Server Monitoring’ Tool for RHEL/CentOS 7.0](https://www.tecmint.com/install-icinga-in-centos-7/)
 ## Learn Linux Tricks & Tips
 [Ways to Use ‘find’ Command to Search Directories More Efficiently](https://www.tecmint.com/find-directory-in-linux/)

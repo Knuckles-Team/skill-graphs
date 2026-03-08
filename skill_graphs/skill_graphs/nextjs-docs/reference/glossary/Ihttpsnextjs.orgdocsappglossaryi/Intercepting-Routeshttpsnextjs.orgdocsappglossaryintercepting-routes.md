@@ -1,0 +1,2 @@
+## Intercepting Routes[](https://nextjs.org/docs/app/glossary#intercepting-routes)
+A routing pattern that allows loading a route from another part of your application within the current layout. Useful for displaying content (like modals) without the user switching context, while keeping the URL shareable. Learn more in [Intercepting Routes](https://nextjs.org/docs/app/api-reference/file-conventions/intercepting-routes).

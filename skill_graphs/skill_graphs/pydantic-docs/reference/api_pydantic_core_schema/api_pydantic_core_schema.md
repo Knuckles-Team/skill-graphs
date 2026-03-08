@@ -1,5 +1,5 @@
 [ Skip to content ](https://docs.pydantic.dev/latest/api/pydantic_core_schema/#pydantic_core.core_schema)
-What's new — we've launched [Pydantic Logfire](https://pydantic.dev/articles/logfire-announcement) ![🔥](https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f525.svg) to help you monitor and understand your [FastAPI app.](https://logfire.pydantic.dev/docs/integrations/fastapi/)
+What's new — we've launched [Pydantic Logfire](https://pydantic.dev/articles/logfire-announcement) ![🔥](https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f525.svg) to help you monitor and understand your [](https://logfire.pydantic.dev/docs/integrations/fastapi/)
 [ ![logo](https://docs.pydantic.dev/latest/logo-white.svg) ](https://docs.pydantic.dev/latest/ "Pydantic Validation")
 Pydantic Validation
 2.12
@@ -253,8 +253,8 @@ Type to start searching
     * [ data  ](https://docs.pydantic.dev/latest/api/pydantic_core_schema/#pydantic_core.core_schema.ValidationInfo.data)
     * [ field_name  ](https://docs.pydantic.dev/latest/api/pydantic_core_schema/#pydantic_core.core_schema.ValidationInfo.field_name)
   * [ simple_ser_schema  ](https://docs.pydantic.dev/latest/api/pydantic_core_schema/#pydantic_core.core_schema.simple_ser_schema)
-  * [ plain_serializer_function_ser_schema  ](https://docs.pydantic.dev/latest/api/pydantic_core_schema/#pydantic_core.core_schema.plain_serializer_function_ser_schema "plain_serializer_function_ser_schema")
-  * [ wrap_serializer_function_ser_schema  ](https://docs.pydantic.dev/latest/api/pydantic_core_schema/#pydantic_core.core_schema.wrap_serializer_function_ser_schema "wrap_serializer_function_ser_schema")
+  * [ plain_serializer_function_ser_schema  ](https://docs.pydantic.dev/latest/api/pydantic_core_schema/#pydantic_core.core_schema.plain_serializer_function_ser_schema)
+  * [ wrap_serializer_function_ser_schema  ](https://docs.pydantic.dev/latest/api/pydantic_core_schema/#pydantic_core.core_schema.wrap_serializer_function_ser_schema)
   * [ format_ser_schema  ](https://docs.pydantic.dev/latest/api/pydantic_core_schema/#pydantic_core.core_schema.format_ser_schema)
   * [ to_string_ser_schema  ](https://docs.pydantic.dev/latest/api/pydantic_core_schema/#pydantic_core.core_schema.to_string_ser_schema)
   * [ model_ser_schema  ](https://docs.pydantic.dev/latest/api/pydantic_core_schema/#pydantic_core.core_schema.model_ser_schema)

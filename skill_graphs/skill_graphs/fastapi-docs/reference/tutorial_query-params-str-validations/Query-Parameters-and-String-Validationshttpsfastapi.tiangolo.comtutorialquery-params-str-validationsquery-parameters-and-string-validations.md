@@ -1048,9 +1048,5 @@ Validations specific for strings:
 Custom validations using `AfterValidator`.
 In these examples you saw how to declare validations for `str` values.
 See the next chapters to learn how to declare validations for other types, like numbers.
-[ Previous  Request Body  ](https://fastapi.tiangolo.com/tutorial/body/) [ Next  Path Parameters and Numeric Validations  ](https://fastapi.tiangolo.com/tutorial/path-params-numeric-validations/)
-The FastAPI trademark is owned by [@tiangolo](https://tiangolo.com) and is registered in the US and across other regions
-Made with
-[ ](https://tiangolo.com "tiangolo.com")
   *[ISBN]: International Standard Book Number
   *[IMDB]: Internet Movie Database: a website with information about movies

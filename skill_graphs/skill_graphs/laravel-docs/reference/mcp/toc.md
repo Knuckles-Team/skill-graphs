@@ -1,0 +1,15 @@
+# Table of Contents
+
+- [mcp](<./mcp.md>)
+- [Laravel MCP](<./Laravel-MCP.md>)
+  - [[Introduction](https://laravel.com/docs/12.x/mcp#introduction)](<./Laravel-MCP/Introductionhttpslaravel.comdocs12.xmcpintroduction.md>)
+  - [[Installation](https://laravel.com/docs/12.x/mcp#installation)](<./Laravel-MCP/Installationhttpslaravel.comdocs12.xmcpinstallation.md>)
+  - [[Creating Servers](https://laravel.com/docs/12.x/mcp#creating-servers)](<./Laravel-MCP/Creating-Servershttpslaravel.comdocs12.xmcpcreating-servers.md>)
+  - [[Tools](https://laravel.com/docs/12.x/mcp#tools)](<./Laravel-MCP/Toolshttpslaravel.comdocs12.xmcptools.md>)
+  - [[Prompts](https://laravel.com/docs/12.x/mcp#prompts)](<./Laravel-MCP/Promptshttpslaravel.comdocs12.xmcpprompts.md>)
+  - [[Resources](https://laravel.com/docs/12.x/mcp#resources)](<./Laravel-MCP/Resourceshttpslaravel.comdocs12.xmcpresources.md>)
+  - [[Creating Resources](https://laravel.com/docs/12.x/mcp#creating-resources)](<./Laravel-MCP/Creating-Resourceshttpslaravel.comdocs12.xmcpcreating-resources.md>)
+  - [[Metadata](https://laravel.com/docs/12.x/mcp#metadata)](<./Laravel-MCP/Metadatahttpslaravel.comdocs12.xmcpmetadata.md>)
+  - [[Authentication](https://laravel.com/docs/12.x/mcp#authentication)](<./Laravel-MCP/Authenticationhttpslaravel.comdocs12.xmcpauthentication.md>)
+  - [[Authorization](https://laravel.com/docs/12.x/mcp#authorization)](<./Laravel-MCP/Authorizationhttpslaravel.comdocs12.xmcpauthorization.md>)
+  - [[Testing Servers](https://laravel.com/docs/12.x/mcp#testing-servers)](<./Laravel-MCP/Testing-Servershttpslaravel.comdocs12.xmcptesting-servers.md>)

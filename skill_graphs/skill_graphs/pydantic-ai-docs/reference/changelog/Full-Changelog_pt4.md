@@ -292,7 +292,7 @@ This release only makes sure that `pydantic-ai-examples` have the right dependen
   * add a default to `ResultData`, some related cleanup by
   * Fix typo in type checking note by
   * docs: fix typo in `Agents` page by
-  * Adding commentary and tests re heterogenous behavior by
+  * Adding commentary and tests re heterogeneous behavior by
   * fix settings docs formatting by
   * Add warning about being ahead of release by
   * Reorganize examples by
@@ -329,7 +329,7 @@ All releases prior to V1 can contain breaking changes according to
   * Minor docs updates by
   * use sqlite for chat_app example by
   * Rename tool_id to tool_call_id by
-  * upate docs to include remote server example by
+  * update docs to include remote server example by
   * Add new llama-3.3-70b-versatile to GroqModelName by
   * Documentation: minor spelling and phrasing fixes by
   * Adding a minimal contributing guide by
@@ -422,7 +422,7 @@ All releases prior to V1 can contain breaking changes according to
 ### v0.0.7 2024-11-29
 #### What's Changed
   * fix numerous typos by
-  * Rename `retreiver` to `tool` by
+  * Rename `retriever` to `tool` by
   * fix broken links and add type checking function by
   * Install setup by
   * adding docs for testing and evals by

@@ -1,0 +1,6 @@
+# Promoting Deployments
+Last updated September 24, 2025
+By default, when you merge to or make commits to your production branch (often `main`), Vercel will automatically promote the changes to Production. However, there are a number of ways to manually change which deployment is served to people who visit your production domain:
+  * [Instant rollback](https://vercel.com/docs/deploy-hooks#instant-rollback): You can use this as a way to instantly revert to an earlier [deployment](https://vercel.com/docs/instant-rollback#eligible-deployments) that has served production traffic. It works by assigning your domains to an existing deployment, rather than doing a complete rebuild
+  * [Promote preview to production](https://vercel.com/docs/deploy-hooks#promote-a-deployment-from-preview-to-production): You can use this as a way to promote a preview deployment to production through a complete rebuild
+  * [Promote a staged production build](https://vercel.com/docs/deploy-hooks#staging-and-promoting-a-production-deployment): You can use this option to promote a production deployment which has never served production traffic. To use this option, you must turn off the auto-assignment of domains. This option won't trigger a rebuild

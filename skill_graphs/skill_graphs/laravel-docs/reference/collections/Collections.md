@@ -1,0 +1,11 @@
+# Collections
+  * [Introduction](https://laravel.com/docs/12.x/collections#introduction)
+    * [Creating Collections](https://laravel.com/docs/12.x/collections#creating-collections)
+    * [Extending Collections](https://laravel.com/docs/12.x/collections#extending-collections)
+  * [Available Methods](https://laravel.com/docs/12.x/collections#available-methods)
+  * [Higher Order Messages](https://laravel.com/docs/12.x/collections#higher-order-messages)
+  * [Lazy Collections](https://laravel.com/docs/12.x/collections#lazy-collections)
+    * [Introduction](https://laravel.com/docs/12.x/collections#lazy-collection-introduction)
+    * [Creating Lazy Collections](https://laravel.com/docs/12.x/collections#creating-lazy-collections)
+    * [The Enumerable Contract](https://laravel.com/docs/12.x/collections#the-enumerable-contract)
+    * [Lazy Collection Methods](https://laravel.com/docs/12.x/collections#lazy-collection-methods)

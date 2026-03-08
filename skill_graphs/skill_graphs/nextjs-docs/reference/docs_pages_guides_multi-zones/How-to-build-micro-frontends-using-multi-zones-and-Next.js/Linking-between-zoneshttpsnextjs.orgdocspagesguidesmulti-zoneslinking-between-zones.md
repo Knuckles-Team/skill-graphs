@@ -1,0 +1,2 @@
+## Linking between zones[](https://nextjs.org/docs/pages/guides/multi-zones#linking-between-zones)
+Links to paths in a different zone should use an `a` tag instead of the Next.js [`<Link>`](https://nextjs.org/docs/pages/api-reference/components/link) component. This is because Next.js will try to prefetch and soft navigate to any relative path in `<Link>` component, which will not work across zones.

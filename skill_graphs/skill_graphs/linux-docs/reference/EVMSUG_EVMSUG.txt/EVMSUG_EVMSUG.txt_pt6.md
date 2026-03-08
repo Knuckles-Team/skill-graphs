@@ -1,0 +1,743 @@
+    are interested in.
+
+ 7. Click Make.
+
+ 8. The operation is completed when you save.
+
+
+Alternatively, you can perform some of the steps to create a file system with
+the GUI context sensitive menu:
+
+ 1. From the Volumes tab, right click /dev/evms/my_vol.
+
+ 2. Click Make Filesystem...
+
+ 3. Continue creating the file system beginning with step 2 of the GUI
+    instructions. You can skip steps 4 and 5 of the GUI instructions.
+
+
+-----------------------------------------------------------------------------
+13.2.2. Using Ncurses
+
+Follow these steps to create a JFS file system with Ncurses:
+
+ 1. Select Actions->File Systems->Make.
+
+ 2. Select JFS File System Interface Module.
+
+ 3. Activate Next.
+
+ 4. Select /dev/evms/my_vol.
+
+ 5. Activate Next.
+
+ 6. Scroll down using the down arrow until Volume Label is highlighted.
+
+ 7. Press Spacebar.
+
+ 8. At the "::" prompt enter jfs_vol.
+
+ 9. Press Enter.
+
+10. Activate Make.
+
+
+Alternatively, you can perform some of the steps to create a file system with
+the context sensitive menu:
+
+ 1. From the Volumes view, press Enter on /dev/evms/my_vol.
+
+ 2. Activate the Make Filesystem menu item.
+
+ 3. Continue creating the file system beginning with step 2 of the Ncurses
+    instructions.
+
+
+-----------------------------------------------------------------------------
+13.2.3. Using the CLI
+
+Use the mkfs command to create the new file system. The arguments to mkfs
+include the FSIM type (in our example, JFS), followed by any option pairs,
+and then the volume name. The command to accomplish this is:
+mkfs: JFS={vollabel=jfs_vol}, /dev/evms/my_vol
+
+The command is completed upon saving.
+
+If you are interested in other options that mkfs can use, look at the results
+of the following query:
+query: plugins, plugin=JFS, list options
+-----------------------------------------------------------------------------
+
+13.3. Example: check a file system
+
+You can also coordinate file system checks from the EVMS user interfaces.
+
+
+
+    Example 13-2. Check a JFS File System
+
+    This example shows how to perform a file system check on a JFS file
+    system, named jfs_vol, on volume /dev/evms/my_vol, with verbose output.
+
+-----------------------------------------------------------------------------
+13.3.1. Using the EVMS GUI
+
+Follow these steps to check a JFS file system with the EVMS GUI:
+
+ 1. Select Actions->File Systems->Check/Repair.
+
+ 2. Select /dev/evms/my_vol.
+
+ 3. Click Next.
+
+ 4. Click the Yes button by Verbose Output. Customize any other options you
+    are interested in.
+
+ 5. Click Check.
+
+ 6. The operation is completed when you save.
+
+
+Alternatively, you can perform some of the steps to check a file system with
+the GUI context sensitive menu:
+
+ 1. From the Volumes tab, right click /dev/evms/my_vol.
+
+ 2. Click Check/Repair File System...
+
+ 3. Continue checking the file system beginning with step 3 of the GUI
+    instructions.
+
+
+-----------------------------------------------------------------------------
+13.3.2. Using Ncurses
+
+Follow these steps to check a JFS file system with Ncurses:
+
+ 1. Select Actions->File System->Check/Repair
+
+ 2. Select /dev/evms/my_vol.
+
+ 3. Activate Next.
+
+ 4. Scroll down using the down arrow until Verbose Output is highlighted.
+
+ 5. Press Spacebar to change Verbose Output to Yes.
+
+ 6. Activate Check.
+
+
+Alternatively, you can perform some of the steps to check a file system with
+the context sensitive menu:
+
+ 1. From the Volumes view, press Enter on /dev/evms/my_vol.
+
+ 2. Activate the Check/Repair File System menu item.
+
+ 3. Continue checking the file system beginning with step 3 of the Ncurses
+    instructions.
+
+
+-----------------------------------------------------------------------------
+13.3.3. Using the CLI
+
+The CLI check command takes a volume name and options as input. The command
+to check the file system on /dev/evms/my_vol is the following:
+check: /dev/evms/my_vol, verbose=TRUE
+
+Currently, a query command for viewing additional options is not available.
+-----------------------------------------------------------------------------
+
+Chapter 14. Clustering operations
+
+This chapter discusses how to configure cluster storage containers (referred
+to throughout this chapter as "cluster containers"), a feature provided by
+the EVMS Cluster Segment Manager (CSM).
+
+Disks that are physically accessible from all of the nodes of the cluster can
+be grouped together as a single manageable entity. EVMS storage objects can
+then be created using storage from these containers.
+
+Ownership is assigned to a container to make the container either private or
+shared. A container that is owned by any one node of the cluster is called a
+private container. EVMS storage objects and storage volumes created using
+space from a private container are accessible from only the owning node.
+
+A container that is owned by all the nodes in a cluster is called a shared
+container. EVMS storage objects and storage volumes created using space from
+a shared container are accessible from all nodes of the cluster
+simultaneously.
+
+EVMS provides the tools to convert a private container to a shared container,
+and a shared container to a private container. EVMS also provides the
+flexibility to change the ownership of a private container from one cluster
+node to another cluster node.
+-----------------------------------------------------------------------------
+
+14.1. Rules and restrictions for creating cluster containers
+
+Note the following rules and limitations for creating cluster containers:
+
+��*�Do not assign non-shared disks to a cluster container.
+
+��*�Storage objects and volumes created on a cluster container must not span
+    across multiple cluster containers. The EVMS Engine enforces this rule by
+    disallowing such configurations.
+
+��*�Do not assign RAID-1, RAID-5, BBR, or snapshotting to storage objects on
+    a shared cluster container. These plug-ins can be used on private cluster
+    containers.
+
+
+-----------------------------------------------------------------------------
+14.2. Example: create a private cluster container
+
+This section tells how to create a sample private container and provides
+instructions for completing the following task:
+
+
+
+    Example 14-1. Create a private cluster container
+
+    Given a system with three available shared disks (sdd, sde, and sdf), use
+    the EVMS Cluster Segment Manager to combine these disk drives into a
+    container called Priv1 owned by node1.
+
+-----------------------------------------------------------------------------
+14.2.1. Using the EVMS GUI
+
+To create a container with the EVMS GUI, follow these steps:
+
+ 1. Select Actions->Create->Container to see a list of plug-ins that support
+    container creation.
+
+ 2. Select the Cluster Segment Manager.
+
+ 3. Click Next.
+
+    The next dialog window contains a list of storage objects that the CSM
+    can use to create a container.
+
+ 4. Select sdd, sde, and sdf from the list.
+
+ 5. Click Next.
+
+ 6. In the first pull-down menu, select the "Node Id" of the cluster node
+    that owns this container (node1). Select "Storage Type" as private from
+    the second pull-down menu.
+
+ 7. Enter the name Priv1 for the Container Name.
+
+ 8. Click Create.
+
+    A window opens that displays the outcome.
+
+ 9. Commit the changes.
+
+
+-----------------------------------------------------------------------------
+14.2.2. Using Ncurses
+
+To create the private container with the Ncurses interface, follow these
+steps:
+
+ 1. Select Actions->Create->Container to see a list of plug-ins that support
+    container creation.
+
+ 2. Scroll down with the down arrow and select Cluster Segment Manager by
+    pressing spacebar. The plug-in you selected is marked with an "x."
+
+ 3. Press Enter.
+
+    The next submenu contains a list of disks that the Cluster Segment
+    Manager finds acceptable to use for the creation of a container.
+
+ 4. Use spacebar to select sdd, sde, and sdf from the list. The disks you
+    select are marked with an "x."
+
+ 5. Press Enter.
+
+ 6. On the Create Storage Container - Configuration Options menu, press
+    spacebar on the Node Id, which will provide a list of nodes from which to
+    select.
+
+ 7. Press spacebar on the node node1 and then press Enter.
+
+ 8. Scroll down with the down arrow and press spacebar on the Storage Type. A
+    list of storage types opens.
+
+ 9. Scroll down with the down arrow to private entry and press spacebar.
+
+10. Press Enter.
+
+11. Scroll down with the down arrow to Container Name and press spacebar.
+
+    The Change Option Value menu opens and asks for the Container Name. Type
+    in the name of the container as Priv1, and press Enter.
+
+12. Press Enter to complete the operation.
+
+
+-----------------------------------------------------------------------------
+14.2.3. Using the CLI
+
+An operation to create a private cluster container with the CLI takes three
+parameters: the name of the container, the type of the container, and the
+nodeid to which the container belongs.
+
+On the CLI, type the following command to create the private container Priv1:
+create: container,CSM={name="Priv1",type="private",nodeid="node1"},sdd,sde,sdf
+-----------------------------------------------------------------------------
+
+14.3. Example: create a shared cluster container
+
+This section tells how to create a sample shared container and provides
+instructions to help you complete the following task:
+
+
+
+    Example 14-2. Create a shared cluster container
+
+    Given a system with three available shared disks (sdd, sde, and sdf), use
+    the EVMS Cluster Segment Manager to combine these disk drives into a
+    shared container called Shar1.
+
+-----------------------------------------------------------------------------
+14.3.1. Using the EVMS GUI
+
+To create a shared cluster container with the EVMS GUI, follow these steps:
+
+ 1. Select Actions->Create->Container to see a list of plug-ins that support
+    container creation.
+
+ 2. Select the Cluster Segment Manager.
+
+ 3. Click Next.
+
+    The next dialog window contains a list of storage objects that the CSM
+    can use to create a container.
+
+ 4. Select sdd, sde, and sdf from the list.
+
+ 5. Click Next.
+
+ 6. You do not need to change the "Node Id" field. Select Storage Type as
+    shared from the second pull-down menu.
+
+ 7. Enter the name Shar1 for the Container Name.
+
+ 8. Click Create. A window opens to display the outcome.
+
+ 9. Commit the changes.
+
+
+-----------------------------------------------------------------------------
+14.3.2. Using Ncurses
+
+To create a shared cluster contained with the Ncurses interface, follow these
+steps:
+
+ 1. Select Actions->Create->Container to see a list of plug-ins that support
+    container creation.
+
+ 2. Scroll down with the down arrow and select Cluster Segment Manager by
+    pressing spacebar. The plug-in you selected is marked with an "x."
+
+ 3. Press Enter.
+
+    The next submenu contains a list of disks that the Cluster Segment
+    Manager finds acceptable to use for the creation of a container.
+
+ 4. Use spacebar to select sdd, sde, and sdf from the list. The disks you
+    select are marked with an "x."
+
+ 5. Press Enter.
+
+ 6. The Create Storage Container - Configuration Options menu open; ignore
+    the "Node Id" menu.
+
+ 7. Scroll down with the down arrow and press spacebar on the Storage Type. A
+    list of storage types opens.
+
+ 8. Scroll down with the down arrow to shared entry and press spacebar.
+
+ 9. Press Enter.
+
+10. Scroll down with the down arrow to Container Name and press spacebar.
+
+    The Change Option Value menu opens and asks for the Container Name. Type
+    in the name of the container as Shar1, and press Enter.
+
+11. Press Enter to complete the operation.
+
+12. Quit Ncurses and run evms_activate on each of the cluster nodes. This
+    process will be automated in future releases of EVMS.
+
+
+-----------------------------------------------------------------------------
+14.3.3. Using the CLI
+
+An operation to create a shared cluster container with the CLI takes two
+parameters: the name of the container and the type of the container.
+
+On the CLI, type the following command to create shared container Shar1:
+create: container,CSM={name="Shar1",type="shared"},sdd,sde,sdf
+-----------------------------------------------------------------------------
+
+14.4. Example: convert a private container to a shared container
+
+This section tells how to convert a sample private container to a shared
+container and provides instructions for completing the following task:
+
+
+
+    Example 14-3. Convert a private container to shared
+
+    Given a system with a private storage container Priv1 owned by evms1,
+    convert Priv1 to a shared storage container with the same name.
+
+Note CAUTION
+�    Ensure that no application is using the volumes on the container on any
+     node of the cluster.
+-----------------------------------------------------------------------------
+
+14.4.1. Using the EVMS GUI
+
+Follow these steps to convert a private cluster container to a shared cluster
+container with the EVMS GUI:
+
+ 1. Select Actions->Modify->Container to see a list of containers.
+
+ 2. Select the container Priv1 and press Next.
+
+    A Modify Properties dialog box opens.
+
+ 3. Change "Type" to "shared" and click Modify.
+
+    A window opens that displays the outcome.
+
+ 4. Commit the changes.
+
+
+-----------------------------------------------------------------------------
+14.4.2. Using Ncurses
+
+Follow these steps to convert a private cluster container to a shared cluster
+container with the Ncurses interface:
+
+ 1. Select Actions->Modify->Container to see a list of containers.
+
+ 2. The Modify Container Properties dialog opens. Select the container Priv1
+    by pressing spacebar. The container you selected is marked with an "x."
+
+    Press Enter.
+
+ 3. Use spacebar to select sdd, sde, and sdf from the list. The disks you
+    select are marked with an "x."
+
+ 4. Press Enter.
+
+ 5. The Modify Container Properties - Configuration Options" dialog opens.
+    Scroll down with the down arrow and press spacebar on "Type".
+
+ 6. Press spacebar.
+
+ 7. The Change Option Value dialog opens. Type shared and press Enter.
+
+    The changed value now displays in the Modify Container Properties -
+    Configuration Options dialog.
+
+ 8. Press Enter.
+
+    The outcome of the command is displayed at the bottom of the screen.
+
+ 9. Save the changes by clicking Save in the Actions pulldown menu.
+
+
+-----------------------------------------------------------------------------
+14.4.3. Using the CLI
+
+The modify command modifies the properties of a container. The first argument
+of the command is the object to modify, followed by its new properties. The
+command to convert the private container to a shared container in the example
+is:
+modify: Priv1,type=shared
+-----------------------------------------------------------------------------
+
+14.5. Example: convert a shared container to a private container
+
+This section tells how to convert a sample shared container to a private
+container and provides instructions for completing the following task:
+
+
+
+    Example 14-4. Convert a shared container to private
+
+    Given a system with a shared storage container Shar1, convert Shar1 to a
+    private storage container owned by node node1 (where node1 is the nodeid
+    of one of the cluster nodes).
+
+Note CAUTION
+�    Ensure that no application is using the volumes on the container of any
+     node in the cluster.
+-----------------------------------------------------------------------------
+
+14.5.1. Using the EVMS GUI
+
+Follow these steps to convert a shared cluster container to a private cluster
+container with the EVMS GUI:
+
+ 1. Select Actions->Modify->Container to see a list of containers.
+
+ 2. Select the container Shar1 and press Next.
+
+    A Modify Properties dialog opens.
+
+ 3. Change "Type" to "private" and the "Node" field to node1. Click Modify.
+
+    A window opens that displays the outcome.
+
+ 4. Commit the changes.
+
+
+-----------------------------------------------------------------------------
+14.5.2. Using Ncurses
+
+Follow these steps to convert a shared cluster container to a private cluster
+container with the Ncurses interface:
+
+ 1. Select Actions->Modify->Container
+
+ 2. The Modify Container Properties dialog opens. Select the container Shar1
+    by pressing spacebar. The container you selected is marked with an "x."
+
+    Press Enter.
+
+ 3. The Modify Container Properties - Configuration Options" dialog opens.
+    Scroll down with the down arrow and press spacebar on the "Type" field.
+
+ 4. Press spacebar.
+
+ 5. The Change Option Value dialog opens. Select private and press Enter.
+
+ 6. The Modify Container Properties - Configuration Options dialog opens.
+    Scroll down the list to NodeId with the down arrow and press spacebar.
+
+ 7. The Change Option Value dialog opens. Select node1 and press Enter.
+
+ 8. The changed values now display in the Modify Container Properties -
+    Configuration Options dialog. Press Enter.
+
+    The outcome of the command is displayed at the bottom of the screen.
+
+ 9. Save the changes by clicking Save in the Actions pulldown.
+
+
+-----------------------------------------------------------------------------
+14.5.3. Using the CLI
+
+The modify command modifies the properties of a container. The first argument
+of the command is the object to modify, followed by its new properties. The
+command to convert the shared container to a private container in the example
+is:
+modify: Shar1,type=private,node=node1
+-----------------------------------------------------------------------------
+
+14.6. Example: deport a private or shared container
+
+ When a container is deported, the node disowns the container and deletes all
+the objects created in memory that belong to that container. No node in the
+cluster can discover objects residing on a deported container or create
+objects for a deported container. This section explains how to deport a
+private or shared container.
+
+
+
+    Example 14-5. Deport a cluster container
+
+    Given a system with a private or shared storage container named c1,
+    deport c1.
+
+-----------------------------------------------------------------------------
+14.6.1. Using the EVMS GUI
+
+ To deport a container with the EVMS GUI, follow these steps:
+
+ 1. Select Actions->Modify->Container.
+
+ 2. Select the container c1 and press Next.
+
+     A Modify Properties dialog opens.
+
+ 3. Change "Type" to "deported." Click Modify.
+
+     A window opens that displays the outcome.
+
+ 4. Commit the changes.
+
+
+-----------------------------------------------------------------------------
+14.6.2. Using Ncurses
+
+ To deport a container with Ncurses, follow these steps:
+
+ 1. Scroll down the list with the down arrow to Modify. Press Enter.
+
+     A submenu is displayed.
+
+ 2. Scroll down until Container is highlighted. Press Enter.
+
+     The Modify Container Properties dialog opens.
+
+ 3. Select the container csm/c1 by pressing spacebar. The container you
+    selected is marked with an "x."
+
+ 4.  Press Enter.
+
+     The Modify Container Properties - Configuration Options dialog opens.
+
+ 5. Scroll down and press spacebar on the "Type" field.
+
+ 6.  Press spacebar.
+
+     The Change Option Value dialog opens.
+
+ 7. Type deported and press Enter.
+
+     The changed value is displayed in the Modify Container Properties -
+    Configuration Options dialog.
+
+ 8. Press Enter.
+
+     The outcome of the command is displayed at the bottom of the screen.
+
+ 9. Commit the changes by clicking Save in the Actions pulldown.
+
+
+-----------------------------------------------------------------------------
+14.6.3. Using the CLI
+
+ To deport a container from the CLI, execute the following command at the CLI
+prompt:
+modify: c1,type=deported
+-----------------------------------------------------------------------------
+
+14.7. Deleting a cluster container
+
+ The procedure for deleting a cluster container is the same for deleting any
+container. See Section 21.2
+-----------------------------------------------------------------------------
+
+14.8. Failover and Failback of a private container on Linux-HA
+
+EVMS supports the Linux-HA cluster manager in EVMS V2.0 and later. Support
+for the RSCT cluster manager is also available as of EVMS V2.1, but is not as
+widely tested.
+
+Note NOTE
+�    Ensure that evms_activate is called in one of the startup scripts before
+     the heartbeat startup script is called. If evms_activate is not called,
+     failover might not work correctly.
+
+Follow these steps to set up failover and failback of a private container:
+
+ 1. Add an entry in /etc/ha.d/haresources for each private container to be
+    failed over. For example, if container1 and container2 are to be failed
+    over together to the same node with node1 as the owning node, add the
+    following entry to /etc/ha.d/haresources:
+    node1 evms_failover::container1 evms_failover::container2
+
+    node1 is the cluster node that owns this resource. The resource is failed
+    over to the other node when node1 dies.
+
+    Similarly, if container3 and container4 are to be failed over together to
+    the same node with node2 as the owning node, then add the following entry
+    to /etc/ha.d/haresources:
+    node2 evms_failover::container3 evms_failover::container4
+
+    Refer to [http://www.linux-ha.org/download/GettingStarted.html] http://
+    www.linux-ha.org/download/GettingStarted.html for more details on the
+    semantics of resource groups.
+
+ 2. Validate that the /etc/ha.d, /etc/ha.cf and /etc/ha.d/haresources files
+    are the same on all the nodes of the cluster.
+
+ 3. The heartbeat cluster manager must be restarted, as follows, after the /
+    etc/ha.d/haresources file has been changed:
+    /etc/init.d/heartbeat restart
+
+    Note NOTE
+    �    Do not add shared containers to the list of failover resources;
+         doing so causes EVMS to respond unpredictably.
+
+
+-----------------------------------------------------------------------------
+14.9. Remote configuration management
+
+EVMS supports the administration of cluster nodes by any node in the cluster.
+For example, storage on remote cluster node node1 can be administered from
+cluster node node2. The following sections show how to set up remote
+administration through the various EVMS user interfaces.
+-----------------------------------------------------------------------------
+
+14.9.1. Using the EVMS GUI
+
+To designate node2 as the node to administer from the GUI, follow these
+steps:
+
+ 1. Select Settings->Node Administered...
+
+ 2. Select node2.
+
+ 3. Click Administer to switch to the new node.
+
+
+ The GUI gathers information about the objects, containers, and volumes on
+the other node. The status bar displays the message "Now administering node
+node2," which indicates that the GUI is switched over to node node2.
+-----------------------------------------------------------------------------
+
+14.9.2. Using Ncurses
+
+To designate node2 as the node to administer from Ncurses, follow these
+steps:
+
+ 1. Go to the Settings pulldown menu.
+
+ 2. Scroll down with the down arrow to the "Node Administered" option and
+    press Enter.
+
+ 3. The Administer Remote Node dialog opens. Select node2 and press spacebar.
+
+    The node you selected is marked with an "x."
+
+ 4. Press Enter.
+
+ 5. After a while, you will be switched over to the node node2.
+
+
+-----------------------------------------------------------------------------
+14.9.3. Using the CLI
+
+To designate node2 as a node administrator from the CLI, issue this command:
+evms -n node2
+-----------------------------------------------------------------------------
+
+14.10. Forcing a cluster container to be active
+
+ A private container and its objects are made active on a node if:
+
+��*� the private container is owned by the node
+
+��*� the container is not deported
+
+��*� the node is in a cluster membership that currently has quorum
+
+
+ Similarly, a shared container and its objects are made active on a node if
+the node is in a cluster that currently has quorum. However, the
+administrator can force the activation of private and shared containers by
+overriding these rules.
+
+Note NOTE
+�    Use extreme caution when performing this operation by ensuring that the

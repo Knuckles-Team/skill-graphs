@@ -1,0 +1,2 @@
+## Security Model[](https://nextjs.org/docs/pages/api-reference/config/next-config-js/urlImports#security-model)
+This feature is being designed with **security as the top priority**. To start, we added an experimental flag forcing you to explicitly allow the domains you accept URL imports from. We're working to take this further by limiting URL imports to execute in the browser sandbox using the [Edge Runtime](https://nextjs.org/docs/app/api-reference/edge).

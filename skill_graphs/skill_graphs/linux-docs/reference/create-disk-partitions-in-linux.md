@@ -293,7 +293,7 @@ Why you compiling? when you can easily install using package manager as shown.
   5. ![](https://secure.gravatar.com/avatar/8005e28907525205ee5e54a2cf198da1e5fbc7c99fc46456f7aaea6ab4c39418?s=50&d=blank&r=g)
 Tech in San Diego
 [ October 18, 2018 at 3:36 am  ](https://www.tecmint.com/psensor-monitors-hardware-temperature-in-linux/#comment-1049660)
-I love psensor and use it on all of my computers, especially my 5 laptops. I would like to use the shutdown feature script but I havent been able to get it to work. If anyone has a script/template that I can use on my Linux machines, I’d be very grateful.
+I love psensor and use it on all of my computers, especially my 5 laptops. I would like to use the shutdown feature script but I haven't been able to get it to work. If anyone has a script/template that I can use on my Linux machines, I’d be very grateful.
 I also need to know where the sensor log files are located and if I can move them to another location so that other Administrators can have access to them?
 [Reply](https://www.tecmint.com/psensor-monitors-hardware-temperature-in-linux/#comment-1049660)
   6. ![](https://secure.gravatar.com/avatar/30f1d489a4f1eaf9e41461cb5f1ab1a97c68fc4104279a23abb24aa017fc2dde?s=50&d=blank&r=g)

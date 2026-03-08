@@ -1,0 +1,6 @@
+##  [Runtime logs](https://vercel.com/docs/logs#runtime-logs)[](https://vercel.com/docs/logs#runtime-logs)
+Runtime Logs are available on [all plans](https://vercel.com/docs/plans)
+Runtime logs allow you to search, inspect, and share your team's runtime logs at a project level. You can search runtime logs from the deployments section inside the Vercel dashboard. Your log data is retained for 3 days. For longer log storage, you can use [Log Drains](https://vercel.com/docs/drains).
+![](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Ffront%2Fdocs%2Fobservability%2Flog-thumbnail-light.png%3Flightbox&w=1920&q=75)![](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Ffront%2Fdocs%2Fobservability%2Flog-thumbnail-dark.png%3Flightbox&w=1920&q=75)Zoom Image
+![](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Ffront%2Fdocs%2Fobservability%2Flog-thumbnail-light.png%3Flightbox&w=1920&q=75)![](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Ffront%2Fdocs%2Fobservability%2Flog-thumbnail-dark.png%3Flightbox&w=1920&q=75)
+Learn more about [Runtime Logs](https://vercel.com/docs/logs/runtime).

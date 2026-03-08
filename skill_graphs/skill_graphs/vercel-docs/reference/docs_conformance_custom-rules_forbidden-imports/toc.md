@@ -1,0 +1,18 @@
+# Table of Contents
+
+- [docs_conformance_custom-rules_forbidden-imports](<./docs_conformance_custom-rules_forbidden-imports.md>)
+- [forbidden-imports](<./forbidden-imports.md>)
+  - [[When to use this rule type](https://vercel.com/docs/conformance/custom-rules/forbidden-imports#when-to-use-this-rule-type)[](https://vercel.com/docs/conformance/custom-rules/forbidden-imports#when-to-use-this-rule-type)](<./forbidden-imports/When-to-use-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-importswhen-to-use-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-importswhen-to-use-this-rule-type.md>)
+  - [[Configuring this rule type](https://vercel.com/docs/conformance/custom-rules/forbidden-imports#configuring-this-rule-type)[](https://vercel.com/docs/conformance/custom-rules/forbidden-imports#configuring-this-rule-type)](<./forbidden-imports/Configuring-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-importsconfiguring-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-importsconfiguring-this-rule-type.md>)
+  - [[Enabling this rule type](https://vercel.com/docs/conformance/custom-rules/forbidden-imports#enabling-this-rule-type)[](https://vercel.com/docs/conformance/custom-rules/forbidden-imports#enabling-this-rule-type)](<./forbidden-imports/Enabling-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-importsenabling-this-rule-typehttpsvercel.comdocsconformancecustom-rulesforbidden-importsenabling-this-rule-type.md>)
+  - [Get Started](<./forbidden-imports/Get-Started.md>)
+  - [Build](<./forbidden-imports/Build.md>)
+  - [Scale](<./forbidden-imports/Scale.md>)
+  - [Secure](<./forbidden-imports/Secure.md>)
+  - [Resources](<./forbidden-imports/Resources.md>)
+  - [Learn](<./forbidden-imports/Learn.md>)
+  - [Frameworks](<./forbidden-imports/Frameworks.md>)
+  - [SDKs](<./forbidden-imports/SDKs.md>)
+  - [Use Cases](<./forbidden-imports/Use-Cases.md>)
+  - [Company](<./forbidden-imports/Company.md>)
+  - [Community](<./forbidden-imports/Community.md>)

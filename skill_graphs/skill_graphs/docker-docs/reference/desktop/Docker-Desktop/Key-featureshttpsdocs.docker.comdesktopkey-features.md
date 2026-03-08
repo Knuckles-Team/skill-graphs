@@ -1,0 +1,8 @@
+## [Key features](https://docs.docker.com/desktop#key-features)
+  * Ability to containerize and share any application on any cloud platform, in multiple languages and frameworks.
+  * Quick installation and setup of a complete Docker development environment.
+  * Includes the latest version of Kubernetes.
+  * On Windows, the ability to toggle between Linux and Windows containers to build applications.
+  * Fast and reliable performance with native Windows Hyper-V virtualization.
+  * Ability to work natively on Linux through WSL 2 on Windows machines.
+  * Volume mounting for code and data, including file change notifications and easy access to running containers on the localhost network.

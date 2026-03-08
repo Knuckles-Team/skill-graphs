@@ -153,43 +153,29 @@ Have a look at the result:
 App.js
 App.js
 ReloadClear Fork
-99
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
+```
 function MyButton() {
-return (
-<button>
-I'm a button
-</button>
-);
+  return (
+    <button>
+      I'm a button
+    </button>
+  );
 }
-
 
 export default function MyApp() {
-return (
-<div>
-<h1>Welcome to my app</h1>
-<MyButton />
-</div>
-);
+  return (
+    <div>
+      <h1>Welcome to my app</h1>
+      <MyButton />
+    </div>
+  );
 }
 
 
+```
+
+# Welcome to my app
+I'm a button
 The `export default` keywords specify the main component in the file. If you’re not familiar with some piece of JavaScript syntax,
 ## Writing markup with JSX [](https://react.dev/learn#writing-markup-with-jsx "Link for Writing markup with JSX ")
 The markup syntax you’ve seen above is called _JSX_. It is optional, but most React projects use JSX for its convenience. All of the [tools we recommend for local development](https://react.dev/learn/installation) support JSX out of the box.
@@ -341,54 +327,32 @@ You can put more complex expressions inside the JSX curly braces too, for exampl
 App.js
 App.js
 ReloadClear Fork
-99
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
+```
 const user = {
-name: 'Hedy Lamarr',
-imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
-imageSize: 90,
+  name: 'Hedy Lamarr',
+  imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
+  imageSize: 90,
 };
 
-
 export default function Profile() {
-return (
-<>
-<h1>{user.name}</h1>
-<img
-className="avatar"
-src={user.imageUrl}
-alt={'Photo of ' + user.name}
-style={{
-width: user.imageSize,
-height: user.imageSize
-}}
-/>
-</>
-);
+  return (
+    <>
+      <h1>{user.name}</h1>
+      <img
+        className="avatar"
+        src={user.imageUrl}
+        alt={'Photo of ' + user.name}
+        style={{
+          width: user.imageSize,
+          height: user.imageSize
+        }}
+      />
+    </>
+  );
 }
 
+
+```
 
 In the above example, `style={{}}` is not a special syntax, but a regular `{}` object inside the `style={ }` JSX curly braces. You can use the `style` attribute when your styles depend on JavaScript variables.
 ## Conditional rendering [](https://react.dev/learn#conditional-rendering "Link for Conditional rendering ")
@@ -604,55 +568,32 @@ Notice how `<li>` has a `key` attribute. For each item in a list, you should pas
 App.js
 App.js
 ReloadClear Fork
-99
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
+```
 const products = [
-{ title: 'Cabbage', isFruit: false, id: 1 },
-{ title: 'Garlic', isFruit: false, id: 2 },
-{ title: 'Apple', isFruit: true, id: 3 },
+  { title: 'Cabbage', isFruit: false, id: 1 },
+  { title: 'Garlic', isFruit: false, id: 2 },
+  { title: 'Apple', isFruit: true, id: 3 },
 ];
 
-
 export default function ShoppingList() {
-const listItems = products.map(product =>
-<li
-key={product.id}
-style={{
-color: product.isFruit ? 'magenta' : 'darkgreen'
-}}
->
-{product.title}
-</li>
-);
+  const listItems = products.map(product =>
+    <li
+      key={product.id}
+      style={{
+        color: product.isFruit ? 'magenta' : 'darkgreen'
+      }}
+    >
+      {product.title}
+    </li>
+  );
 
-
-return (
-<ul>{listItems}</ul>
-);
+  return (
+    <ul>{listItems}</ul>
+  );
 }
 
+
+```
 
 ## Responding to events [](https://react.dev/learn#responding-to-events "Link for Responding to events ")
 You can respond to events by declaring _event handler_ functions inside your components:

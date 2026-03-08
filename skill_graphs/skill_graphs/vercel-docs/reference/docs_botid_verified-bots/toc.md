@@ -1,0 +1,15 @@
+# Table of Contents
+
+- [docs_botid_verified-bots](<./docs_botid_verified-bots.md>)
+- [Handling Verified Bots](<./Handling-Verified-Bots.md>)
+  - [Get Started](<./Handling-Verified-Bots/Get-Started.md>)
+  - [Build](<./Handling-Verified-Bots/Build.md>)
+  - [Scale](<./Handling-Verified-Bots/Scale.md>)
+  - [Secure](<./Handling-Verified-Bots/Secure.md>)
+  - [Resources](<./Handling-Verified-Bots/Resources.md>)
+  - [Learn](<./Handling-Verified-Bots/Learn.md>)
+  - [Frameworks](<./Handling-Verified-Bots/Frameworks.md>)
+  - [SDKs](<./Handling-Verified-Bots/SDKs.md>)
+  - [Use Cases](<./Handling-Verified-Bots/Use-Cases.md>)
+  - [Company](<./Handling-Verified-Bots/Company.md>)
+  - [Community](<./Handling-Verified-Bots/Community.md>)

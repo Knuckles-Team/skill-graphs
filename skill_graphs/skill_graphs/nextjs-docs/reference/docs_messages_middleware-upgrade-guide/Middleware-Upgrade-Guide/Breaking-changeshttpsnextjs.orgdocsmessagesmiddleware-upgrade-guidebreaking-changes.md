@@ -1,0 +1,7 @@
+## Breaking changes[](https://nextjs.org/docs/messages/middleware-upgrade-guide#breaking-changes)
+  1. [No Nested Middleware](https://nextjs.org/docs/messages/middleware-upgrade-guide#no-nested-middleware)
+  2. [No Response Body](https://nextjs.org/docs/messages/middleware-upgrade-guide#no-response-body)
+  3. [Cookies API Revamped](https://nextjs.org/docs/messages/middleware-upgrade-guide#cookies-api-revamped)
+  4. [New User-Agent Helper](https://nextjs.org/docs/messages/middleware-upgrade-guide#new-user-agent-helper)
+  5. [No More Page Match Data](https://nextjs.org/docs/messages/middleware-upgrade-guide#no-more-page-match-data)
+  6. [Executing Middleware on Internal Next.js Requests](https://nextjs.org/docs/messages/middleware-upgrade-guide#executing-middleware-on-internal-nextjs-requests)

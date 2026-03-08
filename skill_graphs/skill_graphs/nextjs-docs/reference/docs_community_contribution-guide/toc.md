@@ -1,0 +1,16 @@
+# Table of Contents
+
+- [docs_community_contribution-guide](<./docs_community_contribution-guide.md>)
+- [Docs Contribution Guide](<./Docs-Contribution-Guide.md>)
+  - [Why Contribute?[](https://nextjs.org/docs/community/contribution-guide#why-contribute)](<./Docs-Contribution-Guide/Why-Contributehttpsnextjs.orgdocscommunitycontribution-guidewhy-contribute.md>)
+  - [How to Contribute[](https://nextjs.org/docs/community/contribution-guide#how-to-contribute)](<./Docs-Contribution-Guide/How-to-Contributehttpsnextjs.orgdocscommunitycontribution-guidehow-to-contribute.md>)
+  - [File Structure[](https://nextjs.org/docs/community/contribution-guide#file-structure)](<./Docs-Contribution-Guide/File-Structurehttpsnextjs.orgdocscommunitycontribution-guidefile-structure.md>)
+  - [Metadata[](https://nextjs.org/docs/community/contribution-guide#metadata)](<./Docs-Contribution-Guide/Metadatahttpsnextjs.orgdocscommunitycontribution-guidemetadata.md>)
+  - [`App` and `Pages` Docs[](https://nextjs.org/docs/community/contribution-guide#app-and-pages-docs)](<./Docs-Contribution-Guide/App-and-Pages-Docshttpsnextjs.orgdocscommunitycontribution-guideapp-and-pages-docs.md>)
+  - [Code Blocks[](https://nextjs.org/docs/community/contribution-guide#code-blocks)](<./Docs-Contribution-Guide/Code-Blockshttpsnextjs.orgdocscommunitycontribution-guidecode-blocks.md>)
+  - [Icons[](https://nextjs.org/docs/community/contribution-guide#icons)](<./Docs-Contribution-Guide/Iconshttpsnextjs.orgdocscommunitycontribution-guideicons.md>)
+  - [Notes[](https://nextjs.org/docs/community/contribution-guide#notes)](<./Docs-Contribution-Guide/Noteshttpsnextjs.orgdocscommunitycontribution-guidenotes.md>)
+  - [Related Links[](https://nextjs.org/docs/community/contribution-guide#related-links)](<./Docs-Contribution-Guide/Related-Linkshttpsnextjs.orgdocscommunitycontribution-guiderelated-links.md>)
+  - [Diagrams[](https://nextjs.org/docs/community/contribution-guide#diagrams)](<./Docs-Contribution-Guide/Diagramshttpsnextjs.orgdocscommunitycontribution-guidediagrams.md>)
+  - [Custom Components and HTML[](https://nextjs.org/docs/community/contribution-guide#custom-components-and-html)](<./Docs-Contribution-Guide/Custom-Components-and-HTMLhttpsnextjs.orgdocscommunitycontribution-guidecustom-components-and-html.md>)
+  - [Style Guide[](https://nextjs.org/docs/community/contribution-guide#style-guide)](<./Docs-Contribution-Guide/Style-Guidehttpsnextjs.orgdocscommunitycontribution-guidestyle-guide.md>)

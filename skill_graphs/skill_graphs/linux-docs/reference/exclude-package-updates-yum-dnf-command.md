@@ -152,7 +152,7 @@ $ nload -a 400
 
 ```
 
-The `-t` interval flag sets the refresh interval of the display in milliseconds (default value is **500**). Note that specifying refresh intervals shorter than about **100** milliseconds makes traffic calculation very unprecise:
+The `-t` interval flag sets the refresh interval of the display in milliseconds (default value is **500**). Note that specifying refresh intervals shorter than about **100** milliseconds makes traffic calculation very imprecise:
 ```
 $ nload -ma 400 -t 600
 
@@ -228,7 +228,7 @@ Your support helps us keep creating quality Linux content for everyone.
 [How to Find Out Who is Using a File in Linux](https://www.tecmint.com/find-out-who-is-using-a-file-in-linux/)
 [Translate rwx Permissions into Octal Format in Linux](https://www.tecmint.com/check-linux-file-octal-permissions-using-stat-command/)
 [Set Date and Time for Each Command You Execute in Bash History](https://www.tecmint.com/display-linux-command-history-with-date-and-time/)
-[Discus – Show Colourised Disk Space Usage in Linux](https://www.tecmint.com/colourised-disk-space-usage-in-linux/)
+[Discuss – Show Colourised Disk Space Usage in Linux](https://www.tecmint.com/colourised-disk-space-usage-in-linux/)
 ## Linux Server Monitoring Tools
 [How to Monitor Website and Application with Uptime Kuma](https://www.tecmint.com/uptime-kuma-linux-website-monitoring-tool/)
 [Pyinotify – Monitor Filesystem Changes in Real-Time in Linux](https://www.tecmint.com/pyinotify-monitor-filesystem-directory-changes-in-linux/)

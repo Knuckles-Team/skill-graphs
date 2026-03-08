@@ -1,0 +1,7 @@
+# Flags Explorer
+Last updated September 24, 2025
+Flags Explorer is available on [all plans](https://vercel.com/docs/plans)
+The Flags Explorer is a feature of the [Vercel Toolbar](https://vercel.com/docs/vercel-toolbar) that allows you to view and override your application's feature flags without leaving your browser tab. You can also share and recommend overrides to team members. Follow the [Quickstart](https://vercel.com/docs/flags/flags-explorer/getting-started) to make the Flags Explorer aware of your application's feature flags.
+Quickly override feature flags for your current session without signing into your feature flag provider, and without affecting team members or automated tests using the Flags Explorer.
+Team members can access the Flags Explorer once they have activated the toolbar. The Flags Explorer is available in all environments your team has [enabled the toolbar for](https://vercel.com/docs/vercel-toolbar/in-production-and-localhost).
+![Flags Explorer](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Fdocs-assets%2Fstatic%2Fdocs%2Fworkflow-collaboration%2Ffeature-flags%2Fflags-explorer-overview-filter-light.png&w=1080&q=75)![Flags Explorer](https://vercel.com/vc-ap-vercel-docs/_next/image?url=https%3A%2F%2F7nyt0uhk7sse4zvn.public.blob.vercel-storage.com%2Fdocs-assets%2Fstatic%2Fdocs%2Fworkflow-collaboration%2Ffeature-flags%2Fflags-explorer-overview-filter-dark.png&w=1080&q=75)Flags Explorer

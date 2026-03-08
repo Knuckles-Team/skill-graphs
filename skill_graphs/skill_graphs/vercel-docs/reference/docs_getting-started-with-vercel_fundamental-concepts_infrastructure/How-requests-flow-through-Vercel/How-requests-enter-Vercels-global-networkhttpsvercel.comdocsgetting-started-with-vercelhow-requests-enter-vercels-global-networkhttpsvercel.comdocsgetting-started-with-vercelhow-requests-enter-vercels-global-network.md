@@ -1,0 +1,6 @@
+##  [How requests enter Vercel's global network](https://vercel.com/docs/getting-started-with-vercel#how-requests-enter-vercel's-global-network)[](https://vercel.com/docs/getting-started-with-vercel#how-requests-enter-vercel's-global-network)
+When a user requests your site, their browser performs a DNS lookup. For sites hosted on Vercel, this resolves to an anycast IP address owned by Vercel.
+Vercel uses a global load balancer with [anycast routing](https://vercel.com/blog/effortless-high-availability-for-dynamic-frontends#initiating-at-edge:-optimized-global-routing) to direct the request to the optimal Point of Presence (PoP) across 100+ global locations. The routing decision considers the number of network hops, round-trip time, and available bandwidth.
+Once the request reaches a PoP, it leaves the public internet and travels over a private fiber-optic backbone. This dedicated path reduces latency, jitter, and packet loss compared to the unpredictable public internet.
+For more on how Vercel's network operates, see [Life of a Vercel Request: Navigating the Network](https://vercel.com/blog/life-of-a-vercel-request-navigating-the-edge-network).
+### [Regions Learn about Vercel's global infrastructure regions. ](https://vercel.com/docs/regions)

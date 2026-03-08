@@ -1,0 +1,5 @@
+# Components
+Last updated February 27, 2026
+### [Font API Reference for the Font Module](https://nextjs.org/docs/pages/api-reference/components/font)### [Form Learn how to use the `<Form>` component to handle form submissions and search params updates with client-side navigation.](https://nextjs.org/docs/pages/api-reference/components/form)### [Head Add custom elements to the `head` of your page with the built-in Head component.](https://nextjs.org/docs/pages/api-reference/components/head)### [Image Optimize Images in your Next.js Application using the built-in `next/image` Component.](https://nextjs.org/docs/pages/api-reference/components/image)### [Image (Legacy) Backwards compatible Image Optimization with the Legacy Image component.](https://nextjs.org/docs/pages/api-reference/components/image-legacy)### [Link API reference for the `<Link>` component.](https://nextjs.org/docs/pages/api-reference/components/link)### [Script Optimize third-party scripts in your Next.js application using the built-in `next/script` Component.](https://nextjs.org/docs/pages/api-reference/components/script)
+Was this helpful?
+Send

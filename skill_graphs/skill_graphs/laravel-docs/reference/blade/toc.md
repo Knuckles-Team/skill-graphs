@@ -1,0 +1,16 @@
+# Table of Contents
+
+- [blade](<./blade.md>)
+- [Blade Templates](<./Blade-Templates.md>)
+  - [[Introduction](https://laravel.com/docs/12.x/blade#introduction)](<./Blade-Templates/Introductionhttpslaravel.comdocs12.xbladeintroduction.md>)
+  - [[Displaying Data](https://laravel.com/docs/12.x/blade#displaying-data)](<./Blade-Templates/Displaying-Datahttpslaravel.comdocs12.xbladedisplaying-data.md>)
+  - [[Blade Directives](https://laravel.com/docs/12.x/blade#blade-directives)](<./Blade-Templates/Blade-Directiveshttpslaravel.comdocs12.xbladeblade-directives.md>)
+  - [[Components](https://laravel.com/docs/12.x/blade#components)](<./Blade-Templates/Componentshttpslaravel.comdocs12.xbladecomponents.md>)
+  - [[Anonymous Components](https://laravel.com/docs/12.x/blade#anonymous-components)](<./Blade-Templates/Anonymous-Componentshttpslaravel.comdocs12.xbladeanonymous-components.md>)
+  - [[Building Layouts](https://laravel.com/docs/12.x/blade#building-layouts)](<./Blade-Templates/Building-Layoutshttpslaravel.comdocs12.xbladebuilding-layouts.md>)
+  - [[Forms](https://laravel.com/docs/12.x/blade#forms)](<./Blade-Templates/Formshttpslaravel.comdocs12.xbladeforms.md>)
+  - [[Stacks](https://laravel.com/docs/12.x/blade#stacks)](<./Blade-Templates/Stackshttpslaravel.comdocs12.xbladestacks.md>)
+  - [[Service Injection](https://laravel.com/docs/12.x/blade#service-injection)](<./Blade-Templates/Service-Injectionhttpslaravel.comdocs12.xbladeservice-injection.md>)
+  - [[Rendering Inline Blade Templates](https://laravel.com/docs/12.x/blade#rendering-inline-blade-templates)](<./Blade-Templates/Rendering-Inline-Blade-Templateshttpslaravel.comdocs12.xbladerendering-inline-blade-templates.md>)
+  - [[Rendering Blade Fragments](https://laravel.com/docs/12.x/blade#rendering-blade-fragments)](<./Blade-Templates/Rendering-Blade-Fragmentshttpslaravel.comdocs12.xbladerendering-blade-fragments.md>)
+  - [[Extending Blade](https://laravel.com/docs/12.x/blade#extending-blade)](<./Blade-Templates/Extending-Bladehttpslaravel.comdocs12.xbladeextending-blade.md>)

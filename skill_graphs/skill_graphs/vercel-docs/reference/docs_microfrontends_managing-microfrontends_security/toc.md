@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [docs_microfrontends_managing-microfrontends_security](<./docs_microfrontends_managing-microfrontends_security.md>)
+- [Managing microfrontends security](<./Managing-microfrontends-security.md>)
+  - [[Deployment Protection and microfrontends](https://vercel.com/docs/microfrontends/managing-microfrontends/security#deployment-protection-and-microfrontends)[](https://vercel.com/docs/microfrontends/managing-microfrontends/security#deployment-protection-and-microfrontends)](<./Managing-microfrontends-security/Deployment-Protection-and-microfrontendshttpsvercel.comdocsmicrofrontendsmanaging-microfrontendssecuritydeployment-protection-and-microfrontendshttpsvercel.comdocsmicrofrontendsmanaging-microfrontendssecuritydeployment-protection-and-microfrontends.md>)
+  - [[Vercel Firewall and microfrontends](https://vercel.com/docs/microfrontends/managing-microfrontends/security#vercel-firewall-and-microfrontends)[](https://vercel.com/docs/microfrontends/managing-microfrontends/security#vercel-firewall-and-microfrontends)](<./Managing-microfrontends-security/Vercel-Firewall-and-microfrontendshttpsvercel.comdocsmicrofrontendsmanaging-microfrontendssecurityvercel-firewall-and-microfrontendshttpsvercel.comdocsmicrofrontendsmanaging-microfrontendssecurityvercel-firewall-and-microfrontends.md>)
+  - [Get Started](<./Managing-microfrontends-security/Get-Started.md>)
+  - [Build](<./Managing-microfrontends-security/Build.md>)
+  - [Scale](<./Managing-microfrontends-security/Scale.md>)
+  - [Secure](<./Managing-microfrontends-security/Secure.md>)
+  - [Resources](<./Managing-microfrontends-security/Resources.md>)
+  - [Learn](<./Managing-microfrontends-security/Learn.md>)
+  - [Frameworks](<./Managing-microfrontends-security/Frameworks.md>)
+  - [SDKs](<./Managing-microfrontends-security/SDKs.md>)
+  - [Use Cases](<./Managing-microfrontends-security/Use-Cases.md>)
+  - [Company](<./Managing-microfrontends-security/Company.md>)
+  - [Community](<./Managing-microfrontends-security/Community.md>)

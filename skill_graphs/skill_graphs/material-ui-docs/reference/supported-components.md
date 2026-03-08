@@ -1,0 +1,101 @@
+[Skip to content](https://mui.com/material-ui/getting-started/supported-components/#main-content)
+[](https://mui.com/)
+Search…`Ctrl+K`3
+# Supported components
+The following is a list of Material Design components & features.
+While we strive to follow the Material Design guidelines where practical (applying common sense where guidelines contradict - a more common occurrence than one might expect), we do not expect to support every component, nor every feature of every component, but rather to provide the building blocks to allow developers to create compelling user interfaces and experiences.
+If you wish to add support for a component or feature not highlighted here, please search for the relevant
+Components | Material Design | Material UI
+---|---|---
+Accordion |  | [Native support](https://mui.com/material-ui/react-accordion/)
+Alert | No guidelines | [Native support](https://mui.com/material-ui/react-alert/)
+App Bar: top |  | [Native support](https://mui.com/material-ui/react-app-bar/)
+App Bar: bottom |  | [Native support](https://mui.com/material-ui/react-app-bar/#bottom-app-bar)
+Autocomplete | No guidelines | [Native support](https://mui.com/material-ui/react-autocomplete/)
+Banner |  | Composable
+Avatar | No guidelines | [Native support](https://mui.com/material-ui/react-avatar/)
+Badge | No guidelines | [Native support](https://mui.com/material-ui/react-badge/)
+Bottom Navigation |  | [Native support](https://mui.com/material-ui/react-bottom-navigation/)
+Breadcrumbs | No guidelines | [Native support](https://mui.com/material-ui/react-breadcrumbs/)
+Button |  | [Native support](https://mui.com/material-ui/react-button/)
+Floating Action Button |  | [Native support](https://mui.com/material-ui/react-floating-action-button/)
+Button Group | No guidelines | [Native support](https://mui.com/material-ui/react-button-group/)
+Card |  | [Native support](https://mui.com/material-ui/react-card/)
+Checkbox |  | [Native support](https://mui.com/material-ui/react-checkbox/)
+Chip |  | [Native support](https://mui.com/material-ui/react-chip/)
+Data Grid |  | [Support in MUI X](https://mui.com/x/react-data-grid/)
+Date Pickers |  | [Support in MUI X](https://mui.com/x/react-date-pickers/)
+Dialog |  | [Native support](https://mui.com/material-ui/react-dialog/)
+Divider |  | [Native support](https://mui.com/material-ui/react-divider/)
+Drawer |  | [Native support](https://mui.com/material-ui/react-drawer/)
+Icons |  | [Native support](https://mui.com/material-ui/icons/)
+Image List |  | [Native support](https://mui.com/material-ui/react-image-list/)
+Link | No guidelines | [Native support](https://mui.com/material-ui/react-link/)
+List |  | [Native support](https://mui.com/material-ui/react-list/)
+Masonry | No guidelines | [Native support](https://mui.com/material-ui/react-masonry/)
+Material Icons |  | [Native support](https://mui.com/material-ui/material-icons/)
+Menu |  | [Native support](https://mui.com/material-ui/react-menu/)
+Modal |  | [Native support](https://mui.com/material-ui/react-modal/)
+Navigation Rail |  | ❌ No support
+Number Field | No guidelines |
+Pagination | No guidelines | [Native support](https://mui.com/material-ui/react-pagination/)
+Paper |  | [Native support](https://mui.com/material-ui/react-paper/)
+Progress |  | [Native support](https://mui.com/material-ui/react-progress/)
+Radio Group |  | [Native support](https://mui.com/material-ui/react-radio-button/)
+Rating | No guidelines | [Native support](https://mui.com/material-ui/react-rating/)
+Select |  | [Native support](https://mui.com/material-ui/react-select/)
+Skeleton | No guidelines | [Native support](https://mui.com/material-ui/react-skeleton/)
+Slider |  | [Native support](https://mui.com/material-ui/react-slider/)
+Snackbar |  | [Native support](https://mui.com/material-ui/react-snackbar/)
+Speed Dial | No guidelines | [Native support](https://mui.com/material-ui/react-speed-dial/)
+Stepper |  | [Native support](https://mui.com/material-ui/react-stepper/)
+Switch |  | [Native support](https://mui.com/material-ui/react-switch/)
+Table |  | [Native support](https://mui.com/material-ui/react-table/)
+Tabs |  | [Native support](https://mui.com/material-ui/react-tabs/)
+Text Field |  | [Native support](https://mui.com/material-ui/react-text-field/)
+Timeline | No guidelines | [Native support](https://mui.com/material-ui/react-timeline/)
+Toggle Button | No guidelines | [Native support](https://mui.com/material-ui/react-toggle-button/)
+Tooltip |  | [Native support](https://mui.com/material-ui/react-tooltip/)
+Transfer List | No guidelines | [Native support](https://mui.com/material-ui/react-transfer-list/)
+Tree View | No guidelines | [Support in MUI X](https://mui.com/x/react-tree-view/)
+Typography |  | [Native support](https://mui.com/material-ui/react-typography/)
+Was this page helpful?
+* * *
+[](https://mui.com/material-ui/getting-started/faq/)[Supported platforms](https://mui.com/material-ui/getting-started/supported-platforms/)
+* * *
+[](https://mui.com/)
+•
+[Blog ](https://mui.com/blog/)
+•
+[Store ](https://mui.com/store/)
+[](https://mui.com/r/discord/ "Discord")[](https://mui.com/feed/blog/rss.xml "RSS Feed")
+[Become a Diamond sponsor](https://mui.com/material-ui/discover-more/backers/#diamond-sponsors)
+###### Cookie Preferences
+We use cookies to understand site usage and improve our content. This includes third-party analytics.
+Allow analyticsEssential only
+[](https://mui.com/)
+Material UIv7.3.9
+  * [](https://mui.com/material-ui/getting-started/)
+    * [Overview](https://mui.com/material-ui/getting-started/)
+    * [Installation](https://mui.com/material-ui/getting-started/installation/)
+    * [Usage](https://mui.com/material-ui/getting-started/usage/)
+    * [MCPNew](https://mui.com/material-ui/getting-started/mcp/)
+    * [llms.txtNew](https://mui.com/material-ui/llms.txt)
+    * [Example projects](https://mui.com/material-ui/getting-started/example-projects/)
+    * [Templates](https://mui.com/material-ui/getting-started/templates/)
+    * [Learn](https://mui.com/material-ui/getting-started/learn/)
+    * [Design resources](https://mui.com/material-ui/getting-started/design-resources/)
+    * [FAQs](https://mui.com/material-ui/getting-started/faq/)
+    * [Supported components](https://mui.com/material-ui/getting-started/supported-components/)
+    * [Supported platforms](https://mui.com/material-ui/getting-started/supported-platforms/)
+    * [Support](https://mui.com/material-ui/getting-started/support/)
+  * [](https://mui.com/material-ui/all-components/)
+  * [](https://mui.com/material-ui/api/accordion/)
+  * [](https://mui.com/material-ui/customization/how-to-customize/)
+  * [](https://mui.com/material-ui/guides/building-extensible-themes/)
+  * [](https://mui.com/material-ui/integrations/tailwindcss/tailwindcss-v4/)
+  * [](https://mui.com/material-ui/experimental-api/classname-generator/)
+  * [](https://mui.com/material-ui/migration/upgrade-to-grid-v2/)
+  * [](https://mui.com/material-ui/discover-more/showcase/)
+  * [](https://mui.com/material-ui/design-resources/material-ui-for-figma/)
+  * [](https://mui.com/store/%3Futm_source=docs&utm_medium=referral&utm_campaign=sidenav/)

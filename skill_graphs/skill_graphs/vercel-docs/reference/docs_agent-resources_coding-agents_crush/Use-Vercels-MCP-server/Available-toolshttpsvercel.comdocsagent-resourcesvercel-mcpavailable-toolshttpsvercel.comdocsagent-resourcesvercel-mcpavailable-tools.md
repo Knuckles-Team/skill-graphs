@@ -1,0 +1,2 @@
+##  [Available tools](https://vercel.com/docs/agent-resources/vercel-mcp#available-tools)[](https://vercel.com/docs/agent-resources/vercel-mcp#available-tools)
+Vercel MCP provides a comprehensive set of tools for searching documentation and managing your Vercel projects. See the [tools reference](https://vercel.com/docs/agent-resources/vercel-mcp/tools) for detailed information about each available tool and the two main categories: public tools (available without authentication) and authenticated tools (requiring Vercel authentication).

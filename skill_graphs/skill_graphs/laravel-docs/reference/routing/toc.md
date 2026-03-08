@@ -1,0 +1,15 @@
+# Table of Contents
+
+- [routing](<./routing.md>)
+- [Routing](<./Routing.md>)
+  - [[Basic Routing](https://laravel.com/docs/12.x/routing#basic-routing)](<./Routing/Basic-Routinghttpslaravel.comdocs12.xroutingbasic-routing.md>)
+  - [[Route Parameters](https://laravel.com/docs/12.x/routing#route-parameters)](<./Routing/Route-Parametershttpslaravel.comdocs12.xroutingroute-parameters.md>)
+  - [[Named Routes](https://laravel.com/docs/12.x/routing#named-routes)](<./Routing/Named-Routeshttpslaravel.comdocs12.xroutingnamed-routes.md>)
+  - [[Route Groups](https://laravel.com/docs/12.x/routing#route-groups)](<./Routing/Route-Groupshttpslaravel.comdocs12.xroutingroute-groups.md>)
+  - [[Route Model Binding](https://laravel.com/docs/12.x/routing#route-model-binding)](<./Routing/Route-Model-Bindinghttpslaravel.comdocs12.xroutingroute-model-binding.md>)
+  - [[Fallback Routes](https://laravel.com/docs/12.x/routing#fallback-routes)](<./Routing/Fallback-Routeshttpslaravel.comdocs12.xroutingfallback-routes.md>)
+  - [[Rate Limiting](https://laravel.com/docs/12.x/routing#rate-limiting)](<./Routing/Rate-Limitinghttpslaravel.comdocs12.xroutingrate-limiting.md>)
+  - [[Form Method Spoofing](https://laravel.com/docs/12.x/routing#form-method-spoofing)](<./Routing/Form-Method-Spoofinghttpslaravel.comdocs12.xroutingform-method-spoofing.md>)
+  - [[Accessing the Current Route](https://laravel.com/docs/12.x/routing#accessing-the-current-route)](<./Routing/Accessing-the-Current-Routehttpslaravel.comdocs12.xroutingaccessing-the-current-route.md>)
+  - [[Cross-Origin Resource Sharing (CORS)](https://laravel.com/docs/12.x/routing#cors)](<./Routing/Cross-Origin-Resource-Sharing-CORShttpslaravel.comdocs12.xroutingcors.md>)
+  - [[Route Caching](https://laravel.com/docs/12.x/routing#route-caching)](<./Routing/Route-Cachinghttpslaravel.comdocs12.xroutingroute-caching.md>)

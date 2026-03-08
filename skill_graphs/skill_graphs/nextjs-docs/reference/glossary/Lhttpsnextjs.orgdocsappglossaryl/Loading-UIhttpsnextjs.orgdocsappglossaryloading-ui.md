@@ -1,0 +1,2 @@
+## Loading UI[](https://nextjs.org/docs/app/glossary#loading-ui)
+Fallback UI shown while a [route segment](https://nextjs.org/docs/app/glossary#route-segment) is loading. Created by adding a [`loading.js` file](https://nextjs.org/docs/app/api-reference/file-conventions/loading) to a folder, which automatically wraps the page in a [Suspense boundary](https://nextjs.org/docs/app/glossary#suspense-boundary). Learn more in [Loading UI](https://nextjs.org/docs/app/api-reference/file-conventions/loading).

@@ -202,7 +202,7 @@ Aaron Kili
 @TheOuterLinux
 This will only help a user watch their own command history, as a sys admin, you would use something like:
 **#watch -n 1 tail /home/username/.bash_history**
-But this only allows you to watch one users commands history. Therefore, sysdig as shwon above is still more appropriate for keeping an eye on all users’ command line.
+But this only allows you to watch one users commands history. Therefore, sysdig as shown above is still more appropriate for keeping an eye on all users’ command line.
 [Reply](https://www.tecmint.com/monitor-linux-commands-executed-by-system-users-in-real-time/#comment-913889)
 
 

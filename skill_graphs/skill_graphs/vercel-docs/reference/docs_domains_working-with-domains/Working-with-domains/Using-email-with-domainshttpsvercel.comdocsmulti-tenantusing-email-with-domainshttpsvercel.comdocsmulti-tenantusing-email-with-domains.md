@@ -1,0 +1,3 @@
+##  [Using email with domains](https://vercel.com/docs/multi-tenant#using-email-with-domains)[](https://vercel.com/docs/multi-tenant#using-email-with-domains)
+When you create a domain, you may want to also set up a way for users to contact you through an email address that is pointed at that domain. Vercel does not provide a mail service for domains purchased with or transferred into it.
+Because many domain providers do not offer a mail service, several third-party services specifically offer this type of functionality and are enabled by adding MX records. Examples of this type of service include [How do I send and receive emails with my Vercel purchased domain?](https://vercel.com/kb/guide/using-email-with-your-vercel-domain)

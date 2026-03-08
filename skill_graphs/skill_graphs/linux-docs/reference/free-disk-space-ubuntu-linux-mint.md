@@ -142,7 +142,7 @@ total 20
 ```
 
 As we mentioned earlier on, each TCP flow is stored in its own file. From the output above, you can see that there are three transcript file, which indicate tcpflow in two opposite directions, where the source IP in the first file and the destination IP in the second file and vice versa.
-The first file **192.168.043.031.52920-216.058.210.034.00443** contains data transfered from host **192.168.043.031** (the localhost on which tcpflow was run) via port **52920** , to host **216.058.210.034** (the remote host) via port **443**.
+The first file **192.168.043.031.52920-216.058.210.034.00443** contains data transferred from host **192.168.043.031** (the localhost on which tcpflow was run) via port **52920** , to host **216.058.210.034** (the remote host) via port **443**.
 And the second file **216.058.210.034.00443-192.168.043.031.52920** contains data sent from host **216.058.210.034** (the remote host) via port **443** to host **192.168.043.031** (the localhost on which tcpflow was run) via port **52920**.
 There is also an **XML** report generated, which contains information about the program such as how it was compiled, and the computer it was run on and a record of every tcp connection.
 As you may have noticed, tcpflow stores the transcript files in the current directory by default. The `-o` option can help you specify the output directory where the transcript files will be written.

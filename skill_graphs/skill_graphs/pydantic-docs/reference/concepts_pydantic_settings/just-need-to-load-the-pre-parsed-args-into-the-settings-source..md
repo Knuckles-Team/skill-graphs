@@ -538,10 +538,10 @@ class Settings(BaseSettings):
         gcp_settings = GoogleSecretManagerSettingsSource(
             settings_cls,
             # If not provided, will use google.auth.default()
-            # to get credentials from the environemnt
+            # to get credentials from the environment
             # credentials=your_credentials,
             # If not provided, will use google.auth.default()
-            # to get project_id from the environemnt
+            # to get project_id from the environment
             project_id='your-gcp-project-id',
         )
 
@@ -1011,7 +1011,7 @@ class MyCustomSource(PydanticBaseSettingsSource):
         current_state = self.current_state
         current_state.get('some_setting')
 
-        # Retrive settings from all sources individually
+        # Retrieve settings from all sources individually
         # self.settings_sources_data["SettingsSourceName"]: dict[str, Any]
         settings_sources_data = self.settings_sources_data
         settings_sources_data['SomeSettingsSource'].get('some_setting')

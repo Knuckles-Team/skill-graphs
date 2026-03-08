@@ -1,0 +1,2 @@
+##  `"use server"` Directive[](https://nextjs.org/docs/app/glossary#use-server-directive)
+A directive that marks a function as a [Server Function](https://nextjs.org/docs/app/glossary#server-function) that can be called from client-side code. It can be placed at the top of a file to indicate that all exports in the file are Server Functions, or inline at the top of a function to mark that specific function. Learn more in the [`"use server"` reference](https://nextjs.org/docs/app/api-reference/directives/use-server).

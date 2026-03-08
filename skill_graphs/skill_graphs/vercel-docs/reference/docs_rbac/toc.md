@@ -1,0 +1,16 @@
+# Table of Contents
+
+- [docs_rbac](<./docs_rbac.md>)
+- [Role-based access control (RBAC)](<./Role-based-access-control-RBAC.md>)
+  - [[More resources](https://vercel.com/docs/rbac#more-resources)[](https://vercel.com/docs/rbac#more-resources)](<./Role-based-access-control-RBAC/More-resourceshttpsvercel.comdocsrbacmore-resourceshttpsvercel.comdocsrbacmore-resources.md>)
+  - [Get Started](<./Role-based-access-control-RBAC/Get-Started.md>)
+  - [Build](<./Role-based-access-control-RBAC/Build.md>)
+  - [Scale](<./Role-based-access-control-RBAC/Scale.md>)
+  - [Secure](<./Role-based-access-control-RBAC/Secure.md>)
+  - [Resources](<./Role-based-access-control-RBAC/Resources.md>)
+  - [Learn](<./Role-based-access-control-RBAC/Learn.md>)
+  - [Frameworks](<./Role-based-access-control-RBAC/Frameworks.md>)
+  - [SDKs](<./Role-based-access-control-RBAC/SDKs.md>)
+  - [Use Cases](<./Role-based-access-control-RBAC/Use-Cases.md>)
+  - [Company](<./Role-based-access-control-RBAC/Company.md>)
+  - [Community](<./Role-based-access-control-RBAC/Community.md>)

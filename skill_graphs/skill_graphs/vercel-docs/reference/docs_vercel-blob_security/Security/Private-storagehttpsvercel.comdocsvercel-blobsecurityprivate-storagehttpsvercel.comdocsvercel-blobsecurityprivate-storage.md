@@ -1,0 +1,2 @@
+##  [Private storage](https://vercel.com/docs/vercel-blob/security#private-storage)[](https://vercel.com/docs/vercel-blob/security#private-storage)
+For files that require authentication, use [private storage](https://vercel.com/docs/vercel-blob/private-storage). Private Blob stores require the `BLOB_READ_WRITE_TOKEN` for all read and write operations. Files in private Blob stores cannot be accessed via public URLs. You deliver them to your users through [Vercel Functions](https://vercel.com/docs/functions) where you implement your own authentication logic.

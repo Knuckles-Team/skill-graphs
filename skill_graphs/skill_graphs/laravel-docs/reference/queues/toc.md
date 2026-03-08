@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [queues](<./queues.md>)
+- [Queues](<./Queues.md>)
+  - [[Introduction](https://laravel.com/docs/12.x/queues#introduction)](<./Queues/Introductionhttpslaravel.comdocs12.xqueuesintroduction.md>)
+  - [[Creating Jobs](https://laravel.com/docs/12.x/queues#creating-jobs)](<./Queues/Creating-Jobshttpslaravel.comdocs12.xqueuescreating-jobs.md>)
+  - [[Job Middleware](https://laravel.com/docs/12.x/queues#job-middleware)](<./Queues/Job-Middlewarehttpslaravel.comdocs12.xqueuesjob-middleware.md>)
+  - [[Dispatching Jobs](https://laravel.com/docs/12.x/queues#dispatching-jobs)](<./Queues/Dispatching-Jobshttpslaravel.comdocs12.xqueuesdispatching-jobs.md>)
+  - [[Job Batching](https://laravel.com/docs/12.x/queues#job-batching)](<./Queues/Job-Batchinghttpslaravel.comdocs12.xqueuesjob-batching.md>)
+  - [[Queueing Closures](https://laravel.com/docs/12.x/queues#queueing-closures)](<./Queues/Queueing-Closureshttpslaravel.comdocs12.xqueuesqueueing-closures.md>)
+  - [[Running the Queue Worker](https://laravel.com/docs/12.x/queues#running-the-queue-worker)](<./Queues/Running-the-Queue-Workerhttpslaravel.comdocs12.xqueuesrunning-the-queue-worker.md>)
+  - [[Supervisor Configuration](https://laravel.com/docs/12.x/queues#supervisor-configuration)](<./Queues/Supervisor-Configurationhttpslaravel.comdocs12.xqueuessupervisor-configuration.md>)
+  - [[Dealing With Failed Jobs](https://laravel.com/docs/12.x/queues#dealing-with-failed-jobs)](<./Queues/Dealing-With-Failed-Jobshttpslaravel.comdocs12.xqueuesdealing-with-failed-jobs.md>)
+  - [[Clearing Jobs From Queues](https://laravel.com/docs/12.x/queues#clearing-jobs-from-queues)](<./Queues/Clearing-Jobs-From-Queueshttpslaravel.comdocs12.xqueuesclearing-jobs-from-queues.md>)
+  - [[Monitoring Your Queues](https://laravel.com/docs/12.x/queues#monitoring-your-queues)](<./Queues/Monitoring-Your-Queueshttpslaravel.comdocs12.xqueuesmonitoring-your-queues.md>)
+  - [[Testing](https://laravel.com/docs/12.x/queues#testing)](<./Queues/Testinghttpslaravel.comdocs12.xqueuestesting.md>)
+  - [[Job Events](https://laravel.com/docs/12.x/queues#job-events)](<./Queues/Job-Eventshttpslaravel.comdocs12.xqueuesjob-events.md>)

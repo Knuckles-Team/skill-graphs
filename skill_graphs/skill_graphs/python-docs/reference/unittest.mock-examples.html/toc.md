@@ -1,0 +1,7 @@
+# Table of Contents
+
+- [unittest.mock-examples.html](<./unittest.mock-examples.html.md>)
+- [`unittest.mock` — getting started[¶](https://docs.python.org/3/library/unittest.mock-examples.html#unittest-mock-getting-started "Link to this heading")](<./unittest.mock--getting-startedhttpsdocs.python.org3libraryunittest.mock-examples.htmlunittest-mock-getting-started-Link-to-this-heading.md>)
+  - [Using Mock[¶](https://docs.python.org/3/library/unittest.mock-examples.html#using-mock "Link to this heading")](<./unittest.mock--getting-startedhttpsdocs.python.org3libraryunittest.mock-examples.htmlunittest-mock-getting-started-Link-to-this-heading/Using-Mockhttpsdocs.python.org3libraryunittest.mock-examples.htmlusing-mock-Link-to-this-heading.md>)
+  - [Patch Decorators[¶](https://docs.python.org/3/library/unittest.mock-examples.html#patch-decorators "Link to this heading")](<./unittest.mock--getting-startedhttpsdocs.python.org3libraryunittest.mock-examples.htmlunittest-mock-getting-started-Link-to-this-heading/Patch-Decoratorshttpsdocs.python.org3libraryunittest.mock-examples.htmlpatch-decorators-Link-to-this-heading.md>)
+  - [Further Examples[¶](https://docs.python.org/3/library/unittest.mock-examples.html#further-examples "Link to this heading")](<./unittest.mock--getting-startedhttpsdocs.python.org3libraryunittest.mock-examples.htmlunittest-mock-getting-started-Link-to-this-heading/Further-Exampleshttpsdocs.python.org3libraryunittest.mock-examples.htmlfurther-examples-Link-to-this-heading.md>)

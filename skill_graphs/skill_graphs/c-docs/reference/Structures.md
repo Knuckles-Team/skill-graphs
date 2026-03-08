@@ -122,7 +122,7 @@ Define a new data structure, named "person", which contains a string (pointer to
 [Linked lists](https://www.learn-c.org/en/Linked_lists)
 [Binary trees](https://www.learn-c.org/en/Binary_trees)
 [Unions](https://www.learn-c.org/en/Unions)
-[Pointer Arithmetics](https://www.learn-c.org/en/Pointer_Arithmetics)
+[Pointer Arithmetic](https://www.learn-c.org/en/Pointer_Arithmetics)
 [Function Pointers](https://www.learn-c.org/en/Function_Pointers)
 [Bitmasks](https://www.learn-c.org/en/Bitmasks)
 [Contributing Tutorials](https://www.learn-c.org/en/Contributing_Tutorials)

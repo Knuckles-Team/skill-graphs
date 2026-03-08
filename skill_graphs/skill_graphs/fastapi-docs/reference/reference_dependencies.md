@@ -209,7 +209,7 @@ async def read_items(commons: Annotated[dict, Depends(common_parameters)]):
 PARAMETER | DESCRIPTION
 ---|---
 `dependency` |  A "dependable" callable (like a function). Don't call it directly, FastAPI will call it for you, just pass the object directly. Read more about it in the [FastAPI docs for Dependencies](https://fastapi.tiangolo.com/tutorial/dependencies/) **TYPE:** `Callable[..., Any] | None` **DEFAULT:** `None`
-`use_cache` |  By default, after a dependency is called the first time in a request, if the dependency is declared again for the rest of the request (for example if the dependency is needed by several dependencies), the value will be re-used for the rest of the request. Set `use_cache` to `False` to disable this behavior and ensure the dependency is called again (if declared more than once) in the same request. Read more about it in the [FastAPI docs about sub-dependencies](https://fastapi.tiangolo.com/tutorial/dependencies/sub-dependencies/#using-the-same-dependency-multiple-times) **TYPE:** `bool` **DEFAULT:** `True`
+`use_cache` |  By default, after a dependency is called the first time in a request, if the dependency is declared again for the rest of the request (for example if the dependency is needed by several dependencies), the value will be reused for the rest of the request. Set `use_cache` to `False` to disable this behavior and ensure the dependency is called again (if declared more than once) in the same request. Read more about it in the [FastAPI docs about sub-dependencies](https://fastapi.tiangolo.com/tutorial/dependencies/sub-dependencies/#using-the-same-dependency-multiple-times) **TYPE:** `bool` **DEFAULT:** `True`
 `scope` |  Mainly for dependencies with `yield`, define when the dependency function should start (the code before `yield`) and when it should end (the code after `yield`).
   * `"function"`: start the dependency before the _path operation function_ that handles the request, end the dependency after the _path operation function_ ends, but **before** the response is sent back to the client. So, the dependency function will be executed **around** the _path operation**function**_.
   * `"request"`: start the dependency before the _path operation function_ that handles the request (similar to when using `"function"`), but end **after** the response is sent back to the client. So, the dependency function will be executed **around** the **request** and response cycle.
@@ -329,7 +329,7 @@ def Depends(  # noqa: N802
             By default, after a dependency is called the first time in a request, if
             the dependency is declared again for the rest of the request (for example
             if the dependency is needed by several dependencies), the value will be
-            re-used for the rest of the request.
+            reused for the rest of the request.
 
             Set `use_cache` to `False` to disable this behavior and ensure the
             dependency is called again (if declared more than once) in the same request.
@@ -440,7 +440,7 @@ PARAMETER | DESCRIPTION
 ---|---
 `dependency` |  A "dependable" callable (like a function). Don't call it directly, FastAPI will call it for you, just pass the object directly. Read more about it in the [FastAPI docs for Dependencies](https://fastapi.tiangolo.com/tutorial/dependencies/) **TYPE:** `Callable[..., Any] | None` **DEFAULT:** `None`
 `scopes` |  OAuth2 scopes required for the _path operation_ that uses this Security dependency. The term "scope" comes from the OAuth2 specification, it seems to be intentionally vague and interpretable. It normally refers to permissions, in cases to roles. These scopes are integrated with OpenAPI (and the API docs at `/docs`). So they are visible in the OpenAPI specification. Read more about it in the [FastAPI docs about OAuth2 scopes](https://fastapi.tiangolo.com/advanced/security/oauth2-scopes/) **TYPE:** `Sequence[str] | None` **DEFAULT:** `None`
-`use_cache` |  By default, after a dependency is called the first time in a request, if the dependency is declared again for the rest of the request (for example if the dependency is needed by several dependencies), the value will be re-used for the rest of the request. Set `use_cache` to `False` to disable this behavior and ensure the dependency is called again (if declared more than once) in the same request. Read more about it in the [FastAPI docs about sub-dependencies](https://fastapi.tiangolo.com/tutorial/dependencies/sub-dependencies/#using-the-same-dependency-multiple-times) **TYPE:** `bool` **DEFAULT:** `True`
+`use_cache` |  By default, after a dependency is called the first time in a request, if the dependency is declared again for the rest of the request (for example if the dependency is needed by several dependencies), the value will be reused for the rest of the request. Set `use_cache` to `False` to disable this behavior and ensure the dependency is called again (if declared more than once) in the same request. Read more about it in the [FastAPI docs about sub-dependencies](https://fastapi.tiangolo.com/tutorial/dependencies/sub-dependencies/#using-the-same-dependency-multiple-times) **TYPE:** `bool` **DEFAULT:** `True`
 Source code in `fastapi/param_functions.py`
 ```
 2373
@@ -576,7 +576,7 @@ def Security(  # noqa: N802
             By default, after a dependency is called the first time in a request, if
             the dependency is declared again for the rest of the request (for example
             if the dependency is needed by several dependencies), the value will be
-            re-used for the rest of the request.
+            reused for the rest of the request.
 
             Set `use_cache` to `False` to disable this behavior and ensure the
             dependency is called again (if declared more than once) in the same request.

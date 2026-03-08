@@ -1,0 +1,15 @@
+# Table of Contents
+
+- [guides_memory-usage](<./guides_memory-usage.md>)
+- [How to optimize memory usage](<./How-to-optimize-memory-usage.md>)
+  - [Reduce number of dependencies[](https://nextjs.org/docs/app/guides/memory-usage#reduce-number-of-dependencies)](<./How-to-optimize-memory-usage/Reduce-number-of-dependencieshttpsnextjs.orgdocsappguidesmemory-usagereduce-number-of-dependencies.md>)
+  - [Try `experimental.webpackMemoryOptimizations`[](https://nextjs.org/docs/app/guides/memory-usage#try-experimentalwebpackmemoryoptimizations)](<./How-to-optimize-memory-usage/Try-experimental.webpackMemoryOptimizationshttpsnextjs.orgdocsappguidesmemory-usagetry-experimentalwebpackmemoryoptimizations.md>)
+  - [Run `next build` with `--experimental-debug-memory-usage`[](https://nextjs.org/docs/app/guides/memory-usage#run-next-build-with---experimental-debug-memory-usage)](<./How-to-optimize-memory-usage/Run-next-build-with---experimental-debug-memory-usagehttpsnextjs.orgdocsappguidesmemory-usagerun-next-build-with---experimental-debug-memory-usage.md>)
+  - [Record a heap profile[](https://nextjs.org/docs/app/guides/memory-usage#record-a-heap-profile)](<./How-to-optimize-memory-usage/Record-a-heap-profilehttpsnextjs.orgdocsappguidesmemory-usagerecord-a-heap-profile.md>)
+  - [Analyze a snapshot of the heap[](https://nextjs.org/docs/app/guides/memory-usage#analyze-a-snapshot-of-the-heap)](<./How-to-optimize-memory-usage/Analyze-a-snapshot-of-the-heaphttpsnextjs.orgdocsappguidesmemory-usageanalyze-a-snapshot-of-the-heap.md>)
+  - [Webpack build worker[](https://nextjs.org/docs/app/guides/memory-usage#webpack-build-worker)](<./How-to-optimize-memory-usage/Webpack-build-workerhttpsnextjs.orgdocsappguidesmemory-usagewebpack-build-worker.md>)
+  - [Disable Webpack cache[](https://nextjs.org/docs/app/guides/memory-usage#disable-webpack-cache)](<./How-to-optimize-memory-usage/Disable-Webpack-cachehttpsnextjs.orgdocsappguidesmemory-usagedisable-webpack-cache.md>)
+  - [Disable static analysis[](https://nextjs.org/docs/app/guides/memory-usage#disable-static-analysis)](<./How-to-optimize-memory-usage/Disable-static-analysishttpsnextjs.orgdocsappguidesmemory-usagedisable-static-analysis.md>)
+  - [Disable source maps[](https://nextjs.org/docs/app/guides/memory-usage#disable-source-maps)](<./How-to-optimize-memory-usage/Disable-source-mapshttpsnextjs.orgdocsappguidesmemory-usagedisable-source-maps.md>)
+  - [Edge memory issues[](https://nextjs.org/docs/app/guides/memory-usage#edge-memory-issues)](<./How-to-optimize-memory-usage/Edge-memory-issueshttpsnextjs.orgdocsappguidesmemory-usageedge-memory-issues.md>)
+  - [Preloading Entries[](https://nextjs.org/docs/app/guides/memory-usage#preloading-entries)](<./How-to-optimize-memory-usage/Preloading-Entrieshttpsnextjs.orgdocsappguidesmemory-usagepreloading-entries.md>)

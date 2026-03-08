@@ -7,7 +7,7 @@ should read:
   65. ![](https://secure.gravatar.com/avatar/cc62c005613aae5773d3f4288c5e713bdbc44cefdd97a13ca54787fa305c670f?s=50&d=blank&r=g)
 ram
 [ November 7, 2014 at 6:17 pm  ](https://www.tecmint.com/extend-and-reduce-lvms-in-linux/#comment-362160)
-@Babin Lonston can you give me steps how to create new partion to install Ubuntu from existing LVM. I follwed your steps but it added that space to “Free PE /Size”can you tell me how to take that space out for installing ubuntu in that place.
+@Babin Lonston can you give me steps how to create new partion to install Ubuntu from existing LVM. I followed your steps but it added that space to “Free PE /Size”can you tell me how to take that space out for installing ubuntu in that place.
 Current my machine is running fedora.
 [Reply](https://www.tecmint.com/extend-and-reduce-lvms-in-linux/#comment-362160)
   66. ![](https://secure.gravatar.com/avatar/aee0f4132b51db24f8e9b0685778f38002014aae575549ca7881f21e71b58d9b?s=50&d=blank&r=g)
@@ -18,7 +18,7 @@ Babin Lonston
      * ![](https://secure.gravatar.com/avatar/cc62c005613aae5773d3f4288c5e713bdbc44cefdd97a13ca54787fa305c670f?s=50&d=blank&r=g)
 ram
 [ November 7, 2014 at 6:17 pm  ](https://www.tecmint.com/extend-and-reduce-lvms-in-linux/#comment-362161)
-@Babin Lonston can you give me steps how to create new partion to install Ubuntu from existing LVM. I follwed your steps but it added that space to “Free PE /Size”can you tell me how to take that space out for installing ubuntu in that place.
+@Babin Lonston can you give me steps how to create new partion to install Ubuntu from existing LVM. I followed your steps but it added that space to “Free PE /Size”can you tell me how to take that space out for installing ubuntu in that place.
 Current my machine is running fedora.
 [Reply](https://www.tecmint.com/extend-and-reduce-lvms-in-linux/#comment-362161)
   67. ![](https://secure.gravatar.com/avatar/7830d8ba7760ef7bb434c496fd46c2e332e81c51c4f1ee58b37198a3bd689556?s=50&d=blank&r=g)

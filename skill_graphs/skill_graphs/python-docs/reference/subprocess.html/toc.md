@@ -1,0 +1,9 @@
+# Table of Contents
+
+- [subprocess.html](<./subprocess.html.md>)
+- [`subprocess` — Subprocess management[¶](https://docs.python.org/3/library/subprocess.html#module-subprocess "Link to this heading")](<./subprocess--Subprocess-managementhttpsdocs.python.org3librarysubprocess.htmlmodule-subprocess-Link-to-this-heading.md>)
+  - [Security Considerations[¶](https://docs.python.org/3/library/subprocess.html#security-considerations "Link to this heading")](<./subprocess--Subprocess-managementhttpsdocs.python.org3librarysubprocess.htmlmodule-subprocess-Link-to-this-heading/Security-Considerationshttpsdocs.python.org3librarysubprocess.htmlsecurity-considerations-Link-to-this-heading.md>)
+  - [Popen Objects[¶](https://docs.python.org/3/library/subprocess.html#popen-objects "Link to this heading")](<./subprocess--Subprocess-managementhttpsdocs.python.org3librarysubprocess.htmlmodule-subprocess-Link-to-this-heading/Popen-Objectshttpsdocs.python.org3librarysubprocess.htmlpopen-objects-Link-to-this-heading.md>)
+  - [Older high-level API[¶](https://docs.python.org/3/library/subprocess.html#older-high-level-api "Link to this heading")](<./subprocess--Subprocess-managementhttpsdocs.python.org3librarysubprocess.htmlmodule-subprocess-Link-to-this-heading/Older-high-level-APIhttpsdocs.python.org3librarysubprocess.htmlolder-high-level-api-Link-to-this-heading.md>)
+  - [Replacing Older Functions with the `subprocess` Module[¶](https://docs.python.org/3/library/subprocess.html#replacing-older-functions-with-the-subprocess-module "Link to this heading")](<./subprocess--Subprocess-managementhttpsdocs.python.org3librarysubprocess.htmlmodule-subprocess-Link-to-this-heading/Replacing-Older-Functions-with-the-subprocess-Modulehttpsdocs.python.org3librarysubprocess.htmlreplacing-older-functions-with-the-subprocess-module-Link-to-this-heading.md>)
+- [becomes](<./becomes.md>)

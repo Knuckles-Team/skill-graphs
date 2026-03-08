@@ -17,7 +17,7 @@ Very nice article. It’s very clear and easily understandable. Thanks for shari
   50. ![](https://secure.gravatar.com/avatar/d1692c3b794b67bea470dd4336876986dc62bbed12114241b8c127d5a1fca7ba?s=50&d=blank&r=g)
 Syed Zabi
 [ September 3, 2013 at 2:18 pm  ](https://www.tecmint.com/tar-command-examples-linux/#comment-40076)
-Thank you its relly very helpful
+Thank you its really very helpful
 [Reply](https://www.tecmint.com/tar-command-examples-linux/#comment-40076)
   51. ![](https://secure.gravatar.com/avatar/7e5ca779cd6e2c500758e6237c0f7465ec01167a9bf5c3311bff96904558f9f2?s=50&d=blank&r=g)
 Rishi Raj
@@ -36,12 +36,12 @@ I want take daily backup and incremental backup but i don’t want more than 10 
   53. ![](https://secure.gravatar.com/avatar/e1efb00e1a1244d603823ff1c687d7533dd79fb7586d4297117fae276ce56f15?s=50&d=blank&r=g)
 Volka Racho
 [ July 3, 2013 at 12:51 pm  ](https://www.tecmint.com/tar-command-examples-linux/#comment-30074)
-Is there a way to resume a tar extract for a large file which was interupted due to script time out from the apache webserver?
+Is there a way to resume a tar extract for a large file which was interrupted due to script time out from the apache webserver?
 [Reply](https://www.tecmint.com/tar-command-examples-linux/#comment-30074)
   54. ![](https://secure.gravatar.com/avatar/86c42a1c2cbf7967ae4f474df3958ca6ad5127b9851fdb603cfc9afe8c1680be?s=50&d=blank&r=g)
 Ivan
 [ April 12, 2013 at 11:56 pm  ](https://www.tecmint.com/tar-command-examples-linux/#comment-25609)
-Any way to exclude a folder or subfoler or file with tar itself. (other than changing it’s chmod to 666)
+Any way to exclude a folder or subfolder or file with tar itself. (other than changing it’s chmod to 666)
 [Reply](https://www.tecmint.com/tar-command-examples-linux/#comment-25609)
      * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)
 Ravi Saive
@@ -55,7 +55,7 @@ $ tar -zcvf /home/tecmint.tar.gz --exclude='abc' --exclude='xyz' /home/tecmint
        * ![](https://secure.gravatar.com/avatar/6826bec42a53d7665ca4c4738af7183fb13e4b2e825b947277d4fabe924b8d66?s=50&d=blank&r=g)
 Arvind
 [ November 7, 2013 at 6:46 pm  ](https://www.tecmint.com/tar-command-examples-linux/#comment-66731)
-Any way to exclude a folder or subfoler or file with tar itself.
+Any way to exclude a folder or subfolder or file with tar itself.
 You have mentioned a option to exclude a file, not folder.
 Please correct it..
 [Reply](https://www.tecmint.com/tar-command-examples-linux/#comment-66731)

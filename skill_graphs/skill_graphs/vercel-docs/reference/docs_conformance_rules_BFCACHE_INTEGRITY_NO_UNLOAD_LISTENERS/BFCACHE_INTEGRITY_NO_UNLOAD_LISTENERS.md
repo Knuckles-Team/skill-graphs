@@ -1,0 +1,9 @@
+# BFCACHE_INTEGRITY_NO_UNLOAD_LISTENERS
+Last updated March 4, 2025
+Conformance is available on [Enterprise plans](https://vercel.com/docs/plans/enterprise)
+This rule disallows the use of the `unload` and `beforeunload` events to improve the integrity of the Back-Forward Cache in browsers.
+The Back-Forward Cache (bfcache) is a browser feature that allows pages to be cached in memory when the user navigates away from them. When the user navigates back to the page, it can be loaded almost instantly from the cache instead of having to be reloaded from the network. Breaking the bfcache's integrity can cause a page to be reloaded from the network when the user navigates back to it, which can be slow and jarring.
+The most important rule for maintaining the integrity of the bfcache is to not use the `unload` event. This event is fired when the user navigates away from the page, but it is unreliable and disables the cache on most browsers.
+The `beforeunload` event can also make your page ineligible for the cache in browsers so it is better to avoid using. However there are some legitimate use cases for this event, such as checking if the user has unsaved work before they exit the page. In this case it is recommended to add the listener conditionally and remove it as soon as the work as been saved.
+Alternative events that can be considered are `pagehide` or `visibilitychange`, which are more reliable events that do not break the bfcache and will fire when the user navigates away from or unfocuses the page.
+To learn more about the bfcache, see the

@@ -1,4 +1,27 @@
-* [ Get Started ](https://docs.pydantic.dev/latest/)
+What's new — we've launched [Pydantic Logfire](https://pydantic.dev/articles/logfire-announcement) ![🔥](https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f525.svg) to help you monitor and understand your [Pydantic validations.](https://logfire.pydantic.dev/docs/integrations/pydantic/)
+[ ![logo](https://docs.pydantic.dev/latest/logo-white.svg) ](https://docs.pydantic.dev/latest/ "Pydantic Validation")
+Pydantic Validation
+2.12
+  * [dev](https://docs.pydantic.dev/dev/)
+  * [2.12](https://docs.pydantic.dev/2.12/)
+  * [2.11](https://docs.pydantic.dev/2.11/)
+  * [2.10](https://docs.pydantic.dev/2.10/)
+  * [2.9](https://docs.pydantic.dev/2.9/)
+  * [2.8](https://docs.pydantic.dev/2.8/)
+  * [2.7](https://docs.pydantic.dev/2.7/)
+  * [2.6](https://docs.pydantic.dev/2.6/)
+  * [2.5](https://docs.pydantic.dev/2.5/)
+  * [2.4](https://docs.pydantic.dev/2.4/)
+  * [2.3](https://docs.pydantic.dev/2.3/)
+  * [2.2](https://docs.pydantic.dev/2.2/)
+  * [2.1](https://docs.pydantic.dev/2.1/)
+  * [2.0](https://docs.pydantic.dev/2.0/)
+  * [1.10](https://docs.pydantic.dev/1.10/)
+
+
+Documentation
+Type to start searching
+  * [ Get Started ](https://docs.pydantic.dev/latest/)
   * [ Concepts ](https://docs.pydantic.dev/latest/concepts/models/)
   * [ API Documentation ](https://docs.pydantic.dev/latest/api/base_model/)
   * [ Internals ](https://docs.pydantic.dev/latest/internals/architecture/)
@@ -123,7 +146,7 @@ Pydantic uses
 In your
 ```
 intersphinx_mapping = {
-    'pydantic': ('https://docs.pydantic.dev/latest', None),
+    'pydantic': ('https://docs.pydantic.dev/latest', None),  [](https://docs.pydantic.dev/latest/integrations/documentation/#__code_0_annotation_1)
 }
 
 ```
@@ -137,6 +160,8 @@ plugins:
         import:
         - https://docs.pydantic.dev/latest/objects.inv
 
+[](https://docs.pydantic.dev/latest/integrations/documentation/#__code_1_annotation_1)
+
 ```
 
   1. You can also use `dev` instead of `latest` to target the latest documentation build, up to date with the
@@ -145,3 +170,4 @@ plugins:
 Was this page helpful?
 Thanks for your feedback!
 Thanks for your feedback!
+Made with

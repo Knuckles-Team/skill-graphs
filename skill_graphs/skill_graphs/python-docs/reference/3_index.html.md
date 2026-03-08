@@ -1,0 +1,133 @@
+[ ![Python logo](https://docs.python.org/3/_static/py.svg) ](https://www.python.org/) 3.16 dev (3.15) 3.14.3 3.13 3.12 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6
+Greek | Ελληνικά English Spanish | español French | français Italian | italiano Japanese | 日本語 Korean | 한국어 Polish | polski Brazilian Portuguese | Português brasileiro Romanian | Românește Turkish | Türkçe Simplified Chinese | 简体中文 Traditional Chinese | 繁體中文
+Theme  Auto Light Dark
+### Download
+[Download these documents](https://docs.python.org/3/download.html)
+### Docs by version
+  * [Python 3.16 (planned)](https://docs.python.org/3.16/)
+  * [Python 3.15 (in development)](https://docs.python.org/3.15/)
+  * [Python 3.14 (stable)](https://docs.python.org/3.14/)
+  * [Python 3.13 (stable)](https://docs.python.org/3.13/)
+  * [Python 3.12 (security-fixes)](https://docs.python.org/3.12/)
+  * [Python 3.11 (security-fixes)](https://docs.python.org/3.11/)
+  * [Python 3.10 (security-fixes)](https://docs.python.org/3.10/)
+  * [Python 3.9 (EOL)](https://docs.python.org/3.9/)
+  * [Python 3.8 (EOL)](https://docs.python.org/3.8/)
+  * [Python 3.7 (EOL)](https://docs.python.org/3.7/)
+  * [Python 3.6 (EOL)](https://docs.python.org/3.6/)
+  * [Python 3.5 (EOL)](https://docs.python.org/3.5/)
+  * [Python 3.4 (EOL)](https://docs.python.org/3.4/)
+  * [Python 3.3 (EOL)](https://docs.python.org/3.3/)
+  * [Python 3.2 (EOL)](https://docs.python.org/3.2/)
+  * [Python 3.1 (EOL)](https://docs.python.org/3.1/)
+  * [Python 3.0 (EOL)](https://docs.python.org/3.0/)
+  * [Python 2.7 (EOL)](https://docs.python.org/2.7/)
+  * [Python 2.6 (EOL)](https://docs.python.org/2.6/)
+  * [All versions](https://www.python.org/doc/versions/)
+
+
+### Other resources
+  * [PEP Index](https://peps.python.org/)
+  * [Beginner's Guide](https://wiki.python.org/moin/BeginnersGuide)
+  * [Book List](https://wiki.python.org/moin/PythonBooks)
+  * [Audio/Visual Talks](https://www.python.org/doc/av/)
+  * [Python Developer’s Guide](https://devguide.python.org/)
+
+
+### Navigation
+  * [index](https://docs.python.org/3/genindex.html "General Index")
+  * [modules](https://docs.python.org/3/py-modindex.html "Python Module Index") |
+  * ![Python logo](https://docs.python.org/3/_static/py.svg)
+  * [Python](https://www.python.org/) »
+  * Greek | Ελληνικά English Spanish | español French | français Italian | italiano Japanese | 日本語 Korean | 한국어 Polish | polski Brazilian Portuguese | Português brasileiro Romanian | Românește Turkish | Türkçe Simplified Chinese | 简体中文 Traditional Chinese | 繁體中文
+3.16 dev (3.15) 3.14.3 3.13 3.12 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6
+  * [3.14.3 Documentation](https://docs.python.org/3/index.html) »
+  * [](https://docs.python.org/3/index.html)
+  * |
+  * Theme  Auto Light Dark |
+
+
+# Python 3.14.3 documentation
+Welcome! This is the official documentation for Python 3.14.3.
+**Documentation sections:**
+[What's new in Python 3.14?](https://docs.python.org/3/whatsnew/3.14.html)
+Or [all "What's new" documents since Python 2.0](https://docs.python.org/3/whatsnew/index.html) [Tutorial](https://docs.python.org/3/tutorial/index.html)
+Start here: a tour of Python's syntax and features [Library reference](https://docs.python.org/3/library/index.html)
+Standard library and builtins [Language reference](https://docs.python.org/3/reference/index.html)
+Syntax and language elements [Python setup and usage](https://docs.python.org/3/using/index.html)
+How to install, configure, and use Python [Python HOWTOs](https://docs.python.org/3/howto/index.html)
+In-depth topic manuals |  [Installing Python modules](https://docs.python.org/3/installing/index.html)
+Third-party modules and PyPI.org [Distributing Python modules](https://docs.python.org/3/distributing/index.html)
+Publishing modules for use by other people [Extending and embedding](https://docs.python.org/3/extending/index.html)
+For C/C++ programmers [Python's C API](https://docs.python.org/3/c-api/index.html)
+C API reference [FAQs](https://docs.python.org/3/faq/index.html)
+Frequently asked questions (with answers!) [Deprecations](https://docs.python.org/3/deprecations/index.html)
+Deprecated functionality
+---|---
+**Indices, glossary, and search:**
+[Global module index](https://docs.python.org/3/py-modindex.html)
+All modules and libraries [General index](https://docs.python.org/3/genindex.html)
+All functions, classes, and terms [Glossary](https://docs.python.org/3/glossary.html)
+Terms explained |  [Search page](https://docs.python.org/3/search.html)
+Search this documentation [Complete table of contents](https://docs.python.org/3/contents.html)
+Lists all sections and subsections
+---|---
+**Project information:**
+[Reporting issues](https://docs.python.org/3/bugs.html) [Contributing to docs](https://devguide.python.org/documentation/help-documenting/) [Download the documentation](https://docs.python.org/3/download.html) |  [History and license of Python](https://docs.python.org/3/license.html) [Copyright](https://docs.python.org/3/copyright.html) [About the documentation](https://docs.python.org/3/about.html)
+---|---
+### Download
+[Download these documents](https://docs.python.org/3/download.html)
+### Docs by version
+  * [Python 3.16 (planned)](https://docs.python.org/3.16/)
+  * [Python 3.15 (in development)](https://docs.python.org/3.15/)
+  * [Python 3.14 (stable)](https://docs.python.org/3.14/)
+  * [Python 3.13 (stable)](https://docs.python.org/3.13/)
+  * [Python 3.12 (security-fixes)](https://docs.python.org/3.12/)
+  * [Python 3.11 (security-fixes)](https://docs.python.org/3.11/)
+  * [Python 3.10 (security-fixes)](https://docs.python.org/3.10/)
+  * [Python 3.9 (EOL)](https://docs.python.org/3.9/)
+  * [Python 3.8 (EOL)](https://docs.python.org/3.8/)
+  * [Python 3.7 (EOL)](https://docs.python.org/3.7/)
+  * [Python 3.6 (EOL)](https://docs.python.org/3.6/)
+  * [Python 3.5 (EOL)](https://docs.python.org/3.5/)
+  * [Python 3.4 (EOL)](https://docs.python.org/3.4/)
+  * [Python 3.3 (EOL)](https://docs.python.org/3.3/)
+  * [Python 3.2 (EOL)](https://docs.python.org/3.2/)
+  * [Python 3.1 (EOL)](https://docs.python.org/3.1/)
+  * [Python 3.0 (EOL)](https://docs.python.org/3.0/)
+  * [Python 2.7 (EOL)](https://docs.python.org/2.7/)
+  * [Python 2.6 (EOL)](https://docs.python.org/2.6/)
+  * [All versions](https://www.python.org/doc/versions/)
+
+
+### Other resources
+  * [PEP Index](https://peps.python.org/)
+  * [Beginner's Guide](https://wiki.python.org/moin/BeginnersGuide)
+  * [Book List](https://wiki.python.org/moin/PythonBooks)
+  * [Audio/Visual Talks](https://www.python.org/doc/av/)
+  * [Python Developer’s Guide](https://devguide.python.org/)
+
+
+«
+### Navigation
+  * [index](https://docs.python.org/3/genindex.html "General Index")
+  * [modules](https://docs.python.org/3/py-modindex.html "Python Module Index") |
+  * ![Python logo](https://docs.python.org/3/_static/py.svg)
+  * [Python](https://www.python.org/) »
+  * Greek | Ελληνικά English Spanish | español French | français Italian | italiano Japanese | 日本語 Korean | 한국어 Polish | polski Brazilian Portuguese | Português brasileiro Romanian | Românește Turkish | Türkçe Simplified Chinese | 简体中文 Traditional Chinese | 繁體中文
+3.16 dev (3.15) 3.14.3 3.13 3.12 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6
+  * [3.14.3 Documentation](https://docs.python.org/3/index.html) »
+  * [](https://docs.python.org/3/index.html)
+  * |
+  * Theme  Auto Light Dark |
+
+
+© [Copyright](https://docs.python.org/3/copyright.html) 2001 Python Software Foundation.
+This page is licensed under the Python Software Foundation License Version 2.
+Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License.
+See [History and License](https://docs.python.org/license.html) for more information.
+
+The Python Software Foundation is a non-profit corporation. [Please donate.](https://www.python.org/psf/donations/)
+
+Last updated on Mar 08, 2026 (06:37 UTC). [Found a bug](https://docs.python.org/bugs.html)?
+Created using

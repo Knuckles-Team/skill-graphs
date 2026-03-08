@@ -1,0 +1,2 @@
+##  [How long to keep it enabled](https://vercel.com/docs/vercel-firewall/attack-challenge-mode#how-long-to-keep-it-enabled)[](https://vercel.com/docs/vercel-firewall/attack-challenge-mode#how-long-to-keep-it-enabled)
+Attack Challenge Mode can be safely used for extended periods without affecting search engine indexing or webhook functionality. However, since Vercel's Firewall already provides automatic DDoS protection, we recommend using it primarily when facing highly targeted attacks rather than as a permanent setting.

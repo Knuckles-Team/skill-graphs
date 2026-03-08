@@ -497,7 +497,7 @@ Log will appear in screen and save to monitor.txt simultaneously :D
 YM
 [ June 28, 2013 at 3:59 pm  ](https://www.tecmint.com/linux-performance-monitoring-with-vmstat-and-iostat-commands/#comment-29860)
 Thank you.
-Was able to write io logs, but when tried the same, i get “netstat: extra arguements”, but when tried netstat -a, logs were written into a file.
+Was able to write io logs, but when tried the same, i get “netstat: extra arguments”, but when tried netstat -a, logs were written into a file.
 Please advice me on how to overcome this?
 Thanks in advance.
 [Reply](https://www.tecmint.com/linux-performance-monitoring-with-vmstat-and-iostat-commands/#comment-29860)
@@ -521,8 +521,8 @@ Same way do it for netstat.
 asd
 [ April 23, 2013 at 4:08 pm  ](https://www.tecmint.com/linux-performance-monitoring-with-vmstat-and-iostat-commands/#comment-26659)
 you made a mistake
-si – Swaped in every second from disk in Kilo Bytes.
-si – Swaped out every second to disk in Kilo Bytes.
+si – Swapped in every second from disk in Kilo Bytes.
+si – Swapped out every second to disk in Kilo Bytes.
 (i think you meant so second time)
 [Reply](https://www.tecmint.com/linux-performance-monitoring-with-vmstat-and-iostat-commands/#comment-26659)
      * ![](https://secure.gravatar.com/avatar/111f6b53ad24719104c1cc55e9902f4ef840d8dd7af46c9481ea3d6e0b0040bd?s=50&d=blank&r=g)

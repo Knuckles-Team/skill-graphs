@@ -63,7 +63,7 @@ A typical output of the above code is shown below.
 > vowels[2]: I, *(pvowels + 2): I, *(vowels + 2): I
 > vowels[3]: O, *(pvowels + 3): O, *(vowels + 3): O
 > vowels[4]: U, *(pvowels + 4): U, *(vowels + 4): U
-As you rightly guessed, `&vowels[i]` gives the memory location of the _i_ th element of the array `vowels`. Moreover, since this is a character array, each element occupies one byte so that the consecutive memory addresses are separated by a single byte. We also created a pointer, `pvowels`, and assigned the address of the array `vowels` to it. `pvowels + i` is a valid operation; although in general, this may not always be meaningful (explored further in [Pointer Arithmetics](https://www.learn-c.org/en/Pointer_Arithmetics) ). In particular, the output shown above indicates that `&vowels[i]` and `pvowels + i` are equivalent. Feel free to alter the data types of the array and pointer variables to test this out.
+As you rightly guessed, `&vowels[i]` gives the memory location of the _i_ th element of the array `vowels`. Moreover, since this is a character array, each element occupies one byte so that the consecutive memory addresses are separated by a single byte. We also created a pointer, `pvowels`, and assigned the address of the array `vowels` to it. `pvowels + i` is a valid operation; although in general, this may not always be meaningful (explored further in [Pointer Arithmetic](https://www.learn-c.org/en/Pointer_Arithmetics) ). In particular, the output shown above indicates that `&vowels[i]` and `pvowels + i` are equivalent. Feel free to alter the data types of the array and pointer variables to test this out.
 If you look carefully at the previous code, you will notice that we also used another apparently surprising notation: `vowels + i`. Moreover, `pvowels + i` and `vowels + i` returns the same thing — address of the _i_ th element of the array `vowels`. On the other hand, `*(pvowels + i)` and `*(vowels + i)` both return the _i_ th element of the array `vowels`. Why is that so?
 This is because the name of an array itself is a (constant) pointer to the first element of the array. In other words, the notations `vowels`, `&vowels[0]`, and `vowels + 0` all point to the same location.
 ## Dynamic Memory Allocation for Arrays
@@ -170,7 +170,7 @@ Complete the skeleton code given below to store the numbers from the first three
 [Linked lists](https://www.learn-c.org/en/Linked_lists)
 [Binary trees](https://www.learn-c.org/en/Binary_trees)
 [Unions](https://www.learn-c.org/en/Unions)
-[Pointer Arithmetics](https://www.learn-c.org/en/Pointer_Arithmetics)
+[Pointer Arithmetic](https://www.learn-c.org/en/Pointer_Arithmetics)
 [Function Pointers](https://www.learn-c.org/en/Function_Pointers)
 [Bitmasks](https://www.learn-c.org/en/Bitmasks)
 [Contributing Tutorials](https://www.learn-c.org/en/Contributing_Tutorials)

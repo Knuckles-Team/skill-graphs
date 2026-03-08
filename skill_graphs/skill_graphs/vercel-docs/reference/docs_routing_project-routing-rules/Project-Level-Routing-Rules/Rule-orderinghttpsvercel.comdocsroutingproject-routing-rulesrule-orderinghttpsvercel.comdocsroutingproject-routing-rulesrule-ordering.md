@@ -1,0 +1,2 @@
+##  [Rule ordering](https://vercel.com/docs/routing/project-routing-rules#rule-ordering)[](https://vercel.com/docs/routing/project-routing-rules#rule-ordering)
+Rules execute in the order they appear in the list. You can drag and drop rules to change their priority. When a request matches multiple rules, the first matching rule with a primary action (rewrite, redirect, or set status) wins. Modify actions from all matching rules still apply.
