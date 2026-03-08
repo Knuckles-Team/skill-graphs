@@ -1,0 +1,16 @@
+# Table of Contents
+
+- [linux-interview-questions](<./linux-interview-questions.md>)
+- [How to Install Zabbix on RHEL/CentOS and Debian/Ubuntu – Part 1](<./How-to-Install-Zabbix-on-RHELCentOS-and-DebianUbuntu--Part-1.md>)
+- [yum search zabbix*](<./yum-search-zabbix.md>)
+- [make](<./make.md>)
+- [make install](<./make-install.md>)
+- [cd /zaBix-2.4.5.tar.gz](<./cd-zaBix-2.4.5.tar.gz.md>)
+- [vi /usr/local/etc/zabbix_server.conf](<./vi-usrlocaletczabbix_server.conf.md>)
+- [Dbhost = localhost](<./Dbhost--localhost.md>)
+- [/usr/local/sbin/zabbix_agentd](<./usrlocalsbinzabbix_agentd.md>)
+- [/usr/local/sbin/zabbix_agent](<./usrlocalsbinzabbix_agent.md>)
+- [/usr/local/sbin/zabbix_server](<./usrlocalsbinzabbix_server.md>)
+- [/etc/init.d/zabbix_agentd](<./etcinit.dzabbix_agentd.md>)
+- [/etc/init.d/zabbix_agent](<./etcinit.dzabbix_agent.md>)
+- [/etc/init.d/zabbix_server](<./etcinit.dzabbix_server.md>)

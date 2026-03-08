@@ -1,0 +1,16 @@
+## What's new for C++ in Visual Studio version 16.7
+For a summary of new features and bug fixes in Visual Studio version 16.7, see [What's New in Visual Studio 2019 version 16.7](https://learn.microsoft.com/en-us/visualstudio/releases/2019/release-notes-v16.7).
+  * Our remote C++ support now supports a wider range of Linux distros and shells, including sh, csh, bash, tsch, ksh, zsh, and dash. You can override the choice of a shell for a remote connection by modifying the new "shell" property via ConnectionManager.exe. This support has been tested with both MSBuild-based Linux projects and CMake projects targeting a remote Linux system or WSL.
+  * You can now use Ninja (a build system that evaluates incremental builds very quickly) to improve incremental build times for MSBuild-based Linux projects. You can opt into this feature by setting "Enable Incremental Build" to "With Ninja" in the General Property Page. Ninja (ninja-build) must be installed on your remote Linux system or WSL.
+  * New C++20 Standard Library features have been implemented. Please refer to the
+  * You can now edit and set default remote SSH connections in the [Connection Manager](https://learn.microsoft.com/en-us/cpp/linux/connect-to-your-remote-linux-computer?view=msvc-170#set-up-the-remote-connection). This means you can edit an existing remote connection (for example, if its IP address changed) and set default connections to be consumed in CMakeSettings.json and launch.vs.json. Remote SSH connections allow you to build and debug C++ projects on a remote Linux system directly from Visual Studio.
+  * Enhanced IntelliSense support for Clang on Windows (clang-cl) in Visual Studio. The clang include path now includes the clang libraries, we've improved in-editor squiggle display when using the std library, and we've added support for C++2a in clang mode.
+  * You can now try out underlining code errors and see more suggested quick fixes in C++ projects. Enable this feature under **Tools > Options > Text Editor > C/C++ > Experimental**. Set **Disable Experimental Code Linter** to false. Learn more on the
+  * We've added four new code analysis rules to incorporate additional safety features into C++: [C26817](https://learn.microsoft.com/en-us/cpp/code-quality/c26817?view=msvc-170), [C26818](https://learn.microsoft.com/en-us/cpp/code-quality/c26818?view=msvc-170), [C26819](https://learn.microsoft.com/en-us/cpp/code-quality/c26819?view=msvc-170), and [C26820](https://learn.microsoft.com/en-us/cpp/code-quality/c26820?view=msvc-170).
+  * We've added first-class support for debugging CMake projects on remote systems with gdbserver.
+  * Find memory corruption errors easily with an experimental implementation of AddressSanitizer for C++ in Visual Studio, now available for x64 native projects. We also now support the use of debug runtimes (**`/MTd`**,**`/MDd`**,**`/LDd`**).
+  * IntelliSense now has basic support for Concepts, designated initializers, and several other C++20 features.
+  * _`.ixx`_and _`.cppm`_files are now recognized as C++ and get treated as such by the syntax highlighter and IntelliSense.
+
+
+[](https://learn.microsoft.com/en-us/cpp/overview/what-s-new-for-cpp-2019?view=msvc-170&source=recommendations#whats-new-for-c-in-visual-studio-version-166)

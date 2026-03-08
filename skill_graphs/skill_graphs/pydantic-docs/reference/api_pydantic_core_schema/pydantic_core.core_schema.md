@@ -1,0 +1,2 @@
+# pydantic_core.core_schema
+This module contains definitions to build schemas which `pydantic_core` can validate and serialize.

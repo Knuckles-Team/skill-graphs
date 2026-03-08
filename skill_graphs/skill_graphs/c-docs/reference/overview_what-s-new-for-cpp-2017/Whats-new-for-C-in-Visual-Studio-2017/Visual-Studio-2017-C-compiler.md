@@ -1,0 +1,54 @@
+## Visual Studio 2017 C++ compiler
+[](https://learn.microsoft.com/en-us/cpp/overview/what-s-new-for-cpp-2017?view=msvc-170#c-conformance-improvements)
+### C++ conformance improvements
+We've updated the C++ compiler and standard library in this release with enhanced support for C++11 and C++14 features. It also includes preliminary support for certain features expected to be in the C++17 standard. For detailed information, see [C++ Conformance Improvements in Visual Studio 2017](https://learn.microsoft.com/en-us/cpp/overview/cpp-conformance-improvements?view=msvc-170).
+[](https://learn.microsoft.com/en-us/cpp/overview/what-s-new-for-cpp-2017?view=msvc-170#visual-studio-2017-version-155)
+##### Visual Studio 2017 version 15.5
+The compiler supports about 75% of the features that are new in C++17, including structured bindings, **`constexpr`**lambdas,`if constexpr` , inline variables, fold expressions, and adding **`noexcept`**to the type system. These features are available under the**`/std:c++17`**option. For more information, see[C++ Conformance Improvements in Visual Studio 2017](https://learn.microsoft.com/en-us/cpp/overview/cpp-conformance-improvements?view=msvc-170)
+[](https://learn.microsoft.com/en-us/cpp/overview/what-s-new-for-cpp-2017?view=msvc-170#visual-studio-2017-version-157)
+##### Visual Studio 2017 version 15.7
+The MSVC compiler toolset in Visual Studio version 15.7 now conforms with the C++ Standard. For more information, see [Announcing: MSVC Conforms to the C++ Standard](https://devblogs.microsoft.com/cppblog/announcing-msvc-conforms-to-the-c-standard/) and [Microsoft C/C++ language conformance](https://learn.microsoft.com/en-us/cpp/overview/visual-cpp-language-conformance?view=msvc-170).
+[](https://learn.microsoft.com/en-us/cpp/overview/what-s-new-for-cpp-2017?view=msvc-170#visual-studio-2017-version-158)
+##### Visual Studio 2017 version 15.8
+The [`/experimental:preprocessor`](https://learn.microsoft.com/en-us/cpp/build/reference/experimental-preprocessor?view=msvc-170) compiler switch enables the new experimental MSVC preprocessor that will eventually conform to all applicable C and C++ standards. For more information, see [MSVC new preprocessor overview](https://learn.microsoft.com/en-us/cpp/preprocessor/preprocessor-experimental-overview?view=msvc-170).
+[](https://learn.microsoft.com/en-us/cpp/overview/what-s-new-for-cpp-2017?view=msvc-170#new-compiler-options)
+### New compiler options
+  * [`/permissive-`](https://learn.microsoft.com/en-us/cpp/build/reference/permissive-standards-conformance?view=msvc-170): Enable all strict standards conformance compiler options and disable most Microsoft-specific compiler extensions (but not `__declspec(dllimport)`, for example). This option is on by default in Visual Studio 2017 version 15.5. The **`/permissive-`**conformance mode includes support for two-phase name lookup. For more information, see[C++ Conformance Improvements in Visual Studio](https://learn.microsoft.com/en-us/cpp/overview/cpp-conformance-improvements?view=msvc-170).
+  * [`/diagnostics`](https://learn.microsoft.com/en-us/cpp/build/reference/diagnostics-compiler-diagnostic-options?view=msvc-170): Enables display of the diagnostic error or warning location three different ways: just the line number, the line number and column, or the line number and column, with a caret under the offending line of code.
+  * [`/debug:fastlink`](https://learn.microsoft.com/en-us/cpp/build/reference/debug-generate-debug-info?view=msvc-170): Enable up to 30% faster incremental link times (vs. Visual Studio 2015) by not copying all debug information into the PDB file. The PDB file instead points to the debug information for the object and library files used to create the executable. See [Faster C++ build cycle in VS "15" with `/Debug:fastlink`](https://devblogs.microsoft.com/cppblog/faster-c-build-cycle-in-vs-15-with-debugfastlink/) and [Recommendations to speed C++ builds in Visual Studio](https://devblogs.microsoft.com/cppblog/recommendations-to-speed-c-builds-in-visual-studio/).
+  * Visual Studio 2017 allows using [`/sdl`](https://learn.microsoft.com/en-us/cpp/build/reference/sdl-enable-additional-security-checks?view=msvc-170) with [`/await`](https://learn.microsoft.com/en-us/cpp/build/reference/await-enable-coroutine-support?view=msvc-170). We removed the [`/RTC`](https://learn.microsoft.com/en-us/cpp/build/reference/rtc-run-time-error-checks?view=msvc-170) limitation with Coroutines.
+
+
+[](https://learn.microsoft.com/en-us/cpp/overview/what-s-new-for-cpp-2017?view=msvc-170#visual-studio-2017-version-153)
+##### Visual Studio 2017 version 15.3
+  * [`/std:c++14` and `/std:c++latest`](https://learn.microsoft.com/en-us/cpp/build/reference/std-specify-language-standard-version?view=msvc-170): These compiler options enable you to opt in to specific versions of the ISO C++ programming language in a project. Most of the new draft standard features are guarded by the **`/std:c++latest`**option.
+  * [`/std:c++17`](https://learn.microsoft.com/en-us/cpp/build/reference/std-specify-language-standard-version?view=msvc-170) enables the set of C++17 features implemented by the compiler. This option disables compiler and standard library support for features after C++17: ones that are changed or new in later versions of the Working Draft, and defect updates of the C++ Standard. To enable those features, use **`/std:c++latest`**.
+
+
+[](https://learn.microsoft.com/en-us/cpp/overview/what-s-new-for-cpp-2017?view=msvc-170#codegen-security-diagnostics-and-versioning)
+### Codegen, security, diagnostics, and versioning
+This release brings several improvements in optimization, code generation, toolset versioning, and diagnostics. Some notable improvements include:
+  * Improved code generation of loops: Support for automatic vectorization of division of constant integers, better identification of memset patterns.
+  * Improved code security: Improved emission of buffer overrun compiler diagnostics, and [`/guard:cf`](https://learn.microsoft.com/en-us/cpp/build/reference/guard-enable-control-flow-guard?view=msvc-170) now guards switch statements that generate jump tables.
+  * Versioning: The value of the built-in preprocessor macro **_MSC_VER** is now being monotonically updated at every Visual C++ toolset update. For more information, see [Visual C++ Compiler Version](https://devblogs.microsoft.com/cppblog/visual-c-compiler-version/).
+  * New toolset layout: The compiler and related build tools have a new location and directory structure on your development machine. The new layout enables side-by-side installations of multiple versions of the compiler. For more information, see [Compiler Tools Layout in Visual Studio 2017](https://devblogs.microsoft.com/cppblog/compiler-tools-layout-in-visual-studio-15/).
+  * Improved diagnostics: The output window now shows the column where an error occurs. For more information, see [C++ compiler diagnostics improvements in VS "15" Preview 5](https://devblogs.microsoft.com/cppblog/c-compiler-diagnostics-improvements-in-vs-15-rc/).
+  * When using coroutines, the experimental keyword **yield** (available under the **`/await`**option) was removed. Your code should be updated to use`co_yield` instead. For more information, see [`yield` keyword to become `co_yield` in VS 2017](https://devblogs.microsoft.com/cppblog/yield-keyword-to-become-co_yield-in-vs-2017/).
+
+
+[](https://learn.microsoft.com/en-us/cpp/overview/what-s-new-for-cpp-2017?view=msvc-170#visual-studio-2017-version-153-1)
+##### Visual Studio 2017 version 15.3
+Improvements to diagnostics in the compiler. For more information, see [Diagnostic Improvements in Visual Studio 2017 15.3.0](https://devblogs.microsoft.com/cppblog/diagnostic-improvements-in-vs2017-15-3-0/).
+[](https://learn.microsoft.com/en-us/cpp/overview/what-s-new-for-cpp-2017?view=msvc-170#visual-studio-2017-version-155-1)
+##### Visual Studio 2017 version 15.5
+Visual C++ runtime performance continues to improve through better generated code quality. Now you can just recompile your code, and your app runs faster. Some of the compiler optimizations are brand new, such as the vectorization of conditional scalar stores, the combining of calls `sin(x)` and `cos(x)` into a new `sincos(x)`, and the elimination of redundant instructions from the SSA optimizer. Other compiler optimizations are improvements to existing functionality, such as: vectorizer heuristics for conditional expressions, better loop optimizations, and float min/max codegen. The linker has a new and faster **`/OPT:ICF`**implementation, which can result in up to 9% link-time speedups, and there are other perf fixes in incremental linking. For more information, see[/OPT (Optimizations)](https://learn.microsoft.com/en-us/cpp/build/reference/opt-optimizations?view=msvc-170) and [/INCREMENTAL (Link Incrementally)](https://learn.microsoft.com/en-us/cpp/build/reference/incremental-link-incrementally?view=msvc-170).
+The Microsoft C++ compiler supports Intel's AVX-512. It has Vector Length instructions that bring new functions in AVX-512 to 128-bit and 256-bit wide registers.
+The [`/Zc:noexceptTypes-`](https://learn.microsoft.com/en-us/cpp/build/reference/zc-noexcepttypes?view=msvc-170) option can be used to revert to the C++14 version of **`noexcept`**while using C++17 mode in general. This option enables you to update your source code to conform to C++17 without having to rewrite all your`throw()` code at the same time. For more information, see [Dynamic exception specification removal and noexcept](https://learn.microsoft.com/en-us/cpp/overview/cpp-conformance-improvements-2017?view=msvc-170#noexcept_removal).
+[](https://learn.microsoft.com/en-us/cpp/overview/what-s-new-for-cpp-2017?view=msvc-170#visual-studio-2017-version-157-1)
+##### Visual Studio 2017 version 15.7
+  * New compiler switch [/Qspectre](https://learn.microsoft.com/en-us/cpp/build/reference/qspectre?view=msvc-170) to help mitigate against speculative execution side-channel attacks. For more information, see [Spectre mitigations in MSVC](https://devblogs.microsoft.com/cppblog/spectre-mitigations-in-msvc/).
+  * New diagnostic warning for Spectre mitigation. For more information, see [Spectre diagnostic in Visual Studio 2017 Version 15.7 Preview 4](https://devblogs.microsoft.com/cppblog/spectre-diagnostic-in-visual-studio-2017-version-15-7-preview-4/).
+  * A new value for /Zc, **`/Zc:__cplusplus`**, enables correct reporting of the C++ standard support. For example, when the switch is set and the compiler is in**`/std:c++17`**mode the value expands to**`201703L`**. For more information, see[MSVC now correctly reports __cplusplus](https://devblogs.microsoft.com/cppblog/msvc-now-correctly-reports-__cplusplus/).
+
+
+[](https://learn.microsoft.com/en-us/cpp/overview/what-s-new-for-cpp-2017?view=msvc-170#c-standard-library)

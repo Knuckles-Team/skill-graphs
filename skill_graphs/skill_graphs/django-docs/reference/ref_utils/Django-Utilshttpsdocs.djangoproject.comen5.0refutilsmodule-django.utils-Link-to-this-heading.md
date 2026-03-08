@@ -1,0 +1,2 @@
+# Django Utils[¶](https://docs.djangoproject.com/en/5.0/ref/utils/#module-django.utils "Link to this heading")
+This document covers all stable modules in `django.utils`. Most of the modules in `django.utils` are designed for internal use and only the following parts can be considered stable and thus backwards compatible as per the [internal release deprecation policy](https://docs.djangoproject.com/en/5.0/internals/release-process/#internal-release-deprecation-policy).

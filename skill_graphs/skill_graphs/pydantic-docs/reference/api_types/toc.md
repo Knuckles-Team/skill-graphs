@@ -1,0 +1,17 @@
+# Table of Contents
+
+- [api_types](<./api_types.md>)
+- [Pydantic Types](<./Pydantic-Types.md>)
+  - [pydantic.types [¶](https://docs.pydantic.dev/latest/api/types/#pydantic.types)](<./Pydantic-Types/pydantic.types-httpsdocs.pydantic.devlatestapitypespydantic.types.md>)
+- [A string value will cause an automatic import](<./A-string-value-will-cause-an-automatic-import.md>)
+- [You can use the imported function as you would expect](<./You-can-use-the-imported-function-as-you-would-expect.md>)
+- [A string whose value cannot be imported will raise an error](<./A-string-whose-value-cannot-be-imported-will-raise-an-error.md>)
+- [Actual python objects can be assigned as well](<./Actual-python-objects-can-be-assigned-as-well.md>)
+- [You can set default field value either as Python object:](<./You-can-set-default-field-value-either-as-Python-object.md>)
+- [or as a string value (but only if used with `validate_default=True`)](<./or-as-a-string-value-but-only-if-used-with-validate_defaultTrue.md>)
+- [note: this will not work!](<./note-this-will-not-work.md>)
+- [Create an instance](<./Create-an-instance.md>)
+- [Initialize the model with encoded data](<./Initialize-the-model-with-encoded-data.md>)
+- [Access decoded value](<./Access-decoded-value.md>)
+- [Serialize into the encoded form](<./Serialize-into-the-encoded-form.md>)
+- [Validate encoded data](<./Validate-encoded-data.md>)

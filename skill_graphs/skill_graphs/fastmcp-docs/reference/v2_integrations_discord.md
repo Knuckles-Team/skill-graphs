@@ -1,0 +1,333 @@
+[Skip to main content](https://gofastmcp.com/v2/integrations/discord#content-area)
+Deploy FastMCP servers for free on
+[FastMCP home page![light logo](https://mintcdn.com/fastmcp/Lu2sdJVHDyHdvswk/assets/brand/wordmark.png?fit=max&auto=format&n=Lu2sdJVHDyHdvswk&q=85&s=67680e9b1c641023511881a24f296077)![dark logo](https://mintcdn.com/fastmcp/Lu2sdJVHDyHdvswk/assets/brand/wordmark-white.png?fit=max&auto=format&n=Lu2sdJVHDyHdvswk&q=85&s=776d9c0663633c9b9782b9f3f9785960)](https://gofastmcp.com/)
+v2.14.5
+Search...
+Navigation
+Authentication
+Discord OAuth 🤝 FastMCP
+Search the docs...
+Ctrl K
+Documentation
+##### Get Started
+  * [Welcome!](https://gofastmcp.com/v2/getting-started/welcome)
+  * [Installation](https://gofastmcp.com/v2/getting-started/installation)
+  * [Quickstart](https://gofastmcp.com/v2/getting-started/quickstart)
+  * [ Updates NEW ](https://gofastmcp.com/v2/updates)
+
+
+##### Servers
+  * [Overview](https://gofastmcp.com/v2/servers/server)
+  * Core Components
+  * Advanced Features
+  * Authentication
+  * Deployment
+
+
+##### Clients
+  * Essentials
+  * Core Operations
+  * Advanced Features
+  * Authentication
+
+
+##### Integrations
+  * Authentication
+    * [ Auth0 NEW ](https://gofastmcp.com/v2/integrations/auth0)
+    * [ AuthKit NEW ](https://gofastmcp.com/v2/integrations/authkit)
+    * [ AWS Cognito NEW ](https://gofastmcp.com/v2/integrations/aws-cognito)
+    * [ Azure (Entra ID) NEW ](https://gofastmcp.com/v2/integrations/azure)
+    * [ Descope NEW ](https://gofastmcp.com/v2/integrations/descope)
+    * [ Discord NEW ](https://gofastmcp.com/v2/integrations/discord)
+    * [ GitHub NEW ](https://gofastmcp.com/v2/integrations/github)
+    * [ Google NEW ](https://gofastmcp.com/v2/integrations/google)
+    * [ Oracle NEW ](https://gofastmcp.com/v2/integrations/oci)
+    * [ Scalekit NEW ](https://gofastmcp.com/v2/integrations/scalekit)
+    * [ Supabase NEW ](https://gofastmcp.com/v2/integrations/supabase)
+    * [ WorkOS NEW ](https://gofastmcp.com/v2/integrations/workos)
+  * Authorization
+  * AI Assistants
+  * AI SDKs
+  * API Integration
+
+
+##### Patterns
+  * [Tool Transformation](https://gofastmcp.com/v2/patterns/tool-transformation)
+  * [Decorating Methods](https://gofastmcp.com/v2/patterns/decorating-methods)
+  * [CLI](https://gofastmcp.com/v2/patterns/cli)
+  * [Contrib Modules](https://gofastmcp.com/v2/patterns/contrib)
+  * [Testing](https://gofastmcp.com/v2/patterns/testing)
+
+
+##### Development
+  * [Contributing](https://gofastmcp.com/v2/development/contributing)
+  * [Tests](https://gofastmcp.com/v2/development/tests)
+  * [Releases](https://gofastmcp.com/v2/development/releases)
+  * [ Upgrade Guide NEW ](https://gofastmcp.com/v2/development/upgrade-guide)
+  * [Changelog](https://gofastmcp.com/v2/changelog)
+
+
+These are the docs for FastMCP 2.0. [FastMCP 3.0](https://gofastmcp.com/getting-started/welcome) is now available.
+On this page
+  * [Configuration](https://gofastmcp.com/v2/integrations/discord#configuration)
+  * [Prerequisites](https://gofastmcp.com/v2/integrations/discord#prerequisites)
+  * [Step 1: Create a Discord Application](https://gofastmcp.com/v2/integrations/discord#step-1-create-a-discord-application)
+  * [Step 2: FastMCP Configuration](https://gofastmcp.com/v2/integrations/discord#step-2-fastmcp-configuration)
+  * [Testing](https://gofastmcp.com/v2/integrations/discord#testing)
+  * [Running the Server](https://gofastmcp.com/v2/integrations/discord#running-the-server)
+  * [Testing with a Client](https://gofastmcp.com/v2/integrations/discord#testing-with-a-client)
+  * [Discord Scopes](https://gofastmcp.com/v2/integrations/discord#discord-scopes)
+  * [Production Configuration](https://gofastmcp.com/v2/integrations/discord#production-configuration)
+  * [Environment Variables](https://gofastmcp.com/v2/integrations/discord#environment-variables)
+  * [Provider Selection](https://gofastmcp.com/v2/integrations/discord#provider-selection)
+  * [Discord-Specific Configuration](https://gofastmcp.com/v2/integrations/discord#discord-specific-configuration)
+
+
+Authentication
+# Discord OAuth 🤝 FastMCP
+Copy page
+Secure your FastMCP server with Discord OAuth
+Copy page
+`2.13.2` This guide shows you how to secure your FastMCP server using **Discord OAuth**. Since Discord doesn’t support Dynamic Client Registration, this integration uses the [**OAuth Proxy**](https://gofastmcp.com/v2/servers/auth/oauth-proxy) pattern to bridge Discord’s traditional OAuth with MCP’s authentication requirements.
+##
+[​](https://gofastmcp.com/v2/integrations/discord#configuration)
+Configuration
+###
+[​](https://gofastmcp.com/v2/integrations/discord#prerequisites)
+Prerequisites
+Before you begin, you will need:
+  1. A
+  2. Your FastMCP server’s URL (can be localhost for development, e.g., `http://localhost:8000`)
+
+
+###
+[​](https://gofastmcp.com/v2/integrations/discord#step-1-create-a-discord-application)
+Step 1: Create a Discord Application
+Create an application in the Discord Developer Portal to get the credentials needed for authentication:
+1
+[](https://gofastmcp.com/v2/integrations/discord)
+Navigate to Discord Developer Portal
+Go to the Click **“New Application”** and give it a name users will recognize (e.g., “My FastMCP Server”).
+2
+[](https://gofastmcp.com/v2/integrations/discord)
+Configure OAuth2 Settings
+In the left sidebar, click **“OAuth2”**.In the **Redirects** section, click **“Add Redirect”** and enter your callback URL:
+  * For development: `http://localhost:8000/auth/callback`
+  * For production: `https://your-domain.com/auth/callback`
+
+
+The redirect URL must match exactly. The default path is `/auth/callback`, but you can customize it using the `redirect_path` parameter. Discord allows `http://localhost` URLs for development. For production, use HTTPS.
+3
+[](https://gofastmcp.com/v2/integrations/discord)
+Save Your Credentials
+On the same OAuth2 page, you’ll find:
+  * **Client ID** : A numeric string like `12345`
+  * **Client Secret** : Click “Reset Secret” to generate one
+
+
+Store these credentials securely. Never commit them to version control. Use environment variables or a secrets manager in production.
+###
+[​](https://gofastmcp.com/v2/integrations/discord#step-2-fastmcp-configuration)
+Step 2: FastMCP Configuration
+Create your FastMCP server using the `DiscordProvider`, which handles Discord’s OAuth flow automatically:
+server.py
+Copy
+```
+from fastmcp import FastMCP
+from fastmcp.server.auth.providers.discord import DiscordProvider
+
+auth_provider = DiscordProvider(
+    client_id="12345",      # Your Discord Application Client ID
+    client_secret="your-client-secret",    # Your Discord OAuth Client Secret
+    base_url="http://localhost:8000",      # Must match your OAuth configuration
+)
+
+mcp = FastMCP(name="Discord Secured App", auth=auth_provider)
+
+@mcp.tool
+async def get_user_info() -> dict:
+    """Returns information about the authenticated Discord user."""
+    from fastmcp.server.dependencies import get_access_token
+
+    token = get_access_token()
+    return {
+        "discord_id": token.claims.get("sub"),
+        "username": token.claims.get("username"),
+        "avatar": token.claims.get("avatar"),
+    }
+
+```
+
+##
+[​](https://gofastmcp.com/v2/integrations/discord#testing)
+Testing
+###
+[​](https://gofastmcp.com/v2/integrations/discord#running-the-server)
+Running the Server
+Start your FastMCP server with HTTP transport to enable OAuth flows:
+Copy
+```
+fastmcp run server.py --transport http --port 8000
+
+```
+
+Your server is now running and protected by Discord OAuth authentication.
+###
+[​](https://gofastmcp.com/v2/integrations/discord#testing-with-a-client)
+Testing with a Client
+Create a test client that authenticates with your Discord-protected server:
+test_client.py
+Copy
+```
+from fastmcp import Client
+import asyncio
+
+async def main():
+    async with Client("http://localhost:8000/mcp", auth="oauth") as client:
+        print("✓ Authenticated with Discord!")
+
+        result = await client.call_tool("get_user_info")
+        print(f"Discord user: {result['username']}")
+
+if __name__ == "__main__":
+    asyncio.run(main())
+
+```
+
+When you run the client for the first time:
+  1. Your browser will open to Discord’s authorization page
+  2. Sign in with your Discord account and authorize the app
+  3. After authorization, you’ll be redirected back
+  4. The client receives the token and can make authenticated requests
+
+
+The client caches tokens locally, so you won’t need to re-authenticate for subsequent runs unless the token expires or you explicitly clear the cache.
+##
+[​](https://gofastmcp.com/v2/integrations/discord#discord-scopes)
+Discord Scopes
+Discord OAuth supports several scopes for accessing different types of user data:
+Scope | Description
+---|---
+`identify` | Access username, avatar, and discriminator (default)
+`email` | Access the user’s email address
+`guilds` | Access the user’s list of servers
+`guilds.join` | Ability to add the user to a server
+To request additional scopes:
+Copy
+```
+auth_provider = DiscordProvider(
+    client_id="...",
+    client_secret="...",
+    base_url="http://localhost:8000",
+    required_scopes=["identify", "email"],
+)
+
+```
+
+##
+[​](https://gofastmcp.com/v2/integrations/discord#production-configuration)
+Production Configuration
+For production deployments with persistent token management across server restarts, configure `jwt_signing_key` and `client_storage`:
+server.py
+Copy
+```
+import os
+from fastmcp import FastMCP
+from fastmcp.server.auth.providers.discord import DiscordProvider
+from key_value.aio.stores.redis import RedisStore
+from key_value.aio.wrappers.encryption import FernetEncryptionWrapper
+from cryptography.fernet import Fernet
+
+auth_provider = DiscordProvider(
+    client_id="12345",
+    client_secret=os.environ["DISCORD_CLIENT_SECRET"],
+    base_url="https://your-production-domain.com",
+
+    jwt_signing_key=os.environ["JWT_SIGNING_KEY"],
+    client_storage=FernetEncryptionWrapper(
+        key_value=RedisStore(
+            host=os.environ["REDIS_HOST"],
+            port=int(os.environ["REDIS_PORT"])
+        ),
+        fernet=Fernet(os.environ["STORAGE_ENCRYPTION_KEY"])
+    )
+)
+
+mcp = FastMCP(name="Production Discord App", auth=auth_provider)
+
+```
+
+Parameters (`jwt_signing_key` and `client_storage`) work together to ensure tokens and client registrations survive server restarts. **Wrap your storage in`FernetEncryptionWrapper` to encrypt sensitive OAuth tokens at rest** - without it, tokens are stored in plaintext. Store secrets in environment variables and use a persistent storage backend like Redis for distributed deployments.For complete details on these parameters, see the [OAuth Proxy documentation](https://gofastmcp.com/v2/servers/auth/oauth-proxy#configuration-parameters).
+##
+[​](https://gofastmcp.com/v2/integrations/discord#environment-variables)
+Environment Variables
+For production deployments, use environment variables instead of hardcoding credentials.
+###
+[​](https://gofastmcp.com/v2/integrations/discord#provider-selection)
+Provider Selection
+Setting this environment variable allows the Discord provider to be used automatically without explicitly instantiating it in code.
+[​](https://gofastmcp.com/v2/integrations/discord#param-fastmcp-server-auth)
+FASTMCP_SERVER_AUTH
+default:"Not set"
+Set to `fastmcp.server.auth.providers.discord.DiscordProvider` to use Discord authentication.
+###
+[​](https://gofastmcp.com/v2/integrations/discord#discord-specific-configuration)
+Discord-Specific Configuration
+These environment variables provide default values for the Discord provider, whether it’s instantiated manually or configured via `FASTMCP_SERVER_AUTH`.
+[​](https://gofastmcp.com/v2/integrations/discord#param-fastmcp-server-auth-discord-client-id)
+FASTMCP_SERVER_AUTH_DISCORD_CLIENT_ID
+required
+Your Discord Application Client ID (e.g., `12345`)
+[​](https://gofastmcp.com/v2/integrations/discord#param-fastmcp-server-auth-discord-client-secret)
+FASTMCP_SERVER_AUTH_DISCORD_CLIENT_SECRET
+required
+Your Discord OAuth Client Secret
+[​](https://gofastmcp.com/v2/integrations/discord#param-fastmcp-server-auth-discord-base-url)
+FASTMCP_SERVER_AUTH_DISCORD_BASE_URL
+default:"http://localhost:8000"
+Public URL where OAuth endpoints will be accessible (includes any mount path)
+[​](https://gofastmcp.com/v2/integrations/discord#param-fastmcp-server-auth-discord-issuer-url)
+FASTMCP_SERVER_AUTH_DISCORD_ISSUER_URL
+default:"Uses BASE_URL"
+Issuer URL for OAuth metadata (defaults to `BASE_URL`). Set to root-level URL when mounting under a path prefix to avoid 404 logs. See [HTTP Deployment guide](https://gofastmcp.com/v2/deployment/http#mounting-authenticated-servers) for details.
+[​](https://gofastmcp.com/v2/integrations/discord#param-fastmcp-server-auth-discord-redirect-path)
+FASTMCP_SERVER_AUTH_DISCORD_REDIRECT_PATH
+default:"/auth/callback"
+Redirect path configured in your Discord OAuth settings
+[​](https://gofastmcp.com/v2/integrations/discord#param-fastmcp-server-auth-discord-required-scopes)
+FASTMCP_SERVER_AUTH_DISCORD_REQUIRED_SCOPES
+default:"[\"identify\"]"
+Comma-, space-, or JSON-separated list of required Discord scopes (e.g., `identify,email` or `["identify","email"]`)
+[​](https://gofastmcp.com/v2/integrations/discord#param-fastmcp-server-auth-discord-timeout-seconds)
+FASTMCP_SERVER_AUTH_DISCORD_TIMEOUT_SECONDS
+default:"10"
+HTTP request timeout for Discord API calls
+Example `.env` file:
+Copy
+```
+FASTMCP_SERVER_AUTH=fastmcp.server.auth.providers.discord.DiscordProvider
+
+FASTMCP_SERVER_AUTH_DISCORD_CLIENT_ID=12345
+FASTMCP_SERVER_AUTH_DISCORD_CLIENT_SECRET=your-client-secret
+FASTMCP_SERVER_AUTH_DISCORD_BASE_URL=https://your-server.com
+FASTMCP_SERVER_AUTH_DISCORD_REQUIRED_SCOPES=identify,email
+
+```
+
+With environment variables set, your server code simplifies to:
+server.py
+Copy
+```
+from fastmcp import FastMCP
+
+mcp = FastMCP(name="Discord Secured App")
+
+@mcp.tool
+async def protected_tool(query: str) -> str:
+    """A tool that requires Discord authentication to access."""
+    return f"Processing authenticated request: {query}"
+
+```
+
+[ Descope 🤝 FastMCP Previous ](https://gofastmcp.com/v2/integrations/descope)[ GitHub OAuth 🤝 FastMCP Next ](https://gofastmcp.com/v2/integrations/github)
+Ctrl+I

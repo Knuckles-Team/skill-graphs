@@ -1,0 +1,230 @@
+[ Skip to content ](https://docs.pydantic.dev/latest/pydantic_people/#pydantic-people)
+  * [ Get Started ](https://docs.pydantic.dev/latest/)
+  * [ Concepts ](https://docs.pydantic.dev/latest/concepts/models/)
+  * [ API Documentation ](https://docs.pydantic.dev/latest/api/base_model/)
+  * [ Internals ](https://docs.pydantic.dev/latest/internals/architecture/)
+  * [ Examples ](https://docs.pydantic.dev/latest/examples/files/)
+  * [ Error Messages ](https://docs.pydantic.dev/latest/errors/errors/)
+  * [ Integrations ](https://docs.pydantic.dev/latest/integrations/logfire/)
+  * [ Blog ](https://blog.pydantic.dev/)
+  * [ Pydantic People ](https://docs.pydantic.dev/latest/pydantic_people/)
+
+
+[ ![logo](https://docs.pydantic.dev/latest/logo-white.svg) ](https://docs.pydantic.dev/latest/ "Pydantic Validation") Pydantic Validation
+  * Get Started
+    * [ Welcome to Pydantic  ](https://docs.pydantic.dev/latest/)
+    * [ Why use Pydantic  ](https://docs.pydantic.dev/latest/why/)
+    * [ Help with Pydantic  ](https://docs.pydantic.dev/latest/help_with_pydantic/)
+    * [ Installation  ](https://docs.pydantic.dev/latest/install/)
+    * [ Migration Guide  ](https://docs.pydantic.dev/latest/migration/)
+    * [ Version Policy  ](https://docs.pydantic.dev/latest/version-policy/)
+    * [ Contributing  ](https://docs.pydantic.dev/latest/contributing/)
+    * [ Changelog  ](https://docs.pydantic.dev/latest/changelog/)
+  * Concepts
+    * [ Models  ](https://docs.pydantic.dev/latest/concepts/models/)
+    * [ Fields  ](https://docs.pydantic.dev/latest/concepts/fields/)
+    * [ JSON Schema  ](https://docs.pydantic.dev/latest/concepts/json_schema/)
+    * [ JSON  ](https://docs.pydantic.dev/latest/concepts/json/)
+    * [ Types  ](https://docs.pydantic.dev/latest/concepts/types/)
+    * [ Unions  ](https://docs.pydantic.dev/latest/concepts/unions/)
+    * [ Alias  ](https://docs.pydantic.dev/latest/concepts/alias/)
+    * [ Configuration  ](https://docs.pydantic.dev/latest/concepts/config/)
+    * [ Serialization  ](https://docs.pydantic.dev/latest/concepts/serialization/)
+    * [ Validators  ](https://docs.pydantic.dev/latest/concepts/validators/)
+    * [ Dataclasses  ](https://docs.pydantic.dev/latest/concepts/dataclasses/)
+    * [ Forward Annotations  ](https://docs.pydantic.dev/latest/concepts/forward_annotations/)
+    * [ Strict Mode  ](https://docs.pydantic.dev/latest/concepts/strict_mode/)
+    * [ Type Adapter  ](https://docs.pydantic.dev/latest/concepts/type_adapter/)
+    * [ Validation Decorator  ](https://docs.pydantic.dev/latest/concepts/validation_decorator/)
+    * [ Conversion Table  ](https://docs.pydantic.dev/latest/concepts/conversion_table/)
+    * [ Settings Management  ](https://docs.pydantic.dev/latest/concepts/pydantic_settings/)
+    * [ Performance  ](https://docs.pydantic.dev/latest/concepts/performance/)
+    * [ Experimental  ](https://docs.pydantic.dev/latest/concepts/experimental/)
+  * API Documentation
+    * Pydantic
+      * [ BaseModel  ](https://docs.pydantic.dev/latest/api/base_model/)
+      * [ RootModel  ](https://docs.pydantic.dev/latest/api/root_model/)
+      * [ Pydantic Dataclasses  ](https://docs.pydantic.dev/latest/api/dataclasses/)
+      * [ TypeAdapter  ](https://docs.pydantic.dev/latest/api/type_adapter/)
+      * [ Validate Call  ](https://docs.pydantic.dev/latest/api/validate_call/)
+      * [ Fields  ](https://docs.pydantic.dev/latest/api/fields/)
+      * [ Aliases  ](https://docs.pydantic.dev/latest/api/aliases/)
+      * [ Configuration  ](https://docs.pydantic.dev/latest/api/config/)
+      * [ JSON Schema  ](https://docs.pydantic.dev/latest/api/json_schema/)
+      * [ Errors  ](https://docs.pydantic.dev/latest/api/errors/)
+      * [ Functional Validators  ](https://docs.pydantic.dev/latest/api/functional_validators/)
+      * [ Functional Serializers  ](https://docs.pydantic.dev/latest/api/functional_serializers/)
+      * [ Standard Library Types  ](https://docs.pydantic.dev/latest/api/standard_library_types/)
+      * [ Pydantic Types  ](https://docs.pydantic.dev/latest/api/types/)
+      * [ Network Types  ](https://docs.pydantic.dev/latest/api/networks/)
+      * [ Version Information  ](https://docs.pydantic.dev/latest/api/version/)
+      * [ Annotated Handlers  ](https://docs.pydantic.dev/latest/api/annotated_handlers/)
+      * [ Experimental  ](https://docs.pydantic.dev/latest/api/experimental/)
+    * Pydantic Core
+      * [ pydantic_core  ](https://docs.pydantic.dev/latest/api/pydantic_core/)
+      * [ pydantic_core.core_schema  ](https://docs.pydantic.dev/latest/api/pydantic_core_schema/)
+    * [ Pydantic Settings  ](https://docs.pydantic.dev/latest/api/pydantic_settings/)
+    * Pydantic Extra Types
+      * [ Color  ](https://docs.pydantic.dev/latest/api/pydantic_extra_types_color/)
+      * [ Country  ](https://docs.pydantic.dev/latest/api/pydantic_extra_types_country/)
+      * [ Payment  ](https://docs.pydantic.dev/latest/api/pydantic_extra_types_payment/)
+      * [ Phone Numbers  ](https://docs.pydantic.dev/latest/api/pydantic_extra_types_phone_numbers/)
+      * [ Routing Numbers  ](https://docs.pydantic.dev/latest/api/pydantic_extra_types_routing_numbers/)
+      * [ Coordinate  ](https://docs.pydantic.dev/latest/api/pydantic_extra_types_coordinate/)
+      * [ Mac Address  ](https://docs.pydantic.dev/latest/api/pydantic_extra_types_mac_address/)
+      * [ ISBN  ](https://docs.pydantic.dev/latest/api/pydantic_extra_types_isbn/)
+      * [ Pendulum  ](https://docs.pydantic.dev/latest/api/pydantic_extra_types_pendulum_dt/)
+      * [ Currency  ](https://docs.pydantic.dev/latest/api/pydantic_extra_types_currency_code/)
+      * [ Language  ](https://docs.pydantic.dev/latest/api/pydantic_extra_types_language_code/)
+      * [ Script Code  ](https://docs.pydantic.dev/latest/api/pydantic_extra_types_script_code/)
+      * [ Semantic Version  ](https://docs.pydantic.dev/latest/api/pydantic_extra_types_semantic_version/)
+      * [ Timezone Name  ](https://docs.pydantic.dev/latest/api/pydantic_extra_types_timezone_name/)
+      * [ ULID  ](https://docs.pydantic.dev/latest/api/pydantic_extra_types_ulid/)
+  * Internals
+    * [ Architecture  ](https://docs.pydantic.dev/latest/internals/architecture/)
+    * [ Resolving Annotations  ](https://docs.pydantic.dev/latest/internals/resolving_annotations/)
+  * Examples
+    * [ Validating File Data  ](https://docs.pydantic.dev/latest/examples/files/)
+    * [ Web and API Requests  ](https://docs.pydantic.dev/latest/examples/requests/)
+    * [ Queues  ](https://docs.pydantic.dev/latest/examples/queues/)
+    * [ Databases  ](https://docs.pydantic.dev/latest/examples/orms/)
+    * [ Custom Validators  ](https://docs.pydantic.dev/latest/examples/custom_validators/)
+    * [ Dynamic models  ](https://docs.pydantic.dev/latest/examples/dynamic_models/)
+  * Error Messages
+    * [ Error Handling  ](https://docs.pydantic.dev/latest/errors/errors/)
+    * [ Validation Errors  ](https://docs.pydantic.dev/latest/errors/validation_errors/)
+    * [ Usage Errors  ](https://docs.pydantic.dev/latest/errors/usage_errors/)
+  * Integrations
+    * [ Pydantic Logfire  ](https://docs.pydantic.dev/latest/integrations/logfire/)
+    * [ LLMs  ](https://docs.pydantic.dev/latest/integrations/llms/)
+    * Dev Tools
+      * [ Mypy  ](https://docs.pydantic.dev/latest/integrations/mypy/)
+      * [ Pyrefly  ](https://docs.pydantic.dev/latest/integrations/pyrefly/)
+      * [ PyCharm  ](https://docs.pydantic.dev/latest/integrations/pycharm/)
+      * [ Hypothesis  ](https://docs.pydantic.dev/latest/integrations/hypothesis/)
+      * [ Visual Studio Code  ](https://docs.pydantic.dev/latest/integrations/visual_studio_code/)
+      * [ datamodel-code-generator  ](https://docs.pydantic.dev/latest/integrations/datamodel_code_generator/)
+      * [ devtools  ](https://docs.pydantic.dev/latest/integrations/devtools/)
+      * [ Rich  ](https://docs.pydantic.dev/latest/integrations/rich/)
+      * [ Linting  ](https://docs.pydantic.dev/latest/integrations/linting/)
+      * [ Documentation  ](https://docs.pydantic.dev/latest/integrations/documentation/)
+    * Production Tools
+      * [ AWS Lambda  ](https://docs.pydantic.dev/latest/integrations/aws_lambda/)
+  * [ Blog  ](https://blog.pydantic.dev/)
+  * Pydantic People  [ Pydantic People  ](https://docs.pydantic.dev/latest/pydantic_people/)
+    * [ Maintainers  ](https://docs.pydantic.dev/latest/pydantic_people/#maintainers)
+    * [ Experts  ](https://docs.pydantic.dev/latest/pydantic_people/#experts)
+      * [ Most active users last month  ](https://docs.pydantic.dev/latest/pydantic_people/#most-active-users-last-month)
+    * [ Top contributors  ](https://docs.pydantic.dev/latest/pydantic_people/#top-contributors)
+    * [ Top Reviewers  ](https://docs.pydantic.dev/latest/pydantic_people/#top-reviewers)
+    * [ About the data  ](https://docs.pydantic.dev/latest/pydantic_people/#about-the-data)
+
+
+  * [ Maintainers  ](https://docs.pydantic.dev/latest/pydantic_people/#maintainers)
+  * [ Experts  ](https://docs.pydantic.dev/latest/pydantic_people/#experts)
+    * [ Most active users last month  ](https://docs.pydantic.dev/latest/pydantic_people/#most-active-users-last-month)
+  * [ Top contributors  ](https://docs.pydantic.dev/latest/pydantic_people/#top-contributors)
+  * [ Top Reviewers  ](https://docs.pydantic.dev/latest/pydantic_people/#top-reviewers)
+  * [ About the data  ](https://docs.pydantic.dev/latest/pydantic_people/#about-the-data)
+
+
+# Pydantic People[¶](https://docs.pydantic.dev/latest/pydantic_people/#pydantic-people)
+Pydantic has an amazing community of contributors, reviewers, and experts that help propel the project forward. Here, we celebrate those people and their contributions.
+## Maintainers[¶](https://docs.pydantic.dev/latest/pydantic_people/#maintainers)
+These are the current maintainers of the Pydantic repository. Feel free to tag us if you have questions, review requests, or feature requests for which you'd like feedback!
+## Experts[¶](https://docs.pydantic.dev/latest/pydantic_people/#experts)
+These are the users that have helped others the most with questions in GitHub through _all time_.
+Questions replied: 143
+Questions replied: 96
+Questions replied: 38
+Questions replied: 21
+Questions replied: 17
+Questions replied: 13
+Questions replied: 13
+Questions replied: None
+### Most active users last month[¶](https://docs.pydantic.dev/latest/pydantic_people/#most-active-users-last-month)
+These are the users that have helped others the most with questions in GitHub during the last month.
+## Top contributors[¶](https://docs.pydantic.dev/latest/pydantic_people/#top-contributors)
+These are the users that have created the most pull requests that have been _merged_.
+Contributions: 382
+Contributions: 122
+Contributions: 75
+Contributions: 71
+Contributions: 49
+Contributions: 46
+Contributions: 22
+Contributions: 19
+Contributions: 17
+Contributions: 16
+Contributions: 15
+Contributions: 12
+Contributions: 12
+Contributions: 12
+Contributions: 12
+Contributions: 10
+Contributions: 9
+Contributions: 8
+Contributions: 8
+Contributions: 7
+Contributions: 7
+Contributions: 7
+Contributions: 6
+Contributions: 6
+Contributions: 6
+Contributions: 6
+Contributions: 5
+Contributions: 5
+Contributions: 5
+Contributions: 5
+Contributions: 4
+Contributions: 4
+Contributions: 4
+Contributions: 4
+Contributions: 4
+Contributions: 4
+Contributions: 4
+Contributions: 4
+Contributions: 4
+Contributions: 4
+## Top Reviewers[¶](https://docs.pydantic.dev/latest/pydantic_people/#top-reviewers)
+These are the users that have reviewed the most Pull Requests from others, assisting with code quality, documentation, bug fixes, feature requests, etc.
+Reviews: 691
+Reviews: 211
+Reviews: 103
+Reviews: 77
+Reviews: 57
+Reviews: 44
+Reviews: 42
+Reviews: 27
+Reviews: 17
+Reviews: 17
+Reviews: 16
+Reviews: 15
+Reviews: 11
+Reviews: 10
+Reviews: 10
+Reviews: 10
+Reviews: 8
+Reviews: 7
+Reviews: 7
+Reviews: 6
+Reviews: 6
+Reviews: 6
+Reviews: 5
+Reviews: 5
+Reviews: 5
+Reviews: 5
+Reviews: 4
+Reviews: 4
+Reviews: 4
+Reviews: 4
+Reviews: 4
+Reviews: 4
+Reviews: 4
+Reviews: 4
+## About the data[¶](https://docs.pydantic.dev/latest/pydantic_people/#about-the-data)
+The data displayed above is calculated monthly via the Github GraphQL API (see
+Depending on changing conditions, the thresholds for the different categories of contributors may change in the future.
+Was this page helpful?
+Thanks for your feedback!
+Thanks for your feedback!

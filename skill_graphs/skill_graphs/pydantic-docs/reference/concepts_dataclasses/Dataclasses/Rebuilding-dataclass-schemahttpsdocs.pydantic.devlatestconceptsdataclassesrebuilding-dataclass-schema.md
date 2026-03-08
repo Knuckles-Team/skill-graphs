@@ -1,0 +1,2 @@
+## Rebuilding dataclass schema[¶](https://docs.pydantic.dev/latest/concepts/dataclasses/#rebuilding-dataclass-schema)
+The [`rebuild_dataclass()`](https://docs.pydantic.dev/latest/api/dataclasses/#pydantic.dataclasses.rebuild_dataclass) function can be used to rebuild the core schema of the dataclass. See the [rebuilding model schema](https://docs.pydantic.dev/latest/concepts/models/#rebuilding-model-schema) section for more details.

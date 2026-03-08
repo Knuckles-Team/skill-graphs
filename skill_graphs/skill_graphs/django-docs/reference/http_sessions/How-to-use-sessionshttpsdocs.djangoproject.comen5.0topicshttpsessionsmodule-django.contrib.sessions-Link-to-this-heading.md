@@ -1,0 +1,2 @@
+# How to use sessions[¶](https://docs.djangoproject.com/en/5.0/topics/http/sessions/#module-django.contrib.sessions "Link to this heading")
+Django provides full support for anonymous sessions. The session framework lets you store and retrieve arbitrary data on a per-site-visitor basis. It stores data on the server side and abstracts the sending and receiving of cookies. Cookies contain a session ID – not the data itself (unless you’re using the [cookie based backend](https://docs.djangoproject.com/en/5.0/topics/http/sessions/#cookie-session-backend)).

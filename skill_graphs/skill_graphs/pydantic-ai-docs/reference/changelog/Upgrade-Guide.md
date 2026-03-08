@@ -1,0 +1,2 @@
+# Upgrade Guide
+In September 2025, Pydantic AI reached V1, which means we're committed to API stability: we will not introduce changes that break your code until V2. For more information, review our [Version Policy](https://ai.pydantic.dev/version-policy/).
