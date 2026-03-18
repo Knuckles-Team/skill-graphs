@@ -34,7 +34,7 @@ except ImportError:
     AsyncAnthropic = None
     AnthropicProvider = None
 
-__version__ = "0.1.24"
+__version__ = "0.1.25"
 
 
 def get_skill_graph_package_name() -> str:
