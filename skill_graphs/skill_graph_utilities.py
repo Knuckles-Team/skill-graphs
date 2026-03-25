@@ -34,7 +34,7 @@ except ImportError:
     AsyncAnthropic = None
     AnthropicProvider = None
 
-__version__ = "0.1.30"
+__version__ = "0.1.31"
 
 
 def get_skill_graph_package_name() -> str:
@@ -83,9 +83,9 @@ def _get_enabled_paths(sub_dir: str, default_enabled: bool = True) -> list[str]:
     return enabled_paths
 
 
-def get_skill_graphs_path() -> list[str]:
+def get_skill_graphs_path(default_enabled: bool = False) -> list[str]:
     """
     Returns a list of absolute paths pointing to the individual enabled skill-graphs
     within the repository package.
     """
-    return _get_enabled_paths("skill_graphs", default_enabled=False)
+    return _get_enabled_paths("skill_graphs", default_enabled=default_enabled)
