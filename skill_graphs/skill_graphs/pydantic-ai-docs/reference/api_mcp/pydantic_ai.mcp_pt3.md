@@ -43,7 +43,7 @@ Raises:
 Type | Description
 ---|---
 `MCPError[](https://ai.pydantic.dev/api/mcp/#pydantic_ai.mcp.MCPError "MCPError \(pydantic_ai.mcp.MCPError\)")` |  If the server returns an error.
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 601
 602
@@ -119,7 +119,7 @@ Raises:
 Type | Description
 ---|---
 `MCPError[](https://ai.pydantic.dev/api/mcp/#pydantic_ai.mcp.MCPError "MCPError \(pydantic_ai.mcp.MCPError\)")` |  If the server returns an error.
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 628
 629
@@ -206,7 +206,7 @@ Raises:
 Type | Description
 ---|---
 `MCPError[](https://ai.pydantic.dev/api/mcp/#pydantic_ai.mcp.MCPError "MCPError \(pydantic_ai.mcp.MCPError\)")` |  If the server returns an error.
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 651
 652
@@ -277,7 +277,7 @@ __aenter__() ->
 Enter the MCP server context.
 This will initialize the connection to the server. If this server is an [`MCPServerStdio`](https://ai.pydantic.dev/api/mcp/#pydantic_ai.mcp.MCPServerStdio "MCPServerStdio"), the server will first be started as a subprocess.
 This is a no-op if the MCP server has already been entered.
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 679
 680
@@ -382,7 +382,7 @@ agent = Agent('openai:gpt-5.2', toolsets=[server])
 
 ```
 
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 815
 816
@@ -796,7 +796,7 @@ Name | Type | Description | Default
   "). |  `True`
 `id` |  |  An optional unique ID for the MCP server. An MCP server needs to have an ID in order to be used in a durable execution environment like Temporal, in which case the ID will be used to identify the server's activities within the workflow. |  `None`
 `client_info` |  |  Information describing the MCP client implementation. |  `None`
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 869
 870

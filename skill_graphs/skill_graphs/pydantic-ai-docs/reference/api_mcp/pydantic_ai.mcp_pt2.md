@@ -531,7 +531,7 @@ client_streams() -> [
 ```
 
 Create the streams for the MCP server.
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 422
 423
@@ -600,7 +600,7 @@ list_tools() -> []
 Retrieve tools that are currently active on the server.
 Tools are cached by default, with cache invalidation on: - `notifications/tools/list_changed` notifications from the server - `__aexit__` when the last context exits
 Set `cache_tools=False` for servers that change tools without sending notifications.
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 482
 483
@@ -677,7 +677,7 @@ Raises:
 Type | Description
 ---|---
 `ModelRetry[](https://ai.pydantic.dev/api/exceptions/#pydantic_ai.exceptions.ModelRetry "ModelRetry \(pydantic_ai.exceptions.ModelRetry\)")` |  If the tool call fails.
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 500
 501

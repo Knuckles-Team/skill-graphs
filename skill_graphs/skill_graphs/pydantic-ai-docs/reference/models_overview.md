@@ -320,7 +320,7 @@ shared_limiter = ConcurrencyLimiter(max_running=10, name='openai-pool')
 
 # Both models share the same concurrency limit
 model1 = ConcurrencyLimitedModel('openai:gpt-4o', limiter=shared_limiter)
-model2 = ConcurrencyLimitedModel('openai:gpt-4o-mini', limiter=shared_limiter)
+model2 = ConcurrencyLimitedModel('openai:nvidia/nemotron-3-super', limiter=shared_limiter)
 
 agent1 = Agent(model1)
 agent2 = Agent(model2)

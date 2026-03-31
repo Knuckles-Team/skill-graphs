@@ -820,7 +820,7 @@ Bases: `AbstractToolset[](https://ai.pydantic.dev/api/toolsets/#pydantic_ai.tool
 A FastMCP Toolset that uses the FastMCP Client to call tools from a local or remote MCP Server.
 The Toolset can accept a FastMCP Client, a FastMCP Transport, or any other object which a FastMCP Transport can be created from.
 See https://gofastmcp.com/clients/transports for a full list of transports available.
-Source code in `pydantic_ai_slim/pydantic_ai/toolsets/fastmcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/toolsets/fastmcp_server.py`
 ```
  57
  58

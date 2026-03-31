@@ -42,7 +42,7 @@ agent = Agent('openai:gpt-5.2', toolsets=[server])
 
 ```
 
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 1125
 1126
@@ -224,7 +224,7 @@ agent = Agent('openai:gpt-5.2', toolsets=[server])
 
 ```
 
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 1205
 1206
@@ -288,7 +288,7 @@ agent = Agent('openai:gpt-5.2', toolsets=[server])
 
 ```
 
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 1227
 1228
@@ -476,7 +476,7 @@ Allows wrapping an MCP server tool call to customize it, including adding extra 
 ###  MCPServerConfig
 Bases: `BaseModel[](https://docs.pydantic.dev/latest/api/base_model/#pydantic.BaseModel "pydantic.BaseModel")`
 Configuration for MCP servers.
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 1327
 1328
@@ -540,7 +540,7 @@ Type | Description
 |  If the configuration file does not exist.
 `ValidationError` |  If the configuration file does not match the schema.
 |  If an environment variable referenced in the configuration is not defined and no default value is provided.
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 1388
 1389

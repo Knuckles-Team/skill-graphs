@@ -272,7 +272,7 @@ from pydantic_ai import ConcurrencyLimiter  # noqa E402
 
 shared_limiter = ConcurrencyLimiter(max_running=10, name='openai-pool')
 model1 = ConcurrencyLimitedModel('openai:gpt-4o', limiter=shared_limiter)
-model2 = ConcurrencyLimitedModel('openai:gpt-4o-mini', limiter=shared_limiter)
+model2 = ConcurrencyLimitedModel('openai:nvidia/nemotron-3-super', limiter=shared_limiter)
 
 ```
 
@@ -392,7 +392,7 @@ class ConcurrencyLimitedModel(WrapperModel):
 
     shared_limiter = ConcurrencyLimiter(max_running=10, name='openai-pool')
     model1 = ConcurrencyLimitedModel('openai:gpt-4o', limiter=shared_limiter)
-    model2 = ConcurrencyLimitedModel('openai:gpt-4o-mini', limiter=shared_limiter)
+    model2 = ConcurrencyLimitedModel('openai:nvidia/nemotron-3-super', limiter=shared_limiter)
 ```
     """
 

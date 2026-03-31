@@ -3,7 +3,7 @@
 Bases:
 Raised when an MCP server returns an error response.
 This exception wraps error responses from MCP servers, following the ErrorData schema from the MCP specification.
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 63
 64
@@ -117,7 +117,7 @@ Parameters:
 Name | Type | Description | Default
 ---|---|---|---
 `error` |  |  An McpError from the MCP SDK. |  _required_
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 85
 86
@@ -148,7 +148,7 @@ def from_mcp_sdk(cls, error: mcp_exceptions.McpError) -> MCPError:
 ###  ResourceAnnotations `dataclass`
 Additional properties describing MCP entities.
 See the
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 102
 103
@@ -236,7 +236,7 @@ Parameters:
 Name | Type | Description | Default
 ---|---|---|---
 `mcp_annotations` |  `Annotations` |  The MCP SDK annotations object. |  _required_
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 117
 118
@@ -263,7 +263,7 @@ def from_mcp_sdk(cls, mcp_annotations: mcp_types.Annotations) -> ResourceAnnotat
 ###  BaseResource `dataclass`
 Bases:
 Base class for MCP resources.
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 127
 128
@@ -373,7 +373,7 @@ Bases: `BaseResource[](https://ai.pydantic.dev/api/mcp/#pydantic_ai.mcp.BaseReso
    \(pydantic_ai.mcp.BaseResource\)")`
 A resource that can be read from an MCP server.
 See the
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 152
 153
@@ -475,7 +475,7 @@ Parameters:
 Name | Type | Description | Default
 ---|---|---|---
 `mcp_resource` |  |  The MCP SDK Resource object. |  _required_
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 165
 166
@@ -530,7 +530,7 @@ Bases: `BaseResource[](https://ai.pydantic.dev/api/mcp/#pydantic_ai.mcp.BaseReso
    \(pydantic_ai.mcp.BaseResource\)")`
 A template for parameterized resources on an MCP server.
 See the
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 186
 187
@@ -619,7 +619,7 @@ Parameters:
 Name | Type | Description | Default
 ---|---|---|---
 `mcp_template` |  `ResourceTemplate` |  The MCP SDK ResourceTemplate object. |  _required_
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 196
 197
@@ -665,7 +665,7 @@ def from_mcp_sdk(cls, mcp_template: mcp_types.ResourceTemplate) -> ResourceTempl
 ---|---
 ###  ServerCapabilities `dataclass`
 Capabilities that an MCP server supports.
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 216
 217
@@ -862,7 +862,7 @@ Parameters:
 Name | Type | Description | Default
 ---|---|---|---
 `mcp_capabilities` |  |  The MCP SDK ServerCapabilities object. |  _required_
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 249
 250
@@ -916,7 +916,7 @@ def from_mcp_sdk(cls, mcp_capabilities: mcp_types.ServerCapabilities) -> ServerC
 Bases: `AbstractToolset[](https://ai.pydantic.dev/api/toolsets/#pydantic_ai.toolsets.AbstractToolset "AbstractToolset \(pydantic_ai.toolsets.abstract.AbstractToolset\)")[`,
 Base class for attaching agents to MCP servers.
 See
-Source code in `pydantic_ai_slim/pydantic_ai/mcp.py`
+Source code in `pydantic_ai_slim/pydantic_ai/mcp_server.py`
 ```
 286
 287
