@@ -20,7 +20,7 @@
   * [Building Integrations](https://developers.home-assistant.io/docs/api/native-app-integration/setup/)
   * [Development Checklist](https://developers.home-assistant.io/docs/api/native-app-integration/setup/)
   * [Integration Quality Scale](https://developers.home-assistant.io/docs/core/integration-quality-scale/)
-  * [The `hass` object](https://developers.home-assistant.io/docs/api/native-app-integration/setup/)
+  * [The `hash` object](https://developers.home-assistant.io/docs/api/native-app-integration/setup/)
   * [Entities](https://developers.home-assistant.io/docs/api/native-app-integration/setup/)
   * [Areas, Devices and Entities](https://developers.home-assistant.io/docs/api/native-app-integration/setup/)
   * [Authentication](https://developers.home-assistant.io/docs/api/native-app-integration/setup/)
@@ -76,54 +76,54 @@ You can confirm the `mobile_app` component has been loaded by checking the `comp
 To register the device, make an authenticated POST request to `/api/mobile_app/registrations`. [More info on making authenticated requests.](https://developers.home-assistant.io/docs/auth_api#making-authenticated-requests)
 Example payload to send to the registration endpoint:
 ```
-{  
-  "device_id": "ABCDEFGH",  
-  "app_id": "awesome_home",  
-  "app_name": "Awesome Home",  
-  "app_version": "1.2.0",  
-  "device_name": "Robbies iPhone",  
-  "manufacturer": "Apple, Inc.",  
-  "model": "iPhone X",  
-  "os_name": "iOS",  
-  "os_version": "iOS 10.12",  
-  "supports_encryption": true,  
-  "app_data": {  
-    "push_notification_key": "abcdef"  
-  }  
-}  
+{
+  "device_id": "ABCDEFGH",
+  "app_id": "awesome_home",
+  "app_name": "Awesome Home",
+  "app_version": "1.2.0",
+  "device_name": "Robbies iPhone",
+  "manufacturer": "Apple, Inc.",
+  "model": "iPhone X",
+  "os_name": "iOS",
+  "os_version": "iOS 10.12",
+  "supports_encryption": true,
+  "app_data": {
+    "push_notification_key": "abcdef"
+  }
+}
 
 ```
 
-Key | Required | Type | Description  
----|---|---|---  
-`device_id` | V | string | A unique identifier for this device. New in Home Assistant 0.104  
-`app_id` | V | string | A unique identifier for this app.  
-`app_name` | V | string | Name of the mobile app.  
-`app_version` | V | string | Version of the mobile app.  
-`device_name` | V | string | Name of the device running the app.  
-`manufacturer` | V | string | The manufacturer of the device running the app.  
-`model` | V | string | The model of the device running the app.  
-`os_name` | V | string | The name of the OS running the app.  
-`os_version` | V | string | The OS version of the device running the app.  
-`supports_encryption` | V | bool | If the app supports encryption. See also the [encryption section](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data#implementing-encryption).  
-`app_data` |  | Dict | App data can be used if the app has a supporting component that extends `mobile_app` functionality.  
+Key | Required | Type | Description
+---|---|---|---
+`device_id` | V | string | A unique identifier for this device. New in Home Assistant 0.104
+`app_id` | V | string | A unique identifier for this app.
+`app_name` | V | string | Name of the mobile app.
+`app_version` | V | string | Version of the mobile app.
+`device_name` | V | string | Name of the device running the app.
+`manufacturer` | V | string | The manufacturer of the device running the app.
+`model` | V | string | The model of the device running the app.
+`os_name` | V | string | The name of the OS running the app.
+`os_version` | V | string | The OS version of the device running the app.
+`supports_encryption` | V | bool | If the app supports encryption. See also the [encryption section](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data#implementing-encryption).
+`app_data` |  | Dict | App data can be used if the app has a supporting component that extends `mobile_app` functionality.
 When you get a 200 response, the mobile app is registered with Home Assistant. The response is a JSON document and will contain the URLs on how to interact with the Home Assistant instance. You should permanently store this information.
 ```
-{  
-  "cloudhook_url": "https://hooks.nabu.casa/randomlongstring123",  
-  "remote_ui_url": "https://randomlongstring123.ui.nabu.casa",  
-  "secret": "qwerty",  
-  "webhook_id": "abcdefgh"  
-}  
+{
+  "cloudhook_url": "https://hooks.nabu.casa/randomlongstring123",
+  "remote_ui_url": "https://randomlongstring123.ui.nabu.casa",
+  "secret": "qwerty",
+  "webhook_id": "abcdefgh"
+}
 
 ```
 
-Key | Type | Description  
----|---|---  
-`cloudhook_url` | string | The cloudhook URL provided by Home Assistant Cloud. Only will be provided if user is actively subscribed to Nabu Casa.  
-`remote_ui_url` | string | The remote UI URL provided by Home Assistant Cloud. Only will be provided if user is actively subscribed to Nabu Casa.  
-`secret` | string | The secret to use for encrypted communication. Will only be included if encryption is supported by both the app and the Home Assistant instance. [More info](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data#implementing-encryption).  
-`webhook_id` | string | The webhook ID that can be used to send data back.  
+Key | Type | Description
+---|---|---
+`cloudhook_url` | string | The cloudhook URL provided by Home Assistant Cloud. Only will be provided if user is actively subscribed to Nabu Casa.
+`remote_ui_url` | string | The remote UI URL provided by Home Assistant Cloud. Only will be provided if user is actively subscribed to Nabu Casa.
+`secret` | string | The secret to use for encrypted communication. Will only be included if encryption is supported by both the app and the Home Assistant instance. [More info](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data#implementing-encryption).
+`webhook_id` | string | The webhook ID that can be used to send data back.
 Last updated on **May 23, 2024**
 [ Previous Introduction](https://developers.home-assistant.io/docs/api/native-app-integration)[Next Sending data home](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data)
   * [Authenticating the user](https://developers.home-assistant.io/docs/api/native-app-integration/setup/#authenticating-the-user)

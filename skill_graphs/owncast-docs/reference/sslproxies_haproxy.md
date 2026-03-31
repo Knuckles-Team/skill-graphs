@@ -41,7 +41,7 @@ defaults
         timeout queue 5s
 
 frontend tls
-  bind :443 accept-proxy ssl crt /etc/haproxy/certs ssl-min-ver TLSv1.2 
+  bind :443 accept-proxy ssl crt /etc/haproxy/certs ssl-min-ver TLSv1.2
 
   acl is_owncast hdr(host) -i <your.owncast.hostname.tld>
   acl is_websocket hdr(Upgrade) -i WebSocket
@@ -70,7 +70,7 @@ backend owncastws
 
 ```
 
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

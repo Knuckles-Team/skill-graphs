@@ -65,7 +65,7 @@
 
 # Social features
 Owncast allows people to follow, engage with your server, and share your stream with others on what is known as the Fediverse, a decentralized network of services.
-Social functionality was first supported in 
+Social functionality was first supported in
 ## What it supports[#](https://owncast.online/docs/social/#what-it-supports)
   1. People can follow your server.
   2. Your followers show up in the “Followers” tab on your stream’s page.
@@ -95,7 +95,7 @@ Visit the _Configuration - > Social_ page to configure.
 Enabling _Private Mode_ will require those who wish to follow your server to be approved by you first. Approving followers can be done via the _Followers_ section in the admin.
 Private Mode will also make it so any posts you send out are only visible to your followers, not others, as they cannot be shared.
 ## How do people follow your Owncast server?[#](https://owncast.online/docs/social/#how-do-people-follow-your-owncast-server)
-Any person on the Fediverse using a service that is compatible with following Owncast, such as 
+Any person on the Fediverse using a service that is compatible with following Owncast, such as
 [Learn more about The Fediverse](https://owncast.online/docs/social/#learn-more).
 ## How it works[#](https://owncast.online/docs/social/#how-it-works)
 The Fediverse is an ensemble of decentralized and interconnected servers that are used for social networking, microblogging and more. While each server is independently hosted, they communicate with each other.
@@ -126,7 +126,7 @@ A decentralized network of different services built on standards is the future o
   * [Fediverse](https://social.owncast.online/@owncast)
 
 ![](https://owncast.online/images/logo.svg)
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

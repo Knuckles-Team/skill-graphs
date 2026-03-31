@@ -66,7 +66,7 @@ Ctrl K
   * [Listmonk Settings](https://docs.postiz.com/public-api/providers/listmonk)
   * [Google My Business Settings](https://docs.postiz.com/public-api/providers/gmb)
   * [Whop Settings](https://docs.postiz.com/public-api/providers/whop)
-  * [Skool Settings](https://docs.postiz.com/public-api/providers/skool)
+  * [School Settings](https://docs.postiz.com/public-api/providers/school)
   * [Kick Settings](https://docs.postiz.com/public-api/providers/kick)
   * [Twitch Settings](https://docs.postiz.com/public-api/providers/twitch)
   * [Moltbook Settings](https://docs.postiz.com/public-api/providers/moltbook)
@@ -95,12 +95,12 @@ Provider Settings (25 with custom settings)
 Copy page
 Provider settings for Lemmy posts
 Copy page
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/lemmy#overview)
 Overview
 Lemmy is a decentralized Reddit alternative. When posting to Lemmy, you need to specify the community and post details.
 The settings use `subreddit` as the field name for historical reasons, but it refers to Lemmy communities.
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/lemmy#settings-schema)
 Settings Schema
 ```
@@ -120,18 +120,18 @@ Settings Schema
 
 ```
 
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/lemmy#properties)
 Properties
-Property | Type | Required | Description  
----|---|---|---  
-`__type` | string | ✅ | Must be `"lemmy"`  
-`subreddit` | array | ✅ | Array of community targets  
-`subreddit[].value.subreddit` | string | ✅ | Community name (min 2 chars)  
-`subreddit[].value.id` | string | ✅ | Community ID  
-`subreddit[].value.title` | string | ✅ | Post title (min 2 chars)  
-`subreddit[].value.url` | string | ❌ | Optional link URL  
-## 
+Property | Type | Required | Description
+---|---|---|---
+`__type` | string | ✅ | Must be `"lemmy"`
+`subreddit` | array | ✅ | Array of community targets
+`subreddit[].value.subreddit` | string | ✅ | Community name (min 2 chars)
+`subreddit[].value.id` | string | ✅ | Community ID
+`subreddit[].value.title` | string | ✅ | Post title (min 2 chars)
+`subreddit[].value.url` | string | ❌ | Optional link URL
+##
 [​](https://docs.postiz.com/public-api/providers/lemmy#example)
 Example
 ```
@@ -170,7 +170,7 @@ Example
 
 ```
 
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/lemmy#notes)
 Notes
   * You can post to multiple communities by adding more items to the `subreddit` array
@@ -197,5 +197,5 @@ Hi! Im the Postiz AI Chatbot, ask me any question you'd like, and I will answer 
 QUICK QUESTIONS
 Medium Settings - Postiz Documentation
 ← Asking about this page
-Made by 
+Made by
 Chat

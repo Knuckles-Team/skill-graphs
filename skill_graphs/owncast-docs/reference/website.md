@@ -67,7 +67,7 @@ Owncast includes a web interface for your video with built-in chat that is avail
 Additionally, the web interface was specifically built to be customizable by anybody comfortable tweaking colors and styles. No development environment is needed, just open the admin and start tweaking.
 If you want to embed Owncast in your existing website, checkout our [documentation on embedding Owncast](https://owncast.online/docs/embed/).
 Below are some items you’ll likely want to customize to update the content that displays on your page.
-Changing settings in the admin panel was first supported in 
+Changing settings in the admin panel was first supported in
 ### Name and description[#](https://owncast.online/docs/website/#name-and-description)
 By setting your name, description and logo you can quickly update the contents of the website to reflect your stream.
 ![Owncast general settings](https://owncast.online/docs/img/admin-general-settings.png)
@@ -81,28 +81,28 @@ You can add links to your profiles on other sites by adding them in the admin.
 ![Add social links](https://owncast.online/docs/img/admin-settings-social-handle.png)
 Add social links
 ### Web page content[#](https://owncast.online/docs/website/#web-page-content)
-The body of your page content can be customized in your admin. Use standard 
+The body of your page content can be customized in your admin. Use standard
 ## Chat[#](https://owncast.online/docs/website/#chat)
 ### Text Formatting[#](https://owncast.online/docs/website/#text-formatting)
-The web chat supports some basic formatting using 
+The web chat supports some basic formatting using
 Italic: `*your text*`
 Bold: `**your text**`
 Strikethrough: `~~your text~~`
 Code blocks: ``your text``
 ### Custom Emoji[#](https://owncast.online/docs/website/#custom-emoji)
 Place your own custom emoji images into `/webroot/img/emoji/` and the next time you refresh the web site you’ll see your images in the emoji picker, available for use in chat.
-Emoji was first supported in 
+Emoji was first supported in
 ## Player[#](https://owncast.online/docs/website/#player)
 The web video player has a handful of keyboard shortcuts you can use.
-Action | Shortcut  
----|---  
-Play/Pause | _Spacebar_  
-Volume up | _0_  
-Volume down | _9_  
-Mute | _m_  
-Toggle full screen | _f_  
-Toggle chat | _c_  
-Player shortcuts was first supported in 
+Action | Shortcut
+---|---
+Play/Pause | _Spacebar_
+Volume up | _0_
+Volume down | _9_
+Mute | _m_
+Toggle full screen | _f_
+Toggle chat | _c_
+Player shortcuts was first supported in
 ## Custom Styles via CSS[#](https://owncast.online/docs/website/#custom-styles-via-css)
 Under the General Settings in the admin you can write your own CSS that will get applied to the web page. There is no validation or sanity checks, so anything you write will get inserted into a `<style>` tag on your page. So if you make a CSS mistake, you may mess something up on your page.
 ### Some examples of things you can try.[#](https://owncast.online/docs/website/#some-examples-of-things-you-can-try)
@@ -111,7 +111,7 @@ Under the General Settings in the admin you can write your own CSS that will get
   3. Set a new background color.
   4. Completely hide specific things you don’t want or care about.
 
-Custom styles was first supported in 
+Custom styles was first supported in
   * [About](https://owncast.online/about)
   * [FAQ](https://owncast.online/faq)
   * [Videos](https://videos.owncast.online)
@@ -127,7 +127,7 @@ Custom styles was first supported in
   * [Fediverse](https://social.owncast.online/@owncast)
 
 ![](https://owncast.online/images/logo.svg)
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

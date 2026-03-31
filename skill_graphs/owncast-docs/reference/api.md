@@ -68,9 +68,9 @@ This directory is operated as a complimentary service by the Owncast project to 
   3. You may want to run your server with `owncast --enableVerboseLogging` to see what errors show up.
   4. If you used to be listed, but no longer show up you may need to reset your registration to the server in the admin’s Server Settings.
   5. If you recently changed the URL of your server reset your registration in your Server Settings.
-  6. If there’s some issue that’s causing you not to be listed 
+  6. If there’s some issue that’s causing you not to be listed
 
-Owncast directory was first supported in 
+Owncast directory was first supported in
   * [About](https://owncast.online/about)
   * [FAQ](https://owncast.online/faq)
   * [Videos](https://videos.owncast.online)
@@ -86,7 +86,7 @@ Owncast directory was first supported in
   * [Fediverse](https://social.owncast.online/@owncast)
 
 ![](https://owncast.online/images/logo.svg)
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

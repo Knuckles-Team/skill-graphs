@@ -66,7 +66,7 @@ Ctrl K
   * [Listmonk Settings](https://docs.postiz.com/public-api/providers/listmonk)
   * [Google My Business Settings](https://docs.postiz.com/public-api/providers/gmb)
   * [Whop Settings](https://docs.postiz.com/public-api/providers/whop)
-  * [Skool Settings](https://docs.postiz.com/public-api/providers/skool)
+  * [School Settings](https://docs.postiz.com/public-api/providers/school)
   * [Kick Settings](https://docs.postiz.com/public-api/providers/kick)
   * [Twitch Settings](https://docs.postiz.com/public-api/providers/twitch)
   * [Moltbook Settings](https://docs.postiz.com/public-api/providers/moltbook)
@@ -122,7 +122,7 @@ curl --request POST \
 }
 ```
 
-## 
+##
 [​](https://docs.postiz.com/public-api/uploads/upload-file#usage)
 Usage
 After uploading, use the returned `id` and `path` in your post’s `image` array:
@@ -207,5 +207,5 @@ curl --request POST \
 Postiz
 Hi! Im the Postiz AI Chatbot, ask me any question you'd like, and I will answer it the best to my abilities!
 QUICK QUESTIONS
-Made by 
+Made by
 Chat

@@ -66,7 +66,7 @@ Ctrl K
   * [Listmonk Settings](https://docs.postiz.com/public-api/providers/listmonk)
   * [Google My Business Settings](https://docs.postiz.com/public-api/providers/gmb)
   * [Whop Settings](https://docs.postiz.com/public-api/providers/whop)
-  * [Skool Settings](https://docs.postiz.com/public-api/providers/skool)
+  * [School Settings](https://docs.postiz.com/public-api/providers/school)
   * [Kick Settings](https://docs.postiz.com/public-api/providers/kick)
   * [Twitch Settings](https://docs.postiz.com/public-api/providers/twitch)
   * [Moltbook Settings](https://docs.postiz.com/public-api/providers/moltbook)
@@ -95,7 +95,7 @@ Provider Settings (25 with custom settings)
 Copy page
 API settings for posting to Reddit
 Copy page
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/reddit#settings-schema)
 Settings Schema
 When creating a post for Reddit, use the following settings schema:
@@ -120,35 +120,35 @@ When creating a post for Reddit, use the following settings schema:
 
 ```
 
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/reddit#fields)
 Fields
-Field | Type | Required | Description  
----|---|---|---  
-`__type` | `string` | Yes | Must be `reddit`  
-`subreddit` | `array` | Yes | Array of subreddit configurations  
-### 
+Field | Type | Required | Description
+---|---|---|---
+`__type` | `string` | Yes | Must be `reddit`
+`subreddit` | `array` | Yes | Array of subreddit configurations
+###
 [​](https://docs.postiz.com/public-api/providers/reddit#subreddit-object)
 Subreddit Object
 Each item in the `subreddit` array contains a `value` object with:
-Field | Type | Required | Description  
----|---|---|---  
-`subreddit` | `string` | Yes | Subreddit name (without r/)  
-`title` | `string` | Yes | Post title (min 2 characters)  
-`type` | `string` | Yes | Post type  
-`url` | `string` | Conditional | URL for link posts  
-`is_flair_required` | `boolean` | Yes | Whether flair is required  
-`flair` | `object` | Conditional | Flair object (required if `is_flair_required` is true)  
-### 
+Field | Type | Required | Description
+---|---|---|---
+`subreddit` | `string` | Yes | Subreddit name (without r/)
+`title` | `string` | Yes | Post title (min 2 characters)
+`type` | `string` | Yes | Post type
+`url` | `string` | Conditional | URL for link posts
+`is_flair_required` | `boolean` | Yes | Whether flair is required
+`flair` | `object` | Conditional | Flair object (required if `is_flair_required` is true)
+###
 [​](https://docs.postiz.com/public-api/providers/reddit#type-post-type)
 `type` (Post Type)
-Value | Description  
----|---  
-`self` | Text post (uses content from post value)  
-`link` | Link post (requires `url` field)  
-`image` | Image post  
-`video` | Video post  
-### 
+Value | Description
+---|---
+`self` | Text post (uses content from post value)
+`link` | Link post (requires `url` field)
+`image` | Image post
+`video` | Video post
+###
 [​](https://docs.postiz.com/public-api/providers/reddit#flair-object)
 Flair Object
 Required when `is_flair_required` is `true`:
@@ -163,10 +163,10 @@ Required when `is_flair_required` is `true`:
 ```
 
 * * *
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/reddit#complete-example)
 Complete Example
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/reddit#text-post-self-post)
 Text Post (Self Post)
 ```
@@ -207,7 +207,7 @@ Text Post (Self Post)
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/reddit#link-post)
 Link Post
 ```
@@ -248,7 +248,7 @@ Link Post
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/reddit#post-with-required-flair)
 Post with Required Flair
 ```
@@ -292,7 +292,7 @@ Post with Required Flair
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/reddit#cross-post-to-multiple-subreddits)
 Cross-post to Multiple Subreddits
 ```
@@ -351,5 +351,5 @@ Hi! Im the Postiz AI Chatbot, ask me any question you'd like, and I will answer 
 QUICK QUESTIONS
 Dribbble Settings - Postiz Documentation
 ← Asking about this page
-Made by 
+Made by
 Chat

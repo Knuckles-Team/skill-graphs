@@ -66,7 +66,7 @@ Ctrl K
   * [Listmonk Settings](https://docs.postiz.com/public-api/providers/listmonk)
   * [Google My Business Settings](https://docs.postiz.com/public-api/providers/gmb)
   * [Whop Settings](https://docs.postiz.com/public-api/providers/whop)
-  * [Skool Settings](https://docs.postiz.com/public-api/providers/skool)
+  * [School Settings](https://docs.postiz.com/public-api/providers/school)
   * [Kick Settings](https://docs.postiz.com/public-api/providers/kick)
   * [Twitch Settings](https://docs.postiz.com/public-api/providers/twitch)
   * [Moltbook Settings](https://docs.postiz.com/public-api/providers/moltbook)
@@ -95,7 +95,7 @@ Provider Settings (25 with custom settings)
 Copy page
 API settings for posting to Discord
 Copy page
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/discord#settings-schema)
 Settings Schema
 When posting a message to Discord, use the following settings schema:
@@ -109,14 +109,14 @@ When posting a message to Discord, use the following settings schema:
 
 ```
 
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/discord#fields)
 Fields
-Field | Type | Required | Description  
----|---|---|---  
-`__type` | `string` | Yes | Must be `discord`  
-`channel` | `string` | Yes | Discord channel ID  
-### 
+Field | Type | Required | Description
+---|---|---|---
+`__type` | `string` | Yes | Must be `discord`
+`channel` | `string` | Yes | Discord channel ID
+###
 [​](https://docs.postiz.com/public-api/providers/discord#channel)
 `channel`
 The Discord channel ID where the message will be posted. This is required.
@@ -127,10 +127,10 @@ The Discord channel ID where the message will be posted. This is required.
 
 
 * * *
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/discord#complete-example)
 Complete Example
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/discord#text-message)
 Text Message
 ```
@@ -160,7 +160,7 @@ Text Message
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/discord#message-with-image)
 Message with Image
 ```
@@ -195,7 +195,7 @@ Message with Image
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/discord#announcement-with-formatting)
 Announcement with Formatting
 ```
@@ -254,5 +254,5 @@ Hi! Im the Postiz AI Chatbot, ask me any question you'd like, and I will answer 
 QUICK QUESTIONS
 Hashnode Settings - Postiz Documentation
 ← Asking about this page
-Made by 
+Made by
 Chat

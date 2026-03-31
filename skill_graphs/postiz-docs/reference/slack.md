@@ -66,7 +66,7 @@ Ctrl K
   * [Listmonk Settings](https://docs.postiz.com/public-api/providers/listmonk)
   * [Google My Business Settings](https://docs.postiz.com/public-api/providers/gmb)
   * [Whop Settings](https://docs.postiz.com/public-api/providers/whop)
-  * [Skool Settings](https://docs.postiz.com/public-api/providers/skool)
+  * [School Settings](https://docs.postiz.com/public-api/providers/school)
   * [Kick Settings](https://docs.postiz.com/public-api/providers/kick)
   * [Twitch Settings](https://docs.postiz.com/public-api/providers/twitch)
   * [Moltbook Settings](https://docs.postiz.com/public-api/providers/moltbook)
@@ -95,7 +95,7 @@ Provider Settings (25 with custom settings)
 Copy page
 API settings for posting to Slack
 Copy page
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/slack#settings-schema)
 Settings Schema
 When posting a message to Slack, use the following settings schema:
@@ -109,14 +109,14 @@ When posting a message to Slack, use the following settings schema:
 
 ```
 
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/slack#fields)
 Fields
-Field | Type | Required | Description  
----|---|---|---  
-`__type` | `string` | Yes | Must be `slack`  
-`channel` | `string` | Yes | Slack channel ID  
-### 
+Field | Type | Required | Description
+---|---|---|---
+`__type` | `string` | Yes | Must be `slack`
+`channel` | `string` | Yes | Slack channel ID
+###
 [​](https://docs.postiz.com/public-api/providers/slack#channel)
 `channel`
 The Slack channel ID where the message will be posted. This is required.
@@ -128,10 +128,10 @@ The Slack channel ID where the message will be posted. This is required.
 
 
 * * *
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/slack#complete-example)
 Complete Example
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/slack#simple-message)
 Simple Message
 ```
@@ -161,7 +161,7 @@ Simple Message
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/slack#message-with-image)
 Message with Image
 ```
@@ -196,7 +196,7 @@ Message with Image
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/slack#team-announcement)
 Team Announcement
 ```

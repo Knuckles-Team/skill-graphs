@@ -9,7 +9,7 @@
 ### [← Documentation](https://owncast.online/docs/ "Documentation")
 ### On this page
 # Apache
-If you’re already using Apache as a web server you can 
+If you’re already using Apache as a web server you can
 Ensure required Apache modules are enabled using the `a2enmod` command.
 ```
 $ sudo a2enmod proxy proxy_http ssl
@@ -50,7 +50,7 @@ $ sudo a2enmod proxy proxy_http ssl
 </IfModule>
 ```
 
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

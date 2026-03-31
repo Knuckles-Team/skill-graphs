@@ -21,9 +21,9 @@
 
 
 # NGINX
-NGINX is a popular web server used as a reverse proxy with free Let’s Encrypt certificates. Visit the 
+NGINX is a popular web server used as a reverse proxy with free Let’s Encrypt certificates. Visit the
 ## Websockets[#](https://owncast.online/docs/sslproxies/nginx/#websockets)
-People often look over the need to tell NGINX to proxy websockets correctly, leading to chat being disabled. Please read the quick 
+People often look over the need to tell NGINX to proxy websockets correctly, leading to chat being disabled. Please read the quick
 Essentially, you’ll need to edit `/etc/nginx/nginx.conf` to add the following map block to the http section
 ```
 http {
@@ -78,7 +78,7 @@ server {
   * [Fediverse](https://social.owncast.online/@owncast)
 
 ![](https://owncast.online/images/logo.svg)
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

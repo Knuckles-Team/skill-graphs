@@ -66,7 +66,7 @@ Ctrl K
   * [Listmonk Settings](https://docs.postiz.com/public-api/providers/listmonk)
   * [Google My Business Settings](https://docs.postiz.com/public-api/providers/gmb)
   * [Whop Settings](https://docs.postiz.com/public-api/providers/whop)
-  * [Skool Settings](https://docs.postiz.com/public-api/providers/skool)
+  * [School Settings](https://docs.postiz.com/public-api/providers/school)
   * [Kick Settings](https://docs.postiz.com/public-api/providers/kick)
   * [Twitch Settings](https://docs.postiz.com/public-api/providers/twitch)
   * [Moltbook Settings](https://docs.postiz.com/public-api/providers/moltbook)
@@ -138,16 +138,16 @@ type
 enum<string>
 required
 Video generation type
-Available options: 
-`image-text-slides`, 
+Available options:
+`image-text-slides`,
 `veo3`
 [​](https://docs.postiz.com/public-api/video/generate#body-output)
 output
 enum<string>
 required
 Video orientation
-Available options: 
-`vertical`, 
+Available options:
+`vertical`,
 `horizontal`
 [​](https://docs.postiz.com/public-api/video/generate#body-custom-params)
 customParams

@@ -9,7 +9,7 @@
 
 ### [← Documentation](https://owncast.online/docs/ "Documentation")
 # Restream.io
-You must be a paid user of 
+You must be a paid user of
   1. Login and go to the “Add Channel” screen.
 ![](https://owncast.online/docs/img/restream1.png)
   2. Select “Custom RTMP”
@@ -18,7 +18,7 @@ You must be a paid user of
 ![](https://owncast.online/docs/img/restream3.png)
 
 
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

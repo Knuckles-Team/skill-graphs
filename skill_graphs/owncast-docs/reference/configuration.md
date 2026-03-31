@@ -71,20 +71,20 @@ Some common items many people would want to update after installing Owncast are:
 
 
 ## Web site details[#](https://owncast.online/docs/configuration/#web-site-details)
-Your site name, logo, description, and page content can be set in the admin. You can also add links to your social profiles and web sites that exist elsewhere. [See details about the web site and chat interface](https://owncast.online/docs/website). Changing page settings in the admin panel was first supported in 
+Your site name, logo, description, and page content can be set in the admin. You can also add links to your social profiles and web sites that exist elsewhere. [See details about the web site and chat interface](https://owncast.online/docs/website). Changing page settings in the admin panel was first supported in
 ![Owncast general settings](https://owncast.online/docs/img/admin-general-settings.png)
 Owncast general settings
 ## Video output[#](https://owncast.online/docs/configuration/#video-output)
 Depending on your hardware you may be able to configure your server to support multiple output variants for multiple different viewing conditions. [Learn how to configure your video and see how it directly effects your CPU usage](https://owncast.online/docs/encoding).
 ![Owncast video settings](https://owncast.online/docs/img/admin-config-video-variant.png)
 Owncast video settings
-Changing video settings in the admin panel was first supported in 
+Changing video settings in the admin panel was first supported in
 ## Custom Ports[#](https://owncast.online/docs/configuration/#custom-ports)
 Per default, Owncast will run a `http` web server on port `8080` and a RTMP server on port `1935`. You can change the ports in the the admin. You must restart Owncast for these changes to take effect.
 You can also set the port for the web server on the command line via the `-webserverport` flag.
 ![Owncast server settings](https://owncast.online/docs/img/admin-server-settings.png)
 Owncast server settings
-Custom ports was first supported in Port settings in the admin panel was first supported in 
+Custom ports was first supported in Port settings in the admin panel was first supported in
 ## External storage providers[#](https://owncast.online/docs/configuration/#external-storage-providers)
 Instead of serving video directly from your personal server you can use a S3 compatible storage provider to offload the bandwidth and storage requirements elsewhere. [See how to configure the storage provider of your choice](https://owncast.online/docs/storage).
   * [About](https://owncast.online/about)
@@ -102,7 +102,7 @@ Instead of serving video directly from your personal server you can use a S3 com
   * [Fediverse](https://social.owncast.online/@owncast)
 
 ![](https://owncast.online/images/logo.svg)
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

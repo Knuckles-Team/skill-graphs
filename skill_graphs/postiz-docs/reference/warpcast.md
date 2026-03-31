@@ -66,7 +66,7 @@ Ctrl K
   * [Listmonk Settings](https://docs.postiz.com/public-api/providers/listmonk)
   * [Google My Business Settings](https://docs.postiz.com/public-api/providers/gmb)
   * [Whop Settings](https://docs.postiz.com/public-api/providers/whop)
-  * [Skool Settings](https://docs.postiz.com/public-api/providers/skool)
+  * [School Settings](https://docs.postiz.com/public-api/providers/school)
   * [Kick Settings](https://docs.postiz.com/public-api/providers/kick)
   * [Twitch Settings](https://docs.postiz.com/public-api/providers/twitch)
   * [Moltbook Settings](https://docs.postiz.com/public-api/providers/moltbook)
@@ -95,12 +95,12 @@ Provider Settings (25 with custom settings)
 Copy page
 Provider settings for Warpcast/Farcaster posts
 Copy page
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/warpcast#overview)
 Overview
 Warpcast is a client for the Farcaster protocol, a decentralized social network. When posting to Warpcast, you can specify which channels to post to.
 The settings use `subreddit` as the field name for historical reasons, but it refers to Farcaster channels.
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/warpcast#settings-schema)
 Settings Schema
 ```
@@ -117,18 +117,18 @@ Settings Schema
 
 ```
 
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/warpcast#properties)
 Properties
-Property | Type | Required | Description  
----|---|---|---  
-`__type` | string | ✅ | Must be `"warpcast"`  
-`subreddit` | array | ❌ | Array of channel targets  
-`subreddit[].value.id` | string | ✅ | Channel ID  
-## 
+Property | Type | Required | Description
+---|---|---|---
+`__type` | string | ✅ | Must be `"warpcast"`
+`subreddit` | array | ❌ | Array of channel targets
+`subreddit[].value.id` | string | ✅ | Channel ID
+##
 [​](https://docs.postiz.com/public-api/providers/warpcast#examples)
 Examples
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/warpcast#simple-cast-no-channel)
 Simple cast (no channel)
 ```
@@ -157,7 +157,7 @@ Simple cast (no channel)
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/warpcast#cast-to-a-specific-channel)
 Cast to a specific channel
 ```
@@ -193,7 +193,7 @@ Cast to a specific channel
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/warpcast#cast-to-multiple-channels)
 Cast to multiple channels
 ```
@@ -234,7 +234,7 @@ Cast to multiple channels
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/warpcast#cast-with-image)
 Cast with image
 ```
@@ -275,7 +275,7 @@ Cast with image
 
 ```
 
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/warpcast#notes)
 Notes
   * Channel IDs are the names/slugs of Farcaster channels
@@ -307,5 +307,5 @@ Hi! Im the Postiz AI Chatbot, ask me any question you'd like, and I will answer 
 QUICK QUESTIONS
 Warpcast (Farcaster) Settings - Postiz Documentation
 ← Asking about this page
-Made by 
+Made by
 Chat

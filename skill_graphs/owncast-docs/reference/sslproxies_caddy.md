@@ -34,7 +34,7 @@ sudo apt install caddy
 Download manually
   1. Find the version for your platform and operating system.
   2. Unarchive the file: `tar -xvzf caddy_2.3.0_linux_amd64.tar.gz`
-  3. You’re likely to want to setup Caddy as a system service to auatomatically start in the background. 
+  3. You’re likely to want to setup Caddy as a system service to auatomatically start in the background.
 
 
 ## 3. Run Caddy as a reverse proxy[#](https://owncast.online/docs/sslproxies/caddy/#3-run-caddy-as-a-reverse-proxy)
@@ -46,7 +46,7 @@ caddy reverse-proxy --from owncast.mydomain.com --to 127.0.0.1:8080
 
 Replace `owncast.mydomain.com` with the public hostname of your Owncast server like `watch.owncast.online` for example.
 Caddyfile
-The 
+The
 Add to your Caddyfile:
 ```
 owncast.mydomain.com {
@@ -63,9 +63,9 @@ If you specify `owncast.mydomain.com` without a protocol or a port, it will atte
 Continue to run Owncast on port 8080.
 ## 5. Access Owncast through the proxy[#](https://owncast.online/docs/sslproxies/caddy/#5-access-owncast-through-the-proxy)
 * * *
-You should now be able to access your Owncast server by visiting 
+You should now be able to access your Owncast server by visiting
 Replace `owncast.mydomain.com` with the public hostname of your Owncast server like `watch.owncast.online` for example.
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

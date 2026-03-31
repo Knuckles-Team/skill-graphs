@@ -10,7 +10,7 @@
   * [add_notification() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.add_notification)
   * [add_proxy() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.add_proxy)
 
-| 
+|
   * [add_status_page() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.add_status_page)
   * [add_status_page_maintenance() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.add_status_page_maintenance)
   * [add_tag() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.add_tag)
@@ -21,28 +21,28 @@
   * [AuthMethod (class in uptime_kuma_api)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.AuthMethod)
   * [avg_ping() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.avg_ping)
 
-  
----|---  
+
+---|---
 ## B
   * [BARK (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.BARK)
 
-  
----  
+
+---
 ## C
   * [cert_info() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.cert_info)
   * [change_password() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.change_password)
   * [check_apprise() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.check_apprise)
   * [clear_events() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.clear_events)
 
-| 
+|
   * [clear_heartbeats() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.clear_heartbeats)
   * [clear_statistics() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.clear_statistics)
   * [CLICKSENDSMS (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.CLICKSENDSMS)
   * [connect() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.connect)
   * [CRON (MaintenanceStrategy attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MaintenanceStrategy.CRON)
 
-  
----|---  
+
+---|---
 ## D
   * [DANGER (IncidentStyle attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.IncidentStyle.DANGER)
   * [DARK (IncidentStyle attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.IncidentStyle.DARK)
@@ -55,7 +55,7 @@
   * [delete_proxy() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.delete_proxy)
   * [delete_status_page() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.delete_status_page)
 
-| 
+|
   * [delete_tag() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.delete_tag)
   * [DINGDING (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.DINGDING)
   * [disable_2fa() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.disable_2fa)
@@ -67,30 +67,30 @@
   * [DockerType (class in uptime_kuma_api)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.DockerType)
   * [DOWN (MonitorStatus attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorStatus.DOWN)
 
-  
----|---  
+
+---|---
 ## E
   * [edit_docker_host() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.edit_docker_host)
   * [edit_maintenance() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.edit_maintenance)
   * [edit_monitor() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.edit_monitor)
 
-| 
+|
   * [edit_notification() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.edit_notification)
   * [edit_proxy() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.edit_proxy)
   * [edit_tag() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.edit_tag)
   * [enable_api_key() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.enable_api_key)
 
-  
----|---  
+
+---|---
 ## F
   * [FEISHU (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.FEISHU)
 
-| 
+|
   * [FLASHDUTY (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.FLASHDUTY)
   * [FREEMOBILE (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.FREEMOBILE)
 
-  
----|---  
+
+---|---
 ## G
   * [GAMEDIG (MonitorType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorType.GAMEDIG)
   * [get_api_key() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.get_api_key)
@@ -109,7 +109,7 @@
   * [get_monitor_status() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.get_monitor_status)
   * [get_monitors() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.get_monitors)
 
-| 
+|
   * [get_notification() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.get_notification)
   * [get_notifications() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.get_notifications)
   * [get_proxies() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.get_proxies)
@@ -127,65 +127,65 @@
   * [GROUP (MonitorType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorType.GROUP)
   * [GRPC_KEYWORD (MonitorType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorType.GRPC_KEYWORD)
 
-  
----|---  
+
+---|---
 ## H
   * [HOMEASSISTANT (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.HOMEASSISTANT)
   * [HTTP (MonitorType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorType.HTTP)
     * [(ProxyProtocol attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.ProxyProtocol.HTTP)
 
-| 
+|
   * [HTTP_BASIC (AuthMethod attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.AuthMethod.HTTP_BASIC)
   * [HTTPS (ProxyProtocol attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.ProxyProtocol.HTTPS)
 
-  
----|---  
+
+---|---
 ## I
   * [IncidentStyle (class in uptime_kuma_api)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.IncidentStyle)
 
-| 
+|
   * [INFO (IncidentStyle attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.IncidentStyle.INFO)
   * [info() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.info)
 
-  
----|---  
+
+---|---
 ## J
   * [JSON_QUERY (MonitorType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorType.JSON_QUERY)
 
-  
----  
+
+---
 ## K
   * [KAFKA_PRODUCER (MonitorType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorType.KAFKA_PRODUCER)
 
-| 
+|
   * [KEYWORD (MonitorType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorType.KEYWORD)
   * [KOOK (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.KOOK)
 
-  
----|---  
+
+---|---
 ## L
   * [LIGHT (IncidentStyle attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.IncidentStyle.LIGHT)
   * [LINE (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.LINE)
   * [LINENOTIFY (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.LINENOTIFY)
 
-| 
+|
   * [login() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.login)
   * [login_by_token() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.login_by_token)
   * [logout() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.logout)
   * [LUNASEA (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.LUNASEA)
 
-  
----|---  
+
+---|---
 ## M
   * [MAINTENANCE (MonitorStatus attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorStatus.MAINTENANCE)
   * [MaintenanceStrategy (class in uptime_kuma_api)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MaintenanceStrategy)
   * [MANUAL (MaintenanceStrategy attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MaintenanceStrategy.MANUAL)
   * [MATRIX (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.MATRIX)
   * [MATTERMOST (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.MATTERMOST)
-  * module 
+  * module
     * [uptime_kuma_api](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#module-uptime_kuma_api)
 
-| 
+|
   * [MONGODB (MonitorType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorType.MONGODB)
   * [MonitorStatus (class in uptime_kuma_api)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorStatus)
   * [MonitorType (class in uptime_kuma_api)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorType)
@@ -193,30 +193,30 @@
   * [MTLS (AuthMethod attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.AuthMethod.MTLS)
   * [MYSQL (MonitorType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorType.MYSQL)
 
-  
----|---  
+
+---|---
 ## N
   * [need_setup() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.need_setup)
   * [NONE (AuthMethod attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.AuthMethod.NONE)
   * [NOSTR (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.NOSTR)
 
-| 
+|
   * [NotificationType (class in uptime_kuma_api)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType)
   * [NTFY (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.NTFY)
   * [NTLM (AuthMethod attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.AuthMethod.NTLM)
 
-  
----|---  
+
+---|---
 ## O
   * [OAUTH2_CC (AuthMethod attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.AuthMethod.OAUTH2_CC)
   * [OCTOPUSH (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.OCTOPUSH)
 
-| 
+|
   * [ONEBOT (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.ONEBOT)
   * [OPSGENIE (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.OPSGENIE)
 
-  
----|---  
+
+---|---
 ## P
   * [PAGERDUTY (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.PAGERDUTY)
   * [PAGERTREE (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.PAGERTREE)
@@ -228,7 +228,7 @@
   * [post_incident() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.post_incident)
   * [POSTGRES (MonitorType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorType.POSTGRES)
 
-| 
+|
   * [prepare_2fa() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.prepare_2fa)
   * [PRIMARY (IncidentStyle attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.IncidentStyle.PRIMARY)
   * [PROMOSMS (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.PROMOSMS)
@@ -240,23 +240,23 @@
   * [PUSHOVER (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.PUSHOVER)
   * [PUSHY (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.PUSHY)
 
-  
----|---  
+
+---|---
 ## R
   * [RADIUS (MonitorType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorType.RADIUS)
   * [REAL_BROWSER (MonitorType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorType.REAL_BROWSER)
   * [RECURRING_DAY_OF_MONTH (MaintenanceStrategy attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MaintenanceStrategy.RECURRING_DAY_OF_MONTH)
   * [RECURRING_INTERVAL (MaintenanceStrategy attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MaintenanceStrategy.RECURRING_INTERVAL)
 
-| 
+|
   * [RECURRING_WEEKDAY (MaintenanceStrategy attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MaintenanceStrategy.RECURRING_WEEKDAY)
   * [REDIS (MonitorType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorType.REDIS)
   * [resume_maintenance() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.resume_maintenance)
   * [resume_monitor() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.resume_monitor)
   * [ROCKET_CHAT (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.ROCKET_CHAT)
 
-  
----|---  
+
+---|---
 ## S
   * [save_2fa() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.save_2fa)
   * [save_status_page() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.save_status_page)
@@ -271,7 +271,7 @@
   * [SMSC (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.SMSC)
   * [SMSEAGLE (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.SMSEAGLE)
 
-| 
+|
   * [SMSMANAGER (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.SMSMANAGER)
   * [SMTP (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.SMTP)
   * [SOCKET (DockerType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.DockerType.SOCKET)
@@ -285,8 +285,8 @@
   * [STACKFIELD (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.STACKFIELD)
   * [STEAM (MonitorType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorType.STEAM)
 
-  
----|---  
+
+---|---
 ## T
   * [TAILSCALE_PING (MonitorType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorType.TAILSCALE_PING)
   * [TCP (DockerType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.DockerType.TCP)
@@ -294,48 +294,48 @@
   * [TELEGRAM (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.TELEGRAM)
   * [test_chrome() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.test_chrome)
 
-| 
+|
   * [test_docker_host() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.test_docker_host)
   * [test_notification() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.test_notification)
   * [Timeout](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.Timeout)
   * [TWILIO (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.TWILIO)
   * [twofa_status() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.twofa_status)
 
-  
----|---  
+
+---|---
 ## U
   * [unpin_incident() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.unpin_incident)
   * [UP (MonitorStatus attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.MonitorStatus.UP)
   * [upload_backup() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.upload_backup)
   * [uptime() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.uptime)
 
-| 
-  * uptime_kuma_api 
+|
+  * uptime_kuma_api
     * [module](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#module-uptime_kuma_api)
   * [UptimeKumaApi (class in uptime_kuma_api)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi)
   * [UptimeKumaException](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaException)
 
-  
----|---  
+
+---|---
 ## V
   * [verify_token() (UptimeKumaApi method)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.UptimeKumaApi.verify_token)
 
-  
----  
+
+---
 ## W
   * [WARNING (IncidentStyle attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.IncidentStyle.WARNING)
 
-| 
+|
   * [WEBHOOK (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.WEBHOOK)
   * [WECOM (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.WECOM)
 
-  
----|---  
+
+---|---
 ## Z
   * [ZOHOCLIQ (NotificationType attribute)](https://uptime-kuma-api.readthedocs.io/en/latest/api.html#uptime_kuma_api.NotificationType.ZOHOCLIQ)
 
-  
----  
+
+---
 # [uptime-kuma-api](https://uptime-kuma-api.readthedocs.io/en/latest/index.html)
 ### Navigation
   * [Main Interface](https://uptime-kuma-api.readthedocs.io/en/latest/api.html)
@@ -348,6 +348,6 @@
 
 
 ### Quick search
-©2023, Lucas Held. 
+©2023, Lucas Held.
 Close Ad
 ![](https://server.ethicalads.io/proxy/view/10308/019d3883-478b-75e3-b582-721a945f2566/)

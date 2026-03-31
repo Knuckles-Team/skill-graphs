@@ -72,7 +72,7 @@ To support more people all around the world a CDN (content delivery network) is 
 ## Chat[#](https://owncast.online/docs/scaling/#chat)
 When scaling chat you’re limited by what your single server will be able to handle as far as open connections. For most people the standard configuration is likely going to suffice, as it’s been tested to thousands of concurrent clients.
 Owncast will automatically increase the amount of concurrent sockets that your operating system will allow. However, if you still get the `too many open files` error it’s because your `ulimit` value is lower than the number of open resources Owncast is trying to to use. You will want to have a more powerful server (cpu, ram) when raising the max limit and handle more chat connections.
-You can increase concurrent connections by using the `ulimit` command or editing your system files. 
+You can increase concurrent connections by using the `ulimit` command or editing your system files.
   * [About](https://owncast.online/about)
   * [FAQ](https://owncast.online/faq)
   * [Videos](https://videos.owncast.online)
@@ -88,7 +88,7 @@ You can increase concurrent connections by using the `ulimit` command or editing
   * [Fediverse](https://social.owncast.online/@owncast)
 
 ![](https://owncast.online/images/logo.svg)
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

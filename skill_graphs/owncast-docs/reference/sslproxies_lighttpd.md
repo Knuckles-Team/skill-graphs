@@ -23,7 +23,7 @@
 
 # lighttpd
 ## SSL[#](https://owncast.online/docs/sslproxies/lighttpd/#ssl)
-An implementation of 
+An implementation of
 ```
 $SERVER["socket"] == "[::]:443" {
 ssl.engine = "enable"
@@ -67,7 +67,7 @@ proxy.forwarded = ( "host" => 1,
   * [Fediverse](https://social.owncast.online/@owncast)
 
 ![](https://owncast.online/images/logo.svg)
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

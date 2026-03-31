@@ -66,7 +66,7 @@ Ctrl K
   * [Listmonk Settings](https://docs.postiz.com/public-api/providers/listmonk)
   * [Google My Business Settings](https://docs.postiz.com/public-api/providers/gmb)
   * [Whop Settings](https://docs.postiz.com/public-api/providers/whop)
-  * [Skool Settings](https://docs.postiz.com/public-api/providers/skool)
+  * [School Settings](https://docs.postiz.com/public-api/providers/school)
   * [Kick Settings](https://docs.postiz.com/public-api/providers/kick)
   * [Twitch Settings](https://docs.postiz.com/public-api/providers/twitch)
   * [Moltbook Settings](https://docs.postiz.com/public-api/providers/moltbook)
@@ -95,7 +95,7 @@ Provider Settings (25 with custom settings)
 Copy page
 API settings for posting to LinkedIn
 Copy page
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/linkedin#settings-schema)
 Settings Schema
 When creating a post for LinkedIn (profile or page), use the following settings schema:
@@ -110,31 +110,31 @@ When creating a post for LinkedIn (profile or page), use the following settings 
 ```
 
 Use `__type: "linkedin"` for personal profiles and `__type: "linkedin-page"` for company pages. Both use the same settings schema.
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/linkedin#fields)
 Fields
-Field | Type | Required | Description  
----|---|---|---  
-`__type` | `string` | Yes |  `linkedin` or `linkedin-page`  
-`post_as_images_carousel` | `boolean` | No | Display multiple images as a carousel  
-`carousel_name` | `string` | No | Name for the carousel document  
-### 
+Field | Type | Required | Description
+---|---|---|---
+`__type` | `string` | Yes |  `linkedin` or `linkedin-page`
+`post_as_images_carousel` | `boolean` | No | Display multiple images as a carousel
+`carousel_name` | `string` | No | Name for the carousel document
+###
 [​](https://docs.postiz.com/public-api/providers/linkedin#post_as_images_carousel)
 `post_as_images_carousel`
 When set to `true` and you have multiple images, they will be displayed as a swipeable carousel instead of a collage.
-Value | Description  
----|---  
-`true` | Images displayed as carousel  
-`false` | Images displayed as collage (default)  
-### 
+Value | Description
+---|---
+`true` | Images displayed as carousel
+`false` | Images displayed as collage (default)
+###
 [​](https://docs.postiz.com/public-api/providers/linkedin#carousel_name)
 `carousel_name`
 Optional name for the carousel document. Only used when `post_as_images_carousel` is `true`.
 * * *
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/linkedin#complete-example)
 Complete Example
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/linkedin#text-post)
 Text Post
 ```
@@ -163,7 +163,7 @@ Text Post
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/linkedin#carousel-post)
 Carousel Post
 ```
@@ -207,7 +207,7 @@ Carousel Post
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/linkedin#company-page-post)
 Company Page Post
 ```
@@ -257,5 +257,5 @@ On this page
 Postiz
 Hi! Im the Postiz AI Chatbot, ask me any question you'd like, and I will answer it the best to my abilities!
 QUICK QUESTIONS
-Made by 
+Made by
 Chat

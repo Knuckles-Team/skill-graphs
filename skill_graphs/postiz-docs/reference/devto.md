@@ -66,7 +66,7 @@ Ctrl K
   * [Listmonk Settings](https://docs.postiz.com/public-api/providers/listmonk)
   * [Google My Business Settings](https://docs.postiz.com/public-api/providers/gmb)
   * [Whop Settings](https://docs.postiz.com/public-api/providers/whop)
-  * [Skool Settings](https://docs.postiz.com/public-api/providers/skool)
+  * [School Settings](https://docs.postiz.com/public-api/providers/school)
   * [Kick Settings](https://docs.postiz.com/public-api/providers/kick)
   * [Twitch Settings](https://docs.postiz.com/public-api/providers/twitch)
   * [Moltbook Settings](https://docs.postiz.com/public-api/providers/moltbook)
@@ -95,7 +95,7 @@ Provider Settings (25 with custom settings)
 Copy page
 API settings for posting to Pinterest
 Copy page
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/pinterest#settings-schema)
 Settings Schema
 When creating a Pin on Pinterest, use the following settings schema:
@@ -112,38 +112,38 @@ When creating a Pin on Pinterest, use the following settings schema:
 
 ```
 
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/pinterest#fields)
 Fields
-Field | Type | Required | Description  
----|---|---|---  
-`__type` | `string` | Yes | Must be `pinterest`  
-`board` | `string` | Yes | Board ID to pin to  
-`title` | `string` | No | Pin title (max 100 characters)  
-`link` | `string` | No | Destination URL  
-`dominant_color` | `string` | No | Dominant color for the pin  
-### 
+Field | Type | Required | Description
+---|---|---|---
+`__type` | `string` | Yes | Must be `pinterest`
+`board` | `string` | Yes | Board ID to pin to
+`title` | `string` | No | Pin title (max 100 characters)
+`link` | `string` | No | Destination URL
+`dominant_color` | `string` | No | Dominant color for the pin
+###
 [​](https://docs.postiz.com/public-api/providers/pinterest#board)
 `board`
 The board ID where the pin will be saved. This is required and must be a valid board ID from your Pinterest account.
 Get board IDs by using Postiz’s UI to view your boards, or by using Pinterest’s API directly.
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/pinterest#title)
 `title`
 Optional pin title with a maximum of 100 characters.
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/pinterest#link)
 `link`
 Optional destination URL. When users click “Visit” on your pin, they’ll be taken to this URL.
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/pinterest#dominant-color)
 `dominant_color`
 Optional hex color code that represents the dominant color of your pin. Pinterest may use this for visual presentation.
 * * *
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/pinterest#complete-example)
 Complete Example
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/pinterest#basic-pin)
 Basic Pin
 ```
@@ -181,7 +181,7 @@ Basic Pin
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/pinterest#pin-with-all-options)
 Pin with All Options
 ```
@@ -219,7 +219,7 @@ Pin with All Options
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/pinterest#simple-pin-minimal-settings)
 Simple Pin (Minimal Settings)
 ```
@@ -259,5 +259,5 @@ Hi! Im the Postiz AI Chatbot, ask me any question you'd like, and I will answer 
 QUICK QUESTIONS
 Dev.to Settings - Postiz Documentation
 ← Asking about this page
-Made by 
+Made by
 Chat

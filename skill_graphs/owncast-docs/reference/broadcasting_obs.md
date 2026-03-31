@@ -10,7 +10,7 @@
 ### [← Documentation](https://owncast.online/docs/ "Documentation")
 # OBS/Streamlabs OBS
 OBS is a popular piece of free software that will get you streaming from your own computer right away.
-  1. Install 
+  1. Install
   2. Open OBS Settings and go to “Stream”.
   3. Select “Custom…” as the service.
   4. Enter the URL of the server running your streaming service in the format of rtmp://myserver.net/live.
@@ -19,7 +19,7 @@ OBS is a popular piece of free software that will get you streaming from your ow
   7. Press “Start Streaming” (OBS) or “Go Live” (Streamlabs) on OBS.
 
 
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

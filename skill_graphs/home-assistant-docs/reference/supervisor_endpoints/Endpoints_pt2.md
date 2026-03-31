@@ -1,5 +1,5 @@
----|---|---|---  
-timeout | int | True | Seconds before freeze times out and thaw begins automatically (default: 600).  
+---|---|---|---
+timeout | int | True | Seconds before freeze times out and thaw begins automatically (default: 600).
 post
 `/backups/thaw`
 🔒
@@ -21,15 +21,15 @@ post
 🔒
 Does a full restore of the backup with the given slug.
 **Payload:**
-key | type | optional | description  
----|---|---|---  
-password | string | True | The password for the backup if any  
-background | boolean | True | Return `job_id` immediately, do not wait for restore to complete. Clients must check job for status.  
+key | type | optional | description
+---|---|---|---
+password | string | True | The password for the backup if any
+background | boolean | True | Return `job_id` immediately, do not wait for restore to complete. Clients must check job for status.
 **Example response:**
 ```
-{  
-  "job_id": "abc123"  
-}  
+{
+  "job_id": "abc123"
+}
 
 ```
 
@@ -39,19 +39,19 @@ post
 🔒
 Does a partial restore of the backup with the given slug.
 **Payload:**
-key | type | optional | description  
----|---|---|---  
-homeassistant | boolean | True |  `true` if Home Assistant should be restored  
-addons | list | True | A list of app slugs that should be restored  
-folders | list | True | A list of directories that should be restored  
-password | string | True | The password for the backup if any  
-background | boolean | True | Return `job_id` immediately, do not wait for restore to complete. Clients must check job for status.  
+key | type | optional | description
+---|---|---|---
+homeassistant | boolean | True |  `true` if Home Assistant should be restored
+addons | list | True | A list of app slugs that should be restored
+folders | list | True | A list of directories that should be restored
+password | string | True | The password for the backup if any
+background | boolean | True | Return `job_id` immediately, do not wait for restore to complete. Clients must check job for status.
 **You need to supply at least one key in the payload.**
 **Example response:**
 ```
-{  
-  "job_id": "abc123"  
-}  
+{
+  "job_id": "abc123"
+}
 
 ```
 
@@ -62,18 +62,18 @@ get
 🔒
 Returns information about the CLI plugin
 **Returned data:**
-key | type | description  
----|---|---  
-version | string | The installed cli version  
-version_latest | string | The latest published version  
-update_available | boolean |  `true` if an update is available  
+key | type | description
+---|---|---
+version | string | The installed cli version
+version_latest | string | The latest published version
+update_available | boolean |  `true` if an update is available
 **Example response:**
 ```
-{  
-  "version": "1",  
-  "version_latest": "2",  
-  "update_available": true  
-}  
+{
+  "version": "1",
+  "version_latest": "2",
+  "update_available": true
+}
 
 ```
 
@@ -83,16 +83,16 @@ get
 Returns a [Stats model](https://developers.home-assistant.io/docs/api/supervisor/models#stats) for the CLI plugin.
 **Example response:**
 ```
-{  
-  "cpu_percent": 14.0,  
-  "memory_usage": 288888,  
-  "memory_limit": 322222,  
-  "memory_percent": 32.4,  
-  "network_tx": 110,  
-  "network_rx": 902,  
-  "blk_read": 12,  
-  "blk_write": 27  
-}  
+{
+  "cpu_percent": 14.0,
+  "memory_usage": 288888,
+  "memory_limit": 322222,
+  "memory_percent": 32.4,
+  "network_tx": 110,
+  "network_rx": 902,
+  "blk_read": 12,
+  "blk_write": 27
+}
 
 ```
 
@@ -101,9 +101,9 @@ post
 🔒
 Update the CLI plugin
 **Payload:**
-key | type | description  
----|---|---  
-version | string | The version you want to install, default is the latest version  
+key | type | description
+---|---|---
+version | string | The version you want to install, default is the latest version
 ### Core[​](https://developers.home-assistant.io/docs/api/supervisor/endpoints/#core "Direct link to Core")
 get
 `/core/api`
@@ -122,42 +122,42 @@ get
 🔒
 Returns information about the Home Assistant core
 **Returned data:**
-key | type | description  
----|---|---  
-version | string | The installed core version  
-version_latest | string | The latest published version in the active channel  
-update_available | boolean |  `true` if an update is available  
-arch | string | The architecture of the host (armhf, aarch64, i386, amd64)  
-machine | string | The machine type that is running the host  
-ip_address | string | The internal docker IP address to the supervisor  
-image | string | The container image that is running the core  
-boot | boolean |  `true` if it should start on boot  
-port | int | The port Home Assistant is running on  
-ssl | boolean |  `true` if Home Assistant is using SSL  
-watchdog | boolean |  `true` if watchdog is enabled  
-wait_boot | int | Max time to wait during boot  
-audio_input | string or null | The description of the audio input device  
-audio_output | string or null | The description of the audio output device  
-backups_exclude_database | boolean | Backups exclude Home Assistant database file by default  
-duplicate_log_file | boolean | Home Assistant duplicates logs to a file  
+key | type | description
+---|---|---
+version | string | The installed core version
+version_latest | string | The latest published version in the active channel
+update_available | boolean |  `true` if an update is available
+arch | string | The architecture of the host (armhf, aarch64, i386, amd64)
+machine | string | The machine type that is running the host
+ip_address | string | The internal docker IP address to the supervisor
+image | string | The container image that is running the core
+boot | boolean |  `true` if it should start on boot
+port | int | The port Home Assistant is running on
+ssl | boolean |  `true` if Home Assistant is using SSL
+watchdog | boolean |  `true` if watchdog is enabled
+wait_boot | int | Max time to wait during boot
+audio_input | string or null | The description of the audio input device
+audio_output | string or null | The description of the audio output device
+backups_exclude_database | boolean | Backups exclude Home Assistant database file by default
+duplicate_log_file | boolean | Home Assistant duplicates logs to a file
 **Example response:**
 ```
-{  
-  "version": "0.117.0",  
-  "version_latest": "0.117.0",  
-  "update_available": true,  
-  "arch": "arch",  
-  "machine": "amd64",  
-  "ip_address": "172.0.0.15",  
-  "image": "homeassistant/home-assistant",  
-  "boot": true,  
-  "port": 8123,  
-  "ssl": false,  
-  "watchdog": true,  
-  "wait_boot": 800,  
-  "audio_input": "AMCP32",  
-  "audio_output": "AMCP32"  
-}  
+{
+  "version": "0.117.0",
+  "version_latest": "0.117.0",
+  "update_available": true,
+  "arch": "arch",
+  "machine": "amd64",
+  "ip_address": "172.0.0.15",
+  "image": "homeassistant/home-assistant",
+  "boot": true,
+  "port": 8123,
+  "ssl": false,
+  "watchdog": true,
+  "wait_boot": 800,
+  "audio_input": "AMCP32",
+  "audio_output": "AMCP32"
+}
 
 ```
 
@@ -190,38 +190,38 @@ post
 Update options for Home Assistant, you need to supply at least one of the payload keys to the API call. You need to call `/core/restart` after updating the options.
 Passing `image`, `refresh_token`, `audio_input` or `audio_output` with `null` resets the option.
 **Payload:**
-key | type | description  
----|---|---  
-boot | boolean | Start Core on boot  
-image | string or null | Name of custom image  
-port | int | The port that Home Assistant run on  
-ssl | boolean |  `true` to enable SSL  
-watchdog | boolean |  `true` to enable the watchdog  
-wait_boot | int | Time to wait for Core to startup  
-refresh_token | string or null | Token to authenticate with Core  
-audio_input | string or null | Profile name for audio input  
-audio_output | string or null | Profile name for audio output  
-backups_exclude_database | boolean |  `true` to exclude Home Assistant database file from backups  
-duplicate_log_file | boolean |  `true` to duplicate Home Assistant logs to a file  
+key | type | description
+---|---|---
+boot | boolean | Start Core on boot
+image | string or null | Name of custom image
+port | int | The port that Home Assistant run on
+ssl | boolean |  `true` to enable SSL
+watchdog | boolean |  `true` to enable the watchdog
+wait_boot | int | Time to wait for Core to startup
+refresh_token | string or null | Token to authenticate with Core
+audio_input | string or null | Profile name for audio input
+audio_output | string or null | Profile name for audio output
+backups_exclude_database | boolean |  `true` to exclude Home Assistant database file from backups
+duplicate_log_file | boolean |  `true` to duplicate Home Assistant logs to a file
 **You need to supply at least one key in the payload.**
 post
 `/core/rebuild`
 🔒
 Rebuild the Home Assistant core container
 **Payload:**
-key | type | optional | description  
----|---|---|---  
-safe_mode | boolean | True | Rebuild Core into safe mode  
-force | boolean | True | Force rebuild during a Home Assistant offline db migration  
+key | type | optional | description
+---|---|---|---
+safe_mode | boolean | True | Rebuild Core into safe mode
+force | boolean | True | Force rebuild during a Home Assistant offline db migration
 post
 `/core/restart`
 🔒
 Restart the Home Assistant core container
 **Payload:**
-key | type | optional | description  
----|---|---|---  
-safe_mode | boolean | True | Restart Core into safe mode  
-force | boolean | True | Force restart during a Home Assistant offline db migration  
+key | type | optional | description
+---|---|---|---
+safe_mode | boolean | True | Restart Core into safe mode
+force | boolean | True | Force restart during a Home Assistant offline db migration
 post
 `/core/start`
 🔒
@@ -232,16 +232,16 @@ get
 Returns a [Stats model](https://developers.home-assistant.io/docs/api/supervisor/models#stats) for the Home Assistant core.
 **Example response:**
 ```
-{  
-  "cpu_percent": 14.0,  
-  "memory_usage": 288888,  
-  "memory_limit": 322222,  
-  "memory_percent": 32.4,  
-  "network_tx": 110,  
-  "network_rx": 902,  
-  "blk_read": 12,  
-  "blk_write": 27  
-}  
+{
+  "cpu_percent": 14.0,
+  "memory_usage": 288888,
+  "memory_limit": 322222,
+  "memory_percent": 32.4,
+  "network_tx": 110,
+  "network_rx": 902,
+  "blk_read": 12,
+  "blk_write": 27
+}
 
 ```
 
@@ -250,18 +250,18 @@ post
 🔒
 Stop the Home Assistant core container
 **Payload:**
-key | type | optional | description  
----|---|---|---  
-force | boolean | True | Force stop during a Home Assistant offline db migration  
+key | type | optional | description
+---|---|---|---
+force | boolean | True | Force stop during a Home Assistant offline db migration
 post
 `/core/update`
 🔒
 Update Home Assistant core
 **Payload:**
-key | type | description  
----|---|---  
-version | string | The version you want to install, default is the latest version  
-backup | boolean | Create a partial backup of core and core configuration before updating, default is false  
+key | type | description
+---|---|---
+version | string | The version you want to install, default is the latest version
+backup | boolean | Create a partial backup of core and core configuration before updating, default is false
 get
 `/core/websocket`
 🔒
@@ -272,25 +272,25 @@ get
 🔒
 Return information about enabled discoveries.
 **Returned data:**
-key | type | description  
----|---|---  
-discovery | list | A list of [Discovery models](https://developers.home-assistant.io/docs/api/supervisor/models#discovery)  
-services | dictionary | A dictionary of services that contains a list of apps that have that service.  
+key | type | description
+---|---|---
+discovery | list | A list of [Discovery models](https://developers.home-assistant.io/docs/api/supervisor/models#discovery)
+services | dictionary | A dictionary of services that contains a list of apps that have that service.
 **Example response:**
 ```
-{  
-  "discovery": [  
-    {  
-      "addon": "awesome_addon",  
-      "service": "awesome.service",  
-      "uuid": "fh874r-fj9o37yr3-fehsf7o3-fd798",  
-      "config": {}  
-    }  
-  ],  
-  "services": {  
-    "awesome": ["awesome_addon"]  
-  }  
-}  
+{
+  "discovery": [
+    {
+      "addon": "awesome_addon",
+      "service": "awesome.service",
+      "uuid": "fh874r-fj9o37yr3-fehsf7o3-fd798",
+      "config": {}
+    }
+  ],
+  "services": {
+    "awesome": ["awesome_addon"]
+  }
+}
 
 ```
 
@@ -299,15 +299,15 @@ post
 🔒
 Create a discovery service
 **Payload:**
-key | type | optional | description  
----|---|---|---  
-service | string | False | The name of the service  
-config | dictionary | False | The configuration of the service  
+key | type | optional | description
+---|---|---|---
+service | string | False | The name of the service
+config | dictionary | False | The configuration of the service
 **Example response:**
 ```
-{  
-  "uuid": "uuid"  
-}  
+{
+  "uuid": "uuid"
+}
 
 ```
 
@@ -325,30 +325,30 @@ get
 🔒
 Return information about the DNS plugin.
 **Returned data:**
-key | type | description  
----|---|---  
-fallback | bool | Try fallback DNS on failure  
-host | string | The IP address of the plugin  
-llmnr | bool | Can resolve LLMNR hostnames  
-locals | list | A list of DNS servers  
-mdns | bool | Can resolve MulticastDNS hostnames  
-servers | list | A list of DNS servers  
-update_available | boolean |  `true` if an update is available  
-version | string | The installed observer version  
-version_latest | string | The latest published version  
+key | type | description
+---|---|---
+fallback | bool | Try fallback DNS on failure
+host | string | The IP address of the plugin
+llmnr | bool | Can resolve LLMNR hostnames
+locals | list | A list of DNS servers
+mdns | bool | Can resolve MulticastDNS hostnames
+servers | list | A list of DNS servers
+update_available | boolean |  `true` if an update is available
+version | string | The installed observer version
+version_latest | string | The latest published version
 **Example response:**
 ```
-{  
-  "host": "127.0.0.18",  
-  "version": "1",  
-  "version_latest": "2",  
-  "update_available": true,  
-  "servers": ["dns://8.8.8.8"],  
-  "locals": ["dns://127.0.0.18"],  
-  "mdns": true,  
-  "llmnr": false,  
-  "fallback": true  
-}  
+{
+  "host": "127.0.0.18",
+  "version": "1",
+  "version_latest": "2",
+  "update_available": true,
+  "servers": ["dns://8.8.8.8"],
+  "locals": ["dns://127.0.0.18"],
+  "mdns": true,
+  "llmnr": false,
+  "fallback": true
+}
 
 ```
 
@@ -380,10 +380,10 @@ post
 🔒
 Set DNS options
 **Payload:**
-key | type | optional | description  
----|---|---|---  
-fallback | bool | True | Enable/Disable fallback DNS  
-servers | list | True | A list of DNS servers  
+key | type | optional | description
+---|---|---|---
+fallback | bool | True | Enable/Disable fallback DNS
+servers | list | True | A list of DNS servers
 **You need to supply at least one key in the payload.**
 post
 `/dns/reset`
@@ -399,16 +399,16 @@ get
 Returns a [Stats model](https://developers.home-assistant.io/docs/api/supervisor/models#stats) for the dns plugin.
 **Example response:**
 ```
-{  
-  "cpu_percent": 14.0,  
-  "memory_usage": 288888,  
-  "memory_limit": 322222,  
-  "memory_percent": 32.4,  
-  "network_tx": 110,  
-  "network_rx": 902,  
-  "blk_read": 12,  
-  "blk_write": 27  
-}  
+{
+  "cpu_percent": 14.0,
+  "memory_usage": 288888,
+  "memory_limit": 322222,
+  "memory_percent": 32.4,
+  "network_tx": 110,
+  "network_rx": 902,
+  "blk_read": 12,
+  "blk_write": 27
+}
 
 ```
 
@@ -417,31 +417,31 @@ post
 🔒
 Update the DNS plugin
 **Payload:**
-key | type | description  
----|---|---  
-version | string | The version you want to install, default is the latest version  
+key | type | description
+---|---|---
+version | string | The version you want to install, default is the latest version
 ### Docker[​](https://developers.home-assistant.io/docs/api/supervisor/endpoints/#docker "Direct link to Docker")
 get
 `/docker/info`
 🔒
 Returns information about the docker instance.
 **Returned data:**
-key | type | description  
----|---|---  
-version | string | The version of the docker engine  
-enable_ipv6 | bool | Enable/Disable IPv6 for containers  
-storage | string | The storage type  
-logging | string | The logging type  
-registries | dictionary | A dictionary of dictionaries containing `username` and `password` keys for registries.  
+key | type | description
+---|---|---
+version | string | The version of the docker engine
+enable_ipv6 | bool | Enable/Disable IPv6 for containers
+storage | string | The storage type
+logging | string | The logging type
+registries | dictionary | A dictionary of dictionaries containing `username` and `password` keys for registries.
 **Example response:**
 ```
-{  
-  "version": "1.0.1",  
-  "enable_ipv6": true,  
-  "storage": "overlay2",  
-  "logging": "journald",  
-  "registries": {}  
-}  
+{
+  "version": "1.0.1",
+  "enable_ipv6": true,
+  "storage": "overlay2",
+  "logging": "journald",
+  "registries": {}
+}
 
 ```
 
@@ -450,9 +450,9 @@ post
 🔒
 Set docker options
 **Payload:**
-key | type | optional | description  
----|---|---|---  
-enable_ipv6 | bool | True | Enable/Disable IPv6 for containers  
+key | type | optional | description
+---|---|---|---
+enable_ipv6 | bool | True | Enable/Disable IPv6 for containers
 **You need to supply at least one key in the payload.**
 get
 `/docker/registries`
@@ -460,11 +460,11 @@ get
 Get all configured container registries, this returns a dict with the registry hostname as the key, and a dictionary containing the username configured for that registry.
 **Example response:**
 ```
-{  
-  "registry.example.com": {  
-    "username": "AwesomeUser"  
-  }  
-}  
+{
+  "registry.example.com": {
+    "username": "AwesomeUser"
+  }
+}
 
 ```
 
@@ -473,17 +473,17 @@ post
 🔒
 Add a new container registry.
 **Payload:**
-key | type | description  
----|---|---  
-hostname | dictionary | A dictionary containing `username` and `password` keys for the registry.  
+key | type | description
+---|---|---
+hostname | dictionary | A dictionary containing `username` and `password` keys for the registry.
 **Example payload:**
 ```
-{  
-  "registry.example.com": {  
-    "username": "AwesomeUser",  
-    "password": "MySuperStrongPassword!"  
-  }  
-}  
+{
+  "registry.example.com": {
+    "username": "AwesomeUser",
+    "password": "MySuperStrongPassword!"
+  }
+}
 
 ```
 
@@ -503,14 +503,14 @@ This endpoint allows migrating to either:
 
 This endpoint requires Home Assistant OS 17.0 or newer. A `404` error will be returned on older versions or non-HAOS installations.
 **Payload:**
-key | type | optional | description  
----|---|---|---  
-storage_driver | string | False | The target storage driver (`overlayfs` or `overlay2`)  
+key | type | optional | description
+---|---|---|---
+storage_driver | string | False | The target storage driver (`overlayfs` or `overlay2`)
 **Example payload:**
 ```
-{  
-  "storage_driver": "overlayfs"  
-}  
+{
+  "storage_driver": "overlayfs"
+}
 
 ```
 
@@ -522,74 +522,74 @@ get
 Get hardware information.
 **Example response:**
 ```
-{  
-    "devices": [  
-      {  
-        "name": "ttyACM0",  
-        "sysfs": "/sys/devices/usb/00:01",  
-        "dev_path": "/dev/ttyACM0",  
-        "by_id": "/dev/serial/by-id/usb-Silicon_Labs-RFUSB_9017F723B061A7C01410CFCF-if00-port1",  
-        "subsystem": "tty",  
-        "parent": null,  
-        "attributes": {  
-          "MINOR": "5"  
-        },  
-        "children": [  
-          "/sys/devices/soc/platform/00ef"  
-        ]  
-      }  
-    ],  
-    "drives": [  
-      {  
-        "vendor": "Generic",  
-        "model": "Flash Disk",  
-        "revision": "8.07",  
-        "serial": "AABBCCDD",  
-        "id": "Generic-Flash-Disk-AABBCCDD",  
-        "size": 8054112256,  
-        "time_detected": "2023-02-15T21:44:22.504878+00:00",  
-        "connection_bus": "usb",  
-        "seat": "seat0",  
-        "removable": true,  
-        "ejectable": true,  
-        "filesystems": [  
-          {  
-            "device": "/dev/sda1",  
-            "id": "by-uuid-1122-1ABA",  
-            "size": 67108864,  
-            "name": "",  
-            "system": false,  
-            "mount_points": []  
-          }  
-        ]  
-      }  
-    ]  
-}  
+{
+    "devices": [
+      {
+        "name": "ttyACM0",
+        "sysfs": "/sys/devices/usb/00:01",
+        "dev_path": "/dev/ttyACM0",
+        "by_id": "/dev/serial/by-id/usb-Silicon_Labs-RFUSB_9017F723B061A7C01410CFCF-if00-port1",
+        "subsystem": "tty",
+        "parent": null,
+        "attributes": {
+          "MINOR": "5"
+        },
+        "children": [
+          "/sys/devices/soc/platform/00ef"
+        ]
+      }
+    ],
+    "drives": [
+      {
+        "vendor": "Generic",
+        "model": "Flash Disk",
+        "revision": "8.07",
+        "serial": "AABBCCDD",
+        "id": "Generic-Flash-Disk-AABBCCDD",
+        "size": 8054112256,
+        "time_detected": "2023-02-15T21:44:22.504878+00:00",
+        "connection_bus": "usb",
+        "seat": "seat0",
+        "removable": true,
+        "ejectable": true,
+        "filesystems": [
+          {
+            "device": "/dev/sda1",
+            "id": "by-uuid-1122-1ABA",
+            "size": 67108864,
+            "name": "",
+            "system": false,
+            "mount_points": []
+          }
+        ]
+      }
+    ]
+}
 
 ```
 
 **Returned data:**
-key | description  
----|---  
-devices | A list of [Device models](https://developers.home-assistant.io/docs/api/supervisor/models#device)  
-drives | A list of [Drive models](https://developers.home-assistant.io/docs/api/supervisor/models#drive)  
+key | description
+---|---
+devices | A list of [Device models](https://developers.home-assistant.io/docs/api/supervisor/models#device)
+drives | A list of [Drive models](https://developers.home-assistant.io/docs/api/supervisor/models#drive)
 get
 `/hardware/audio`
 🔒
 Get audio devices
 **Example response:**
 ```
-{  
-  "audio": {  
-    "input": {  
-      "0,0": "Mic"  
-    },  
-    "output": {  
-      "1,0": "Jack",  
-      "1,1": "HDMI"  
-    }  
-  }  
-}  
+{
+  "audio": {
+    "input": {
+      "0,0": "Mic"
+    },
+    "output": {
+      "1,0": "Jack",
+      "1,1": "HDMI"
+    }
+  }
+}
 
 ```
 
@@ -599,58 +599,58 @@ get
 🔒
 Return information about the host.
 **Returned data**
-key | type | description  
----|---|---  
-agent_version | string or null | Agent version running on the Host  
-apparmor_version | string or null | The AppArmor version from host  
-boot_timestamp | int | The timestamp for the last boot in microseconds  
-broadcast_llmnr | bool or null | Host is broadcasting its LLMNR hostname  
-broadcast_mdns | bool or null | Host is broadcasting its MulticastDNS hostname  
-chassis | string or null | The chassis type  
-virtualization | string or null | Virtualization hypervisor in use (if any)  
-cpe | string or null | The local CPE  
-deployment | string or null | The deployment stage of the OS if any  
-disk_total | float | Total space of the disk in MB  
-disk_used | float | Used space of the disk in MB  
-disk_free | float | Free space of the disk in MB  
-features | list | A list of features available for the host  
-hostname | string or null | The hostname of the host  
-kernel | string or null | The kernel version on the host  
-llmnr_hostname | string or null | The hostname currently exposed on the network via LLMNR for host  
-operating_system | string | The operating system on the host  
-startup_time | float | The time in seconds it took for last boot  
-disk_life_time | float or null | Percentage of estimated disk lifetime used (0–100). Not all disks provide this information, returns `null` if unavailable.  
-timezone | string | The current timezone of the host.  
-dt_utc | string | Current UTC date/time of the host in ISO 8601 format.  
-dt_synchronized | bool |  `true` if the host is synchronized with an NTP service.  
-use_ntp | bool |  `true` if the host is using an NTP service for time synchronization.  
+key | type | description
+---|---|---
+agent_version | string or null | Agent version running on the Host
+apparmor_version | string or null | The AppArmor version from host
+boot_timestamp | int | The timestamp for the last boot in microseconds
+broadcast_llmnr | bool or null | Host is broadcasting its LLMNR hostname
+broadcast_mdns | bool or null | Host is broadcasting its MulticastDNS hostname
+chassis | string or null | The chassis type
+virtualization | string or null | Virtualization hypervisor in use (if any)
+cpe | string or null | The local CPE
+deployment | string or null | The deployment stage of the OS if any
+disk_total | float | Total space of the disk in MB
+disk_used | float | Used space of the disk in MB
+disk_free | float | Free space of the disk in MB
+features | list | A list of features available for the host
+hostname | string or null | The hostname of the host
+kernel | string or null | The kernel version on the host
+llmnr_hostname | string or null | The hostname currently exposed on the network via LLMNR for host
+operating_system | string | The operating system on the host
+startup_time | float | The time in seconds it took for last boot
+disk_life_time | float or null | Percentage of estimated disk lifetime used (0–100). Not all disks provide this information, returns `null` if unavailable.
+timezone | string | The current timezone of the host.
+dt_utc | string | Current UTC date/time of the host in ISO 8601 format.
+dt_synchronized | bool |  `true` if the host is synchronized with an NTP service.
+use_ntp | bool |  `true` if the host is using an NTP service for time synchronization.
 **Example response:**
 ```
-{  
-  "agent_version": "1.2.0",  
-  "apparmor_version": "2.13.2",  
-  "chassis": "specific",  
-  "cpe": "xy",  
-  "deployment": "stable",  
-  "disk_total": 32.0,  
-  "disk_used": 30.0,  
-  "disk_free": 2.0,  
-  "features": ["shutdown", "reboot", "hostname", "services", "haos"],  
-  "hostname": "Awesome host",  
-  "llmnr_hostname": "Awesome host",  
-  "kernel": "4.15.7",  
-  "operating_system": "Home Assistant OS",  
-  "boot_timestamp": 1234567788,  
-  "startup_time": 12.345,  
-  "broadcast_llmnr": true,  
-  "broadcast_mdns": false,  
-  "virtualization": "",  
-  "disk_life_time": 10.0,  
-  "timezone": "Europe/Brussels",  
-  "dt_utc": "2025-09-08T12:00:00.000000+00:00",  
-  "dt_synchronized": true,  
-  "use_ntp": true  
-}  
+{
+  "agent_version": "1.2.0",
+  "apparmor_version": "2.13.2",
+  "chassis": "specific",
+  "cpe": "xy",
+  "deployment": "stable",
+  "disk_total": 32.0,
+  "disk_used": 30.0,
+  "disk_free": 2.0,
+  "features": ["shutdown", "reboot", "hostname", "services", "haos"],
+  "hostname": "Awesome host",
+  "llmnr_hostname": "Awesome host",
+  "kernel": "4.15.7",
+  "operating_system": "Home Assistant OS",
+  "boot_timestamp": 1234567788,
+  "startup_time": 12.345,
+  "broadcast_llmnr": true,
+  "broadcast_mdns": false,
+  "virtualization": "",
+  "disk_life_time": 10.0,
+  "timezone": "Europe/Brussels",
+  "dt_utc": "2025-09-08T12:00:00.000000+00:00",
+  "dt_synchronized": true,
+  "use_ntp": true
+}
 
 ```
 
@@ -659,20 +659,20 @@ get
 🔒
 Get systemd Journal logs from the host. Returns log entries in plain text, one log record per line.
 **HTTP Request Headers**
-Header | optional | description  
----|---|---  
-Accept | true | Type of data (text/plain or text/x-log)  
-Range | true | Range of log entries. The format is `entries=cursor[[:num_skip]:num_entries]`  
+Header | optional | description
+---|---|---
+Accept | true | Type of data (text/plain or text/x-log)
+Range | true | Range of log entries. The format is `entries=cursor[[:num_skip]:num_entries]`
 **HTTP Query Parameters**
 These are a convenience alternative to the headers shown above as query parameters are easier to use in development and with the Home Assistant proxy. You should only provide one or the other.
-Query | type | description  
----|---|---  
-verbose | N/A | If included, uses `text/x-log` as log output type (alternative to `Accept` header)  
-lines | int | Number of lines of output to return (alternative to `Range` header)  
-no_colors | N/A | If included, ANSI escape codes for terminal coloring will be stripped from the output  
+Query | type | description
+---|---|---
+verbose | N/A | If included, uses `text/x-log` as log output type (alternative to `Accept` header)
+lines | int | Number of lines of output to return (alternative to `Range` header)
+no_colors | N/A | If included, ANSI escape codes for terminal coloring will be stripped from the output
 Example query string:
 ```
-?verbose&lines=100&no_colors  
+?verbose&lines=100&no_colors
 
 ```
 
@@ -732,18 +732,18 @@ post
 🔒
 Set host options
 **Payload:**
-key | type | optional | description  
----|---|---|---  
-hostname | string | True | A string that will be used as the new hostname  
+key | type | optional | description
+---|---|---|---
+hostname | string | True | A string that will be used as the new hostname
 **You need to supply at least one key in the payload.**
 post
 `/host/reboot`
 🔒
 Reboot the host
 **Payload:**
-key | type | optional | description  
----|---|---|---  
-force | boolean | True | Force reboot during a Home Assistant offline db migration  
+key | type | optional | description
+---|---|---|---
+force | boolean | True | Force reboot during a Home Assistant offline db migration
 post
 `/host/reload`
 🔒
@@ -765,20 +765,20 @@ get
 🔒
 Get information about host services.
 **Returned data:**
-key | description  
----|---  
-services | A dictionary of [Host service models](https://developers.home-assistant.io/docs/api/supervisor/models#host-service)  
+key | description
+---|---
+services | A dictionary of [Host service models](https://developers.home-assistant.io/docs/api/supervisor/models#host-service)
 **Example response:**
 ```
-{  
-  "services": [  
-    {  
-      "name": "awesome.service",  
-      "description": "Just an awesome service",  
-      "state": "active"  
-    }  
-  ]  
-}  
+{
+  "services": [
+    {
+      "name": "awesome.service",
+      "description": "Just an awesome service",
+      "state": "active"
+    }
+  ]
+}
 
 ```
 
@@ -787,9 +787,9 @@ post
 🔒
 Shutdown the host
 **Payload:**
-key | type | optional | description  
----|---|---|---  
-force | boolean | True | Force shutdown during a Home Assistant offline db migration  
+key | type | optional | description
+---|---|---|---
+force | boolean | True | Force shutdown during a Home Assistant offline db migration
 get
 `/host/disks/<disk>/usage`
 🔒
@@ -798,18 +798,18 @@ The only supported `disk` for now is "default". It will return usage info for th
 Supports an optional `max_depth` query param. Defaults to 1
 **Example response:**
 ```
-{  
-  "id": "root",  
-  "label": "Default",  
-  "total_space": 503312781312,  
-  "used_space": 430245011456,  
-  "children": [  
-    {  
-      "id": "system",  
-      "label": "System",  
-      "used_space": 75660903137  
-    },  
-    {  
-      "id": "addons_data",  
-      "label": "Addons data",  
-      "used_space": 42349200762  
+{
+  "id": "root",
+  "label": "Default",
+  "total_space": 503312781312,
+  "used_space": 430245011456,
+  "children": [
+    {
+      "id": "system",
+      "label": "System",
+      "used_space": 75660903137
+    },
+    {
+      "id": "addons_data",
+      "label": "Addons data",
+      "used_space": 42349200762

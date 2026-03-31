@@ -23,7 +23,7 @@
   1. Note that the error “Live stream key may be incorrect” will display. This is expected and can be ignored.
 
 
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

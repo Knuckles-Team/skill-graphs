@@ -55,7 +55,7 @@ Postiz Public API documentation
 - [Public Api Video Function](reference/public-api_video_function.md)
 - [Public Api Video Generate](reference/public-api_video_generate.md)
 - [Reddit](reference/reddit.md)
-- [Skool](reference/skool.md)
+- [School](reference/school.md)
 - [Slack](reference/slack.md)
 - [Tiktok](reference/tiktok.md)
 - [Twitch](reference/twitch.md)
@@ -71,4 +71,3 @@ Postiz Public API documentation
 - Prefer exact quotes and direct links to the relevant file/section.
 - The hierarchical TOC above makes navigation fast and intuitive.
 - All images and assets are preserved so links work perfectly.
-

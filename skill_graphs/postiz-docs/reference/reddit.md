@@ -66,7 +66,7 @@ Ctrl K
   * [Listmonk Settings](https://docs.postiz.com/public-api/providers/listmonk)
   * [Google My Business Settings](https://docs.postiz.com/public-api/providers/gmb)
   * [Whop Settings](https://docs.postiz.com/public-api/providers/whop)
-  * [Skool Settings](https://docs.postiz.com/public-api/providers/skool)
+  * [School Settings](https://docs.postiz.com/public-api/providers/school)
   * [Kick Settings](https://docs.postiz.com/public-api/providers/kick)
   * [Twitch Settings](https://docs.postiz.com/public-api/providers/twitch)
   * [Moltbook Settings](https://docs.postiz.com/public-api/providers/moltbook)
@@ -95,11 +95,11 @@ Provider Settings (25 with custom settings)
 Copy page
 Provider settings for Facebook posts
 Copy page
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/facebook#overview)
 Overview
 Facebook integration allows you to post to Facebook pages. You can optionally include a link URL in your posts.
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/facebook#settings-schema)
 Settings Schema
 ```
@@ -110,17 +110,17 @@ Settings Schema
 
 ```
 
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/facebook#properties)
 Properties
-Property | Type | Required | Description  
----|---|---|---  
-`__type` | string | ✅ | Must be `"facebook"`  
-`url` | string | ❌ | Optional link URL to include in the post  
-## 
+Property | Type | Required | Description
+---|---|---|---
+`__type` | string | ✅ | Must be `"facebook"`
+`url` | string | ❌ | Optional link URL to include in the post
+##
 [​](https://docs.postiz.com/public-api/providers/facebook#examples)
 Examples
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/facebook#simple-text-post)
 Simple text post
 ```
@@ -149,7 +149,7 @@ Simple text post
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/facebook#post-with-link)
 Post with link
 ```
@@ -179,7 +179,7 @@ Post with link
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/facebook#post-with-image)
 Post with image
 ```
@@ -213,7 +213,7 @@ Post with image
 
 ```
 
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/facebook#notes)
 Notes
   * The `url` field is optional and creates a link preview in the post
@@ -241,5 +241,5 @@ On this page
 Postiz
 Hi! Im the Postiz AI Chatbot, ask me any question you'd like, and I will answer it the best to my abilities!
 QUICK QUESTIONS
-Made by 
+Made by
 Chat

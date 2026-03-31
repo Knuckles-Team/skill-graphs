@@ -20,7 +20,7 @@
   * [Building Integrations](https://developers.home-assistant.io/docs/api/native-app-integration/)
   * [Development Checklist](https://developers.home-assistant.io/docs/api/native-app-integration/)
   * [Integration Quality Scale](https://developers.home-assistant.io/docs/core/integration-quality-scale/)
-  * [The `hass` object](https://developers.home-assistant.io/docs/api/native-app-integration/)
+  * [The `hash` object](https://developers.home-assistant.io/docs/api/native-app-integration/)
   * [Entities](https://developers.home-assistant.io/docs/api/native-app-integration/)
   * [Areas, Devices and Entities](https://developers.home-assistant.io/docs/api/native-app-integration/)
   * [Authentication](https://developers.home-assistant.io/docs/api/native-app-integration/)

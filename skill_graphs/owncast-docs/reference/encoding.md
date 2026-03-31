@@ -80,7 +80,7 @@ Keep in mind it's hard to give specific settings that will give you the best qua
 ## Your stream can be played outside of your web site.[#](https://owncast.online/docs/video/#your-stream-can-be-played-outside-of-your-web-site)
 Because Owncast uses the HLS standard, almost any video player can play your stream. You can also build your own app that plays it. Commonly used video player such as Quicktime, VLC, and mpv can play your stream simply by using its base URL as `https://owncast.mydomain.com`. Alternatively, you can also access your stream directly on your server by putting the path of `/hls/stream.m3u8` into your player. For example: `https://owncast.mydomain.com/hls/stream.m3u8`.
 ## How does an Owncast video stream work?[#](https://owncast.online/docs/video/#how-does-an-owncast-video-stream-work)
-Owncast takes your source stream and converts it to short, individual video segments. A list of these segments is supplied to your viewer’s player and will read and play all the segments in order. This is using a specification called 
+Owncast takes your source stream and converts it to short, individual video segments. A list of these segments is supplied to your viewer’s player and will read and play all the segments in order. This is using a specification called
 This video from Jon Dahl is gives a very good overview of internet video, starting with _“what happens when you press play in your web browser?”_ and touching on every piece of the stack, backend and frontend. It translates very well to how Owncast works and is suggested if you want to learn more.
 In this case Owncast works as the Media encoder, Stream segmenter, and distribution web server. However [Owncast supports video being distributed via 3rd party storage as well](https://owncast.online/docs/storage), so in that case the video segments would be distributed from there, instead.
 ![](https://docs-assets.developer.apple.com/published/88e87744a3/de18e941-81de-482f-843d-834a4dd3aa71.png)
@@ -121,7 +121,7 @@ You have some control over the live latency between the broadcaster and the view
 If you require real-time, video conferencing style latency you may want to look for a different solution that doesn't use HLS video, as this scaling and distribution model will never get to sub-second levels.
 ### Player Lower Latency Mode[#](https://owncast.online/docs/video/#player-lower-latency-mode)
 For some browsers, a “Lower latency” option is available in the web player. This should be seen as an experimental feature that will improve over time. If you turn it on and experience a negative playback experience with increased buffering you will probably want to turn it off.
-Experimental player lower latency mode was first supported in 
+Experimental player lower latency mode was first supported in
 ### Video Passthrough[#](https://owncast.online/docs/video/#video-passthrough)
 💡
 Turning on video passthrough may make your stream unplayable or unreliable, and is not recommended. Read about Video Passthrough before turning it on and learn about the risks involved.
@@ -162,7 +162,7 @@ Visit the [resources and requirements](https://owncast.online/docs/resources-req
   * [Fediverse](https://social.owncast.online/@owncast)
 
 ![](https://owncast.online/images/logo.svg)
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

@@ -25,7 +25,7 @@
   5. Once the meeting is started, click on “More” in the menu bar and then “Livestream to Custom service”. Zoom will open a browser window and then redirect you to the Owncast frontend (or whichever URL you specified).
 
 
-The instructions for Webinars and Personal Meeting Rooms are similar, 
+The instructions for Webinars and Personal Meeting Rooms are similar,
   * [About](https://owncast.online/about)
   * [FAQ](https://owncast.online/faq)
   * [Videos](https://videos.owncast.online)
@@ -41,7 +41,7 @@ The instructions for Webinars and Personal Meeting Rooms are similar,
   * [Fediverse](https://social.owncast.online/@owncast)
 
 ![](https://owncast.online/images/logo.svg)
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

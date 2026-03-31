@@ -18,7 +18,7 @@ ffmpeg -f alsa -ac 2 -i hw:1,0 -thread_queue_size 64 \
   -f flv rtmp://<ip-of-your-server>/live/<your-streaming-key>
 ```
 
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

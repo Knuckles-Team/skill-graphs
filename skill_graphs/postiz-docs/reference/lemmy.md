@@ -66,7 +66,7 @@ Ctrl K
   * [Listmonk Settings](https://docs.postiz.com/public-api/providers/listmonk)
   * [Google My Business Settings](https://docs.postiz.com/public-api/providers/gmb)
   * [Whop Settings](https://docs.postiz.com/public-api/providers/whop)
-  * [Skool Settings](https://docs.postiz.com/public-api/providers/skool)
+  * [School Settings](https://docs.postiz.com/public-api/providers/school)
   * [Kick Settings](https://docs.postiz.com/public-api/providers/kick)
   * [Twitch Settings](https://docs.postiz.com/public-api/providers/twitch)
   * [Moltbook Settings](https://docs.postiz.com/public-api/providers/moltbook)
@@ -95,7 +95,7 @@ Provider Settings (25 with custom settings)
 Copy page
 API settings for posting to Instagram
 Copy page
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/instagram#settings-schema)
 Settings Schema
 When creating a post for Instagram, use the following settings schema:
@@ -112,36 +112,36 @@ When creating a post for Instagram, use the following settings schema:
 ```
 
 Use `__type: "instagram"` for Facebook Business-linked accounts and `__type: "instagram-standalone"` for standalone Instagram accounts. Both use the same settings schema.
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/instagram#fields)
 Fields
-Field | Type | Required | Description  
----|---|---|---  
-`__type` | `string` | Yes |  `instagram` or `instagram-standalone`  
-`post_type` | `string` | Yes | Type of Instagram post  
-`is_trial_reel` | `boolean` | No | Whether to post as a trial reel  
-`graduation_strategy` | `string` | No | Graduation strategy for trial reels  
-`collaborators` | `array` | No | List of collaborator usernames  
-### 
+Field | Type | Required | Description
+---|---|---|---
+`__type` | `string` | Yes |  `instagram` or `instagram-standalone`
+`post_type` | `string` | Yes | Type of Instagram post
+`is_trial_reel` | `boolean` | No | Whether to post as a trial reel
+`graduation_strategy` | `string` | No | Graduation strategy for trial reels
+`collaborators` | `array` | No | List of collaborator usernames
+###
 [​](https://docs.postiz.com/public-api/providers/instagram#post_type)
 `post_type`
-Value | Description  
----|---  
-`post` | Regular feed post  
-`story` | Instagram Story (24-hour visibility)  
-### 
+Value | Description
+---|---
+`post` | Regular feed post
+`story` | Instagram Story (24-hour visibility)
+###
 [​](https://docs.postiz.com/public-api/providers/instagram#is_trial_reel)
 `is_trial_reel`
 When set to `true`, the post will be published as a trial reel with limited initial visibility.
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/instagram#graduation_strategy)
 `graduation_strategy`
 Controls how trial reels graduate to full visibility. Only applicable when `is_trial_reel` is `true`.
-Value | Description  
----|---  
-`MANUAL` | Manually graduate the reel  
-`SS_PERFORMANCE` | Automatically graduate based on performance  
-### 
+Value | Description
+---|---
+`MANUAL` | Manually graduate the reel
+`SS_PERFORMANCE` | Automatically graduate based on performance
+###
 [​](https://docs.postiz.com/public-api/providers/instagram#collaborators)
 `collaborators`
 Array of collaborator objects. Each collaborator will receive an invite to be added as a collaborator on the post.
@@ -156,10 +156,10 @@ Array of collaborator objects. Each collaborator will receive an invite to be ad
 ```
 
 * * *
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/instagram#complete-example)
 Complete Example
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/instagram#feed-post)
 Feed Post
 ```
@@ -196,7 +196,7 @@ Feed Post
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/instagram#story-post)
 Story Post
 ```
@@ -231,7 +231,7 @@ Story Post
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/instagram#collaborative-post)
 Collaborative Post
 ```
@@ -269,7 +269,7 @@ Collaborative Post
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/instagram#carousel-post)
 Carousel Post
 Create a carousel by adding multiple images:
@@ -327,5 +327,5 @@ On this page
 Postiz
 Hi! Im the Postiz AI Chatbot, ask me any question you'd like, and I will answer it the best to my abilities!
 QUICK QUESTIONS
-Made by 
+Made by
 Chat

@@ -40,10 +40,10 @@
 
 # Stream Keys
 Beginning with Owncast v0.1.0 the admin password and stream keys are managed independently, allowing you to add as many stream keys as you’d like.
-Multiple stream keys was first supported in 
+Multiple stream keys was first supported in
 While most people won’t require having multiple stream keys, there are some specific scenarios where having this ability may be helpful.
 In the admin server setup page you can add and remove these keys.
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

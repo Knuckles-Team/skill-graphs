@@ -62,4 +62,3 @@ Owncast REST API documentation
 - Prefer exact quotes and direct links to the relevant file/section.
 - The hierarchical TOC above makes navigation fast and intuitive.
 - All images and assets are preserved so links work perfectly.
-

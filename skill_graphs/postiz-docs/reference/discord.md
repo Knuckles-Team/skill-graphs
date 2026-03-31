@@ -66,7 +66,7 @@ Ctrl K
   * [Listmonk Settings](https://docs.postiz.com/public-api/providers/listmonk)
   * [Google My Business Settings](https://docs.postiz.com/public-api/providers/gmb)
   * [Whop Settings](https://docs.postiz.com/public-api/providers/whop)
-  * [Skool Settings](https://docs.postiz.com/public-api/providers/skool)
+  * [School Settings](https://docs.postiz.com/public-api/providers/school)
   * [Kick Settings](https://docs.postiz.com/public-api/providers/kick)
   * [Twitch Settings](https://docs.postiz.com/public-api/providers/twitch)
   * [Moltbook Settings](https://docs.postiz.com/public-api/providers/moltbook)
@@ -95,7 +95,7 @@ Provider Settings (25 with custom settings)
 Copy page
 API settings for posting to YouTube
 Copy page
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/youtube#settings-schema)
 Settings Schema
 When uploading a video to YouTube, use the following settings schema:
@@ -113,18 +113,18 @@ When uploading a video to YouTube, use the following settings schema:
 
 ```
 
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/youtube#fields)
 Fields
-Field | Type | Required | Description  
----|---|---|---  
-`__type` | `string` | Yes | Must be `youtube`  
-`title` | `string` | Yes | Video title (2-100 characters)  
-`type` | `string` | Yes | Video visibility  
-`selfDeclaredMadeForKids` | `string` | No | Made for kids declaration  
-`thumbnail` | `object` | No | Custom thumbnail  
-`tags` | `array` | No | Video tags  
-### 
+Field | Type | Required | Description
+---|---|---|---
+`__type` | `string` | Yes | Must be `youtube`
+`title` | `string` | Yes | Video title (2-100 characters)
+`type` | `string` | Yes | Video visibility
+`selfDeclaredMadeForKids` | `string` | No | Made for kids declaration
+`thumbnail` | `object` | No | Custom thumbnail
+`tags` | `array` | No | Video tags
+###
 [​](https://docs.postiz.com/public-api/providers/youtube#title)
 `title`
 Video title with the following constraints:
@@ -132,22 +132,22 @@ Video title with the following constraints:
   * Maximum: 100 characters
 
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/youtube#type-visibility)
 `type` (visibility)
-Value | Description  
----|---  
-`public` | Anyone can search for and view  
-`unlisted` | Anyone with the link can view  
-`private` | Only you can view  
-### 
+Value | Description
+---|---
+`public` | Anyone can search for and view
+`unlisted` | Anyone with the link can view
+`private` | Only you can view
+###
 [​](https://docs.postiz.com/public-api/providers/youtube#selfdeclaredmadeforkids)
 `selfDeclaredMadeForKids`
-Value | Description  
----|---  
-`yes` | Content is made for kids  
-`no` | Content is not made for kids  
-### 
+Value | Description
+---|---
+`yes` | Content is made for kids
+`no` | Content is not made for kids
+###
 [​](https://docs.postiz.com/public-api/providers/youtube#thumbnail)
 `thumbnail`
 Custom thumbnail object (uploaded via the uploads endpoint):
@@ -161,7 +161,7 @@ Custom thumbnail object (uploaded via the uploads endpoint):
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/youtube#tags)
 `tags`
 Array of tag objects for video SEO:
@@ -176,10 +176,10 @@ Array of tag objects for video SEO:
 ```
 
 * * *
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/youtube#complete-example)
 Complete Example
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/youtube#public-video-with-tags)
 Public Video with Tags
 ```
@@ -222,7 +222,7 @@ Public Video with Tags
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/youtube#video-with-custom-thumbnail)
 Video with Custom Thumbnail
 ```
@@ -264,7 +264,7 @@ Video with Custom Thumbnail
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/youtube#private/unlisted-video)
 Private/Unlisted Video
 ```
@@ -305,5 +305,5 @@ Hi! Im the Postiz AI Chatbot, ask me any question you'd like, and I will answer 
 QUICK QUESTIONS
 Discord Settings - Postiz Documentation
 ← Asking about this page
-Made by 
+Made by
 Chat

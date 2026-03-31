@@ -32,16 +32,16 @@ OAuth2
 Copy page
 Let users authorize your app to access Postiz on their behalf
 Copy page
-## 
+##
 [​](https://docs.postiz.com/public-api/oauth#overview)
 Overview
 Postiz supports OAuth2 Authorization Code flow, allowing you to build third-party applications that act on behalf of Postiz users. Instead of asking users for their API key, your app redirects them to Postiz where they approve access, and you receive a token to make API calls on their behalf.
 OAuth tokens work with all the same Public API endpoints as API keys. The only difference is how the token is obtained.
-## 
+##
 [​](https://docs.postiz.com/public-api/oauth#how-it-works)
 How It Works
 PostizYourAppUserPostizYourAppUserClicks "Connect with Postiz"Redirect to /oauth/authorizeShows consent screenApproves accessRedirects with ?code=...POST /oauth/token (exchange code)Returns access_tokenAPI calls with access_token
-## 
+##
 [​](https://docs.postiz.com/public-api/oauth#implementation)
 Implementation
 1
@@ -68,11 +68,11 @@ https://{FRONTEND_URL}/oauth/authorize?client_id={CLIENT_ID}&response_type=code&
 
 ```
 
-Parameter | Required | Description  
----|---|---  
-`client_id` | Yes | Your app’s Client ID  
-`response_type` | Yes | Must be `code`  
-`state` | No | A random string to prevent CSRF attacks. Recommended.  
+Parameter | Required | Description
+---|---|---
+`client_id` | Yes | Your app’s Client ID
+`response_type` | Yes | Must be `code`
+`state` | No | A random string to prevent CSRF attacks. Recommended.
 **Example:**
 ```
 https://platform.postiz.com/oauth/authorize?client_id=pca_VklHTpdEJ6dJ73FHQEJ97qVA0lcMDsrs&response_type=code&state=random123
@@ -89,10 +89,10 @@ https://yourapp.com/callback?code=abc123&state=random123
 
 ```
 
-Parameter | Description  
----|---  
-`code` | Authorization code to exchange for a token (expires in 10 minutes)  
-`state` | The same state value you sent in the previous step  
+Parameter | Description
+---|---
+`code` | Authorization code to exchange for a token (expires in 10 minutes)
+`state` | The same state value you sent in the previous step
 **If denied:**
 ```
 https://yourapp.com/callback?error=access_denied&state=random123
@@ -116,12 +116,12 @@ curl -X POST https://{BACKEND_URL}/oauth/token \
 
 ```
 
-Parameter | Required | Description  
----|---|---  
-`grant_type` | Yes | Must be `authorization_code`  
-`code` | Yes | The authorization code from the previous step  
-`client_id` | Yes | Your app’s Client ID  
-`client_secret` | Yes | Your app’s Client Secret  
+Parameter | Required | Description
+---|---|---
+`grant_type` | Yes | Must be `authorization_code`
+`code` | Yes | The authorization code from the previous step
+`client_id` | Yes | Your app’s Client ID
+`client_secret` | Yes | Your app’s Client Secret
 **Response:**
 ```
 {
@@ -133,12 +133,12 @@ Parameter | Required | Description
 
 ```
 
-Field | Description  
----|---  
-`id` | The organization ID associated with the authorized user  
-`cus` | The Stripe customer ID for the organization (useful for billing integrations)  
-`access_token` | The token to use for subsequent API calls  
-`token_type` | Always `bearer`  
+Field | Description
+---|---
+`id` | The organization ID associated with the authorized user
+`cus` | The Stripe customer ID for the organization (useful for billing integrations)
+`access_token` | The token to use for subsequent API calls
+`token_type` | Always `bearer`
 The authorization code expires after **10 minutes** and can only be used once. If it expires, the user must go through the authorization flow again.
 5
 [](https://docs.postiz.com/public-api/oauth)
@@ -159,15 +159,15 @@ The token works with all Public API endpoints:
 
 OAuth tokens do not expire. Users can revoke access at any time from **Settings > Approved Apps** in their Postiz dashboard.
 * * *
-## 
+##
 [​](https://docs.postiz.com/public-api/oauth#managing-your-app)
 Managing Your App
-### 
+###
 [​](https://docs.postiz.com/public-api/oauth#rotate-client-secret)
 Rotate Client Secret
 If your client secret is compromised, go to **Settings > Developers > Apps** and click **Rotate Secret**. This invalidates the old secret immediately — any token exchange requests using the old secret will fail.
 Rotating the secret does **not** invalidate existing access tokens. Only new token exchange requests require the new secret.
-### 
+###
 [​](https://docs.postiz.com/public-api/oauth#delete-your-app)
 Delete Your App
 Deleting your OAuth app will:
@@ -177,7 +177,7 @@ Deleting your OAuth app will:
 
 
 * * *
-## 
+##
 [​](https://docs.postiz.com/public-api/oauth#full-example-node-js)
 Full Example (Node.js)
 ```
@@ -249,15 +249,15 @@ app.listen(3000);
 ```
 
 * * *
-## 
+##
 [​](https://docs.postiz.com/public-api/oauth#error-reference)
 Error Reference
-Error | When | Description  
----|---|---  
-`invalid_client` | Token exchange | Client ID or Client Secret is wrong  
-`invalid_grant` | Token exchange | Code is invalid, expired, or already used  
-`unsupported_grant_type` | Token exchange |  `grant_type` is not `authorization_code`  
-`access_denied` | Callback | User denied the authorization request  
+Error | When | Description
+---|---|---
+`invalid_client` | Token exchange | Client ID or Client Secret is wrong
+`invalid_grant` | Token exchange | Code is invalid, expired, or already used
+`unsupported_grant_type` | Token exchange |  `grant_type` is not `authorization_code`
+`access_denied` | Callback | User denied the authorization request
 Was this page helpful?
 YesNo
 Ctrl+I
@@ -277,5 +277,5 @@ On this page
 Postiz
 Hi! Im the Postiz AI Chatbot, ask me any question you'd like, and I will answer it the best to my abilities!
 QUICK QUESTIONS
-Made by 
+Made by
 Chat

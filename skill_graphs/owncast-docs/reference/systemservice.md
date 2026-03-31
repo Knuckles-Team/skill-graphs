@@ -48,8 +48,8 @@
 
 
 # Run as a system service
-You can optionally setup Owncast to run under 
-While we can’t explicitly support every possible machine’s configuration you might be able to find some user-supplied examples in our 
+You can optionally setup Owncast to run under
+While we can’t explicitly support every possible machine’s configuration you might be able to find some user-supplied examples in our
 These files are not part of the Owncast project and are not supported by us, but there is ample documentation about how to configure systemd online if you’re unable to find examples that work for you.
 ### Installation[#](https://owncast.online/docs/systemservice/#installation)
 Create your systemd unit file in your systemd configuration directory (typically /etc/systemd/system/), and update the systemd daemon with: `sudo systemctl daemon-reload` when you’re done.
@@ -68,7 +68,7 @@ Create your systemd unit file in your systemd configuration directory (typically
   * [Fediverse](https://social.owncast.online/@owncast)
 
 ![](https://owncast.online/images/logo.svg)
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

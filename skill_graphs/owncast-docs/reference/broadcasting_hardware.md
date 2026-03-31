@@ -11,7 +11,7 @@
 # Compatible hardware
 The following hardware with native live streaming have been tested and work.
 If you have tested other hardware with Owncast we’d love to hear about it!
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

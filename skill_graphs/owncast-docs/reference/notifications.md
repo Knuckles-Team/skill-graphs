@@ -51,7 +51,7 @@
 Some streams benefit from announcing to their audience when they go live.
 This is not an endorsement of any particular service, but it may help some streamers integrate into their existing communities.
 If you’d like to expand on this and send automated notifications to other destinations, create a custom [webhook](https://owncast.online/thirdparty/webhooks/).
-External notification was first supported in 
+External notification was first supported in
 ## Browser notifications[#](https://owncast.online/docs/notifications/#browser-notifications)
 Using browser push notifications your viewers can choose to be notified each time you go live.
 Not all browser support this feature, and browser that do may handle it differently. Brave Browser, for example, require you to choose the duration the notifications are valid. They will likely want to select “Forever” to keep the notification active.
@@ -66,19 +66,19 @@ You can request to be notified when a stream goes live on iOS by following these
 
 
 ### Browser extension[#](https://owncast.online/docs/notifications/#browser-extension)
-Another suggested way to receive browser notifications from any number of streams is by using the 
+Another suggested way to receive browser notifications from any number of streams is by using the
 ## Fediverse[#](https://owncast.online/docs/notifications/#fediverse)
 The Fediverse social features have built in support to notify your followers when you go live. [Visit the documentation](https://owncast.online/docs/social/) for more information.
 ## Discord[#](https://owncast.online/docs/notifications/#discord)
-You can notify a Discord channel when your stream goes live. Visit the 
+You can notify a Discord channel when your stream goes live. Visit the
   * Visit Edit Channel / Integrations on your Discord channel.
   * Create a webhook.
   * Provide URL in the Owncast configuration.
 
 
 ## Twitter (deprecated)[#](https://owncast.online/docs/notifications/#twitter-deprecated)
-Since 
-Recaptcha requires verification. 
-- 
+Since
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

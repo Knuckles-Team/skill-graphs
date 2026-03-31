@@ -20,7 +20,7 @@
   * [Building Integrations](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/)
   * [Development Checklist](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/)
   * [Integration Quality Scale](https://developers.home-assistant.io/docs/core/integration-quality-scale/)
-  * [The `hass` object](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/)
+  * [The `hash` object](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/)
   * [Entities](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/)
   * [Areas, Devices and Entities](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/)
   * [Authentication](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/)
@@ -71,31 +71,31 @@ To summarize, here's how requests should be made:
 ## Sending webhook data via WebSocket API[​](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/#sending-webhook-data-via-websocket-api "Direct link to Sending webhook data via WebSocket API")
 Webhooks can also be delivered via the WebSocket API by sending the `webhook/handle` command:
 ```
-{  
-  "type": "webhook/handle",  
-  "id": 5,  
-  "method": "GET",  
-  // Below fields are optional  
-  "body": "{\"hello\": \"world\"}",  
-  "headers": {  
-    "Content-Type": "application/json"  
-  },  
-  "query": "a=1&b=2",  
-}  
+{
+  "type": "webhook/handle",
+  "id": 5,
+  "method": "GET",
+  // Below fields are optional
+  "body": "{\"hello\": \"world\"}",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "query": "a=1&b=2",
+}
 
 ```
 
 The response will look as follows:
 ```
-{  
-  "type": "result",  
-  "id": 5,  
-  "result": {  
-    "body": "{\"ok\": true}",  
-    "status": 200,  
-    "headers": {"Content-Type": response.content_type},  
-  }  
-}  
+{
+  "type": "result",
+  "id": 5,
+  "result": {
+    "body": "{\"ok\": true}",
+    "status": 200,
+    "headers": {"Content-Type": response.content_type},
+  }
+}
 
 ```
 
@@ -107,20 +107,20 @@ To work around this, the app should record which WiFi SSID is the users home net
 All interaction will be done by making HTTP POST requests to the webhook url. These requests do not need to contain authentication.
 The payload format depends on the type of interaction, but it all shares a common base:
 ```
-{  
-  "type": "<type of message>",  
-  "data": {}  
-}  
+{
+  "type": "<type of message>",
+  "data": {}
+}
 
 ```
 
 If you received a `secret` during registration, you **MUST** encrypt your message and put it in the payload like this:
 ```
-{  
-  "type": "encrypted",  
-  "encrypted": true,  
-  "encrypted_data": "<encrypted message>"  
-}  
+{
+  "type": "encrypted",
+  "encrypted": true,
+  "encrypted_data": "<encrypted message>"
+}
 
 ```
 
@@ -133,15 +133,15 @@ As a general rule, expect to receive a 200 response for all your requests. There
 
 
 ## Implementing encryption[​](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/#implementing-encryption "Direct link to Implementing encryption")
-`mobile_app` supports two way encrypted communication via 
+`mobile_app` supports two way encrypted communication via
 Sodium is a modern, easy-to-use software library for encryption, decryption, signatures, password hashing and more.
 ### Choosing a library[​](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/#choosing-a-library "Direct link to Choosing a library")
 Libraries that wrap Sodium exist for most modern programming languages and platforms. Sodium itself is written in C.
 Here are the libraries we suggest using, although you should feel free to use whatever works well for you.
-  * Swift/Objective-C: 
+  * Swift/Objective-C:
 
 
-For other languages, please see the list of 
+For other languages, please see the list of
 ### Configuration[​](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/#configuration "Direct link to Configuration")
 We use the `sodium_base64_VARIANT_ORIGINAL` (that is, "original", no padding, not URL safe). If the payload does not contain a `data` key when unencrypted (such as with the [get_config](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data#get-config) request), an empty JSON object (`{}`) must be encrypted instead.
 ### Signaling encryption support[​](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/#signaling-encryption-support "Direct link to Signaling encryption support")
@@ -156,133 +156,133 @@ A registration may not initially support encryption due to a lack of Sodium/NaCL
 ## Update device location[​](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/#update-device-location "Direct link to Update device location")
 This message will inform Home Assistant of new location information.
 ```
-{  
-  "type": "update_location",  
-  "data": {  
-    "gps": [12.34, 56.78],  
-    "gps_accuracy": 120,  
-    "battery": 45  
-  }  
-}  
+{
+  "type": "update_location",
+  "data": {
+    "gps": [12.34, 56.78],
+    "gps_accuracy": 120,
+    "battery": 45
+  }
+}
 
 ```
 
-Key | Type | Description  
----|---|---  
-`location_name` | string | Name of the zone the device is in.  
-`gps` | latlong | Current location as latitude and longitude.  
-`gps_accuracy` | int | GPS accuracy in meters. Must be greater than 0.  
-`battery` | int | Percentage of battery the device has left. Must be greater than 0.  
-`speed` | int | Speed of the device in meters per second. Must be greater than 0.  
-`altitude` | int | Altitude of the device in meters. Must be greater than 0.  
-`course` | int | The direction in which the device is traveling, measured in degrees and relative to due north. Must be greater than 0.  
-`vertical_accuracy` | int | The accuracy of the altitude value, measured in meters. Must be greater than 0.  
+Key | Type | Description
+---|---|---
+`location_name` | string | Name of the zone the device is in.
+`gps` | latlong | Current location as latitude and longitude.
+`gps_accuracy` | int | GPS accuracy in meters. Must be greater than 0.
+`battery` | int | Percentage of battery the device has left. Must be greater than 0.
+`speed` | int | Speed of the device in meters per second. Must be greater than 0.
+`altitude` | int | Altitude of the device in meters. Must be greater than 0.
+`course` | int | The direction in which the device is traveling, measured in degrees and relative to due north. Must be greater than 0.
+`vertical_accuracy` | int | The accuracy of the altitude value, measured in meters. Must be greater than 0.
 ## Call a service action[​](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/#call-a-service-action "Direct link to Call a service action")
 Call a service action in Home Assistant.
 ```
-{  
-  "type": "call_service",  
-  "data": {  
-    "domain": "light",  
-    "service": "turn_on",  
-    "service_data": {  
-      "entity_id": "light.kitchen"  
-    }  
-  }  
-}  
+{
+  "type": "call_service",
+  "data": {
+    "domain": "light",
+    "service": "turn_on",
+    "service_data": {
+      "entity_id": "light.kitchen"
+    }
+  }
+}
 
 ```
 
-Key | Type | Description  
----|---|---  
-`domain` | string | The domain of the service action  
-`service` | string | The service action name  
-`service_data` | dict | The data to send to the service action  
+Key | Type | Description
+---|---|---
+`domain` | string | The domain of the service action
+`service` | string | The service action name
+`service_data` | dict | The data to send to the service action
 ## Fire an event[​](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/#fire-an-event "Direct link to Fire an event")
 Fire an event in Home Assistant. Please be mindful of the data structure as documented on our [Data Science portal](https://data.home-assistant.io/docs/events/#database-table).
 ```
-{  
-  "type": "fire_event",  
-  "data": {  
-    "event_type": "my_custom_event",  
-    "event_data": {  
-      "something": 50  
-    }  
-  }  
-}  
+{
+  "type": "fire_event",
+  "data": {
+    "event_type": "my_custom_event",
+    "event_data": {
+      "something": 50
+    }
+  }
+}
 
 ```
 
-Key | Type | Description  
----|---|---  
-`event_type` | string | Type of the event to fire  
-`event_data` | string | Data of the event to fire  
+Key | Type | Description
+---|---|---
+`event_type` | string | Type of the event to fire
+`event_data` | string | Data of the event to fire
 ## Render templates[​](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/#render-templates "Direct link to Render templates")
 Renders one or more templates and returns the result(s).
 ```
-{  
-  "type": "render_template",  
-  "data": {  
-    "my_tpl": {  
-      "template": "Hello {{ name }}, you are {{ states('person.paulus') }}.",  
-      "variables": {  
-        "name": "Paulus"  
-      }  
-    }  
-  }  
-}  
+{
+  "type": "render_template",
+  "data": {
+    "my_tpl": {
+      "template": "Hello {{ name }}, you are {{ states('person.paulus') }}.",
+      "variables": {
+        "name": "Paulus"
+      }
+    }
+  }
+}
 
 ```
 
 `data` must contain a map of `key`: `dictionary`. Results will be returned like `{"my_tpl": "Hello Paulus, you are home"}`. This allows for rendering multiple templates in a single call.
-Key | Type | Description  
----|---|---  
-`template` | string | The template to render  
-`variables` | Dict | The extra template variables to include.  
+Key | Type | Description
+---|---|---
+`template` | string | The template to render
+`variables` | Dict | The extra template variables to include.
 ## Update registration[​](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/#update-registration "Direct link to Update registration")
 Update your app registration. Use this if the app version changed or any of the other values.
 ```
-{  
-  "type": "update_registration",  
-  "data": {  
-    "app_data": {  
-      "push_token": "abcd",  
-      "push_url": "https://push.mycool.app/push"  
-    },  
-    "app_version": "2.0.0",  
-    "device_name": "Robbies iPhone",  
-    "manufacturer": "Apple, Inc.",  
-    "model": "iPhone XR",  
-    "os_version": "23.02"  
-  }  
-}  
+{
+  "type": "update_registration",
+  "data": {
+    "app_data": {
+      "push_token": "abcd",
+      "push_url": "https://push.mycool.app/push"
+    },
+    "app_version": "2.0.0",
+    "device_name": "Robbies iPhone",
+    "manufacturer": "Apple, Inc.",
+    "model": "iPhone XR",
+    "os_version": "23.02"
+  }
+}
 
 ```
 
 All keys are optional.
-Key | Type | Description  
----|---|---  
-`app_data` | Dict | App data can be used if the app has a supporting component that extends mobile_app functionality or wishes to enable the notification platform.  
-`app_version` | string | Version of the mobile app.  
-`device_name` | string | Name of the device running the app.  
-`manufacturer` | string | The manufacturer of the device running the app.  
-`model` | string | The model of the device running the app.  
-`os_version` | string | The OS version of the device running the app.  
+Key | Type | Description
+---|---|---
+`app_data` | Dict | App data can be used if the app has a supporting component that extends mobile_app functionality or wishes to enable the notification platform.
+`app_version` | string | Version of the mobile app.
+`device_name` | string | Name of the device running the app.
+`manufacturer` | string | The manufacturer of the device running the app.
+`model` | string | The model of the device running the app.
+`os_version` | string | The OS version of the device running the app.
 ## Get zones[​](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/#get-zones "Direct link to Get zones")
 Get all enabled zones.
 ```
-{  
-  "type": "get_zones"  
-}  
+{
+  "type": "get_zones"
+}
 
 ```
 
 ## Get config[​](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/#get-config "Direct link to Get config")
 Returns a version of `/api/config` with values useful for configuring your app.
 ```
-{  
-  "type": "get_config"  
-}  
+{
+  "type": "get_config"
+}
 
 ```
 
@@ -290,9 +290,9 @@ Returns a version of `/api/config` with values useful for configuring your app.
 _This requires Home Assistant 0.106 or later._
 Enables encryption support for an existing registration
 ```
-{  
-  "type": "enable_encryption"  
-}  
+{
+  "type": "enable_encryption"
+}
 
 ```
 
@@ -305,24 +305,24 @@ There are two errors you may receive:
 _This requires Home Assistant 0.112 or later._
 Retrieve path information on how to stream a Camera.
 ```
-{  
-  "type": "stream_camera",  
-  "data": {  
-    "camera_entity_id": "camera.name_here"  
-  }  
-}  
+{
+  "type": "stream_camera",
+  "data": {
+    "camera_entity_id": "camera.name_here"
+  }
+}
 
 ```
 
-Key | Type | Description  
----|---|---  
-`camera_entity_id` | string | The camera entity to retrieve streaming information about  
+Key | Type | Description
+---|---|---
+`camera_entity_id` | string | The camera entity to retrieve streaming information about
 The response will include paths for streaming either via HLS or via MJPEG image previews.
 ```
-{  
-  "hls_path": "/api/hls/…/playlist.m3u8",  
-  "mjpeg_path": "/api/camera_proxy_stream/…"  
-}  
+{
+  "hls_path": "/api/hls/…/playlist.m3u8",
+  "mjpeg_path": "/api/camera_proxy_stream/…"
+}
 
 ```
 
@@ -331,14 +331,14 @@ If HLS streaming is not available, the `hls_path` will be `null`. See notes abov
 _This requires Home Assistant 2023.2.0 or later._
 Process a sentence with the conversation integration.
 ```
-{  
-  "type": "conversation_process",  
-  "data": {  
-    "text": "Turn on the lights",  
-    "language": "en",  
-    "conversation_id": "ABCD",  
-  }  
-}  
+{
+  "type": "conversation_process",
+  "data": {
+    "text": "Turn on the lights",
+    "language": "en",
+    "conversation_id": "ABCD",
+  }
+}
 
 ```
 

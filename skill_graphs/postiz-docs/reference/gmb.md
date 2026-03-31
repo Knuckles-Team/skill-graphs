@@ -66,7 +66,7 @@ Ctrl K
   * [Listmonk Settings](https://docs.postiz.com/public-api/providers/listmonk)
   * [Google My Business Settings](https://docs.postiz.com/public-api/providers/gmb)
   * [Whop Settings](https://docs.postiz.com/public-api/providers/whop)
-  * [Skool Settings](https://docs.postiz.com/public-api/providers/skool)
+  * [School Settings](https://docs.postiz.com/public-api/providers/school)
   * [Kick Settings](https://docs.postiz.com/public-api/providers/kick)
   * [Twitch Settings](https://docs.postiz.com/public-api/providers/twitch)
   * [Moltbook Settings](https://docs.postiz.com/public-api/providers/moltbook)
@@ -95,11 +95,11 @@ Provider Settings (25 with custom settings)
 Copy page
 Provider settings for Google My Business posts
 Copy page
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/gmb#overview)
 Overview
 Google My Business (GMB) allows you to create posts that appear on your Google Business Profile. You can create standard updates, events, or offers.
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/gmb#settings-schema)
 Settings Schema
 ```
@@ -120,24 +120,24 @@ Settings Schema
 
 ```
 
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/gmb#properties)
 Properties
-Property | Type | Required | Description  
----|---|---|---  
-`__type` | string | ✅ | Must be `"gmb"`  
-`topicType` | string | ❌ | Post type: `STANDARD`, `EVENT`, or `OFFER`  
-`callToActionType` | string | ❌ | CTA button type  
-`callToActionUrl` | string | ❌ | URL for CTA (required if callToActionType is set)  
-`eventTitle` | string | ❌ | Event name (required for EVENT type)  
-`eventStartDate` | string | ❌ | Event start date  
-`eventEndDate` | string | ❌ | Event end date  
-`eventStartTime` | string | ❌ | Event start time  
-`eventEndTime` | string | ❌ | Event end time  
-`offerCouponCode` | string | ❌ | Coupon code (for OFFER type)  
-`offerRedeemUrl` | string | ❌ | Redemption URL  
-`offerTerms` | string | ❌ | Offer terms and conditions  
-### 
+Property | Type | Required | Description
+---|---|---|---
+`__type` | string | ✅ | Must be `"gmb"`
+`topicType` | string | ❌ | Post type: `STANDARD`, `EVENT`, or `OFFER`
+`callToActionType` | string | ❌ | CTA button type
+`callToActionUrl` | string | ❌ | URL for CTA (required if callToActionType is set)
+`eventTitle` | string | ❌ | Event name (required for EVENT type)
+`eventStartDate` | string | ❌ | Event start date
+`eventEndDate` | string | ❌ | Event end date
+`eventStartTime` | string | ❌ | Event start time
+`eventEndTime` | string | ❌ | Event end time
+`offerCouponCode` | string | ❌ | Coupon code (for OFFER type)
+`offerRedeemUrl` | string | ❌ | Redemption URL
+`offerTerms` | string | ❌ | Offer terms and conditions
+###
 [​](https://docs.postiz.com/public-api/providers/gmb#call-to-action-types)
 Call-to-Action Types
   * `NONE` - No button
@@ -150,10 +150,10 @@ Call-to-Action Types
   * `CALL` - Call
 
 
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/gmb#examples)
 Examples
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/gmb#standard-post)
 Standard Post
 ```
@@ -168,7 +168,7 @@ Standard Post
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/gmb#event-post)
 Event Post
 ```
@@ -188,7 +188,7 @@ Event Post
 
 ```
 
-### 
+###
 [​](https://docs.postiz.com/public-api/providers/gmb#offer-post)
 Offer Post
 ```
@@ -206,7 +206,7 @@ Offer Post
 
 ```
 
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/gmb#full-example)
 Full Example
 ```
@@ -245,7 +245,7 @@ Full Example
 
 ```
 
-## 
+##
 [​](https://docs.postiz.com/public-api/providers/gmb#notes)
 Notes
   * GMB posts appear on your Google Business Profile in Search and Maps
