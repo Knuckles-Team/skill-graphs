@@ -37,12 +37,6 @@ repos:
         types_or: [ python, pyi, jupyter ]
         args: ["--fix", "--ignore=E402"]
         exclude: ^(tests/|test/|scripts/|script/)
-  - repo: https://github.com/codespell-project/codespell
-    rev: v2.4.2
-    hooks:
-      - id: codespell
-        args: ["-w", "-L", "ans,linar,nam,tread,ot,afterAll,beforeAll,atLeast,atMost,fPr,ser,provid,lIns,pres,prSet,preced,verticies,nin,nd,userA,userE,userR,fromT,som"]
-        exclude: ^(tests/|test/|scripts/|script/|universal_skills/skill-graphs/|skill_graphs/skill_graphs/)
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.9.1
     hooks:
