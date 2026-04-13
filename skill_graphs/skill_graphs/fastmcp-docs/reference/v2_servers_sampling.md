@@ -533,7 +533,7 @@ from fastmcp.client.sampling.handlers.openai import OpenAISamplingHandler
 
 server = FastMCP(
     name="My Server",
-    sampling_handler=OpenAISamplingHandler(default_model="google/gemma-4-31b"),
+    sampling_handler=OpenAISamplingHandler(default_model="nvidia/nemotron-3-super"),
     sampling_handler_behavior="fallback",
 )
 
