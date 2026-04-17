@@ -2,7 +2,9 @@
 # coding: utf-8
 
 import os
+from pathlib import Path
 from importlib.resources import files, as_file
+from typing import Optional
 
 try:
     from openai import AsyncOpenAI
@@ -34,7 +36,7 @@ except ImportError:
     AsyncAnthropic = None
     AnthropicProvider = None
 
-__version__ = "0.1.38"
+__version__ = "0.1.39"
 
 
 def get_skill_graph_package_name() -> str:
@@ -56,36 +58,84 @@ SKILL_DEFAULTS = {
 }
 
 
-def _get_enabled_paths(sub_dir: str, default_enabled: bool = True) -> list[str]:
-    """
-    Helper to return absolute paths of items in a sub-directory that are enabled via env vars.
-    Checks inside the package directory.
-    """
-    try:
-        base_dir = files(get_skill_graph_package_name()) / sub_dir
-        with as_file(base_dir) as path:
-            abs_path = str(path)
-    except Exception:
-        return []
-
-    enabled_paths = []
-    if os.path.exists(abs_path):
-        for item in os.listdir(abs_path):
-            item_path = os.path.join(abs_path, item)
-            if os.path.isdir(item_path):
-                # Check for specific override in SKILL_DEFAULTS
-                item_default = SKILL_DEFAULTS.get(item, default_enabled)
-
-                env_var_name = f"{item.upper().replace('-', '_')}_ENABLE"
-                is_enabled = to_boolean(os.environ.get(env_var_name, item_default))
-                if is_enabled:
-                    enabled_paths.append(item_path)
-    return enabled_paths
-
-
-def get_skill_graphs_path(default_enabled: bool = False) -> list[str]:
+def get_skill_graphs_path(
+    category: Optional[str] = None,
+    name: Optional[str] = None,
+    default_enabled: bool = False,
+) -> list[str]:
     """
     Returns a list of absolute paths pointing to the individual enabled skill-graphs
     within the repository package.
+
+    Args:
+        category: Optional category folder name (e.g. 'python')
+        name: Optional single graph name (e.g. 'django-docs')
     """
-    return _get_enabled_paths("skill_graphs", default_enabled=default_enabled)
+    package_name = get_skill_graph_package_name()
+    base_dir = files(package_name)
+
+    try:
+        with as_file(base_dir) as path:
+            abs_root_path = Path(path)
+    except Exception:
+        return []
+
+    if not abs_root_path.exists():
+        return []
+
+    enabled_paths = []
+
+    # Helper to check if a directory is a valid graph (contains any files/subdirs and is not a category)
+    # For graphs, we usually look for a directory that isn't __pycache__ or a known category
+    categories = [
+        "python",
+        "javascript",
+        "database",
+        "infra",
+        "ai",
+        "homelab",
+        "languages",
+        "php",
+        "systems",
+    ]
+
+    def is_graph_dir(p: Path) -> bool:
+        if not p.is_dir() or p.name in categories or p.name == "__pycache__":
+            return False
+        # If it contains SKILL.md or matches the naming pattern '-docs'
+        return (p / "SKILL.md").exists() or p.name.endswith("-docs")
+
+    # If a specific name is requested, search recursively
+    if name:
+        for p in abs_root_path.rglob(name):
+            if is_graph_dir(p):
+                item_default = SKILL_DEFAULTS.get(name, default_enabled)
+                env_var_name = f"{name.upper().replace('-', '_')}_ENABLE"
+                if to_boolean(os.environ.get(env_var_name, item_default)):
+                    enabled_paths.append(str(p.resolve()))
+                return enabled_paths
+        return []
+
+    # If a category is requested
+    if category:
+        cat_dir = abs_root_path / category
+        if cat_dir.is_dir():
+            for graph_dir in cat_dir.iterdir():
+                if is_graph_dir(graph_dir):
+                    item_name = graph_dir.name
+                    item_default = SKILL_DEFAULTS.get(item_name, default_enabled)
+                    env_var_name = f"{item_name.upper().replace('-', '_')}_ENABLE"
+                    if to_boolean(os.environ.get(env_var_name, item_default)):
+                        enabled_paths.append(str(graph_dir.resolve()))
+        return enabled_paths
+
+    # Get All
+    for p in abs_root_path.rglob("*"):
+        if is_graph_dir(p):
+            item_name = p.name
+            item_default = SKILL_DEFAULTS.get(item_name, default_enabled)
+            env_var_name = f"{item_name.upper().replace('-', '_')}_ENABLE"
+            if to_boolean(os.environ.get(env_var_name, item_default)):
+                enabled_paths.append(str(p.resolve()))
+
+    return enabled_paths
