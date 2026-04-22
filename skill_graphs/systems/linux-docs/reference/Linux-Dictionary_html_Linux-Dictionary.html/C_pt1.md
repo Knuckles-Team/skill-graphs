@@ -258,7 +258,7 @@ An advanced calculator and mathematical tool for Emacs This is an advanced calcu
 
 **calcoo**
 
-Scientific calculator (GTK+) Calcoo is a scientific calculator designed to provide maximum usability. The features that make Calcoo better than (at least some) other calculator programs are: - bitmapped button labels and display digits to improve readability - no double-function buttons - you need to click only one button for any operation (except for arc-hyp trigonometric functions) - undo/redo buttons - both RPN (reverse Polish notation) and algebraic modes - copy/pase interaction with X clipboard - display tick marks to separate thousands - two memory registers with displays - displays for Y, Z, and T registers From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+Scientific calculator (GTK+) Calcoo is a scientific calculator designed to provide maximum usability. The features that make Calcoo better than (at least some) other calculator programs are: - bitmapped button labels and display digits to improve readability - no double-function buttons - you need to click only one button for any operation (except for arc-hyp trigonometric functions) - undo/redo buttons - both RPN (reverse Polish notation) and algebraic modes - copy/pass interaction with X clipboard - display tick marks to separate thousands - two memory registers with displays - displays for Y, Z, and T registers From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
 **CALEA**
 

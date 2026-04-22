@@ -53,8 +53,9 @@ def to_boolean(val) -> bool:
 
 
 # Default enablement state for specific skill-graphs.
-SKILL_DEFAULTS = {
+SKILL_DEFAULTS: dict[str, bool] = {
     # Documentation graphs are False by default globally, but can be overridden here if needed.
+    #
 }
 
 

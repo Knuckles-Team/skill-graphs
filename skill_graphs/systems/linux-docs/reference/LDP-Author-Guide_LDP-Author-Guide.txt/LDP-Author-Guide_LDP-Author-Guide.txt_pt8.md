@@ -314,7 +314,7 @@ Glossary
           following <ulink url="http://google.com/>.
 
    Emacs
-          Popular text editor, especially on UNIX systems or alikes.
+          Popular text editor, especially on UNIX systems or alike.
 
    entity
           An entity is a name designated for some part of data so that
@@ -436,7 +436,7 @@ Glossary
 
    PostScript (PS)
           Document format designed for printable documents. PS is the
-          standard print format on UNIX(-alikes).
+          standard print format on UNIX(-alike).
 
    Reviewer, review process
           TLDP doesn't accept just anything. Once you submit a document,

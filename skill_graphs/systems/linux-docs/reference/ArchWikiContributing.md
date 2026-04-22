@@ -96,7 +96,7 @@ move to sidebar hide
   * [Magyar](https://wiki.archlinux.org/title/ArchWiki:Contributing_\(Magyar\) "ArchWiki:Contributing – magyar")
   * [Italiano](https://wiki.archlinux.org/title/ArchWiki:Contributing_\(Italiano\) "ArchWiki:Contributing – italiano")
   * [Polski](https://wiki.archlinux.org/title/ArchWiki:Contributing_\(Polski\) "ArchWiki:Contributing – polski")
-  * [Português](https://wiki.archlinux.org/title/ArchWiki:Contributing_\(Portugu%C3%AAs\) "ArchWiki:Contributing – português")
+  * [Português](https://wiki.archlinux.org/title/ArchWiki:Contributing_\(Portugu%C3%as\) "ArchWiki:Contributing – português")
   * [Русский](https://wiki.archlinux.org/title/ArchWiki:Contributing_\(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9\) "ArchWiki:Contributing – русский")
 
 
@@ -234,7 +234,7 @@ Sorting, categorizing, and moving articles around has become a major task for al
   * [ArchWiki:Translation Team (正體中文)](https://wiki.archlinux.org/title/ArchWiki:Translation_Team_\(%E6%AD%A3%E9%AB%94%E4%B8%AD%E6%96%87\) "ArchWiki:Translation Team \(正體中文\)")
   * [ArchWiki:Translation Team (Nederlands)](https://wiki.archlinux.org/title/ArchWiki:Translation_Team_\(Nederlands\) "ArchWiki:Translation Team \(Nederlands\)")
   * [ArchWiki:Translation Team (Polski)](https://wiki.archlinux.org/title/ArchWiki:Translation_Team_\(Polski\) "ArchWiki:Translation Team \(Polski\)")
-  * [ArchWiki:Translation Team (Português)](https://wiki.archlinux.org/title/ArchWiki:Translation_Team_\(Portugu%C3%AAs\) "ArchWiki:Translation Team \(Português\)")
+  * [ArchWiki:Translation Team (Português)](https://wiki.archlinux.org/title/ArchWiki:Translation_Team_\(Portugu%C3%as\) "ArchWiki:Translation Team \(Português\)")
   * [ArchWiki:Translation Team (Русский)](https://wiki.archlinux.org/title/ArchWiki:Translation_Team_\(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9\) "ArchWiki:Translation Team \(Русский\)")
   * [ArchWiki:Translation Team (Slovenčina)](https://wiki.archlinux.org/title/ArchWiki:Translation_Team_\(Sloven%C4%8Dina\) "ArchWiki:Translation Team \(Slovenčina\)")
   * [ArchWiki:Translation Team (Türkçe)](https://wiki.archlinux.org/title/ArchWiki:Translation_Team_\(T%C3%BCrk%C3%A7e\) "ArchWiki:Translation Team \(Türkçe\)")

@@ -57,7 +57,7 @@ FLoating-point Operations Per Second (CPU) From VERA <http://www.tldp.org/LDP/Li
 
 **Flow control**
 
-A method of ensuring that the data devide such as a modem or a computer system sends does not overwhelm the receiving device, such as a modem. Software handshaking (also XON/XOFF handshaking) regulates communications between two modems. Hardware handshaking (CTS/RTS) regulates data flow between the computer and the modem. From QUECID <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+A method of ensuring that the data divide such as a modem or a computer system sends does not overwhelm the receiving device, such as a modem. Software handshaking (also XON/XOFF handshaking) regulates communications between two modems. Hardware handshaking (CTS/RTS) regulates data flow between the computer and the modem. From QUECID <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
 **FLP**
 
@@ -105,7 +105,7 @@ memory efficient ftp mirror program A program for mirroring a directory from a r
 
 **fml**
 
-Mailing List Server Package FML is a package of mailing list server and utility programs. It consists of perl scripts. It has been developed, tested and advanced in Japan from 1993 to 1999. FML contains distributer (filter program which passes articles to MTA to deliver) command server for users command interface for general user command interface for remote administration listserv/majordomo style interface (emulation) digest server CUI installer and configuration program other utility programs FML design policy is based on the degree of freedom, so that I respect "each environment for each man/women". From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+Mailing List Server Package FML is a package of mailing list server and utility programs. It consists of perl scripts. It has been developed, tested and advanced in Japan from 1993 to 1999. FML contains distributor (filter program which passes articles to MTA to deliver) command server for users command interface for general user command interface for remote administration listserv/majordomo style interface (emulation) digest server CUI installer and configuration program other utility programs FML design policy is based on the degree of freedom, so that I respect "each environment for each man/women". From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
 **FMM**
 
@@ -117,7 +117,7 @@ FernMeldeSystem From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.h
 
 **FMS**
 
-FORTRAN Monitor System (OS, IBM 709) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+OFRTRAN Monitor System (OS, IBM 709) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
 **fmt**
 
@@ -143,15 +143,15 @@ Federal Networking Council (org., USA) From VERA <http://www.tldp.org/LDP/Linux-
 
 Font files needed by Fnlib Graphics files that fnlib renders as fonts for use by Enlightened apps. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
-**FO**
+**OF**
 
 Fiber Optic From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
-**FOA**
+**OFA**
 
 Fiber Optic Association (org.) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
-**FOC**
+**OFC**
 
 Fiber Optic Cable / Communications From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
@@ -163,7 +163,7 @@ A full GNU/Linux Portuguese guide (Html Format) The Foca GNU/Linux is a Portugue
 
 A full GNU/Linux Portuguese guide (Text Format) The Foca GNU/Linux is a Portuguese Linux guide that is split in three learning levels: Beginner, Intermediary and Advanced and is based in the Debian GNU/Linux distribution. This package contains the Text version of all learning levels of the guide: http://www.metainfo.org/focalinux From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
-**FOCS**
+**OFCS**
 
 [symposium on] Foundations Of Computer Science (conference) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
@@ -171,27 +171,27 @@ A full GNU/Linux Portuguese guide (Text Format) The Foca GNU/Linux is a Portugue
 
 The command line of a terminal has the focus when the actual input is being directed to it. From Linux Guide @FirstLinux <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
-**FOD**
+**OFD**
 
 Flexible Optical Disk (OD) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
-**FODA**
+**OFDA**
 
 Formal specification of ODA document structures (ODA, ISO) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
-**FODO**
+**OFDO**
 
 [international conference on] Foundations Of Data Organization and algorithms (conference, INRIA) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
-**FOEBUD**
+**OFEBUD**
 
 [verein zur] Foerderung des OEffentlichen Bewegten und Unbewegten Datenverkehrs [e.v.] (org.), "FoeBud" From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
-**FOIRL**
+**OFIRL**
 
 Fiber Optic InterRepeater Link (OWG) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
-**FOKUS**
+**OFKUS**
 
 Forschungszentrum fuer Offene KommUnikationsSysteme (org., GMD, Berlin, Germany) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
@@ -199,19 +199,19 @@ Forschungszentrum fuer Offene KommUnikationsSysteme (org., GMD, Berlin, Germany)
 
 wrap each input line to fit in specified width From whatis <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
-**FOLDOC**
+**OFLDOC**
 
 Free OnLine Dictionary Of Computing (WWW, UK) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
-**FOLED**
+**OFLED**
 
 Flexible Organic Light Emitting Display (OLED) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
-**FOMAU**
+**OFMAU**
 
 Fiber Optic MAU (ethernet) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
-**FON**
+**OFN**
 
 Fiber Optics Network From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
@@ -259,7 +259,7 @@ This package is a collection of free True Type Fonts. From Mandrake 9.0 RPM <htt
 
 Fonts on Linux console. Fonty package brings a set of iso-8859-n fonts with VT100 graphics: single frames, a few symbols. From Debian 3.0r0 APT <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
-**FOOBAR**
+**OFOBAR**
 
 FTP Operation Over Big Address Records (RFC 1639, FTP) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
@@ -275,7 +275,7 @@ An Xkb state indicator -- WindowMaker version. WindowMaker docked Xkb state indi
 
 Foomatic is a comprehensive, spooler-independent database of printers, printer drivers, and driver descriptions. It contains utilities to generate driver description files and printer queues for CUPS, LPD,LPRng, and PDQ using the database. There is also the possibility to read the PJL options out of PJL-capable laser printers and take them into account at the driver description file generation. There are spooler-independent command line interfaces to manipulatequeues (foomatic-configure) and to print files/manipulate jobs (foomatic printjob). The site http://www.linuxprinting.org/ is based on this database. From Redhat 8.0 RPM <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
-**FOOT**
+**OFOT**
 
 Forum for Object Oriented Technology (CERN, OOP) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 

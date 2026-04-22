@@ -285,7 +285,7 @@ Software Engineering Technology From VERA <http://www.tldp.org/LDP/Linux-Diction
 
 **SET**
 
-Standard d'Echange et de Transfert (AFNOR, France) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
+Standard d'Echange et de Transfer (AFNOR, France) From VERA <http://www.tldp.org/LDP/Linux-Dictionary/html/index.html>
 
 **set6x86**
 
