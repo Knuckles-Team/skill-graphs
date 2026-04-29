@@ -457,7 +457,7 @@ pnpm cli:dev 770
 
 To see the agent in action. It will go through the steps for solving query 770 - query planning, tool calling, and outcome evaluation, until it can solve the input query. The tools in this case, are different search capabilities over the Chroma collection containing the dataset. Other arguments you can provide:
   * `--provider`: The LLM provider you want to use. Defaults to OpenAI (currently only OpenAI is supported).
-  * `--model`: The model you want the agent to use. Defaults to `nvidia/nemotron-3-super`.
+  * `--model`: The model you want the agent to use. Defaults to `qwen/qwen3.5-9b`.
   * `--max-plan-size`: The maximum query plan steps the agent will go through to solve the query. Defaults to 10. When set to 1, the query planning step is skipped.
   * `--max-step-iterations`: The maximum number of tool-call interactions the agent will issue when solving each step. Defaults to 5.
 

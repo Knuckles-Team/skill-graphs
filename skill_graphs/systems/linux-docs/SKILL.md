@@ -530,7 +530,7 @@ Comprehensive reference documentation for Linux Docs.
   - [Linux Filesystem Hierarchy Linux Filesystem Hierarchy.Txt Pt9](reference/Linux-Filesystem-Hierarchy_Linux-Filesystem-Hierarchy.txt/Linux-Filesystem-Hierarchy_Linux-Filesystem-Hierarchy.txt_pt9.md)
   - [Table of Contents](reference/Linux-Filesystem-Hierarchy_Linux-Filesystem-Hierarchy.txt/toc.md)
 - 📁 **Linux-Filesystem-Hierarchy_html_Linux-Filesystem-Hierarchy.html/**
-  - [1.1. Foreward](reference/Linux-Filesystem-Hierarchy_html_Linux-Filesystem-Hierarchy.html/1.1.-Foreward.md)
+  - [1.1. Foreword](reference/Linux-Filesystem-Hierarchy_html_Linux-Filesystem-Hierarchy.html/1.1.-Foreward.md)
   - [1.2. The Root Directory](reference/Linux-Filesystem-Hierarchy_html_Linux-Filesystem-Hierarchy.html/1.2.-The-Root-Directory.md)
   - [1.3. /bin](reference/Linux-Filesystem-Hierarchy_html_Linux-Filesystem-Hierarchy.html/1.3.-bin.md)
   - [1.4. /boot](reference/Linux-Filesystem-Hierarchy_html_Linux-Filesystem-Hierarchy.html/1.4.-boot.md)
@@ -571,7 +571,7 @@ Comprehensive reference documentation for Linux Docs.
   - [3.4. Making the Pitch](reference/Linux-Media-Guide_html_Linux-Media-Guide.html/3.4.-Making-the-Pitch.md)
   - [3.5. Pitching for Different Media](reference/Linux-Media-Guide_html_Linux-Media-Guide.html/3.5.-Pitching-for-Different-Media.md)
   - [4.1. Duties of an Editor](reference/Linux-Media-Guide_html_Linux-Media-Guide.html/4.1.-Duties-of-an-Editor.md)
-  - [4.2. Targeting Other Medias](reference/Linux-Media-Guide_html_Linux-Media-Guide.html/4.2.-Targeting-Other-Medias.md)
+  - [4.2. Targeting Other Media](reference/Linux-Media-Guide_html_Linux-Media-Guide.html/4.2.-Targeting-Other-Medias.md)
   - [4.3. "Selling" Your Story to the Media](reference/Linux-Media-Guide_html_Linux-Media-Guide.html/4.3.-Selling-Your-Story-to-the-Media.md)
   - [4.4. Do's and Don'ts When Dealing with the News Media](reference/Linux-Media-Guide_html_Linux-Media-Guide.html/4.4.-Dos-and-Donts-When-Dealing-with-the-News-Media.md)
   - [4.5. Monitoring Media Coverage](reference/Linux-Media-Guide_html_Linux-Media-Guide.html/4.5.-Monitoring-Media-Coverage.md)

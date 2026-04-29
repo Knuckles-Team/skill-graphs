@@ -60,7 +60,7 @@ On this page
 The .NET test-suite feature guide describes the frameworks that facilitate Workflow and integration testing.
 In the context of Temporal, you can create these types of automated tests:
   * **End-to-end:** Running a Temporal Server and Worker with all its Workflows and Activities; starting and interacting with Workflows from a Client.
-  * **Integration:** Anything between end-to-end and unit testing. 
+  * **Integration:** Anything between end-to-end and unit testing.
     * Running Activities with mocked Context and other SDK imports (and usually network requests).
     * Running Workers with mock Activities, and using a Client to start Workflows.
     * Running Workflows with mocked SDK imports.
@@ -71,7 +71,7 @@ We generally recommend writing the majority of your tests as integration tests.
 Because the test server supports skipping time, use the test server for both end-to-end and integration tests with Workers.
 ## Test frameworks[​](https://docs.temporal.io/develop/dotnet/testing-suite#test-frameworks "Direct link to Test frameworks")
 **Compatible testing frameworks**
-The .NET SDK is compatible with any testing framework and does not have a specific recommendation. Most .NET SDK samples use 
+The .NET SDK is compatible with any testing framework and does not have a specific recommendation. Most .NET SDK samples use
 ## Testing Workflows[​](https://docs.temporal.io/develop/dotnet/testing-suite#testing-workflows "Direct link to Testing Workflows")
 **How to test Workflow Definitions using the Temporal .NET SDK**
 Workflow testing can be done in an integration-test fashion against a real server, however it is hard to simulate timeouts and other long time-based code. Using the time-skipping Workflow test environment can help there.
@@ -79,45 +79,45 @@ Workflow testing can be done in an integration-test fashion against a real serve
 A non-time-skipping `Temporalio.Testing.WorkflowEnvironment` can be started via `StartLocalAsync` which supports all standard Temporal features. It is actually the real Temporal dev server packaged in the Temporal CLI, lazily downloaded on first use, and run as a sub-process in the background. Assuming tests properly use separate Task Queues, the same server can and should be reused across tests.
 Here's a simple example of a Workflow:
 ```
-[Workflow]  
-public class SayHelloWorkflow  
-{  
-    [WorkflowRun]  
-    public async Task<string> RunAsync(string name)  
-    {  
-        return $"Hello, {name}!";  
-    }  
-}  
+[Workflow]
+public class SayHelloWorkflow
+{
+    [WorkflowRun]
+    public async Task<string> RunAsync(string name)
+    {
+        return $"Hello, {name}!";
+    }
+}
 
 ```
 
 Here's how a test of that Workflow may appear in xUnit:
 ```
-using Temporalio.Testing;  
-using Temporalio.Worker;  
-  
-[Fact]  
-public async Task SayHelloWorkflow_SimpleRun_Succeeds()  
-{  
-    // Start local dev server  
-    await using var env = await WorkflowEnvironment.StartLocalAsync();  
-  
-    // Create a worker  
-    using var worker = new TemporalWorker(  
-      env.Client,  
-      new TemporalWorkerOptions($"task-queue-{Guid.NewGuid()}").  
-          AddWorkflow<SayHelloWorkflow>());  
-  
-    // Run the worker only for the life of the code within  
-    await worker.ExecuteAsync(async () =>  
-    {  
-        // Execute the workflow and confirm the result  
-        var result = await env.Client.ExecuteWorkflowAsync(  
-            (SayHelloWorkflow wf) => wf.RunAsync("Temporal"),  
-            new(id: $"wf-{Guid.NewGuid()}", taskQueue: worker.Options.TaskQueue!));  
-        Assert.Equal("Hello, Temporal!", result);  
-    });  
-}  
+using Temporalio.Testing;
+using Temporalio.Worker;
+
+[Fact]
+public async Task SayHelloWorkflow_SimpleRun_Succeeds()
+{
+    // Start local dev server
+    await using var env = await WorkflowEnvironment.StartLocalAsync();
+
+    // Create a worker
+    using var worker = new TemporalWorker(
+      env.Client,
+      new TemporalWorkerOptions($"task-queue-{Guid.NewGuid()}").
+          AddWorkflow<SayHelloWorkflow>());
+
+    // Run the worker only for the life of the code within
+    await worker.ExecuteAsync(async () =>
+    {
+        // Execute the workflow and confirm the result
+        var result = await env.Client.ExecuteWorkflowAsync(
+            (SayHelloWorkflow wf) => wf.RunAsync("Temporal"),
+            new(id: $"wf-{Guid.NewGuid()}", taskQueue: worker.Options.TaskQueue!));
+        Assert.Equal("Hello, Temporal!", result);
+    });
+}
 
 ```
 
@@ -127,46 +127,46 @@ Sometimes there is a need to test Workflows that run a long time or to test that
 #### Automatic time skipping[​](https://docs.temporal.io/develop/dotnet/testing-suite#automatic-time-skipping "Direct link to Automatic time skipping")
 Here's a simple example of a Workflow that waits a day:
 ```
-[Workflow]  
-public class WaitADayWorkflow  
-{  
-    [WorkflowRun]  
-    public async Task<string> RunAsync()  
-    {  
-        await Workflow.DelayAsync(TimeSpan.FromDays(1));  
-        return "all done";  
-    }  
-}  
+[Workflow]
+public class WaitADayWorkflow
+{
+    [WorkflowRun]
+    public async Task<string> RunAsync()
+    {
+        await Workflow.DelayAsync(TimeSpan.FromDays(1));
+        return "all done";
+    }
+}
 
 ```
 
 A regular integration test of this Workflow on a normal server would be way too slow. However, the time-skipping server automatically skips to the next event when we wait on the result. Here's a test for that Workflow in xUnit:
 ```
-using Temporalio.Testing;  
-using Temporalio.Worker;  
-  
-[Fact]  
-public async Task WaitADayWorkflow_SimpleRun_Succeeds()  
-{  
-    // Start time-skipping test server  
-    await using var env = await WorkflowEnvironment.StartTimeSkippingAsync();  
-  
-    // Create a worker  
-    using var worker = new TemporalWorker(  
-      env.Client,  
-      new TemporalWorkerOptions($"task-queue-{Guid.NewGuid()}").  
-          AddWorkflow<WaitADayWorkflow>());  
-  
-    // Run the worker only for the life of the code within  
-    await worker.ExecuteAsync(async () =>  
-    {  
-        // Execute the workflow and confirm the result  
-        var result = await env.Client.ExecuteWorkflowAsync(  
-            (WaitADayWorkflow wf) => wf.RunAsync(),  
-            new(id: $"wf-{Guid.NewGuid()}", taskQueue: worker.Options.TaskQueue!));  
-        Assert.Equal("all done", result);  
-    });  
-}  
+using Temporalio.Testing;
+using Temporalio.Worker;
+
+[Fact]
+public async Task WaitADayWorkflow_SimpleRun_Succeeds()
+{
+    // Start time-skipping test server
+    await using var env = await WorkflowEnvironment.StartTimeSkippingAsync();
+
+    // Create a worker
+    using var worker = new TemporalWorker(
+      env.Client,
+      new TemporalWorkerOptions($"task-queue-{Guid.NewGuid()}").
+          AddWorkflow<WaitADayWorkflow>());
+
+    // Run the worker only for the life of the code within
+    await worker.ExecuteAsync(async () =>
+    {
+        // Execute the workflow and confirm the result
+        var result = await env.Client.ExecuteWorkflowAsync(
+            (WaitADayWorkflow wf) => wf.RunAsync(),
+            new(id: $"wf-{Guid.NewGuid()}", taskQueue: worker.Options.TaskQueue!));
+        Assert.Equal("all done", result);
+    });
+}
 
 ```
 
@@ -176,75 +176,75 @@ To disable automatic time-skipping while waiting for a workflow result, run code
 Until a Workflow is waited on, all time skipping in the time-skipping environment is done manually via `WorkflowEnvironment.DelayAsync`.
 Here's a Workflow that waits for a Signal or times out:
 ```
-[Workflow]  
-public class SignalWorkflow  
-{  
-    private bool signalReceived = false;  
-  
-    [WorkflowRun]  
-    public async Task<string> RunAsync()  
-    {  
-        // Wait for signal or timeout in 45 seconds  
-        if (Workflow.WaitConditionAsync(() => signalReceived, TimeSpan.FromSeconds(45)))  
-        {  
-            return "got signal";  
-        }  
-        return "got timeout";  
-    }  
-  
-    [WorkflowSignal]  
-    public async Task SomeSignalAsync() => signalReceived = true;  
-}  
+[Workflow]
+public class SignalWorkflow
+{
+    private bool signalReceived = false;
+
+    [WorkflowRun]
+    public async Task<string> RunAsync()
+    {
+        // Wait for signal or timeout in 45 seconds
+        if (Workflow.WaitConditionAsync(() => signalReceived, TimeSpan.FromSeconds(45)))
+        {
+            return "got signal";
+        }
+        return "got timeout";
+    }
+
+    [WorkflowSignal]
+    public async Task SomeSignalAsync() => signalReceived = true;
+}
 
 ```
 
 To test a normal Signal in xUnit, you might:
 ```
-using Temporalio.Testing;  
-using Temporalio.Worker;  
-  
-[Fact]  
-public async Task SignalWorkflow_SendSignal_HasExpectedResult()  
-{  
-    await using var env = await WorkflowEnvironment.StartTimeSkippingAsync();  
-    using var worker = new TemporalWorker(  
-        env.Client,  
-        new TemporalWorkerOptions($"task-queue-{Guid.NewGuid()}").  
-            AddWorkflow<SignalWorkflow>());  
-    await worker.ExecuteAsync(async () =>  
-    {  
-        var handle = await env.Client.StartWorkflowAsync(  
-            (SignalWorkflow wf) => wf.RunAsync(),  
-            new(id: $"wf-{Guid.NewGuid()}", taskQueue: worker.Options.TaskQueue!));  
-        await handle.SignalAsync(wf => wf.SomeSignalAsync());  
-        Assert.Equal("got signal", await handle.GetResultAsync());  
-    });  
-}  
+using Temporalio.Testing;
+using Temporalio.Worker;
+
+[Fact]
+public async Task SignalWorkflow_SendSignal_HasExpectedResult()
+{
+    await using var env = await WorkflowEnvironment.StartTimeSkippingAsync();
+    using var worker = new TemporalWorker(
+        env.Client,
+        new TemporalWorkerOptions($"task-queue-{Guid.NewGuid()}").
+            AddWorkflow<SignalWorkflow>());
+    await worker.ExecuteAsync(async () =>
+    {
+        var handle = await env.Client.StartWorkflowAsync(
+            (SignalWorkflow wf) => wf.RunAsync(),
+            new(id: $"wf-{Guid.NewGuid()}", taskQueue: worker.Options.TaskQueue!));
+        await handle.SignalAsync(wf => wf.SomeSignalAsync());
+        Assert.Equal("got signal", await handle.GetResultAsync());
+    });
+}
 
 ```
 
 But how would you test the timeout part? Like so:
 ```
-using Temporalio.Testing;  
-using Temporalio.Worker;  
-  
-[Fact]  
-public async Task SignalWorkflow_SignalTimeout_HasExpectedResult()  
-{  
-    await using var env = await WorkflowEnvironment.StartTimeSkippingAsync();  
-    using var worker = new TemporalWorker(  
-        env.Client,  
-        new TemporalWorkerOptions($"task-queue-{Guid.NewGuid()}").  
-            AddWorkflow<SignalWorkflow>());  
-    await worker.ExecuteAsync(async () =>  
-    {  
-        var handle = await env.Client.StartWorkflowAsync(  
-            (SignalWorkflow wf) => wf.RunAsync(),  
-            new(id: $"wf-{Guid.NewGuid()}", taskQueue: worker.Options.TaskQueue!));  
-        await env.DelayAsync(TimeSpan.FromSeconds(50));  
-        Assert.Equal("got timeout", await handle.GetResultAsync());  
-    });  
-}  
+using Temporalio.Testing;
+using Temporalio.Worker;
+
+[Fact]
+public async Task SignalWorkflow_SignalTimeout_HasExpectedResult()
+{
+    await using var env = await WorkflowEnvironment.StartTimeSkippingAsync();
+    using var worker = new TemporalWorker(
+        env.Client,
+        new TemporalWorkerOptions($"task-queue-{Guid.NewGuid()}").
+            AddWorkflow<SignalWorkflow>());
+    await worker.ExecuteAsync(async () =>
+    {
+        var handle = await env.Client.StartWorkflowAsync(
+            (SignalWorkflow wf) => wf.RunAsync(),
+            new(id: $"wf-{Guid.NewGuid()}", taskQueue: worker.Options.TaskQueue!));
+        await env.DelayAsync(TimeSpan.FromSeconds(50));
+        Assert.Equal("got timeout", await handle.GetResultAsync());
+    });
+}
 
 ```
 
@@ -267,38 +267,38 @@ Unit testing an Activity or any code that could run in an Activity is done via t
 **How to do a Replay test using the Temporal .NET SDK**
 Given a Workflow's history, it can be replayed locally to check for things like non-determinism errors. For example, assuming the `history` parameter below is given a JSON string of history exported from the CLI or web UI, the following method will replay it:
 ```
-using Temporalio;  
-using Temporalio.Worker;  
-  
-public static async Task ReplayFromJsonAsync(string historyJson)  
-{  
-    var replayer = new WorkflowReplayer(  
-        new WorkflowReplayerOptions().AddWorkflow<MyWorkflow>());  
-    await replayer.ReplayWorkflowAsync(WorkflowHistory.FromJson("my-workflow-id", historyJson));  
-}  
+using Temporalio;
+using Temporalio.Worker;
+
+public static async Task ReplayFromJsonAsync(string historyJson)
+{
+    var replayer = new WorkflowReplayer(
+        new WorkflowReplayerOptions().AddWorkflow<MyWorkflow>());
+    await replayer.ReplayWorkflowAsync(WorkflowHistory.FromJson("my-workflow-id", historyJson));
+}
 
 ```
 
 If there is a non-determinism, this will throw an exception.
 Workflow history can be loaded from more than just JSON. It can be fetched individually from a Workflow handle, or even in a list. For example, the following code will check that all Workflow histories for a certain Workflow type (i.e. workflow class) are safe with the current Workflow code.
 ```
-using Temporalio;  
-using Temporalio.Client;  
-using Temporalio.Worker;  
-  
-public static async Task CheckPastHistoriesAsync(ITemporalClient client)  
-{  
-    var replayer = new WorkflowReplayer(  
-        new WorkflowReplayerOptions().AddWorkflow<MyWorkflow>());  
-    var listIter = client.ListWorkflowHistoriesAsync("WorkflowType = 'SayHello'");  
-    await foreach (var result in replayer.ReplayWorkflowsAsync(listIter))  
-    {  
-        if (result.ReplayFailure != null)  
-        {  
-            ExceptionDispatchInfo.Throw(result.ReplayFailure);  
-        }  
-    }  
-}  
+using Temporalio;
+using Temporalio.Client;
+using Temporalio.Worker;
+
+public static async Task CheckPastHistoriesAsync(ITemporalClient client)
+{
+    var replayer = new WorkflowReplayer(
+        new WorkflowReplayerOptions().AddWorkflow<MyWorkflow>());
+    var listIter = client.ListWorkflowHistoriesAsync("WorkflowType = 'SayHello'");
+    await foreach (var result in replayer.ReplayWorkflowsAsync(listIter))
+    {
+        if (result.ReplayFailure != null)
+        {
+            ExceptionDispatchInfo.Throw(result.ReplayFailure);
+        }
+    }
+}
 
 ```
 
@@ -308,7 +308,7 @@ public static async Task CheckPastHistoriesAsync(ITemporalClient client)
   * [Testing](https://docs.temporal.io/tags/testing)
 
 
-Help us make Temporal better. Contribute to our 
+Help us make Temporal better. Contribute to our
 [Previous Temporal Client](https://docs.temporal.io/develop/dotnet/temporal-client)[Next Failure detection](https://docs.temporal.io/develop/dotnet/failure-detection)
   * [Test frameworks](https://docs.temporal.io/develop/dotnet/testing-suite#test-frameworks)
   * [Testing Workflows](https://docs.temporal.io/develop/dotnet/testing-suite#testing-workflows)
@@ -343,7 +343,7 @@ Help us make Temporal better. Contribute to our
 [![Temporal logo](https://docs.temporal.io/img/favicon.png)](https://temporal.io)
 Copyright © 2026 Temporal Technologies Inc.
 Feedback![](https://static.scarf.sh/a.png?x-pxid=6fb132d3-92f6-455f-bf17-eb3d6937bdea)
-Recaptcha requires verification. 
-- 
+Recaptcha requires verification.
+-
 protected by **reCAPTCHA**
 -

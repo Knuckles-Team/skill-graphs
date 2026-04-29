@@ -736,7 +736,7 @@ Comprehensive reference documentation for Python Docs.
 - [Dealing with Bugs[¶](https://docs.python.org/3/bugs.html#dealing-with-bugs "Link to this heading")](reference/http.server.html.md)
 - [Internationalization[¶](https://docs.python.org/3/library/i18n.html#internationalization "Link to this heading")](reference/i18n.html.md)
 - [`imaplib` — IMAP4 protocol client[¶](https://docs.python.org/3/library/imaplib.html#module-imaplib "Link to this heading")](reference/imaplib.html.md)
-- [`importlib.metadata` – Accessing package metadata[¶](https://docs.python.org/3/library/importlib.metadata.html#module-importlib.metadata "Link to thi](reference/importlib.metadata.html.md)
+- [`importlib.metadata` – Accessing package metadata[¶](https://docs.python.org/3/library/importlib.metadata.html#module-importlib.metadata "Link to this heading")](reference/importlib.metadata.html.md)
 - [`importlib.resources.abc` – Abstract base classes for resources[¶](https://docs.python.org/3/library/importlib.resources.abc.html#module-importlib.resources.abc "Link to this heading")](reference/importlib.resources.abc.html.md)
 - [`importlib.resources` – Package resource reading, opening and access[¶](https://docs.python.org/3/library/importlib.resources.html#module-importlib.resources "Link to this heading")](reference/importlib.resources.html.md)
 - [Internet Protocols and Support[¶](https://docs.python.org/3/library/internet.html#internet-protocols-and-support "Link to this heading")](reference/internet.html.md)
