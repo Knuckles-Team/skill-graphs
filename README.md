@@ -3,7 +3,7 @@
 ![PyPI - Version](https://img.shields.io/pypi/v/skill-graphs)
 ![MCP Server](https://badge.mcpx.dev?type=server 'MCP Server')
 
-*Version: 0.7.1*
+*Version: 0.7.2*
 
 ## Overview
 
