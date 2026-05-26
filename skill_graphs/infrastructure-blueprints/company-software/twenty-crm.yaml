@@ -1,0 +1,38 @@
+name: twenty-crm
+description: Modern open-source CRM for customer relationship management
+category: crm
+version: "0.42"
+concept: ECO-4.14
+requires:
+  memory_mb: 1024
+  cpu_cores: 1.0
+  gpu: false
+dns_rewrite: crm.knuckles.team
+mcp_server: null
+serves_departments:
+  - sales
+  - marketing
+stack_file: |
+  version: "3.8"
+  services:
+    server:
+      image: twentycrm/twenty:latest
+      restart: unless-stopped
+      ports:
+        - "3000:3000"
+      environment:
+        - PG_DATABASE_URL=postgres://twenty:twenty@db:5432/default
+        - SERVER_URL=https://crm.knuckles.team
+        - FRONT_BASE_URL=https://crm.knuckles.team
+        - SIGN_IN_PREFILLED_=false
+      depends_on:
+        - db
+    db:
+      image: twentycrm/twenty-postgres:latest
+      restart: unless-stopped
+      volumes:
+        - db-data:/bitnami/postgresql
+      environment:
+        - POSTGRES_PASSWORD=twenty
+  volumes:
+    db-data:

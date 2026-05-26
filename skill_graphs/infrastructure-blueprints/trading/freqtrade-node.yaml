@@ -1,0 +1,38 @@
+name: freqtrade-node
+description: Freqtrade algorithmic crypto trading bot — used as backend for emerald-exchange
+category: trading
+version: "2024.10"
+concept: EE-006
+requires:
+  memory_mb: 2048
+  cpu_cores: 2.0
+  gpu: false
+dns_rewrite: freqtrade.knuckles.team
+mcp_server: null
+serves_departments:
+  - finance
+  - trading
+stack_file: |
+  version: "3.8"
+  services:
+    freqtrade:
+      image: freqtradeorg/freqtrade:stable
+      restart: unless-stopped
+      ports:
+        - "8080:8080"
+      command: trade --config /freqtrade/config.json --strategy SampleStrategy
+      volumes:
+        - ft-userdata:/freqtrade/user_data
+        - ft-config:/freqtrade/config
+      environment:
+        - FREQTRADE__API_SERVER__ENABLED=true
+        - FREQTRADE__API_SERVER__LISTEN_IP_ADDRESS=0.0.0.0
+        - FREQTRADE__API_SERVER__LISTEN_PORT=8080
+      deploy:
+        resources:
+          limits:
+            memory: 2048M
+            cpus: "2.0"
+  volumes:
+    ft-userdata:
+    ft-config:

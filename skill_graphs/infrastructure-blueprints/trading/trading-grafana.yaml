@@ -1,0 +1,46 @@
+name: trading-grafana
+description: Grafana dashboard stack for trading monitoring — portfolio, risk, and P&L visualization
+category: monitoring
+version: "11.0"
+concept: EE-011
+requires:
+  memory_mb: 512
+  cpu_cores: 0.5
+  gpu: false
+dns_rewrite: trading-grafana.knuckles.team
+mcp_server: null
+serves_departments:
+  - finance
+  - trading
+stack_file: |
+  version: "3.8"
+  services:
+    grafana:
+      image: grafana/grafana-oss:11.0.0
+      restart: unless-stopped
+      ports:
+        - "3030:3000"
+      environment:
+        - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_ADMIN_PASSWORD:-changeme}
+        - GF_INSTALL_PLUGINS=redis-datasource
+      volumes:
+        - grafana-data:/var/lib/grafana
+        - grafana-provisioning:/etc/grafana/provisioning
+      depends_on:
+        - redis-timeseries
+    redis-timeseries:
+      image: redis/redis-stack-server:latest
+      restart: unless-stopped
+      ports:
+        - "6380:6379"
+      command: redis-server --loadmodule /opt/redis-stack/lib/redistimeseries.so
+      volumes:
+        - redis-ts-data:/data
+      deploy:
+        resources:
+          limits:
+            memory: 512M
+  volumes:
+    grafana-data:
+    grafana-provisioning:
+    redis-ts-data:

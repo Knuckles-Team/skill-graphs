@@ -1,0 +1,45 @@
+name: gpu-compute-node
+description: GPU-enabled compute node for QLib backtesting, model training, and heavy quant workloads
+category: compute
+version: "1.0"
+concept: EE-016
+requires:
+  memory_mb: 8192
+  cpu_cores: 4.0
+  gpu: true
+dns_rewrite: gpu-compute.knuckles.team
+mcp_server: data-science-mcp
+serves_departments:
+  - finance
+  - research
+stack_file: |
+  version: "3.8"
+  services:
+    data-science-gpu:
+      image: data-science-mcp:gpu
+      build:
+        context: .
+        dockerfile: Dockerfile.gpu
+      restart: unless-stopped
+      ports:
+        - "9010:9000"
+      environment:
+        - DEFAULT_AGENT_NAME=Data Science GPU
+        - LLM_BASE_URL=${LLM_BASE_URL:-http://10.0.0.18:1234/v1}
+        - NVIDIA_VISIBLE_DEVICES=all
+      volumes:
+        - ds-models:/app/models
+        - ds-data:/app/data
+      deploy:
+        resources:
+          reservations:
+            devices:
+              - driver: nvidia
+                count: all
+                capabilities: [gpu]
+          limits:
+            memory: 8192M
+            cpus: "4.0"
+  volumes:
+    ds-models:
+    ds-data:

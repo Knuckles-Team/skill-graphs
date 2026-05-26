@@ -1,0 +1,62 @@
+name: erpnext
+description: Full-featured open-source ERP for accounting, payroll, HR, and project management
+category: accounting
+version: "15.0"
+concept: ECO-4.14
+requires:
+  memory_mb: 2048
+  cpu_cores: 2.0
+  gpu: false
+dns_rewrite: erp.knuckles.team
+mcp_server: null
+serves_departments:
+  - finance
+  - hr
+  - ops
+stack_file: |
+  version: "3.8"
+  services:
+    backend:
+      image: frappe/erpnext:v15
+      restart: unless-stopped
+      volumes:
+        - sites:/home/frappe/frappe-bench/sites
+        - logs:/home/frappe/frappe-bench/logs
+      environment:
+        - DB_HOST=db
+        - DB_PORT=3306
+        - REDIS_CACHE=redis-cache:6379
+        - REDIS_QUEUE=redis-queue:6379
+        - SOCKETIO_PORT=9000
+      depends_on:
+        - db
+        - redis-cache
+        - redis-queue
+    frontend:
+      image: frappe/erpnext:v15
+      command: nginx-entrypoint.sh
+      restart: unless-stopped
+      ports:
+        - "8080:8080"
+      volumes:
+        - sites:/home/frappe/frappe-bench/sites
+      depends_on:
+        - backend
+    db:
+      image: mariadb:10.11
+      restart: unless-stopped
+      environment:
+        - MYSQL_ROOT_PASSWORD_FILE=/run/secrets/db_root_password
+        - MYSQL_DATABASE=erpnext
+      volumes:
+        - db-data:/var/lib/mysql
+    redis-cache:
+      image: redis:7-alpine
+      restart: unless-stopped
+    redis-queue:
+      image: redis:7-alpine
+      restart: unless-stopped
+  volumes:
+    sites:
+    logs:
+    db-data:
