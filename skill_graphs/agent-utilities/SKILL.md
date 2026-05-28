@@ -54,7 +54,7 @@ See `docs/concept_map.md` for the complete registry.
 - **Pydantic AI**: Agent framework with structured output
 - **NetworkX**: Graph engine for KG operations
 - **RDFLib/OWLReady2**: OWL ontology reasoning
-- **LM Studio**: Default local LLM backend (10.0.0.18:1234)
+- **LM Studio**: Default local LLM backend (vllm.arpa)
 
 ## 🤖 Agent Usage Guide
 
