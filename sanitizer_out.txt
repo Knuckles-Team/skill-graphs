@@ -1,0 +1,27 @@
+Security and Garbage Sanitizer...........................................[41mFailed[m
+[2m- hook id: security-sanitizer[m
+[2m- exit code: 1[m
+
+🔒 Running Security and Garbage Sanitizer...
+
+❌ SECURITY AND GARBAGE VALIDATION FAILED!
+Please correct the following issues before committing:
+
+[1] Non-standard root-level text file detected: 'sanitizer_errors.txt'. Only 'requirements.txt' and 'requirements-dev.txt' are allowed.
+
+[2] Non-standard root-level text file detected: 'sanitizer_out.txt'. Only 'requirements.txt' and 'requirements-dev.txt' are allowed.
+
+[3] Potential unmasked secret (Generic Token Assignment) detected in skill_graphs/infra/azure-docs/reference/media-services_latest_stream-live-tutorial-with-api.md:225
+  Line: AccessToken = "acf7b6ef-8a37-425f-b8fc-51c2d6a5a86a", // used to make the ingest URL unique
+
+[4] Potential unmasked secret (Generic Token Assignment) detected in skill_graphs/infra/vercel-docs/reference/docs_frameworks_full-stack_sveltekit.md:294
+  Line: bypassToken: 'REPLACE_ME_WITH_SECRET_VALUE',
+
+[5] Potential unmasked secret (Generic Secret Assignment) detected in skill_graphs/php/reference/configuration.md:800
+  Line: 1php artisan down --secret="1630542a-246b-4b66-afa1-dd72a4c43515"
+
+[6] Potential unmasked secret (Generic Secret Assignment) detected in skill_graphs/php/reference/configuration.md:805
+  Line: php artisan down --secret="1630542a-246b-4b66-afa1-dd72a4c43515"
+
+Note: To bypass secret checks on specific lines, append '# sanitizer:ignore' to the end of the line.
+
