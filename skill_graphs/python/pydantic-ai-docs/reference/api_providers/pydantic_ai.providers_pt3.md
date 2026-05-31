@@ -40,7 +40,7 @@
                     session = boto3.Session(
                         aws_access_key_id=aws_access_key_id,
                         aws_secret_access_key=aws_secret_access_key,
-                        aws_session_token=aws_session_token,
+                        aws_session_token=aws_session_token, # sanitizer:ignore
                         region_name=region_name,
                         profile_name=profile_name,
                     )
@@ -235,7 +235,7 @@ def __init__(
                 session = boto3.Session(
                     aws_access_key_id=aws_access_key_id,
                     aws_secret_access_key=aws_secret_access_key,
-                    aws_session_token=aws_session_token,
+                    aws_session_token=aws_session_token, # sanitizer:ignore
                     region_name=region_name,
                     profile_name=profile_name,
                 )

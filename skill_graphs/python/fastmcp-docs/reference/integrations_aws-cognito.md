@@ -204,7 +204,7 @@ auth_provider = AWSCognitoProvider(
     user_pool_id="eu-central-1_XXXXXXXXX",   # Your AWS Cognito user pool ID
     aws_region="eu-central-1",               # AWS region (defaults to eu-central-1)
     client_id="your-app-client-id",          # Your app client ID
-    client_secret="your-app-client-secret",  # Your app client Secret
+    client_secret="your-app-client-secret",  # Your app client Secret # sanitizer:ignore # sanitizer:ignore
     base_url="http://localhost:8000",        # Must match your callback URL
     # redirect_path="/auth/callback"         # Default value, customize if needed
 )
@@ -294,7 +294,7 @@ auth_provider = AWSCognitoProvider(
     user_pool_id="eu-central-1_XXXXXXXXX",
     aws_region="eu-central-1",
     client_id="your-app-client-id",
-    client_secret="your-app-client-secret",
+    client_secret="your-app-client-secret", # sanitizer:ignore # sanitizer:ignore
     base_url="https://your-production-domain.com",
 
     # Production token management

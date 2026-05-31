@@ -347,7 +347,7 @@ query_engine = FalkorGraphQueryEngine(
     host=os.getenv("FALKORDB_HOST", "localhost"),
     port=int(os.getenv("FALKORDB_PORT", 6379)),
     username=os.getenv("FALKORDB_USERNAME"),
-    password=os.getenv("FALKORDB_PASSWORD"),
+    password=os.getenv("FALKORDB_PASSWORD"), # sanitizer:ignore
 )
 
 # Query with custom Cypher

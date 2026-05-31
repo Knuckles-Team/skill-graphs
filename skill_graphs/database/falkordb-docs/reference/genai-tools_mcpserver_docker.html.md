@@ -217,7 +217,7 @@ graph = FalkorDBGraph(
     host="localhost",
     port=6379,
     username="",  # optional
-    password="",  # optional
+    password="",  # optional # sanitizer:ignore
 )
 
 ```

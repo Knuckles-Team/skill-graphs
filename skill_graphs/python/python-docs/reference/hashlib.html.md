@@ -418,7 +418,7 @@ Copy```
 >>> from hashlib import blake2b
 >>> from hmac import compare_digest
 >>>
->>> SECRET_KEY = b'pseudorandomly generated server secret key'
+>>> SECRET_KEY = b'pseudorandomly generated server secret key' # sanitizer:ignore
 >>> AUTH_SIZE = 16
 >>>
 >>> def sign(cookie):

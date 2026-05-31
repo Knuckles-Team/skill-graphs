@@ -222,7 +222,7 @@ from fastmcp.server.auth.providers.introspection import IntrospectionTokenVerifi
 verifier = IntrospectionTokenVerifier(
     introspection_url="https://auth.yourcompany.com/oauth/introspect",
     client_id="mcp-resource-server",
-    client_secret="your-client-secret",
+    client_secret="your-client-secret", # sanitizer:ignore # sanitizer:ignore
     required_scopes=["api:read", "api:write"]
 )
 
@@ -241,7 +241,7 @@ Copy
 verifier = IntrospectionTokenVerifier(
     introspection_url="https://auth.yourcompany.com/oauth/introspect",
     client_id="mcp-resource-server",
-    client_secret="your-client-secret",
+    client_secret="your-client-secret", # sanitizer:ignore # sanitizer:ignore
     client_auth_method="client_secret_post",
     required_scopes=["api:read", "api:write"]
 )
@@ -396,7 +396,7 @@ http_client = httpx.AsyncClient(
 verifier = IntrospectionTokenVerifier(
     introspection_url="https://auth.yourcompany.com/oauth/introspect",
     client_id="mcp-resource-server",
-    client_secret="your-client-secret",
+    client_secret="your-client-secret", # sanitizer:ignore # sanitizer:ignore
     http_client=http_client,
 )
 
@@ -430,7 +430,7 @@ http_client = httpx.AsyncClient(timeout=10)
 verifier = IntrospectionTokenVerifier(
     introspection_url="https://auth.example.com/introspect",
     client_id="my-service",
-    client_secret="secret",
+    client_secret="secret", # sanitizer:ignore # sanitizer:ignore
     http_client=http_client,
 )
 

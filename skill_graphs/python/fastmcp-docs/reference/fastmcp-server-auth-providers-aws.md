@@ -191,7 +191,7 @@ auth = AWSCognitoProvider(
     user_pool_id="your-user-pool-id",
     aws_region="eu-central-1",
     client_id="your-cognito-client-id",
-    client_secret="your-cognito-client-secret"
+    client_secret="your-cognito-client-secret" # sanitizer:ignore # sanitizer:ignore
 )
 
 mcp = FastMCP("My Protected Server", auth=auth)

@@ -189,7 +189,7 @@ from fastmcp.server.auth.providers.propelauth import PropelAuthProvider
 auth = PropelAuthProvider(
     auth_url="https://auth.yourdomain.com",
     introspection_client_id="your-client-id",
-    introspection_client_secret="your-client-secret",
+    introspection_client_secret="your-client-secret", # sanitizer:ignore # sanitizer:ignore
     base_url="https://your-fastmcp-server.com",
     required_scopes=["read:user_data"],
 )

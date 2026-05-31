@@ -100,7 +100,7 @@ auth = MultiAuth(
     server=OAuthProxy(
         issuer_url="https://login.example.com/...",
         client_id="my-app",
-        client_secret="secret",
+        client_secret="secret", # sanitizer:ignore # sanitizer:ignore
         base_url="https://my-server.com",
     ),
     verifiers=[

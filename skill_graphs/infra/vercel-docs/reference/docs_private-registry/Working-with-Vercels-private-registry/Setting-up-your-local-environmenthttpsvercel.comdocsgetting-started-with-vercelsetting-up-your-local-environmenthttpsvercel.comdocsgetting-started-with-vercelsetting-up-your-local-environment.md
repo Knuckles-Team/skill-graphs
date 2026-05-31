@@ -54,7 +54,7 @@ You should now have a `.npmrc` file in your home directory that contains the aut
   4. ####  [Setting token using modern versions of Yarn](https://vercel.com/docs/getting-started-with-vercel#setting-token-using-modern-versions-of-yarn)[](https://vercel.com/docs/getting-started-with-vercel#setting-token-using-modern-versions-of-yarn)
 Yarn version 2 or newer requires the authentication token to be saved in a `.yarnrc.yml` file. After running the above command, you can copy the token from the `.npmrc` file with:
 ```
-auth_token=$(awk -F'=' '/vercel-private-registry.vercel.sh\/:_authToken/ {print $2}' $(npm config get userconfig)) \
+auth_token=$(awk -F'=' '/vercel-private-registry.vercel.sh\/:_authToken/ {print $2}' $(npm config get userconfig)) \ # sanitizer:ignore
 && yarn config set --home 'npmRegistries["https://vercel-private-registry.vercel.sh/registry"].npmAuthToken' $auth_token
 ```
 

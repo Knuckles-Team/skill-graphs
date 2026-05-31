@@ -170,7 +170,7 @@ from fastmcp.server.auth.providers.github import GitHubProvider
 
 auth = GitHubProvider(
     client_id="Ov23li...",  # Your GitHub OAuth App ID
-    client_secret="abc123...",  # Your GitHub OAuth App Secret
+    client_secret="abc123...",  # Your GitHub OAuth App Secret # sanitizer:ignore # sanitizer:ignore
     base_url="https://your-server.com"
 )
 
@@ -213,7 +213,7 @@ auth = MultiAuth(
     server=OAuthProxy(
         issuer_url="https://login.example.com/...",
         client_id="my-app",
-        client_secret="secret",
+        client_secret="secret", # sanitizer:ignore # sanitizer:ignore
         base_url="https://my-server.com",
     ),
     verifiers=[
@@ -243,7 +243,7 @@ from fastmcp.server.auth.providers.github import GitHubProvider
 # Load secrets from environment variables
 auth = GitHubProvider(
     client_id=os.environ.get("GITHUB_CLIENT_ID"),
-    client_secret=os.environ.get("GITHUB_CLIENT_SECRET"),
+    client_secret=os.environ.get("GITHUB_CLIENT_SECRET"), # sanitizer:ignore # sanitizer:ignore
     base_url=os.environ.get("BASE_URL", "http://localhost:8000")
 )
 

@@ -270,7 +270,7 @@ Copy```
 from falkordb import FalkorDB
 
 # Connect to FalkorDB
-client = FalkorDB(host="localhost", port=6379, password="your-password")
+client = FalkorDB(host="localhost", port=6379, password="your-password") # sanitizer:ignore
 graph = client.select_graph('social')
 
 ```

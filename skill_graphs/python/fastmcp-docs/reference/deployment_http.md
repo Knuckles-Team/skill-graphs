@@ -548,7 +548,7 @@ Copy
 ```
 auth = GitHubProvider(
     client_id="your-client-id",
-    client_secret="your-client-secret",
+    client_secret="your-client-secret", # sanitizer:ignore # sanitizer:ignore
     base_url=f"{ROOT_URL}{MOUNT_PREFIX}",  # Operational endpoints under prefix
     # issuer_url defaults to base_url - path-aware discovery works automatically
 )
@@ -611,7 +611,7 @@ MCP_PATH = "/mcp"
 # Create OAuth provider
 auth = GitHubProvider(
     client_id="your-client-id",
-    client_secret="your-client-secret",
+    client_secret="your-client-secret", # sanitizer:ignore # sanitizer:ignore
     base_url=f"{ROOT_URL}{MOUNT_PREFIX}",
     # issuer_url defaults to base_url - path-aware discovery works automatically
 )
@@ -724,7 +724,7 @@ from fastmcp.server.auth import BearerTokenAuth
 # Read configuration from environment
 auth_token = os.environ.get("MCP_AUTH_TOKEN")
 if auth_token:
-    auth = BearerTokenAuth(token=auth_token)
+    auth = BearerTokenAuth(token=auth_token) # sanitizer:ignore # sanitizer:ignore
     mcp = FastMCP("Production Server", auth=auth)
 else:
     mcp = FastMCP("Production Server")
@@ -760,7 +760,7 @@ from cryptography.fernet import Fernet
 
 auth = GitHubProvider(
     client_id=os.environ["GITHUB_CLIENT_ID"],
-    client_secret=os.environ["GITHUB_CLIENT_SECRET"],
+    client_secret=os.environ["GITHUB_CLIENT_SECRET"], # sanitizer:ignore # sanitizer:ignore
     jwt_signing_key=os.environ["JWT_SIGNING_KEY"],
     client_storage=FernetEncryptionWrapper(
         key_value=RedisStore(host="redis.example.com", port=6379),

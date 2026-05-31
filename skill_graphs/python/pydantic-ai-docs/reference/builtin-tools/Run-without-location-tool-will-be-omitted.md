@@ -1026,7 +1026,7 @@ agent = Agent(
         MCPServerTool(
             id='github',
             url='https://api.githubcopilot.com/mcp/',
-            authorization_token=os.getenv('GITHUB_ACCESS_TOKEN', 'mock-access-token'),  # [](https://ai.pydantic.dev/builtin-tools/#__code_34_annotation_1)
+            authorization_token=os.getenv('GITHUB_ACCESS_TOKEN', 'mock-access-token'),  # [](https://ai.pydantic.dev/builtin-tools/#__code_34_annotation_1) # sanitizer:ignore
             allowed_tools=['search_repositories', 'list_commits'],
             description='GitHub MCP server',
             headers={'X-Custom-Header': 'custom-value'},
@@ -1053,7 +1053,7 @@ agent = Agent(
         MCPServerTool(
             id='github',
             url='https://api.githubcopilot.com/mcp/',
-            authorization_token=os.getenv('GITHUB_ACCESS_TOKEN', 'mock-access-token'),  #
+            authorization_token=os.getenv('GITHUB_ACCESS_TOKEN', 'mock-access-token'),  # # sanitizer:ignore
 
 [](https://ai.pydantic.dev/builtin-tools/#__code_35_annotation_1)
             allowed_tools=['search_repositories', 'list_commits'],
@@ -1088,7 +1088,7 @@ agent = Agent(
         MCPServerTool(
             id='google-calendar',
             url='x-openai-connector:connector_googlecalendar',
-            authorization_token=os.getenv('GOOGLE_API_KEY', 'mock-api-key'), # [](https://ai.pydantic.dev/builtin-tools/#__code_36_annotation_1)
+            authorization_token=os.getenv('GOOGLE_API_KEY', 'mock-api-key'), # [](https://ai.pydantic.dev/builtin-tools/#__code_36_annotation_1) # sanitizer:ignore
         )
     ]
 )
@@ -1110,7 +1110,7 @@ agent = Agent(
         MCPServerTool(
             id='google-calendar',
             url='x-openai-connector:connector_googlecalendar',
-            authorization_token=os.getenv('GOOGLE_API_KEY', 'mock-api-key'), #
+            authorization_token=os.getenv('GOOGLE_API_KEY', 'mock-api-key'), # # sanitizer:ignore
 
 [](https://ai.pydantic.dev/builtin-tools/#__code_37_annotation_1)
         )

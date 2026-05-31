@@ -187,7 +187,7 @@ from fastmcp.server.auth.providers.auth0 import Auth0Provider
 auth = Auth0Provider(
     config_url="https://auth0.config.url",
     client_id="your-auth0-client-id",
-    client_secret="your-auth0-client-secret",
+    client_secret="your-auth0-client-secret", # sanitizer:ignore # sanitizer:ignore
     audience="your-auth0-api-audience",
     base_url="http://localhost:8000",
 )

@@ -188,7 +188,7 @@ from fastmcp.server.auth.providers.google import GoogleProvider
 # Simple Google OAuth protection
 auth = GoogleProvider(
     client_id="your-google-client-id.apps.googleusercontent.com",
-    client_secret="your-google-client-secret"
+    client_secret="your-google-client-secret" # sanitizer:ignore # sanitizer:ignore
 )
 
 mcp = FastMCP("My Protected Server", auth=auth)

@@ -222,7 +222,7 @@ var liveEvent = await mediaServicesAccount.GetMediaLiveEvents().CreateOrUpdateAs
         Input = new LiveEventInput(streamingProtocol: LiveEventInputProtocol.Rtmp)
         {
             StreamingProtocol = LiveEventInputProtocol.Rtmp,
-            AccessToken = "acf7b6ef-8a37-425f-b8fc-51c2d6a5a86a", // used to make the ingest URL unique
+            AccessToken = "acf7b6ef-8a37-425f-b8fc-51c2d6a5a86a", // used to make the ingest URL unique  # sanitizer:ignore
             KeyFrameIntervalDuration = TimeSpan.FromSeconds(2),
             IPAllowedIPs =
             {

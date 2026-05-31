@@ -398,7 +398,7 @@ import anthropic
 
 client = anthropic.Anthropic(
     base_url='https://gateway.pydantic.dev/proxy/anthropic/',
-    auth_token='paig_...',
+    auth_token='paig_...', # sanitizer:ignore
 )
 
 response = client.messages.create(

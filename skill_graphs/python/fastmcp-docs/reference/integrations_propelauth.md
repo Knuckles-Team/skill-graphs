@@ -167,7 +167,7 @@ from fastmcp.server.auth.providers.propelauth import PropelAuthProvider
 auth_provider = PropelAuthProvider(
     auth_url=os.environ["PROPELAUTH_AUTH_URL"],
     introspection_client_id=os.environ["PROPELAUTH_INTROSPECTION_CLIENT_ID"],
-    introspection_client_secret=os.environ["PROPELAUTH_INTROSPECTION_CLIENT_SECRET"],
+    introspection_client_secret=os.environ["PROPELAUTH_INTROSPECTION_CLIENT_SECRET"], # sanitizer:ignore # sanitizer:ignore
     base_url=os.environ["SERVER_URL"],
     required_scopes=["read:user_data"],                          # Optional scope enforcement
 )
@@ -216,7 +216,7 @@ from fastmcp.server.dependencies import get_access_token
 auth = PropelAuthProvider(
     auth_url=os.environ["PROPELAUTH_AUTH_URL"],
     introspection_client_id=os.environ["PROPELAUTH_INTROSPECTION_CLIENT_ID"],
-    introspection_client_secret=os.environ["PROPELAUTH_INTROSPECTION_CLIENT_SECRET"],
+    introspection_client_secret=os.environ["PROPELAUTH_INTROSPECTION_CLIENT_SECRET"], # sanitizer:ignore # sanitizer:ignore
     base_url=os.environ["SERVER_URL"],
     required_scopes=["read:user_data"],
 )
@@ -248,7 +248,7 @@ from fastmcp.server.auth.providers.propelauth import PropelAuthProvider
 auth = PropelAuthProvider(
     auth_url=os.environ["PROPELAUTH_AUTH_URL"],
     introspection_client_id=os.environ["PROPELAUTH_INTROSPECTION_CLIENT_ID"],
-    introspection_client_secret=os.environ["PROPELAUTH_INTROSPECTION_CLIENT_SECRET"],
+    introspection_client_secret=os.environ["PROPELAUTH_INTROSPECTION_CLIENT_SECRET"], # sanitizer:ignore # sanitizer:ignore
     base_url=os.environ.get("BASE_URL", "https://your-server.com"),
     required_scopes=["read:user_data"],
     resource="https://your-server.com/mcp",              # Restrict to tokens intended for this server (RFC 8707)

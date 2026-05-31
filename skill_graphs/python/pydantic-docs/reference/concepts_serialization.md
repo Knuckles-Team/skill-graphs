@@ -559,7 +559,7 @@ class UserModel(BaseModel):
         return f'{self.username} - {self.password}'
 
 
-print(UserModel(username='foo', password='bar').model_dump())
+print(UserModel(username='foo', password='bar').model_dump()) # sanitizer:ignore
 #> foo - bar
 
 ```
@@ -583,7 +583,7 @@ class UserModel(BaseModel):
         return serialized
 
 
-print(UserModel(username='foo', password='bar').model_dump())
+print(UserModel(username='foo', password='bar').model_dump()) # sanitizer:ignore
 #> {'username': 'foo', 'password': 'bar', 'fields': ['username', 'password']}
 
 ```
@@ -670,11 +670,11 @@ class OuterModel(BaseModel):
     user: User
 
 
-user = UserLogin(name='pydantic', password='hunter2')
+user = UserLogin(name='pydantic', password='hunter2') # sanitizer:ignore
 
 m = OuterModel(user=user)
 print(m)
-#> user=UserLogin(name='pydantic', password='hunter2')
+#> user=UserLogin(name='pydantic', password='hunter2') # sanitizer:ignore
 print(m.model_dump())  [](https://docs.pydantic.dev/latest/concepts/serialization/#__code_17_annotation_1)
 #> {'user': {'name': 'pydantic'}}
 
@@ -711,7 +711,7 @@ class OuterModel(BaseModel):
     as_user: User
 
 
-user = UserLogin(name='pydantic', password='password')
+user = UserLogin(name='pydantic', password='password') # sanitizer:ignore
 
 print(OuterModel(as_any=user, as_user=user).model_dump())
 """
@@ -743,7 +743,7 @@ class OuterModel(BaseModel):
     user2: User
 
 
-user = UserLogin(name='pydantic', password='password')
+user = UserLogin(name='pydantic', password='password') # sanitizer:ignore
 
 outer_model = OuterModel(user1=user, user2=user)
 print(outer_model.model_dump(serialize_as_any=True))  [](https://docs.pydantic.dev/latest/concepts/serialization/#__code_19_annotation_1)
@@ -810,7 +810,7 @@ class Transaction(BaseModel):
 t = Transaction(
     id='1234567890',
     private_id='123',
-    user=User(id=42, username='JohnDoe', password='hashedpassword'),
+    user=User(id=42, username='JohnDoe', password='hashedpassword'), # sanitizer:ignore
     value=9876543210,
 )
 

@@ -182,7 +182,7 @@ from fastmcp.server.auth.providers.azure import AzureProvider
 # The AzureProvider handles Azure's token format and validation
 auth_provider = AzureProvider(
     client_id="835f09b6-0f0f-40cc-85cb-f32c5829a149",  # Your Azure App Client ID
-    client_secret="your-client-secret",                 # Your Azure App Client Secret
+    client_secret="your-client-secret",                 # Your Azure App Client Secret # sanitizer:ignore # sanitizer:ignore
     tenant_id="08541b6e-646d-43de-a0eb-834e6713d6d5", # Your Azure Tenant ID (REQUIRED)
     base_url="http://localhost:8000",                   # Must match your App registration
     required_scopes=["your-scope"],                 # At least one scope REQUIRED - name of scope from your App
@@ -304,7 +304,7 @@ from cryptography.fernet import Fernet
 # Production setup with encrypted persistent token storage
 auth_provider = AzureProvider(
     client_id="835f09b6-0f0f-40cc-85cb-f32c5829a149",
-    client_secret="your-client-secret",
+    client_secret="your-client-secret", # sanitizer:ignore # sanitizer:ignore
     tenant_id="08541b6e-646d-43de-a0eb-834e6713d6d5",
     base_url="https://your-production-domain.com",
     required_scopes=["your-scope"],

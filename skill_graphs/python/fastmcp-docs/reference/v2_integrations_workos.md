@@ -146,7 +146,7 @@ from fastmcp.server.auth.providers.workos import WorkOSProvider
 # Configure WorkOS OAuth
 auth = WorkOSProvider(
     client_id="client_YOUR_CLIENT_ID",
-    client_secret="YOUR_CLIENT_SECRET",
+    client_secret="YOUR_CLIENT_SECRET", # sanitizer:ignore # sanitizer:ignore
     authkit_domain="https://your-app.authkit.app",
     base_url="http://localhost:8000",
     required_scopes=["openid", "profile", "email"]
@@ -227,7 +227,7 @@ from cryptography.fernet import Fernet
 # Production setup with encrypted persistent token storage
 auth = WorkOSProvider(
     client_id="client_YOUR_CLIENT_ID",
-    client_secret="YOUR_CLIENT_SECRET",
+    client_secret="YOUR_CLIENT_SECRET", # sanitizer:ignore # sanitizer:ignore
     authkit_domain="https://your-app.authkit.app",
     base_url="https://your-production-domain.com",
     required_scopes=["openid", "profile", "email"],

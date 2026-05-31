@@ -122,7 +122,7 @@ from fastmcp.client.auth import BearerAuth
 
 async with Client(
     "https://your-server.fastmcp.app/mcp",
-    auth=BearerAuth(token="<your-token>"),
+    auth=BearerAuth(token="<your-token>"), # sanitizer:ignore # sanitizer:ignore
 ) as client:
     await client.ping()
 

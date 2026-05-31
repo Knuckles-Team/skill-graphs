@@ -766,7 +766,7 @@ You may customize the password reset link URL using the `createUrlUsing` method 
 
 
 
-10        return 'https://example.com/reset-password?token='.$token;
+10        return 'https://example.com/reset-password?token='.$token; # sanitizer:ignore
 
 
 
@@ -790,7 +790,7 @@ use Illuminate\Auth\Notifications\ResetPassword;
 public function boot(): void
 {
     ResetPassword::createUrlUsing(function (User $user, string $token) {
-        return 'https://example.com/reset-password?token='.$token;
+        return 'https://example.com/reset-password?token='.$token; # sanitizer:ignore
     });
 }
 
@@ -845,7 +845,7 @@ You may easily modify the notification class used to send the password reset lin
 
 
 
-10    $url = 'https://example.com/reset-password?token='.$token;
+10    $url = 'https://example.com/reset-password?token='.$token; # sanitizer:ignore
 
 
 
@@ -873,7 +873,7 @@ use App\Notifications\ResetPasswordNotification;
  */
 public function sendPasswordResetNotification($token): void
 {
-    $url = 'https://example.com/reset-password?token='.$token;
+    $url = 'https://example.com/reset-password?token='.$token; # sanitizer:ignore
 
     $this->notify(new ResetPasswordNotification($url));
 }

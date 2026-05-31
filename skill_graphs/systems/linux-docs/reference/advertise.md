@@ -234,14 +234,14 @@ Then set credentials to access the PostgreSQL database.
                     class-name="org.postgresql.Driver"
                     url="jdbc:postgresql://localhost:5432/opennms"
                     user-name="**opennms**"
-                    password="**your-passwd-here**" />
+                    password="**your-passwd-here**" /> # sanitizer:ignore
 
 <jdbc-data-source name="opennms-admin"
                     database-name="template1"
                     class-name="org.postgresql.Driver"
                     url="jdbc:postgresql://localhost:5432/template1"
                     user-name="postgres"
-                    password="**your-db-admin-pass-here**" />
+                    password="**your-db-admin-pass-here**" /> # sanitizer:ignore
 
 ```
 ![Set Credentials Access in PostgreSQL](https://www.tecmint.com/wp-content/uploads/2019/05/set-credentials-for-postgres-access.png) Set Credentials Access in PostgreSQL

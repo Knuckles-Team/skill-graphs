@@ -1058,10 +1058,10 @@ class User(BaseModel):
     username: str
     password: SecretStr
 
-user = User(username='scolvin', password='password1')
+user = User(username='scolvin', password='password1') # sanitizer:ignore
 
 print(user)
-#> username='scolvin' password=SecretStr('**********')
+#> username='scolvin' password=SecretStr('**********') # sanitizer:ignore
 print(user.password.get_secret_value())
 #> password1
 print((SecretStr('password'), SecretStr('')))
@@ -1082,9 +1082,9 @@ class Model(BaseModel):
     def dump_secret(self, v):
         return v.get_secret_value()
 
-model = Model(password='IAmSensitive', password_bytes=b'IAmSensitiveBytes')
+model = Model(password='IAmSensitive', password_bytes=b'IAmSensitiveBytes') # sanitizer:ignore
 print(model)
-#> password=SecretStr('**********') password_bytes=SecretBytes(b'**********')
+#> password=SecretStr('**********') password_bytes=SecretBytes(b'**********') # sanitizer:ignore
 print(model.password)
 #> **********
 print(model.model_dump())
@@ -1181,10 +1181,10 @@ class SecretStr(_SecretField[str]):
         username: str
         password: SecretStr
 
-    user = User(username='scolvin', password='password1')
+    user = User(username='scolvin', password='password1') # sanitizer:ignore
 
     print(user)
-    #> username='scolvin' password=SecretStr('**********')
+    #> username='scolvin' password=SecretStr('**********') # sanitizer:ignore
     print(user.password.get_secret_value())
     #> password1
     print((SecretStr('password'), SecretStr('')))

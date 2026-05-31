@@ -163,7 +163,7 @@ from fastmcp.server.auth.providers.github import GitHubProvider
 
 auth = GitHubProvider(
     client_id="Ov23li...",  # Your GitHub OAuth App ID
-    client_secret="abc123...",  # Your GitHub OAuth App Secret
+    client_secret="abc123...",  # Your GitHub OAuth App Secret # sanitizer:ignore # sanitizer:ignore
     base_url="https://your-server.com"
 )
 

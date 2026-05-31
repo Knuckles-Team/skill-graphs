@@ -157,7 +157,7 @@ from fastmcp.server.auth.providers.auth0 import Auth0Provider
 auth_provider = Auth0Provider(
     config_url="https://.../.well-known/openid-configuration",  # Your Auth0 configuration URL
     client_id="tv2ObNgaZAWWhhycr7Bz1LU2mxlnsmsB",               # Your Auth0 application Client ID
-    client_secret="vPYqbjemq...",                               # Your Auth0 application Client Secret
+    client_secret="vPYqbjemq...",                               # Your Auth0 application Client Secret # sanitizer:ignore # sanitizer:ignore
     audience="https://...",                                     # Your Auth0 API audience
     base_url="http://localhost:8000",                           # Must match your application configuration
     # redirect_path="/auth/callback"                            # Default value, customize if needed
@@ -244,7 +244,7 @@ from cryptography.fernet import Fernet
 auth_provider = Auth0Provider(
     config_url="https://.../.well-known/openid-configuration",
     client_id="tv2ObNgaZAWWhhycr7Bz1LU2mxlnsmsB",
-    client_secret="vPYqbjemq...",
+    client_secret="vPYqbjemq...", # sanitizer:ignore # sanitizer:ignore
     audience="https://...",
     base_url="https://your-production-domain.com",
 

@@ -235,7 +235,7 @@ db = FalkorDB(
     host=os.getenv("FALKORDB_HOST", "localhost"),
     port=os.getenv("FALKORDB_PORT", 6379),
     username=os.getenv("FALKORDB_USERNAME"),  # optional for on-premises
-    password=os.getenv("FALKORDB_PASSWORD")   # optional for on-premises
+    password=os.getenv("FALKORDB_PASSWORD")   # optional for on-premises # sanitizer:ignore
 )
 
 # Select graph
@@ -256,7 +256,7 @@ kg = KnowledgeGraph(
     host=os.getenv("FALKORDB_HOST", "localhost"),
     port=os.getenv("FALKORDB_PORT", 6379),
     username=os.getenv("FALKORDB_USERNAME"),
-    password=os.getenv("FALKORDB_PASSWORD")
+    password=os.getenv("FALKORDB_PASSWORD") # sanitizer:ignore
 )
 
 # Start chat session

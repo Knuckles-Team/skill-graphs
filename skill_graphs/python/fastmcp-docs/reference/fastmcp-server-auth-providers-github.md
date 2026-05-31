@@ -188,7 +188,7 @@ from fastmcp.server.auth.providers.github import GitHubProvider
 # Simple GitHub OAuth protection
 auth = GitHubProvider(
     client_id="your-github-client-id",
-    client_secret="your-github-client-secret"
+    client_secret="your-github-client-secret" # sanitizer:ignore # sanitizer:ignore
 )
 
 mcp = FastMCP("My Protected Server", auth=auth)

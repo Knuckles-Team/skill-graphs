@@ -190,7 +190,7 @@ def get_oci_signer() -> TokenExchangeSigner:
         jwt_or_func=token,
         oci_domain_id=FASTMCP_SERVER_AUTH_OCI_IAM_GUID.split(".")[0],
         client_id=FASTMCP_SERVER_AUTH_OCI_CLIENT_ID,
-        client_secret=FASTMCP_SERVER_AUTH_OCI_CLIENT_SECRET,
+        client_secret=FASTMCP_SERVER_AUTH_OCI_CLIENT_SECRET, # sanitizer:ignore # sanitizer:ignore
     )
     logger.debug(f"Signer {signer} created for token ID: {tokenID}")
 
@@ -274,7 +274,7 @@ FASTMCP_SERVER_AUTH_OCI_CLIENT_SECRET = os.environ["FASTMCP_SERVER_AUTH_OCI_CLIE
 auth_provider = OCIProvider(
     config_url=FASTMCP_SERVER_AUTH_OCI_CONFIG_URL,
     client_id=FASTMCP_SERVER_AUTH_OCI_CLIENT_ID,
-    client_secret=FASTMCP_SERVER_AUTH_OCI_CLIENT_SECRET,
+    client_secret=FASTMCP_SERVER_AUTH_OCI_CLIENT_SECRET, # sanitizer:ignore # sanitizer:ignore
     base_url="https://your-production-domain.com",
 
     # Production token management

@@ -203,13 +203,13 @@ Find the sections below and set credentials to access the PostgreSQL database:
                     class-name="org.postgresql.Driver"
                     url="jdbc:postgresql://localhost:5432/opennms"
                     user-name="opennms-db-username"
-                    password="**opennms-db-user-passwd**” />
+                    password="**opennms-db-user-passwd**” /> # sanitizer:ignore
 <jdbc-data-source name="opennms-admin"
                     database-name="template1"
                     class-name="org.postgresql.Driver"
                     url="jdbc:postgresql://localhost:5432/template1"
                     user-name="postgres"
-                    password="**postgres-super-user-passwd**" />
+                    password="**postgres-super-user-passwd**" /> # sanitizer:ignore
 
 ```
 ![Configure Database Access](https://www.tecmint.com/wp-content/uploads/2019/06/configure-db-access.png) Configure Database Access

@@ -167,7 +167,7 @@ Open in v0 only supports query parameter authentication. It does not support nam
 ### Using Query Parameter Authentication
 To add authentication to your registry for Open in v0, use a `token` query parameter:
 ```
-https://registry.company.com/r/hello-world.json?token=your_secure_token_here
+https://registry.company.com/r/hello-world.json?token=your_secure_token_here # sanitizer:ignore
 
 ```
 

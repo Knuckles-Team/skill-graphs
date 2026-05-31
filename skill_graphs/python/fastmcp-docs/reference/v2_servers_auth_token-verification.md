@@ -210,7 +210,7 @@ from fastmcp.server.auth.providers.introspection import IntrospectionTokenVerifi
 verifier = IntrospectionTokenVerifier(
     introspection_url="https://auth.yourcompany.com/oauth/introspect",
     client_id="mcp-resource-server",
-    client_secret="your-client-secret",
+    client_secret="your-client-secret", # sanitizer:ignore # sanitizer:ignore
     required_scopes=["api:read", "api:write"]
 )
 

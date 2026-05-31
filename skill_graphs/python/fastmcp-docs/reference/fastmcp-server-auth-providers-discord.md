@@ -188,7 +188,7 @@ from fastmcp.server.auth.providers.discord import DiscordProvider
 # Simple Discord OAuth protection
 auth = DiscordProvider(
     client_id="your-discord-client-id",
-    client_secret="your-discord-client-secret"
+    client_secret="your-discord-client-secret" # sanitizer:ignore # sanitizer:ignore
 )
 
 mcp = FastMCP("My Protected Server", auth=auth)

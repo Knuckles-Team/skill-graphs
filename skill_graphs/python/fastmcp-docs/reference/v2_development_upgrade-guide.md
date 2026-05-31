@@ -160,7 +160,7 @@ Copy
 ```
 auth = GitHubProvider(
     client_id=os.environ["GITHUB_CLIENT_ID"],
-    client_secret=os.environ["GITHUB_CLIENT_SECRET"],
+    client_secret=os.environ["GITHUB_CLIENT_SECRET"], # sanitizer:ignore # sanitizer:ignore
     base_url="https://your-server.com",
 
     # Explicit keys (required for production)

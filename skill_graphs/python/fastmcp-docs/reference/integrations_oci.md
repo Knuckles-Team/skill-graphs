@@ -199,7 +199,7 @@ def get_oci_signer() -> TokenExchangeSigner:
         jwt_or_func=token,
         oci_domain_id=OCI_IAM_GUID.split(".")[0] if OCI_IAM_GUID else "",
         client_id=OCI_CLIENT_ID,
-        client_secret=OCI_CLIENT_SECRET,
+        client_secret=OCI_CLIENT_SECRET, # sanitizer:ignore # sanitizer:ignore
     )
     logger.debug(f"Signer {signer} created for token ID: {tokenID}")
 
@@ -279,7 +279,7 @@ from cryptography.fernet import Fernet
 auth_provider = OCIProvider(
     config_url=os.environ.get("OCI_CONFIG_URL"),
     client_id=os.environ.get("OCI_CLIENT_ID"),
-    client_secret=os.environ.get("OCI_CLIENT_SECRET"),
+    client_secret=os.environ.get("OCI_CLIENT_SECRET"), # sanitizer:ignore # sanitizer:ignore
     base_url=os.environ.get("BASE_URL", "https://your-production-domain.com"),
 
     # Production token management

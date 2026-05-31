@@ -231,7 +231,7 @@ def fake_password_hasher(raw_password: str):
 
 def fake_save_user(user_in: UserIn):
     hashed_password = fake_password_hasher(user_in.password)
-    user_in_db = UserInDB(**user_in.model_dump(), hashed_password=hashed_password)
+    user_in_db = UserInDB(**user_in.model_dump(), hashed_password=hashed_password) # sanitizer:ignore
     print("User saved! ..not really")
     return user_in_db
 
@@ -249,7 +249,7 @@ async def create_user(user_in: UserIn):
 Pydantic models have a `.model_dump()` method that returns a `dict` with the model's data.
 So, if we create a Pydantic object `user_in` like:
 ```
-user_in = UserIn(username="john", password="secret", email="john.doe@example.com")
+user_in = UserIn(username="john", password="secret", email="john.doe@example.com") # sanitizer:ignore
 
 ```
 
@@ -289,7 +289,7 @@ would result in something equivalent to:
 ```
 UserInDB(
     username="john",
-    password="secret",
+    password="secret", # sanitizer:ignore
     email="john.doe@example.com",
     full_name=None,
 )
@@ -324,9 +324,9 @@ UserInDB(**user_in.model_dump())
 ...because `user_in.model_dump()` is a `dict`, and then we make Python "unpack" it by passing it to `UserInDB` prefixed with `**`.
 So, we get a Pydantic model from the data in another Pydantic model.
 #### Unpacking a `dict` and extra keywords[¶](https://fastapi.tiangolo.com/tutorial/extra-models/#unpacking-a-dict-and-extra-keywords)
-And then adding the extra keyword argument `hashed_password=hashed_password`, like in:
+And then adding the extra keyword argument `hashed_password=hashed_password`, like in: # sanitizer:ignore
 ```
-UserInDB(**user_in.model_dump(), hashed_password=hashed_password)
+UserInDB(**user_in.model_dump(), hashed_password=hashed_password) # sanitizer:ignore
 
 ```
 
@@ -384,7 +384,7 @@ def fake_password_hasher(raw_password: str):
 
 def fake_save_user(user_in: UserIn):
     hashed_password = fake_password_hasher(user_in.password)
-    user_in_db = UserInDB(**user_in.model_dump(), hashed_password=hashed_password)
+    user_in_db = UserInDB(**user_in.model_dump(), hashed_password=hashed_password) # sanitizer:ignore
     print("User saved! ..not really")
     return user_in_db
 

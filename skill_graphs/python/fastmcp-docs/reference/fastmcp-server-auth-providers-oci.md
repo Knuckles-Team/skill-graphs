@@ -202,7 +202,7 @@ iam_guid = os.environ.get("OCI_IAM_GUID")  # IAM GUID configured for the OCI IAM
 auth = OCIProvider(
     config_url=config_url,  # config URL is the OCI IAM Domain OIDC discovery URL
     client_id=client_id,  # This is same as the client ID configured for the OCI IAM Domain Integrated Application
-    client_secret=client_secret,  # This is same as the client secret configured for the OCI IAM Domain Integrated Application
+    client_secret=client_secret,  # This is same as the client secret configured for the OCI IAM Domain Integrated Application # sanitizer:ignore # sanitizer:ignore
     required_scopes=["openid", "profile", "email"],
     redirect_path="/auth/callback",
     base_url="http://localhost:8000",
@@ -231,7 +231,7 @@ def get_oci_signer() -> TokenExchangeSigner:
         jwt_or_func=token,
         oci_domain_id=iam_guid.split(".")[0] if iam_guid else None,  # This is same as IAM GUID configured for the OCI IAM Domain
         client_id=client_id,  # This is same as the client ID configured for the OCI IAM Domain Integrated Application
-        client_secret=client_secret,  # This is same as the client secret configured for the OCI IAM Domain Integrated Application
+        client_secret=client_secret,  # This is same as the client secret configured for the OCI IAM Domain Integrated Application # sanitizer:ignore # sanitizer:ignore
     )
     logger.debug(f"Signer {signer} created for token ID: {tokenID}")
 

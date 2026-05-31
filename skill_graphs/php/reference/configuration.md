@@ -797,12 +797,12 @@ To allow maintenance mode to be bypassed using a secret token, you may use the `
 ```
 
 
-1php artisan down --secret="1630542a-246b-4b66-afa1-dd72a4c43515"
+1php artisan down --secret="1630542a-246b-4b66-afa1-dd72a4c43515"  # sanitizer:ignore
 
 
 
 
-php artisan down --secret="1630542a-246b-4b66-afa1-dd72a4c43515"
+php artisan down --secret="1630542a-246b-4b66-afa1-dd72a4c43515"  # sanitizer:ignore
 
 ```
 

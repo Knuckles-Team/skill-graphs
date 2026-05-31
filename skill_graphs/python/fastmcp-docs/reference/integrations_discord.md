@@ -147,7 +147,7 @@ from fastmcp.server.auth.providers.discord import DiscordProvider
 
 auth_provider = DiscordProvider(
     client_id="12345",      # Your Discord Application Client ID
-    client_secret="your-client-secret",    # Your Discord OAuth Client Secret
+    client_secret="your-client-secret",    # Your Discord OAuth Client Secret # sanitizer:ignore # sanitizer:ignore
     base_url="http://localhost:8000",      # Must match your OAuth configuration
 )
 
@@ -226,7 +226,7 @@ Copy
 ```
 auth_provider = DiscordProvider(
     client_id="...",
-    client_secret="...",
+    client_secret="...", # sanitizer:ignore # sanitizer:ignore
     base_url="http://localhost:8000",
     required_scopes=["identify", "email"],
 )
@@ -249,7 +249,7 @@ from cryptography.fernet import Fernet
 
 auth_provider = DiscordProvider(
     client_id="12345",
-    client_secret=os.environ["DISCORD_CLIENT_SECRET"],
+    client_secret=os.environ["DISCORD_CLIENT_SECRET"], # sanitizer:ignore # sanitizer:ignore
     base_url="https://your-production-domain.com",
 
     jwt_signing_key=os.environ["JWT_SIGNING_KEY"],

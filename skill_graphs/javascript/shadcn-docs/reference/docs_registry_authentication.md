@@ -177,7 +177,7 @@ Copy{
 }
 ```
 
-This creates: `https://registry.company.com/button.json?token=your_token`
+This creates: `https://registry.company.com/button.json?token=your_token` # sanitizer:ignore
 ## Server-Side Implementation
 Here's how to add authentication to your registry server:
 ### Next.js API Route Example

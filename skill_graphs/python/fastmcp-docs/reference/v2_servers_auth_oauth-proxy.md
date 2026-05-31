@@ -136,7 +136,7 @@ auth = OAuthProxy(
 
     # Your registered app credentials
     upstream_client_id="your-client-id",
-    upstream_client_secret="your-client-secret",
+    upstream_client_secret="your-client-secret", # sanitizer:ignore # sanitizer:ignore
 
     # Token validation (see Token Verification guide)
     token_verifier=token_verifier,
@@ -359,7 +359,7 @@ from fastmcp.server.auth.providers.github import GitHubProvider
 
 auth = GitHubProvider(
     client_id="your-github-app-id",
-    client_secret="your-github-app-secret",
+    client_secret="your-github-app-secret", # sanitizer:ignore # sanitizer:ignore
     base_url="https://your-server.com"
 )
 
@@ -398,7 +398,7 @@ auth = OAuthProxy(
     upstream_authorization_endpoint="https://your-domain.auth0.com/authorize",
     upstream_token_endpoint="https://your-domain.auth0.com/oauth/token",
     upstream_client_id="your-auth0-client-id",
-    upstream_client_secret="your-auth0-client-secret",
+    upstream_client_secret="your-auth0-client-secret", # sanitizer:ignore # sanitizer:ignore
 
     # Auth0-specific audience parameter
     extra_authorize_params={"audience": "https://your-api-identifier.com"},

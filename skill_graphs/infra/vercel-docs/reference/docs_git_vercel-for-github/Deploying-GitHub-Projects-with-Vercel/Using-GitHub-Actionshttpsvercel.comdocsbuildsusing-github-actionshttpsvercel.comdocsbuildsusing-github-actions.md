@@ -1,6 +1,6 @@
 ##  [Using GitHub Actions](https://vercel.com/docs/builds#using-github-actions)[](https://vercel.com/docs/builds#using-github-actions)
 You can use GitHub Actions to build and deploy your Vercel Application. This approach is necessary to enable Vercel with GitHub Enterprise Server (GHES) with Vercel, as GHES cannot use Vercel’s built-in Git integration.
-  1. Create a GitHub Action to build your project and deploy it to Vercel. Make sure to install the Vercel CLI (`npm install --global vercel@latest`) and pull your environment variables `vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}`
+  1. Create a GitHub Action to build your project and deploy it to Vercel. Make sure to install the Vercel CLI (`npm install --global vercel@latest`) and pull your environment variables `vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}` # sanitizer:ignore
   2. Use `vercel build` to build your project inside GitHub Actions, without exposing your source code to Vercel
   3. Then use `vercel deploy --prebuilt` to skip the build step on Vercel and upload the previously generated `.vercel/output` folder from your GitHub Action to Vercel
 

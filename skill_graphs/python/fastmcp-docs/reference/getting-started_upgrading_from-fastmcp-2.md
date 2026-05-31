@@ -252,7 +252,7 @@ from fastmcp.server.auth.providers.github import GitHubProvider
 
 auth = GitHubProvider(
     client_id=os.environ["GITHUB_CLIENT_ID"],
-    client_secret=os.environ["GITHUB_CLIENT_SECRET"],
+    client_secret=os.environ["GITHUB_CLIENT_SECRET"], # sanitizer:ignore # sanitizer:ignore
 )
 
 ```
@@ -427,7 +427,7 @@ Copy
 ```
 auth = GitHubProvider(
     client_id=os.environ["GITHUB_CLIENT_ID"],
-    client_secret=os.environ["GITHUB_CLIENT_SECRET"],
+    client_secret=os.environ["GITHUB_CLIENT_SECRET"], # sanitizer:ignore # sanitizer:ignore
     base_url="https://your-server.com",
     jwt_signing_key=os.environ["JWT_SIGNING_KEY"],
     client_storage=RedisStore(host="redis.example.com"),

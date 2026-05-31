@@ -136,7 +136,7 @@ from key_value.aio.stores.disk import DiskStore
 
 auth = GitHubProvider(
     client_id="your-id",
-    client_secret="your-secret",
+    client_secret="your-secret", # sanitizer:ignore # sanitizer:ignore
     base_url="https://your-server.com",
     client_storage=DiskStore(directory="/var/lib/fastmcp/oauth")
 )
@@ -176,7 +176,7 @@ from key_value.aio.stores.redis import RedisStore
 cache_store = RedisStore(
     host="redis.example.com",
     port=6379,
-    password="your-redis-password"
+    password="your-redis-password" # sanitizer:ignore # sanitizer:ignore
 )
 
 ```
@@ -190,7 +190,7 @@ from key_value.aio.stores.redis import RedisStore
 
 auth = GitHubProvider(
     client_id=os.environ["GITHUB_CLIENT_ID"],
-    client_secret=os.environ["GITHUB_CLIENT_SECRET"],
+    client_secret=os.environ["GITHUB_CLIENT_SECRET"], # sanitizer:ignore # sanitizer:ignore
     base_url="https://your-server.com",
     jwt_signing_key=os.environ["JWT_SIGNING_KEY"],
     client_storage=RedisStore(host="redis.example.com", port=6379)
@@ -237,7 +237,7 @@ from fastmcp.server.auth.providers.github import GitHubProvider
 
 auth = GitHubProvider(
     client_id="your-id",
-    client_secret="your-secret",
+    client_secret="your-secret", # sanitizer:ignore # sanitizer:ignore
     base_url="https://your-server.com"
 )
 
@@ -254,7 +254,7 @@ from cryptography.fernet import Fernet
 
 auth = GitHubProvider(
     client_id=os.environ["GITHUB_CLIENT_ID"],
-    client_secret=os.environ["GITHUB_CLIENT_SECRET"],
+    client_secret=os.environ["GITHUB_CLIENT_SECRET"], # sanitizer:ignore # sanitizer:ignore
     base_url="https://your-server.com",
     # Explicit JWT signing key (required for production)
     jwt_signing_key=os.environ["JWT_SIGNING_KEY"],

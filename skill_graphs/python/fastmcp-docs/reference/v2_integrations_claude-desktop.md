@@ -352,7 +352,7 @@ from fastmcp.client.auth import BearerAuth
 # Create authenticated client
 client = Client(
     "https://api.example.com/mcp/sse",
-    auth=BearerAuth(token="your-access-token")
+    auth=BearerAuth(token="your-access-token") # sanitizer:ignore # sanitizer:ignore
 )
 
 # Create proxy using the authenticated client

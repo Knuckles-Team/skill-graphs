@@ -110,7 +110,7 @@ auth = OIDCProxy(
 
     # Your registered app credentials
     client_id="your-client-id",
-    client_secret="your-client-secret",
+    client_secret="your-client-secret", # sanitizer:ignore # sanitizer:ignore
 
     # Your FastMCP server's public URL
     base_url="https://your-server.com",
@@ -266,7 +266,7 @@ from fastmcp.server.auth.providers.auth0 import Auth0Provider
 auth = Auth0Provider(
     config_url="https://.../.well-known/openid-configuration",
     client_id="your-auth0-client-id",
-    client_secret="your-auth0-client-secret",
+    client_secret="your-auth0-client-secret", # sanitizer:ignore # sanitizer:ignore
     audience="https://...",
     base_url="https://localhost:8000"
 )

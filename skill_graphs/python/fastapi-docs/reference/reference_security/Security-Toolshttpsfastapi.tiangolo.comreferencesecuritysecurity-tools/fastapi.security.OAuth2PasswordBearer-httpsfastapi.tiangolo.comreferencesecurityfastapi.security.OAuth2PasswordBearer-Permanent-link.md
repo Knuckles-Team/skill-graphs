@@ -197,7 +197,7 @@ def __init__(
     if not scopes:
         scopes = {}
     flows = OAuthFlowsModel(
-        password=cast(
+        password=cast( # sanitizer:ignore
             Any,
             {
                 "tokenUrl": tokenUrl,

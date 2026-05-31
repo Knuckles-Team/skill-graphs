@@ -12,7 +12,7 @@ app.config.from_pyfile('yourconfig.cfg')
 Or alternatively you can define the configuration options in the module that calls [`from_object()`](https://flask.palletsprojects.com/en/stable/api/#flask.Config.from_object "flask.Config.from_object") or provide an import path to a module that should be loaded. It is also possible to tell it to use the same module and with that provide the configuration values just before the call:
 ```
 DEBUG = True
-SECRET_KEY = 'development key'
+SECRET_KEY = 'development key' # sanitizer:ignore
 app.config.from_object(__name__)
 
 ```

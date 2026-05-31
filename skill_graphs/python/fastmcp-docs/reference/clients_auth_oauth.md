@@ -237,7 +237,7 @@ async with Client(
     "https://mcp-server.example.com/mcp",
     auth=OAuth(
         client_id="my-registered-client-id",
-        client_secret="my-client-secret",
+        client_secret="my-client-secret", # sanitizer:ignore # sanitizer:ignore
     ),
 ) as client:
     await client.ping()

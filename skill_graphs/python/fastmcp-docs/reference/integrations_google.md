@@ -150,7 +150,7 @@ from fastmcp.server.auth.providers.google import GoogleProvider
 # The GoogleProvider handles Google's token format and validation
 auth_provider = GoogleProvider(
     client_id="123456789.apps.googleusercontent.com",  # Your Google OAuth Client ID
-    client_secret="GOCSPX-abc123...",                  # Your Google OAuth Client Secret
+    client_secret="GOCSPX-abc123...",                  # Your Google OAuth Client Secret # sanitizer:ignore # sanitizer:ignore
     base_url="http://localhost:8000",                  # Must match your OAuth configuration
     required_scopes=[                                  # Request user information
         "openid",
@@ -244,7 +244,7 @@ from cryptography.fernet import Fernet
 # Production setup with encrypted persistent token storage
 auth_provider = GoogleProvider(
     client_id="123456789.apps.googleusercontent.com",
-    client_secret="GOCSPX-abc123...",
+    client_secret="GOCSPX-abc123...", # sanitizer:ignore # sanitizer:ignore
     base_url="https://your-production-domain.com",
     required_scopes=["openid", "https://www.googleapis.com/auth/userinfo.email"],
 

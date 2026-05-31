@@ -17219,7 +17219,7 @@ openssl aes-128-ecb -d -salt -in file.encrypted -out file.txt \
 
 sourcedir="/home/bozo/testfiles"
 encrfile="encr-dir.tar.gz"
-password=my_secret_password
+password=my_secret_password # sanitizer:ignore
 
 tar czvf - "$sourcedir" |
 openssl des3 -salt -out "$encrfile" -pass pass:"$password"

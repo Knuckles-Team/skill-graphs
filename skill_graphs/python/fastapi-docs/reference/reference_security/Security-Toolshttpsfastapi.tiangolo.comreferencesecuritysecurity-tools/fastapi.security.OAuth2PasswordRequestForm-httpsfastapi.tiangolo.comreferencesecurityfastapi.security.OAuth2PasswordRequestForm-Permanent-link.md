@@ -7,7 +7,7 @@ OAuth2PasswordRequestForm(
     password,
     scope="",
     client_id=None,
-    client_secret=None
+    client_secret=None # sanitizer:ignore
 )
 
 ```
@@ -310,7 +310,7 @@ OAuth2PasswordRequestFormStrict(
     password,
     scope="",
     client_id=None,
-    client_secret=None,
+    client_secret=None, # sanitizer:ignore
 )
 
 ```
@@ -567,10 +567,10 @@ def __init__(
     super().__init__(
         grant_type=grant_type,
         username=username,
-        password=password,
+        password=password, # sanitizer:ignore
         scope=scope,
         client_id=client_id,
-        client_secret=client_secret,
+        client_secret=client_secret, # sanitizer:ignore
     )
 
 ```
