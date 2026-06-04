@@ -20,10 +20,10 @@ tags: [architecture, pillars, orch, kg, ahe, eco, os]
 | `ORCH-1.3` | Execution Safety & State | `graph/executor.py`, `graph/hsm.py` |
 | `ORCH-1.4` | Capability Wiring Engine | `graph/nodes.py` |
 | `ORCH-1.5` | Agent Orchestrator | `graph/agent_orchestrator.py` |
-| `ORCH-1.6` | DSTDD Pipeline | `sdd/orchestrator.py` |
-| `ORCH-1.25` | Workflow Distillation | `workflows/distillation_hook.py` |
+| `ORCH-1.5` | DSTDD Pipeline | `sdd/orchestrator.py` |
+| `ORCH-1.8` | Workflow Distillation | `workflows/distillation_hook.py` |
 | `ORCH-1.26` | Workflow-TeamConfig Unification | `workflows/skill_compiler.py` |
-| `ORCH-1.27` | Autonomous Department Orchestration | `models/company.py` |
+| `ORCH-1.9` | Autonomous Department Orchestration | `models/company.py` |
 
 **Architecture**: Tasks flow through the HTN planner → routing selects specialist
 agents → executor manages state via HSM → results feed back to KG.
@@ -83,8 +83,8 @@ successful teams promoted to TeamConfigNode for reuse.
 | `ECO-4.1` | A2A Network & Consensus | `protocols/a2a_graph_skill.py` |
 | `ECO-4.5` | Native Messaging Backend | `ecosystem/bridge.py` |
 | `ECO-4.12` | Self-Documenting Skill-Graph | `skill_graphs/agent-utilities/` |
-| `ECO-4.13` | Company Infrastructure Orchestration | `ontology_company_infra.ttl` |
-| `ECO-4.14` | Infrastructure Blueprint Library | `skill_graphs/infrastructure-blueprints/` |
+| `ECO-4.7` | Company Infrastructure Orchestration | `ontology_company_infra.ttl` |
+| `ECO-4.8` | Infrastructure Blueprint Library | `skill_graphs/infrastructure-blueprints/` |
 
 **Architecture**: MCP servers expose tools → server_factory creates
 standardized endpoints → tool_filtering selects relevant tools for each agent.
