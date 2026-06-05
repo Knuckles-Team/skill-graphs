@@ -31,6 +31,7 @@ for using, developing, and extending the framework.
 
 | Need | Skill |
 |------|-------|
+| **Deploy** agent-utilities (zero-infra default, MCP servers, gateway, prod) | → [deployment/SKILL.md](deployment/SKILL.md) |
 | Understand how to **develop** for agent-utilities | → [development/SKILL.md](development/SKILL.md) |
 | Use agent-utilities **tools** (X search, KG, workflows) | → [tools/SKILL.md](tools/SKILL.md) |
 | Work with **OWL ontologies** | → [ontology/SKILL.md](ontology/SKILL.md) |
