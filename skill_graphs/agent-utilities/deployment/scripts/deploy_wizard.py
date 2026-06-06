@@ -516,8 +516,7 @@ def emit(s: dict, emit_what: str, out_dir: Path, apply: bool) -> None:
         {emit_what} if emit_what != "all" else {"uvx", "docker", "kubernetes"}
     )
     # config + env always
-    if "config" in want or True:
-        write(config_path, json.dumps(config, indent=2) + "\n", is_config=True)
+    write(config_path, json.dumps(config, indent=2) + "\n", is_config=True)
     out_dir.mkdir(parents=True, exist_ok=True) if apply else None
     write(out_dir / "deploy.env", env)
 
