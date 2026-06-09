@@ -5,6 +5,10 @@
 
 *Version: 0.36.0*
 
+> **Documentation** — The curated catalog of distilled documentation skill-graphs, the
+> environment flags that enable each domain, and the workflow for building new graphs are
+> maintained in the [official documentation](https://knuckles-team.github.io/skill-graphs/).
+
 ## Overview
 
 Skill Graphs is a dedicated repository for structured, documentation-based skills. It is designed to host "knowledge graphs" transformed from technical documentation, APIs, and web crawls, specifically for use with Pydantic AI Agents.
