@@ -10,31 +10,31 @@ try:
     from openai import AsyncOpenAI
     from pydantic_ai.providers.openai import OpenAIProvider
 except ImportError:
-    AsyncOpenAI = None
-    OpenAIProvider = None
+    AsyncOpenAI = None  # type: ignore[assignment, misc]
+    OpenAIProvider = None  # type: ignore[assignment, misc]
 
 try:
     from groq import AsyncGroq
     from pydantic_ai.providers.groq import GroqProvider
 except ImportError:
     AsyncGroq = None
-    GroqProvider = None
+    GroqProvider = None  # type: ignore[assignment, misc]
 
 try:
     from mistralai import Mistral
     from pydantic_ai.providers.mistral import MistralProvider
 except ImportError:
     Mistral = None
-    MistralProvider = None
+    MistralProvider = None  # type: ignore[assignment, misc]
 
 try:
     from pydantic_ai.models.anthropic import AnthropicModel
     from anthropic import AsyncAnthropic
     from pydantic_ai.providers.anthropic import AnthropicProvider
 except ImportError:
-    AnthropicModel = None
+    AnthropicModel = None  # type: ignore[assignment, misc]
     AsyncAnthropic = None
-    AnthropicProvider = None
+    AnthropicProvider = None  # type: ignore[assignment, misc]
 
 __version__ = "0.38.0"
 
