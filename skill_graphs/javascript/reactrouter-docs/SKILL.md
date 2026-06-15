@@ -1,20 +1,28 @@
 ---
 name: reactrouter-docs
 description: Comprehensive reference documentation for Reactrouter Docs.
-crawl_depth: 2
+skill_graph_version: 1.0.0
+source_types: [web]
 source_url: https://reactrouter.com/en/main
+built_at: 2026-06-15T23:32:58Z
+builder_version: 0.47.1
+file_count: 1
+kg_ingested: true
+kg_ontology: agent-utilities
+categories: [Documentation, Knowledge Base, Reference]
 tags: [docs, reference, reactrouter-docs, knowledge-base]
 ---
 
-# Reactrouter Docs Documentation
+# Reactrouter Documentation
 
 Comprehensive reference documentation for Reactrouter Docs.
 
-**Original Sources**:
-- [https://reactrouter.com/en/main](https://reactrouter.com/en/main)
+**Sources** (1):
+- https://reactrouter.com/en/main
 
-**Contains**: 1 markdown files with full folder structure (crawled at depth 2).
-*Last updated: March 08, 2026*
+**Contains**: 1 markdown files. *Built June 15, 2026.*
+
+*Ingested into the Knowledge Graph (13 nodes) — query it via `graph_search`.*
 
 ## 📚 Table of Contents
 
@@ -22,7 +30,6 @@ Comprehensive reference documentation for Reactrouter Docs.
 
 ## 🤖 Agent Usage Guide
 
-- When the user asks anything about **Reactrouter Docs**, consult the reference files.
+- When asked about **Reactrouter**, consult the reference files above.
 - Prefer exact quotes and direct links to the relevant file/section.
-- The hierarchical TOC above makes navigation fast and intuitive.
-- All images and assets are preserved so links work perfectly.
+- `sources.json` records provenance + freshness; rebuild when stale.

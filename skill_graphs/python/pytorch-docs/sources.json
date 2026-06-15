@@ -1,0 +1,35 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "pytorch-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-06-15T23:31:25Z",
+  "builder_version": "0.47.1",
+  "kg_ingested": true,
+  "kg_manifest": null,
+  "kg_ontology": "agent-utilities",
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://pytorch.org/docs/stable/index.html",
+      "options": {
+        "max_depth": 3
+      },
+      "extractor": "wrap-existing",
+      "fetched_at": "2026-06-15T23:31:25Z",
+      "content_hash": "sha256:02b69d7d77829c8ebd42867ccabe1c777548d19064bebc0fae2034b1c8ecebe1",
+      "doc_count": 1
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/docs_stable_index.html.md",
+      "sha256": "sha256:7b369dd9ff9ef567de7e0931395324c0bc80349a8c289cc0b4166c2e0b8251b2",
+      "bytes": 25717
+    }
+  ],
+  "stats": {
+    "file_count": 1,
+    "source_count": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "redis-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-06-15T23:34:42Z",
+  "builder_version": "0.47.1",
+  "kg_ingested": true,
+  "kg_manifest": null,
+  "kg_ontology": "agent-utilities",
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://redis.io/docs/",
+      "options": {
+        "max_depth": 2
+      },
+      "extractor": "wrap-existing",
+      "fetched_at": "2026-06-15T23:34:42Z",
+      "content_hash": "sha256:20235963d2d2386c5a63f40204880117fa838456f3653163be3e14a23f3b3d08",
+      "doc_count": 1
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/documentation.md",
+      "sha256": "sha256:f7f1ad1250a2a430884079ece8d22a0db423780f92046cbb94a5e112bd96d470",
+      "bytes": 12860
+    }
+  ],
+  "stats": {
+    "file_count": 1,
+    "source_count": 1
+  }
+}

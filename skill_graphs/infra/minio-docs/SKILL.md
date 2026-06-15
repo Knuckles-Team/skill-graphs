@@ -1,20 +1,28 @@
 ---
 name: minio-docs
 description: Comprehensive reference documentation for Minio Docs.
-crawl_depth: 3
+skill_graph_version: 1.0.0
+source_types: [web]
 source_url: https://min.io/docs/minio/linux/index.html
+built_at: 2026-06-15T23:29:38Z
+builder_version: 0.47.1
+file_count: 1
+kg_ingested: true
+kg_ontology: agent-utilities
+categories: [Documentation, Knowledge Base, Reference]
 tags: [docs, reference, minio-docs, knowledge-base]
 ---
 
-# Minio Docs Documentation
+# Minio Documentation
 
 Comprehensive reference documentation for Minio Docs.
 
-**Original Sources**:
-- [https://min.io/docs/minio/linux/index.html](https://min.io/docs/minio/linux/index.html)
+**Sources** (1):
+- https://min.io/docs/minio/linux/index.html
 
-**Contains**: 1 markdown files with full folder structure (crawled at depth 3).
-*Last updated: March 08, 2026*
+**Contains**: 1 markdown files. *Built June 15, 2026.*
+
+*Ingested into the Knowledge Graph (14 nodes) — query it via `graph_search`.*
 
 ## 📚 Table of Contents
 
@@ -22,7 +30,6 @@ Comprehensive reference documentation for Minio Docs.
 
 ## 🤖 Agent Usage Guide
 
-- When the user asks anything about **Minio Docs**, consult the reference files.
+- When asked about **Minio**, consult the reference files above.
 - Prefer exact quotes and direct links to the relevant file/section.
-- The hierarchical TOC above makes navigation fast and intuitive.
-- All images and assets are preserved so links work perfectly.
+- `sources.json` records provenance + freshness; rebuild when stale.

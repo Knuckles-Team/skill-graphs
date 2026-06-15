@@ -1,0 +1,35 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "minio-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-06-15T23:29:38Z",
+  "builder_version": "0.47.1",
+  "kg_ingested": true,
+  "kg_manifest": null,
+  "kg_ontology": "agent-utilities",
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://min.io/docs/minio/linux/index.html",
+      "options": {
+        "max_depth": 3
+      },
+      "extractor": "wrap-existing",
+      "fetched_at": "2026-06-15T23:29:38Z",
+      "content_hash": "sha256:12b7ecb76a0b12a567fc544f77d4a2d62a3fc5b2561f71c05b6e0071a5e36923",
+      "doc_count": 1
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/docs_minio_linux_index.html.md",
+      "sha256": "sha256:389514da3b82696143c33f035e37b9e1dd7ac29385bfc5b793e729b3c730e086",
+      "bytes": 3296
+    }
+  ],
+  "stats": {
+    "file_count": 1,
+    "source_count": 1
+  }
+}
