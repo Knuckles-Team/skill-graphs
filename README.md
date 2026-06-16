@@ -3,7 +3,7 @@
 ![PyPI - Version](https://img.shields.io/pypi/v/skill-graphs)
 ![MCP Server](https://badge.mcpx.dev?type=server 'MCP Server')
 
-*Version: 0.38.0*
+*Version: 0.39.0*
 
 > **Documentation** — The curated catalog of distilled documentation skill-graphs, the
 > environment flags that enable each domain, and the workflow for building new graphs are
