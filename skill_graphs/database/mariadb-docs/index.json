@@ -1,0 +1,1379 @@
+{
+  "schema": "skill-graph-index/v1",
+  "name": "mariadb-docs",
+  "skill_graph_version": "1.0.0",
+  "kg_ingested": false,
+  "kg_domain": "skillgraph:mariadb-docs",
+  "concepts": [],
+  "source_url": "https://mariadb.com/docs",
+  "file_count": 109,
+  "groups": {
+    ".": 106,
+    "mariadb-backup-options": 3
+  },
+  "sections": [
+    {
+      "path": "reference/a-mariadb-primer-guide.md",
+      "title": "A MariaDB Primer Guide",
+      "group": ".",
+      "bytes": 7293,
+      "headings": [
+        "A MariaDB Primer Guide",
+        "Logging into MariaDB",
+        "Understanding Database Basics and Setup",
+        "Exploring Your Database Structure",
+        "Retrieving Data (SELECT)",
+        "Adding Data (INSERT)",
+        "Modifying Data (UPDATE)",
+        "See Also"
+      ]
+    },
+    {
+      "path": "reference/a-mariadb-primer.md",
+      "title": "A MariaDB Primer",
+      "group": ".",
+      "bytes": 9075,
+      "headings": [
+        "A MariaDB Primer"
+      ]
+    },
+    {
+      "path": "reference/adding-and-changing-data-in-mariadb.md",
+      "title": "Adding and Changing Data in MariaDB",
+      "group": ".",
+      "bytes": 13693,
+      "headings": [
+        "Adding and Changing Data in MariaDB"
+      ]
+    },
+    {
+      "path": "reference/adding-changing-data-guide.md",
+      "title": "Adding & Changing Data Guide",
+      "group": ".",
+      "bytes": 8739,
+      "headings": [
+        "Adding & Changing Data Guide",
+        "Adding Data with `INSERT`",
+        "Managing `INSERT` Priority and Behavior",
+        "Inserting Data from Another Table (`INSERT...SELECT`)",
+        "Replacing Data with `REPLACE`",
+        "Modifying Data with `UPDATE`",
+        "Conditional Inserts or Updates (`INSERT ... ON DUPLICATE KEY UPDATE`)",
+        "Further Data Modification Methods"
+      ]
+    },
+    {
+      "path": "reference/advanced-joins.md",
+      "title": "Advanced Joins",
+      "group": ".",
+      "bytes": 9266,
+      "headings": [
+        "Advanced Joins",
+        "The Employee Database",
+        "Working with the Employee Database",
+        "Filtering by Name",
+        "Filtering by Name, Date and Time",
+        "Displaying Total Work Hours per Day",
+        "See Also"
+      ]
+    },
+    {
+      "path": "reference/altering-tables-guide.md",
+      "title": "Altering Tables Guide",
+      "group": ".",
+      "bytes": 10414,
+      "headings": [
+        "Altering Tables Guide",
+        "Before You Begin: Backup Your Tables",
+        "Adding Columns",
+        "Changing Column Definitions",
+        "Dropping Columns",
+        "Managing Default Values",
+        "Managing Indexes",
+        "Renaming and Shifting Tables",
+        "Key Considerations"
+      ]
+    },
+    {
+      "path": "reference/analytical-solutions.md",
+      "title": "Analytical Solutions",
+      "group": ".",
+      "bytes": 23,
+      "headings": [
+        "Analytical Solutions"
+      ]
+    },
+    {
+      "path": "reference/application-code.md",
+      "title": "Application Code",
+      "group": ".",
+      "bytes": 8262,
+      "headings": [
+        "Application Code",
+        "Object Relational Mappers (ORM)",
+        "Stored Procedures and Functions",
+        "Views",
+        "Application Code",
+        "SELECT \\*",
+        "INSERT Without Column Names",
+        "Processing of Column Data",
+        "Use of Reserved Words in the Schema",
+        "Relying on Nonexplicit Assumptions",
+        "Code and Schema Standardization",
+        "Complex SQL"
+      ]
+    },
+    {
+      "path": "reference/aria-storage-engine.md",
+      "title": "Aria Storage Engine",
+      "group": ".",
+      "bytes": 2590,
+      "headings": [
+        "Aria Storage Engine"
+      ]
+    },
+    {
+      "path": "reference/backup-and-restore-overview.md",
+      "title": "Backup and Restore Overview",
+      "group": ".",
+      "bytes": 13123,
+      "headings": [
+        "Backup and Restore Overview",
+        "Logical vs Physical Backups",
+        "Backup Tools",
+        "`mariadb-backup`",
+        "`mariadb-dump`",
+        "`mariadb-hotcopy`",
+        "Percona XtraBackup",
+        "Filesystem Snapshots",
+        "LVM",
+        "dbForge Studio for MySQL",
+        "See Also"
+      ]
+    },
+    {
+      "path": "reference/backup-optimization.md",
+      "title": "Backup Optimization",
+      "group": ".",
+      "bytes": 6405,
+      "headings": [
+        "Backup Optimization",
+        "Overview",
+        "Scheduling of Restore Preparation",
+        "Moving Restored Data",
+        "Multithreading",
+        "Incrementing an Incremental Backup",
+        "Storage Snapshots",
+        "Taking Snapshots"
+      ]
+    },
+    {
+      "path": "reference/backup-restore.md",
+      "title": "Backup & Restore",
+      "group": ".",
+      "bytes": 193,
+      "headings": [
+        "Backup & Restore"
+      ]
+    },
+    {
+      "path": "reference/basic-queries.md",
+      "title": "Basic Queries",
+      "group": ".",
+      "bytes": 15221,
+      "headings": [
+        "Basic Queries"
+      ]
+    },
+    {
+      "path": "reference/basic-sql-debugging-guide.md",
+      "title": "Basic SQL Debugging Guide",
+      "group": ".",
+      "bytes": 6973,
+      "headings": [
+        "Basic SQL Debugging Guide",
+        "Using Whitespace",
+        "Table and Field Aliases",
+        "Placing JOIN Conditions",
+        "Finding Syntax Errors"
+      ]
+    },
+    {
+      "path": "reference/basic-sql-debugging.md",
+      "title": "Basic SQL Debugging",
+      "group": ".",
+      "bytes": 9409,
+      "headings": [
+        "Basic SQL Debugging",
+        "Designing Queries",
+        "Using Whitespace",
+        "Table and Field Aliases",
+        "Placing JOIN conditions",
+        "Finding Syntax Errors",
+        "Interpreting the Empty Error",
+        "Checking for keywords",
+        "Version specific syntax"
+      ]
+    },
+    {
+      "path": "reference/basic-sql-statements-guide.md",
+      "title": "Basic SQL Statements Guide",
+      "group": ".",
+      "bytes": 5843,
+      "headings": [
+        "Basic SQL Statements Guide",
+        "Defining How Your Data Is Stored",
+        "Manipulating Your Data",
+        "Transactions",
+        "A Simple Example Sequence"
+      ]
+    },
+    {
+      "path": "reference/basic-sql-statements.md",
+      "title": "Basic SQL Statements",
+      "group": ".",
+      "bytes": 4296,
+      "headings": [
+        "Basic SQL Statements",
+        "Defining How Your Data Is Stored",
+        "Manipulating Your Data",
+        "Transactions",
+        "A Simple Example"
+      ]
+    },
+    {
+      "path": "reference/basics-guide.md",
+      "title": "Basics Guide",
+      "group": ".",
+      "bytes": 8005,
+      "headings": [
+        "Basics Guide",
+        "Connecting to MariaDB Server",
+        "Creating a Database Structure",
+        "SQL Syntax Notes",
+        "Entering Data",
+        "Retrieving Data",
+        "Changing & Deleting Data"
+      ]
+    },
+    {
+      "path": "reference/basics.md",
+      "title": "Basics",
+      "group": ".",
+      "bytes": 183,
+      "headings": [
+        "Basics"
+      ]
+    },
+    {
+      "path": "reference/best-practices.md",
+      "title": "Best Practices",
+      "group": ".",
+      "bytes": 3007,
+      "headings": [
+        "Best Practices",
+        "Quickstart Guide: MariaDB Best Practices"
+      ]
+    },
+    {
+      "path": "reference/canary-testing.md",
+      "title": "Canary Testing",
+      "group": ".",
+      "bytes": 4150,
+      "headings": [
+        "Canary Testing",
+        "Database Naming",
+        "Views",
+        "Replication",
+        "Invisible Columns",
+        "See Also"
+      ]
+    },
+    {
+      "path": "reference/changing-times-in-mariadb.md",
+      "title": "Changing Times in MariaDB",
+      "group": ".",
+      "bytes": 5565,
+      "headings": [
+        "Changing Times in MariaDB",
+        "Calculating Time Across Midnight",
+        "Tracking Date Changes with Time: Using `DATETIME`",
+        "Adding Durations with `DATE_ADD`",
+        "Date Calculations Across Months and Years with `DATE_ADD`",
+        "Subtracting Durations"
+      ]
+    },
+    {
+      "path": "reference/chown-mysql-mysql-var-lib-mysql-test-address_book..md",
+      "title": "chown mysql:mysql /var/lib/mysql/test/address_book.*",
+      "group": ".",
+      "bytes": 1794,
+      "headings": [
+        "chown mysql:mysql /var/lib/mysql/test/address_book.*",
+        "Partial Restore Partitioned Tables"
+      ]
+    },
+    {
+      "path": "reference/chown-mysql-mysql-var-lib-mysql-test-students_work..md",
+      "title": "chown mysql:mysql /var/lib/mysql/test/students_work.*",
+      "group": ".",
+      "bytes": 2846,
+      "headings": [
+        "chown mysql:mysql /var/lib/mysql/test/students_work.*",
+        "Partial Restore of Tables with Full-Text Indexes",
+        "Point-in-Time Recoveries"
+      ]
+    },
+    {
+      "path": "reference/commonly-used-queries.md",
+      "title": "Commonly Used Queries",
+      "group": ".",
+      "bytes": 9848,
+      "headings": [
+        "Commonly Used Queries",
+        "Creating a Table",
+        "Inserting Records",
+        "Using AUTO\\_INCREMENT",
+        "Querying from two tables on a common value",
+        "Finding the Maximum Value",
+        "Finding the Minimum Value",
+        "Finding the Average Value",
+        "Finding the Maximum Value and Grouping the Results",
+        "Ordering Results",
+        "Finding the Row with the Minimum of a Particular Column",
+        "Finding Rows with the Maximum Value of a Column by Group"
+      ]
+    },
+    {
+      "path": "reference/configuring-mariadb-for-remote-client-access-guide.md",
+      "title": "Configuring MariaDB for Remote Client Access Guide",
+      "group": ".",
+      "bytes": 8521,
+      "headings": [
+        "Configuring MariaDB for Remote Client Access Guide",
+        "Understanding Key Network Directives",
+        "Modifying the Configuration File for Remote Access",
+        "Granting User Privileges for Remote Connections",
+        "Configuring Your Firewall",
+        "Important Considerations and Reverting Changes"
+      ]
+    },
+    {
+      "path": "reference/connecting-to-mariadb-guide.md",
+      "title": "Connecting to MariaDB Guide",
+      "group": ".",
+      "bytes": 6709,
+      "headings": [
+        "Connecting to MariaDB Guide",
+        "Default Connection Behavior",
+        "Overriding Defaults",
+        "Connection Parameters",
+        "TLS Options",
+        "Option Files"
+      ]
+    },
+    {
+      "path": "reference/connecting-to-mariadb-server.md",
+      "title": "Connecting to MariaDB Server",
+      "group": ".",
+      "bytes": 8189,
+      "headings": [
+        "Connecting to MariaDB Server",
+        "Connection Parameters",
+        "host",
+        "password",
+        "pipe",
+        "port",
+        "protocol",
+        "shared-memory-base-name",
+        "socket",
+        "TLS Options",
+        "user",
+        "Option Files"
+      ]
+    },
+    {
+      "path": "reference/connecting.md",
+      "title": "Connecting",
+      "group": ".",
+      "bytes": 1466,
+      "headings": [
+        "Connecting"
+      ]
+    },
+    {
+      "path": "reference/cp-data-backups-part_inc1-test-address_book.-var-lib-mysql-test.md",
+      "title": "cp /data/backups/part_inc1/test/address_book.* /var/lib/mysql/test",
+      "group": ".",
+      "bytes": 218,
+      "headings": [
+        "cp /data/backups/part_inc1/test/address_book.* /var/lib/mysql/test"
+      ]
+    },
+    {
+      "path": "reference/cp-data-backups-part_inc1-test-students.cfg-var-lib-mysql-test-students_work.c.md",
+      "title": "cp /data/backups/part_inc1/test/students.cfg /var/lib/mysql/test/students_work.cfg",
+      "group": ".",
+      "bytes": 173,
+      "headings": [
+        "cp /data/backups/part_inc1/test/students.cfg /var/lib/mysql/test/students_work.cfg"
+      ]
+    },
+    {
+      "path": "reference/cp-data-backups-part_inc1-test-students.ibd-var-lib-mysql-test-students_work.i.md",
+      "title": "cp /data/backups/part_inc1/test/students.ibd /var/lib/mysql/test/students_work.ibd",
+      "group": ".",
+      "bytes": 85,
+      "headings": [
+        "cp /data/backups/part_inc1/test/students.ibd /var/lib/mysql/test/students_work.ibd"
+      ]
+    },
+    {
+      "path": "reference/creating-using-views-guide.md",
+      "title": "Creating & Using Views Guide",
+      "group": ".",
+      "bytes": 10156,
+      "headings": [
+        "Creating & Using Views Guide",
+        "Prerequisites",
+        "Setup: Example Employee Database",
+        "Building a Complex Query (Example: Employee Tardiness)",
+        "Creating and Using a View",
+        "Other Benefits and Uses of Views",
+        "Summary of View Advantages"
+      ]
+    },
+    {
+      "path": "reference/data-handling.md",
+      "title": "Data Handling",
+      "group": ".",
+      "bytes": 196,
+      "headings": [
+        "Data Handling"
+      ]
+    },
+    {
+      "path": "reference/database-applications.md",
+      "title": "Database Applications",
+      "group": ".",
+      "bytes": 4345,
+      "headings": [
+        "Database Applications"
+      ]
+    },
+    {
+      "path": "reference/database-design.md",
+      "title": "Database Design",
+      "group": ".",
+      "bytes": 7904,
+      "headings": [
+        "Database Design",
+        "Overview",
+        "Standardization",
+        "Database Data Types",
+        "Choosing an Appropriate Data Type",
+        "Text / String Data Types",
+        "Numeric Data Types",
+        "Temporal Data Types",
+        "Other Data Types",
+        "Schema Objects",
+        "See Also"
+      ]
+    },
+    {
+      "path": "reference/database-proxies-routers.md",
+      "title": "Database Proxies & Routers",
+      "group": ".",
+      "bytes": 29,
+      "headings": [
+        "Database Proxies & Routers"
+      ]
+    },
+    {
+      "path": "reference/database-servers.md",
+      "title": "Database Servers",
+      "group": ".",
+      "bytes": 19,
+      "headings": [
+        "Database Servers"
+      ]
+    },
+    {
+      "path": "reference/doing-time-guide.md",
+      "title": "Doing Time Guide",
+      "group": ".",
+      "bytes": 10178,
+      "headings": [
+        "Doing Time Guide",
+        "Temporal Data Types",
+        "Recording Current Date and Time",
+        "Extracting Date and Time Parts",
+        "Formatting Dates and Times for Display",
+        "Tips for Effective Date/Time Handling"
+      ]
+    },
+    {
+      "path": "reference/doing-time-with-mariadb.md",
+      "title": "Doing Time with MariaDB",
+      "group": ".",
+      "bytes": 25297,
+      "headings": [
+        "Doing Time with MariaDB"
+      ]
+    },
+    {
+      "path": "reference/encrypted-files-backup-mariadb-backup.md",
+      "title": "Encrypted Files Backup (mariadb-backup)",
+      "group": ".",
+      "bytes": 11529,
+      "headings": [
+        "Encrypted Files Backup (mariadb-backup)",
+        "Compatibility with Data-at-Rest Encryption (TDE)",
+        "1. The Backup Phase",
+        "2. The Prepare Phase",
+        "3. The Restore Phase",
+        "TDE Backup Requirements Checklist",
+        "Key Takeaways",
+        "Mixed-Encryption Backups",
+        "1. File-by-File Detection",
+        "2. Preservation of State",
+        "3. The Prepare Phase in a Mixed Environment",
+        "Key Limitations & Risks for Mixed Backups"
+      ]
+    },
+    {
+      "path": "reference/essential-queries-guide.md",
+      "title": "Essential Queries Guide",
+      "group": ".",
+      "bytes": 10504,
+      "headings": [
+        "Essential Queries Guide",
+        "Creating a Table",
+        "Inserting Records",
+        "Using AUTO\\_INCREMENT",
+        "Querying from two tables on a common value (JOIN)",
+        "Finding the Maximum Value",
+        "Finding the Minimum Value",
+        "Finding the Average Value",
+        "Finding the Maximum Value and Grouping the Results",
+        "Ordering Results",
+        "Finding the Row with the Minimum of a Particular Column",
+        "Finding Rows with the Maximum Value of a Column by Group"
+      ]
+    },
+    {
+      "path": "reference/essentials-of-an-index-guide.md",
+      "title": "Essentials of an Index Guide",
+      "group": ".",
+      "bytes": 3458,
+      "headings": [
+        "Essentials of an Index Guide"
+      ]
+    },
+    {
+      "path": "reference/files-backed-up-by-mariadb-backup.md",
+      "title": "Files Backed Up by mariadb-backup",
+      "group": ".",
+      "bytes": 2141,
+      "headings": [
+        "Files Backed Up by mariadb-backup",
+        "Files Included in Backup",
+        "InnoDB Data Files",
+        "MyRocks Data Files",
+        "Other Data Files",
+        "Files Excluded From Backup"
+      ]
+    },
+    {
+      "path": "reference/files-created-by-mariadb-backup.md",
+      "title": "Files Created by mariadb-backup",
+      "group": ".",
+      "bytes": 13721,
+      "headings": [
+        "Files Created by mariadb-backup",
+        "`backup-my.cnf`",
+        "`ib_logfile0`",
+        "`<table>.delta`",
+        "`<table>.delta.meta`"
+      ]
+    },
+    {
+      "path": "reference/forming-a-backup-strategy.md",
+      "title": "Forming a Backup Strategy",
+      "group": ".",
+      "bytes": 5896,
+      "headings": [
+        "Forming a Backup Strategy",
+        "Overview",
+        "Data Inventory",
+        "Recovery Objectives",
+        "Achieving RPO",
+        "Achieving RTO",
+        "Replication Considerations",
+        "Encryption Considerations",
+        "Backup Storage Considerations",
+        "Backup Testing"
+      ]
+    },
+    {
+      "path": "reference/full-backup-and-restore-mariadb-backup.md",
+      "title": "Full Backup and Restore (mariadb-backup)",
+      "group": ".",
+      "bytes": 5890,
+      "headings": [
+        "Full Backup and Restore (mariadb-backup)",
+        "Backing up the Database Server",
+        "Using the Backup History Feature",
+        "Preparing the Backup for Restoration",
+        "Restoring the Backup"
+      ]
+    },
+    {
+      "path": "reference/getting-data-from-mariadb.md",
+      "title": "Getting Data from MariaDB",
+      "group": ".",
+      "bytes": 20490,
+      "headings": [
+        "Getting Data from MariaDB"
+      ]
+    },
+    {
+      "path": "reference/getting-data-guide.md",
+      "title": "Getting Data Guide",
+      "group": ".",
+      "bytes": 10548,
+      "headings": [
+        "Getting Data Guide",
+        "Setup: Creating and Populating Example Tables",
+        "Basic Data Retrieval",
+        "Filtering and Ordering Results",
+        "Working with Multiple Tables (JOINs) and Functions",
+        "SELECT Statement Modifiers"
+      ]
+    },
+    {
+      "path": "reference/getting-started-with-indexes-guide.md",
+      "title": "Getting Started with Indexes Guide",
+      "group": ".",
+      "bytes": 9788,
+      "headings": [
+        "Getting Started with Indexes Guide",
+        "Index Types Overview",
+        "Primary Key",
+        "Unique Index",
+        "INSERT INTO `securedb`.`t_long_keys`",
+        "SET",
+        "@1=1 /* INT meta=0 nullable=0 is_null=0 */",
+        "@2='a' /* VARSTRING(4073) meta=4073 nullable=1 is_null=0 */",
+        "@3=580 /* LONGINT meta=0 nullable=1 is_null=0 */",
+        "Plain Indexes (Regular Indexes)",
+        "Full-Text Indexes",
+        "Choosing Indexes"
+      ]
+    },
+    {
+      "path": "reference/high-availability-clustering-solutions.md",
+      "title": "High Availability & Clustering Solutions",
+      "group": ".",
+      "bytes": 43,
+      "headings": [
+        "High Availability & Clustering Solutions"
+      ]
+    },
+    {
+      "path": "reference/how-mariadb-backup-works.md",
+      "title": "How mariadb-backup Works",
+      "group": ".",
+      "bytes": 4108,
+      "headings": [
+        "How mariadb-backup Works",
+        "Execution Stages",
+        "Notes"
+      ]
+    },
+    {
+      "path": "reference/importing-data-guide.md",
+      "title": "Importing Data Guide",
+      "group": ".",
+      "bytes": 10595,
+      "headings": [
+        "Importing Data Guide",
+        "Preparing Your Data File",
+        "Using `LOAD DATA INFILE`",
+        "Handling Duplicate Rows",
+        "Importing into Live Tables",
+        "Advanced `LOAD DATA INFILE` Options",
+        "Using the `mariadb-import` Utility",
+        "Dealing with Web Hosting Restraints",
+        "Key Considerations"
+      ]
+    },
+    {
+      "path": "reference/importing-data-into-mariadb.md",
+      "title": "Importing Data into MariaDB",
+      "group": ".",
+      "bytes": 20467,
+      "headings": [
+        "Importing Data into MariaDB"
+      ]
+    },
+    {
+      "path": "reference/incremental-backup-and-restore-mariadb-backup.md",
+      "title": "Incremental Backup and Restore (mariadb-backup)",
+      "group": ".",
+      "bytes": 5425,
+      "headings": [
+        "Incremental Backup and Restore (mariadb-backup)",
+        "Backing up the Database Server",
+        "Backing up the Incremental Changes",
+        "Using the Backup History Table",
+        "Combining With `--stream` Output"
+      ]
+    },
+    {
+      "path": "reference/incremental-backup.md",
+      "title": "incremental backup",
+      "group": ".",
+      "bytes": 2728,
+      "headings": [
+        "incremental backup",
+        "Preparing the Backup",
+        "Restoring the Backup"
+      ]
+    },
+    {
+      "path": "reference/initial-full-backup.md",
+      "title": "initial full backup",
+      "group": ".",
+      "bytes": 169,
+      "headings": [
+        "initial full backup"
+      ]
+    },
+    {
+      "path": "reference/innodb-storage-engine.md",
+      "title": "InnoDB Storage Engine",
+      "group": ".",
+      "bytes": 2200,
+      "headings": [
+        "InnoDB Storage Engine"
+      ]
+    },
+    {
+      "path": "reference/installing-mariadb-server-guide.md",
+      "title": "Installing MariaDB Server Guide",
+      "group": ".",
+      "bytes": 3425,
+      "headings": [
+        "Installing MariaDB Server Guide"
+      ]
+    },
+    {
+      "path": "reference/introduction-background.md",
+      "title": "Introduction & Background",
+      "group": ".",
+      "bytes": 1715,
+      "headings": [
+        "Introduction & Background",
+        "Introduction",
+        "Background to Relational Database Applications"
+      ]
+    },
+    {
+      "path": "reference/joining-tables-with-join-clauses.md",
+      "title": "Joining Tables with JOIN Clauses",
+      "group": ".",
+      "bytes": 6700,
+      "headings": [
+        "Joining Tables with JOIN Clauses",
+        "Setup: Example Tables and Data",
+        "JOIN Examples and Output",
+        "Older (Implicit) JOIN Syntax",
+        "Understanding JOIN Types Summary",
+        "Joining Multiple Tables",
+        "See Also"
+      ]
+    },
+    {
+      "path": "reference/making-backups-with-mariadb-dump-guide.md",
+      "title": "Making Backups with mariadb-dump Guide",
+      "group": ".",
+      "bytes": 5884,
+      "headings": [
+        "Making Backups with mariadb-dump Guide",
+        "About `mariadb-dump`",
+        "Backing Up All Databases",
+        "Backing Up a Single Database",
+        "Backing Up Specific Tables",
+        "Important Considerations and Best Practices"
+      ]
+    },
+    {
+      "path": "reference/management-operations-tools.md",
+      "title": "Management & Operations Tools",
+      "group": ".",
+      "bytes": 32,
+      "headings": [
+        "Management & Operations Tools"
+      ]
+    },
+    {
+      "path": "reference/mariadb-backup-and-backup-stage.md",
+      "title": "mariadb-backup and BACKUP STAGE",
+      "group": ".",
+      "bytes": 7851,
+      "headings": [
+        "mariadb-backup and BACKUP STAGE",
+        "`BACKUP STAGE` in MariaDB Community Server",
+        "Tasks Performed Prior to `BACKUP STAGE` in MariaDB Community Server",
+        "`BACKUP STAGE START` in MariaDB Community Server",
+        "`BACKUP STAGE FLUSH` in MariaDB Community Server",
+        "`BACKUP STAGE BLOCK_DDL` in MariaDB Community Server",
+        "`BACKUP STAGE BLOCK_COMMIT` in MariaDB Community Server",
+        "`BACKUP STAGE END` in MariaDB Community Server",
+        "`BACKUP STAGE` in MariaDB Enterprise Server",
+        "`BACKUP STAGE START` in MariaDB Enterprise Server",
+        "`BACKUP STAGE FLUSH` in MariaDB Enterprise Server",
+        "`BACKUP STAGE BLOCK_DDL` in MariaDB Enterprise Server"
+      ]
+    },
+    {
+      "path": "reference/mariadb-backup-options/mariadb-backup-options_pt1.md",
+      "title": "mariadb-backup Options",
+      "group": "mariadb-backup-options",
+      "bytes": 25662,
+      "headings": [
+        "mariadb-backup Options",
+        "`mariadb-backup` Options (mariabackup)",
+        "Quick Reference (Most Searched Options)",
+        "Common Command Patterns",
+        "Related Pages",
+        "Options",
+        "`--apply-log`",
+        "`--apply-log-only`",
+        "`--backup`",
+        "`--binlog-info`",
+        "`--close-files`",
+        "`--compress`"
+      ]
+    },
+    {
+      "path": "reference/mariadb-backup-options/mariadb-backup-options_pt2.md",
+      "title": "Mariadb Backup Options Pt2",
+      "group": "mariadb-backup-options",
+      "bytes": 25857,
+      "headings": [
+        "`--galera-info`",
+        "`--history`",
+        "`-H, --host`",
+        "`--include`",
+        "`--incremental`",
+        "`--incremental-basedir`",
+        "`--incremental-dir`",
+        "`--incremental-force-scan`",
+        "`--incremental-history-name`",
+        "`--incremental-history-uuid`",
+        "`--incremental-lsn`",
+        "`--innobackupex`"
+      ]
+    },
+    {
+      "path": "reference/mariadb-backup-options/mariadb-backup-options_pt3.md",
+      "title": "Mariadb Backup Options Pt3",
+      "group": "mariadb-backup-options",
+      "bytes": 24142,
+      "headings": [
+        "`--no-timestamp`",
+        "`--no-version-check`",
+        "`--open-files-limit`",
+        "`--parallel`",
+        "`-p, --password`",
+        "`--plugin-dir`",
+        "`--plugin-load`",
+        "`-P, --port`",
+        "`--prepare`",
+        "`--print-defaults`",
+        "`--print-param`",
+        "`--rollback-xa`"
+      ]
+    },
+    {
+      "path": "reference/mariadb-backup-overview.md",
+      "title": "mariadb-backup Overview",
+      "group": ".",
+      "bytes": 30081,
+      "headings": [
+        "mariadb-backup Overview",
+        "Supported Features",
+        "**Supported Features in MariaDB Enterprise Backup**",
+        "Backup Types",
+        "Installing `mariadb-backup`",
+        "Installing on Linux",
+        "**Installing with a Package Manager**",
+        "Installing on Windows",
+        "Usage",
+        "Options",
+        "Option Files",
+        "Backup History Table"
+      ]
+    },
+    {
+      "path": "reference/mariadb-backup.md",
+      "title": "mariadb-backup",
+      "group": ".",
+      "bytes": 7542,
+      "headings": [
+        "mariadb-backup"
+      ]
+    },
+    {
+      "path": "reference/mariadb-columnstore.md",
+      "title": "MariaDB ColumnStore",
+      "group": ".",
+      "bytes": 2212,
+      "headings": [
+        "MariaDB ColumnStore"
+      ]
+    },
+    {
+      "path": "reference/mariadb-connectors.md",
+      "title": "MariaDB Connectors",
+      "group": ".",
+      "bytes": 2355,
+      "headings": [
+        "MariaDB Connectors"
+      ]
+    },
+    {
+      "path": "reference/mariadb-documentation.md",
+      "title": "MariaDB Documentation",
+      "group": ".",
+      "bytes": 2060,
+      "headings": [
+        "MariaDB Documentation",
+        "Getting Started",
+        "Product Documentation",
+        "Release Notes"
+      ]
+    },
+    {
+      "path": "reference/mariadb-enterprise-audit-plugin.md",
+      "title": "MariaDB Enterprise Audit Plugin",
+      "group": ".",
+      "bytes": 2727,
+      "headings": [
+        "MariaDB Enterprise Audit Plugin"
+      ]
+    },
+    {
+      "path": "reference/mariadb-enterprise-backup-2.md",
+      "title": "MariaDB Enterprise Backup",
+      "group": ".",
+      "bytes": 18569,
+      "headings": [
+        "MariaDB Enterprise Backup",
+        "Overview",
+        "Storage Engines and Backup Types",
+        "Nonblocking Backups",
+        "Understanding Recovery",
+        "Preparing Backups for Recovery",
+        "Restore Requires Empty Data Directory",
+        "Creating the Backup User",
+        "Full Backup and Restore",
+        "Performing Full Backups",
+        "Preparing a Full Backup for Recovery",
+        "Restoring from Full Backups"
+      ]
+    },
+    {
+      "path": "reference/mariadb-enterprise-backup.md",
+      "title": "MariaDB Enterprise Backup",
+      "group": ".",
+      "bytes": 1785,
+      "headings": [
+        "MariaDB Enterprise Backup"
+      ]
+    },
+    {
+      "path": "reference/mariadb-enterprise-cluster-powered-by-galera-cluster.md",
+      "title": "MariaDB Enterprise Cluster (powered by Galera Cluster)",
+      "group": ".",
+      "bytes": 2414,
+      "headings": [
+        "MariaDB Enterprise Cluster (powered by Galera Cluster)"
+      ]
+    },
+    {
+      "path": "reference/mariadb-enterprise-platform-2.md",
+      "title": "MariaDB Enterprise Platform",
+      "group": ".",
+      "bytes": 2959,
+      "headings": [
+        "MariaDB Enterprise Platform"
+      ]
+    },
+    {
+      "path": "reference/mariadb-enterprise-platform.md",
+      "title": "MariaDB Enterprise Platform",
+      "group": ".",
+      "bytes": 16588,
+      "headings": [
+        "MariaDB Enterprise Platform",
+        "What is MariaDB Enterprise Platform? <a href=\"#what-is-mariadb-enterprise-platform\" id=\"what-is-mariadb-enterprise-platform\"></a>",
+        "Product Overview <a href=\"#product-overview\" id=\"product-overview\"></a>"
+      ]
+    },
+    {
+      "path": "reference/mariadb-enterprise-server.md",
+      "title": "MariaDB Enterprise Server",
+      "group": ".",
+      "bytes": 2218,
+      "headings": [
+        "MariaDB Enterprise Server"
+      ]
+    },
+    {
+      "path": "reference/mariadb-faqs.md",
+      "title": "MariaDB FAQs",
+      "group": ".",
+      "bytes": 331,
+      "headings": [
+        "MariaDB FAQs"
+      ]
+    },
+    {
+      "path": "reference/mariadb-hashicorp-vault-plugin.md",
+      "title": "MariaDB HashiCorp Vault Plugin",
+      "group": ".",
+      "bytes": 2430,
+      "headings": [
+        "MariaDB HashiCorp Vault Plugin"
+      ]
+    },
+    {
+      "path": "reference/mariadb-kubernetes-operator.md",
+      "title": "MariaDB Kubernetes Operator",
+      "group": ".",
+      "bytes": 2294,
+      "headings": [
+        "MariaDB Kubernetes Operator"
+      ]
+    },
+    {
+      "path": "reference/mariadb-maxscale.md",
+      "title": "MariaDB MaxScale",
+      "group": ".",
+      "bytes": 3245,
+      "headings": [
+        "MariaDB MaxScale"
+      ]
+    },
+    {
+      "path": "reference/mariadb-overview.md",
+      "title": "MariaDB Overview",
+      "group": ".",
+      "bytes": 3709,
+      "headings": [
+        "MariaDB Overview",
+        "Quickstart Guide: MariaDB Products and Their Interoperation"
+      ]
+    },
+    {
+      "path": "reference/mariadb-platform-quickstart-guides.md",
+      "title": "MariaDB Platform Quickstart Guides",
+      "group": ".",
+      "bytes": 2155,
+      "headings": [
+        "MariaDB Platform Quickstart Guides",
+        "Quickstart Guides"
+      ]
+    },
+    {
+      "path": "reference/mariadb-platform-use-cases.md",
+      "title": "MariaDB Platform Use Cases",
+      "group": ".",
+      "bytes": 8397,
+      "headings": [
+        "MariaDB Platform Use Cases",
+        "Transactional (OLTP)",
+        "Primary/Replica",
+        "Galera Cluster",
+        "Analytical (OLAP, Data Warehousing, DSS)",
+        "Hybrid Workloads"
+      ]
+    },
+    {
+      "path": "reference/mariadb-server-documentation.md",
+      "title": "MariaDB Server Documentation",
+      "group": ".",
+      "bytes": 1201,
+      "headings": [
+        "MariaDB Server Documentation"
+      ]
+    },
+    {
+      "path": "reference/mariadb-server-ecosystem-hub.md",
+      "title": "MariaDB Server Ecosystem Hub",
+      "group": ".",
+      "bytes": 5390,
+      "headings": [
+        "MariaDB Server Ecosystem Hub",
+        "MariaDB Server Ecosystem Hub and Solution Stacks",
+        "MariaDB Server Ecosystem Hub",
+        "MariaDB Server Solution Stacks",
+        "Where's the Hub?"
+      ]
+    },
+    {
+      "path": "reference/mariadb-server-roadmap.md",
+      "title": "MariaDB Server Roadmap",
+      "group": ".",
+      "bytes": 225,
+      "headings": [
+        "MariaDB Server Roadmap"
+      ]
+    },
+    {
+      "path": "reference/mariadb-string-functions-guide.md",
+      "title": "MariaDB String Functions Guide",
+      "group": ".",
+      "bytes": 7337,
+      "headings": [
+        "MariaDB String Functions Guide",
+        "Formatting Strings",
+        "Extracting Substrings",
+        "Manipulating Strings",
+        "String Expression Aids"
+      ]
+    },
+    {
+      "path": "reference/myrocks-storage-engine.md",
+      "title": "MyRocks Storage Engine",
+      "group": ".",
+      "bytes": 1974,
+      "headings": [
+        "MyRocks Storage Engine"
+      ]
+    },
+    {
+      "path": "reference/partial-backup-and-restore-mariadb-backup.md",
+      "title": "Partial Backup and Restore (mariadb-backup)",
+      "group": ".",
+      "bytes": 9358,
+      "headings": [
+        "Partial Backup and Restore (mariadb-backup)",
+        "Backing up the Database Server",
+        "Preparing the Backup",
+        "Restoring the Backup"
+      ]
+    },
+    {
+      "path": "reference/plugins.md",
+      "title": "Plugins",
+      "group": ".",
+      "bytes": 2989,
+      "headings": [
+        "Plugins"
+      ]
+    },
+    {
+      "path": "reference/point-in-time-recovery-pitr-mariadb-backup.md",
+      "title": "Point-In-Time Recovery (PITR, mariadb-backup)",
+      "group": ".",
+      "bytes": 3106,
+      "headings": [
+        "Point-In-Time Recovery (PITR, mariadb-backup)",
+        "See Also"
+      ]
+    },
+    {
+      "path": "reference/quickstart-guides.md",
+      "title": "Quickstart Guides",
+      "group": ".",
+      "bytes": 191,
+      "headings": [
+        "Quickstart Guides"
+      ]
+    },
+    {
+      "path": "reference/remote-client-access.md",
+      "title": "Remote Client Access",
+      "group": ".",
+      "bytes": 9760,
+      "headings": [
+        "Remote Client Access",
+        "Finding the Defaults File",
+        "Editing the Defaults File",
+        "Granting User Connections From Remote Hosts",
+        "Port 3306 is Configured in Firewall",
+        "Caveats"
+      ]
+    },
+    {
+      "path": "reference/restoring-data-from-dump-files-guide.md",
+      "title": "Restoring Data from Dump Files Guide",
+      "group": ".",
+      "bytes": 5263,
+      "headings": [
+        "Restoring Data from Dump Files Guide",
+        "Basic Restoration Process",
+        "Important Considerations Before Restoring",
+        "Restoring a Single Table Selectively"
+      ]
+    },
+    {
+      "path": "reference/restoring-individual-databases-from-a-full-backup-mariadb-backup.md",
+      "title": "Restoring Individual Databases From a Full Backup (mariadb-backup)",
+      "group": ".",
+      "bytes": 9034,
+      "headings": [
+        "Restoring Individual Databases From a Full Backup (mariadb-backup)",
+        "Single Node",
+        "Replica nodes",
+        "Galera Cluster"
+      ]
+    },
+    {
+      "path": "reference/restoring-individual-tables-and-partitions-mariadb-backup.md",
+      "title": "Restoring Individual Tables and Partitions (mariadb-backup)",
+      "group": ".",
+      "bytes": 4072,
+      "headings": [
+        "Restoring Individual Tables and Partitions (mariadb-backup)",
+        "Preparing the Backup",
+        "Restoring the Backup"
+      ]
+    },
+    {
+      "path": "reference/security.md",
+      "title": "Security",
+      "group": ".",
+      "bytes": 5315,
+      "headings": [
+        "Security",
+        "Quickstart Guide: MariaDB Security"
+      ]
+    },
+    {
+      "path": "reference/server-usage.md",
+      "title": "Server Usage",
+      "group": ".",
+      "bytes": 2260,
+      "headings": [
+        "Server Usage"
+      ]
+    },
+    {
+      "path": "reference/setting-up-a-replica-mariadb-backup.md",
+      "title": "Setting up a Replica (mariadb-backup)",
+      "group": ".",
+      "bytes": 6440,
+      "headings": [
+        "Setting up a Replica (mariadb-backup)",
+        "Back up the Database and Prepare it",
+        "Copy the Backup to the New Replica",
+        "Restore the Backup on the New Replica",
+        "Create a Replication User on the Primary",
+        "Configure the New Replica",
+        "Start Replication on the New Replica",
+        "Check the Status of the New Replica"
+      ]
+    },
+    {
+      "path": "reference/spider-storage-engine.md",
+      "title": "Spider Storage Engine",
+      "group": ".",
+      "bytes": 2241,
+      "headings": [
+        "Spider Storage Engine"
+      ]
+    },
+    {
+      "path": "reference/storage-engines.md",
+      "title": "Storage Engines",
+      "group": ".",
+      "bytes": 3214,
+      "headings": [
+        "Storage Engines"
+      ]
+    },
+    {
+      "path": "reference/string-functions.md",
+      "title": "String Functions",
+      "group": ".",
+      "bytes": 16079,
+      "headings": [
+        "String Functions"
+      ]
+    },
+    {
+      "path": "reference/style.md",
+      "title": "Style",
+      "group": ".",
+      "bytes": 1370,
+      "headings": [
+        "Style",
+        "Testing the styles out",
+        "On this page",
+        "Form 3317 below",
+        "Form 4279 below",
+        "Form 4316 below"
+      ]
+    },
+    {
+      "path": "reference/system-status-variables-guide.md",
+      "title": "System & Status Variables Guide",
+      "group": ".",
+      "bytes": 5645,
+      "headings": [
+        "System & Status Variables Guide",
+        "What you do with System Variables",
+        "What you use Status Variables for",
+        "Comparison at a Glance",
+        "Pages Documenting Variables",
+        "Core Server Variables",
+        "Storage Engine Specific Variables",
+        "Replication & Performance Variables",
+        "Plugin Specific Variables",
+        "Index / Master List"
+      ]
+    },
+    {
+      "path": "reference/troubleshooting-connection-issues-guide.md",
+      "title": "Troubleshooting Connection Issues Guide",
+      "group": ".",
+      "bytes": 14221,
+      "headings": [
+        "Troubleshooting Connection Issues Guide",
+        "Server Not Running or Incorrect Location",
+        "Symptoms",
+        "Causes & Solutions",
+        "Unable to Connect from a Remote Location",
+        "Symptoms",
+        "Causes & Solutions",
+        "Authentication Problems",
+        "Symptoms",
+        "Causes & Solutions",
+        "Problems Exporting Query Results or Loading Data",
+        "Symptoms"
+      ]
+    },
+    {
+      "path": "reference/using-encryption-and-compression-tools-with-mariadb-backup.md",
+      "title": "Using Encryption and Compression Tools With mariadb-backup",
+      "group": ".",
+      "bytes": 4133,
+      "headings": [
+        "Using Encryption and Compression Tools With mariadb-backup",
+        "Encrypting and Decrypting Backup With openssl",
+        "Compressing and Decompressing Backup With gzip",
+        "Compressing and Encrypting Backup, Using gzip and openssl",
+        "Compressing and Encrypting with 7Zip",
+        "Compressing with zstd",
+        "Encrypting With GPG",
+        "Interactive Input for Passphrases",
+        "Writing extra status files"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2257 @@
+{
+  "schema": "skill-graph-index/v1",
+  "name": "chromadb-docs",
+  "skill_graph_version": "1.0.0",
+  "kg_ingested": false,
+  "kg_domain": "skillgraph:chromadb-docs",
+  "concepts": [],
+  "source_url": "https://docs.trychroma.com",
+  "file_count": 184,
+  "groups": {
+    ".": 184
+  },
+  "sections": [
+    {
+      "path": "reference/add-documents-to-collection.md",
+      "title": "Add documents to collection",
+      "group": ".",
+      "bytes": 4366,
+      "headings": [
+        "Add documents to collection",
+        "Project Memory Example",
+        "Advanced Features",
+        "Troubleshooting",
+        "Resources"
+      ]
+    },
+    {
+      "path": "reference/add-memories-from-conversation.md",
+      "title": "Add memories from conversation",
+      "group": ".",
+      "bytes": 536,
+      "headings": [
+        "Add memories from conversation"
+      ]
+    },
+    {
+      "path": "reference/add-some-example-support-cases.md",
+      "title": "Add some example support cases",
+      "group": ".",
+      "bytes": 590,
+      "headings": [
+        "Add some example support cases"
+      ]
+    },
+    {
+      "path": "reference/adding-data-to-chroma-collections.md",
+      "title": "Adding Data to Chroma Collections",
+      "group": ".",
+      "bytes": 5809,
+      "headings": [
+        "Adding Data to Chroma Collections",
+        "Adding Data",
+        "Metadata",
+        "Behaviors"
+      ]
+    },
+    {
+      "path": "reference/after-2.md",
+      "title": "after",
+      "group": ".",
+      "bytes": 139,
+      "headings": [
+        "after",
+        "http client (to talk to server backend)"
+      ]
+    },
+    {
+      "path": "reference/after-3.md",
+      "title": "after",
+      "group": ".",
+      "bytes": 1982,
+      "headings": [
+        "after"
+      ]
+    },
+    {
+      "path": "reference/after.md",
+      "title": "after",
+      "group": ".",
+      "bytes": 83,
+      "headings": [
+        "after",
+        "persistent client"
+      ]
+    },
+    {
+      "path": "reference/agentic-memory.md",
+      "title": "Agentic Memory",
+      "group": ".",
+      "bytes": 15953,
+      "headings": [
+        "Agentic Memory",
+        "Memory Records",
+        "Semantic Memory",
+        "Procedural Memory",
+        "Episodic Memory",
+        "Memory in an Agentic Harness",
+        "Implementation",
+        "Memory Writing Strategies",
+        "Extraction Timing",
+        "Selectivity",
+        "Classification",
+        "Conflicts"
+      ]
+    },
+    {
+      "path": "reference/agentic-search.md",
+      "title": "Agentic Search",
+      "group": ".",
+      "bytes": 42437,
+      "headings": [
+        "Agentic Search",
+        "BrowseComp-Plus",
+        "Running the Agent",
+        "Building the Agent"
+      ]
+    },
+    {
+      "path": "reference/amazon-bedrock.md",
+      "title": "Amazon Bedrock",
+      "group": ".",
+      "bytes": 919,
+      "headings": [
+        "Amazon Bedrock"
+      ]
+    },
+    {
+      "path": "reference/anthropic-mcp.md",
+      "title": "Anthropic MCP",
+      "group": ".",
+      "bytes": 4735,
+      "headings": [
+        "Anthropic MCP",
+        "What is MCP?",
+        "What is the Chroma MCP Server?",
+        "Prerequisites",
+        "Setup Guide",
+        "1. Configure MCP Server",
+        "2. Restart and Verify",
+        "Client Types",
+        "1. Ephemeral Client (Default)",
+        "2. Persistent Client",
+        "3. Self-Hosted Client",
+        "4. Cloud Client"
+      ]
+    },
+    {
+      "path": "reference/architecture-overview.md",
+      "title": "Architecture Overview",
+      "group": ".",
+      "bytes": 2285,
+      "headings": [
+        "Architecture Overview",
+        "Deployment Modes",
+        "Chroma Data Model",
+        "Collections",
+        "Databases",
+        "Tenants"
+      ]
+    },
+    {
+      "path": "reference/attach-function.md",
+      "title": "Attach function",
+      "group": ".",
+      "bytes": 265,
+      "headings": [
+        "Attach function"
+      ]
+    },
+    {
+      "path": "reference/authentication.md",
+      "title": "Authentication",
+      "group": ".",
+      "bytes": 110,
+      "headings": [
+        "Authentication"
+      ]
+    },
+    {
+      "path": "reference/aws.md",
+      "title": "AWS",
+      "group": ".",
+      "bytes": 7630,
+      "headings": [
+        "AWS",
+        "A Simple AWS Deployment",
+        "Step 1: Get an AWS Account",
+        "Step 2: Get credentials",
+        "Step 3: Run CloudFormation",
+        "Step 4: Chroma Client Set-Up",
+        "Step 5: Clean Up (optional).",
+        "Observability with AWS",
+        "Troubleshooting"
+      ]
+    },
+    {
+      "path": "reference/azure.md",
+      "title": "Azure",
+      "group": ".",
+      "bytes": 5108,
+      "headings": [
+        "Azure",
+        "A Simple Azure Deployment",
+        "Step 1: Install Terraform",
+        "Step 2: Authenticate with Azure",
+        "Step 3: Configure your Azure Settings",
+        "Step 4: Initialize and deploy with Terraform",
+        "Step 5: Chroma Client Set-Up",
+        "Step 5: Clean Up (optional).",
+        "Observability with Azure"
+      ]
+    },
+    {
+      "path": "reference/baseten.md",
+      "title": "Baseten",
+      "group": ".",
+      "bytes": 1087,
+      "headings": [
+        "Baseten",
+        "Using Baseten models with Chroma"
+      ]
+    },
+    {
+      "path": "reference/batch-operations.md",
+      "title": "Batch Operations",
+      "group": ".",
+      "bytes": 17099,
+      "headings": [
+        "Batch Operations",
+        "Running Multiple Searches",
+        "Why Use Batch Operations",
+        "Understanding Batch Results",
+        "Result Structure",
+        "Common Use Cases",
+        "Comparing Different Queries",
+        "A/B Testing Ranking Strategies",
+        "Multiple Filters on Same Data",
+        "Performance Benefits",
+        "Edge Cases",
+        "Empty Searches Array"
+      ]
+    },
+    {
+      "path": "reference/before-2.md",
+      "title": "before",
+      "group": ".",
+      "bytes": 248,
+      "headings": [
+        "before"
+      ]
+    },
+    {
+      "path": "reference/before-3.md",
+      "title": "before",
+      "group": ".",
+      "bytes": 302,
+      "headings": [
+        "before"
+      ]
+    },
+    {
+      "path": "reference/before.md",
+      "title": "before",
+      "group": ".",
+      "bytes": 52,
+      "headings": [
+        "before"
+      ]
+    },
+    {
+      "path": "reference/braintrust.md",
+      "title": "Braintrust",
+      "group": ".",
+      "bytes": 1495,
+      "headings": [
+        "Braintrust"
+      ]
+    },
+    {
+      "path": "reference/browse-collections.md",
+      "title": "Browse Collections",
+      "group": ".",
+      "bytes": 2838,
+      "headings": [
+        "Browse Collections",
+        "Arguments",
+        "The Collection Browser UI"
+      ]
+    },
+    {
+      "path": "reference/building-with-ai.md",
+      "title": "Building with AI",
+      "group": ".",
+      "bytes": 6193,
+      "headings": [
+        "Building with AI"
+      ]
+    },
+    {
+      "path": "reference/cancel-invocation.md",
+      "title": "Cancel invocation",
+      "group": ".",
+      "bytes": 186,
+      "headings": [
+        "Cancel invocation"
+      ]
+    },
+    {
+      "path": "reference/chroma-bm25.md",
+      "title": "Chroma BM25",
+      "group": ".",
+      "bytes": 2597,
+      "headings": [
+        "Chroma BM25"
+      ]
+    },
+    {
+      "path": "reference/chroma-clients.md",
+      "title": "Chroma Clients",
+      "group": ".",
+      "bytes": 7227,
+      "headings": [
+        "Chroma Clients",
+        "Cloud Client",
+        "Connecting to a non-default region",
+        "In-Memory Client",
+        "Persistent Client"
+      ]
+    },
+    {
+      "path": "reference/chroma-cloud-configuration.md",
+      "title": "Chroma Cloud configuration",
+      "group": ".",
+      "bytes": 11868,
+      "headings": [
+        "Chroma Cloud configuration",
+        "Run Your Application",
+        "Interact with Your Agents",
+        "How It Works",
+        "Create the Chroma Retriever",
+        "Initialize Sample Data",
+        "Implement the Retriever Class",
+        "Create Your Agents",
+        "Usage Patterns",
+        "Automatic Retrieval",
+        "Tool-Based Retrieval",
+        "Accessing Sources in Your Code"
+      ]
+    },
+    {
+      "path": "reference/chroma-cloud-qwen.md",
+      "title": "Chroma Cloud Qwen",
+      "group": ".",
+      "bytes": 2220,
+      "headings": [
+        "Chroma Cloud Qwen"
+      ]
+    },
+    {
+      "path": "reference/chroma-cloud-splade.md",
+      "title": "Chroma Cloud Splade",
+      "group": ".",
+      "bytes": 2056,
+      "headings": [
+        "Chroma Cloud Splade"
+      ]
+    },
+    {
+      "path": "reference/chroma-cloud.md",
+      "title": "Chroma Cloud",
+      "group": ".",
+      "bytes": 4569,
+      "headings": [
+        "Chroma Cloud",
+        "Easy to use and operate",
+        "Reliability",
+        "Security and Deployment",
+        "Regions",
+        "Dashboard",
+        "Advanced Search API"
+      ]
+    },
+    {
+      "path": "reference/chroma-configuration.md",
+      "title": "Chroma Configuration",
+      "group": ".",
+      "bytes": 3637,
+      "headings": [
+        "Chroma Configuration",
+        "Current Operator-Facing Env Vars",
+        "Legacy Auth Settings"
+      ]
+    },
+    {
+      "path": "reference/chroma-s-thin-client.md",
+      "title": "Chroma's Thin-Client",
+      "group": ".",
+      "bytes": 734,
+      "headings": [
+        "Chroma's Thin-Client"
+      ]
+    },
+    {
+      "path": "reference/chunking.md",
+      "title": "Chunking",
+      "group": ".",
+      "bytes": 19778,
+      "headings": [
+        "Chunking",
+        "Choosing Chunking Boundaries",
+        "Chunking Strategies",
+        "Chunking Text",
+        "Chunking Code",
+        "A Small Example",
+        "Recursively Exploring an AST",
+        "Evaluation"
+      ]
+    },
+    {
+      "path": "reference/client-2.md",
+      "title": "Client",
+      "group": ".",
+      "bytes": 4720,
+      "headings": [
+        "Client",
+        "Clients",
+        "ChromaClient",
+        "CloudClient",
+        "AdminClient",
+        "Client Methods",
+        "heartbeat",
+        "listCollections",
+        "countCollections",
+        "createCollection",
+        "getCollection",
+        "getOrCreateCollection"
+      ]
+    },
+    {
+      "path": "reference/client-server-mode.md",
+      "title": "Client-Server Mode",
+      "group": ".",
+      "bytes": 2456,
+      "headings": [
+        "Client-Server Mode"
+      ]
+    },
+    {
+      "path": "reference/client.md",
+      "title": "Client",
+      "group": ".",
+      "bytes": 6090,
+      "headings": [
+        "Client",
+        "Clients",
+        "EphemeralClient",
+        "PersistentClient",
+        "HttpClient",
+        "AsyncHttpClient",
+        "CloudClient",
+        "AdminClient",
+        "Client Methods",
+        "heartbeat",
+        "list\\_collections",
+        "count\\_collections"
+      ]
+    },
+    {
+      "path": "reference/cloudflare-workers-ai.md",
+      "title": "Cloudflare Workers AI",
+      "group": ".",
+      "bytes": 1835,
+      "headings": [
+        "Cloudflare Workers AI"
+      ]
+    },
+    {
+      "path": "reference/cohere.md",
+      "title": "Cohere",
+      "group": ".",
+      "bytes": 3160,
+      "headings": [
+        "Cohere",
+        "Multilingual model example",
+        "Multimodal model example"
+      ]
+    },
+    {
+      "path": "reference/collection-2.md",
+      "title": "Collection",
+      "group": ".",
+      "bytes": 3068,
+      "headings": [
+        "Collection",
+        "Collection Methods",
+        "count",
+        "add",
+        "get",
+        "peek",
+        "query",
+        "modify",
+        "update",
+        "upsert",
+        "delete",
+        "search"
+      ]
+    },
+    {
+      "path": "reference/collection-forking.md",
+      "title": "Collection Forking",
+      "group": ".",
+      "bytes": 3941,
+      "headings": [
+        "Collection Forking",
+        "How it works",
+        "Try it",
+        "Examples",
+        "Pricing",
+        "Quotas and errors",
+        "When to use forking",
+        "Notes"
+      ]
+    },
+    {
+      "path": "reference/collection-name-my_collection-metadata.md",
+      "title": "collection(name=\"my_collection\", metadata={})",
+      "group": ".",
+      "bytes": 2045,
+      "headings": [
+        "collection(name=\"my_collection\", metadata={})",
+        "delete\\_collection",
+        "reset",
+        "get\\_version",
+        "get\\_settings",
+        "get\\_max\\_batch\\_size",
+        "Admin Client Methods",
+        "create\\_tenant",
+        "get\\_tenant",
+        "create\\_database",
+        "get\\_database",
+        "delete\\_database"
+      ]
+    },
+    {
+      "path": "reference/collection.md",
+      "title": "Collection",
+      "group": ".",
+      "bytes": 8936,
+      "headings": [
+        "Collection",
+        "Collection Methods",
+        "count",
+        "add",
+        "get",
+        "peek",
+        "query",
+        "modify",
+        "update",
+        "upsert",
+        "delete",
+        "Types"
+      ]
+    },
+    {
+      "path": "reference/concepts.md",
+      "title": "Concepts",
+      "group": ".",
+      "bytes": 475,
+      "headings": [
+        "Concepts"
+      ]
+    },
+    {
+      "path": "reference/configure-collections.md",
+      "title": "Configure Collections",
+      "group": ".",
+      "bytes": 18122,
+      "headings": [
+        "Configure Collections",
+        "Embedding Function Configuration"
+      ]
+    },
+    {
+      "path": "reference/configure-mem0-with-chroma.md",
+      "title": "Configure Mem0 with Chroma",
+      "group": ".",
+      "bytes": 209,
+      "headings": [
+        "Configure Mem0 with Chroma"
+      ]
+    },
+    {
+      "path": "reference/connect-to-chroma-cloud.md",
+      "title": "Connect to Chroma Cloud",
+      "group": ".",
+      "bytes": 219,
+      "headings": [
+        "Connect to Chroma Cloud"
+      ]
+    },
+    {
+      "path": "reference/contextual-ai.md",
+      "title": "Contextual AI",
+      "group": ".",
+      "bytes": 13435,
+      "headings": [
+        "Contextual AI",
+        "Installation",
+        "Complete RAG Pipeline",
+        "Advanced Usage",
+        "Components",
+        "Parse API",
+        "Rerank API",
+        "Generate API (GLM)",
+        "LMUnit API"
+      ]
+    },
+    {
+      "path": "reference/copy-collections.md",
+      "title": "Copy Collections",
+      "group": ".",
+      "bytes": 2691,
+      "headings": [
+        "Copy Collections",
+        "Arguments",
+        "Copy from Local to Chroma Cloud",
+        "Copy from Chroma Cloud to Local",
+        "Quotas"
+      ]
+    },
+    {
+      "path": "reference/create-a-collection-for-support-cases.md",
+      "title": "Create a collection for support cases",
+      "group": ".",
+      "bytes": 95,
+      "headings": [
+        "Create a collection for support cases"
+      ]
+    },
+    {
+      "path": "reference/create-invocation.md",
+      "title": "Create invocation",
+      "group": ".",
+      "bytes": 207,
+      "headings": [
+        "Create invocation"
+      ]
+    },
+    {
+      "path": "reference/create-source.md",
+      "title": "Create source",
+      "group": ".",
+      "bytes": 159,
+      "headings": [
+        "Create source"
+      ]
+    },
+    {
+      "path": "reference/db-management.md",
+      "title": "DB Management",
+      "group": ".",
+      "bytes": 2014,
+      "headings": [
+        "DB Management",
+        "Connect",
+        "Create",
+        "Delete",
+        "List"
+      ]
+    },
+    {
+      "path": "reference/deepeval.md",
+      "title": "DeepEval",
+      "group": ".",
+      "bytes": 3103,
+      "headings": [
+        "DeepEval",
+        "Getting Started",
+        "Step 1: Installation",
+        "Step 2: Preparing a Test Case",
+        "Step 3: Evaluation",
+        "4. Visualize and Optimize",
+        "Support"
+      ]
+    },
+    {
+      "path": "reference/delete-data.md",
+      "title": "Delete Data",
+      "group": ".",
+      "bytes": 1580,
+      "headings": [
+        "Delete Data"
+      ]
+    },
+    {
+      "path": "reference/delete-source.md",
+      "title": "Delete source",
+      "group": ".",
+      "bytes": 185,
+      "headings": [
+        "Delete source"
+      ]
+    },
+    {
+      "path": "reference/detach-function.md",
+      "title": "Detach function",
+      "group": ".",
+      "bytes": 283,
+      "headings": [
+        "Detach function"
+      ]
+    },
+    {
+      "path": "reference/distributed-architecture.md",
+      "title": "Distributed Architecture",
+      "group": ".",
+      "bytes": 4237,
+      "headings": [
+        "Distributed Architecture",
+        "Core Components",
+        "The Gateway",
+        "The Log",
+        "The Query Executor",
+        "The Compactor",
+        "The System Database",
+        "Runtime And Storage",
+        "Read Path",
+        "Write Path",
+        "Tradeoffs"
+      ]
+    },
+    {
+      "path": "reference/distributed-cloud-performance.md",
+      "title": "Distributed/Cloud Performance",
+      "group": ".",
+      "bytes": 2915,
+      "headings": [
+        "Distributed/Cloud Performance",
+        "Sharding",
+        "Indexes",
+        "Batch Deletes"
+      ]
+    },
+    {
+      "path": "reference/docker.md",
+      "title": "Docker",
+      "group": ".",
+      "bytes": 6508,
+      "headings": [
+        "Docker",
+        "Run Chroma in a Docker Container",
+        "Configuration",
+        "Observability with Docker"
+      ]
+    },
+    {
+      "path": "reference/embedding-functions-2.md",
+      "title": "Embedding Functions",
+      "group": ".",
+      "bytes": 2292,
+      "headings": [
+        "Embedding Functions",
+        "Embedding Function Base Classes",
+        "EmbeddingFunction",
+        "SparseEmbeddingFunction",
+        "Registration",
+        "register\\_embedding\\_function",
+        "register\\_sparse\\_embedding\\_function",
+        "Types",
+        "Embedding",
+        "SparseVector"
+      ]
+    },
+    {
+      "path": "reference/embedding-functions-3.md",
+      "title": "Embedding Functions",
+      "group": ".",
+      "bytes": 1166,
+      "headings": [
+        "Embedding Functions",
+        "Embedding Functions",
+        "EmbeddingFunction",
+        "SparseEmbeddingFunction"
+      ]
+    },
+    {
+      "path": "reference/embedding-functions.md",
+      "title": "Embedding Functions",
+      "group": ".",
+      "bytes": 12685,
+      "headings": [
+        "Embedding Functions",
+        "All Embedding Functions"
+      ]
+    },
+    {
+      "path": "reference/example-setup-of-the-client-to-connect-to-your-chroma-server.md",
+      "title": "Example setup of the client to connect to your chroma server",
+      "group": ".",
+      "bytes": 121,
+      "headings": [
+        "Example setup of the client to connect to your chroma server"
+      ]
+    },
+    {
+      "path": "reference/examples-patterns.md",
+      "title": "Examples & Patterns",
+      "group": ".",
+      "bytes": 21531,
+      "headings": [
+        "Examples & Patterns",
+        "Example 1: E-commerce Product Search",
+        "Example 2: Content Recommendation System",
+        "Example 3: Multi-Category Search with Batch Operations",
+        "Best Practices",
+        "Next Steps"
+      ]
+    },
+    {
+      "path": "reference/file-upload.md",
+      "title": "File Upload",
+      "group": ".",
+      "bytes": 4445,
+      "headings": [
+        "File Upload",
+        "Walkthrough",
+        "Uploading via the Dashboard",
+        "Uploading via the API",
+        "Multipart Fields",
+        "Limits"
+      ]
+    },
+    {
+      "path": "reference/filtering-with-where.md",
+      "title": "Filtering with Where",
+      "group": ".",
+      "bytes": 22507,
+      "headings": [
+        "Filtering with Where",
+        "The Key/K Class",
+        "Filterable Fields",
+        "Comparison Operators",
+        "Set and String Operators",
+        "Array Metadata",
+        "Storing Array Metadata",
+        "Filtering Arrays",
+        "Supported Array Types",
+        "Logical Operators",
+        "Common Filtering Patterns",
+        "Edge Cases and Important Behavior"
+      ]
+    },
+    {
+      "path": "reference/fork-collection.md",
+      "title": "Fork collection",
+      "group": ".",
+      "bytes": 260,
+      "headings": [
+        "Fork collection"
+      ]
+    },
+    {
+      "path": "reference/full-text-search.md",
+      "title": "Full Text Search",
+      "group": ".",
+      "bytes": 8491,
+      "headings": [
+        "Full Text Search"
+      ]
+    },
+    {
+      "path": "reference/gcp.md",
+      "title": "GCP",
+      "group": ".",
+      "bytes": 6485,
+      "headings": [
+        "GCP",
+        "A Simple GCP Deployment",
+        "Step 1: Set up your GCP credentials",
+        "Step 2: Install Terraform",
+        "Step 3: Configure your GCP Settings",
+        "Step 4: Initialize and deploy with Terraform",
+        "Step 5: Chroma Client Set-Up",
+        "Step 5: Clean Up (optional).",
+        "Observability with GCP"
+      ]
+    },
+    {
+      "path": "reference/general.md",
+      "title": "General",
+      "group": ".",
+      "bytes": 821,
+      "headings": [
+        "General",
+        "Python Thin Client"
+      ]
+    },
+    {
+      "path": "reference/generate-dense-embeddings.md",
+      "title": "Generate dense embeddings",
+      "group": ".",
+      "bytes": 325,
+      "headings": [
+        "Generate dense embeddings"
+      ]
+    },
+    {
+      "path": "reference/generate-sparse-embeddings.md",
+      "title": "Generate sparse embeddings",
+      "group": ".",
+      "bytes": 403,
+      "headings": [
+        "Generate sparse embeddings"
+      ]
+    },
+    {
+      "path": "reference/get-attached-function.md",
+      "title": "Get attached function",
+      "group": ".",
+      "bytes": 286,
+      "headings": [
+        "Get attached function"
+      ]
+    },
+    {
+      "path": "reference/get-invocation.md",
+      "title": "Get invocation",
+      "group": ".",
+      "bytes": 212,
+      "headings": [
+        "Get invocation"
+      ]
+    },
+    {
+      "path": "reference/get-latest-invocations-by-keys.md",
+      "title": "Get latest invocations by keys",
+      "group": ".",
+      "bytes": 272,
+      "headings": [
+        "Get latest invocations by keys"
+      ]
+    },
+    {
+      "path": "reference/get-service-health-status.md",
+      "title": "Get service health status",
+      "group": ".",
+      "bytes": 194,
+      "headings": [
+        "Get service health status"
+      ]
+    },
+    {
+      "path": "reference/get-source.md",
+      "title": "Get source",
+      "group": ".",
+      "bytes": 187,
+      "headings": [
+        "Get source"
+      ]
+    },
+    {
+      "path": "reference/getting-started.md",
+      "title": "Getting Started",
+      "group": ".",
+      "bytes": 17473,
+      "headings": [
+        "Getting Started"
+      ]
+    },
+    {
+      "path": "reference/github.md",
+      "title": "GitHub",
+      "group": ".",
+      "bytes": 5709,
+      "headings": [
+        "GitHub",
+        "Walkthrough",
+        "Direct Sync",
+        "Platform Sync"
+      ]
+    },
+    {
+      "path": "reference/global-invocation-configuration.md",
+      "title": "Global Invocation Configuration",
+      "group": ".",
+      "bytes": 730,
+      "headings": [
+        "Global Invocation Configuration"
+      ]
+    },
+    {
+      "path": "reference/global-source-configuration.md",
+      "title": "Global Source Configuration",
+      "group": ".",
+      "bytes": 1461,
+      "headings": [
+        "Global Source Configuration"
+      ]
+    },
+    {
+      "path": "reference/google-adk.md",
+      "title": "Google ADK",
+      "group": ".",
+      "bytes": 25700,
+      "headings": [
+        "Google ADK",
+        "Available Tools",
+        "Collection Management",
+        "Document Operations",
+        "Resources"
+      ]
+    },
+    {
+      "path": "reference/google-gemini.md",
+      "title": "Google Gemini",
+      "group": ".",
+      "bytes": 8980,
+      "headings": [
+        "Google Gemini",
+        "Multimodal Embeddings",
+        "What are Multimodal Embeddings?",
+        "Example: Video Search"
+      ]
+    },
+    {
+      "path": "reference/group-by-aggregation.md",
+      "title": "Group By & Aggregation",
+      "group": ".",
+      "bytes": 13015,
+      "headings": [
+        "Group By & Aggregation",
+        "How Grouping Works",
+        "The GroupBy Class",
+        "GroupBy Parameters",
+        "Aggregation Functions",
+        "MinK",
+        "MaxK",
+        "Key References",
+        "Common Patterns",
+        "Single Key Grouping",
+        "Multiple Key Grouping",
+        "Multiple Ranking Keys with Tiebreakers"
+      ]
+    },
+    {
+      "path": "reference/haystack.md",
+      "title": "Haystack",
+      "group": ".",
+      "bytes": 3427,
+      "headings": [
+        "Haystack",
+        "Installation",
+        "Usage"
+      ]
+    },
+    {
+      "path": "reference/how-chroma-sync-works.md",
+      "title": "How Chroma Sync Works",
+      "group": ".",
+      "bytes": 1555,
+      "headings": [
+        "How Chroma Sync Works"
+      ]
+    },
+    {
+      "path": "reference/hugging-face-server.md",
+      "title": "Hugging Face Server",
+      "group": ".",
+      "bytes": 2861,
+      "headings": [
+        "Hugging Face Server",
+        "Setting Up The Server",
+        "Usage",
+        "Authentication"
+      ]
+    },
+    {
+      "path": "reference/hugging-face.md",
+      "title": "Hugging Face",
+      "group": ".",
+      "bytes": 1499,
+      "headings": [
+        "Hugging Face",
+        "Dense Embeddings",
+        "Sparse Embeddings"
+      ]
+    },
+    {
+      "path": "reference/hybrid-search-with-rrf.md",
+      "title": "Hybrid Search with RRF",
+      "group": ".",
+      "bytes": 18864,
+      "headings": [
+        "Hybrid Search with RRF",
+        "Understanding RRF",
+        "RRF Formula",
+        "Rrf Parameters",
+        "RRF vs Linear Combination",
+        "The return\\_rank Requirement",
+        "Weight Configuration",
+        "The k Parameter",
+        "Common Use Case: Dense + Sparse",
+        "Edge Cases and Important Behavior",
+        "Component Ranking Behavior",
+        "Minimum Requirements"
+      ]
+    },
+    {
+      "path": "reference/index-configuration-reference.md",
+      "title": "Index Configuration Reference",
+      "group": ".",
+      "bytes": 5728,
+      "headings": [
+        "Index Configuration Reference",
+        "Index Types Overview",
+        "Simple Index Configs",
+        "FtsIndexConfig",
+        "StringInvertedIndexConfig",
+        "IntInvertedIndexConfig",
+        "FloatInvertedIndexConfig",
+        "BoolInvertedIndexConfig",
+        "VectorIndexConfig",
+        "SparseVectorIndexConfig",
+        "Next Steps"
+      ]
+    },
+    {
+      "path": "reference/initialize-memory.md",
+      "title": "Initialize memory",
+      "group": ".",
+      "bytes": 56,
+      "headings": [
+        "Initialize memory"
+      ]
+    },
+    {
+      "path": "reference/installing-the-cli.md",
+      "title": "Installing the CLI",
+      "group": ".",
+      "bytes": 1461,
+      "headings": [
+        "Installing the CLI",
+        "Python",
+        "JavaScript",
+        "Install Globally"
+      ]
+    },
+    {
+      "path": "reference/instructor.md",
+      "title": "Instructor",
+      "group": ".",
+      "bytes": 1242,
+      "headings": [
+        "Instructor"
+      ]
+    },
+    {
+      "path": "reference/integrations.md",
+      "title": "Integrations",
+      "group": ".",
+      "bytes": 4828,
+      "headings": [
+        "Integrations",
+        "Embedding Integrations",
+        "Framework Integrations"
+      ]
+    },
+    {
+      "path": "reference/intro-to-retrieval.md",
+      "title": "Intro to Retrieval",
+      "group": ".",
+      "bytes": 11292,
+      "headings": [
+        "Intro to Retrieval",
+        "The Knowledge Problem",
+        "Enter Retrieval",
+        "Step 1: Embed our Knowledge Base and Store it in a Chroma Collection",
+        "Step 2: Process the User's Query",
+        "Step 3: Generate the AI Response"
+      ]
+    },
+    {
+      "path": "reference/introduction.md",
+      "title": "Introduction",
+      "group": ".",
+      "bytes": 2512,
+      "headings": [
+        "Introduction",
+        "What Chroma Offers",
+        "Quickstart",
+        "Example Projects",
+        "Open Source"
+      ]
+    },
+    {
+      "path": "reference/jina-ai.md",
+      "title": "Jina AI",
+      "group": ".",
+      "bytes": 3783,
+      "headings": [
+        "Jina AI",
+        "Late Chunking Example",
+        "Task parameter"
+      ]
+    },
+    {
+      "path": "reference/kotlin.md",
+      "title": "Kotlin",
+      "group": ".",
+      "bytes": 163,
+      "headings": [
+        "Kotlin"
+      ]
+    },
+    {
+      "path": "reference/langchain.md",
+      "title": "Langchain",
+      "group": ".",
+      "bytes": 1326,
+      "headings": [
+        "Langchain",
+        "Langchain - Python",
+        "Langchain - JS"
+      ]
+    },
+    {
+      "path": "reference/list-invocations.md",
+      "title": "List invocations",
+      "group": ".",
+      "bytes": 189,
+      "headings": [
+        "List invocations"
+      ]
+    },
+    {
+      "path": "reference/list-sources.md",
+      "title": "List sources",
+      "group": ".",
+      "bytes": 162,
+      "headings": [
+        "List sources"
+      ]
+    },
+    {
+      "path": "reference/llamaindex.md",
+      "title": "LlamaIndex",
+      "group": ".",
+      "bytes": 411,
+      "headings": [
+        "LlamaIndex"
+      ]
+    },
+    {
+      "path": "reference/local-chroma-server-configuration-optional---defaults-shown.md",
+      "title": "Local Chroma server configuration (optional - defaults shown)",
+      "group": ".",
+      "bytes": 186,
+      "headings": [
+        "Local Chroma server configuration (optional - defaults shown)",
+        "Option 2: [Chroma Cloud](https://www.trychroma.com/)"
+      ]
+    },
+    {
+      "path": "reference/login.md",
+      "title": "Login",
+      "group": ".",
+      "bytes": 1814,
+      "headings": [
+        "Login"
+      ]
+    },
+    {
+      "path": "reference/look-at-your-data.md",
+      "title": "Look at Your Data",
+      "group": ".",
+      "bytes": 14111,
+      "headings": [
+        "Look at Your Data",
+        "Search Modalities",
+        "Embedding Models",
+        "Collections in your Chroma Database",
+        "Chunking Data",
+        "Metadata"
+      ]
+    },
+    {
+      "path": "reference/manage-collections.md",
+      "title": "Manage Collections",
+      "group": ".",
+      "bytes": 12981,
+      "headings": [
+        "Manage Collections",
+        "Creating Collections",
+        "Embedding Functions",
+        "Collection Metadata",
+        "Getting Collections",
+        "Modifying Collections",
+        "Deleting Collections",
+        "Convenience Methods"
+      ]
+    },
+    {
+      "path": "reference/mem0.md",
+      "title": "Mem0",
+      "group": ".",
+      "bytes": 1195,
+      "headings": [
+        "Mem0",
+        "Installation",
+        "Configuration",
+        "Basic Usage",
+        "Using Mem0 with Local Chroma"
+      ]
+    },
+    {
+      "path": "reference/metadata-filtering.md",
+      "title": "Metadata Filtering",
+      "group": ".",
+      "bytes": 18433,
+      "headings": [
+        "Metadata Filtering",
+        "Using Logical Operators",
+        "Using Inclusion Operators",
+        "Using Array Metadata",
+        "Adding Array Metadata",
+        "Filtering with `$contains` and `$not_contains`",
+        "Supported Array Types",
+        "Combining with Document Search"
+      ]
+    },
+    {
+      "path": "reference/migration-guide.md",
+      "title": "Migration Guide",
+      "group": ".",
+      "bytes": 10405,
+      "headings": [
+        "Migration Guide",
+        "Parameter Mapping",
+        "query() Parameters",
+        "get() Parameters",
+        "Include/Select Field Mapping",
+        "Examples",
+        "Basic Similarity Search",
+        "Document Filtering",
+        "Combined Filters",
+        "Get by IDs",
+        "Pagination",
+        "Key Differences"
+      ]
+    },
+    {
+      "path": "reference/migration.md",
+      "title": "Migration",
+      "group": ".",
+      "bytes": 1375,
+      "headings": [
+        "Migration",
+        "Migration Log",
+        "v1.0.0 - March 1, 2025"
+      ]
+    },
+    {
+      "path": "reference/mistral.md",
+      "title": "Mistral",
+      "group": ".",
+      "bytes": 1381,
+      "headings": [
+        "Mistral"
+      ]
+    },
+    {
+      "path": "reference/morph.md",
+      "title": "Morph",
+      "group": ".",
+      "bytes": 1959,
+      "headings": [
+        "Morph"
+      ]
+    },
+    {
+      "path": "reference/multimodal-embeddings.md",
+      "title": "Multimodal Embeddings",
+      "group": ".",
+      "bytes": 4527,
+      "headings": [
+        "Multimodal Embeddings",
+        "Multi-modal Embedding Functions",
+        "Adding Multimodal Data and Data Loaders",
+        "Querying",
+        "Updating"
+      ]
+    },
+    {
+      "path": "reference/nomic.md",
+      "title": "Nomic",
+      "group": ".",
+      "bytes": 1698,
+      "headings": [
+        "Nomic"
+      ]
+    },
+    {
+      "path": "reference/observability.md",
+      "title": "Observability",
+      "group": ".",
+      "bytes": 1952,
+      "headings": [
+        "Observability",
+        "Backend Observability",
+        "Available Observability",
+        "Configuration",
+        "Client (SDK) Observability"
+      ]
+    },
+    {
+      "path": "reference/ollama.md",
+      "title": "Ollama",
+      "group": ".",
+      "bytes": 1480,
+      "headings": [
+        "Ollama"
+      ]
+    },
+    {
+      "path": "reference/open-source.md",
+      "title": "Open Source",
+      "group": ".",
+      "bytes": 4875,
+      "headings": [
+        "Open Source",
+        "Contributing",
+        "Getting Started",
+        "Contributing Code and Ideas",
+        "Roadmap",
+        "Telemetry"
+      ]
+    },
+    {
+      "path": "reference/openai-api-key-for-embeddings-and-llm.md",
+      "title": "OpenAI API key for embeddings and LLM",
+      "group": ".",
+      "bytes": 80,
+      "headings": [
+        "OpenAI API key for embeddings and LLM"
+      ]
+    },
+    {
+      "path": "reference/openai.md",
+      "title": "OpenAI",
+      "group": ".",
+      "bytes": 2697,
+      "headings": [
+        "OpenAI"
+      ]
+    },
+    {
+      "path": "reference/openclip.md",
+      "title": "OpenCLIP",
+      "group": ".",
+      "bytes": 1852,
+      "headings": [
+        "OpenCLIP"
+      ]
+    },
+    {
+      "path": "reference/openlit.md",
+      "title": "OpenLIT",
+      "group": ".",
+      "bytes": 2756,
+      "headings": [
+        "OpenLIT",
+        "Getting Started",
+        "Step 1: Install OpenLIT",
+        "Step 2: Initialize OpenLIT in your Application",
+        "Step 3: Visualize and Optimize!",
+        "Support"
+      ]
+    },
+    {
+      "path": "reference/openllmetry.md",
+      "title": "OpenLLMetry",
+      "group": ".",
+      "bytes": 979,
+      "headings": [
+        "OpenLLMetry",
+        "Example",
+        "Configuration"
+      ]
+    },
+    {
+      "path": "reference/or-2.md",
+      "title": "or",
+      "group": ".",
+      "bytes": 14986,
+      "headings": [
+        "or",
+        "v0.6.0 - December 30, 2024",
+        "v0.5.17 - October 30, 2024",
+        "v0.5.12 - October 8, 2024",
+        "v0.5.11 - September 26, 2024",
+        "v0.5.6 - September 16, 2024",
+        "v0.5.1 - June 7, 2024",
+        "Auth overhaul - April 20, 2024",
+        "Migration to 0.4.16 - November 7, 2023",
+        "Migration from >0.4.0 to 0.4.0 - July 17, 2023",
+        "in-memory ephemeral client"
+      ]
+    },
+    {
+      "path": "reference/or-for-async-usage-2.md",
+      "title": "Or for async usage:",
+      "group": ".",
+      "bytes": 1475,
+      "headings": [
+        "Or for async usage:",
+        "Local vs API Embedding Models",
+        "Warm-up queries"
+      ]
+    },
+    {
+      "path": "reference/or-for-async-usage.md",
+      "title": "Or for async usage:",
+      "group": ".",
+      "bytes": 548,
+      "headings": [
+        "Or for async usage:"
+      ]
+    },
+    {
+      "path": "reference/or-pass-an-inline-access-key-saved-to-your-team-for-reuse.md",
+      "title": "Or pass an inline access key (saved to your team for reuse)",
+      "group": ".",
+      "bytes": 9138,
+      "headings": [
+        "Or pass an inline access key (saved to your team for reuse)",
+        "S3 Source Configuration",
+        "S3 Invocation Parameters",
+        "Supported File Types",
+        "Document Types",
+        "Other Files",
+        "Limits",
+        "Chunking",
+        "Auto-Sync",
+        "Setup",
+        "Direct Mode",
+        "Metadata Mode"
+      ]
+    },
+    {
+      "path": "reference/or.md",
+      "title": "or",
+      "group": ".",
+      "bytes": 41,
+      "headings": [
+        "or"
+      ]
+    },
+    {
+      "path": "reference/overview-2.md",
+      "title": "Overview",
+      "group": ".",
+      "bytes": 1259,
+      "headings": [
+        "Overview",
+        "SDKs",
+        "Beta SDKs",
+        "APIs"
+      ]
+    },
+    {
+      "path": "reference/overview.md",
+      "title": "Overview",
+      "group": ".",
+      "bytes": 520,
+      "headings": [
+        "Overview"
+      ]
+    },
+    {
+      "path": "reference/package-search-mcp-server.md",
+      "title": "Package Search MCP Server",
+      "group": ".",
+      "bytes": 17389,
+      "headings": [
+        "Package Search MCP Server",
+        "Getting Started"
+      ]
+    },
+    {
+      "path": "reference/package-search-registry.md",
+      "title": "Package Search Registry",
+      "group": ".",
+      "bytes": 2296,
+      "headings": [
+        "Package Search Registry",
+        "How it works",
+        "Supported registries",
+        "Indexed versions",
+        "How to add a package"
+      ]
+    },
+    {
+      "path": "reference/pagination-field-selection.md",
+      "title": "Pagination & Field Selection",
+      "group": ".",
+      "bytes": 12972,
+      "headings": [
+        "Pagination & Field Selection",
+        "Pagination with Limit",
+        "Limit Parameters",
+        "Pagination Patterns",
+        "Field Selection with Select",
+        "Selectable Fields",
+        "Performance Considerations",
+        "Edge Cases",
+        "No Limit Specified",
+        "Empty Results",
+        "Non-existent Fields",
+        "Complete Example"
+      ]
+    },
+    {
+      "path": "reference/perplexity.md",
+      "title": "Perplexity",
+      "group": ".",
+      "bytes": 3295,
+      "headings": [
+        "Perplexity",
+        "Available Models",
+        "Matryoshka Dimensions"
+      ]
+    },
+    {
+      "path": "reference/pricing.md",
+      "title": "Pricing",
+      "group": ".",
+      "bytes": 4181,
+      "headings": [
+        "Pricing",
+        "Writes",
+        "Forking",
+        "Reads",
+        "Storage",
+        "Sync",
+        "Frequently Asked Questions"
+      ]
+    },
+    {
+      "path": "reference/profile-management.md",
+      "title": "Profile Management",
+      "group": ".",
+      "bytes": 1602,
+      "headings": [
+        "Profile Management",
+        "Delete",
+        "List",
+        "Show",
+        "Rename",
+        "Use"
+      ]
+    },
+    {
+      "path": "reference/python.md",
+      "title": "Python",
+      "group": ".",
+      "bytes": 25,
+      "headings": [
+        "Python"
+      ]
+    },
+    {
+      "path": "reference/query-and-get.md",
+      "title": "Query and Get",
+      "group": ".",
+      "bytes": 14089,
+      "headings": [
+        "Query and Get",
+        "Results Shape",
+        "Choosing Which Data is Returned"
+      ]
+    },
+    {
+      "path": "reference/quotas-limits.md",
+      "title": "Quotas & Limits",
+      "group": ".",
+      "bytes": 2513,
+      "headings": [
+        "Quotas & Limits"
+      ]
+    },
+    {
+      "path": "reference/ranking-and-scoring.md",
+      "title": "Ranking and Scoring",
+      "group": ".",
+      "bytes": 26107,
+      "headings": [
+        "Ranking and Scoring",
+        "How Ranking Works",
+        "Expression Evaluation Process",
+        "Document Selection and Scoring",
+        "The Knn Class",
+        "Knn Parameters",
+        "Query Formats",
+        "Text Queries",
+        "Dense Vectors",
+        "Sparse Vectors",
+        "Embedding Fields",
+        "Arithmetic Operations"
+      ]
+    },
+    {
+      "path": "reference/reference.md",
+      "title": "Reference",
+      "group": ".",
+      "bytes": 125,
+      "headings": [
+        "Reference"
+      ]
+    },
+    {
+      "path": "reference/reuse-an-existing-credential.md",
+      "title": "Reuse an existing credential",
+      "group": ".",
+      "bytes": 365,
+      "headings": [
+        "Reuse an existing credential"
+      ]
+    },
+    {
+      "path": "reference/roboflow.md",
+      "title": "Roboflow",
+      "group": ".",
+      "bytes": 2537,
+      "headings": [
+        "Roboflow",
+        "Roboflow Cloud Inference",
+        "Local Inference"
+      ]
+    },
+    {
+      "path": "reference/run-a-chroma-server.md",
+      "title": "Run a Chroma Server",
+      "group": ".",
+      "bytes": 1362,
+      "headings": [
+        "Run a Chroma Server",
+        "Connecting to your Chroma Server"
+      ]
+    },
+    {
+      "path": "reference/run-an-evaluation-and-log-to-braintrust.md",
+      "title": "Run an evaluation and log to Braintrust",
+      "group": ".",
+      "bytes": 408,
+      "headings": [
+        "Run an evaluation and log to Braintrust"
+      ]
+    },
+    {
+      "path": "reference/running-chroma-in-client-server-mode.md",
+      "title": "Running Chroma in Client-Server Mode",
+      "group": ".",
+      "bytes": 2999,
+      "headings": [
+        "Running Chroma in Client-Server Mode"
+      ]
+    },
+    {
+      "path": "reference/rust.md",
+      "title": "Rust",
+      "group": ".",
+      "bytes": 136,
+      "headings": [
+        "Rust"
+      ]
+    },
+    {
+      "path": "reference/s3-sync.md",
+      "title": "S3 Sync",
+      "group": ".",
+      "bytes": 2228,
+      "headings": [
+        "S3 Sync",
+        "Walkthrough",
+        "Creating an S3 Source via the Dashboard",
+        "AWS Credentials",
+        "Supplying credentials via the API"
+      ]
+    },
+    {
+      "path": "reference/sample-apps.md",
+      "title": "Sample Apps",
+      "group": ".",
+      "bytes": 824,
+      "headings": [
+        "Sample Apps"
+      ]
+    },
+    {
+      "path": "reference/schema-2.md",
+      "title": "Schema",
+      "group": ".",
+      "bytes": 1483,
+      "headings": [
+        "Schema",
+        "Schema",
+        "Index configs",
+        "FtsIndexConfig",
+        "StringInvertedIndexConfig",
+        "IntInvertedIndexConfig",
+        "FloatInvertedIndexConfig",
+        "BoolInvertedIndexConfig",
+        "VectorIndexConfig",
+        "SparseVectorIndexConfig"
+      ]
+    },
+    {
+      "path": "reference/schema-basics.md",
+      "title": "Schema Basics",
+      "group": ".",
+      "bytes": 11025,
+      "headings": [
+        "Schema Basics",
+        "Schema Structure",
+        "Defaults",
+        "Keys",
+        "How They Work Together",
+        "Default Index Behavior",
+        "Special Keys",
+        "Example: Using Defaults",
+        "Creating Schema Objects",
+        "Creating Indexes",
+        "The create\\_index() Method",
+        "Creating Global Indexes"
+      ]
+    },
+    {
+      "path": "reference/schema-overview.md",
+      "title": "Schema Overview",
+      "group": ".",
+      "bytes": 4202,
+      "headings": [
+        "Schema Overview",
+        "What is Schema?",
+        "Why Use Schema?",
+        "Quick Start",
+        "Feature Highlights",
+        "Next Steps"
+      ]
+    },
+    {
+      "path": "reference/schema.md",
+      "title": "Schema",
+      "group": ".",
+      "bytes": 1977,
+      "headings": [
+        "Schema",
+        "Schema",
+        "Index configs",
+        "FtsIndexConfig",
+        "HnswIndexConfig",
+        "SpannIndexConfig",
+        "VectorIndexConfig",
+        "SparseVectorIndexConfig",
+        "StringInvertedIndexConfig",
+        "IntInvertedIndexConfig",
+        "FloatInvertedIndexConfig",
+        "BoolInvertedIndexConfig"
+      ]
+    },
+    {
+      "path": "reference/search-2.md",
+      "title": "Search",
+      "group": ".",
+      "bytes": 5125,
+      "headings": [
+        "Search",
+        "JSON Format",
+        "Basic Structure",
+        "Component Schemas",
+        "`where`",
+        "`rank`",
+        "`group_by`",
+        "`limit`",
+        "`select`"
+      ]
+    },
+    {
+      "path": "reference/search-3.md",
+      "title": "Search",
+      "group": ".",
+      "bytes": 1549,
+      "headings": [
+        "Search",
+        "Search",
+        "Select",
+        "Knn",
+        "Rrf",
+        "Group By",
+        "GroupBy",
+        "MinK",
+        "MaxK",
+        "Group By",
+        "Limit",
+        "SearchResult"
+      ]
+    },
+    {
+      "path": "reference/search-api-overview.md",
+      "title": "Search API Overview",
+      "group": ".",
+      "bytes": 10197,
+      "headings": [
+        "Search API Overview",
+        "What is the Search API?",
+        "Quick Start",
+        "Feature Comparison",
+        "Availability",
+        "Required Setup",
+        "Complete Example",
+        "Performance",
+        "Feedback",
+        "What's Next?"
+      ]
+    },
+    {
+      "path": "reference/search-basics.md",
+      "title": "Search Basics",
+      "group": ".",
+      "bytes": 11664,
+      "headings": [
+        "Search Basics",
+        "The Search Class",
+        "Constructor Parameters",
+        "Builder Pattern",
+        "Direct Construction",
+        "Empty Search Behavior",
+        "Common Initialization Patterns",
+        "Next Steps"
+      ]
+    },
+    {
+      "path": "reference/search-memories.md",
+      "title": "Search memories",
+      "group": ".",
+      "bytes": 725,
+      "headings": [
+        "Search memories",
+        "Use Cases",
+        "Resources"
+      ]
+    },
+    {
+      "path": "reference/search.md",
+      "title": "Search",
+      "group": ".",
+      "bytes": 3903,
+      "headings": [
+        "Search",
+        "Search",
+        "Select",
+        "Knn",
+        "Rrf",
+        "Group By",
+        "GroupBy",
+        "Limit",
+        "MinK",
+        "MaxK",
+        "SearchResult"
+      ]
+    },
+    {
+      "path": "reference/sentence-transformer.md",
+      "title": "Sentence Transformer",
+      "group": ".",
+      "bytes": 2250,
+      "headings": [
+        "Sentence Transformer"
+      ]
+    },
+    {
+      "path": "reference/set-your-openai-api-key.md",
+      "title": "Set your OpenAI API key",
+      "group": ".",
+      "bytes": 78,
+      "headings": [
+        "Set your OpenAI API key"
+      ]
+    },
+    {
+      "path": "reference/single-node-performance.md",
+      "title": "Single-Node Performance",
+      "group": ".",
+      "bytes": 9512,
+      "headings": [
+        "Single-Node Performance",
+        "Results Summary",
+        "Memory and collection size",
+        "Disk space and collection size",
+        "Latency and collection size",
+        "Query Latency",
+        "Insert Latency",
+        "Concurrency",
+        "CPU speed, core count, and type",
+        "Insert Throughput",
+        "Conclusion"
+      ]
+    },
+    {
+      "path": "reference/source-types.md",
+      "title": "Source Types",
+      "group": ".",
+      "bytes": 653,
+      "headings": [
+        "Source Types"
+      ]
+    },
+    {
+      "path": "reference/sparse-vector-search-setup.md",
+      "title": "Sparse Vector Search Setup",
+      "group": ".",
+      "bytes": 8762,
+      "headings": [
+        "Sparse Vector Search Setup",
+        "What are Sparse Vectors?",
+        "Enabling Sparse Vector Index",
+        "Create Collection and Add Data",
+        "Create Collection with Schema",
+        "Add Data",
+        "Using Sparse Vectors for Search",
+        "Sparse Vector Search",
+        "Hybrid Search",
+        "Benefits of Hybrid Search",
+        "Combining Dense and Sparse with RRF",
+        "Next Steps"
+      ]
+    },
+    {
+      "path": "reference/streamlit.md",
+      "title": "Streamlit",
+      "group": ".",
+      "bytes": 3276,
+      "headings": [
+        "Streamlit",
+        "Install",
+        "Main Benefits",
+        "Simple Example",
+        "Resources"
+      ]
+    },
+    {
+      "path": "reference/superlinked.md",
+      "title": "Superlinked",
+      "group": ".",
+      "bytes": 3899,
+      "headings": [
+        "Superlinked",
+        "Multimodal",
+        "Links"
+      ]
+    },
+    {
+      "path": "reference/swift.md",
+      "title": "Swift",
+      "group": ".",
+      "bytes": 158,
+      "headings": [
+        "Swift"
+      ]
+    },
+    {
+      "path": "reference/text2vec.md",
+      "title": "Text2Vec",
+      "group": ".",
+      "bytes": 1009,
+      "headings": [
+        "Text2Vec"
+      ]
+    },
+    {
+      "path": "reference/together-ai.md",
+      "title": "Together AI",
+      "group": ".",
+      "bytes": 1606,
+      "headings": [
+        "Together AI"
+      ]
+    },
+    {
+      "path": "reference/troubleshooting.md",
+      "title": "Troubleshooting",
+      "group": ".",
+      "bytes": 4539,
+      "headings": [
+        "Troubleshooting",
+        "Chroma JS-Client failures on NextJS projects",
+        "Cannot return the results in a contiguous 2D array. Probably ef or M is too small",
+        "Using .get or .query, embeddings say `None`",
+        "Build error when running `pip install chromadb`",
+        "SQLite",
+        "Illegal instruction (core dumped)",
+        "My data directory is too large"
+      ]
+    },
+    {
+      "path": "reference/update-data.md",
+      "title": "Update Data",
+      "group": ".",
+      "bytes": 3250,
+      "headings": [
+        "Update Data"
+      ]
+    },
+    {
+      "path": "reference/update.md",
+      "title": "Update",
+      "group": ".",
+      "bytes": 416,
+      "headings": [
+        "Update"
+      ]
+    },
+    {
+      "path": "reference/upload-and-index-a-file.md",
+      "title": "Upload and index a file",
+      "group": ".",
+      "bytes": 750,
+      "headings": [
+        "Upload and index a file"
+      ]
+    },
+    {
+      "path": "reference/upload-document.md",
+      "title": "Upload document",
+      "group": ".",
+      "bytes": 70,
+      "headings": [
+        "Upload document"
+      ]
+    },
+    {
+      "path": "reference/upload-metadata-file-to-trigger-indexing.md",
+      "title": "Upload metadata file to trigger indexing",
+      "group": ".",
+      "bytes": 877,
+      "headings": [
+        "Upload metadata file to trigger indexing",
+        "Multi-Tenant Buckets"
+      ]
+    },
+    {
+      "path": "reference/vacuum.md",
+      "title": "Vacuum",
+      "group": ".",
+      "bytes": 806,
+      "headings": [
+        "Vacuum"
+      ]
+    },
+    {
+      "path": "reference/voltagent.md",
+      "title": "VoltAgent",
+      "group": ".",
+      "bytes": 1727,
+      "headings": [
+        "VoltAgent",
+        "Installation",
+        "Environment Setup",
+        "Option 1: Local Chroma Server"
+      ]
+    },
+    {
+      "path": "reference/voyageai.md",
+      "title": "VoyageAI",
+      "group": ".",
+      "bytes": 2802,
+      "headings": [
+        "VoyageAI",
+        "Multilingual model example"
+      ]
+    },
+    {
+      "path": "reference/walkthrough.md",
+      "title": "Walkthrough",
+      "group": ".",
+      "bytes": 893,
+      "headings": [
+        "Walkthrough"
+      ]
+    },
+    {
+      "path": "reference/web-sync.md",
+      "title": "Web Sync",
+      "group": ".",
+      "bytes": 424,
+      "headings": [
+        "Web Sync"
+      ]
+    },
+    {
+      "path": "reference/where-filters-2.md",
+      "title": "Where Filters",
+      "group": ".",
+      "bytes": 2931,
+      "headings": [
+        "Where Filters",
+        "Field references",
+        "Comparison operators",
+        "Set operators",
+        "Array operators",
+        "Document operators",
+        "Combining conditions"
+      ]
+    },
+    {
+      "path": "reference/where-filters-3.md",
+      "title": "Where Filters",
+      "group": ".",
+      "bytes": 6744,
+      "headings": [
+        "Where Filters",
+        "JSON Format",
+        "Basic Structure",
+        "Operators",
+        "Scalar Comparison Operators",
+        "Set Operators",
+        "Metadata Array Operators",
+        "Document Operators",
+        "Logical Operators",
+        "Rules"
+      ]
+    },
+    {
+      "path": "reference/where-filters.md",
+      "title": "Where Filters",
+      "group": ".",
+      "bytes": 2603,
+      "headings": [
+        "Where Filters",
+        "Field references",
+        "Comparison operators",
+        "Set operators",
+        "Array operators",
+        "Document operators"
+      ]
+    },
+    {
+      "path": "reference/write-the-images-to-a-folder.md",
+      "title": "Write the images to a folder",
+      "group": ".",
+      "bytes": 959,
+      "headings": [
+        "Write the images to a folder"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# or
+client = chromadb.EphemeralClient()

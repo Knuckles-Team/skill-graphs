@@ -1,0 +1,105 @@
+# Client Setup
+Source: https://docs.postiz.com/mcp/setup
+
+Configure your AI client to connect to the Postiz MCP server
+
+## Claude Desktop
+
+Add the following to your Claude Desktop MCP configuration file:
+
+<Tabs>
+  <Tab title="macOS">
+    Edit `~/Library/Application Support/Claude/claude_desktop_config.json`:
+
+    ```json theme={null}
+    {
+      "mcpServers": {
+        "postiz": {
+          "url": "https://api.postiz.com/mcp/your-api-key"
+        }
+      }
+    }
+    ```
+  </Tab>
+
+  <Tab title="Windows">
+    Edit `%APPDATA%\Claude\claude_desktop_config.json`:
+
+    ```json theme={null}
+    {
+      "mcpServers": {
+        "postiz": {
+          "url": "https://api.postiz.com/mcp/your-api-key"
+        }
+      }
+    }
+    ```
+  </Tab>
+</Tabs>
+
+Replace `your-api-key` with your actual API key from **Settings > Developers > Public API**.
+
+## Claude Code
+
+The fastest way is the CLI:
+
+```bash theme={null}
+claude mcp add postiz --transport http --url https://api.postiz.com/mcp/your-api-key
+```
+
+Or add it to your Claude Code config directly:
+
+```json theme={null}
+{
+  "mcpServers": {
+    "postiz": {
+      "url": "https://api.postiz.com/mcp/your-api-key"
+    }
+  }
+}
+```
+
+The Bearer-token transport works too — pick whichever your client supports better. Both authenticate the same way:
+
+```bash theme={null}
+claude mcp add postiz --transport http \
+  --url https://api.postiz.com/mcp \
+  --header "Authorization: Bearer your-api-key"
+```
+
+## Cursor
+
+In Cursor, go to **Settings > MCP** and add a new server:
+
+* **Name:** Postiz
+* **Type:** HTTP
+* **URL:** `https://api.postiz.com/mcp/your-api-key`
+
+## Other MCP Clients
+
+Any MCP-compatible client can connect to Postiz. Use the streamable HTTP transport:
+
+* **URL:** `https://api.postiz.com/mcp/your-api-key`
+* **Transport:** Streamable HTTP
+
+Or, if your client supports Bearer token authentication:
+
+* **URL:** `https://api.postiz.com/mcp`
+* **Transport:** Streamable HTTP
+* **Authorization:** `Bearer your-api-key`
+
+## Self-Hosted
+
+For self-hosted Postiz instances, replace `https://api.postiz.com` with your `NEXT_PUBLIC_BACKEND_URL`:
+
+```
+https://your-postiz-server.com/mcp/your-api-key
+```
+
+## Verify Connection
+
+Once connected, ask your AI agent:
+
+> "List my connected social media accounts"
+
+If the connection is working, the agent will call the `integrationList` tool and return your connected accounts.

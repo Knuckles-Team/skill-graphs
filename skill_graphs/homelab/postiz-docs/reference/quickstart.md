@@ -1,0 +1,30 @@
+# Quickstart
+Source: https://docs.postiz.com/quickstart
+
+Get started with Postiz installation
+
+## Self Hosted installation options
+
+You can choose between the following installation options;
+
+<CardGroup>
+  <Card title="Docker Compose" icon="docker" href="/installation/docker-compose">
+    Recommended option for **users**
+  </Card>
+
+  <Card title="Development" icon="code" href="/installation/development">
+    Recommended option for **developers**
+  </Card>
+</CardGroup>
+
+## Advanced installation options
+
+<CardGroup>
+  <Card title="Docker (standalone)" icon="docker" href="/installation/docker">
+    Run from the command line with Docker
+  </Card>
+
+  <Card title="Helm" icon="dharmachakra" href="/installation/kubernetes-helm">
+    Run with Kubernetes + Helm
+  </Card>
+</CardGroup>

@@ -1,0 +1,396 @@
+# Examples
+Source: https://docs.postiz.com/mcp/examples
+
+Common workflows when using Postiz through MCP
+
+These examples show the tool calls an AI agent makes behind the scenes. You don't need to write these yourself — just describe what you want in natural language and your AI agent handles the rest.
+
+## Schedule a Post to X
+
+A typical flow to schedule a post to X (Twitter):
+
+<Steps>
+  <Step title="List integrations">
+    The agent calls `integrationList` and finds your X account:
+
+    ```json theme={null}
+    {
+      "output": [
+        {
+          "id": "abc123",
+          "name": "My X Account",
+          "picture": "https://...",
+          "platform": "x"
+        }
+      ]
+    }
+    ```
+  </Step>
+
+  <Step title="Get platform schema">
+    The agent calls `integrationSchema` with `platform: "x"` to learn the rules:
+
+    ```json theme={null}
+    {
+      "output": {
+        "rules": "...",
+        "maxLength": 280,
+        "settings": { ... },
+        "tools": []
+      }
+    }
+    ```
+  </Step>
+
+  <Step title="Schedule the post">
+    The agent calls `schedulePostTool`:
+
+    ```json theme={null}
+    {
+      "socialPost": [
+        {
+          "integrationId": "abc123",
+          "isPremium": false,
+          "date": "2025-01-15T10:00:00.000Z",
+          "shortLink": false,
+          "type": "schedule",
+          "postsAndComments": [
+            {
+              "content": "<p>Excited to announce our new feature!</p>",
+              "attachments": []
+            }
+          ],
+          "settings": [
+            { "key": "who_can_reply_post", "value": "everyone" }
+          ]
+        }
+      ]
+    }
+    ```
+  </Step>
+</Steps>
+
+## Post to Discord with Channel Selection
+
+Platforms like Discord require selecting a channel first:
+
+<Steps>
+  <Step title="Get the schema">
+    The agent calls `integrationSchema` with `platform: "discord"` and discovers a tool to list channels.
+  </Step>
+
+  <Step title="List channels">
+    The agent calls `triggerTool`:
+
+    ```json theme={null}
+    {
+      "integrationId": "discord-123",
+      "methodName": "listChannels",
+      "dataSchema": []
+    }
+    ```
+
+    Returns available channels with their IDs.
+  </Step>
+
+  <Step title="Schedule the post">
+    The agent includes the channel ID in settings:
+
+    ```json theme={null}
+    {
+      "socialPost": [
+        {
+          "integrationId": "discord-123",
+          "isPremium": false,
+          "date": "2025-01-15T10:00:00.000Z",
+          "shortLink": false,
+          "type": "now",
+          "postsAndComments": [
+            {
+              "content": "<p>Hello Discord!</p>",
+              "attachments": []
+            }
+          ],
+          "settings": [
+            { "key": "channel", "value": "channel-id-here" }
+          ]
+        }
+      ]
+    }
+    ```
+  </Step>
+</Steps>
+
+## Schedule an Instagram Reel with Trending Audio
+
+Instagram (Facebook Business-linked) exposes an `audioSearch` tool for finding
+music or original sounds to attach to a Reel:
+
+<Steps>
+  <Step title="Search for audio">
+    The agent calls `triggerTool` (an empty `q` returns trending audio):
+
+    ```json theme={null}
+    {
+      "integrationId": "instagram-123",
+      "methodName": "audioSearch",
+      "dataSchema": [
+        { "key": "q", "value": "summer vibes" },
+        { "key": "type", "value": "music" }
+      ]
+    }
+    ```
+
+    Returns audio assets with their IDs:
+
+    ```json theme={null}
+    {
+      "output": [
+        {
+          "id": "587784541076604",
+          "title": "Summer Vibes",
+          "artist": "Some Artist",
+          "duration": 30000,
+          "previewUrl": "https://..."
+        }
+      ]
+    }
+    ```
+  </Step>
+
+  <Step title="Schedule the Reel">
+    The agent includes the chosen audio in settings — the post must be a single
+    video with `post_type: "post"`:
+
+    ```json theme={null}
+    {
+      "socialPost": [
+        {
+          "integrationId": "instagram-123",
+          "isPremium": false,
+          "date": "2025-01-15T10:00:00.000Z",
+          "shortLink": false,
+          "type": "schedule",
+          "postsAndComments": [
+            {
+              "content": "<p>New reel with trending audio!</p>",
+              "attachments": ["https://uploads.postiz.com/reel.mp4"]
+            }
+          ],
+          "settings": [
+            { "key": "post_type", "value": "post" },
+            { "key": "audio", "value": { "id": "587784541076604", "audio_volume": 80, "video_volume": 20 } }
+          ]
+        }
+      ]
+    }
+    ```
+  </Step>
+</Steps>
+
+<Note>
+  Audio is not available on `instagram-standalone` channels — the Instagram Audio
+  API requires Facebook Login.
+</Note>
+
+## Post with an AI-Generated Image
+
+<Steps>
+  <Step title="Generate the image">
+    The agent calls `generateImageTool`:
+
+    ```json theme={null}
+    {
+      "prompt": "A futuristic city skyline at sunset, digital art style"
+    }
+    ```
+
+    Returns:
+
+    ```json theme={null}
+    {
+      "id": "img-456",
+      "path": "https://uploads.postiz.com/generated-image.png"
+    }
+    ```
+  </Step>
+
+  <Step title="Schedule with the image">
+    The agent includes the image URL in attachments:
+
+    ```json theme={null}
+    {
+      "postsAndComments": [
+        {
+          "content": "<p>The future is here</p>",
+          "attachments": ["https://uploads.postiz.com/generated-image.png"]
+        }
+      ]
+    }
+    ```
+  </Step>
+</Steps>
+
+## Generate a Video and Post
+
+<Steps>
+  <Step title="Check video options">
+    The agent calls `generateVideoOptions` to see available generators.
+  </Step>
+
+  <Step title="Get voice options">
+    For Image Text Slides, the agent calls `videoFunctionTool`:
+
+    ```json theme={null}
+    {
+      "identifier": "image-text-slides",
+      "functionName": "loadVoices"
+    }
+    ```
+
+    Returns a list of available voices with their IDs.
+  </Step>
+
+  <Step title="Generate the video">
+    The agent calls `generateVideoTool`:
+
+    ```json theme={null}
+    {
+      "identifier": "image-text-slides",
+      "output": "vertical",
+      "customParams": [
+        { "key": "prompt", "value": "5 tips for better social media engagement" },
+        { "key": "voice", "value": "voice-id-here" }
+      ]
+    }
+    ```
+
+    Returns the video URL.
+  </Step>
+
+  <Step title="Schedule with the video">
+    The agent uses the video URL as an attachment when calling `schedulePostTool`.
+  </Step>
+</Steps>
+
+## Create an X Thread
+
+To create a thread on X, add multiple items to `postsAndComments`:
+
+```json theme={null}
+{
+  "socialPost": [
+    {
+      "integrationId": "x-123",
+      "isPremium": false,
+      "date": "2025-01-15T10:00:00.000Z",
+      "shortLink": false,
+      "type": "schedule",
+      "postsAndComments": [
+        {
+          "content": "<p>Thread: 5 things I learned this week</p>",
+          "attachments": []
+        },
+        {
+          "content": "<p>1. Consistency beats intensity</p>",
+          "attachments": []
+        },
+        {
+          "content": "<p>2. Start before you're ready</p>",
+          "attachments": []
+        }
+      ],
+      "settings": [
+        { "key": "who_can_reply_post", "value": "everyone" }
+      ]
+    }
+  ]
+}
+```
+
+## Post to LinkedIn with a Comment
+
+For LinkedIn, the first item in `postsAndComments` is the post and the rest are comments:
+
+```json theme={null}
+{
+  "socialPost": [
+    {
+      "integrationId": "linkedin-123",
+      "isPremium": false,
+      "date": "2025-01-15T10:00:00.000Z",
+      "shortLink": false,
+      "type": "schedule",
+      "postsAndComments": [
+        {
+          "content": "<p>We just launched something big!</p>",
+          "attachments": []
+        },
+        {
+          "content": "<p>Check it out at example.com</p>",
+          "attachments": []
+        }
+      ],
+      "settings": []
+    }
+  ]
+}
+```
+
+## Bulk Schedule
+
+Schedule 5 posts across different days:
+
+```json theme={null}
+{
+  "socialPost": [
+    {
+      "integrationId": "x-123",
+      "isPremium": false,
+      "date": "2025-01-13T10:00:00.000Z",
+      "shortLink": false,
+      "type": "schedule",
+      "postsAndComments": [{ "content": "<p>Monday motivation</p>", "attachments": [] }],
+      "settings": [{ "key": "who_can_reply_post", "value": "everyone" }]
+    },
+    {
+      "integrationId": "x-123",
+      "isPremium": false,
+      "date": "2025-01-14T10:00:00.000Z",
+      "shortLink": false,
+      "type": "schedule",
+      "postsAndComments": [{ "content": "<p>Tuesday tip</p>", "attachments": [] }],
+      "settings": [{ "key": "who_can_reply_post", "value": "everyone" }]
+    },
+    {
+      "integrationId": "x-123",
+      "isPremium": false,
+      "date": "2025-01-15T10:00:00.000Z",
+      "shortLink": false,
+      "type": "schedule",
+      "postsAndComments": [{ "content": "<p>Midweek thoughts</p>", "attachments": [] }],
+      "settings": [{ "key": "who_can_reply_post", "value": "everyone" }]
+    },
+    {
+      "integrationId": "x-123",
+      "isPremium": false,
+      "date": "2025-01-16T10:00:00.000Z",
+      "shortLink": false,
+      "type": "schedule",
+      "postsAndComments": [{ "content": "<p>Thursday throwback</p>", "attachments": [] }],
+      "settings": [{ "key": "who_can_reply_post", "value": "everyone" }]
+    },
+    {
+      "integrationId": "x-123",
+      "isPremium": false,
+      "date": "2025-01-17T10:00:00.000Z",
+      "shortLink": false,
+      "type": "schedule",
+      "postsAndComments": [{ "content": "<p>Friday wrap-up</p>", "attachments": [] }],
+      "settings": [{ "key": "who_can_reply_post", "value": "everyone" }]
+    }
+  ]
+}
+```
+
+Each item in the `socialPost` array is an independent post with its own date, content, and settings.

@@ -1,0 +1,54 @@
+# Upload File
+Source: https://docs.postiz.com/public-api/uploads/upload-file
+
+POST /upload
+Upload a media file using multipart form data.
+
+Upload a media file by multipart form. Returns an `id` and `path` you can pass into a post's `image` array.
+
+## Accepted MIME types
+
+The backend inspects the file's actual content (not just the extension) and rejects anything outside this allowlist:
+
+| Type      | MIME         |
+| --------- | ------------ |
+| JPEG      | `image/jpeg` |
+| PNG       | `image/png`  |
+| GIF       | `image/gif`  |
+| WebP      | `image/webp` |
+| AVIF      | `image/avif` |
+| BMP       | `image/bmp`  |
+| TIFF      | `image/tiff` |
+| MP4 video | `video/mp4`  |
+
+PDFs are not accepted. See [Uploads troubleshooting](/troubleshooting/uploads) for limits and recommended video formats.
+
+## Example
+
+```bash theme={null}
+curl -X POST "https://api.postiz.com/public/v1/upload" \
+  -H "Authorization: your-api-key" \
+  -F "file=@photo.jpg"
+```
+
+Example response:
+
+```json theme={null}
+{
+  "id": "01HXYZ123ABCDEF",
+  "path": "https://uploads.postiz.com/photo.jpg"
+}
+```
+
+## Usage in a post
+
+```json theme={null}
+{
+  "image": [
+    {
+      "id": "01HXYZ123ABCDEF",
+      "path": "https://uploads.postiz.com/photo.jpg"
+    }
+  ]
+}
+```

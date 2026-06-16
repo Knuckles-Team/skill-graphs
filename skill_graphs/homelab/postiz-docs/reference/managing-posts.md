@@ -1,0 +1,194 @@
+# Managing Posts
+Source: https://docs.postiz.com/cli/managing-posts
+
+Create, list, and delete social media posts from the command line
+
+## Creating Posts
+
+Use `posts:create` to schedule or draft posts to one or more platforms.
+
+### Simple Post
+
+```bash theme={null}
+postiz posts:create \
+  -c "Hello world!" \
+  -s "2025-01-15T10:00:00Z" \
+  -i "your-integration-id"
+```
+
+### Options
+
+| Flag                 | Description                                            |
+| -------------------- | ------------------------------------------------------ |
+| `-c, --content`      | Post content. Use multiple times for threads/comments. |
+| `-s, --date`         | Schedule date in ISO 8601 format (required)            |
+| `-t, --type`         | `schedule` (default) or `draft`                        |
+| `-m, --media`        | Comma-separated media URLs (use after uploading)       |
+| `-i, --integrations` | Comma-separated integration IDs (required)             |
+| `-d, --delay`        | Delay between comments in milliseconds (default: 5000) |
+| `--settings`         | Platform-specific settings as JSON                     |
+| `-j, --json`         | Path to a JSON file for complex posts                  |
+
+### Draft Post
+
+```bash theme={null}
+postiz posts:create \
+  -c "Review this before publishing" \
+  -s "2025-01-15T10:00:00Z" \
+  -t draft \
+  -i "your-integration-id"
+```
+
+### Post with Media
+
+Upload your media first with the [`upload`](/cli/media-upload) command, then reference the returned URL:
+
+```bash theme={null}
+postiz posts:create \
+  -c "Check out this photo!" \
+  -m "https://uploads.postiz.com/your-image.jpg" \
+  -s "2025-01-15T10:00:00Z" \
+  -i "your-integration-id"
+```
+
+### Threads and Comments
+
+Pass `-c` multiple times to create a thread. Each comment can have its own media with a corresponding `-m` flag:
+
+```bash theme={null}
+postiz posts:create \
+  -c "Thread 1/3" -m "image1.jpg" \
+  -c "Thread 2/3" -m "image2.jpg" \
+  -c "Thread 3/3" \
+  -s "2025-01-15T10:00:00Z" \
+  -i "twitter-integration-id"
+```
+
+Use `-d` to control the delay between comments (in milliseconds):
+
+```bash theme={null}
+postiz posts:create \
+  -c "First tweet" \
+  -c "Second tweet" \
+  -c "Third tweet" \
+  -s "2025-01-15T10:00:00Z" \
+  -d 2000 \
+  -i "twitter-integration-id"
+```
+
+### Multi-Platform Post
+
+Send the same content to multiple platforms by passing comma-separated integration IDs:
+
+```bash theme={null}
+postiz posts:create \
+  -c "Posting everywhere!" \
+  -s "2025-01-15T10:00:00Z" \
+  -i "twitter-id,linkedin-id,facebook-id"
+```
+
+### Platform-Specific Settings
+
+Some platforms require additional settings. Pass them as JSON with `--settings`:
+
+```bash theme={null}
+postiz posts:create \
+  -c "Check out this discussion" \
+  -s "2025-01-15T10:00:00Z" \
+  --settings '{"subreddit":[{"value":{"subreddit":"programming","title":"My Post","type":"text"}}]}' \
+  -i "reddit-integration-id"
+```
+
+<Tip>
+  Use `postiz integrations:settings <id>` to discover what settings are available for each platform. See [Integrations](/cli/integrations) for details.
+</Tip>
+
+### Complex Posts with JSON
+
+For posts with detailed platform-specific content, use a JSON file:
+
+```bash theme={null}
+postiz posts:create --json post.json
+```
+
+Example `post.json`:
+
+```json theme={null}
+{
+  "integrations": ["twitter-123", "linkedin-456"],
+  "posts": [
+    {
+      "provider": "twitter",
+      "post": [{ "content": "Short tweet version", "image": [] }]
+    },
+    {
+      "provider": "linkedin",
+      "post": [{ "content": "Longer LinkedIn version with more detail", "image": [] }],
+      "settings": { "__type": "linkedin" }
+    }
+  ]
+}
+```
+
+## Listing Posts
+
+```bash theme={null}
+postiz posts:list
+```
+
+### Filter by Date Range
+
+```bash theme={null}
+postiz posts:list \
+  --startDate "2025-01-01T00:00:00Z" \
+  --endDate "2025-01-31T23:59:59Z"
+```
+
+### Filter by Customer
+
+```bash theme={null}
+postiz posts:list --customer "customer-id"
+```
+
+## Connecting Missing Posts
+
+Some platforms don't return a post ID immediately after publishing (the `releaseId` is set to `"missing"`). When this happens, you can fetch recent content from the provider and connect the correct one to your post. This enables analytics tracking.
+
+### List Available Content
+
+```bash theme={null}
+postiz posts:missing <post-id>
+```
+
+Returns an array of recent content items from the provider with their ID and thumbnail URL:
+
+```json theme={null}
+[
+  {
+    "id": "7321456789012345678",
+    "url": "https://p16-sign.tiktokcdn-us.com/obj/cover-image.jpeg"
+  },
+  {
+    "id": "7321456789012345679",
+    "url": "https://p16-sign.tiktokcdn-us.com/obj/cover-image2.jpeg"
+  }
+]
+```
+
+<Note>
+  This only works for posts where the `releaseId` is `"missing"`. Returns an empty array if the provider doesn't support this feature.
+</Note>
+
+### Connect a Post
+
+Once you've identified the correct content, update the release ID:
+
+```bash theme={null}
+postiz posts:connect <post-id> --release-id "7321456789012345678"
+```
+
+After connecting, the post will support full analytics via `postiz analytics:post`.
+
+### Full Workflow
+
+```bash theme={null}

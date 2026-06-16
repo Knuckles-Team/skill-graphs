@@ -1,0 +1,758 @@
+# Distributed tracing with Agent Server
+Source: https://docs.langchain.com/langsmith/agent-server-distributed-tracing
+
+Unify traces when calling your deployed Agent Server from another service using RemoteGraph or the SDK.
+
+When you call a deployed [Agent Server](/langsmith/agent-server) from another service, you can propagate trace context so that the entire request appears as a single unified trace in LangSmith. This uses LangSmith's [distributed tracing](/langsmith/distributed-tracing) capabilities, which propagate context via HTTP headers.
+
+## How it works
+
+Distributed tracing links runs across services using context propagation headers:
+
+1. The **client** infers the trace context from the current run and sends it as HTTP headers.
+2. The **server** reads the headers and adds them to the run's config and metadata as `langsmith-trace` and `langsmith-project` configurable values. You can choose to use these to set the tracing context for a given run when your agent is used.
+
+The headers used are:
+
+* `langsmith-trace`: Contains the trace's dotted order.
+* `baggage`: Specifies the LangSmith project and other optional tags and metadata.
+
+To opt-in to distributed tracing, both client and server need to opt in.
+
+## Configure the server
+
+To accept distributed trace context, your graph must read the trace headers from the config and set the tracing context. The headers are passed through the `configurable` field as `langsmith-trace` and `langsmith-project`.
+
+```python theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+import contextlib
+import langsmith as ls
+from langgraph.graph import StateGraph, MessagesState
+
+# Define your graph
+builder = StateGraph(MessagesState)
+
+# ... add nodes and edges ...
+my_graph = builder.compile()
+
+@contextlib.contextmanager
+async def graph(config):
+    configurable = config.get("configurable", {})
+    parent_trace = configurable.get("langsmith-trace")
+    parent_project = configurable.get("langsmith-project")
+    # If you want to also include metadata and tags from the client
+    metadata = configurable.get("langsmith-metadata")
+    tags = configurable.get("langsmith-tags")
+    with ls.tracing_context(parent=parent_trace, project_name=parent_project, metadata=metadata, tags=tags):
+        yield my_graph
+```
+
+Export this `graph` function in your `langgraph.json`:
+
+```json theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+{
+  "graphs": {
+    "agent": "./src/agent.py:graph"
+  }
+}
+```
+
+## Connect from the client
+
+<Tabs>
+  <Tab title="RemoteGraph">
+    Set `distributed_tracing=True` when initializing [`RemoteGraph`](https://reference.langchain.com/python/langgraph/pregel/remote/RemoteGraph). This automatically propagates trace headers on all requests.
+
+    ```python theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+    from langgraph.graph import StateGraph
+    from langgraph.pregel.remote import RemoteGraph
+
+    remote_graph = RemoteGraph(
+        "agent",
+        url="<DEPLOYMENT_URL>",
+        distributed_tracing=True,  # Enable trace propagation
+    )
+
+    def subgraph_node(query: str):
+        # Trace context is automatically propagated
+        return remote_graph.invoke({
+            "messages": [{"role": "user", "content": query}]
+        })['messages'][-1]['content']
+
+    # The RemoteGraph is called in the context of some on going work.
+    # This could be a parent LangGraph agent, code traced with `@ls.traceable`,
+    # or any other instrumented code.
+    graph = (
+            StateGraph(str)
+                .add_node(subgraph_node)
+                .add_edge("__start__", "subgraph_node")
+                .compile()
+    )
+    # The remote graph's execution will appear as a child of this trace
+    result = graph.invoke("What's the weather in SF?")
+    ```
+  </Tab>
+
+  <Tab title="SDK">
+    If you're using the [LangGraph SDK](/langsmith/reference) directly, propagate trace headers manually using `run_tree.to_headers()`:
+
+    ```python theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+    from langgraph_sdk import get_client
+    import langsmith as ls
+
+    client = get_client(url="<DEPLOYMENT_URL>")
+
+    with ls.trace("call_remote_agent", inputs={"query": query}) as rt:
+        headers = rt.to_headers()
+        async for chunk in client.runs.stream(
+            thread_id=None,
+            assistant_id="agent",
+            input={"messages": [{"role": "user", "content": query}]},
+            stream_mode="values",
+            headers=headers,  # Pass trace headers
+        ):
+            pass
+        return chunk
+
+    result = await call_remote_agent("What's the weather in SF?")
+    ```
+  </Tab>
+</Tabs>
+
+## Related
+
+* [Distributed tracing](/langsmith/distributed-tracing): General distributed tracing concepts and patterns
+* [RemoteGraph](/langsmith/use-remote-graph): Full guide to interacting with deployments using RemoteGraph
+
+***
+
+<div>
+  <Callout icon="terminal-2">
+    [Connect these docs](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+  </Callout>
+
+  <Callout icon="edit">
+    [Edit this page on GitHub](https://github.com/langchain-ai/docs/edit/main/src/langsmith/agent-server-distributed-tracing.mdx) or [file an issue](https://github.com/langchain-ai/docs/issues/new/choose).
+  </Callout>
+</div>
+
+# How to collect user feedback for Agent Server runs
+Source: https://docs.langchain.com/langsmith/agent-server-feedback
+
+This tutorial shows you how to collect user feedback for [Agent Server](/langsmith/agent-server) runs and automatically link them to [traces](/langsmith/observability-concepts#traces) in LangSmith. When creating a run, include the keys in the `feedback_keys` field of the request body. The response will return a pre-signed URL for each key, which your client can use to collect user feedback for the Agent Server run.
+
+LangSmith uses feedback to continuously improve the implementation of your agent. To learn more about how feedback works in LangSmith, refer to [LangSmith feedback](/langsmith/observability-concepts#feedback).
+
+## How it works
+
+1. Create a run and include `feedback_keys` in the request body. For example, when calling `POST /threads/{thread_id}/runs/stream`, set `feedback_keys` in the request body to:
+   ```
+   ["user_liked", "user_disliked"]
+   ```
+2. The `feedback` object from the response contains a pre-signed URL for each key. For example, the `feedback` object is:
+   ```
+   {
+       "user_liked": "https://api.smith.langchain.com/api/v1/feedback/tokens/ef19fedf-dcac-4cbb-a59c-00661efd6425",
+       "user_disliked": "https://api.smith.langchain.com/api/v1/feedback/tokens/e952734e-c0a0-417b-a04d-fc2209691ed5"
+   }
+   ```
+3. Request the returned URL (e.g. `POST /api/v1/feedback/tokens/{token_id}`) to associate the feedback key with the trace generated from the Agent Server run. For more details, refer to the [LangSmith API reference](/langsmith/smith-api-ref).
+4. LangSmith associates the submitted feedback with the run using the selected feedback key (e.g. `user_liked` or `user_disliked`).
+
+## Call the streaming run API with `feedback_keys`
+
+Create a run and parse the `feedback` object from the response.
+
+<Tabs>
+  <Tab title="Python SDK">
+    ```python theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+    from langgraph_sdk import get_client
+
+    client = get_client(url="<DEPLOYMENT_URL>", api_key="<API_KEY>")
+
+    thread = await client.threads.create()
+    thread_id = thread["thread_id"]
+
+    feedback_urls = {}
+
+    async for event in client.runs.stream(
+        thread_id,
+        "agent",
+        input={
+            "messages": [
+                {"role": "user", "content": "Tell me a joke about databases."}
+            ]
+        },
+        stream_mode="updates",
+        feedback_keys=["user_liked", "user_disliked"],
+    ):
+        if event.event == "feedback":
+            # Example: {"user_liked": ".../feedback/tokens/<id>", "user_disliked": "..."}
+            feedback_urls = event.data
+            print("Feedback URLs:", feedback_urls)
+        elif event.event == "updates":
+            print(event.data)
+    ```
+  </Tab>
+
+  <Tab title="JavaScript SDK">
+    ```javascript theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+    import { Client } from "@langchain/langgraph-sdk";
+
+    const client = new Client({ apiUrl: "<DEPLOYMENT_URL>", apiKey: "<API_KEY>" });
+
+    const thread = await client.threads.create();
+    const threadId = thread.thread_id;
+
+    let feedbackUrls = {};
+
+    const streamResponse = client.runs.stream(threadId, "agent", {
+      input: {
+        messages: [{ role: "user", content: "Tell me a joke about databases." }],
+      },
+      streamMode: "updates",
+      feedbackKeys: ["user_liked", "user_disliked"],
+    });
+
+    for await (const event of streamResponse) {
+      if (event.event === "feedback") {
+        // Example: { user_liked: ".../feedback/tokens/<id>", user_disliked: "..." }
+        feedbackUrls = event.data;
+        console.log("Feedback URLs:", feedbackUrls);
+      } else if (event.event === "updates") {
+        console.log(event.data);
+      }
+    }
+    ```
+  </Tab>
+
+  <Tab title="cURL">
+    ```bash theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+    curl --request POST \
+      --url "<DEPLOYMENT_URL>/threads/<THREAD_ID>/runs/stream" \
+      --header "Content-Type: application/json" \
+      --header "x-api-key: <API_KEY>" \
+      --data '{
+        "assistant_id": "agent",
+        "input": {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Tell me a joke about databases."
+            }
+          ]
+        },
+        "stream_mode": "updates",
+        "feedback_keys": ["user_liked", "user_disliked"]
+      }'
+    ```
+  </Tab>
+</Tabs>
+
+## Handle the streamed `feedback` event
+
+The stream emits a `feedback` event like the following:
+
+```text theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+event: feedback
+data: {"user_liked":"https://api.smith.langchain.com/api/v1/feedback/tokens/ef19fedf-dcac-4cbb-a59c-00661efd6425", "user_disliked": "https://api.smith.langchain.com/api/v1/feedback/tokens/e952734e-c0a0-417b-a04d-fc2209691ed5"}
+```
+
+Each key in `data` matches one of the values you passed in `feedback_keys`. Each value is a generated URL your client can call to submit feedback for that run.
+
+## Submit feedback with the generated URL
+
+When the user chooses a feedback option, `POST` to the corresponding URL. `GET` is also supported. See the [LangSmith API reference](/langsmith/smith-api-ref) for more details.
+
+For example, if the user clicks a thumbs down button, call the `user_disliked` URL:
+
+<Tabs>
+  <Tab title="POST">
+    ```bash theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+    curl --request POST \
+      --url "https://api.smith.langchain.com/api/v1/feedback/tokens/e952734e-c0a0-417b-a04d-fc2209691ed5" \
+      --header "Content-Type: application/json" \
+      --data '{
+        "score": 1,
+        "value": 0,
+        "comment": "I didn't like this joke because it didn't make me laugh.",
+        "correction": {},
+        "metadata": {}
+      }'
+    ```
+  </Tab>
+
+  <Tab title="GET">
+    `metadata` is not supported with `GET`.
+
+    ```bash theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+    curl --request GET \
+      --url "https://api.smith.langchain.com/api/v1/feedback/tokens/e952734e-c0a0-417b-a04d-fc2209691ed5?score=1&value=0&comment=I%20didn%27t%20like%20this%20joke%20because%20it%20didn%27t%20make%20me%20laugh.&correction=%7B%7D"
+    ```
+  </Tab>
+</Tabs>
+
+After this request succeeds, LangSmith records feedback on the trace using the key `user_disliked`.
+
+## Optimize feedback data model
+
+The `user_liked` and `user_disliked` keys can also be modeled under a single key such as `user_score`.
+
+For example:
+
+* Use `key="user_score"` with `score=1` for `user_liked`
+* Use `key="user_score"` with `score=-1` for `user_disliked`
+
+This can simplify analysis because all user preference signals are grouped under one feedback key.
+
+The feedback data model is flexible and should be designed for your use case. For example, some applications may prefer separate boolean-style keys (`user_liked`, `user_disliked`), while others may prefer a single numeric score (`user_score`) or a richer rubric with multiple feedback keys.
+
+## Productionize in a client UI
+
+A productionized solution will expose the generated feedback URLs through your frontend instead of calling them manually.
+
+Example high-level implementation:
+
+1. Create the run from your backend or frontend.
+2. Capture the `feedback` object and store the returned URLs.
+3. Render feedback controls such as thumbs up/down buttons and feedback forms.
+4. On feedback submission, `POST` or `GET` a feedback URL based on the user's feedback intent.
+5. Optionally disable the feedback controls after submission and show confirmation to the user.
+
+***
+
+<div>
+  <Callout icon="terminal-2">
+    [Connect these docs](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+  </Callout>
+
+  <Callout icon="edit">
+    [Edit this page on GitHub](https://github.com/langchain-ai/docs/edit/main/src/langsmith/agent-server-feedback.mdx) or [file an issue](https://github.com/langchain-ai/docs/issues/new/choose).
+  </Callout>
+</div>
+
+# Configure LangSmith Agent Server for scale
+Source: https://docs.langchain.com/langsmith/agent-server-scale
+
+The default configuration for LangSmith Agent Server is designed to handle substantial read and write load across a variety of different workloads. By following the best practices outlined below, you can tune your Agent Server to perform optimally for your specific workload. This page describes scaling considerations for the Agent Server and provides examples to help configure your deployment.
+
+<Tip>
+  If you're not yet familiar with how API servers and queue workers operate at the container level, read the [runtime architecture](/langsmith/agent-server#runtime-architecture) overview first.
+</Tip>
+
+For some example self-hosted configurations, refer to the [Example Agent Server configurations for scale](#example-self-hosted-agent-server-configurations) section.
+
+## Scaling for write load
+
+Write load is primarily driven by the following factors:
+
+* Creation of new [runs](/langsmith/background-run)
+* Creation of new checkpoints during run execution
+* Writing to long term memory
+* Creation of new [threads](/langsmith/use-threads)
+* Creation of new [assistants](/langsmith/assistants)
+* Deletion of runs, checkpoints, threads, assistants and cron jobs
+
+The following components are primarily responsible for handling write load:
+
+* API server: Handles initial request and persistence of data to the database.
+* Queue worker: Handles the execution of runs.
+* Redis: Handles the storage of ephemeral data about on-going runs.
+* Postgres: Handles the storage of all data, including run, thread, assistant, cron job, checkpointing and long term memory.
+
+### Best practices for scaling the write path
+
+#### Change `N_JOBS_PER_WORKER` based on assistant characteristics
+
+The default value of [`N_JOBS_PER_WORKER`](/langsmith/env-var#n_jobs_per_worker) is 10. You can change this value to scale the maximum number of runs that can be executed at a time by a single queue worker based on the characteristics of your assistant.
+
+Some general guidelines for changing `N_JOBS_PER_WORKER`:
+
+* If your assistant is CPU bounded, the default value of 10 is likely sufficient. You might lower `N_JOBS_PER_WORKER` if you notice excessive CPU usage on queue workers or delays in run execution.
+* If your assistant is IO bounded, increase `N_JOBS_PER_WORKER` to handle more concurrent runs per worker.
+
+There is no upper limit to `N_JOBS_PER_WORKER`. However, queue workers are greedy when fetching new runs, which means they will try to pick up as many runs as they have available jobs and begin executing them immediately. Setting `N_JOBS_PER_WORKER` too high in environments with bursty traffic can lead to uneven worker utilization and increased run execution times.
+
+#### Avoid synchronous blocking operations
+
+Avoid synchronous blocking operations in your code and prefer asynchronous operations. Long synchronous operations can block the main event loop, causing longer request and run execution times and potential timeouts.
+
+For example, consider an application that needs to sleep for 1 second. Instead of using synchronous code like this:
+
+```python theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+import time
+
+def my_function():
+    time.sleep(1)
+```
+
+Prefer asynchronous code like this:
+
+```python theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+import asyncio
+
+async def my_function():
+    await asyncio.sleep(1)
+```
+
+If an assistant requires synchronous blocking operations, run those in `asyncio.to_thread()` or equivalent.
+
+#### Minimize redundant checkpointing
+
+Minimize redundant checkpointing by setting [`durability`](/oss/python/langgraph/checkpointers#durability-modes) to the minimum value necessary to ensure your data is durable.
+
+The default durability mode is `"async"`, meaning checkpoints are written after each step asynchronously. If an assistant needs to persist only the final state of the run, `durability` can be set to `"exit"`, storing only the final state of the run. This can be set when creating the run:
+
+```python theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+from langgraph_sdk import get_client
+
+client = get_client(url=<DEPLOYMENT_URL>)
+thread = await client.threads.create()
+run = await client.runs.create(
+    thread_id=thread["thread_id"],
+    assistant_id="agent",
+    durability="exit"
+)
+```
+
+#### Self-hosted
+
+<Note>
+  These settings are only required for [self-hosted](/langsmith/self-hosted) deployments. By default, [cloud](/langsmith/cloud) deployments already have these best practices enabled.
+</Note>
+
+##### Enable the use of queue workers <a name="enable-the-use-of-queue-workers" />
+
+By default, the API server manages the queue and does not use queue workers. You can enable the use of queue workers by setting the `queue.enabled` configuration to `true`.
+
+```yaml theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+queue:
+  enabled: true
+```
+
+This will allow the API server to offload the queue management to the queue workers, significantly reducing the load on the API server and allowing it to focus on handling requests.
+
+#### Support a number of jobs equal to expected throughput
+
+The more runs you execute in parallel, the more jobs you will need to handle the load. There are two main parameters to scale the available jobs:
+
+* `number_of_queue_workers`: The number of queue workers provisioned.
+* `N_JOBS_PER_WORKER`: The number of runs that a single queue work can execute at a time. Defaults to 10.
+
+You can calculate the available jobs with the following equation:
+
+```
+available_jobs = number_of_queue_workers * `N_JOBS_PER_WORKER`
+```
+
+Throughput is then the number of runs that can be executed per second by the available jobs:
+
+```
+throughput_per_second = available_jobs / average_run_execution_time_seconds
+```
+
+Therefore, the minimum number of queue workers you should provision to support your expected steady state throughput is:
+
+```
+number_of_queue_workers = throughput_per_second * average_run_execution_time_seconds / `N_JOBS_PER_WORKER`
+```
+
+##### Configure autoscaling for bursty workloads <a name="configure-autoscaling-for-bursty-workloads-write" />
+
+Autoscaling is disabled by default, but should be configured for bursty workloads. Using the same calculations as the [previous section](#support-a-number-of-jobs-equal-to-expected-throughput), you can determine the maximum number of queue workers you should allow the autoscaler to scale to based on maximum expected throughput.
+
+## Scaling for read load
+
+Read load is primarily driven by the following factors:
+
+* Getting the results of a [run](/langsmith/background-run)
+* Getting the state of a [thread](/langsmith/use-threads)
+* Searching for [runs](/langsmith/background-run), [threads](/langsmith/use-threads), [cron jobs](/langsmith/cron-jobs) and [assistants](/langsmith/assistants)
+* Retrieving checkpoints and long term memory
+
+The following components are primarily responsible for handling read load:
+
+* API server: Handles the request and direct retrieval of data from the database.
+* Postgres: Handles the storage of all data, including run, thread, assistant, cron job, checkpointing and long term memory.
+* Redis: Handles the storage of ephemeral data about on-going runs, including streaming messages from queue workers to api servers.
+
+### Best practices for scaling the read path
+
+#### Use filtering to reduce the number of resources returned per request
+
+[Agent Server](/langsmith/agent-server) provides a search API for each resource type. These APIs implement pagination by default and offer many filtering options. Use filtering to reduce the number of resources returned per request and improve performance.
+
+#### Set a TTLs to automatically delete old data
+
+Set a [TTL on threads](/langsmith/configure-ttl) to automatically clean up old data. Runs and checkpoints are automatically deleted when the associated thread is deleted.
+
+#### Avoid polling and use /join to monitor the state of a run
+
+Avoid polling the state of a run by using the `/join` API endpoint. This method returns the final state of the run once the run is complete.
+
+If you need to monitor the output of a run in real-time, use the `/stream` API endpoint. This method streams the run output including the final state of the run.
+
+#### Self-hosted
+
+<Note>
+  These settings are only required for [self-hosted](/langsmith/self-hosted) deployments. By default, [cloud](/langsmith/cloud) deployments already have these best practices enabled.
+</Note>
+
+##### Configure autoscaling for bursty workloads <a name="configure-autoscaling-for-bursty-workloads-read" />
+
+Autoscaling is disabled by default, but should be configured for bursty workloads. You can determine the maximum number of api servers you should allow the autoscaler to scale to based on maximum expected throughput. The default for [cloud](/langsmith/cloud) deployments is a maximum of 10 API servers.
+
+## Example self-hosted Agent Server configurations
+
+<Note>
+  The exact optimal configuration depends on your application complexity, request patterns, and data requirements. Use the following examples in combination with the information in the previous sections and your specific usage to update your deployment configuration as needed. If you have any questions, contact support via [support.langchain.com](https://support.langchain.com).
+</Note>
+
+The following table provides an overview comparing different LangSmith Agent Server configurations for various load patterns (read requests per second / write requests per second) and standard assistant characteristics (average run execution time of 1 second, moderate CPU and memory usage):
+
+|                                                | **[Low / low](#low-reads-low-writes)** | **[Low / high](#low-reads-high-writes)** | **[High / low](#high-reads-low-writes)** | [Medium / medium](#medium-reads-medium-writes) | [High / high](#high-reads-high-writes) |
+| :--------------------------------------------- | :------------------------------------- | :--------------------------------------- | :--------------------------------------- | :--------------------------------------------- | :------------------------------------- |
+| <Tooltip>Write requests per second</Tooltip>   | 5                                      | 5                                        | 500                                      | 50                                             | 500                                    |
+| <Tooltip>Read requests per second</Tooltip>    | 5                                      | 500                                      | 5                                        | 50                                             | 500                                    |
+| **API servers**<br />(1 CPU, 2Gi per server)   | 1 (default)                            | 6                                        | 10                                       | 3                                              | 15                                     |
+| **Queue workers**<br />(1 CPU, 2Gi per worker) | 1 (default)                            | 10                                       | 1 (default)                              | 5                                              | 10                                     |
+| **`N_JOBS_PER_WORKER`**                        | 10 (default)                           | 50                                       | 10                                       | 10                                             | 50                                     |
+| **Redis resources**                            | 2 Gi (default)                         | 2 Gi (default)                           | 2 Gi (default)                           | 2 Gi (default)                                 | 2 Gi (default)                         |
+| **Postgres resources**                         | 2 CPU<br />8 Gi (default)              | 4 CPU<br />16 Gi memory                  | 4 CPU<br />16 Gi                         | 4 CPU<br />16 Gi memory                        | 8 CPU<br />32 Gi memory                |
+
+The following sample configurations enable each of these setups. Load levels are defined as:
+
+* Low means approximately 5 requests per second
+* Medium means approximately 50 requests per second
+* High means approximately 500 requests per second
+
+### Low reads, low writes <a name="low-reads-low-writes" />
+
+The default [LangSmith Deployment](/langsmith/deployment) configuration will handle this load. No custom resource configuration is needed here.
+
+### Low reads, high writes <a name="low-reads-high-writes" />
+
+You have a high volume of write requests (500 per second) being processed by your deployment, but relatively few read requests (5 per second).
+
+For this, we recommend a configuration like this:
+
+```yaml theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+
+# Example configuration for low reads, high writes (5 read/500 write requests per second)
+api:
+  replicas: 6
+  resources:
+    requests:
+      cpu: "1"
+      memory: "2Gi"
+    limits:
+      cpu: "2"
+      memory: "4Gi"
+
+queue:
+  replicas: 10
+  resources:
+    requests:
+      cpu: "1"
+      memory: "2Gi"
+    limits:
+      cpu: "2"
+      memory: "4Gi"
+
+config:
+  numberOfJobsPerWorker: 50
+
+redis:
+  resources:
+    requests:
+      memory: "2Gi"
+    limits:
+      memory: "2Gi"
+
+postgres:
+  resources:
+    requests:
+      cpu: "4"
+      memory: "16Gi"
+    limits:
+      cpu: "8"
+      memory: "32Gi"
+```
+
+### High reads, low writes <a name="high-reads-low-writes" />
+
+You have a high volume of read requests (500 per second) but relatively few write requests (5 per second).
+
+For this, we recommend a configuration like this:
+
+```yaml theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+
+# Example configuration for high reads, low writes (500 read/5 write requests per second)
+api:
+  replicas: 10
+  resources:
+    requests:
+      cpu: "1"
+      memory: "2Gi"
+    limits:
+      cpu: "2"
+      memory: "4Gi"
+
+queue:
+  replicas: 1  # Default, minimal write load
+  resources:
+    requests:
+      cpu: "1"
+      memory: "2Gi"
+    limits:
+      cpu: "2"
+      memory: "4Gi"
+
+redis:
+  resources:
+    requests:
+      memory: "2Gi"
+    limits:
+      memory: "2Gi"
+
+postgres:
+  resources:
+    requests:
+      cpu: "4"
+      memory: "16Gi"
+    limits:
+      cpu: "8"
+      memory: "32Gi"
+  # Consider read replicas for high read scenarios
+  readReplicas: 2
+```
+
+### Medium reads, medium writes <a name="medium-reads-medium-writes" />
+
+This is a balanced configuration that should handle moderate read and write loads (50 read/50 write requests per second).
+
+For this, we recommend a configuration like this:
+
+```yaml theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+
+# Example configuration for medium reads, medium writes (50 read/50 write requests per second)
+api:
+  replicas: 3
+  resources:
+    requests:
+      cpu: "1"
+      memory: "2Gi"
+    limits:
+      cpu: "2"
+      memory: "4Gi"
+
+queue:
+  replicas: 5
+  resources:
+    requests:
+      cpu: "1"
+      memory: "2Gi"
+    limits:
+      cpu: "2"
+      memory: "4Gi"
+
+redis:
+  resources:
+    requests:
+      memory: "2Gi"
+    limits:
+      memory: "2Gi"
+
+postgres:
+  resources:
+    requests:
+      cpu: "4"
+      memory: "16Gi"
+    limits:
+      cpu: "8"
+      memory: "32Gi"
+```
+
+### High reads, high writes <a name="high-reads-high-writes" />
+
+You have high volumes of both read and write requests (500 read/500 write requests per second).
+
+For this, we recommend a configuration like this:
+
+```yaml theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+
+# Example configuration for high reads, high writes (500 read/500 write requests per second)
+api:
+  replicas: 15
+  resources:
+    requests:
+      cpu: "1"
+      memory: "2Gi"
+    limits:
+      cpu: "2"
+      memory: "4Gi"
+
+queue:
+  replicas: 10
+  resources:
+    requests:
+      cpu: "1"
+      memory: "2Gi"
+    limits:
+      cpu: "2"
+      memory: "4Gi"
+
+config:
+  numberOfJobsPerWorker: 50
+
+redis:
+  resources:
+    requests:
+      memory: "2Gi"
+    limits:
+      memory: "2Gi"
+
+postgres:
+  resources:
+    requests:
+      cpu: "8"
+      memory: "32Gi"
+    limits:
+      cpu: "16"
+      memory: "64Gi"
+```
+
+### Autoscaling
+
+If your deployment experiences bursty traffic, you can enable autoscaling to scale the number of API servers and queue workers to handle the load.
+
+Here is a sample configuration for autoscaling for high reads and high writes:
+
+```yaml theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
+api:
+  autoscaling:
+    enabled: true
+    minReplicas: 15
+    maxReplicas: 25
+
+queue:
+  autoscaling:
+    enabled: true
+    minReplicas: 10
+    maxReplicas: 20
+```
+
+<Note>
+  Ensure that your deployment environment has sufficient resources to scale to the recommended size. Monitor your applications and infrastructure to ensure optimal performance. Consider implementing monitoring and alerting to track resource usage and application performance.
+</Note>
+
+***
+
+<div>
+  <Callout icon="terminal-2">
+    [Connect these docs](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.
+  </Callout>
+
+  <Callout icon="edit">
+    [Edit this page on GitHub](https://github.com/langchain-ai/docs/edit/main/src/langsmith/agent-server-scale.mdx) or [file an issue](https://github.com/langchain-ai/docs/issues/new/choose).
+  </Callout>
+</div>

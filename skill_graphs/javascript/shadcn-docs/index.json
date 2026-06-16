@@ -1,0 +1,786 @@
+{
+  "schema": "skill-graph-index/v1",
+  "name": "shadcn-docs",
+  "skill_graph_version": "1.0.0",
+  "kg_ingested": false,
+  "kg_domain": "skillgraph:shadcn-docs",
+  "concepts": [],
+  "source_url": "https://ui.shadcn.com",
+  "file_count": 109,
+  "groups": {
+    "ui.shadcn.com": 1,
+    "ui.shadcn.com/docs": 16,
+    "ui.shadcn.com/docs/components": 59,
+    "ui.shadcn.com/docs/dark-mode": 4,
+    "ui.shadcn.com/docs/forms": 4,
+    "ui.shadcn.com/docs/installation": 10,
+    "ui.shadcn.com/docs/registry": 10,
+    "ui.shadcn.com/docs/rtl": 3,
+    "ui.shadcn.com/schema": 2
+  },
+  "sections": [
+    {
+      "path": "reference/ui.shadcn.com/docs/changelog.md",
+      "title": "Changelog",
+      "group": "ui.shadcn.com/docs",
+      "bytes": 13326,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/cli.md",
+      "title": "Cli",
+      "group": "ui.shadcn.com/docs",
+      "bytes": 14655,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/accordion.md",
+      "title": "Accordion",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 5500,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/alert-dialog.md",
+      "title": "Alert Dialog",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 4797,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/alert.md",
+      "title": "Alert",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 4889,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/aspect-ratio.md",
+      "title": "Aspect Ratio",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3018,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/avatar.md",
+      "title": "Avatar",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 5541,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/badge.md",
+      "title": "Badge",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3920,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/breadcrumb.md",
+      "title": "Breadcrumb",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 5459,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/button-group.md",
+      "title": "Button Group",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 6907,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/button.md",
+      "title": "Button",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 5639,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/calendar.md",
+      "title": "Calendar",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 13917,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/card.md",
+      "title": "Card",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 9110,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/carousel.md",
+      "title": "Carousel",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 9059,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/chart.md",
+      "title": "Chart",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 15945,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/checkbox.md",
+      "title": "Checkbox",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 4721,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/collapsible.md",
+      "title": "Collapsible",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3927,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/combobox.md",
+      "title": "Combobox",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 7900,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/command.md",
+      "title": "Command",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 4450,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/context-menu.md",
+      "title": "Context Menu",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 4887,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/data-table.md",
+      "title": "Data Table",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 29701,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/date-picker.md",
+      "title": "Date Picker",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 4736,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/dialog.md",
+      "title": "Dialog",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3695,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/direction.md",
+      "title": "Direction",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3013,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/drawer.md",
+      "title": "Drawer",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3761,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/dropdown-menu.md",
+      "title": "Dropdown Menu",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 5683,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/empty.md",
+      "title": "Empty",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 6301,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/field.md",
+      "title": "Field",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 13480,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/hover-card.md",
+      "title": "Hover Card",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3457,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/input-group.md",
+      "title": "Input Group",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 8081,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/input-otp.md",
+      "title": "Input Otp",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 4842,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/input.md",
+      "title": "Input",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 5284,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/item.md",
+      "title": "Item",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 8494,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/kbd.md",
+      "title": "Kbd",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3612,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/label.md",
+      "title": "Label",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3074,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/menubar.md",
+      "title": "Menubar",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 4504,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/native-select.md",
+      "title": "Native Select",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 5233,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/navigation-menu.md",
+      "title": "Navigation Menu",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3715,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/pagination.md",
+      "title": "Pagination",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 5898,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/popover.md",
+      "title": "Popover",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3465,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/progress.md",
+      "title": "Progress",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 2556,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/radio-group.md",
+      "title": "Radio Group",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 4610,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/resizable.md",
+      "title": "Resizable",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3714,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/scroll-area.md",
+      "title": "Scroll Area",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 4190,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/select.md",
+      "title": "Select",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 4370,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/separator.md",
+      "title": "Separator",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3159,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/sheet.md",
+      "title": "Sheet",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3322,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/sidebar.md",
+      "title": "Sidebar",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 18192,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/skeleton.md",
+      "title": "Skeleton",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 2750,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/slider.md",
+      "title": "Slider",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3005,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/sonner.md",
+      "title": "Sonner",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 2796,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/spinner.md",
+      "title": "Spinner",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 4041,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/switch.md",
+      "title": "Switch",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3633,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/table.md",
+      "title": "Table",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 5150,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/tabs.md",
+      "title": "Tabs",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 4102,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/textarea.md",
+      "title": "Textarea",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3093,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/toast.md",
+      "title": "Toast",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 1604,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/toggle-group.md",
+      "title": "Toggle Group",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3778,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/toggle.md",
+      "title": "Toggle",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 2851,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/tooltip.md",
+      "title": "Tooltip",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 3474,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components/typography.md",
+      "title": "Typography",
+      "group": "ui.shadcn.com/docs/components",
+      "bytes": 9258,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/components-json.md",
+      "title": "Components Json",
+      "group": "ui.shadcn.com/docs",
+      "bytes": 11025,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/dark-mode/astro.md",
+      "title": "Astro",
+      "group": "ui.shadcn.com/docs/dark-mode",
+      "bytes": 5250,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/dark-mode/next.md",
+      "title": "Next",
+      "group": "ui.shadcn.com/docs/dark-mode",
+      "bytes": 2910,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/dark-mode/remix.md",
+      "title": "Remix",
+      "group": "ui.shadcn.com/docs/dark-mode",
+      "bytes": 6168,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/dark-mode/vite.md",
+      "title": "Vite",
+      "group": "ui.shadcn.com/docs/dark-mode",
+      "bytes": 5219,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/dark-mode.md",
+      "title": "Dark Mode",
+      "group": "ui.shadcn.com/docs",
+      "bytes": 1556,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/directory.md",
+      "title": "Directory",
+      "group": "ui.shadcn.com/docs",
+      "bytes": 2471,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/figma.md",
+      "title": "Figma",
+      "group": "ui.shadcn.com/docs",
+      "bytes": 3031,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/forms/formisch.md",
+      "title": "Formisch",
+      "group": "ui.shadcn.com/docs/forms",
+      "bytes": 29070,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/forms/next.md",
+      "title": "Next",
+      "group": "ui.shadcn.com/docs/forms",
+      "bytes": 24722,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/forms/react-hook-form.md",
+      "title": "React Hook Form",
+      "group": "ui.shadcn.com/docs/forms",
+      "bytes": 25815,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/forms/tanstack-form.md",
+      "title": "Tanstack Form",
+      "group": "ui.shadcn.com/docs/forms",
+      "bytes": 27455,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/forms.md",
+      "title": "Forms",
+      "group": "ui.shadcn.com/docs",
+      "bytes": 1776,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/installation/astro.md",
+      "title": "Astro",
+      "group": "ui.shadcn.com/docs/installation",
+      "bytes": 6887,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/installation/gatsby.md",
+      "title": "Gatsby",
+      "group": "ui.shadcn.com/docs/installation",
+      "bytes": 3858,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/installation/laravel.md",
+      "title": "Laravel",
+      "group": "ui.shadcn.com/docs/installation",
+      "bytes": 3950,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/installation/manual.md",
+      "title": "Manual",
+      "group": "ui.shadcn.com/docs/installation",
+      "bytes": 9205,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/installation/next.md",
+      "title": "Next",
+      "group": "ui.shadcn.com/docs/installation",
+      "bytes": 6775,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/installation/react-router.md",
+      "title": "React Router",
+      "group": "ui.shadcn.com/docs/installation",
+      "bytes": 6050,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/installation/remix.md",
+      "title": "Remix",
+      "group": "ui.shadcn.com/docs/installation",
+      "bytes": 2316,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/installation/tanstack-router.md",
+      "title": "Tanstack Router",
+      "group": "ui.shadcn.com/docs/installation",
+      "bytes": 2336,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/installation/tanstack.md",
+      "title": "Tanstack",
+      "group": "ui.shadcn.com/docs/installation",
+      "bytes": 6684,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/installation/vite.md",
+      "title": "Vite",
+      "group": "ui.shadcn.com/docs/installation",
+      "bytes": 7564,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/javascript.md",
+      "title": "Javascript",
+      "group": "ui.shadcn.com/docs",
+      "bytes": 2636,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/mcp.md",
+      "title": "Mcp",
+      "group": "ui.shadcn.com/docs",
+      "bytes": 10057,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/monorepo.md",
+      "title": "Monorepo",
+      "group": "ui.shadcn.com/docs",
+      "bytes": 9175,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/react-19.md",
+      "title": "React 19",
+      "group": "ui.shadcn.com/docs",
+      "bytes": 6092,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/registry/authentication.md",
+      "title": "Authentication",
+      "group": "ui.shadcn.com/docs/registry",
+      "bytes": 11584,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/registry/examples.md",
+      "title": "Examples",
+      "group": "ui.shadcn.com/docs/registry",
+      "bytes": 35812,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/registry/faq.md",
+      "title": "Faq",
+      "group": "ui.shadcn.com/docs/registry",
+      "bytes": 5836,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/registry/getting-started.md",
+      "title": "Getting Started",
+      "group": "ui.shadcn.com/docs/registry",
+      "bytes": 16982,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/registry/mcp.md",
+      "title": "Mcp",
+      "group": "ui.shadcn.com/docs/registry",
+      "bytes": 3454,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/registry/namespace.md",
+      "title": "Namespace",
+      "group": "ui.shadcn.com/docs/registry",
+      "bytes": 29228,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/registry/open-in-v0.md",
+      "title": "Open In V0",
+      "group": "ui.shadcn.com/docs/registry",
+      "bytes": 4962,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/registry/registry-index.md",
+      "title": "Registry Index",
+      "group": "ui.shadcn.com/docs/registry",
+      "bytes": 3863,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/registry/registry-item-json.md",
+      "title": "Registry Item Json",
+      "group": "ui.shadcn.com/docs/registry",
+      "bytes": 15573,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/registry/registry-json.md",
+      "title": "Registry Json",
+      "group": "ui.shadcn.com/docs/registry",
+      "bytes": 5882,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/registry.md",
+      "title": "Registry",
+      "group": "ui.shadcn.com/docs",
+      "bytes": 2326,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/rtl/next.md",
+      "title": "Next",
+      "group": "ui.shadcn.com/docs/rtl",
+      "bytes": 3921,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/rtl/start.md",
+      "title": "Start",
+      "group": "ui.shadcn.com/docs/rtl",
+      "bytes": 3872,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/rtl/vite.md",
+      "title": "Vite",
+      "group": "ui.shadcn.com/docs/rtl",
+      "bytes": 4360,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/rtl.md",
+      "title": "Rtl",
+      "group": "ui.shadcn.com/docs",
+      "bytes": 5877,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/skills.md",
+      "title": "Skills",
+      "group": "ui.shadcn.com/docs",
+      "bytes": 4660,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/tailwind-v4.md",
+      "title": "Tailwind V4",
+      "group": "ui.shadcn.com/docs",
+      "bytes": 8749,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs/theming.md",
+      "title": "Theming",
+      "group": "ui.shadcn.com/docs",
+      "bytes": 12414,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/docs.md",
+      "title": "Docs",
+      "group": "ui.shadcn.com",
+      "bytes": 5184,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/schema/registry-item.json.md",
+      "title": "Registry Item.Json",
+      "group": "ui.shadcn.com/schema",
+      "bytes": 10075,
+      "headings": []
+    },
+    {
+      "path": "reference/ui.shadcn.com/schema/registry.json.md",
+      "title": "Registry.Json",
+      "group": "ui.shadcn.com/schema",
+      "bytes": 1015,
+      "headings": []
+    }
+  ]
+}

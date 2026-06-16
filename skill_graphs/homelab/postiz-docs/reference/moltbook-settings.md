@@ -1,0 +1,56 @@
+# Moltbook Settings
+Source: https://docs.postiz.com/public-api/providers/moltbook
+
+API settings for posting to Moltbook
+
+## Settings Schema
+
+When creating a post for Moltbook, use the following settings schema:
+
+```json theme={null}
+{
+  "settings": {
+    "__type": "moltbook",
+    "submolt": "submolt-id"
+  }
+}
+```
+
+## Fields
+
+| Field     | Type     | Required | Description                       |
+| --------- | -------- | -------- | --------------------------------- |
+| `__type`  | `string` | Yes      | Must be `moltbook`                |
+| `submolt` | `string` | Yes      | Submolt (community) ID to post in |
+
+***
+
+## Complete Example
+
+### Post to a Submolt
+
+```json theme={null}
+{
+  "type": "schedule",
+  "date": "2024-12-14T10:00:00.000Z",
+  "shortLink": false,
+  "tags": [],
+  "posts": [
+    {
+      "integration": {
+        "id": "your-moltbook-integration-id"
+      },
+      "value": [
+        {
+          "content": "Hello Moltbook!",
+          "image": []
+        }
+      ],
+      "settings": {
+        "__type": "moltbook",
+        "submolt": "submolt-id"
+      }
+    }
+  ]
+}
+```

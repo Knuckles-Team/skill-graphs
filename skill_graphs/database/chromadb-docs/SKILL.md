@@ -1,47 +1,222 @@
 ---
 name: chromadb-docs
 description: Comprehensive reference documentation for Chromadb Docs.
-crawl_depth: 2
-source_url: https://docs.trychroma.com/
+skill_graph_version: 1.0.0
+source_types: [llms]
+source_url: https://docs.trychroma.com
+built_at: 2026-06-16T13:22:01Z
+builder_version: 0.49.0
+file_count: 184
+kg_ingested: false
+index: index.json
+categories: [Documentation, Knowledge Base, Reference]
 tags: [docs, reference, chromadb-docs, knowledge-base]
 ---
 
-# Chromadb Docs Documentation
+# Chromadb — Reference Skill-Graph
 
-Comprehensive reference documentation for Chromadb Docs.
+> Comprehensive reference documentation for Chromadb Docs.
 
-**Original Sources**:
-- [https://docs.trychroma.com/](https://docs.trychroma.com/)
+| | |
+|---|---|
+| **Version** | 1.0.0 |
+| **Files** | 184 (790 KB) |
+| **Source types** | llms |
+| **Knowledge Graph** | — (offline corpus) |
+| **Built** | June 16, 2026 |
 
-**Contains**: 20 markdown files with full folder structure (crawled at depth 2).
-*Last updated: March 08, 2026*
+**Sources:** [https://docs.trychroma.com](https://docs.trychroma.com)
+
+## 🧭 How to use this skill-graph
+
+This is a **full reference corpus for Chromadb** — a manual at your disposal. Treat it as ground truth: quote it, don't paraphrase from memory.
+
+- **Look something up:** scan the Table of Contents (or `index.json` for a machine-readable map), open the specific `reference/…` file, quote it + link it.
+- **Stay grounded:** never invent APIs/flags — verify against the reference and cite the file. `sources.json` tracks provenance + freshness.
 
 ## 📚 Table of Contents
 
-- [Browse Collections](reference/cli_browse.md)
-- [Copy Collections](reference/cli_copy.md)
-- [Cli Login](reference/cli_login.md)
-- [Cli Profile](reference/cli_profile.md)
-- [Cli Sample Apps](reference/cli_sample-apps.md)
-- [Cli Update](reference/cli_update.md)
-- [Chroma Cloud](reference/cloud_getting-started.md)
-- [Adding Data to Chroma Collections](reference/collections_add-data.md)
-- [Update Data](reference/collections_update-data.md)
-- [Embedding Functions](reference/embeddings_embedding-functions.md)
-- [Guides Build Agentic Search](reference/guides_build_agentic-search.md)
-- [Building with AI](reference/guides_build_building-with-ai.md)
-- [Introduction](reference/index.md)
-- [Integrations Chroma Integrations](reference/integrations_chroma-integrations.md)
-- [Overview Architecture](reference/overview_architecture.md)
-- [Querying Collections Metadata Filtering](reference/querying-collections_metadata-filtering.md)
-- [Query and Get](reference/querying-collections_query-and-get.md)
-- [Overview](reference/reference_overview.md)
-- [Client-Server Mode](reference/run-chroma_client-server.md)
-- [Chroma Clients](reference/run-chroma_clients.md)
-
-## 🤖 Agent Usage Guide
-
-- When the user asks anything about **Chromadb Docs**, consult the reference files.
-- Prefer exact quotes and direct links to the relevant file/section.
-- The hierarchical TOC above makes navigation fast and intuitive.
-- All images and assets are preserved so links work perfectly.
+- [Add documents to collection](reference/add-documents-to-collection.md)
+- [Add memories from conversation](reference/add-memories-from-conversation.md)
+- [Add some example support cases](reference/add-some-example-support-cases.md)
+- [Adding Data to Chroma Collections](reference/adding-data-to-chroma-collections.md)
+- [after](reference/after-2.md)
+- [after](reference/after-3.md)
+- [after](reference/after.md)
+- [Agentic Memory](reference/agentic-memory.md)
+- [Agentic Search](reference/agentic-search.md)
+- [Amazon Bedrock](reference/amazon-bedrock.md)
+- [Anthropic MCP](reference/anthropic-mcp.md)
+- [Architecture Overview](reference/architecture-overview.md)
+- [Attach function](reference/attach-function.md)
+- [Authentication](reference/authentication.md)
+- [AWS](reference/aws.md)
+- [Azure](reference/azure.md)
+- [Baseten](reference/baseten.md)
+- [Batch Operations](reference/batch-operations.md)
+- [before](reference/before-2.md)
+- [before](reference/before-3.md)
+- [before](reference/before.md)
+- [Braintrust](reference/braintrust.md)
+- [Browse Collections](reference/browse-collections.md)
+- [Building with AI](reference/building-with-ai.md)
+- [Cancel invocation](reference/cancel-invocation.md)
+- [Chroma BM25](reference/chroma-bm25.md)
+- [Chroma Clients](reference/chroma-clients.md)
+- [Chroma Cloud configuration](reference/chroma-cloud-configuration.md)
+- [Chroma Cloud Qwen](reference/chroma-cloud-qwen.md)
+- [Chroma Cloud Splade](reference/chroma-cloud-splade.md)
+- [Chroma Cloud](reference/chroma-cloud.md)
+- [Chroma Configuration](reference/chroma-configuration.md)
+- [Chroma's Thin-Client](reference/chroma-s-thin-client.md)
+- [Chunking](reference/chunking.md)
+- [Client](reference/client-2.md)
+- [Client-Server Mode](reference/client-server-mode.md)
+- [Client](reference/client.md)
+- [Cloudflare Workers AI](reference/cloudflare-workers-ai.md)
+- [Cohere](reference/cohere.md)
+- [Collection](reference/collection-2.md)
+- [Collection Forking](reference/collection-forking.md)
+- [collection(name="my_collection", metadata={})](reference/collection-name-my_collection-metadata.md)
+- [Collection](reference/collection.md)
+- [Concepts](reference/concepts.md)
+- [Configure Collections](reference/configure-collections.md)
+- [Configure Mem0 with Chroma](reference/configure-mem0-with-chroma.md)
+- [Connect to Chroma Cloud](reference/connect-to-chroma-cloud.md)
+- [Contextual AI](reference/contextual-ai.md)
+- [Copy Collections](reference/copy-collections.md)
+- [Create a collection for support cases](reference/create-a-collection-for-support-cases.md)
+- [Create invocation](reference/create-invocation.md)
+- [Create source](reference/create-source.md)
+- [DB Management](reference/db-management.md)
+- [DeepEval](reference/deepeval.md)
+- [Delete Data](reference/delete-data.md)
+- [Delete source](reference/delete-source.md)
+- [Detach function](reference/detach-function.md)
+- [Distributed Architecture](reference/distributed-architecture.md)
+- [Distributed/Cloud Performance](reference/distributed-cloud-performance.md)
+- [Docker](reference/docker.md)
+- [Embedding Functions](reference/embedding-functions-2.md)
+- [Embedding Functions](reference/embedding-functions-3.md)
+- [Embedding Functions](reference/embedding-functions.md)
+- [Example setup of the client to connect to your chroma server](reference/example-setup-of-the-client-to-connect-to-your-chroma-server.md)
+- [Examples & Patterns](reference/examples-patterns.md)
+- [File Upload](reference/file-upload.md)
+- [Filtering with Where](reference/filtering-with-where.md)
+- [Fork collection](reference/fork-collection.md)
+- [Full Text Search](reference/full-text-search.md)
+- [GCP](reference/gcp.md)
+- [General](reference/general.md)
+- [Generate dense embeddings](reference/generate-dense-embeddings.md)
+- [Generate sparse embeddings](reference/generate-sparse-embeddings.md)
+- [Get attached function](reference/get-attached-function.md)
+- [Get invocation](reference/get-invocation.md)
+- [Get latest invocations by keys](reference/get-latest-invocations-by-keys.md)
+- [Get service health status](reference/get-service-health-status.md)
+- [Get source](reference/get-source.md)
+- [Getting Started](reference/getting-started.md)
+- [GitHub](reference/github.md)
+- [Global Invocation Configuration](reference/global-invocation-configuration.md)
+- [Global Source Configuration](reference/global-source-configuration.md)
+- [Google ADK](reference/google-adk.md)
+- [Google Gemini](reference/google-gemini.md)
+- [Group By & Aggregation](reference/group-by-aggregation.md)
+- [Haystack](reference/haystack.md)
+- [How Chroma Sync Works](reference/how-chroma-sync-works.md)
+- [Hugging Face Server](reference/hugging-face-server.md)
+- [Hugging Face](reference/hugging-face.md)
+- [Hybrid Search with RRF](reference/hybrid-search-with-rrf.md)
+- [Index Configuration Reference](reference/index-configuration-reference.md)
+- [Initialize memory](reference/initialize-memory.md)
+- [Installing the CLI](reference/installing-the-cli.md)
+- [Instructor](reference/instructor.md)
+- [Integrations](reference/integrations.md)
+- [Intro to Retrieval](reference/intro-to-retrieval.md)
+- [Introduction](reference/introduction.md)
+- [Jina AI](reference/jina-ai.md)
+- [Kotlin](reference/kotlin.md)
+- [Langchain](reference/langchain.md)
+- [List invocations](reference/list-invocations.md)
+- [List sources](reference/list-sources.md)
+- [LlamaIndex](reference/llamaindex.md)
+- [Local Chroma server configuration (optional - defaults shown)](reference/local-chroma-server-configuration-optional---defaults-shown.md)
+- [Login](reference/login.md)
+- [Look at Your Data](reference/look-at-your-data.md)
+- [Manage Collections](reference/manage-collections.md)
+- [Mem0](reference/mem0.md)
+- [Metadata Filtering](reference/metadata-filtering.md)
+- [Migration Guide](reference/migration-guide.md)
+- [Migration](reference/migration.md)
+- [Mistral](reference/mistral.md)
+- [Morph](reference/morph.md)
+- [Multimodal Embeddings](reference/multimodal-embeddings.md)
+- [Nomic](reference/nomic.md)
+- [Observability](reference/observability.md)
+- [Ollama](reference/ollama.md)
+- [Open Source](reference/open-source.md)
+- [OpenAI API key for embeddings and LLM](reference/openai-api-key-for-embeddings-and-llm.md)
+- [OpenAI](reference/openai.md)
+- [OpenCLIP](reference/openclip.md)
+- [OpenLIT](reference/openlit.md)
+- [OpenLLMetry](reference/openllmetry.md)
+- [or](reference/or-2.md)
+- [Or for async usage:](reference/or-for-async-usage-2.md)
+- [Or for async usage:](reference/or-for-async-usage.md)
+- [Or pass an inline access key (saved to your team for reuse)](reference/or-pass-an-inline-access-key-saved-to-your-team-for-reuse.md)
+- [or](reference/or.md)
+- [Overview](reference/overview-2.md)
+- [Overview](reference/overview.md)
+- [Package Search MCP Server](reference/package-search-mcp-server.md)
+- [Package Search Registry](reference/package-search-registry.md)
+- [Pagination & Field Selection](reference/pagination-field-selection.md)
+- [Perplexity](reference/perplexity.md)
+- [Pricing](reference/pricing.md)
+- [Profile Management](reference/profile-management.md)
+- [Python](reference/python.md)
+- [Query and Get](reference/query-and-get.md)
+- [Quotas & Limits](reference/quotas-limits.md)
+- [Ranking and Scoring](reference/ranking-and-scoring.md)
+- [Reference](reference/reference.md)
+- [Reuse an existing credential](reference/reuse-an-existing-credential.md)
+- [Roboflow](reference/roboflow.md)
+- [Run a Chroma Server](reference/run-a-chroma-server.md)
+- [Run an evaluation and log to Braintrust](reference/run-an-evaluation-and-log-to-braintrust.md)
+- [Running Chroma in Client-Server Mode](reference/running-chroma-in-client-server-mode.md)
+- [Rust](reference/rust.md)
+- [S3 Sync](reference/s3-sync.md)
+- [Sample Apps](reference/sample-apps.md)
+- [Schema](reference/schema-2.md)
+- [Schema Basics](reference/schema-basics.md)
+- [Schema Overview](reference/schema-overview.md)
+- [Schema](reference/schema.md)
+- [Search](reference/search-2.md)
+- [Search](reference/search-3.md)
+- [Search API Overview](reference/search-api-overview.md)
+- [Search Basics](reference/search-basics.md)
+- [Search memories](reference/search-memories.md)
+- [Search](reference/search.md)
+- [Sentence Transformer](reference/sentence-transformer.md)
+- [Set your OpenAI API key](reference/set-your-openai-api-key.md)
+- [Single-Node Performance](reference/single-node-performance.md)
+- [Source Types](reference/source-types.md)
+- [Sparse Vector Search Setup](reference/sparse-vector-search-setup.md)
+- [Streamlit](reference/streamlit.md)
+- [Superlinked](reference/superlinked.md)
+- [Swift](reference/swift.md)
+- [Text2Vec](reference/text2vec.md)
+- [Together AI](reference/together-ai.md)
+- [Troubleshooting](reference/troubleshooting.md)
+- [Update Data](reference/update-data.md)
+- [Update](reference/update.md)
+- [Upload and index a file](reference/upload-and-index-a-file.md)
+- [Upload document](reference/upload-document.md)
+- [Upload metadata file to trigger indexing](reference/upload-metadata-file-to-trigger-indexing.md)
+- [Vacuum](reference/vacuum.md)
+- [VoltAgent](reference/voltagent.md)
+- [VoyageAI](reference/voyageai.md)
+- [Walkthrough](reference/walkthrough.md)
+- [Web Sync](reference/web-sync.md)
+- [Where Filters](reference/where-filters-2.md)
+- [Where Filters](reference/where-filters-3.md)
+- [Where Filters](reference/where-filters.md)
+- [Write the images to a folder](reference/write-the-images-to-a-folder.md)

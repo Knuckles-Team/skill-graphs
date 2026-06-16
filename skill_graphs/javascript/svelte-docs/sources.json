@@ -1,0 +1,1105 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "svelte-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-06-16T13:22:05Z",
+  "builder_version": "0.49.0",
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "llms",
+      "uri": "https://svelte.dev",
+      "options": {},
+      "extractor": "llms.txt",
+      "fetched_at": "2026-06-16T13:22:05Z",
+      "content_hash": "sha256:292580aaa380372de536d1eed940d640b0dffd70dc07a346831b6c802cd660e3",
+      "doc_count": 211
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/.svelte-files.md",
+      "sha256": "sha256:21167e3b70b9b8a6205755f539302685565034be173829c1a7485844b9b48a7a",
+      "bytes": 2276
+    },
+    {
+      "path": "reference/.svelte.js-and-.svelte.ts-files.md",
+      "sha256": "sha256:b7bd1a3fa7f776752b1008157d8c0b60fcac2b1d6e6a3738b54f746475c76cc6",
+      "bytes": 462
+    },
+    {
+      "path": "reference/accessibility.md",
+      "sha256": "sha256:f8c467860df205d57ad1862165da7fe337133966fc9129c377fa3eae69c9e108",
+      "bytes": 5555
+    },
+    {
+      "path": "reference/adapters.md",
+      "sha256": "sha256:504882fb5b3fdced0b725b1f6ad4c9f52b2f3cfbf63ccb2057bcd2d9412785bc",
+      "bytes": 1638
+    },
+    {
+      "path": "reference/additional-resources.md",
+      "sha256": "sha256:875aff750a012892345ccca6f9029ba13d3bfbf58264c8486f130fa262ee507d",
+      "bytes": 1527
+    },
+    {
+      "path": "reference/advanced-routing.md",
+      "sha256": "sha256:c254a80f5c22596f2c7d6b77efaa05c5abb2c3b293b97acd104f2c9df7952f6e",
+      "bytes": 11303
+    },
+    {
+      "path": "reference/agents.md.md",
+      "sha256": "sha256:5027dfdf3d68d3dc3ef9ab50472d3cb670a9c494532f3be7581906d0b9be01b8",
+      "bytes": 1904
+    },
+    {
+      "path": "reference/also-works-when-creating-a-new-project-directly.md",
+      "sha256": "sha256:fec2a9ff18e621aefcbb71a531604ec272a43d222127116588067d983b5dae70",
+      "bytes": 298
+    },
+    {
+      "path": "reference/analyze-a-file.md",
+      "sha256": "sha256:2cdd0d2e02b383171ddcf74a068d1440fba4be79b1273122de26240d5fd29df5",
+      "bytes": 79
+    },
+    {
+      "path": "reference/analyze-inline-code-escape-as.md",
+      "sha256": "sha256:b541f87cf99d9f3f97dc9bf6caa9e735596c9cbf29a04448bb4d96586efee974",
+      "bytes": 117
+    },
+    {
+      "path": "reference/animate.md",
+      "sha256": "sha256:61d0910c3423b774d53322d7728b993df511673b5be3815cc894d78eee594da9",
+      "bytes": 3821
+    },
+    {
+      "path": "reference/app-env-private.md",
+      "sha256": "sha256:ee600214244da4632bd700e8f91be3633bc7c7e91fe66237c3c4c453c148f6fb",
+      "bytes": 239
+    },
+    {
+      "path": "reference/app-env-public.md",
+      "sha256": "sha256:7f934cd6a5f898383cb474082510cb116abe6a2c395ab939bd8f91adca17bcb3",
+      "bytes": 237
+    },
+    {
+      "path": "reference/app-env.md",
+      "sha256": "sha256:76bac79dfec087ed62ecf51985447f1745a6dcbba1a40bdacca651b5493abb74",
+      "bytes": 924
+    },
+    {
+      "path": "reference/app-environment.md",
+      "sha256": "sha256:5b12d69400ffdd0a27eabe9c842a70dd460e4fe99d857e28833dca201c752197",
+      "bytes": 759
+    },
+    {
+      "path": "reference/app-forms.md",
+      "sha256": "sha256:86d62c1ca5bc24685d2c9cae2e2cdfadb8ee05aaee11f92170da1cb00d572e11",
+      "bytes": 2728
+    },
+    {
+      "path": "reference/app-navigation.md",
+      "sha256": "sha256:c0cf0ee813e3603ff5a79e2677db34e9bf0c945e2daed837994f0e27ea3bd9db",
+      "bytes": 7477
+    },
+    {
+      "path": "reference/app-paths.md",
+      "sha256": "sha256:8902b44d06a6b4fc7162ab7bb0b06f8b73936b4e547a049e4e6764f86d2910d8",
+      "bytes": 3229
+    },
+    {
+      "path": "reference/app-server.md",
+      "sha256": "sha256:97361287ca308b4711958804a21c2563a31fd47c65609527ff366d0c727a41a7",
+      "bytes": 8769
+    },
+    {
+      "path": "reference/app-state.md",
+      "sha256": "sha256:f20c448773075a7f41cf162efec6ae3f3c60f26775ff1fde774dcd14fcc4ca7d",
+      "bytes": 2813
+    },
+    {
+      "path": "reference/app-stores.md",
+      "sha256": "sha256:808dcd006d857f4357c50409c74579ccadcfb485d80ebeaf131cfc2428d3a2ee",
+      "bytes": 2509
+    },
+    {
+      "path": "reference/app-types.md",
+      "sha256": "sha256:1ca413cae0fa0082ff709df2c6a85e5e64a460e29511e57a0d60a75c259d8243",
+      "bytes": 1835
+    },
+    {
+      "path": "reference/attach-....md",
+      "sha256": "sha256:aa571fabfbc746331bbd2a36d2e560ea223b202103ea71f62fd7406a5166da26",
+      "bytes": 4666
+    },
+    {
+      "path": "reference/auth.md",
+      "sha256": "sha256:7788c8b6f19d64f68c3d302c3e0d7ade43517a17185ee4247532d1b749d64322",
+      "bytes": 1605
+    },
+    {
+      "path": "reference/await-....md",
+      "sha256": "sha256:27b43a27233b7653677191b77174be3eae9c5e9179c0c213e37a491e6ae274a3",
+      "bytes": 2009
+    },
+    {
+      "path": "reference/await.md",
+      "sha256": "sha256:b89abec4f9b1b62da7c49c4295472e9cf83d9e189929567e85110adbb0602f21",
+      "bytes": 6512
+    },
+    {
+      "path": "reference/basic-markup.md",
+      "sha256": "sha256:81f3b09baff755165d103073e4f7d1f1dc94009dcfb0fefc4731e719beb29d8c",
+      "bytes": 7538
+    },
+    {
+      "path": "reference/best-practices.md",
+      "sha256": "sha256:4ae99731f75d3d770c34eb07728f4a09b6d82252c5404696217e3e42166db690",
+      "bytes": 6885
+    },
+    {
+      "path": "reference/better-auth.md",
+      "sha256": "sha256:e150830d94e203af69a09639f38d1ece8c6eeef867a454a852e9205a11034af1",
+      "bytes": 488
+    },
+    {
+      "path": "reference/bind.md",
+      "sha256": "sha256:9356e4d82c7b88ac029b27889591b501a985dda94be27703a398d81fc0b46042",
+      "bytes": 14792
+    },
+    {
+      "path": "reference/bindable.md",
+      "sha256": "sha256:e3b147c50ef2c16529acc945c54cf890ff14fdf2adc44319948a386c566b78d1",
+      "bytes": 1636
+    },
+    {
+      "path": "reference/both-email-password-and-github-oauth.md",
+      "sha256": "sha256:04af62fcaac84437040dd88182e77013eea197991d5062585123a9ad6e02daf9",
+      "bytes": 91
+    },
+    {
+      "path": "reference/breakpoint-debugging.md",
+      "sha256": "sha256:acd6aee4a0c2df1d317721d90a51cb9229b453433e4841f909056b93088dae70",
+      "bytes": 2559
+    },
+    {
+      "path": "reference/browser-support.md",
+      "sha256": "sha256:fcddcf1e9f0361bcc6ec4ffd95a24d71a6a664db6552325ce1ff880edd007170",
+      "bytes": 1466
+    },
+    {
+      "path": "reference/building-your-app.md",
+      "sha256": "sha256:5adf1550c560e301d6d7e82faf4ad7020df1e045e9f7d2dd9b6b3b1901579fab",
+      "bytes": 1332
+    },
+    {
+      "path": "reference/class.md",
+      "sha256": "sha256:887c55e4cb0eb8bd24368fd168d613a092b674ce538fc6eea75901f300f5e1b5",
+      "bytes": 3073
+    },
+    {
+      "path": "reference/claude-code.md",
+      "sha256": "sha256:3b03ce61966f68c8ca93da840c6f6b2e158a3bde49a2fb9bad1aebfff482fc25",
+      "bytes": 998
+    },
+    {
+      "path": "reference/cli.md",
+      "sha256": "sha256:57dc0607ad00aa731e5ee765c66378a9ff2a3bd1f81ad863dbba151504644487",
+      "bytes": 1111
+    },
+    {
+      "path": "reference/cloudflare-workers.md",
+      "sha256": "sha256:388ae0b31f5981c7efa8dabf4461d189772135c583721db349829a77d00508de",
+      "bytes": 6254
+    },
+    {
+      "path": "reference/cloudflare.md",
+      "sha256": "sha256:ae4daec7268712dde0124a24be3fc6425ff9cb9ede644b511263a9d224fc24f7",
+      "bytes": 12579
+    },
+    {
+      "path": "reference/command-line-interface.md",
+      "sha256": "sha256:395e83b8c40d2cd72a8e83c241fa1a9c4e38c37074c58cd5f7f534fd32d0ad75",
+      "bytes": 741
+    },
+    {
+      "path": "reference/compiler-errors.md",
+      "sha256": "sha256:785be314a91273ce5b1654b5d1dc5cda38f6a6536c3c94883eccf40b3b01f53d",
+      "bytes": 24487
+    },
+    {
+      "path": "reference/compiler-warnings.md",
+      "sha256": "sha256:f5500defcf09a46989f023887b6e2c0ee6d049d5157070b4838f94bf3bc85e44",
+      "bytes": 30507
+    },
+    {
+      "path": "reference/configuration.md",
+      "sha256": "sha256:81ac4452edcfe395f90c9de25ad1cbe0fbaa5ea9a3d9200767b03947fa3f3be2",
+      "bytes": 39906
+    },
+    {
+      "path": "reference/const-....md",
+      "sha256": "sha256:ce263b2bae3971ac9b0f401f6a790cafddd8b68235301e67b7d23b7bc0d7e92e",
+      "bytes": 462
+    },
+    {
+      "path": "reference/context.md",
+      "sha256": "sha256:53bc4a6ea40e3a0c9a81bd39410e1fbc1dd8051ef0b249ded69cafab86924a5c",
+      "bytes": 5543
+    },
+    {
+      "path": "reference/create-your-own.md",
+      "sha256": "sha256:355992e6a1e0e330bf4c0b162c311eef2ca8a3d581fbf71159ed796f1736255b",
+      "bytes": 6513
+    },
+    {
+      "path": "reference/creating-a-project.md",
+      "sha256": "sha256:2dd148903bbb03ff94450ff54a0dfdef5867a0fcb5641bb1a27daee7caa49c01",
+      "bytes": 1364
+    },
+    {
+      "path": "reference/cursor.md",
+      "sha256": "sha256:72543ef0cf0c3dde70ae38610e0851352f153e655fccd0595b0ef6546c2f9554",
+      "bytes": 1183
+    },
+    {
+      "path": "reference/custom-elements.md",
+      "sha256": "sha256:00a8421a979a426abc67f32ce964df0c22755b5ede246210c371b371a3674507",
+      "bytes": 8695
+    },
+    {
+      "path": "reference/custom-properties.md",
+      "sha256": "sha256:67179e44ced1db166e47b4307e4aaf922457e3322d951f7e835a609d43a989fb",
+      "bytes": 1454
+    },
+    {
+      "path": "reference/debug-....md",
+      "sha256": "sha256:4a97060e0e8aca35de4e0b48d1f16faedd295e47ed5b0c13e3d2ff1908139b4d",
+      "bytes": 796
+    },
+    {
+      "path": "reference/derived.md",
+      "sha256": "sha256:24a7282db805b882c170f37f71e6e347c59343412070a0f1509ed9b6a2fad4ba",
+      "bytes": 4644
+    },
+    {
+      "path": "reference/drizzle.md",
+      "sha256": "sha256:8dd33269209d6491ca6cbf652ae7a558d34192198bc308877525271d48b594fc",
+      "bytes": 1580
+    },
+    {
+      "path": "reference/each-....md",
+      "sha256": "sha256:e87720da73a3010d8a21e158909dd6a9d8b8115f63db21ed2b304211e5f43a1b",
+      "bytes": 3241
+    },
+    {
+      "path": "reference/effect.md",
+      "sha256": "sha256:1a13f9688b8844ff2ace245d338014dc9087238b6b384613a678b31b42e5f83f",
+      "bytes": 11454
+    },
+    {
+      "path": "reference/email-password-only-default.md",
+      "sha256": "sha256:e7b8f8a720bf576f21ecda662d2c77d14c00acea423430c4f3e772ead8aefac0",
+      "bytes": 73
+    },
+    {
+      "path": "reference/env-dynamic-private.md",
+      "sha256": "sha256:1f505e441810f5fca082a17de933391f6c97f1670c244ab595597ef818acaf42",
+      "bytes": 2113
+    },
+    {
+      "path": "reference/env-dynamic-public.md",
+      "sha256": "sha256:18e3e7f55a4e23f6e8264f95949e7d509177766099b6bd8896d86fb279fa300f",
+      "bytes": 2059
+    },
+    {
+      "path": "reference/env-static-private.md",
+      "sha256": "sha256:2c3a2015c59ea0dcf6b2e44c9cb760844988c66d4a4d1ebb99ad1b45e5410cac",
+      "bytes": 1890
+    },
+    {
+      "path": "reference/env-static-public.md",
+      "sha256": "sha256:519970aab5950b9af8ef7288d69402f6d2eb39f074c62db63dbfc0562fc37616",
+      "bytes": 1804
+    },
+    {
+      "path": "reference/environment-variables.md",
+      "sha256": "sha256:9770dedb5439be7e5f1716417286a2905b4be64d99be13cf5e356c7aa0822089",
+      "bytes": 6003
+    },
+    {
+      "path": "reference/errors.md",
+      "sha256": "sha256:e72254dc6a8c767b7c6a3d77d0e88fa7abb24bf514bef061cad8222fe4713686",
+      "bytes": 6736
+    },
+    {
+      "path": "reference/eslint.md",
+      "sha256": "sha256:73a34655bb5fe3ec9820af5c86d865a456cf75c546468c921cd3a4a5c2d419d3",
+      "bytes": 351
+    },
+    {
+      "path": "reference/experimental.md",
+      "sha256": "sha256:329da070603b152082a241c7a85073584455e6d2062d0e23cc5d18de4615bf37",
+      "bytes": 1032
+    },
+    {
+      "path": "reference/export-let.md",
+      "sha256": "sha256:87a8b214cd124ac9f0f22e838b0e73a063ba8df70fc087d1248fecbdc9642ae1",
+      "bytes": 1801
+    },
+    {
+      "path": "reference/form-actions.md",
+      "sha256": "sha256:7224b994c48d051637431b972bfef67f86ea5f7433806a436b0a02d47d5b316c",
+      "bytes": 17224
+    },
+    {
+      "path": "reference/frequently-asked-questions-2.md",
+      "sha256": "sha256:eff7994cd4d85f4f37d47332fa41b852a89bc2c75f2d7536245614bfdf6777d8",
+      "bytes": 9603
+    },
+    {
+      "path": "reference/frequently-asked-questions-3.md",
+      "sha256": "sha256:71582030f951aa3e69463efbacb7916958dec4e3166782067e0c14a656d7f433",
+      "bytes": 1012
+    },
+    {
+      "path": "reference/frequently-asked-questions.md",
+      "sha256": "sha256:c596cba7a071a617b764dcc9e825a237021e025bc1ef763c72bd603a01fc6fb8",
+      "bytes": 9567
+    },
+    {
+      "path": "reference/getting-started.md",
+      "sha256": "sha256:01059320dac8994b5298976e82d0a496a42a214894052e26870a5d5544adb257",
+      "bytes": 1806
+    },
+    {
+      "path": "reference/github-oauth-only.md",
+      "sha256": "sha256:a3a8c1f230141812256aa6ddfed11c889f6488a40d7e197d2d1da21ac6b57b2e",
+      "bytes": 57
+    },
+    {
+      "path": "reference/global-styles.md",
+      "sha256": "sha256:0eb0c7e93a7f0ed1b371bf0beea50d1ca20b2d70fc19ae6512a4a161f95122c6",
+      "bytes": 1550
+    },
+    {
+      "path": "reference/glossary.md",
+      "sha256": "sha256:afd359684e189f6e843881e6f2c1626c22770dd0b9640235de3c2ef4b6bea185",
+      "bytes": 6988
+    },
+    {
+      "path": "reference/hooks.md",
+      "sha256": "sha256:d4b65f8b5bd85210ac212a37e9473391e31f7307f4c5a029fb1a01b632fec5fd",
+      "bytes": 16875
+    },
+    {
+      "path": "reference/host.md",
+      "sha256": "sha256:d397e53c237a2e801c3e076b1a9be4098a14a09d1dbefe54cde4fa775ad3b35a",
+      "bytes": 784
+    },
+    {
+      "path": "reference/html-....md",
+      "sha256": "sha256:510cdb78873cdb51d2768aec1b7e43a8a9bc92fee2cb095414f1af8a1a4ab046",
+      "bytes": 1158
+    },
+    {
+      "path": "reference/hydratable-data.md",
+      "sha256": "sha256:09c3490dc4aa6550f200113a045dbc206077b7008c09037fd97aa41b12f1690e",
+      "bytes": 4565
+    },
+    {
+      "path": "reference/icons.md",
+      "sha256": "sha256:3f36501d860c10896b555b266015ebb78b15db4766a9d056f4995f46c66ef975",
+      "bytes": 1203
+    },
+    {
+      "path": "reference/if-....md",
+      "sha256": "sha256:b8a73685d466967c24176b944c7c69d9a1a49859e9b120176376fe672fa3ec15",
+      "bytes": 723
+    },
+    {
+      "path": "reference/images.md",
+      "sha256": "sha256:9daa39ccdf583335a50f16c85e392ba2ab6a8bd95708f4dc2fb7f13af1799774",
+      "bytes": 11123
+    },
+    {
+      "path": "reference/imperative-component-api-2.md",
+      "sha256": "sha256:2127a140338dcd1f61889c3f81475bb8e8c2a942334a87d2afbbc962d5bfc943",
+      "bytes": 6462
+    },
+    {
+      "path": "reference/imperative-component-api.md",
+      "sha256": "sha256:8b6365341d8f4755da2f11fb737934884c72e44be3f11f85f27c42381711c698",
+      "bytes": 2668
+    },
+    {
+      "path": "reference/in-and-out.md",
+      "sha256": "sha256:41e13c324eedc0b75353436b52e62c555f57b1f45452028a4155181b40b17293",
+      "bytes": 663
+    },
+    {
+      "path": "reference/inspect.md",
+      "sha256": "sha256:f3efe8fff74cb2c79823512c2474a521ab00e563822d9883b8dcde4416902d9f",
+      "bytes": 2169
+    },
+    {
+      "path": "reference/install-a-community-add-on-by-org-name-it-will-look-at-org-sv.md",
+      "sha256": "sha256:d3a781d746a6a5f5fd5643cb91f4708f5b585fed5230060f65a5e34f22ae2fb4",
+      "bytes": 88
+    },
+    {
+      "path": "reference/integrations.md",
+      "sha256": "sha256:1ba87fabc73351887a55a2bed36b38f168483dfee931458ac0cbbe1d4e674465",
+      "bytes": 2929
+    },
+    {
+      "path": "reference/introduction.md",
+      "sha256": "sha256:7b3e225a84f2e29ba3804e121a23de0424d7217fc26fdbb53fc0ff66d807bf94",
+      "bytes": 2701
+    },
+    {
+      "path": "reference/key-....md",
+      "sha256": "sha256:691ab3b880492d54d48e502d4d9048462e134afdb591236a2422964658cf2ae9",
+      "bytes": 456
+    },
+    {
+      "path": "reference/let-const-....md",
+      "sha256": "sha256:a86da10a0b60505448f4daa23c5e6dad88010dea340d9a720544a15f164411a4",
+      "bytes": 1805
+    },
+    {
+      "path": "reference/lib.md",
+      "sha256": "sha256:48b1af4735c07d47e36be19888718d6e3a50edd63cbbee44b882b6ce719781ee",
+      "bytes": 317
+    },
+    {
+      "path": "reference/lifecycle-hooks.md",
+      "sha256": "sha256:2095f9de409dcfd19c50009599190a33dcdb7b0934b4115706fe93d54808a966",
+      "bytes": 5255
+    },
+    {
+      "path": "reference/link-options.md",
+      "sha256": "sha256:d6094fced19a60f2a160c9260f2719c7f9b4130f3a9fe6905fac06e84a0084bb",
+      "bytes": 6753
+    },
+    {
+      "path": "reference/loading-data.md",
+      "sha256": "sha256:e81385f7aeccc29756e46e03cef9d226e0baa1814dce4ddaca7025dd8978bca5",
+      "bytes": 31379
+    },
+    {
+      "path": "reference/local-setup.md",
+      "sha256": "sha256:bce5d822aa436a8db82e33000f3c6254204cba7c3e3d30a75fc90ea89d0b6251",
+      "bytes": 3684
+    },
+    {
+      "path": "reference/mcp.md",
+      "sha256": "sha256:2d9331f1c29a0240ee85d1161b3eb7e1c229e0d93a9ef1dfafec8cd570f6fc5f",
+      "bytes": 612
+    },
+    {
+      "path": "reference/mdsvex.md",
+      "sha256": "sha256:8a50d63952762b96df4a43425c28cf0efabbde68794a5099994c25a9f85d8fd1",
+      "bytes": 335
+    },
+    {
+      "path": "reference/migrating-from-sapper.md",
+      "sha256": "sha256:284271329a48874aa309fcd59bf63b1fc06253eb5caa7107ed93d218bd053ce2",
+      "bytes": 9170
+    },
+    {
+      "path": "reference/migrating-to-sveltekit-v2.md",
+      "sha256": "sha256:a3c90dc6e8f0ba715c5a5365f5e8d98c713d1696d5ec67cb1a1acbae4bd0e422",
+      "bytes": 13129
+    },
+    {
+      "path": "reference/mix-and-match-official-and-community-add-ons.md",
+      "sha256": "sha256:0157bb4778715ee00a46e1e11361049e836d8bf40b4e884d2dbe49100f80710e",
+      "bytes": 75
+    },
+    {
+      "path": "reference/nested-style-elements.md",
+      "sha256": "sha256:39a4955bc1889430a4db4fd2112dff2b1d0aed6e75824bebdf5c593e80255afe",
+      "bytes": 495
+    },
+    {
+      "path": "reference/netlify.md",
+      "sha256": "sha256:861bb9d63c6b6ae689d89b0264f2e0a677ba5740aa83d1f245198451b18e88ca",
+      "bytes": 6325
+    },
+    {
+      "path": "reference/node-servers.md",
+      "sha256": "sha256:0cc89393d9ece662b6bf2274f6728b9ee05fde45fda35236b791c634ddeed58a",
+      "bytes": 3454
+    },
+    {
+      "path": "reference/observability.md",
+      "sha256": "sha256:23953fabbdda9d5ba72b5c1c484fdbc02f94a804a74ca81d88f693e4e7220736",
+      "bytes": 5037
+    },
+    {
+      "path": "reference/on.md",
+      "sha256": "sha256:40b9a6e0acf93d53cd6f74de7f218b341144aafd615d62c189973c58d288cbbf",
+      "bytes": 3662
+    },
+    {
+      "path": "reference/opencode.md",
+      "sha256": "sha256:5f71313625fbebbd67d6f5dfb8aea766d97caf74e6fd174165260e7e51bed0a7",
+      "bytes": 1581
+    },
+    {
+      "path": "reference/or-e.g.-for-local-previewing-and-testing.md",
+      "sha256": "sha256:5adb9f3f3f0852dcc82184535f3754954bc1d5d01464b32a738692b8ee253646",
+      "bytes": 10075
+    },
+    {
+      "path": "reference/or.md",
+      "sha256": "sha256:494e305526fa593634935278d5adc0cf2906e06d81b66abf26c81b18f40f82a8",
+      "bytes": 1147
+    },
+    {
+      "path": "reference/overview-2.md",
+      "sha256": "sha256:2a17e18a8bd7cb177c2aaad780df8421552e8dee1771f78528802a5b6d3a3cc5",
+      "bytes": 962
+    },
+    {
+      "path": "reference/overview-3.md",
+      "sha256": "sha256:9247fe6ca88496f1eca17f695ca28c6c37fde103f4702bf132181181211cd0fd",
+      "bytes": 914
+    },
+    {
+      "path": "reference/overview-4.md",
+      "sha256": "sha256:e76dee2dd127d5565f2be9015a4a1b1064a25bcfbb50a8af99b59cf862807baa",
+      "bytes": 886
+    },
+    {
+      "path": "reference/overview-5.md",
+      "sha256": "sha256:b89ce85751bd35aaee3c6f822f00708d280b04defae3f89c5067aa1adc13fc6a",
+      "bytes": 763
+    },
+    {
+      "path": "reference/overview-6.md",
+      "sha256": "sha256:e0070a52961732b74410e4906519671a0f6cd74cc0a7aefb6c6df519d1596876",
+      "bytes": 1184
+    },
+    {
+      "path": "reference/overview-7.md",
+      "sha256": "sha256:63910ab03f73b8d9ff80dcf6f0b53725d5173a63c67e91b8732304223d5189a8",
+      "bytes": 3749
+    },
+    {
+      "path": "reference/overview.md",
+      "sha256": "sha256:93e5cbefd0dfe1780f7effb56ed1af0a024218d8dbd6583aa207b150c5fbd986",
+      "bytes": 850
+    },
+    {
+      "path": "reference/packaging.md",
+      "sha256": "sha256:c999b75f21cc2ffbf224ced8fec4fcde92b55cd9602bb1a4abb8367626e485e3",
+      "bytes": 15151
+    },
+    {
+      "path": "reference/page-options.md",
+      "sha256": "sha256:5c3795aa096c4ab9a253dbda7f4c8046d5f63834c787093b2bb4c875378f91d7",
+      "bytes": 13190
+    },
+    {
+      "path": "reference/paraglide.md",
+      "sha256": "sha256:f684e70d207bc4d523a48163a46f6d9ebdaf7ecb1b60163e803b780d81b680aa",
+      "bytes": 813
+    },
+    {
+      "path": "reference/performance.md",
+      "sha256": "sha256:cba664bdba92cc43c77c5ed07fbc46469a48653eaba807965583a8e77d4862b9",
+      "bytes": 10267
+    },
+    {
+      "path": "reference/playwright.md",
+      "sha256": "sha256:247b11639401ba51ccf32ace24075c3b9082e705707c8980de15303c76c0fb2c",
+      "bytes": 235
+    },
+    {
+      "path": "reference/prettier.md",
+      "sha256": "sha256:46e5f4fad16ac715bd9f2cedf25e1f001afa66f7b51475f083f11026a3a452f5",
+      "bytes": 275
+    },
+    {
+      "path": "reference/project-structure.md",
+      "sha256": "sha256:2093ff5fb92e451986dcf1338b49f8da62fde8af11678892fd54ab5d442345e2",
+      "bytes": 5831
+    },
+    {
+      "path": "reference/project-types.md",
+      "sha256": "sha256:bd11423aea52be8ab706262446dfb309952a2ffd76b79be64d8cbc9db6abd385",
+      "bytes": 6888
+    },
+    {
+      "path": "reference/prompts.md",
+      "sha256": "sha256:9924eb3be1c7af6bf4a6595d8b4107898ff6cbba05629ed99ab860c003804737",
+      "bytes": 35836
+    },
+    {
+      "path": "reference/props-and-restprops.md",
+      "sha256": "sha256:8b4ad39673fa5426b0bed317ece9b0e13ed90ea0e5091cb54e5652d64ed6a939",
+      "bytes": 915
+    },
+    {
+      "path": "reference/props.md",
+      "sha256": "sha256:aba3f7c7aca3d3ce4888255657d9d3c4bfd7c1500a02b11b127b258ceafa71b1",
+      "bytes": 6323
+    },
+    {
+      "path": "reference/reactive-let-var-declarations.md",
+      "sha256": "sha256:61845c521f4cf3c03e9394a1b9d12dfad603227956111fbd644d41832c252812",
+      "bytes": 950
+    },
+    {
+      "path": "reference/reactive-statements.md",
+      "sha256": "sha256:0d8e354c893ec38292a88194f14cedd9ecdce53c0e43fdfc414963b6310055eb",
+      "bytes": 2488
+    },
+    {
+      "path": "reference/remote-functions.md",
+      "sha256": "sha256:8b9f9e9620f6878834bda6d8cfb7734094bf325d2d9531f7a0d15f88abce3647",
+      "bytes": 46906
+    },
+    {
+      "path": "reference/remote-setup.md",
+      "sha256": "sha256:721acb91bc2b03e2b47197449741a49abb0d692a5d0bf249d7d1209b26fb733b",
+      "bytes": 3365
+    },
+    {
+      "path": "reference/render-....md",
+      "sha256": "sha256:1285858caa57126919873ac3178344123534e1fd554cc3426f5960adbb4cc2a9",
+      "bytes": 778
+    },
+    {
+      "path": "reference/resources.md",
+      "sha256": "sha256:40a236086daaacfe94864743a642c16c381100be603c4cb84e77cac77c208a06",
+      "bytes": 641
+    },
+    {
+      "path": "reference/routing.md",
+      "sha256": "sha256:5fc36eb23816fefc00472697b676ea698972085e8237adadaa903de17ca8a658",
+      "bytes": 17711
+    },
+    {
+      "path": "reference/runtime-errors.md",
+      "sha256": "sha256:ff6001ab2482e0d69b5929a4b79d6c3e383dbf8c444ae5155d3186379c118ea9",
+      "bytes": 15781
+    },
+    {
+      "path": "reference/runtime-warnings.md",
+      "sha256": "sha256:a492bf30fa747777b8ba2e7bffa8f96ad42a3c96b51e516b6200ccdad56c8ebc",
+      "bytes": 14489
+    },
+    {
+      "path": "reference/scoped-styles.md",
+      "sha256": "sha256:436cb0ceaafbbb5ce009bbf64a99fb7804c0eb422982ff8108cff36294d74529",
+      "bytes": 1473
+    },
+    {
+      "path": "reference/section.md",
+      "sha256": "sha256:127fb181afa9ca140400075d7ca0c6afcff0b40d19858a18f76b7eaea7577f68",
+      "bytes": 84
+    },
+    {
+      "path": "reference/seo.md",
+      "sha256": "sha256:96a1c0a7e5cb2f3252043559ec7356bc6369e8d98f52b0918f29b8d0386574d3",
+      "bytes": 5669
+    },
+    {
+      "path": "reference/server-only-modules.md",
+      "sha256": "sha256:1bc907a79f87d6b75f6232a1afd6415ae1eb0095a4cdc7d0ec7de4eca39f133f",
+      "bytes": 2582
+    },
+    {
+      "path": "reference/service-worker.md",
+      "sha256": "sha256:586ecd858017325d5275c4f0ee9c7956a4a2f7cd77ca0f1d4a6993daaad65226",
+      "bytes": 1713
+    },
+    {
+      "path": "reference/service-workers.md",
+      "sha256": "sha256:bed899e1de1c9ccf3100d378b41253020daee3123df4d3fe4b7a916af7224a80",
+      "bytes": 5714
+    },
+    {
+      "path": "reference/shallow-routing.md",
+      "sha256": "sha256:17c4a283f198c3a55223f2c5013be09cc04cd6c09ab014a4b0a2f7f53fc5ca73",
+      "bytes": 4711
+    },
+    {
+      "path": "reference/single-page-apps.md",
+      "sha256": "sha256:abd292e531579933d82c842fc60fbfa898f61e4fe95066c083ff9b0036dc887c",
+      "bytes": 4322
+    },
+    {
+      "path": "reference/slot.md",
+      "sha256": "sha256:d84cbc6e68052c1d3b48d189085fe2412c38cf1d05ce241b6023ee42ca7be1d7",
+      "bytes": 2765
+    },
+    {
+      "path": "reference/slots.md",
+      "sha256": "sha256:51a349cde0798d38bb88ad1456e924d20c8c7377512d2a3b0a59e8d8245ed674",
+      "bytes": 731
+    },
+    {
+      "path": "reference/snapshots.md",
+      "sha256": "sha256:2cdf59b5f8b564afe4d03e8a188cad6f05bf15dcfcf3f34fb80167978d50dd90",
+      "bytes": 1737
+    },
+    {
+      "path": "reference/snippet-....md",
+      "sha256": "sha256:d0330abbbea450edccdb11b9a8a628792dc90aa979582f241ff17f027e9ab11f",
+      "bytes": 8274
+    },
+    {
+      "path": "reference/start-of-svelte-ai-documentation.md",
+      "sha256": "sha256:3dd121fd8aee6a639de88b56a11e174296d5ed142cf4df7ac93295257eabccee",
+      "bytes": 35
+    },
+    {
+      "path": "reference/start-of-svelte-cli-documentation.md",
+      "sha256": "sha256:c30b6b8454881584bce889d5a338591af1656caaf10cba1d6a60a291a291996b",
+      "bytes": 36
+    },
+    {
+      "path": "reference/start-of-svelte-documentation.md",
+      "sha256": "sha256:143f54aaa16def10c84165349aa3f545e821ac531308a3d949eb15d702c172a9",
+      "bytes": 32
+    },
+    {
+      "path": "reference/start-of-sveltekit-documentation.md",
+      "sha256": "sha256:a37a50c8a484ee4e97ce3f0b8bcb965ad559f54e77391a05109c6e5b8522ce80",
+      "bytes": 35
+    },
+    {
+      "path": "reference/state-management.md",
+      "sha256": "sha256:d54f865843b2feab674f2a3691fcef1b8cff5855d0d3a8f6102326f8729b52aa",
+      "bytes": 7975
+    },
+    {
+      "path": "reference/state.md",
+      "sha256": "sha256:56ec8e2773d3691d6e18af4c38eb3c14e29ba96b1c1f9f8af980e6deb4d52a5a",
+      "bytes": 9501
+    },
+    {
+      "path": "reference/static-site-generation.md",
+      "sha256": "sha256:46460c19516d33a6d2d108b6a614fd9ce1adfe798e3dd4cf113d8418eb520345",
+      "bytes": 6500
+    },
+    {
+      "path": "reference/stores.md",
+      "sha256": "sha256:72814f6437b57ee7f353e5a6aa719ee18ac770dde156fd143621b7ea55a300e7",
+      "bytes": 10224
+    },
+    {
+      "path": "reference/storybook.md",
+      "sha256": "sha256:60af5585fe88de6ba323956db81c237490f7b3c6b1f059f3aea891cfd3853dcf",
+      "bytes": 538
+    },
+    {
+      "path": "reference/style.md",
+      "sha256": "sha256:bc48663c30f0b02f7ff0bbb6bbdee5d78f1ad781d16eb5f1d5ed5fa6b6463be9",
+      "bytes": 1059
+    },
+    {
+      "path": "reference/sv-add.md",
+      "sha256": "sha256:7af7aa281b2acb4732b3317f66404d2e9ac409444da919f553ca03718488fe41",
+      "bytes": 1691
+    },
+    {
+      "path": "reference/sv-check.md",
+      "sha256": "sha256:492ef0b31024e4cc2a1f9a7df2e16aed38d31aac8e9feee86c34c8d100cf4ab3",
+      "bytes": 6478
+    },
+    {
+      "path": "reference/sv-create.md",
+      "sha256": "sha256:c4fb24f3f33f11fbbc18e20e11b513c2f157c63716e0a28a422aaea16f0771b2",
+      "bytes": 1856
+    },
+    {
+      "path": "reference/sv-migrate.md",
+      "sha256": "sha256:6b84ca4514d6d1f18e94b8d652c70e9626b8baa4ff89d3a58c82f7b867ac0776",
+      "bytes": 1618
+    },
+    {
+      "path": "reference/sv-utils.md",
+      "sha256": "sha256:1fdecb006eb205b822e3a0c704f0ebcba727ed6d0e853bad74f9803b74c6c75d",
+      "bytes": 9221
+    },
+    {
+      "path": "reference/sv.md",
+      "sha256": "sha256:65af45c82a5e080218aa6197d0a6b8decc3f054cf315910ff48bf2f56c5fa53e",
+      "bytes": 2678
+    },
+    {
+      "path": "reference/svelte-4-migration-guide.md",
+      "sha256": "sha256:1c52dc8c5767f8f2f5cefc5b888951ede7d0d490c66a7b442ea170862fb1467a",
+      "bytes": 12184
+    },
+    {
+      "path": "reference/svelte-5-code-writer.md",
+      "sha256": "sha256:cb3914373e375746b821ccfce99c22b12a66767839bd6ce0006585a388ce6c63",
+      "bytes": 911
+    },
+    {
+      "path": "reference/svelte-5-migration-guide.md",
+      "sha256": "sha256:2ffa86c3681846606797b80cd0af014d0d4e36d8f911f86bebd48d9601251c02",
+      "bytes": 43584
+    },
+    {
+      "path": "reference/svelte-action.md",
+      "sha256": "sha256:bbcab1e6121396e91274779f58373299fea88e0fea0b3237625eb72991676c32",
+      "bytes": 2684
+    },
+    {
+      "path": "reference/svelte-animate.md",
+      "sha256": "sha256:e02ec0fa335c87ed79e12101e426f4994381a8cf93112d33a7e7a99f84a163df",
+      "bytes": 1709
+    },
+    {
+      "path": "reference/svelte-attachments.md",
+      "sha256": "sha256:23db410191429af11b2ec84ae46d8c07370bddafcf8e49cbbb93f6ff8fbf7ec8",
+      "bytes": 2404
+    },
+    {
+      "path": "reference/svelte-body.md",
+      "sha256": "sha256:60ab3f9d64e704a1113b0b4bf1c73bf28b21ef127428d763e4c796bce24ee28a",
+      "bytes": 572
+    },
+    {
+      "path": "reference/svelte-boundary.md",
+      "sha256": "sha256:8b2f8140ca61e6d02aa1e913f22d7d81ce967d1806c47590c00fa04bc2a4a3bb",
+      "bytes": 4970
+    },
+    {
+      "path": "reference/svelte-compiler.md",
+      "sha256": "sha256:ed4215a8a76cad460e2166ce971154410467c18a0185872a18cb10dcb8f6004d",
+      "bytes": 30157
+    },
+    {
+      "path": "reference/svelte-component.md",
+      "sha256": "sha256:d8f475501201d3418d4a496b6d6f6d638fa059f3efa75292993715f0099d2206",
+      "bytes": 500
+    },
+    {
+      "path": "reference/svelte-document.md",
+      "sha256": "sha256:f4eb2babda8fb4ae0f89ef47b5e90092e054923d62bfa8ad293f1ffa88785a56",
+      "bytes": 733
+    },
+    {
+      "path": "reference/svelte-easing.md",
+      "sha256": "sha256:db25b331ffdc18b1ba78fef3fa73be05f66c4d57f95c4112efa776236ab91397",
+      "bytes": 3364
+    },
+    {
+      "path": "reference/svelte-element.md",
+      "sha256": "sha256:e18dfb3818c8b67b5f367b8a47c3bfcc5863f7fecf265ea75dbcacfb9139aea2",
+      "bytes": 1188
+    },
+    {
+      "path": "reference/svelte-events.md",
+      "sha256": "sha256:79bb787d05b06670c895665c3dc07ce6fcd28dba913d34913b079dc2b708d440",
+      "bytes": 1812
+    },
+    {
+      "path": "reference/svelte-fragment.md",
+      "sha256": "sha256:4910dc6f24b0d7a625de51c9313503b5ac9e53ddb2df467393ffafdbaba588a0",
+      "bytes": 773
+    },
+    {
+      "path": "reference/svelte-head.md",
+      "sha256": "sha256:a8d80ac88286d4fa0e2c10fa3ce9d2317ffce676ee3a34fd6d781e889a411ebd",
+      "bytes": 565
+    },
+    {
+      "path": "reference/svelte-legacy.md",
+      "sha256": "sha256:3eb7c0510375cee650c0a64e32ac94fabe599fa670a198a8867945b3e94c5731",
+      "bytes": 5025
+    },
+    {
+      "path": "reference/svelte-motion.md",
+      "sha256": "sha256:38f881b20ba06e554eaaa94341f359012b97ed0aa838bcffcd52be8530b2ad22",
+      "bytes": 10366
+    },
+    {
+      "path": "reference/svelte-options.md",
+      "sha256": "sha256:ae1f7083fb5ec5e837947633b02962b9e816fb46e01820f06f668a71c9620111",
+      "bytes": 1546
+    },
+    {
+      "path": "reference/svelte-reactivity-window.md",
+      "sha256": "sha256:989003ade2fe9c708b8d5c8d457957e5a017d46bd2ecde4cc22eaa462f85c34a",
+      "bytes": 3762
+    },
+    {
+      "path": "reference/svelte-reactivity.md",
+      "sha256": "sha256:0220aeb4f5b9c2f7e9b1cc8258c751b256af5e11faf17cc763fcad8ad073a9eb",
+      "bytes": 9491
+    },
+    {
+      "path": "reference/svelte-self.md",
+      "sha256": "sha256:366b34bb22287bc5e6b158e73dd7e3f0d0d11926deb5bbd53a2b2e3e23b5c294",
+      "bytes": 744
+    },
+    {
+      "path": "reference/svelte-server.md",
+      "sha256": "sha256:e949c1cdd95e6e04ce73a7c346963cbec7b74cc2e944e85a13fddb38be7417f0",
+      "bytes": 1186
+    },
+    {
+      "path": "reference/svelte-store.md",
+      "sha256": "sha256:9bef6cd885337a718c8d79027e419437d23d7e77d065f1591cb27cac6e34b69d",
+      "bytes": 3801
+    },
+    {
+      "path": "reference/svelte-transition.md",
+      "sha256": "sha256:7200275aa1374052162b0d678acfc819690a200f835fec8bc5c444f614c0ccc9",
+      "bytes": 8221
+    },
+    {
+      "path": "reference/svelte-window.md",
+      "sha256": "sha256:63de23dbec2c7a5c7fc3423d0665f28e9a20e35a7dc934cf60c48455df44c59c",
+      "bytes": 1232
+    },
+    {
+      "path": "reference/svelte.md",
+      "sha256": "sha256:4d8ec3619539fad91556a1773998950d753c527bbfb63ee232e8d5a648b787d6",
+      "bytes": 23596
+    },
+    {
+      "path": "reference/sveltejs-kit/sveltejs-kit_pt1.md",
+      "sha256": "sha256:30d94ba13d4e50bd5c57f053069257cab3332c4f0bf657473c9d5f1c015c3e5c",
+      "bytes": 25603
+    },
+    {
+      "path": "reference/sveltejs-kit/sveltejs-kit_pt2.md",
+      "sha256": "sha256:ba22c1a0f248f1f0073ebae291a5e673062461cdb7a4bba2b473216537a0c969",
+      "bytes": 25608
+    },
+    {
+      "path": "reference/sveltejs-kit/sveltejs-kit_pt3.md",
+      "sha256": "sha256:5f5061c649f446c57e2e187c20fe23dc0c43fc3c320f3e382732f1c11074584c",
+      "bytes": 25600
+    },
+    {
+      "path": "reference/sveltejs-kit/sveltejs-kit_pt4.md",
+      "sha256": "sha256:f948fd39bad00e23df465ca2faf59a8c41724bdd65c29ef6dc0ec52ad5eb81e7",
+      "bytes": 20629
+    },
+    {
+      "path": "reference/sveltejs-kit-hooks.md",
+      "sha256": "sha256:ce9a6f72d246fd034ce9d6b1611f886469d19a5e6dbe0dd90dfa93f7655b8732",
+      "bytes": 2346
+    },
+    {
+      "path": "reference/sveltejs-kit-node-polyfills.md",
+      "sha256": "sha256:3173064c4f3f7eba64e512741ff992359be77e3c766fba026908412d46f53816",
+      "bytes": 285
+    },
+    {
+      "path": "reference/sveltejs-kit-node.md",
+      "sha256": "sha256:e8a1062586e35fbed9dd99ad0eb7081e69232e0055a88326cd0704b16d3f5393",
+      "bytes": 758
+    },
+    {
+      "path": "reference/sveltejs-kit-vite.md",
+      "sha256": "sha256:63eb90b6c3153ef47df25fd80f692c6b2b56317db078e552a37318bd4719b0d4",
+      "bytes": 401
+    },
+    {
+      "path": "reference/sveltekit-adapter.md",
+      "sha256": "sha256:3501b3c3d47bd7bdbe7b72f7d897de3b6f871c9c193b458f074ba9486359a37d",
+      "bytes": 1474
+    },
+    {
+      "path": "reference/tailwindcss.md",
+      "sha256": "sha256:b47ffa9217c0fd021e1545873c42f92fea70e1f485af967f1b9886c799e5699c",
+      "bytes": 815
+    },
+    {
+      "path": "reference/target-svelte-4.md",
+      "sha256": "sha256:94cc4baca2d290c18a17267b14dbe662e7b3124d6ab456dc323ef1acddbc059c",
+      "bytes": 8048
+    },
+    {
+      "path": "reference/testing.md",
+      "sha256": "sha256:05bf4dccd357bbe3feed0cf9e841917d51cdfe5f79c8a7edbb985bca08ca16ba",
+      "bytes": 11451
+    },
+    {
+      "path": "reference/tools.md",
+      "sha256": "sha256:b3d842926fb81e771662680dd35c6315c7b4db574f66aac849c5ea3188d0323b",
+      "bytes": 906
+    },
+    {
+      "path": "reference/transition.md",
+      "sha256": "sha256:308cf58c87ef354023f9d2b6f09cac1d2c27c40d5a8cc880c1f76f971e6aa0d4",
+      "bytes": 5115
+    },
+    {
+      "path": "reference/types.md",
+      "sha256": "sha256:aa607d23dd5c48f39fd0cde244e057238dcd11c547c3acc8ae3f4d4be75f60b8",
+      "bytes": 8340
+    },
+    {
+      "path": "reference/typescript.md",
+      "sha256": "sha256:7edb3c264f9790445011025af1501144c80116f9efb49f41bf30e94f856f1a7a",
+      "bytes": 9141
+    },
+    {
+      "path": "reference/use-a-local-add-on-for-development-or-internal-use.md",
+      "sha256": "sha256:a9881addca766c5aa386579b6c5ebafa69321b6389dc362e0083a42145fba562",
+      "bytes": 91
+    },
+    {
+      "path": "reference/use.md",
+      "sha256": "sha256:9421cb60c8d140407176a8108cfa666121c895bcbfac58d4395acf5e331c6a13",
+      "bytes": 1995
+    },
+    {
+      "path": "reference/vercel.md",
+      "sha256": "sha256:5d19ff3aceac7dd77b7d1b26da758f31666c8a13793dbaa3f9ca7688361075f8",
+      "bytes": 11149
+    },
+    {
+      "path": "reference/vitest.md",
+      "sha256": "sha256:d20170ca26635763cfeed0f1271654165987a380101dff42da3babcae3af376c",
+      "bytes": 459
+    },
+    {
+      "path": "reference/web-standards.md",
+      "sha256": "sha256:639e86837266bd7152fbe6b9857d9accbf98605aefba677fcb9889241425740e",
+      "bytes": 5475
+    },
+    {
+      "path": "reference/what-are-runes.md",
+      "sha256": "sha256:bd7617f4b5e1a49616e0246dfb156a65227a822151f7fae415c37e70971543f8",
+      "bytes": 840
+    },
+    {
+      "path": "reference/writing-adapters.md",
+      "sha256": "sha256:1a30149e51e9fb5074eeae669c9b2fed6ca8fde1683ec7c59b82e3ba743c5c12",
+      "bytes": 2885
+    },
+    {
+      "path": "reference/zero-config-deployments.md",
+      "sha256": "sha256:67f7e527d5a5ed47346669682d6b005dab0ba8b48803098fe0e4807d3a87d598",
+      "bytes": 1692
+    }
+  ],
+  "stats": {
+    "file_count": 214,
+    "source_count": 1
+  },
+  "scrape_profile": {
+    "url": "https://svelte.dev/docs",
+    "root": "https://svelte.dev",
+    "strategy": "llms",
+    "signal": "llms-full.txt",
+    "scope": "https://svelte.dev"
+  }
+}

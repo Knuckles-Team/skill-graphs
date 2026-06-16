@@ -1,0 +1,580 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "mariadb-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-06-16T12:58:14Z",
+  "builder_version": "0.49.0",
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "llms",
+      "uri": "https://mariadb.com/docs",
+      "options": {},
+      "extractor": "llms.txt",
+      "fetched_at": "2026-06-16T12:58:14Z",
+      "content_hash": "sha256:dd6b7e40a50e21872375882ec7915bd9907fa8fad307d7bfb6eb909930f82247",
+      "doc_count": 107
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/a-mariadb-primer-guide.md",
+      "sha256": "sha256:fa319a82587b3a513acc2a4f8c3c0fe0990ecec50ef7dba4553606cdf8aa74a4",
+      "bytes": 7293
+    },
+    {
+      "path": "reference/a-mariadb-primer.md",
+      "sha256": "sha256:7bd8c92b442c3a972124f2e41c9b100f20ffd007a5af75e3bd81896abb8aeae8",
+      "bytes": 9075
+    },
+    {
+      "path": "reference/adding-and-changing-data-in-mariadb.md",
+      "sha256": "sha256:493a5da54cb92d21654b93c0a03c5d58413f07fc55cf05a8bd830152bb97f954",
+      "bytes": 13693
+    },
+    {
+      "path": "reference/adding-changing-data-guide.md",
+      "sha256": "sha256:353547b9bae5e262d5a0b0cf53e52d5e6612a5c8ed0728b3eccc77d5c58f82ca",
+      "bytes": 8739
+    },
+    {
+      "path": "reference/advanced-joins.md",
+      "sha256": "sha256:42d11c2ce5f2487a055fd2544ed4bfb73535469ca5b62afe8376f6c25bff262a",
+      "bytes": 9266
+    },
+    {
+      "path": "reference/altering-tables-guide.md",
+      "sha256": "sha256:430391c243432db780dacdcc1ab5d3d852401c3e7a94eb13f4d633df09d289ec",
+      "bytes": 10414
+    },
+    {
+      "path": "reference/analytical-solutions.md",
+      "sha256": "sha256:a9c804c99505862ad7ca871e276c4e216fbd82c0fec38f5f4c7bf28c9a408bdb",
+      "bytes": 23
+    },
+    {
+      "path": "reference/application-code.md",
+      "sha256": "sha256:efca21f2d0788270da4ed611d8ea823b1c95d4b9a383ccc0ab8f3f0ed38ee20c",
+      "bytes": 8262
+    },
+    {
+      "path": "reference/aria-storage-engine.md",
+      "sha256": "sha256:7b119782c875094e91f2fc749a77450acc5af78d4bd37c37963c6a8c867cfe98",
+      "bytes": 2590
+    },
+    {
+      "path": "reference/backup-and-restore-overview.md",
+      "sha256": "sha256:f0f72805afe891e09199fb52350a84e962ec58650482ce165b3f45747dcd3f8b",
+      "bytes": 13123
+    },
+    {
+      "path": "reference/backup-optimization.md",
+      "sha256": "sha256:4423c944e97720c420e6dcaab116f450abeb519c07c9adf555b5e327bf0b28a8",
+      "bytes": 6405
+    },
+    {
+      "path": "reference/backup-restore.md",
+      "sha256": "sha256:180a2f32835989f5960b0028d17c875e50497420c6b2c0826fe643e7bf5c10b7",
+      "bytes": 193
+    },
+    {
+      "path": "reference/basic-queries.md",
+      "sha256": "sha256:17056cf6e13eacc2d5240ea3963e6319d063434fb4e206b8f6a9ec0a8a6b4f6f",
+      "bytes": 15221
+    },
+    {
+      "path": "reference/basic-sql-debugging-guide.md",
+      "sha256": "sha256:fdbfaed1a4abe0d7d7b0b13cbd990c08a260575383633a3c049ebf13946b3d79",
+      "bytes": 6973
+    },
+    {
+      "path": "reference/basic-sql-debugging.md",
+      "sha256": "sha256:5a460ea2eb484e08235248793a6f2fa636275ee07becd8dc3abf6867e55dbb49",
+      "bytes": 9409
+    },
+    {
+      "path": "reference/basic-sql-statements-guide.md",
+      "sha256": "sha256:2c2d29313d362abfae1813696b59443cabfa4b01e95a88aa7715ab38e1a94743",
+      "bytes": 5843
+    },
+    {
+      "path": "reference/basic-sql-statements.md",
+      "sha256": "sha256:11ef58c25f69349b88e2992a5afc3195feb574bed985ee26301314e54032f02c",
+      "bytes": 4296
+    },
+    {
+      "path": "reference/basics-guide.md",
+      "sha256": "sha256:ed333a58628f220b17c993825078382caa2eb4b9f5d3fe23e01410c8ea47920a",
+      "bytes": 8005
+    },
+    {
+      "path": "reference/basics.md",
+      "sha256": "sha256:8f1282b034fdde91808c07634fc95c42abc37331f3e02174069cb7e001bf4759",
+      "bytes": 183
+    },
+    {
+      "path": "reference/best-practices.md",
+      "sha256": "sha256:d2cd53d50fd370e810372dcc09428efbb2eee86e30eaccdd1a992442d205c596",
+      "bytes": 3007
+    },
+    {
+      "path": "reference/canary-testing.md",
+      "sha256": "sha256:45ed7040f7f5ac3fd4364dfa0f8edde6d4588b102f0cd09121240a58c87014cb",
+      "bytes": 4150
+    },
+    {
+      "path": "reference/changing-times-in-mariadb.md",
+      "sha256": "sha256:cd70d46d6d1f2dce332e63079a39f83af2f6036cfa5355c6d143b4190abf2455",
+      "bytes": 5565
+    },
+    {
+      "path": "reference/chown-mysql-mysql-var-lib-mysql-test-address_book..md",
+      "sha256": "sha256:23aaa782f315e281451fb6efef6aec4951670d214e51ba452add53d0aa69c2e0",
+      "bytes": 1794
+    },
+    {
+      "path": "reference/chown-mysql-mysql-var-lib-mysql-test-students_work..md",
+      "sha256": "sha256:239fd19dbffeddbcf442fa7cee2593626bd8476c728514b5764772009dcc568a",
+      "bytes": 2846
+    },
+    {
+      "path": "reference/commonly-used-queries.md",
+      "sha256": "sha256:0f54fe2793e7bc7b144d7da46a7270263d6aa6ca12f0c97c0c3181d273ee3fb2",
+      "bytes": 9848
+    },
+    {
+      "path": "reference/configuring-mariadb-for-remote-client-access-guide.md",
+      "sha256": "sha256:52c7cee0c211de784bd6e94c310289253a296502197f45fd4eb1f55f46535f16",
+      "bytes": 8521
+    },
+    {
+      "path": "reference/connecting-to-mariadb-guide.md",
+      "sha256": "sha256:d187db61396894966ae77a2b85cfcc5e93ae945eb79fb0373c907b031dfe0e21",
+      "bytes": 6709
+    },
+    {
+      "path": "reference/connecting-to-mariadb-server.md",
+      "sha256": "sha256:5f5244dfb35af340f48baa89bb8a559e9d415d40d479f01d6f9fcd4963dfbd1f",
+      "bytes": 8189
+    },
+    {
+      "path": "reference/connecting.md",
+      "sha256": "sha256:8bae434bfc21a4ce967a800ea3d7532889eed714726f89e92f120706e46256b4",
+      "bytes": 1466
+    },
+    {
+      "path": "reference/cp-data-backups-part_inc1-test-address_book.-var-lib-mysql-test.md",
+      "sha256": "sha256:03a686a23d3163716e46126f6193bfe1fe8101e1030df456d48194955835dc85",
+      "bytes": 218
+    },
+    {
+      "path": "reference/cp-data-backups-part_inc1-test-students.cfg-var-lib-mysql-test-students_work.c.md",
+      "sha256": "sha256:32909eb5607a6b1f4e0eddccb79bcbed2980c0ee87e7cc6ef5456bd12ceaf70b",
+      "bytes": 173
+    },
+    {
+      "path": "reference/cp-data-backups-part_inc1-test-students.ibd-var-lib-mysql-test-students_work.i.md",
+      "sha256": "sha256:706f2b19e5e28d04b78cae8a8cc506f1a288253379a4f752f6f686db78395602",
+      "bytes": 85
+    },
+    {
+      "path": "reference/creating-using-views-guide.md",
+      "sha256": "sha256:196d85f94cfce2c847408c822ecacfb1bb763fad305b34aa40641ce729394e39",
+      "bytes": 10156
+    },
+    {
+      "path": "reference/data-handling.md",
+      "sha256": "sha256:6fb36a42d90e963546335158674b41c5c0637e9dd116cb23a785dd633eb287a8",
+      "bytes": 196
+    },
+    {
+      "path": "reference/database-applications.md",
+      "sha256": "sha256:c1b8b1cf46820ef1062417462cd3b601550662a78b15a73677e748a8f8274a4c",
+      "bytes": 4345
+    },
+    {
+      "path": "reference/database-design.md",
+      "sha256": "sha256:3d81ecdf7e1028d1a2c2deb88bb00f73616bd974a5588d1a827b2c61abbcf5e1",
+      "bytes": 7904
+    },
+    {
+      "path": "reference/database-proxies-routers.md",
+      "sha256": "sha256:61560828f81693d99b94f2c6e117b149b84e6bf368ef407e4dcbd594d9485a9b",
+      "bytes": 29
+    },
+    {
+      "path": "reference/database-servers.md",
+      "sha256": "sha256:c53b9f5cdfbd9cabc893799825c5bd58069524fc9b8e6880b34a5652f5ee3279",
+      "bytes": 19
+    },
+    {
+      "path": "reference/doing-time-guide.md",
+      "sha256": "sha256:15523765d64777fbec64d1262c9a728f845d6e150d9b04895b560ce78ea7b56c",
+      "bytes": 10178
+    },
+    {
+      "path": "reference/doing-time-with-mariadb.md",
+      "sha256": "sha256:ed2e95fa7ce13c6f69c36e3c72d3bd9b909f0a1c2f67d3c667402d61a4ff0eaa",
+      "bytes": 25297
+    },
+    {
+      "path": "reference/encrypted-files-backup-mariadb-backup.md",
+      "sha256": "sha256:2dea0b0d755ce7cd90ac0d31c69ed25f4ae3f917e641bfca42cc7ce5649f0dde",
+      "bytes": 11529
+    },
+    {
+      "path": "reference/essential-queries-guide.md",
+      "sha256": "sha256:595af7b1fc1fdbc094fdd88492399997d6c833e19b8dd48cff8cf50928741942",
+      "bytes": 10504
+    },
+    {
+      "path": "reference/essentials-of-an-index-guide.md",
+      "sha256": "sha256:82e282d623f374963ce119b10393a33606bc79829677215c08cd0cdd4fd96581",
+      "bytes": 3458
+    },
+    {
+      "path": "reference/files-backed-up-by-mariadb-backup.md",
+      "sha256": "sha256:5ccce3f86ddd82ba311b3e0acea02aea8ea5b9570ec614928aa9d903e385b512",
+      "bytes": 2141
+    },
+    {
+      "path": "reference/files-created-by-mariadb-backup.md",
+      "sha256": "sha256:982d815fe9199fb49e16966601d934c39a708c415d631c0fa93fe8bb68aa2893",
+      "bytes": 13721
+    },
+    {
+      "path": "reference/forming-a-backup-strategy.md",
+      "sha256": "sha256:cfca4f16c5ab90a1c257fc7a5ceb0fc2591c3e116d345b789a7c2cabf724615e",
+      "bytes": 5896
+    },
+    {
+      "path": "reference/full-backup-and-restore-mariadb-backup.md",
+      "sha256": "sha256:0fd6d1e0b0da24715c892a8242b4e2ba0c44eb283333b78cfeac56eb56655d4e",
+      "bytes": 5890
+    },
+    {
+      "path": "reference/getting-data-from-mariadb.md",
+      "sha256": "sha256:9f58cd12706f4b75370b9c91a9f72e037deadb9691a9944208fd88f1d560ded1",
+      "bytes": 20490
+    },
+    {
+      "path": "reference/getting-data-guide.md",
+      "sha256": "sha256:4a62cccf4ae680938a82cef12820051ed5e2617fbb84bd44a34d23ecf483dbe0",
+      "bytes": 10548
+    },
+    {
+      "path": "reference/getting-started-with-indexes-guide.md",
+      "sha256": "sha256:102530cf9a0ca137097961b0493bb828637bebd415ee82a353b5449bb9175224",
+      "bytes": 9788
+    },
+    {
+      "path": "reference/high-availability-clustering-solutions.md",
+      "sha256": "sha256:adffd1ed7a18fe90a03929f57f506d39158d53e6352ddc0963e30a4129da3ecf",
+      "bytes": 43
+    },
+    {
+      "path": "reference/how-mariadb-backup-works.md",
+      "sha256": "sha256:d3ab81f0a3f6070d7e93eddebbfff1bebee55ef6431466532a97c17cfa74862e",
+      "bytes": 4108
+    },
+    {
+      "path": "reference/importing-data-guide.md",
+      "sha256": "sha256:5ef6eb509d51ed813698de091d28ec9565825b989d3d71795be7e052cb6521f6",
+      "bytes": 10595
+    },
+    {
+      "path": "reference/importing-data-into-mariadb.md",
+      "sha256": "sha256:83ced68fe1871e8166dd4bde3e45ee8a2eb27aa550e1e7f31b600b1e82d90008",
+      "bytes": 20467
+    },
+    {
+      "path": "reference/incremental-backup-and-restore-mariadb-backup.md",
+      "sha256": "sha256:739541a1c37202ca64f36b8fe8db93b45ec82e2f019a112c510ddd185d310449",
+      "bytes": 5425
+    },
+    {
+      "path": "reference/incremental-backup.md",
+      "sha256": "sha256:c4dab97f1a8ca197005321cc29716b2cc98859aecee240c36f78738020ee166b",
+      "bytes": 2728
+    },
+    {
+      "path": "reference/initial-full-backup.md",
+      "sha256": "sha256:9b09eaa7061317d5ce9d7c969ad9c09134f54194585562a556c01c5fb5569362",
+      "bytes": 169
+    },
+    {
+      "path": "reference/innodb-storage-engine.md",
+      "sha256": "sha256:d2f52869ea2d99ba7b13c6cae03b9a35f6315ae7c813748278102d7f10be9ec0",
+      "bytes": 2200
+    },
+    {
+      "path": "reference/installing-mariadb-server-guide.md",
+      "sha256": "sha256:4d4d766a5a72f27a265e41774c22c4b01220657efaef6a6033f2c718ca3713c8",
+      "bytes": 3425
+    },
+    {
+      "path": "reference/introduction-background.md",
+      "sha256": "sha256:115b5a00bee2166d94f3fdc4fad27690468ca1d5631ad1dc7101dcb5ed103e55",
+      "bytes": 1715
+    },
+    {
+      "path": "reference/joining-tables-with-join-clauses.md",
+      "sha256": "sha256:548d9e1944387769c41c981921aecc15aedbd4b1c5de8c4452f08b826de8ef75",
+      "bytes": 6700
+    },
+    {
+      "path": "reference/making-backups-with-mariadb-dump-guide.md",
+      "sha256": "sha256:bd6bc0f59d9d780c23353840024ce90353149cad0f772d103f75501a0a092927",
+      "bytes": 5884
+    },
+    {
+      "path": "reference/management-operations-tools.md",
+      "sha256": "sha256:9971b739c60485a149c80eb9de494dc9ba1b168fb3d570bab0484035bef4fa79",
+      "bytes": 32
+    },
+    {
+      "path": "reference/mariadb-backup-and-backup-stage.md",
+      "sha256": "sha256:54f3c19d47e43998698756b13b2c2c0d88614ee0e83d294f6ee8c6a3ed14bbee",
+      "bytes": 7851
+    },
+    {
+      "path": "reference/mariadb-backup-options/mariadb-backup-options_pt1.md",
+      "sha256": "sha256:39f114a2453ee2bb62424fc6e70a61a369d268a99301a154a51c1f53288f3aed",
+      "bytes": 25662
+    },
+    {
+      "path": "reference/mariadb-backup-options/mariadb-backup-options_pt2.md",
+      "sha256": "sha256:269dd386bd709be2bda0db4f3fed18cbe5901c5e599807e0879b6c67b7a0c48e",
+      "bytes": 25857
+    },
+    {
+      "path": "reference/mariadb-backup-options/mariadb-backup-options_pt3.md",
+      "sha256": "sha256:b9beff19aabd8b251319c6a55056cea8d6e10f52482721c46dcfb9417e4dc34f",
+      "bytes": 24142
+    },
+    {
+      "path": "reference/mariadb-backup-overview.md",
+      "sha256": "sha256:7ece7993de4f502bcaf673ade10d8741c82edc764e3cfd53d43bece1af59129f",
+      "bytes": 30081
+    },
+    {
+      "path": "reference/mariadb-backup.md",
+      "sha256": "sha256:425091a39e5c2be2342c22a7eb4a5ac55b0211ed322aa8fa9ebfb59201ea361f",
+      "bytes": 7542
+    },
+    {
+      "path": "reference/mariadb-columnstore.md",
+      "sha256": "sha256:0edea7805701c5da0b3eb47788e4b47b740d9f5eede6fc8ae4081d30b392d41b",
+      "bytes": 2212
+    },
+    {
+      "path": "reference/mariadb-connectors.md",
+      "sha256": "sha256:478b1db296759e6ae4c84090eb65cf95d5c94c34f194db8cd8d474e932392617",
+      "bytes": 2355
+    },
+    {
+      "path": "reference/mariadb-documentation.md",
+      "sha256": "sha256:74e5f2bdb6ae901b8bafe57d8bdbdd535c2bfbf11c8cf728587f048fd846b75c",
+      "bytes": 2060
+    },
+    {
+      "path": "reference/mariadb-enterprise-audit-plugin.md",
+      "sha256": "sha256:78206835a9600a483befa80ebc0ca8275a3beec82abc7ff90b8f12bc340bc817",
+      "bytes": 2727
+    },
+    {
+      "path": "reference/mariadb-enterprise-backup-2.md",
+      "sha256": "sha256:0752dd568d3cc18926bd9a89d0de438cbe6346dce619c46eb2fbf4a1fac0444d",
+      "bytes": 18569
+    },
+    {
+      "path": "reference/mariadb-enterprise-backup.md",
+      "sha256": "sha256:813b7818c69efb26813ad88fc53888dbfe1ed74c75aaa895c3fbc72f80b6edca",
+      "bytes": 1785
+    },
+    {
+      "path": "reference/mariadb-enterprise-cluster-powered-by-galera-cluster.md",
+      "sha256": "sha256:482cafbb88f19a0fa4909fa9796f94bec99f7060ff394cc5994c190b6a3e06dd",
+      "bytes": 2414
+    },
+    {
+      "path": "reference/mariadb-enterprise-platform-2.md",
+      "sha256": "sha256:5631b861bcbed89943ac1ed2fa945ce2abf1a2e90e7244f720d94b9f188efd46",
+      "bytes": 2959
+    },
+    {
+      "path": "reference/mariadb-enterprise-platform.md",
+      "sha256": "sha256:4e4a6d00a288d502a29eb87c34665aebba2039345db132adfc96d7cb0701c001",
+      "bytes": 16588
+    },
+    {
+      "path": "reference/mariadb-enterprise-server.md",
+      "sha256": "sha256:82a2e8a1122c6fe6282b28323fe465fc68f60034a6c7a067d0875ea18c180322",
+      "bytes": 2218
+    },
+    {
+      "path": "reference/mariadb-faqs.md",
+      "sha256": "sha256:7f222556c7659e53e528a24407bfa1ce9e1616273ab152851bbe372cd230696e",
+      "bytes": 331
+    },
+    {
+      "path": "reference/mariadb-hashicorp-vault-plugin.md",
+      "sha256": "sha256:abf949f5a30c4de701f67baeb16b9dec18d5b99679432a106cfb13daa89f51b1",
+      "bytes": 2430
+    },
+    {
+      "path": "reference/mariadb-kubernetes-operator.md",
+      "sha256": "sha256:626af4bb822df2cf42987ce37007b95fe505e8080ad8671e1e8fb6d4dd8e0edc",
+      "bytes": 2294
+    },
+    {
+      "path": "reference/mariadb-maxscale.md",
+      "sha256": "sha256:453e2fa075211dcea1068249400973fd98843f6d3c0b5538d44da2c3bf25ef37",
+      "bytes": 3245
+    },
+    {
+      "path": "reference/mariadb-overview.md",
+      "sha256": "sha256:ec63b47b2e95cb59152928b5dfcf0b1921d983f971e7ba62f27d94fc5bfbb228",
+      "bytes": 3709
+    },
+    {
+      "path": "reference/mariadb-platform-quickstart-guides.md",
+      "sha256": "sha256:f388f01222ec8fa0703ef4e120e4d2c99786ca8959ff05ef1fad5eb5c997af0e",
+      "bytes": 2155
+    },
+    {
+      "path": "reference/mariadb-platform-use-cases.md",
+      "sha256": "sha256:622b9ede8e7f826a0c3213fd34ed0dee6cbf20ff7cd55c2af705a4a5e50aa93a",
+      "bytes": 8397
+    },
+    {
+      "path": "reference/mariadb-server-documentation.md",
+      "sha256": "sha256:f760e74fce0322df72370089c27c68d26f591c3a7cfb7d58e54e697ef06a42fd",
+      "bytes": 1201
+    },
+    {
+      "path": "reference/mariadb-server-ecosystem-hub.md",
+      "sha256": "sha256:e0bbbd496ed90f6f345a7a4f39dc830b60b8d6d2d4fec7084d8d6666ad135950",
+      "bytes": 5390
+    },
+    {
+      "path": "reference/mariadb-server-roadmap.md",
+      "sha256": "sha256:79001528322b02d5ad4ef2f642d819b68d4745d3035409d86ef62c1104269b58",
+      "bytes": 225
+    },
+    {
+      "path": "reference/mariadb-string-functions-guide.md",
+      "sha256": "sha256:2ec17bed6bb12312e3b6cbb6758adba498669c9809ec86e1e20b918e6b3931b4",
+      "bytes": 7337
+    },
+    {
+      "path": "reference/myrocks-storage-engine.md",
+      "sha256": "sha256:037fd0647667b07b501caecb375a0ab67d8008e074b6f0bc4a307039404ced77",
+      "bytes": 1974
+    },
+    {
+      "path": "reference/partial-backup-and-restore-mariadb-backup.md",
+      "sha256": "sha256:e91c722bf846311da2389cc9aa5af33fc67f62b9fe89dbef7b5feef583b7b6c6",
+      "bytes": 9358
+    },
+    {
+      "path": "reference/plugins.md",
+      "sha256": "sha256:602fa02332807af127cc69decd9de224c5230fc8e6aae17f96b353aa14bf757b",
+      "bytes": 2989
+    },
+    {
+      "path": "reference/point-in-time-recovery-pitr-mariadb-backup.md",
+      "sha256": "sha256:ca656c0971f45a651863abbb9140c960928bf6041fe23d5f4409d9dab11741c0",
+      "bytes": 3106
+    },
+    {
+      "path": "reference/quickstart-guides.md",
+      "sha256": "sha256:cf58d48f2c0a26052f776088c307ba163d0e5dc6029381cd54ad2d5838b2903c",
+      "bytes": 191
+    },
+    {
+      "path": "reference/remote-client-access.md",
+      "sha256": "sha256:dc82128f700918daacdf2515f5d7021c71fb32b2a0fffcec4cf25ea5fa6d563c",
+      "bytes": 9760
+    },
+    {
+      "path": "reference/restoring-data-from-dump-files-guide.md",
+      "sha256": "sha256:8a3dca6183a7708a6cec1ffa85b79c5f3d5d0b811ffbb52053740e4c2b54c4d1",
+      "bytes": 5263
+    },
+    {
+      "path": "reference/restoring-individual-databases-from-a-full-backup-mariadb-backup.md",
+      "sha256": "sha256:f6a1a0c18e2c5b82ffcf4f11d10259f2b26930347f196306bcb5fd15827c7a07",
+      "bytes": 9034
+    },
+    {
+      "path": "reference/restoring-individual-tables-and-partitions-mariadb-backup.md",
+      "sha256": "sha256:a9f5c11f2ca53d5caed02c9032eaa884738b5f4f7edc337acc641f6e539e516f",
+      "bytes": 4072
+    },
+    {
+      "path": "reference/security.md",
+      "sha256": "sha256:ee6943d7d4c747ba7d3770fdfc3a2c8e146ae002adb0e137513cc02d30572319",
+      "bytes": 5315
+    },
+    {
+      "path": "reference/server-usage.md",
+      "sha256": "sha256:d4c83a595681031471f896805237cdc2e191940c92afc4f056efe0cb74a7bf44",
+      "bytes": 2260
+    },
+    {
+      "path": "reference/setting-up-a-replica-mariadb-backup.md",
+      "sha256": "sha256:74d329e5d5d830c496923d14fe509f0e45038d1523f6a40c4c7aea6a12126f10",
+      "bytes": 6440
+    },
+    {
+      "path": "reference/spider-storage-engine.md",
+      "sha256": "sha256:93eda9df7806048c4925c169cdab6085060b3589c49e88fbcae181dbbef05c85",
+      "bytes": 2241
+    },
+    {
+      "path": "reference/storage-engines.md",
+      "sha256": "sha256:58ab0081d830bda1d7b98ff0b4ba5948c784ad204c6768b1afc61480caadf9d4",
+      "bytes": 3214
+    },
+    {
+      "path": "reference/string-functions.md",
+      "sha256": "sha256:c4d96d7c2cd410bdb0fdbe83d80191cbcaf69267df538fd7739325299312c15e",
+      "bytes": 16079
+    },
+    {
+      "path": "reference/style.md",
+      "sha256": "sha256:2e56bbe313c8d69ba2f632fb096029f4ebc7aa2b020ca87ba77fa45dce35c3b7",
+      "bytes": 1370
+    },
+    {
+      "path": "reference/system-status-variables-guide.md",
+      "sha256": "sha256:252644e52482ff496809d1c87d401df05194911bf6408125a9680ba6fa9978dc",
+      "bytes": 5645
+    },
+    {
+      "path": "reference/troubleshooting-connection-issues-guide.md",
+      "sha256": "sha256:a1ade880237d6940288e1547dc119b2b9341ae613bf506e5180fae2718e5cfeb",
+      "bytes": 14221
+    },
+    {
+      "path": "reference/using-encryption-and-compression-tools-with-mariadb-backup.md",
+      "sha256": "sha256:e38fdeea4333e01e024392789f17074e7f96ef30c554c36e8187d1ee61fa47bf",
+      "bytes": 4133
+    }
+  ],
+  "stats": {
+    "file_count": 109,
+    "source_count": 1
+  },
+  "scrape_profile": {
+    "url": "https://mariadb.com/docs/",
+    "root": "https://mariadb.com",
+    "strategy": "llms",
+    "signal": "llms-full.txt",
+    "scope": "https://mariadb.com/docs"
+  }
+}

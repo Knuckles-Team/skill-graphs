@@ -1,0 +1,3203 @@
+{
+  "schema": "skill-graph-index/v1",
+  "name": "react-docs",
+  "skill_graph_version": "1.0.0",
+  "kg_ingested": false,
+  "kg_domain": "skillgraph:react-docs",
+  "concepts": [],
+  "source_url": "https://react.dev",
+  "file_count": 210,
+  "groups": {
+    "react.dev": 1,
+    "react.dev/learn": 35,
+    "react.dev/learn/choosing-the-state-structure": 3,
+    "react.dev/learn/extracting-state-logic-into-a-reducer": 3,
+    "react.dev/learn/lifecycle-of-reactive-effects": 3,
+    "react.dev/learn/preserving-and-resetting-state": 3,
+    "react.dev/learn/react-compiler": 4,
+    "react.dev/learn/removing-effect-dependencies": 3,
+    "react.dev/learn/reusing-logic-with-custom-hooks": 3,
+    "react.dev/learn/separating-events-from-effects": 3,
+    "react.dev/learn/state-a-components-memory": 3,
+    "react.dev/learn/synchronizing-with-effects": 3,
+    "react.dev/learn/tutorial-tic-tac-toe": 4,
+    "react.dev/learn/you-might-not-need-an-effect": 3,
+    "react.dev/reference": 4,
+    "react.dev/reference/dev-tools": 1,
+    "react.dev/reference/eslint-plugin-react-hooks/lints": 17,
+    "react.dev/reference/react": 44,
+    "react.dev/reference/react-compiler": 8,
+    "react.dev/reference/react-compiler/directives": 2,
+    "react.dev/reference/react-dom": 13,
+    "react.dev/reference/react-dom/client": 2,
+    "react.dev/reference/react-dom/components": 11,
+    "react.dev/reference/react-dom/components/common": 3,
+    "react.dev/reference/react-dom/hooks": 1,
+    "react.dev/reference/react-dom/server": 6,
+    "react.dev/reference/react-dom/static": 4,
+    "react.dev/reference/react/Component": 3,
+    "react.dev/reference/react/ViewTransition": 3,
+    "react.dev/reference/react/useEffect": 3,
+    "react.dev/reference/react/useTransition": 3,
+    "react.dev/reference/rsc": 5,
+    "react.dev/reference/rules": 3
+  },
+  "sections": [
+    {
+      "path": "reference/react.dev/learn/add-react-to-an-existing-project.md",
+      "title": "Add React to an Existing Project",
+      "group": "react.dev/learn",
+      "bytes": 8534,
+      "headings": [
+        "Using React for an entire subroute of your existing website {/*using-react-for-an-entire-subroute-of-your-existing-website*/}",
+        "Using React for a part of your existing page {/*using-react-for-a-part-of-your-existing-page*/}",
+        "Step 1: Set up a modular JavaScript environment {/*step-1-set-up-a-modular-javascript-environment*/}",
+        "Step 2: Render React components anywhere on the page {/*step-2-render-react-components-anywhere-on-the-page*/}",
+        "Using React Native in an existing native mobile app {/*using-react-native-in-an-existing-native-mobile-app*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/adding-interactivity.md",
+      "title": "Adding Interactivity",
+      "group": "react.dev/learn",
+      "bytes": 24221,
+      "headings": [
+        "Responding to events {/*responding-to-events*/}",
+        "State: a component's memory {/*state-a-components-memory*/}",
+        "Render and commit {/*render-and-commit*/}",
+        "State as a snapshot {/*state-as-a-snapshot*/}",
+        "Queueing a series of state updates {/*queueing-a-series-of-state-updates*/}",
+        "Updating objects in state {/*updating-objects-in-state*/}",
+        "Updating arrays in state {/*updating-arrays-in-state*/}",
+        "What's next? {/*whats-next*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/build-a-react-app-from-scratch.md",
+      "title": "Build a React app from Scratch",
+      "group": "react.dev/learn",
+      "bytes": 11769,
+      "headings": [
+        "Step 1: Install a build tool {/*step-1-install-a-build-tool*/}",
+        "Vite {/*vite*/}",
+        "Parcel {/*parcel*/}",
+        "Rsbuild {/*rsbuild*/}",
+        "Step 2: Build Common Application Patterns {/*step-2-build-common-application-patterns*/}",
+        "Routing {/*routing*/}",
+        "Data Fetching {/*data-fetching*/}",
+        "Code-splitting {/*code-splitting*/}",
+        "Improving Application Performance {/*improving-application-performance*/}",
+        "And more... {/*and-more*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/choosing-the-state-structure/choosing-the-state-structure_pt1.md",
+      "title": "Choosing the State Structure",
+      "group": "react.dev/learn/choosing-the-state-structure",
+      "bytes": 25605,
+      "headings": [
+        "Principles for structuring state {/*principles-for-structuring-state*/}",
+        "Group related state {/*group-related-state*/}",
+        "Avoid contradictions in state {/*avoid-contradictions-in-state*/}",
+        "Avoid redundant state {/*avoid-redundant-state*/}",
+        "Avoid duplication in state {/*avoid-duplication-in-state*/}",
+        "Avoid deeply nested state {/*avoid-deeply-nested-state*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/choosing-the-state-structure/choosing-the-state-structure_pt2.md",
+      "title": "Choosing The State Structure Pt2",
+      "group": "react.dev/learn/choosing-the-state-structure",
+      "bytes": 25629,
+      "headings": []
+    },
+    {
+      "path": "reference/react.dev/learn/choosing-the-state-structure/choosing-the-state-structure_pt3.md",
+      "title": "Choosing The State Structure Pt3",
+      "group": "react.dev/learn/choosing-the-state-structure",
+      "bytes": 10618,
+      "headings": [
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/conditional-rendering.md",
+      "title": "Conditional Rendering",
+      "group": "react.dev/learn",
+      "bytes": 19281,
+      "headings": [
+        "Conditionally returning JSX {/*conditionally-returning-jsx*/}",
+        "Conditionally returning nothing with `null` {/*conditionally-returning-nothing-with-null*/}",
+        "Conditionally including JSX {/*conditionally-including-jsx*/}",
+        "Conditional (ternary) operator (`? :`) {/*conditional-ternary-operator--*/}",
+        "Logical AND operator (`&&`) {/*logical-and-operator-*/}",
+        "Conditionally assigning JSX to a variable {/*conditionally-assigning-jsx-to-a-variable*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/creating-a-react-app.md",
+      "title": "Creating a React App",
+      "group": "react.dev/learn",
+      "bytes": 7306,
+      "headings": [
+        "Full-stack frameworks {/*full-stack-frameworks*/}",
+        "Next.js (App Router) {/*nextjs-app-router*/}",
+        "React Router (v7) {/*react-router-v7*/}",
+        "Expo (for native apps) {/*expo*/}",
+        "Other frameworks {/*other-frameworks*/}",
+        "Start From Scratch {/*start-from-scratch*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/describing-the-ui.md",
+      "title": "Describing the UI",
+      "group": "react.dev/learn",
+      "bytes": 15358,
+      "headings": [
+        "Your first component {/*your-first-component*/}",
+        "Importing and exporting components {/*importing-and-exporting-components*/}",
+        "Writing markup with JSX {/*writing-markup-with-jsx*/}",
+        "JavaScript in JSX with curly braces {/*javascript-in-jsx-with-curly-braces*/}",
+        "Passing props to a component {/*passing-props-to-a-component*/}",
+        "Conditional rendering {/*conditional-rendering*/}",
+        "Rendering lists {/*rendering-lists*/}",
+        "Keeping components pure {/*keeping-components-pure*/}",
+        "Your UI as a tree {/*your-ui-as-a-tree*/}",
+        "What's next? {/*whats-next*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/editor-setup.md",
+      "title": "Editor Setup",
+      "group": "react.dev/learn",
+      "bytes": 4137,
+      "headings": [
+        "Your editor {/*your-editor*/}",
+        "Recommended text editor features {/*recommended-text-editor-features*/}",
+        "Linting {/*linting*/}",
+        "Formatting {/*formatting*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/escape-hatches.md",
+      "title": "Escape Hatches",
+      "group": "react.dev/learn",
+      "bytes": 25438,
+      "headings": [
+        "Referencing values with refs {/*referencing-values-with-refs*/}",
+        "Manipulating the DOM with refs {/*manipulating-the-dom-with-refs*/}",
+        "Synchronizing with Effects {/*synchronizing-with-effects*/}",
+        "You Might Not Need An Effect {/*you-might-not-need-an-effect*/}",
+        "Lifecycle of reactive effects {/*lifecycle-of-reactive-effects*/}",
+        "Separating events from Effects {/*separating-events-from-effects*/}",
+        "Removing Effect dependencies {/*removing-effect-dependencies*/}",
+        "Reusing logic with custom Hooks {/*reusing-logic-with-custom-hooks*/}",
+        "What's next? {/*whats-next*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/extracting-state-logic-into-a-reducer/extracting-state-logic-into-a-reducer_pt1.md",
+      "title": "Extracting State Logic into a Reducer",
+      "group": "react.dev/learn/extracting-state-logic-into-a-reducer",
+      "bytes": 25612,
+      "headings": [
+        "Consolidate state logic with a reducer {/*consolidate-state-logic-with-a-reducer*/}",
+        "Step 1: Move from setting state to dispatching actions {/*step-1-move-from-setting-state-to-dispatching-actions*/}",
+        "Step 2: Write a reducer function {/*step-2-write-a-reducer-function*/}",
+        "Step 3: Use the reducer from your component {/*step-3-use-the-reducer-from-your-component*/}",
+        "Comparing `useState` and `useReducer` {/*comparing-usestate-and-usereducer*/}",
+        "Writing reducers well {/*writing-reducers-well*/}",
+        "Writing concise reducers with Immer {/*writing-concise-reducers-with-immer*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/extracting-state-logic-into-a-reducer/extracting-state-logic-into-a-reducer_pt2.md",
+      "title": "Extracting State Logic Into A Reducer Pt2",
+      "group": "react.dev/learn/extracting-state-logic-into-a-reducer",
+      "bytes": 25631,
+      "headings": []
+    },
+    {
+      "path": "reference/react.dev/learn/extracting-state-logic-into-a-reducer/extracting-state-logic-into-a-reducer_pt3.md",
+      "title": "Extracting State Logic Into A Reducer Pt3",
+      "group": "react.dev/learn/extracting-state-logic-into-a-reducer",
+      "bytes": 11004,
+      "headings": [
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/importing-and-exporting-components.md",
+      "title": "Importing and Exporting Components",
+      "group": "react.dev/learn",
+      "bytes": 11947,
+      "headings": [
+        "The root component file {/*the-root-component-file*/}",
+        "Exporting and importing a component {/*exporting-and-importing-a-component*/}",
+        "Exporting and importing multiple components from the same file {/*exporting-and-importing-multiple-components-from-the-same-file*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/installation.md",
+      "title": "Installation",
+      "group": "react.dev/learn",
+      "bytes": 2421,
+      "headings": [
+        "Try React {/*try-react*/}",
+        "Creating a React App {/*creating-a-react-app*/}",
+        "Build a React App from Scratch {/*build-a-react-app-from-scratch*/}",
+        "Add React to an existing project {/*add-react-to-an-existing-project*/}",
+        "Next steps {/*next-steps*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/javascript-in-jsx-with-curly-braces.md",
+      "title": "JavaScript in JSX with Curly Braces",
+      "group": "react.dev/learn",
+      "bytes": 14331,
+      "headings": [
+        "Passing strings with quotes {/*passing-strings-with-quotes*/}",
+        "Using curly braces: A window into the JavaScript world {/*using-curly-braces-a-window-into-the-javascript-world*/}",
+        "Where to use curly braces {/*where-to-use-curly-braces*/}",
+        "Using \"double curlies\": CSS and other objects in JSX {/*using-double-curlies-css-and-other-objects-in-jsx*/}",
+        "More fun with JavaScript objects and curly braces {/*more-fun-with-javascript-objects-and-curly-braces*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/keeping-components-pure.md",
+      "title": "Keeping Components Pure",
+      "group": "react.dev/learn",
+      "bytes": 25411,
+      "headings": [
+        "Purity: Components as formulas {/*purity-components-as-formulas*/}",
+        "Side Effects: (un)intended consequences {/*side-effects-unintended-consequences*/}",
+        "Local mutation: Your component's little secret {/*local-mutation-your-components-little-secret*/}",
+        "Where you _can_ cause side effects {/*where-you-_can_-cause-side-effects*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/lifecycle-of-reactive-effects/lifecycle-of-reactive-effects_pt1.md",
+      "title": "Lifecycle of Reactive Effects",
+      "group": "react.dev/learn/lifecycle-of-reactive-effects",
+      "bytes": 25715,
+      "headings": [
+        "The lifecycle of an Effect {/*the-lifecycle-of-an-effect*/}",
+        "Why synchronization may need to happen more than once {/*why-synchronization-may-need-to-happen-more-than-once*/}",
+        "How React re-synchronizes your Effect {/*how-react-re-synchronizes-your-effect*/}",
+        "Thinking from the Effect's perspective {/*thinking-from-the-effects-perspective*/}",
+        "How React verifies that your Effect can re-synchronize {/*how-react-verifies-that-your-effect-can-re-synchronize*/}",
+        "How React knows that it needs to re-synchronize the Effect {/*how-react-knows-that-it-needs-to-re-synchronize-the-effect*/}",
+        "Each Effect represents a separate synchronization process {/*each-effect-represents-a-separate-synchronization-process*/}",
+        "Effects \"react\" to reactive values {/*effects-react-to-reactive-values*/}",
+        "What an Effect with empty dependencies means {/*what-an-effect-with-empty-dependencies-means*/}",
+        "All variables declared in the component body are reactive {/*all-variables-declared-in-the-component-body-are-reactive*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/lifecycle-of-reactive-effects/lifecycle-of-reactive-effects_pt2.md",
+      "title": "Lifecycle Of Reactive Effects Pt2",
+      "group": "react.dev/learn/lifecycle-of-reactive-effects",
+      "bytes": 25619,
+      "headings": [
+        "React verifies that you specified every reactive value as a dependency {/*react-verifies-that-you-specified-every-reactive-value-as-a-dependency*/}",
+        "What to do when you don't want to re-synchronize {/*what-to-do-when-you-dont-want-to-re-synchronize*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/lifecycle-of-reactive-effects/lifecycle-of-reactive-effects_pt3.md",
+      "title": "Lifecycle Of Reactive Effects Pt3",
+      "group": "react.dev/learn/lifecycle-of-reactive-effects",
+      "bytes": 20756,
+      "headings": [
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/managing-state.md",
+      "title": "Managing State",
+      "group": "react.dev/learn",
+      "bytes": 25376,
+      "headings": [
+        "Reacting to input with state {/*reacting-to-input-with-state*/}",
+        "Choosing the state structure {/*choosing-the-state-structure*/}",
+        "Sharing state between components {/*sharing-state-between-components*/}",
+        "Preserving and resetting state {/*preserving-and-resetting-state*/}",
+        "Extracting state logic into a reducer {/*extracting-state-logic-into-a-reducer*/}",
+        "Passing data deeply with context {/*passing-data-deeply-with-context*/}",
+        "Scaling up with reducer and context {/*scaling-up-with-reducer-and-context*/}",
+        "What's next? {/*whats-next*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/manipulating-the-dom-with-refs.md",
+      "title": "Manipulating the DOM with Refs",
+      "group": "react.dev/learn",
+      "bytes": 31300,
+      "headings": [
+        "Getting a ref to the node {/*getting-a-ref-to-the-node*/}",
+        "Example: Focusing a text input {/*example-focusing-a-text-input*/}",
+        "Example: Scrolling to an element {/*example-scrolling-to-an-element*/}",
+        "Accessing another component's DOM nodes {/*accessing-another-components-dom-nodes*/}",
+        "When React attaches the refs {/*when-react-attaches-the-refs*/}",
+        "Best practices for DOM manipulation with refs {/*best-practices-for-dom-manipulation-with-refs*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/passing-data-deeply-with-context.md",
+      "title": "Passing Data Deeply with Context",
+      "group": "react.dev/learn",
+      "bytes": 34769,
+      "headings": [
+        "The problem with passing props {/*the-problem-with-passing-props*/}",
+        "Context: an alternative to passing props {/*context-an-alternative-to-passing-props*/}",
+        "Step 1: Create the context {/*step-1-create-the-context*/}",
+        "Step 2: Use the context {/*step-2-use-the-context*/}",
+        "Step 3: Provide the context {/*step-3-provide-the-context*/}",
+        "Using and providing context from the same component {/*using-and-providing-context-from-the-same-component*/}",
+        "Context passes through intermediate components {/*context-passes-through-intermediate-components*/}",
+        "Before you use context {/*before-you-use-context*/}",
+        "Use cases for context {/*use-cases-for-context*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/passing-props-to-a-component.md",
+      "title": "Passing Props to a Component",
+      "group": "react.dev/learn",
+      "bytes": 26973,
+      "headings": [
+        "Familiar props {/*familiar-props*/}",
+        "Passing props to a component {/*passing-props-to-a-component*/}",
+        "Step 1: Pass props to the child component {/*step-1-pass-props-to-the-child-component*/}",
+        "Step 2: Read props inside the child component {/*step-2-read-props-inside-the-child-component*/}",
+        "Specifying a default value for a prop {/*specifying-a-default-value-for-a-prop*/}",
+        "Forwarding props with the JSX spread syntax {/*forwarding-props-with-the-jsx-spread-syntax*/}",
+        "Passing JSX as children {/*passing-jsx-as-children*/}",
+        "How props change over time {/*how-props-change-over-time*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/preserving-and-resetting-state/preserving-and-resetting-state_pt1.md",
+      "title": "Preserving and Resetting State",
+      "group": "react.dev/learn/preserving-and-resetting-state",
+      "bytes": 25602,
+      "headings": [
+        "State is tied to a position in the render tree {/*state-is-tied-to-a-position-in-the-tree*/}",
+        "Same component at the same position preserves state {/*same-component-at-the-same-position-preserves-state*/}",
+        "Different components at the same position reset state {/*different-components-at-the-same-position-reset-state*/}",
+        "Resetting state at the same position {/*resetting-state-at-the-same-position*/}",
+        "Option 1: Rendering a component in different positions {/*option-1-rendering-a-component-in-different-positions*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/preserving-and-resetting-state/preserving-and-resetting-state_pt2.md",
+      "title": "Preserving And Resetting State Pt2",
+      "group": "react.dev/learn/preserving-and-resetting-state",
+      "bytes": 25872,
+      "headings": [
+        "Option 2: Resetting state with a key {/*option-2-resetting-state-with-a-key*/}",
+        "Resetting a form with a key {/*resetting-a-form-with-a-key*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/preserving-and-resetting-state/preserving-and-resetting-state_pt3.md",
+      "title": "Preserving And Resetting State Pt3",
+      "group": "react.dev/learn/preserving-and-resetting-state",
+      "bytes": 3646,
+      "headings": [
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/queueing-a-series-of-state-updates.md",
+      "title": "Queueing a Series of State Updates",
+      "group": "react.dev/learn",
+      "bytes": 17317,
+      "headings": [
+        "React batches state updates {/*react-batches-state-updates*/}",
+        "Updating the same state multiple times before the next render {/*updating-the-same-state-multiple-times-before-the-next-render*/}",
+        "What happens if you update state after replacing it {/*what-happens-if-you-update-state-after-replacing-it*/}",
+        "What happens if you replace state after updating it {/*what-happens-if-you-replace-state-after-updating-it*/}",
+        "Naming conventions {/*naming-conventions*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/react-compiler/debugging.md",
+      "title": "Debugging and Troubleshooting",
+      "group": "react.dev/learn/react-compiler",
+      "bytes": 4675,
+      "headings": [
+        "Understanding Compiler Behavior {/*understanding-compiler-behavior*/}",
+        "Compiler Errors vs Runtime Issues {/*compiler-errors-vs-runtime-issues*/}",
+        "Common Breaking Patterns {/*common-breaking-patterns*/}",
+        "Debugging Workflow {/*debugging-workflow*/}",
+        "Compiler Build Errors {/*compiler-build-errors*/}",
+        "Runtime Issues {/*runtime-issues*/}",
+        "1. Temporarily Disable Compilation {/*temporarily-disable-compilation*/}",
+        "2. Fix Issues Step by Step {/*fix-issues-step-by-step*/}",
+        "Reporting Compiler Bugs {/*reporting-compiler-bugs*/}",
+        "Next Steps {/*next-steps*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/react-compiler/incremental-adoption.md",
+      "title": "Incremental Adoption",
+      "group": "react.dev/learn/react-compiler",
+      "bytes": 7149,
+      "headings": [
+        "Why Incremental Adoption? {/*why-incremental-adoption*/}",
+        "Approaches to Incremental Adoption {/*approaches-to-incremental-adoption*/}",
+        "Directory-Based Adoption with Babel Overrides {/*directory-based-adoption*/}",
+        "Basic Configuration {/*basic-configuration*/}",
+        "Expanding Coverage {/*expanding-coverage*/}",
+        "With Compiler Options {/*with-compiler-options*/}",
+        "Opt-in Mode with \"use memo\" {/*opt-in-mode-with-use-memo*/}",
+        "Annotation Mode Configuration {/*annotation-mode-configuration*/}",
+        "Using the Directive {/*using-the-directive*/}",
+        "Runtime Feature Flags with Gating {/*runtime-feature-flags-with-gating*/}",
+        "How Gating Works {/*how-gating-works*/}",
+        "Gating Configuration {/*gating-configuration*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/react-compiler/installation.md",
+      "title": "Installation",
+      "group": "react.dev/learn/react-compiler",
+      "bytes": 8117,
+      "headings": [
+        "Prerequisites {/*prerequisites*/}",
+        "Installation {/*installation*/}",
+        "Basic Setup {/*basic-setup*/}",
+        "Babel {/*babel*/}",
+        "Vite {/*vite*/}",
+        "Next.js {/*usage-with-nextjs*/}",
+        "React Router {/*usage-with-react-router*/}",
+        "Webpack {/*usage-with-webpack*/}",
+        "Expo {/*usage-with-expo*/}",
+        "Metro (React Native) {/*usage-with-react-native-metro*/}",
+        "Rspack {/*usage-with-rspack*/}",
+        "Rsbuild {/*usage-with-rsbuild*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/react-compiler/introduction.md",
+      "title": "Introduction",
+      "group": "react.dev/learn/react-compiler",
+      "bytes": 11168,
+      "headings": [
+        "What does React Compiler do? {/*what-does-react-compiler-do*/}",
+        "Before React Compiler {/*before-react-compiler*/}",
+        "After React Compiler {/*after-react-compiler*/}",
+        "Should I try out the compiler? {/*should-i-try-out-the-compiler*/}",
+        "Is it safe to use? {/*is-it-safe-to-use*/}",
+        "What build tools are supported? {/*what-build-tools-are-supported*/}",
+        "What should I do about useMemo, useCallback, and React.memo? {/*what-should-i-do-about-usememo-usecallback-and-reactmemo*/}",
+        "Try React Compiler {/*try-react-compiler*/}",
+        "Additional resources {/*additional-resources*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/react-compiler.md",
+      "title": "React Compiler",
+      "group": "react.dev/learn",
+      "bytes": 1780,
+      "headings": [
+        "Introduction {/*introduction*/}",
+        "Installation {/*installation*/}",
+        "Incremental Adoption {/*incremental-adoption*/}",
+        "Debugging and Troubleshooting {/*debugging-and-troubleshooting*/}",
+        "Configuration and Reference {/*configuration-and-reference*/}",
+        "Additional resources {/*additional-resources*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/react-developer-tools.md",
+      "title": "React Developer Tools",
+      "group": "react.dev/learn",
+      "bytes": 2513,
+      "headings": [
+        "Browser extension {/*browser-extension*/}",
+        "Safari and other browsers {/*safari-and-other-browsers*/}",
+        "Yarn",
+        "Npm",
+        "Mobile (React Native) {/*mobile-react-native*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/reacting-to-input-with-state.md",
+      "title": "Reacting to Input with State",
+      "group": "react.dev/learn",
+      "bytes": 36586,
+      "headings": [
+        "How declarative UI compares to imperative {/*how-declarative-ui-compares-to-imperative*/}",
+        "Thinking about UI declaratively {/*thinking-about-ui-declaratively*/}",
+        "Step 1: Identify your component's different visual states {/*step-1-identify-your-components-different-visual-states*/}",
+        "Step 2: Determine what triggers those state changes {/*step-2-determine-what-triggers-those-state-changes*/}",
+        "Step 3: Represent the state in memory with `useState` {/*step-3-represent-the-state-in-memory-with-usestate*/}",
+        "Step 4: Remove any non-essential state variables {/*step-4-remove-any-non-essential-state-variables*/}",
+        "Step 5: Connect the event handlers to set state {/*step-5-connect-the-event-handlers-to-set-state*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/referencing-values-with-refs.md",
+      "title": "Referencing Values with Refs",
+      "group": "react.dev/learn",
+      "bytes": 21978,
+      "headings": [
+        "Adding a ref to your component {/*adding-a-ref-to-your-component*/}",
+        "Example: building a stopwatch {/*example-building-a-stopwatch*/}",
+        "Differences between refs and state {/*differences-between-refs-and-state*/}",
+        "When to use refs {/*when-to-use-refs*/}",
+        "Best practices for refs {/*best-practices-for-refs*/}",
+        "Refs and the DOM {/*refs-and-the-dom*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/removing-effect-dependencies/removing-effect-dependencies_pt1.md",
+      "title": "Removing Effect Dependencies",
+      "group": "react.dev/learn/removing-effect-dependencies",
+      "bytes": 25642,
+      "headings": [
+        "Dependencies should match the code {/*dependencies-should-match-the-code*/}",
+        "To remove a dependency, prove that it's not a dependency {/*to-remove-a-dependency-prove-that-its-not-a-dependency*/}",
+        "To change the dependencies, change the code {/*to-change-the-dependencies-change-the-code*/}",
+        "Removing unnecessary dependencies {/*removing-unnecessary-dependencies*/}",
+        "Should this code move to an event handler? {/*should-this-code-move-to-an-event-handler*/}",
+        "Is your Effect doing several unrelated things? {/*is-your-effect-doing-several-unrelated-things*/}",
+        "Are you reading some state to calculate the next state? {/*are-you-reading-some-state-to-calculate-the-next-state*/}",
+        "Do you want to read a value without \"reacting\" to its changes? {/*do-you-want-to-read-a-value-without-reacting-to-its-changes*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/removing-effect-dependencies/removing-effect-dependencies_pt2.md",
+      "title": "Removing Effect Dependencies Pt2",
+      "group": "react.dev/learn/removing-effect-dependencies",
+      "bytes": 25600,
+      "headings": [
+        "Does some reactive value change unintentionally? {/*does-some-reactive-value-change-unintentionally*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/removing-effect-dependencies/removing-effect-dependencies_pt3.md",
+      "title": "Removing Effect Dependencies Pt3",
+      "group": "react.dev/learn/removing-effect-dependencies",
+      "bytes": 24614,
+      "headings": [
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/render-and-commit.md",
+      "title": "Render and Commit",
+      "group": "react.dev/learn",
+      "bytes": 9237,
+      "headings": [
+        "Step 1: Trigger a render {/*step-1-trigger-a-render*/}",
+        "Initial render {/*initial-render*/}",
+        "Re-renders when state updates {/*re-renders-when-state-updates*/}",
+        "Step 2: React renders your components {/*step-2-react-renders-your-components*/}",
+        "Step 3: React commits changes to the DOM {/*step-3-react-commits-changes-to-the-dom*/}",
+        "Epilogue: Browser paint {/*epilogue-browser-paint*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/rendering-lists.md",
+      "title": "Rendering Lists",
+      "group": "react.dev/learn",
+      "bytes": 32609,
+      "headings": [
+        "Rendering data from arrays {/*rendering-data-from-arrays*/}",
+        "Filtering arrays of items {/*filtering-arrays-of-items*/}",
+        "Keeping list items in order with `key` {/*keeping-list-items-in-order-with-key*/}",
+        "Where to get your `key` {/*where-to-get-your-key*/}",
+        "Rules of keys {/*rules-of-keys*/}",
+        "Why does React need keys? {/*why-does-react-need-keys*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/responding-to-events.md",
+      "title": "Responding to Events",
+      "group": "react.dev/learn",
+      "bytes": 22604,
+      "headings": [
+        "Adding event handlers {/*adding-event-handlers*/}",
+        "Reading props in event handlers {/*reading-props-in-event-handlers*/}",
+        "Passing event handlers as props {/*passing-event-handlers-as-props*/}",
+        "Naming event handler props {/*naming-event-handler-props*/}",
+        "Event propagation {/*event-propagation*/}",
+        "Stopping propagation {/*stopping-propagation*/}",
+        "Passing handlers as alternative to propagation {/*passing-handlers-as-alternative-to-propagation*/}",
+        "Preventing default behavior {/*preventing-default-behavior*/}",
+        "Can event handlers have side effects? {/*can-event-handlers-have-side-effects*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/reusing-logic-with-custom-hooks/reusing-logic-with-custom-hooks_pt1.md",
+      "title": "Reusing Logic with Custom Hooks",
+      "group": "react.dev/learn/reusing-logic-with-custom-hooks",
+      "bytes": 25634,
+      "headings": [
+        "Custom Hooks: Sharing logic between components {/*custom-hooks-sharing-logic-between-components*/}",
+        "Extracting your own custom Hook from a component {/*extracting-your-own-custom-hook-from-a-component*/}",
+        "Hook names always start with `use` {/*hook-names-always-start-with-use*/}",
+        "Custom Hooks let you share stateful logic, not state itself {/*custom-hooks-let-you-share-stateful-logic-not-state-itself*/}",
+        "Passing reactive values between Hooks {/*passing-reactive-values-between-hooks*/}",
+        "Passing event handlers to custom Hooks {/*passing-event-handlers-to-custom-hooks*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/reusing-logic-with-custom-hooks/reusing-logic-with-custom-hooks_pt2.md",
+      "title": "Reusing Logic With Custom Hooks Pt2",
+      "group": "react.dev/learn/reusing-logic-with-custom-hooks",
+      "bytes": 25685,
+      "headings": [
+        "When to use custom Hooks {/*when-to-use-custom-hooks*/}",
+        "Custom Hooks help you migrate to better patterns {/*custom-hooks-help-you-migrate-to-better-patterns*/}",
+        "There is more than one way to do it {/*there-is-more-than-one-way-to-do-it*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/reusing-logic-with-custom-hooks/reusing-logic-with-custom-hooks_pt3.md",
+      "title": "Reusing Logic With Custom Hooks Pt3",
+      "group": "react.dev/learn/reusing-logic-with-custom-hooks",
+      "bytes": 19577,
+      "headings": [
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/scaling-up-with-reducer-and-context.md",
+      "title": "Scaling Up with Reducer and Context",
+      "group": "react.dev/learn",
+      "bytes": 31012,
+      "headings": [
+        "Combining a reducer with context {/*combining-a-reducer-with-context*/}",
+        "Step 1: Create the context {/*step-1-create-the-context*/}",
+        "Step 2: Put state and dispatch into context {/*step-2-put-state-and-dispatch-into-context*/}",
+        "Step 3: Use context anywhere in the tree {/*step-3-use-context-anywhere-in-the-tree*/}",
+        "Moving all wiring into a single file {/*moving-all-wiring-into-a-single-file*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/separating-events-from-effects/separating-events-from-effects_pt1.md",
+      "title": "Separating Events from Effects",
+      "group": "react.dev/learn/separating-events-from-effects",
+      "bytes": 25602,
+      "headings": [
+        "Choosing between event handlers and Effects {/*choosing-between-event-handlers-and-effects*/}",
+        "Event handlers run in response to specific interactions {/*event-handlers-run-in-response-to-specific-interactions*/}",
+        "Effects run whenever synchronization is needed {/*effects-run-whenever-synchronization-is-needed*/}",
+        "Reactive values and reactive logic {/*reactive-values-and-reactive-logic*/}",
+        "Logic inside event handlers is not reactive {/*logic-inside-event-handlers-is-not-reactive*/}",
+        "Logic inside Effects is reactive {/*logic-inside-effects-is-reactive*/}",
+        "Extracting non-reactive logic out of Effects {/*extracting-non-reactive-logic-out-of-effects*/}",
+        "Declaring an Effect Event {/*declaring-an-effect-event*/}",
+        "Reading latest props and state with Effect Events {/*reading-latest-props-and-state-with-effect-events*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/separating-events-from-effects/separating-events-from-effects_pt2.md",
+      "title": "Separating Events From Effects Pt2",
+      "group": "react.dev/learn/separating-events-from-effects",
+      "bytes": 25610,
+      "headings": [
+        "Limitations of Effect Events {/*limitations-of-effect-events*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/separating-events-from-effects/separating-events-from-effects_pt3.md",
+      "title": "Separating Events From Effects Pt3",
+      "group": "react.dev/learn/separating-events-from-effects",
+      "bytes": 1891,
+      "headings": [
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/setup.md",
+      "title": "Setup",
+      "group": "react.dev/learn",
+      "bytes": 1135,
+      "headings": [
+        "Editor Setup {/*editor-setup*/}",
+        "Using TypeScript {/*using-typescript*/}",
+        "React Developer Tools {/*react-developer-tools*/}",
+        "React Compiler {/*react-compiler*/}",
+        "Next steps {/*next-steps*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/sharing-state-between-components.md",
+      "title": "Sharing State Between Components",
+      "group": "react.dev/learn",
+      "bytes": 19743,
+      "headings": [
+        "Lifting state up by example {/*lifting-state-up-by-example*/}",
+        "Step 1: Remove state from the child components {/*step-1-remove-state-from-the-child-components*/}",
+        "Step 2: Pass hardcoded data from the common parent {/*step-2-pass-hardcoded-data-from-the-common-parent*/}",
+        "Step 3: Add state to the common parent {/*step-3-add-state-to-the-common-parent*/}",
+        "A single source of truth for each state {/*a-single-source-of-truth-for-each-state*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/state-a-components-memory/state-a-components-memory_pt1.md",
+      "title": "State: A Component's Memory",
+      "group": "react.dev/learn/state-a-components-memory",
+      "bytes": 25609,
+      "headings": [
+        "When a regular variable isn\u2019t enough {/*when-a-regular-variable-isnt-enough*/}",
+        "Adding a state variable {/*adding-a-state-variable*/}",
+        "Meet your first Hook {/*meet-your-first-hook*/}",
+        "Anatomy of `useState` {/*anatomy-of-usestate*/}",
+        "Giving a component multiple state variables {/*giving-a-component-multiple-state-variables*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/state-a-components-memory/state-a-components-memory_pt2.md",
+      "title": "State A Components Memory Pt2",
+      "group": "react.dev/learn/state-a-components-memory",
+      "bytes": 25684,
+      "headings": [
+        "State is isolated and private {/*state-is-isolated-and-private*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/state-a-components-memory/state-a-components-memory_pt3.md",
+      "title": "State A Components Memory Pt3",
+      "group": "react.dev/learn/state-a-components-memory",
+      "bytes": 15605,
+      "headings": [
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/state-as-a-snapshot.md",
+      "title": "State as a Snapshot",
+      "group": "react.dev/learn",
+      "bytes": 13767,
+      "headings": [
+        "Setting state triggers renders {/*setting-state-triggers-renders*/}",
+        "Rendering takes a snapshot in time {/*rendering-takes-a-snapshot-in-time*/}",
+        "State over time {/*state-over-time*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/synchronizing-with-effects/synchronizing-with-effects_pt1.md",
+      "title": "Synchronizing with Effects",
+      "group": "react.dev/learn/synchronizing-with-effects",
+      "bytes": 25684,
+      "headings": [
+        "What are Effects and how are they different from events? {/*what-are-effects-and-how-are-they-different-from-events*/}",
+        "You might not need an Effect {/*you-might-not-need-an-effect*/}",
+        "How to write an Effect {/*how-to-write-an-effect*/}",
+        "Step 1: Declare an Effect {/*step-1-declare-an-effect*/}",
+        "Step 2: Specify the Effect dependencies {/*step-2-specify-the-effect-dependencies*/}",
+        "Step 3: Add cleanup if needed {/*step-3-add-cleanup-if-needed*/}",
+        "How to handle the Effect firing twice in development? {/*how-to-handle-the-effect-firing-twice-in-development*/}",
+        "Controlling non-React widgets {/*controlling-non-react-widgets*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/synchronizing-with-effects/synchronizing-with-effects_pt2.md",
+      "title": "Synchronizing With Effects Pt2",
+      "group": "react.dev/learn/synchronizing-with-effects",
+      "bytes": 25640,
+      "headings": [
+        "Subscribing to events {/*subscribing-to-events*/}",
+        "Triggering animations {/*triggering-animations*/}",
+        "Fetching data {/*fetching-data*/}",
+        "Sending analytics {/*sending-analytics*/}",
+        "Not an Effect: Initializing the application {/*not-an-effect-initializing-the-application*/}",
+        "Not an Effect: Buying a product {/*not-an-effect-buying-a-product*/}",
+        "Putting it all together {/*putting-it-all-together*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/synchronizing-with-effects/synchronizing-with-effects_pt3.md",
+      "title": "Synchronizing With Effects Pt3",
+      "group": "react.dev/learn/synchronizing-with-effects",
+      "bytes": 10739,
+      "headings": [
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/thinking-in-react.md",
+      "title": "Thinking in React",
+      "group": "react.dev/learn",
+      "bytes": 23036,
+      "headings": [
+        "Start with the mockup {/*start-with-the-mockup*/}",
+        "Step 1: Break the UI into a component hierarchy {/*step-1-break-the-ui-into-a-component-hierarchy*/}",
+        "Step 2: Build a static version in React {/*step-2-build-a-static-version-in-react*/}",
+        "Step 3: Find the minimal but complete representation of UI state {/*step-3-find-the-minimal-but-complete-representation-of-ui-state*/}",
+        "Step 4: Identify where your state should live {/*step-4-identify-where-your-state-should-live*/}",
+        "Step 5: Add inverse data flow {/*step-5-add-inverse-data-flow*/}",
+        "Where to go from here {/*where-to-go-from-here*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/tutorial-tic-tac-toe/tutorial-tic-tac-toe_pt1.md",
+      "title": "Tutorial: Tic-Tac-Toe",
+      "group": "react.dev/learn/tutorial-tic-tac-toe",
+      "bytes": 25892,
+      "headings": [
+        "What are you building? {/*what-are-you-building*/}",
+        "Setup for the tutorial {/*setup-for-the-tutorial*/}",
+        "Overview {/*overview*/}",
+        "Inspecting the starter code {/*inspecting-the-starter-code*/}",
+        "Building the board {/*building-the-board*/}",
+        "Passing data through props {/*passing-data-through-props*/}",
+        "Making an interactive component {/*making-an-interactive-component*/}",
+        "React Developer Tools {/*react-developer-tools*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/tutorial-tic-tac-toe/tutorial-tic-tac-toe_pt2.md",
+      "title": "Tutorial Tic Tac Toe Pt2",
+      "group": "react.dev/learn/tutorial-tic-tac-toe",
+      "bytes": 25617,
+      "headings": [
+        "Completing the game {/*completing-the-game*/}",
+        "Lifting state up {/*lifting-state-up*/}",
+        "Why immutability is important {/*why-immutability-is-important*/}",
+        "Taking turns {/*taking-turns*/}",
+        "Declaring a winner {/*declaring-a-winner*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/tutorial-tic-tac-toe/tutorial-tic-tac-toe_pt3.md",
+      "title": "Tutorial Tic Tac Toe Pt3",
+      "group": "react.dev/learn/tutorial-tic-tac-toe",
+      "bytes": 25655,
+      "headings": [
+        "Adding time travel {/*adding-time-travel*/}",
+        "Storing a history of moves {/*storing-a-history-of-moves*/}",
+        "Lifting state up, again {/*lifting-state-up-again*/}",
+        "Showing the past moves {/*showing-the-past-moves*/}",
+        "Picking a key {/*picking-a-key*/}",
+        "Implementing time travel {/*implementing-time-travel*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/tutorial-tic-tac-toe/tutorial-tic-tac-toe_pt4.md",
+      "title": "Tutorial Tic Tac Toe Pt4",
+      "group": "react.dev/learn/tutorial-tic-tac-toe",
+      "bytes": 10837,
+      "headings": [
+        "Final cleanup {/*final-cleanup*/}",
+        "Wrapping up {/*wrapping-up*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/typescript.md",
+      "title": "Using TypeScript",
+      "group": "react.dev/learn",
+      "bytes": 19063,
+      "headings": [
+        "Installation {/*installation*/}",
+        "Adding TypeScript to an existing React project {/*adding-typescript-to-an-existing-react-project*/}",
+        "TypeScript with React Components {/*typescript-with-react-components*/}",
+        "Example Hooks {/*example-hooks*/}",
+        "`useState` {/*typing-usestate*/}",
+        "`useReducer` {/*typing-usereducer*/}",
+        "`useContext` {/*typing-usecontext*/}",
+        "`useMemo` {/*typing-usememo*/}",
+        "`useCallback` {/*typing-usecallback*/}",
+        "Useful Types {/*useful-types*/}",
+        "DOM Events {/*typing-dom-events*/}",
+        "Children {/*typing-children*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/understanding-your-ui-as-a-tree.md",
+      "title": "Understanding Your UI as a Tree",
+      "group": "react.dev/learn",
+      "bytes": 14118,
+      "headings": [
+        "Your UI as a tree {/*your-ui-as-a-tree*/}",
+        "The Render Tree {/*the-render-tree*/}",
+        "The Module Dependency Tree {/*the-module-dependency-tree*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/updating-arrays-in-state.md",
+      "title": "Updating Arrays in State",
+      "group": "react.dev/learn",
+      "bytes": 46038,
+      "headings": [
+        "Updating arrays without mutation {/*updating-arrays-without-mutation*/}",
+        "Adding to an array {/*adding-to-an-array*/}",
+        "Removing from an array {/*removing-from-an-array*/}",
+        "Transforming an array {/*transforming-an-array*/}",
+        "Replacing items in an array {/*replacing-items-in-an-array*/}",
+        "Inserting into an array {/*inserting-into-an-array*/}",
+        "Making other changes to an array {/*making-other-changes-to-an-array*/}",
+        "Updating objects inside arrays {/*updating-objects-inside-arrays*/}",
+        "Write concise update logic with Immer {/*write-concise-update-logic-with-immer*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/updating-objects-in-state.md",
+      "title": "Updating Objects in State",
+      "group": "react.dev/learn",
+      "bytes": 38918,
+      "headings": [
+        "What's a mutation? {/*whats-a-mutation*/}",
+        "Treat state as read-only {/*treat-state-as-read-only*/}",
+        "Copying objects with the spread syntax {/*copying-objects-with-the-spread-syntax*/}",
+        "Updating a nested object {/*updating-a-nested-object*/}",
+        "Write concise update logic with Immer {/*write-concise-update-logic-with-immer*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/writing-markup-with-jsx.md",
+      "title": "Writing Markup with JSX",
+      "group": "react.dev/learn",
+      "bytes": 10557,
+      "headings": [
+        "JSX: Putting markup into JavaScript {/*jsx-putting-markup-into-javascript*/}",
+        "Converting HTML to JSX {/*converting-html-to-jsx*/}",
+        "The Rules of JSX {/*the-rules-of-jsx*/}",
+        "1. Return a single root element {/*1-return-a-single-root-element*/}",
+        "2. Close all the tags {/*2-close-all-the-tags*/}",
+        "3. camelCase <s>all</s> most of the things! {/*3-camelcase-salls-most-of-the-things*/}",
+        "Pro-tip: Use a JSX Converter {/*pro-tip-use-a-jsx-converter*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/you-might-not-need-an-effect/you-might-not-need-an-effect_pt1.md",
+      "title": "You Might Not Need an Effect",
+      "group": "react.dev/learn/you-might-not-need-an-effect",
+      "bytes": 25601,
+      "headings": [
+        "How to remove unnecessary Effects {/*how-to-remove-unnecessary-effects*/}",
+        "Updating state based on props or state {/*updating-state-based-on-props-or-state*/}",
+        "Caching expensive calculations {/*caching-expensive-calculations*/}",
+        "Resetting all state when a prop changes {/*resetting-all-state-when-a-prop-changes*/}",
+        "Adjusting some state when a prop changes {/*adjusting-some-state-when-a-prop-changes*/}",
+        "Sharing logic between event handlers {/*sharing-logic-between-event-handlers*/}",
+        "Sending a POST request {/*sending-a-post-request*/}",
+        "Chains of computations {/*chains-of-computations*/}",
+        "Initializing the application {/*initializing-the-application*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/you-might-not-need-an-effect/you-might-not-need-an-effect_pt2.md",
+      "title": "You Might Not Need An Effect Pt2",
+      "group": "react.dev/learn/you-might-not-need-an-effect",
+      "bytes": 25615,
+      "headings": [
+        "Notifying parent components about state changes {/*notifying-parent-components-about-state-changes*/}",
+        "Passing data to the parent {/*passing-data-to-the-parent*/}",
+        "Subscribing to an external store {/*subscribing-to-an-external-store*/}",
+        "Fetching data {/*fetching-data*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/you-might-not-need-an-effect/you-might-not-need-an-effect_pt3.md",
+      "title": "You Might Not Need An Effect Pt3",
+      "group": "react.dev/learn/you-might-not-need-an-effect",
+      "bytes": 10250,
+      "headings": [
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn/your-first-component.md",
+      "title": "Your First Component",
+      "group": "react.dev/learn",
+      "bytes": 13314,
+      "headings": [
+        "Components: UI building blocks {/*components-ui-building-blocks*/}",
+        "Defining a component {/*defining-a-component*/}",
+        "Step 1: Export the component {/*step-1-export-the-component*/}",
+        "Step 2: Define the function {/*step-2-define-the-function*/}",
+        "Step 3: Add markup {/*step-3-add-markup*/}",
+        "Using a component {/*using-a-component*/}",
+        "What the browser sees {/*what-the-browser-sees*/}",
+        "Nesting and organizing components {/*nesting-and-organizing-components*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/learn.md",
+      "title": "Quick Start",
+      "group": "react.dev",
+      "bytes": 15837,
+      "headings": [
+        "Creating and nesting components {/*components*/}",
+        "Writing markup with JSX {/*writing-markup-with-jsx*/}",
+        "Adding styles {/*adding-styles*/}",
+        "Displaying data {/*displaying-data*/}",
+        "Conditional rendering {/*conditional-rendering*/}",
+        "Rendering lists {/*rendering-lists*/}",
+        "Responding to events {/*responding-to-events*/}",
+        "Updating the screen {/*updating-the-screen*/}",
+        "Using Hooks {/*using-hooks*/}",
+        "Sharing data between components {/*sharing-data-between-components*/}",
+        "Next Steps {/*next-steps*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/dev-tools/react-performance-tracks.md",
+      "title": "React Performance tracks",
+      "group": "react.dev/reference/dev-tools",
+      "bytes": 10848,
+      "headings": [
+        "Usage {/*usage*/}",
+        "Using profiling builds {/*using-profiling-builds*/}",
+        "Tracks {/*tracks*/}",
+        "Scheduler {/*scheduler*/}",
+        "Components {/*components*/}",
+        "Server {/*server*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/component-hook-factories.md",
+      "title": "component-hook-factories",
+      "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
+      "bytes": 2154,
+      "headings": [
+        "Rule Details {/*rule-details*/}",
+        "Invalid {/*invalid*/}",
+        "Valid {/*valid*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "I need dynamic component behavior {/*dynamic-behavior*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/config.md",
+      "title": "config",
+      "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
+      "bytes": 2060,
+      "headings": [
+        "Rule Details {/*rule-details*/}",
+        "Invalid {/*invalid*/}",
+        "Valid {/*valid*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "Configuration not working as expected {/*config-not-working*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/error-boundaries.md",
+      "title": "error-boundaries",
+      "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
+      "bytes": 2181,
+      "headings": [
+        "Rule Details {/*rule-details*/}",
+        "Invalid {/*invalid*/}",
+        "Valid {/*valid*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "Why is the linter telling me not to wrap `use` in `try`/`catch`? {/*why-is-the-linter-telling-me-not-to-wrap-use-in-trycatch*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/exhaustive-deps.md",
+      "title": "exhaustive-deps",
+      "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
+      "bytes": 4292,
+      "headings": [
+        "Rule Details {/*rule-details*/}",
+        "Common Violations {/*common-violations*/}",
+        "Invalid {/*invalid*/}",
+        "Valid {/*valid*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "Adding a function dependency causes infinite loops {/*function-dependency-loops*/}",
+        "Running an effect only once {/*effect-on-mount*/}",
+        "Options {/*options*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/gating.md",
+      "title": "gating",
+      "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
+      "bytes": 1490,
+      "headings": [
+        "Rule Details {/*rule-details*/}",
+        "Invalid {/*invalid*/}",
+        "Valid {/*valid*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/globals.md",
+      "title": "globals",
+      "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
+      "bytes": 2097,
+      "headings": [
+        "Rule Details {/*rule-details*/}",
+        "Invalid {/*invalid*/}",
+        "Valid {/*valid*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/immutability.md",
+      "title": "immutability",
+      "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
+      "bytes": 3304,
+      "headings": [
+        "Rule Details {/*rule-details*/}",
+        "Common Violations {/*common-violations*/}",
+        "Invalid {/*invalid*/}",
+        "Valid {/*valid*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "I need to add items to an array {/*add-items-array*/}",
+        "I need to update nested objects {/*update-nested-objects*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/incompatible-library.md",
+      "title": "incompatible-library",
+      "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
+      "bytes": 5043,
+      "headings": [
+        "Rule Details {/*rule-details*/}",
+        "Invalid {/*invalid*/}",
+        "Valid {/*valid*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/preserve-manual-memoization.md",
+      "title": "preserve-manual-memoization",
+      "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
+      "bytes": 2508,
+      "headings": [
+        "Rule Details {/*rule-details*/}",
+        "Invalid {/*invalid*/}",
+        "Valid {/*valid*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "Should I remove my manual memoization? {/*remove-manual-memoization*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/purity.md",
+      "title": "purity",
+      "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
+      "bytes": 2267,
+      "headings": [
+        "Rule Details {/*rule-details*/}",
+        "Common Violations {/*common-violations*/}",
+        "Invalid {/*invalid*/}",
+        "Valid {/*valid*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "I need to show the current time {/*current-time*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/refs.md",
+      "title": "refs",
+      "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
+      "bytes": 3262,
+      "headings": [
+        "Rule Details {/*rule-details*/}",
+        "How It Detects Refs {/*how-it-detects-refs*/}",
+        "Common Violations {/*common-violations*/}",
+        "Invalid {/*invalid*/}",
+        "Valid {/*valid*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "The lint flagged my plain object with `.current` {/*plain-object-current*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/rules-of-hooks.md",
+      "title": "rules-of-hooks",
+      "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
+      "bytes": 4514,
+      "headings": [
+        "Rule Details {/*rule-details*/}",
+        "Common Violations {/*common-violations*/}",
+        "`use` hook {/*use-hook*/}",
+        "Invalid {/*invalid*/}",
+        "Valid {/*valid*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "I want to fetch data based on some condition {/*conditional-data-fetching*/}",
+        "I need different state for different scenarios {/*conditional-state-initialization*/}",
+        "Options {/*options*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect.md",
+      "title": "set-state-in-effect",
+      "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
+      "bytes": 3359,
+      "headings": [
+        "Rule Details {/*rule-details*/}",
+        "Common Violations {/*common-violations*/}",
+        "Invalid {/*invalid*/}",
+        "Valid {/*valid*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-render.md",
+      "title": "set-state-in-render",
+      "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
+      "bytes": 3064,
+      "headings": [
+        "Rule Details {/*rule-details*/}",
+        "Common Violations {/*common-violations*/}",
+        "Invalid {/*invalid*/}",
+        "Valid {/*valid*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "I want to sync state to a prop {/*clamp-state-to-prop*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/static-components.md",
+      "title": "static-components",
+      "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
+      "bytes": 2548,
+      "headings": [
+        "Rule Details {/*rule-details*/}",
+        "Invalid {/*invalid*/}",
+        "Valid {/*valid*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "I need to render different components conditionally {/*conditional-components*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/unsupported-syntax.md",
+      "title": "unsupported-syntax",
+      "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
+      "bytes": 2545,
+      "headings": [
+        "Rule Details {/*rule-details*/}",
+        "Invalid {/*invalid*/}",
+        "Valid {/*valid*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "I need to evaluate dynamic code {/*evaluate-dynamic-code*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/use-memo.md",
+      "title": "use-memo",
+      "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
+      "bytes": 2463,
+      "headings": [
+        "Rule Details {/*rule-details*/}",
+        "Invalid {/*invalid*/}",
+        "Valid {/*valid*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "I need to run side effects when dependencies change {/*side-effects*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/eslint-plugin-react-hooks.md",
+      "title": "eslint-plugin-react-hooks",
+      "group": "react.dev/reference",
+      "bytes": 3830,
+      "headings": [
+        "Recommended Rules {/*recommended*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/Activity.md",
+      "title": "<Activity>",
+      "group": "react.dev/reference/react",
+      "bytes": 32182,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`<Activity>` {/*activity*/}",
+        "Usage {/*usage*/}",
+        "Restoring the state of hidden components {/*restoring-the-state-of-hidden-components*/}",
+        "Restoring the DOM of hidden components {/*restoring-the-dom-of-hidden-components*/}",
+        "Pre-rendering content that's likely to become visible {/*pre-rendering-content-thats-likely-to-become-visible*/}",
+        "Speeding up interactions during page load {/*speeding-up-interactions-during-page-load*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "My hidden components have unwanted side effects {/*my-hidden-components-have-unwanted-side-effects*/}",
+        "My hidden components have Effects that aren't running {/*my-hidden-components-have-effects-that-arent-running*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/Children.md",
+      "title": "Children",
+      "group": "react.dev/reference/react",
+      "bytes": 22217,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`Children.count(children)` {/*children-count*/}",
+        "`Children.forEach(children, fn, thisArg?)` {/*children-foreach*/}",
+        "`Children.map(children, fn, thisArg?)` {/*children-map*/}",
+        "`Children.only(children)` {/*children-only*/}",
+        "`Children.toArray(children)` {/*children-toarray*/}",
+        "Usage {/*usage*/}",
+        "Transforming children {/*transforming-children*/}",
+        "Running some code for each child {/*running-some-code-for-each-child*/}",
+        "Counting children {/*counting-children*/}",
+        "Converting children to an array {/*converting-children-to-an-array*/}",
+        "Alternatives {/*alternatives*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/Component/Component_pt1.md",
+      "title": "Component",
+      "group": "react.dev/reference/react/Component",
+      "bytes": 25610,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`Component` {/*component*/}",
+        "`context` {/*context*/}",
+        "`props` {/*props*/}",
+        "`state` {/*state*/}",
+        "`constructor(props)` {/*constructor*/}",
+        "`componentDidCatch(error, info)` {/*componentdidcatch*/}",
+        "`componentDidMount()` {/*componentdidmount*/}",
+        "`componentDidUpdate(prevProps, prevState, snapshot?)` {/*componentdidupdate*/}",
+        "`componentWillMount()` {/*componentwillmount*/}",
+        "`componentWillReceiveProps(nextProps)` {/*componentwillreceiveprops*/}",
+        "`componentWillUpdate(nextProps, nextState)` {/*componentwillupdate*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/Component/Component_pt2.md",
+      "title": "Component Pt2",
+      "group": "react.dev/reference/react/Component",
+      "bytes": 25622,
+      "headings": [
+        "`shouldComponentUpdate(nextProps, nextState, nextContext)` {/*shouldcomponentupdate*/}",
+        "`UNSAFE_componentWillMount()` {/*unsafe_componentwillmount*/}",
+        "`UNSAFE_componentWillReceiveProps(nextProps, nextContext)` {/*unsafe_componentwillreceiveprops*/}",
+        "`UNSAFE_componentWillUpdate(nextProps, nextState)` {/*unsafe_componentwillupdate*/}",
+        "`static contextType` {/*static-contexttype*/}",
+        "`static defaultProps` {/*static-defaultprops*/}",
+        "`static getDerivedStateFromError(error)` {/*static-getderivedstatefromerror*/}",
+        "`static getDerivedStateFromProps(props, state)` {/*static-getderivedstatefromprops*/}",
+        "Usage {/*usage*/}",
+        "Defining a class component {/*defining-a-class-component*/}",
+        "Adding state to a class component {/*adding-state-to-a-class-component*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/Component/Component_pt3.md",
+      "title": "Component Pt3",
+      "group": "react.dev/reference/react/Component",
+      "bytes": 21469,
+      "headings": [
+        "Adding lifecycle methods to a class component {/*adding-lifecycle-methods-to-a-class-component*/}",
+        "Catching rendering errors with an Error Boundary {/*catching-rendering-errors-with-an-error-boundary*/}",
+        "Alternatives {/*alternatives*/}",
+        "Migrating a simple component from a class to a function {/*migrating-a-simple-component-from-a-class-to-a-function*/}",
+        "Migrating a component with state from a class to a function {/*migrating-a-component-with-state-from-a-class-to-a-function*/}",
+        "Migrating a component with lifecycle methods from a class to a function {/*migrating-a-component-with-lifecycle-methods-from-a-class-to-a-function*/}",
+        "Migrating a component with context from a class to a function {/*migrating-a-component-with-context-from-a-class-to-a-function*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/Fragment.md",
+      "title": "<Fragment> (<>...</>)",
+      "group": "react.dev/reference/react",
+      "bytes": 10821,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`<Fragment>` {/*fragment*/}",
+        "<CanaryBadge /> FragmentInstance {/*fragmentinstance*/}",
+        "Usage {/*usage*/}",
+        "Returning multiple elements {/*returning-multiple-elements*/}",
+        "Assigning multiple elements to a variable {/*assigning-multiple-elements-to-a-variable*/}",
+        "Grouping elements with text {/*grouping-elements-with-text*/}",
+        "Rendering a list of Fragments {/*rendering-a-list-of-fragments*/}",
+        "<CanaryBadge /> Using Fragment refs for DOM interaction {/*using-fragment-refs-for-dom-interaction*/}",
+        "<CanaryBadge /> Tracking visibility with Fragment refs {/*tracking-visibility-with-fragment-refs*/}",
+        "<CanaryBadge /> Focus management with Fragment refs {/*focus-management-with-fragment-refs*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/Profiler.md",
+      "title": "<Profiler>",
+      "group": "react.dev/reference/react",
+      "bytes": 5183,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`<Profiler>` {/*profiler*/}",
+        "`onRender` callback {/*onrender-callback*/}",
+        "Usage {/*usage*/}",
+        "Measuring rendering performance programmatically {/*measuring-rendering-performance-programmatically*/}",
+        "Measuring different parts of the application {/*measuring-different-parts-of-the-application*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/PureComponent.md",
+      "title": "PureComponent",
+      "group": "react.dev/reference/react",
+      "bytes": 5959,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`PureComponent` {/*purecomponent*/}",
+        "Usage {/*usage*/}",
+        "Skipping unnecessary re-renders for class components {/*skipping-unnecessary-re-renders-for-class-components*/}",
+        "Alternatives {/*alternatives*/}",
+        "Migrating from a `PureComponent` class component to a function {/*migrating-from-a-purecomponent-class-component-to-a-function*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/StrictMode.md",
+      "title": "<StrictMode>",
+      "group": "react.dev/reference/react",
+      "bytes": 34755,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`<StrictMode>` {/*strictmode*/}",
+        "Usage {/*usage*/}",
+        "Enabling Strict Mode for entire app {/*enabling-strict-mode-for-entire-app*/}",
+        "Enabling Strict Mode for a part of the app {/*enabling-strict-mode-for-a-part-of-the-app*/}",
+        "Fixing bugs found by double rendering in development {/*fixing-bugs-found-by-double-rendering-in-development*/}",
+        "Fixing bugs found by re-running Effects in development {/*fixing-bugs-found-by-re-running-effects-in-development*/}",
+        "Fixing bugs found by re-running ref callbacks in development {/*fixing-bugs-found-by-re-running-ref-callbacks-in-development*/}",
+        "Fixing deprecation warnings enabled by Strict Mode {/*fixing-deprecation-warnings-enabled-by-strict-mode*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/Suspense.md",
+      "title": "<Suspense>",
+      "group": "react.dev/reference/react",
+      "bytes": 48147,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`<Suspense>` {/*suspense*/}",
+        "Usage {/*usage*/}",
+        "Displaying a fallback while content is loading {/*displaying-a-fallback-while-content-is-loading*/}",
+        "Revealing content together at once {/*revealing-content-together-at-once*/}",
+        "Revealing nested content as it loads {/*revealing-nested-content-as-it-loads*/}",
+        "Showing stale content while fresh content is loading {/*showing-stale-content-while-fresh-content-is-loading*/}",
+        "Preventing already revealed content from hiding {/*preventing-already-revealed-content-from-hiding*/}",
+        "Indicating that a Transition is happening {/*indicating-that-a-transition-is-happening*/}",
+        "Resetting Suspense boundaries on navigation {/*resetting-suspense-boundaries-on-navigation*/}",
+        "Providing a fallback for server errors and client-only content {/*providing-a-fallback-for-server-errors-and-client-only-content*/}",
+        "Troubleshooting {/*troubleshooting*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/ViewTransition/ViewTransition_pt1.md",
+      "title": "<ViewTransition>",
+      "group": "react.dev/reference/react/ViewTransition",
+      "bytes": 25602,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`<ViewTransition>` {/*viewtransition*/}",
+        "View Transition Class {/*view-transition-class*/}",
+        "View Transition Event {/*view-transition-event*/}",
+        "Styling View Transitions {/*styling-view-transitions*/}",
+        "Usage {/*usage*/}",
+        "Animating an element on enter/exit {/*animating-an-element-on-enter*/}",
+        "Animating enter/exit with Activity {/*animating-enter-exit-with-activity*/}",
+        "Animating a shared element {/*animating-a-shared-element*/}",
+        "Animating reorder of items in a list {/*animating-reorder-of-items-in-a-list*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/ViewTransition/ViewTransition_pt2.md",
+      "title": "Viewtransition Pt2",
+      "group": "react.dev/reference/react/ViewTransition",
+      "bytes": 25611,
+      "headings": [
+        "Animating from Suspense content {/*animating-from-suspense-content*/}",
+        "Opting-out of an animation {/*opting-out-of-an-animation*/}",
+        "Customizing animations {/*customizing-animations*/}",
+        "Customizing animations with types {/*customizing-animations-with-types*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/ViewTransition/ViewTransition_pt3.md",
+      "title": "Viewtransition Pt3",
+      "group": "react.dev/reference/react/ViewTransition",
+      "bytes": 18317,
+      "headings": [
+        "Animating with JavaScript {/*animating-with-javascript*/}",
+        "Animating transition types with JavaScript {/*animating-transition-types-with-javascript*/}",
+        "Building View Transition enabled routers {/*building-view-transition-enabled-routers*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "My `<ViewTransition>` is not activating {/*my-viewtransition-is-not-activating*/}",
+        "I'm getting an error \"There are two `<ViewTransition name=%s>` components with the same name mounted at the same time.\" {/*two-viewtransition-with-same-name*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/act.md",
+      "title": "act",
+      "group": "react.dev/reference/react",
+      "bytes": 5981,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`await act(async actFn)` {/*await-act-async-actfn*/}",
+        "Usage {/*usage*/}",
+        "Rendering components in tests {/*rendering-components-in-tests*/}",
+        "Dispatching events in tests {/*dispatching-events-in-tests*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "I'm getting an error: \"The current testing environment is not configured to support act(...)\" {/*error-the-current-testing-environment-is-not-configured-to-support-act*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/addTransitionType.md",
+      "title": "addTransitionType",
+      "group": "react.dev/reference/react",
+      "bytes": 4900,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`addTransitionType` {/*addtransitiontype*/}",
+        "Usage {/*usage*/}",
+        "Adding the cause of a transition {/*adding-the-cause-of-a-transition*/}",
+        "Customize animations using browser view transition types {/*customize-animations-using-browser-view-transition-types*/}",
+        "Customize animations using `View Transition` Class {/*customize-animations-using-view-transition-class*/}",
+        "Customize animations using `ViewTransition` events {/*customize-animations-using-viewtransition-events*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/apis.md",
+      "title": "Built-in React APIs",
+      "group": "react.dev/reference/react",
+      "bytes": 1783,
+      "headings": [
+        "Resource APIs {/*resource-apis*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/cache.md",
+      "title": "cache",
+      "group": "react.dev/reference/react",
+      "bytes": 19237,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`cache(fn)` {/*cache*/}",
+        "Usage {/*usage*/}",
+        "Cache an expensive computation {/*cache-expensive-computation*/}",
+        "Share a snapshot of data {/*take-and-share-snapshot-of-data*/}",
+        "Preload data {/*preload-data*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "My memoized function still runs even though I've called it with the same arguments {/*memoized-function-still-runs*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/cacheSignal.md",
+      "title": "cacheSignal",
+      "group": "react.dev/reference/react",
+      "bytes": 3417,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`cacheSignal` {/*cachesignal*/}",
+        "Usage {/*usage*/}",
+        "Cancel in-flight requests {/*cancel-in-flight-requests*/}",
+        "Ignore errors after React has finished rendering {/*ignore-errors-after-react-has-finished-rendering*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/captureOwnerStack.md",
+      "title": "captureOwnerStack",
+      "group": "react.dev/reference/react",
+      "bytes": 9948,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`captureOwnerStack()` {/*captureownerstack*/}",
+        "Usage {/*usage*/}",
+        "Enhance a custom error overlay {/*enhance-a-custom-error-overlay*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "The Owner Stack is `null` {/*the-owner-stack-is-null*/}",
+        "`captureOwnerStack` is not available {/*captureownerstack-is-not-available*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/cloneElement.md",
+      "title": "cloneElement",
+      "group": "react.dev/reference/react",
+      "bytes": 16317,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`cloneElement(element, props, ...children)` {/*cloneelement*/}",
+        "Usage {/*usage*/}",
+        "Overriding props of an element {/*overriding-props-of-an-element*/}",
+        "Alternatives {/*alternatives*/}",
+        "Passing data with a render prop {/*passing-data-with-a-render-prop*/}",
+        "Passing data through context {/*passing-data-through-context*/}",
+        "Extracting logic into a custom Hook {/*extracting-logic-into-a-custom-hook*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/components.md",
+      "title": "Built-in React Components",
+      "group": "react.dev/reference/react",
+      "bytes": 984,
+      "headings": [
+        "Built-in components {/*built-in-components*/}",
+        "Your own components {/*your-own-components*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/createContext.md",
+      "title": "createContext",
+      "group": "react.dev/reference/react",
+      "bytes": 7099,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`createContext(defaultValue)` {/*createcontext*/}",
+        "`SomeContext` Provider {/*provider*/}",
+        "`SomeContext.Consumer` {/*consumer*/}",
+        "Usage {/*usage*/}",
+        "Creating context {/*creating-context*/}",
+        "Importing and exporting context from a file {/*importing-and-exporting-context-from-a-file*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "I can't find a way to change the context value {/*i-cant-find-a-way-to-change-the-context-value*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/createElement.md",
+      "title": "createElement",
+      "group": "react.dev/reference/react",
+      "bytes": 7082,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`createElement(type, props, ...children)` {/*createelement*/}",
+        "Usage {/*usage*/}",
+        "Creating an element without JSX {/*creating-an-element-without-jsx*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/createRef.md",
+      "title": "createRef",
+      "group": "react.dev/reference/react",
+      "bytes": 4111,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`createRef()` {/*createref*/}",
+        "Usage {/*usage*/}",
+        "Declaring a ref in a class component {/*declaring-a-ref-in-a-class-component*/}",
+        "Alternatives {/*alternatives*/}",
+        "Migrating from a class with `createRef` to a function with `useRef` {/*migrating-from-a-class-with-createref-to-a-function-with-useref*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/experimental_taintObjectReference.md",
+      "title": "experimental_taintObjectReference",
+      "group": "react.dev/reference/react",
+      "bytes": 5535,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`taintObjectReference(message, object)` {/*taintobjectreference*/}",
+        "Usage {/*usage*/}",
+        "Prevent user data from unintentionally reaching the client {/*prevent-user-data-from-unintentionally-reaching-the-client*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/experimental_taintUniqueValue.md",
+      "title": "experimental_taintUniqueValue",
+      "group": "react.dev/reference/react",
+      "bytes": 8201,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`taintUniqueValue(message, lifetime, value)` {/*taintuniquevalue*/}",
+        "Usage {/*usage*/}",
+        "Prevent a token from being passed to Client Components {/*prevent-a-token-from-being-passed-to-client-components*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/forwardRef.md",
+      "title": "forwardRef",
+      "group": "react.dev/reference/react",
+      "bytes": 14124,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`forwardRef(render)` {/*forwardref*/}",
+        "`render` function {/*render-function*/}",
+        "Usage {/*usage*/}",
+        "Exposing a DOM node to the parent component {/*exposing-a-dom-node-to-the-parent-component*/}",
+        "Forwarding a ref through multiple components {/*forwarding-a-ref-through-multiple-components*/}",
+        "Exposing an imperative handle instead of a DOM node {/*exposing-an-imperative-handle-instead-of-a-dom-node*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "My component is wrapped in `forwardRef`, but the `ref` to it is always `null` {/*my-component-is-wrapped-in-forwardref-but-the-ref-to-it-is-always-null*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/hooks.md",
+      "title": "Built-in React Hooks",
+      "group": "react.dev/reference/react",
+      "bytes": 5723,
+      "headings": [
+        "State Hooks {/*state-hooks*/}",
+        "Context Hooks {/*context-hooks*/}",
+        "Ref Hooks {/*ref-hooks*/}",
+        "Effect Hooks {/*effect-hooks*/}",
+        "Performance Hooks {/*performance-hooks*/}",
+        "Other Hooks {/*other-hooks*/}",
+        "Your own Hooks {/*your-own-hooks*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/isValidElement.md",
+      "title": "isValidElement",
+      "group": "react.dev/reference/react",
+      "bytes": 4086,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`isValidElement(value)` {/*isvalidelement*/}",
+        "Usage {/*usage*/}",
+        "Checking if something is a React element {/*checking-if-something-is-a-react-element*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/lazy.md",
+      "title": "lazy",
+      "group": "react.dev/reference/react",
+      "bytes": 6337,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`lazy(load)` {/*lazy*/}",
+        "`load` function {/*load*/}",
+        "Usage {/*usage*/}",
+        "Lazy-loading components with Suspense {/*suspense-for-code-splitting*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "My `lazy` component's state gets reset unexpectedly {/*my-lazy-components-state-gets-reset-unexpectedly*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/legacy.md",
+      "title": "Legacy React APIs",
+      "group": "react.dev/reference/react",
+      "bytes": 2708,
+      "headings": [
+        "Legacy APIs {/*legacy-apis*/}",
+        "Removed APIs {/*removed-apis*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/memo.md",
+      "title": "memo",
+      "group": "react.dev/reference/react",
+      "bytes": 18481,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`memo(Component, arePropsEqual?)` {/*memo*/}",
+        "Usage {/*usage*/}",
+        "Skipping re-rendering when props are unchanged {/*skipping-re-rendering-when-props-are-unchanged*/}",
+        "Updating a memoized component using state {/*updating-a-memoized-component-using-state*/}",
+        "Updating a memoized component using a context {/*updating-a-memoized-component-using-a-context*/}",
+        "Minimizing props changes {/*minimizing-props-changes*/}",
+        "Specifying a custom comparison function {/*specifying-a-custom-comparison-function*/}",
+        "Do I still need React.memo if I use React Compiler? {/*react-compiler-memo*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "My component re-renders when a prop is an object, array, or function {/*my-component-rerenders-when-a-prop-is-an-object-or-array*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/startTransition.md",
+      "title": "startTransition",
+      "group": "react.dev/reference/react",
+      "bytes": 4429,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`startTransition(action)` {/*starttransition*/}",
+        "Usage {/*usage*/}",
+        "Marking a state update as a non-blocking Transition {/*marking-a-state-update-as-a-non-blocking-transition*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/use.md",
+      "title": "use",
+      "group": "react.dev/reference/react",
+      "bytes": 16118,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`use(resource)` {/*use*/}",
+        "Usage {/*usage*/}",
+        "Reading context with `use` {/*reading-context-with-use*/}",
+        "Streaming data from the server to the client {/*streaming-data-from-server-to-client*/}",
+        "Dealing with rejected Promises {/*dealing-with-rejected-promises*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "\"Suspense Exception: This is not a real error!\" {/*suspense-exception-error*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useActionState.md",
+      "title": "useActionState",
+      "group": "react.dev/reference/react",
+      "bytes": 41608,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useActionState(reducerAction, initialState, permalink?)` {/*useactionstate*/}",
+        "`reducerAction` function {/*reduceraction*/}",
+        "Usage {/*usage*/}",
+        "Adding state to an Action {/*adding-state-to-an-action*/}",
+        "Using multiple Action types {/*using-multiple-action-types*/}",
+        "Using with `useOptimistic` {/*using-with-useoptimistic*/}",
+        "Using with Action props {/*using-with-action-props*/}",
+        "Cancelling queued Actions {/*cancelling-queued-actions*/}",
+        "Using with `<form>` Action props {/*use-with-a-form*/}",
+        "Handling errors {/*handling-errors*/}",
+        "Troubleshooting {/*troubleshooting*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useCallback.md",
+      "title": "useCallback",
+      "group": "react.dev/reference/react",
+      "bytes": 33347,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useCallback(fn, dependencies)` {/*usecallback*/}",
+        "Usage {/*usage*/}",
+        "Skipping re-rendering of components {/*skipping-re-rendering-of-components*/}",
+        "Updating state from a memoized callback {/*updating-state-from-a-memoized-callback*/}",
+        "Preventing an Effect from firing too often {/*preventing-an-effect-from-firing-too-often*/}",
+        "Optimizing a custom Hook {/*optimizing-a-custom-hook*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "Every time my component renders, `useCallback` returns a different function {/*every-time-my-component-renders-usecallback-returns-a-different-function*/}",
+        "I need to call `useCallback` for each list item in a loop, but it's not allowed {/*i-need-to-call-usememo-for-each-list-item-in-a-loop-but-its-not-allowed*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useContext.md",
+      "title": "useContext",
+      "group": "react.dev/reference/react",
+      "bytes": 33748,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useContext(SomeContext)` {/*usecontext*/}",
+        "Usage {/*usage*/}",
+        "Passing data deeply into the tree {/*passing-data-deeply-into-the-tree*/}",
+        "Updating data passed via context {/*updating-data-passed-via-context*/}",
+        "Specifying a fallback default value {/*specifying-a-fallback-default-value*/}",
+        "Overriding context for a part of the tree {/*overriding-context-for-a-part-of-the-tree*/}",
+        "Optimizing re-renders when passing objects and functions {/*optimizing-re-renders-when-passing-objects-and-functions*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "My component doesn't see the value from my provider {/*my-component-doesnt-see-the-value-from-my-provider*/}",
+        "I am always getting `undefined` from my context although the default value is different {/*i-am-always-getting-undefined-from-my-context-although-the-default-value-is-different*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useDebugValue.md",
+      "title": "useDebugValue",
+      "group": "react.dev/reference/react",
+      "bytes": 3870,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useDebugValue(value, format?)` {/*usedebugvalue*/}",
+        "Usage {/*usage*/}",
+        "Adding a label to a custom Hook {/*adding-a-label-to-a-custom-hook*/}",
+        "Deferring formatting of a debug value {/*deferring-formatting-of-a-debug-value*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useDeferredValue.md",
+      "title": "useDeferredValue",
+      "group": "react.dev/reference/react",
+      "bytes": 24875,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useDeferredValue(value, initialValue?)` {/*usedeferredvalue*/}",
+        "Usage {/*usage*/}",
+        "Showing stale content while fresh content is loading {/*showing-stale-content-while-fresh-content-is-loading*/}",
+        "Indicating that the content is stale {/*indicating-that-the-content-is-stale*/}",
+        "Deferring re-rendering for a part of the UI {/*deferring-re-rendering-for-a-part-of-the-ui*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useEffect/useEffect_pt1.md",
+      "title": "useEffect",
+      "group": "react.dev/reference/react/useEffect",
+      "bytes": 25615,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useEffect(setup, dependencies?)` {/*useeffect*/}",
+        "Usage {/*usage*/}",
+        "Connecting to an external system {/*connecting-to-an-external-system*/}",
+        "Wrapping Effects in custom Hooks {/*wrapping-effects-in-custom-hooks*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useEffect/useEffect_pt2.md",
+      "title": "Useeffect Pt2",
+      "group": "react.dev/reference/react/useEffect",
+      "bytes": 25619,
+      "headings": [
+        "Controlling a non-React widget {/*controlling-a-non-react-widget*/}",
+        "Fetching data with Effects {/*fetching-data-with-effects*/}",
+        "Specifying reactive dependencies {/*specifying-reactive-dependencies*/}",
+        "Updating state based on previous state from an Effect {/*updating-state-based-on-previous-state-from-an-effect*/}",
+        "Removing unnecessary object dependencies {/*removing-unnecessary-object-dependencies*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useEffect/useEffect_pt3.md",
+      "title": "Useeffect Pt3",
+      "group": "react.dev/reference/react/useEffect",
+      "bytes": 14161,
+      "headings": [
+        "Removing unnecessary function dependencies {/*removing-unnecessary-function-dependencies*/}",
+        "Reading the latest props and state from an Effect {/*reading-the-latest-props-and-state-from-an-effect*/}",
+        "Displaying different content on the server and the client {/*displaying-different-content-on-the-server-and-the-client*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "My Effect runs twice when the component mounts {/*my-effect-runs-twice-when-the-component-mounts*/}",
+        "My Effect runs after every re-render {/*my-effect-runs-after-every-re-render*/}",
+        "My Effect keeps re-running in an infinite cycle {/*my-effect-keeps-re-running-in-an-infinite-cycle*/}",
+        "My cleanup logic runs even though my component didn't unmount {/*my-cleanup-logic-runs-even-though-my-component-didnt-unmount*/}",
+        "My Effect does something visual, and I see a flicker before it runs {/*my-effect-does-something-visual-and-i-see-a-flicker-before-it-runs*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useEffectEvent.md",
+      "title": "useEffectEvent",
+      "group": "react.dev/reference/react",
+      "bytes": 16560,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useEffectEvent(callback)` {/*useeffectevent*/}",
+        "Usage {/*usage*/}",
+        "Using an event in an Effect {/*using-an-event-in-an-effect*/}",
+        "Using a timer with latest values {/*using-a-timer-with-latest-values*/}",
+        "Using an event listener with latest values {/*using-an-event-listener-with-latest-values*/}",
+        "Avoid reconnecting to external systems {/*showing-a-notification-without-reconnecting*/}",
+        "Using Effect Events in custom Hooks {/*using-effect-events-in-custom-hooks*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "I'm getting an error: \"A function wrapped in useEffectEvent can't be called during rendering\" {/*cant-call-during-rendering*/}",
+        "I'm getting a lint error: \"Functions returned from useEffectEvent must not be included in the dependency array\" {/*effect-event-in-deps*/}",
+        "I'm getting a lint error: \"... is a function created with useEffectEvent, and can only be called from Effects\" {/*effect-event-called-outside-effect*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useId.md",
+      "title": "useId",
+      "group": "react.dev/reference/react",
+      "bytes": 9480,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useId()` {/*useid*/}",
+        "Usage {/*usage*/}",
+        "Generating unique IDs for accessibility attributes {/*generating-unique-ids-for-accessibility-attributes*/}",
+        "Generating IDs for several related elements {/*generating-ids-for-several-related-elements*/}",
+        "Specifying a shared prefix for all generated IDs {/*specifying-a-shared-prefix-for-all-generated-ids*/}",
+        "Using the same ID prefix on the client and the server {/*using-the-same-id-prefix-on-the-client-and-the-server*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useImperativeHandle.md",
+      "title": "useImperativeHandle",
+      "group": "react.dev/reference/react",
+      "bytes": 7901,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useImperativeHandle(ref, createHandle, dependencies?)` {/*useimperativehandle*/}",
+        "Usage {/*usage*/}",
+        "Exposing a custom ref handle to the parent component {/*exposing-a-custom-ref-handle-to-the-parent-component*/}",
+        "Exposing your own imperative methods {/*exposing-your-own-imperative-methods*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useInsertionEffect.md",
+      "title": "useInsertionEffect",
+      "group": "react.dev/reference/react",
+      "bytes": 6204,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useInsertionEffect(setup, dependencies?)` {/*useinsertioneffect*/}",
+        "Usage {/*usage*/}",
+        "Injecting dynamic styles from CSS-in-JS libraries {/*injecting-dynamic-styles-from-css-in-js-libraries*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useLayoutEffect.md",
+      "title": "useLayoutEffect",
+      "group": "react.dev/reference/react",
+      "bytes": 23984,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useLayoutEffect(setup, dependencies?)` {/*useinsertioneffect*/}",
+        "Usage {/*usage*/}",
+        "Measuring layout before the browser repaints the screen {/*measuring-layout-before-the-browser-repaints-the-screen*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "I'm getting an error: \"`useLayoutEffect` does nothing on the server\" {/*im-getting-an-error-uselayouteffect-does-nothing-on-the-server*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useMemo.md",
+      "title": "useMemo",
+      "group": "react.dev/reference/react",
+      "bytes": 48839,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useMemo(calculateValue, dependencies)` {/*usememo*/}",
+        "Usage {/*usage*/}",
+        "Skipping expensive recalculations {/*skipping-expensive-recalculations*/}",
+        "Skipping re-rendering of components {/*skipping-re-rendering-of-components*/}",
+        "Preventing an Effect from firing too often {/*preventing-an-effect-from-firing-too-often*/}",
+        "Memoizing a dependency of another Hook {/*memoizing-a-dependency-of-another-hook*/}",
+        "Memoizing a function {/*memoizing-a-function*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "My calculation runs twice on every re-render {/*my-calculation-runs-twice-on-every-re-render*/}",
+        "My `useMemo` call is supposed to return an object, but returns undefined {/*my-usememo-call-is-supposed-to-return-an-object-but-returns-undefined*/}",
+        "Every time my component renders, the calculation in `useMemo` re-runs {/*every-time-my-component-renders-the-calculation-in-usememo-re-runs*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useOptimistic.md",
+      "title": "useOptimistic",
+      "group": "react.dev/reference/react",
+      "bytes": 34141,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useOptimistic(value, reducer?)` {/*useoptimistic*/}",
+        "`set` functions, like `setOptimistic(optimisticState)` {/*setoptimistic*/}",
+        "Usage {/*usage*/}",
+        "Adding optimistic state to a component {/*adding-optimistic-state-to-a-component*/}",
+        "Using optimistic state in Action props {/*using-optimistic-state-in-action-props*/}",
+        "Adding optimistic state to Action props {/*adding-optimistic-state-to-action-props*/}",
+        "Updating props or state optimistically {/*updating-props-or-state-optimistically*/}",
+        "Updating multiple values together {/*updating-multiple-values-together*/}",
+        "Optimistically adding to a list {/*optimistically-adding-to-a-list*/}",
+        "Handling multiple `action` types {/*handling-multiple-action-types*/}",
+        "Optimistic delete with error recovery {/*optimistic-delete-with-error-recovery*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useReducer.md",
+      "title": "useReducer",
+      "group": "react.dev/reference/react",
+      "bytes": 30616,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useReducer(reducer, initialArg, init?)` {/*usereducer*/}",
+        "`dispatch` function {/*dispatch*/}",
+        "Usage {/*usage*/}",
+        "Adding a reducer to a component {/*adding-a-reducer-to-a-component*/}",
+        "Writing the reducer function {/*writing-the-reducer-function*/}",
+        "Avoiding recreating the initial state {/*avoiding-recreating-the-initial-state*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "I've dispatched an action, but logging gives me the old state value {/*ive-dispatched-an-action-but-logging-gives-me-the-old-state-value*/}",
+        "I've dispatched an action, but the screen doesn't update {/*ive-dispatched-an-action-but-the-screen-doesnt-update*/}",
+        "A part of my reducer state becomes undefined after dispatching {/*a-part-of-my-reducer-state-becomes-undefined-after-dispatching*/}",
+        "My entire reducer state becomes undefined after dispatching {/*my-entire-reducer-state-becomes-undefined-after-dispatching*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useRef.md",
+      "title": "useRef",
+      "group": "react.dev/reference/react",
+      "bytes": 17172,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useRef(initialValue)` {/*useref*/}",
+        "Usage {/*usage*/}",
+        "Referencing a value with a ref {/*referencing-a-value-with-a-ref*/}",
+        "Manipulating the DOM with a ref {/*manipulating-the-dom-with-a-ref*/}",
+        "Avoiding recreating the ref contents {/*avoiding-recreating-the-ref-contents*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "I can't get a ref to a custom component {/*i-cant-get-a-ref-to-a-custom-component*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useState.md",
+      "title": "useState",
+      "group": "react.dev/reference/react",
+      "bytes": 39162,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useState(initialState)` {/*usestate*/}",
+        "`set` functions, like `setSomething(nextState)` {/*setstate*/}",
+        "Usage {/*usage*/}",
+        "Adding state to a component {/*adding-state-to-a-component*/}",
+        "Updating state based on the previous state {/*updating-state-based-on-the-previous-state*/}",
+        "Updating objects and arrays in state {/*updating-objects-and-arrays-in-state*/}",
+        "Avoiding recreating the initial state {/*avoiding-recreating-the-initial-state*/}",
+        "Resetting state with a key {/*resetting-state-with-a-key*/}",
+        "Storing information from previous renders {/*storing-information-from-previous-renders*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "I've updated the state, but logging gives me the old value {/*ive-updated-the-state-but-logging-gives-me-the-old-value*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useSyncExternalStore.md",
+      "title": "useSyncExternalStore",
+      "group": "react.dev/reference/react",
+      "bytes": 16619,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot?)` {/*usesyncexternalstore*/}",
+        "Usage {/*usage*/}",
+        "Subscribing to an external store {/*subscribing-to-an-external-store*/}",
+        "Subscribing to a browser API {/*subscribing-to-a-browser-api*/}",
+        "Extracting the logic to a custom Hook {/*extracting-the-logic-to-a-custom-hook*/}",
+        "Adding support for server rendering {/*adding-support-for-server-rendering*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "I'm getting an error: \"The result of `getSnapshot` should be cached\" {/*im-getting-an-error-the-result-of-getsnapshot-should-be-cached*/}",
+        "My `subscribe` function gets called after every re-render {/*my-subscribe-function-gets-called-after-every-re-render*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useTransition/useTransition_pt1.md",
+      "title": "useTransition",
+      "group": "react.dev/reference/react/useTransition",
+      "bytes": 25601,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useTransition()` {/*usetransition*/}",
+        "`startTransition(action)` {/*starttransition*/}",
+        "Usage {/*usage*/}",
+        "Perform non-blocking updates with Actions {/*perform-non-blocking-updates-with-actions*/}",
+        "Exposing `action` prop from components {/*exposing-action-props-from-components*/}",
+        "Displaying a pending visual state {/*displaying-a-pending-visual-state*/}",
+        "Preventing unwanted loading indicators {/*preventing-unwanted-loading-indicators*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useTransition/useTransition_pt2.md",
+      "title": "Usetransition Pt2",
+      "group": "react.dev/reference/react/useTransition",
+      "bytes": 25612,
+      "headings": [
+        "Building a Suspense-enabled router {/*building-a-suspense-enabled-router*/}",
+        "Displaying an error to users with an error boundary {/*displaying-an-error-to-users-with-error-boundary*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "Updating an input in a Transition doesn't work {/*updating-an-input-in-a-transition-doesnt-work*/}",
+        "React doesn't treat my state update as a Transition {/*react-doesnt-treat-my-state-update-as-a-transition*/}",
+        "React doesn't treat my state update after `await` as a Transition {/*react-doesnt-treat-my-state-update-after-await-as-a-transition*/}",
+        "I want to call `useTransition` from outside a component {/*i-want-to-call-usetransition-from-outside-a-component*/}",
+        "The function I pass to `startTransition` executes immediately {/*the-function-i-pass-to-starttransition-executes-immediately*/}",
+        "My state updates in Transitions are out of order {/*my-state-updates-in-transitions-are-out-of-order*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react/useTransition/useTransition_pt3.md",
+      "title": "Usetransition Pt3",
+      "group": "react.dev/reference/react/useTransition",
+      "bytes": 909,
+      "headings": [
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-compiler/compilationMode.md",
+      "title": "compilationMode",
+      "group": "react.dev/reference/react-compiler",
+      "bytes": 4669,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`compilationMode` {/*compilationmode*/}",
+        "Usage {/*usage*/}",
+        "Default inference mode {/*default-inference-mode*/}",
+        "Incremental adoption with annotation mode {/*incremental-adoption*/}",
+        "Using Flow syntax mode {/*flow-syntax-mode*/}",
+        "Opting out specific functions {/*opting-out*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "Component not being compiled in infer mode {/*component-not-compiled-infer*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-compiler/compiling-libraries.md",
+      "title": "Compiling Libraries",
+      "group": "react.dev/reference/react-compiler",
+      "bytes": 3596,
+      "headings": [
+        "Why Ship Compiled Code? {/*why-ship-compiled-code*/}",
+        "Setting Up Compilation {/*setting-up-compilation*/}",
+        "Backwards Compatibility {/*backwards-compatibility*/}",
+        "1. Install the runtime package {/*install-runtime-package*/}",
+        "2. Configure the target version {/*configure-target-version*/}",
+        "Testing Strategy {/*testing-strategy*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "Library doesn't work with older React versions {/*library-doesnt-work-with-older-react-versions*/}",
+        "Compilation conflicts with other Babel plugins {/*compilation-conflicts-with-other-babel-plugins*/}",
+        "Runtime module not found {/*runtime-module-not-found*/}",
+        "Next Steps {/*next-steps*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-compiler/configuration.md",
+      "title": "Configuration",
+      "group": "react.dev/reference/react-compiler",
+      "bytes": 3117,
+      "headings": [
+        "Compilation Control {/*compilation-control*/}",
+        "Version Compatibility {/*version-compatibility*/}",
+        "Error Handling {/*error-handling*/}",
+        "Debugging {/*debugging*/}",
+        "Feature Flags {/*feature-flags*/}",
+        "Common Configuration Patterns {/*common-patterns*/}",
+        "Default configuration {/*default-configuration*/}",
+        "React 17/18 projects {/*react-17-18*/}",
+        "Incremental adoption {/*incremental-adoption*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-compiler/directives/use-memo.md",
+      "title": "use memo",
+      "group": "react.dev/reference/react-compiler/directives",
+      "bytes": 5003,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`\"use memo\"` {/*use-memo*/}",
+        "How `\"use memo\"` marks functions for optimization {/*how-use-memo-marks*/}",
+        "When to use `\"use memo\"` {/*when-to-use*/}",
+        "Usage {/*usage*/}",
+        "Working with different compilation modes {/*compilation-modes*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "Verifying optimization {/*verifying-optimization*/}",
+        "See also {/*see-also*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-compiler/directives/use-no-memo.md",
+      "title": "use no memo",
+      "group": "react.dev/reference/react-compiler/directives",
+      "bytes": 4031,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`\"use no memo\"` {/*use-no-memo*/}",
+        "How `\"use no memo\"` opts-out of optimization {/*how-use-no-memo-opts-out*/}",
+        "When to use `\"use no memo\"` {/*when-to-use*/}",
+        "Usage {/*usage*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "Directive not preventing compilation {/*not-preventing*/}",
+        "Best practices {/*best-practices*/}",
+        "See also {/*see-also*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-compiler/directives.md",
+      "title": "Directives",
+      "group": "react.dev/reference/react-compiler",
+      "bytes": 5020,
+      "headings": [
+        "Overview {/*overview*/}",
+        "Available directives {/*available-directives*/}",
+        "Quick comparison {/*quick-comparison*/}",
+        "Usage {/*usage*/}",
+        "Function-level directives {/*function-level*/}",
+        "Module-level directives {/*module-level*/}",
+        "Compilation modes interaction {/*compilation-modes*/}",
+        "Best practices {/*best-practices*/}",
+        "Use directives sparingly {/*use-sparingly*/}",
+        "Document directive usage {/*document-usage*/}",
+        "Plan for removal {/*plan-removal*/}",
+        "Common patterns {/*common-patterns*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-compiler/gating.md",
+      "title": "gating",
+      "group": "react.dev/reference/react-compiler",
+      "bytes": 2723,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`gating` {/*gating*/}",
+        "Usage {/*usage*/}",
+        "Basic feature flag setup {/*basic-setup*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "Feature flag not working {/*flag-not-working*/}",
+        "Import errors {/*import-errors*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-compiler/logger.md",
+      "title": "logger",
+      "group": "react.dev/reference/react-compiler",
+      "bytes": 2424,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`logger` {/*logger*/}",
+        "Usage {/*usage*/}",
+        "Basic logging {/*basic-logging*/}",
+        "Detailed error logging {/*detailed-error-logging*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-compiler/panicThreshold.md",
+      "title": "panicThreshold",
+      "group": "react.dev/reference/react-compiler",
+      "bytes": 1882,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`panicThreshold` {/*panicthreshold*/}",
+        "Usage {/*usage*/}",
+        "Production configuration (recommended) {/*production-configuration*/}",
+        "Development debugging {/*development-debugging*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-compiler/target.md",
+      "title": "target",
+      "group": "react.dev/reference/react-compiler",
+      "bytes": 3058,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`target` {/*target*/}",
+        "Usage {/*usage*/}",
+        "Targeting React 19 (default) {/*targeting-react-19*/}",
+        "Targeting React 17 or 18 {/*targeting-react-17-or-18*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "Runtime errors about missing compiler runtime {/*missing-runtime*/}",
+        "Runtime package not working {/*runtime-not-working*/}",
+        "Checking compiled output {/*checking-output*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/client/createRoot.md",
+      "title": "createRoot",
+      "group": "react.dev/reference/react-dom/client",
+      "bytes": 20580,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`createRoot(domNode, options?)` {/*createroot*/}",
+        "`root.render(reactNode)` {/*root-render*/}",
+        "`root.unmount()` {/*root-unmount*/}",
+        "Usage {/*usage*/}",
+        "Rendering an app fully built with React {/*rendering-an-app-fully-built-with-react*/}",
+        "Rendering a page partially built with React {/*rendering-a-page-partially-built-with-react*/}",
+        "Updating a root component {/*updating-a-root-component*/}",
+        "Error logging in production {/*error-logging-in-production*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "I've created a root, but nothing is displayed {/*ive-created-a-root-but-nothing-is-displayed*/}",
+        "I'm getting an error: \"You passed a second argument to root.render\" {/*im-getting-an-error-you-passed-a-second-argument-to-root-render*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/client/hydrateRoot.md",
+      "title": "hydrateRoot",
+      "group": "react.dev/reference/react-dom/client",
+      "bytes": 18633,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`hydrateRoot(domNode, reactNode, options?)` {/*hydrateroot*/}",
+        "`root.render(reactNode)` {/*root-render*/}",
+        "`root.unmount()` {/*root-unmount*/}",
+        "Usage {/*usage*/}",
+        "Hydrating server-rendered HTML {/*hydrating-server-rendered-html*/}",
+        "Hydrating an entire document {/*hydrating-an-entire-document*/}",
+        "Suppressing unavoidable hydration mismatch errors {/*suppressing-unavoidable-hydration-mismatch-errors*/}",
+        "Handling different client and server content {/*handling-different-client-and-server-content*/}",
+        "Updating a hydrated root component {/*updating-a-hydrated-root-component*/}",
+        "Error logging in production {/*error-logging-in-production*/}",
+        "Troubleshooting {/*troubleshooting*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/client.md",
+      "title": "Client React DOM APIs",
+      "group": "react.dev/reference/react-dom",
+      "bytes": 1031,
+      "headings": [
+        "Client APIs {/*client-apis*/}",
+        "Browser support {/*browser-support*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/components/common/common_pt1.md",
+      "title": "Common components (e.g. )",
+      "group": "react.dev/reference/react-dom/components/common",
+      "bytes": 25697,
+      "headings": [
+        "Reference {/*reference*/}",
+        "Common components (e.g. ` `) {/*common*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/components/common/common_pt2.md",
+      "title": "Common Pt2",
+      "group": "react.dev/reference/react-dom/components/common",
+      "bytes": 25618,
+      "headings": [
+        "`ref` callback function {/*ref-callback*/}",
+        "React event object {/*react-event-object*/}",
+        "`AnimationEvent` handler function {/*animationevent-handler*/}",
+        "`ClipboardEvent` handler function {/*clipboadevent-handler*/}",
+        "`CompositionEvent` handler function {/*compositionevent-handler*/}",
+        "`DragEvent` handler function {/*dragevent-handler*/}",
+        "`FocusEvent` handler function {/*focusevent-handler*/}",
+        "`Event` handler function {/*event-handler*/}",
+        "`InputEvent` handler function {/*inputevent-handler*/}",
+        "`KeyboardEvent` handler function {/*keyboardevent-handler*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/components/common/common_pt3.md",
+      "title": "Common Pt3",
+      "group": "react.dev/reference/react-dom/components/common",
+      "bytes": 22200,
+      "headings": [
+        "`MouseEvent` handler function {/*mouseevent-handler*/}",
+        "`PointerEvent` handler function {/*pointerevent-handler*/}",
+        "`TouchEvent` handler function {/*touchevent-handler*/}",
+        "`TransitionEvent` handler function {/*transitionevent-handler*/}",
+        "`UIEvent` handler function {/*uievent-handler*/}",
+        "`WheelEvent` handler function {/*wheelevent-handler*/}",
+        "Usage {/*usage*/}",
+        "Applying CSS styles {/*applying-css-styles*/}",
+        "Manipulating a DOM node with a ref {/*manipulating-a-dom-node-with-a-ref*/}",
+        "Dangerously setting the inner HTML {/*dangerously-setting-the-inner-html*/}",
+        "Handling mouse events {/*handling-mouse-events*/}",
+        "Handling pointer events {/*handling-pointer-events*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/components/form.md",
+      "title": "<form>",
+      "group": "react.dev/reference/react-dom/components",
+      "bytes": 13420,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`<form>` {/*form*/}",
+        "Usage {/*usage*/}",
+        "Handle form submission on the client {/*handle-form-submission-on-the-client*/}",
+        "Handle form submission with a Server Function {/*handle-form-submission-with-a-server-function*/}",
+        "Display a pending state during form submission {/*display-a-pending-state-during-form-submission*/}",
+        "Optimistically updating form data {/*optimistically-updating-form-data*/}",
+        "Handling form submission errors {/*handling-form-submission-errors*/}",
+        "Display a form submission error without JavaScript {/*display-a-form-submission-error-without-javascript*/}",
+        "Handling multiple submission types {/*handling-multiple-submission-types*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/components/input.md",
+      "title": "<input>",
+      "group": "react.dev/reference/react-dom/components",
+      "bytes": 26282,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`<input>` {/*input*/}",
+        "Usage {/*usage*/}",
+        "Displaying inputs of different types {/*displaying-inputs-of-different-types*/}",
+        "Providing a label for an input {/*providing-a-label-for-an-input*/}",
+        "Providing an initial value for an input {/*providing-an-initial-value-for-an-input*/}",
+        "Reading the input values when submitting a form {/*reading-the-input-values-when-submitting-a-form*/}",
+        "Controlling an input with a state variable {/*controlling-an-input-with-a-state-variable*/}",
+        "Optimizing re-rendering on every keystroke {/*optimizing-re-rendering-on-every-keystroke*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "My text input doesn't update when I type into it {/*my-text-input-doesnt-update-when-i-type-into-it*/}",
+        "My checkbox doesn't update when I click on it {/*my-checkbox-doesnt-update-when-i-click-on-it*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/components/link.md",
+      "title": "Link",
+      "group": "react.dev/reference/react-dom/components",
+      "bytes": 11623,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`<link>` {/*link*/}",
+        "Usage {/*usage*/}",
+        "Linking to related resources {/*linking-to-related-resources*/}",
+        "Linking to a stylesheet {/*linking-to-a-stylesheet*/}",
+        "Controlling stylesheet precedence {/*controlling-stylesheet-precedence*/}",
+        "Deduplicated stylesheet rendering {/*deduplicated-stylesheet-rendering*/}",
+        "Annotating specific items within the document with links {/*annotating-specific-items-within-the-document-with-links*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/components/meta.md",
+      "title": "Meta",
+      "group": "react.dev/reference/react-dom/components",
+      "bytes": 4149,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`<meta>` {/*meta*/}",
+        "Usage {/*usage*/}",
+        "Annotating the document with metadata {/*annotating-the-document-with-metadata*/}",
+        "Annotating specific items within the document with metadata {/*annotating-specific-items-within-the-document-with-metadata*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/components/option.md",
+      "title": "<option>",
+      "group": "react.dev/reference/react-dom/components",
+      "bytes": 2886,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`<option>` {/*option*/}",
+        "Usage {/*usage*/}",
+        "Displaying a select box with options {/*displaying-a-select-box-with-options*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/components/progress.md",
+      "title": "<progress>",
+      "group": "react.dev/reference/react-dom/components",
+      "bytes": 1875,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`<progress>` {/*progress*/}",
+        "Usage {/*usage*/}",
+        "Controlling a progress indicator {/*controlling-a-progress-indicator*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/components/script.md",
+      "title": "Script",
+      "group": "react.dev/reference/react-dom/components",
+      "bytes": 5992,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`<script>` {/*script*/}",
+        "Usage {/*usage*/}",
+        "Rendering an external script {/*rendering-an-external-script*/}",
+        "Rendering an inline script {/*rendering-an-inline-script*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/components/select.md",
+      "title": "<select>",
+      "group": "react.dev/reference/react-dom/components",
+      "bytes": 16025,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`<select>` {/*select*/}",
+        "Usage {/*usage*/}",
+        "Displaying a select box with options {/*displaying-a-select-box-with-options*/}",
+        "Providing a label for a select box {/*providing-a-label-for-a-select-box*/}",
+        "Providing an initially selected option {/*providing-an-initially-selected-option*/}",
+        "Enabling multiple selection {/*enabling-multiple-selection*/}",
+        "Reading the select box value when submitting a form {/*reading-the-select-box-value-when-submitting-a-form*/}",
+        "Controlling a select box with a state variable {/*controlling-a-select-box-with-a-state-variable*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/components/style.md",
+      "title": "Style",
+      "group": "react.dev/reference/react-dom/components",
+      "bytes": 4723,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`<style>` {/*style*/}",
+        "Usage {/*usage*/}",
+        "Rendering an inline CSS stylesheet {/*rendering-an-inline-css-stylesheet*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/components/textarea.md",
+      "title": "<textarea>",
+      "group": "react.dev/reference/react-dom/components",
+      "bytes": 17479,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`<textarea>` {/*textarea*/}",
+        "Usage {/*usage*/}",
+        "Displaying a text area {/*displaying-a-text-area*/}",
+        "Providing a label for a text area {/*providing-a-label-for-a-text-area*/}",
+        "Providing an initial value for a text area {/*providing-an-initial-value-for-a-text-area*/}",
+        "Reading the text area value when submitting a form {/*reading-the-text-area-value-when-submitting-a-form*/}",
+        "Controlling a text area with a state variable {/*controlling-a-text-area-with-a-state-variable*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "My text area doesn't update when I type into it {/*my-text-area-doesnt-update-when-i-type-into-it*/}",
+        "My text area caret jumps to the beginning on every keystroke {/*my-text-area-caret-jumps-to-the-beginning-on-every-keystroke*/}",
+        "I'm getting an error: \"A component is changing an uncontrolled input to be controlled\" {/*im-getting-an-error-a-component-is-changing-an-uncontrolled-input-to-be-controlled*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/components/title.md",
+      "title": "<title>",
+      "group": "react.dev/reference/react-dom/components",
+      "bytes": 3563,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`<title>` {/*title*/}",
+        "Usage {/*usage*/}",
+        "Set the document title {/*set-the-document-title*/}",
+        "Use variables in the title {/*use-variables-in-the-title*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/components.md",
+      "title": "React DOM Components",
+      "group": "react.dev/reference/react-dom",
+      "bytes": 20016,
+      "headings": [
+        "Common components {/*common-components*/}",
+        "Form components {/*form-components*/}",
+        "Resource and Metadata Components {/*resource-and-metadata-components*/}",
+        "All HTML components {/*all-html-components*/}",
+        "Custom HTML elements {/*custom-html-elements*/}",
+        "All SVG components {/*all-svg-components*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/createPortal.md",
+      "title": "createPortal",
+      "group": "react.dev/reference/react-dom",
+      "bytes": 11035,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`createPortal(children, domNode, key?)` {/*createportal*/}",
+        "Usage {/*usage*/}",
+        "Rendering to a different part of the DOM {/*rendering-to-a-different-part-of-the-dom*/}",
+        "Rendering a modal dialog with a portal {/*rendering-a-modal-dialog-with-a-portal*/}",
+        "Rendering React components into non-React server markup {/*rendering-react-components-into-non-react-server-markup*/}",
+        "Rendering React components into non-React DOM nodes {/*rendering-react-components-into-non-react-dom-nodes*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/flushSync.md",
+      "title": "flushSync",
+      "group": "react.dev/reference/react-dom",
+      "bytes": 6470,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`flushSync(callback)` {/*flushsync*/}",
+        "Usage {/*usage*/}",
+        "Flushing updates for third-party integrations {/*flushing-updates-for-third-party-integrations*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "I'm getting an error: \"flushSync was called from inside a lifecycle method\" {/*im-getting-an-error-flushsync-was-called-from-inside-a-lifecycle-method*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/hooks/useFormStatus.md",
+      "title": "useFormStatus",
+      "group": "react.dev/reference/react-dom/hooks",
+      "bytes": 6956,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`useFormStatus()` {/*use-form-status*/}",
+        "Usage {/*usage*/}",
+        "Display a pending state during form submission {/*display-a-pending-state-during-form-submission*/}",
+        "Read the form data being submitted {/*read-form-data-being-submitted*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "`status.pending` is never `true` {/*pending-is-never-true*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/hooks.md",
+      "title": "Built-in React DOM Hooks",
+      "group": "react.dev/reference/react-dom",
+      "bytes": 1309,
+      "headings": [
+        "Form Hooks {/*form-hooks*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/preconnect.md",
+      "title": "preconnect",
+      "group": "react.dev/reference/react-dom",
+      "bytes": 2663,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`preconnect(href)` {/*preconnect*/}",
+        "Usage {/*usage*/}",
+        "Preconnecting when rendering {/*preconnecting-when-rendering*/}",
+        "Preconnecting in an event handler {/*preconnecting-in-an-event-handler*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/prefetchDNS.md",
+      "title": "prefetchDNS",
+      "group": "react.dev/reference/react-dom",
+      "bytes": 2916,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`prefetchDNS(href)` {/*prefetchdns*/}",
+        "Usage {/*usage*/}",
+        "Prefetching DNS when rendering {/*prefetching-dns-when-rendering*/}",
+        "Prefetching DNS in an event handler {/*prefetching-dns-in-an-event-handler*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/preinit.md",
+      "title": "preinit",
+      "group": "react.dev/reference/react-dom",
+      "bytes": 4867,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`preinit(href, options)` {/*preinit*/}",
+        "Usage {/*usage*/}",
+        "Preiniting when rendering {/*preiniting-when-rendering*/}",
+        "Preiniting in an event handler {/*preiniting-in-an-event-handler*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/preinitModule.md",
+      "title": "preinitModule",
+      "group": "react.dev/reference/react-dom",
+      "bytes": 3681,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`preinitModule(href, options)` {/*preinitmodule*/}",
+        "Usage {/*usage*/}",
+        "Preloading when rendering {/*preloading-when-rendering*/}",
+        "Preloading in an event handler {/*preloading-in-an-event-handler*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/preload.md",
+      "title": "preload",
+      "group": "react.dev/reference/react-dom",
+      "bytes": 6451,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`preload(href, options)` {/*preload*/}",
+        "Usage {/*usage*/}",
+        "Preloading when rendering {/*preloading-when-rendering*/}",
+        "Preloading in an event handler {/*preloading-in-an-event-handler*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/preloadModule.md",
+      "title": "preloadModule",
+      "group": "react.dev/reference/react-dom",
+      "bytes": 3506,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`preloadModule(href, options)` {/*preloadmodule*/}",
+        "Usage {/*usage*/}",
+        "Preloading when rendering {/*preloading-when-rendering*/}",
+        "Preloading in an event handler {/*preloading-in-an-event-handler*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/server/renderToPipeableStream.md",
+      "title": "renderToPipeableStream",
+      "group": "react.dev/reference/react-dom/server",
+      "bytes": 25464,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`renderToPipeableStream(reactNode, options?)` {/*rendertopipeablestream*/}",
+        "Usage {/*usage*/}",
+        "Rendering a React tree as HTML to a Node.js Stream {/*rendering-a-react-tree-as-html-to-a-nodejs-stream*/}",
+        "Streaming more content as it loads {/*streaming-more-content-as-it-loads*/}",
+        "Specifying what goes into the shell {/*specifying-what-goes-into-the-shell*/}",
+        "Logging crashes on the server {/*logging-crashes-on-the-server*/}",
+        "Recovering from errors inside the shell {/*recovering-from-errors-inside-the-shell*/}",
+        "Recovering from errors outside the shell {/*recovering-from-errors-outside-the-shell*/}",
+        "Setting the status code {/*setting-the-status-code*/}",
+        "Handling different errors in different ways {/*handling-different-errors-in-different-ways*/}",
+        "Waiting for all content to load for crawlers and static generation {/*waiting-for-all-content-to-load-for-crawlers-and-static-generation*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/server/renderToReadableStream.md",
+      "title": "renderToReadableStream",
+      "group": "react.dev/reference/react-dom/server",
+      "bytes": 25544,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`renderToReadableStream(reactNode, options?)` {/*rendertoreadablestream*/}",
+        "Usage {/*usage*/}",
+        "Rendering a React tree as HTML to a Readable Web Stream {/*rendering-a-react-tree-as-html-to-a-readable-web-stream*/}",
+        "Streaming more content as it loads {/*streaming-more-content-as-it-loads*/}",
+        "Specifying what goes into the shell {/*specifying-what-goes-into-the-shell*/}",
+        "Logging crashes on the server {/*logging-crashes-on-the-server*/}",
+        "Recovering from errors inside the shell {/*recovering-from-errors-inside-the-shell*/}",
+        "Recovering from errors outside the shell {/*recovering-from-errors-outside-the-shell*/}",
+        "Setting the status code {/*setting-the-status-code*/}",
+        "Handling different errors in different ways {/*handling-different-errors-in-different-ways*/}",
+        "Waiting for all content to load for crawlers and static generation {/*waiting-for-all-content-to-load-for-crawlers-and-static-generation*/}"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/server/renderToStaticMarkup.md",
+      "title": "renderToStaticMarkup",
+      "group": "react.dev/reference/react-dom/server",
+      "bytes": 2636,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`renderToStaticMarkup(reactNode, options?)` {/*rendertostaticmarkup*/}",
+        "Usage {/*usage*/}",
+        "Rendering a non-interactive React tree as HTML to a string {/*rendering-a-non-interactive-react-tree-as-html-to-a-string*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/server/renderToString.md",
+      "title": "renderToString",
+      "group": "react.dev/reference/react-dom/server",
+      "bytes": 6109,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`renderToString(reactNode, options?)` {/*rendertostring*/}",
+        "Usage {/*usage*/}",
+        "Rendering a React tree as HTML to a string {/*rendering-a-react-tree-as-html-to-a-string*/}",
+        "Alternatives {/*alternatives*/}",
+        "Migrating from `renderToString` to a streaming render on the server {/*migrating-from-rendertostring-to-a-streaming-method-on-the-server*/}",
+        "Migrating from `renderToString` to a static prerender on the server {/*migrating-from-rendertostring-to-a-static-prerender-on-the-server*/}",
+        "Removing `renderToString` from the client code {/*removing-rendertostring-from-the-client-code*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "When a component suspends, the HTML always contains a fallback {/*when-a-component-suspends-the-html-always-contains-a-fallback*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/server/resume.md",
+      "title": "resume",
+      "group": "react.dev/reference/react-dom/server",
+      "bytes": 8520,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`resume(node, postponedState, options?)` {/*resume*/}",
+        "Usage {/*usage*/}",
+        "Resuming a prerender {/*resuming-a-prerender*/}",
+        "Further reading {/*further-reading*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/server/resumeToPipeableStream.md",
+      "title": "resumeToPipeableStream",
+      "group": "react.dev/reference/react-dom/server",
+      "bytes": 5122,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`resumeToPipeableStream(node, postponed, options?)` {/*resume-to-pipeable-stream*/}",
+        "Usage {/*usage*/}",
+        "Further reading {/*further-reading*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/server.md",
+      "title": "Server React DOM APIs",
+      "group": "react.dev/reference/react-dom",
+      "bytes": 2405,
+      "headings": [
+        "Server APIs for Web Streams {/*server-apis-for-web-streams*/}",
+        "Server APIs for Node.js Streams {/*server-apis-for-nodejs-streams*/}",
+        "Legacy Server APIs for non-streaming environments {/*legacy-server-apis-for-non-streaming-environments*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/static/prerender.md",
+      "title": "prerender",
+      "group": "react.dev/reference/react-dom/static",
+      "bytes": 14492,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`prerender(reactNode, options?)` {/*prerender*/}",
+        "When should I use `prerender`? {/*when-to-use-prerender*/}",
+        "Usage {/*usage*/}",
+        "Rendering a React tree to a stream of static HTML {/*rendering-a-react-tree-to-a-stream-of-static-html*/}",
+        "Rendering a React tree to a string of static HTML {/*rendering-a-react-tree-to-a-string-of-static-html*/}",
+        "Waiting for all data to load {/*waiting-for-all-data-to-load*/}",
+        "Aborting prerendering {/*aborting-prerendering*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "My stream doesn't start until the entire app is rendered {/*my-stream-doesnt-start-until-the-entire-app-is-rendered*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/static/prerenderToNodeStream.md",
+      "title": "prerenderToNodeStream",
+      "group": "react.dev/reference/react-dom/static",
+      "bytes": 14902,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`prerenderToNodeStream(reactNode, options?)` {/*prerender*/}",
+        "When should I use `prerenderToNodeStream`? {/*when-to-use-prerender*/}",
+        "Usage {/*usage*/}",
+        "Rendering a React tree to a stream of static HTML {/*rendering-a-react-tree-to-a-stream-of-static-html*/}",
+        "Rendering a React tree to a string of static HTML {/*rendering-a-react-tree-to-a-string-of-static-html*/}",
+        "Waiting for all data to load {/*waiting-for-all-data-to-load*/}",
+        "Aborting prerendering {/*aborting-prerendering*/}",
+        "Troubleshooting {/*troubleshooting*/}",
+        "My stream doesn't start until the entire app is rendered {/*my-stream-doesnt-start-until-the-entire-app-is-rendered*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/static/resumeAndPrerender.md",
+      "title": "resumeAndPrerender",
+      "group": "react.dev/reference/react-dom/static",
+      "bytes": 4699,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`resumeAndPrerender(reactNode, postponedState, options?)` {/*resumeandprerender*/}",
+        "When should I use `resumeAndPrerender`? {/*when-to-use-prerender*/}",
+        "Usage {/*usage*/}",
+        "Further reading {/*further-reading*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/static/resumeAndPrerenderToNodeStream.md",
+      "title": "resumeAndPrerenderToNodeStream",
+      "group": "react.dev/reference/react-dom/static",
+      "bytes": 4869,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`resumeAndPrerenderToNodeStream(reactNode, postponedState, options?)` {/*resumeandprerendertolnodestream*/}",
+        "When should I use `resumeAndPrerenderToNodeStream`? {/*when-to-use-prerender*/}",
+        "Usage {/*usage*/}",
+        "Further reading {/*further-reading*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom/static.md",
+      "title": "Static React DOM APIs",
+      "group": "react.dev/reference/react-dom",
+      "bytes": 1885,
+      "headings": [
+        "Static APIs for Web Streams {/*static-apis-for-web-streams*/}",
+        "Static APIs for Node.js Streams {/*static-apis-for-nodejs-streams*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react-dom.md",
+      "title": "React DOM APIs",
+      "group": "react.dev/reference",
+      "bytes": 3230,
+      "headings": [
+        "APIs {/*apis*/}",
+        "Resource Preloading APIs {/*resource-preloading-apis*/}",
+        "Entry points {/*entry-points*/}",
+        "Removed APIs {/*removed-apis*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/react.md",
+      "title": "React Reference Overview",
+      "group": "react.dev/reference",
+      "bytes": 3432,
+      "headings": [
+        "React {/*react*/}",
+        "React DOM {/*react-dom*/}",
+        "React Compiler {/*react-compiler*/}",
+        "ESLint Plugin React Hooks {/*eslint-plugin-react-hooks*/}",
+        "Rules of React {/*rules-of-react*/}",
+        "Legacy APIs {/*legacy-apis*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/rsc/directives.md",
+      "title": "Directives",
+      "group": "react.dev/reference/rsc",
+      "bytes": 613,
+      "headings": [
+        "Source code directives {/*source-code-directives*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/rsc/server-components.md",
+      "title": "Server Components",
+      "group": "react.dev/reference/rsc",
+      "bytes": 9845,
+      "headings": [
+        "Server Components without a Server {/*server-components-without-a-server*/}",
+        "Server Components with a Server {/*server-components-with-a-server*/}",
+        "Adding interactivity to Server Components {/*adding-interactivity-to-server-components*/}",
+        "Async components with Server Components {/*async-components-with-server-components*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/rsc/server-functions.md",
+      "title": "Server Functions",
+      "group": "react.dev/reference/rsc",
+      "bytes": 7867,
+      "headings": [
+        "Usage {/*usage*/}",
+        "Creating a Server Function from a Server Component {/*creating-a-server-function-from-a-server-component*/}",
+        "Importing Server Functions from Client Components {/*importing-server-functions-from-client-components*/}",
+        "Server Functions with Actions {/*server-functions-with-actions*/}",
+        "Server Functions with Form Actions {/*using-server-functions-with-form-actions*/}",
+        "Server Functions with `useActionState` {/*server-functions-with-use-action-state*/}",
+        "Progressive enhancement with `useActionState` {/*progressive-enhancement-with-useactionstate*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/rsc/use-client.md",
+      "title": "use client",
+      "group": "react.dev/reference/rsc",
+      "bytes": 20596,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`'use client'` {/*use-client*/}",
+        "How `'use client'` marks client code {/*how-use-client-marks-client-code*/}",
+        "When to use `'use client'` {/*when-to-use-use-client*/}",
+        "Serializable types returned by Server Components {/*serializable-types*/}",
+        "Usage {/*usage*/}",
+        "Building with interactivity and state {/*building-with-interactivity-and-state*/}",
+        "Using client APIs {/*using-client-apis*/}",
+        "Using third-party libraries {/*using-third-party-libraries*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/rsc/use-server.md",
+      "title": "use server",
+      "group": "react.dev/reference/rsc",
+      "bytes": 10359,
+      "headings": [
+        "Reference {/*reference*/}",
+        "`'use server'` {/*use-server*/}",
+        "Security considerations {/*security*/}",
+        "Serializable arguments and return values {/*serializable-parameters-and-return-values*/}",
+        "Usage {/*usage*/}",
+        "Server Functions in forms {/*server-functions-in-forms*/}",
+        "Calling a Server Function outside of `<form>` {/*calling-a-server-function-outside-of-form*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/rules/components-and-hooks-must-be-pure.md",
+      "title": "Components and Hooks must be pure",
+      "group": "react.dev/reference/rules",
+      "bytes": 17594,
+      "headings": [
+        "Why does purity matter? {/*why-does-purity-matter*/}",
+        "Components and Hooks must be idempotent {/*components-and-hooks-must-be-idempotent*/}",
+        "Side effects must run outside of render {/*side-effects-must-run-outside-of-render*/}",
+        "When is it okay to have mutation? {/*mutation*/}",
+        "Props and state are immutable {/*props-and-state-are-immutable*/}",
+        "Don't mutate Props {/*props*/}",
+        "Don't mutate State {/*state*/}",
+        "Return values and arguments to Hooks are immutable {/*return-values-and-arguments-to-hooks-are-immutable*/}",
+        "Values are immutable after being passed to JSX {/*values-are-immutable-after-being-passed-to-jsx*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/rules/react-calls-components-and-hooks.md",
+      "title": "React calls Components and Hooks",
+      "group": "react.dev/reference/rules",
+      "bytes": 5059,
+      "headings": [
+        "Never call component functions directly {/*never-call-component-functions-directly*/}",
+        "Never pass around Hooks as regular values {/*never-pass-around-hooks-as-regular-values*/}",
+        "Don't dynamically mutate a Hook {/*dont-dynamically-mutate-a-hook*/}",
+        "Don't dynamically use Hooks {/*dont-dynamically-use-hooks*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/rules/rules-of-hooks.md",
+      "title": "Rules of Hooks",
+      "group": "react.dev/reference/rules",
+      "bytes": 4081,
+      "headings": [
+        "Only call Hooks at the top level {/*only-call-hooks-at-the-top-level*/}",
+        "Only call Hooks from React functions {/*only-call-hooks-from-react-functions*/}",
+        "Sitemap"
+      ]
+    },
+    {
+      "path": "reference/react.dev/reference/rules.md",
+      "title": "Rules of React",
+      "group": "react.dev/reference",
+      "bytes": 4520,
+      "headings": [
+        "Components and Hooks must be pure {/*components-and-hooks-must-be-pure*/}",
+        "React calls Components and Hooks {/*react-calls-components-and-hooks*/}",
+        "Rules of Hooks {/*rules-of-hooks*/}",
+        "Sitemap"
+      ]
+    }
+  ]
+}

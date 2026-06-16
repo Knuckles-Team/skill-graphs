@@ -1,0 +1,1 @@
+# Setup Elasticsearch index

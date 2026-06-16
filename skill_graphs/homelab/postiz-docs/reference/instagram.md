@@ -1,333 +1,202 @@
-[Skip to main content](https://docs.postiz.com/public-api/providers/instagram#content-area)
-[Postiz Documentation home page![light logo](https://mintcdn.com/postiz/SZ3zBABjhg7UQcI8/logo/light.png?fit=max&auto=format&n=SZ3zBABjhg7UQcI8&q=85&s=ab950a1a5aa687eb0de8156022f7c7c9)![dark logo](https://mintcdn.com/postiz/SZ3zBABjhg7UQcI8/logo/dark.png?fit=max&auto=format&n=SZ3zBABjhg7UQcI8&q=85&s=4134d88b8fc8339a26775f8e48e95f7e)](https://docs.postiz.com/)
-Search...
-Ctrl K
-  * [Discord](https://discord.postiz.com)
+# Instagram
+Source: https://docs.postiz.com/providers/instagram
 
+How to add Instagram to your system
 
-##### Overview
-  * [API Overview](https://docs.postiz.com/public-api/introduction)
+<Snippet />
 
+<Warning>
+  **NOTE:** Please be advised that Instagram and Facebook can use the same app (no need to create two separate apps)
+</Warning>
 
-##### Integrations
-  * [GET List Integrations](https://docs.postiz.com/public-api/integrations/list)
-  * [GET Connect Channel (OAuth)](https://docs.postiz.com/public-api/integrations/connect)
-  * [DEL Delete Channel](https://docs.postiz.com/public-api/integrations/delete)
-  * [GET Check Connection](https://docs.postiz.com/public-api/integrations/is-connected)
-  * [GET Find Available Slot](https://docs.postiz.com/public-api/integrations/find-slot)
+## Connection Options
 
+There are two ways to connect to an Instagram account: by using a Facebook Business or through a standalone flow that connects directly to an Instagram account. Both methods will require a [Meta for Developers account](https://developers.facebook.com/apps/).
 
-##### Posts
-  * [GET List Posts](https://docs.postiz.com/public-api/posts/list)
-  * [POST Create Post](https://docs.postiz.com/public-api/posts/create)
-  * [DEL Delete Post](https://docs.postiz.com/public-api/posts/delete)
-  * [DEL Delete Post by Group](https://docs.postiz.com/public-api/posts/delete-by-group)
-  * [GET Get Missing Content](https://docs.postiz.com/public-api/posts/missing-content)
-  * [PUT Update Release ID](https://docs.postiz.com/public-api/posts/update-release-id)
+<Info>
+  **What Postiz supports on Instagram:**
 
+  * Feed posts (single image, carousel, video / Reels).
+  * Stories (image and video).
+  * Attaching audio (music or original sounds) to Reels — Facebook Business connection only, the [Instagram Audio API](https://developers.facebook.com/docs/instagram-platform/content-publishing/audio-api/) is not available for standalone connections.
+  * Replying to comments via an explicit user action.
 
-##### Analytics
-  * [GET Platform Analytics](https://docs.postiz.com/public-api/analytics/platform)
-  * [GET Post Analytics](https://docs.postiz.com/public-api/analytics/post)
+  **What Postiz does not support:**
 
+  * Story link stickers / swipe-up links — the Instagram Graph API doesn't expose interactive sticker payloads, so Postiz can only upload the story media.
+  * Automatic comment auto-reply — there is no agent that watches for incoming comments and replies on your behalf. You can post a reply through the API, but each reply is an explicit action.
+</Info>
 
-##### Notifications
-  * [GET List Notifications](https://docs.postiz.com/public-api/notifications/list)
+## Setting up Meta Application
 
+The following steps will guide you through the setup of a Meta application that can be used for connecting Instagram to Postiz.
 
-##### Uploads
-  * [POST Upload File](https://docs.postiz.com/public-api/uploads/upload-file)
-  * [POST Upload from URL](https://docs.postiz.com/public-api/uploads/upload-from-url)
+<Steps>
+  <Step title="Create a new app">
+    Select a business portfolio, then create a [new app in Meta for developers](https://developers.facebook.com/apps/creation/).
 
+    Please be advised that for public applications, you will need to verify your business.
 
-##### Video Generation
-  * [POST Generate Video](https://docs.postiz.com/public-api/video/generate)
-  * [POST Video Function](https://docs.postiz.com/public-api/video/function)
+    <img alt="Business Portfolio" />
 
+    <img alt="Create app" />
+  </Step>
 
-##### Provider Settings (25 with custom settings)
-  * [X (Twitter) Settings](https://docs.postiz.com/public-api/providers/x)
-  * [LinkedIn Settings](https://docs.postiz.com/public-api/providers/linkedin)
-  * [Facebook Settings](https://docs.postiz.com/public-api/providers/facebook)
-  * [Instagram Settings](https://docs.postiz.com/public-api/providers/instagram)
-  * [Warpcast (Farcaster) Settings](https://docs.postiz.com/public-api/providers/warpcast)
-  * [YouTube Settings](https://docs.postiz.com/public-api/providers/youtube)
-  * [TikTok Settings](https://docs.postiz.com/public-api/providers/tiktok)
-  * [Reddit Settings](https://docs.postiz.com/public-api/providers/reddit)
-  * [Lemmy Settings](https://docs.postiz.com/public-api/providers/lemmy)
-  * [Pinterest Settings](https://docs.postiz.com/public-api/providers/pinterest)
-  * [Discord Settings](https://docs.postiz.com/public-api/providers/discord)
-  * [Slack Settings](https://docs.postiz.com/public-api/providers/slack)
-  * [Dribbble Settings](https://docs.postiz.com/public-api/providers/dribbble)
-  * [Medium Settings](https://docs.postiz.com/public-api/providers/medium)
-  * [Dev.to Settings](https://docs.postiz.com/public-api/providers/devto)
-  * [Hashnode Settings](https://docs.postiz.com/public-api/providers/hashnode)
-  * [WordPress Settings](https://docs.postiz.com/public-api/providers/wordpress)
-  * [Listmonk Settings](https://docs.postiz.com/public-api/providers/listmonk)
-  * [Google My Business Settings](https://docs.postiz.com/public-api/providers/gmb)
-  * [Whop Settings](https://docs.postiz.com/public-api/providers/whop)
-  * [School Settings](https://docs.postiz.com/public-api/providers/school)
-  * [Kick Settings](https://docs.postiz.com/public-api/providers/kick)
-  * [Twitch Settings](https://docs.postiz.com/public-api/providers/twitch)
-  * [Moltbook Settings](https://docs.postiz.com/public-api/providers/moltbook)
+  <Step title="Select app type">
+    Select "Other" and click next
 
+    <img alt="Other app use cases" />
+  </Step>
 
-  * [Discord](https://discord.postiz.com)
-  * [Register to the cloud](https://postiz.com)
+  <Step title="Select business">
+    Then select business
 
+    ![Business](https://github.com/user-attachments/assets/74bde861-5441-46bb-b5b8-c5229e980237)
+  </Step>
 
-[Postiz Documentation home page![light logo](https://mintcdn.com/postiz/SZ3zBABjhg7UQcI8/logo/light.png?fit=max&auto=format&n=SZ3zBABjhg7UQcI8&q=85&s=ab950a1a5aa687eb0de8156022f7c7c9)![dark logo](https://mintcdn.com/postiz/SZ3zBABjhg7UQcI8/logo/dark.png?fit=max&auto=format&n=SZ3zBABjhg7UQcI8&q=85&s=4134d88b8fc8339a26775f8e48e95f7e)](https://docs.postiz.com/)
-Search...
-Ctrl K
-  * [](https://discord.postiz.com)
-  * [Register to the cloud](https://postiz.com)
-  * [Register to the cloud](https://postiz.com)
+  <Step title="Add details and create app">
+    Add all your details and click Create App
 
+    ![Create an app details page](https://github.com/user-attachments/assets/f0c03825-0f9b-4467-94a4-ab8cf6ed7e1d)
+  </Step>
+</Steps>
 
-Search...
-Navigation
-Provider Settings (25 with custom settings)
-Instagram Settings
-[Documentation](https://docs.postiz.com/introduction)[Public API](https://docs.postiz.com/public-api/introduction)[CLI](https://docs.postiz.com/cli/introduction)[MCP](https://docs.postiz.com/mcp/introduction)[Developer App (oAuth2)](https://docs.postiz.com/public-api/oauth)[Contributing](https://docs.postiz.com/developer-guide)
-[Documentation](https://docs.postiz.com/introduction)[Public API](https://docs.postiz.com/public-api/introduction)[CLI](https://docs.postiz.com/cli/introduction)[MCP](https://docs.postiz.com/mcp/introduction)[Developer App (oAuth2)](https://docs.postiz.com/public-api/oauth)[Contributing](https://docs.postiz.com/developer-guide)
-Provider Settings (25 with custom settings)
-# Instagram Settings
-Copy page
-API settings for posting to Instagram
-Copy page
-##
-[​](https://docs.postiz.com/public-api/providers/instagram#settings-schema)
-Settings Schema
-When creating a post for Instagram, use the following settings schema:
-```
-{
-  "settings": {
-    "__type": "instagram",
-    "post_type": "post",
-    "is_trial_reel": false,
-    "collaborators": []
-  }
-}
+## Facebook Business Option
 
-```
+If you have a Facebook Business page that is linked to your Instagram account, you can connect to it by setting up the Login for Business flow.
 
-Use `__type: "instagram"` for Facebook Business-linked accounts and `__type: "instagram-standalone"` for standalone Instagram accounts. Both use the same settings schema.
-##
-[​](https://docs.postiz.com/public-api/providers/instagram#fields)
-Fields
-Field | Type | Required | Description
----|---|---|---
-`__type` | `string` | Yes |  `instagram` or `instagram-standalone`
-`post_type` | `string` | Yes | Type of Instagram post
-`is_trial_reel` | `boolean` | No | Whether to post as a trial reel
-`graduation_strategy` | `string` | No | Graduation strategy for trial reels
-`collaborators` | `array` | No | List of collaborator usernames
-###
-[​](https://docs.postiz.com/public-api/providers/instagram#post_type)
-`post_type`
-Value | Description
----|---
-`post` | Regular feed post
-`story` | Instagram Story (24-hour visibility)
-###
-[​](https://docs.postiz.com/public-api/providers/instagram#is_trial_reel)
-`is_trial_reel`
-When set to `true`, the post will be published as a trial reel with limited initial visibility.
-###
-[​](https://docs.postiz.com/public-api/providers/instagram#graduation_strategy)
-`graduation_strategy`
-Controls how trial reels graduate to full visibility. Only applicable when `is_trial_reel` is `true`.
-Value | Description
----|---
-`MANUAL` | Manually graduate the reel
-`SS_PERFORMANCE` | Automatically graduate based on performance
-###
-[​](https://docs.postiz.com/public-api/providers/instagram#collaborators)
-`collaborators`
-Array of collaborator objects. Each collaborator will receive an invite to be added as a collaborator on the post.
-```
-{
-  "collaborators": [
-    { "label": "username1" },
-    { "label": "username2" }
-  ]
-}
+<Steps>
+  <Step title="Set up Login for Business">
+    ![Setup Login with Instagram](https://github.com/user-attachments/assets/08d3c1d1-d498-49d1-adac-aa6248e7c10c)
 
-```
+    Set up login for business
+  </Step>
 
-* * *
-##
-[​](https://docs.postiz.com/public-api/providers/instagram#complete-example)
-Complete Example
-###
-[​](https://docs.postiz.com/public-api/providers/instagram#feed-post)
-Feed Post
-```
-{
-  "type": "schedule",
-  "date": "2024-12-14T10:00:00.000Z",
-  "shortLink": false,
-  "tags": [],
-  "posts": [
-    {
-      "integration": {
-        "id": "your-instagram-integration-id"
-      },
-      "value": [
-        {
-          "content": "Beautiful sunset today! 🌅\n\n#sunset #photography #nature",
-          "image": [
-            {
-              "id": "image-id",
-              "path": "https://uploads.postiz.com/sunset.jpg"
-            }
-          ]
-        }
-      ],
-      "settings": {
-        "__type": "instagram",
-        "post_type": "post",
-        "is_trial_reel": false,
-        "collaborators": []
-      }
-    }
-  ]
-}
+  <Step title="Set up Redirect URI">
+    Set up a redirect URI back to the application
 
-```
+    ![Instagram](https://github.com/user-attachments/assets/78496d3f-3b84-4724-afc8-ed217d892c6d)
 
-###
-[​](https://docs.postiz.com/public-api/providers/instagram#story-post)
-Story Post
-```
-{
-  "type": "now",
-  "date": "2024-12-14T10:00:00.000Z",
-  "shortLink": false,
-  "tags": [],
-  "posts": [
-    {
-      "integration": {
-        "id": "your-instagram-integration-id"
-      },
-      "value": [
-        {
-          "content": "",
-          "image": [
-            {
-              "id": "story-image-id",
-              "path": "https://uploads.postiz.com/story.jpg"
-            }
-          ]
-        }
-      ],
-      "settings": {
-        "__type": "instagram",
-        "post_type": "story"
-      }
-    }
-  ]
-}
+    <Snippet />
 
-```
+    **Your Instagram OAuth2 Redirect URI:**
 
-###
-[​](https://docs.postiz.com/public-api/providers/instagram#collaborative-post)
-Collaborative Post
-```
-{
-  "type": "schedule",
-  "date": "2024-12-14T10:00:00.000Z",
-  "shortLink": false,
-  "tags": [],
-  "posts": [
-    {
-      "integration": {
-        "id": "your-instagram-integration-id"
-      },
-      "value": [
-        {
-          "content": "Amazing collab with @partner! 🤝",
-          "image": [
-            {
-              "id": "collab-image-id",
-              "path": "https://uploads.postiz.com/collab.jpg"
-            }
-          ]
-        }
-      ],
-      "settings": {
-        "__type": "instagram",
-        "post_type": "post",
-        "collaborators": [
-          { "label": "partner_username" }
-        ]
-      }
-    }
-  ]
-}
+    * Production: `https://your-postiz-domain.com/integrations/social/instagram`
+    * Local development: `http://localhost:4200/integrations/social/instagram`
+    * Docker: `http://localhost:5000/integrations/social/instagram`
+  </Step>
 
-```
+  <Step title="Set up permissions">
+    ![step 7](https://github.com/user-attachments/assets/a81aa2a3-de66-4099-906b-b78c641d1a23)
 
-###
-[​](https://docs.postiz.com/public-api/providers/instagram#carousel-post)
-Carousel Post
-Create a carousel by adding multiple images:
-```
-{
-  "type": "schedule",
-  "date": "2024-12-14T10:00:00.000Z",
-  "shortLink": false,
-  "tags": [],
-  "posts": [
-    {
-      "integration": {
-        "id": "your-instagram-integration-id"
-      },
-      "value": [
-        {
-          "content": "Swipe to see all the photos! 📸",
-          "image": [
-            { "id": "img1", "path": "https://uploads.postiz.com/1.jpg" },
-            { "id": "img2", "path": "https://uploads.postiz.com/2.jpg" },
-            { "id": "img3", "path": "https://uploads.postiz.com/3.jpg" }
-          ]
-        }
-      ],
-      "settings": {
-        "__type": "instagram",
-        "post_type": "post"
-      }
-    }
-  ]
-}
+    Go to advanced permission and request access for the following scopes:
 
-```
+    * `instagram_basic`
+    * `pages_show_list`
+    * `pages_read_engagement`
+    * `business_management`
+    * `instagram_content_publish`
+    * `instagram_manage_comments`
+    * `instagram_manage_insights`
+  </Step>
 
-Was this page helpful?
-YesNo
-[Previous](https://docs.postiz.com/public-api/providers/facebook)[ Warpcast (Farcaster) SettingsProvider settings for Warpcast/Farcaster posts Next ](https://docs.postiz.com/public-api/providers/warpcast)
-Ctrl+I
-[discord](https://discord.postiz.com)
-On this page
-  * [Settings Schema](https://docs.postiz.com/public-api/providers/instagram#settings-schema)
-  * [Fields](https://docs.postiz.com/public-api/providers/instagram#fields)
-  * [post_type](https://docs.postiz.com/public-api/providers/instagram#post_type)
-  * [is_trial_reel](https://docs.postiz.com/public-api/providers/instagram#is_trial_reel)
-  * [graduation_strategy](https://docs.postiz.com/public-api/providers/instagram#graduation_strategy)
-  * [collaborators](https://docs.postiz.com/public-api/providers/instagram#collaborators)
-  * [Complete Example](https://docs.postiz.com/public-api/providers/instagram#complete-example)
-  * [Feed Post](https://docs.postiz.com/public-api/providers/instagram#feed-post)
-  * [Story Post](https://docs.postiz.com/public-api/providers/instagram#story-post)
-  * [Collaborative Post](https://docs.postiz.com/public-api/providers/instagram#collaborative-post)
-  * [Carousel Post](https://docs.postiz.com/public-api/providers/instagram#carousel-post)
+  <Step title="Copy your credentials">
+    ![Keys](https://github.com/user-attachments/assets/ac11f87f-4951-47f8-8344-7fbc9de942e4)
 
+    Go to basic permissions copy your App ID and App Secret and paste them in your `.env` file
 
-![Logo](https://postiz.com/favicon.ico)
-Postiz
-Hi! Im the Postiz AI Chatbot, ask me any question you'd like, and I will answer it the best to my abilities!
-QUICK QUESTIONS
-Instagram Settings - Postiz Documentation
-← Asking about this page
-Made by
-Chat
+    ```env theme={null}
+    FACEBOOK_APP_ID="app id"
+    FACEBOOK_APP_SECRET="app secret"
+    ```
+
+    Instagram should now be working!
+  </Step>
+</Steps>
+
+## Instagram Standalone Option
+
+If you want to connect directly to your Instagram account without having to use a Facebook Business, use the standalone option.
+
+<Warning>
+  Please note that standalone option requires a professional Instagram account.
+</Warning>
+
+<Steps>
+  <Step title="Set up Instagram">
+    <img alt="&#x22;Add products to your app&#x22; section of app creation" />
+
+    Set up Instagram.
+  </Step>
+
+  <Step title="Set up Instagram Business Login">
+    <img alt="Set up Instagram Business Login" />
+
+    Click on the button to set up Instagram Business Login
+  </Step>
+
+  <Step title="Set up Redirect URI">
+    <img alt="Set up redirect URI" />
+
+    <Snippet />
+
+    **Your Instagram Standalone OAuth2 Redirect URI:**
+
+    * Production: `https://your-postiz-domain.com/integrations/social/instagram-standalone`
+    * Local development: `http://localhost:4200/integrations/social/instagram-standalone`
+    * Docker: `http://localhost:5000/integrations/social/instagram-standalone`
+  </Step>
+
+  <Step title="Copy Instagram App ID and Secret">
+    <img alt="Instagram App ID and Secret" />
+
+    From your Instagram API setup screen copy the Instagram App ID and Instagram App Secret and paste them in your `.env` file
+
+    ```env theme={null}
+    INSTAGRAM_APP_ID="app id"
+    INSTAGRAM_APP_SECRET="app secret"
+    ```
+  </Step>
+
+  <Step title="Add Instagram Standalone channel in Postiz Application">
+    Go to the Postiz web interface, and click on the "Add Channel" button. Select "Instagram (Standalone)" from the list of available channels. You should be redirected to the Instagram login screen to authorize the application.
+  </Step>
+</Steps>
+
+## Adding App Roles
+
+If you're having trouble connecting to your Instagram accounts, adding them as App Roles may help.
+
+<Steps>
+  <Step title="Go to the App Roles page">
+    <img alt="Facebook App developers dashboard" />
+  </Step>
+
+  <Step title="Add a role">
+    Click on "Add People"
+
+    <img alt="App Roles page" />
+  </Step>
+
+  <Step title="Add an Instagram Tester">
+    Select the "Instagram Tester" option, and type in the handles of all the Instagram accounts you'd like to connect to. Then, click "Add".
+
+    <img alt="Add people window" />
+  </Step>
+
+  <Step title="Accept the invitations">
+    Go to your Instagram account, and accept the tester invitation in the [Apps and Websites section of the profile settings](https://www.instagram.com/accounts/manage_access/).
+
+    <img alt="Apps and Websites section of the profile settings" />
+  </Step>
+</Steps>
+
+## Troubleshooting
+
+### "Insufficient developer role" error
+
+This means the Instagram account you're trying to connect hasn't been added as a tester on the Meta app. Walk through the [Adding App Roles](#adding-app-roles) section above for that exact account: add it as an Instagram Tester, then accept the invitation from within the Instagram app's settings.
+
+### Channel connects, but posts fail with permission errors
+
+The advanced permissions on the Meta app must be approved (or your account must be a developer/tester on the app). Submit the app for review with the required scopes — until then, only roles you've added can publish.

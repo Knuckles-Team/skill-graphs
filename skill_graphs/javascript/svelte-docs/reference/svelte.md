@@ -1,148 +1,1077 @@
-[Skip to main content](https://svelte.dev/docs/svelte/overview#main) [](https://svelte.dev/ "Homepage")
-Docs
-[Docs ](https://svelte.dev/docs)
-[Svelte](https://svelte.dev/docs/svelte)[SvelteKit](https://svelte.dev/docs/kit)[CLI](https://svelte.dev/docs/cli)[AI](https://svelte.dev/docs/ai)
-[Tutorial](https://svelte.dev/tutorial)[Packages](https://svelte.dev/packages)[Playground](https://svelte.dev/playground)[Blog](https://svelte.dev/blog)
-`Ctrl` `K`
-[](https://svelte.dev/chat)
-  * ### Introduction
-    * [Overview](https://svelte.dev/docs/svelte/overview)
-    * [Getting started](https://svelte.dev/docs/svelte/getting-started)
-    * [.svelte files](https://svelte.dev/docs/svelte/svelte-files)
-    * [.svelte.js and .svelte.ts files](https://svelte.dev/docs/svelte/svelte-js-files)
-  * ### Runes
-    * [What are runes?](https://svelte.dev/docs/svelte/what-are-runes)
-    * [$state](https://svelte.dev/docs/svelte/$state)
-    * [$derived](https://svelte.dev/docs/svelte/$derived)
-    * [$effect](https://svelte.dev/docs/svelte/$effect)
-    * [$props](https://svelte.dev/docs/svelte/$props)
-    * [$bindable](https://svelte.dev/docs/svelte/$bindable)
-    * [$inspect](https://svelte.dev/docs/svelte/$inspect)
-    * [$host](https://svelte.dev/docs/svelte/$host)
-  * ### Template syntax
-    * [Basic markup](https://svelte.dev/docs/svelte/basic-markup)
-    * [{#if ...}](https://svelte.dev/docs/svelte/if)
-    * [{#each ...}](https://svelte.dev/docs/svelte/each)
-    * [{#key ...}](https://svelte.dev/docs/svelte/key)
-    * [{#await ...}](https://svelte.dev/docs/svelte/await)
-    * [{#snippet ...}](https://svelte.dev/docs/svelte/snippet)
-    * [{@render ...}](https://svelte.dev/docs/svelte/@render)
-    * [{@html ...}](https://svelte.dev/docs/svelte/@html)
-    * [{@attach ...}](https://svelte.dev/docs/svelte/@attach)
-    * [{@const ...}](https://svelte.dev/docs/svelte/@const)
-    * [{@debug ...}](https://svelte.dev/docs/svelte/@debug)
-    * [bind:](https://svelte.dev/docs/svelte/bind)
-    * [use:](https://svelte.dev/docs/svelte/use)
-    * [transition:](https://svelte.dev/docs/svelte/transition)
-    * [in: and out:](https://svelte.dev/docs/svelte/in-and-out)
-    * [animate:](https://svelte.dev/docs/svelte/animate)
-    * [style:](https://svelte.dev/docs/svelte/style)
-    * [class](https://svelte.dev/docs/svelte/class)
-    * [await](https://svelte.dev/docs/svelte/await-expressions)
-  * ### Styling
-    * [Scoped styles](https://svelte.dev/docs/svelte/scoped-styles)
-    * [Global styles](https://svelte.dev/docs/svelte/global-styles)
-    * [Custom properties](https://svelte.dev/docs/svelte/custom-properties)
-    * [Nested <style> elements](https://svelte.dev/docs/svelte/nested-style-elements)
-  * ### Special elements
-    * [<svelte:boundary>](https://svelte.dev/docs/svelte/svelte-boundary)
-    * [<svelte:window>](https://svelte.dev/docs/svelte/svelte-window)
-    * [<svelte:document>](https://svelte.dev/docs/svelte/svelte-document)
-    * [<svelte:body>](https://svelte.dev/docs/svelte/svelte-body)
-    * [<svelte:head>](https://svelte.dev/docs/svelte/svelte-head)
-    * [<svelte:element>](https://svelte.dev/docs/svelte/svelte-element)
-    * [<svelte:options>](https://svelte.dev/docs/svelte/svelte-options)
-  * ### Runtime
-    * [Stores](https://svelte.dev/docs/svelte/stores)
-    * [Context](https://svelte.dev/docs/svelte/context)
-    * [Lifecycle hooks](https://svelte.dev/docs/svelte/lifecycle-hooks)
-    * [Imperative component API](https://svelte.dev/docs/svelte/imperative-component-api)
-    * [Hydratable data](https://svelte.dev/docs/svelte/hydratable)
-  * ### Misc
-    * [Best practices](https://svelte.dev/docs/svelte/best-practices)
-    * [Testing](https://svelte.dev/docs/svelte/testing)
-    * [TypeScript](https://svelte.dev/docs/svelte/typescript)
-    * [Custom elements](https://svelte.dev/docs/svelte/custom-elements)
-    * [Svelte 4 migration guide](https://svelte.dev/docs/svelte/v4-migration-guide)
-    * [Svelte 5 migration guide](https://svelte.dev/docs/svelte/v5-migration-guide)
-    * [Frequently asked questions](https://svelte.dev/docs/svelte/faq)
-  * ### Reference
-    * [svelte](https://svelte.dev/docs/svelte/svelte)
-    * [svelte/action](https://svelte.dev/docs/svelte/svelte-action)
-    * [svelte/animate](https://svelte.dev/docs/svelte/svelte-animate)
-    * [svelte/attachments](https://svelte.dev/docs/svelte/svelte-attachments)
-    * [svelte/compiler](https://svelte.dev/docs/svelte/svelte-compiler)
-    * [svelte/easing](https://svelte.dev/docs/svelte/svelte-easing)
-    * [svelte/events](https://svelte.dev/docs/svelte/svelte-events)
-    * [svelte/legacy](https://svelte.dev/docs/svelte/svelte-legacy)
-    * [svelte/motion](https://svelte.dev/docs/svelte/svelte-motion)
-    * [svelte/reactivity/window](https://svelte.dev/docs/svelte/svelte-reactivity-window)
-    * [svelte/reactivity](https://svelte.dev/docs/svelte/svelte-reactivity)
-    * [svelte/server](https://svelte.dev/docs/svelte/svelte-server)
-    * [svelte/store](https://svelte.dev/docs/svelte/svelte-store)
-    * [svelte/transition](https://svelte.dev/docs/svelte/svelte-transition)
-    * [Compiler errors](https://svelte.dev/docs/svelte/compiler-errors)
-    * [Compiler warnings](https://svelte.dev/docs/svelte/compiler-warnings)
-    * [Runtime errors](https://svelte.dev/docs/svelte/runtime-errors)
-    * [Runtime warnings](https://svelte.dev/docs/svelte/runtime-warnings)
-  * ### Legacy APIs
-    * [Overview](https://svelte.dev/docs/svelte/legacy-overview)
-    * [Reactive let/var declarations](https://svelte.dev/docs/svelte/legacy-let)
-    * [Reactive $: statements](https://svelte.dev/docs/svelte/legacy-reactive-assignments)
-    * [export let](https://svelte.dev/docs/svelte/legacy-export-let)
-    * [$$props and $$restProps](https://svelte.dev/docs/svelte/legacy-$$props-and-$$restProps)
-    * [on:](https://svelte.dev/docs/svelte/legacy-on)
-    * [<slot>](https://svelte.dev/docs/svelte/legacy-slots)
-    * [$$slots](https://svelte.dev/docs/svelte/legacy-$$slots)
-    * [<svelte:fragment>](https://svelte.dev/docs/svelte/legacy-svelte-fragment)
-    * [<svelte:component>](https://svelte.dev/docs/svelte/legacy-svelte-component)
-    * [<svelte:self>](https://svelte.dev/docs/svelte/legacy-svelte-self)
-    * [Imperative component API](https://svelte.dev/docs/svelte/legacy-component-api)
+# svelte
 
-
-SvelteIntroduction
-#  Overview
-### On this page
-  * [Overview](https://svelte.dev/docs/svelte/overview)
-
-
-Svelte is a framework for building user interfaces on the web. It uses a compiler to turn declarative components written in HTML, CSS and JavaScript...
-App
+```js
+// @noErrors
+import {
+	SvelteComponent,
+	SvelteComponentTyped,
+	afterUpdate,
+	beforeUpdate,
+	createContext,
+	createEventDispatcher,
+	createRawSnippet,
+	flushSync,
+	fork,
+	getAbortSignal,
+	getAllContexts,
+	getContext,
+	hasContext,
+	hydratable,
+	hydrate,
+	mount,
+	onDestroy,
+	onMount,
+	setContext,
+	settled,
+	tick,
+	unmount,
+	untrack
+} from 'svelte';
 ```
+
+## SvelteComponent
+
+This was the base class for Svelte components in Svelte 4. Svelte 5+ components
+are completely different under the hood. For typing, use `Component` instead.
+To instantiate components, use `mount` instead.
+See [migration guide](/docs/svelte/v5-migration-guide#Components-are-no-longer-classes) for more info.
+
+<div class="ts-block">
+
+```dts
+class SvelteComponent<
+	Props extends Record<string, any> = Record<string, any>,
+	Events extends Record<string, any> = any,
+	Slots extends Record<string, any> = any
+> {/*…*/}
+```
+
+<div class="ts-block-property">
+
+```dts
+static element?: typeof HTMLElement;
+```
+
+<div class="ts-block-property-details">
+
+The custom element version of the component. Only present if compiled with the `customElement` compiler option
+
+</div>
+</div>
+
+<div class="ts-block-property">
+
+```dts
+[prop: string]: any;
+```
+
+<div class="ts-block-property-details"></div>
+</div>
+
+<div class="ts-block-property">
+
+```dts
+constructor(options: ComponentConstructorOptions<Properties<Props, Slots>>);
+```
+
+<div class="ts-block-property-details">
+
+<div class="ts-block-property-bullets">
+
+- <span class="tag deprecated">deprecated</span> This constructor only exists when using the `asClassComponent` compatibility helper, which
+is a stop-gap solution. Migrate towards using `mount` instead. See
+[migration guide](https://svelte.dev/docs/svelte/v5-migration-guide#Components-are-no-longer-classes) for more info.
+
+</div>
+
+</div>
+</div>
+
+<div class="ts-block-property">
+
+```dts
+$destroy(): void;
+```
+
+<div class="ts-block-property-details">
+
+<div class="ts-block-property-bullets">
+
+- <span class="tag deprecated">deprecated</span> This method only exists when using one of the legacy compatibility helpers, which
+is a stop-gap solution. See [migration guide](https://svelte.dev/docs/svelte/v5-migration-guide#Components-are-no-longer-classes)
+for more info.
+
+</div>
+
+</div>
+</div>
+
+<div class="ts-block-property">
+
+```dts
+$on<K extends Extract<keyof Events, string>>(
+	type: K,
+	callback: (e: Events[K]) => void
+): () => void;
+```
+
+<div class="ts-block-property-details">
+
+<div class="ts-block-property-bullets">
+
+- <span class="tag deprecated">deprecated</span> This method only exists when using one of the legacy compatibility helpers, which
+is a stop-gap solution. See [migration guide](https://svelte.dev/docs/svelte/v5-migration-guide#Components-are-no-longer-classes)
+for more info.
+
+</div>
+
+</div>
+</div>
+
+<div class="ts-block-property">
+
+```dts
+$set(props: Partial<Props>): void;
+```
+
+<div class="ts-block-property-details">
+
+<div class="ts-block-property-bullets">
+
+- <span class="tag deprecated">deprecated</span> This method only exists when using one of the legacy compatibility helpers, which
+is a stop-gap solution. See [migration guide](https://svelte.dev/docs/svelte/v5-migration-guide#Components-are-no-longer-classes)
+for more info.
+
+</div>
+
+</div>
+</div></div>
+
+## SvelteComponentTyped
+
+<blockquote class="tag deprecated note">
+
+Use `Component` instead. See [migration guide](/docs/svelte/v5-migration-guide#Components-are-no-longer-classes) for more information.
+
+</blockquote>
+
+<div class="ts-block">
+
+```dts
+class SvelteComponentTyped<
+	Props extends Record<string, any> = Record<string, any>,
+	Events extends Record<string, any> = any,
+	Slots extends Record<string, any> = any
+> extends SvelteComponent<Props, Events, Slots> {}
+```
+
+</div>
+
+## afterUpdate
+
+<blockquote class="tag deprecated note">
+
+Use [`$effect`](/docs/svelte/$effect) instead
+
+</blockquote>
+
+Schedules a callback to run immediately after the component has been updated.
+
+The first time the callback runs will be after the initial `onMount`.
+
+In runes mode use `$effect` instead.
+
+<div class="ts-block">
+
+```dts
+function afterUpdate(fn: () => void): void;
+```
+
+</div>
+
+## beforeUpdate
+
+<blockquote class="tag deprecated note">
+
+Use [`$effect.pre`](/docs/svelte/$effect#$effect.pre) instead
+
+</blockquote>
+
+Schedules a callback to run immediately before the component is updated after any state change.
+
+The first time the callback runs will be before the initial `onMount`.
+
+In runes mode use `$effect.pre` instead.
+
+<div class="ts-block">
+
+```dts
+function beforeUpdate(fn: () => void): void;
+```
+
+</div>
+
+## createContext
+
+<blockquote class="since note">
+
+Available since 5.40.0
+
+</blockquote>
+
+Returns a `[get, set]` pair of functions for working with context in a type-safe way.
+
+`get` will throw an error if no parent component called `set`.
+
+<div class="ts-block">
+
+```dts
+function createContext<T>(): [() => T, (context: T) => T];
+```
+
+</div>
+
+## createEventDispatcher
+
+<blockquote class="tag deprecated note">
+
+Use callback props and/or the `$host()` rune instead — see [migration guide](/docs/svelte/v5-migration-guide#Event-changes-Component-events)
+
+</blockquote>
+
+Creates an event dispatcher that can be used to dispatch [component events](/docs/svelte/legacy-on#Component-events).
+Event dispatchers are functions that can take two arguments: `name` and `detail`.
+
+Component events created with `createEventDispatcher` create a
+[CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent).
+These events do not [bubble](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_bubbling_and_capture).
+The `detail` argument corresponds to the [CustomEvent.detail](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/detail)
+property and can contain any type of data.
+
+The event dispatcher can be typed to narrow the allowed event names and the type of the `detail` argument:
+```ts
+const dispatch = createEventDispatcher<{
+ loaded: null; // does not take a detail argument
+ change: string; // takes a detail argument of type string, which is required
+ optional: number | null; // takes an optional detail argument of type number
+}>();
+```
+
+<div class="ts-block">
+
+```dts
+function createEventDispatcher<
+	EventMap extends Record<string, any> = any
+>(): EventDispatcher<EventMap>;
+```
+
+</div>
+
+## createRawSnippet
+
+Create a snippet programmatically
+
+<div class="ts-block">
+
+```dts
+function createRawSnippet<Params extends unknown[]>(
+	fn: (...params: Getters<Params>) => {
+		render: () => string;
+		setup?: (element: Element) => void | (() => void);
+	}
+): Snippet<Params>;
+```
+
+</div>
+
+## flushSync
+
+Synchronously flush any pending updates.
+Returns void if no callback is provided, otherwise returns the result of calling the callback.
+
+<div class="ts-block">
+
+```dts
+function flushSync<T = void>(fn?: (() => T) | undefined): T;
+```
+
+</div>
+
+## fork
+
+<blockquote class="since note">
+
+Available since 5.42
+
+</blockquote>
+
+Creates a 'fork', in which state changes are evaluated but not applied to the DOM.
+This is useful for speculatively loading data (for example) when you suspect that
+the user is about to take some action.
+
+Frameworks like SvelteKit can use this to preload data when the user touches or
+hovers over a link, making any subsequent navigation feel instantaneous.
+
+The `fn` parameter is a synchronous function that modifies some state. The
+state changes will be reverted after the fork is initialised, then reapplied
+if and when the fork is eventually committed.
+
+When it becomes clear that a fork will _not_ be committed (e.g. because the
+user navigated elsewhere), it must be discarded to avoid leaking memory.
+
+<div class="ts-block">
+
+```dts
+function fork(fn: () => void): Fork;
+```
+
+</div>
+
+## getAbortSignal
+
+Returns an [`AbortSignal`](https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal) that aborts when the current [derived](/docs/svelte/$derived) or [effect](/docs/svelte/$effect) re-runs or is destroyed.
+
+Must be called while a derived or effect is running.
+
+```svelte
 <script>
-	function greet() {
-		alert('Welcome to Svelte!');
+	import { getAbortSignal } from 'svelte';
+
+	let { id } = $props();
+
+	async function getData(id) {
+		const response = await fetch(`/items/${id}`, {
+			signal: getAbortSignal()
+		});
+
+		return await response.json();
 	}
+
+	const data = $derived(await getData(id));
 </script>
-
-<button onclick={greet}>click me</button>
-
-<style>
-	button {
-		font-size: 2em;
-	}
-</style>
 ```
+
+<div class="ts-block">
+
+```dts
+function getAbortSignal(): AbortSignal;
 ```
+
+</div>
+
+## getAllContexts
+
+Retrieves the whole context map that belongs to the closest parent component.
+Must be called during component initialisation. Useful, for example, if you
+programmatically create a component and want to pass the existing context to it.
+
+<div class="ts-block">
+
+```dts
+function getAllContexts<
+	T extends Map<any, any> = Map<any, any>
+>(): T;
+```
+
+</div>
+
+## getContext
+
+Retrieves the context that belongs to the closest parent component with the specified `key`.
+Must be called during component initialisation.
+
+[`createContext`](/docs/svelte/svelte#createContext) is a type-safe alternative.
+
+<div class="ts-block">
+
+```dts
+function getContext<T>(key: any): T;
+```
+
+</div>
+
+## hasContext
+
+Checks whether a given `key` has been set in the context of a parent component.
+Must be called during component initialisation.
+
+<div class="ts-block">
+
+```dts
+function hasContext(key: any): boolean;
+```
+
+</div>
+
+## hydratable
+
+<div class="ts-block">
+
+```dts
+function hydratable<T>(key: string, fn: () => T): T;
+```
+
+</div>
+
+## hydrate
+
+Hydrates a component on the given target and returns the exports and potentially the props (if compiled with `accessors: true`) of the component
+
+<div class="ts-block">
+
+```dts
+function hydrate<
+	Props extends Record<string, any>,
+	Exports extends Record<string, any>
+>(
+	component:
+		| ComponentType<SvelteComponent<Props>>
+		| Component<Props, Exports, any>,
+	options: {} extends Props
+		? {
+				target: Document | Element | ShadowRoot;
+				props?: Props;
+				events?: Record<string, (e: any) => any>;
+				context?: Map<any, any>;
+				intro?: boolean;
+				recover?: boolean;
+				transformError?: (error: unknown) => unknown;
+			}
+		: {
+				target: Document | Element | ShadowRoot;
+				props: Props;
+				events?: Record<string, (e: any) => any>;
+				context?: Map<any, any>;
+				intro?: boolean;
+				recover?: boolean;
+				transformError?: (error: unknown) => unknown;
+			}
+): Exports;
+```
+
+</div>
+
+## mount
+
+Mounts a component to the given target and returns the exports and potentially the props (if compiled with `accessors: true`) of the component.
+Transitions will play during the initial render unless the `intro` option is set to `false`.
+
+<div class="ts-block">
+
+```dts
+function mount<
+	Props extends Record<string, any>,
+	Exports extends Record<string, any>
+>(
+	component:
+		| ComponentType<SvelteComponent<Props>>
+		| Component<Props, Exports, any>,
+	options: MountOptions<Props>
+): Exports;
+```
+
+</div>
+
+## onDestroy
+
+Schedules a callback to run immediately before the component is unmounted.
+
+Out of `onMount`, `beforeUpdate`, `afterUpdate` and `onDestroy`, this is the
+only one that runs inside a server-side component.
+
+<div class="ts-block">
+
+```dts
+function onDestroy(fn: () => any): void;
+```
+
+</div>
+
+## onMount
+
+`onMount`, like [`$effect`](/docs/svelte/$effect), schedules a function to run as soon as the component has been mounted to the DOM.
+Unlike `$effect`, the provided function only runs once.
+
+It must be called during the component's initialisation (but doesn't need to live _inside_ the component;
+it can be called from an external module). If a function is returned _synchronously_ from `onMount`,
+it will be called when the component is unmounted.
+
+`onMount` functions do not run during [server-side rendering](/docs/svelte/svelte-server#render).
+
+<div class="ts-block">
+
+```dts
+function onMount<T>(
+	fn: () =>
+		| NotFunction<T>
+		| Promise<NotFunction<T>>
+		| (() => any)
+): void;
+```
+
+</div>
+
+## setContext
+
+Associates an arbitrary `context` object with the current component and the specified `key`
+and returns that object. The context is then available to children of the component
+(including slotted content) with `getContext`.
+
+Like lifecycle functions, this must be called during component initialisation.
+
+[`createContext`](/docs/svelte/svelte#createContext) is a type-safe alternative.
+
+<div class="ts-block">
+
+```dts
+function setContext<T>(key: any, context: T): T;
+```
+
+</div>
+
+## settled
+
+<blockquote class="since note">
+
+Available since 5.36
+
+</blockquote>
+
+Returns a promise that resolves once any state changes, and asynchronous work resulting from them,
+have resolved and the DOM has been updated
+
+<div class="ts-block">
+
+```dts
+function settled(): Promise<void>;
+```
+
+</div>
+
+## tick
+
+Returns a promise that resolves once any pending state changes have been applied.
+
+<div class="ts-block">
+
+```dts
+function tick(): Promise<void>;
+```
+
+</div>
+
+## unmount
+
+Unmounts a component that was previously mounted using `mount` or `hydrate`.
+
+Since 5.13.0, if `options.outro` is `true`, [transitions](/docs/svelte/transition) will play before the component is removed from the DOM.
+
+Returns a `Promise` that resolves after transitions have completed if `options.outro` is true, or immediately otherwise (prior to 5.13.0, returns `void`).
+
+```js
+// @errors: 7031
+import { mount, unmount } from 'svelte';
+import App from './App.svelte';
+
+const app = mount(App, { target: document.body });
+
+// later...
+unmount(app, { outro: true });
+```
+
+<div class="ts-block">
+
+```dts
+function unmount(
+	component: Record<string, any>,
+	options?:
+		| {
+				outro?: boolean;
+		  }
+		| undefined
+): Promise<void>;
+```
+
+</div>
+
+## untrack
+
+When used inside a [`$derived`](/docs/svelte/$derived) or [`$effect`](/docs/svelte/$effect),
+any state read inside `fn` will not be treated as a dependency.
+
+```ts
+$effect(() => {
+	// this will run when `data` changes, but not when `time` changes
+	save(data, {
+		timestamp: untrack(() => time)
+	});
+});
+```
+
+<div class="ts-block">
+
+```dts
+function untrack<T>(fn: () => T): T;
+```
+
+</div>
+
+## Component
+
+Can be used to create strongly typed Svelte components.
+
+#### Example:
+
+You have component library on npm called `component-library`, from which
+you export a component called `MyComponent`. For Svelte+TypeScript users,
+you want to provide typings. Therefore you create a `index.d.ts`:
+```ts
+import type { Component } from 'svelte';
+export declare const MyComponent: Component<{ foo: string }> {}
+```
+Typing this makes it possible for IDEs like VS Code with the Svelte extension
+to provide intellisense and to use the component like this in a Svelte file
+with TypeScript:
+```svelte
 <script lang="ts">
-	function greet() {
-		alert('Welcome to Svelte!');
-	}
+	import { MyComponent } from "component-library";
 </script>
-
-<button onclick={greet}>click me</button>
-
-<style>
-	button {
-		font-size: 2em;
-	}
-</style>
+<MyComponent foo={'bar'} />
 ```
 
-...into lean, tightly optimized JavaScript.
-You can use it to build anything on the web, from standalone components to ambitious full stack apps (using Svelte's companion application framework, [SvelteKit](https://svelte.dev/docs/kit)) and everything in between.
-These pages serve as reference documentation. If you're new to Svelte, we recommend starting with the [interactive tutorial](https://svelte.dev/tutorial) and coming back here when you have questions.
-You can also try Svelte online in the [playground](https://svelte.dev/playground) or, if you need a more fully-featured environment, on
-[ llms.txt](https://svelte.dev/docs/svelte/overview/llms.txt)
-previous next
-[Getting started](https://svelte.dev/docs/svelte/getting-started)
+<div class="ts-block">
+
+```dts
+interface Component<
+	Props extends Record<string, any> = {},
+	Exports extends Record<string, any> = {},
+	Bindings extends keyof Props | '' = string
+> {/*…*/}
+```
+
+<div class="ts-block-property">
+
+```dts
+(
+	this: void,
+	internals: ComponentInternals,
+	props: Props
+): {
+	/**
+	 * @deprecated This method only exists when using one of the legacy compatibility helpers, which
+	 * is a stop-gap solution. See [migration guide](https://svelte.dev/docs/svelte/v5-migration-guide#Components-are-no-longer-classes)
+	 * for more info.
+	 */
+	$on?(type: string, callback: (e: any) => void): () => void;
+	/**
+	 * @deprecated This method only exists when using one of the legacy compatibility helpers, which
+	 * is a stop-gap solution. See [migration guide](https://svelte.dev/docs/svelte/v5-migration-guide#Components-are-no-longer-classes)
+	 * for more info.
+	 */
+	$set?(props: Partial<Props>): void;
+} & Exports;
+```
+
+<div class="ts-block-property-details">
+
+<div class="ts-block-property-bullets">
+
+- `internal` An internal object used by Svelte. Do not use or modify.
+- `props` The props passed to the component.
+
+</div>
+
+</div>
+</div>
+
+<div class="ts-block-property">
+
+```dts
+element?: typeof HTMLElement;
+```
+
+<div class="ts-block-property-details">
+
+The custom element version of the component. Only present if compiled with the `customElement` compiler option
+
+</div>
+</div></div>
+
+## ComponentConstructorOptions
+
+<blockquote class="tag deprecated note">
+
+In Svelte 4, components are classes. In Svelte 5, they are functions.
+Use `mount` instead to instantiate components.
+See [migration guide](/docs/svelte/v5-migration-guide#Components-are-no-longer-classes)
+for more info.
+
+</blockquote>
+
+<div class="ts-block">
+
+```dts
+interface ComponentConstructorOptions<
+	Props extends Record<string, any> = Record<string, any>
+> {/*…*/}
+```
+
+<div class="ts-block-property">
+
+```dts
+target: Element | Document | ShadowRoot;
+```
+
+<div class="ts-block-property-details"></div>
+</div>
+
+<div class="ts-block-property">
+
+```dts
+anchor?: Element;
+```
+
+<div class="ts-block-property-details"></div>
+</div>
+
+<div class="ts-block-property">
+
+```dts
+props?: Props;
+```
+
+<div class="ts-block-property-details"></div>
+</div>
+
+<div class="ts-block-property">
+
+```dts
+context?: Map<any, any>;
+```
+
+<div class="ts-block-property-details"></div>
+</div>
+
+<div class="ts-block-property">
+
+```dts
+hydrate?: boolean;
+```
+
+<div class="ts-block-property-details"></div>
+</div>
+
+<div class="ts-block-property">
+
+```dts
+intro?: boolean;
+```
+
+<div class="ts-block-property-details"></div>
+</div>
+
+<div class="ts-block-property">
+
+```dts
+recover?: boolean;
+```
+
+<div class="ts-block-property-details"></div>
+</div>
+
+<div class="ts-block-property">
+
+```dts
+sync?: boolean;
+```
+
+<div class="ts-block-property-details"></div>
+</div>
+
+<div class="ts-block-property">
+
+```dts
+idPrefix?: string;
+```
+
+<div class="ts-block-property-details"></div>
+</div>
+
+<div class="ts-block-property">
+
+```dts
+$$inline?: boolean;
+```
+
+<div class="ts-block-property-details"></div>
+</div>
+
+<div class="ts-block-property">
+
+```dts
+transformError?: (error: unknown) => unknown;
+```
+
+<div class="ts-block-property-details"></div>
+</div></div>
+
+## ComponentEvents
+
+<blockquote class="tag deprecated note">
+
+The new `Component` type does not have a dedicated Events type. Use `ComponentProps` instead.
+
+</blockquote>
+
+<div class="ts-block">
+
+```dts
+type ComponentEvents<Comp extends SvelteComponent> =
+	Comp extends SvelteComponent<any, infer Events>
+		? Events
+		: never;
+```
+
+</div>
+
+## ComponentInternals
+
+Internal implementation details that vary between environments
+
+<div class="ts-block">
+
+```dts
+type ComponentInternals = Branded<{}, 'ComponentInternals'>;
+```
+
+</div>
+
+## ComponentProps
+
+Convenience type to get the props the given component expects.
+
+Example: Ensure a variable contains the props expected by `MyComponent`:
+
+```ts
+import type { ComponentProps } from 'svelte';
+import MyComponent from './MyComponent.svelte';
+
+// Errors if these aren't the correct props expected by MyComponent.
+const props: ComponentProps<typeof MyComponent> = { foo: 'bar' };
+```
+
+> [!NOTE] In Svelte 4, you would do `ComponentProps<MyComponent>` because `MyComponent` was a class.
+
+Example: A generic function that accepts some component and infers the type of its props:
+
+```ts
+import type { Component, ComponentProps } from 'svelte';
+import MyComponent from './MyComponent.svelte';
+
+function withProps<TComponent extends Component<any>>(
+	component: TComponent,
+	props: ComponentProps<TComponent>
+) {};
+
+// Errors if the second argument is not the correct props expected by the component in the first argument.
+withProps(MyComponent, { foo: 'bar' });
+```
+
+<div class="ts-block">
+
+```dts
+type ComponentProps<
+	Comp extends SvelteComponent | Component<any, any>
+> =
+	Comp extends SvelteComponent<infer Props>
+		? Props
+		: Comp extends Component<infer Props, any>
+			? Props
+			: never;
+```
+
+</div>
+
+## ComponentType
+
+<blockquote class="tag deprecated note">
+
+This type is obsolete when working with the new `Component` type.
+
+</blockquote>
+
+<div class="ts-block">
+
+```dts
+type ComponentType<
+	Comp extends SvelteComponent = SvelteComponent
+> = (new (
+	options: ComponentConstructorOptions<
+		Comp extends SvelteComponent<infer Props>
+			? Props
+			: Record<string, any>
+	>
+) => Comp) & {
+	/** The custom element version of the component. Only present if compiled with the `customElement` compiler option */
+	element?: typeof HTMLElement;
+};
+```
+
+</div>
+
+## EventDispatcher
+
+<div class="ts-block">
+
+```dts
+interface EventDispatcher<
+	EventMap extends Record<string, any>
+> {/*…*/}
+```
+
+<div class="ts-block-property">
+
+```dts
+<Type extends keyof EventMap>(
+	...args: null extends EventMap[Type]
+		? [type: Type, parameter?: EventMap[Type] | null | undefined, options?: DispatchOptions]
+		: undefined extends EventMap[Type]
+			? [type: Type, parameter?: EventMap[Type] | null | undefined, options?: DispatchOptions]
+			: [type: Type, parameter: EventMap[Type], options?: DispatchOptions]
+): boolean;
+```
+
+<div class="ts-block-property-details"></div>
+</div></div>
+
+## Fork
+
+<blockquote class="since note">
+
+Available since 5.42
+
+</blockquote>
+
+Represents work that is happening off-screen, such as data being preloaded
+in anticipation of the user navigating
+
+<div class="ts-block">
+
+```dts
+interface Fork {/*…*/}
+```
+
+<div class="ts-block-property">
+
+```dts
+commit(): Promise<void>;
+```
+
+<div class="ts-block-property-details">
+
+Commit the fork. The promise will resolve once the state change has been applied
+
+</div>
+</div>
+
+<div class="ts-block-property">
+
+```dts
+discard(): void;
+```
+
+<div class="ts-block-property-details">
+
+Discard the fork
+
+</div>
+</div></div>
+
+## MountOptions
+
+Defines the options accepted by the `mount()` function.
+
+<div class="ts-block">
+
+```dts
+type MountOptions<
+	Props extends Record<string, any> = Record<string, any>
+> = {
+	/**
+	 * Target element where the component will be mounted.
+	 */
+	target: Document | Element | ShadowRoot;
+	/**
+	 * Optional node inside `target`. When specified, it is used to render the component immediately before it.
+	 */
+	anchor?: Node;
+	/**
+	 * Allows the specification of events.
+	 * @deprecated Use callback props instead.
+	 */
+	events?: Record<string, (e: any) => any>;
+	/**
+	 * Can be accessed via `getContext()` at the component level.
+	 */
+	context?: Map<any, any>;
+	/**
+	 * Whether or not to play transitions on initial render.
+	 * @default true
+	 */
+	intro?: boolean;
+	/**
+	 * A function that transforms errors caught by error boundaries before they are passed to the `failed` snippet.
+	 * Defaults to the identity function.
+	 */
+	transformError?: (
+		error: unknown
+	) => unknown | Promise<unknown>;
+} & ({} extends Props
+	? {
+			/**
+			 * Component properties.
+			 */
+			props?: Props;
+		}
+	: {
+			/**
+			 * Component properties.
+			 */
+			props: Props;
+		});
+```
+
+</div>
+
+## Snippet
+
+The type of a `#snippet` block. You can use it to (for example) express that your component expects a snippet of a certain type:
+```ts
+let { banner }: { banner: Snippet<[{ text: string }]> } = $props();
+```
+You can only call a snippet through the `{@render ...}` tag.
+
+See the [snippet documentation](/docs/svelte/snippet) for more info.
+
+<div class="ts-block">
+
+```dts
+interface Snippet<Parameters extends unknown[] = []> {/*…*/}
+```
+
+<div class="ts-block-property">
+
+```dts
+(
+	this: void,
+	// this conditional allows tuples but not arrays. Arrays would indicate a
+	// rest parameter type, which is not supported. If rest parameters are added
+	// in the future, the condition can be removed.
+	...args: number extends Parameters['length'] ? never : Parameters
+): {
+	'{@render ...} must be called with a Snippet': "import type { Snippet } from 'svelte'";
+} & typeof SnippetReturn;
+```
+
+<div class="ts-block-property-details"></div>
+</div></div>

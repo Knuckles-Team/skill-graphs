@@ -1,0 +1,955 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "chromadb-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-06-16T13:22:01Z",
+  "builder_version": "0.49.0",
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "llms",
+      "uri": "https://docs.trychroma.com",
+      "options": {},
+      "extractor": "llms.txt",
+      "fetched_at": "2026-06-16T13:22:01Z",
+      "content_hash": "sha256:2e3cfaf08e19a36fd7f95becb5cc064d60f7c1433c1b2880f5eda13fdf527546",
+      "doc_count": 187
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/add-documents-to-collection.md",
+      "sha256": "sha256:1f4a523876e0acc3a838aafe0beac7ee4bc7c61ba618f0f5b7a336104ad9935f",
+      "bytes": 4366
+    },
+    {
+      "path": "reference/add-memories-from-conversation.md",
+      "sha256": "sha256:25154c6d8a09f93ded580a50efe361fcb3a31ca4c3b5ddab908ec9bd81d9414c",
+      "bytes": 536
+    },
+    {
+      "path": "reference/add-some-example-support-cases.md",
+      "sha256": "sha256:994657be90f68eb416b246cc07bff9d69d008725dcf9f9f82490fdc9720b4bd9",
+      "bytes": 590
+    },
+    {
+      "path": "reference/adding-data-to-chroma-collections.md",
+      "sha256": "sha256:5b3e23805b33600cec38a79a910c6b8c4037e24494ebe627e409de3682caa6eb",
+      "bytes": 5809
+    },
+    {
+      "path": "reference/after-2.md",
+      "sha256": "sha256:af459130ec202e0cedbce4130cb2cd7083b315975a9c638029ea92c761c59208",
+      "bytes": 139
+    },
+    {
+      "path": "reference/after-3.md",
+      "sha256": "sha256:cef4f1580569b6f37cba7180a6ebaabafd5dc98e63ccb211bcb6927d2f37685a",
+      "bytes": 1982
+    },
+    {
+      "path": "reference/after.md",
+      "sha256": "sha256:a08ab239d19b4aa0fe1bd6d7f961c687bafaf843704f702a173d1e854f961f40",
+      "bytes": 83
+    },
+    {
+      "path": "reference/agentic-memory.md",
+      "sha256": "sha256:ec9a6a734c60ae525ce74d6a4f73c417ed2f97d62c788f17892c608c995122fa",
+      "bytes": 15953
+    },
+    {
+      "path": "reference/agentic-search.md",
+      "sha256": "sha256:bb5b6c6965c9ec737253c60d2c0172bf6189fc45766d2ae2cb84a55f70a9d199",
+      "bytes": 42437
+    },
+    {
+      "path": "reference/amazon-bedrock.md",
+      "sha256": "sha256:7e955456614b427d98063ee24f9b762030496450a12717cd3fa24862fc321ade",
+      "bytes": 919
+    },
+    {
+      "path": "reference/anthropic-mcp.md",
+      "sha256": "sha256:b41ec4883f3a6c4c9e75db16400d5658250600d360a2fa6b1341cce243627ffa",
+      "bytes": 4735
+    },
+    {
+      "path": "reference/architecture-overview.md",
+      "sha256": "sha256:b8785d12f67d4bfed8aa7401a9c155fd44da8a760f21d3fa7111b911b29a613c",
+      "bytes": 2285
+    },
+    {
+      "path": "reference/attach-function.md",
+      "sha256": "sha256:8a13081218b31444c58bc6722fa72eb08927bae2ed6e5aefcaa581ab32657f4c",
+      "bytes": 265
+    },
+    {
+      "path": "reference/authentication.md",
+      "sha256": "sha256:d35deb0b4eb8fa117efe7c21ecd127b9abd0206fc00b077dadef6a1a74a588f4",
+      "bytes": 110
+    },
+    {
+      "path": "reference/aws.md",
+      "sha256": "sha256:473baffa29713728dc02be624e8259525133c8e26ea6774fe5b1c0fcf7ed7d94",
+      "bytes": 7630
+    },
+    {
+      "path": "reference/azure.md",
+      "sha256": "sha256:2a215d1063eeec0b69e2e4dadcb356a3bcee1198b131add9bea8ce79444ce3fb",
+      "bytes": 5108
+    },
+    {
+      "path": "reference/baseten.md",
+      "sha256": "sha256:afc109734ce42e775b6c59f50dff9eb3735321578341702049f9448036bdf463",
+      "bytes": 1087
+    },
+    {
+      "path": "reference/batch-operations.md",
+      "sha256": "sha256:f9baca12593d1271013c20193c9b90affb80ea6de6b22467e2149d9aa5218ed6",
+      "bytes": 17099
+    },
+    {
+      "path": "reference/before-2.md",
+      "sha256": "sha256:5cb2fa21909c61742fd79c9b310645b28857916423df29f43d0fe03ff05906d7",
+      "bytes": 248
+    },
+    {
+      "path": "reference/before-3.md",
+      "sha256": "sha256:aac8e034a7f8e9b933f9c21077a0b5ceebc3261d0e6fe9b39d3f4859af16ea2d",
+      "bytes": 302
+    },
+    {
+      "path": "reference/before.md",
+      "sha256": "sha256:0e4ba7d2c9e57a2159bf63a84bacbca827cb5bd9cfd15a1143f19630a823b894",
+      "bytes": 52
+    },
+    {
+      "path": "reference/braintrust.md",
+      "sha256": "sha256:020a48e605d70e22b3cd8776ef02d23180f2ca8bd8b9984a498653f728b9f804",
+      "bytes": 1495
+    },
+    {
+      "path": "reference/browse-collections.md",
+      "sha256": "sha256:0aa01284ef57768d6f45e8d6766400e63aab96e37605f8abf35588593ee9a862",
+      "bytes": 2838
+    },
+    {
+      "path": "reference/building-with-ai.md",
+      "sha256": "sha256:380cfe82261e2a7fcd29ae6cc4f743844d65cefdffd49cad9f47077b64c81a23",
+      "bytes": 6193
+    },
+    {
+      "path": "reference/cancel-invocation.md",
+      "sha256": "sha256:e6819ebd0e92000b5b67401f877bb7f603c85b66550e31608b06b1593ec969a1",
+      "bytes": 186
+    },
+    {
+      "path": "reference/chroma-bm25.md",
+      "sha256": "sha256:42a90d0d32084c6bd342eafbce7fea495921ceb451454c7bf34434dade34b82b",
+      "bytes": 2597
+    },
+    {
+      "path": "reference/chroma-clients.md",
+      "sha256": "sha256:2508ddf1ae82ea4172a3e5730e15473dd364e143b0f8c276864ce615c28e8908",
+      "bytes": 7227
+    },
+    {
+      "path": "reference/chroma-cloud-configuration.md",
+      "sha256": "sha256:c9a8c86495d2c56895c07b935be71c3e29bf78e1a3171181c7651ca56eb6fcb3",
+      "bytes": 11868
+    },
+    {
+      "path": "reference/chroma-cloud-qwen.md",
+      "sha256": "sha256:df7a79572e37721ffca162315b1cce7c58e65d03c0cbd0bb48e3d17e1c392cd3",
+      "bytes": 2220
+    },
+    {
+      "path": "reference/chroma-cloud-splade.md",
+      "sha256": "sha256:7a2a56317f54de73c3cd1b85a3087ae53360d66232e44c8c5da5405a87b0a60e",
+      "bytes": 2056
+    },
+    {
+      "path": "reference/chroma-cloud.md",
+      "sha256": "sha256:5fefb4dab79b87bd24c25d3668b2a7e4d8a9dd62004010f2f4a5da259472d717",
+      "bytes": 4569
+    },
+    {
+      "path": "reference/chroma-configuration.md",
+      "sha256": "sha256:adf8b5bf9376bfa70107ddc1339fe7e8298f324c38733f2eace241e877cfe261",
+      "bytes": 3637
+    },
+    {
+      "path": "reference/chroma-s-thin-client.md",
+      "sha256": "sha256:5a23c928328f87da55473fce866fc285a59c10777c9d8ea96503d686d5902399",
+      "bytes": 734
+    },
+    {
+      "path": "reference/chunking.md",
+      "sha256": "sha256:d55f630e2a95e0502af3c0a3e0009aad8e528d7d01271468c0ae0752eb4555a9",
+      "bytes": 19778
+    },
+    {
+      "path": "reference/client-2.md",
+      "sha256": "sha256:8a5e93bd42cf530df7e524ea5dde77c669f0ff6560c4e8b903483de7467a86ab",
+      "bytes": 4720
+    },
+    {
+      "path": "reference/client-server-mode.md",
+      "sha256": "sha256:bf48695c909fff9fc827ac77e6bb6105460774cde5430b1c19c762e694b60cbd",
+      "bytes": 2456
+    },
+    {
+      "path": "reference/client.md",
+      "sha256": "sha256:2fd3c28b5537174dcd9f5ec99f6d1f95c39890ff9cb84151f5e0aacc80f2f079",
+      "bytes": 6090
+    },
+    {
+      "path": "reference/cloudflare-workers-ai.md",
+      "sha256": "sha256:00d1e9b403315e9ce734e288f3bd83bdb24c2d891bc91b054fdd174fbd2b5ea5",
+      "bytes": 1835
+    },
+    {
+      "path": "reference/cohere.md",
+      "sha256": "sha256:3a078053b17b9072ff4787c42d5be0b4ff651a30f1d7f2c4f3c482d2ed8f811b",
+      "bytes": 3160
+    },
+    {
+      "path": "reference/collection-2.md",
+      "sha256": "sha256:1a6c8aa3f1bbcc0a1c0764e8ca0789272edf59e1574993dd3cec88a269c7cd84",
+      "bytes": 3068
+    },
+    {
+      "path": "reference/collection-forking.md",
+      "sha256": "sha256:162326fb920ed4825905b8c648a8294eda1fdac7e72c9fea66974b292f293e76",
+      "bytes": 3941
+    },
+    {
+      "path": "reference/collection-name-my_collection-metadata.md",
+      "sha256": "sha256:432898d2213b0f45721947a0de0a8522e96c8d3d73e0d713db438845f4c1c443",
+      "bytes": 2045
+    },
+    {
+      "path": "reference/collection.md",
+      "sha256": "sha256:c4d3d91266211c42b517d15fabb67b4a12181e0ab3798cfc84391bf52e44af41",
+      "bytes": 8936
+    },
+    {
+      "path": "reference/concepts.md",
+      "sha256": "sha256:bdd5c088e9c4362f892273b6d51d92cb47dec5f5e91ba6dc24a696ef4d1d613e",
+      "bytes": 475
+    },
+    {
+      "path": "reference/configure-collections.md",
+      "sha256": "sha256:04b4d8a9fb49e2f5133c1d49f81c9b4b7ff6b4781540b0b63b9aaad818ffedf4",
+      "bytes": 18122
+    },
+    {
+      "path": "reference/configure-mem0-with-chroma.md",
+      "sha256": "sha256:992896e3a180254fc314482f62ba3cdeb7b71d4207ed8d0119e381b13ad2e2b5",
+      "bytes": 209
+    },
+    {
+      "path": "reference/connect-to-chroma-cloud.md",
+      "sha256": "sha256:5e4122d7d0a53158cc070a286ec6120b38504c37ec21a7385dbe07f32026b4f0",
+      "bytes": 219
+    },
+    {
+      "path": "reference/contextual-ai.md",
+      "sha256": "sha256:56a156ffb55fe2e506b2df7be02d6b12009587d4901f1143495691bc62211045",
+      "bytes": 13435
+    },
+    {
+      "path": "reference/copy-collections.md",
+      "sha256": "sha256:a41e5833f8f71c932aa47e9a272795ca7d0d3a1171e9e92828758faa9183f785",
+      "bytes": 2691
+    },
+    {
+      "path": "reference/create-a-collection-for-support-cases.md",
+      "sha256": "sha256:6a6a286d2088444e98c07e054c0a4104585d8490a202b416d21a59d58696803e",
+      "bytes": 95
+    },
+    {
+      "path": "reference/create-invocation.md",
+      "sha256": "sha256:4bfadadb5bcb7e91d4e1c23f4995a476466718cd4bd008ef35820cd6a3900957",
+      "bytes": 207
+    },
+    {
+      "path": "reference/create-source.md",
+      "sha256": "sha256:06a3711bb858530922e4f9901d1f6b6f5923acc604f0bb495db260871e4ed6b6",
+      "bytes": 159
+    },
+    {
+      "path": "reference/db-management.md",
+      "sha256": "sha256:abcd417cc18c5cc318191246810f32778bb623deeb4fbc06550fdd8af9ab50c7",
+      "bytes": 2014
+    },
+    {
+      "path": "reference/deepeval.md",
+      "sha256": "sha256:b5edae4ce44015d447ed299e203189ebcd0ce31f9ca978537bf209a5f75ce876",
+      "bytes": 3103
+    },
+    {
+      "path": "reference/delete-data.md",
+      "sha256": "sha256:c8da7c8187bc65888bd88ee25658db9795f7f043bb2bbb09eef6901ab2dc9ac4",
+      "bytes": 1580
+    },
+    {
+      "path": "reference/delete-source.md",
+      "sha256": "sha256:ded141fc1778a25e37ecddcefa92efe56410ede68d4d372219173004a8b6c9d4",
+      "bytes": 185
+    },
+    {
+      "path": "reference/detach-function.md",
+      "sha256": "sha256:4ce4cc72851bca720364db9589ac02728a6a122dad3da119c15857db0f1ace69",
+      "bytes": 283
+    },
+    {
+      "path": "reference/distributed-architecture.md",
+      "sha256": "sha256:664ff8a34c6ce8e6a0bd22443b3b1d3fb58fa850c9d9496c4313cd59d377eb4e",
+      "bytes": 4237
+    },
+    {
+      "path": "reference/distributed-cloud-performance.md",
+      "sha256": "sha256:42bab333a6db5ceda860c2f9d506cf2f50e85a3c0ad4c299380c475d42a30d19",
+      "bytes": 2915
+    },
+    {
+      "path": "reference/docker.md",
+      "sha256": "sha256:19d8fcf1094452ab17a5e754857ee91c66612f890222ac3c4a136559375da645",
+      "bytes": 6508
+    },
+    {
+      "path": "reference/embedding-functions-2.md",
+      "sha256": "sha256:5528ea7a17302b657c59d617489a9702a272c6ddeadfdfac9c0760a700b486a4",
+      "bytes": 2292
+    },
+    {
+      "path": "reference/embedding-functions-3.md",
+      "sha256": "sha256:1e235a5b4d2f1ed8a4e6f3f1b5b728411a36ed734b91db66332f5e8050c545f9",
+      "bytes": 1166
+    },
+    {
+      "path": "reference/embedding-functions.md",
+      "sha256": "sha256:0d4ff635b87e8ad50943d448ee91973785e43eae719be39e945ec90c1bf8bb7c",
+      "bytes": 12685
+    },
+    {
+      "path": "reference/example-setup-of-the-client-to-connect-to-your-chroma-server.md",
+      "sha256": "sha256:79e101b5e71f5e326c9e590a96745b1e2b32803a9216e23e107d0904b8e9ef4a",
+      "bytes": 121
+    },
+    {
+      "path": "reference/examples-patterns.md",
+      "sha256": "sha256:1ba9748b949483b4f0103eda7d72de0883c0917c9f4727a0e097df60eb903d02",
+      "bytes": 21531
+    },
+    {
+      "path": "reference/file-upload.md",
+      "sha256": "sha256:35b0f2a9936ef3725bdae06e688f2894c17cdea55b173b40d83145fc4d9d3db4",
+      "bytes": 4445
+    },
+    {
+      "path": "reference/filtering-with-where.md",
+      "sha256": "sha256:a1c1ca9dfe865e40b2d5907a53951a1529849548b4cd9f48b00ef2f23acc76ac",
+      "bytes": 22507
+    },
+    {
+      "path": "reference/fork-collection.md",
+      "sha256": "sha256:d494f73cf4143e647bcbb21823cb09ca01580310cb9cb8e1f79c86c2bc643207",
+      "bytes": 260
+    },
+    {
+      "path": "reference/full-text-search.md",
+      "sha256": "sha256:301288e210569a5f82eaac036bde5b7ecaac2924bdb43defcffcb5ce57a9fd7b",
+      "bytes": 8491
+    },
+    {
+      "path": "reference/gcp.md",
+      "sha256": "sha256:53358c2907bf906102cc158202e6f8dcb980f2ba5ccc9392fdc106ff0c1a7b7d",
+      "bytes": 6485
+    },
+    {
+      "path": "reference/general.md",
+      "sha256": "sha256:7901dd486c2b9392f30bc452fca1a623dc4006cefbfba76e3c267177d20c15b1",
+      "bytes": 821
+    },
+    {
+      "path": "reference/generate-dense-embeddings.md",
+      "sha256": "sha256:8c34133b289d46077c64dc897fbced5c6e4b6eba482b86b9a0a208da380580d8",
+      "bytes": 325
+    },
+    {
+      "path": "reference/generate-sparse-embeddings.md",
+      "sha256": "sha256:010ef19417efee31d925d3f328c921afb95215579bdb430edcbff1f12c9657bb",
+      "bytes": 403
+    },
+    {
+      "path": "reference/get-attached-function.md",
+      "sha256": "sha256:89a525f2235a0ff7e9116a6325279b4ec4f4aa05e46236fd984312c86b174580",
+      "bytes": 286
+    },
+    {
+      "path": "reference/get-invocation.md",
+      "sha256": "sha256:7f51635963e5af3f5b1d0d38b8db2ba45b3d65b0dd4e6f49f879891539ce01f9",
+      "bytes": 212
+    },
+    {
+      "path": "reference/get-latest-invocations-by-keys.md",
+      "sha256": "sha256:25be3b084ff16433a13ea43024f6487e5d499b115c18cfb3ccaccc15b4b5a5c1",
+      "bytes": 272
+    },
+    {
+      "path": "reference/get-service-health-status.md",
+      "sha256": "sha256:985fc8db70daef9402c6618d98d674c1b8fcccc2f80d2efa4392033a2178f18e",
+      "bytes": 194
+    },
+    {
+      "path": "reference/get-source.md",
+      "sha256": "sha256:af64313ebb1d73d6006511bf7668aba43cda8637bb38f50d0b5e8d559879786a",
+      "bytes": 187
+    },
+    {
+      "path": "reference/getting-started.md",
+      "sha256": "sha256:e6a863167b8929b79da3f8761225e910480a701661d24ef12e739e77a6fd3f26",
+      "bytes": 17473
+    },
+    {
+      "path": "reference/github.md",
+      "sha256": "sha256:669d8c76398dcdfb3545d952ded21d39d67f1b22a3aec69073bfd773d387cac0",
+      "bytes": 5709
+    },
+    {
+      "path": "reference/global-invocation-configuration.md",
+      "sha256": "sha256:4f58587e57e6b9ed5bb2034c0217f9dffbbfe2f817f2c6faa3fe5d74cc728aaf",
+      "bytes": 730
+    },
+    {
+      "path": "reference/global-source-configuration.md",
+      "sha256": "sha256:922769a880cd935df743484de9cd5590b45e6f1ac59db9979108bf2b0281b703",
+      "bytes": 1461
+    },
+    {
+      "path": "reference/google-adk.md",
+      "sha256": "sha256:bf4c7e0c64b3d466276398fa4896f199514eb6826827c54dbdb6a2766b573a8c",
+      "bytes": 25700
+    },
+    {
+      "path": "reference/google-gemini.md",
+      "sha256": "sha256:803bd9d414b50e14ec930a11d95aafe9dea161176b642bd2c3fcca2aaabfb398",
+      "bytes": 8980
+    },
+    {
+      "path": "reference/group-by-aggregation.md",
+      "sha256": "sha256:1849bf5378a1535ca17862383978176e4a532c51fca24081f8b97f621f97c45e",
+      "bytes": 13015
+    },
+    {
+      "path": "reference/haystack.md",
+      "sha256": "sha256:754ed89dcbba38ce81282dcd97c193478b517c7947b2fea9a4731f143bcbe73b",
+      "bytes": 3427
+    },
+    {
+      "path": "reference/how-chroma-sync-works.md",
+      "sha256": "sha256:13d6b029289d88fc0db7d9390b08fb9678a2f52cd106fc6be89403207f9961d8",
+      "bytes": 1555
+    },
+    {
+      "path": "reference/hugging-face-server.md",
+      "sha256": "sha256:265d31788596b0cc62ef7df442a528d5fb1e073dfe4b3c9a91c5290a404db3d7",
+      "bytes": 2861
+    },
+    {
+      "path": "reference/hugging-face.md",
+      "sha256": "sha256:eb9687802c9a6235a5c22db7cd879a659ed562462e7113bb6a435f77d2853557",
+      "bytes": 1499
+    },
+    {
+      "path": "reference/hybrid-search-with-rrf.md",
+      "sha256": "sha256:aa4a3a74a1e2fb3a861b2ef4526b9ae3b401430497011cdcd496f6e2355a7fac",
+      "bytes": 18864
+    },
+    {
+      "path": "reference/index-configuration-reference.md",
+      "sha256": "sha256:8f3348df03c0e97a29e3bb9dfc9d3b52efc225d56d3caf9f7c0a2951fec118b0",
+      "bytes": 5728
+    },
+    {
+      "path": "reference/initialize-memory.md",
+      "sha256": "sha256:6ad4f2834853cb41aff2550a8bf9cfb03955f00785d8b4d413793205fb879208",
+      "bytes": 56
+    },
+    {
+      "path": "reference/installing-the-cli.md",
+      "sha256": "sha256:3f318530ac9bb42eed04a7ea1fa6326d1a05fd2f1ad88440a6a324f41d680bf5",
+      "bytes": 1461
+    },
+    {
+      "path": "reference/instructor.md",
+      "sha256": "sha256:032357a47cc7c5321711d996f3bbba0db83b2ff712c5cf8c2c46a16531df55a7",
+      "bytes": 1242
+    },
+    {
+      "path": "reference/integrations.md",
+      "sha256": "sha256:94739aa2d9448cf8b22b98d4ca81973ae32217e885fb0a520839465342d4ecb7",
+      "bytes": 4828
+    },
+    {
+      "path": "reference/intro-to-retrieval.md",
+      "sha256": "sha256:24a462155d5da49a6d5a16dde55e8ac6cb42e2706bf88f0ab108984696a44ff6",
+      "bytes": 11292
+    },
+    {
+      "path": "reference/introduction.md",
+      "sha256": "sha256:843d13e5f70d6059758042b8b33735423962b12a4577f095e4dc9cd4d7bcf82f",
+      "bytes": 2512
+    },
+    {
+      "path": "reference/jina-ai.md",
+      "sha256": "sha256:83639ffda6f359c57046ad2f88385a7a44dc8b7c90d810d3dbd5adb70d80400c",
+      "bytes": 3783
+    },
+    {
+      "path": "reference/kotlin.md",
+      "sha256": "sha256:c0829d375e168c914533ecd896d4e199c8f1ae2919cab3f480705a2c8de64da1",
+      "bytes": 163
+    },
+    {
+      "path": "reference/langchain.md",
+      "sha256": "sha256:ec2a0b5b2d089378d4d99a2acacc47d3742236efc0d390b0cdf07c8a425b9e35",
+      "bytes": 1326
+    },
+    {
+      "path": "reference/list-invocations.md",
+      "sha256": "sha256:8698c1a0c83da12bc0e0a9e52800cfcce4ff96b44d886291cfd77d476e214a6e",
+      "bytes": 189
+    },
+    {
+      "path": "reference/list-sources.md",
+      "sha256": "sha256:7334195b9ba008a71f4bd676257711c6a51ad577095edf925cdd8698df02fe9a",
+      "bytes": 162
+    },
+    {
+      "path": "reference/llamaindex.md",
+      "sha256": "sha256:0c1bb624e21088b7d2d6e2c795326cc6ed874f5f62d579ca3b51f14fadeeabc6",
+      "bytes": 411
+    },
+    {
+      "path": "reference/local-chroma-server-configuration-optional---defaults-shown.md",
+      "sha256": "sha256:412156254b11bb81831dab54ee939b82758069f8ee1fe8bd7e0fd278d02b64e3",
+      "bytes": 186
+    },
+    {
+      "path": "reference/login.md",
+      "sha256": "sha256:1535378c07d8fdb1671bfde394fb82dc12f55282bd1e00f0ce4a3019595088f4",
+      "bytes": 1814
+    },
+    {
+      "path": "reference/look-at-your-data.md",
+      "sha256": "sha256:5fc1c60847abaa7969b5dd31253d627d87a0dafdf1b67848a0d501f658551699",
+      "bytes": 14111
+    },
+    {
+      "path": "reference/manage-collections.md",
+      "sha256": "sha256:84f8be3ddc510628b35b8b724fa960c9739ec2cca7e8e83d019b875415fc23a2",
+      "bytes": 12981
+    },
+    {
+      "path": "reference/mem0.md",
+      "sha256": "sha256:530afc2e9f1845453e5ad3f9a150602c96ba94d59ebaa0d9303f0011674ca9d7",
+      "bytes": 1195
+    },
+    {
+      "path": "reference/metadata-filtering.md",
+      "sha256": "sha256:7764c0ec7b0eca46fde5d47d680ab931276407914a04022298a2ba2bfe7e4b57",
+      "bytes": 18433
+    },
+    {
+      "path": "reference/migration-guide.md",
+      "sha256": "sha256:9926b8a78d198e70fb83a3e9ff1ca8c090b6003eb651a68131453e50fb27806f",
+      "bytes": 10405
+    },
+    {
+      "path": "reference/migration.md",
+      "sha256": "sha256:7b50a9840a882bc3702f12cd060144917198c1a159bdd3d89591fa7a3b00ffa4",
+      "bytes": 1375
+    },
+    {
+      "path": "reference/mistral.md",
+      "sha256": "sha256:6a0e4a16d017886090f9ec1d6fd1ab1bd2f0658d93c2276271965c4cd4928238",
+      "bytes": 1381
+    },
+    {
+      "path": "reference/morph.md",
+      "sha256": "sha256:524f4e54260be084fd7947e00983465a2f8971aa18060cbfa1135f485305ebad",
+      "bytes": 1959
+    },
+    {
+      "path": "reference/multimodal-embeddings.md",
+      "sha256": "sha256:f1d9952652ff3940a8199a4fa83ac0948c62f8d4de12363ee12dfdc20c2c01a7",
+      "bytes": 4527
+    },
+    {
+      "path": "reference/nomic.md",
+      "sha256": "sha256:37f9ec2f2a7620d2580f98fa2a208bce9660b2e1ca1c9c1c72f7834cbcb7d6c2",
+      "bytes": 1698
+    },
+    {
+      "path": "reference/observability.md",
+      "sha256": "sha256:7e96a309ebf825217cc271df1ee3035f37fa4a7f23509eb5d7c7fb01cdbcef51",
+      "bytes": 1952
+    },
+    {
+      "path": "reference/ollama.md",
+      "sha256": "sha256:082f20eb6e2fbb21c88d017553f0a28c9aa0a666ed7d4b27b548a09770b1631d",
+      "bytes": 1480
+    },
+    {
+      "path": "reference/open-source.md",
+      "sha256": "sha256:21db18df557a875ea141dbd2ee7ce98e5579e29ca12be5c2082dfde723526fee",
+      "bytes": 4875
+    },
+    {
+      "path": "reference/openai-api-key-for-embeddings-and-llm.md",
+      "sha256": "sha256:5b18bb18245d005af938babb6888fe9f7017db8a8473f20ec538a0e907bd73ff",
+      "bytes": 80
+    },
+    {
+      "path": "reference/openai.md",
+      "sha256": "sha256:35eae1d513411937f3cd71c4d15aff0f17467f80f2f903bfbba5b8fc72dae7c6",
+      "bytes": 2697
+    },
+    {
+      "path": "reference/openclip.md",
+      "sha256": "sha256:b2b301cb1ee870b923e7fdeb5d94b4131a28027c2525249e62afd005295a2246",
+      "bytes": 1852
+    },
+    {
+      "path": "reference/openlit.md",
+      "sha256": "sha256:db71e917199cfbb447397d63781c01a5edb2c7da073db10d524257f11f84213f",
+      "bytes": 2756
+    },
+    {
+      "path": "reference/openllmetry.md",
+      "sha256": "sha256:65aa490d88fac84b96ebbe8addbdf127018f548dd6d17f1763cfe27eff7d2300",
+      "bytes": 979
+    },
+    {
+      "path": "reference/or-2.md",
+      "sha256": "sha256:00aae6f249dc59c5a413be5af28cd4002ed479a36e69f9452655fd3afaffe3e4",
+      "bytes": 14986
+    },
+    {
+      "path": "reference/or-for-async-usage-2.md",
+      "sha256": "sha256:ebbbd48cc3099733c04c552db9e9cf0d8566cb943159bd8afbe1526c46fcdef3",
+      "bytes": 1475
+    },
+    {
+      "path": "reference/or-for-async-usage.md",
+      "sha256": "sha256:826bdcfbbeeaf2985184380ad2de17fe2245a6b958a7206534293fc73093c2f9",
+      "bytes": 548
+    },
+    {
+      "path": "reference/or-pass-an-inline-access-key-saved-to-your-team-for-reuse.md",
+      "sha256": "sha256:549d1570d3531a398d36bbf162e08e657d6b4d009f32fb0d6fc6c0e4756fe939",
+      "bytes": 9138
+    },
+    {
+      "path": "reference/or.md",
+      "sha256": "sha256:235e3e4795e96bc1499c2d384afe0994f70314a83e4e76ae3495c252557e8435",
+      "bytes": 41
+    },
+    {
+      "path": "reference/overview-2.md",
+      "sha256": "sha256:ef7bb68391c645776a201d270a934f5cce2233c67dbcd55da0c7074d455978f1",
+      "bytes": 1259
+    },
+    {
+      "path": "reference/overview.md",
+      "sha256": "sha256:797c406bf7cfc2f132d2e0bab1aedb1acf970b67047e8d082f87b947c2e0ec9b",
+      "bytes": 520
+    },
+    {
+      "path": "reference/package-search-mcp-server.md",
+      "sha256": "sha256:185a52f6dd5b5295ba6735d34edf054217e1fd1bc6e68bc5647e1cc073f53b47",
+      "bytes": 17389
+    },
+    {
+      "path": "reference/package-search-registry.md",
+      "sha256": "sha256:0e3cb3d73b17d3fe1f70c7617eebf3c07fb445792cdac3043e0b8c114caca181",
+      "bytes": 2296
+    },
+    {
+      "path": "reference/pagination-field-selection.md",
+      "sha256": "sha256:8883334a3ff1062a0f20188151cabc76fe538c0327cd30961ec7cc45940750e2",
+      "bytes": 12972
+    },
+    {
+      "path": "reference/perplexity.md",
+      "sha256": "sha256:96d865d930abd5c612f94b11bd6248400887e4f1c147bf5d39d9c171550cfe24",
+      "bytes": 3295
+    },
+    {
+      "path": "reference/pricing.md",
+      "sha256": "sha256:c6bc95fbc38911a3db5ee1b27e074aee6b5dfc8a5f0fab565fe277aead9f5d00",
+      "bytes": 4181
+    },
+    {
+      "path": "reference/profile-management.md",
+      "sha256": "sha256:182aab3cc53c2e4ddf3900bc9a1436a7aa343972cfb7bbb21e5a458bdd3ceae7",
+      "bytes": 1602
+    },
+    {
+      "path": "reference/python.md",
+      "sha256": "sha256:ba8f8ee6ea74a4d92760a8b1d8bee8ea6305f51e2472400b133cfbf0984c82b0",
+      "bytes": 25
+    },
+    {
+      "path": "reference/query-and-get.md",
+      "sha256": "sha256:8e19a6ded1ff7c1ba8d9400930fe96eca1ac0f72c2709263980f44a2d8b0a9f2",
+      "bytes": 14089
+    },
+    {
+      "path": "reference/quotas-limits.md",
+      "sha256": "sha256:be1a425107d0b0fdcb120516a82af939c2eb00eaadbd65d3fc12c62c1af13a3a",
+      "bytes": 2513
+    },
+    {
+      "path": "reference/ranking-and-scoring.md",
+      "sha256": "sha256:fbfd884c11655e83a2eb07d0c5f49744a70404435f26c048b6d8a260e8f5c031",
+      "bytes": 26107
+    },
+    {
+      "path": "reference/reference.md",
+      "sha256": "sha256:4f0fcbecac6fa5273995f2a81ef0a8a675d34327875ad10a50f43efe55ee151b",
+      "bytes": 125
+    },
+    {
+      "path": "reference/reuse-an-existing-credential.md",
+      "sha256": "sha256:55de6d33e07e1ab07bc5022447468b757f0123e8bef64838b619a8701edff538",
+      "bytes": 365
+    },
+    {
+      "path": "reference/roboflow.md",
+      "sha256": "sha256:52cd17b4f0096fe3746cc342ca226064031edfea4ef03659f7ceb5e5524543bd",
+      "bytes": 2537
+    },
+    {
+      "path": "reference/run-a-chroma-server.md",
+      "sha256": "sha256:eb78ad984571919b3579ce29df895125e4a568568988b562b4d86e6f59ce0cd6",
+      "bytes": 1362
+    },
+    {
+      "path": "reference/run-an-evaluation-and-log-to-braintrust.md",
+      "sha256": "sha256:d9d3199150e3100d056471d5a2c5ef3757c8c14b04aeda3c675a7d6ccab9e942",
+      "bytes": 408
+    },
+    {
+      "path": "reference/running-chroma-in-client-server-mode.md",
+      "sha256": "sha256:6b3ac0b8479bb098b2c01a73444bd6042fb0821aa676bd86f1d6e95bb04c6dbd",
+      "bytes": 2999
+    },
+    {
+      "path": "reference/rust.md",
+      "sha256": "sha256:cd91b2ac3f4d066e68366aa4220d1f2284a2deaaf346e92b7bdf2edca1c7e22b",
+      "bytes": 136
+    },
+    {
+      "path": "reference/s3-sync.md",
+      "sha256": "sha256:b2bca2fefc66c2de943d8d95393d3a1095f8ad12165b07840d99fcc53f7c4f19",
+      "bytes": 2228
+    },
+    {
+      "path": "reference/sample-apps.md",
+      "sha256": "sha256:9e688093e645723b01f64f8933f91216444b1a3bb34911cddacbafb6bf689663",
+      "bytes": 824
+    },
+    {
+      "path": "reference/schema-2.md",
+      "sha256": "sha256:783988eb5f71deda3f6f0ec020e8789d7d9f7d3324dd0ed820a82fd5abe7ab2d",
+      "bytes": 1483
+    },
+    {
+      "path": "reference/schema-basics.md",
+      "sha256": "sha256:7488bd822f33f21eac4ac6915c420c840b0d83722dd348b45d5c9a613a08aa09",
+      "bytes": 11025
+    },
+    {
+      "path": "reference/schema-overview.md",
+      "sha256": "sha256:60d1807a2eed7346f5dbd44f954869a559c6110c4a8dbcfb9e4c8f29e4341cca",
+      "bytes": 4202
+    },
+    {
+      "path": "reference/schema.md",
+      "sha256": "sha256:a89a7ef7c25b444cefa86446667f56d86b1d1d20f8ff67fb5082291c35e7702b",
+      "bytes": 1977
+    },
+    {
+      "path": "reference/search-2.md",
+      "sha256": "sha256:87d5d2608bea317a40e925551d0686b090f18fe5beec5f738343c1a23ea2b035",
+      "bytes": 5125
+    },
+    {
+      "path": "reference/search-3.md",
+      "sha256": "sha256:88a17bae30d943ebc6c6fd1ae8a16dc90b316d5b01dff742e624d662fc35747b",
+      "bytes": 1549
+    },
+    {
+      "path": "reference/search-api-overview.md",
+      "sha256": "sha256:8c14d5e9611ea46b93692937ef4788d322426afd72a709dde869a16f6a73c188",
+      "bytes": 10197
+    },
+    {
+      "path": "reference/search-basics.md",
+      "sha256": "sha256:c7e48280840e39725c4259e34bcd86727b4fc4984d0565c532280f7578694979",
+      "bytes": 11664
+    },
+    {
+      "path": "reference/search-memories.md",
+      "sha256": "sha256:2fd8a779c7659b3a8348574aa5d1c73a411a3af8e2f6895d0cd37f81b94d565b",
+      "bytes": 725
+    },
+    {
+      "path": "reference/search.md",
+      "sha256": "sha256:ea0e832a645658a3fc4017792c9cc2c056a25f679fb2c1e13d12abb6fc59f6d7",
+      "bytes": 3903
+    },
+    {
+      "path": "reference/sentence-transformer.md",
+      "sha256": "sha256:c4922db80a961fc41a8818d456b49ad8ecfa37db4af74fc63660b0567ad396dc",
+      "bytes": 2250
+    },
+    {
+      "path": "reference/set-your-openai-api-key.md",
+      "sha256": "sha256:c89569614690d21e9c4bda76ae10ec2c22da27e6fc232436e6e146c1ce9b79c9",
+      "bytes": 78
+    },
+    {
+      "path": "reference/single-node-performance.md",
+      "sha256": "sha256:f38f75db6bc7a712b404197c375bee9a19ccc05821e5f3f68baf31e01a0db78d",
+      "bytes": 9512
+    },
+    {
+      "path": "reference/source-types.md",
+      "sha256": "sha256:0b268987cb4805f012d07275144953862c906ec9897ddbe98a4cb601fd4957b1",
+      "bytes": 653
+    },
+    {
+      "path": "reference/sparse-vector-search-setup.md",
+      "sha256": "sha256:a11f7e31ea65c27c1d0ed33cc1489d2235a0bc5e764fcf08f0d29222080d2a35",
+      "bytes": 8762
+    },
+    {
+      "path": "reference/streamlit.md",
+      "sha256": "sha256:9a91114ae07dbf60865673bdcadc47c20a27ddbf6ceab0c38cdda1b274feff04",
+      "bytes": 3276
+    },
+    {
+      "path": "reference/superlinked.md",
+      "sha256": "sha256:b7aa1ce551827b5b1b963b5674254eeac425878f6b32c226599391174438cd7a",
+      "bytes": 3899
+    },
+    {
+      "path": "reference/swift.md",
+      "sha256": "sha256:8dd03868e5e5d60e4961e73055bd15e9e234a07b0b305891a64d3bf41a241adb",
+      "bytes": 158
+    },
+    {
+      "path": "reference/text2vec.md",
+      "sha256": "sha256:0d13c42c0b3b5da2d8e461f5690d3b1435cf3abecf657c0f49b06205e440d46f",
+      "bytes": 1009
+    },
+    {
+      "path": "reference/together-ai.md",
+      "sha256": "sha256:414bf4a6f823a4bf56deebd782d640a8bfa52f3bcfa8faf567ac75338f310002",
+      "bytes": 1606
+    },
+    {
+      "path": "reference/troubleshooting.md",
+      "sha256": "sha256:9efb07a03c8d1be456f4ac4c95d4e7820892038ac1e33b5c5c745e77aa482606",
+      "bytes": 4539
+    },
+    {
+      "path": "reference/update-data.md",
+      "sha256": "sha256:5a5211b59c2009a2f3867e4832e36693e1573a98ead22a70d1587494faa72f50",
+      "bytes": 3250
+    },
+    {
+      "path": "reference/update.md",
+      "sha256": "sha256:0eb57a9fcf752bed8479cd2ee4e9b0b320300106d418fcbebdbbfdd4761d7832",
+      "bytes": 416
+    },
+    {
+      "path": "reference/upload-and-index-a-file.md",
+      "sha256": "sha256:e934572124cc2cc35896f98fc78027e1b12e2c2b2bb092635aeb746c6b0cbf89",
+      "bytes": 750
+    },
+    {
+      "path": "reference/upload-document.md",
+      "sha256": "sha256:4ca6e4143bc01ab69bcd0ae0a8e7145fe7a9cf03853f9994c3945704c5008502",
+      "bytes": 70
+    },
+    {
+      "path": "reference/upload-metadata-file-to-trigger-indexing.md",
+      "sha256": "sha256:0ea68f995ce6191aaa2c66a16a54042258b65a3e5478e1619e641bb25719e91d",
+      "bytes": 877
+    },
+    {
+      "path": "reference/vacuum.md",
+      "sha256": "sha256:090febd95671ef751d149ae20bcb2c4a23d7746b1190d5902745f7a1b45451e6",
+      "bytes": 806
+    },
+    {
+      "path": "reference/voltagent.md",
+      "sha256": "sha256:f0772ef0ef73496b909a7698211e66f2e4091a842ef739c865fa2847b1d04f4b",
+      "bytes": 1727
+    },
+    {
+      "path": "reference/voyageai.md",
+      "sha256": "sha256:befd94d40e84e17fa6fcf20431f4bbb4fef00fee653bf06cd90450b989d81ab1",
+      "bytes": 2802
+    },
+    {
+      "path": "reference/walkthrough.md",
+      "sha256": "sha256:b46f9f5359a905c7559796d52eed33e301c2d481a105c8d350839189c22acc8d",
+      "bytes": 893
+    },
+    {
+      "path": "reference/web-sync.md",
+      "sha256": "sha256:b31933e9f782b816b020fda6599b6e94ae08a6107e415ad16144dc54b9cd47bb",
+      "bytes": 424
+    },
+    {
+      "path": "reference/where-filters-2.md",
+      "sha256": "sha256:a0f17f26a36d80937a6dc483dba925f10961e6c69894b63670f812838e15b89e",
+      "bytes": 2931
+    },
+    {
+      "path": "reference/where-filters-3.md",
+      "sha256": "sha256:aed6c4d4ed9bf477a3da8e264b49eb8d11089299773cbf4fb44c2a067cb2fd2e",
+      "bytes": 6744
+    },
+    {
+      "path": "reference/where-filters.md",
+      "sha256": "sha256:2845842eacbef24e1c6a5ccac1a68ba51036146713acc3bcd03f235a294a81f4",
+      "bytes": 2603
+    },
+    {
+      "path": "reference/write-the-images-to-a-folder.md",
+      "sha256": "sha256:e6f463120b2d8bf12d45c9c421619f25699bef60312bde15ed0908a3b0a141c1",
+      "bytes": 959
+    }
+  ],
+  "stats": {
+    "file_count": 184,
+    "source_count": 1
+  },
+  "scrape_profile": {
+    "url": "https://docs.trychroma.com/",
+    "root": "https://docs.trychroma.com",
+    "strategy": "llms",
+    "signal": "llms-full.txt",
+    "scope": "https://docs.trychroma.com"
+  }
+}

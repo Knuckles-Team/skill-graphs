@@ -1,0 +1,1 @@
+# TYPE temporal_cloud_v1_service_error_count gauge

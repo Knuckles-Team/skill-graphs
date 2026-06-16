@@ -1,244 +1,104 @@
-[Skip to main content](https://docs.postiz.com/public-api/providers/facebook#content-area)
-[Postiz Documentation home page![light logo](https://mintcdn.com/postiz/SZ3zBABjhg7UQcI8/logo/light.png?fit=max&auto=format&n=SZ3zBABjhg7UQcI8&q=85&s=ab950a1a5aa687eb0de8156022f7c7c9)![dark logo](https://mintcdn.com/postiz/SZ3zBABjhg7UQcI8/logo/dark.png?fit=max&auto=format&n=SZ3zBABjhg7UQcI8&q=85&s=4134d88b8fc8339a26775f8e48e95f7e)](https://docs.postiz.com/)
-Search...
-Ctrl K
-  * [Discord](https://discord.postiz.com)
+# Facebook
+Source: https://docs.postiz.com/providers/facebook
 
+How to add Facebook to your system
 
-##### Overview
-  * [API Overview](https://docs.postiz.com/public-api/introduction)
+<Snippet />
 
+<Warning>
+  **NOTE:** Please be advised that Instagram and Facebook can use the same app (no need to create two separate apps)
+</Warning>
 
-##### Integrations
-  * [GET List Integrations](https://docs.postiz.com/public-api/integrations/list)
-  * [GET Connect Channel (OAuth)](https://docs.postiz.com/public-api/integrations/connect)
-  * [DEL Delete Channel](https://docs.postiz.com/public-api/integrations/delete)
-  * [GET Check Connection](https://docs.postiz.com/public-api/integrations/is-connected)
-  * [GET Find Available Slot](https://docs.postiz.com/public-api/integrations/find-slot)
+<Steps>
+  <Step title="Create a new app">
+    Select a business portfolio, then create a [new app in Facebook developers](https://developers.facebook.com/apps/creation/).
 
+    Please be advised that for public applications, you will need to verify your business.
 
-##### Posts
-  * [GET List Posts](https://docs.postiz.com/public-api/posts/list)
-  * [POST Create Post](https://docs.postiz.com/public-api/posts/create)
-  * [DEL Delete Post](https://docs.postiz.com/public-api/posts/delete)
-  * [DEL Delete Post by Group](https://docs.postiz.com/public-api/posts/delete-by-group)
-  * [GET Get Missing Content](https://docs.postiz.com/public-api/posts/missing-content)
-  * [PUT Update Release ID](https://docs.postiz.com/public-api/posts/update-release-id)
+    <img alt="Business Portfolio" />
 
+    <img alt="Create app" />
+  </Step>
 
-##### Analytics
-  * [GET Platform Analytics](https://docs.postiz.com/public-api/analytics/platform)
-  * [GET Post Analytics](https://docs.postiz.com/public-api/analytics/post)
+  <Step title="Select app type">
+    Select "Other" and click next
 
+    <img alt="Other app use cases" />
+  </Step>
 
-##### Notifications
-  * [GET List Notifications](https://docs.postiz.com/public-api/notifications/list)
+  <Step title="Select business">
+    Then select business
 
+    ![Business](https://github.com/user-attachments/assets/74bde861-5441-46bb-b5b8-c5229e980237)
+  </Step>
 
-##### Uploads
-  * [POST Upload File](https://docs.postiz.com/public-api/uploads/upload-file)
-  * [POST Upload from URL](https://docs.postiz.com/public-api/uploads/upload-from-url)
+  <Step title="Add details and create app">
+    Add all your details and click Create App
 
+    ![Create app details](https://github.com/user-attachments/assets/f0c03825-0f9b-4467-94a4-ab8cf6ed7e1d)
+  </Step>
 
-##### Video Generation
-  * [POST Generate Video](https://docs.postiz.com/public-api/video/generate)
-  * [POST Video Function](https://docs.postiz.com/public-api/video/function)
+  <Step title="Set up Login with Facebook">
+    ![Setup Login with Facebook](https://github.com/user-attachments/assets/08d3c1d1-d498-49d1-adac-aa6248e7c10c)
 
+    Set up login for business
+  </Step>
 
-##### Provider Settings (25 with custom settings)
-  * [X (Twitter) Settings](https://docs.postiz.com/public-api/providers/x)
-  * [LinkedIn Settings](https://docs.postiz.com/public-api/providers/linkedin)
-  * [Facebook Settings](https://docs.postiz.com/public-api/providers/facebook)
-  * [Instagram Settings](https://docs.postiz.com/public-api/providers/instagram)
-  * [Warpcast (Farcaster) Settings](https://docs.postiz.com/public-api/providers/warpcast)
-  * [YouTube Settings](https://docs.postiz.com/public-api/providers/youtube)
-  * [TikTok Settings](https://docs.postiz.com/public-api/providers/tiktok)
-  * [Reddit Settings](https://docs.postiz.com/public-api/providers/reddit)
-  * [Lemmy Settings](https://docs.postiz.com/public-api/providers/lemmy)
-  * [Pinterest Settings](https://docs.postiz.com/public-api/providers/pinterest)
-  * [Discord Settings](https://docs.postiz.com/public-api/providers/discord)
-  * [Slack Settings](https://docs.postiz.com/public-api/providers/slack)
-  * [Dribbble Settings](https://docs.postiz.com/public-api/providers/dribbble)
-  * [Medium Settings](https://docs.postiz.com/public-api/providers/medium)
-  * [Dev.to Settings](https://docs.postiz.com/public-api/providers/devto)
-  * [Hashnode Settings](https://docs.postiz.com/public-api/providers/hashnode)
-  * [WordPress Settings](https://docs.postiz.com/public-api/providers/wordpress)
-  * [Listmonk Settings](https://docs.postiz.com/public-api/providers/listmonk)
-  * [Google My Business Settings](https://docs.postiz.com/public-api/providers/gmb)
-  * [Whop Settings](https://docs.postiz.com/public-api/providers/whop)
-  * [School Settings](https://docs.postiz.com/public-api/providers/school)
-  * [Kick Settings](https://docs.postiz.com/public-api/providers/kick)
-  * [Twitch Settings](https://docs.postiz.com/public-api/providers/twitch)
-  * [Moltbook Settings](https://docs.postiz.com/public-api/providers/moltbook)
+  <Step title="Configure redirect URI">
+    Set up a redirect URI back to the application
 
+    ![step 6](https://github.com/user-attachments/assets/8bf1774b-b6fe-4ac6-aea5-97d8c8bbf5da)
 
-  * [Discord](https://discord.postiz.com)
-  * [Register to the cloud](https://postiz.com)
+    <Snippet />
 
+    **Your Facebook OAuth2 Redirect URI:**
 
-[Postiz Documentation home page![light logo](https://mintcdn.com/postiz/SZ3zBABjhg7UQcI8/logo/light.png?fit=max&auto=format&n=SZ3zBABjhg7UQcI8&q=85&s=ab950a1a5aa687eb0de8156022f7c7c9)![dark logo](https://mintcdn.com/postiz/SZ3zBABjhg7UQcI8/logo/dark.png?fit=max&auto=format&n=SZ3zBABjhg7UQcI8&q=85&s=4134d88b8fc8339a26775f8e48e95f7e)](https://docs.postiz.com/)
-Search...
-Ctrl K
-  * [](https://discord.postiz.com)
-  * [Register to the cloud](https://postiz.com)
-  * [Register to the cloud](https://postiz.com)
+    * Production: `https://your-postiz-domain.com/integrations/social/facebook`
+    * Local development: `http://localhost:4200/integrations/social/facebook`
+    * Docker: `http://localhost:5000/integrations/social/facebook`
+  </Step>
 
+  <Step title="Request advanced permissions">
+    ![step 7](https://github.com/user-attachments/assets/a81aa2a3-de66-4099-906b-b78c641d1a23)
 
-Search...
-Navigation
-Provider Settings (25 with custom settings)
-Facebook Settings
-[Documentation](https://docs.postiz.com/introduction)[Public API](https://docs.postiz.com/public-api/introduction)[CLI](https://docs.postiz.com/cli/introduction)[MCP](https://docs.postiz.com/mcp/introduction)[Developer App (oAuth2)](https://docs.postiz.com/public-api/oauth)[Contributing](https://docs.postiz.com/developer-guide)
-[Documentation](https://docs.postiz.com/introduction)[Public API](https://docs.postiz.com/public-api/introduction)[CLI](https://docs.postiz.com/cli/introduction)[MCP](https://docs.postiz.com/mcp/introduction)[Developer App (oAuth2)](https://docs.postiz.com/public-api/oauth)[Contributing](https://docs.postiz.com/developer-guide)
-Provider Settings (25 with custom settings)
-# Facebook Settings
-Copy page
-Provider settings for Facebook posts
-Copy page
-##
-[​](https://docs.postiz.com/public-api/providers/facebook#overview)
-Overview
-Facebook integration allows you to post to Facebook pages. You can optionally include a link URL in your posts.
-##
-[​](https://docs.postiz.com/public-api/providers/facebook#settings-schema)
-Settings Schema
-```
-{
-  "__type": "facebook",
-  "url": "https://example.com/my-article"
-}
+    Go to advanced permission and request access for the following scopes:
 
-```
+    * `pages_show_list`
+    * `business_management`
+    * `pages_manage_posts`
+    * `pages_manage_engagement`
+    * `pages_read_engagement`
+    * `read_insights`
 
-##
-[​](https://docs.postiz.com/public-api/providers/facebook#properties)
-Properties
-Property | Type | Required | Description
----|---|---|---
-`__type` | string | ✅ | Must be `"facebook"`
-`url` | string | ❌ | Optional link URL to include in the post
-##
-[​](https://docs.postiz.com/public-api/providers/facebook#examples)
-Examples
-###
-[​](https://docs.postiz.com/public-api/providers/facebook#simple-text-post)
-Simple text post
-```
-{
-  "type": "now",
-  "date": "2024-12-14T10:00:00.000Z",
-  "shortLink": false,
-  "tags": [],
-  "posts": [
-    {
-      "integration": {
-        "id": "your-facebook-integration-id"
-      },
-      "value": [
-        {
-          "content": "Check out our latest updates! 🎉",
-          "image": []
-        }
-      ],
-      "settings": {
-        "__type": "facebook"
-      }
-    }
-  ]
-}
+    <Note>
+      If your Postiz install is for personal use only these advanced permissions are not required for Postiz to function.
+    </Note>
+  </Step>
 
-```
+  <Step title="Set app mode to Live">
+    Change the App Mode from 'Development' to 'Live'. If you do not do this then posts made via the API will display for yourself but will not be visible for other users.
+  </Step>
 
-###
-[​](https://docs.postiz.com/public-api/providers/facebook#post-with-link)
-Post with link
-```
-{
-  "type": "schedule",
-  "date": "2024-12-14T10:00:00.000Z",
-  "shortLink": false,
-  "tags": [],
-  "posts": [
-    {
-      "integration": {
-        "id": "your-facebook-integration-id"
-      },
-      "value": [
-        {
-          "content": "We just published a new blog post about social media automation!",
-          "image": []
-        }
-      ],
-      "settings": {
-        "__type": "facebook",
-        "url": "https://example.com/blog/social-media-automation"
-      }
-    }
-  ]
-}
+  <Step title="Copy your credentials">
+    ![Keys](https://github.com/user-attachments/assets/ac11f87f-4951-47f8-8344-7fbc9de942e4)
 
-```
+    Go to basic permissions copy your App ID and App Secret and paste them in your `.env` file
 
-###
-[​](https://docs.postiz.com/public-api/providers/facebook#post-with-image)
-Post with image
-```
-{
-  "type": "schedule",
-  "date": "2024-12-14T10:00:00.000Z",
-  "shortLink": false,
-  "tags": [],
-  "posts": [
-    {
-      "integration": {
-        "id": "your-facebook-integration-id"
-      },
-      "value": [
-        {
-          "content": "Beautiful sunset from our office! 🌅",
-          "image": [
-            {
-              "id": "img-123",
-              "path": "https://uploads.postiz.com/sunset.jpg"
-            }
-          ]
-        }
-      ],
-      "settings": {
-        "__type": "facebook"
-      }
-    }
-  ]
-}
+    ```env theme={null}
+    FACEBOOK_APP_ID="app id"
+    FACEBOOK_APP_SECRET="app secret"
+    ```
 
-```
+    Facebook should now be working!
+  </Step>
+</Steps>
 
-##
-[​](https://docs.postiz.com/public-api/providers/facebook#notes)
-Notes
-  * The `url` field is optional and creates a link preview in the post
-  * If posting with images, Facebook will display them as attachments
-  * Video uploads are also supported
+## Troubleshooting
 
+### Image is missing from the published post
 
-Was this page helpful?
-YesNo
-[Previous](https://docs.postiz.com/public-api/providers/linkedin)[ Instagram SettingsAPI settings for posting to Instagram Next ](https://docs.postiz.com/public-api/providers/instagram)
-Ctrl+I
-[discord](https://discord.postiz.com)
-On this page
-  * [Overview](https://docs.postiz.com/public-api/providers/facebook#overview)
-  * [Settings Schema](https://docs.postiz.com/public-api/providers/facebook#settings-schema)
-  * [Properties](https://docs.postiz.com/public-api/providers/facebook#properties)
-  * [Examples](https://docs.postiz.com/public-api/providers/facebook#examples)
-  * [Simple text post](https://docs.postiz.com/public-api/providers/facebook#simple-text-post)
-  * [Post with link](https://docs.postiz.com/public-api/providers/facebook#post-with-link)
-  * [Post with image](https://docs.postiz.com/public-api/providers/facebook#post-with-image)
-  * [Notes](https://docs.postiz.com/public-api/providers/facebook#notes)
+Check the **App Mode** of your Facebook app. In **Development** mode, posts with media are only visible to app developers/testers — everyone else sees the post without the image. Switch the app to **Live** mode to make the image visible to all users.
 
+### Facebook posts work for you but not for other users
 
-![Logo](https://postiz.com/favicon.ico)
-Postiz
-Hi! Im the Postiz AI Chatbot, ask me any question you'd like, and I will answer it the best to my abilities!
-QUICK QUESTIONS
-Made by
+Same root cause as above — the app is in Development mode. Only roles you've explicitly added (developers, testers, admins) can see content published via the API. Set the app to Live.

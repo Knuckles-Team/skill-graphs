@@ -1,0 +1,141 @@
+# Whop Settings
+Source: https://docs.postiz.com/public-api/providers/whop
+
+API settings for posting to Whop forums
+
+## Settings Schema
+
+When creating a post for Whop, use the following settings schema:
+
+```json theme={null}
+{
+  "settings": {
+    "__type": "whop",
+    "company": "company-id",
+    "experience": "experience-id",
+    "title": "My Post Title"
+  }
+}
+```
+
+## Fields
+
+| Field        | Type     | Required | Description                       |
+| ------------ | -------- | -------- | --------------------------------- |
+| `__type`     | `string` | Yes      | Must be `whop`                    |
+| `company`    | `string` | Yes      | Whop company ID                   |
+| `experience` | `string` | Yes      | Forum experience ID               |
+| `title`      | `string` | No       | Optional title for the forum post |
+
+### `company`
+
+The Whop company ID to post under. You can find available companies by selecting them in the Postiz UI when configuring the Whop channel.
+
+### `experience`
+
+The forum experience ID where the post will be published. Each company can have multiple forums — select the target forum in the Postiz UI to obtain its ID.
+
+### `title`
+
+An optional title for the forum post. If omitted, the post will be created without a title.
+
+***
+
+## Complete Example
+
+### Forum Post
+
+```json theme={null}
+{
+  "type": "schedule",
+  "date": "2024-12-14T10:00:00.000Z",
+  "shortLink": false,
+  "tags": [],
+  "posts": [
+    {
+      "integration": {
+        "id": "your-whop-integration-id"
+      },
+      "value": [
+        {
+          "content": "# Weekly Update\n\nHere's what we shipped this week:\n\n- New dashboard redesign\n- Performance improvements\n- Bug fixes\n\nLet us know what you think!",
+          "image": []
+        }
+      ],
+      "settings": {
+        "__type": "whop",
+        "company": "biz_xxxxxxxxxxxx",
+        "experience": "exp_xxxxxxxxxxxx",
+        "title": "Weekly Update - Dec 14"
+      }
+    }
+  ]
+}
+```
+
+### Post with Attachment
+
+```json theme={null}
+{
+  "type": "schedule",
+  "date": "2024-12-14T10:00:00.000Z",
+  "shortLink": false,
+  "tags": [],
+  "posts": [
+    {
+      "integration": {
+        "id": "your-whop-integration-id"
+      },
+      "value": [
+        {
+          "content": "Check out our new feature preview! 👀",
+          "image": [
+            {
+              "id": "preview-image-id",
+              "path": "https://uploads.postiz.com/preview.png"
+            }
+          ]
+        }
+      ],
+      "settings": {
+        "__type": "whop",
+        "company": "biz_xxxxxxxxxxxx",
+        "experience": "exp_xxxxxxxxxxxx"
+      }
+    }
+  ]
+}
+```
+
+### Post Without Title
+
+```json theme={null}
+{
+  "type": "now",
+  "date": "2024-12-14T10:00:00.000Z",
+  "shortLink": false,
+  "tags": [],
+  "posts": [
+    {
+      "integration": {
+        "id": "your-whop-integration-id"
+      },
+      "value": [
+        {
+          "content": "Quick update: we just fixed the checkout issue. Thanks for your patience!",
+          "image": []
+        }
+      ],
+      "settings": {
+        "__type": "whop",
+        "company": "biz_xxxxxxxxxxxx",
+        "experience": "exp_xxxxxxxxxxxx"
+      }
+    }
+  ]
+}
+```
+
+<Info>
+  Whop forums support **Markdown** formatting in post content. You can use headings, bold, italic, lists, links, and more.
+</Info>

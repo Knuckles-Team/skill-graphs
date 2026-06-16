@@ -1,0 +1,115 @@
+# Providers Overview
+Source: https://docs.postiz.com/providers/overview
+
+Configure social media providers for Postiz
+
+You can see all the providers that Postiz supports documented in the sidebar, under "**Providers**".
+
+Please note that no providers are configured by default. You will need to configure them all in your `.env` file, or as environment variables. You will need to restart Postiz whenever you change environment variables. If you are using docker compose, you must run `docker compose down` and then `docker compose up` to rebuild the containers with the updated variables.
+
+<Snippet />
+
+## Available Providers
+
+<CardGroup>
+  <Card title="X (Twitter)" icon="x-twitter" href="/providers/x-twitter">
+    Post to X/Twitter
+  </Card>
+
+  <Card title="LinkedIn" icon="linkedin" href="/providers/linkedin">
+    Post to LinkedIn profiles
+  </Card>
+
+  <Card title="LinkedIn Page" icon="linkedin" href="/providers/linkedin-page">
+    Post to LinkedIn pages
+  </Card>
+
+  <Card title="Facebook" icon="facebook" href="/providers/facebook">
+    Post to Facebook pages
+  </Card>
+
+  <Card title="Instagram" icon="instagram" href="/providers/instagram">
+    Post to Instagram
+  </Card>
+
+  <Card title="Threads" icon="threads" href="/providers/threads">
+    Post to Threads
+  </Card>
+
+  <Card title="Bluesky" icon="cloud" href="/providers/bluesky">
+    Post to Bluesky
+  </Card>
+
+  <Card title="Mastodon" icon="mastodon" href="/providers/mastodon">
+    Post to Mastodon
+  </Card>
+
+  <Card title="YouTube" icon="youtube" href="/providers/youtube">
+    Post to YouTube
+  </Card>
+
+  <Card title="Google My Business" icon="google" href="/providers/google-my-business">
+    Post to Google Business Profile
+  </Card>
+
+  <Card title="TikTok" icon="tiktok" href="/providers/tiktok">
+    Post to TikTok
+  </Card>
+
+  <Card title="Reddit" icon="reddit" href="/providers/reddit">
+    Post to Reddit
+  </Card>
+
+  <Card title="Pinterest" icon="pinterest" href="/providers/pinterest">
+    Post to Pinterest
+  </Card>
+
+  <Card title="Discord" icon="discord" href="/providers/discord">
+    Post to Discord
+  </Card>
+
+  <Card title="Slack" icon="slack" href="/providers/slack">
+    Post to Slack
+  </Card>
+
+  <Card title="Telegram" icon="telegram" href="/providers/telegram">
+    Post to Telegram
+  </Card>
+
+  <Card title="Dribbble" icon="dribbble" href="/providers/dribbble">
+    Post to Dribbble
+  </Card>
+
+  <Card title="Skool" icon="graduation-cap" href="/providers/skool">
+    Post to Skool communities
+  </Card>
+
+  <Card title="Whop" icon="store" href="/providers/whop">
+    Post to Whop forums
+  </Card>
+
+  <Card title="MeWe" icon="users" href="/providers/mewe">
+    Post to MeWe
+  </Card>
+
+  <Card title="Farcaster" icon="hashtag" href="/providers/farcaster">
+    Post to Farcaster / Warpcast
+  </Card>
+</CardGroup>
+
+## Providers available via Public API only
+
+These platforms are fully supported for scheduling and publishing through the [Public API](/public-api/introduction), but don't currently have an in-app channel-connect UI page. You can still configure their env-var keys (see [Configuration Reference](/configuration/reference)) and use them via the API.
+
+| Platform  | Public API page                                                    |
+| --------- | ------------------------------------------------------------------ |
+| Twitch    | [/public-api/providers/twitch](/public-api/providers/twitch)       |
+| Kick      | [/public-api/providers/kick](/public-api/providers/kick)           |
+| VK        | [/public-api/providers/vk](/public-api/providers/vk)               |
+| Nostr     | [/public-api/providers/nostr](/public-api/providers/nostr)         |
+| Lemmy     | [/public-api/providers/lemmy](/public-api/providers/lemmy)         |
+| Medium    | [/public-api/providers/medium](/public-api/providers/medium)       |
+| Dev.to    | [/public-api/providers/devto](/public-api/providers/devto)         |
+| Hashnode  | [/public-api/providers/hashnode](/public-api/providers/hashnode)   |
+| WordPress | [/public-api/providers/wordpress](/public-api/providers/wordpress) |
+| Listmonk  | [/public-api/providers/listmonk](/public-api/providers/listmonk)   |

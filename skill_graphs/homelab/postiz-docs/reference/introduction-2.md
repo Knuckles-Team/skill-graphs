@@ -1,0 +1,34 @@
+# Introduction
+Source: https://docs.postiz.com/introduction
+
+Welcome to Postiz documentation
+
+<Note>
+  Create AI-powered UGC videos for your social media with [Agent Media](https://agent-media.ai) — generate engaging video content and schedule it directly with Postiz. Perfect for OpenClaw 🦞
+</Note>
+
+<Note>
+  YouTube Channel: [https://youtube.com/@postizofficial](https://youtube.com/@postizofficial)
+</Note>
+
+<Warning>
+  Looking to integrate with Postiz programmatically? Check out the [Public API documentation](/public-api/introduction).
+</Warning>
+
+## What is Postiz?
+
+Postiz helps you to manage all your social media accounts.
+
+* Schedule social media and articles
+* Generate posts with AI
+* Exchange or buy posts from other members on the marketplace
+
+<CardGroup>
+  <Card title="Quickstart" icon="rocket" href="/quickstart">
+    Learn how to install the project and start using it
+  </Card>
+
+  <Card title="Architecture" icon="diagram-project" href="/howitworks">
+    Learn the architecture of the project
+  </Card>
+</CardGroup>

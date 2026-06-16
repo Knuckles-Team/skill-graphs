@@ -1,0 +1,92 @@
+# Telegram Settings
+Source: https://docs.postiz.com/public-api/providers/telegram
+
+API settings for posting to Telegram
+
+## Settings Schema
+
+When creating a post for Telegram, use the following settings schema:
+
+```json theme={null}
+{
+  "settings": {
+    "__type": "telegram"
+  }
+}
+```
+
+<Note>
+  Telegram has no provider-specific settings beyond `__type`. The destination
+  chat or channel is determined by the connected integration, not the
+  settings block. Post content, images, and the schedule are configured at
+  the post level - see the [Create Post](/public-api/posts/create) reference.
+</Note>
+
+## Fields
+
+| Field    | Type     | Required | Description        |
+| -------- | -------- | -------- | ------------------ |
+| `__type` | `string` | Yes      | Must be `telegram` |
+
+***
+
+## Complete Example
+
+### Text Post
+
+```json theme={null}
+{
+  "type": "schedule",
+  "date": "2024-12-14T10:00:00.000Z",
+  "shortLink": false,
+  "tags": [],
+  "posts": [
+    {
+      "integration": {
+        "id": "your-telegram-integration-id"
+      },
+      "value": [
+        {
+          "content": "Hello from the Postiz API!",
+          "image": []
+        }
+      ],
+      "settings": {
+        "__type": "telegram"
+      }
+    }
+  ]
+}
+```
+
+### Post with Image
+
+```json theme={null}
+{
+  "type": "now",
+  "date": "2024-12-14T10:00:00.000Z",
+  "shortLink": false,
+  "tags": [],
+  "posts": [
+    {
+      "integration": {
+        "id": "your-telegram-integration-id"
+      },
+      "value": [
+        {
+          "content": "Sharing today's launch screenshot",
+          "image": [
+            {
+              "id": "image-id",
+              "path": "https://uploads.postiz.com/launch.png"
+            }
+          ]
+        }
+      ],
+      "settings": {
+        "__type": "telegram"
+      }
+    }
+  ]
+}
+```

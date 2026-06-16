@@ -1,0 +1,71 @@
+# Support
+Source: https://docs.postiz.com/support
+
+Get help with Postiz
+
+Sometimes, things can go wrong, or you need some help!
+
+Note that the Self Hosted version of Postiz is supported by the community in their
+free time, on a best-efforts basis. Please post your question and be patient.
+
+<CardGroup>
+  <Card title="Discord" icon="discord" href="https://discord.com/invite/sf7QjTcX37">
+    Flexible chat, with screenshots and screen sharing, probably the best option for support.
+  </Card>
+
+  <Card title="GitHub Issues" icon="github" href="https://github.com/gitroomhq/postiz-app/issues/new/choose">
+    Backup option if you are unable to use Discord.
+  </Card>
+</CardGroup>
+
+## Postiz Cloud — billing & refunds
+
+For questions specific to a paid Postiz Cloud subscription (refunds,
+invoice changes, plan downgrades, account closure):
+
+* **Discord** is still the fastest route — use the `#support` channel and a
+  team member will reach out. Don't share API keys, OAuth secrets, or
+  payment details in public channels.
+* **GitHub Issues** are for bugs in the open-source app, not for billing.
+* For anything that needs to be handled privately (refunds, account
+  data, GDPR requests), see the contact section on [postiz.com](https://postiz.com).
+
+Before opening a billing ticket, check the [troubleshooting pages](/troubleshooting/billing)
+— many "I was charged but X" issues turn out to be a Stripe.js script
+blocker or a private-window localStorage issue.
+
+## How to effectively ask for support
+
+Try to follow this guide when asking for support, in this order; **Goal, Environment, Changes, Results**.
+
+### Goal
+
+Start off by explaining what you were trying to do:
+
+* *I want to schedule a post on Reddit at 6pm*
+* *I want to run in a Linux container on a Raspberry Pi*
+* *I want to use a custom domain name*
+
+### Environment
+
+Share the relevant parts about your environment. Web App issues; Are you using Firefox, Chrome, etc? Installation/Other issues; a Mac, Linux, Windows, how did you install?
+
+* *I'm using Firefox on Windows 10*
+* *I'm using a Raspberry Pi 4 with Ubuntu 20.04, and Node version 18*
+* *This is a new installation on a Mac*
+
+### Changes
+
+Most likely something has changed, what is it?
+
+* *I updated my browser to the latest version and now ...*
+* *I found a change in the latest version and now ...*
+* *I think this used to work, but now\...*
+
+### Results
+
+What happened? What did you expect to happen?
+
+* *I see a blank screen*
+* *I see an error message*
+* *I see a 404 page*

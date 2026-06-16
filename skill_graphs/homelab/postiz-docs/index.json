@@ -1,0 +1,2088 @@
+{
+  "schema": "skill-graph-index/v1",
+  "name": "postiz-docs",
+  "skill_graph_version": "1.0.0",
+  "kg_ingested": false,
+  "kg_domain": "skillgraph:postiz-docs",
+  "concepts": [],
+  "source_url": "https://docs.postiz.com",
+  "file_count": 171,
+  "groups": {
+    ".": 171
+  },
+  "sections": [
+    {
+      "path": "reference/1.-find-posts-with-missing-release-ids.md",
+      "title": "1. Find posts with missing release IDs",
+      "group": ".",
+      "bytes": 125,
+      "headings": [
+        "1. Find posts with missing release IDs"
+      ]
+    },
+    {
+      "path": "reference/1.-find-the-integration-id.md",
+      "title": "1. Find the integration ID",
+      "group": ".",
+      "bytes": 124,
+      "headings": [
+        "1. Find the integration ID"
+      ]
+    },
+    {
+      "path": "reference/1.-get-available-flairs.md",
+      "title": "1. Get available flairs",
+      "group": ".",
+      "bytes": 107,
+      "headings": [
+        "1. Get available flairs"
+      ]
+    },
+    {
+      "path": "reference/1.-list-your-connected-social-media-accounts.md",
+      "title": "1. List your connected social media accounts",
+      "group": ".",
+      "bytes": 72,
+      "headings": [
+        "1. List your connected social media accounts"
+      ]
+    },
+    {
+      "path": "reference/1.-upload-the-file.md",
+      "title": "1. Upload the file",
+      "group": ".",
+      "bytes": 98,
+      "headings": [
+        "1. Upload the file"
+      ]
+    },
+    {
+      "path": "reference/2.-check-what-settings-and-tools-are-available.md",
+      "title": "2. Check what settings and tools are available",
+      "group": ".",
+      "bytes": 96,
+      "headings": [
+        "2. Check what settings and tools are available"
+      ]
+    },
+    {
+      "path": "reference/2.-create-a-scheduled-post.md",
+      "title": "2. Create a scheduled post",
+      "group": ".",
+      "bytes": 144,
+      "headings": [
+        "2. Create a scheduled post"
+      ]
+    },
+    {
+      "path": "reference/2.-get-available-content-from-the-provider.md",
+      "title": "2. Get available content from the provider",
+      "group": ".",
+      "bytes": 76,
+      "headings": [
+        "2. Get available content from the provider"
+      ]
+    },
+    {
+      "path": "reference/2.-post-with-a-flair.md",
+      "title": "2. Post with a flair",
+      "group": ".",
+      "bytes": 860,
+      "headings": [
+        "2. Post with a flair",
+        "Scripted Workflow",
+        "YouTube"
+      ]
+    },
+    {
+      "path": "reference/2.-use-the-url-in-a-post.md",
+      "title": "2. Use the URL in a post",
+      "group": ".",
+      "bytes": 619,
+      "headings": [
+        "2. Use the URL in a post",
+        "Supported File Types",
+        "Video Upload Example"
+      ]
+    },
+    {
+      "path": "reference/3.-connect-the-correct-content.md",
+      "title": "3. Connect the correct content",
+      "group": ".",
+      "bytes": 99,
+      "headings": [
+        "3. Connect the correct content"
+      ]
+    },
+    {
+      "path": "reference/3.-list-your-scheduled-posts.md",
+      "title": "3. List your scheduled posts",
+      "group": ".",
+      "bytes": 1816,
+      "headings": [
+        "3. List your scheduled posts",
+        "Commands Overview"
+      ]
+    },
+    {
+      "path": "reference/3.-use-tools-to-fetch-dynamic-data-e.g.-flairs.md",
+      "title": "3. Use tools to fetch dynamic data (e.g., flairs)",
+      "group": ".",
+      "bytes": 141,
+      "headings": [
+        "3. Use tools to fetch dynamic data (e.g., flairs)"
+      ]
+    },
+    {
+      "path": "reference/4.-create-a-post-with-the-discovered-settings.md",
+      "title": "4. Create a post with the discovered settings",
+      "group": ".",
+      "bytes": 250,
+      "headings": [
+        "4. Create a post with the discovered settings"
+      ]
+    },
+    {
+      "path": "reference/4.-verify-analytics-now-work.md",
+      "title": "4. Verify analytics now work",
+      "group": ".",
+      "bytes": 764,
+      "headings": [
+        "4. Verify analytics now work",
+        "Changing Post Status",
+        "Deleting Posts"
+      ]
+    },
+    {
+      "path": "reference/activation-login.md",
+      "title": "Activation & Login",
+      "group": ".",
+      "bytes": 2075,
+      "headings": [
+        "Activation & Login",
+        "Activation link doesn't work",
+        "Login API returns 404 or 204",
+        "Self-host: everyone is logged out after a restart",
+        "Self-host: \"Origin not allowed\" on launches"
+      ]
+    },
+    {
+      "path": "reference/analytics.md",
+      "title": "Analytics",
+      "group": ".",
+      "bytes": 564,
+      "headings": [
+        "Analytics",
+        "Platform Analytics",
+        "Options",
+        "Examples"
+      ]
+    },
+    {
+      "path": "reference/api-overview.md",
+      "title": "API Overview",
+      "group": ".",
+      "bytes": 10983,
+      "headings": [
+        "API Overview",
+        "SDKs & Integrations",
+        "Authentication",
+        "API Key",
+        "OAuth2 Token",
+        "Base URL",
+        "Rate Limits",
+        "Errors",
+        "Terminology",
+        "Generate Output",
+        "Supported Platforms (32 total)",
+        "Platforms with custom settings (25)"
+      ]
+    },
+    {
+      "path": "reference/authentication.md",
+      "title": "Authentication",
+      "group": ".",
+      "bytes": 466,
+      "headings": [
+        "Authentication",
+        "OAuth2 (Recommended)",
+        "Auth Commands"
+      ]
+    },
+    {
+      "path": "reference/billing-cloud.md",
+      "title": "Billing (Cloud)",
+      "group": ".",
+      "bytes": 1467,
+      "headings": [
+        "Billing (Cloud)",
+        "\"Failed to load Stripe.js\"",
+        "Billing page is blank or throws errors",
+        "Discount code doesn't apply",
+        "Refunds & contact"
+      ]
+    },
+    {
+      "path": "reference/bluesky-settings.md",
+      "title": "Bluesky Settings",
+      "group": ".",
+      "bytes": 2364,
+      "headings": [
+        "Bluesky Settings",
+        "Settings Schema",
+        "Fields",
+        "Complete Example",
+        "Text Post",
+        "Thread Post",
+        "Post with Image"
+      ]
+    },
+    {
+      "path": "reference/bluesky.md",
+      "title": "Bluesky",
+      "group": ".",
+      "bytes": 449,
+      "headings": [
+        "Bluesky"
+      ]
+    },
+    {
+      "path": "reference/caddy.md",
+      "title": "Caddy",
+      "group": ".",
+      "bytes": 1250,
+      "headings": [
+        "Caddy",
+        "Example Caddyfile",
+        "Postiz configuration"
+      ]
+    },
+    {
+      "path": "reference/change-post-status.md",
+      "title": "Change Post Status",
+      "group": ".",
+      "bytes": 512,
+      "headings": [
+        "Change Post Status"
+      ]
+    },
+    {
+      "path": "reference/channel-limits-cloud.md",
+      "title": "Channel Limits (Cloud)",
+      "group": ".",
+      "bytes": 1113,
+      "headings": [
+        "Channel Limits (Cloud)",
+        "How to free a slot",
+        "How to raise the cap",
+        "Self-host"
+      ]
+    },
+    {
+      "path": "reference/check-connection.md",
+      "title": "Check Connection",
+      "group": ".",
+      "bytes": 154,
+      "headings": [
+        "Check Connection"
+      ]
+    },
+    {
+      "path": "reference/check-current-auth-status-verifies-credentials-are-still-valid.md",
+      "title": "Check current auth status (verifies credentials are still valid)",
+      "group": ".",
+      "bytes": 86,
+      "headings": [
+        "Check current auth status (verifies credentials are still valid)"
+      ]
+    },
+    {
+      "path": "reference/check-current-auth-status.md",
+      "title": "Check current auth status",
+      "group": ".",
+      "bytes": 47,
+      "headings": [
+        "Check current auth status"
+      ]
+    },
+    {
+      "path": "reference/chrome-extension.md",
+      "title": "Chrome Extension",
+      "group": ".",
+      "bytes": 3445,
+      "headings": [
+        "Chrome Extension",
+        "How It Works",
+        "Installation",
+        "Supported Platforms",
+        "Self-Hosted Considerations",
+        "Troubleshooting"
+      ]
+    },
+    {
+      "path": "reference/client-setup.md",
+      "title": "Client Setup",
+      "group": ".",
+      "bytes": 2368,
+      "headings": [
+        "Client Setup",
+        "Claude Desktop",
+        "Claude Code",
+        "Cursor",
+        "Other MCP Clients",
+        "Self-Hosted",
+        "Verify Connection"
+      ]
+    },
+    {
+      "path": "reference/configuration-reference.md",
+      "title": "Configuration Reference",
+      "group": ".",
+      "bytes": 22659,
+      "headings": [
+        "Configuration Reference",
+        "Required core",
+        "`DATABASE_URL` <sup>Required</sup>",
+        "`REDIS_URL` <sup>Required</sup>",
+        "`JWT_SECRET` <sup>Required</sup>",
+        "`FRONTEND_URL` <sup>Required</sup>",
+        "`NEXT_PUBLIC_BACKEND_URL` <sup>Required</sup>",
+        "`BACKEND_INTERNAL_URL` <sup>Required</sup>",
+        "Application behaviour",
+        "`DISABLE_REGISTRATION`",
+        "`API_LIMIT`",
+        "`RUN_CRON`"
+      ]
+    },
+    {
+      "path": "reference/connect-channel-oauth.md",
+      "title": "Connect Channel (OAuth)",
+      "group": ".",
+      "bytes": 370,
+      "headings": [
+        "Connect Channel (OAuth)"
+      ]
+    },
+    {
+      "path": "reference/create-post.md",
+      "title": "Create Post",
+      "group": ".",
+      "bytes": 6846,
+      "headings": [
+        "Create Post",
+        "Post type: `now`, `schedule`, or `draft`",
+        "Duplicating a post",
+        "Provider-Specific Settings",
+        "All 27 Supported Platforms",
+        "Platforms Without Custom Settings",
+        "Detailed Provider Settings"
+      ]
+    },
+    {
+      "path": "reference/delete-channel.md",
+      "title": "Delete Channel",
+      "group": ".",
+      "bytes": 228,
+      "headings": [
+        "Delete Channel"
+      ]
+    },
+    {
+      "path": "reference/delete-post-by-group.md",
+      "title": "Delete Post by Group",
+      "group": ".",
+      "bytes": 170,
+      "headings": [
+        "Delete Post by Group"
+      ]
+    },
+    {
+      "path": "reference/delete-post.md",
+      "title": "Delete Post",
+      "group": ".",
+      "bytes": 185,
+      "headings": [
+        "Delete Post"
+      ]
+    },
+    {
+      "path": "reference/dev-container.md",
+      "title": "Dev Container",
+      "group": ".",
+      "bytes": 212,
+      "headings": [
+        "Dev Container"
+      ]
+    },
+    {
+      "path": "reference/dev.to-settings.md",
+      "title": "Dev.to Settings",
+      "group": ".",
+      "bytes": 2582,
+      "headings": [
+        "Dev.to Settings",
+        "Overview",
+        "Settings Schema",
+        "Properties",
+        "Example",
+        "Notes"
+      ]
+    },
+    {
+      "path": "reference/developer-guide.md",
+      "title": "Developer Guide",
+      "group": ".",
+      "bytes": 2283,
+      "headings": [
+        "Developer Guide",
+        "Understand how to develop with Postiz",
+        "How to setup your development environment",
+        "Architecture Overview",
+        "Repository Overview",
+        "Frontend",
+        "Backend",
+        "Cron",
+        "Worker",
+        "Contributors Guide"
+      ]
+    },
+    {
+      "path": "reference/development-environment.md",
+      "title": "Development Environment",
+      "group": ".",
+      "bytes": 6894,
+      "headings": [
+        "Development Environment",
+        "Tested configurations",
+        "Warning about Windows",
+        "Prerequisite Local Services",
+        "Installation Instructions",
+        "NodeJS (version 18+)",
+        "PostgreSQL (or any other SQL database) & Redis",
+        "Build Postiz",
+        "Next Steps"
+      ]
+    },
+    {
+      "path": "reference/development.md",
+      "title": "Development",
+      "group": ".",
+      "bytes": 23,
+      "headings": [
+        "Development"
+      ]
+    },
+    {
+      "path": "reference/discord-settings.md",
+      "title": "Discord Settings",
+      "group": ".",
+      "bytes": 3050,
+      "headings": [
+        "Discord Settings",
+        "Settings Schema",
+        "Fields",
+        "`channel`",
+        "Complete Example",
+        "Text Message",
+        "Message with Image",
+        "Announcement with Formatting"
+      ]
+    },
+    {
+      "path": "reference/discord.md",
+      "title": "Discord",
+      "group": ".",
+      "bytes": 2354,
+      "headings": [
+        "Discord"
+      ]
+    },
+    {
+      "path": "reference/docker-compose-configuration.md",
+      "title": "Docker Compose Configuration",
+      "group": ".",
+      "bytes": 1427,
+      "headings": [
+        "Docker Compose Configuration",
+        "Option 1: Direct in docker-compose.yml",
+        "Option 2: Using a .env file",
+        "Option 3: Combine both"
+      ]
+    },
+    {
+      "path": "reference/docker-compose.md",
+      "title": "Docker Compose",
+      "group": ".",
+      "bytes": 3447,
+      "headings": [
+        "Docker Compose",
+        "Docker Compose",
+        "Configuration uses environment variables",
+        "Installation",
+        "The `docker-compose.yaml` file",
+        "How to use docker compose",
+        "Next Steps"
+      ]
+    },
+    {
+      "path": "reference/docker.md",
+      "title": "Docker",
+      "group": ".",
+      "bytes": 1762,
+      "headings": [
+        "Docker",
+        "Set environment variables",
+        "Create the container",
+        "Next Steps"
+      ]
+    },
+    {
+      "path": "reference/dribbble-settings.md",
+      "title": "Dribbble Settings",
+      "group": ".",
+      "bytes": 3563,
+      "headings": [
+        "Dribbble Settings",
+        "Settings Schema",
+        "Fields",
+        "`title`",
+        "`team`",
+        "Complete Example",
+        "Personal Shot",
+        "Team Shot",
+        "Mobile App Design"
+      ]
+    },
+    {
+      "path": "reference/dribbble.md",
+      "title": "Dribbble",
+      "group": ".",
+      "bytes": 1334,
+      "headings": [
+        "Dribbble"
+      ]
+    },
+    {
+      "path": "reference/email-notifications.md",
+      "title": "Email Notifications",
+      "group": ".",
+      "bytes": 1558,
+      "headings": [
+        "Email Notifications",
+        "Resend",
+        "NodeMailer (SMTP)"
+      ]
+    },
+    {
+      "path": "reference/examples.md",
+      "title": "Examples",
+      "group": ".",
+      "bytes": 9613,
+      "headings": [
+        "Examples",
+        "Schedule a Post to X",
+        "Post to Discord with Channel Selection",
+        "Schedule an Instagram Reel with Trending Audio",
+        "Post with an AI-Generated Image",
+        "Generate a Video and Post",
+        "Create an X Thread",
+        "Post to LinkedIn with a Comment",
+        "Bulk Schedule"
+      ]
+    },
+    {
+      "path": "reference/facebook-settings.md",
+      "title": "Facebook Settings",
+      "group": ".",
+      "bytes": 2421,
+      "headings": [
+        "Facebook Settings",
+        "Overview",
+        "Settings Schema",
+        "Properties",
+        "Examples",
+        "Simple text post",
+        "Post with link",
+        "Post with image",
+        "Notes"
+      ]
+    },
+    {
+      "path": "reference/facebook.md",
+      "title": "Facebook",
+      "group": ".",
+      "bytes": 3475,
+      "headings": [
+        "Facebook",
+        "Troubleshooting",
+        "Image is missing from the published post",
+        "Facebook posts work for you but not for other users"
+      ]
+    },
+    {
+      "path": "reference/farcaster.md",
+      "title": "Farcaster",
+      "group": ".",
+      "bytes": 1204,
+      "headings": [
+        "Farcaster"
+      ]
+    },
+    {
+      "path": "reference/find-a-group-by-name-then-list-its-integrations.md",
+      "title": "Find a group by name, then list its integrations",
+      "group": ".",
+      "bytes": 2001,
+      "headings": [
+        "Find a group by name, then list its integrations",
+        "Getting Settings",
+        "Triggering Tools",
+        "Examples",
+        "Discovery Workflow"
+      ]
+    },
+    {
+      "path": "reference/find-a-specific-platform.md",
+      "title": "Find a specific platform",
+      "group": ".",
+      "bytes": 590,
+      "headings": [
+        "Find a specific platform",
+        "Filtering by Group",
+        "Listing Groups"
+      ]
+    },
+    {
+      "path": "reference/find-an-audio-id.md",
+      "title": "Find an audio ID",
+      "group": ".",
+      "bytes": 2409,
+      "headings": [
+        "Find an audio ID",
+        "LinkedIn",
+        "Image Carousel",
+        "Pinterest",
+        "Discord",
+        "Batch Scheduling",
+        "Multi-Platform Campaign"
+      ]
+    },
+    {
+      "path": "reference/find-available-slot.md",
+      "title": "Find Available Slot",
+      "group": ".",
+      "bytes": 177,
+      "headings": [
+        "Find Available Slot"
+      ]
+    },
+    {
+      "path": "reference/generate-video.md",
+      "title": "Generate Video",
+      "group": ".",
+      "bytes": 140,
+      "headings": [
+        "Generate Video"
+      ]
+    },
+    {
+      "path": "reference/get-just-the-follower-count-trend.md",
+      "title": "Get just the follower count trend",
+      "group": ".",
+      "bytes": 124,
+      "headings": [
+        "Get just the follower count trend"
+      ]
+    },
+    {
+      "path": "reference/get-just-the-ids-and-platform-names.md",
+      "title": "Get just the IDs and platform names",
+      "group": ".",
+      "bytes": 119,
+      "headings": [
+        "Get just the IDs and platform names"
+      ]
+    },
+    {
+      "path": "reference/get-missing-content.md",
+      "title": "Get Missing Content",
+      "group": ".",
+      "bytes": 471,
+      "headings": [
+        "Get Missing Content"
+      ]
+    },
+    {
+      "path": "reference/get-percentage-changes-for-all-metrics.md",
+      "title": "Get percentage changes for all metrics",
+      "group": ".",
+      "bytes": 121,
+      "headings": [
+        "Get percentage changes for all metrics"
+      ]
+    },
+    {
+      "path": "reference/get-settings-tools.md",
+      "title": "Get Settings & Tools",
+      "group": ".",
+      "bytes": 318,
+      "headings": [
+        "Get Settings & Tools"
+      ]
+    },
+    {
+      "path": "reference/get-the-integration-id.md",
+      "title": "Get the integration ID",
+      "group": ".",
+      "bytes": 113,
+      "headings": [
+        "Get the integration ID"
+      ]
+    },
+    {
+      "path": "reference/get-the-latest-total-for-each-post-metric.md",
+      "title": "Get the latest total for each post metric",
+      "group": ".",
+      "bytes": 124,
+      "headings": [
+        "Get the latest total for each post metric"
+      ]
+    },
+    {
+      "path": "reference/google-my-business-settings.md",
+      "title": "Google My Business Settings",
+      "group": ".",
+      "bytes": 4390,
+      "headings": [
+        "Google My Business Settings",
+        "Overview",
+        "Settings Schema",
+        "Properties",
+        "Call-to-Action Types",
+        "Examples",
+        "Standard Post",
+        "Event Post",
+        "Offer Post",
+        "Full Example",
+        "Notes"
+      ]
+    },
+    {
+      "path": "reference/google-my-business.md",
+      "title": "Google My Business",
+      "group": ".",
+      "bytes": 4958,
+      "headings": [
+        "Google My Business",
+        "Setup",
+        "Troubleshooting",
+        "API Access Not Approved",
+        "403 Forbidden Errors",
+        "Business Profile Not Showing",
+        "Analytics returns empty or filter errors",
+        "Known issue: connect page surfaces session-recording errors"
+      ]
+    },
+    {
+      "path": "reference/hashnode-settings.md",
+      "title": "Hashnode Settings",
+      "group": ".",
+      "bytes": 2713,
+      "headings": [
+        "Hashnode Settings",
+        "Overview",
+        "Settings Schema",
+        "Properties",
+        "Example",
+        "Notes"
+      ]
+    },
+    {
+      "path": "reference/helm.md",
+      "title": "Helm",
+      "group": ".",
+      "bytes": 1046,
+      "headings": [
+        "Helm",
+        "The Helm Chart",
+        "Next Steps"
+      ]
+    },
+    {
+      "path": "reference/how-it-works.md",
+      "title": "How it works",
+      "group": ".",
+      "bytes": 2968,
+      "headings": [
+        "How it works",
+        "Architecture",
+        "Frontend",
+        "Backend",
+        "Orchestrator",
+        "Temporal"
+      ]
+    },
+    {
+      "path": "reference/how-to-add-a-new-provider.md",
+      "title": "How to add a new provider",
+      "group": ".",
+      "bytes": 127,
+      "headings": [
+        "How to add a new provider"
+      ]
+    },
+    {
+      "path": "reference/image-video-editing-polotno.md",
+      "title": "Image & Video Editing (Polotno)",
+      "group": ".",
+      "bytes": 2551,
+      "headings": [
+        "Image & Video Editing (Polotno)",
+        "What you get",
+        "Setup",
+        "Licensing",
+        "Reference"
+      ]
+    },
+    {
+      "path": "reference/instagram-settings.md",
+      "title": "Instagram Settings",
+      "group": ".",
+      "bytes": 8371,
+      "headings": [
+        "Instagram Settings",
+        "Settings Schema",
+        "Fields",
+        "`post_type`",
+        "`is_trial_reel`",
+        "`graduation_strategy`",
+        "`collaborators`",
+        "`audio`",
+        "Complete Example",
+        "Feed Post",
+        "Story Post",
+        "Collaborative Post"
+      ]
+    },
+    {
+      "path": "reference/instagram-standalone-settings.md",
+      "title": "Instagram Standalone Settings",
+      "group": ".",
+      "bytes": 3047,
+      "headings": [
+        "Instagram Standalone Settings",
+        "Settings Schema",
+        "Fields",
+        "Complete Example"
+      ]
+    },
+    {
+      "path": "reference/instagram.md",
+      "title": "Instagram",
+      "group": ".",
+      "bytes": 7249,
+      "headings": [
+        "Instagram",
+        "Connection Options",
+        "Setting up Meta Application",
+        "Facebook Business Option",
+        "Instagram Standalone Option",
+        "Adding App Roles",
+        "Troubleshooting",
+        "\"Insufficient developer role\" error",
+        "Channel connects, but posts fail with permission errors"
+      ]
+    },
+    {
+      "path": "reference/integrations.md",
+      "title": "Integrations",
+      "group": ".",
+      "bytes": 369,
+      "headings": [
+        "Integrations",
+        "Listing Integrations"
+      ]
+    },
+    {
+      "path": "reference/introduction-2.md",
+      "title": "Introduction",
+      "group": ".",
+      "bytes": 1041,
+      "headings": [
+        "Introduction",
+        "What is Postiz?"
+      ]
+    },
+    {
+      "path": "reference/introduction-3.md",
+      "title": "Introduction",
+      "group": ".",
+      "bytes": 5083,
+      "headings": [
+        "Introduction",
+        "How It Works",
+        "Available Tools",
+        "Authentication",
+        "API Key",
+        "OAuth Token",
+        "Connecting",
+        "Quick Example",
+        "FAQ",
+        "Do I need an OpenAI key to use Postiz MCP?",
+        "What happens when my API key expires or is rotated?",
+        "Self-hosted: how do I expose the MCP endpoint?"
+      ]
+    },
+    {
+      "path": "reference/introduction.md",
+      "title": "Introduction",
+      "group": ".",
+      "bytes": 1518,
+      "headings": [
+        "Introduction",
+        "Installation",
+        "Authentication",
+        "Option 1: OAuth2 (Recommended)"
+      ]
+    },
+    {
+      "path": "reference/kick-settings.md",
+      "title": "Kick Settings",
+      "group": ".",
+      "bytes": 2113,
+      "headings": [
+        "Kick Settings",
+        "Settings Schema",
+        "Fields",
+        "Complete Example",
+        "Chat Message",
+        "Message with Image",
+        "Quick Announcement"
+      ]
+    },
+    {
+      "path": "reference/known-issues.md",
+      "title": "Known Issues",
+      "group": ".",
+      "bytes": 3278,
+      "headings": [
+        "Known Issues",
+        "Channel connect",
+        "TikTok connect page sometimes crashes",
+        "X (Twitter) connect page sometimes crashes",
+        "GMB connect page shows session-recording errors",
+        "Posting",
+        "`/launches` page null-deref during loading",
+        "Media generation",
+        "AI image generation returns 400 \"Unknown parameter: 'response\\_format'\"",
+        "\"Failed to generate video\" via Transloadit",
+        "Public API",
+        "`DELETE /public/v1/posts/:id` 500 on non-existent ID"
+      ]
+    },
+    {
+      "path": "reference/last-30-days-2.md",
+      "title": "Last 30 days",
+      "group": ".",
+      "bytes": 714,
+      "headings": [
+        "Last 30 days",
+        "Scripting with Analytics"
+      ]
+    },
+    {
+      "path": "reference/last-30-days.md",
+      "title": "Last 30 days",
+      "group": ".",
+      "bytes": 67,
+      "headings": [
+        "Last 30 days"
+      ]
+    },
+    {
+      "path": "reference/last-7-days-default-2.md",
+      "title": "Last 7 days (default)",
+      "group": ".",
+      "bytes": 59,
+      "headings": [
+        "Last 7 days (default)"
+      ]
+    },
+    {
+      "path": "reference/last-7-days-default.md",
+      "title": "Last 7 days (default)",
+      "group": ".",
+      "bytes": 70,
+      "headings": [
+        "Last 7 days (default)"
+      ]
+    },
+    {
+      "path": "reference/last-90-days.md",
+      "title": "Last 90 days",
+      "group": ".",
+      "bytes": 1108,
+      "headings": [
+        "Last 90 days",
+        "Post Analytics",
+        "Options",
+        "Examples"
+      ]
+    },
+    {
+      "path": "reference/lemmy-settings.md",
+      "title": "Lemmy Settings",
+      "group": ".",
+      "bytes": 2249,
+      "headings": [
+        "Lemmy Settings",
+        "Overview",
+        "Settings Schema",
+        "Properties",
+        "Example",
+        "Notes"
+      ]
+    },
+    {
+      "path": "reference/linkedin-page-settings.md",
+      "title": "LinkedIn Page Settings",
+      "group": ".",
+      "bytes": 2019,
+      "headings": [
+        "LinkedIn Page Settings",
+        "Settings Schema",
+        "Fields",
+        "Complete Example"
+      ]
+    },
+    {
+      "path": "reference/linkedin-page.md",
+      "title": "LinkedIn Page",
+      "group": ".",
+      "bytes": 2131,
+      "headings": [
+        "LinkedIn Page",
+        "Posting PDFs / document carousels"
+      ]
+    },
+    {
+      "path": "reference/linkedin-settings.md",
+      "title": "LinkedIn Settings",
+      "group": ".",
+      "bytes": 3376,
+      "headings": [
+        "LinkedIn Settings",
+        "Settings Schema",
+        "Fields",
+        "`post_as_images_carousel`",
+        "`carousel_name`",
+        "Complete Example",
+        "Text Post",
+        "Carousel Post",
+        "Company Page Post"
+      ]
+    },
+    {
+      "path": "reference/linkedin.md",
+      "title": "LinkedIn",
+      "group": ".",
+      "bytes": 1474,
+      "headings": [
+        "LinkedIn"
+      ]
+    },
+    {
+      "path": "reference/list-groups-customers.md",
+      "title": "List Groups (Customers)",
+      "group": ".",
+      "bytes": 204,
+      "headings": [
+        "List Groups (Customers)"
+      ]
+    },
+    {
+      "path": "reference/list-integrations.md",
+      "title": "List Integrations",
+      "group": ".",
+      "bytes": 167,
+      "headings": [
+        "List Integrations"
+      ]
+    },
+    {
+      "path": "reference/list-notifications.md",
+      "title": "List Notifications",
+      "group": ".",
+      "bytes": 219,
+      "headings": [
+        "List Notifications"
+      ]
+    },
+    {
+      "path": "reference/list-posts.md",
+      "title": "List Posts",
+      "group": ".",
+      "bytes": 110,
+      "headings": [
+        "List Posts"
+      ]
+    },
+    {
+      "path": "reference/listmonk-settings.md",
+      "title": "Listmonk Settings",
+      "group": ".",
+      "bytes": 2012,
+      "headings": [
+        "Listmonk Settings",
+        "Overview",
+        "Settings Schema",
+        "Properties",
+        "Example",
+        "Notes"
+      ]
+    },
+    {
+      "path": "reference/managing-posts.md",
+      "title": "Managing Posts",
+      "group": ".",
+      "bytes": 5098,
+      "headings": [
+        "Managing Posts",
+        "Creating Posts",
+        "Simple Post",
+        "Options",
+        "Draft Post",
+        "Post with Media",
+        "Threads and Comments",
+        "Multi-Platform Post",
+        "Platform-Specific Settings",
+        "Complex Posts with JSON",
+        "Listing Posts",
+        "Filter by Date Range"
+      ]
+    },
+    {
+      "path": "reference/mastodon-settings.md",
+      "title": "Mastodon Settings",
+      "group": ".",
+      "bytes": 2482,
+      "headings": [
+        "Mastodon Settings",
+        "Settings Schema",
+        "Fields",
+        "Complete Example",
+        "Text Post",
+        "Thread Post",
+        "Post with Image"
+      ]
+    },
+    {
+      "path": "reference/mastodon.md",
+      "title": "Mastodon",
+      "group": ".",
+      "bytes": 3386,
+      "headings": [
+        "Mastodon",
+        "Troubleshooting",
+        "\"Failed to fetch\" / \"fetch failed\" when connecting"
+      ]
+    },
+    {
+      "path": "reference/media-upload.md",
+      "title": "Media Upload",
+      "group": ".",
+      "bytes": 668,
+      "headings": [
+        "Media Upload",
+        "Uploading Files",
+        "Upload and Post Workflow"
+      ]
+    },
+    {
+      "path": "reference/medium-settings.md",
+      "title": "Medium Settings",
+      "group": ".",
+      "bytes": 2459,
+      "headings": [
+        "Medium Settings",
+        "Overview",
+        "Settings Schema",
+        "Properties",
+        "Example",
+        "Notes"
+      ]
+    },
+    {
+      "path": "reference/mewe.md",
+      "title": "MeWe",
+      "group": ".",
+      "bytes": 2924,
+      "headings": [
+        "MeWe",
+        "Posting Options"
+      ]
+    },
+    {
+      "path": "reference/migration-to-temporal.md",
+      "title": "Migration to Temporal",
+      "group": ".",
+      "bytes": 1478,
+      "headings": [
+        "Migration to Temporal",
+        "Prerequisites",
+        "Migration Steps"
+      ]
+    },
+    {
+      "path": "reference/moltbook-settings.md",
+      "title": "Moltbook Settings",
+      "group": ".",
+      "bytes": 1094,
+      "headings": [
+        "Moltbook Settings",
+        "Settings Schema",
+        "Fields",
+        "Complete Example",
+        "Post to a Submolt"
+      ]
+    },
+    {
+      "path": "reference/nginx.md",
+      "title": "Nginx",
+      "group": ".",
+      "bytes": 9152,
+      "headings": [
+        "Nginx",
+        "How to add Nginx as a reverse proxy"
+      ]
+    },
+    {
+      "path": "reference/nostr-settings.md",
+      "title": "Nostr Settings",
+      "group": ".",
+      "bytes": 1764,
+      "headings": [
+        "Nostr Settings",
+        "Settings Schema",
+        "Fields",
+        "Complete Example",
+        "Text Note",
+        "Note with Image"
+      ]
+    },
+    {
+      "path": "reference/oauth-channel-connect-errors.md",
+      "title": "OAuth & Channel Connect Errors",
+      "group": ".",
+      "bytes": 3638,
+      "headings": [
+        "OAuth & Channel Connect Errors",
+        "\"Invalid state\"",
+        "\"invalid\\_grant\"",
+        "\"Failed to fetch\" / \"fetch failed\" on provider connect",
+        "\"Unsupported file type\" during connect"
+      ]
+    },
+    {
+      "path": "reference/oauth2-authentication.md",
+      "title": "OAuth2 Authentication",
+      "group": ".",
+      "bytes": 9604,
+      "headings": [
+        "OAuth2 Authentication",
+        "Overview",
+        "How It Works",
+        "Implementation",
+        "Managing Your App",
+        "Rotate Client Secret",
+        "Delete Your App",
+        "Full Example (Node.js)",
+        "Error Reference"
+      ]
+    },
+    {
+      "path": "reference/oidc-configuration.md",
+      "title": "OIDC Configuration",
+      "group": ".",
+      "bytes": 2959,
+      "headings": [
+        "OIDC Configuration"
+      ]
+    },
+    {
+      "path": "reference/or-explicitly.md",
+      "title": "or explicitly",
+      "group": ".",
+      "bytes": 1636,
+      "headings": [
+        "or explicitly",
+        "`redirectmeto` \u2014 why OAuth redirects sometimes go through a third party"
+      ]
+    },
+    {
+      "path": "reference/or.md",
+      "title": "or",
+      "group": ".",
+      "bytes": 2364,
+      "headings": [
+        "or",
+        "Local filesystem",
+        "Docker volume mount",
+        "Caveat: some providers need public HTTPS URLs",
+        "Cloudflare R2",
+        "Public-API uploads"
+      ]
+    },
+    {
+      "path": "reference/pinterest-settings.md",
+      "title": "Pinterest Settings",
+      "group": ".",
+      "bytes": 3322,
+      "headings": [
+        "Pinterest Settings",
+        "Settings Schema",
+        "Fields",
+        "`board`",
+        "`title`",
+        "`link`",
+        "`dominant_color`",
+        "Complete Example",
+        "Basic Pin",
+        "Pin with All Options",
+        "Simple Pin (Minimal Settings)"
+      ]
+    },
+    {
+      "path": "reference/pinterest.md",
+      "title": "Pinterest",
+      "group": ".",
+      "bytes": 1227,
+      "headings": [
+        "Pinterest"
+      ]
+    },
+    {
+      "path": "reference/platform-analytics.md",
+      "title": "Platform Analytics",
+      "group": ".",
+      "bytes": 613,
+      "headings": [
+        "Platform Analytics",
+        "Path parameter: `integration`"
+      ]
+    },
+    {
+      "path": "reference/platform-examples.md",
+      "title": "Platform Examples",
+      "group": ".",
+      "bytes": 771,
+      "headings": [
+        "Platform Examples",
+        "X (Twitter)",
+        "Simple Post",
+        "Thread",
+        "With Reply Controls",
+        "Reddit",
+        "Post with Flair"
+      ]
+    },
+    {
+      "path": "reference/post-analytics.md",
+      "title": "Post Analytics",
+      "group": ".",
+      "bytes": 246,
+      "headings": [
+        "Post Analytics"
+      ]
+    },
+    {
+      "path": "reference/post-to-tiktok.md",
+      "title": "Post to TikTok",
+      "group": ".",
+      "bytes": 203,
+      "headings": [
+        "Post to TikTok"
+      ]
+    },
+    {
+      "path": "reference/production.md",
+      "title": "Production",
+      "group": ".",
+      "bytes": 1406,
+      "headings": [
+        "Production",
+        "6. Point the CLI to Your Server",
+        "Server Endpoints",
+        "Deployment"
+      ]
+    },
+    {
+      "path": "reference/providers-overview.md",
+      "title": "Providers Overview",
+      "group": ".",
+      "bytes": 4150,
+      "headings": [
+        "Providers Overview",
+        "Available Providers",
+        "Providers available via Public API only"
+      ]
+    },
+    {
+      "path": "reference/quickstart.md",
+      "title": "Quickstart",
+      "group": ".",
+      "bytes": 785,
+      "headings": [
+        "Quickstart",
+        "Self Hosted installation options",
+        "Advanced installation options"
+      ]
+    },
+    {
+      "path": "reference/r2-configuration.md",
+      "title": "R2 Configuration",
+      "group": ".",
+      "bytes": 2764,
+      "headings": [
+        "R2 Configuration"
+      ]
+    },
+    {
+      "path": "reference/reddit-settings.md",
+      "title": "Reddit Settings",
+      "group": ".",
+      "bytes": 5690,
+      "headings": [
+        "Reddit Settings",
+        "Settings Schema",
+        "Fields",
+        "Subreddit Object",
+        "`type` (Post Type)",
+        "Flair Object",
+        "Complete Example",
+        "Text Post (Self Post)",
+        "Link Post",
+        "Post with Required Flair",
+        "Cross-post to Multiple Subreddits"
+      ]
+    },
+    {
+      "path": "reference/reddit.md",
+      "title": "Reddit",
+      "group": ".",
+      "bytes": 943,
+      "headings": [
+        "Reddit"
+      ]
+    },
+    {
+      "path": "reference/regular-post.md",
+      "title": "Regular post",
+      "group": ".",
+      "bytes": 822,
+      "headings": [
+        "Regular post",
+        "Story",
+        "Reel",
+        "Reel with Audio"
+      ]
+    },
+    {
+      "path": "reference/remove-stored-credentials-2.md",
+      "title": "Remove stored credentials",
+      "group": ".",
+      "bytes": 936,
+      "headings": [
+        "Remove stored credentials",
+        "Option 2: API Key",
+        "Custom API URL (self-hosted)",
+        "Self-Hosting the Auth Server",
+        "Quick Start"
+      ]
+    },
+    {
+      "path": "reference/remove-stored-credentials.md",
+      "title": "Remove stored credentials",
+      "group": ".",
+      "bytes": 4312,
+      "headings": [
+        "Remove stored credentials",
+        "API Key",
+        "Environment Variables",
+        "Self-Hosting the Auth Server",
+        "Prerequisites",
+        "How It Works",
+        "1. Clone the Repository",
+        "2. Create an OAuth App in Postiz",
+        "3. Set Up Postgres",
+        "4. Configure Environment",
+        "5. Run the Server"
+      ]
+    },
+    {
+      "path": "reference/response-id-img-123-path-https-uploads.postiz.com-photo.jpg-....md",
+      "title": "Response: { \"id\": \"img-123\", \"path\": \"https://uploads.postiz.com/photo.jpg\", ... }",
+      "group": ".",
+      "bytes": 85,
+      "headings": [
+        "Response: { \"id\": \"img-123\", \"path\": \"https://uploads.postiz.com/photo.jpg\", ... }"
+      ]
+    },
+    {
+      "path": "reference/self-host-gotchas.md",
+      "title": "Self-Host Gotchas",
+      "group": ".",
+      "bytes": 3942,
+      "headings": [
+        "Self-Host Gotchas",
+        "`pnpm` heap out of memory during install",
+        "`postgres ECONNREFUSED`",
+        "\"Hide a provider from the UI\"",
+        "Default ports",
+        "Mounting the uploads volume",
+        "Can I deploy Postiz on Vercel?",
+        "Email isn't sending",
+        "Temporal isn't reachable"
+      ]
+    },
+    {
+      "path": "reference/skool-settings.md",
+      "title": "Skool Settings",
+      "group": ".",
+      "bytes": 3714,
+      "headings": [
+        "Skool Settings",
+        "Settings Schema",
+        "Fields",
+        "`group`",
+        "`label`",
+        "`title`",
+        "Complete Example",
+        "Community Post",
+        "Post with Image",
+        "Quick Announcement"
+      ]
+    },
+    {
+      "path": "reference/skool.md",
+      "title": "Skool",
+      "group": ".",
+      "bytes": 2973,
+      "headings": [
+        "Skool",
+        "Prerequisites",
+        "Connecting Skool",
+        "Features",
+        "Troubleshooting"
+      ]
+    },
+    {
+      "path": "reference/slack-settings.md",
+      "title": "Slack Settings",
+      "group": ".",
+      "bytes": 3042,
+      "headings": [
+        "Slack Settings",
+        "Settings Schema",
+        "Fields",
+        "`channel`",
+        "Complete Example",
+        "Simple Message",
+        "Message with Image",
+        "Team Announcement"
+      ]
+    },
+    {
+      "path": "reference/slack.md",
+      "title": "Slack",
+      "group": ".",
+      "bytes": 1522,
+      "headings": [
+        "Slack"
+      ]
+    },
+    {
+      "path": "reference/step-1-upload-the-file.md",
+      "title": "Step 1: upload the file",
+      "group": ".",
+      "bytes": 143,
+      "headings": [
+        "Step 1: upload the file"
+      ]
+    },
+    {
+      "path": "reference/step-1-upload-the-image.md",
+      "title": "Step 1: Upload the image",
+      "group": ".",
+      "bytes": 144,
+      "headings": [
+        "Step 1: Upload the image"
+      ]
+    },
+    {
+      "path": "reference/step-2-create-the-post-with-the-uploaded-image.md",
+      "title": "Step 2: Create the post with the uploaded image",
+      "group": ".",
+      "bytes": 1846,
+      "headings": [
+        "Step 2: Create the post with the uploaded image",
+        "Publish a Medium article",
+        "Create a Google My Business offer"
+      ]
+    },
+    {
+      "path": "reference/step-2-pass-id-path-into-the-post.md",
+      "title": "Step 2: pass id + path into the post",
+      "group": ".",
+      "bytes": 1432,
+      "headings": [
+        "Step 2: pass id + path into the post",
+        "`upload-from-url` timeouts or \"fetch failed\"",
+        "\"Failed to load video metadata\"",
+        "\"uploader plugin does not allow removing files during an upload\""
+      ]
+    },
+    {
+      "path": "reference/steps-to-implement-a-new-provider.md",
+      "title": "Steps to implement a new provider",
+      "group": ".",
+      "bytes": 4907,
+      "headings": [
+        "Steps to implement a new provider",
+        "Social Media",
+        "Backend",
+        "Custom functions",
+        "Frontend"
+      ]
+    },
+    {
+      "path": "reference/support.md",
+      "title": "Support",
+      "group": ".",
+      "bytes": 2510,
+      "headings": [
+        "Support",
+        "Postiz Cloud \u2014 billing & refunds",
+        "How to effectively ask for support",
+        "Goal",
+        "Environment",
+        "Changes",
+        "Results"
+      ]
+    },
+    {
+      "path": "reference/system-requirements.md",
+      "title": "System Requirements",
+      "group": ".",
+      "bytes": 5347,
+      "headings": [
+        "System Requirements",
+        "Hardware",
+        "Recommended install path",
+        "Required services",
+        "Default ports",
+        "Filesystem",
+        "Outbound network",
+        "Inbound network"
+      ]
+    },
+    {
+      "path": "reference/telegram-settings.md",
+      "title": "Telegram Settings",
+      "group": ".",
+      "bytes": 1796,
+      "headings": [
+        "Telegram Settings",
+        "Settings Schema",
+        "Fields",
+        "Complete Example",
+        "Text Post",
+        "Post with Image"
+      ]
+    },
+    {
+      "path": "reference/telegram.md",
+      "title": "Telegram",
+      "group": ".",
+      "bytes": 2929,
+      "headings": [
+        "Telegram"
+      ]
+    },
+    {
+      "path": "reference/threads-settings.md",
+      "title": "Threads Settings",
+      "group": ".",
+      "bytes": 2346,
+      "headings": [
+        "Threads Settings",
+        "Settings Schema",
+        "Fields",
+        "Complete Example",
+        "Text Post",
+        "Thread Post",
+        "Post with Image"
+      ]
+    },
+    {
+      "path": "reference/threads.md",
+      "title": "Threads",
+      "group": ".",
+      "bytes": 5488,
+      "headings": [
+        "Threads"
+      ]
+    },
+    {
+      "path": "reference/tiktok-settings.md",
+      "title": "TikTok Settings",
+      "group": ".",
+      "bytes": 4867,
+      "headings": [
+        "TikTok Settings",
+        "Settings Schema",
+        "Fields",
+        "`privacy_level`",
+        "`autoAddMusic`",
+        "`content_posting_method`",
+        "Complete Example",
+        "Public Video with Interactions Enabled",
+        "Branded Content Video",
+        "AI-Generated Content",
+        "Private Video (Draft)"
+      ]
+    },
+    {
+      "path": "reference/tiktok.md",
+      "title": "TikTok",
+      "group": ".",
+      "bytes": 3971,
+      "headings": [
+        "TikTok"
+      ]
+    },
+    {
+      "path": "reference/tools-reference.md",
+      "title": "Tools Reference",
+      "group": ".",
+      "bytes": 11821,
+      "headings": [
+        "Tools Reference",
+        "integrationList",
+        "groupList",
+        "integrationSchema",
+        "triggerTool",
+        "schedulePostTool",
+        "Content Formatting",
+        "Posts vs Comments",
+        "Multiple Posts",
+        "generateImageTool",
+        "generateVideoOptions",
+        "Available Video Types"
+      ]
+    },
+    {
+      "path": "reference/traefik-docker-compose.md",
+      "title": "Traefik + Docker Compose",
+      "group": ".",
+      "bytes": 1292,
+      "headings": [
+        "Traefik + Docker Compose",
+        "Add Traefik to your Docker Compose file"
+      ]
+    },
+    {
+      "path": "reference/trigger-a-tool.md",
+      "title": "Trigger a Tool",
+      "group": ".",
+      "bytes": 799,
+      "headings": [
+        "Trigger a Tool"
+      ]
+    },
+    {
+      "path": "reference/troubleshooting.md",
+      "title": "Troubleshooting",
+      "group": ".",
+      "bytes": 2132,
+      "headings": [
+        "Troubleshooting",
+        "Cloud users",
+        "Self-hosted"
+      ]
+    },
+    {
+      "path": "reference/twitch-settings.md",
+      "title": "Twitch Settings",
+      "group": ".",
+      "bytes": 3419,
+      "headings": [
+        "Twitch Settings",
+        "Settings Schema",
+        "Fields",
+        "`messageType`",
+        "`announcementColor`",
+        "Complete Example",
+        "Regular Chat Message",
+        "Announcement",
+        "Green Announcement"
+      ]
+    },
+    {
+      "path": "reference/update-release-id.md",
+      "title": "Update Release ID",
+      "group": ".",
+      "bytes": 435,
+      "headings": [
+        "Update Release ID"
+      ]
+    },
+    {
+      "path": "reference/upload-file.md",
+      "title": "Upload File",
+      "group": ".",
+      "bytes": 1245,
+      "headings": [
+        "Upload File",
+        "Accepted MIME types",
+        "Example",
+        "Usage in a post"
+      ]
+    },
+    {
+      "path": "reference/upload-from-url.md",
+      "title": "Upload from URL",
+      "group": ".",
+      "bytes": 1539,
+      "headings": [
+        "Upload from URL",
+        "Requirements for the source URL",
+        "Example",
+        "When to prefer multipart upload"
+      ]
+    },
+    {
+      "path": "reference/upload-image-first.md",
+      "title": "Upload image first",
+      "group": ".",
+      "bytes": 97,
+      "headings": [
+        "Upload image first"
+      ]
+    },
+    {
+      "path": "reference/upload-the-video.md",
+      "title": "Upload the video",
+      "group": ".",
+      "bytes": 95,
+      "headings": [
+        "Upload the video"
+      ]
+    },
+    {
+      "path": "reference/upload-video-first-2.md",
+      "title": "Upload video first",
+      "group": ".",
+      "bytes": 339,
+      "headings": [
+        "Upload video first",
+        "Instagram"
+      ]
+    },
+    {
+      "path": "reference/upload-video-first.md",
+      "title": "Upload video first",
+      "group": ".",
+      "bytes": 358,
+      "headings": [
+        "Upload video first",
+        "TikTok"
+      ]
+    },
+    {
+      "path": "reference/uploads-media.md",
+      "title": "Uploads & Media",
+      "group": ".",
+      "bytes": 1589,
+      "headings": [
+        "Uploads & Media",
+        "Body size limit",
+        "Accepted MIME types (Public API)",
+        "\"PayloadTooLargeError\" when creating a post"
+      ]
+    },
+    {
+      "path": "reference/uploads-storage.md",
+      "title": "Uploads & Storage",
+      "group": ".",
+      "bytes": 378,
+      "headings": [
+        "Uploads & Storage",
+        "Pick a backend"
+      ]
+    },
+    {
+      "path": "reference/use-the-returned-id.md",
+      "title": "Use the returned id",
+      "group": ".",
+      "bytes": 525,
+      "headings": [
+        "Use the returned id",
+        "Common errors"
+      ]
+    },
+    {
+      "path": "reference/video-function.md",
+      "title": "Video Function",
+      "group": ".",
+      "bytes": 342,
+      "headings": [
+        "Video Function",
+        "Get Available Voices"
+      ]
+    },
+    {
+      "path": "reference/vk-settings.md",
+      "title": "VK Settings",
+      "group": ".",
+      "bytes": 1742,
+      "headings": [
+        "VK Settings",
+        "Settings Schema",
+        "Fields",
+        "Complete Example",
+        "Text Post",
+        "Post with Image"
+      ]
+    },
+    {
+      "path": "reference/warpcast-farcaster-settings.md",
+      "title": "Warpcast (Farcaster) Settings",
+      "group": ".",
+      "bytes": 3656,
+      "headings": [
+        "Warpcast (Farcaster) Settings",
+        "Overview",
+        "Settings Schema",
+        "Properties",
+        "Examples",
+        "Simple cast (no channel)",
+        "Cast to a specific channel",
+        "Cast to multiple channels",
+        "Cast with image",
+        "Notes"
+      ]
+    },
+    {
+      "path": "reference/websockets-hmr-and-dev-tunnels.md",
+      "title": "WebSockets, HMR, and Dev Tunnels",
+      "group": ".",
+      "bytes": 2367,
+      "headings": [
+        "WebSockets, HMR, and Dev Tunnels",
+        "Production reverse proxy",
+        "Dev behind ngrok / Cloudflared"
+      ]
+    },
+    {
+      "path": "reference/whop-settings.md",
+      "title": "Whop Settings",
+      "group": ".",
+      "bytes": 3307,
+      "headings": [
+        "Whop Settings",
+        "Settings Schema",
+        "Fields",
+        "`company`",
+        "`experience`",
+        "`title`",
+        "Complete Example",
+        "Forum Post",
+        "Post with Attachment",
+        "Post Without Title"
+      ]
+    },
+    {
+      "path": "reference/whop.md",
+      "title": "Whop",
+      "group": ".",
+      "bytes": 2740,
+      "headings": [
+        "Whop",
+        "Features",
+        "Troubleshooting"
+      ]
+    },
+    {
+      "path": "reference/wordpress-settings.md",
+      "title": "WordPress Settings",
+      "group": ".",
+      "bytes": 2055,
+      "headings": [
+        "WordPress Settings",
+        "Overview",
+        "Settings Schema",
+        "Properties",
+        "Example",
+        "Notes"
+      ]
+    },
+    {
+      "path": "reference/x-twitter-settings.md",
+      "title": "X (Twitter) Settings",
+      "group": ".",
+      "bytes": 3165,
+      "headings": [
+        "X (Twitter) Settings",
+        "Settings Schema",
+        "Fields",
+        "`who_can_reply_post`",
+        "`community`",
+        "Complete Example",
+        "Thread Example"
+      ]
+    },
+    {
+      "path": "reference/x-twitter.md",
+      "title": "X (Twitter)",
+      "group": ".",
+      "bytes": 3176,
+      "headings": [
+        "X (Twitter)",
+        "Optional environment variables",
+        "Post Settings"
+      ]
+    },
+    {
+      "path": "reference/youtube-settings.md",
+      "title": "YouTube Settings",
+      "group": ".",
+      "bytes": 4253,
+      "headings": [
+        "YouTube Settings",
+        "Settings Schema",
+        "Fields",
+        "`title`",
+        "`type` (visibility)",
+        "`selfDeclaredMadeForKids`",
+        "`thumbnail`",
+        "`tags`",
+        "Complete Example",
+        "Public Video with Tags",
+        "Video with Custom Thumbnail",
+        "Private/Unlisted Video"
+      ]
+    },
+    {
+      "path": "reference/youtube.md",
+      "title": "YouTube",
+      "group": ".",
+      "bytes": 3504,
+      "headings": [
+        "YouTube",
+        "General Setup",
+        "Additional Steps for Brand Accounts"
+      ]
+    }
+  ]
+}

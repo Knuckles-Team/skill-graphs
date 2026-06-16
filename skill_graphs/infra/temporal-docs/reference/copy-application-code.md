@@ -1,0 +1,2 @@
+# Copy application code
+COPY . .

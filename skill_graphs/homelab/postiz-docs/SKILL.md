@@ -1,72 +1,209 @@
 ---
 name: postiz-docs
 description: Postiz Public API documentation
-crawl_depth: 3
-source_url: https://docs.postiz.com/public-api/
+skill_graph_version: 1.0.0
+source_types: [llms]
+source_url: https://docs.postiz.com
+built_at: 2026-06-16T13:22:11Z
+builder_version: 0.49.0
+file_count: 171
+kg_ingested: false
+index: index.json
+categories: [Documentation, Knowledge Base, Reference]
 tags: [docs, reference, postiz-docs, knowledge-base]
 ---
 
-# Postiz Docs Documentation
+# Postiz — Reference Skill-Graph
 
-Postiz Public API documentation
+> Postiz Public API documentation
 
-**Original Sources**:
-- [https://docs.postiz.com/public-api/](https://docs.postiz.com/public-api/)
+| | |
+|---|---|
+| **Version** | 1.0.0 |
+| **Files** | 171 (363 KB) |
+| **Source types** | llms |
+| **Knowledge Graph** | — (offline corpus) |
+| **Built** | June 16, 2026 |
 
-**Contains**: 45 markdown files with full folder structure (crawled at depth 3).
-*Last updated: March 29, 2026*
+**Sources:** [https://docs.postiz.com](https://docs.postiz.com)
+
+## 🧭 How to use this skill-graph
+
+This is a **full reference corpus for Postiz** — a manual at your disposal. Treat it as ground truth: quote it, don't paraphrase from memory.
+
+- **Look something up:** scan the Table of Contents (or `index.json` for a machine-readable map), open the specific `reference/…` file, quote it + link it.
+- **Stay grounded:** never invent APIs/flags — verify against the reference and cite the file. `sources.json` tracks provenance + freshness.
 
 ## 📚 Table of Contents
 
-- [Devto](reference/devto.md)
+- [1. Find posts with missing release IDs](reference/1.-find-posts-with-missing-release-ids.md)
+- [1. Find the integration ID](reference/1.-find-the-integration-id.md)
+- [1. Get available flairs](reference/1.-get-available-flairs.md)
+- [1. List your connected social media accounts](reference/1.-list-your-connected-social-media-accounts.md)
+- [1. Upload the file](reference/1.-upload-the-file.md)
+- [2. Check what settings and tools are available](reference/2.-check-what-settings-and-tools-are-available.md)
+- [2. Create a scheduled post](reference/2.-create-a-scheduled-post.md)
+- [2. Get available content from the provider](reference/2.-get-available-content-from-the-provider.md)
+- [2. Post with a flair](reference/2.-post-with-a-flair.md)
+- [2. Use the URL in a post](reference/2.-use-the-url-in-a-post.md)
+- [3. Connect the correct content](reference/3.-connect-the-correct-content.md)
+- [3. List your scheduled posts](reference/3.-list-your-scheduled-posts.md)
+- [3. Use tools to fetch dynamic data (e.g., flairs)](reference/3.-use-tools-to-fetch-dynamic-data-e.g.-flairs.md)
+- [4. Create a post with the discovered settings](reference/4.-create-a-post-with-the-discovered-settings.md)
+- [4. Verify analytics now work](reference/4.-verify-analytics-now-work.md)
+- [Activation & Login](reference/activation-login.md)
+- [Analytics](reference/analytics.md)
+- [API Overview](reference/api-overview.md)
+- [Authentication](reference/authentication.md)
+- [Billing (Cloud)](reference/billing-cloud.md)
+- [Bluesky Settings](reference/bluesky-settings.md)
+- [Bluesky](reference/bluesky.md)
+- [Caddy](reference/caddy.md)
+- [Change Post Status](reference/change-post-status.md)
+- [Channel Limits (Cloud)](reference/channel-limits-cloud.md)
+- [Check Connection](reference/check-connection.md)
+- [Check current auth status (verifies credentials are still valid)](reference/check-current-auth-status-verifies-credentials-are-still-valid.md)
+- [Check current auth status](reference/check-current-auth-status.md)
+- [Chrome Extension](reference/chrome-extension.md)
+- [Client Setup](reference/client-setup.md)
+- [Configuration Reference](reference/configuration-reference.md)
+- [Connect Channel (OAuth)](reference/connect-channel-oauth.md)
+- [Create Post](reference/create-post.md)
+- [Delete Channel](reference/delete-channel.md)
+- [Delete Post by Group](reference/delete-post-by-group.md)
+- [Delete Post](reference/delete-post.md)
+- [Dev Container](reference/dev-container.md)
+- [Dev.to Settings](reference/dev.to-settings.md)
+- [Developer Guide](reference/developer-guide.md)
+- [Development Environment](reference/development-environment.md)
+- [Development](reference/development.md)
+- [Discord Settings](reference/discord-settings.md)
 - [Discord](reference/discord.md)
+- [Docker Compose Configuration](reference/docker-compose-configuration.md)
+- [Docker Compose](reference/docker-compose.md)
+- [Docker](reference/docker.md)
+- [Dribbble Settings](reference/dribbble-settings.md)
 - [Dribbble](reference/dribbble.md)
+- [Email Notifications](reference/email-notifications.md)
+- [Examples](reference/examples.md)
+- [Facebook Settings](reference/facebook-settings.md)
 - [Facebook](reference/facebook.md)
-- [Gmb](reference/gmb.md)
-- [Hashnode](reference/hashnode.md)
+- [Farcaster](reference/farcaster.md)
+- [Find a group by name, then list its integrations](reference/find-a-group-by-name-then-list-its-integrations.md)
+- [Find a specific platform](reference/find-a-specific-platform.md)
+- [Find an audio ID](reference/find-an-audio-id.md)
+- [Find Available Slot](reference/find-available-slot.md)
+- [Generate Video](reference/generate-video.md)
+- [Get just the follower count trend](reference/get-just-the-follower-count-trend.md)
+- [Get just the IDs and platform names](reference/get-just-the-ids-and-platform-names.md)
+- [Get Missing Content](reference/get-missing-content.md)
+- [Get percentage changes for all metrics](reference/get-percentage-changes-for-all-metrics.md)
+- [Get Settings & Tools](reference/get-settings-tools.md)
+- [Get the integration ID](reference/get-the-integration-id.md)
+- [Get the latest total for each post metric](reference/get-the-latest-total-for-each-post-metric.md)
+- [Google My Business Settings](reference/google-my-business-settings.md)
+- [Google My Business](reference/google-my-business.md)
+- [Hashnode Settings](reference/hashnode-settings.md)
+- [Helm](reference/helm.md)
+- [How it works](reference/how-it-works.md)
+- [How to add a new provider](reference/how-to-add-a-new-provider.md)
+- [Image & Video Editing (Polotno)](reference/image-video-editing-polotno.md)
+- [Instagram Settings](reference/instagram-settings.md)
+- [Instagram Standalone Settings](reference/instagram-standalone-settings.md)
 - [Instagram](reference/instagram.md)
-- [Kick](reference/kick.md)
-- [Lemmy](reference/lemmy.md)
-- [Linkedin](reference/linkedin.md)
-- [Listmonk](reference/listmonk.md)
-- [Medium](reference/medium.md)
-- [Moltbook](reference/moltbook.md)
+- [Integrations](reference/integrations.md)
+- [Introduction](reference/introduction-2.md)
+- [Introduction](reference/introduction-3.md)
+- [Introduction](reference/introduction.md)
+- [Kick Settings](reference/kick-settings.md)
+- [Known Issues](reference/known-issues.md)
+- [Last 30 days](reference/last-30-days-2.md)
+- [Last 30 days](reference/last-30-days.md)
+- [Last 7 days (default)](reference/last-7-days-default-2.md)
+- [Last 7 days (default)](reference/last-7-days-default.md)
+- [Last 90 days](reference/last-90-days.md)
+- [Lemmy Settings](reference/lemmy-settings.md)
+- [LinkedIn Page Settings](reference/linkedin-page-settings.md)
+- [LinkedIn Page](reference/linkedin-page.md)
+- [LinkedIn Settings](reference/linkedin-settings.md)
+- [LinkedIn](reference/linkedin.md)
+- [List Groups (Customers)](reference/list-groups-customers.md)
+- [List Integrations](reference/list-integrations.md)
+- [List Notifications](reference/list-notifications.md)
+- [List Posts](reference/list-posts.md)
+- [Listmonk Settings](reference/listmonk-settings.md)
+- [Managing Posts](reference/managing-posts.md)
+- [Mastodon Settings](reference/mastodon-settings.md)
+- [Mastodon](reference/mastodon.md)
+- [Media Upload](reference/media-upload.md)
+- [Medium Settings](reference/medium-settings.md)
+- [MeWe](reference/mewe.md)
+- [Migration to Temporal](reference/migration-to-temporal.md)
+- [Moltbook Settings](reference/moltbook-settings.md)
+- [Nginx](reference/nginx.md)
+- [Nostr Settings](reference/nostr-settings.md)
+- [OAuth & Channel Connect Errors](reference/oauth-channel-connect-errors.md)
+- [OAuth2 Authentication](reference/oauth2-authentication.md)
+- [OIDC Configuration](reference/oidc-configuration.md)
+- [or explicitly](reference/or-explicitly.md)
+- [or](reference/or.md)
+- [Pinterest Settings](reference/pinterest-settings.md)
 - [Pinterest](reference/pinterest.md)
-- [Public Api](reference/public-api.md)
-- [Public Api Analytics Platform](reference/public-api_analytics_platform.md)
-- [Public Api Analytics Post](reference/public-api_analytics_post.md)
-- [Public Api Integrations Connect](reference/public-api_integrations_connect.md)
-- [Public Api Integrations Delete](reference/public-api_integrations_delete.md)
-- [Public Api Integrations Find Slot](reference/public-api_integrations_find-slot.md)
-- [Public Api Integrations Is Connected](reference/public-api_integrations_is-connected.md)
-- [Public Api Integrations List](reference/public-api_integrations_list.md)
-- [Public Api Introduction](reference/public-api_introduction.md)
-- [Public Api Notifications List](reference/public-api_notifications_list.md)
-- [OAuth2 Authentication](reference/public-api_oauth.md)
-- [Public Api Posts Create](reference/public-api_posts_create.md)
-- [Public Api Posts Delete By Group](reference/public-api_posts_delete-by-group.md)
-- [Public Api Posts Delete](reference/public-api_posts_delete.md)
-- [Public Api Posts List](reference/public-api_posts_list.md)
-- [Public Api Posts Missing Content](reference/public-api_posts_missing-content.md)
-- [Public Api Posts Update Release Id](reference/public-api_posts_update-release-id.md)
-- [Public Api Uploads Upload File](reference/public-api_uploads_upload-file.md)
-- [Public Api Uploads Upload From Url](reference/public-api_uploads_upload-from-url.md)
-- [Public Api Video Function](reference/public-api_video_function.md)
-- [Public Api Video Generate](reference/public-api_video_generate.md)
+- [Platform Analytics](reference/platform-analytics.md)
+- [Platform Examples](reference/platform-examples.md)
+- [Post Analytics](reference/post-analytics.md)
+- [Post to TikTok](reference/post-to-tiktok.md)
+- [Production](reference/production.md)
+- [Providers Overview](reference/providers-overview.md)
+- [Quickstart](reference/quickstart.md)
+- [R2 Configuration](reference/r2-configuration.md)
+- [Reddit Settings](reference/reddit-settings.md)
 - [Reddit](reference/reddit.md)
-- [School](reference/school.md)
+- [Regular post](reference/regular-post.md)
+- [Remove stored credentials](reference/remove-stored-credentials-2.md)
+- [Remove stored credentials](reference/remove-stored-credentials.md)
+- [Response: { "id": "img-123", "path": "https://uploads.postiz.com/photo.jpg", ... }](reference/response-id-img-123-path-https-uploads.postiz.com-photo.jpg-....md)
+- [Self-Host Gotchas](reference/self-host-gotchas.md)
+- [Skool Settings](reference/skool-settings.md)
+- [Skool](reference/skool.md)
+- [Slack Settings](reference/slack-settings.md)
 - [Slack](reference/slack.md)
-- [Tiktok](reference/tiktok.md)
-- [Twitch](reference/twitch.md)
-- [Warpcast](reference/warpcast.md)
+- [Step 1: upload the file](reference/step-1-upload-the-file.md)
+- [Step 1: Upload the image](reference/step-1-upload-the-image.md)
+- [Step 2: Create the post with the uploaded image](reference/step-2-create-the-post-with-the-uploaded-image.md)
+- [Step 2: pass id + path into the post](reference/step-2-pass-id-path-into-the-post.md)
+- [Steps to implement a new provider](reference/steps-to-implement-a-new-provider.md)
+- [Support](reference/support.md)
+- [System Requirements](reference/system-requirements.md)
+- [Telegram Settings](reference/telegram-settings.md)
+- [Telegram](reference/telegram.md)
+- [Threads Settings](reference/threads-settings.md)
+- [Threads](reference/threads.md)
+- [TikTok Settings](reference/tiktok-settings.md)
+- [TikTok](reference/tiktok.md)
+- [Tools Reference](reference/tools-reference.md)
+- [Traefik + Docker Compose](reference/traefik-docker-compose.md)
+- [Trigger a Tool](reference/trigger-a-tool.md)
+- [Troubleshooting](reference/troubleshooting.md)
+- [Twitch Settings](reference/twitch-settings.md)
+- [Update Release ID](reference/update-release-id.md)
+- [Upload File](reference/upload-file.md)
+- [Upload from URL](reference/upload-from-url.md)
+- [Upload image first](reference/upload-image-first.md)
+- [Upload the video](reference/upload-the-video.md)
+- [Upload video first](reference/upload-video-first-2.md)
+- [Upload video first](reference/upload-video-first.md)
+- [Uploads & Media](reference/uploads-media.md)
+- [Uploads & Storage](reference/uploads-storage.md)
+- [Use the returned id](reference/use-the-returned-id.md)
+- [Video Function](reference/video-function.md)
+- [VK Settings](reference/vk-settings.md)
+- [Warpcast (Farcaster) Settings](reference/warpcast-farcaster-settings.md)
+- [WebSockets, HMR, and Dev Tunnels](reference/websockets-hmr-and-dev-tunnels.md)
+- [Whop Settings](reference/whop-settings.md)
 - [Whop](reference/whop.md)
-- [Wordpress](reference/wordpress.md)
-- [X](reference/x.md)
-- [Youtube](reference/youtube.md)
-
-## 🤖 Agent Usage Guide
-
-- When the user asks anything about **Postiz Docs**, consult the reference files.
-- Prefer exact quotes and direct links to the relevant file/section.
-- The hierarchical TOC above makes navigation fast and intuitive.
-- All images and assets are preserved so links work perfectly.
+- [WordPress Settings](reference/wordpress-settings.md)
+- [X (Twitter) Settings](reference/x-twitter-settings.md)
+- [X (Twitter)](reference/x-twitter.md)
+- [YouTube Settings](reference/youtube-settings.md)
+- [YouTube](reference/youtube.md)

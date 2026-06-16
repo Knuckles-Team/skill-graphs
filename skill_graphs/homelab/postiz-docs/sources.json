@@ -1,0 +1,890 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "postiz-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-06-16T13:22:11Z",
+  "builder_version": "0.49.0",
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "llms",
+      "uri": "https://docs.postiz.com",
+      "options": {},
+      "extractor": "llms.txt",
+      "fetched_at": "2026-06-16T13:22:11Z",
+      "content_hash": "sha256:92408117ffad8db72be55275ffde05d88c5e7da29d305c5e5575a2ea60f1b81a",
+      "doc_count": 171
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/1.-find-posts-with-missing-release-ids.md",
+      "sha256": "sha256:f9ae75e65a33d3637ae69b0886b98c1be939f4b9a2cbe71447c782c2534512ca",
+      "bytes": 125
+    },
+    {
+      "path": "reference/1.-find-the-integration-id.md",
+      "sha256": "sha256:99b33a6dd2e0509c9d949691ae9aa6c3236ab76462773a65d489b459e3c03637",
+      "bytes": 124
+    },
+    {
+      "path": "reference/1.-get-available-flairs.md",
+      "sha256": "sha256:0fd5333d438c14c3d179f2bd18a59f4b8bcde267c713a120f90e51687d183cc5",
+      "bytes": 107
+    },
+    {
+      "path": "reference/1.-list-your-connected-social-media-accounts.md",
+      "sha256": "sha256:85e003e985fd9acb92ea38b1057e3843e30cd3023555bf9999eb78d8226c8ac2",
+      "bytes": 72
+    },
+    {
+      "path": "reference/1.-upload-the-file.md",
+      "sha256": "sha256:02fc00358a9dd45f2cae1b13a961b4f01cc43138141811734b20c83a5016d20b",
+      "bytes": 98
+    },
+    {
+      "path": "reference/2.-check-what-settings-and-tools-are-available.md",
+      "sha256": "sha256:fcfbd985c793aa57f740a36903fe3b909f6e08e0b150c932fccb2df4d92ffc94",
+      "bytes": 96
+    },
+    {
+      "path": "reference/2.-create-a-scheduled-post.md",
+      "sha256": "sha256:71b71b5e6c032ddd0924311f40038c51142daee7db5f990551e4ad9a51d4e066",
+      "bytes": 144
+    },
+    {
+      "path": "reference/2.-get-available-content-from-the-provider.md",
+      "sha256": "sha256:d358f123b3ac05a25481c89478d05419fe11d5a200e15fe38891e746df6f45f8",
+      "bytes": 76
+    },
+    {
+      "path": "reference/2.-post-with-a-flair.md",
+      "sha256": "sha256:88e729cb24a49cb0b8c22f3c50b7ec5ba3cd672f6b8fda9f6792c9b15a25501f",
+      "bytes": 860
+    },
+    {
+      "path": "reference/2.-use-the-url-in-a-post.md",
+      "sha256": "sha256:c5da571c3b8f5c2c618817ddf2f37603a967bf45dde88c2a4ceb967b3410b7da",
+      "bytes": 619
+    },
+    {
+      "path": "reference/3.-connect-the-correct-content.md",
+      "sha256": "sha256:2783ff7e7bd8e8ceebaa4aa9d9707eef0c3d97c70a9e74292a3efef2fad9f04e",
+      "bytes": 99
+    },
+    {
+      "path": "reference/3.-list-your-scheduled-posts.md",
+      "sha256": "sha256:e6785c3af99f04e39137574e3cba7ef3eb047ab45d9c4a9deeb96ba30496dfa6",
+      "bytes": 1816
+    },
+    {
+      "path": "reference/3.-use-tools-to-fetch-dynamic-data-e.g.-flairs.md",
+      "sha256": "sha256:13d87d7cfe99f292663ab51f28cbc5aa0292cdd76ee4377b3102f3ff6447c8ae",
+      "bytes": 141
+    },
+    {
+      "path": "reference/4.-create-a-post-with-the-discovered-settings.md",
+      "sha256": "sha256:bb82419df5f3daaf799915eec70e0c1485954e838c0df9cb5db283da73a382a7",
+      "bytes": 250
+    },
+    {
+      "path": "reference/4.-verify-analytics-now-work.md",
+      "sha256": "sha256:64f8d26ee6c8f59e15068522462a552370f64a98e13cfd71b091462a955da1ba",
+      "bytes": 764
+    },
+    {
+      "path": "reference/activation-login.md",
+      "sha256": "sha256:cb5991fe6647625dd5549ae5b457bd52d65f9d8a0247eae79444096b4ea7a38f",
+      "bytes": 2075
+    },
+    {
+      "path": "reference/analytics.md",
+      "sha256": "sha256:010c248264c2d64ad8b51dda6190557ecb88207263c3fcce9ef0b2822e77622d",
+      "bytes": 564
+    },
+    {
+      "path": "reference/api-overview.md",
+      "sha256": "sha256:47ff286bfc74529d6b0ac9db508348a473d030baac7817d1fafa5fa7cd8eb286",
+      "bytes": 10983
+    },
+    {
+      "path": "reference/authentication.md",
+      "sha256": "sha256:4b0ca9b462997e97a8f4bd2744ca9402e18327685b1870594d149ab266e75ba0",
+      "bytes": 466
+    },
+    {
+      "path": "reference/billing-cloud.md",
+      "sha256": "sha256:ae06a1a8a8a81284046ca4347b092e7323244ca4d17424c0f64de48112e22759",
+      "bytes": 1467
+    },
+    {
+      "path": "reference/bluesky-settings.md",
+      "sha256": "sha256:dee42d8e828c55ee82bd709d160b174c59a5b4e73d763e99bb297adc7000687e",
+      "bytes": 2364
+    },
+    {
+      "path": "reference/bluesky.md",
+      "sha256": "sha256:5e8ebec19396b03f7d80c78c2bcadb38a10cf29fab3c253fe96b7249297e3d63",
+      "bytes": 449
+    },
+    {
+      "path": "reference/caddy.md",
+      "sha256": "sha256:5f20f82be5fa0313b9b9bfe745aaea780be1f57342851812e2b6b96991aa9214",
+      "bytes": 1250
+    },
+    {
+      "path": "reference/change-post-status.md",
+      "sha256": "sha256:05c078b7f5fd08705e6282dcd6b83e003784405f238d67ae6af3ed3411256281",
+      "bytes": 512
+    },
+    {
+      "path": "reference/channel-limits-cloud.md",
+      "sha256": "sha256:04dce2afb447c838f2d612607ad6bdfca0e74efb9429c1fd05495b167e3745b0",
+      "bytes": 1113
+    },
+    {
+      "path": "reference/check-connection.md",
+      "sha256": "sha256:703d7a0a7cb14faa6d557948debbcc531513c348eaa28e1db0af55f9bffce7bc",
+      "bytes": 154
+    },
+    {
+      "path": "reference/check-current-auth-status-verifies-credentials-are-still-valid.md",
+      "sha256": "sha256:2212e1b85c5777d1f5987ab72243ac8580c1251f577f28d3d804958169470018",
+      "bytes": 86
+    },
+    {
+      "path": "reference/check-current-auth-status.md",
+      "sha256": "sha256:a5bfa9d27f415f6e3c2734e434dfcbf0aa9e10024b9742a885a296359d802d53",
+      "bytes": 47
+    },
+    {
+      "path": "reference/chrome-extension.md",
+      "sha256": "sha256:9f0c26a59422ad9d1c062965e15eeb0b5cdf2dd40ef813dc3e72630251765c3b",
+      "bytes": 3445
+    },
+    {
+      "path": "reference/client-setup.md",
+      "sha256": "sha256:5959c4e9745e4b52e4177c35b42bd5635bc344c0cbc4fdfe2fc3de43fb523119",
+      "bytes": 2368
+    },
+    {
+      "path": "reference/configuration-reference.md",
+      "sha256": "sha256:4e38b457d0b5bbb89efacea60e9844a367e722d0ad7cc7daf6bc7f8920f6f5ce",
+      "bytes": 22659
+    },
+    {
+      "path": "reference/connect-channel-oauth.md",
+      "sha256": "sha256:784a7e618804a47576332669dd9d337663d2b029e29943935a98ac9d65dbcda2",
+      "bytes": 370
+    },
+    {
+      "path": "reference/create-post.md",
+      "sha256": "sha256:b2c7ba7fb62b28ce2b4ab0eca5bde3fe3357230575d19787fe7b63e7703f7598",
+      "bytes": 6846
+    },
+    {
+      "path": "reference/delete-channel.md",
+      "sha256": "sha256:48080fdc6f79c62628737c138d379cc554f676b34d031f74a43c65bc82177fb6",
+      "bytes": 228
+    },
+    {
+      "path": "reference/delete-post-by-group.md",
+      "sha256": "sha256:162cbb4a3a26f86900e6b9192091f20d08e89ddf6ddb85cbcae49a42e1b3bbdf",
+      "bytes": 170
+    },
+    {
+      "path": "reference/delete-post.md",
+      "sha256": "sha256:fe14f3a5e5c4f8c22d9c40ad99c69b0ec89b897d655e3e543d91b513d830a851",
+      "bytes": 185
+    },
+    {
+      "path": "reference/dev-container.md",
+      "sha256": "sha256:0fa1e3b5a80c84723b43b98a3cd67dcf0d1778d5a7ef4d2d192709404ebc0483",
+      "bytes": 212
+    },
+    {
+      "path": "reference/dev.to-settings.md",
+      "sha256": "sha256:32e8cd143e9737c110adb8891186b498b27c65088a356a8bda4694f977725e4c",
+      "bytes": 2582
+    },
+    {
+      "path": "reference/developer-guide.md",
+      "sha256": "sha256:b7aa2cf1a2623b963e671fb7e852749975b55a337521669a6e3121382371d818",
+      "bytes": 2283
+    },
+    {
+      "path": "reference/development-environment.md",
+      "sha256": "sha256:26a80eb8dc145d901005c9190303ebd11a543824fbe1a664d2f5c00ca98e8014",
+      "bytes": 6894
+    },
+    {
+      "path": "reference/development.md",
+      "sha256": "sha256:e0461d482e6003c4397f95db1ebd8c2193220be80c0b22825c0938fe501325cd",
+      "bytes": 23
+    },
+    {
+      "path": "reference/discord-settings.md",
+      "sha256": "sha256:6fcfda8a253a74b27ec839eff06922d59283c08105f4dacbc5fb7e8a91155f86",
+      "bytes": 3050
+    },
+    {
+      "path": "reference/discord.md",
+      "sha256": "sha256:03850bf666a97cf2219635030105894d00bef68db40bf27e9ff1ef24811bb55d",
+      "bytes": 2354
+    },
+    {
+      "path": "reference/docker-compose-configuration.md",
+      "sha256": "sha256:ca92707aedef38bf2fd79d6082db7d48c053a13baf8220df02b4cbdc1376cd45",
+      "bytes": 1427
+    },
+    {
+      "path": "reference/docker-compose.md",
+      "sha256": "sha256:051085c34d93687a905f81983ac52583fb4093d6de82b189d8680ce94365ad5c",
+      "bytes": 3447
+    },
+    {
+      "path": "reference/docker.md",
+      "sha256": "sha256:36f86a98b2b264bb5c6f1bdc06c5589803f0714bd1f4b01c16a3121451bd6c8e",
+      "bytes": 1762
+    },
+    {
+      "path": "reference/dribbble-settings.md",
+      "sha256": "sha256:abb2eebaed3e838e117cc8cae558d2a436fb2188aadbdcc23df267c2c105b14b",
+      "bytes": 3563
+    },
+    {
+      "path": "reference/dribbble.md",
+      "sha256": "sha256:4ed51c72c04ca22da4061195ccb1de85787cdb91fb03b7d262769f7f7c1ffaa6",
+      "bytes": 1334
+    },
+    {
+      "path": "reference/email-notifications.md",
+      "sha256": "sha256:1539bfc1f246570102a61d5403e90978d6150a03f4ec6e02f37b8d9106a867c2",
+      "bytes": 1558
+    },
+    {
+      "path": "reference/examples.md",
+      "sha256": "sha256:f8bf23f0de43cd63b61cb83235560f4e4c91ebd21c1479b2bb26122d61480cf8",
+      "bytes": 9613
+    },
+    {
+      "path": "reference/facebook-settings.md",
+      "sha256": "sha256:8e9457a87f9dd5f1955d8c075bb07108682d230aeb8a9dc55ac6744d299879ad",
+      "bytes": 2421
+    },
+    {
+      "path": "reference/facebook.md",
+      "sha256": "sha256:d5feabc1b0aaf6bd72b8e310dc39da7724b8917b7b692e4f9397b361664e7fe6",
+      "bytes": 3475
+    },
+    {
+      "path": "reference/farcaster.md",
+      "sha256": "sha256:0c3299f86db05a5827dfce561df6569acebb831342b418b4b67ba37b6eeb6322",
+      "bytes": 1204
+    },
+    {
+      "path": "reference/find-a-group-by-name-then-list-its-integrations.md",
+      "sha256": "sha256:e586ef98f089802036d717d1e5cf10fc9922b054130afb466aefcdb663221f58",
+      "bytes": 2001
+    },
+    {
+      "path": "reference/find-a-specific-platform.md",
+      "sha256": "sha256:7c951c04a0a874ffe23edb596078914625371e69b5e35b679b7cb0def1d9ada1",
+      "bytes": 590
+    },
+    {
+      "path": "reference/find-an-audio-id.md",
+      "sha256": "sha256:c8cfebdca8f560b1e004b479c88c15f9ae5efb571346976256a35e6146e9645d",
+      "bytes": 2409
+    },
+    {
+      "path": "reference/find-available-slot.md",
+      "sha256": "sha256:4d18993ff53ecbb6ed8dc9ccf9fcb968eafe6ef20890e60fe694fe47b2d05fe2",
+      "bytes": 177
+    },
+    {
+      "path": "reference/generate-video.md",
+      "sha256": "sha256:03631cc260c6d159b2cc1ec6280cda0235dc6e117a3dcf8320035a5b30dea814",
+      "bytes": 140
+    },
+    {
+      "path": "reference/get-just-the-follower-count-trend.md",
+      "sha256": "sha256:a09961736db3e9ab03c2cb11759c5bfa60c73d31c1646eba32a0eae33fbc81c2",
+      "bytes": 124
+    },
+    {
+      "path": "reference/get-just-the-ids-and-platform-names.md",
+      "sha256": "sha256:f40dc6e46be854fda966403c6054620e1cf4c472ac60a336fd3b5bef6b01f635",
+      "bytes": 119
+    },
+    {
+      "path": "reference/get-missing-content.md",
+      "sha256": "sha256:a01f7d420f62e821730b9fcd9280e3ec65f6bad61efa0daf080ebc66d680dc7e",
+      "bytes": 471
+    },
+    {
+      "path": "reference/get-percentage-changes-for-all-metrics.md",
+      "sha256": "sha256:f71ebb19fc87a952af1cf793f37ef6d01e4b7fa089196c32900b00b5d09b2709",
+      "bytes": 121
+    },
+    {
+      "path": "reference/get-settings-tools.md",
+      "sha256": "sha256:1b1802ac6c0b2481cb63f40e850308862039195052c0b8d5c93949be0489c7f6",
+      "bytes": 318
+    },
+    {
+      "path": "reference/get-the-integration-id.md",
+      "sha256": "sha256:4a776a419fec4c35e7beece965ded2380478a52ac3daca1272ccae62dd10f0ca",
+      "bytes": 113
+    },
+    {
+      "path": "reference/get-the-latest-total-for-each-post-metric.md",
+      "sha256": "sha256:bb7daea0b5b8e44e8e85888b2d8fa3c3ea286087ab098b5bf36783ffc360d44a",
+      "bytes": 124
+    },
+    {
+      "path": "reference/google-my-business-settings.md",
+      "sha256": "sha256:1f7f73feb0890c74ce60faa9d0466a0a2d3eed8d4a3ed32cd7d6adfac712b02f",
+      "bytes": 4390
+    },
+    {
+      "path": "reference/google-my-business.md",
+      "sha256": "sha256:9e2217d5c257b375a629b2d6bc6c00ad5906dd1e7413aed450b58ea379edeb0f",
+      "bytes": 4958
+    },
+    {
+      "path": "reference/hashnode-settings.md",
+      "sha256": "sha256:2f4022f68ad0f89b42e4f849d42918f38c41d5b3550469e0af07da669de09e03",
+      "bytes": 2713
+    },
+    {
+      "path": "reference/helm.md",
+      "sha256": "sha256:64eda48365fe8f83aa8c5311f0a16c2f1ef7d7b360599d7f597ae97fe449b6ee",
+      "bytes": 1046
+    },
+    {
+      "path": "reference/how-it-works.md",
+      "sha256": "sha256:b6ab24fa786e26ef6b0577e91a057892c8c3170d9290e1d4916fb480c81911bb",
+      "bytes": 2968
+    },
+    {
+      "path": "reference/how-to-add-a-new-provider.md",
+      "sha256": "sha256:768cf0ccc487b838bdfa3986a15fc9713f42cbec073c8c70ae209c3c089b92d2",
+      "bytes": 127
+    },
+    {
+      "path": "reference/image-video-editing-polotno.md",
+      "sha256": "sha256:e2d175218fbebe3f1e3c6e1b1772ff864e83f6c1d6ad8285e2f7be87468ddd7a",
+      "bytes": 2551
+    },
+    {
+      "path": "reference/instagram-settings.md",
+      "sha256": "sha256:4298a5f017c5d4332779e8c9811a0bdfb65dd85fd68009191d3be733d8821907",
+      "bytes": 8371
+    },
+    {
+      "path": "reference/instagram-standalone-settings.md",
+      "sha256": "sha256:b7ac644257a5d0f6d1e9edd4721ac2d2060b1b6b16b77d607cec070769f8366c",
+      "bytes": 3047
+    },
+    {
+      "path": "reference/instagram.md",
+      "sha256": "sha256:ac62d066bc87031bbc99a9140d9537beb22c1df158a530fe658699a8f76656e1",
+      "bytes": 7249
+    },
+    {
+      "path": "reference/integrations.md",
+      "sha256": "sha256:63fcde5f6ea775f75c8eb45b2e910a377de58a973fbf55401f9f8118f0101b9b",
+      "bytes": 369
+    },
+    {
+      "path": "reference/introduction-2.md",
+      "sha256": "sha256:89ef6734fe4f7773fb48224aeefb1104b3a62140bde8c1e495bf1fc372a51dd9",
+      "bytes": 1041
+    },
+    {
+      "path": "reference/introduction-3.md",
+      "sha256": "sha256:2d87479db93bc42751c9fc4095232da13191374096f4f602f60616f01be96158",
+      "bytes": 5083
+    },
+    {
+      "path": "reference/introduction.md",
+      "sha256": "sha256:0722aa02d047836f4bf90f1d91e09fcdf93df8b696b23a37184c4f258bec4a03",
+      "bytes": 1518
+    },
+    {
+      "path": "reference/kick-settings.md",
+      "sha256": "sha256:efeb8bc33e28c4ab5dd4baddf509f769387524322a55c9e65b5ac82b1e44320a",
+      "bytes": 2113
+    },
+    {
+      "path": "reference/known-issues.md",
+      "sha256": "sha256:64e72ad32fc634937aa06d315ca1edc2778616f1fb15a68b50c10b2a4239bcfb",
+      "bytes": 3278
+    },
+    {
+      "path": "reference/last-30-days-2.md",
+      "sha256": "sha256:68ae89a247f636ba5b834ffedf2442a22415102745769e21aa431a0e8414a2df",
+      "bytes": 714
+    },
+    {
+      "path": "reference/last-30-days.md",
+      "sha256": "sha256:1df065dae172174ec0f2f940900f0b1e6512aae2ce6103be8e1b9092daafd88f",
+      "bytes": 67
+    },
+    {
+      "path": "reference/last-7-days-default-2.md",
+      "sha256": "sha256:42f29be262a13f21e36df5def0e6a2ca8c245f31625a34a1f7ba2acf9a12ec8a",
+      "bytes": 59
+    },
+    {
+      "path": "reference/last-7-days-default.md",
+      "sha256": "sha256:29beeb46e1456c3978064e6cfc9e4dedd8f5fae331753409c3fcc870c71e2abf",
+      "bytes": 70
+    },
+    {
+      "path": "reference/last-90-days.md",
+      "sha256": "sha256:755e0b3640a5c4f5dba57734a60e0f1b97a30cf02c25e17b8e99969fa7edf8f1",
+      "bytes": 1108
+    },
+    {
+      "path": "reference/lemmy-settings.md",
+      "sha256": "sha256:2a30d75395040445ea7b136e33878626e78ae9faed058f6e476b873edc791264",
+      "bytes": 2249
+    },
+    {
+      "path": "reference/linkedin-page-settings.md",
+      "sha256": "sha256:16c89efb788702310d1b4ab809ff4ab261a424667d04d97c9fe663e015e97094",
+      "bytes": 2019
+    },
+    {
+      "path": "reference/linkedin-page.md",
+      "sha256": "sha256:1df3642a3c84c29238defcd7b0941f0adc413072047294750415ae083365a42f",
+      "bytes": 2131
+    },
+    {
+      "path": "reference/linkedin-settings.md",
+      "sha256": "sha256:942cecf9dd71bcc750ac24d559da5c1941e529c338543602e5a03d1bfd0e5979",
+      "bytes": 3376
+    },
+    {
+      "path": "reference/linkedin.md",
+      "sha256": "sha256:8995a03a3d38fe2481987de2061a031112a0cb7b86e5c288f4e303affea505a3",
+      "bytes": 1474
+    },
+    {
+      "path": "reference/list-groups-customers.md",
+      "sha256": "sha256:5e7d0340eddd89a5dc3ca121a6c1666ad6a8950462df6e8d44e86696796a4c6c",
+      "bytes": 204
+    },
+    {
+      "path": "reference/list-integrations.md",
+      "sha256": "sha256:02482137469a3ec796a56b0d6fbb2014cbb32327662bb39a005d530eff11e45f",
+      "bytes": 167
+    },
+    {
+      "path": "reference/list-notifications.md",
+      "sha256": "sha256:79a8c237423f4649e4d36e1ffee188f84c44c11efad048a72d5a01ccd594226c",
+      "bytes": 219
+    },
+    {
+      "path": "reference/list-posts.md",
+      "sha256": "sha256:b36874ad66a9aae04e8d8ae291d696dd4e6c3ad6b5ba6fb816b6f0db0b8e7933",
+      "bytes": 110
+    },
+    {
+      "path": "reference/listmonk-settings.md",
+      "sha256": "sha256:fb9c5b77e76c101d21dc6918701eaf75e0511c5b9102965631ceaf13e7eb4860",
+      "bytes": 2012
+    },
+    {
+      "path": "reference/managing-posts.md",
+      "sha256": "sha256:20c33bf80f81550f24931775035e682f23a8af87b3667f8a9c962e626ede252f",
+      "bytes": 5098
+    },
+    {
+      "path": "reference/mastodon-settings.md",
+      "sha256": "sha256:907bc7bb2099e821cc38706aa1769b372888f64ba047bb31af4bf5b93b37198d",
+      "bytes": 2482
+    },
+    {
+      "path": "reference/mastodon.md",
+      "sha256": "sha256:d3d1bd921e4d9668f5f31ceb236b9fe119983207092d99d7e6af3d4c86a736c3",
+      "bytes": 3386
+    },
+    {
+      "path": "reference/media-upload.md",
+      "sha256": "sha256:ce86dd49fe83c3ff5b70d40f9968f89839c89278d0ee0fcb0b43603513fce55e",
+      "bytes": 668
+    },
+    {
+      "path": "reference/medium-settings.md",
+      "sha256": "sha256:504ff1f7b3aa30c34d8db745e3b4bfa98311af8403805129fae6d993c63b8294",
+      "bytes": 2459
+    },
+    {
+      "path": "reference/mewe.md",
+      "sha256": "sha256:fe1b78e3df0fcd457514f91e4d78dbf865cb55cd43ee650eb3cbfb4703ee3ffb",
+      "bytes": 2924
+    },
+    {
+      "path": "reference/migration-to-temporal.md",
+      "sha256": "sha256:43b075c444134fcfc936b14614a25bba65ca648a4590da1aa916b886cc5e6425",
+      "bytes": 1478
+    },
+    {
+      "path": "reference/moltbook-settings.md",
+      "sha256": "sha256:2a69c637670c9bc1b5d66da2e5e01a95f7c934094e6ace005eba5ca5ea20ce15",
+      "bytes": 1094
+    },
+    {
+      "path": "reference/nginx.md",
+      "sha256": "sha256:3cd055bff209e89bede7b34ba8e857f7b5dd430ad87d633da77e38e4de039860",
+      "bytes": 9152
+    },
+    {
+      "path": "reference/nostr-settings.md",
+      "sha256": "sha256:bd3d60bff2aec71d0399840e6b7b566e22ab573cf4dd62b5c7b7d60d04f9c572",
+      "bytes": 1764
+    },
+    {
+      "path": "reference/oauth-channel-connect-errors.md",
+      "sha256": "sha256:526cd1a2d1be230629dc1cea95c738b2846243db3ee87334e5e64e042da87ff2",
+      "bytes": 3638
+    },
+    {
+      "path": "reference/oauth2-authentication.md",
+      "sha256": "sha256:a48317c90434f3070db01c32369d947910c636722cb2d7ac62cb07eca74750e7",
+      "bytes": 9604
+    },
+    {
+      "path": "reference/oidc-configuration.md",
+      "sha256": "sha256:164df2ec5f30ddfccaa00da170ab21456e86bc9d73a21fe744b2f011cbceb8f4",
+      "bytes": 2959
+    },
+    {
+      "path": "reference/or-explicitly.md",
+      "sha256": "sha256:68f296c4c67cf1124964e0ff42e092e953ae1772e95e63682f5d65d060005f74",
+      "bytes": 1636
+    },
+    {
+      "path": "reference/or.md",
+      "sha256": "sha256:eb2a87a94cba4d7ea71210525a9d297bfdbad7346fcd0069e4813f66023c1c3a",
+      "bytes": 2364
+    },
+    {
+      "path": "reference/pinterest-settings.md",
+      "sha256": "sha256:42c60f1e00bb9a8d42a1e4689bf1c9e70caa142cc5c600f99078ebd17c0a3694",
+      "bytes": 3322
+    },
+    {
+      "path": "reference/pinterest.md",
+      "sha256": "sha256:52c7af63de8ad93810c028369dc9e998b15c86f3c6df9ee1d482b70efcbbdc9b",
+      "bytes": 1227
+    },
+    {
+      "path": "reference/platform-analytics.md",
+      "sha256": "sha256:5339b2dd3219f3e66dc6fa300957f469d08c178068eded4d655a1a6560f28881",
+      "bytes": 613
+    },
+    {
+      "path": "reference/platform-examples.md",
+      "sha256": "sha256:1de844f851adbfe8cac4ac707435e80a39cc22a0b3128f05653ee5ef8fd03fad",
+      "bytes": 771
+    },
+    {
+      "path": "reference/post-analytics.md",
+      "sha256": "sha256:85a1d170ef3b7df84fe0f34b9cf2cd1ccd3ca8c6676fe9b32a1947e05dcb1d92",
+      "bytes": 246
+    },
+    {
+      "path": "reference/post-to-tiktok.md",
+      "sha256": "sha256:9a0165514c9f49965c1116892d41c1ccafe5be045811d70a01d101b00a122fc5",
+      "bytes": 203
+    },
+    {
+      "path": "reference/production.md",
+      "sha256": "sha256:84019e80a61d25b0a1dd6fd6ab5abe54bbf2a7579e98b63e876a2e367131aaf2",
+      "bytes": 1406
+    },
+    {
+      "path": "reference/providers-overview.md",
+      "sha256": "sha256:f4baaddb463a8e4e49da46f3ca58fa56fe342888b6300271beadb627917e769d",
+      "bytes": 4150
+    },
+    {
+      "path": "reference/quickstart.md",
+      "sha256": "sha256:c764e496a2d94f9def53ee681e48e5be8a086b0b4e0b8baf51dafc5da02e574c",
+      "bytes": 785
+    },
+    {
+      "path": "reference/r2-configuration.md",
+      "sha256": "sha256:c90447e8d65f78d7ff396014a876ffe269ec05eb8627193183d985961e41c6a0",
+      "bytes": 2764
+    },
+    {
+      "path": "reference/reddit-settings.md",
+      "sha256": "sha256:834c35ef36226e74c30a3feed10720857523d3a18495606bff649362bec21d78",
+      "bytes": 5690
+    },
+    {
+      "path": "reference/reddit.md",
+      "sha256": "sha256:41900212df505f950b3f1b7d5dec1359cf3ca60994dacd48dabf7c2cf77910bf",
+      "bytes": 943
+    },
+    {
+      "path": "reference/regular-post.md",
+      "sha256": "sha256:27de12920bcea38c8580a47770ae7d2f34d06b92b494dc9052fa84fb634acbfd",
+      "bytes": 822
+    },
+    {
+      "path": "reference/remove-stored-credentials-2.md",
+      "sha256": "sha256:d2a9bfdeb864bc4889ce350ccb3a11aae0809999baf37a371d14c06efbbd1c16",
+      "bytes": 936
+    },
+    {
+      "path": "reference/remove-stored-credentials.md",
+      "sha256": "sha256:1cc976575e077913d81622173c235b7e46eaaf51ffd45c8124b60e30f34c5051",
+      "bytes": 4312
+    },
+    {
+      "path": "reference/response-id-img-123-path-https-uploads.postiz.com-photo.jpg-....md",
+      "sha256": "sha256:1eca1eddfeff9776507158959ab44552c21b64e1b37e3a15ae9681b4a103cdd6",
+      "bytes": 85
+    },
+    {
+      "path": "reference/self-host-gotchas.md",
+      "sha256": "sha256:589cc59df9e86ea93087ae083785446ecbaf775a53deb12c333d31b1dc18eac0",
+      "bytes": 3942
+    },
+    {
+      "path": "reference/skool-settings.md",
+      "sha256": "sha256:88a08c112d4bd3ce5c8eed55f841b683a1da83aa7a16a188d2e3fb79b00a4b82",
+      "bytes": 3714
+    },
+    {
+      "path": "reference/skool.md",
+      "sha256": "sha256:09e1d906ec1de905c19443f00d69dff6f8b575aeadad16efc80bfe36884adbe0",
+      "bytes": 2973
+    },
+    {
+      "path": "reference/slack-settings.md",
+      "sha256": "sha256:33c5907d73df8664f234e805a3b6b8b5fc945cfd57f40370cbb0e97ddc333e45",
+      "bytes": 3042
+    },
+    {
+      "path": "reference/slack.md",
+      "sha256": "sha256:35f54db2aa68f7303e86e13665b138713c659455d1667cc6fdecd31c2d50e544",
+      "bytes": 1522
+    },
+    {
+      "path": "reference/step-1-upload-the-file.md",
+      "sha256": "sha256:fe70f8a52637754b96cabe541740895a96d4f01056d9a60b418a9d25856b8086",
+      "bytes": 143
+    },
+    {
+      "path": "reference/step-1-upload-the-image.md",
+      "sha256": "sha256:464078fb810774e115f10ca6f383dbfdff11b1d6dbbd80c56e4d8fa4d5a8da39",
+      "bytes": 144
+    },
+    {
+      "path": "reference/step-2-create-the-post-with-the-uploaded-image.md",
+      "sha256": "sha256:cdecae34e81ba273b094e7e2d195ce905363376d18e59906db77433730470326",
+      "bytes": 1846
+    },
+    {
+      "path": "reference/step-2-pass-id-path-into-the-post.md",
+      "sha256": "sha256:3ae3ca72df8d40a6adad8e43571098f2ed0351f5427d337c2c83d00cf169a1b5",
+      "bytes": 1432
+    },
+    {
+      "path": "reference/steps-to-implement-a-new-provider.md",
+      "sha256": "sha256:d537fc6ec572a60379978ccd0ad7f91d05cf6c6e53382ec20bca0e4d7c81f0d4",
+      "bytes": 4907
+    },
+    {
+      "path": "reference/support.md",
+      "sha256": "sha256:68bb5fad83eedf8cccf7ceac702720562e2a92cf9d21234fc27a18f8b2d0ba16",
+      "bytes": 2510
+    },
+    {
+      "path": "reference/system-requirements.md",
+      "sha256": "sha256:ce8973af25eda4aae8b4ae6a4e424339b87b6003e8021e2a003464139f34524e",
+      "bytes": 5347
+    },
+    {
+      "path": "reference/telegram-settings.md",
+      "sha256": "sha256:d5aadce3a59fac6b026300be67c5a7fbe5962846670b9e078b513dc06eb3f27c",
+      "bytes": 1796
+    },
+    {
+      "path": "reference/telegram.md",
+      "sha256": "sha256:06c9c75926e9ecd6d41ae9277497a4049c13be704ea7ded69c1faf0524653587",
+      "bytes": 2929
+    },
+    {
+      "path": "reference/threads-settings.md",
+      "sha256": "sha256:78eb3ccc443a0c209995ca17326e7e976d669c68948772d13aac473dd1cb6763",
+      "bytes": 2346
+    },
+    {
+      "path": "reference/threads.md",
+      "sha256": "sha256:7cdf749bef9b9893b1489c86bdfa150ded5096f3e07a76fb380e7d57dbbcb894",
+      "bytes": 5488
+    },
+    {
+      "path": "reference/tiktok-settings.md",
+      "sha256": "sha256:f724937ce16a28896cbea198c4d571e6ef607d66e8ae5eeeb237e2cf307e96a8",
+      "bytes": 4867
+    },
+    {
+      "path": "reference/tiktok.md",
+      "sha256": "sha256:57f2b1ae29e9cc6e63e7d6bd7f54a8b82993bf4ffd64169e24afa370d99dcd65",
+      "bytes": 3971
+    },
+    {
+      "path": "reference/tools-reference.md",
+      "sha256": "sha256:8a7af76ce94c1a9d280c9b7699347ed174e24ef5d170962563ef043780c5e8ac",
+      "bytes": 11821
+    },
+    {
+      "path": "reference/traefik-docker-compose.md",
+      "sha256": "sha256:17981b0afdecffa9376a39fd123c542f21c3b9a9c35e02128bb727fe8fd0e1bd",
+      "bytes": 1292
+    },
+    {
+      "path": "reference/trigger-a-tool.md",
+      "sha256": "sha256:1a050748dc5a1344c3bd3c006a83dbddc6e3a921e5468ce6c97baaf844211a8e",
+      "bytes": 799
+    },
+    {
+      "path": "reference/troubleshooting.md",
+      "sha256": "sha256:722fc4e69d410e81dcb9c1ccefc52ce7a9b904dc46654c35deb0db4a4e416304",
+      "bytes": 2132
+    },
+    {
+      "path": "reference/twitch-settings.md",
+      "sha256": "sha256:43f5d5cc4c203e46ca9606a919d91c64509ae41bf76e6da48865e1fc9ec7fd53",
+      "bytes": 3419
+    },
+    {
+      "path": "reference/update-release-id.md",
+      "sha256": "sha256:91285d2196cc5350f2c6e3fab2772a882773177f2a453b86b0e5eea0d85e4ca1",
+      "bytes": 435
+    },
+    {
+      "path": "reference/upload-file.md",
+      "sha256": "sha256:f01b8d81177e1ed594db4813b3a43063a54567d9cc67789c6967e771e1d2bc81",
+      "bytes": 1245
+    },
+    {
+      "path": "reference/upload-from-url.md",
+      "sha256": "sha256:d91b85341696093e2a33c4ab3c064532229bf66b2c90fcee06e0e6cb5130c4a5",
+      "bytes": 1539
+    },
+    {
+      "path": "reference/upload-image-first.md",
+      "sha256": "sha256:215e9ebac1f789177ff344b242ad0a203cfbf2af16acf07a09ffc8ad6e4e665b",
+      "bytes": 97
+    },
+    {
+      "path": "reference/upload-the-video.md",
+      "sha256": "sha256:d04faaf95429931fd451f3f51c2b703424e8dd235cbd74eddd6bfb34f6025516",
+      "bytes": 95
+    },
+    {
+      "path": "reference/upload-video-first-2.md",
+      "sha256": "sha256:8d6f9efcfa9bdd5da0e57409d9283de77ba83db59438b1366933ae10912a53b4",
+      "bytes": 339
+    },
+    {
+      "path": "reference/upload-video-first.md",
+      "sha256": "sha256:bc20d9fb906e01fa124cf22887571c000d9ba9fd86de8213d628232852e67992",
+      "bytes": 358
+    },
+    {
+      "path": "reference/uploads-media.md",
+      "sha256": "sha256:7fbbdc3f7067751cd1c8fdd6cfbf8c4263e12cff2e9d9d54316364ef65ae21ee",
+      "bytes": 1589
+    },
+    {
+      "path": "reference/uploads-storage.md",
+      "sha256": "sha256:0f075dae7a76b5d1389fac7af7cf84fdec50a44cec1010e8836df2f8b76c80ed",
+      "bytes": 378
+    },
+    {
+      "path": "reference/use-the-returned-id.md",
+      "sha256": "sha256:052a0e5aa1ba518c1a838ad5cf27ba65350ce75cac6b2461767458f6cf82909c",
+      "bytes": 525
+    },
+    {
+      "path": "reference/video-function.md",
+      "sha256": "sha256:5f99dda3ba990b260cb695e77ecc74913381f60296a45f33341664ebd53f8f66",
+      "bytes": 342
+    },
+    {
+      "path": "reference/vk-settings.md",
+      "sha256": "sha256:f111e6091af7bf4977141bee2ee36b6337abad8f993bb94e4d3861d92e88add6",
+      "bytes": 1742
+    },
+    {
+      "path": "reference/warpcast-farcaster-settings.md",
+      "sha256": "sha256:0c02cc015bbfcb9c6d39a1baa92256e940714b5af17ad206a667077132d2e0a6",
+      "bytes": 3656
+    },
+    {
+      "path": "reference/websockets-hmr-and-dev-tunnels.md",
+      "sha256": "sha256:99783f2a1675a1741d34ea645889540099c74e3c9d0dfedd229c80fe8f3e2761",
+      "bytes": 2367
+    },
+    {
+      "path": "reference/whop-settings.md",
+      "sha256": "sha256:45c3b743725f380b602c64ae65f575847993b38401e0b3b33ab561e0809fd997",
+      "bytes": 3307
+    },
+    {
+      "path": "reference/whop.md",
+      "sha256": "sha256:389f94438bf7a8e055b812175fe31d935a4cf220a477e390fcb990237b13651b",
+      "bytes": 2740
+    },
+    {
+      "path": "reference/wordpress-settings.md",
+      "sha256": "sha256:3c01b879381325e041331a44e377ebd5aa26db97842878decbd1500400a3235b",
+      "bytes": 2055
+    },
+    {
+      "path": "reference/x-twitter-settings.md",
+      "sha256": "sha256:92ea5e843e0151c8e427b3ed5e92cc4bf0af279eba04e29281fa8527dc171980",
+      "bytes": 3165
+    },
+    {
+      "path": "reference/x-twitter.md",
+      "sha256": "sha256:5d5a5b6acb2bd7dfe4ccb8bca20ac9f6f4bf3f860818455b79d402c6a2d772fb",
+      "bytes": 3176
+    },
+    {
+      "path": "reference/youtube-settings.md",
+      "sha256": "sha256:1b9e6cd4999ff2421b91fe513cf98adf1232f129258576871318bb91217ca302",
+      "bytes": 4253
+    },
+    {
+      "path": "reference/youtube.md",
+      "sha256": "sha256:30404a11c8aa1533d7f79c267e882fcdfd7163774b686ea4bdb98dbb2f21c6d1",
+      "bytes": 3504
+    }
+  ],
+  "stats": {
+    "file_count": 171,
+    "source_count": 1
+  },
+  "scrape_profile": {
+    "url": "https://docs.postiz.com/public-api/",
+    "root": "https://docs.postiz.com",
+    "strategy": "llms",
+    "signal": "llms-full.txt",
+    "scope": "https://docs.postiz.com"
+  }
+}

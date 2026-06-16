@@ -1,0 +1,32 @@
+# Helm
+Source: https://docs.postiz.com/installation/kubernetes-helm
+
+Install Postiz using Kubernetes and Helm
+
+<Snippet />
+
+<Snippet />
+
+<Snippet />
+
+## The Helm Chart
+
+Postiz has a helm chart that is in very active development. You can find it here;
+
+Note that this is a OCI compliant helm chart, meaning that you don't do `helm repo add`, and if you are using Flux or Helm, you must set them to OCI mode.
+
+[https://github.com/gitroomhq/postiz-helmchart](https://github.com/gitroomhq/postiz-helmchart)
+
+The `values.yml` file can be found in the repository, or a direct link to it is: [https://github.com/gitroomhq/postiz-helmchart/blob/main/charts/postiz/values.yaml](https://github.com/gitroomhq/postiz-helmchart/blob/main/charts/postiz/values.yaml)
+
+## Next Steps
+
+<CardGroup>
+  <Card title="Providers" icon="plug" href="/providers/overview">
+    Set up providers such as LinkedIn, X and Reddit
+  </Card>
+
+  <Card title="Architecture" icon="diagram-project" href="/howitworks">
+    Learn the architecture of the project
+  </Card>
+</CardGroup>

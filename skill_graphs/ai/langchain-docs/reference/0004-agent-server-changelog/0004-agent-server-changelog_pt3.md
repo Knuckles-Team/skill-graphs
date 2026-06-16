@@ -1,0 +1,686 @@
+
+  Added an option to enable message streaming from subgraph events, giving users more control over event notifications.
+</Update>
+
+<Update label="2025-10-21">
+  ## v0.4.45
+
+  * Implemented support for authorization on custom routes, controlled by the `enable_custom_route_auth` flag.
+  * Set default tracing to off for improved performance and simplified debugging.
+</Update>
+
+<Update label="2025-10-18">
+  ## v0.4.44
+
+  Used Redis key prefix for license-related keys to prevent conflicts with existing setups.
+</Update>
+
+<Update label="2025-10-16">
+  ## v0.4.43
+
+  Implemented a health check for Redis connections to prevent them from idling out.
+</Update>
+
+<Update label="2025-10-15">
+  ## v0.4.40
+
+  * Prevented duplicate messages in resumable run and thread streams by addressing a race condition and adding tests to ensure consistent behavior.
+  * Ensured that runs don't start until the pubsub subscription is confirmed to prevent message drops on startup.
+  * Renamed platform from langgraph to improve clarity and branding.
+  * Reset PostgreSQL connections after use to prevent lock holding and improved error reporting for transaction issues.
+</Update>
+
+<Update label="2025-10-10">
+  ## v0.4.39
+
+  * Upgraded `hono` from version 4.7.6 to 4.9.7, addressing a security issue related to the `bodyLimit` middleware.
+  * Allowed customization of the base authentication URL to enhance flexibility.
+  * Pinned the 'ty' dependency to a stable version using 'uv' to prevent unexpected linting failures.
+</Update>
+
+<Update label="2025-10-08">
+  ## v0.4.38
+
+  * Replaced `LANGSMITH_API_KEY` with `LANGSMITH_CONTROL_PLANE_API_KEY` to support hybrid deployments requiring license verification.
+  * Introduced self-hosted log ingestion support, configurable via `SELF_HOSTED_LOGS_ENABLED` and `SELF_HOSTED_LOGS_ENDPOINT` environment variables.
+</Update>
+
+<Update label="2025-10-06">
+  ## v0.4.37
+
+  Required create permissions for copying threads to ensure proper authorization.
+</Update>
+
+<Update label="2025-10-03">
+  ## v0.4.36
+
+  * Improved error handling and added a delay to the sweep loop for smoother operation during Redis downtime or cancellation errors.
+  * Updated the queue entrypoint to start the core-api gRPC server when `FF_USE_CORE_API` is enabled.
+  * Introduced checks for invalid configurations in assistant endpoints to ensure consistency with other endpoints.
+</Update>
+
+<Update label="2025-10-02">
+  ## v0.4.35
+
+  * Resolved a timezone issue in the core API, ensuring accurate time data retrieval.
+  * Introduced a new `middleware_order` setting to apply authentication middleware before custom middleware, allowing finer control over protected route configurations.
+  * Logged the Redis URL when errors occur during Redis client creation.
+  * Improved Go engine/runtime context propagation to ensure consistent execution flow.
+  * Removed the unnecessary `assistants.put` call from the executor entrypoint to streamline the process.
+</Update>
+
+<Update label="2025-10-01">
+  ## v0.4.34
+
+  Blocked unauthorized users from updating thread TTL settings to enhance security.
+</Update>
+
+<Update label="2025-10-01">
+  ## v0.4.33
+
+  * Improved error handling for Redis locks by logging `LockNotOwnedError` and extending initial pool migration lock timeout to 60 seconds.
+  * Updated the BaseMessage schema to align with the latest langchain-core version and synchronized build dependencies for consistent local development.
+</Update>
+
+<Update label="2025-09-30">
+  ## v0.4.32
+
+  * Added a GO persistence layer to the API image, enabling GRPC server operation with PostgreSQL support and enhancing configurability.
+  * Set the status to error when a timeout occurs to improve error handling.
+</Update>
+
+<Update label="2025-09-30">
+  ## v0.4.30
+
+  * Added support for context when using `stream_mode="events"` and included new tests for this functionality.
+  * Added support for overriding the server port using `$LANGGRAPH_SERVER_PORT` and removed an unnecessary Dockerfile `ARG` for cleaner configuration.
+  * Applied authorization filters to all table references in thread delete CTE to enhance security.
+  * Introduced self-hosted metrics ingestion capability, allowing metrics to be sent to an OTLP collector every minute when the corresponding environment variables are set.
+  * Ensured that the `set_latest` function properly updates the name and description of the version.
+</Update>
+
+<Update label="2025-09-26">
+  ## v0.4.29
+
+  Ensured proper cleanup of redis pubsub connections in all scenarios.
+</Update>
+
+<Update label="2025-09-25">
+  ## v0.4.28
+
+  * Added a format parameter to the queue metrics server for enhanced customization.
+  * Corrected `MOUNT_PREFIX` environment variable usage in CLI for consistency with documentation and to prevent confusion.
+  * Added a feature to log warnings when messages are dropped due to no subscribers, controllable via a feature flag.
+  * Added support for Bookworm and Bullseye distributions in Node images.
+  * Consolidated executor definitions by moving them from the `langgraph-go` repository, improving manageability and updating the checkpointer setup method for server migrations.
+  * Ensured correct response headers are sent for a2a, improving compatibility and communication.
+  * Consolidated PostgreSQL checkpoint implementation, added CI testing for the `/core` directory, fixed RemoteStore test errors, and enhanced the Store implementation with transactions.
+  * Added PostgreSQL migrations to the queue server to prevent errors from graphs being added before migrations are performed.
+</Update>
+
+<Update label="2025-09-23">
+  ## v0.4.27
+
+  Replaced `coredis` with `redis-py` to improve connection handling and reliability under high traffic loads.
+</Update>
+
+<Update label="2025-09-22">
+  ## v0.4.24
+
+  * Added functionality to return full message history for A2A calls in accordance with the A2A spec.
+  * Added a `LANGGRAPH_SERVER_HOST` environment variable to Dockerfiles to support custom host settings for dual stack mode.
+</Update>
+
+<Update label="2025-09-22">
+  ## v0.4.23
+
+  Use a faster message codec for redis streaming.
+</Update>
+
+<Update label="2025-09-19">
+  ## v0.4.22
+
+  Ported long-stream handling to the run stream, join, and cancel endpoints for improved stream management.
+</Update>
+
+<Update label="2025-09-18">
+  ## v0.4.21
+
+  * Added A2A streaming functionality and enhanced testing with the A2A SDK.
+  * Added Prometheus metrics to track language usage in graphs, middleware, and authentication for improved insights.
+  * Fixed bugs in Open Source Software related to message conversion for chunks.
+  * Removed await from pubsub subscribes to reduce flakiness in cluster tests and added retries in the shutdown suite to enhance API stability.
+</Update>
+
+<Update label="2025-09-11">
+  ## v0.4.20
+
+  Optimized Pubsub initialization to prevent overhead and address subscription timing issues, ensuring smoother run execution.
+</Update>
+
+<Update label="2025-09-11">
+  ## v0.4.19
+
+  Removed warnings from psycopg by addressing function checks introduced in version 3.2.10.
+</Update>
+
+<Update label="2025-09-11">
+  ## v0.4.17
+
+  Filtered out logs with mount prefix to reduce noise in logging output.
+</Update>
+
+<Update label="2025-09-10">
+  ## v0.4.16
+
+  * Added support for implicit thread creation in a2a to streamline operations.
+  * Improved error serialization and emission in distributed runtime streams, enabling more comprehensive testing.
+</Update>
+
+<Update label="2025-09-09">
+  ## v0.4.13
+
+  * Monitored queue status in the health endpoint to ensure correct behavior when PostgreSQL fails to initialize.
+  * Addressed an issue with unequal swept ID lengths to improve log clarity.
+  * Enhanced streaming outputs by avoiding re-serialization of DR payloads, using msgpack byte inspection for json-like parsing.
+</Update>
+
+<Update label="2025-09-04">
+  ## v0.4.12
+
+  * Ensured metrics are returned even when experiencing database connection issues.
+  * Optimized update streams to prevent unnecessary data transmission.
+  * Upgraded `hono` from version 4.9.2 to 4.9.6 in the `storage_postgres/langgraph-api-server` for improved URL path parsing security.
+  * Added retries and an in-memory cache for LangSmith access calls to improve resilience against single failures.
+</Update>
+
+<Update label="2025-09-04">
+  ## v0.4.11
+
+  Added support for TTL (time-to-live) in thread updates.
+</Update>
+
+<Update label="2025-09-04">
+  ## v0.4.10
+
+  In distributed runtime, update serde logic for final checkpoint -> thread setting.
+</Update>
+
+<Update label="2025-09-02">
+  ## v0.4.9
+
+  * Added support for filtering search results by IDs in the search endpoint for more precise queries.
+  * Included configurable headers for assistant endpoints to enhance request customization.
+  * Implemented a simple A2A endpoint with support for agent card retrieval, task creation, and task management.
+</Update>
+
+<Update label="2025-08-30">
+  ## v0.4.7
+
+  Stopped the inclusion of x-api-key to enhance security.
+</Update>
+
+<Update label="2025-08-29">
+  ## v0.4.6
+
+  Fixed a race condition when joining streams, preventing duplicate start events.
+</Update>
+
+<Update label="2025-08-29">
+  ## v0.4.5
+
+  * Ensured the checkpointer starts and stops correctly before and after the queue to improve shutdown and startup efficiency.
+  * Resolved an issue where workers were being prematurely cancelled when the queue was cancelled.
+  * Prevented queue termination by adding a fallback for cases when Redis fails to wake a worker.
+</Update>
+
+<Update label="2025-08-28">
+  ## v0.4.4
+
+  * Set the custom auth thread\_id to None for stateless runs to prevent conflicts.
+  * Improved Redis signaling in the Go runtime by adding a wakeup worker and Redis lock implementation, and updated sweep logic.
+</Update>
+
+<Update label="2025-08-27">
+  ## v0.4.3
+
+  * Added stream mode to thread stream for improved data processing.
+  * Added a durability parameter to runs for improved data persistence.
+</Update>
+
+<Update label="2025-08-27">
+  ## v0.4.2
+
+  Ensured pubsub is initialized before creating a run to prevent errors from missing messages.
+</Update>
+
+<Update label="2025-08-25">
+  ## v0.4.0
+
+  Minor version 0.4 comes with a number of improvements as well as some breaking changes.
+
+  * Emitted attempt messages correctly within the thread stream.
+  * Reduced cluster conflicts by using only the thread ID for hashing in cluster mapping, prioritizing efficiency with stream\_thread\_cache.
+  * Introduced a stream endpoint for threads to track all outputs across sequentially executed runs.
+  * Made the filter query builder in PostgreSQL more robust against malformed expressions and improved validation to prevent potential security risks.
+
+  This minor version also includes a couple of breaking changes to improve the usability and security of the service:
+
+  * In this minor version, we stop the practice of automatically including headers as configurable values in your runs. You can opt-in to specific patterns by setting **configurable\_headers** in your agent server config.
+  * Run stream event IDs (for resumable streams) are now in the format of `ms-seq` instead of the previous format. We retain backwards compatibility for the old format, but we recommend using the new format for new code.
+</Update>
+
+<Update label="2025-08-25">
+  ## v0.3.4
+
+  * Added custom Prometheus metrics for Redis/PG connection pools and switched the queue server to Uvicorn/Starlette for improved monitoring.
+  * Restored Wolfi image build by correcting shell command formatting and added a Makefile target for testing with nginx.
+</Update>
+
+<Update label="2025-08-22">
+  ## v0.3.3
+
+  * Added timeouts to specific Redis calls to prevent workers from being left active.
+  * Updated the Golang runtime and added pytest skips for unsupported functionalities, including initial support for passing store to node and message streaming.
+  * Introduced a reverse proxy setup for serving combined Python and Node.js graphs, with nginx handling server routing, to facilitate a Postgres/Redis backend for the Node.js API server.
+</Update>
+
+<Update label="2025-08-21">
+  ## v0.3.1
+
+  Added a statement timeout to the pool to prevent long-running queries.
+</Update>
+
+<Update label="2025-08-21">
+  ## v0.3.0
+
+  * Set a default 15-minute statement timeout and implemented monitoring for long-running queries to ensure system efficiency.
+  * Stop propagating run configurable values to the thread configuration, because this can cause issues on subsequent runs if you are specifying a checkpoint\_id. This is a **slight breaking change** in behavior, since the thread value will no longer automatically reflect the unioned configuration of the most recent run. We believe this behavior is more intuitive, however.
+  * Enhanced compatibility with older worker versions by handling event data in channel names within ops.py.
+</Update>
+
+<Update label="2025-08-20">
+  ## v0.2.137
+
+  Fixed an unbound local error and improved logging for thread interruptions or errors, along with type updates.
+</Update>
+
+<Update label="2025-08-20">
+  ## v0.2.136
+
+  * Added enhanced logging to aid in debugging metaview issues.
+  * Upgraded executor and runtime to the latest version for improved performance and stability.
+</Update>
+
+<Update label="2025-08-19">
+  ## v0.2.135
+
+  Ensured async coroutines are properly awaited to prevent potential runtime errors.
+</Update>
+
+<Update label="2025-08-18">
+  ## v0.2.134
+
+  Enhanced search functionality to improve performance by allowing users to select specific columns for query results.
+</Update>
+
+<Update label="2025-08-18">
+  ## v0.2.133
+
+  * Added count endpoints for crons, threads, and assistants to enhance data tracking (#1132).
+  * Improved SSH functionality for better reliability and stability.
+  * Updated @langchain/langgraph-api to version 0.0.59 to fix an invalid state schema issue.
+</Update>
+
+<Update label="2025-08-15">
+  ## v0.2.132
+
+  * Added Go language images to enhance project compatibility and functionality.
+  * Printed internal PIDs for JS workers to facilitate process inspection via SIGUSR1 signal.
+  * Resolved a `run_pkey` error that occurred when attempting to insert duplicate runs.
+  * Added `ty run` command and switched to using uuid7 for generating run IDs.
+  * Implemented the initial Golang runtime to expand language support.
+</Update>
+
+<Update label="2025-08-14">
+  ## v0.2.131
+
+  Added support for `object agent spec` with descriptions in JS.
+</Update>
+
+<Update label="2025-08-13">
+  ## v0.2.130
+
+  * Added a feature flag (FF\_RICH\_THREADS=false) to disable thread updates on run creation, reducing lock contention and simplifying thread status handling.
+  * Utilized existing connections for `aput` and `apwrite` operations to improve performance.
+  * Improved error handling for decoding issues to enhance data processing reliability.
+  * Excluded headers from logs to improve security while maintaining runtime functionality.
+  * Fixed an error that prevented mapping slots to a single node.
+  * Added debug logs to track node execution in JS deployments for improved issue diagnosis.
+  * Changed the default multitask strategy to enqueue, improving throughput by eliminating the need to fetch inflight runs during new run insertions.
+  * Optimized database operations for `Runs.next` and `Runs.sweep` to reduce redundant queries and improve efficiency.
+  * Improved run creation speed by skipping unnecessary inflight runs queries.
+</Update>
+
+<Update label="2025-08-11">
+  ## v0.2.129
+
+  * Stopped passing internal LGP fields to context to prevent breaking type checks.
+  * Exposed content-location headers to ensure correct resumability behavior in the API.
+</Update>
+
+<Update label="2025-08-08">
+  ## v0.2.128
+
+  Ensured synchronized updates between `configurable` and `context` in assistants, preventing setup errors and supporting smoother version transitions.
+</Update>
+
+<Update label="2025-08-08">
+  ## v0.2.127
+
+  Excluded unrequested stream modes from the resumable stream to optimize functionality.
+</Update>
+
+<Update label="2025-08-08">
+  ## v0.2.126
+
+  * Made access logger headers configurable to enhance logging flexibility.
+  * Debounced the Runs.stats function to reduce the frequency of expensive calls and improve performance.
+  * Introduced debouncing for sweepers to enhance performance and efficiency (#1147).
+  * Acquired a lock for TTL sweeping to prevent database spamming during scale-out operations.
+</Update>
+
+<Update label="2025-08-06">
+  ## v0.2.125
+
+  Updated tracing context replicas to use the new format, ensuring compatibility.
+</Update>
+
+<Update label="2025-08-06">
+  ## v0.2.123
+
+  Added an entrypoint to the queue replica for improved deployment management.
+</Update>
+
+<Update label="2025-08-06">
+  ## v0.2.122
+
+  Utilized persisted interrupt status in `join` to ensure correct handling of user's interrupt state after completion.
+</Update>
+
+<Update label="2025-08-06">
+  ## v0.2.121
+
+  * Consolidated events to a single channel to prevent race conditions and optimize startup performance.
+  * Ensured custom lifespans are invoked on queue workers for proper setup, and added tests.
+</Update>
+
+<Update label="2025-08-04">
+  ## v0.2.120
+
+  * Restored the original streaming behavior of runs, ensuring consistent inclusion of interrupt events based on `stream_mode` settings.
+  * Optimized `Runs.next` query to reduce average execution time from \~14.43ms to \~2.42ms, improving performance.
+  * Added support for stream mode "tasks" and "checkpoints", normalized the UI namespace, and upgraded `@langchain/langgraph-api` for enhanced functionality.
+</Update>
+
+<Update label="2025-07-31">
+  ## v0.2.117
+
+  Added a composite index on threads for faster searches with owner-based authentication and updated the default sort order to `updated_at` for improved query performance.
+</Update>
+
+<Update label="2025-07-31">
+  ## v0.2.116
+
+  Reduced the default number of history checkpoints from 10 to 1 to optimize performance.
+</Update>
+
+<Update label="2025-07-31">
+  ## v0.2.115
+
+  Optimized cache reuse to enhance application performance and efficiency.
+</Update>
+
+<Update label="2025-07-30">
+  ## v0.2.113
+
+  Improved thread search pagination by updating response headers with `X-Pagination-Total` and `X-Pagination-Next` for better navigation.
+</Update>
+
+<Update label="2025-07-30">
+  ## v0.2.112
+
+  * Ensured sync logging methods are awaited and added a linter to prevent future occurrences.
+  * Fixed an issue where JavaScript tasks were not being populated correctly for JS graphs.
+</Update>
+
+<Update label="2025-07-29">
+  ## v0.2.111
+
+  Fixed JS graph streaming failure by starting the heartbeat as soon as the connection opens.
+</Update>
+
+<Update label="2025-07-29">
+  ## v0.2.110
+
+  Added interrupts as default values for join operations while preserving stream behavior.
+</Update>
+
+<Update label="2025-07-28">
+  ## v0.2.109
+
+  Fixed an issue where config schema was missing when `config_type` was not set, ensuring more reliable configurations.
+</Update>
+
+<Update label="2025-07-28">
+  ## v0.2.108
+
+  Prepared for LangGraph v0.6 compatibility with new context API support and bug fixes.
+</Update>
+
+<Update label="2025-07-27">
+  ## v0.2.107
+
+  * Implemented caching for authentication processes to enhance performance and efficiency.
+  * Optimized database performance by merging count and select queries.
+</Update>
+
+<Update label="2025-07-27">
+  ## v0.2.106
+
+  Made log streams resumable, enhancing reliability and improving user experience when reconnecting.
+</Update>
+
+<Update label="2025-07-27">
+  ## v0.2.105
+
+  Added a heapdump endpoint to save memory heap information to a file.
+</Update>
+
+<Update label="2025-07-25">
+  ## v0.2.103
+
+  Used the correct metadata endpoint to resolve issues with data retrieval.
+</Update>
+
+<Update label="2025-07-24">
+  ## v0.2.102
+
+  * Captured interrupt events in the wait method to preserve previous behavior from langgraph 0.5.0.
+  * Added support for SDK structlog in the JavaScript environment for enhanced logging capabilities.
+</Update>
+
+<Update label="2025-07-24">
+  ## v0.2.101
+
+  Corrected the metadata endpoint for self-hosted deployments.
+</Update>
+
+<Update label="2025-07-22">
+  ## v0.2.99
+
+  * Improved license check by adding an in-memory cache and handling Redis connection errors more effectively.
+  * Reloaded assistants to preserve manually created ones while discarding those removed from the configuration file.
+  * Reverted changes to ensure the UI namespace for gen UI is a valid JavaScript property name.
+  * Ensured that the UI namespace for generated UI is a valid JavaScript property name, improving API compliance.
+  * Enhanced error handling to return a 422 status code for unprocessable entity requests.
+</Update>
+
+<Update label="2025-07-19">
+  ## v0.2.98
+
+  Added context to langgraph nodes to improve log filtering and trace visibility.
+</Update>
+
+<Update label="2025-07-19">
+  ## v0.2.97
+
+  * Improved interoperability with the ckpt ingestion worker on the main loop to prevent task scheduling issues.
+  * Delayed queue worker startup until after migrations are completed to prevent premature execution.
+  * Enhanced thread state error handling by adding specific metadata and improved response codes for better clarity when state updates fail during creation.
+  * Exposed the interrupt ID when retrieving the thread state to improve API transparency.
+</Update>
+
+<Update label="2025-07-17">
+  ## v0.2.96
+
+  Added a fallback mechanism for configurable header patterns to handle exclude/include settings more effectively.
+</Update>
+
+<Update label="2025-07-17">
+  ## v0.2.95
+
+  * Avoided setting the future if it is already done to prevent redundant operations.
+  * Resolved compatibility errors in CI by switching from `typing.TypedDict` to `typing_extensions.TypedDict` for Python versions below 3.12.
+</Update>
+
+<Update label="2025-07-16">
+  ## v0.2.94
+
+  * Improved performance by omitting pending sends for langgraph versions 0.5 and above.
+  * Improved server startup logs to provide clearer warnings when the DD\_API\_KEY environment variable is set.
+</Update>
+
+<Update label="2025-07-16">
+  ## v0.2.93
+
+  Removed the GIN index for run metadata to improve performance.
+</Update>
+
+<Update label="2025-07-16">
+  ## v0.2.92
+
+  Enabled copying functionality for blobs and checkpoints, improving data management flexibility.
+</Update>
+
+<Update label="2025-07-16">
+  ## v0.2.91
+
+  Reduced writes to the `checkpoint_blobs` table by inlining small values (null, numeric, str, etc.). This means we don't need to store extra values for channels that haven't been updated.
+</Update>
+
+<Update label="2025-07-16">
+  ## v0.2.90
+
+  Improve checkpoint writes via node-local background queueing.
+</Update>
+
+<Update label="2025-07-15">
+  ## v0.2.89
+
+  Decoupled checkpoint writing from thread/run state by removing foreign keys and updated logger to prevent timeout-related failures.
+</Update>
+
+<Update label="2025-07-14">
+  ## v0.2.88
+
+  Removed the foreign key constraint for `thread` in the `run` table to simplify database schema.
+</Update>
+
+<Update label="2025-07-14">
+  ## v0.2.87
+
+  Added more detailed logs for Redis worker signaling to improve debugging.
+</Update>
+
+<Update label="2025-07-11">
+  ## v0.2.86
+
+  Honored tool descriptions in the `/mcp` endpoint to align with expected functionality.
+</Update>
+
+<Update label="2025-07-10">
+  ## v0.2.85
+
+  Added support for the `on_disconnect` field to `runs/wait` and included disconnect logs for better debugging.
+</Update>
+
+<Update label="2025-07-09">
+  ## v0.2.84
+
+  Removed unnecessary status updates to streamline thread handling and updated version to 0.2.84.
+</Update>
+
+<Update label="2025-07-09">
+  ## v0.2.83
+
+  * Reduced the default time-to-live for resumable streams to 2 minutes.
+  * Enhanced data submission logic to send data to both Beacon and LangSmith instance based on license configuration.
+  * Enabled submission of self-hosted data to a LangSmith instance when the endpoint is configured.
+</Update>
+
+<Update label="2025-07-03">
+  ## v0.2.82
+
+  Addressed a race condition in background runs by implementing a lock using join, ensuring reliable execution across CTEs.
+</Update>
+
+<Update label="2025-07-03">
+  ## v0.2.81
+
+  Optimized run streams by reducing initial wait time to improve responsiveness for older or non-existent runs.
+</Update>
+
+<Update label="2025-07-03">
+  ## v0.2.80
+
+  Corrected parameter passing in the `logger.ainfo()` API call to resolve a TypeError.
+</Update>
+
+<Update label="2025-07-02">
+  ## v0.2.79
+
+  * Fixed a JsonDecodeError in checkpointing with remote graph by correcting JSON serialization to handle trailing slashes properly.
+  * Introduced a configuration flag to disable webhooks globally across all routes.
+</Update>
+
+<Update label="2025-07-02">
+  ## v0.2.78
+
+  * Added timeout retries to webhook calls to improve reliability.
+  * Added HTTP request metrics, including a request count and latency histogram, for enhanced monitoring capabilities.
+</Update>
+
+<Update label="2025-07-02">
+  ## v0.2.77
+
+  * Added HTTP metrics to improve performance monitoring.
+  * Changed the Redis cache delimiter to reduce conflicts with subgraph message names and updated caching behavior.
+</Update>
+
+<Update label="2025-07-01">
+  ## v0.2.76
+
+  Updated Redis cache delimiter to prevent conflicts with subgraph messages.
+</Update>
+
+<Update label="2025-06-30">
+  ## v0.2.74
+
+  Scheduled webhooks in an isolated loop to ensure thread-safe operations and prevent errors with PYTHONASYNCIODEBUG=1.
+</Update>
+
+<Update label="2025-06-27">
+  ## v0.2.73
+
+  * Fixed an infinite frame loop issue and removed the dict\_parser due to structlog's unexpected behavior.

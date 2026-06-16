@@ -1,0 +1,573 @@
+{
+  "schema": "skill-graph-index/v1",
+  "name": "uptime-kuma-docs",
+  "skill_graph_version": "1.0.0",
+  "kg_ingested": false,
+  "kg_domain": "skillgraph:uptime-kuma-docs",
+  "concepts": [],
+  "source_url": "https://uptimekuma.org/wiki/",
+  "file_count": 79,
+  "groups": {
+    ".": 74,
+    "https-uptimekuma.org-wp-content-plugins-social-icons-widget-by-wpzoom-assets-fon-2": 1,
+    "https-uptimekuma.org-wp-content-uploads-uag-plugin-assets-1000-uag-css-1488.css-": 1,
+    "https-uptimekuma.org-wp-content-uploads-uag-plugin-assets-3000-uag-css-2678.css-": 1,
+    "https-uptimekuma.org-wp-includes-css-dashicons.min.css-ver-7.0": 1,
+    "https-uptimekuma.org-wp-json": 1
+  },
+  "sections": [
+    {
+      "path": "reference/about.md",
+      "title": "About",
+      "group": ".",
+      "bytes": 4557,
+      "headings": []
+    },
+    {
+      "path": "reference/comments-for-uptime-kuma.md",
+      "title": "Comments For Uptime Kuma",
+      "group": ".",
+      "bytes": 154,
+      "headings": []
+    },
+    {
+      "path": "reference/comments-on-privacy-policy.md",
+      "title": "Comments On Privacy Policy",
+      "group": ".",
+      "bytes": 157,
+      "headings": []
+    },
+    {
+      "path": "reference/disclaimer.md",
+      "title": "Disclaimer",
+      "group": ".",
+      "bytes": 4486,
+      "headings": []
+    },
+    {
+      "path": "reference/how-to-add-a-monitor-in-uptime-kuma.md",
+      "title": "How To Add A Monitor In Uptime Kuma",
+      "group": ".",
+      "bytes": 4013,
+      "headings": []
+    },
+    {
+      "path": "reference/how-to-create-a-free-status-page-in-uptime-kuma.md",
+      "title": "How To Create A Free Status Page In Uptime Kuma",
+      "group": ".",
+      "bytes": 4754,
+      "headings": []
+    },
+    {
+      "path": "reference/how-to-reset-uptime-kuma-password-and-remove-2fa.md",
+      "title": "How To Reset Uptime Kuma Password And Remove 2Fa",
+      "group": ".",
+      "bytes": 3882,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-sitemap_index.xml.md",
+      "title": "Https Uptimekuma.Org Sitemap Index.Xml",
+      "group": ".",
+      "bytes": 66,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-plugins-seo-by-rank-math-includes-modules-schema.md",
+      "title": "Https Uptimekuma.Org Wp Content Plugins Seo By Rank Math Includes Modules Schema",
+      "group": ".",
+      "bytes": 214,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-plugins-social-icons-widget-by-wpzoom-assets-css-2.md",
+      "title": "Https Uptimekuma.Org Wp Content Plugins Social Icons Widget By Wpzoom Assets Css 2",
+      "group": ".",
+      "bytes": 7924,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-plugins-social-icons-widget-by-wpzoom-assets-css-3.md",
+      "title": "Https Uptimekuma.Org Wp Content Plugins Social Icons Widget By Wpzoom Assets Css 3",
+      "group": ".",
+      "bytes": 9659,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-plugins-social-icons-widget-by-wpzoom-assets-css-4.md",
+      "title": "Https Uptimekuma.Org Wp Content Plugins Social Icons Widget By Wpzoom Assets Css 4",
+      "group": ".",
+      "bytes": 30668,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-plugins-social-icons-widget-by-wpzoom-assets-css-5.md",
+      "title": "Https Uptimekuma.Org Wp Content Plugins Social Icons Widget By Wpzoom Assets Css 5",
+      "group": ".",
+      "bytes": 3700,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-plugins-social-icons-widget-by-wpzoom-assets-css.md",
+      "title": "Https Uptimekuma.Org Wp Content Plugins Social Icons Widget By Wpzoom Assets Css",
+      "group": ".",
+      "bytes": 25016,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-plugins-social-icons-widget-by-wpzoom-assets-fon-2/https-uptimekuma.org-wp-content-plugins-social-icons-widget-by-wpzoom-assets-fon-2_pt1_pt1.md",
+      "title": "Https Uptimekuma.Org Wp Content Plugins Social Icons Widget By Wpzoom Assets Fon 2 Pt1 Pt1",
+      "group": "https-uptimekuma.org-wp-content-plugins-social-icons-widget-by-wpzoom-assets-fon-2",
+      "bytes": 64248,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-plugins-social-icons-widget-by-wpzoom-assets-fon-3.md",
+      "title": "Https Uptimekuma.Org Wp Content Plugins Social Icons Widget By Wpzoom Assets Fon 3",
+      "group": ".",
+      "bytes": 14085,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-plugins-social-icons-widget-by-wpzoom-assets-fon-4.md",
+      "title": "Https Uptimekuma.Org Wp Content Plugins Social Icons Widget By Wpzoom Assets Fon 4",
+      "group": ".",
+      "bytes": 45296,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-plugins-social-icons-widget-by-wpzoom-assets-fon.md",
+      "title": "Https Uptimekuma.Org Wp Content Plugins Social Icons Widget By Wpzoom Assets Fon",
+      "group": ".",
+      "bytes": 23423,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-plugins-ultimate-addons-for-gutenberg-assets-css-2.md",
+      "title": "Https Uptimekuma.Org Wp Content Plugins Ultimate Addons For Gutenberg Assets Css 2",
+      "group": ".",
+      "bytes": 22177,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-plugins-ultimate-addons-for-gutenberg-assets-css.md",
+      "title": "Https Uptimekuma.Org Wp Content Plugins Ultimate Addons For Gutenberg Assets Css",
+      "group": ".",
+      "bytes": 336,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-themes-astra-assets-css-minified-main.min.css-ve.md",
+      "title": "Https Uptimekuma.Org Wp Content Themes Astra Assets Css Minified Main.Min.Css Ve",
+      "group": ".",
+      "bytes": 44800,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-uploads-2025-02-cropped-uptime-kuma-favicon-180x.md",
+      "title": "Https Uptimekuma.Org Wp Content Uploads 2025 02 Cropped Uptime Kuma Favicon 180X",
+      "group": ".",
+      "bytes": 10064,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-uploads-2025-02-cropped-uptime-kuma-favicon-192x.md",
+      "title": "Https Uptimekuma.Org Wp Content Uploads 2025 02 Cropped Uptime Kuma Favicon 192X",
+      "group": ".",
+      "bytes": 13266,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-uploads-2025-02-cropped-uptime-kuma-favicon-32x3.md",
+      "title": "Https Uptimekuma.Org Wp Content Uploads 2025 02 Cropped Uptime Kuma Favicon 32X3",
+      "group": ".",
+      "bytes": 2568,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-uploads-2026-04-docker-compose.yml.md",
+      "title": "Https Uptimekuma.Org Wp Content Uploads 2026 04 Docker Compose.Yml",
+      "group": ".",
+      "bytes": 704,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-uploads-astra-addon-astra-addon-6a215bc88232e1-0.md",
+      "title": "Https Uptimekuma.Org Wp Content Uploads Astra Addon Astra Addon 6A215Bc88232E1 0",
+      "group": ".",
+      "bytes": 18240,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-uploads-breeze-google-fonts-open_sans-open_sans..md",
+      "title": "Https Uptimekuma.Org Wp Content Uploads Breeze Google Fonts Open Sans Open Sans.",
+      "group": ".",
+      "bytes": 8788,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-uploads-uag-plugin-assets-1000-uag-css-1488.css-/https-uptimekuma.org-wp-content-uploads-uag-plugin-assets-1000-uag-css-1488.css-_pt1_pt1.md",
+      "title": "Https Uptimekuma.Org Wp Content Uploads Uag Plugin Assets 1000 Uag Css 1488.Css  Pt1 Pt1",
+      "group": "https-uptimekuma.org-wp-content-uploads-uag-plugin-assets-1000-uag-css-1488.css-",
+      "bytes": 231623,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-uploads-uag-plugin-assets-3000-uag-css-2637.css-.md",
+      "title": "Https Uptimekuma.Org Wp Content Uploads Uag Plugin Assets 3000 Uag Css 2637.Css ",
+      "group": ".",
+      "bytes": 47839,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-uploads-uag-plugin-assets-3000-uag-css-2678.css-/https-uptimekuma.org-wp-content-uploads-uag-plugin-assets-3000-uag-css-2678.css-_pt1_pt1.md",
+      "title": "Https Uptimekuma.Org Wp Content Uploads Uag Plugin Assets 3000 Uag Css 2678.Css  Pt1 Pt1",
+      "group": "https-uptimekuma.org-wp-content-uploads-uag-plugin-assets-3000-uag-css-2678.css-",
+      "bytes": 68261,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-uploads-uag-plugin-assets-3000-uag-css-2751.css-.md",
+      "title": "Https Uptimekuma.Org Wp Content Uploads Uag Plugin Assets 3000 Uag Css 2751.Css ",
+      "group": ".",
+      "bytes": 20342,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-uploads-uag-plugin-assets-3000-uag-css-2786.css-.md",
+      "title": "Https Uptimekuma.Org Wp Content Uploads Uag Plugin Assets 3000 Uag Css 2786.Css ",
+      "group": ".",
+      "bytes": 13134,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-uploads-uag-plugin-assets-3000-uag-css-2815.css-.md",
+      "title": "Https Uptimekuma.Org Wp Content Uploads Uag Plugin Assets 3000 Uag Css 2815.Css ",
+      "group": ".",
+      "bytes": 20342,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-uploads-uag-plugin-assets-3000-uag-css-2865.css-.md",
+      "title": "Https Uptimekuma.Org Wp Content Uploads Uag Plugin Assets 3000 Uag Css 2865.Css ",
+      "group": ".",
+      "bytes": 20342,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-uploads-uag-plugin-assets-3000-uag-css-2890.css-.md",
+      "title": "Https Uptimekuma.Org Wp Content Uploads Uag Plugin Assets 3000 Uag Css 2890.Css ",
+      "group": ".",
+      "bytes": 677,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-uploads-uag-plugin-assets-3000-uag-css-2910.css-.md",
+      "title": "Https Uptimekuma.Org Wp Content Uploads Uag Plugin Assets 3000 Uag Css 2910.Css ",
+      "group": ".",
+      "bytes": 20342,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-uploads-uag-plugin-assets-3000-uag-css-2968.css-.md",
+      "title": "Https Uptimekuma.Org Wp Content Uploads Uag Plugin Assets 3000 Uag Css 2968.Css ",
+      "group": ".",
+      "bytes": 20342,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-content-uploads-uag-plugin-assets-3000-uag-css-3042.css-.md",
+      "title": "Https Uptimekuma.Org Wp Content Uploads Uag Plugin Assets 3000 Uag Css 3042.Css ",
+      "group": ".",
+      "bytes": 20342,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-includes-css-dashicons.min.css-ver-7.0/https-uptimekuma.org-wp-includes-css-dashicons.min.css-ver-7.0_pt1_pt1.md",
+      "title": "Https Uptimekuma.Org Wp Includes Css Dashicons.Min.Css Ver 7.0 Pt1 Pt1",
+      "group": "https-uptimekuma.org-wp-includes-css-dashicons.min.css-ver-7.0",
+      "bytes": 59005,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json/https-uptimekuma.org-wp-json_pt1_pt1.md",
+      "title": "Https Uptimekuma.Org Wp Json Pt1 Pt1",
+      "group": "https-uptimekuma.org-wp-json",
+      "bytes": 458621,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-oembed-1.0-embed-url-https-3a-2f-2fuptimekuma.org-2-10.md",
+      "title": "Https Uptimekuma.Org Wp Json Oembed 1.0 Embed Url Https 3A 2F 2Fuptimekuma.Org 2 10",
+      "group": ".",
+      "bytes": 817,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-oembed-1.0-embed-url-https-3a-2f-2fuptimekuma.org-2-11.md",
+      "title": "Https Uptimekuma.Org Wp Json Oembed 1.0 Embed Url Https 3A 2F 2Fuptimekuma.Org 2 11",
+      "group": ".",
+      "bytes": 763,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-oembed-1.0-embed-url-https-3a-2f-2fuptimekuma.org-2-12.md",
+      "title": "Https Uptimekuma.Org Wp Json Oembed 1.0 Embed Url Https 3A 2F 2Fuptimekuma.Org 2 12",
+      "group": ".",
+      "bytes": 741,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-oembed-1.0-embed-url-https-3a-2f-2fuptimekuma.org-2-13.md",
+      "title": "Https Uptimekuma.Org Wp Json Oembed 1.0 Embed Url Https 3A 2F 2Fuptimekuma.Org 2 13",
+      "group": ".",
+      "bytes": 751,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-oembed-1.0-embed-url-https-3a-2f-2fuptimekuma.org-2-14.md",
+      "title": "Https Uptimekuma.Org Wp Json Oembed 1.0 Embed Url Https 3A 2F 2Fuptimekuma.Org 2 14",
+      "group": ".",
+      "bytes": 743,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-oembed-1.0-embed-url-https-3a-2f-2fuptimekuma.org-2-2.md",
+      "title": "Https Uptimekuma.Org Wp Json Oembed 1.0 Embed Url Https 3A 2F 2Fuptimekuma.Org 2 2",
+      "group": ".",
+      "bytes": 986,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-oembed-1.0-embed-url-https-3a-2f-2fuptimekuma.org-2-3.md",
+      "title": "Https Uptimekuma.Org Wp Json Oembed 1.0 Embed Url Https 3A 2F 2Fuptimekuma.Org 2 3",
+      "group": ".",
+      "bytes": 733,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-oembed-1.0-embed-url-https-3a-2f-2fuptimekuma.org-2-4.md",
+      "title": "Https Uptimekuma.Org Wp Json Oembed 1.0 Embed Url Https 3A 2F 2Fuptimekuma.Org 2 4",
+      "group": ".",
+      "bytes": 990,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-oembed-1.0-embed-url-https-3a-2f-2fuptimekuma.org-2-5.md",
+      "title": "Https Uptimekuma.Org Wp Json Oembed 1.0 Embed Url Https 3A 2F 2Fuptimekuma.Org 2 5",
+      "group": ".",
+      "bytes": 942,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-oembed-1.0-embed-url-https-3a-2f-2fuptimekuma.org-2-6.md",
+      "title": "Https Uptimekuma.Org Wp Json Oembed 1.0 Embed Url Https 3A 2F 2Fuptimekuma.Org 2 6",
+      "group": ".",
+      "bytes": 823,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-oembed-1.0-embed-url-https-3a-2f-2fuptimekuma.org-2-7.md",
+      "title": "Https Uptimekuma.Org Wp Json Oembed 1.0 Embed Url Https 3A 2F 2Fuptimekuma.Org 2 7",
+      "group": ".",
+      "bytes": 976,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-oembed-1.0-embed-url-https-3a-2f-2fuptimekuma.org-2-8.md",
+      "title": "Https Uptimekuma.Org Wp Json Oembed 1.0 Embed Url Https 3A 2F 2Fuptimekuma.Org 2 8",
+      "group": ".",
+      "bytes": 954,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-oembed-1.0-embed-url-https-3a-2f-2fuptimekuma.org-2-9.md",
+      "title": "Https Uptimekuma.Org Wp Json Oembed 1.0 Embed Url Https 3A 2F 2Fuptimekuma.Org 2 9",
+      "group": ".",
+      "bytes": 975,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-oembed-1.0-embed-url-https-3a-2f-2fuptimekuma.org-2.md",
+      "title": "Https Uptimekuma.Org Wp Json Oembed 1.0 Embed Url Https 3A 2F 2Fuptimekuma.Org 2",
+      "group": ".",
+      "bytes": 731,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-wp-v2-pages-1488.md",
+      "title": "Https Uptimekuma.Org Wp Json Wp V2 Pages 1488",
+      "group": ".",
+      "bytes": 21795,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-wp-v2-pages-2606.md",
+      "title": "Https Uptimekuma.Org Wp Json Wp V2 Pages 2606",
+      "group": ".",
+      "bytes": 6311,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-wp-v2-pages-2637.md",
+      "title": "Https Uptimekuma.Org Wp Json Wp V2 Pages 2637",
+      "group": ".",
+      "bytes": 8676,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-wp-v2-pages-2678.md",
+      "title": "Https Uptimekuma.Org Wp Json Wp V2 Pages 2678",
+      "group": ".",
+      "bytes": 6676,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-wp-v2-pages-2751.md",
+      "title": "Https Uptimekuma.Org Wp Json Wp V2 Pages 2751",
+      "group": ".",
+      "bytes": 10927,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-wp-v2-pages-2786.md",
+      "title": "Https Uptimekuma.Org Wp Json Wp V2 Pages 2786",
+      "group": ".",
+      "bytes": 10683,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-wp-v2-pages-2815.md",
+      "title": "Https Uptimekuma.Org Wp Json Wp V2 Pages 2815",
+      "group": ".",
+      "bytes": 10046,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-wp-v2-pages-2865.md",
+      "title": "Https Uptimekuma.Org Wp Json Wp V2 Pages 2865",
+      "group": ".",
+      "bytes": 8909,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-wp-v2-pages-2890.md",
+      "title": "Https Uptimekuma.Org Wp Json Wp V2 Pages 2890",
+      "group": ".",
+      "bytes": 4963,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-wp-v2-pages-2910.md",
+      "title": "Https Uptimekuma.Org Wp Json Wp V2 Pages 2910",
+      "group": ".",
+      "bytes": 8998,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-wp-v2-pages-2951.md",
+      "title": "Https Uptimekuma.Org Wp Json Wp V2 Pages 2951",
+      "group": ".",
+      "bytes": 7681,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-wp-v2-pages-2968.md",
+      "title": "Https Uptimekuma.Org Wp Json Wp V2 Pages 2968",
+      "group": ".",
+      "bytes": 9719,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-wp-v2-pages-3.md",
+      "title": "Https Uptimekuma.Org Wp Json Wp V2 Pages 3",
+      "group": ".",
+      "bytes": 14894,
+      "headings": []
+    },
+    {
+      "path": "reference/https-uptimekuma.org-wp-json-wp-v2-pages-3042.md",
+      "title": "Https Uptimekuma.Org Wp Json Wp V2 Pages 3042",
+      "group": ".",
+      "bytes": 15024,
+      "headings": []
+    },
+    {
+      "path": "reference/install-uptime-kuma-on-linux.md",
+      "title": "Install Uptime Kuma On Linux",
+      "group": ".",
+      "bytes": 5621,
+      "headings": []
+    },
+    {
+      "path": "reference/install-uptime-kuma-on-windows-server-or-windows-10.md",
+      "title": "Install Uptime Kuma On Windows Server Or Windows 10",
+      "group": ".",
+      "bytes": 5794,
+      "headings": []
+    },
+    {
+      "path": "reference/install-uptime-kuma-using-docker-or-docker-compose.md",
+      "title": "Install Uptime Kuma Using Docker Or Docker Compose",
+      "group": ".",
+      "bytes": 5660,
+      "headings": []
+    },
+    {
+      "path": "reference/licensing.md",
+      "title": "Licensing",
+      "group": ".",
+      "bytes": 2472,
+      "headings": []
+    },
+    {
+      "path": "reference/locations-sitemap---uptime-kuma.md",
+      "title": "Locations Sitemap   Uptime Kuma",
+      "group": ".",
+      "bytes": 685,
+      "headings": []
+    },
+    {
+      "path": "reference/privacy-policy.md",
+      "title": "Privacy Policy",
+      "group": ".",
+      "bytes": 10586,
+      "headings": []
+    },
+    {
+      "path": "reference/uptime-kuma---a-fancy-self-hosted-monitoring-tool.md",
+      "title": "Uptime Kuma   A Fancy Self Hosted Monitoring Tool",
+      "group": ".",
+      "bytes": 14359,
+      "headings": []
+    },
+    {
+      "path": "reference/uptime-kuma-alternatives-self-hosted-and-free.md",
+      "title": "Uptime Kuma Alternatives Self Hosted And Free",
+      "group": ".",
+      "bytes": 10764,
+      "headings": []
+    },
+    {
+      "path": "reference/uptime-kuma-download.md",
+      "title": "Uptime Kuma Download",
+      "group": ".",
+      "bytes": 2698,
+      "headings": []
+    },
+    {
+      "path": "reference/uptime-kuma.md",
+      "title": "Uptime Kuma",
+      "group": ".",
+      "bytes": 276,
+      "headings": []
+    },
+    {
+      "path": "reference/wiki.md",
+      "title": "Wiki",
+      "group": ".",
+      "bytes": 1650,
+      "headings": []
+    }
+  ]
+}

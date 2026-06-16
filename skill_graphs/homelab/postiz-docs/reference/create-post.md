@@ -1,0 +1,113 @@
+# Create Post
+Source: https://docs.postiz.com/public-api/posts/create
+
+POST /posts
+Create or schedule a new post. Each social media platform has its own settings schema.
+
+## Post type: `now`, `schedule`, or `draft`
+
+The top-level `type` field controls when (and whether) the post is published:
+
+| Value        | Behaviour                                                                                                                                                           |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `"now"`      | Publish immediately. `date` is ignored.                                                                                                                             |
+| `"schedule"` | Publish at the time given in `date` (ISO 8601).                                                                                                                     |
+| `"draft"`    | Save as a draft. The post is created and stored against the integration but not scheduled or published. You can promote it to a real post later from the Postiz UI. |
+
+Drafts are how you stage content via the API without committing to a publish time — useful for content review workflows or pre-filling a calendar from an external CMS.
+
+## Duplicating a post
+
+There is no dedicated duplicate / clone endpoint. To copy an existing post, fetch it with `GET /posts` and submit the content as a new `POST /posts` request.
+
+Before re-submitting, strip the server-managed fields from the fetched object — re-sending them either causes validation errors or, worse, accidentally updates the original. At minimum drop:
+
+* `id` and any nested post IDs
+* `createdAt`, `updatedAt`, and any other timestamps
+* `state` / `status` / `releaseId` (these are assigned by the scheduler)
+* Anything else the API didn't ask you to provide when you originally created the post
+
+Then set a fresh `type` (`now`, `schedule`, or `draft`) and `date`, and `POST` the cleaned object.
+
+## Provider-Specific Settings
+
+When creating posts, each social media platform requires different settings. The `settings` object must include a `__type` field that identifies the platform.
+
+### All 27 Supported Platforms
+
+<Tabs>
+  <Tab title="Social Platforms">
+    | Platform              | `__type`               | Required Settings                                                                |
+    | --------------------- | ---------------------- | -------------------------------------------------------------------------------- |
+    | X (Twitter)           | `x`                    | `who_can_reply_post` (optional: `community`, `made_with_ai`, `paid_partnership`) |
+    | LinkedIn              | `linkedin`             | -                                                                                |
+    | LinkedIn Page         | `linkedin-page`        | -                                                                                |
+    | Facebook              | `facebook`             | - (optional: `url`)                                                              |
+    | Instagram (FB-linked) | `instagram`            | `post_type`                                                                      |
+    | Instagram Standalone  | `instagram-standalone` | `post_type`                                                                      |
+    | Threads               | `threads`              | -                                                                                |
+    | Bluesky               | `bluesky`              | -                                                                                |
+    | Mastodon              | `mastodon`             | -                                                                                |
+    | Warpcast (Farcaster)  | `warpcast`             | - (optional: `subreddit[]` for channels)                                         |
+    | Nostr                 | `nostr`                | -                                                                                |
+    | VK                    | `vk`                   | -                                                                                |
+  </Tab>
+
+  <Tab title="Video Platforms">
+    | Platform | `__type`  | Required Settings                                                                                                                      |
+    | -------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+    | YouTube  | `youtube` | `title`, `type`                                                                                                                        |
+    | TikTok   | `tiktok`  | `privacy_level`, `duet`, `stitch`, `comment`, `autoAddMusic`, `brand_content_toggle`, `brand_organic_toggle`, `content_posting_method` |
+  </Tab>
+
+  <Tab title="Community Platforms">
+    | Platform | `__type`   | Required Settings     |
+    | -------- | ---------- | --------------------- |
+    | Reddit   | `reddit`   | `subreddit[]` (array) |
+    | Lemmy    | `lemmy`    | `subreddit[]` (array) |
+    | Discord  | `discord`  | `channel`             |
+    | Slack    | `slack`    | `channel`             |
+    | Telegram | `telegram` | -                     |
+  </Tab>
+
+  <Tab title="Design Platforms">
+    | Platform  | `__type`    | Required Settings |
+    | --------- | ----------- | ----------------- |
+    | Pinterest | `pinterest` | `board`           |
+    | Dribbble  | `dribbble`  | `title`           |
+  </Tab>
+
+  <Tab title="Blogging Platforms">
+    | Platform  | `__type`    | Required Settings   |
+    | --------- | ----------- | ------------------- |
+    | Medium    | `medium`    | `title`, `subtitle` |
+    | Dev.to    | `devto`     | `title`             |
+    | Hashnode  | `hashnode`  | `title`, `tags[]`   |
+    | WordPress | `wordpress` | `title`, `type`     |
+  </Tab>
+
+  <Tab title="Business">
+    | Platform               | `__type`   | Required Settings                             |
+    | ---------------------- | ---------- | --------------------------------------------- |
+    | Google My Business     | `gmb`      | - (optional: `topicType`, `callToActionType`) |
+    | Listmonk (Newsletters) | `listmonk` | `subject`, `preview`, `list`                  |
+  </Tab>
+</Tabs>
+
+### Platforms Without Custom Settings
+
+These platforms only need the `__type` field:
+
+```json theme={null}
+{
+  "settings": {
+    "__type": "threads"
+  }
+}
+```
+
+Platforms: `threads`, `mastodon`, `bluesky`, `telegram`, `nostr`, `vk`
+
+## Detailed Provider Settings
+
+See the [Provider Settings](/public-api/providers/x) section for detailed schemas and examples for each platform.

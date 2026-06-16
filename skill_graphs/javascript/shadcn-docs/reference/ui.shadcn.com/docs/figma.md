@@ -1,0 +1,15 @@
+Figma - shadcn/ui Toggle Menu Menu Home Docs Components Blocks Charts Directory Create Search documentation... Search... 117k Toggle theme New Sections Introduction Components Installation Theming CLI RTL Skills MCP Server Registry Forms Changelog Components Accordion Alert Alert Dialog Aspect Ratio Avatar Badge Breadcrumb Button Button Group Calendar Card Carousel Chart Checkbox Collapsible Combobox Command Context Menu Data Table Date Picker Dialog Direction Drawer Dropdown Menu Empty Field Hover Card Input Input Group Input OTP Item Kbd Label Menubar Native Select Navigation Menu Pagination Popover Progress Radio Group Resizable Scroll Area Select Separator Sheet Sidebar Skeleton Slider Sonner Spinner Switch Table Tabs Textarea Toast Toggle Toggle Group Tooltip Typography Get Started Installation components.json Package Imports Theming Dark Mode CLI Monorepo Skills JavaScript Figma llms.txt Legacy Docs Forms React Hook Form TanStack Form Formisch Registry Introduction Getting Started GitHub Registries Registry Directory Examples Namespaces Authentication MCP Server Open in v0 API Reference registry.json registry-item.json Figma Copy Page Previous Next Every component recreated in Figma. With customizable props, typography and icons. Note: The Figma files are contributed by the community. If you have any
+questions or feedback, please reach out to the Figma file maintainers.
+ Free #
+
+ shadcn/ui components by Sitsiilia Bergmann - A well-structured component library aligned with the shadcn component system, regularly maintained.
+ shadcn/ui design system by Pietro Schirano - A design companion for shadcn/ui. Each component was painstakingly crafted to perfectly match the code implementation.
+
+ Paid #
+
+ shadcn/ui kit by Matt Wierzbicki - A premium, always up-to-date UI kit for Figma - shadcn/ui compatible and optimized for smooth design-to-dev handoff.
+ shadcncraft Design System - Production-ready shadcn/ui kit with Pro React blocks and 1:1 Figma alignment. Design and ship faster with tweakcn theming, AI-assisted workflows, and Figma to React export, built for real product UIs.
+ shadcn/studio UI Kit - Accelerate design &amp; development with a shadcn/ui compatible Figma kit with updated components, 550+ blocks, 10+ templates, 20+ themes, and an AI tool that converts designs into shadcn/ui code.
+ Shadcnblocks.com - A Premium Shadcn Figma UI Kit with components, 500+ pro blocks, shadcn theme variables, light/dark mode and Figma MCP ready.
+ Obra shadcn/ui Pro by Obra Studio - Focused on designers who need to get work done — the best designer experience for shadcn/ui within Figma. variable consistency with shadcn, plus custom components, Pro blocks, and a design-to-code plugin.
+ JavaScript Changelog On This Page Free Paid Deploy your shadcn/ui app on Vercel Trusted by OpenAI, Sonos, Adobe, and more. Vercel provides tools and infrastructure to deploy apps and features at scale. Deploy Now Deploy to Vercel Built by shadcn at Vercel . The source code is available on GitHub . Get Code

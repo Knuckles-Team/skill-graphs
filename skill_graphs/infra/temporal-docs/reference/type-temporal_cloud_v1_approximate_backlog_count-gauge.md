@@ -1,0 +1,1 @@
+# TYPE temporal_cloud_v1_approximate_backlog_count gauge

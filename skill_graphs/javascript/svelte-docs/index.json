@@ -1,0 +1,2949 @@
+{
+  "schema": "skill-graph-index/v1",
+  "name": "svelte-docs",
+  "skill_graph_version": "1.0.0",
+  "kg_ingested": false,
+  "kg_domain": "skillgraph:svelte-docs",
+  "concepts": [],
+  "source_url": "https://svelte.dev",
+  "file_count": 214,
+  "groups": {
+    ".": 210,
+    "sveltejs-kit": 4
+  },
+  "sections": [
+    {
+      "path": "reference/.svelte-files.md",
+      "title": ".svelte files",
+      "group": ".",
+      "bytes": 2276,
+      "headings": [
+        ".svelte files",
+        "`<script>`",
+        "`<script module>`",
+        "`<style>`"
+      ]
+    },
+    {
+      "path": "reference/.svelte.js-and-.svelte.ts-files.md",
+      "title": ".svelte.js and .svelte.ts files",
+      "group": ".",
+      "bytes": 462,
+      "headings": [
+        ".svelte.js and .svelte.ts files"
+      ]
+    },
+    {
+      "path": "reference/accessibility.md",
+      "title": "Accessibility",
+      "group": ".",
+      "bytes": 5555,
+      "headings": [
+        "Accessibility",
+        "Route announcements",
+        "Focus management",
+        "The \"lang\" attribute",
+        "Further reading"
+      ]
+    },
+    {
+      "path": "reference/adapters.md",
+      "title": "Adapters",
+      "group": ".",
+      "bytes": 1638,
+      "headings": [
+        "Adapters",
+        "Using adapters",
+        "Platform-specific context"
+      ]
+    },
+    {
+      "path": "reference/additional-resources.md",
+      "title": "Additional resources",
+      "group": ".",
+      "bytes": 1527,
+      "headings": [
+        "Additional resources",
+        "FAQs",
+        "Examples",
+        "Support"
+      ]
+    },
+    {
+      "path": "reference/advanced-routing.md",
+      "title": "Advanced routing",
+      "group": ".",
+      "bytes": 11303,
+      "headings": [
+        "Advanced routing",
+        "Rest parameters",
+        "404 pages",
+        "Optional parameters",
+        "Matching",
+        "Sorting",
+        "Encoding",
+        "Advanced layouts",
+        "(group)",
+        "Breaking out of layouts",
+        "+page@",
+        "+layout@"
+      ]
+    },
+    {
+      "path": "reference/agents.md.md",
+      "title": "AGENTS.md",
+      "group": ".",
+      "bytes": 1904,
+      "headings": [
+        "AGENTS.md",
+        "Available Svelte MCP Tools:",
+        "1. list-sections",
+        "2. get-documentation",
+        "3. svelte-autofixer",
+        "4. playground-link"
+      ]
+    },
+    {
+      "path": "reference/also-works-when-creating-a-new-project-directly.md",
+      "title": "Also works when creating a new project directly",
+      "group": ".",
+      "bytes": 298,
+      "headings": [
+        "Also works when creating a new project directly"
+      ]
+    },
+    {
+      "path": "reference/analyze-a-file.md",
+      "title": "Analyze a file",
+      "group": ".",
+      "bytes": 79,
+      "headings": [
+        "Analyze a file"
+      ]
+    },
+    {
+      "path": "reference/analyze-inline-code-escape-as.md",
+      "title": "Analyze inline code (escape $ as \\$)",
+      "group": ".",
+      "bytes": 117,
+      "headings": [
+        "Analyze inline code (escape $ as \\$)"
+      ]
+    },
+    {
+      "path": "reference/animate.md",
+      "title": "animate:",
+      "group": ".",
+      "bytes": 3821,
+      "headings": [
+        "animate:",
+        "Animation Parameters",
+        "Custom animation functions"
+      ]
+    },
+    {
+      "path": "reference/app-env-private.md",
+      "title": "$app/env/private",
+      "group": ".",
+      "bytes": 239,
+      "headings": [
+        "$app/env/private"
+      ]
+    },
+    {
+      "path": "reference/app-env-public.md",
+      "title": "$app/env/public",
+      "group": ".",
+      "bytes": 237,
+      "headings": [
+        "$app/env/public"
+      ]
+    },
+    {
+      "path": "reference/app-env.md",
+      "title": "$app/env",
+      "group": ".",
+      "bytes": 924,
+      "headings": [
+        "$app/env",
+        "browser",
+        "building",
+        "dev",
+        "version"
+      ]
+    },
+    {
+      "path": "reference/app-environment.md",
+      "title": "$app/environment",
+      "group": ".",
+      "bytes": 759,
+      "headings": [
+        "$app/environment",
+        "browser",
+        "building",
+        "dev",
+        "version"
+      ]
+    },
+    {
+      "path": "reference/app-forms.md",
+      "title": "$app/forms",
+      "group": ".",
+      "bytes": 2728,
+      "headings": [
+        "$app/forms",
+        "applyAction",
+        "deserialize",
+        "enhance"
+      ]
+    },
+    {
+      "path": "reference/app-navigation.md",
+      "title": "$app/navigation",
+      "group": ".",
+      "bytes": 7477,
+      "headings": [
+        "$app/navigation",
+        "afterNavigate",
+        "beforeNavigate",
+        "disableScrollHandling",
+        "goto",
+        "invalidate",
+        "invalidateAll",
+        "onNavigate",
+        "preloadCode",
+        "preloadData",
+        "pushState",
+        "refreshAll"
+      ]
+    },
+    {
+      "path": "reference/app-paths.md",
+      "title": "$app/paths",
+      "group": ".",
+      "bytes": 3229,
+      "headings": [
+        "$app/paths",
+        "asset",
+        "assets",
+        "base",
+        "match",
+        "resolve",
+        "resolveRoute"
+      ]
+    },
+    {
+      "path": "reference/app-server.md",
+      "title": "$app/server",
+      "group": ".",
+      "bytes": 8769,
+      "headings": [
+        "$app/server",
+        "command",
+        "form",
+        "getRequestEvent",
+        "prerender",
+        "query",
+        "read",
+        "requested",
+        "query"
+      ]
+    },
+    {
+      "path": "reference/app-state.md",
+      "title": "$app/state",
+      "group": ".",
+      "bytes": 2813,
+      "headings": [
+        "$app/state",
+        "navigating",
+        "page",
+        "updated"
+      ]
+    },
+    {
+      "path": "reference/app-stores.md",
+      "title": "$app/stores",
+      "group": ".",
+      "bytes": 2509,
+      "headings": [
+        "$app/stores",
+        "getStores",
+        "navigating",
+        "page",
+        "updated"
+      ]
+    },
+    {
+      "path": "reference/app-types.md",
+      "title": "$app/types",
+      "group": ".",
+      "bytes": 1835,
+      "headings": [
+        "$app/types",
+        "Asset",
+        "RouteId",
+        "Pathname",
+        "ResolvedPathname",
+        "RouteParams",
+        "LayoutParams"
+      ]
+    },
+    {
+      "path": "reference/attach-....md",
+      "title": "{@attach ...}",
+      "group": ".",
+      "bytes": 4666,
+      "headings": [
+        "{@attach ...}",
+        "Attachment factories",
+        "Inline attachments",
+        "Conditional attachments",
+        "Passing attachments to components",
+        "Controlling when attachments re-run",
+        "Creating attachments programmatically",
+        "Converting actions to attachments"
+      ]
+    },
+    {
+      "path": "reference/auth.md",
+      "title": "Auth",
+      "group": ".",
+      "bytes": 1605,
+      "headings": [
+        "Auth",
+        "Sessions vs tokens",
+        "Integration points",
+        "Libraries",
+        "Guides"
+      ]
+    },
+    {
+      "path": "reference/await-....md",
+      "title": "{#await ...}",
+      "group": ".",
+      "bytes": 2009,
+      "headings": [
+        "{#await ...}"
+      ]
+    },
+    {
+      "path": "reference/await.md",
+      "title": "await",
+      "group": ".",
+      "bytes": 6512,
+      "headings": [
+        "await",
+        "Synchronized updates",
+        "Concurrency",
+        "Indicating loading states",
+        "Error handling",
+        "Server-side rendering",
+        "Forking",
+        "Caveats",
+        "Breaking changes"
+      ]
+    },
+    {
+      "path": "reference/basic-markup.md",
+      "title": "Basic markup",
+      "group": ".",
+      "bytes": 7538,
+      "headings": [
+        "Basic markup",
+        "Tags",
+        "Element attributes",
+        "Component props",
+        "Spread attributes",
+        "Events",
+        "Event delegation",
+        "Text expressions",
+        "Comments"
+      ]
+    },
+    {
+      "path": "reference/best-practices.md",
+      "title": "Best practices",
+      "group": ".",
+      "bytes": 6885,
+      "headings": [
+        "Best practices",
+        "`$state`",
+        "`$derived`",
+        "`$effect`",
+        "`$props`",
+        "`$inspect.trace`",
+        "Events",
+        "Snippets",
+        "Each blocks",
+        "Using JavaScript variables in CSS",
+        "Styling child components",
+        "Context"
+      ]
+    },
+    {
+      "path": "reference/better-auth.md",
+      "title": "better-auth",
+      "group": ".",
+      "bytes": 488,
+      "headings": [
+        "better-auth",
+        "Usage",
+        "What you get",
+        "Options",
+        "demo"
+      ]
+    },
+    {
+      "path": "reference/bind.md",
+      "title": "bind:",
+      "group": ".",
+      "bytes": 14792,
+      "headings": [
+        "bind:",
+        "Function bindings",
+        "`<input bind:value>`",
+        "`<input bind:checked>`",
+        "`<input bind:indeterminate>`",
+        "`<input bind:group>`",
+        "`<input bind:files>`",
+        "`<select bind:value>`",
+        "`<audio>`",
+        "`<video>`",
+        "`<img>`",
+        "`<details bind:open>`"
+      ]
+    },
+    {
+      "path": "reference/bindable.md",
+      "title": "$bindable",
+      "group": ".",
+      "bytes": 1636,
+      "headings": [
+        "$bindable"
+      ]
+    },
+    {
+      "path": "reference/both-email-password-and-github-oauth.md",
+      "title": "Both Email & Password and GitHub OAuth",
+      "group": ".",
+      "bytes": 91,
+      "headings": [
+        "Both Email & Password and GitHub OAuth"
+      ]
+    },
+    {
+      "path": "reference/breakpoint-debugging.md",
+      "title": "Breakpoint Debugging",
+      "group": ".",
+      "bytes": 2559,
+      "headings": [
+        "Breakpoint Debugging",
+        "Visual Studio Code",
+        "Launch via debug pane",
+        "Other Editors",
+        "Google Chrome and Microsoft Edge Developer Tools",
+        "References"
+      ]
+    },
+    {
+      "path": "reference/browser-support.md",
+      "title": "Browser support",
+      "group": ".",
+      "bytes": 1466,
+      "headings": [
+        "Browser support",
+        "Exceptions"
+      ]
+    },
+    {
+      "path": "reference/building-your-app.md",
+      "title": "Building your app",
+      "group": ".",
+      "bytes": 1332,
+      "headings": [
+        "Building your app",
+        "During the build",
+        "Preview your app"
+      ]
+    },
+    {
+      "path": "reference/class.md",
+      "title": "class",
+      "group": ".",
+      "bytes": 3073,
+      "headings": [
+        "class",
+        "Attributes",
+        "Objects and arrays",
+        "The `class:` directive"
+      ]
+    },
+    {
+      "path": "reference/claude-code.md",
+      "title": "Claude Code",
+      "group": ".",
+      "bytes": 998,
+      "headings": [
+        "Claude Code",
+        "Installation"
+      ]
+    },
+    {
+      "path": "reference/cli.md",
+      "title": "CLI",
+      "group": ".",
+      "bytes": 1111,
+      "headings": [
+        "CLI",
+        "Usage",
+        "`list-sections`",
+        "`get-documentation`"
+      ]
+    },
+    {
+      "path": "reference/cloudflare-workers.md",
+      "title": "Cloudflare Workers",
+      "group": ".",
+      "bytes": 6254,
+      "headings": [
+        "Cloudflare Workers",
+        "Usage",
+        "Options",
+        "config",
+        "platformProxy",
+        "Basic Configuration",
+        "Runtime APIs",
+        "Testing Locally",
+        "Troubleshooting",
+        "Node.js compatibility",
+        "Worker size limits",
+        "Accessing the file system"
+      ]
+    },
+    {
+      "path": "reference/cloudflare.md",
+      "title": "Cloudflare",
+      "group": ".",
+      "bytes": 12579,
+      "headings": [
+        "Cloudflare",
+        "Comparisons",
+        "Usage",
+        "Options",
+        "config",
+        "platformProxy",
+        "fallback",
+        "routes",
+        "Cloudflare Workers",
+        "Basic configuration",
+        "Deployment",
+        "Cloudflare Pages"
+      ]
+    },
+    {
+      "path": "reference/command-line-interface.md",
+      "title": "Command Line Interface",
+      "group": ".",
+      "bytes": 741,
+      "headings": [
+        "Command Line Interface",
+        "svelte-kit sync"
+      ]
+    },
+    {
+      "path": "reference/compiler-errors.md",
+      "title": "Compiler errors",
+      "group": ".",
+      "bytes": 24487,
+      "headings": [
+        "Compiler errors",
+        "animation_duplicate",
+        "animation_invalid_placement",
+        "animation_missing_key",
+        "attribute_contenteditable_dynamic",
+        "attribute_contenteditable_missing",
+        "attribute_duplicate",
+        "attribute_empty_shorthand",
+        "attribute_invalid_event_handler",
+        "attribute_invalid_multiple",
+        "attribute_invalid_name",
+        "attribute_invalid_sequence_expression"
+      ]
+    },
+    {
+      "path": "reference/compiler-warnings.md",
+      "title": "Compiler warnings",
+      "group": ".",
+      "bytes": 30507,
+      "headings": [
+        "Compiler warnings",
+        "a11y_accesskey",
+        "a11y_aria_activedescendant_has_tabindex",
+        "a11y_aria_attributes",
+        "a11y_autocomplete_valid",
+        "a11y_autofocus",
+        "a11y_click_events_have_key_events",
+        "a11y_consider_explicit_label",
+        "a11y_distracting_elements",
+        "a11y_figcaption_index",
+        "a11y_figcaption_parent",
+        "a11y_hidden"
+      ]
+    },
+    {
+      "path": "reference/configuration.md",
+      "title": "Configuration",
+      "group": ".",
+      "bytes": 39906,
+      "headings": [
+        "Configuration",
+        "Config",
+        "KitConfig",
+        "adapter",
+        "alias",
+        "appDir",
+        "csp",
+        "csrf",
+        "embedded",
+        "env",
+        "experimental",
+        "files"
+      ]
+    },
+    {
+      "path": "reference/const-....md",
+      "title": "{@const ...}",
+      "group": ".",
+      "bytes": 462,
+      "headings": [
+        "{@const ...}"
+      ]
+    },
+    {
+      "path": "reference/context.md",
+      "title": "Context",
+      "group": ".",
+      "bytes": 5543,
+      "headings": [
+        "Context",
+        "`setContext` and `getContext`",
+        "Using context with state",
+        "Component testing",
+        "Replacing global state"
+      ]
+    },
+    {
+      "path": "reference/create-your-own.md",
+      "title": "[create your own]",
+      "group": ".",
+      "bytes": 6513,
+      "headings": [
+        "[create your own]",
+        "Quick start",
+        "Project structure",
+        "Development",
+        "Testing",
+        "Publishing",
+        "Bundling",
+        "`package.json`",
+        "Naming convention",
+        "Publish to npm",
+        "Next steps",
+        "Version compatibility"
+      ]
+    },
+    {
+      "path": "reference/creating-a-project.md",
+      "title": "Creating a project",
+      "group": ".",
+      "bytes": 1364,
+      "headings": [
+        "Creating a project",
+        "Editor setup"
+      ]
+    },
+    {
+      "path": "reference/cursor.md",
+      "title": "Cursor",
+      "group": ".",
+      "bytes": 1183,
+      "headings": [
+        "Cursor",
+        "Installation"
+      ]
+    },
+    {
+      "path": "reference/custom-elements.md",
+      "title": "Custom elements",
+      "group": ".",
+      "bytes": 8695,
+      "headings": [
+        "Custom elements",
+        "Component lifecycle",
+        "Component options",
+        "Caveats and limitations"
+      ]
+    },
+    {
+      "path": "reference/custom-properties.md",
+      "title": "Custom properties",
+      "group": ".",
+      "bytes": 1454,
+      "headings": [
+        "Custom properties"
+      ]
+    },
+    {
+      "path": "reference/debug-....md",
+      "title": "{@debug ...}",
+      "group": ".",
+      "bytes": 796,
+      "headings": [
+        "{@debug ...}"
+      ]
+    },
+    {
+      "path": "reference/derived.md",
+      "title": "$derived",
+      "group": ".",
+      "bytes": 4644,
+      "headings": [
+        "$derived",
+        "`$derived.by`",
+        "Understanding dependencies",
+        "Overriding derived values",
+        "Deriveds and reactivity",
+        "Destructuring",
+        "Update propagation"
+      ]
+    },
+    {
+      "path": "reference/drizzle.md",
+      "title": "drizzle",
+      "group": ".",
+      "bytes": 1580,
+      "headings": [
+        "drizzle",
+        "Usage",
+        "What you get",
+        "Options",
+        "database",
+        "client",
+        "docker"
+      ]
+    },
+    {
+      "path": "reference/each-....md",
+      "title": "{#each ...}",
+      "group": ".",
+      "bytes": 3241,
+      "headings": [
+        "{#each ...}",
+        "Keyed each blocks",
+        "Each blocks without an item",
+        "Else blocks"
+      ]
+    },
+    {
+      "path": "reference/effect.md",
+      "title": "$effect",
+      "group": ".",
+      "bytes": 11454,
+      "headings": [
+        "$effect",
+        "Understanding lifecycle",
+        "Understanding dependencies",
+        "`$effect.pre`",
+        "`$effect.tracking`",
+        "`$effect.pending`",
+        "`$effect.root`",
+        "When not to use `$effect`"
+      ]
+    },
+    {
+      "path": "reference/email-password-only-default.md",
+      "title": "Email & Password only (default)",
+      "group": ".",
+      "bytes": 73,
+      "headings": [
+        "Email & Password only (default)"
+      ]
+    },
+    {
+      "path": "reference/env-dynamic-private.md",
+      "title": "$env/dynamic/private",
+      "group": ".",
+      "bytes": 2113,
+      "headings": [
+        "$env/dynamic/private"
+      ]
+    },
+    {
+      "path": "reference/env-dynamic-public.md",
+      "title": "$env/dynamic/public",
+      "group": ".",
+      "bytes": 2059,
+      "headings": [
+        "$env/dynamic/public"
+      ]
+    },
+    {
+      "path": "reference/env-static-private.md",
+      "title": "$env/static/private",
+      "group": ".",
+      "bytes": 1890,
+      "headings": [
+        "$env/static/private"
+      ]
+    },
+    {
+      "path": "reference/env-static-public.md",
+      "title": "$env/static/public",
+      "group": ".",
+      "bytes": 1804,
+      "headings": [
+        "$env/static/public"
+      ]
+    },
+    {
+      "path": "reference/environment-variables.md",
+      "title": "Environment variables",
+      "group": ".",
+      "bytes": 6003,
+      "headings": [
+        "Environment variables",
+        "Explicit environment variables",
+        "Setup",
+        "Private variables",
+        "Public variables",
+        "Validation",
+        "Static variables",
+        "Documenting variables"
+      ]
+    },
+    {
+      "path": "reference/errors.md",
+      "title": "Errors",
+      "group": ".",
+      "bytes": 6736,
+      "headings": [
+        "Errors",
+        "Error objects",
+        "Expected errors",
+        "Unexpected errors",
+        "Rendering errors",
+        "Responses",
+        "Type safety",
+        "Further reading"
+      ]
+    },
+    {
+      "path": "reference/eslint.md",
+      "title": "eslint",
+      "group": ".",
+      "bytes": 351,
+      "headings": [
+        "eslint",
+        "Usage",
+        "What you get"
+      ]
+    },
+    {
+      "path": "reference/experimental.md",
+      "title": "experimental",
+      "group": ".",
+      "bytes": 1032,
+      "headings": [
+        "experimental",
+        "Usage",
+        "What you get",
+        "Options",
+        "versions",
+        "features"
+      ]
+    },
+    {
+      "path": "reference/export-let.md",
+      "title": "export let",
+      "group": ".",
+      "bytes": 1801,
+      "headings": [
+        "export let",
+        "Component exports",
+        "Renaming props"
+      ]
+    },
+    {
+      "path": "reference/form-actions.md",
+      "title": "Form actions",
+      "group": ".",
+      "bytes": 17224,
+      "headings": [
+        "Form actions",
+        "Default actions",
+        "Named actions",
+        "Anatomy of an action",
+        "Validation errors",
+        "Redirects",
+        "Loading data",
+        "Progressive enhancement",
+        "use:enhance",
+        "Customising use:enhance",
+        "Custom event listener",
+        "Alternatives"
+      ]
+    },
+    {
+      "path": "reference/frequently-asked-questions-2.md",
+      "title": "Frequently asked questions",
+      "group": ".",
+      "bytes": 9603,
+      "headings": [
+        "Frequently asked questions",
+        "Other resources",
+        "What can I make with SvelteKit?",
+        "How do I include details from package.json in my application?",
+        "How do I fix the error I'm getting trying to include a package?",
+        "How do I use the view transitions API?",
+        "How do I set up a database?",
+        "How do I use a client-side library accessing `document` or `window`?",
+        "How do I use a different backend API server?",
+        "How do I use middleware?",
+        "How do I use Yarn?",
+        "Does it work with Yarn 2?"
+      ]
+    },
+    {
+      "path": "reference/frequently-asked-questions-3.md",
+      "title": "Frequently asked questions",
+      "group": ".",
+      "bytes": 1012,
+      "headings": [
+        "Frequently asked questions",
+        "How do I run the `sv` CLI?",
+        "`npx sv` is not working"
+      ]
+    },
+    {
+      "path": "reference/frequently-asked-questions.md",
+      "title": "Frequently asked questions",
+      "group": ".",
+      "bytes": 9567,
+      "headings": [
+        "Frequently asked questions",
+        "I'm new to Svelte. Where should I start?",
+        "Where can I get support?",
+        "Are there any third-party resources?",
+        "How can I get VS Code to syntax-highlight my .svelte files?",
+        "Is there a tool to automatically format my .svelte files?",
+        "How do I document my components?",
+        "Does Svelte scale?",
+        "Is there a UI component library?",
+        "How do I test Svelte apps?",
+        "Is there a router?",
+        "How do I write a mobile app with Svelte?"
+      ]
+    },
+    {
+      "path": "reference/getting-started.md",
+      "title": "Getting started",
+      "group": ".",
+      "bytes": 1806,
+      "headings": [
+        "Getting started",
+        "Alternatives to SvelteKit",
+        "Editor tooling",
+        "Getting help"
+      ]
+    },
+    {
+      "path": "reference/github-oauth-only.md",
+      "title": "GitHub OAuth only",
+      "group": ".",
+      "bytes": 57,
+      "headings": [
+        "GitHub OAuth only"
+      ]
+    },
+    {
+      "path": "reference/global-styles.md",
+      "title": "Global styles",
+      "group": ".",
+      "bytes": 1550,
+      "headings": [
+        "Global styles",
+        ":global(...)",
+        ":global"
+      ]
+    },
+    {
+      "path": "reference/glossary.md",
+      "title": "Glossary",
+      "group": ".",
+      "bytes": 6988,
+      "headings": [
+        "Glossary",
+        "CSR",
+        "Edge",
+        "Hybrid app",
+        "Hydration",
+        "ISR",
+        "MPA",
+        "Prerendering",
+        "PWA",
+        "Routing",
+        "SPA",
+        "SSG"
+      ]
+    },
+    {
+      "path": "reference/hooks.md",
+      "title": "Hooks",
+      "group": ".",
+      "bytes": 16875,
+      "headings": [
+        "Hooks",
+        "Server hooks",
+        "handle",
+        "locals",
+        "handleFetch",
+        "handleValidationError",
+        "Shared hooks",
+        "handleError",
+        "init",
+        "Universal hooks",
+        "reroute",
+        "transport"
+      ]
+    },
+    {
+      "path": "reference/host.md",
+      "title": "$host",
+      "group": ".",
+      "bytes": 784,
+      "headings": [
+        "$host"
+      ]
+    },
+    {
+      "path": "reference/html-....md",
+      "title": "{@html ...}",
+      "group": ".",
+      "bytes": 1158,
+      "headings": [
+        "{@html ...}",
+        "Styling"
+      ]
+    },
+    {
+      "path": "reference/hydratable-data.md",
+      "title": "Hydratable data",
+      "group": ".",
+      "bytes": 4565,
+      "headings": [
+        "Hydratable data",
+        "Serialization",
+        "CSP"
+      ]
+    },
+    {
+      "path": "reference/icons.md",
+      "title": "Icons",
+      "group": ".",
+      "bytes": 1203,
+      "headings": [
+        "Icons",
+        "CSS",
+        "Svelte"
+      ]
+    },
+    {
+      "path": "reference/if-....md",
+      "title": "{#if ...}",
+      "group": ".",
+      "bytes": 723,
+      "headings": [
+        "{#if ...}"
+      ]
+    },
+    {
+      "path": "reference/images.md",
+      "title": "Images",
+      "group": ".",
+      "bytes": 11123,
+      "headings": [
+        "Images",
+        "Vite's built-in handling",
+        "@sveltejs/enhanced-img",
+        "Setup",
+        "Basic usage",
+        "Dynamically choosing an image",
+        "Intrinsic Dimensions",
+        "`srcset` and `sizes`",
+        "Per-image transforms",
+        "Loading images dynamically from a CDN",
+        "Best practices"
+      ]
+    },
+    {
+      "path": "reference/imperative-component-api-2.md",
+      "title": "Imperative component API",
+      "group": ".",
+      "bytes": 6462,
+      "headings": [
+        "Imperative component API",
+        "Creating a component",
+        "`$set`",
+        "`$on`",
+        "`$destroy`",
+        "Component props",
+        "Server-side component API"
+      ]
+    },
+    {
+      "path": "reference/imperative-component-api.md",
+      "title": "Imperative component API",
+      "group": ".",
+      "bytes": 2668,
+      "headings": [
+        "Imperative component API",
+        "`mount`",
+        "`unmount`",
+        "`render`",
+        "`hydrate`"
+      ]
+    },
+    {
+      "path": "reference/in-and-out.md",
+      "title": "in: and out:",
+      "group": ".",
+      "bytes": 663,
+      "headings": [
+        "in: and out:"
+      ]
+    },
+    {
+      "path": "reference/inspect.md",
+      "title": "$inspect",
+      "group": ".",
+      "bytes": 2169,
+      "headings": [
+        "$inspect",
+        "$inspect(...).with",
+        "$inspect.trace(...)"
+      ]
+    },
+    {
+      "path": "reference/install-a-community-add-on-by-org-name-it-will-look-at-org-sv.md",
+      "title": "Install a community add-on by org name (it will look at @org/sv)",
+      "group": ".",
+      "bytes": 88,
+      "headings": [
+        "Install a community add-on by org name (it will look at @org/sv)"
+      ]
+    },
+    {
+      "path": "reference/integrations.md",
+      "title": "Integrations",
+      "group": ".",
+      "bytes": 2929,
+      "headings": [
+        "Integrations",
+        "`vitePreprocess`",
+        "`style`",
+        "`script`",
+        "Add-ons",
+        "Packages",
+        "Additional integrations",
+        "`svelte-preprocess`",
+        "Vite plugins",
+        "Integration FAQs"
+      ]
+    },
+    {
+      "path": "reference/introduction.md",
+      "title": "Introduction",
+      "group": ".",
+      "bytes": 2701,
+      "headings": [
+        "Introduction",
+        "Before we begin",
+        "What is SvelteKit?",
+        "What is Svelte?",
+        "SvelteKit vs Svelte"
+      ]
+    },
+    {
+      "path": "reference/key-....md",
+      "title": "{#key ...}",
+      "group": ".",
+      "bytes": 456,
+      "headings": [
+        "{#key ...}"
+      ]
+    },
+    {
+      "path": "reference/let-const-....md",
+      "title": "{let/const ...}",
+      "group": ".",
+      "bytes": 1805,
+      "headings": [
+        "{let/const ...}"
+      ]
+    },
+    {
+      "path": "reference/lib.md",
+      "title": "$lib",
+      "group": ".",
+      "bytes": 317,
+      "headings": [
+        "$lib"
+      ]
+    },
+    {
+      "path": "reference/lifecycle-hooks.md",
+      "title": "Lifecycle hooks",
+      "group": ".",
+      "bytes": 5255,
+      "headings": [
+        "Lifecycle hooks",
+        "`onMount`",
+        "`onDestroy`",
+        "`tick`",
+        "Deprecated: `beforeUpdate` / `afterUpdate`",
+        "Chat window example"
+      ]
+    },
+    {
+      "path": "reference/link-options.md",
+      "title": "Link options",
+      "group": ".",
+      "bytes": 6753,
+      "headings": [
+        "Link options",
+        "data-sveltekit-preload-data",
+        "data-sveltekit-preload-code",
+        "data-sveltekit-reload",
+        "data-sveltekit-replacestate",
+        "data-sveltekit-keepfocus",
+        "data-sveltekit-noscroll",
+        "Disabling options"
+      ]
+    },
+    {
+      "path": "reference/loading-data.md",
+      "title": "Loading data",
+      "group": ".",
+      "bytes": 31379,
+      "headings": [
+        "Loading data",
+        "Page data",
+        "Layout data",
+        "page.data",
+        "Universal vs server",
+        "When does which load function run?",
+        "Input",
+        "Output",
+        "When to use which",
+        "Using URL data",
+        "url",
+        "route"
+      ]
+    },
+    {
+      "path": "reference/local-setup.md",
+      "title": "Local setup",
+      "group": ".",
+      "bytes": 3684,
+      "headings": [
+        "Local setup",
+        "Claude Code",
+        "Claude Desktop",
+        "Codex CLI",
+        "Copilot CLI",
+        "Gemini CLI",
+        "OpenCode",
+        "VS Code",
+        "Cursor",
+        "Zed",
+        "Other clients"
+      ]
+    },
+    {
+      "path": "reference/mcp.md",
+      "title": "mcp",
+      "group": ".",
+      "bytes": 612,
+      "headings": [
+        "mcp",
+        "Usage",
+        "What you get",
+        "Options",
+        "ide",
+        "setup"
+      ]
+    },
+    {
+      "path": "reference/mdsvex.md",
+      "title": "mdsvex",
+      "group": ".",
+      "bytes": 335,
+      "headings": [
+        "mdsvex",
+        "Usage",
+        "What you get"
+      ]
+    },
+    {
+      "path": "reference/migrating-from-sapper.md",
+      "title": "Migrating from Sapper",
+      "group": ".",
+      "bytes": 9170,
+      "headings": [
+        "Migrating from Sapper",
+        "package.json",
+        "type: \"module\"",
+        "dependencies",
+        "devDependencies",
+        "scripts",
+        "Project files",
+        "Configuration",
+        "src/client.js",
+        "src/server.js",
+        "src/service-worker.js",
+        "src/template.html"
+      ]
+    },
+    {
+      "path": "reference/migrating-to-sveltekit-v2.md",
+      "title": "Migrating to SvelteKit v2",
+      "group": ".",
+      "bytes": 13129,
+      "headings": [
+        "Migrating to SvelteKit v2",
+        "`redirect` and `error` are no longer thrown by you",
+        "path is required when setting cookies",
+        "Top-level promises are no longer awaited",
+        "goto(...) changes",
+        "paths are now relative by default",
+        "Server fetches are not trackable anymore",
+        "`preloadCode` arguments must be prefixed with `base`",
+        "`resolvePath` has been removed",
+        "Improved error handling",
+        "Dynamic environment variables cannot be used during prerendering",
+        "`form` and `data` have been removed from `use:enhance` callbacks"
+      ]
+    },
+    {
+      "path": "reference/mix-and-match-official-and-community-add-ons.md",
+      "title": "Mix and match official and community add-ons",
+      "group": ".",
+      "bytes": 75,
+      "headings": [
+        "Mix and match official and community add-ons"
+      ]
+    },
+    {
+      "path": "reference/nested-style-elements.md",
+      "title": "Nested `<style>` elements",
+      "group": ".",
+      "bytes": 495,
+      "headings": [
+        "Nested `<style>` elements"
+      ]
+    },
+    {
+      "path": "reference/netlify.md",
+      "title": "Netlify",
+      "group": ".",
+      "bytes": 6325,
+      "headings": [
+        "Netlify",
+        "Usage",
+        "Node version",
+        "Netlify Edge Functions",
+        "Netlify alternatives to SvelteKit functionality",
+        "`_headers` and `_redirects`",
+        "Netlify Forms",
+        "Netlify Functions",
+        "Troubleshooting",
+        "Accessing the file system"
+      ]
+    },
+    {
+      "path": "reference/node-servers.md",
+      "title": "Node servers",
+      "group": ".",
+      "bytes": 3454,
+      "headings": [
+        "Node servers",
+        "Usage",
+        "Deploying",
+        "Compressing responses",
+        "Environment variables",
+        "`PORT`, `HOST` and `SOCKET_PATH`",
+        "`ORIGIN`, `PROTOCOL_HEADER`, `HOST_HEADER`, and `PORT_HEADER`"
+      ]
+    },
+    {
+      "path": "reference/observability.md",
+      "title": "Observability",
+      "group": ".",
+      "bytes": 5037,
+      "headings": [
+        "Observability",
+        "Augmenting the built-in tracing",
+        "Development quickstart",
+        "`@opentelemetry/api`"
+      ]
+    },
+    {
+      "path": "reference/on.md",
+      "title": "on:",
+      "group": ".",
+      "bytes": 3662,
+      "headings": [
+        "on:",
+        "Component events"
+      ]
+    },
+    {
+      "path": "reference/opencode.md",
+      "title": "OpenCode",
+      "group": ".",
+      "bytes": 1581,
+      "headings": [
+        "OpenCode",
+        "Installation",
+        "Configuration"
+      ]
+    },
+    {
+      "path": "reference/or-e.g.-for-local-previewing-and-testing.md",
+      "title": "or e.g. for local previewing and testing",
+      "group": ".",
+      "bytes": 10075,
+      "headings": [
+        "or e.g. for local previewing and testing",
+        "`ADDRESS_HEADER` and `XFF_DEPTH`",
+        "`BODY_SIZE_LIMIT`",
+        "`SHUTDOWN_TIMEOUT`",
+        "`IDLE_TIMEOUT`",
+        "`KEEP_ALIVE_TIMEOUT` and `HEADERS_TIMEOUT`",
+        "Options",
+        "out",
+        "precompress",
+        "envPrefix",
+        "Graceful shutdown",
+        "Socket activation"
+      ]
+    },
+    {
+      "path": "reference/or.md",
+      "title": "or",
+      "group": ".",
+      "bytes": 1147,
+      "headings": [
+        "or",
+        "`svelte-autofixer`"
+      ]
+    },
+    {
+      "path": "reference/overview-2.md",
+      "title": "Overview",
+      "group": ".",
+      "bytes": 962,
+      "headings": [
+        "Overview"
+      ]
+    },
+    {
+      "path": "reference/overview-3.md",
+      "title": "Overview",
+      "group": ".",
+      "bytes": 914,
+      "headings": [
+        "Overview",
+        "Usage",
+        "Acknowledgements"
+      ]
+    },
+    {
+      "path": "reference/overview-4.md",
+      "title": "Overview",
+      "group": ".",
+      "bytes": 886,
+      "headings": [
+        "Overview"
+      ]
+    },
+    {
+      "path": "reference/overview-5.md",
+      "title": "Overview",
+      "group": ".",
+      "bytes": 763,
+      "headings": [
+        "Overview",
+        "Setup",
+        "Usage"
+      ]
+    },
+    {
+      "path": "reference/overview-6.md",
+      "title": "Overview",
+      "group": ".",
+      "bytes": 1184,
+      "headings": [
+        "Overview",
+        "`svelte-code-writer`"
+      ]
+    },
+    {
+      "path": "reference/overview-7.md",
+      "title": "Overview",
+      "group": ".",
+      "bytes": 3749,
+      "headings": [
+        "Overview",
+        "Available MCP Tools",
+        "1. list-sections",
+        "2. get-documentation",
+        "3. svelte-autofixer",
+        "Workflow",
+        "1. Gather Context (if needed)",
+        "2. Read the Target File",
+        "3. Make Changes",
+        "4. Validate Changes",
+        "5. Fix Any Issues",
+        "Output Format"
+      ]
+    },
+    {
+      "path": "reference/overview.md",
+      "title": "Overview",
+      "group": ".",
+      "bytes": 850,
+      "headings": [
+        "Overview"
+      ]
+    },
+    {
+      "path": "reference/packaging.md",
+      "title": "Packaging",
+      "group": ".",
+      "bytes": 15151,
+      "headings": [
+        "Packaging",
+        "Anatomy of a package.json",
+        "name",
+        "license",
+        "files",
+        "exports",
+        "svelte",
+        "sideEffects",
+        "TypeScript",
+        "Best practices",
+        "Source maps",
+        "Options"
+      ]
+    },
+    {
+      "path": "reference/page-options.md",
+      "title": "Page options",
+      "group": ".",
+      "bytes": 13190,
+      "headings": [
+        "Page options",
+        "prerender",
+        "Prerendering server routes",
+        "When not to prerender",
+        "Route conflicts",
+        "Troubleshooting",
+        "entries",
+        "ssr",
+        "csr",
+        "trailingSlash",
+        "config",
+        "Further reading"
+      ]
+    },
+    {
+      "path": "reference/paraglide.md",
+      "title": "paraglide",
+      "group": ".",
+      "bytes": 813,
+      "headings": [
+        "paraglide",
+        "Usage",
+        "What you get",
+        "Options",
+        "languageTags",
+        "demo"
+      ]
+    },
+    {
+      "path": "reference/performance.md",
+      "title": "Performance",
+      "group": ".",
+      "bytes": 10267,
+      "headings": [
+        "Performance",
+        "Diagnosing issues",
+        "Instrumenting",
+        "Optimizing assets",
+        "Images",
+        "Videos",
+        "Fonts",
+        "Reducing code size",
+        "Svelte version",
+        "Packages",
+        "External scripts",
+        "Selective loading"
+      ]
+    },
+    {
+      "path": "reference/playwright.md",
+      "title": "playwright",
+      "group": ".",
+      "bytes": 235,
+      "headings": [
+        "playwright",
+        "Usage",
+        "What you get"
+      ]
+    },
+    {
+      "path": "reference/prettier.md",
+      "title": "prettier",
+      "group": ".",
+      "bytes": 275,
+      "headings": [
+        "prettier",
+        "Usage",
+        "What you get"
+      ]
+    },
+    {
+      "path": "reference/project-structure.md",
+      "title": "Project structure",
+      "group": ".",
+      "bytes": 5831,
+      "headings": [
+        "Project structure",
+        "Project files",
+        "src",
+        "static",
+        "tests",
+        "package.json",
+        "svelte.config.js",
+        "tsconfig.json",
+        "vite.config.js",
+        "Other files",
+        ".svelte-kit"
+      ]
+    },
+    {
+      "path": "reference/project-types.md",
+      "title": "Project types",
+      "group": ".",
+      "bytes": 6888,
+      "headings": [
+        "Project types",
+        "Default rendering",
+        "Static site generation",
+        "Single-page app",
+        "Multi-page app",
+        "Separate backend",
+        "Serverless app",
+        "Your own server",
+        "Container",
+        "Library",
+        "Offline app",
+        "Mobile app"
+      ]
+    },
+    {
+      "path": "reference/prompts.md",
+      "title": "Prompts",
+      "group": ".",
+      "bytes": 35836,
+      "headings": [
+        "Prompts",
+        "svelte-task"
+      ]
+    },
+    {
+      "path": "reference/props-and-restprops.md",
+      "title": "$$props and $$restProps",
+      "group": ".",
+      "bytes": 915,
+      "headings": [
+        "$$props and $$restProps"
+      ]
+    },
+    {
+      "path": "reference/props.md",
+      "title": "$props",
+      "group": ".",
+      "bytes": 6323,
+      "headings": [
+        "$props",
+        "Fallback values",
+        "Renaming props",
+        "Rest props",
+        "Updating props",
+        "Type safety",
+        "`$props.id()`"
+      ]
+    },
+    {
+      "path": "reference/reactive-let-var-declarations.md",
+      "title": "Reactive let/var declarations",
+      "group": ".",
+      "bytes": 950,
+      "headings": [
+        "Reactive let/var declarations"
+      ]
+    },
+    {
+      "path": "reference/reactive-statements.md",
+      "title": "Reactive $: statements",
+      "group": ".",
+      "bytes": 2488,
+      "headings": [
+        "Reactive $: statements",
+        "Understanding dependencies",
+        "Browser-only code"
+      ]
+    },
+    {
+      "path": "reference/remote-functions.md",
+      "title": "Remote functions",
+      "group": ".",
+      "bytes": 46906,
+      "headings": [
+        "Remote functions",
+        "Overview",
+        "query",
+        "Query arguments",
+        "Deduplication",
+        "Refreshing queries",
+        "query.batch",
+        "query.live",
+        "form",
+        "Fields",
+        "Programmatic validation",
+        "Validation"
+      ]
+    },
+    {
+      "path": "reference/remote-setup.md",
+      "title": "Remote setup",
+      "group": ".",
+      "bytes": 3365,
+      "headings": [
+        "Remote setup",
+        "Claude Code",
+        "Claude Desktop",
+        "Codex CLI",
+        "Copilot CLI",
+        "Gemini CLI",
+        "OpenCode",
+        "VS Code",
+        "Cursor",
+        "GitHub Coding Agent",
+        "Other clients"
+      ]
+    },
+    {
+      "path": "reference/render-....md",
+      "title": "{@render ...}",
+      "group": ".",
+      "bytes": 778,
+      "headings": [
+        "{@render ...}",
+        "Optional snippets"
+      ]
+    },
+    {
+      "path": "reference/resources.md",
+      "title": "Resources",
+      "group": ".",
+      "bytes": 641,
+      "headings": [
+        "Resources",
+        "doc-section"
+      ]
+    },
+    {
+      "path": "reference/routing.md",
+      "title": "Routing",
+      "group": ".",
+      "bytes": 17711,
+      "headings": [
+        "Routing",
+        "+page",
+        "+page.svelte",
+        "+page.js",
+        "+page.server.js",
+        "+error",
+        "+layout",
+        "+layout.svelte",
+        "+layout.js",
+        "+layout.server.js",
+        "+server",
+        "Receiving data"
+      ]
+    },
+    {
+      "path": "reference/runtime-errors.md",
+      "title": "Runtime errors",
+      "group": ".",
+      "bytes": 15781,
+      "headings": [
+        "Runtime errors",
+        "Client errors",
+        "async_derived_orphan",
+        "bind_invalid_checkbox_value",
+        "bind_invalid_export",
+        "bind_not_bindable",
+        "component_api_changed",
+        "component_api_invalid_new",
+        "derived_references_self",
+        "each_key_duplicate",
+        "each_key_volatile",
+        "effect_in_teardown"
+      ]
+    },
+    {
+      "path": "reference/runtime-warnings.md",
+      "title": "Runtime warnings",
+      "group": ".",
+      "bytes": 14489,
+      "headings": [
+        "Runtime warnings",
+        "Client warnings",
+        "assignment_value_stale",
+        "await_reactivity_loss",
+        "await_waterfall",
+        "binding_property_non_reactive",
+        "console_log_state",
+        "derived_inert",
+        "event_handler_invalid",
+        "hydratable_missing_but_expected",
+        "hydration_attribute_changed",
+        "hydration_html_changed"
+      ]
+    },
+    {
+      "path": "reference/scoped-styles.md",
+      "title": "Scoped styles",
+      "group": ".",
+      "bytes": 1473,
+      "headings": [
+        "Scoped styles",
+        "Specificity",
+        "Scoped keyframes"
+      ]
+    },
+    {
+      "path": "reference/section.md",
+      "title": "Section",
+      "group": ".",
+      "bytes": 84,
+      "headings": []
+    },
+    {
+      "path": "reference/seo.md",
+      "title": "SEO",
+      "group": ".",
+      "bytes": 5669,
+      "headings": [
+        "SEO",
+        "Out of the box",
+        "SSR",
+        "Performance",
+        "Normalized URLs",
+        "Manual setup",
+        "&lt;title&gt; and &lt;meta&gt;",
+        "Sitemaps",
+        "AMP"
+      ]
+    },
+    {
+      "path": "reference/server-only-modules.md",
+      "title": "Server-only modules",
+      "group": ".",
+      "bytes": 2582,
+      "headings": [
+        "Server-only modules",
+        "Private environment variables",
+        "Server-only utilities",
+        "Your modules",
+        "How it works",
+        "Further reading"
+      ]
+    },
+    {
+      "path": "reference/service-worker.md",
+      "title": "$service-worker",
+      "group": ".",
+      "bytes": 1713,
+      "headings": [
+        "$service-worker",
+        "base",
+        "build",
+        "files",
+        "prerendered",
+        "version"
+      ]
+    },
+    {
+      "path": "reference/service-workers.md",
+      "title": "Service workers",
+      "group": ".",
+      "bytes": 5714,
+      "headings": [
+        "Service workers",
+        "Inside the service worker",
+        "During development",
+        "Other solutions",
+        "References"
+      ]
+    },
+    {
+      "path": "reference/shallow-routing.md",
+      "title": "Shallow routing",
+      "group": ".",
+      "bytes": 4711,
+      "headings": [
+        "Shallow routing",
+        "API",
+        "Loading data for a route",
+        "Caveats"
+      ]
+    },
+    {
+      "path": "reference/single-page-apps.md",
+      "title": "Single-page apps",
+      "group": ".",
+      "bytes": 4322,
+      "headings": [
+        "Single-page apps",
+        "Usage",
+        "Prerendering individual pages",
+        "Apache"
+      ]
+    },
+    {
+      "path": "reference/slot.md",
+      "title": "`<slot>`",
+      "group": ".",
+      "bytes": 2765,
+      "headings": [
+        "`<slot>`",
+        "Named slots",
+        "Fallback content",
+        "Passing data to slotted content"
+      ]
+    },
+    {
+      "path": "reference/slots.md",
+      "title": "$$slots",
+      "group": ".",
+      "bytes": 731,
+      "headings": [
+        "$$slots"
+      ]
+    },
+    {
+      "path": "reference/snapshots.md",
+      "title": "Snapshots",
+      "group": ".",
+      "bytes": 1737,
+      "headings": [
+        "Snapshots"
+      ]
+    },
+    {
+      "path": "reference/snippet-....md",
+      "title": "{#snippet ...}",
+      "group": ".",
+      "bytes": 8274,
+      "headings": [
+        "{#snippet ...}",
+        "Snippet scope",
+        "Passing snippets to components",
+        "Explicit props",
+        "Implicit props",
+        "Implicit `children` snippet",
+        "Optional snippet props",
+        "Typing snippets",
+        "Exporting snippets",
+        "Programmatic snippets",
+        "Snippets and slots"
+      ]
+    },
+    {
+      "path": "reference/start-of-svelte-ai-documentation.md",
+      "title": "Start of Svelte AI documentation",
+      "group": ".",
+      "bytes": 35,
+      "headings": [
+        "Start of Svelte AI documentation"
+      ]
+    },
+    {
+      "path": "reference/start-of-svelte-cli-documentation.md",
+      "title": "Start of Svelte CLI documentation",
+      "group": ".",
+      "bytes": 36,
+      "headings": [
+        "Start of Svelte CLI documentation"
+      ]
+    },
+    {
+      "path": "reference/start-of-svelte-documentation.md",
+      "title": "Start of Svelte documentation",
+      "group": ".",
+      "bytes": 32,
+      "headings": [
+        "Start of Svelte documentation"
+      ]
+    },
+    {
+      "path": "reference/start-of-sveltekit-documentation.md",
+      "title": "Start of SvelteKit documentation",
+      "group": ".",
+      "bytes": 35,
+      "headings": [
+        "Start of SvelteKit documentation"
+      ]
+    },
+    {
+      "path": "reference/state-management.md",
+      "title": "State management",
+      "group": ".",
+      "bytes": 7975,
+      "headings": [
+        "State management",
+        "Avoid shared state on the server",
+        "No side-effects in load",
+        "Using state and stores with context",
+        "Component and page state is preserved",
+        "Storing state in the URL",
+        "Storing ephemeral state in snapshots"
+      ]
+    },
+    {
+      "path": "reference/state.md",
+      "title": "$state",
+      "group": ".",
+      "bytes": 9501,
+      "headings": [
+        "$state",
+        "Deep state",
+        "Classes",
+        "Built-in classes",
+        "`$state.raw`",
+        "`$state.snapshot`",
+        "`$state.eager`",
+        "Passing state into functions",
+        "Passing state across modules"
+      ]
+    },
+    {
+      "path": "reference/static-site-generation.md",
+      "title": "Static site generation",
+      "group": ".",
+      "bytes": 6500,
+      "headings": [
+        "Static site generation",
+        "Usage",
+        "Zero-config support",
+        "Options",
+        "pages",
+        "assets",
+        "fallback",
+        "precompress",
+        "strict",
+        "GitHub Pages",
+        "file: .github/workflows/deploy.yml"
+      ]
+    },
+    {
+      "path": "reference/stores.md",
+      "title": "Stores",
+      "group": ".",
+      "bytes": 10224,
+      "headings": [
+        "Stores",
+        "When to use stores",
+        "svelte/store",
+        "`writable`",
+        "`readable`",
+        "`derived`",
+        "`readonly`",
+        "`get`",
+        "Store contract"
+      ]
+    },
+    {
+      "path": "reference/storybook.md",
+      "title": "storybook",
+      "group": ".",
+      "bytes": 538,
+      "headings": [
+        "storybook",
+        "Usage",
+        "What you get"
+      ]
+    },
+    {
+      "path": "reference/style.md",
+      "title": "style:",
+      "group": ".",
+      "bytes": 1059,
+      "headings": [
+        "style:"
+      ]
+    },
+    {
+      "path": "reference/sv-add.md",
+      "title": "sv add",
+      "group": ".",
+      "bytes": 1691,
+      "headings": [
+        "sv add",
+        "Usage",
+        "Options",
+        "`-C`, `--cwd`",
+        "`--no-git-check`",
+        "`--no-download-check`",
+        "`--install <package-manager>`",
+        "`--no-install`",
+        "Official add-ons",
+        "Community add-ons"
+      ]
+    },
+    {
+      "path": "reference/sv-check.md",
+      "title": "sv check",
+      "group": ".",
+      "bytes": 6478,
+      "headings": [
+        "sv check",
+        "Installation",
+        "Usage",
+        "Options",
+        "`--workspace <path>`",
+        "`--output <format>`",
+        "`--watch`",
+        "`--preserveWatchOutput`",
+        "`--tsconfig <path>`",
+        "`--no-tsconfig`",
+        "`--ignore <paths>`",
+        "`--fail-on-warnings`"
+      ]
+    },
+    {
+      "path": "reference/sv-create.md",
+      "title": "sv create",
+      "group": ".",
+      "bytes": 1856,
+      "headings": [
+        "sv create",
+        "Usage",
+        "Options",
+        "`--from-playground <url>`",
+        "`--template <name>`",
+        "`--types <option>`",
+        "`--no-types`",
+        "`--add [add-ons...]`",
+        "`--no-add-ons`",
+        "`--install <package-manager>`",
+        "`--no-install`",
+        "`--no-dir-check`"
+      ]
+    },
+    {
+      "path": "reference/sv-migrate.md",
+      "title": "sv migrate",
+      "group": ".",
+      "bytes": 1618,
+      "headings": [
+        "sv migrate",
+        "Usage",
+        "Migrations",
+        "`app-state`",
+        "`svelte-5`",
+        "`self-closing-tags`",
+        "`svelte-4`",
+        "`sveltekit-2`",
+        "`package`",
+        "`routes`"
+      ]
+    },
+    {
+      "path": "reference/sv-utils.md",
+      "title": "sv-utils",
+      "group": ".",
+      "bytes": 9221,
+      "headings": [
+        "sv-utils",
+        "transforms",
+        "`transforms.script`",
+        "`transforms.svelte`",
+        "`transforms.svelteScript`",
+        "`transforms.css`",
+        "`transforms.json`",
+        "`transforms.yaml` / `transforms.toml`",
+        "`transforms.text`",
+        "Aborting a transform",
+        "Standalone usage & testing",
+        "Composability"
+      ]
+    },
+    {
+      "path": "reference/sv.md",
+      "title": "sv",
+      "group": ".",
+      "bytes": 2678,
+      "headings": [
+        "sv",
+        "`defineAddon`",
+        "`defineAddonOptions`",
+        "`create`",
+        "`add`"
+      ]
+    },
+    {
+      "path": "reference/svelte-4-migration-guide.md",
+      "title": "Svelte 4 migration guide",
+      "group": ".",
+      "bytes": 12184,
+      "headings": [
+        "Svelte 4 migration guide",
+        "Minimum version requirements",
+        "Browser conditions for bundlers",
+        "Removal of CJS related output",
+        "Stricter types for Svelte functions",
+        "Custom Elements with Svelte",
+        "SvelteComponentTyped is deprecated",
+        "Transitions are local by default",
+        "Default slot bindings",
+        "Preprocessors",
+        "New eslint package",
+        "Other breaking changes"
+      ]
+    },
+    {
+      "path": "reference/svelte-5-code-writer.md",
+      "title": "Svelte 5 Code Writer",
+      "group": ".",
+      "bytes": 911,
+      "headings": [
+        "Svelte 5 Code Writer",
+        "CLI Tools",
+        "List Documentation Sections",
+        "Get Documentation",
+        "Svelte Autofixer"
+      ]
+    },
+    {
+      "path": "reference/svelte-5-migration-guide.md",
+      "title": "Svelte 5 migration guide",
+      "group": ".",
+      "bytes": 43584,
+      "headings": [
+        "Svelte 5 migration guide",
+        "Reactivity syntax changes",
+        "let \u2192 $state",
+        "$: \u2192 $derived/$effect",
+        "export let \u2192 $props",
+        "Event changes",
+        "Component events",
+        "Bubbling events",
+        "Event modifiers",
+        "Multiple event handlers",
+        "Snippets instead of slots",
+        "Default content"
+      ]
+    },
+    {
+      "path": "reference/svelte-action.md",
+      "title": "svelte/action",
+      "group": ".",
+      "bytes": 2684,
+      "headings": [
+        "svelte/action",
+        "Action",
+        "ActionReturn"
+      ]
+    },
+    {
+      "path": "reference/svelte-animate.md",
+      "title": "svelte/animate",
+      "group": ".",
+      "bytes": 1709,
+      "headings": [
+        "svelte/animate",
+        "flip",
+        "AnimationConfig",
+        "FlipParams"
+      ]
+    },
+    {
+      "path": "reference/svelte-attachments.md",
+      "title": "svelte/attachments",
+      "group": ".",
+      "bytes": 2404,
+      "headings": [
+        "svelte/attachments",
+        "createAttachmentKey",
+        "fromAction",
+        "Attachment"
+      ]
+    },
+    {
+      "path": "reference/svelte-body.md",
+      "title": "`<svelte:body>`",
+      "group": ".",
+      "bytes": 572,
+      "headings": [
+        "`<svelte:body>`"
+      ]
+    },
+    {
+      "path": "reference/svelte-boundary.md",
+      "title": "`<svelte:boundary>`",
+      "group": ".",
+      "bytes": 4970,
+      "headings": [
+        "`<svelte:boundary>`",
+        "Properties",
+        "`pending`",
+        "`failed`",
+        "`onerror`",
+        "Using `transformError`"
+      ]
+    },
+    {
+      "path": "reference/svelte-compiler.md",
+      "title": "svelte/compiler",
+      "group": ".",
+      "bytes": 30157,
+      "headings": [
+        "svelte/compiler",
+        "VERSION",
+        "compile",
+        "compileModule",
+        "migrate",
+        "parse",
+        "parseCss",
+        "preprocess",
+        "print",
+        "walk",
+        "AST",
+        "CompileError"
+      ]
+    },
+    {
+      "path": "reference/svelte-component.md",
+      "title": "`<svelte:component>`",
+      "group": ".",
+      "bytes": 500,
+      "headings": [
+        "`<svelte:component>`"
+      ]
+    },
+    {
+      "path": "reference/svelte-document.md",
+      "title": "`<svelte:document>`",
+      "group": ".",
+      "bytes": 733,
+      "headings": [
+        "`<svelte:document>`"
+      ]
+    },
+    {
+      "path": "reference/svelte-easing.md",
+      "title": "svelte/easing",
+      "group": ".",
+      "bytes": 3364,
+      "headings": [
+        "svelte/easing",
+        "backIn",
+        "backInOut",
+        "backOut",
+        "bounceIn",
+        "bounceInOut",
+        "bounceOut",
+        "circIn",
+        "circInOut",
+        "circOut",
+        "cubicIn",
+        "cubicInOut"
+      ]
+    },
+    {
+      "path": "reference/svelte-element.md",
+      "title": "`<svelte:element>`",
+      "group": ".",
+      "bytes": 1188,
+      "headings": [
+        "`<svelte:element>`"
+      ]
+    },
+    {
+      "path": "reference/svelte-events.md",
+      "title": "svelte/events",
+      "group": ".",
+      "bytes": 1812,
+      "headings": [
+        "svelte/events",
+        "on"
+      ]
+    },
+    {
+      "path": "reference/svelte-fragment.md",
+      "title": "`<svelte:fragment>`",
+      "group": ".",
+      "bytes": 773,
+      "headings": [
+        "`<svelte:fragment>`"
+      ]
+    },
+    {
+      "path": "reference/svelte-head.md",
+      "title": "`<svelte:head>`",
+      "group": ".",
+      "bytes": 565,
+      "headings": [
+        "`<svelte:head>`"
+      ]
+    },
+    {
+      "path": "reference/svelte-legacy.md",
+      "title": "svelte/legacy",
+      "group": ".",
+      "bytes": 5025,
+      "headings": [
+        "svelte/legacy",
+        "asClassComponent",
+        "createBubbler",
+        "createClassComponent",
+        "handlers",
+        "nonpassive",
+        "once",
+        "passive",
+        "preventDefault",
+        "run",
+        "self",
+        "stopImmediatePropagation"
+      ]
+    },
+    {
+      "path": "reference/svelte-motion.md",
+      "title": "svelte/motion",
+      "group": ".",
+      "bytes": 10366,
+      "headings": [
+        "svelte/motion",
+        "Spring",
+        "Tween",
+        "prefersReducedMotion",
+        "spring",
+        "tweened",
+        "Spring",
+        "SpringOptions",
+        "SpringUpdateOptions",
+        "TweenOptions",
+        "Tweened",
+        "Updater"
+      ]
+    },
+    {
+      "path": "reference/svelte-options.md",
+      "title": "`<svelte:options>`",
+      "group": ".",
+      "bytes": 1546,
+      "headings": [
+        "`<svelte:options>`"
+      ]
+    },
+    {
+      "path": "reference/svelte-reactivity-window.md",
+      "title": "svelte/reactivity/window",
+      "group": ".",
+      "bytes": 3762,
+      "headings": [
+        "svelte/reactivity/window",
+        "devicePixelRatio",
+        "innerHeight",
+        "innerWidth",
+        "online",
+        "outerHeight",
+        "outerWidth",
+        "screenLeft",
+        "screenTop",
+        "scrollX",
+        "scrollY"
+      ]
+    },
+    {
+      "path": "reference/svelte-reactivity.md",
+      "title": "svelte/reactivity",
+      "group": ".",
+      "bytes": 9491,
+      "headings": [
+        "svelte/reactivity",
+        "MediaQuery",
+        "SvelteDate",
+        "SvelteMap",
+        "SvelteSet",
+        "SvelteURL",
+        "SvelteURLSearchParams",
+        "createSubscriber"
+      ]
+    },
+    {
+      "path": "reference/svelte-self.md",
+      "title": "`<svelte:self>`",
+      "group": ".",
+      "bytes": 744,
+      "headings": [
+        "`<svelte:self>`"
+      ]
+    },
+    {
+      "path": "reference/svelte-server.md",
+      "title": "svelte/server",
+      "group": ".",
+      "bytes": 1186,
+      "headings": [
+        "svelte/server",
+        "render"
+      ]
+    },
+    {
+      "path": "reference/svelte-store.md",
+      "title": "svelte/store",
+      "group": ".",
+      "bytes": 3801,
+      "headings": [
+        "svelte/store",
+        "derived",
+        "fromStore",
+        "get",
+        "readable",
+        "readonly",
+        "toStore",
+        "writable",
+        "Readable",
+        "StartStopNotifier",
+        "Subscriber",
+        "Unsubscriber"
+      ]
+    },
+    {
+      "path": "reference/svelte-transition.md",
+      "title": "svelte/transition",
+      "group": ".",
+      "bytes": 8221,
+      "headings": [
+        "svelte/transition",
+        "blur",
+        "crossfade",
+        "draw",
+        "fade",
+        "fly",
+        "scale",
+        "slide",
+        "BlurParams",
+        "CrossfadeParams",
+        "DrawParams",
+        "EasingFunction"
+      ]
+    },
+    {
+      "path": "reference/svelte-window.md",
+      "title": "`<svelte:window>`",
+      "group": ".",
+      "bytes": 1232,
+      "headings": [
+        "`<svelte:window>`"
+      ]
+    },
+    {
+      "path": "reference/svelte.md",
+      "title": "svelte",
+      "group": ".",
+      "bytes": 23596,
+      "headings": [
+        "svelte",
+        "SvelteComponent",
+        "SvelteComponentTyped",
+        "afterUpdate",
+        "beforeUpdate",
+        "createContext",
+        "createEventDispatcher",
+        "createRawSnippet",
+        "flushSync",
+        "fork",
+        "getAbortSignal",
+        "getAllContexts"
+      ]
+    },
+    {
+      "path": "reference/sveltejs-kit/sveltejs-kit_pt1.md",
+      "title": "@sveltejs/kit",
+      "group": "sveltejs-kit",
+      "bytes": 25603,
+      "headings": [
+        "@sveltejs/kit",
+        "Server",
+        "VERSION",
+        "error",
+        "fail",
+        "invalid",
+        "isActionFailure",
+        "isHttpError",
+        "isRedirect",
+        "isValidationError",
+        "json",
+        "normalizeUrl"
+      ]
+    },
+    {
+      "path": "reference/sveltejs-kit/sveltejs-kit_pt2.md",
+      "title": "Sveltejs Kit Pt2",
+      "group": "sveltejs-kit",
+      "bytes": 25608,
+      "headings": [
+        "HandleClientError",
+        "HandleFetch",
+        "HandleServerError",
+        "HandleValidationError",
+        "HttpError",
+        "InvalidField",
+        "KitConfig",
+        "LessThan",
+        "LiveQueryRequestedResult",
+        "LiveRequestedEntry",
+        "Load",
+        "LoadEvent"
+      ]
+    },
+    {
+      "path": "reference/sveltejs-kit/sveltejs-kit_pt3.md",
+      "title": "Sveltejs Kit Pt3",
+      "group": "sveltejs-kit",
+      "bytes": 25600,
+      "headings": [
+        "Redirect",
+        "RemoteCommand",
+        "RemoteForm",
+        "RemoteFormField",
+        "RemoteFormFieldType",
+        "RemoteFormFieldValue",
+        "RemoteFormFields",
+        "RemoteFormInput",
+        "RemoteFormIssue",
+        "RemoteLiveQuery",
+        "RemoteLiveQueryFunction",
+        "RemotePrerenderFunction"
+      ]
+    },
+    {
+      "path": "reference/sveltejs-kit/sveltejs-kit_pt4.md",
+      "title": "Sveltejs Kit Pt4",
+      "group": "sveltejs-kit",
+      "bytes": 20629,
+      "headings": [
+        "ServerLoadEvent",
+        "Snapshot",
+        "SubmitFunction",
+        "Transport",
+        "Transporter",
+        "ValidationError",
+        "Private types",
+        "AdapterEntry",
+        "Csp",
+        "CspDirectives",
+        "DeepPartial",
+        "HttpMethod"
+      ]
+    },
+    {
+      "path": "reference/sveltejs-kit-hooks.md",
+      "title": "@sveltejs/kit/hooks",
+      "group": ".",
+      "bytes": 2346,
+      "headings": [
+        "@sveltejs/kit/hooks",
+        "defineEnvVars",
+        "sequence"
+      ]
+    },
+    {
+      "path": "reference/sveltejs-kit-node-polyfills.md",
+      "title": "@sveltejs/kit/node/polyfills",
+      "group": ".",
+      "bytes": 285,
+      "headings": [
+        "@sveltejs/kit/node/polyfills",
+        "installPolyfills"
+      ]
+    },
+    {
+      "path": "reference/sveltejs-kit-node.md",
+      "title": "@sveltejs/kit/node",
+      "group": ".",
+      "bytes": 758,
+      "headings": [
+        "@sveltejs/kit/node",
+        "createReadableStream",
+        "getRequest",
+        "setResponse"
+      ]
+    },
+    {
+      "path": "reference/sveltejs-kit-vite.md",
+      "title": "@sveltejs/kit/vite",
+      "group": ".",
+      "bytes": 401,
+      "headings": [
+        "@sveltejs/kit/vite",
+        "sveltekit"
+      ]
+    },
+    {
+      "path": "reference/sveltekit-adapter.md",
+      "title": "sveltekit-adapter",
+      "group": ".",
+      "bytes": 1474,
+      "headings": [
+        "sveltekit-adapter",
+        "Usage",
+        "What you get",
+        "Options",
+        "adapter",
+        "cloudflare target"
+      ]
+    },
+    {
+      "path": "reference/tailwindcss.md",
+      "title": "tailwindcss",
+      "group": ".",
+      "bytes": 815,
+      "headings": [
+        "tailwindcss",
+        "Usage",
+        "What you get",
+        "Options",
+        "plugins"
+      ]
+    },
+    {
+      "path": "reference/target-svelte-4.md",
+      "title": "Target Svelte 4",
+      "group": ".",
+      "bytes": 8048,
+      "headings": [
+        "Target Svelte 4",
+        "Workflow",
+        "`svelte-core-bestpractices`",
+        "`$state`",
+        "`$derived`",
+        "`$effect`",
+        "`$props`",
+        "`$inspect.trace`",
+        "Events",
+        "Snippets",
+        "Each blocks",
+        "Using JavaScript variables in CSS"
+      ]
+    },
+    {
+      "path": "reference/testing.md",
+      "title": "Testing",
+      "group": ".",
+      "bytes": 11451,
+      "headings": [
+        "Testing",
+        "Unit and component tests with Vitest",
+        "Using runes inside your test files",
+        "Component testing",
+        "Component tests with Storybook",
+        "End-to-end tests with Playwright"
+      ]
+    },
+    {
+      "path": "reference/tools.md",
+      "title": "Tools",
+      "group": ".",
+      "bytes": 906,
+      "headings": [
+        "Tools",
+        "list-sections",
+        "get-documentation",
+        "svelte-autofixer",
+        "playground-link"
+      ]
+    },
+    {
+      "path": "reference/transition.md",
+      "title": "transition:",
+      "group": ".",
+      "bytes": 5115,
+      "headings": [
+        "transition:",
+        "Local vs global",
+        "Built-in transitions",
+        "Transition parameters",
+        "Custom transition functions",
+        "Transition events"
+      ]
+    },
+    {
+      "path": "reference/types.md",
+      "title": "Types",
+      "group": ".",
+      "bytes": 8340,
+      "headings": [
+        "Types",
+        "Generated types",
+        "Default tsconfig.json",
+        "$lib",
+        "$lib/server",
+        "app.d.ts",
+        "Error",
+        "Locals",
+        "PageData",
+        "PageState",
+        "Platform"
+      ]
+    },
+    {
+      "path": "reference/typescript.md",
+      "title": "TypeScript",
+      "group": ".",
+      "bytes": 9141,
+      "headings": [
+        "TypeScript",
+        "`<script lang=\"ts\">`",
+        "Preprocessor setup",
+        "Using Vite",
+        "Using other build tools",
+        "tsconfig.json settings",
+        "Typing `$props`",
+        "Generic `$props`",
+        "Typing wrapper components",
+        "Typing `$state`",
+        "The `Component` type",
+        "Enhancing built-in DOM types"
+      ]
+    },
+    {
+      "path": "reference/use-a-local-add-on-for-development-or-internal-use.md",
+      "title": "Use a local add-on (for development or internal use)",
+      "group": ".",
+      "bytes": 91,
+      "headings": [
+        "Use a local add-on (for development or internal use)"
+      ]
+    },
+    {
+      "path": "reference/use.md",
+      "title": "use:",
+      "group": ".",
+      "bytes": 1995,
+      "headings": [
+        "use:",
+        "Typing"
+      ]
+    },
+    {
+      "path": "reference/vercel.md",
+      "title": "Vercel",
+      "group": ".",
+      "bytes": 11149,
+      "headings": [
+        "Vercel",
+        "Usage",
+        "Deployment configuration",
+        "Image Optimization",
+        "Incremental Static Regeneration",
+        "expiration",
+        "bypassToken",
+        "allowQuery",
+        "Environment variables",
+        "Skew protection",
+        "Notes",
+        "Vercel utilities"
+      ]
+    },
+    {
+      "path": "reference/vitest.md",
+      "title": "vitest",
+      "group": ".",
+      "bytes": 459,
+      "headings": [
+        "vitest",
+        "Usage",
+        "What you get",
+        "Options",
+        "usages"
+      ]
+    },
+    {
+      "path": "reference/web-standards.md",
+      "title": "Web standards",
+      "group": ".",
+      "bytes": 5475,
+      "headings": [
+        "Web standards",
+        "Fetch APIs",
+        "Request",
+        "Response",
+        "Headers",
+        "FormData",
+        "Stream APIs",
+        "URL APIs",
+        "URLSearchParams",
+        "Web Crypto"
+      ]
+    },
+    {
+      "path": "reference/what-are-runes.md",
+      "title": "What are runes?",
+      "group": ".",
+      "bytes": 840,
+      "headings": [
+        "What are runes?"
+      ]
+    },
+    {
+      "path": "reference/writing-adapters.md",
+      "title": "Writing adapters",
+      "group": ".",
+      "bytes": 2885,
+      "headings": [
+        "Writing adapters"
+      ]
+    },
+    {
+      "path": "reference/zero-config-deployments.md",
+      "title": "Zero-config deployments",
+      "group": ".",
+      "bytes": 1692,
+      "headings": [
+        "Zero-config deployments",
+        "Environment-specific configuration",
+        "Adding community adapters"
+      ]
+    }
+  ]
+}

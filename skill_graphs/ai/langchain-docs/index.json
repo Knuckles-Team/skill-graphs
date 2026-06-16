@@ -1,0 +1,6314 @@
+{
+  "schema": "skill-graph-index/v1",
+  "name": "langchain-docs",
+  "skill_graph_version": "1.0.0",
+  "kg_ingested": false,
+  "kg_domain": "skillgraph:langchain-docs",
+  "concepts": [],
+  "source_url": "https://docs.langchain.com",
+  "file_count": 339,
+  "groups": {
+    ".": 285,
+    "0004-agent-server-changelog": 4,
+    "0015-langgraph-cli": 4,
+    "0035-evaluate-a-rag-application": 3,
+    "0070-organization-and-workspace-operations-reference": 3,
+    "0088-self-hosted-langsmith-changelog": 4,
+    "0112-user-management": 3,
+    "0119-backends": 3,
+    "0128-claude-specific-guidance": 4,
+    "0141-subagents": 3,
+    "0163-long-term-memory": 3,
+    "0167-models": 3,
+    "0180-build-a-sql-agent": 3,
+    "0192-graph-api-overview": 3,
+    "0199-use-the-graph-api": 3,
+    "0219-claude-specific-guidance": 5,
+    "0271-streaming": 3
+  },
+  "sections": [
+    {
+      "path": "reference/0000-create-connection.md",
+      "title": "Create Connection",
+      "group": ".",
+      "bytes": 45863,
+      "headings": [
+        "Create Connection",
+        "List Connections",
+        "Remove Connection",
+        "Authenticate",
+        "Check Oauth Token Exists",
+        "Check Workspace Slack Tokens Exist",
+        "Create Mcp Oauth Provider",
+        "Create Oauth Provider",
+        "Delete Oauth Provider",
+        "Delete Oauth Tokens For User",
+        "Delete Single Oauth Token",
+        "Get Oauth Provider"
+      ]
+    },
+    {
+      "path": "reference/0001-human-in-the-loop-using-server-api.md",
+      "title": "Human-in-the-loop using server API",
+      "group": ".",
+      "bytes": 23802,
+      "headings": [
+        "Human-in-the-loop using server API",
+        "Dynamic interrupts",
+        "Static interrupts",
+        "Learn more",
+        "Add metadata and tags to traces",
+        "Account",
+        "Get started",
+        "Explore"
+      ]
+    },
+    {
+      "path": "reference/0002-overview.md",
+      "title": "Overview",
+      "group": ".",
+      "bytes": 40249,
+      "headings": [
+        "Overview",
+        "Resource hierarchy",
+        "Organizations",
+        "Workspaces",
+        "Applications",
+        "Resources",
+        "Additional info",
+        "Resource tags",
+        "User management and RBAC",
+        "Users",
+        "API keys",
+        "Organization roles"
+      ]
+    },
+    {
+      "path": "reference/0003-agent-server.md",
+      "title": "Agent Server",
+      "group": ".",
+      "bytes": 27814,
+      "headings": [
+        "Agent Server",
+        "Application structure",
+        "Parts of a deployment",
+        "Graphs",
+        "Persistence",
+        "Task queue",
+        "Runtime architecture",
+        "Deployment modes",
+        "Container architecture",
+        "Run execution lifecycle",
+        "Learn more",
+        "A2A JSON-RPC"
+      ]
+    },
+    {
+      "path": "reference/0004-agent-server-changelog/0004-agent-server-changelog_pt1.md",
+      "title": "Agent Server changelog",
+      "group": "0004-agent-server-changelog",
+      "bytes": 25617,
+      "headings": [
+        "Agent Server changelog"
+      ]
+    },
+    {
+      "path": "reference/0004-agent-server-changelog/0004-agent-server-changelog_pt2.md",
+      "title": "0004 Agent Server Changelog Pt2",
+      "group": "0004-agent-server-changelog",
+      "bytes": 25606,
+      "headings": []
+    },
+    {
+      "path": "reference/0004-agent-server-changelog/0004-agent-server-changelog_pt3.md",
+      "title": "0004 Agent Server Changelog Pt3",
+      "group": "0004-agent-server-changelog",
+      "bytes": 25659,
+      "headings": []
+    },
+    {
+      "path": "reference/0004-agent-server-changelog/0004-agent-server-changelog_pt4.md",
+      "title": "0004 Agent Server Changelog Pt4",
+      "group": "0004-agent-server-changelog",
+      "bytes": 6549,
+      "headings": []
+    },
+    {
+      "path": "reference/0005-distributed-tracing-with-agent-server.md",
+      "title": "Distributed tracing with Agent Server",
+      "group": ".",
+      "bytes": 30837,
+      "headings": [
+        "Distributed tracing with Agent Server",
+        "How it works",
+        "Configure the server",
+        "Define your graph",
+        "... add nodes and edges ...",
+        "Connect from the client",
+        "Related",
+        "How to collect user feedback for Agent Server runs",
+        "How it works",
+        "Call the streaming run API with `feedback_keys`",
+        "Handle the streamed `feedback` event",
+        "Submit feedback with the generated URL"
+      ]
+    },
+    {
+      "path": "reference/0006-alerts-in-langsmith.md",
+      "title": "Alerts in LangSmith",
+      "group": ".",
+      "bytes": 40844,
+      "headings": [
+        "Alerts in LangSmith",
+        "Step 1: Navigate to create alert",
+        "Step 2: Select metric type",
+        "Step 3: Define alert conditions",
+        "Step 4: Configure notification channel",
+        "Best practices",
+        "Analyze an experiment",
+        "Analyze a single experiment",
+        "Open the experiment view",
+        "View experiment results",
+        "Group results by metadata",
+        "Repetitions"
+      ]
+    },
+    {
+      "path": "reference/0007-custom-instrumentation.md",
+      "title": "Custom instrumentation",
+      "group": ".",
+      "bytes": 45677,
+      "headings": [
+        "Custom instrumentation",
+        "Prerequisites",
+        "Use `@traceable` / `traceable`",
+        "Use the `trace` context manager (Python only)",
+        "Use the `RunTree` API",
+        "Example usage",
+        "See trace: https://smith.langchain.com/public/882f9ecf-5057-426a-ae98-0edf84fdcaf9/r",
+        "Specify a custom run ID",
+        "Ensure all traces are submitted before exiting",
+        "Related",
+        "Annotate traces and runs inline",
+        "Use annotation queues"
+      ]
+    },
+    {
+      "path": "reference/0008-manage-feedback-annotation-queues-programmatically.md",
+      "title": "Manage feedback & annotation queues programmatically",
+      "group": ".",
+      "bytes": 47641,
+      "headings": [
+        "Manage feedback & annotation queues programmatically",
+        "Feedback layers",
+        "Feedback configs",
+        "Create a feedback config",
+        "List feedback configs",
+        "Update a feedback config",
+        "Delete a feedback config",
+        "Annotation queue rubric items",
+        "Create a queue with rubric items",
+        "Update rubric items on an existing queue",
+        "Feedback config types (detailed)",
+        "Continuous"
+      ]
+    },
+    {
+      "path": "reference/0009-assistants.md",
+      "title": "Assistants",
+      "group": ".",
+      "bytes": 18929,
+      "headings": [
+        "Assistants",
+        "Default assistants",
+        "Configuration",
+        "Use cases",
+        "How assistants work with deployments",
+        "Configuration",
+        "Versioning",
+        "Log user feedback using the SDK",
+        "Use `create_feedback()` / `createFeedback`",
+        "Collect feedback from client-side applications",
+        "How to audit evaluator scores",
+        "In the comparison view"
+      ]
+    },
+    {
+      "path": "reference/0010-audit-logs.md",
+      "title": "Audit logs",
+      "group": ".",
+      "bytes": 41826,
+      "headings": [
+        "Audit logs",
+        "Prerequisites",
+        "What gets logged",
+        "Retention",
+        "Enable audit logs for self-hosted deployments",
+        "Query audit logs via API",
+        "Example request",
+        "Response format",
+        "Forwarding to external systems",
+        "Tracked operations reference",
+        "Self-hosted version availability",
+        "FAQ"
+      ]
+    },
+    {
+      "path": "reference/0011-authentication-access-control.md",
+      "title": "Authentication & access control",
+      "group": ".",
+      "bytes": 37773,
+      "headings": [
+        "Authentication & access control",
+        "Core concepts",
+        "Authentication vs authorization",
+        "Default security models",
+        "LangSmith",
+        "Self-hosted",
+        "System architecture",
+        "Authentication",
+        "Agent authentication",
+        "Agent authentication with MCP",
+        "Authorization",
+        "Resource-specific handlers"
+      ]
+    },
+    {
+      "path": "reference/0012-self-hosted-langsmith-on-azure.md",
+      "title": "Self-hosted LangSmith on Azure",
+      "group": ".",
+      "bytes": 47368,
+      "headings": [
+        "Self-hosted LangSmith on Azure",
+        "Initial setup",
+        "Reference architecture",
+        "Compute and networking on Azure",
+        "Azure Kubernetes Service (AKS)",
+        "Networking and identity",
+        "Storage and data services",
+        "Azure Database for PostgreSQL",
+        "Azure Managed Redis",
+        "ClickHouse on Azure",
+        "Azure Blob Storage",
+        "Security and access control"
+      ]
+    },
+    {
+      "path": "reference/0013-manage-billing-in-your-account.md",
+      "title": "Manage billing in your account",
+      "group": ".",
+      "bytes": 44899,
+      "headings": [
+        "Manage billing in your account",
+        "Set up billing for your account",
+        "Developer plan: set up billing on your personal organization",
+        "Plus plan: set up billing on a shared organization",
+        "Track contract usage (Enterprise)",
+        "Update your information (Paid plans only)",
+        "Invoice email",
+        "Business information and tax ID",
+        "Enforce spend limits",
+        "Understand your current usage",
+        "Set limits on usage",
+        "Other methods of managing traces"
+      ]
+    },
+    {
+      "path": "reference/0014-langsmith-cloud-changelog.md",
+      "title": "LangSmith Cloud changelog",
+      "group": ".",
+      "bytes": 34835,
+      "headings": [
+        "LangSmith Cloud changelog",
+        "LangSmith Chat",
+        "Get started",
+        "Supported models",
+        "Keyboard shortcuts",
+        "Observability",
+        "Projects",
+        "Trace pages",
+        "Thread views",
+        "Prompt engineering",
+        "Playground",
+        "Prompt Hub pages"
+      ]
+    },
+    {
+      "path": "reference/0015-langgraph-cli/0015-langgraph-cli_pt1.md",
+      "title": "LangGraph CLI",
+      "group": "0015-langgraph-cli",
+      "bytes": 26412,
+      "headings": [
+        "LangGraph CLI",
+        "Installation",
+        "Quick commands",
+        "Configuration file"
+      ]
+    },
+    {
+      "path": "reference/0015-langgraph-cli/0015-langgraph-cli_pt2.md",
+      "title": "0015 Langgraph Cli Pt2",
+      "group": "0015-langgraph-cli",
+      "bytes": 25671,
+      "headings": [
+        "Examples"
+      ]
+    },
+    {
+      "path": "reference/0015-langgraph-cli/0015-langgraph-cli_pt3.md",
+      "title": "0015 Langgraph Cli Pt3",
+      "group": "0015-langgraph-cli",
+      "bytes": 25614,
+      "headings": [
+        "Commands",
+        "`dev`",
+        "`build`",
+        "`deploy`"
+      ]
+    },
+    {
+      "path": "reference/0015-langgraph-cli/0015-langgraph-cli_pt4.md",
+      "title": "0015 Langgraph Cli Pt4",
+      "group": "0015-langgraph-cli",
+      "bytes": 21934,
+      "headings": [
+        "`up`",
+        "`dockerfile`"
+      ]
+    },
+    {
+      "path": "reference/0016-cloud-saas.md",
+      "title": "Cloud (SaaS)",
+      "group": ".",
+      "bytes": 43041,
+      "headings": [
+        "Cloud (SaaS)",
+        "Get started",
+        "Cloud architecture and scalability",
+        "Regional storage",
+        "Region-independent storage",
+        "GCP services",
+        "AWS services",
+        "Allowlisting IP addresses",
+        "Egress from LangChain SaaS",
+        "Ingress into LangChain SaaS",
+        "Private connectivity (Enterprise)",
+        "AWS PrivateLink"
+      ]
+    },
+    {
+      "path": "reference/0017-how-to-compare-experiment-results.md",
+      "title": "How to compare experiment results",
+      "group": ".",
+      "bytes": 46532,
+      "headings": [
+        "How to compare experiment results",
+        "Open the comparison view",
+        "Adjust the table display",
+        "Filters",
+        "Columns",
+        "Table views",
+        "Display types",
+        "View regressions and improvements",
+        "View side-by-side diffs",
+        "Update source experiment and metric",
+        "Expand details panel",
+        "Use experiment metadata as chart labels"
+      ]
+    },
+    {
+      "path": "reference/0018-include-http-headers-in-server-logs.md",
+      "title": "Include HTTP headers in server logs",
+      "group": ".",
+      "bytes": 42761,
+      "headings": [
+        "Include HTTP headers in server logs",
+        "Manage assistants",
+        "Understand assistant configuration",
+        "Configure checkpointer backend",
+        "Available backends",
+        "Default (PostgreSQL)",
+        "Set up MongoDB checkpointing",
+        "Prerequisites",
+        "Select the backend",
+        "Provide the MongoDB URI",
+        "Connection URI requirements",
+        "Deploy by environment"
+      ]
+    },
+    {
+      "path": "reference/0019-langsmith-control-plane.md",
+      "title": "LangSmith control plane",
+      "group": ".",
+      "bytes": 13314,
+      "headings": [
+        "LangSmith control plane",
+        "Control plane UI",
+        "Control plane API",
+        "Integrations",
+        "Deployments",
+        "Revisions",
+        "Listeners",
+        "Control plane features",
+        "Deployment types",
+        "Database provisioning",
+        "Asynchronous deployment",
+        "Monitoring"
+      ]
+    },
+    {
+      "path": "reference/0020-cost-tracking.md",
+      "title": "Cost tracking",
+      "group": ".",
+      "bytes": 48818,
+      "headings": [
+        "Cost tracking",
+        "View costs in the LangSmith UI",
+        "Token and cost breakdowns",
+        "Cost tracking",
+        "LLM calls: Automatically track costs based on token counts",
+        "LLM calls: Send costs directly",
+        "Other runs: Send costs"
+      ]
+    },
+    {
+      "path": "reference/0021-create-a-prompt.md",
+      "title": "Create a prompt",
+      "group": ".",
+      "bytes": 47212,
+      "headings": [
+        "Create a prompt",
+        "Compose your prompt",
+        "Template format",
+        "Add a template variable",
+        "Structured output",
+        "Tools",
+        "Run the prompt",
+        "Save your prompt",
+        "View your prompts",
+        "Add metadata",
+        "Next steps",
+        "Create an account and API key"
+      ]
+    },
+    {
+      "path": "reference/0022-...-can-add-custom-routes-if-needed..md",
+      "title": "... can add custom routes if needed.",
+      "group": ".",
+      "bytes": 47549,
+      "headings": [
+        "... can add custom routes if needed.",
+        "Configure `langgraph.json`",
+        "Start server",
+        "Deploying",
+        "Next steps",
+        "How to add custom middleware",
+        "Create app",
+        "./src/agent/webapp.py",
+        "Add the middleware to the app",
+        "Configure `langgraph.json`",
+        "Customize middleware ordering",
+        "Start server"
+      ]
+    },
+    {
+      "path": "reference/0023-manage-bulk-export-destinations.md",
+      "title": "Manage bulk export destinations",
+      "group": ".",
+      "bytes": 44329,
+      "headings": [
+        "Manage bulk export destinations",
+        "Configuration fields",
+        "Permissions required",
+        "AWS S3 permissions",
+        "Google Cloud Storage (GCS) permissions",
+        "Create a destination",
+        "Credentials configuration",
+        "AWS S3 bucket",
+        "Google GCS XML S3 compatible bucket",
+        "S3-compatible bucket with virtual-hosted style addressing",
+        "S3-compatible bucket with virtual-hosted style endpoint",
+        "Rotate destination credentials"
+      ]
+    },
+    {
+      "path": "reference/0024-data-purging-for-compliance.md",
+      "title": "Data purging for compliance",
+      "group": ".",
+      "bytes": 46562,
+      "headings": [
+        "Data purging for compliance",
+        "Data retention",
+        "Customize extended retention policy",
+        "Configure extended retention",
+        "Workspace-level extended retention for self-hosted",
+        "Trace deletes",
+        "Deletion timeline",
+        "Delete specific traces",
+        "Delete by metadata",
+        "Example deletes",
+        "Deleting examples is a two-step process",
+        "Deletion types"
+      ]
+    },
+    {
+      "path": "reference/0025-run-the-agent-and-wait-for-the-final-response.md",
+      "title": "Run the agent and wait for the final response",
+      "group": ".",
+      "bytes": 11948,
+      "headings": [
+        "Run the agent and wait for the final response",
+        "Deploy to LangSmith",
+        "Enable tracing",
+        "API reference",
+        "`wrap(runner)`",
+        "`LangsmithSessionService`",
+        "`ADKInput`",
+        "`ADKOutput`",
+        "How it works",
+        "Deploy other frameworks",
+        "Prerequisites",
+        "1. Define strands agent"
+      ]
+    },
+    {
+      "path": "reference/0026-enable-langsmith-deployment-fleet-insights-and-chat.md",
+      "title": "Enable LangSmith Deployment, Fleet, Insights, and Chat",
+      "group": ".",
+      "bytes": 46275,
+      "headings": [
+        "Enable LangSmith Deployment, Fleet, Insights, and Chat",
+        "Prerequisites",
+        "Enable LangSmith Deployment",
+        "Components",
+        "Enable the feature",
+        "Enable Fleet, Insights, and Chat",
+        "Components",
+        "Generate encryption keys",
+        "Enable features",
+        "(Optional) Enable OAuth tools and triggers for Fleet",
+        "(Optional) Enable GitHub App for Fleet",
+        "Disable features"
+      ]
+    },
+    {
+      "path": "reference/0027-self-host-standalone-servers.md",
+      "title": "Self-host standalone servers",
+      "group": ".",
+      "bytes": 44324,
+      "headings": [
+        "Self-host standalone servers",
+        "Overview",
+        "Workflow",
+        "Supported compute platforms",
+        "Prerequisites",
+        "Kubernetes",
+        "Docker",
+        "Docker Compose",
+        "Deploy on Cloud",
+        "Prerequisites",
+        "Create new deployment",
+        "Create new revision"
+      ]
+    },
+    {
+      "path": "reference/0028-deploy-your-app-to-cloud.md",
+      "title": "Deploy your app to cloud",
+      "group": ".",
+      "bytes": 43337,
+      "headings": [
+        "Deploy your app to cloud",
+        "Prerequisites",
+        "1. Create a LangGraph app",
+        "2. Set your API key",
+        "3. Deploy",
+        "4. Test in Studio",
+        "5. Test the API",
+        "Next steps",
+        "Deploy Managed Deep Agents",
+        "Troubleshooting for self-hosted deployments",
+        "Prerequisites",
+        "Step 1. Understand your deployment"
+      ]
+    },
+    {
+      "path": "reference/0029-find-and-fix-your-agent-s-failures-with-langsmith-engine.md",
+      "title": "Find and fix your agent's failures with LangSmith Engine",
+      "group": ".",
+      "bytes": 46316,
+      "headings": [
+        "Find and fix your agent's failures with LangSmith Engine",
+        "What you can do",
+        "Set up the LangSmith Engine",
+        "Enable Engine for your organization",
+        "Understand LCU costs",
+        "Set spend limits and monitor usage",
+        "Set up Engine for a tracing project",
+        "Browse and filter issues",
+        "Review an issue",
+        "Take action on an issue",
+        "Change priority",
+        "Create an evaluator"
+      ]
+    },
+    {
+      "path": "reference/0030-langsmith-for-enterprise.md",
+      "title": "LangSmith for Enterprise",
+      "group": ".",
+      "bytes": 45367,
+      "headings": [
+        "LangSmith for Enterprise",
+        "Deployment options",
+        "User management",
+        "Access control",
+        "Data privacy and PII",
+        "Data retention & cleanup",
+        "Cost controls and usage",
+        "Security & compliance",
+        "Environment variables",
+        "`BG_JOB_ISOLATED_LOOPS`",
+        "`BG_JOB_MAX_RETRIES`",
+        "`BG_JOB_SHUTDOWN_GRACE_PERIOD_SECS`"
+      ]
+    },
+    {
+      "path": "reference/0031-...-database-connection-and-query-code.md",
+      "title": "... database connection and query code",
+      "group": ".",
+      "bytes": 27861,
+      "headings": [
+        "... database connection and query code",
+        "Define the customer support agent",
+        "Graph state.",
+        "Instructions for extracting the user/purchase info from the conversation.",
+        "Extraction schema, mirrors the graph state.",
+        "Model for performing extraction.",
+        "Graph node for extracting user info and routing to lookup/refund/END.",
+        "Graph node for executing the refund.",
+        "Note that here we inspect the runtime config for an \"env\" variable.",
+        "If \"env\" is set to \"test\", then we don't actually delete any rows from our database.",
+        "This will become important when we're running our evaluations.",
+        "Graph node for looking up the users purchases"
+      ]
+    },
+    {
+      "path": "reference/0032-run-evaluation.md",
+      "title": "Run evaluation",
+      "group": ".",
+      "bytes": 40408,
+      "headings": [
+        "Run evaluation",
+        "Reference code",
+        "How to add evaluators to an existing experiment (Python only)",
+        "Example",
+        "Related topics",
+        "How to evaluate a graph",
+        "End-to-end evaluations",
+        "Define a graph",
+        "Define the tools for the agent to use",
+        "Define the function that determines whether to continue or not",
+        "Define the function that calls the model",
+        "Define a new graph"
+      ]
+    },
+    {
+      "path": "reference/0033-remember-that-langgraph-graphs-are-also-langchain-runnables..md",
+      "title": "Remember that langgraph graphs are also langchain runnables.",
+      "group": ".",
+      "bytes": 33255,
+      "headings": [
+        "Remember that langgraph graphs are also langchain runnables.",
+        "Evaluating intermediate steps",
+        "Running and evaluating individual nodes",
+        "Related",
+        "Reference code",
+        "How to evaluate an LLM application",
+        "Define an application",
+        "Create or select a dataset",
+        "Define an evaluator",
+        "Locally in code",
+        "In LangSmith UI",
+        "Run the evaluation"
+      ]
+    },
+    {
+      "path": "reference/0034-how-to-evaluate-an-application-s-intermediate-steps.md",
+      "title": "How to evaluate an application's intermediate steps",
+      "group": ".",
+      "bytes": 30526,
+      "headings": [
+        "How to evaluate an application's intermediate steps",
+        "1. Define your LLM pipeline",
+        "2. Create a dataset and examples to evaluate the pipeline",
+        "3. Define your custom evaluators",
+        "4. Evaluate the pipeline",
+        "Related",
+        "How to run a pairwise evaluation",
+        "Prerequisites",
+        "`evaluate()` comparative args",
+        "Define a pairwise evaluator",
+        "Evaluator args",
+        "Evaluator output"
+      ]
+    },
+    {
+      "path": "reference/0035-evaluate-a-rag-application/0035-evaluate-a-rag-application_pt1.md",
+      "title": "Evaluate a RAG application",
+      "group": "0035-evaluate-a-rag-application",
+      "bytes": 25642,
+      "headings": [
+        "Evaluate a RAG application",
+        "Overview",
+        "Setup",
+        "Environment",
+        "Application",
+        "Dataset",
+        "Evaluators",
+        "Correctness: Response vs reference answer",
+        "Relevance: Response vs input",
+        "Groundedness: Response vs retrieved docs",
+        "Retrieval relevance: Retrieved docs vs input"
+      ]
+    },
+    {
+      "path": "reference/0035-evaluate-a-rag-application/0035-evaluate-a-rag-application_pt2.md",
+      "title": "0035 Evaluate A Rag Application Pt2",
+      "group": "0035-evaluate-a-rag-application",
+      "bytes": 25613,
+      "headings": [
+        "Run evaluation",
+        "Reference code"
+      ]
+    },
+    {
+      "path": "reference/0035-evaluate-a-rag-application/0035-evaluate-a-rag-application_pt3.md",
+      "title": "0035 Evaluate A Rag Application Pt3",
+      "group": "0035-evaluate-a-rag-application",
+      "bytes": 4476,
+      "headings": []
+    },
+    {
+      "path": "reference/0036-run-an-evaluation-with-multimodal-content.md",
+      "title": "Run an evaluation with multimodal content",
+      "group": ".",
+      "bytes": 44916,
+      "headings": [
+        "Run an evaluation with multimodal content",
+        "How to evaluate with OpenTelemetry",
+        "Overview",
+        "Prerequisites",
+        "Tracing configuration",
+        "AWS Credentials",
+        "Step 1. Create an experiment session",
+        "Step 2. Define an application and configure OpenTelemetry",
+        "Step 3. Set up key span attributes",
+        "Step 4. Run evaluation by iterating through dataset examples",
+        "How to retry failed runs in experiments (Python only)",
+        "Step 1. Run the initial evaluation"
+      ]
+    },
+    {
+      "path": "reference/0037-application-specific-evaluation-approaches.md",
+      "title": "Application-specific evaluation approaches",
+      "group": ".",
+      "bytes": 38163,
+      "headings": [
+        "Application-specific evaluation approaches",
+        "Agents",
+        "Evaluating an agent's final response",
+        "Evaluating a single step of an agent",
+        "Evaluating an agent's trajectory",
+        "Retrieval augmented generation (RAG)",
+        "Dataset",
+        "Evaluator",
+        "Applying RAG evaluation",
+        "RAG evaluation summary",
+        "Summarization",
+        "Classification and tagging"
+      ]
+    },
+    {
+      "path": "reference/0038-evaluation-quickstart.md",
+      "title": "Evaluation quickstart",
+      "group": ".",
+      "bytes": 41663,
+      "headings": [
+        "Evaluation quickstart",
+        "Prerequisites",
+        "Evaluation types",
+        "Offline evaluation types",
+        "Benchmarking",
+        "Unit tests",
+        "Regression tests",
+        "Backtesting",
+        "Pairwise evaluation",
+        "Online evaluation types",
+        "Real-time monitoring",
+        "Anomaly detection"
+      ]
+    },
+    {
+      "path": "reference/0039-event-streaming-api.md",
+      "title": "Event streaming API",
+      "group": ".",
+      "bytes": 45127,
+      "headings": [
+        "Event streaming API",
+        "Quickstart",
+        "What event streaming provides",
+        "Stream messages",
+        "Stream state",
+        "Stream tool calls",
+        "Stream subgraphs",
+        "Stream output",
+        "Stream multiple projections",
+        "Resume after an interrupt",
+        "Join an active run",
+        "Stream all protocol events"
+      ]
+    },
+    {
+      "path": "reference/0040-query-traces-using-the-sdk.md",
+      "title": "Query traces using the SDK",
+      "group": ".",
+      "bytes": 42671,
+      "headings": [
+        "Query traces using the SDK",
+        "Use filter arguments",
+        "List all runs in a project",
+        "List LLM and chat runs in the last 24 hours",
+        "List root runs in a project",
+        "List runs without errors",
+        "List runs by run ID",
+        "Fetch a single run by ID",
+        "Use filter query language",
+        "List all root runs in a conversational thread",
+        "List all runs called \"extractor\" whose root of the trace was assigned feedback \"user\\_score\" score of 1",
+        "List runs with \"star\\_rating\" key whose score is greater than 4"
+      ]
+    },
+    {
+      "path": "reference/0041-frequently-asked-questions.md",
+      "title": "Frequently asked questions",
+      "group": ".",
+      "bytes": 43632,
+      "headings": [
+        "Frequently asked questions",
+        "Observability",
+        "*I can't create API keys or manage users in the UI, what's wrong?*",
+        "*How does load balancing/ingress work*?",
+        "*How can we authenticate to the application?*",
+        "*Can I use external storage services?*",
+        "*Does my application need egress to function properly?*",
+        "*Resource requirements for the application?*",
+        "SAML SSO FAQs",
+        "SCIM FAQs",
+        "*Are downgrades supported?*",
+        "Deployment"
+      ]
+    },
+    {
+      "path": "reference/0042-access-oversight.md",
+      "title": "Access & oversight",
+      "group": ".",
+      "bytes": 46477,
+      "headings": [
+        "Access & oversight",
+        "Permissions and sharing",
+        "Agent identity and credentials",
+        "Tool access control",
+        "Role-based permissions",
+        "Attribute-based access control",
+        "Workspace integration policy",
+        "Policy evaluation order",
+        "Observability and audit trail",
+        "Human-in-the-loop oversight",
+        "Agent identity",
+        "Fixed credentials (\"Claws\")"
+      ]
+    },
+    {
+      "path": "reference/0043-read-skill.md-from-disk-once-middleware-injects-into-state-on-first-turn..md",
+      "title": "Read SKILL.md from disk once; middleware injects into state on first turn.",
+      "group": ".",
+      "bytes": 47990,
+      "headings": [
+        "Read SKILL.md from disk once; middleware injects into state on first turn.",
+        "Re-exporting",
+        "Supported model providers",
+        "MCP authentication",
+        "Agent platform comparison",
+        "Compare capabilities",
+        "Target users",
+        "Enterprise controls and access",
+        "Model flexibility",
+        "Memory, self-updates, and learning",
+        "Observability and governance",
+        "Code export and hosting"
+      ]
+    },
+    {
+      "path": "reference/0044-manage-agent-settings.md",
+      "title": "Manage agent settings",
+      "group": ".",
+      "bytes": 46298,
+      "headings": [
+        "Manage agent settings",
+        "Change the model",
+        "Reconnect tool integrations",
+        "Download agent files",
+        "Change access to the agent",
+        "Workspace-scoped agent details",
+        "Update memory",
+        "Disable required approval for memory updates",
+        "Use the agent programmatically",
+        "Pause agent",
+        "Delete agent",
+        "LangSmith Tool Server"
+      ]
+    },
+    {
+      "path": "reference/0045-integrate-slack-with-an-agent.md",
+      "title": "Integrate Slack with an agent",
+      "group": ".",
+      "bytes": 40136,
+      "headings": [
+        "Integrate Slack with an agent",
+        "Custom vs. default bot",
+        "Set up a custom Slack bot",
+        "Prerequisites",
+        "Create the Slack app",
+        "Link the Slack bot to an agent",
+        "Invite the bot to your channel",
+        "Configure agent behavior (optional)",
+        "Set up the default Slack bot",
+        "Add Slack tools",
+        "Troubleshooting",
+        "Agent does not respond"
+      ]
+    },
+    {
+      "path": "reference/0046-self-hosted-langsmith-on-gcp.md",
+      "title": "Self-hosted LangSmith on GCP",
+      "group": ".",
+      "bytes": 31088,
+      "headings": [
+        "Self-hosted LangSmith on GCP",
+        "Initial setup",
+        "Reference architecture",
+        "Compute options",
+        "Google cloud Well-Architected best practices",
+        "Operational excellence",
+        "Security",
+        "Reliability",
+        "Performance optimization",
+        "Cost optimization",
+        "Sustainability",
+        "Security and compliance"
+      ]
+    },
+    {
+      "path": "reference/0047-granular-billable-usage.md",
+      "title": "Granular billable usage",
+      "group": ".",
+      "bytes": 38973,
+      "headings": [
+        "Granular billable usage",
+        "Prerequisites",
+        "View in the UI",
+        "Query parameters",
+        "Day-granular contract",
+        "Stride",
+        "Compatibility",
+        "API endpoint",
+        "Trace usage (`kind=traces`)",
+        "LangSmith Deployment usage (`kind=langsmith_deployments`)",
+        "CSV export",
+        "Grouping options"
+      ]
+    },
+    {
+      "path": "reference/0048-setup-guide-legacy.md",
+      "title": "Setup guide (legacy)",
+      "group": ".",
+      "bytes": 45013,
+      "headings": [
+        "Setup guide (legacy)",
+        "Workflow",
+        "Architecture",
+        "Compute platforms",
+        "Egress to LangSmith and the control plane",
+        "Kubernetes setup",
+        "Prerequisites",
+        "Setup",
+        "Configuring additional data planes in the same cluster",
+        "Listeners",
+        "Kubernetes cluster organization",
+        "LangSmith workspace organization"
+      ]
+    },
+    {
+      "path": "reference/0049-interrupt-concurrent.md",
+      "title": "Interrupt concurrent",
+      "group": ".",
+      "bytes": 45298,
+      "headings": [
+        "Interrupt concurrent",
+        "Setup",
+        "Create runs",
+        "View run results",
+        "Manage user access in SSO organizations",
+        "Settings",
+        "JIT provisioning",
+        "Invites",
+        "Update settings",
+        "How user access works",
+        "Configuration scenarios",
+        "Open access (both enabled)"
+      ]
+    },
+    {
+      "path": "reference/0050-langsmith-cli.md",
+      "title": "LangSmith CLI",
+      "group": ".",
+      "bytes": 34631,
+      "headings": [
+        "LangSmith CLI",
+        "Install",
+        "Authenticate",
+        "Quickstart",
+        "List tracing projects",
+        "List recent traces in a project",
+        "Get a specific trace with full detail",
+        "List LLM runs with token counts",
+        "Datasets and experiments",
+        "Conversation threads",
+        "Sandboxes",
+        "Output formats"
+      ]
+    },
+    {
+      "path": "reference/0051-langsmith-mcp-server.md",
+      "title": "LangSmith MCP Server",
+      "group": ".",
+      "bytes": 33182,
+      "headings": [
+        "LangSmith MCP Server",
+        "Example use cases",
+        "Quickstart (hosted)",
+        "Available tools",
+        "Conversation and threads",
+        "Prompt management",
+        "Traces and runs",
+        "Datasets and examples",
+        "Experiments and evaluations",
+        "Billing",
+        "Pagination (character-based)",
+        "Installation (run locally)"
+      ]
+    },
+    {
+      "path": "reference/0052-set-up-the-llm-auth-proxy.md",
+      "title": "Set up the LLM auth proxy",
+      "group": ".",
+      "bytes": 44972,
+      "headings": [
+        "Set up the LLM auth proxy",
+        "How it works",
+        "Prerequisites",
+        "1. Configure JWT signing (self-hosted LangSmith only)",
+        "2. Enable LLM Auth Proxy for your organization",
+        "3. Configure organization settings in LangSmith",
+        "4. Install the auth proxy Helm chart",
+        "Write an `ext_authz` service",
+        "How it works",
+        "Deployment options",
+        "Sample deployment",
+        "Write an `ext_proc` transformer"
+      ]
+    },
+    {
+      "path": "reference/0053-custom-model-providers.md",
+      "title": "Custom model providers",
+      "group": ".",
+      "bytes": 44588,
+      "headings": [
+        "Custom model providers",
+        "How it works",
+        "1. Create a custom provider configuration",
+        "2. Make a call",
+        "Supported endpoints",
+        "Next steps",
+        "PII and secrets redaction",
+        "PII detection",
+        "Secrets detection",
+        "Enable redaction policies",
+        "How redacted content appears",
+        "What redaction covers"
+      ]
+    },
+    {
+      "path": "reference/0054-log-llm-calls.md",
+      "title": "Log LLM calls",
+      "group": ".",
+      "bytes": 30941,
+      "headings": [
+        "Log LLM calls",
+        "Messages format",
+        "Convert custom I/O formats into LangSmith compatible formats",
+        "Identify a custom model in traces",
+        "Provide token and cost information",
+        "Supported `usage_metadata` fields",
+        "Time-to-first-token",
+        "Related",
+        "Log multimodal traces",
+        "Log retriever traces",
+        "Set `run_type` to retriever",
+        "Return documents in the expected format"
+      ]
+    },
+    {
+      "path": "reference/0055-log-traces-to-a-specific-project.md",
+      "title": "Log traces to a specific project",
+      "group": ".",
+      "bytes": 31488,
+      "headings": [
+        "Log traces to a specific project",
+        "Set the destination project statically",
+        "Set the destination project dynamically",
+        "Set the destination workspace dynamically",
+        "Prerequisites",
+        "Generic cross-workspace tracing",
+        "Override default workspace for LangSmith deployments",
+        "Write traces to multiple destinations with replicas",
+        "Configure replicas via environment variable",
+        "Configure replicas at runtime",
+        "Replicate within the same server (project-only replicas)",
+        "Route between LangSmith and OpenTelemetry destinations"
+      ]
+    },
+    {
+      "path": "reference/0056-metadata-parameters-reference.md",
+      "title": "Metadata parameters reference",
+      "group": ".",
+      "bytes": 46624,
+      "headings": [
+        "Metadata parameters reference",
+        "Basic usage example",
+        "All parameters",
+        "User-configurable parameters",
+        "System-generated parameters",
+        "Experiment parameters",
+        "Parameter details",
+        "`ls_provider`",
+        "`ls_model_name`",
+        "`ls_temperature`",
+        "`ls_max_tokens`",
+        "`ls_stop`"
+      ]
+    },
+    {
+      "path": "reference/0057-you-can-tag-a-specific-dataset-version-with-a-semantic-name-like-prod.md",
+      "title": "You can tag a specific dataset version with a semantic name, like \"prod\"",
+      "group": ".",
+      "bytes": 20032,
+      "headings": [
+        "You can tag a specific dataset version with a semantic name, like \"prod\"",
+        "Evaluate on a specific dataset version",
+        "Use `list_examples`",
+        "Evaluate on a split / filtered view of a dataset",
+        "Evaluate on a filtered view of a dataset",
+        "Evaluate on a dataset split",
+        "Share a dataset",
+        "Share a dataset publicly",
+        "Unshare a dataset",
+        "Export a dataset",
+        "Export filtered traces from experiment to dataset",
+        "View experiment traces"
+      ]
+    },
+    {
+      "path": "reference/0058-how-to-create-and-manage-datasets-programmatically.md",
+      "title": "How to create and manage datasets programmatically",
+      "group": ".",
+      "bytes": 47842,
+      "headings": [
+        "How to create and manage datasets programmatically",
+        "Create a dataset",
+        "Create a dataset from list of values",
+        "Create a dataset from traces",
+        "Create a dataset from a CSV file",
+        "Create a dataset from pandas DataFrame (Python only)",
+        "Fetch datasets",
+        "Query all datasets",
+        "List datasets by name",
+        "List datasets by type",
+        "Fetch examples",
+        "List all examples for a dataset"
+      ]
+    },
+    {
+      "path": "reference/0059-if-production-tag-points-to-commit-a1b2c3d4-this-is-equivalent-to.md",
+      "title": "If production tag points to commit a1b2c3d4, this is equivalent to:",
+      "group": ".",
+      "bytes": 44239,
+      "headings": [
+        "If production tag points to commit a1b2c3d4, this is equivalent to:",
+        "Prompt owners",
+        "Access modes",
+        "Configure access and permissions",
+        "Trigger a webhook on prompt commit",
+        "Configure a webhook",
+        "Trigger the webhook",
+        "Public prompt hub",
+        "Manage prompts programmatically",
+        "Install packages",
+        "Configure environment variables",
+        "Push a prompt"
+      ]
+    },
+    {
+      "path": "reference/0060-manage-langsmith-with-terraform.md",
+      "title": "Manage LangSmith with Terraform",
+      "group": ".",
+      "bytes": 30348,
+      "headings": [
+        "Manage LangSmith with Terraform",
+        "Install and configure",
+        "Authentication",
+        "Examples",
+        "Create a workspace",
+        "Manage roles and members",
+        "Automate evaluators, run rules, and alerts",
+        "A run rule applies the evaluator to matching runs in a tracing project.",
+        "Run rules can also add runs to a dataset or annotation queue, or call webhooks.",
+        "Resource reference",
+        "Managed Deep Agents",
+        "Managed Deep Agents API reference"
+      ]
+    },
+    {
+      "path": "reference/0061-managed-deep-agents-cli-reference.md",
+      "title": "Managed Deep Agents CLI reference",
+      "group": ".",
+      "bytes": 34822,
+      "headings": [
+        "Managed Deep Agents CLI reference",
+        "Requirements",
+        "Command overview",
+        "Initialize projects",
+        "Deploy projects",
+        "Target existing agents",
+        "Validate the project before deploy",
+        "Manage agents",
+        "Manage MCP servers",
+        "Add MCP servers",
+        "List MCP server tools",
+        "Update MCP servers"
+      ]
+    },
+    {
+      "path": "reference/0062-researcher.md",
+      "title": "Researcher",
+      "group": ".",
+      "bytes": 38157,
+      "headings": [
+        "Researcher",
+        "Choose a backend",
+        "Deploy the project",
+        "Update a shared agent",
+        "Troubleshoot a deploy",
+        "Create or update an agent with the SDK or API",
+        "Map project files to the SDK or API field",
+        "Authenticate and configure requests",
+        "Create an agent",
+        "Update an existing agent",
+        "Add raw managed files",
+        "Check agent health"
+      ]
+    },
+    {
+      "path": "reference/0063-4.-deploy-the-agent..md",
+      "title": "4. Deploy the agent.",
+      "group": ".",
+      "bytes": 38861,
+      "headings": [
+        "4. Deploy the agent.",
+        "Connect tools with the CLI",
+        "Add a static-header MCP server",
+        "Add an OAuth MCP server",
+        "List available tools",
+        "Connect tools with the SDK or API",
+        "Set request defaults",
+        "Register a static-header MCP server",
+        "Register an OAuth MCP server",
+        "List a server's tools",
+        "Reference tools",
+        "Validate tools at deploy time"
+      ]
+    },
+    {
+      "path": "reference/0064-managed-deep-agents-sdks.md",
+      "title": "Managed Deep Agents SDKs",
+      "group": ".",
+      "bytes": 47199,
+      "headings": [
+        "Managed Deep Agents SDKs",
+        "Install",
+        "Configure a client",
+        "Create an agent",
+        "Run and stream",
+        "Use React `useStream`",
+        "Resources",
+        "Handle errors",
+        "Configure prompt settings",
+        "Model configurations",
+        "Create saved configurations",
+        "Edit configurations"
+      ]
+    },
+    {
+      "path": "reference/0065-the-trace-produced-will-not-have-anonymized-inputs-and-outputs.md",
+      "title": "The trace produced will not have anonymized inputs and outputs",
+      "group": ".",
+      "bytes": 46139,
+      "headings": [
+        "The trace produced will not have anonymized inputs and outputs",
+        "Batch processing for high-throughput masking",
+        "Create op \u2014 sent when the run starts",
+        "Update op \u2014 sent when the run ends (same id, adds outputs)",
+        "Messages view integrations",
+        "Supported integrations",
+        "Known limitations",
+        "Exclude runs from the Messages view",
+        "Python",
+        "TypeScript",
+        "Notes",
+        "Manual instrumentation"
+      ]
+    },
+    {
+      "path": "reference/0066-how-to-return-categorical-vs-numerical-metrics.md",
+      "title": "How to return categorical vs numerical metrics",
+      "group": ".",
+      "bytes": 46946,
+      "headings": [
+        "How to return categorical vs numerical metrics",
+        "Related",
+        "Manage model configurations",
+        "Feature Access",
+        "Configure feature access",
+        "Configurations",
+        "Create a configuration",
+        "Edit a configuration",
+        "Delete a configuration",
+        "Monorepo support",
+        "Repository structure",
+        "LangGraph.json configuration"
+      ]
+    },
+    {
+      "path": "reference/0067-how-to-return-multiple-scores-in-one-evaluator.md",
+      "title": "How to return multiple scores in one evaluator",
+      "group": ".",
+      "bytes": 40644,
+      "headings": [
+        "How to return multiple scores in one evaluator",
+        "Related",
+        "Troubleshoot trace nesting",
+        "Python",
+        "Context propagation using asyncio",
+        "Context propagation using threading",
+        "LangSmith Observability",
+        "Observability concepts",
+        "How LangSmith structures data",
+        "Projects",
+        "Traces",
+        "Runs"
+      ]
+    },
+    {
+      "path": "reference/0068-tracing-quickstart.md",
+      "title": "Tracing quickstart",
+      "group": ".",
+      "bytes": 46047,
+      "headings": [
+        "Tracing quickstart",
+        "Prerequisites",
+        "1. Set up your environment",
+        "2. Build the app",
+        "3. Run the app",
+        "4. View your trace",
+        "Next steps",
+        "Deploy an observability stack for your LangSmith deployment",
+        "Section 1: Prometheus exporters",
+        "Section 2: Full observability stack",
+        "Prerequisites",
+        "1. Compute resources"
+      ]
+    },
+    {
+      "path": "reference/0069-set-up-composite-online-evaluators.md",
+      "title": "Set up composite online evaluators",
+      "group": ".",
+      "bytes": 39142,
+      "headings": [
+        "Set up composite online evaluators",
+        "View online evaluators",
+        "Configure composite online evaluators",
+        "1. Navigate to the tracing project",
+        "2. Configure the composite evaluator",
+        "3. View composite evaluator results",
+        "Set up LLM-as-a-judge online evaluators",
+        "View online evaluators",
+        "Add an online evaluator",
+        "Apply a filter to runs that trigger the evaluator",
+        "Configure a sampling rate",
+        "Apply a rule to past runs"
+      ]
+    },
+    {
+      "path": "reference/0070-organization-and-workspace-operations-reference/0070-organization-and-workspace-operations-reference_pt1.md",
+      "title": "Organization and workspace operations reference",
+      "group": "0070-organization-and-workspace-operations-reference",
+      "bytes": 25705,
+      "headings": [
+        "Organization and workspace operations reference",
+        "Contents",
+        "Legend",
+        "Organization-level operations",
+        "Organization settings",
+        "Workspaces",
+        "Organization members",
+        "Roles and permissions",
+        "SSO and authentication",
+        "SCIM",
+        "Access policies",
+        "Billing and payments"
+      ]
+    },
+    {
+      "path": "reference/0070-organization-and-workspace-operations-reference/0070-organization-and-workspace-operations-reference_pt2.md",
+      "title": "0070 Organization And Workspace Operations Reference Pt2",
+      "group": "0070-organization-and-workspace-operations-reference",
+      "bytes": 25688,
+      "headings": [
+        "Alerts",
+        "Datasets",
+        "Examples",
+        "Experiments",
+        "Feedback",
+        "Annotation queues",
+        "Prompts",
+        "Charts",
+        "Deployments",
+        "Workspace settings and management"
+      ]
+    },
+    {
+      "path": "reference/0070-organization-and-workspace-operations-reference/0070-organization-and-workspace-operations-reference_pt3.md",
+      "title": "0070 Organization And Workspace Operations Reference Pt3",
+      "group": "0070-organization-and-workspace-operations-reference",
+      "bytes": 8003,
+      "headings": [
+        "Tags",
+        "Bulk exports",
+        "MCP servers",
+        "Fleet",
+        "User-level operations",
+        "Permission inheritance",
+        "Organization to workspace",
+        "Workspace role independence"
+      ]
+    },
+    {
+      "path": "reference/0071-redact-sensitive-data-with-the-opentelemetry-gateway-architecture.md",
+      "title": "Redact sensitive data with the OpenTelemetry Gateway architecture",
+      "group": ".",
+      "bytes": 40233,
+      "headings": [
+        "Redact sensitive data with the OpenTelemetry Gateway architecture",
+        "Prerequisites",
+        "Configure the collector",
+        "Trace with LangChain or LangGraph",
+        "Trace with the OpenTelemetry SDK directly",
+        "Set up LangSmith",
+        "Choose how to set up LangSmith",
+        "Comparison",
+        "Related",
+        "Model providers",
+        "Amazon Bedrock",
+        "Authentication"
+      ]
+    },
+    {
+      "path": "reference/0072-profile-configuration.md",
+      "title": "Profile configuration",
+      "group": ".",
+      "bytes": 43992,
+      "headings": [
+        "Profile configuration",
+        "Minimum versions",
+        "Profile file location",
+        "Create a profile file",
+        "Select a profile",
+        "Manage profiles with the CLI",
+        "Authenticate with `langsmith auth login`",
+        "Override profile values",
+        "Use profiles in code",
+        "Mount profiles in remote runtimes",
+        "Docker",
+        "Kubernetes"
+      ]
+    },
+    {
+      "path": "reference/0073-prompt-engineering-quickstart.md",
+      "title": "Prompt engineering quickstart",
+      "group": ".",
+      "bytes": 38594,
+      "headings": [
+        "Prompt engineering quickstart",
+        "Prerequisites",
+        "Next steps",
+        "Prompt template format guide",
+        "F-string syntax",
+        "Basic variables",
+        "Template",
+        "Input",
+        "Output",
+        "Variable names",
+        "Template",
+        "Input"
+      ]
+    },
+    {
+      "path": "reference/0074-how-to-run-evaluations-with-pytest.md",
+      "title": "How to run evaluations with pytest",
+      "group": ".",
+      "bytes": 42391,
+      "headings": [
+        "How to run evaluations with pytest",
+        "Installation",
+        "Define and run tests",
+        "Log inputs, outputs, and reference outputs",
+        "Log feedback",
+        "Trace intermediate calls",
+        "Grouping tests into a test suite",
+        "Naming experiments",
+        "Experiment metadata",
+        "conftest.py",
+        "Caching",
+        "pytest features"
+      ]
+    },
+    {
+      "path": "reference/0075-role-based-access-control.md",
+      "title": "Role-based access control",
+      "group": ".",
+      "bytes": 46688,
+      "headings": [
+        "Role-based access control",
+        "Role types",
+        "Organization roles",
+        "Workspace roles",
+        "Custom roles",
+        "Creating custom roles",
+        "Understand permission behavior",
+        "How to read experiment results locally",
+        "Iterate over evaluation results",
+        "Run evaluation with blocking=False to get an iterator",
+        "Collect results as they stream in",
+        "Separate loop to avoid logging at the same time as logs from evaluate()"
+      ]
+    },
+    {
+      "path": "reference/0076-keep-our-test-users-from-the-previous-tutorial.md",
+      "title": "Keep our test users from the previous tutorial",
+      "group": ".",
+      "bytes": 40246,
+      "headings": [
+        "Keep our test users from the previous tutorial",
+        "2. Test private conversations",
+        "Create clients for both users",
+        "Alice creates an assistant",
+        "Alice creates a thread and chats",
+        "Bob tries to access Alice's thread",
+        "Bob creates his own thread",
+        "List threads - each user only sees their own",
+        "3. Add scoped authorization handlers",
+        "Keep our previous handlers...",
+        "Assumes you organize information in store like (user_id, resource_type, resource_id)",
+        "... Same as before"
+      ]
+    },
+    {
+      "path": "reference/0077-run-span-data-format.md",
+      "title": "Run (span) data format",
+      "group": ".",
+      "bytes": 47680,
+      "headings": [
+        "Run (span) data format",
+        "Run types",
+        "What is `dotted_order`?",
+        "How to use the REST API",
+        "Create a dataset",
+        "Create a dataset",
+        "Run a single experiment",
+        "Pick a dataset id. In this case, we are using the dataset we created above.",
+        "API Reference: https://docs.langchain.com/langsmith/smith-api/examples/read-examples",
+        "Create a new experiment using the /sessions endpoint",
+        "An experiment is a collection of runs with a reference to the dataset used",
+        "API Reference: https://docs.langchain.com/langsmith/smith-api/tracer-sessions/create-tracer-session"
+      ]
+    },
+    {
+      "path": "reference/0078-set-a-sampling-rate-for-traces.md",
+      "title": "Set a sampling rate for traces",
+      "group": ".",
+      "bytes": 46853,
+      "headings": [
+        "Set a sampling rate for traces",
+        "Set a global sampling rate",
+        "Set different sampling rates per client",
+        "Create clients with different sampling rates",
+        "Use different sampling rates for different operations",
+        "Sampling or conditional tracing",
+        "Sandbox auth proxy",
+        "Egress and network access control",
+        "Default egress posture",
+        "Allow and deny lists",
+        "Pattern syntax",
+        "Connecting to a database (raw TCP)"
+      ]
+    },
+    {
+      "path": "reference/0079-sandbox-sdk-usage.md",
+      "title": "Sandbox SDK usage",
+      "group": ".",
+      "bytes": 44244,
+      "headings": [
+        "Sandbox SDK usage",
+        "Install",
+        "Create and run a sandbox",
+        "Run commands",
+        "Stream output",
+        "Stream with callbacks",
+        "Stream with CommandHandle",
+        "Send stdin and kill commands",
+        "Reconnect to a running command",
+        "File operations",
+        "Sandbox lifetime and retention",
+        "Command lifecycle and TTL"
+      ]
+    },
+    {
+      "path": "reference/0080-langsmith-sandboxes.md",
+      "title": "LangSmith Sandboxes",
+      "group": ".",
+      "bytes": 37546,
+      "headings": [
+        "LangSmith Sandboxes",
+        "Environment availability",
+        "Get started",
+        "1. Install the SDK",
+        "2. Set your API key",
+        "3. Create and run a sandbox",
+        "4. Use sandboxes with your agents",
+        "Resources",
+        "Scalability & resilience",
+        "Server scalability",
+        "Queue scalability",
+        "Resilience"
+      ]
+    },
+    {
+      "path": "reference/0081-enable-blob-storage.md",
+      "title": "Enable blob storage",
+      "group": ".",
+      "bytes": 35552,
+      "headings": [
+        "Enable blob storage",
+        "Requirements",
+        "Authentication",
+        "CH search",
+        "Configuration",
+        "TTL configuration",
+        "Custom workspace-level retention prefixes",
+        "Configure custom TLS certificates",
+        "Mount internal CAs for TLS",
+        "Use custom TLS certificates for model providers",
+        "Minimum versions for self-hosting dependencies",
+        "Datastores"
+      ]
+    },
+    {
+      "path": "reference/0082-disaster-recovery-for-self-hosted-langsmith.md",
+      "title": "Disaster recovery for self-hosted LangSmith",
+      "group": ".",
+      "bytes": 47109,
+      "headings": [
+        "Disaster recovery for self-hosted LangSmith",
+        "What you are recovering",
+        "Plan your RPO and RTO",
+        "Postgres",
+        "Use a managed service",
+        "In-cluster Postgres",
+        "ClickHouse",
+        "Managed ClickHouse",
+        "Self-managed replicated cluster",
+        "Blob storage",
+        "Redis",
+        "Kubernetes configuration and secrets"
+      ]
+    },
+    {
+      "path": "reference/0083-connect-to-an-external-clickhouse-database.md",
+      "title": "Connect to an external ClickHouse database",
+      "group": ".",
+      "bytes": 36459,
+      "headings": [
+        "Connect to an external ClickHouse database",
+        "Requirements",
+        "HA replicated Clickhouse cluster",
+        "LangSmith-managed ClickHouse",
+        "Parameters",
+        "Configuration",
+        "TLS with ClickHouse",
+        "Server TLS (one-way)",
+        "Mutual TLS with client auth (mTLS)",
+        "Connect to an external PostgreSQL database",
+        "Requirements",
+        "Connection string"
+      ]
+    },
+    {
+      "path": "reference/0084-connect-to-an-external-redis-or-valkey-database.md",
+      "title": "Connect to an external Redis or Valkey database",
+      "group": ".",
+      "bytes": 41791,
+      "headings": [
+        "Connect to an external Redis or Valkey database",
+        "Requirements",
+        "Standalone Redis",
+        "Connection string",
+        "Configuration",
+        "Redis cluster",
+        "Host names",
+        "Configuration",
+        "Azure managed Redis",
+        "OSS Cluster",
+        "EnterpriseCluster",
+        "TLS with Redis"
+      ]
+    },
+    {
+      "path": "reference/0085-pull-the-images-from-the-public-registry.md",
+      "title": "Pull the images from the public registry",
+      "group": ".",
+      "bytes": 41410,
+      "headings": [
+        "Pull the images from the public registry",
+        "Configuration",
+        "Additional images for Fleet and Insights",
+        "Verifying image signatures",
+        "Pinning to a specific release",
+        "Verifying SBOM attestations",
+        "View trace counts across your organization",
+        "Programmatically fetch trace counts",
+        "Method 1: Use the LangSmith REST API",
+        "Method 2: Use PostgreSQL support queries",
+        "Use environment variables for model providers",
+        "Requirements"
+      ]
+    },
+    {
+      "path": "reference/0086-set-up-sso-with-oauth2.0-and-oidc.md",
+      "title": "Set up SSO with OAuth2.0 and OIDC",
+      "group": ".",
+      "bytes": 45782,
+      "headings": [
+        "Set up SSO with OAuth2.0 and OIDC",
+        "Overview",
+        "With client secret (Recommended)",
+        "Prerequisites",
+        "Configuration",
+        "Session length controls",
+        "Override sub claim",
+        "SSO Groups Sync",
+        "Google workspace IdP setup",
+        "Okta IdP setup",
+        "Without client secret (PKCE) (Deprecated)",
+        "Requirements"
+      ]
+    },
+    {
+      "path": "reference/0087-use-an-existing-secret-for-your-installation-kubernetes.md",
+      "title": "Use an existing secret for your installation (Kubernetes)",
+      "group": ".",
+      "bytes": 15887,
+      "headings": [
+        "Use an existing secret for your installation (Kubernetes)",
+        "Requirements",
+        "Parameters",
+        "Configuration",
+        "Self-hosted LangSmith",
+        "What's included",
+        "Services",
+        "Storage services",
+        "Next steps"
+      ]
+    },
+    {
+      "path": "reference/0088-self-hosted-langsmith-changelog/0088-self-hosted-langsmith-changelog_pt1.md",
+      "title": "Self-hosted LangSmith changelog",
+      "group": "0088-self-hosted-langsmith-changelog",
+      "bytes": 25618,
+      "headings": [
+        "Self-hosted LangSmith changelog"
+      ]
+    },
+    {
+      "path": "reference/0088-self-hosted-langsmith-changelog/0088-self-hosted-langsmith-changelog_pt2.md",
+      "title": "0088 Self Hosted Langsmith Changelog Pt2",
+      "group": "0088-self-hosted-langsmith-changelog",
+      "bytes": 25694,
+      "headings": []
+    },
+    {
+      "path": "reference/0088-self-hosted-langsmith-changelog/0088-self-hosted-langsmith-changelog_pt3.md",
+      "title": "0088 Self Hosted Langsmith Changelog Pt3",
+      "group": "0088-self-hosted-langsmith-changelog",
+      "bytes": 25658,
+      "headings": []
+    },
+    {
+      "path": "reference/0088-self-hosted-langsmith-changelog/0088-self-hosted-langsmith-changelog_pt4.md",
+      "title": "0088 Self Hosted Langsmith Changelog Pt4",
+      "group": "0088-self-hosted-langsmith-changelog",
+      "bytes": 18466,
+      "headings": []
+    },
+    {
+      "path": "reference/0089-install-mission-control.md",
+      "title": "Install Mission Control",
+      "group": ".",
+      "bytes": 44546,
+      "headings": [
+        "Install Mission Control",
+        "Prerequisites",
+        "Quick install",
+        "Access the UI",
+        "Review the script first",
+        "Edit values before install",
+        "Script command reference",
+        "Manual install",
+        "Upgrade",
+        "Uninstall",
+        "Additional resources",
+        "Troubleshooting"
+      ]
+    },
+    {
+      "path": "reference/0090-mcp-endpoint-in-agent-server.md",
+      "title": "MCP endpoint in Agent Server",
+      "group": ".",
+      "bytes": 48138,
+      "headings": [
+        "MCP endpoint in Agent Server",
+        "Requirements",
+        "Usage overview",
+        "Client",
+        "Expose an agent as MCP tool",
+        "Setting name and description",
+        "Schema",
+        "Define input schema",
+        "Define output schema",
+        "Combine input and output",
+        "Define the processing node",
+        "Build the graph with explicit schemas"
+      ]
+    },
+    {
+      "path": "reference/0091-my_agent-agent.py.md",
+      "title": "my_agent/agent.py",
+      "group": ".",
+      "bytes": 48647,
+      "headings": [
+        "my_agent/agent.py",
+        "Define the runtime context",
+        "Create the configuration file",
+        "Next",
+        "How to set up a JavaScript application",
+        "Specify dependencies",
+        "Specify environment variables",
+        "Define graphs",
+        "Create the API config",
+        "Next",
+        "How to set up an application with pyproject.toml",
+        "Specify dependencies"
+      ]
+    },
+    {
+      "path": "reference/0092-delete-chart.md",
+      "title": "Delete Chart",
+      "group": ".",
+      "bytes": 48265,
+      "headings": [
+        "Delete Chart",
+        "Delete Section",
+        "Org Create Chart",
+        "Org Create Section",
+        "Org Delete Chart",
+        "Org Delete Section",
+        "Org Read Chart Preview",
+        "Org Read Charts",
+        "Org Read Sections",
+        "Org Read Single Chart",
+        "Org Read Single Section",
+        "Org Update Chart"
+      ]
+    },
+    {
+      "path": "reference/0093-get-vendor-account.md",
+      "title": "Get vendor account",
+      "group": ".",
+      "bytes": 48113,
+      "headings": [
+        "Get vendor account",
+        "Get vendor settings",
+        "List MCP servers for a vendor",
+        "List MCP vendors",
+        "List tools for a vendor",
+        "Replace vendor settings",
+        "Create Onboarding State",
+        "Get Ls User Id",
+        "Get Onboarding State",
+        "Get the authenticated user's provider user ID",
+        "Update Onboarding State Field",
+        "Create New Model Price"
+      ]
+    },
+    {
+      "path": "reference/0094-get-a-scim-token.md",
+      "title": "Get a SCIM token",
+      "group": ".",
+      "bytes": 32172,
+      "headings": [
+        "Get a SCIM token",
+        "List SCIM tokens",
+        "Update a SCIM token",
+        "Create Service Account",
+        "Delete Service Account",
+        "Get Service Accounts",
+        "List agent versions for a project",
+        "Get Settings",
+        "Set Tenant Handle",
+        "Get tag transition history",
+        "Create Tag",
+        "Delete Tag"
+      ]
+    },
+    {
+      "path": "reference/0095-streaming-api.md",
+      "title": "Streaming API",
+      "group": ".",
+      "bytes": 47781,
+      "headings": [
+        "Streaming API",
+        "Basic usage",
+        "Supported stream modes",
+        "Stream multiple modes",
+        "Stream graph state",
+        "Stream mode: `updates`",
+        "Stream mode: `values`",
+        "Subgraphs",
+        "Debugging",
+        "LLM tokens",
+        "Filter LLM tokens",
+        "Stream custom data"
+      ]
+    },
+    {
+      "path": "reference/0096-test.md",
+      "title": "Test",
+      "group": ".",
+      "bytes": 2652,
+      "headings": [
+        "Test"
+      ]
+    },
+    {
+      "path": "reference/0097-test-a-react-agent-with-pytest-vitest-and-langsmith.md",
+      "title": "Test a ReAct agent with Pytest/Vitest and LangSmith",
+      "group": ".",
+      "bytes": 46251,
+      "headings": [
+        "Test a ReAct agent with Pytest/Vitest and LangSmith",
+        "Setup",
+        "Installation",
+        "Environment variables",
+        "Create your app",
+        "Define tools",
+        "Define agent",
+        "Write tests",
+        "Test 1: Handle off-topic questions",
+        "Test 2: Simple tool calling",
+        "Test 3: Complex tool calling",
+        "Test 4: LLM-as-a-judge"
+      ]
+    },
+    {
+      "path": "reference/0098-configure-threads.md",
+      "title": "Configure threads",
+      "group": ".",
+      "bytes": 42889,
+      "headings": [
+        "Configure threads",
+        "Group traces into threads",
+        "Example",
+        "View threads",
+        "View feedback",
+        "Save thread-level filter",
+        "Related",
+        "Trace Anthropic applications",
+        "Trace Amazon Bedrock applications",
+        "Installation",
+        "Setup",
+        "LangSmith configuration"
+      ]
+    },
+    {
+      "path": "reference/0099-trace-claude-code-applications.md",
+      "title": "Trace Claude Code applications",
+      "group": ".",
+      "bytes": 35849,
+      "headings": [
+        "Trace Claude Code applications",
+        "Prerequisites",
+        "Getting started",
+        "Setting environment variables",
+        "Verify setup",
+        "Custom metadata",
+        "Usage with GitHub Actions",
+        "Nesting traces under an existing run",
+        "Trace to multiple destinations (replicas)",
+        "Troubleshooting",
+        "No traces appearing in LangSmith",
+        "Subagent runs do not appear after user interruption"
+      ]
+    },
+    {
+      "path": "reference/0100-trace-gemini-live-applications.md",
+      "title": "Trace Gemini Live applications",
+      "group": ".",
+      "bytes": 42884,
+      "headings": [
+        "Trace Gemini Live applications",
+        "The ADK Live event model",
+        "How events map to LangSmith runs",
+        "Installation",
+        "Set up your environment",
+        "Quickstart",
+        "Step 1: Build the RunConfig",
+        "Step 2: Open the conversation root run",
+        "Step 3: Trace each event",
+        "Attach audio",
+        "Troubleshooting",
+        "Next steps"
+      ]
+    },
+    {
+      "path": "reference/0101-trace-query-syntax.md",
+      "title": "Trace query syntax",
+      "group": ".",
+      "bytes": 47496,
+      "headings": [
+        "Trace query syntax",
+        "Filter arguments",
+        "Filter query language",
+        "Voice tracing fundamentals",
+        "Two architectures, two trace shapes",
+        "Cascade",
+        "Speech-to-speech (S2S)",
+        "Core conventions",
+        "Trace each conversation as a single trace",
+        "Record a single combined audio file",
+        "Mark the trace as audio",
+        "Next steps"
+      ]
+    },
+    {
+      "path": "reference/0102-instrument-crewai-and-openai.md",
+      "title": "Instrument CrewAI and OpenAI",
+      "group": ".",
+      "bytes": 47763,
+      "headings": [
+        "Instrument CrewAI and OpenAI",
+        "3. Create and run your CrewAI application",
+        "Configure OpenTelemetry",
+        "Instrument CrewAI and OpenAI",
+        "Define your agent",
+        "Define your task",
+        "Create and run the crew",
+        "Advanced usage",
+        "Custom metadata and tags",
+        "Combining with other instrumentors",
+        "Initialize multiple instrumentors",
+        "Resources"
+      ]
+    },
+    {
+      "path": "reference/0103-the-above-chain-will-be-traced-as-a-child-run-of-the-traceable-function.md",
+      "title": "The above chain will be traced as a child run of the traceable function",
+      "group": ".",
+      "bytes": 43023,
+      "headings": [
+        "The above chain will be traced as a child run of the traceable function",
+        "Interoperability between LangChain.JS and LangSmith SDK",
+        "Tracing LangChain objects inside `traceable` (JS only)",
+        "Tracing LangChain child runs via `traceable` / RunTree API (JS only)",
+        "Trace LangGraph applications",
+        "With LangChain",
+        "1. Installation",
+        "2. Configure your environment",
+        "This example uses OpenAI, but you can use any LLM provider of choice",
+        "For LangSmith API keys linked to multiple workspaces, set the LANGSMITH_WORKSPACE_ID environment variable to specify which workspace to use.",
+        "3. Log a trace",
+        "Viewing the trace"
+      ]
+    },
+    {
+      "path": "reference/0104-trace-mistral-applications.md",
+      "title": "Trace Mistral applications",
+      "group": ".",
+      "bytes": 43655,
+      "headings": [
+        "Trace Mistral applications",
+        "Installation",
+        "Setup",
+        "Configure tracing",
+        "View traces in LangSmith",
+        "Cost tracking",
+        "Trace n8n workflows",
+        "Prerequisites",
+        "Set up tracing",
+        "View traces in LangSmith",
+        "Additional resources",
+        "Trace OpenAI Agents SDK applications"
+      ]
+    },
+    {
+      "path": "reference/0105-create-and-run-a-langchain-application.md",
+      "title": "Create and run a LangChain application",
+      "group": ".",
+      "bytes": 45752,
+      "headings": [
+        "Create and run a LangChain application",
+        "Supported OpenTelemetry attribute and event mapping",
+        "Core LangSmith attributes",
+        "GenAI standard attributes",
+        "GenAI request parameters",
+        "GenAI usage metrics",
+        "TraceLoop attributes",
+        "OpenInference attributes",
+        "LLM attributes",
+        "Prompt template attributes",
+        "Retriever attributes",
+        "Tool attributes"
+      ]
+    },
+    {
+      "path": "reference/0106-run-the-pipeline-saving-the-recording-on-the-way-out.md",
+      "title": "Run the pipeline, saving the recording on the way out",
+      "group": ".",
+      "bytes": 42400,
+      "headings": [
+        "Run the pipeline, saving the recording on the way out",
+        "Troubleshooting",
+        "Spans not appearing in LangSmith",
+        "Messages not showing correctly",
+        "Audio not working",
+        "Import errors",
+        "Performance issues",
+        "Advanced: Audio recording troubleshooting",
+        "Trace PydanticAI applications",
+        "Installation",
+        "Setup",
+        "1. Configure environment variables"
+      ]
+    },
+    {
+      "path": "reference/0107-trace-vercel-ai-sdk-applications-js-ts-only.md",
+      "title": "Trace Vercel AI SDK applications (JS/TS only)",
+      "group": ".",
+      "bytes": 27730,
+      "headings": [
+        "Trace Vercel AI SDK applications (JS/TS only)",
+        "Installation",
+        "Environment configuration",
+        "Basic setup",
+        "With `traceable`",
+        "Tracing in serverless environments",
+        "Passing LangSmith config",
+        "Specify a custom run ID",
+        "Redacting data",
+        "Trace Visual Studio Code Copilot Chat sessions",
+        "Prerequisites",
+        "Configure tracing"
+      ]
+    },
+    {
+      "path": "reference/0108-how-to-evaluate-your-agent-with-trajectory-evaluations.md",
+      "title": "How to evaluate your agent with trajectory evaluations",
+      "group": ".",
+      "bytes": 43275,
+      "headings": [
+        "How to evaluate your agent with trajectory evaluations",
+        "Installing AgentEvals",
+        "Trajectory match evaluator",
+        "Strict match",
+        "Unordered match",
+        "Subset and superset match",
+        "LLM-as-judge evaluator",
+        "Without reference trajectory",
+        "With reference trajectory",
+        "Async support (Python)",
+        "Troubleshooting",
+        "Getting helpful information"
+      ]
+    },
+    {
+      "path": "reference/0109-how-to-upload-experiments-run-outside-of-langsmith-with-the-rest-api.md",
+      "title": "How to upload experiments run outside of LangSmith with the REST API",
+      "group": ".",
+      "bytes": 46046,
+      "headings": [
+        "How to upload experiments run outside of LangSmith with the REST API",
+        "Request body schema",
+        "Considerations",
+        "Example request",
+        "View the experiment in the UI",
+        "Upload files with traces",
+        "Python",
+        "Must set dangerously_allow_filesystem to True if you want to use file paths",
+        "Helper function to load files as bytes",
+        "Load files and create attachments",
+        "Define other parameters",
+        "Call the function with traced attachments"
+      ]
+    },
+    {
+      "path": "reference/0110-how-to-use-studio.md",
+      "title": "How to use Studio",
+      "group": ".",
+      "bytes": 47876,
+      "headings": [
+        "How to use Studio",
+        "Run application",
+        "Manage assistants",
+        "Manage threads",
+        "Next steps",
+        "Use the Context Hub",
+        "1. Open the Context Hub",
+        "2. Create a context",
+        "3. View a context",
+        "4. Tag and promote a commit",
+        "Next steps",
+        "Use threads"
+      ]
+    },
+    {
+      "path": "reference/0111-use-webhooks.md",
+      "title": "Use webhooks",
+      "group": ".",
+      "bytes": 13516,
+      "headings": [
+        "Use webhooks",
+        "Supported endpoints",
+        "Set up your assistant and thread",
+        "Use a webhook with a graph run",
+        "Webhook payload",
+        "Secure webhooks",
+        "Add headers to webhook requests",
+        "Use environment variables in headers",
+        "Restrict webhook destinations",
+        "Disable webhooks",
+        "Test webhooks"
+      ]
+    },
+    {
+      "path": "reference/0112-user-management/0112-user-management_pt1.md",
+      "title": "User management",
+      "group": "0112-user-management",
+      "bytes": 25624,
+      "headings": [
+        "User management",
+        "Set up access control",
+        "Create a role",
+        "Assign a role to a user",
+        "Set up SAML SSO for your organization",
+        "Just-in-time (JIT) provisioning",
+        "Login methods and access",
+        "Enforce SAML SSO only",
+        "Prerequisites",
+        "Initial configuration",
+        "Supabase Attribute Mapping",
+        "Entra ID (Azure)"
+      ]
+    },
+    {
+      "path": "reference/0112-user-management/0112-user-management_pt2.md",
+      "title": "0112 User Management Pt2",
+      "group": "0112-user-management",
+      "bytes": 25600,
+      "headings": [
+        "Requirements",
+        "Attributes and mapping",
+        "Mapping",
+        "Step 1 - configure SAML SSO (Cloud only)",
+        "Step 2 - disable JIT provisioning",
+        "Step 3 - generate SCIM bearer token",
+        "Step 4 - configure your identity provider",
+        "SSO Groups Sync (alternative)"
+      ]
+    },
+    {
+      "path": "reference/0112-user-management/0112-user-management_pt3.md",
+      "title": "0112 User Management Pt3",
+      "group": "0112-user-management",
+      "bytes": 4715,
+      "headings": []
+    },
+    {
+      "path": "reference/0113-view-traces.md",
+      "title": "View traces",
+      "group": ".",
+      "bytes": 41835,
+      "headings": [
+        "View traces",
+        "Messages view",
+        "What the Messages view shows",
+        "Customize the Messages view",
+        "Turns view",
+        "Customize the Turns view",
+        "Details view",
+        "Customize the Details view",
+        "Actions",
+        "View usage",
+        "Usage views",
+        "Usage graph"
+      ]
+    },
+    {
+      "path": "reference/0114-configure-webhook-notifications-for-rules.md",
+      "title": "Configure webhook notifications for rules",
+      "group": ".",
+      "bytes": 35156,
+      "headings": [
+        "Configure webhook notifications for rules",
+        "Webhook payload",
+        "Security",
+        "Webhook custom HTTP headers",
+        "Webhook delivery",
+        "Ensuring evaluations complete before the webhook fires",
+        "Example with Modal",
+        "Setup",
+        "Secrets",
+        "Service",
+        "We want this to be a `POST` endpoint since we will post data here",
+        "We set up a `secret` query parameter"
+      ]
+    },
+    {
+      "path": "reference/0115-memory-overview.md",
+      "title": "Memory overview",
+      "group": ".",
+      "bytes": 37439,
+      "headings": [
+        "Memory overview",
+        "Short-term memory",
+        "Manage short-term memory",
+        "Long-term memory",
+        "Semantic memory",
+        "Episodic memory",
+        "Procedural memory",
+        "Writing memories",
+        "Memory storage",
+        "Learn more",
+        "Frameworks, runtimes, and harnesses",
+        "Agent frameworks (like LangChain)"
+      ]
+    },
+    {
+      "path": "reference/0116-contributing-to-code.md",
+      "title": "Contributing to code",
+      "group": ".",
+      "bytes": 47911,
+      "headings": [
+        "Contributing to code",
+        "Getting started",
+        "Quick fix: submit a bugfix",
+        "Full development setup",
+        "Contribution guidelines",
+        "Backwards compatibility",
+        "New features",
+        "Security guidelines",
+        "Development environment",
+        "Repository structure",
+        "Development workflow",
+        "Pre-commit hooks"
+      ]
+    },
+    {
+      "path": "reference/0117-contributing-integrations.md",
+      "title": "Contributing integrations",
+      "group": ".",
+      "bytes": 35063,
+      "headings": [
+        "Contributing integrations",
+        "Why implement a LangChain integration?",
+        "Components to integrate",
+        "How to contribute an integration",
+        "Contributing",
+        "Ways to contribute",
+        "Pull request requirements",
+        "Language policy",
+        "Acceptable uses of LLMs",
+        "Publish an integration",
+        "Using standard tests",
+        "Setup"
+      ]
+    },
+    {
+      "path": "reference/0118-async-subagents.md",
+      "title": "Async subagents",
+      "group": ".",
+      "bytes": 15355,
+      "headings": [
+        "Async subagents",
+        "When to use async subagents",
+        "Configure async subagents",
+        "Use the async subagent tools",
+        "Understand the lifecycle",
+        "Understand state management",
+        "Choose a transport",
+        "ASGI transport (co-deployed)",
+        "HTTP transport (remote)",
+        "Choose a deployment topology",
+        "Single deployment",
+        "Split deployment"
+      ]
+    },
+    {
+      "path": "reference/0119-backends/0119-backends_pt1.md",
+      "title": "Backends",
+      "group": "0119-backends",
+      "bytes": 25611,
+      "headings": [
+        "Backends",
+        "Quickstart",
+        "Built-in backends",
+        "StateBackend",
+        "FilesystemBackend (local disk)",
+        "LocalShellBackend (local shell)",
+        "StoreBackend (LangGraph store)"
+      ]
+    },
+    {
+      "path": "reference/0119-backends/0119-backends_pt2.md",
+      "title": "0119 Backends Pt2",
+      "group": "0119-backends",
+      "bytes": 25692,
+      "headings": [
+        "ContextHubBackend",
+        "CompositeBackend (router)",
+        "Specify a backend",
+        "Route to different backends",
+        "Use a virtual filesystem",
+        "Permissions",
+        "Add policy hooks",
+        "Multimodal and binary files",
+        "Supported MIME types",
+        "Read binary files",
+        "FileData format",
+        "Migrate from backend factories"
+      ]
+    },
+    {
+      "path": "reference/0119-backends/0119-backends_pt3.md",
+      "title": "0119 Backends Pt3",
+      "group": "0119-backends",
+      "bytes": 5759,
+      "headings": [
+        "Required methods",
+        "Optional methods",
+        "Result types",
+        "Supporting types",
+        "Sandbox extension",
+        "Update existing backends to V2"
+      ]
+    },
+    {
+      "path": "reference/0120-changelog.md",
+      "title": "Changelog",
+      "group": ".",
+      "bytes": 46334,
+      "headings": [
+        "Changelog",
+        "Configuration",
+        "Inspect configuration",
+        "Provider credentials",
+        "Use `/auth` (recommended)",
+        "Manage credentials from the shell (`dcode auth`)",
+        "Pipe the key in (stdin)",
+        "Copy it from an existing environment variable",
+        "Environment variables (CI and headless)",
+        "Prefix with DEEPAGENTS_CODE_ to scope a key to Deep Agents Code only,",
+        "leaving a shared key used by other CI steps untouched",
+        "Key resolution order"
+      ]
+    },
+    {
+      "path": "reference/0121-pin-an-exact-version-for-reproducible-installs-across-the-fleet.md",
+      "title": "Pin an exact version for reproducible installs across the fleet",
+      "group": ".",
+      "bytes": 45772,
+      "headings": [
+        "Pin an exact version for reproducible installs across the fleet",
+        "Environment variable reference",
+        "External editor",
+        "Set in your shell profile (~/.zshrc, ~/.bashrc, etc.)",
+        "Hooks",
+        "Setup",
+        "Hook configuration",
+        "Payload format",
+        "Events reference",
+        "Execution model",
+        "Hook examples",
+        "Security considerations"
+      ]
+    },
+    {
+      "path": "reference/0122-applies-conventions-without-prompting.md",
+      "title": "Applies conventions without prompting",
+      "group": ".",
+      "bytes": 17616,
+      "headings": [
+        "Applies conventions without prompting",
+        "AGENTS.md files",
+        "How memory works",
+        "When to use global vs. project AGENTS.md",
+        "Skills",
+        "Add a skill",
+        "Install community skills",
+        "Install a skill globally",
+        "List installed skills",
+        "Skill discovery",
+        "Invoke a skill mid-session",
+        "Launch with a skill"
+      ]
+    },
+    {
+      "path": "reference/0123-the-task-does-not-have-access-to-the-command-output.md",
+      "title": "the task does NOT have access to the command output",
+      "group": ".",
+      "bytes": 40599,
+      "headings": [
+        "the task does NOT have access to the command output",
+        "Configuration",
+        "Interactive mode",
+        "Non-interactive mode and piping",
+        "Trace with LangSmith"
+      ]
+    },
+    {
+      "path": "reference/0124-model-providers.md",
+      "title": "Model providers",
+      "group": ".",
+      "bytes": 45424,
+      "headings": [
+        "Model providers",
+        "Quickstart",
+        "Provider reference",
+        "Model routers and proxies",
+        "Switch models",
+        "Which models appear in the switcher",
+        "Open weights models",
+        "Set a default model",
+        "Model parameters",
+        "Advanced configuration",
+        "Use remote sandboxes",
+        "Sandbox flags and examples"
+      ]
+    },
+    {
+      "path": "reference/0125-build-a-content-builder-agent.md",
+      "title": "Build a content builder agent",
+      "group": ".",
+      "bytes": 31619,
+      "headings": [
+        "Build a content builder agent",
+        "Overview",
+        "Key concepts",
+        "Prerequisites",
+        "Setup",
+        "Add configuration files",
+        "Build the script",
+        "Run the agent",
+        "Output",
+        "Full code",
+        "Next steps"
+      ]
+    },
+    {
+      "path": "reference/0126-context-engineering-in-deep-agents.md",
+      "title": "Context engineering in Deep Agents",
+      "group": ".",
+      "bytes": 24771,
+      "headings": [
+        "Context engineering in Deep Agents",
+        "Types of context",
+        "Input context",
+        "System prompt",
+        "Memory",
+        "Skills",
+        "Tool prompts",
+        "Complete system prompt",
+        "Runtime context",
+        "Context compression",
+        "Offloading",
+        "Multimodal inputs"
+      ]
+    },
+    {
+      "path": "reference/0127-customize-deep-agents.md",
+      "title": "Customize Deep Agents",
+      "group": ".",
+      "bytes": 34163,
+      "headings": [
+        "Customize Deep Agents",
+        "Model",
+        "Tools",
+        "MCP tools",
+        "System prompt",
+        "Prompt assembly",
+        "Final = USER + BASE + SUFFIX",
+        "= \"You are a customer-support agent for ACME Corp.\"",
+        "+ \"\\n\\n\"",
+        "+ BASE_AGENT_PROMPT",
+        "+ \"\\n\\n\""
+      ]
+    },
+    {
+      "path": "reference/0128-claude-specific-guidance/0128-claude-specific-guidance_pt1.md",
+      "title": "+ <Claude-specific guidance>",
+      "group": "0128-claude-specific-guidance",
+      "bytes": 25656,
+      "headings": [
+        "+ <Claude-specific guidance>",
+        "Middleware",
+        "Default stack (main agent)",
+        "Default stack (synchronous subagents)",
+        "Prebuilt middleware",
+        "Provider-specific middleware",
+        "Custom middleware",
+        "Interpreters",
+        "Subagents"
+      ]
+    },
+    {
+      "path": "reference/0128-claude-specific-guidance/0128-claude-specific-guidance_pt2.md",
+      "title": "0128 Claude Specific Guidance Pt2",
+      "group": "0128-claude-specific-guidance",
+      "bytes": 25654,
+      "headings": [
+        "Backends"
+      ]
+    },
+    {
+      "path": "reference/0128-claude-specific-guidance/0128-claude-specific-guidance_pt3.md",
+      "title": "0128 Claude Specific Guidance Pt3",
+      "group": "0128-claude-specific-guidance",
+      "bytes": 25647,
+      "headings": [
+        "Sandboxes",
+        "Human-in-the-loop",
+        "Skills",
+        "Memory"
+      ]
+    },
+    {
+      "path": "reference/0128-claude-specific-guidance/0128-claude-specific-guidance_pt4.md",
+      "title": "0128 Claude Specific Guidance Pt4",
+      "group": "0128-claude-specific-guidance",
+      "bytes": 15327,
+      "headings": [
+        "Structured output",
+        "Advanced"
+      ]
+    },
+    {
+      "path": "reference/0129-build-a-deep-research-agent.md",
+      "title": "Build a deep research agent",
+      "group": ".",
+      "bytes": 41785,
+      "headings": [
+        "Build a deep research agent",
+        "Overview",
+        "Key concepts",
+        "Prerequisites",
+        "Setup",
+        "Build the agent",
+        "Run the agent",
+        "Full code",
+        "Next steps",
+        "Event streaming",
+        "Stream subagents",
+        "Subagent stream fields"
+      ]
+    },
+    {
+      "path": "reference/0130-sandbox.md",
+      "title": "Sandbox",
+      "group": ".",
+      "bytes": 41373,
+      "headings": [
+        "Sandbox",
+        "Architecture",
+        "Sandbox lifecycle",
+        "Connect the agent and API server",
+        "Resolve the sandbox from thread metadata",
+        "Seed project files",
+        "Adding the file browsing API",
+        "Create the API server",
+        "Configure `langgraph.json`",
+        "Building the frontend",
+        "Thread creation",
+        "File state management"
+      ]
+    },
+    {
+      "path": "reference/0131-todo-list.md",
+      "title": "Todo list",
+      "group": ".",
+      "bytes": 12011,
+      "headings": [
+        "Todo list",
+        "How it works",
+        "Setting up `useStream`",
+        "Building the TodoList component",
+        "Progress bar",
+        "Individual todo items",
+        "Calculating progress",
+        "Combining with chat messages",
+        "Use cases",
+        "Handling empty and loading states",
+        "Best practices"
+      ]
+    },
+    {
+      "path": "reference/0132-going-to-production.md",
+      "title": "Going to production",
+      "group": ".",
+      "bytes": 49353,
+      "headings": [
+        "Going to production",
+        "Overview",
+        "LangSmith Deployments",
+        "Production considerations",
+        "Invoking the agent",
+        "Multi-tenancy",
+        "Async",
+        "Durability",
+        "Memory",
+        "Scoping",
+        "Configuration",
+        "Execution environment"
+      ]
+    },
+    {
+      "path": "reference/0133-harness-capabilities.md",
+      "title": "Harness capabilities",
+      "group": ".",
+      "bytes": 33229,
+      "headings": [
+        "Harness capabilities",
+        "Execution environment",
+        "Tools",
+        "Virtual filesystem access",
+        "Filesystem permissions",
+        "Code execution",
+        "Context management",
+        "Skills",
+        "Memory",
+        "Summarization and context offloading",
+        "Prompt caching",
+        "Delegation"
+      ]
+    },
+    {
+      "path": "reference/0134-interpreters.md",
+      "title": "Interpreters",
+      "group": ".",
+      "bytes": 42362,
+      "headings": [
+        "Interpreters",
+        "Why use interpreters?",
+        "Choose a pattern",
+        "Quickstart",
+        "How interpreters work",
+        "Programmatic tool calling (PTC)",
+        "Enable PTC",
+        "Programmatic subagents",
+        "Security",
+        "Configuration",
+        "Model Context Protocol",
+        "Memory"
+      ]
+    },
+    {
+      "path": "reference/0135-models.md",
+      "title": "Models",
+      "group": ".",
+      "bytes": 47444,
+      "headings": [
+        "Models",
+        "Supported models",
+        "Suggested models",
+        "Model evaluations",
+        "Configure model parameters",
+        "Provider profiles",
+        "Provider-wide default: every openai model gets temperature=0.",
+        "Model-level override: gpt-5.4 additionally gets a specific reasoning effort.",
+        "Inherits temperature=0 from the provider-level profile above.",
+        "Select a model at runtime",
+        "Learn more",
+        "Deep Agents overview"
+      ]
+    },
+    {
+      "path": "reference/0136-openai.yaml.md",
+      "title": "openai.yaml",
+      "group": ".",
+      "bytes": 36644,
+      "headings": [
+        "openai.yaml",
+        "Ship a profile as a plugin",
+        "Related",
+        "Programmatic subagents",
+        "How it works",
+        "Guide orchestration",
+        "Patterns",
+        "Classify and act",
+        "Fan-out and synthesize",
+        "Adversarial verification",
+        "Generate and filter",
+        "Tournament"
+      ]
+    },
+    {
+      "path": "reference/0137-sandboxes.md",
+      "title": "Sandboxes",
+      "group": ".",
+      "bytes": 35080,
+      "headings": [
+        "Sandboxes",
+        "Why use sandboxes?",
+        "Basic usage",
+        "Available providers",
+        "Lifecycle and scoping",
+        "Thread-scoped (default)",
+        "Assistant-scoped",
+        "Integration patterns",
+        "Agent in sandbox pattern",
+        "Sandbox as tool pattern",
+        "How sandboxes work",
+        "Isolation boundaries"
+      ]
+    },
+    {
+      "path": "reference/0138-poor-too-vague-for-reliable-matching.md",
+      "title": "Poor: too vague for reliable matching",
+      "group": ".",
+      "bytes": 26485,
+      "headings": [
+        "Poor: too vague for reliable matching",
+        "Add supporting resources",
+        "`scripts/`",
+        "`references/`",
+        "`assets/`",
+        "Reference files from `SKILL.md`",
+        "Backends and remote skill loading",
+        "Load skills at runtime",
+        "Dynamic skill lists",
+        "Namespaced skills",
+        "Skills for subagents",
+        "Skill permissions"
+      ]
+    },
+    {
+      "path": "reference/0139-arxiv-search.md",
+      "title": "arxiv-search",
+      "group": ".",
+      "bytes": 41657,
+      "headings": [
+        "arxiv-search",
+        "Instructions",
+        "Troubleshooting",
+        "Skill not activated",
+        "Skills missing at startup",
+        "Supporting files not found",
+        "Scripts fail to run",
+        "Subagent cannot access a skill",
+        "Reference",
+        "Skills, memory, and tools",
+        "Frontmatter fields",
+        "langgraph-docs"
+      ]
+    },
+    {
+      "path": "reference/0140-streaming.md",
+      "title": "Streaming",
+      "group": ".",
+      "bytes": 17635,
+      "headings": [
+        "Streaming",
+        "Enable subgraph streaming",
+        "Namespaces",
+        "Subagent progress",
+        "LLM tokens",
+        "Tool calls",
+        "Custom updates",
+        "Stream multiple modes",
+        "Common patterns",
+        "Track subagent lifecycle",
+        "Related"
+      ]
+    },
+    {
+      "path": "reference/0141-subagents/0141-subagents_pt1.md",
+      "title": "Subagents",
+      "group": "0141-subagents",
+      "bytes": 25619,
+      "headings": [
+        "Subagents",
+        "Why use subagents?",
+        "Configuration",
+        "Default subagent",
+        "Running without subagents",
+        "Custom subagents",
+        "SubAgent (Dictionary-based)",
+        "CompiledSubAgent",
+        "Using SubAgent"
+      ]
+    },
+    {
+      "path": "reference/0141-subagents/0141-subagents_pt2.md",
+      "title": "0141 Subagents Pt2",
+      "group": "0141-subagents",
+      "bytes": 25668,
+      "headings": [
+        "Using CompiledSubAgent",
+        "Streaming",
+        "Stream subagent progress",
+        "LangSmith tracing",
+        "Filter by subagent in LangSmith",
+        "Filter in the LangSmith UI",
+        "Filter programmatically with the SDK",
+        "Structured output",
+        "The general-purpose subagent",
+        "Override the general-purpose subagent",
+        "When to use it",
+        "Skills inheritance"
+      ]
+    },
+    {
+      "path": "reference/0141-subagents/0141-subagents_pt3.md",
+      "title": "0141 Subagents Pt3",
+      "group": "0141-subagents",
+      "bytes": 12258,
+      "headings": [
+        "Best practices",
+        "Write clear descriptions",
+        "Keep system prompts detailed",
+        "Minimize tool sets",
+        "Choose models by task",
+        "Return concise results",
+        "Common patterns",
+        "Multiple specialized subagents",
+        "Context management",
+        "Per-subagent context",
+        "Identifying which subagent called a tool",
+        "Troubleshooting"
+      ]
+    },
+    {
+      "path": "reference/0142-tools.md",
+      "title": "Tools",
+      "group": ".",
+      "bytes": 17542,
+      "headings": [
+        "Tools",
+        "Custom tools",
+        "MCP tools",
+        "Built-in harness tools",
+        "ChatAnthropic integration",
+        "Overview",
+        "Integration details",
+        "Model features",
+        "Setup",
+        "Credentials",
+        "export LANGSMITH_TRACING=\"true\""
+      ]
+    },
+    {
+      "path": "reference/0143-export-langsmith_api_key-your-api-key.md",
+      "title": "export LANGSMITH_API_KEY=\"your-api-key\"",
+      "group": ".",
+      "bytes": 41524,
+      "headings": [
+        "export LANGSMITH_API_KEY=\"your-api-key\"",
+        "Installation",
+        "Instantiation",
+        "Invocation",
+        "Content blocks",
+        "Custom headers",
+        "Prompt caching",
+        "Chat models",
+        "LLMs",
+        "Message types",
+        "Prompt templates",
+        "Example Selectors"
+      ]
+    },
+    {
+      "path": "reference/0144-export-langsmith_api_key-your-api-key.md",
+      "title": "export LANGSMITH_API_KEY=\"your-api-key\"",
+      "group": ".",
+      "bytes": 43799,
+      "headings": [
+        "export LANGSMITH_API_KEY=\"your-api-key\"",
+        "Installation",
+        "Instantiation",
+        "Invocation",
+        "Using Azure Managed identity",
+        "Using a different domain",
+        "Custom headers",
+        "Migration from Azure OpenAI SDK",
+        "API reference",
+        "ChatBedrockConverse integration",
+        "Overview",
+        "Integration details"
+      ]
+    },
+    {
+      "path": "reference/0145-chatgooglegenerativeai-integration.md",
+      "title": "ChatGoogleGenerativeAI integration",
+      "group": ".",
+      "bytes": 42044,
+      "headings": [
+        "ChatGoogleGenerativeAI integration",
+        "Overview",
+        "Integration details",
+        "Model features",
+        "Setup",
+        "Credentials",
+        "export LANGSMITH_TRACING=\"true\"",
+        "export LANGSMITH_API_KEY=\"your-api-key\"",
+        "Installation",
+        "Instantiation",
+        "Invocation",
+        "Safety settings"
+      ]
+    },
+    {
+      "path": "reference/0146-chat-model-integrations.md",
+      "title": "Chat model integrations",
+      "group": ".",
+      "bytes": 19195,
+      "headings": [
+        "Chat model integrations",
+        "Install and use",
+        "Featured models",
+        "Routers & proxies",
+        "Chat Completions API",
+        "All chat models",
+        "ChatOpenAI integration",
+        "Overview",
+        "Integration details",
+        "Model features",
+        "Setup",
+        "Credentials"
+      ]
+    },
+    {
+      "path": "reference/0147-export-langsmith_api_key-your-api-key.md",
+      "title": "export LANGSMITH_API_KEY=\"your-api-key\"",
+      "group": ".",
+      "bytes": 46710,
+      "headings": [
+        "export LANGSMITH_API_KEY=\"your-api-key\"",
+        "Installation",
+        "Instantiation",
+        "Invocation",
+        "Custom URLs",
+        "Custom headers",
+        "Disabling streaming usage metadata",
+        "Calling fine-tuned models",
+        "Generation metadata",
+        "Custom tools",
+        "`strict: true`",
+        "Structured output"
+      ]
+    },
+    {
+      "path": "reference/0148-document-loader-integrations.md",
+      "title": "Document loader integrations",
+      "group": ".",
+      "bytes": 39486,
+      "headings": [
+        "Document loader integrations",
+        "Interface",
+        "By category",
+        "File loaders",
+        "Web loaders",
+        "All document loaders",
+        "Document transformer integrations",
+        "AzureOpenAIEmbeddings integration",
+        "Overview",
+        "Integration details",
+        "Setup",
+        "Credentials"
+      ]
+    },
+    {
+      "path": "reference/0149-embedding-model-integrations.md",
+      "title": "Embedding model integrations",
+      "group": ".",
+      "bytes": 34338,
+      "headings": [
+        "Embedding model integrations",
+        "Overview",
+        "How it works",
+        "Similarity metrics",
+        "Interface",
+        "Install and use",
+        "Caching",
+        "All integrations",
+        "OpenAIEmbeddings integration",
+        "Overview",
+        "Integration details",
+        "Setup"
+      ]
+    },
+    {
+      "path": "reference/0150-all-langchain-javascript-integration-providers.md",
+      "title": "All LangChain JavaScript integration providers",
+      "group": ".",
+      "bytes": 41090,
+      "headings": [
+        "All LangChain JavaScript integration providers",
+        "Top providers",
+        "LangGraph integrations",
+        "Chat models",
+        "LLMs",
+        "Text embedding models",
+        "Vector stores",
+        "Document loaders",
+        "File loaders",
+        "Web loaders",
+        "Document transformers",
+        "Document compressors"
+      ]
+    },
+    {
+      "path": "reference/0151-openai-integrations.md",
+      "title": "OpenAI integrations",
+      "group": ".",
+      "bytes": 28568,
+      "headings": [
+        "OpenAI integrations",
+        "Installation and setup",
+        "Chat model",
+        "LLM",
+        "Text embedding model",
+        "Chain",
+        "Middleware",
+        "Content moderation",
+        "LangChain JavaScript integrations",
+        "Popular providers",
+        "All providers",
+        "Retriever integrations"
+      ]
+    },
+    {
+      "path": "reference/0152-anthropic-integration.md",
+      "title": "Anthropic integration",
+      "group": ".",
+      "bytes": 34174,
+      "headings": [
+        "Anthropic integration",
+        "Memory tool",
+        "Web search tool",
+        "Web fetch tool",
+        "Tool search tools",
+        "Text editor tool",
+        "Computer use tool",
+        "Code execution tool",
+        "Bash tool",
+        "MCP toolset",
+        "Google integration",
+        "Google Search"
+      ]
+    },
+    {
+      "path": "reference/0153-openai-integration.md",
+      "title": "OpenAI integration",
+      "group": ".",
+      "bytes": 44562,
+      "headings": [
+        "OpenAI integration",
+        "Web search tool",
+        "MCP tool (Model context protocol)",
+        "Code interpreter tool",
+        "File search tool",
+        "Image generation tool",
+        "Computer use tool",
+        "Local shell tool",
+        "Shell tool",
+        "Apply patch tool",
+        "Vector store integrations",
+        "Overview"
+      ]
+    },
+    {
+      "path": "reference/0154-agents.md",
+      "title": "Agents",
+      "group": ".",
+      "bytes": 46283,
+      "headings": [
+        "Agents",
+        "Core components",
+        "Model",
+        "Tools",
+        "System prompt",
+        "Structured output",
+        "Name",
+        "Invocation",
+        "Streaming",
+        "Configure the harness",
+        "Execution environment",
+        "Context management"
+      ]
+    },
+    {
+      "path": "reference/0155-component-architecture.md",
+      "title": "Component architecture",
+      "group": ".",
+      "bytes": 45991,
+      "headings": [
+        "Component architecture",
+        "Core component ecosystem",
+        "How components connect",
+        "Component categories",
+        "Common patterns",
+        "RAG (Retrieval-Augmented generation)",
+        "Agent with tools",
+        "Multi-agent system",
+        "Learn more",
+        "Context engineering in agents",
+        "Overview",
+        "Why do agents fail?"
+      ]
+    },
+    {
+      "path": "reference/0156-langsmith-deployment.md",
+      "title": "LangSmith Deployment",
+      "group": ".",
+      "bytes": 47327,
+      "headings": [
+        "LangSmith Deployment",
+        "Prerequisites",
+        "Deploy your agent",
+        "1. Create a repository on GitHub",
+        "2. Deploy to LangSmith",
+        "3. Test your application in Studio",
+        "4. Get the API URL for your deployment",
+        "5. Test the API",
+        "Event streaming",
+        "What you can stream",
+        "Agent messages",
+        "Reasoning content"
+      ]
+    },
+    {
+      "path": "reference/0157-human-in-the-loop.md",
+      "title": "Human-in-the-Loop",
+      "group": ".",
+      "bytes": 44550,
+      "headings": [
+        "Human-in-the-Loop",
+        "How interrupts work",
+        "Setting up `useStream`",
+        "The interrupt payload",
+        "Decision types",
+        "Approve",
+        "Reject",
+        "Edit",
+        "Respond",
+        "Building the ApprovalCard",
+        "The resume flow",
+        "Handling multiple pending actions"
+      ]
+    },
+    {
+      "path": "reference/0158-openui.md",
+      "title": "OpenUI",
+      "group": ".",
+      "bytes": 46325,
+      "headings": [
+        "OpenUI",
+        "How it works",
+        "Installation",
+        "Import the component styles",
+        "Generate the system prompt",
+        "Inject the system prompt via useStream",
+        "Render with the Renderer",
+        "The openui-lang format",
+        "Progressive rendering utilities",
+        "Follow-up queries",
+        "Best practices",
+        "Overview"
+      ]
+    },
+    {
+      "path": "reference/0159-message-queues.md",
+      "title": "Message queues",
+      "group": ".",
+      "bytes": 36988,
+      "headings": [
+        "Message queues",
+        "Why message queues?",
+        "How it works",
+        "Setting up `useStream`",
+        "Displaying the queue",
+        "Cancelling queued messages",
+        "Cancel a single entry",
+        "Clear the entire queue",
+        "Chaining follow-up submissions with `onCreated`",
+        "Starting a new thread",
+        "Best practices",
+        "Overview"
+      ]
+    },
+    {
+      "path": "reference/0160-structured-output.md",
+      "title": "Structured output",
+      "group": ".",
+      "bytes": 42843,
+      "headings": [
+        "Structured output",
+        "What is structured output?",
+        "Use cases",
+        "Define a schema",
+        "Extract structured output from messages",
+        "Set up `useStream`",
+        "Render the structured data",
+        "Handle partial streaming data",
+        "Render progressively during streaming",
+        "Best practices",
+        "Time travel",
+        "How checkpoints work"
+      ]
+    },
+    {
+      "path": "reference/0161-guardrails.md",
+      "title": "Guardrails",
+      "group": ".",
+      "bytes": 33292,
+      "headings": [
+        "Guardrails",
+        "Built-in guardrails",
+        "PII detection",
+        "Human-in-the-loop",
+        "Custom guardrails",
+        "Before agent guardrails",
+        "After agent guardrails",
+        "Combine multiple guardrails",
+        "Additional resources",
+        "Human-in-the-loop",
+        "Interrupt decision types",
+        "Configuring interrupts"
+      ]
+    },
+    {
+      "path": "reference/0162-build-a-semantic-search-engine-with-langchain.md",
+      "title": "Build a semantic search engine with LangChain",
+      "group": ".",
+      "bytes": 24233,
+      "headings": [
+        "Build a semantic search engine with LangChain",
+        "Overview",
+        "Concepts",
+        "Setup",
+        "Installation",
+        "LangSmith",
+        "1. Documents",
+        "2. Embeddings",
+        "3. Vector stores",
+        "Seeding the vector store",
+        "4. Retrievers",
+        "Next steps"
+      ]
+    },
+    {
+      "path": "reference/0163-long-term-memory/0163-long-term-memory_pt1.md",
+      "title": "Long-term memory",
+      "group": "0163-long-term-memory",
+      "bytes": 25654,
+      "headings": [
+        "Long-term memory",
+        "Usage",
+        "Memory storage",
+        "Read long-term memory in tools"
+      ]
+    },
+    {
+      "path": "reference/0163-long-term-memory/0163-long-term-memory_pt2.md",
+      "title": "0163 Long Term Memory Pt2",
+      "group": "0163-long-term-memory",
+      "bytes": 25619,
+      "headings": [
+        "Write long-term memory from tools"
+      ]
+    },
+    {
+      "path": "reference/0163-long-term-memory/0163-long-term-memory_pt3.md",
+      "title": "0163 Long Term Memory Pt3",
+      "group": "0163-long-term-memory",
+      "bytes": 12959,
+      "headings": []
+    },
+    {
+      "path": "reference/0164-model-context-protocol-mcp.md",
+      "title": "Model Context Protocol (MCP)",
+      "group": ".",
+      "bytes": 46393,
+      "headings": [
+        "Model Context Protocol (MCP)",
+        "Quickstart",
+        "Custom servers",
+        "Transports",
+        "HTTP",
+        "stdio",
+        "Core features",
+        "Tools",
+        "Additional resources",
+        "Messages",
+        "Basic usage",
+        "Text prompts"
+      ]
+    },
+    {
+      "path": "reference/0165-prebuilt-middleware.md",
+      "title": "Prebuilt middleware",
+      "group": ".",
+      "bytes": 49923,
+      "headings": [
+        "Prebuilt middleware",
+        "Provider-agnostic middleware",
+        "Summarization",
+        "Human-in-the-loop",
+        "Model call limit",
+        "Tool call limit",
+        "Model fallback",
+        "PII detection",
+        "To-do list",
+        "LLM tool selector",
+        "Tool retry",
+        "Model retry"
+      ]
+    },
+    {
+      "path": "reference/0166-custom-middleware.md",
+      "title": "Custom middleware",
+      "group": ".",
+      "bytes": 39269,
+      "headings": [
+        "Custom middleware",
+        "Hooks",
+        "Node-style hooks",
+        "Wrap-style hooks",
+        "State updates",
+        "Node-style hooks",
+        "Wrap-style hooks",
+        "Create middleware",
+        "Custom state schema",
+        "Custom stream transformers",
+        "Custom context",
+        "Execution order"
+      ]
+    },
+    {
+      "path": "reference/0167-models/0167-models_pt1.md",
+      "title": "Models",
+      "group": "0167-models",
+      "bytes": 25622,
+      "headings": [
+        "Models",
+        "Basic usage",
+        "Initialize a model",
+        "Supported providers and models",
+        "Key methods",
+        "Parameters",
+        "Connection resilience",
+        "Invocation",
+        "Invoke",
+        "Stream",
+        "Batch",
+        "Tool calling"
+      ]
+    },
+    {
+      "path": "reference/0167-models/0167-models_pt2.md",
+      "title": "0167 Models Pt2",
+      "group": "0167-models",
+      "bytes": 25669,
+      "headings": [
+        "Structured output",
+        "Advanced topics",
+        "Model profiles",
+        "Multimodal",
+        "Reasoning",
+        "Local models",
+        "Prompt caching",
+        "Server-side tool use",
+        "Base URL and proxy settings",
+        "Log probabilities"
+      ]
+    },
+    {
+      "path": "reference/0167-models/0167-models_pt3.md",
+      "title": "0167 Models Pt3",
+      "group": "0167-models",
+      "bytes": 4549,
+      "headings": [
+        "Token usage",
+        "Invocation config",
+        "Dynamic model selection"
+      ]
+    },
+    {
+      "path": "reference/0168-custom-workflow.md",
+      "title": "Custom workflow",
+      "group": ".",
+      "bytes": 28517,
+      "headings": [
+        "Custom workflow",
+        "Key characteristics",
+        "When to use",
+        "Basic implementation",
+        "Example: RAG pipeline",
+        "Handoffs",
+        "Key characteristics",
+        "When to use",
+        "Basic implementation",
+        "Implementation approaches",
+        "Single agent with middleware",
+        "Multiple agent subgraphs"
+      ]
+    },
+    {
+      "path": "reference/0169-build-customer-support-with-handoffs.md",
+      "title": "Build customer support with handoffs",
+      "group": ".",
+      "bytes": 37321,
+      "headings": [
+        "Build customer support with handoffs",
+        "Setup",
+        "Installation",
+        "LangSmith",
+        "Select an LLM",
+        "1. Define custom state",
+        "2. Create tools that manage workflow state",
+        "3. Define step configurations",
+        "4. Create step-based middleware",
+        "5. Create the agent",
+        "6. Test the workflow",
+        "7. Understanding state transitions"
+      ]
+    },
+    {
+      "path": "reference/0170-multi-agent.md",
+      "title": "Multi-agent",
+      "group": ".",
+      "bytes": 24653,
+      "headings": [
+        "Multi-agent",
+        "Why multi-agent?",
+        "Patterns",
+        "Choosing a pattern",
+        "Visual overview",
+        "Performance comparison",
+        "One-shot request",
+        "Repeat request",
+        "Multi-domain",
+        "Summary",
+        "Router",
+        "Key characteristics"
+      ]
+    },
+    {
+      "path": "reference/0171-build-a-multi-source-knowledge-base-with-routing.md",
+      "title": "Build a multi-source knowledge base with routing",
+      "group": ".",
+      "bytes": 44862,
+      "headings": [
+        "Build a multi-source knowledge base with routing",
+        "Overview",
+        "Why use a router?",
+        "Concepts",
+        "Setup",
+        "Installation",
+        "LangSmith",
+        "Select an LLM",
+        "1. Define state",
+        "2. Define tools for each vertical",
+        "3. Create specialized agents",
+        "4. Build the router workflow"
+      ]
+    },
+    {
+      "path": "reference/0172-build-a-sql-assistant-with-on-demand-skills.md",
+      "title": "Build a SQL assistant with on-demand skills",
+      "group": ".",
+      "bytes": 45138,
+      "headings": [
+        "Build a SQL assistant with on-demand skills",
+        "How it works",
+        "Setup",
+        "Installation",
+        "LangSmith",
+        "Select an LLM",
+        "1. Define skills",
+        "2. Create skill loading tool",
+        "3. Build skill middleware",
+        "4. Create the agent with skill support",
+        "5. Test progressive disclosure",
+        "Sales Analytics Schema"
+      ]
+    },
+    {
+      "path": "reference/0173-subagents.md",
+      "title": "Subagents",
+      "group": ".",
+      "bytes": 25327,
+      "headings": [
+        "Subagents",
+        "Key characteristics",
+        "When to use",
+        "Basic implementation",
+        "Design decisions",
+        "Sync vs. async",
+        "Synchronous (default)",
+        "Asynchronous",
+        "Tool patterns",
+        "Tool per agent",
+        "Single dispatch tool",
+        "Context engineering"
+      ]
+    },
+    {
+      "path": "reference/0174-build-a-personal-assistant-with-subagents.md",
+      "title": "Build a personal assistant with subagents",
+      "group": ".",
+      "bytes": 45374,
+      "headings": [
+        "Build a personal assistant with subagents",
+        "Overview",
+        "Why use a supervisor?",
+        "Concepts",
+        "Setup",
+        "Installation",
+        "LangSmith",
+        "Components",
+        "1. Define tools",
+        "2. Create specialized sub-agents",
+        "Create a calendar agent",
+        "Create an email agent"
+      ]
+    },
+    {
+      "path": "reference/0175-langsmith-observability.md",
+      "title": "LangSmith Observability",
+      "group": ".",
+      "bytes": 24997,
+      "headings": [
+        "LangSmith Observability",
+        "Prerequisites",
+        "Enable tracing",
+        "Quickstart",
+        "Trace selectively",
+        "Log to a project",
+        "Add metadata to traces",
+        "LangChain overview",
+        "<Icon icon=\"wand\" /> Create an agent",
+        "<Icon icon=\"star\" /> Core benefits",
+        "Philosophy",
+        "History"
+      ]
+    },
+    {
+      "path": "reference/0176-quickstart.md",
+      "title": "Quickstart",
+      "group": ".",
+      "bytes": 33434,
+      "headings": [
+        "Quickstart",
+        "Install dependencies",
+        "Set up API keys",
+        "Build a basic agent",
+        "Build a real-world agent",
+        "Trace agent calls",
+        "Next steps"
+      ]
+    },
+    {
+      "path": "reference/0177-build-a-rag-agent-with-langchain.md",
+      "title": "Build a RAG agent with LangChain",
+      "group": ".",
+      "bytes": 42878,
+      "headings": [
+        "Build a RAG agent with LangChain",
+        "Overview",
+        "Concepts",
+        "Preview",
+        "Setup",
+        "Installation",
+        "LangSmith",
+        "Components",
+        "1. Indexing",
+        "Loading documents",
+        "Splitting documents",
+        "Storing documents"
+      ]
+    },
+    {
+      "path": "reference/0178-retrieval.md",
+      "title": "Retrieval",
+      "group": ".",
+      "bytes": 22522,
+      "headings": [
+        "Retrieval",
+        "Building a knowledge base",
+        "From retrieval to RAG",
+        "Retrieval pipeline",
+        "Building blocks",
+        "RAG architectures",
+        "2-step RAG",
+        "Agentic RAG",
+        "Hybrid RAG",
+        "Runtime",
+        "Overview",
+        "Access"
+      ]
+    },
+    {
+      "path": "reference/0179-short-term-memory.md",
+      "title": "Short-term memory",
+      "group": ".",
+      "bytes": 29909,
+      "headings": [
+        "Short-term memory",
+        "Overview",
+        "Usage",
+        "In production",
+        "Customizing agent memory",
+        "Common patterns",
+        "Trim messages",
+        "Delete messages",
+        "Summarize messages",
+        "Access memory",
+        "Tools",
+        "Prompt"
+      ]
+    },
+    {
+      "path": "reference/0180-build-a-sql-agent/0180-build-a-sql-agent_pt1.md",
+      "title": "Build a SQL agent",
+      "group": "0180-build-a-sql-agent",
+      "bytes": 25602,
+      "headings": [
+        "Build a SQL agent",
+        "Overview",
+        "Concepts",
+        "Setup",
+        "Build your SQL agent"
+      ]
+    },
+    {
+      "path": "reference/0180-build-a-sql-agent/0180-build-a-sql-agent_pt2.md",
+      "title": "0180 Build A Sql Agent Pt2",
+      "group": "0180-build-a-sql-agent",
+      "bytes": 25661,
+      "headings": []
+    },
+    {
+      "path": "reference/0180-build-a-sql-agent/0180-build-a-sql-agent_pt3.md",
+      "title": "0180 Build A Sql Agent Pt3",
+      "group": "0180-build-a-sql-agent",
+      "bytes": 11150,
+      "headings": [
+        "Next steps"
+      ]
+    },
+    {
+      "path": "reference/0181-streaming.md",
+      "title": "Streaming",
+      "group": ".",
+      "bytes": 44098,
+      "headings": [
+        "Streaming",
+        "Overview",
+        "Supported stream modes",
+        "Agent progress",
+        "LLM tokens",
+        "Custom updates",
+        "Stream multiple modes",
+        "Common patterns",
+        "Streaming thinking / reasoning tokens",
+        "Disable streaming",
+        "Related",
+        "Structured output"
+      ]
+    },
+    {
+      "path": "reference/0182-console.log-result.md",
+      "title": "console.log(result);",
+      "group": ".",
+      "bytes": 42468,
+      "headings": [
+        "console.log(result);",
+        "Error handling",
+        "LangSmith Studio",
+        "Prerequisites",
+        "Set up local Agent server",
+        "1. Install the LangGraph CLI",
+        "2. Prepare your agent",
+        "3. Environment variables",
+        "4. Create a LangGraph config file",
+        "5. Install dependencies",
+        "6. View your agent in Studio",
+        "Video guide"
+      ]
+    },
+    {
+      "path": "reference/0183-unit-testing.md",
+      "title": "Unit testing",
+      "group": ".",
+      "bytes": 13326,
+      "headings": [
+        "Unit testing",
+        "Mock chat model with `fakeModel`",
+        "Quick start",
+        "Tool calling responses",
+        "Simulate errors",
+        "Dynamic responses with factory functions",
+        "Structured output",
+        "Assert what the model received",
+        "Use with `bindTools`",
+        "Next steps"
+      ]
+    },
+    {
+      "path": "reference/0184-tools.md",
+      "title": "Tools",
+      "group": ".",
+      "bytes": 47789,
+      "headings": [
+        "Tools",
+        "Create tools",
+        "Basic tool definition",
+        "Access context",
+        "Context",
+        "Long-term memory (Store)",
+        "Stream writer",
+        "Execution info",
+        "Server info",
+        "Tool execution",
+        "Tool return values",
+        "Error handling"
+      ]
+    },
+    {
+      "path": "reference/0185-build-a-voice-agent-with-langchain.md",
+      "title": "Build a voice agent with LangChain",
+      "group": ".",
+      "bytes": 19050,
+      "headings": [
+        "Build a voice agent with LangChain",
+        "Overview",
+        "What are voice agents?",
+        "How do voice agents work?",
+        "Demo Application overview",
+        "Architecture",
+        "Setup",
+        "1. Speech-to-text",
+        "Key concepts",
+        "Implementation",
+        "2. LangChain agent",
+        "Key concepts"
+      ]
+    },
+    {
+      "path": "reference/0186-memory.md",
+      "title": "Memory",
+      "group": ".",
+      "bytes": 39421,
+      "headings": [
+        "Memory",
+        "Add short-term memory",
+        "Use in production",
+        "Use in subgraphs",
+        "Add long-term memory",
+        "Access the store inside nodes",
+        "Use in production",
+        "Use semantic search",
+        "Manage short-term memory",
+        "Trim messages",
+        "Delete messages",
+        "Summarize messages"
+      ]
+    },
+    {
+      "path": "reference/0187-build-a-custom-rag-agent-with-langgraph.md",
+      "title": "Build a custom RAG agent with LangGraph",
+      "group": ".",
+      "bytes": 34408,
+      "headings": [
+        "Build a custom RAG agent with LangGraph",
+        "Overview",
+        "Concepts",
+        "Setup",
+        "1. Preprocess documents",
+        "2. Create a retriever tool",
+        "3. Generate query",
+        "4. Grade documents",
+        "5. Rewrite question",
+        "6. Generate an answer",
+        "7. Assemble the graph",
+        "8. Run the agentic RAG"
+      ]
+    },
+    {
+      "path": "reference/0188-case-studies.md",
+      "title": "Case studies",
+      "group": ".",
+      "bytes": 47894,
+      "headings": [
+        "Case studies",
+        "Changelog",
+        "Checkpointers",
+        "Why use checkpointers",
+        "Core concepts",
+        "Threads",
+        "Checkpoints",
+        "Get and update state",
+        "Get state",
+        "Get state history",
+        "Replay",
+        "Update state"
+      ]
+    },
+    {
+      "path": "reference/0189-choosing-between-graph-and-functional-apis.md",
+      "title": "Choosing between Graph and Functional APIs",
+      "group": ".",
+      "bytes": 40228,
+      "headings": [
+        "Choosing between Graph and Functional APIs",
+        "Quick decision guide",
+        "Detailed comparison",
+        "When to use the Graph API",
+        "When to use the Functional API",
+        "Combining both APIs",
+        "Migration between APIs",
+        "From Functional to Graph API",
+        "From Graph to Functional API",
+        "Summary",
+        "LangSmith Deployment",
+        "Prerequisites"
+      ]
+    },
+    {
+      "path": "reference/0190-fault-tolerance.md",
+      "title": "Fault tolerance",
+      "group": ".",
+      "bytes": 42827,
+      "headings": [
+        "Fault tolerance",
+        "Retries",
+        "Default behavior",
+        "Parameters",
+        "Custom retry logic",
+        "Inspect retry state",
+        "Timeouts",
+        "Run timeout",
+        "Idle timeout",
+        "NodeTimeoutError",
+        "Dynamic timeouts with Send",
+        "Error handling"
+      ]
+    },
+    {
+      "path": "reference/0191-graph-execution.md",
+      "title": "Graph execution",
+      "group": ".",
+      "bytes": 47510,
+      "headings": [
+        "Graph execution",
+        "How graph nodes map to UI cards",
+        "Setting up `useStream`",
+        "Routing streaming tokens to nodes",
+        "Determining node status",
+        "Building the pipeline progress bar",
+        "Building collapsible NodeCard components",
+        "Streaming vs. completed content",
+        "Putting it all together",
+        "Use cases",
+        "Handling dynamic pipelines",
+        "Best practices"
+      ]
+    },
+    {
+      "path": "reference/0192-graph-api-overview/0192-graph-api-overview_pt1.md",
+      "title": "Graph API overview",
+      "group": "0192-graph-api-overview",
+      "bytes": 25622,
+      "headings": [
+        "Graph API overview",
+        "Graphs",
+        "StateGraph",
+        "Compiling your graph",
+        "State",
+        "Schema",
+        "Reducers",
+        "Untracked values",
+        "Type utilities",
+        "Working with messages in graph state",
+        "Nodes",
+        "Re-execution and idempotency"
+      ]
+    },
+    {
+      "path": "reference/0192-graph-api-overview/0192-graph-api-overview_pt2.md",
+      "title": "0192 Graph Api Overview Pt2",
+      "group": "0192-graph-api-overview",
+      "bytes": 25657,
+      "headings": [
+        "`START` node",
+        "`END` node",
+        "Node caching",
+        "Edges",
+        "Normal edges",
+        "Conditional edges",
+        "Entry point",
+        "Conditional entry point",
+        "`Send`",
+        "`Command`",
+        "Return from nodes",
+        "Input to `invoke` or `stream`"
+      ]
+    },
+    {
+      "path": "reference/0192-graph-api-overview/0192-graph-api-overview_pt3.md",
+      "title": "0192 Graph Api Overview Pt3",
+      "group": "0192-graph-api-overview",
+      "bytes": 1179,
+      "headings": [
+        "Visualization",
+        "Observability and Tracing",
+        "Learn more"
+      ]
+    },
+    {
+      "path": "reference/0193-install-langgraph.md",
+      "title": "Install LangGraph",
+      "group": ".",
+      "bytes": 41841,
+      "headings": [
+        "Install LangGraph",
+        "Interrupts",
+        "Pause using `interrupt`",
+        "Resuming interrupts",
+        "Common patterns",
+        "Stream with human-in-the-loop (HITL) interrupts",
+        "Handling multiple interrupts",
+        "Approve or reject",
+        "Review and edit state",
+        "Interrupts in tools",
+        "Validating human input",
+        "Rules of interrupts"
+      ]
+    },
+    {
+      "path": "reference/0194-run-a-local-server.md",
+      "title": "Run a local server",
+      "group": ".",
+      "bytes": 38579,
+      "headings": [
+        "Run a local server",
+        "Prerequisites",
+        "1. Install the LangGraph CLI",
+        "2. Create a LangGraph app",
+        "3. Install dependencies",
+        "4. Create a `.env` file",
+        "5. Launch Agent server",
+        "6. Test your application in Studio",
+        "7. Test the API",
+        "Next steps",
+        "LangSmith Observability",
+        "Prerequisites"
+      ]
+    },
+    {
+      "path": "reference/0195-quickstart.md",
+      "title": "Quickstart",
+      "group": ".",
+      "bytes": 32893,
+      "headings": [
+        "Quickstart",
+        "Stores",
+        "Basic usage",
+        "Listing items in a namespace",
+        "Semantic search",
+        "Using in LangGraph",
+        "Next steps"
+      ]
+    },
+    {
+      "path": "reference/0196-streaming.md",
+      "title": "Streaming",
+      "group": ".",
+      "bytes": 42720,
+      "headings": [
+        "Streaming",
+        "Get started",
+        "Basic usage",
+        "Stream modes",
+        "Graph state",
+        "LLM tokens",
+        "Custom data",
+        "Tool progress",
+        "Subgraph outputs",
+        "Debug",
+        "Multiple modes at once",
+        "Advanced"
+      ]
+    },
+    {
+      "path": "reference/0197-test.md",
+      "title": "Test",
+      "group": ".",
+      "bytes": 40490,
+      "headings": [
+        "Test",
+        "Prerequisites",
+        "Getting started",
+        "Testing individual nodes and edges",
+        "Partial execution",
+        "Thinking in LangGraph",
+        "Start with the process you want to automate",
+        "Step 1: Map out your workflow as discrete steps",
+        "Step 2: Identify what each step needs to do",
+        "LLM steps",
+        "Data steps",
+        "Action steps"
+      ]
+    },
+    {
+      "path": "reference/0198-use-the-functional-api.md",
+      "title": "Use the functional API",
+      "group": ".",
+      "bytes": 29300,
+      "headings": [
+        "Use the functional API",
+        "Creating a simple workflow",
+        "Parallel execution",
+        "Calling graphs",
+        "Call other entrypoints",
+        "Streaming",
+        "Retry policy",
+        "Caching tasks",
+        "Resuming after an error",
+        "Human-in-the-loop",
+        "Basic human-in-the-loop workflow",
+        "Review tool calls"
+      ]
+    },
+    {
+      "path": "reference/0199-use-the-graph-api/0199-use-the-graph-api_pt1.md",
+      "title": "Use the graph API",
+      "group": "0199-use-the-graph-api",
+      "bytes": 25607,
+      "headings": [
+        "Use the graph API",
+        "Setup",
+        "Define and update state",
+        "Define state",
+        "Update state",
+        "Process state updates with reducers",
+        "Define input and output schemas",
+        "Pass private state between nodes",
+        "Alternative state definitions",
+        "Add runtime configuration"
+      ]
+    },
+    {
+      "path": "reference/0199-use-the-graph-api/0199-use-the-graph-api_pt2.md",
+      "title": "0199 Use The Graph Api Pt2",
+      "group": "0199-use-the-graph-api",
+      "bytes": 25781,
+      "headings": [
+        "Add retry policies",
+        "Access execution info inside a node",
+        "Access server info inside a node",
+        "Create a sequence of steps",
+        "Create branches",
+        "Run graph nodes in parallel",
+        "Conditional branching",
+        "Map-Reduce and the send API",
+        "Create and control loops"
+      ]
+    },
+    {
+      "path": "reference/0199-use-the-graph-api/0199-use-the-graph-api_pt3.md",
+      "title": "0199 Use The Graph Api Pt3",
+      "group": "0199-use-the-graph-api",
+      "bytes": 16155,
+      "headings": [
+        "Impose a recursion limit",
+        "Combine control flow and state updates with `Command`",
+        "Navigate to a node in a parent graph",
+        "Use inside tools",
+        "Visualize your graph",
+        "Mermaid",
+        "PNG"
+      ]
+    },
+    {
+      "path": "reference/0200-subgraphs.md",
+      "title": "Subgraphs",
+      "group": ".",
+      "bytes": 37498,
+      "headings": [
+        "Subgraphs",
+        "Setup",
+        "Define subgraph communication",
+        "Call a subgraph inside a node",
+        "Add a subgraph as a node",
+        "Subgraph persistence",
+        "Stateful",
+        "Stateless",
+        "Checkpointer reference",
+        "View subgraph state",
+        "Stream subgraph outputs"
+      ]
+    },
+    {
+      "path": "reference/0201-use-time-travel.md",
+      "title": "Use time-travel",
+      "group": ".",
+      "bytes": 12143,
+      "headings": [
+        "Use time-travel",
+        "Overview",
+        "Replay",
+        "Fork",
+        "From a specific node",
+        "Interrupts",
+        "Multiple interrupts",
+        "Subgraphs"
+      ]
+    },
+    {
+      "path": "reference/0202-workflows-and-agents.md",
+      "title": "Workflows and agents",
+      "group": ".",
+      "bytes": 40885,
+      "headings": [
+        "Workflows and agents",
+        "Setup",
+        "LLMs and augmentations",
+        "Prompt chaining",
+        "Parallelization",
+        "Routing",
+        "Orchestrator-worker",
+        "Creating workers in LangGraph",
+        "Evaluator-optimizer",
+        "Agents",
+        "ToolNode",
+        "Learn"
+      ]
+    },
+    {
+      "path": "reference/0203-langchain-v1-migration-guide.md",
+      "title": "LangChain v1 migration guide",
+      "group": ".",
+      "bytes": 45544,
+      "headings": [
+        "LangChain v1 migration guide",
+        "`createAgent`",
+        "Import path",
+        "Prompts",
+        "Pre-model hook",
+        "Post-model hook",
+        "Custom state",
+        "Model",
+        "Tools",
+        "Structured output",
+        "Streaming node name rename",
+        "Runtime context"
+      ]
+    },
+    {
+      "path": "reference/0204-changelog.md",
+      "title": "Changelog",
+      "group": ".",
+      "bytes": 47837,
+      "headings": [
+        "Changelog",
+        "What's new in LangChain v1",
+        "`createAgent`",
+        "Middleware",
+        "Built on LangGraph",
+        "Structured output",
+        "Standard content blocks",
+        "Benefits",
+        "Simplified package",
+        "`@langchain/classic`",
+        "Reporting issues",
+        "Additional resources"
+      ]
+    },
+    {
+      "path": "reference/0205-context-overview.md",
+      "title": "Context overview",
+      "group": ".",
+      "bytes": 46426,
+      "headings": [
+        "Context overview",
+        "Static runtime context",
+        "Dynamic runtime context",
+        "Dynamic cross-conversation context",
+        "Learn more",
+        "Memory overview",
+        "Short-term memory",
+        "Manage short-term memory",
+        "Long-term memory",
+        "Semantic memory",
+        "Episodic memory",
+        "Procedural memory"
+      ]
+    },
+    {
+      "path": "reference/0206-contributing-to-code.md",
+      "title": "Contributing to code",
+      "group": ".",
+      "bytes": 33944,
+      "headings": [
+        "Contributing to code",
+        "Getting started",
+        "Quick fix: submit a bugfix",
+        "Full development setup",
+        "Contribution guidelines",
+        "Backwards compatibility",
+        "New features",
+        "Security guidelines",
+        "Development environment",
+        "Repository structure",
+        "Development workflow",
+        "Pre-commit hooks"
+      ]
+    },
+    {
+      "path": "reference/0207-run-tests-to-ensure-your-changes-don-t-break-existing-functionality.md",
+      "title": "Run tests to ensure your changes don't break existing functionality",
+      "group": ".",
+      "bytes": 45997,
+      "headings": [
+        "Run tests to ensure your changes don't break existing functionality",
+        "Documentation types",
+        "How-to guides",
+        "Conceptual guides",
+        "Reference",
+        "Tutorials",
+        "Writing standards",
+        "Mintlify components",
+        "Mermaid diagrams",
+        "Page structure",
+        "Co-locate Python and JavaScript/TypeScript content",
+        "Quality standards"
+      ]
+    },
+    {
+      "path": "reference/0208-using-standard-tests.md",
+      "title": "Using standard tests",
+      "group": ".",
+      "bytes": 28936,
+      "headings": [
+        "Using standard tests",
+        "Setup",
+        "Implementing standard tests",
+        "Indicate that a chat model supports image inputs",
+        "Sandbox integrations",
+        "Running tests",
+        "Run all tests",
+        "For certain unit tests, you may need to set certain flags and environment variables:",
+        "Run a specific test file",
+        "Run a specific test function in a file",
+        "Run a specific test function within a class",
+        "Troubleshooting"
+      ]
+    },
+    {
+      "path": "reference/0209-backends.md",
+      "title": "Backends",
+      "group": ".",
+      "bytes": 28676,
+      "headings": [
+        "Backends",
+        "Quickstart",
+        "Built-in backends",
+        "StateBackend",
+        "FilesystemBackend (local disk)",
+        "LocalShellBackend (local shell)",
+        "StoreBackend (LangGraph store)",
+        "Per-user: each user gets their own isolated storage",
+        "Per-assistant: all users of the same assistant share storage"
+      ]
+    },
+    {
+      "path": "reference/0210-per-thread-storage-scoped-to-a-single-conversation.md",
+      "title": "Per-thread: storage scoped to a single conversation",
+      "group": ".",
+      "bytes": 39658,
+      "headings": [
+        "Per-thread: storage scoped to a single conversation",
+        "ContextHubBackend",
+        "CompositeBackend (router)",
+        "Specify a backend",
+        "Route to different backends",
+        "Use a virtual filesystem",
+        "Permissions",
+        "Add policy hooks",
+        "Migrate from backend factories",
+        "What changed",
+        "Deprecated APIs",
+        "Migration example"
+      ]
+    },
+    {
+      "path": "reference/0211-or-set-it-empty-so-deep-agents-code-ignores-a-key-exported-in-your-shell.md",
+      "title": "Or set it empty so Deep Agents Code ignores a key exported in your shell",
+      "group": ".",
+      "bytes": 42962,
+      "headings": [
+        "Or set it empty so Deep Agents Code ignores a key exported in your shell",
+        "Config file",
+        "Default and recent model",
+        "Default and recent agent",
+        "Provider configuration",
+        "Model constructor params",
+        "Retries",
+        "Profile overrides (Advanced)",
+        "Apply to all models from this provider",
+        "This model gets a higher limit",
+        "Adding models to the interactive switcher",
+        "Custom base URL"
+      ]
+    },
+    {
+      "path": "reference/0212-data-locations.md",
+      "title": "Data locations",
+      "group": ".",
+      "bytes": 41641,
+      "headings": [
+        "Data locations",
+        "Directory structure",
+        "What goes where",
+        "Precedence rules",
+        "Skills",
+        "Subagents",
+        "Instructions",
+        "`.deepagents` vs `.agents`",
+        "Cleaning up",
+        "MCP tools",
+        "Quickstart",
+        "Auto-discovery"
+      ]
+    },
+    {
+      "path": "reference/0213-deep-agents-code.md",
+      "title": "Deep Agents Code",
+      "group": ".",
+      "bytes": 10289,
+      "headings": [
+        "Deep Agents Code",
+        "Quickstart",
+        "Capabilities",
+        "Command reference",
+        "Use a specific agent configuration",
+        "Use a specific model (provider:model format or auto-detect)",
+        "Auto-approve tool usage (skip human-in-the-loop prompts)",
+        "list directory contents, then summarize directory as first prompt\u2014the command runs first, then the prompt is submitted",
+        "the prompt does NOT have access to the command output",
+        "Non-interactive with startup command: show git status before the task runs"
+      ]
+    },
+    {
+      "path": "reference/0214-the-task-does-not-have-access-to-the-command-output.md",
+      "title": "the task does NOT have access to the command output",
+      "group": ".",
+      "bytes": 40539,
+      "headings": [
+        "the task does NOT have access to the command output",
+        "Configuration",
+        "Interactive mode",
+        "Non-interactive mode and piping",
+        "Trace with LangSmith"
+      ]
+    },
+    {
+      "path": "reference/0215-model-providers.md",
+      "title": "Model providers",
+      "group": ".",
+      "bytes": 42823,
+      "headings": [
+        "Model providers",
+        "Quickstart",
+        "Provider reference",
+        "Sign in with ChatGPT",
+        "Model routers and proxies",
+        "Switch models",
+        "Which models appear in the switcher",
+        "Open weights models",
+        "Set a default model",
+        "Model parameters",
+        "Advanced configuration",
+        "Use remote sandboxes"
+      ]
+    },
+    {
+      "path": "reference/0216-comparison-with-claude-agent-sdk.md",
+      "title": "Comparison with Claude Agent SDK",
+      "group": ".",
+      "bytes": 41926,
+      "headings": [
+        "Comparison with Claude Agent SDK",
+        "At a glance",
+        "Main differences",
+        "Agent and execution environment",
+        "Multi-tenancy",
+        "A production agent server",
+        "Managed cloud or self-hosted",
+        "LLM",
+        "Ecosystems",
+        "Summary",
+        "Build a content builder agent",
+        "Overview"
+      ]
+    },
+    {
+      "path": "reference/0217-context-engineering-in-deep-agents.md",
+      "title": "Context engineering in Deep Agents",
+      "group": ".",
+      "bytes": 28197,
+      "headings": [
+        "Context engineering in Deep Agents",
+        "Types of context",
+        "Input context",
+        "System prompt",
+        "Memory",
+        "Skills",
+        "Tool prompts",
+        "Complete system prompt",
+        "Runtime context",
+        "Custom state schema",
+        "Context compression",
+        "Offloading"
+      ]
+    },
+    {
+      "path": "reference/0218-customize-deep-agents.md",
+      "title": "Customize Deep Agents",
+      "group": ".",
+      "bytes": 32513,
+      "headings": [
+        "Customize Deep Agents",
+        "Model",
+        "Tools",
+        "MCP tools",
+        "System prompt",
+        "Prompt assembly",
+        "Final = USER + BASE + SUFFIX",
+        "= \"You are a customer-support agent for ACME Corp.\"",
+        "+ \"\\n\\n\"",
+        "+ BASE_AGENT_PROMPT",
+        "+ \"\\n\\n\""
+      ]
+    },
+    {
+      "path": "reference/0219-claude-specific-guidance/0219-claude-specific-guidance_pt1.md",
+      "title": "+ <Claude-specific guidance>",
+      "group": "0219-claude-specific-guidance",
+      "bytes": 25628,
+      "headings": [
+        "+ <Claude-specific guidance>",
+        "Middleware",
+        "Default stack (main agent)",
+        "Default stack (synchronous subagents)",
+        "Prebuilt middleware",
+        "Provider-specific middleware",
+        "Custom middleware",
+        "Interpreters",
+        "Subagents",
+        "Backends"
+      ]
+    },
+    {
+      "path": "reference/0219-claude-specific-guidance/0219-claude-specific-guidance_pt2.md",
+      "title": "0219 Claude Specific Guidance Pt2",
+      "group": "0219-claude-specific-guidance",
+      "bytes": 25610,
+      "headings": [
+        "Sandboxes"
+      ]
+    },
+    {
+      "path": "reference/0219-claude-specific-guidance/0219-claude-specific-guidance_pt3.md",
+      "title": "0219 Claude Specific Guidance Pt3",
+      "group": "0219-claude-specific-guidance",
+      "bytes": 25653,
+      "headings": [
+        "Human-in-the-loop",
+        "Skills",
+        "Memory"
+      ]
+    },
+    {
+      "path": "reference/0219-claude-specific-guidance/0219-claude-specific-guidance_pt4.md",
+      "title": "0219 Claude Specific Guidance Pt4",
+      "group": "0219-claude-specific-guidance",
+      "bytes": 25609,
+      "headings": []
+    },
+    {
+      "path": "reference/0219-claude-specific-guidance/0219-claude-specific-guidance_pt5.md",
+      "title": "0219 Claude Specific Guidance Pt5",
+      "group": "0219-claude-specific-guidance",
+      "bytes": 1047,
+      "headings": [
+        "Profiles"
+      ]
+    },
+    {
+      "path": "reference/0220-append-a-system-prompt-suffix-whenever-gpt-5.5-is-selected..md",
+      "title": "Append a system-prompt suffix whenever gpt-5.5 is selected.",
+      "group": ".",
+      "bytes": 38482,
+      "headings": [
+        "Append a system-prompt suffix whenever gpt-5.5 is selected.",
+        "Structured output",
+        "location='San Francisco, California' temperature=18.3 condition='Sunny' humidity=48 wind_speed=7.6 forecast='Pleasant sunny conditions expected to continue with temperatures around 64\u00b0F (18\u00b0C) during the day, dropping to around 52\u00b0F (11\u00b0C) at night. Clear skies with minimal precipitation expected.'",
+        "Advanced",
+        "Build a data analysis agent",
+        "Overview",
+        "Key concepts",
+        "Setup",
+        "Installation",
+        "Optional dependencies",
+        "LangSmith",
+        "Set up the backend"
+      ]
+    },
+    {
+      "path": "reference/0221-build-a-deep-research-agent.md",
+      "title": "Build a deep research agent",
+      "group": ".",
+      "bytes": 43832,
+      "headings": [
+        "Build a deep research agent",
+        "Overview",
+        "Key concepts",
+        "Prerequisites",
+        "Setup",
+        "Build the agent",
+        "Run the agent",
+        "Full code",
+        "Next steps",
+        "Event streaming",
+        "Stream subagents",
+        "Subagent stream fields"
+      ]
+    },
+    {
+      "path": "reference/0222-sandbox.md",
+      "title": "Sandbox",
+      "group": ".",
+      "bytes": 39702,
+      "headings": [
+        "Sandbox",
+        "Architecture",
+        "Sandbox lifecycle",
+        "Connect the agent and API server",
+        "Resolve the sandbox from thread metadata",
+        "Seed project files",
+        "Adding the file browsing API",
+        "Create the API server",
+        "src/api/server.py",
+        "Configure `langgraph.json`",
+        "Building the frontend",
+        "Thread creation"
+      ]
+    },
+    {
+      "path": "reference/0223-todo-list.md",
+      "title": "Todo list",
+      "group": ".",
+      "bytes": 28082,
+      "headings": [
+        "Todo list",
+        "How it works",
+        "Setting up `useStream`",
+        "Building the TodoList component",
+        "Progress bar",
+        "Individual todo items",
+        "Calculating progress",
+        "Combining with chat messages",
+        "Use cases",
+        "Handling empty and loading states",
+        "Best practices",
+        "Going to production"
+      ]
+    },
+    {
+      "path": "reference/0224-inside-your-agent-s-tool.md",
+      "title": "Inside your agent's tool:",
+      "group": ".",
+      "bytes": 34640,
+      "headings": [
+        "Inside your agent's tool:",
+        "Async",
+        "Durability",
+        "Memory",
+        "Scoping",
+        "Configuration",
+        "Execution environment",
+        "Filesystem",
+        "Sandboxes",
+        "Guardrails",
+        "Rate limiting",
+        "Handling errors"
+      ]
+    },
+    {
+      "path": "reference/0225-harness-capabilities.md",
+      "title": "Harness capabilities",
+      "group": ".",
+      "bytes": 44866,
+      "headings": [
+        "Harness capabilities",
+        "Execution environment",
+        "Tools",
+        "Virtual filesystem access",
+        "Filesystem permissions",
+        "Code execution",
+        "Context management",
+        "Skills",
+        "Memory",
+        "Summarization and context offloading",
+        "Prompt caching",
+        "Delegation"
+      ]
+    },
+    {
+      "path": "reference/0226-interpreters.md",
+      "title": "Interpreters",
+      "group": ".",
+      "bytes": 45970,
+      "headings": [
+        "Interpreters",
+        "Why use interpreters?",
+        "Choose a pattern",
+        "Quickstart",
+        "How interpreters work",
+        "Programmatic tool calling (PTC)",
+        "Enable PTC",
+        "Programmatic subagents",
+        "Persistence",
+        "Security",
+        "Configuration",
+        "Model Context Protocol"
+      ]
+    },
+    {
+      "path": "reference/0227-models.md",
+      "title": "Models",
+      "group": ".",
+      "bytes": 44380,
+      "headings": [
+        "Models",
+        "Supported models",
+        "Suggested models",
+        "Model evaluations",
+        "Configure model parameters",
+        "Provider profiles",
+        "Provider-wide default: every openai model gets temperature=0.",
+        "Model-level override: gpt-5.4 additionally gets a specific reasoning effort.",
+        "Inherits temperature=0 from the provider-level profile above.",
+        "Select a model at runtime",
+        "Invoke with the user's model selection",
+        "Learn more"
+      ]
+    },
+    {
+      "path": "reference/0228-profiles.md",
+      "title": "Profiles",
+      "group": ".",
+      "bytes": 46157,
+      "headings": [
+        "Profiles",
+        "Harness profiles",
+        "Registration keys",
+        "Merge semantics",
+        "Provider profiles",
+        "Load profiles from config files",
+        "openai.yaml",
+        "Ship a profile as a plugin",
+        "Related",
+        "Programmatic subagents",
+        "How it works",
+        "Guide orchestration"
+      ]
+    },
+    {
+      "path": "reference/0229-grading-rubrics.md",
+      "title": "Grading rubrics",
+      "group": ".",
+      "bytes": 45464,
+      "headings": [
+        "Grading rubrics",
+        "Configure the middleware",
+        "Pass rubric on invocation",
+        "Rubric verdicts",
+        "Observe iteration progress",
+        "Grader pass events",
+        "Persist rubrics across invocations",
+        "Example: generate vetted Python code"
+      ]
+    },
+    {
+      "path": "reference/0230-sandboxes.md",
+      "title": "Sandboxes",
+      "group": ".",
+      "bytes": 44286,
+      "headings": [
+        "Sandboxes",
+        "Why use sandboxes?",
+        "Basic usage",
+        "Available providers",
+        "Lifecycle and scoping",
+        "Thread-scoped (default)",
+        "Assistant-scoped",
+        "Integration patterns",
+        "Agent in sandbox pattern",
+        "Sandbox as tool pattern",
+        "Can also do this with AgentCore, E2B, Modal, Runloop",
+        "How sandboxes work"
+      ]
+    },
+    {
+      "path": "reference/0231-skills.md",
+      "title": "Skills",
+      "group": ".",
+      "bytes": 47181,
+      "headings": [
+        "Skills",
+        "Usage",
+        "How skills work",
+        "When to use skills",
+        "Write effective skills",
+        "Good: specific about what and when",
+        "Poor: too vague for reliable matching",
+        "Add supporting resources",
+        "`scripts/`",
+        "`references/`",
+        "`assets/`",
+        "Reference files from `SKILL.md`"
+      ]
+    },
+    {
+      "path": "reference/0232-arxiv-search.md",
+      "title": "arxiv-search",
+      "group": ".",
+      "bytes": 44899,
+      "headings": [
+        "arxiv-search",
+        "Instructions",
+        "Troubleshooting",
+        "Skill not activated",
+        "Skills missing at startup",
+        "Supporting files not found",
+        "Scripts fail to run",
+        "Subagent cannot access a skill",
+        "Reference",
+        "Skills, memory, and tools",
+        "Frontmatter fields",
+        "langgraph-docs"
+      ]
+    },
+    {
+      "path": "reference/0233-skip-internal-middleware-steps---only-show-meaningful-node-names.md",
+      "title": "Skip internal middleware steps - only show meaningful node names",
+      "group": ".",
+      "bytes": 46655,
+      "headings": [
+        "Skip internal middleware steps - only show meaningful node names",
+        "Common patterns",
+        "Track subagent lifecycle",
+        "Print final state",
+        "v2 streaming format",
+        "Related",
+        "Subagents",
+        "Why use subagents?",
+        "Configuration",
+        "Default subagent",
+        "Running without subagents",
+        "Custom subagents"
+      ]
+    },
+    {
+      "path": "reference/0234-bad-too-many-tools.md",
+      "title": "\u274c Bad: Too many tools",
+      "group": ".",
+      "bytes": 38441,
+      "headings": [
+        "\u274c Bad: Too many tools",
+        "Choose models by task",
+        "Return concise results",
+        "Common patterns",
+        "Multiple specialized subagents",
+        "Context management",
+        "Context flows to the researcher subagent and its tools automatically",
+        "Per-subagent context",
+        "Identifying which subagent called a tool",
+        "Troubleshooting",
+        "Subagent not being called",
+        "Context still getting bloated"
+      ]
+    },
+    {
+      "path": "reference/0235-for-large-datasets-lazily-load-documents.md",
+      "title": "For large datasets, lazily load documents",
+      "group": ".",
+      "bytes": 41580,
+      "headings": [
+        "For large datasets, lazily load documents",
+        "By category",
+        "Productivity tools",
+        "Webpages",
+        "PDFs",
+        "Cloud providers",
+        "Common file types",
+        "All document loaders",
+        "Embedding model integrations",
+        "Overview",
+        "How it works",
+        "Similarity metrics"
+      ]
+    },
+    {
+      "path": "reference/0236-all-langchain-python-integration-providers.md",
+      "title": "All LangChain Python integration providers",
+      "group": ".",
+      "bytes": 47126,
+      "headings": [
+        "All LangChain Python integration providers",
+        "Providers",
+        "Anthropic (Claude) integrations",
+        "Model interfaces",
+        "Other",
+        "AWS (Amazon) integrations",
+        "Chat models",
+        "Bedrock chat",
+        "Bedrock converse",
+        "LLMs",
+        "Bedrock",
+        "SageMaker endpoint"
+      ]
+    },
+    {
+      "path": "reference/0237-fireworks-integrations.md",
+      "title": "Fireworks integrations",
+      "group": ".",
+      "bytes": 24403,
+      "headings": [
+        "Fireworks integrations",
+        "Installation and setup",
+        "Model interfaces",
+        "Google integrations",
+        "Google Generative AI",
+        "Chat models",
+        "LLMs",
+        "Embedding models",
+        "Google Cloud",
+        "Chat models",
+        "LLMs",
+        "Embedding models"
+      ]
+    },
+    {
+      "path": "reference/0238-microsoft-integrations.md",
+      "title": "Microsoft integrations",
+      "group": ".",
+      "bytes": 47180,
+      "headings": [
+        "Microsoft integrations",
+        "Chat models",
+        "Azure OpenAI",
+        "Azure AI",
+        "LLMs",
+        "Azure OpenAI",
+        "Embedding models",
+        "Azure OpenAI",
+        "Azure AI",
+        "Middleware",
+        "Azure AI Content Safety middleware",
+        "Document loaders"
+      ]
+    },
+    {
+      "path": "reference/0239-ollama-integrations.md",
+      "title": "Ollama integrations",
+      "group": ".",
+      "bytes": 40607,
+      "headings": [
+        "Ollama integrations",
+        "Model interfaces",
+        "Other",
+        "OpenAI integrations",
+        "Model interfaces",
+        "Other",
+        "LangChain Python integrations",
+        "Popular providers",
+        "All providers",
+        "Retriever integrations",
+        "Bring-your-own documents",
+        "External index"
+      ]
+    },
+    {
+      "path": "reference/0240-tool-integrations.md",
+      "title": "Tool integrations",
+      "group": ".",
+      "bytes": 17496,
+      "headings": [
+        "Tool integrations",
+        "Search",
+        "Code interpreter",
+        "Productivity",
+        "Web browsing",
+        "Database",
+        "Finance",
+        "Integration platforms",
+        "All tools and toolkits"
+      ]
+    },
+    {
+      "path": "reference/0241-vector-store-integrations.md",
+      "title": "Vector store integrations",
+      "group": ".",
+      "bytes": 38461,
+      "headings": [
+        "Vector store integrations",
+        "Overview",
+        "Interface",
+        "Initialization",
+        "Adding documents",
+        "Deleting documents",
+        "Similarity search",
+        "Similarity metrics & indexing",
+        "Metadata filtering",
+        "Top integrations",
+        "All vector stores",
+        "LangChain Academy"
+      ]
+    },
+    {
+      "path": "reference/0242-agents.md",
+      "title": "Agents",
+      "group": ".",
+      "bytes": 45711,
+      "headings": [
+        "Agents",
+        "Core components",
+        "Model",
+        "Tools",
+        "System prompt",
+        "Structured output",
+        "Name",
+        "Invocation",
+        "Streaming",
+        "Configure the harness",
+        "Execution environment",
+        "Context management"
+      ]
+    },
+    {
+      "path": "reference/0243-component-architecture.md",
+      "title": "Component architecture",
+      "group": ".",
+      "bytes": 6603,
+      "headings": [
+        "Component architecture",
+        "Core component ecosystem",
+        "How components connect",
+        "Component categories",
+        "Common patterns",
+        "RAG (Retrieval-Augmented generation)",
+        "Agent with tools",
+        "Multi-agent system",
+        "Learn more"
+      ]
+    },
+    {
+      "path": "reference/0244-context-engineering-in-agents.md",
+      "title": "Context engineering in agents",
+      "group": ".",
+      "bytes": 44043,
+      "headings": [
+        "Context engineering in agents",
+        "Overview",
+        "Why do agents fail?",
+        "The agent loop",
+        "What you can control",
+        "Data sources",
+        "How it works",
+        "Model context",
+        "System Prompt",
+        "Messages",
+        "Tools",
+        "Model"
+      ]
+    },
+    {
+      "path": "reference/0245-build-a-data-analysis-agent-from-scratch.md",
+      "title": "Build a data analysis agent from scratch",
+      "group": ".",
+      "bytes": 47058,
+      "headings": [
+        "Build a data analysis agent from scratch",
+        "Setup",
+        "Step 1: The minimal agent",
+        "Step 2: Add a sandbox backend",
+        "Step 3: Add context management",
+        "Step 4: Add skills",
+        "Data loading",
+        "Visualization",
+        "Reporting",
+        "Step 5: Add a visualization subagent",
+        "What you built",
+        "LangSmith Deployment"
+      ]
+    },
+    {
+      "path": "reference/0246-headless-tools.md",
+      "title": "Headless tools",
+      "group": ".",
+      "bytes": 39117,
+      "headings": [
+        "Headless tools",
+        "How headless tools work",
+        "Register the tool on the agent",
+        "Implement the browser behavior",
+        "Wire the implementations into `useStream`",
+        "Render tool activity inline",
+        "Use cases",
+        "Best practices",
+        "Human-in-the-Loop",
+        "How interrupts work",
+        "Setting up `useStream`",
+        "The interrupt payload"
+      ]
+    },
+    {
+      "path": "reference/0247-copilotkit.md",
+      "title": "CopilotKit",
+      "group": ".",
+      "bytes": 44877,
+      "headings": [
+        "CopilotKit",
+        "How it works",
+        "What you get on the Python server",
+        "Installation",
+        "Use CopilotKit with a Deep Agent",
+        "Extend the LangGraph deployment with a custom endpoint",
+        "Structure the frontend app",
+        "Register the dynamic components",
+        "Render assistant messages as dynamic UI",
+        "Resources",
+        "Best practices",
+        "OpenUI"
+      ]
+    },
+    {
+      "path": "reference/0248-join-rejoin-streams.md",
+      "title": "Join & rejoin streams",
+      "group": ".",
+      "bytes": 47742,
+      "headings": [
+        "Join & rejoin streams",
+        "Why join & rejoin?",
+        "Core concepts",
+        "Setting up `useStream`",
+        "Submitting messages",
+        "Disconnecting from a stream",
+        "Rejoining a stream",
+        "Best practices",
+        "Markdown messages",
+        "How markdown rendering works",
+        "Setting up `useStream`",
+        "Choosing a markdown library"
+      ]
+    },
+    {
+      "path": "reference/0249-reasoning-tokens.md",
+      "title": "Reasoning tokens",
+      "group": ".",
+      "bytes": 40431,
+      "headings": [
+        "Reasoning tokens",
+        "What are reasoning tokens?",
+        "Use cases",
+        "Extracting reasoning and text blocks",
+        "Accessing messages from `useStream`",
+        "Building a ThinkingBubble component",
+        "Rendering the complete AI response",
+        "Handling edge cases",
+        "Messages without reasoning",
+        "Empty reasoning blocks",
+        "Multiple reasoning-text cycles",
+        "Best practices"
+      ]
+    },
+    {
+      "path": "reference/0250-tool-calling.md",
+      "title": "Tool calling",
+      "group": ".",
+      "bytes": 47409,
+      "headings": [
+        "Tool calling",
+        "How tool calling works",
+        "Setting up `useStream`",
+        "The AssembledToolCall type",
+        "Filtering tool calls per message",
+        "Building specialized tool cards",
+        "Weather card example",
+        "Loading and error states",
+        "Type-safe tool arguments",
+        "Rendering tool calls inline with streaming text",
+        "Handling multiple concurrent tool calls",
+        "Best practices"
+      ]
+    },
+    {
+      "path": "reference/0251-stream-agent-progress-and-llm-tokens-until-interrupt.md",
+      "title": "Stream agent progress and LLM tokens until interrupt",
+      "group": ".",
+      "bytes": 40772,
+      "headings": [
+        "Stream agent progress and LLM tokens until interrupt",
+        "Resume with streaming after human decision",
+        "Execution lifecycle",
+        "Custom HITL logic",
+        "Install LangChain",
+        "Build a semantic search engine with LangChain",
+        "Overview",
+        "Concepts",
+        "Setup",
+        "Installation",
+        "LangSmith",
+        "1. Documents"
+      ]
+    },
+    {
+      "path": "reference/0252-long-term-memory.md",
+      "title": "Long-term memory",
+      "group": ".",
+      "bytes": 46765,
+      "headings": [
+        "Long-term memory",
+        "Usage",
+        "Memory storage",
+        "Read long-term memory in tools",
+        "Write long-term memory from tools",
+        "Model Context Protocol (MCP)",
+        "Quickstart",
+        "Custom servers",
+        "Transports",
+        "HTTP",
+        "stdio",
+        "Stateful sessions"
+      ]
+    },
+    {
+      "path": "reference/0253-extract-structured-content-from-tool-messages.md",
+      "title": "Extract structured content from tool messages",
+      "group": ".",
+      "bytes": 42368,
+      "headings": [
+        "Extract structured content from tool messages",
+        "Access multimodal content from tool messages",
+        "Resources",
+        "Load all resources from a server",
+        "Or load specific resources by URI",
+        "Prompts",
+        "Load a prompt by name",
+        "Load a prompt with arguments",
+        "Use the messages in your workflow",
+        "Advanced features",
+        "Tool interceptors",
+        "Original call: add(a=2, b=3) becomes add(a=4, b=6)"
+      ]
+    },
+    {
+      "path": "reference/0254-list-of-standard-content-blocks.md",
+      "title": "List of standard content blocks",
+      "group": ".",
+      "bytes": 41837,
+      "headings": [
+        "List of standard content blocks",
+        "Standard content blocks",
+        "Multimodal",
+        "Content block reference",
+        "Use with chat models",
+        "Prebuilt middleware",
+        "Provider-agnostic middleware",
+        "Summarization",
+        "Human-in-the-loop",
+        "Model call limit",
+        "Tool call limit",
+        "Model fallback"
+      ]
+    },
+    {
+      "path": "reference/0255-method-3-custom-detector-function.md",
+      "title": "Method 3: Custom detector function",
+      "group": ".",
+      "bytes": 38208,
+      "headings": [
+        "Method 3: Custom detector function",
+        "To-do list",
+        "LLM tool selector",
+        "Tool retry",
+        "Model retry",
+        "LLM tool emulator",
+        "Context editing",
+        "Provider tool search",
+        "Shell tool",
+        "File search",
+        "Filesystem middleware",
+        "FilesystemMiddleware is included by default in create_deep_agent"
+      ]
+    },
+    {
+      "path": "reference/0256-custom-middleware.md",
+      "title": "Custom middleware",
+      "group": ".",
+      "bytes": 41662,
+      "headings": [
+        "Custom middleware",
+        "Hooks",
+        "Node-style hooks",
+        "Wrap-style hooks",
+        "State updates",
+        "Node-style hooks",
+        "Wrap-style hooks",
+        "Create middleware",
+        "Decorator-based middleware",
+        "Class-based middleware",
+        "Custom state schema",
+        "Custom stream transformers"
+      ]
+    },
+    {
+      "path": "reference/0257-models.md",
+      "title": "Models",
+      "group": ".",
+      "bytes": 47850,
+      "headings": [
+        "Models",
+        "Basic usage",
+        "Initialize a model",
+        "Supported providers and models",
+        "Key methods",
+        "Parameters",
+        "Connection resilience",
+        "Invocation",
+        "Invoke",
+        "Stream",
+        "The",
+        "The sky"
+      ]
+    },
+    {
+      "path": "reference/0258-doc.md",
+      "title": "]",
+      "group": ".",
+      "bytes": 29635,
+      "headings": [
+        "]",
+        "Reasoning",
+        "Local models",
+        "Prompt caching",
+        "Server-side tool use",
+        "Rate limiting",
+        "Base URL and proxy settings",
+        "Log probabilities",
+        "Token usage",
+        "Invocation config",
+        "Configurable models",
+        "Dynamic model selection"
+      ]
+    },
+    {
+      "path": "reference/0259-handoffs.md",
+      "title": "Handoffs",
+      "group": ".",
+      "bytes": 45956,
+      "headings": [
+        "Handoffs",
+        "Key characteristics",
+        "When to use",
+        "Basic implementation",
+        "Implementation approaches",
+        "Single agent with middleware",
+        "Multiple agent subgraphs",
+        "Implementation considerations",
+        "Build customer support with handoffs",
+        "Setup",
+        "Installation",
+        "LangSmith"
+      ]
+    },
+    {
+      "path": "reference/0260-agent-will-call-go_back_to_warranty-and-restart-the-warranty-verification-step.md",
+      "title": "Agent will call go_back_to_warranty and restart the warranty verification step",
+      "group": ".",
+      "bytes": 32774,
+      "headings": [
+        "Agent will call go_back_to_warranty and restart the warranty verification step",
+        "Complete example",
+        "Next steps",
+        "Multi-agent",
+        "Why multi-agent?",
+        "Patterns",
+        "Choosing a pattern",
+        "Visual overview",
+        "Performance comparison",
+        "One-shot request",
+        "Repeat request",
+        "Multi-domain"
+      ]
+    },
+    {
+      "path": "reference/0261-build-a-multi-source-knowledge-base-with-routing.md",
+      "title": "Build a multi-source knowledge base with routing",
+      "group": ".",
+      "bytes": 42749,
+      "headings": [
+        "Build a multi-source knowledge base with routing",
+        "Overview",
+        "Why use a router?",
+        "Concepts",
+        "Setup",
+        "Installation",
+        "LangSmith",
+        "Select an LLM",
+        "1. Define state",
+        "2. Define tools for each vertical",
+        "3. Create specialized agents",
+        "4. Build the router workflow"
+      ]
+    },
+    {
+      "path": "reference/0262-build-a-sql-assistant-with-on-demand-skills.md",
+      "title": "Build a SQL assistant with on-demand skills",
+      "group": ".",
+      "bytes": 46148,
+      "headings": [
+        "Build a SQL assistant with on-demand skills",
+        "How it works",
+        "Setup",
+        "Installation",
+        "LangSmith",
+        "Select an LLM",
+        "1. Define skills",
+        "2. Create skill loading tool",
+        "3. Build skill middleware",
+        "4. Create the agent with skill support",
+        "Create the agent with skill support",
+        "5. Test progressive disclosure"
+      ]
+    },
+    {
+      "path": "reference/0263-subagents.md",
+      "title": "Subagents",
+      "group": ".",
+      "bytes": 24479,
+      "headings": [
+        "Subagents",
+        "Key characteristics",
+        "When to use",
+        "Basic implementation",
+        "Create a subagent",
+        "Wrap it as a tool",
+        "Main agent with subagent as a tool",
+        "Design decisions",
+        "Sync vs. async",
+        "Synchronous (default)",
+        "Asynchronous",
+        "Tool patterns"
+      ]
+    },
+    {
+      "path": "reference/0264-build-a-personal-assistant-with-subagents.md",
+      "title": "Build a personal assistant with subagents",
+      "group": ".",
+      "bytes": 46981,
+      "headings": [
+        "Build a personal assistant with subagents",
+        "Overview",
+        "Why use a supervisor?",
+        "Concepts",
+        "Setup",
+        "Installation",
+        "LangSmith",
+        "Components",
+        "1. Define tools",
+        "2. Create specialized sub-agents",
+        "Create a calendar agent",
+        "Create an email agent"
+      ]
+    },
+    {
+      "path": "reference/0265-langchain-overview.md",
+      "title": "LangChain overview",
+      "group": ".",
+      "bytes": 19148,
+      "headings": [
+        "LangChain overview",
+        "<Icon icon=\"wand\" /> Create an agent",
+        "<Icon icon=\"star\" /> Core benefits",
+        "Philosophy",
+        "History"
+      ]
+    },
+    {
+      "path": "reference/0266-quickstart.md",
+      "title": "Quickstart",
+      "group": ".",
+      "bytes": 30252,
+      "headings": [
+        "Quickstart",
+        "Install dependencies",
+        "Set up API keys",
+        "Build a basic agent",
+        "Build a real-world agent",
+        "Trace agent calls",
+        "Next steps"
+      ]
+    },
+    {
+      "path": "reference/0267-build-a-rag-agent-with-langchain.md",
+      "title": "Build a RAG agent with LangChain",
+      "group": ".",
+      "bytes": 38866,
+      "headings": [
+        "Build a RAG agent with LangChain",
+        "Overview",
+        "Concepts",
+        "Preview",
+        "Setup",
+        "Installation",
+        "LangSmith",
+        "Components",
+        "1. Indexing",
+        "Loading documents",
+        "Below is a minimal helper for demonstration purposes.",
+        "Only keep post title, headers, and content from the full HTML."
+      ]
+    },
+    {
+      "path": "reference/0268-if-desired-specify-custom-instructions.md",
+      "title": "If desired, specify custom instructions",
+      "group": ".",
+      "bytes": 47001,
+      "headings": [
+        "If desired, specify custom instructions",
+        "RAG chains",
+        "Security: indirect prompt injection",
+        "Next steps",
+        "Retrieval",
+        "Building a knowledge base",
+        "From retrieval to RAG",
+        "Retrieval pipeline",
+        "Building blocks",
+        "RAG architectures",
+        "2-step RAG",
+        "Agentic RAG"
+      ]
+    },
+    {
+      "path": "reference/0269-custom-state-can-be-passed-in-invoke.md",
+      "title": "Custom state can be passed in invoke",
+      "group": ".",
+      "bytes": 19593,
+      "headings": [
+        "Custom state can be passed in invoke",
+        "Common patterns",
+        "Trim messages",
+        "Delete messages",
+        "Summarize messages",
+        "Access memory",
+        "Tools",
+        "> User is John Smith.",
+        "Prompt",
+        "Before model",
+        "After model"
+      ]
+    },
+    {
+      "path": "reference/0270-build-a-sql-agent.md",
+      "title": "Build a SQL agent",
+      "group": ".",
+      "bytes": 38315,
+      "headings": [
+        "Build a SQL agent",
+        "Overview",
+        "Concepts",
+        "Setup",
+        "Build your SQL agent",
+        "Next steps"
+      ]
+    },
+    {
+      "path": "reference/0271-streaming/0271-streaming_pt1.md",
+      "title": "Streaming",
+      "group": "0271-streaming",
+      "bytes": 25620,
+      "headings": [
+        "Streaming",
+        "Overview",
+        "Supported stream modes",
+        "Agent progress",
+        "LLM tokens",
+        "Custom updates",
+        "Stream multiple modes",
+        "Common patterns",
+        "Streaming thinking / reasoning tokens",
+        "Streaming tool calls"
+      ]
+    },
+    {
+      "path": "reference/0271-streaming/0271-streaming_pt2.md",
+      "title": "0271 Streaming Pt2",
+      "group": "0271-streaming",
+      "bytes": 25688,
+      "headings": [
+        "Streaming with human-in-the-loop",
+        "Streaming from sub-agents",
+        "Disable streaming",
+        "v2 streaming format",
+        "Related"
+      ]
+    },
+    {
+      "path": "reference/0271-streaming/0271-streaming_pt3.md",
+      "title": "0271 Streaming Pt3",
+      "group": "0271-streaming",
+      "bytes": 893,
+      "headings": []
+    },
+    {
+      "path": "reference/0272-structured-output.md",
+      "title": "Structured output",
+      "group": ".",
+      "bytes": 33183,
+      "headings": [
+        "Structured output",
+        "Response format",
+        "Provider strategy",
+        "Tool calling strategy",
+        "Custom tool message content",
+        "Error handling",
+        "LangSmith Studio",
+        "Prerequisites",
+        "Set up local Agent server",
+        "1. Install the LangGraph CLI",
+        "Python >= 3.11 is required.",
+        "2. Prepare your agent"
+      ]
+    },
+    {
+      "path": "reference/0273-agent-evals.md",
+      "title": "Agent Evals",
+      "group": ".",
+      "bytes": 40345,
+      "headings": [
+        "Agent Evals",
+        "Install AgentEvals",
+        "Trajectory match evaluator",
+        "LLM-as-judge evaluator",
+        "Async support",
+        "Run evals in LangSmith",
+        "Test",
+        "Integration testing",
+        "Separate unit and integration tests",
+        "Manage API keys",
+        "Assert on structure, not content",
+        "Reduce cost and latency"
+      ]
+    },
+    {
+      "path": "reference/0274-access-custom-state-fields.md",
+      "title": "Access custom state fields",
+      "group": ".",
+      "bytes": 15811,
+      "headings": [
+        "Access custom state fields",
+        "Context",
+        "Long-term memory (Store)",
+        "Access memory",
+        "Update memory",
+        "First session: save user info",
+        "Second session: get user info",
+        "Here is the user info for user with ID \"abc123\":",
+        "- Name: Foo",
+        "- Age: 25"
+      ]
+    },
+    {
+      "path": "reference/0275-email-foo-langchain.dev.md",
+      "title": "- Email: foo@langchain.dev",
+      "group": ".",
+      "bytes": 38185,
+      "headings": [
+        "- Email: foo@langchain.dev",
+        "Stream writer",
+        "Execution info",
+        "Server info",
+        "Tool execution",
+        "Tool return values",
+        "Error handling",
+        "State injection",
+        "Dynamic tool selection",
+        "Headless tools",
+        "When to use headless tools",
+        "How the pattern works"
+      ]
+    },
+    {
+      "path": "reference/0276-build-a-voice-agent-with-langchain.md",
+      "title": "Build a voice agent with LangChain",
+      "group": ".",
+      "bytes": 40152,
+      "headings": [
+        "Build a voice agent with LangChain",
+        "Overview",
+        "What are voice agents?",
+        "How do voice agents work?",
+        "Demo Application overview",
+        "Architecture",
+        "Setup",
+        "1. Speech-to-text",
+        "Key concepts",
+        "Implementation",
+        "2. LangChain agent",
+        "Key concepts"
+      ]
+    },
+    {
+      "path": "reference/0277-pass-context-at-invocation-time.md",
+      "title": "Pass context at invocation time",
+      "group": ".",
+      "bytes": 21131,
+      "headings": [
+        "Pass context at invocation time",
+        "Use in production",
+        "Use semantic search"
+      ]
+    },
+    {
+      "path": "reference/0278-create-store-with-semantic-search-enabled.md",
+      "title": "Create store with semantic search enabled",
+      "group": ".",
+      "bytes": 34548,
+      "headings": [
+        "Create store with semantic search enabled",
+        "Manage short-term memory",
+        "Trim messages",
+        "Delete messages",
+        "Summarize messages",
+        "Manage checkpoints",
+        "Database management",
+        "Build a custom RAG agent with LangGraph",
+        "Overview",
+        "Concepts",
+        "Setup",
+        "1. Preprocess documents"
+      ]
+    },
+    {
+      "path": "reference/0279-below-is-a-minimal-helper-for-demonstration-purposes..md",
+      "title": "Below is a minimal helper for demonstration purposes.",
+      "group": ".",
+      "bytes": 36197,
+      "headings": [
+        "Below is a minimal helper for demonstration purposes.",
+        "2. Create a retriever tool",
+        "3. Generate query",
+        "4. Grade documents",
+        "5. Rewrite question",
+        "6. Generate an answer",
+        "7. Assemble the graph",
+        "Define the nodes we will cycle between",
+        "Route based on whether the model requested tool calls.",
+        "Decide whether to retrieve",
+        "Edges taken after the `action` node is called.",
+        "Compile"
+      ]
+    },
+    {
+      "path": "reference/0280-case-studies.md",
+      "title": "Case studies",
+      "group": ".",
+      "bytes": 41710,
+      "headings": [
+        "Case studies",
+        "Changelog",
+        "Checkpointers",
+        "Why use checkpointers",
+        "Core concepts",
+        "Threads",
+        "Checkpoints",
+        "Get and update state",
+        "Get state",
+        "get the latest state snapshot",
+        "get a state snapshot for a specific checkpoint_id",
+        "Get state history"
+      ]
+    },
+    {
+      "path": "reference/0281-find-the-checkpoint-where-an-interrupt-occurred.md",
+      "title": "Find the checkpoint where an interrupt occurred",
+      "group": ".",
+      "bytes": 47257,
+      "headings": [
+        "Find the checkpoint where an interrupt occurred",
+        "Replay",
+        "Update state",
+        "Durability modes",
+        "Optimize checkpoint storage",
+        "Checkpointer libraries",
+        "Checkpointer interface",
+        "Serializer",
+        "... Define the graph ...",
+        "Build a custom checkpointer",
+        "Overview",
+        "Base contract"
+      ]
+    },
+    {
+      "path": "reference/0282-event-streaming.md",
+      "title": "Event streaming",
+      "group": ".",
+      "bytes": 32755,
+      "headings": [
+        "Event streaming",
+        "Quickstart",
+        "How the pieces fit together",
+        "What event streaming provides",
+        "Stream messages",
+        "Stream subgraphs",
+        "Stream state",
+        "Stream multiple projections",
+        "Resume after an interrupt",
+        "Stream all protocol events",
+        "Channels and event lifecycle",
+        "Messages"
+      ]
+    },
+    {
+      "path": "reference/0283-separate-run-and-idle-limits.md",
+      "title": "Separate run and idle limits",
+      "group": ".",
+      "bytes": 34257,
+      "headings": [
+        "Separate run and idle limits",
+        "Run timeout",
+        "Idle timeout",
+        "NodeTimeoutError",
+        "Dynamic timeouts with Send",
+        "Error handling",
+        "NodeError",
+        "Route with Command",
+        "Resume-safe failures",
+        "Behavior with `interrupt()`",
+        "Subgraph failures",
+        "Graph defaults"
+      ]
+    },
+    {
+      "path": "reference/0284-graph-execution.md",
+      "title": "Graph execution",
+      "group": ".",
+      "bytes": 22173,
+      "headings": [
+        "Graph execution",
+        "How graph nodes map to UI cards",
+        "Setting up `useStream`",
+        "Routing streaming tokens to nodes",
+        "Determining node status",
+        "Building the pipeline progress bar",
+        "Building collapsible NodeCard components",
+        "Streaming vs. completed content",
+        "Putting it all together",
+        "Use cases",
+        "Handling dynamic pipelines",
+        "Best practices"
+      ]
+    },
+    {
+      "path": "reference/0285-functional-api-overview.md",
+      "title": "Functional API overview",
+      "group": ".",
+      "bytes": 45293,
+      "headings": [
+        "Functional API overview",
+        "Functional API vs. Graph API",
+        "Example",
+        "Entrypoint",
+        "Definition",
+        "Injectable parameters",
+        "Executing",
+        "Resuming",
+        "Short-term memory",
+        "Task",
+        "Definition",
+        "Execution"
+      ]
+    },
+    {
+      "path": "reference/0286-and-this-is-also-supported.md",
+      "title": "and this is also supported",
+      "group": ".",
+      "bytes": 47617,
+      "headings": [
+        "and this is also supported",
+        "Nodes",
+        "You can then create edges to/from this node by referencing it as `\"my_node\"`",
+        "Re-execution and idempotency",
+        "Using tasks in nodes",
+        "`START` node",
+        "`END` node",
+        "Node caching",
+        "[{'expensive_node': {'result': 10}}]",
+        "[{'expensive_node': {'result': 10}, '__metadata__': {'cached': True}}]",
+        "Edges",
+        "Normal edges"
+      ]
+    },
+    {
+      "path": "reference/0287-final-state-vals-a-answer-for-question_a-b-answer-for-question_b.md",
+      "title": "Final state: {'vals': ['a:answer for question_a', 'b:answer for question_b']}",
+      "group": ".",
+      "bytes": 42960,
+      "headings": [
+        "Final state: {'vals': ['a:answer for question_a', 'b:answer for question_b']}",
+        "Approve or reject",
+        "To approve",
+        "To reject",
+        "Review and edit state",
+        "Interrupts in tools",
+        "Validating human input",
+        "Rules of interrupts",
+        "Do not wrap `interrupt` calls in try/except",
+        "Do not reorder `interrupt` calls within a node",
+        "Do not return complex values in `interrupt` calls",
+        "Side effects called before `interrupt` must be idempotent"
+      ]
+    },
+    {
+      "path": "reference/0288-langgraph-overview.md",
+      "title": "LangGraph overview",
+      "group": ".",
+      "bytes": 31025,
+      "headings": [
+        "LangGraph overview",
+        "<Icon icon=\"download\" /> Install",
+        "Core benefits",
+        "LangGraph ecosystem",
+        "Acknowledgements",
+        "Persistence",
+        "Quickstart",
+        "Checkpointer vs. store",
+        "Next steps",
+        "LangGraph runtime",
+        "Overview",
+        "Actors"
+      ]
+    },
+    {
+      "path": "reference/0289-quickstart.md",
+      "title": "Quickstart",
+      "group": ".",
+      "bytes": 46864,
+      "headings": [
+        "Quickstart",
+        "Build a custom SQL agent",
+        "Concepts",
+        "Setup",
+        "Installation",
+        "LangSmith",
+        "1. Select an LLM",
+        "2. Configure the database",
+        "3. Add tools for database interactions",
+        "Below are minimal tools for demonstration purposes.",
+        "4. Define application steps",
+        "Example: create a predetermined tool call"
+      ]
+    },
+    {
+      "path": "reference/0290-redefine-the-tool-node-to-use-the-interrupt-version.md",
+      "title": "Redefine the tool node to use the interrupt version",
+      "group": ".",
+      "bytes": 43050,
+      "headings": [
+        "Redefine the tool node to use the interrupt version",
+        "Next steps",
+        "Stores",
+        "Basic usage",
+        "Listing items in a namespace",
+        "Return up to 100 items stored under (\"alice\", \"memories\").",
+        "All namespaces that start with (\"alice\",), truncated to two levels deep.",
+        "Semantic search",
+        "Find memories about food preferences",
+        "(This can be done after putting memories into the store)",
+        "Store with specific fields to embed",
+        "Store without embedding (still retrievable, but not searchable)"
+      ]
+    },
+    {
+      "path": "reference/0291-use-version-v2-for-a-unified-streampart-format.md",
+      "title": "Use version=\"v2\" for a unified StreamPart format",
+      "group": ".",
+      "bytes": 47357,
+      "headings": [
+        "Use version=\"v2\" for a unified StreamPart format",
+        "Custom data",
+        "Subgraph outputs",
+        "Checkpoints",
+        "Tasks",
+        "Debug",
+        "Multiple modes at once",
+        "Advanced",
+        "Use with any LLM",
+        "Set stream_mode=\"custom\" to receive the custom data in the stream",
+        "Disable streaming for specific chat models",
+        "Migrate to v2"
+      ]
+    },
+    {
+      "path": "reference/0292-define-the-structure-for-email-classification.md",
+      "title": "Define the structure for email classification",
+      "group": ".",
+      "bytes": 46523,
+      "headings": [
+        "Define the structure for email classification",
+        "Step 4: Build your nodes",
+        "Handle errors appropriately",
+        "Implementing our email agent nodes",
+        "Step 5: Wire it together",
+        "Try out your agent",
+        "Summary and next steps",
+        "Key Insights",
+        "Advanced considerations",
+        "Where to go from here",
+        "Agent Chat UI",
+        "Quick start"
+      ]
+    },
+    {
+      "path": "reference/0293-continue-execution.md",
+      "title": "Continue execution",
+      "group": ".",
+      "bytes": 37873,
+      "headings": [
+        "Continue execution",
+        "Review tool calls",
+        "Short-term memory",
+        "Manage checkpoints",
+        "Decouple return value from saved value",
+        "Chatbot example",
+        "Long-term memory",
+        "Workflows",
+        "Integrate with other libraries",
+        "Use the graph API",
+        "Setup",
+        "Define and update state"
+      ]
+    },
+    {
+      "path": "reference/0294-3.-pass-in-configuration-at-runtime.md",
+      "title": "3. Pass in configuration at runtime:",
+      "group": ".",
+      "bytes": 40118,
+      "headings": [
+        "3. Pass in configuration at runtime:",
+        "Add retry policies",
+        "Set node timeouts",
+        "Configure node timeouts",
+        "Handle node errors",
+        "Access execution info inside a node",
+        "Access server info inside a node",
+        "Access drain state inside a node",
+        "Add node caching",
+        "Create a sequence of steps",
+        "Add nodes",
+        "Add edges"
+      ]
+    },
+    {
+      "path": "reference/0295-define-edges.md",
+      "title": "Define edges",
+      "group": ".",
+      "bytes": 47608,
+      "headings": [
+        "Define edges",
+        "Impose a recursion limit",
+        "Async",
+        "Combine control flow and state updates with `Command`",
+        "Define graph state",
+        "Define the nodes",
+        "NOTE: there are no edges between nodes A, B and C!",
+        "Navigate to a node in a parent graph",
+        "Use inside tools",
+        "Visualize your graph",
+        "Mermaid",
+        "PNG"
+      ]
+    },
+    {
+      "path": "reference/0296-outer-agent-with-checkpointer.md",
+      "title": "Outer agent with checkpointer",
+      "group": ".",
+      "bytes": 34571,
+      "headings": [
+        "Outer agent with checkpointer",
+        "Subagent with checkpointer=True for persistent state",
+        "Wrap subagent as a tool for the outer agent",
+        "Outer agent with checkpointer",
+        "Use ToolCallLimitMiddleware to prevent parallel calls to per-thread subagents,",
+        "which would cause checkpoint conflicts.",
+        "Stateless",
+        "Checkpointer reference",
+        "View subgraph state",
+        "Stream subgraph outputs",
+        "Use time-travel",
+        "Overview"
+      ]
+    },
+    {
+      "path": "reference/0297-get-the-tool-call.md",
+      "title": "Get the tool call",
+      "group": ".",
+      "bytes": 37120,
+      "headings": [
+        "Get the tool call",
+        "Prompt chaining",
+        "Parallelization",
+        "Routing",
+        "Orchestrator-worker",
+        "Creating workers in LangGraph",
+        "Graph state",
+        "Worker state",
+        "Nodes",
+        "Conditional edge function to create llm_call workers that each write a section of the report",
+        "Build workflow",
+        "Add the nodes"
+      ]
+    },
+    {
+      "path": "reference/0298-langchain-v1-migration-guide.md",
+      "title": "LangChain v1 migration guide",
+      "group": ".",
+      "bytes": 44803,
+      "headings": [
+        "LangChain v1 migration guide",
+        "Simplified package",
+        "Namespace",
+        "`langchain-classic`",
+        "Migrate to `create_agent`",
+        "Import path",
+        "Prompts",
+        "Pre-model hook",
+        "Post-model hook",
+        "Custom state",
+        "Model",
+        "No longer supported"
+      ]
+    },
+    {
+      "path": "reference/0299-langgraph-v1-migration-guide.md",
+      "title": "LangGraph v1 migration guide",
+      "group": ".",
+      "bytes": 43939,
+      "headings": [
+        "LangGraph v1 migration guide",
+        "Summary of changes",
+        "Deprecations",
+        "`create_react_agent` \u2192 `create_agent`",
+        "Breaking changes",
+        "Dropped Python 3.9 support",
+        "Deep Agents",
+        "Integrations",
+        "LangChain SDK",
+        "LangGraph SDK",
+        "Reference",
+        "Reference sites"
+      ]
+    },
+    {
+      "path": "reference/0300-unified-access-to-content-blocks.md",
+      "title": "Unified access to content blocks",
+      "group": ".",
+      "bytes": 25104,
+      "headings": [
+        "Unified access to content blocks",
+        "Benefits",
+        "Simplified package",
+        "Namespace",
+        "Agent building",
+        "Messages and content",
+        "Tools",
+        "Model initialization",
+        "`langchain-classic`",
+        "Migration guide",
+        "Reporting issues",
+        "Additional resources"
+      ]
+    }
+  ]
+}
