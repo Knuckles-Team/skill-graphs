@@ -175,12 +175,12 @@ When connecting to an external Redis Cluster, configure the Helm values under `r
     external:
       enabled: true
       # Name of an existing Secret that contains cluster connection details
-      existingSecretName: "my-redis-cluster-secret"
+      existingSecretName: "my-redis-cluster-secret"  # sanitizer:ignore
       cluster:
         enabled: true
         # Keys in the Secret. Defaults shown here; override if your Secret uses different keys.
-        nodeUrisSecretKey: "redis_cluster_node_uris"
-        passwordSecretKey: "redis_cluster_password"
+        nodeUrisSecretKey: "redis_cluster_node_uris"  # sanitizer:ignore
+        passwordSecretKey: "redis_cluster_password"  # sanitizer:ignore
         tlsEnabled: true
   ```
 </CodeGroup>
@@ -258,7 +258,7 @@ To validate the Redis server certificate:
   ```yaml Helm (Standalone - server TLS) theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
   config:
     customCa:
-      secretName: "langsmith-custom-ca"  # Secret containing your CA bundle
+      secretName: "langsmith-custom-ca"  # Secret containing your CA bundle  # sanitizer:ignore
       secretKey: "ca.crt"    # Key in the Secret with the CA bundle
   redis:
     external:
@@ -270,7 +270,7 @@ To validate the Redis server certificate:
   ```yaml Helm (Cluster - server TLS) theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
   config:
     customCa:
-      secretName: "langsmith-custom-ca"  # Secret containing your CA bundle
+      secretName: "langsmith-custom-ca"  # Secret containing your CA bundle  # sanitizer:ignore
       secretKey: "ca.crt"    # Key in the Secret with the CA bundle
   redis:
     external:
@@ -316,7 +316,7 @@ If your Redis server requires client certificate authentication:
     external:
       enabled: true
       clientCert:
-        secretName: "redis-mtls-secret"
+        secretName: "redis-mtls-secret"  # sanitizer:ignore
         certSecretKey: "tls.crt"
         keySecretKey: "tls.key"
       # Standalone example:
@@ -419,11 +419,11 @@ As of LangSmith helm chart version **0.12.34**, we support IAM authentication fo
     redis:
       external:
         enabled: true
-        existingSecretName: "redis-cluster-secret"
+        existingSecretName: "redis-cluster-secret"  # sanitizer:ignore
         iamAuthProvider: "aws"
         cluster:
           enabled: true
-          nodeUrisSecretKey: "redis_cluster_node_uris"
+          nodeUrisSecretKey: "redis_cluster_node_uris"  # sanitizer:ignore
           tlsEnabled: true
     ```
 
@@ -489,11 +489,11 @@ As of LangSmith helm chart version **0.12.34**, we support IAM authentication fo
     redis:
       external:
         enabled: true
-        existingSecretName: "redis-cluster-secret"
+        existingSecretName: "redis-cluster-secret"  # sanitizer:ignore
         iamAuthProvider: "gcp"
         cluster:
           enabled: true
-          nodeUrisSecretKey: "redis_cluster_node_uris"
+          nodeUrisSecretKey: "redis_cluster_node_uris"  # sanitizer:ignore
           tlsEnabled: true
     ```
 
@@ -588,11 +588,11 @@ As of LangSmith helm chart version **0.12.34**, we support IAM authentication fo
     redis:
       external:
         enabled: true
-        existingSecretName: "redis-cluster-secret"
+        existingSecretName: "redis-cluster-secret"  # sanitizer:ignore
         iamAuthProvider: "azure"
         cluster:
           enabled: true
-          nodeUrisSecretKey: "redis_cluster_node_uris"
+          nodeUrisSecretKey: "redis_cluster_node_uris"  # sanitizer:ignore
           tlsEnabled: true
     ```
 

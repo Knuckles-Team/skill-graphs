@@ -103,7 +103,7 @@ To run Temporal locally, clone the maintained Docker Compose repository which in
     ## Remember to set your public internet IP address in the allow-list for the API token.
     CLOUDFLARE_ACCOUNT_ID="QhcMSXQyPuMCRpSQcSYdEuTYgHeCXHbu"
     CLOUDFLARE_ACCESS_KEY="dcfCMSuFEeCNfvByUureMZEfxWJmDqZe"
-    CLOUDFLARE_SECRET_ACCESS_KEY="zTTMXBmtyLPwHEdpACGHgDgzRTNpTJewiNriLnUS"
+    CLOUDFLARE_SECRET_ACCESS_KEY="your_cloudflare_secret_access_key"
     CLOUDFLARE_BUCKETNAME="postiz"
     CLOUDFLARE_BUCKET_URL="https://QhcMSXQyPuMCRpSQcSYdEuTYgHeCXHbu.r2.cloudflarestorage.com/"
     CLOUDFLARE_REGION="auto"

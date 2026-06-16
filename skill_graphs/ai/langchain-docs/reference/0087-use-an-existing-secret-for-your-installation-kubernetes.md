@@ -60,7 +60,7 @@ With these secrets provisioned, you can configure your LangSmith instance to use
 
 ```yaml theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
 config:
-  existingSecretName: "langsmith-secrets" # The name of the secret that contains the license key and other basic configuration parameters
+  existingSecretName: "langsmith-secrets" # The name of the secret that contains the license key and other basic configuration parameters  # sanitizer:ignore
 redis:
   external:
     enabled: true # Set to true to use an external Redis instance. This secret is only needed if you are using an external Redis instance
@@ -68,11 +68,11 @@ redis:
 postgres:
   external:
     enabled: true # Set to true to use an external Postgres instance. This secret is only needed if you are using an external Postgres instance
-    existingSecretName: "langsmith-postgres" # The name of the secret that contains the Postgres connection string and password
+    existingSecretName: "langsmith-postgres" # The name of the secret that contains the Postgres connection string and password  # sanitizer:ignore
 clickhouse:
   external:
     enabled: true # Set to true to use an external ClickHouse instance. This secret is only needed if you are using an external ClickHouse instance
-    existingSecretName: "langsmith-clickhouse" # The name of the secret that contains the ClickHouse connection string and password
+    existingSecretName: "langsmith-clickhouse" # The name of the secret that contains the ClickHouse connection string and password  # sanitizer:ignore
 ```
 
 Once configured, you will need to update your LangSmith installation. You can follow the [upgrade guide](/langsmith/self-host-upgrades). If everything is configured correctly, your LangSmith instance should now be accessible via the Ingress. You can run the following to check that your secrets are being used correctly:

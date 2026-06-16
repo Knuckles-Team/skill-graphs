@@ -24,7 +24,7 @@ from pathlib import Path
 SOURCES_SCHEMA = "skill-graph-sources/v1"
 SOURCE_KINDS = {
     "web", "pdf", "office", "dir", "url_reader", "rest", "database",
-    "mcp_tool", "generated", "kg_query",
+    "mcp_tool", "generated", "kg_query", "llms",
 }
 _FM_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 

@@ -74,7 +74,7 @@ func (s *UnitTestSuite) Test_SimpleWorkflow_NexusAsyncOperation() {
                 workflow.NexusOperationOptions{},
         ).Return(
                 &nexus.HandlerStartOperationResultAsync{
-                        OperationToken: "sample-operation-token",
+                        OperationToken: "sample-operation-token",  # sanitizer:ignore
                 },
                 nil, // error if you want to simulate an error in the ExecuteOperation call
         )

@@ -168,7 +168,7 @@ To enable TLS for ClickHouse connections:
   ```yaml Helm (server TLS) theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
   config:
     customCa:
-      secretName: "langsmith-custom-ca"  # Secret containing your CA bundle
+      secretName: "langsmith-custom-ca"  # Secret containing your CA bundle  # sanitizer:ignore
       secretKey: "ca.crt"    # Key in the Secret with the CA bundle
   clickhouse:
     external:
@@ -218,7 +218,7 @@ If your ClickHouse server requires client certificate authentication:
       database: "default"
       tls: true
       clientCert:
-        secretName: "clickhouse-client-cert"
+        secretName: "clickhouse-client-cert"  # sanitizer:ignore
         certSecretKey: "tls.crt"
         keySecretKey: "tls.key"
   ```
@@ -399,7 +399,7 @@ To validate the PostgreSQL server certificate:
   ```yaml Helm (server TLS) theme={"theme":{"light":"catppuccin-latte","dark":"catppuccin-mocha"}}
   config:
     customCa:
-      secretName: "langsmith-custom-ca"  # Secret containing your CA bundle
+      secretName: "langsmith-custom-ca"  # Secret containing your CA bundle  # sanitizer:ignore
       secretKey: "ca.crt"    # Key in the Secret with the CA bundle
   postgres:
     external:
@@ -440,7 +440,7 @@ If your PostgreSQL server requires client certificate authentication:
       connectionUrl: "myuser:mypassword@myhost:5432/mydatabase?sslmode=verify-full&sslrootcert=system"
       customTls: true
       clientCert:
-        secretName: "postgres-mtls-secret"
+        secretName: "postgres-mtls-secret"  # sanitizer:ignore
         certSecretKey: "tls.crt"
         keySecretKey: "tls.key"
   ```

@@ -93,7 +93,7 @@ We will use [Authentik](https://goauthentik.io/) as an OIDC provider example, wi
 
   <Step title="Configure POSTIZ_OAUTH_CLIENT_SECRET">
     ```env theme={null}
-    POSTIZ_OAUTH_CLIENT_SECRET="randomclientsecret"
+    POSTIZ_OAUTH_CLIENT_SECRET="randomclientsecret"  # sanitizer:ignore
     ```
 
     The client secret of the OIDC provider.

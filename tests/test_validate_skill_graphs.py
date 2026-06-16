@@ -8,6 +8,7 @@ from pathlib import Path
 
 _GATE = Path(__file__).resolve().parents[1] / "scripts" / "validate_skill_graphs.py"
 _spec = importlib.util.spec_from_file_location("validate_skill_graphs", _GATE)
+assert _spec is not None and _spec.loader is not None
 gate = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(gate)
 
