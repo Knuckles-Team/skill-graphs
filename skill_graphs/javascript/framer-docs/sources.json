@@ -1,0 +1,35 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "framer-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-06-15T23:28:26Z",
+  "builder_version": "0.47.1",
+  "kg_ingested": true,
+  "kg_manifest": null,
+  "kg_ontology": "agent-utilities",
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://www.framer.com/motion/",
+      "options": {
+        "max_depth": 2
+      },
+      "extractor": "wrap-existing",
+      "fetched_at": "2026-06-15T23:28:26Z",
+      "content_hash": "sha256:fa5730b1d0d2f5ee989e5afff92e712fd9200e5b2a8700e856b4d63f5d08d8ce",
+      "doc_count": 1
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/motion.md",
+      "sha256": "sha256:0d55f1644e93797e386ed015cd6fd2aa3a035e39fc495f3f1c259d6f6ad5382f",
+      "bytes": 23326
+    }
+  ],
+  "stats": {
+    "file_count": 1,
+    "source_count": 1
+  }
+}

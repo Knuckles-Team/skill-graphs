@@ -1,0 +1,35 @@
+{
+  "schema": "skill-graph-index/v1",
+  "name": "redis-docs",
+  "skill_graph_version": "1.0.0",
+  "kg_ingested": true,
+  "kg_domain": "skillgraph:redis-docs",
+  "concepts": [],
+  "source_url": "https://redis.io/docs/",
+  "file_count": 1,
+  "groups": {
+    ".": 1
+  },
+  "sections": [
+    {
+      "path": "reference/documentation.md",
+      "title": "Documentation",
+      "group": ".",
+      "bytes": 12860,
+      "headings": [
+        "Products",
+        "Tools",
+        "Get Redis",
+        "Connect",
+        "Learn",
+        "Latest",
+        "See how it works",
+        "Tools",
+        "Get Redis",
+        "Learn",
+        "Latest",
+        "See how it works"
+      ]
+    }
+  ]
+}

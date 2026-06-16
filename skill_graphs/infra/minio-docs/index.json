@@ -1,0 +1,25 @@
+{
+  "schema": "skill-graph-index/v1",
+  "name": "minio-docs",
+  "skill_graph_version": "1.0.0",
+  "kg_ingested": true,
+  "kg_domain": "skillgraph:minio-docs",
+  "concepts": [],
+  "source_url": "https://min.io/docs/minio/linux/index.html",
+  "file_count": 1,
+  "groups": {
+    ".": 1
+  },
+  "sections": [
+    {
+      "path": "reference/docs_minio_linux_index.html.md",
+      "title": "MinIO AIStor Documentation",
+      "group": ".",
+      "bytes": 3296,
+      "headings": [
+        "MinIO AIStor Documentation",
+        "Page Feedback"
+      ]
+    }
+  ]
+}

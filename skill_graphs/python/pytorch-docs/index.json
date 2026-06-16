@@ -1,0 +1,28 @@
+{
+  "schema": "skill-graph-index/v1",
+  "name": "pytorch-docs",
+  "skill_graph_version": "1.0.0",
+  "kg_ingested": true,
+  "kg_domain": "skillgraph:pytorch-docs",
+  "concepts": [],
+  "source_url": "https://pytorch.org/docs/stable/index.html",
+  "file_count": 1,
+  "groups": {
+    ".": 1
+  },
+  "sections": [
+    {
+      "path": "reference/docs_stable_index.html.md",
+      "title": "Docs Stable Index.Html",
+      "group": ".",
+      "bytes": 25717,
+      "headings": [
+        "PyTorch documentation[#](https://docs.pytorch.org/docs/stable/index.html#pytorch-documentation \"Link to this heading\")",
+        "Indices and tables[#](https://docs.pytorch.org/docs/stable/index.html#indices-and-tables \"Link to this heading\")",
+        "Docs",
+        "Tutorials",
+        "Resources"
+      ]
+    }
+  ]
+}

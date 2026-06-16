@@ -1,0 +1,35 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "reactrouter-docs",
+  "skill_graph_version": "1.0.1",
+  "built_at": "2026-06-16T01:34:14Z",
+  "builder_version": "0.47.1",
+  "kg_ingested": true,
+  "kg_manifest": null,
+  "kg_ontology": "agent-utilities",
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://reactrouter.com/en/main",
+      "options": {
+        "max_depth": 2
+      },
+      "extractor": "crawl4ai",
+      "fetched_at": "2026-06-16T01:32:52Z",
+      "content_hash": "sha256:0f944c2d78fbd89b53a8fe4c2857659d8e25e159f26206f21f8af4a1c6bbe739",
+      "doc_count": 1
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/en_main.md",
+      "sha256": "sha256:12122d1f86fb68fd9290e137fff9beaa59f8f90683cce6461bb0cf4065d02437",
+      "bytes": 1840
+    }
+  ],
+  "stats": {
+    "file_count": 1,
+    "source_count": 1
+  }
+}

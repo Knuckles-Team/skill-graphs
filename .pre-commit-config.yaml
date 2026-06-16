@@ -114,3 +114,9 @@ repos:
     language: python
     pass_filenames: false
     always_run: true
+  - id: validate-skill-graphs
+    name: Skill-graph contract gate
+    entry: python scripts/validate_skill_graphs.py
+    language: python
+    pass_filenames: false
+    always_run: true
