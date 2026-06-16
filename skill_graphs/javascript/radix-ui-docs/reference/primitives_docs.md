@@ -2,6 +2,7 @@
 [Radix Homepage](https://www.radix-ui.com/)
 [ThemesThemes](https://www.radix-ui.com/)[PrimitivesPrimitives](https://www.radix-ui.com/primitives)[IconsIcons](https://www.radix-ui.com/icons)[ColorsColors](https://www.radix-ui.com/colors)
 [Documentation](https://www.radix-ui.com/primitives/docs)[Case studies](https://www.radix-ui.com/primitives/case-studies)[Blog](https://www.radix-ui.com/blog)
+Search
 `/`
 #### Overview
 [Introduction](https://www.radix-ui.com/primitives/docs/overview/introduction)[Getting started](https://www.radix-ui.com/primitives/docs/overview/getting-started)[Accessibility](https://www.radix-ui.com/primitives/docs/overview/accessibility)[Releases](https://www.radix-ui.com/primitives/docs/overview/releases)
@@ -33,56 +34,38 @@ Where applicable, components are uncontrolled by default but can also be control
 One of our main goals is to provide the best possible developer experience. Radix Primitives provides a fully-typed API. All components share a similar API, creating a consistent and predictable experience. We've also implemented an `asChild` prop, giving users full control over the rendered element.
 ### [Incremental adoption](https://www.radix-ui.com/primitives/docs/overview/introduction#incremental-adoption)
 We recommend installing the `radix-ui` package and importing the primitives you need. This is the simplest way to get started, prevent version conflicts or duplication, and makes it easy to manage updates. The package is tree-shakeable, so you should only ship the components you use.
-```
 
+```
 
 npm install radix-ui
 
-
 ```
 
 ```
-
 
 import { Dialog, DropdownMenu, Tooltip } from "radix-ui";
-
 
 ```
 
 Alternatively, each primitive can be installed individually:
-```
 
+```
 
 npm install @radix-ui/react-dialog
 
-
-
-
 npm install @radix-ui/react-dropdown-menu
-
-
-
 
 npm install @radix-ui/react-tooltip
 
-
 ```
 
 ```
-
 
 import * as Dialog from "@radix-ui/react-dialog";
 
-
-
-
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 
-
-
-
 import * as Tooltip from "@radix-ui/react-tooltip";
-
 
 ```
 
@@ -101,6 +84,5 @@ To file issues, request features, and contribute, check out our GitHub.
   * [Developer experience](https://www.radix-ui.com/primitives/docs/overview/introduction#developer-experience)
   * [Incremental adoption](https://www.radix-ui.com/primitives/docs/overview/introduction#incremental-adoption)
   * [Community](https://www.radix-ui.com/primitives/docs/overview/introduction#community)
-
 
 Next[Getting started](https://www.radix-ui.com/primitives/docs/overview/getting-started)

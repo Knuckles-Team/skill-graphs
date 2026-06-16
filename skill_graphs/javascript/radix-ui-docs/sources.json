@@ -1,0 +1,265 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "radix-ui-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-06-16T12:11:29Z",
+  "builder_version": "0.49.0",
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://www.radix-ui.com/primitives/docs/components",
+      "options": {
+        "max_depth": 2
+      },
+      "extractor": "crawl4ai",
+      "fetched_at": "2026-06-16T12:11:29Z",
+      "content_hash": "sha256:74227412e2a160aa89732e124b7a640ad2895d08a66592a4acf9494313a99137",
+      "doc_count": 46
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/accordion.md",
+      "sha256": "sha256:9448c096ac1a8ae6a21ddc48484bb500e1a750c076bdc305ea67e8806e9f7ccb",
+      "bytes": 16892
+    },
+    {
+      "path": "reference/alert-dialog.md",
+      "sha256": "sha256:e18a66bdf511c99ddd103bd267cc993cbdaa7d727257789576083d126a39b90c",
+      "bytes": 13611
+    },
+    {
+      "path": "reference/aspect-ratio.md",
+      "sha256": "sha256:5b23ac195aacb6221acbc78669f928218ef6b927fdab8374125bf88c7842f291",
+      "bytes": 5708
+    },
+    {
+      "path": "reference/avatar.md",
+      "sha256": "sha256:573a79ff18451b97a86791333e426cea1193a3095249c4c9a64559c0dcabd65e",
+      "bytes": 8496
+    },
+    {
+      "path": "reference/checkbox.md",
+      "sha256": "sha256:9c9ec80689d8260a2c8da81ad44ecf17210bc6bdf084292f3d85ba4377a1a7f5",
+      "bytes": 8920
+    },
+    {
+      "path": "reference/collapsible.md",
+      "sha256": "sha256:596a1446405473a224ec36cb6b4b22bb2c0b860d368f47b14a8df774589c4e78",
+      "bytes": 10058
+    },
+    {
+      "path": "reference/context-menu.md",
+      "sha256": "sha256:6e1472b013eca0419c6949256f8f394463fbba617830e2451faa469b712a6b0c",
+      "bytes": 33316
+    },
+    {
+      "path": "reference/dialog.md",
+      "sha256": "sha256:65a3a5dfeaea995630cc054ac44ef6382a65b8b8298566bd5912bc3428dbcbd8",
+      "bytes": 16241
+    },
+    {
+      "path": "reference/dropdown-menu.md",
+      "sha256": "sha256:5c149fcf447f9940565ffe5522393a3b07f393a518998a3de9a6f79e2177f188",
+      "bytes": 38246
+    },
+    {
+      "path": "reference/form.md",
+      "sha256": "sha256:777d4174b85b9d64804914476a9e4313d31d19a060ff5bff2e0bcd115fdc82c6",
+      "bytes": 18983
+    },
+    {
+      "path": "reference/hover-card.md",
+      "sha256": "sha256:3094f2dddba52d4832879c787a5f59ff29b3ba7d7a278bf315aa11e449841f06",
+      "bytes": 15402
+    },
+    {
+      "path": "reference/label.md",
+      "sha256": "sha256:5b066cbc9ef48444815a50368405a2f58a762d51bbb16c288b84bf00fe3c37b2",
+      "bytes": 6091
+    },
+    {
+      "path": "reference/menubar.md",
+      "sha256": "sha256:200ffa153e3ffda4ebd7d299931d9c614fb1ec6e6f71fcf04d9b65adc598f791",
+      "bytes": 36304
+    },
+    {
+      "path": "reference/navigation-menu.md",
+      "sha256": "sha256:26161c7f10972c341b291f4b95f8369d1a96251495c941114d68d27cc2daba33",
+      "bytes": 28114
+    },
+    {
+      "path": "reference/one-time-password-field.md",
+      "sha256": "sha256:3bdb8c24b6b35e21b37847b9a1090ef476ca0d76add5b0c95cfeba551e55dfa1",
+      "bytes": 14680
+    },
+    {
+      "path": "reference/password-toggle-field.md",
+      "sha256": "sha256:870c24524ea313ce54fa9b867f615b52cb5188864c280306be2dac47c97e056b",
+      "bytes": 9996
+    },
+    {
+      "path": "reference/popover.md",
+      "sha256": "sha256:2df4f64ae2bdc0eab1399d99a5d882b00e8ced06ca8943884b5b15710314e9e6",
+      "bytes": 18255
+    },
+    {
+      "path": "reference/primitives_case-studies.md",
+      "sha256": "sha256:51258ea1df16daddcbe71e44dc7eb005ad4eab095cdae678def3c6347478e668",
+      "bytes": 2536
+    },
+    {
+      "path": "reference/primitives_docs.md",
+      "sha256": "sha256:4ffc662d29fcff4c7882307085b1f6ed3911f390bb777163df02dd7bf40bd068",
+      "bytes": 8881
+    },
+    {
+      "path": "reference/primitives_docs_components.md",
+      "sha256": "sha256:d9796d9e5d114860354e7531f22b1589adf033ccf3fefc44f0c2ec8eedfdc18e",
+      "bytes": 8667
+    },
+    {
+      "path": "reference/primitives_docs_guides_animation.md",
+      "sha256": "sha256:b3347740a02500d2258c93d0b701c2cd710991b99626f48e2181294d4b1619fb",
+      "bytes": 7015
+    },
+    {
+      "path": "reference/primitives_docs_guides_composition.md",
+      "sha256": "sha256:36c0e8126ffdd0eeb36d415715e83618fca7a84d761ff5cc371bc12576c643cf",
+      "bytes": 9315
+    },
+    {
+      "path": "reference/primitives_docs_guides_server-side-rendering.md",
+      "sha256": "sha256:7303642dceabb0d87ddc9c4d949b84ad5dba9068be80094320f76fd19fbcdb2b",
+      "bytes": 5011
+    },
+    {
+      "path": "reference/primitives_docs_guides_styling.md",
+      "sha256": "sha256:c66b2b45d042ebea7d2427b2c474c7ff2f18e6e8a3b2be8de7c2fb1c5aa86395",
+      "bytes": 9119
+    },
+    {
+      "path": "reference/primitives_docs_overview_accessibility.md",
+      "sha256": "sha256:4ea1eedca7998bbb307b01d47c606c1836883b4b298b751b5baf075aab4d2acb",
+      "bytes": 7504
+    },
+    {
+      "path": "reference/primitives_docs_overview_getting-started.md",
+      "sha256": "sha256:5eb269115593dfa9211378a143f5dd0a6b95875d22aa0e26b9cbfc87356e5382",
+      "bytes": 7936
+    },
+    {
+      "path": "reference/primitives_docs_overview_releases/primitives_docs_overview_releases_pt1.md",
+      "sha256": "sha256:fc74243180f411a13d909c46070e2f7845e62de2cb9b581cdf80d3dee185e023",
+      "bytes": 25626
+    },
+    {
+      "path": "reference/primitives_docs_overview_releases/primitives_docs_overview_releases_pt2.md",
+      "sha256": "sha256:618e0d40bc8dc0837f5dbdc39479c9eaf26cf6faf32a62ae45104f13b70d9420",
+      "bytes": 25608
+    },
+    {
+      "path": "reference/primitives_docs_overview_releases/primitives_docs_overview_releases_pt3.md",
+      "sha256": "sha256:ea6eb1a357794f6f767a821dbeaf47f92d0cef8edc7b392c4332a0a07cf6258a",
+      "bytes": 9789
+    },
+    {
+      "path": "reference/primitives_docs_utilities_accessible-icon.md",
+      "sha256": "sha256:daa436e1fb2e4d766086927213ea15f63e9a9fbc022ea4ecae1504968e020d2a",
+      "bytes": 5709
+    },
+    {
+      "path": "reference/primitives_docs_utilities_direction-provider.md",
+      "sha256": "sha256:2a0ea5e9f846fa9964f4b7aaf39d56442d554628c5c1152160a91a11a0fa41fd",
+      "bytes": 5685
+    },
+    {
+      "path": "reference/primitives_docs_utilities_portal.md",
+      "sha256": "sha256:cb6e18d85ee51fb4faad1b77d59e1ab0eea85abb3541f1d8d589a806b5b1c199",
+      "bytes": 5646
+    },
+    {
+      "path": "reference/primitives_docs_utilities_slot.md",
+      "sha256": "sha256:2d5333d03ee707a014b9902a7a9bc479a23e22b7f4050e935bc7901522f9f22e",
+      "bytes": 6541
+    },
+    {
+      "path": "reference/primitives_docs_utilities_visually-hidden.md",
+      "sha256": "sha256:dea8b4a6e00bd48d50906e81b829363873154347d43aee70de5fadfa6970f7d4",
+      "bytes": 5853
+    },
+    {
+      "path": "reference/progress.md",
+      "sha256": "sha256:3f886f7e03de60f111d3401295739f6715dba1e762e2c23458aeb7b59a55265b",
+      "bytes": 6962
+    },
+    {
+      "path": "reference/radio-group.md",
+      "sha256": "sha256:01550d0daa775cbca60aa73cf8da74698ac3a0541048d5652f8c3071bda16e34",
+      "bytes": 9660
+    },
+    {
+      "path": "reference/scroll-area.md",
+      "sha256": "sha256:3b82c9097518dba524a4bd0a55a2ea1c3f4cb0e446e2f5c4df071a962264834c",
+      "bytes": 10429
+    },
+    {
+      "path": "reference/select.md",
+      "sha256": "sha256:38bc0e02641f3f2379b7cea664f7a8c50bdea23cab94fa8255760cf5f7382c24",
+      "bytes": 31307
+    },
+    {
+      "path": "reference/separator.md",
+      "sha256": "sha256:e3185494ec1557e14fd6ee8d38a2706ab0445819efa8fe45e8949b9c7718d1a5",
+      "bytes": 6509
+    },
+    {
+      "path": "reference/slider.md",
+      "sha256": "sha256:c23ca026179d91a79e9561e41ac204c1b41bec63d614f0b37dcb4635fbe6b42e",
+      "bytes": 14400
+    },
+    {
+      "path": "reference/switch.md",
+      "sha256": "sha256:50a8b250ae96c64da0cbe3c7ec9a7a63b9089caef52153ede84e18adcb6fc86a",
+      "bytes": 7472
+    },
+    {
+      "path": "reference/tabs.md",
+      "sha256": "sha256:7b9ca02589753af9d351c5dc1fe7fe3be8d427e0a00946fc5c685178bcd5f984",
+      "bytes": 12031
+    },
+    {
+      "path": "reference/toast.md",
+      "sha256": "sha256:5126a95bf3c80660d546440cee8b37012157f1e9443c86a95e1947482db21c8e",
+      "bytes": 21032
+    },
+    {
+      "path": "reference/toggle-group.md",
+      "sha256": "sha256:7dbdaa5413d1b8055f106847de43152b44dbcbc7e38584b2cd787ca17c2676a4",
+      "bytes": 9787
+    },
+    {
+      "path": "reference/toggle.md",
+      "sha256": "sha256:40964f88cf0033426e9cef37aa38e9481ffe6fb749a2eccc5d8e089cffe2d9ac",
+      "bytes": 6319
+    },
+    {
+      "path": "reference/toolbar.md",
+      "sha256": "sha256:056340bb08c3e93f771d139812fe9344ad7f8fc69cd4e56ae20e032fd97a69c3",
+      "bytes": 12459
+    },
+    {
+      "path": "reference/tooltip.md",
+      "sha256": "sha256:d98a1c26c33c0f909f659bb5d13cb132c4a4f63db13741fb1a9b7a408c7bf612",
+      "bytes": 17493
+    }
+  ],
+  "stats": {
+    "file_count": 47,
+    "source_count": 1
+  }
+}

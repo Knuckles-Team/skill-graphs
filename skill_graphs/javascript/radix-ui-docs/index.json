@@ -1,0 +1,840 @@
+{
+  "schema": "skill-graph-index/v1",
+  "name": "radix-ui-docs",
+  "skill_graph_version": "1.0.0",
+  "kg_ingested": false,
+  "kg_domain": "skillgraph:radix-ui-docs",
+  "concepts": [],
+  "source_url": "https://www.radix-ui.com/primitives/docs/components",
+  "file_count": 47,
+  "groups": {
+    ".": 44,
+    "primitives_docs_overview_releases": 3
+  },
+  "sections": [
+    {
+      "path": "reference/accordion.md",
+      "title": "Accordion",
+      "group": ".",
+      "bytes": 16892,
+      "headings": [
+        "Accordion",
+        "Is it accessible?",
+        "Is it unstyled?",
+        "Can it be animated?",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/accordion#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/accordion#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/accordion#root)",
+        "[Item](https://www.radix-ui.com/primitives/docs/components/accordion#item)",
+        "[Header](https://www.radix-ui.com/primitives/docs/components/accordion#header)",
+        "[Trigger](https://www.radix-ui.com/primitives/docs/components/accordion#trigger)"
+      ]
+    },
+    {
+      "path": "reference/alert-dialog.md",
+      "title": "Alert Dialog",
+      "group": ".",
+      "bytes": 13611,
+      "headings": [
+        "Alert Dialog",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/alert-dialog#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/alert-dialog#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/alert-dialog#root)",
+        "[Trigger](https://www.radix-ui.com/primitives/docs/components/alert-dialog#trigger)",
+        "[Portal](https://www.radix-ui.com/primitives/docs/components/alert-dialog#portal)",
+        "[Overlay](https://www.radix-ui.com/primitives/docs/components/alert-dialog#overlay)",
+        "[Content](https://www.radix-ui.com/primitives/docs/components/alert-dialog#content)",
+        "[Cancel](https://www.radix-ui.com/primitives/docs/components/alert-dialog#cancel)",
+        "[Action](https://www.radix-ui.com/primitives/docs/components/alert-dialog#action)"
+      ]
+    },
+    {
+      "path": "reference/aspect-ratio.md",
+      "title": "Aspect Ratio",
+      "group": ".",
+      "bytes": 5708,
+      "headings": [
+        "Aspect Ratio",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/aspect-ratio#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/aspect-ratio#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/aspect-ratio#root)"
+      ]
+    },
+    {
+      "path": "reference/avatar.md",
+      "title": "Avatar",
+      "group": ".",
+      "bytes": 8496,
+      "headings": [
+        "Avatar",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/avatar#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/avatar#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/avatar#root)",
+        "[Image](https://www.radix-ui.com/primitives/docs/components/avatar#image)",
+        "[Fallback](https://www.radix-ui.com/primitives/docs/components/avatar#fallback)",
+        "[Examples](https://www.radix-ui.com/primitives/docs/components/avatar#examples)",
+        "[Clickable Avatar with tooltip](https://www.radix-ui.com/primitives/docs/components/avatar#clickable-avatar-with-tooltip)"
+      ]
+    },
+    {
+      "path": "reference/checkbox.md",
+      "title": "Checkbox",
+      "group": ".",
+      "bytes": 8920,
+      "headings": [
+        "Checkbox",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/checkbox#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/checkbox#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/checkbox#root)",
+        "[Indicator](https://www.radix-ui.com/primitives/docs/components/checkbox#indicator)",
+        "[Examples](https://www.radix-ui.com/primitives/docs/components/checkbox#examples)",
+        "[Indeterminate](https://www.radix-ui.com/primitives/docs/components/checkbox#indeterminate)",
+        "[Accessibility](https://www.radix-ui.com/primitives/docs/components/checkbox#accessibility)",
+        "[Keyboard Interactions](https://www.radix-ui.com/primitives/docs/components/checkbox#keyboard-interactions)"
+      ]
+    },
+    {
+      "path": "reference/collapsible.md",
+      "title": "Collapsible",
+      "group": ".",
+      "bytes": 10058,
+      "headings": [
+        "Collapsible",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/collapsible#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/collapsible#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/collapsible#root)",
+        "[Trigger](https://www.radix-ui.com/primitives/docs/components/collapsible#trigger)",
+        "[Content](https://www.radix-ui.com/primitives/docs/components/collapsible#content)",
+        "[Examples](https://www.radix-ui.com/primitives/docs/components/collapsible#examples)",
+        "[Animating content size](https://www.radix-ui.com/primitives/docs/components/collapsible#animating-content-size)",
+        "[Accessibility](https://www.radix-ui.com/primitives/docs/components/collapsible#accessibility)",
+        "[Keyboard Interactions](https://www.radix-ui.com/primitives/docs/components/collapsible#keyboard-interactions)"
+      ]
+    },
+    {
+      "path": "reference/context-menu.md",
+      "title": "Context Menu",
+      "group": ".",
+      "bytes": 33316,
+      "headings": [
+        "Context Menu",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/context-menu#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/context-menu#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/context-menu#root)",
+        "[Trigger](https://www.radix-ui.com/primitives/docs/components/context-menu#trigger)",
+        "[Portal](https://www.radix-ui.com/primitives/docs/components/context-menu#portal)",
+        "[Content](https://www.radix-ui.com/primitives/docs/components/context-menu#content)",
+        "[Arrow](https://www.radix-ui.com/primitives/docs/components/context-menu#arrow)",
+        "[Item](https://www.radix-ui.com/primitives/docs/components/context-menu#item)",
+        "[Group](https://www.radix-ui.com/primitives/docs/components/context-menu#group)"
+      ]
+    },
+    {
+      "path": "reference/dialog.md",
+      "title": "Dialog",
+      "group": ".",
+      "bytes": 16241,
+      "headings": [
+        "Dialog",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/dialog#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/dialog#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/dialog#root)",
+        "[Trigger](https://www.radix-ui.com/primitives/docs/components/dialog#trigger)",
+        "[Portal](https://www.radix-ui.com/primitives/docs/components/dialog#portal)",
+        "[Overlay](https://www.radix-ui.com/primitives/docs/components/dialog#overlay)",
+        "[Content](https://www.radix-ui.com/primitives/docs/components/dialog#content)",
+        "[Close](https://www.radix-ui.com/primitives/docs/components/dialog#close)",
+        "[Title](https://www.radix-ui.com/primitives/docs/components/dialog#title)"
+      ]
+    },
+    {
+      "path": "reference/dropdown-menu.md",
+      "title": "Dropdown Menu",
+      "group": ".",
+      "bytes": 38246,
+      "headings": [
+        "Dropdown Menu",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/dropdown-menu#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/dropdown-menu#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/dropdown-menu#root)",
+        "[Trigger](https://www.radix-ui.com/primitives/docs/components/dropdown-menu#trigger)",
+        "[Portal](https://www.radix-ui.com/primitives/docs/components/dropdown-menu#portal)",
+        "[Content](https://www.radix-ui.com/primitives/docs/components/dropdown-menu#content)",
+        "[Arrow](https://www.radix-ui.com/primitives/docs/components/dropdown-menu#arrow)",
+        "[Item](https://www.radix-ui.com/primitives/docs/components/dropdown-menu#item)",
+        "[Group](https://www.radix-ui.com/primitives/docs/components/dropdown-menu#group)"
+      ]
+    },
+    {
+      "path": "reference/form.md",
+      "title": "Form",
+      "group": ".",
+      "bytes": 18983,
+      "headings": [
+        "Form",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/form#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/form#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/form#root)",
+        "[Field](https://www.radix-ui.com/primitives/docs/components/form#field)",
+        "[Label](https://www.radix-ui.com/primitives/docs/components/form#label)",
+        "[Control](https://www.radix-ui.com/primitives/docs/components/form#control)",
+        "[Message](https://www.radix-ui.com/primitives/docs/components/form#message)",
+        "[ValidityState](https://www.radix-ui.com/primitives/docs/components/form#validitystate)",
+        "[Submit](https://www.radix-ui.com/primitives/docs/components/form#submit)"
+      ]
+    },
+    {
+      "path": "reference/hover-card.md",
+      "title": "Hover Card",
+      "group": ".",
+      "bytes": 15402,
+      "headings": [
+        "Hover Card",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/hover-card#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/hover-card#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/hover-card#root)",
+        "[Trigger](https://www.radix-ui.com/primitives/docs/components/hover-card#trigger)",
+        "[Portal](https://www.radix-ui.com/primitives/docs/components/hover-card#portal)",
+        "[Content](https://www.radix-ui.com/primitives/docs/components/hover-card#content)",
+        "[Arrow](https://www.radix-ui.com/primitives/docs/components/hover-card#arrow)",
+        "[Examples](https://www.radix-ui.com/primitives/docs/components/hover-card#examples)",
+        "[Show instantly](https://www.radix-ui.com/primitives/docs/components/hover-card#show-instantly)"
+      ]
+    },
+    {
+      "path": "reference/label.md",
+      "title": "Label",
+      "group": ".",
+      "bytes": 6091,
+      "headings": [
+        "Label",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/label#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/label#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/label#root)",
+        "[Accessibility](https://www.radix-ui.com/primitives/docs/components/label#accessibility)"
+      ]
+    },
+    {
+      "path": "reference/menubar.md",
+      "title": "Menu Bar",
+      "group": ".",
+      "bytes": 36304,
+      "headings": [
+        "Menu Bar",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/menubar#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/menubar#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/menubar#root)",
+        "[Menu](https://www.radix-ui.com/primitives/docs/components/menubar#menu)",
+        "[Trigger](https://www.radix-ui.com/primitives/docs/components/menubar#trigger)",
+        "[Portal](https://www.radix-ui.com/primitives/docs/components/menubar#portal)",
+        "[Content](https://www.radix-ui.com/primitives/docs/components/menubar#content)",
+        "[Arrow](https://www.radix-ui.com/primitives/docs/components/menubar#arrow)",
+        "[Item](https://www.radix-ui.com/primitives/docs/components/menubar#item)"
+      ]
+    },
+    {
+      "path": "reference/navigation-menu.md",
+      "title": "Navigation Menu",
+      "group": ".",
+      "bytes": 28114,
+      "headings": [
+        "Navigation Menu",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/navigation-menu#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/navigation-menu#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/navigation-menu#root)",
+        "[Sub](https://www.radix-ui.com/primitives/docs/components/navigation-menu#sub)",
+        "[List](https://www.radix-ui.com/primitives/docs/components/navigation-menu#list)",
+        "[Item](https://www.radix-ui.com/primitives/docs/components/navigation-menu#item)",
+        "[Trigger](https://www.radix-ui.com/primitives/docs/components/navigation-menu#trigger)",
+        "[Content](https://www.radix-ui.com/primitives/docs/components/navigation-menu#content)",
+        "[Link](https://www.radix-ui.com/primitives/docs/components/navigation-menu#link)"
+      ]
+    },
+    {
+      "path": "reference/one-time-password-field.md",
+      "title": "One-Time Password Field",
+      "group": ".",
+      "bytes": 14680,
+      "headings": [
+        "One-Time Password Field",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/one-time-password-field#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/one-time-password-field#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/one-time-password-field#root)",
+        "[Input](https://www.radix-ui.com/primitives/docs/components/one-time-password-field#input)",
+        "[HiddenInput](https://www.radix-ui.com/primitives/docs/components/one-time-password-field#hiddeninput)",
+        "[Examples](https://www.radix-ui.com/primitives/docs/components/one-time-password-field#examples)",
+        "[Basic usage](https://www.radix-ui.com/primitives/docs/components/one-time-password-field#basic-usage)",
+        "[Segmented controls](https://www.radix-ui.com/primitives/docs/components/one-time-password-field#segmented-controls)",
+        "[Auto-submit form when password is entered](https://www.radix-ui.com/primitives/docs/components/one-time-password-field#auto-submit-form-when-password-is-entered)"
+      ]
+    },
+    {
+      "path": "reference/password-toggle-field.md",
+      "title": "Password Toggle Field",
+      "group": ".",
+      "bytes": 9996,
+      "headings": [
+        "Password Toggle Field",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/password-toggle-field#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/password-toggle-field#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/password-toggle-field#root)",
+        "[Input](https://www.radix-ui.com/primitives/docs/components/password-toggle-field#input)",
+        "[Toggle](https://www.radix-ui.com/primitives/docs/components/password-toggle-field#toggle)",
+        "[Slot](https://www.radix-ui.com/primitives/docs/components/password-toggle-field#slot)",
+        "[Icon](https://www.radix-ui.com/primitives/docs/components/password-toggle-field#icon)",
+        "[Examples](https://www.radix-ui.com/primitives/docs/components/password-toggle-field#examples)",
+        "[Basic usage](https://www.radix-ui.com/primitives/docs/components/password-toggle-field#basic-usage)"
+      ]
+    },
+    {
+      "path": "reference/popover.md",
+      "title": "Popover",
+      "group": ".",
+      "bytes": 18255,
+      "headings": [
+        "Popover",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/popover#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/popover#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/popover#root)",
+        "[Trigger](https://www.radix-ui.com/primitives/docs/components/popover#trigger)",
+        "[Anchor](https://www.radix-ui.com/primitives/docs/components/popover#anchor)",
+        "[Portal](https://www.radix-ui.com/primitives/docs/components/popover#portal)",
+        "[Content](https://www.radix-ui.com/primitives/docs/components/popover#content)",
+        "[Arrow](https://www.radix-ui.com/primitives/docs/components/popover#arrow)",
+        "[Close](https://www.radix-ui.com/primitives/docs/components/popover#close)"
+      ]
+    },
+    {
+      "path": "reference/primitives_case-studies.md",
+      "title": "Case studies",
+      "group": ".",
+      "bytes": 2536,
+      "headings": [
+        "Case studies",
+        "Do you use Radix at your company?"
+      ]
+    },
+    {
+      "path": "reference/primitives_docs.md",
+      "title": "Introduction",
+      "group": ".",
+      "bytes": 8881,
+      "headings": [
+        "Introduction",
+        "[Vision](https://www.radix-ui.com/primitives/docs/overview/introduction#vision)",
+        "[Key Features](https://www.radix-ui.com/primitives/docs/overview/introduction#key-features)",
+        "[Accessible](https://www.radix-ui.com/primitives/docs/overview/introduction#accessible)",
+        "[Unstyled](https://www.radix-ui.com/primitives/docs/overview/introduction#unstyled)",
+        "[Opened](https://www.radix-ui.com/primitives/docs/overview/introduction#opened)",
+        "[Uncontrolled](https://www.radix-ui.com/primitives/docs/overview/introduction#uncontrolled)",
+        "[Developer experience](https://www.radix-ui.com/primitives/docs/overview/introduction#developer-experience)",
+        "[Incremental adoption](https://www.radix-ui.com/primitives/docs/overview/introduction#incremental-adoption)",
+        "[Community](https://www.radix-ui.com/primitives/docs/overview/introduction#community)"
+      ]
+    },
+    {
+      "path": "reference/primitives_docs_components.md",
+      "title": "Components",
+      "group": ".",
+      "bytes": 8667,
+      "headings": [
+        "Components"
+      ]
+    },
+    {
+      "path": "reference/primitives_docs_guides_animation.md",
+      "title": "Animation",
+      "group": ".",
+      "bytes": 7015,
+      "headings": [
+        "Animation",
+        "[Animating with CSS animation](https://www.radix-ui.com/primitives/docs/guides/animation#animating-with-css-animation)",
+        "[Delegating unmounting for JavaScript Animation](https://www.radix-ui.com/primitives/docs/guides/animation#delegating-unmounting-for-javascript-animation)"
+      ]
+    },
+    {
+      "path": "reference/primitives_docs_guides_composition.md",
+      "title": "Composition",
+      "group": ".",
+      "bytes": 9315,
+      "headings": [
+        "Composition",
+        "[Changing the element type](https://www.radix-ui.com/primitives/docs/guides/composition#changing-the-element-type)",
+        "[Composing with your own React components](https://www.radix-ui.com/primitives/docs/guides/composition#composing-with-your-own-react-components)",
+        "[Your component must spread props](https://www.radix-ui.com/primitives/docs/guides/composition#your-component-must-spread-props)",
+        "[Your component must forward ref](https://www.radix-ui.com/primitives/docs/guides/composition#your-component-must-forward-ref)",
+        "[Composing multiple primitives](https://www.radix-ui.com/primitives/docs/guides/composition#composing-multiple-primitives)"
+      ]
+    },
+    {
+      "path": "reference/primitives_docs_guides_server-side-rendering.md",
+      "title": "Server-side rendering",
+      "group": ".",
+      "bytes": 5011,
+      "headings": [
+        "Server-side rendering",
+        "[Overview](https://www.radix-ui.com/primitives/docs/guides/server-side-rendering#overview)",
+        "[Gotcha](https://www.radix-ui.com/primitives/docs/guides/server-side-rendering#gotcha)"
+      ]
+    },
+    {
+      "path": "reference/primitives_docs_guides_styling.md",
+      "title": "Styling",
+      "group": ".",
+      "bytes": 9119,
+      "headings": [
+        "Styling",
+        "[Styling overview](https://www.radix-ui.com/primitives/docs/guides/styling#styling-overview)",
+        "[Functional styles](https://www.radix-ui.com/primitives/docs/guides/styling#functional-styles)",
+        "[Classes](https://www.radix-ui.com/primitives/docs/guides/styling#classes)",
+        "[Data attributes](https://www.radix-ui.com/primitives/docs/guides/styling#data-attributes)",
+        "[Styling with CSS](https://www.radix-ui.com/primitives/docs/guides/styling#styling-with-css)",
+        "[Styling a part](https://www.radix-ui.com/primitives/docs/guides/styling#styling-a-part)",
+        "[Styling a state](https://www.radix-ui.com/primitives/docs/guides/styling#styling-a-state)",
+        "[Styling with CSS-in-JS](https://www.radix-ui.com/primitives/docs/guides/styling#styling-with-css-in-js)",
+        "[Styling a part](https://www.radix-ui.com/primitives/docs/guides/styling#styling-a-part-1)",
+        "[Styling a state](https://www.radix-ui.com/primitives/docs/guides/styling#styling-a-state-1)",
+        "[Extending a primitive](https://www.radix-ui.com/primitives/docs/guides/styling#extending-a-primitive)"
+      ]
+    },
+    {
+      "path": "reference/primitives_docs_overview_accessibility.md",
+      "title": "Accessibility",
+      "group": ".",
+      "bytes": 7504,
+      "headings": [
+        "Accessibility",
+        "[WAI-ARIA](https://www.radix-ui.com/primitives/docs/overview/accessibility#wai-aria)",
+        "[Accessible Labels](https://www.radix-ui.com/primitives/docs/overview/accessibility#accessible-labels)",
+        "[Keyboard Navigation](https://www.radix-ui.com/primitives/docs/overview/accessibility#keyboard-navigation)",
+        "[Focus Management](https://www.radix-ui.com/primitives/docs/overview/accessibility#focus-management)"
+      ]
+    },
+    {
+      "path": "reference/primitives_docs_overview_getting-started.md",
+      "title": "Getting started",
+      "group": ".",
+      "bytes": 7936,
+      "headings": [
+        "Getting started",
+        "[Implementing a Popover](https://www.radix-ui.com/primitives/docs/overview/getting-started#implementing-a-popover)",
+        "[1. Install the primitive](https://www.radix-ui.com/primitives/docs/overview/getting-started#1-install-the-primitive)",
+        "[2. Import the parts](https://www.radix-ui.com/primitives/docs/overview/getting-started#2-import-the-parts)",
+        "[3. Add your styles](https://www.radix-ui.com/primitives/docs/overview/getting-started#3-add-your-styles)",
+        "[Demo](https://www.radix-ui.com/primitives/docs/overview/getting-started#demo)",
+        "[Summary](https://www.radix-ui.com/primitives/docs/overview/getting-started#summary)"
+      ]
+    },
+    {
+      "path": "reference/primitives_docs_overview_releases/primitives_docs_overview_releases_pt1.md",
+      "title": "Releases",
+      "group": "primitives_docs_overview_releases",
+      "bytes": 25626,
+      "headings": [
+        "Releases",
+        "[June 6, 2026](https://www.radix-ui.com/primitives/docs/overview/releases#june-6-2026)",
+        "[Context Menu](https://www.radix-ui.com/primitives/docs/overview/releases#context-menu)",
+        "[New unstable composition parts](https://www.radix-ui.com/primitives/docs/overview/releases#new-unstable-composition-parts)",
+        "[Select](https://www.radix-ui.com/primitives/docs/overview/releases#select)",
+        "[Slider](https://www.radix-ui.com/primitives/docs/overview/releases#slider)",
+        "[Slot](https://www.radix-ui.com/primitives/docs/overview/releases#slot)",
+        "[Dialog](https://www.radix-ui.com/primitives/docs/overview/releases#dialog)",
+        "[One-Time Password Field](https://www.radix-ui.com/primitives/docs/overview/releases#one-time-password-field)",
+        "[Tooltip](https://www.radix-ui.com/primitives/docs/overview/releases#tooltip)",
+        "[Other updates](https://www.radix-ui.com/primitives/docs/overview/releases#other-updates)",
+        "[August 13, 2025](https://www.radix-ui.com/primitives/docs/overview/releases#august-13-2025)"
+      ]
+    },
+    {
+      "path": "reference/primitives_docs_overview_releases/primitives_docs_overview_releases_pt2.md",
+      "title": "Dropdown Menu",
+      "group": "primitives_docs_overview_releases",
+      "bytes": 25608,
+      "headings": [
+        "Dropdown Menu",
+        "Hover Card",
+        "Menubar",
+        "Popover",
+        "Select",
+        "Tooltip",
+        "[December 14, 2022](https://www.radix-ui.com/primitives/docs/overview/releases#december-14-2022)",
+        "Context Menu",
+        "[November 15, 2022](https://www.radix-ui.com/primitives/docs/overview/releases#november-15-2022)",
+        "Select",
+        "[October 17, 2022](https://www.radix-ui.com/primitives/docs/overview/releases#october-17-2022)",
+        "Accordion"
+      ]
+    },
+    {
+      "path": "reference/primitives_docs_overview_releases/primitives_docs_overview_releases_pt3.md",
+      "title": "Hover Card",
+      "group": "primitives_docs_overview_releases",
+      "bytes": 9789,
+      "headings": [
+        "Hover Card",
+        "Popover",
+        "Radio Group",
+        "Switch",
+        "Toggle Group",
+        "Tooltip",
+        "[March 26, 2021](https://www.radix-ui.com/primitives/docs/overview/releases#march-26-2021)",
+        "All primitives",
+        "Context Menu",
+        "Dropdown Menu",
+        "Popover",
+        "Toggle"
+      ]
+    },
+    {
+      "path": "reference/primitives_docs_utilities_accessible-icon.md",
+      "title": "Accessible Icon",
+      "group": ".",
+      "bytes": 5709,
+      "headings": [
+        "Accessible Icon",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/utilities/accessible-icon#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/utilities/accessible-icon#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/utilities/accessible-icon#root)",
+        "[Accessibility](https://www.radix-ui.com/primitives/docs/utilities/accessible-icon#accessibility)"
+      ]
+    },
+    {
+      "path": "reference/primitives_docs_utilities_direction-provider.md",
+      "title": "Direction Provider",
+      "group": ".",
+      "bytes": 5685,
+      "headings": [
+        "Direction Provider",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/utilities/direction-provider#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/utilities/direction-provider#api-reference)",
+        "[Provider](https://www.radix-ui.com/primitives/docs/utilities/direction-provider#provider)",
+        "[Example](https://www.radix-ui.com/primitives/docs/utilities/direction-provider#example)"
+      ]
+    },
+    {
+      "path": "reference/primitives_docs_utilities_portal.md",
+      "title": "Portal",
+      "group": ".",
+      "bytes": 5646,
+      "headings": [
+        "Portal",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/utilities/portal#anatomy)",
+        "[Basic example](https://www.radix-ui.com/primitives/docs/utilities/portal#basic-example)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/utilities/portal#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/utilities/portal#root)"
+      ]
+    },
+    {
+      "path": "reference/primitives_docs_utilities_slot.md",
+      "title": "Slot",
+      "group": ".",
+      "bytes": 6541,
+      "headings": [
+        "Slot",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/utilities/slot#anatomy)",
+        "[Basic example](https://www.radix-ui.com/primitives/docs/utilities/slot#basic-example)",
+        "[Usage](https://www.radix-ui.com/primitives/docs/utilities/slot#usage)",
+        "[Event handlers](https://www.radix-ui.com/primitives/docs/utilities/slot#event-handlers)"
+      ]
+    },
+    {
+      "path": "reference/primitives_docs_utilities_visually-hidden.md",
+      "title": "Visually Hidden",
+      "group": ".",
+      "bytes": 5853,
+      "headings": [
+        "Visually Hidden",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/utilities/visually-hidden#anatomy)",
+        "[Basic example](https://www.radix-ui.com/primitives/docs/utilities/visually-hidden#basic-example)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/utilities/visually-hidden#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/utilities/visually-hidden#root)",
+        "[Accessibility](https://www.radix-ui.com/primitives/docs/utilities/visually-hidden#accessibility)"
+      ]
+    },
+    {
+      "path": "reference/progress.md",
+      "title": "Progress",
+      "group": ".",
+      "bytes": 6962,
+      "headings": [
+        "Progress",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/progress#anatomy)",
+        "[Accessibility](https://www.radix-ui.com/primitives/docs/components/progress#accessibility)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/progress#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/progress#root)",
+        "[Indicator](https://www.radix-ui.com/primitives/docs/components/progress#indicator)"
+      ]
+    },
+    {
+      "path": "reference/radio-group.md",
+      "title": "Radio Group",
+      "group": ".",
+      "bytes": 9660,
+      "headings": [
+        "Radio Group",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/radio-group#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/radio-group#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/radio-group#root)",
+        "[Item](https://www.radix-ui.com/primitives/docs/components/radio-group#item)",
+        "[Indicator](https://www.radix-ui.com/primitives/docs/components/radio-group#indicator)",
+        "[Accessibility](https://www.radix-ui.com/primitives/docs/components/radio-group#accessibility)",
+        "[Keyboard Interactions](https://www.radix-ui.com/primitives/docs/components/radio-group#keyboard-interactions)"
+      ]
+    },
+    {
+      "path": "reference/scroll-area.md",
+      "title": "Scroll Area",
+      "group": ".",
+      "bytes": 10429,
+      "headings": [
+        "Scroll Area",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/scroll-area#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/scroll-area#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/scroll-area#root)",
+        "[Viewport](https://www.radix-ui.com/primitives/docs/components/scroll-area#viewport)",
+        "[Scrollbar](https://www.radix-ui.com/primitives/docs/components/scroll-area#scrollbar)",
+        "[Thumb](https://www.radix-ui.com/primitives/docs/components/scroll-area#thumb)",
+        "[Corner](https://www.radix-ui.com/primitives/docs/components/scroll-area#corner)",
+        "[Accessibility](https://www.radix-ui.com/primitives/docs/components/scroll-area#accessibility)",
+        "[Keyboard Interactions](https://www.radix-ui.com/primitives/docs/components/scroll-area#keyboard-interactions)"
+      ]
+    },
+    {
+      "path": "reference/select.md",
+      "title": "Select",
+      "group": ".",
+      "bytes": 31307,
+      "headings": [
+        "Select",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/select#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/select#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/select#root)",
+        "[Trigger](https://www.radix-ui.com/primitives/docs/components/select#trigger)",
+        "[Value](https://www.radix-ui.com/primitives/docs/components/select#value)",
+        "[Icon](https://www.radix-ui.com/primitives/docs/components/select#icon)",
+        "[Portal](https://www.radix-ui.com/primitives/docs/components/select#portal)",
+        "[Content](https://www.radix-ui.com/primitives/docs/components/select#content)",
+        "[Viewport](https://www.radix-ui.com/primitives/docs/components/select#viewport)"
+      ]
+    },
+    {
+      "path": "reference/separator.md",
+      "title": "Separator",
+      "group": ".",
+      "bytes": 6509,
+      "headings": [
+        "Separator",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/separator#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/separator#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/separator#root)",
+        "[Accessibility](https://www.radix-ui.com/primitives/docs/components/separator#accessibility)"
+      ]
+    },
+    {
+      "path": "reference/slider.md",
+      "title": "Slider",
+      "group": ".",
+      "bytes": 14400,
+      "headings": [
+        "Slider",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/slider#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/slider#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/slider#root)",
+        "[Track](https://www.radix-ui.com/primitives/docs/components/slider#track)",
+        "[Range](https://www.radix-ui.com/primitives/docs/components/slider#range)",
+        "[Thumb](https://www.radix-ui.com/primitives/docs/components/slider#thumb)",
+        "[Examples](https://www.radix-ui.com/primitives/docs/components/slider#examples)",
+        "[Vertical orientation](https://www.radix-ui.com/primitives/docs/components/slider#vertical-orientation)",
+        "[Create a range](https://www.radix-ui.com/primitives/docs/components/slider#create-a-range)"
+      ]
+    },
+    {
+      "path": "reference/switch.md",
+      "title": "Switch",
+      "group": ".",
+      "bytes": 7472,
+      "headings": [
+        "Switch",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/switch#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/switch#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/switch#root)",
+        "[Thumb](https://www.radix-ui.com/primitives/docs/components/switch#thumb)",
+        "[Accessibility](https://www.radix-ui.com/primitives/docs/components/switch#accessibility)",
+        "[Keyboard Interactions](https://www.radix-ui.com/primitives/docs/components/switch#keyboard-interactions)"
+      ]
+    },
+    {
+      "path": "reference/tabs.md",
+      "title": "Tabs",
+      "group": ".",
+      "bytes": 12031,
+      "headings": [
+        "Tabs",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/tabs#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/tabs#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/tabs#root)",
+        "[List](https://www.radix-ui.com/primitives/docs/components/tabs#list)",
+        "[Trigger](https://www.radix-ui.com/primitives/docs/components/tabs#trigger)",
+        "[Content](https://www.radix-ui.com/primitives/docs/components/tabs#content)",
+        "[Examples](https://www.radix-ui.com/primitives/docs/components/tabs#examples)",
+        "[Vertical](https://www.radix-ui.com/primitives/docs/components/tabs#vertical)",
+        "[Accessibility](https://www.radix-ui.com/primitives/docs/components/tabs#accessibility)"
+      ]
+    },
+    {
+      "path": "reference/toast.md",
+      "title": "Toast",
+      "group": ".",
+      "bytes": 21032,
+      "headings": [
+        "Toast",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/toast#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/toast#api-reference)",
+        "[Provider](https://www.radix-ui.com/primitives/docs/components/toast#provider)",
+        "[Viewport](https://www.radix-ui.com/primitives/docs/components/toast#viewport)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/toast#root)",
+        "[Title](https://www.radix-ui.com/primitives/docs/components/toast#title)",
+        "[Description](https://www.radix-ui.com/primitives/docs/components/toast#description)",
+        "[Action](https://www.radix-ui.com/primitives/docs/components/toast#action)",
+        "[Close](https://www.radix-ui.com/primitives/docs/components/toast#close)"
+      ]
+    },
+    {
+      "path": "reference/toggle-group.md",
+      "title": "Toggle Group",
+      "group": ".",
+      "bytes": 9787,
+      "headings": [
+        "Toggle Group",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/toggle-group#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/toggle-group#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/toggle-group#root)",
+        "[Item](https://www.radix-ui.com/primitives/docs/components/toggle-group#item)",
+        "[Examples](https://www.radix-ui.com/primitives/docs/components/toggle-group#examples)",
+        "[Ensuring there is always a value](https://www.radix-ui.com/primitives/docs/components/toggle-group#ensuring-there-is-always-a-value)",
+        "[Accessibility](https://www.radix-ui.com/primitives/docs/components/toggle-group#accessibility)",
+        "[Keyboard Interactions](https://www.radix-ui.com/primitives/docs/components/toggle-group#keyboard-interactions)"
+      ]
+    },
+    {
+      "path": "reference/toggle.md",
+      "title": "Toggle",
+      "group": ".",
+      "bytes": 6319,
+      "headings": [
+        "Toggle",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/toggle#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/toggle#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/toggle#root)",
+        "[Accessibility](https://www.radix-ui.com/primitives/docs/components/toggle#accessibility)",
+        "[Keyboard Interactions](https://www.radix-ui.com/primitives/docs/components/toggle#keyboard-interactions)"
+      ]
+    },
+    {
+      "path": "reference/toolbar.md",
+      "title": "Toolbar",
+      "group": ".",
+      "bytes": 12459,
+      "headings": [
+        "Toolbar",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/toolbar#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/toolbar#api-reference)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/toolbar#root)",
+        "[Button](https://www.radix-ui.com/primitives/docs/components/toolbar#button)",
+        "[Link](https://www.radix-ui.com/primitives/docs/components/toolbar#link)",
+        "[ToggleGroup](https://www.radix-ui.com/primitives/docs/components/toolbar#togglegroup)",
+        "[ToggleItem](https://www.radix-ui.com/primitives/docs/components/toolbar#toggleitem)",
+        "[Separator](https://www.radix-ui.com/primitives/docs/components/toolbar#separator)",
+        "[Examples](https://www.radix-ui.com/primitives/docs/components/toolbar#examples)"
+      ]
+    },
+    {
+      "path": "reference/tooltip.md",
+      "title": "Tooltip",
+      "group": ".",
+      "bytes": 17493,
+      "headings": [
+        "Tooltip",
+        "Features",
+        "Component Reference Links",
+        "[Anatomy](https://www.radix-ui.com/primitives/docs/components/tooltip#anatomy)",
+        "[API Reference](https://www.radix-ui.com/primitives/docs/components/tooltip#api-reference)",
+        "[Provider](https://www.radix-ui.com/primitives/docs/components/tooltip#provider)",
+        "[Root](https://www.radix-ui.com/primitives/docs/components/tooltip#root)",
+        "[Trigger](https://www.radix-ui.com/primitives/docs/components/tooltip#trigger)",
+        "[Portal](https://www.radix-ui.com/primitives/docs/components/tooltip#portal)",
+        "[Content](https://www.radix-ui.com/primitives/docs/components/tooltip#content)",
+        "[Arrow](https://www.radix-ui.com/primitives/docs/components/tooltip#arrow)",
+        "[Examples](https://www.radix-ui.com/primitives/docs/components/tooltip#examples)"
+      ]
+    }
+  ]
+}
