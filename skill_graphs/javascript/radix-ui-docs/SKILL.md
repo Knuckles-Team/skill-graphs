@@ -2,7 +2,7 @@
 name: radix-ui-docs
 description: Comprehensive reference documentation for Radix Ui Docs.
 crawl_depth: 2
-source_url: https://www.radix-ui.com/docs/primitives/components/
+source_url: https://www.radix-ui.com/primitives/docs/components
 tags: [docs, reference, radix-ui-docs, knowledge-base]
 ---
 

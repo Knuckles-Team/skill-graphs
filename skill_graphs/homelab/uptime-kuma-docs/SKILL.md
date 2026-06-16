@@ -2,7 +2,7 @@
 name: uptime-kuma-docs
 description: Uptime Kuma API documentation (Python Wrapper)
 crawl_depth: 3
-source_url: https://uptime-kuma-api.readthedocs.io/en/latest/
+source_url: https://uptimekuma.org/wiki/
 tags: [docs, reference, uptime-kuma-docs, knowledge-base]
 ---
 
