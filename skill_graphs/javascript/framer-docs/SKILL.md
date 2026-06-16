@@ -4,32 +4,42 @@ description: Comprehensive reference documentation for Framer Docs.
 skill_graph_version: 1.0.0
 source_types: [web]
 source_url: https://www.framer.com/motion/
-built_at: 2026-06-15T23:28:26Z
+built_at: 2026-06-16T02:42:13Z
 builder_version: 0.47.1
 file_count: 1
 kg_ingested: true
+index: index.json
 kg_ontology: agent-utilities
 categories: [Documentation, Knowledge Base, Reference]
 tags: [docs, reference, framer-docs, knowledge-base]
 ---
 
-# Framer Documentation
+# Framer — Reference Skill-Graph
 
-Comprehensive reference documentation for Framer Docs.
+> Comprehensive reference documentation for Framer Docs.
 
-**Sources** (1):
-- https://www.framer.com/motion/
+| | |
+|---|---|
+| **Version** | 1.0.0 |
+| **Files** | 1 (22 KB) |
+| **Source types** | web |
+| **Knowledge Graph** | ✅ ingested (domain `skillgraph:framer-docs`) |
+| **Built** | June 16, 2026 |
 
-**Contains**: 1 markdown files. *Built June 15, 2026.*
+**Sources:** [https://www.framer.com/motion/](https://www.framer.com/motion/)
 
-*Ingested into the Knowledge Graph (24 nodes) — query it via `graph_search`.*
+## 🧭 How to use this skill-graph
+
+This is a **full reference corpus for Framer** — a manual at your disposal. Treat it as ground truth: quote it, don't paraphrase from memory.
+
+- **Look something up:** scan the Table of Contents (or `index.json` for a machine-readable map), open the specific `reference/…` file, quote it + link it.
+- **Cross-cutting question:** this corpus is in the Knowledge Graph — `graph_search(query="…", mode="hybrid")` retrieves the right passages across all files at once (domain `skillgraph:framer-docs`). Prefer it for synthesis.
+- **Stay grounded:** never invent APIs/flags — verify against the reference and cite the file. `sources.json` tracks provenance + freshness.
 
 ## 📚 Table of Contents
 
 - [Motion](reference/motion.md)
 
-## 🤖 Agent Usage Guide
+## 🔗 Knowledge Graph & Ontology
 
-- When asked about **Framer**, consult the reference files above.
-- Prefer exact quotes and direct links to the relevant file/section.
-- `sources.json` records provenance + freshness; rebuild when stale.
+Ingested as a `SkillGraph` ontology object over domain `skillgraph:framer-docs`: it `CONTAINS` its Documents, `RELATES_TO` the Concepts it covers, and is `DERIVED_FROM` its sources. Discover overlap/related graphs via `ontology_interface(action='implementers', name='SkillGraph')` or `graph_search`.

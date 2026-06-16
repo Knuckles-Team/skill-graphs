@@ -1,0 +1,35 @@
+{
+  "schema": "skill-graph-index/v1",
+  "name": "framer-docs",
+  "skill_graph_version": "1.0.0",
+  "kg_ingested": true,
+  "kg_domain": "skillgraph:framer-docs",
+  "concepts": [],
+  "source_url": "https://www.framer.com/motion/",
+  "file_count": 1,
+  "groups": {
+    ".": 1
+  },
+  "sections": [
+    {
+      "path": "reference/motion.md",
+      "title": "Motion",
+      "group": ".",
+      "bytes": 23326,
+      "headings": [
+        "Gestures",
+        "Made with Motion",
+        "Next-level animation APIs",
+        "Production-ready animations",
+        "Your complete animation workflow",
+        "Changelog",
+        "Examples",
+        "Tutorials",
+        "[How To: Hardware-accelerate your favourite GSAP easing functions](https://motion.dev/magazine/:X56twgAOZ)",
+        "Animation library",
+        "Developer tools",
+        "Integration guides"
+      ]
+    }
+  ]
+}
