@@ -1,13 +1,12 @@
 [Skip to main content](https://pandas.pydata.org/docs/#main-content)
 Back to top `Ctrl`+`K`
 Announcement: pandas 3.0 released! Read more [in the blog post](https://pandas.pydata.org/community/blog/pandas-3.0.html)
-[ ![pandas 3.0.1 documentation - Home](https://pandas.pydata.org/docs/_static/pandas.svg) ![pandas 3.0.1 documentation - Home](https://pandas.pydata.org/static/img/pandas_white.svg) ](https://pandas.pydata.org/docs/)
+[ ![pandas 3.0.3 documentation - Home](https://pandas.pydata.org/docs/_static/pandas.svg) ![pandas 3.0.3 documentation - Home](https://pandas.pydata.org/static/img/pandas_white.svg) ](https://pandas.pydata.org/docs/)
   * [ Getting started ](https://pandas.pydata.org/docs/getting_started/index.html)
   * [ User Guide ](https://pandas.pydata.org/docs/user_guide/index.html)
   * [ API reference ](https://pandas.pydata.org/docs/reference/index.html)
   * [ Development ](https://pandas.pydata.org/docs/development/index.html)
   * [ Release notes ](https://pandas.pydata.org/docs/whatsnew/index.html)
-
 
 Search `Ctrl`+`K`
 3.0 (stable)
@@ -19,13 +18,12 @@ Search `Ctrl`+`K`
   * [ API reference ](https://pandas.pydata.org/docs/reference/index.html)
   * [ Development ](https://pandas.pydata.org/docs/development/index.html)
   * [ Release notes ](https://pandas.pydata.org/docs/whatsnew/index.html)
-
 
 3.0 (stable)
 [dev](https://pandas.pydata.org/docs/dev/index.html)[3.0 (stable)](https://pandas.pydata.org/docs/index.html)[2.3](https://pandas.pydata.org/pandas-docs/version/2.3/index.html)[2.2](https://pandas.pydata.org/pandas-docs/version/2.2/index.html)[2.1](https://pandas.pydata.org/pandas-docs/version/2.1/index.html)[2.0](https://pandas.pydata.org/pandas-docs/version/2.0/index.html)[1.5](https://pandas.pydata.org/pandas-docs/version/1.5/index.html)[1.4](https://pandas.pydata.org/pandas-docs/version/1.4/index.html)[1.3](https://pandas.pydata.org/pandas-docs/version/1.3/index.html)[1.2](https://pandas.pydata.org/pandas-docs/version/1.2/index.html)[1.1](https://pandas.pydata.org/pandas-docs/version/1.1/index.html)[1.0](https://pandas.pydata.org/pandas-docs/version/1.0/index.html)
 Light Dark System Settings
 # pandas documentation[#](https://pandas.pydata.org/docs/#pandas-documentation "Link to this heading")
-**Date** : Feb 18, 2026 **Version** : 3.0.1
+**Date** : May 11, 2026 **Version** : 3.0.3
 **Download documentation** : [Zipped HTML](https://pandas.pydata.org/docs/pandas.zip)
 **Previous versions** : Documentation of previous pandas versions is available at [pandas.pydata.org](https://pandas.pydata.org/).
 **Useful links** :

@@ -1,17 +1,16 @@
-[Skip to main content](https://pandas.pydata.org/docs/index.html#main-content)
+[Skip to main content](https://pandas.pydata.org/docs/development/index.html#main-content)
 Back to top `Ctrl`+`K`
 Announcement: pandas 3.0 released! Read more [in the blog post](https://pandas.pydata.org/community/blog/pandas-3.0.html)
-[ ![pandas 3.0.1 documentation - Home](https://pandas.pydata.org/docs/_static/pandas.svg) ![pandas 3.0.1 documentation - Home](https://pandas.pydata.org/static/img/pandas_white.svg) ](https://pandas.pydata.org/docs/index.html)
+[ ![pandas 3.0.3 documentation - Home](https://pandas.pydata.org/docs/_static/pandas.svg) ![pandas 3.0.3 documentation - Home](https://pandas.pydata.org/static/img/pandas_white.svg) ](https://pandas.pydata.org/docs/index.html)
   * [ Getting started ](https://pandas.pydata.org/docs/getting_started/index.html)
   * [ User Guide ](https://pandas.pydata.org/docs/user_guide/index.html)
   * [ API reference ](https://pandas.pydata.org/docs/reference/index.html)
   * [ Development ](https://pandas.pydata.org/docs/development/index.html)
   * [ Release notes ](https://pandas.pydata.org/docs/whatsnew/index.html)
 
-
 Search `Ctrl`+`K`
 3.0 (stable)
-[dev](https://pandas.pydata.org/docs/dev/index.html)[3.0 (stable)](https://pandas.pydata.org/docs/index.html)[2.3](https://pandas.pydata.org/pandas-docs/version/2.3/index.html)[2.2](https://pandas.pydata.org/pandas-docs/version/2.2/index.html)[2.1](https://pandas.pydata.org/pandas-docs/version/2.1/index.html)[2.0](https://pandas.pydata.org/pandas-docs/version/2.0/index.html)[1.5](https://pandas.pydata.org/pandas-docs/version/1.5/index.html)[1.4](https://pandas.pydata.org/pandas-docs/version/1.4/index.html)[1.3](https://pandas.pydata.org/pandas-docs/version/1.3/index.html)[1.2](https://pandas.pydata.org/pandas-docs/version/1.2/index.html)[1.1](https://pandas.pydata.org/pandas-docs/version/1.1/index.html)[1.0](https://pandas.pydata.org/pandas-docs/version/1.0/index.html)
+[dev](https://pandas.pydata.org/docs/dev/development/index.html)[3.0 (stable)](https://pandas.pydata.org/docs/development/index.html)[2.3](https://pandas.pydata.org/pandas-docs/version/2.3/development/index.html)[2.2](https://pandas.pydata.org/pandas-docs/version/2.2/development/index.html)[2.1](https://pandas.pydata.org/pandas-docs/version/2.1/development/index.html)[2.0](https://pandas.pydata.org/pandas-docs/version/2.0/development/index.html)[1.5](https://pandas.pydata.org/pandas-docs/version/1.5/development/index.html)[1.4](https://pandas.pydata.org/pandas-docs/version/1.4/development/index.html)[1.3](https://pandas.pydata.org/pandas-docs/version/1.3/development/index.html)[1.2](https://pandas.pydata.org/pandas-docs/version/1.2/development/index.html)[1.1](https://pandas.pydata.org/pandas-docs/version/1.1/development/index.html)[1.0](https://pandas.pydata.org/pandas-docs/version/1.0/development/index.html)
 Light Dark System Settings
 Search `Ctrl`+`K`
   * [ Getting started ](https://pandas.pydata.org/docs/getting_started/index.html)
@@ -20,33 +19,95 @@ Search `Ctrl`+`K`
   * [ Development ](https://pandas.pydata.org/docs/development/index.html)
   * [ Release notes ](https://pandas.pydata.org/docs/whatsnew/index.html)
 
-
 3.0 (stable)
-[dev](https://pandas.pydata.org/docs/dev/index.html)[3.0 (stable)](https://pandas.pydata.org/docs/index.html)[2.3](https://pandas.pydata.org/pandas-docs/version/2.3/index.html)[2.2](https://pandas.pydata.org/pandas-docs/version/2.2/index.html)[2.1](https://pandas.pydata.org/pandas-docs/version/2.1/index.html)[2.0](https://pandas.pydata.org/pandas-docs/version/2.0/index.html)[1.5](https://pandas.pydata.org/pandas-docs/version/1.5/index.html)[1.4](https://pandas.pydata.org/pandas-docs/version/1.4/index.html)[1.3](https://pandas.pydata.org/pandas-docs/version/1.3/index.html)[1.2](https://pandas.pydata.org/pandas-docs/version/1.2/index.html)[1.1](https://pandas.pydata.org/pandas-docs/version/1.1/index.html)[1.0](https://pandas.pydata.org/pandas-docs/version/1.0/index.html)
+[dev](https://pandas.pydata.org/docs/dev/development/index.html)[3.0 (stable)](https://pandas.pydata.org/docs/development/index.html)[2.3](https://pandas.pydata.org/pandas-docs/version/2.3/development/index.html)[2.2](https://pandas.pydata.org/pandas-docs/version/2.2/development/index.html)[2.1](https://pandas.pydata.org/pandas-docs/version/2.1/development/index.html)[2.0](https://pandas.pydata.org/pandas-docs/version/2.0/development/index.html)[1.5](https://pandas.pydata.org/pandas-docs/version/1.5/development/index.html)[1.4](https://pandas.pydata.org/pandas-docs/version/1.4/development/index.html)[1.3](https://pandas.pydata.org/pandas-docs/version/1.3/development/index.html)[1.2](https://pandas.pydata.org/pandas-docs/version/1.2/development/index.html)[1.1](https://pandas.pydata.org/pandas-docs/version/1.1/development/index.html)[1.0](https://pandas.pydata.org/pandas-docs/version/1.0/development/index.html)
 Light Dark System Settings
-# pandas documentation[#](https://pandas.pydata.org/docs/index.html#pandas-documentation "Link to this heading")
-**Date** : Feb 18, 2026 **Version** : 3.0.1
-**Download documentation** : [Zipped HTML](https://pandas.pydata.org/docs/pandas.zip)
-**Previous versions** : Documentation of previous pandas versions is available at [pandas.pydata.org](https://pandas.pydata.org/).
-**Useful links** :
-[`pandas`](https://pandas.pydata.org/docs/index.html#module-pandas "pandas") is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the
-![](https://pandas.pydata.org/docs/_images/index_getting_started.svg)
-Getting started
-New to _pandas_? Check out the getting started guides. They contain an introduction to _pandas’_ main concepts and links to additional tutorials.
-[To the getting started guides](https://pandas.pydata.org/docs/getting_started/index.html#getting-started)
-![](https://pandas.pydata.org/docs/_images/index_user_guide.svg)
-User guide
-The user guide provides in-depth information on the key concepts of pandas with useful background information and explanation.
-[To the user guide](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
-![](https://pandas.pydata.org/docs/_images/index_api.svg)
-API reference
-The reference guide contains a detailed description of the pandas API. The reference describes how the methods work and which parameters can be used. It assumes that you have an understanding of the key concepts.
-[To the reference guide](https://pandas.pydata.org/docs/reference/index.html#api)
-![](https://pandas.pydata.org/docs/_images/index_contribute.svg)
-Developer guide
-Saw a typo in the documentation? Want to improve existing functionalities? The contributing guidelines will guide you through the process of improving pandas.
-[To the development guide](https://pandas.pydata.org/docs/development/index.html#development)
-[ next Getting started ](https://pandas.pydata.org/docs/getting_started/index.html "next page")
+  * [Contributing to pandas](https://pandas.pydata.org/docs/development/contributing.html)
+  * [Creating a development environment](https://pandas.pydata.org/docs/development/contributing_environment.html)
+  * [Contributing to the documentation](https://pandas.pydata.org/docs/development/contributing_documentation.html)
+    * [pandas docstring guide](https://pandas.pydata.org/docs/development/contributing_docstring.html)
+  * [Contributing to the code base](https://pandas.pydata.org/docs/development/contributing_codebase.html)
+  * [pandas maintenance](https://pandas.pydata.org/docs/development/maintaining.html)
+  * [Internals](https://pandas.pydata.org/docs/development/internals.html)
+  * [Copy on write](https://pandas.pydata.org/docs/development/copy_on_write.html)
+  * [Debugging C extensions](https://pandas.pydata.org/docs/development/debugging_extensions.html)
+  * [Extending pandas](https://pandas.pydata.org/docs/development/extending.html)
+  * [Developer](https://pandas.pydata.org/docs/development/developer.html)
+  * [Policies](https://pandas.pydata.org/docs/development/policies.html)
+  * [Contributor community](https://pandas.pydata.org/docs/development/community.html)
+
+  * [ ](https://pandas.pydata.org/docs/index.html)
+  * Development
+
+# Development[#](https://pandas.pydata.org/docs/development/index.html#development "Link to this heading")
+  * [Contributing to pandas](https://pandas.pydata.org/docs/development/contributing.html)
+    * [Bug reports and enhancement requests](https://pandas.pydata.org/docs/development/contributing.html#bug-reports-and-enhancement-requests)
+    * [Finding an issue to contribute to](https://pandas.pydata.org/docs/development/contributing.html#finding-an-issue-to-contribute-to)
+    * [Submitting a pull request](https://pandas.pydata.org/docs/development/contributing.html#submitting-a-pull-request)
+    * [Tips for a successful pull request](https://pandas.pydata.org/docs/development/contributing.html#tips-for-a-successful-pull-request)
+  * [Creating a development environment](https://pandas.pydata.org/docs/development/contributing_environment.html)
+    * [Step 1: install a C compiler](https://pandas.pydata.org/docs/development/contributing_environment.html#step-1-install-a-c-compiler)
+    * [Step 2: create an isolated environment](https://pandas.pydata.org/docs/development/contributing_environment.html#step-2-create-an-isolated-environment)
+    * [Step 3: build and install pandas](https://pandas.pydata.org/docs/development/contributing_environment.html#step-3-build-and-install-pandas)
+  * [Contributing to the documentation](https://pandas.pydata.org/docs/development/contributing_documentation.html)
+    * [About the pandas documentation](https://pandas.pydata.org/docs/development/contributing_documentation.html#about-the-pandas-documentation)
+    * [Updating a pandas docstring](https://pandas.pydata.org/docs/development/contributing_documentation.html#updating-a-pandas-docstring)
+    * [How to build the pandas documentation](https://pandas.pydata.org/docs/development/contributing_documentation.html#how-to-build-the-pandas-documentation)
+    * [Previewing changes](https://pandas.pydata.org/docs/development/contributing_documentation.html#previewing-changes)
+  * [Contributing to the code base](https://pandas.pydata.org/docs/development/contributing_codebase.html)
+    * [Code standards](https://pandas.pydata.org/docs/development/contributing_codebase.html#code-standards)
+    * [Pre-commit](https://pandas.pydata.org/docs/development/contributing_codebase.html#pre-commit)
+    * [Optional dependencies](https://pandas.pydata.org/docs/development/contributing_codebase.html#optional-dependencies)
+    * [Backwards compatibility](https://pandas.pydata.org/docs/development/contributing_codebase.html#backwards-compatibility)
+    * [Type hints](https://pandas.pydata.org/docs/development/contributing_codebase.html#type-hints)
+    * [Testing with continuous integration](https://pandas.pydata.org/docs/development/contributing_codebase.html#testing-with-continuous-integration)
+    * [Test-driven development](https://pandas.pydata.org/docs/development/contributing_codebase.html#test-driven-development)
+    * [Running the test suite](https://pandas.pydata.org/docs/development/contributing_codebase.html#running-the-test-suite)
+    * [Running the performance test suite](https://pandas.pydata.org/docs/development/contributing_codebase.html#running-the-performance-test-suite)
+    * [Documenting your code](https://pandas.pydata.org/docs/development/contributing_codebase.html#documenting-your-code)
+  * [pandas maintenance](https://pandas.pydata.org/docs/development/maintaining.html)
+    * [Roles](https://pandas.pydata.org/docs/development/maintaining.html#roles)
+    * [Tasks](https://pandas.pydata.org/docs/development/maintaining.html#tasks)
+    * [Issue triage](https://pandas.pydata.org/docs/development/maintaining.html#issue-triage)
+    * [Investigating regressions](https://pandas.pydata.org/docs/development/maintaining.html#investigating-regressions)
+    * [Closing issues](https://pandas.pydata.org/docs/development/maintaining.html#closing-issues)
+    * [Reviewing pull requests](https://pandas.pydata.org/docs/development/maintaining.html#reviewing-pull-requests)
+    * [Backporting](https://pandas.pydata.org/docs/development/maintaining.html#backporting)
+    * [Cleaning up old issues](https://pandas.pydata.org/docs/development/maintaining.html#cleaning-up-old-issues)
+    * [Cleaning up old pull requests](https://pandas.pydata.org/docs/development/maintaining.html#cleaning-up-old-pull-requests)
+    * [Becoming a pandas maintainer](https://pandas.pydata.org/docs/development/maintaining.html#becoming-a-pandas-maintainer)
+    * [Merging pull requests](https://pandas.pydata.org/docs/development/maintaining.html#merging-pull-requests)
+    * [Release process](https://pandas.pydata.org/docs/development/maintaining.html#release-process)
+  * [Internals](https://pandas.pydata.org/docs/development/internals.html)
+    * [Indexing](https://pandas.pydata.org/docs/development/internals.html#indexing)
+    * [Subclassing pandas data structures](https://pandas.pydata.org/docs/development/internals.html#subclassing-pandas-data-structures)
+  * [Copy on write](https://pandas.pydata.org/docs/development/copy_on_write.html)
+    * [Reference tracking](https://pandas.pydata.org/docs/development/copy_on_write.html#reference-tracking)
+  * [Debugging C extensions](https://pandas.pydata.org/docs/development/debugging_extensions.html)
+    * [Debugging locally](https://pandas.pydata.org/docs/development/debugging_extensions.html#debugging-locally)
+    * [Using cygdb for Cython debugging](https://pandas.pydata.org/docs/development/debugging_extensions.html#using-cygdb-for-cython-debugging)
+    * [Editor support](https://pandas.pydata.org/docs/development/debugging_extensions.html#editor-support)
+  * [Extending pandas](https://pandas.pydata.org/docs/development/extending.html)
+    * [Registering custom accessors](https://pandas.pydata.org/docs/development/extending.html#registering-custom-accessors)
+    * [Extension types](https://pandas.pydata.org/docs/development/extending.html#extension-types)
+    * [Subclassing pandas data structures](https://pandas.pydata.org/docs/development/extending.html#subclassing-pandas-data-structures)
+    * [Plotting backends](https://pandas.pydata.org/docs/development/extending.html#plotting-backends)
+    * [Arithmetic with 3rd party types](https://pandas.pydata.org/docs/development/extending.html#arithmetic-with-3rd-party-types)
+  * [Developer](https://pandas.pydata.org/docs/development/developer.html)
+    * [Storing pandas DataFrame objects in Apache Parquet format](https://pandas.pydata.org/docs/development/developer.html#storing-pandas-dataframe-objects-in-apache-parquet-format)
+  * [Policies](https://pandas.pydata.org/docs/development/policies.html)
+    * [Version policy](https://pandas.pydata.org/docs/development/policies.html#version-policy)
+    * [Python support](https://pandas.pydata.org/docs/development/policies.html#python-support)
+    * [Security policy](https://pandas.pydata.org/docs/development/policies.html#security-policy)
+  * [Contributor community](https://pandas.pydata.org/docs/development/community.html)
+    * [Community meeting](https://pandas.pydata.org/docs/development/community.html#community-meeting)
+    * [New contributor meeting](https://pandas.pydata.org/docs/development/community.html#new-contributor-meeting)
+    * [Calendar](https://pandas.pydata.org/docs/development/community.html#calendar)
+    * [GitHub issue tracker](https://pandas.pydata.org/docs/development/community.html#id1)
+    * [The developer mailing list](https://pandas.pydata.org/docs/development/community.html#the-developer-mailing-list)
+    * [Community slack](https://pandas.pydata.org/docs/development/community.html#community-slack)
+
+[ previous pandas typing aliases ](https://pandas.pydata.org/docs/reference/aliases.html "previous page") [ next Contributing to pandas ](https://pandas.pydata.org/docs/development/contributing.html "next page")
 © 2026, pandas via
 Created using
 

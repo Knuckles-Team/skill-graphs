@@ -1,0 +1,60 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "chakra-ui-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-06-16T05:46:25Z",
+  "builder_version": "0.49.0",
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://chakra-ui.com/docs/components/",
+      "options": {
+        "max_depth": 2
+      },
+      "extractor": "crawl4ai",
+      "fetched_at": "2026-06-16T05:41:25Z",
+      "content_hash": "sha256:4f3a98e82796cb0d9ac7f3dce6f69ffedc201301d06f0e2e4851eb188ba138d8",
+      "doc_count": 6
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/charts_installation.md",
+      "sha256": "sha256:80fa27efcad7b03e8c21d920a7c6f6cfd21b8b218442e91247fa86ae6af4f846",
+      "bytes": 6686
+    },
+    {
+      "path": "reference/components.md",
+      "sha256": "sha256:c83cf82bc9275457df6a5edec132b92365920d0a8c3092ce65c6168a6442135a",
+      "bytes": 739
+    },
+    {
+      "path": "reference/components_concepts_overview.md",
+      "sha256": "sha256:ebef0937090483d2b3f54d9380f1a62adc3a7f8afaca3a61ff81542e109b2d78",
+      "bytes": 21573
+    },
+    {
+      "path": "reference/get-started_installation.md",
+      "sha256": "sha256:56185ae9499541ba90dd3aa0e5d69f49260afaf54cc905baec26732e34d3726a",
+      "bytes": 6575
+    },
+    {
+      "path": "reference/styling_overview.md",
+      "sha256": "sha256:090c29910e919002c4ba26d9807e881fdd0a909489d476f47a7b04dee9225cec",
+      "bytes": 4836
+    },
+    {
+      "path": "reference/theming_overview.md",
+      "sha256": "sha256:2d2e4fc7e40a731be0b86f914188c9827ea891e3a004321c8741a1a107cb61e8",
+      "bytes": 15095
+    }
+  ],
+  "stats": {
+    "file_count": 6,
+    "source_count": 1
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "pandas-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-06-16T06:01:52Z",
+  "builder_version": "0.49.0",
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://pandas.pydata.org/docs/",
+      "options": {
+        "max_depth": 2
+      },
+      "extractor": "crawl4ai",
+      "fetched_at": "2026-06-16T05:56:52Z",
+      "content_hash": "sha256:74694988cff86827e232c46f8755fb446a91572188e15efcb081463565a604a9",
+      "doc_count": 8
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/dev_index.html.md",
+      "sha256": "sha256:15fc517ee1c60202e652ee0cca444c681e3da560fccf4ec0d8b16c713fa310b6",
+      "bytes": 5108
+    },
+    {
+      "path": "reference/development_index.html.md",
+      "sha256": "sha256:236cb52bdef5d2a7390fd3bcdabc34c597156416f9980c52d89c2b94d70fb265",
+      "bytes": 12354
+    },
+    {
+      "path": "reference/docs.md",
+      "sha256": "sha256:ff07436c0afcb5a1a1201875224de5eb91c9aab0fca7dccbe388785a63504e77",
+      "bytes": 4923
+    },
+    {
+      "path": "reference/getting_started_index.html.md",
+      "sha256": "sha256:9b5e9077958d4fbf6ce34f89a70e4ff81dd52a86a37d3d41c2ba4816a97a59cc",
+      "bytes": 16638
+    },
+    {
+      "path": "reference/index.html.md",
+      "sha256": "sha256:8b80ef2e748961a657237cf98189f96d49a5e2173eb9cf89412839a64096610a",
+      "bytes": 4963
+    },
+    {
+      "path": "reference/reference_index.html.md",
+      "sha256": "sha256:b20a7832d725f5f9525d3d7516e79a7497ec680726575ea511935ca459416942",
+      "bytes": 23789
+    },
+    {
+      "path": "reference/user_guide_index.html.md",
+      "sha256": "sha256:4c6c0f08c87ca1fdc258d639d8ae042377876576fc02897834e0a5e9191fd50d",
+      "bytes": 36963
+    },
+    {
+      "path": "reference/whatsnew_index.html/whatsnew_index.html_pt1.md",
+      "sha256": "sha256:f3eb2aaa5a5067125929e4f5dabd88494eef2fb8d221a7c34eaa0db83ac3e66c",
+      "bytes": 25602
+    },
+    {
+      "path": "reference/whatsnew_index.html/whatsnew_index.html_pt2.md",
+      "sha256": "sha256:1db266ce8a97c3ebeb88b2f67fb7d53a9863e441f2bbf359b432e33712ce7f25",
+      "bytes": 25668
+    },
+    {
+      "path": "reference/whatsnew_index.html/whatsnew_index.html_pt3.md",
+      "sha256": "sha256:a1bdc3b9ac7291ae0b2616b35d0e3462e38c35a4d885ac767bce02bbc95d3393",
+      "bytes": 25653
+    },
+    {
+      "path": "reference/whatsnew_index.html/whatsnew_index.html_pt4.md",
+      "sha256": "sha256:6baa370ab993ed82342c06abac7ca7aafe41e3d86424cb2aa1f6e419d98138ae",
+      "bytes": 879
+    }
+  ],
+  "stats": {
+    "file_count": 11,
+    "source_count": 1
+  }
+}

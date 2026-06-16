@@ -1,0 +1,104 @@
+{
+  "schema": "skill-graph-index/v1",
+  "name": "chakra-ui-docs",
+  "skill_graph_version": "1.0.0",
+  "kg_ingested": false,
+  "kg_domain": "skillgraph:chakra-ui-docs",
+  "concepts": [],
+  "source_url": "https://chakra-ui.com/docs/components/",
+  "file_count": 6,
+  "groups": {
+    ".": 6
+  },
+  "sections": [
+    {
+      "path": "reference/charts_installation.md",
+      "title": "Charts",
+      "group": ".",
+      "bytes": 6686,
+      "headings": [
+        "Charts",
+        "[Installation](https://chakra-ui.com/docs/charts/installation#installation)",
+        "[Usage](https://chakra-ui.com/docs/charts/installation#usage)",
+        "[Import the charts component](https://chakra-ui.com/docs/charts/installation#import-the-charts-component)",
+        "[Define chart data](https://chakra-ui.com/docs/charts/installation#define-chart-data)",
+        "[Render the chart](https://chakra-ui.com/docs/charts/installation#render-the-chart)",
+        "[Customization](https://chakra-ui.com/docs/charts/installation#customization)",
+        "[Colors](https://chakra-ui.com/docs/charts/installation#colors)",
+        "[Formatters](https://chakra-ui.com/docs/charts/installation#formatters)",
+        "[FAQ](https://chakra-ui.com/docs/charts/installation#faq)",
+        "[\"lanes\" is read-only error with React 19](https://chakra-ui.com/docs/charts/installation#lanes-is-read-only-error-with-react-19)",
+        "[ResponsiveContainer vs responsive prop](https://chakra-ui.com/docs/charts/installation#responsivecontainer-vs-responsive-prop)"
+      ]
+    },
+    {
+      "path": "reference/components.md",
+      "title": "Components",
+      "group": ".",
+      "bytes": 739,
+      "headings": [
+        "404. Page not found"
+      ]
+    },
+    {
+      "path": "reference/components_concepts_overview.md",
+      "title": "Components Concepts Overview",
+      "group": ".",
+      "bytes": 21573,
+      "headings": [
+        "Components"
+      ]
+    },
+    {
+      "path": "reference/get-started_installation.md",
+      "title": "Installation",
+      "group": ".",
+      "bytes": 6575,
+      "headings": [
+        "Installation",
+        "[Framework Guide](https://chakra-ui.com/docs/get-started/installation#framework-guide)",
+        "[Styling roadmap](https://chakra-ui.com/docs/get-started/installation#styling-roadmap)",
+        "[Installation](https://chakra-ui.com/docs/get-started/installation#installation)",
+        "[Install `@chakra-ui/react`](https://chakra-ui.com/docs/get-started/installation#install-chakra-uireact)",
+        "[Add snippets](https://chakra-ui.com/docs/get-started/installation#add-snippets)",
+        "[Setup provider](https://chakra-ui.com/docs/get-started/installation#setup-provider)",
+        "[Update tsconfig](https://chakra-ui.com/docs/get-started/installation#update-tsconfig)",
+        "[Enjoy!](https://chakra-ui.com/docs/get-started/installation#enjoy)",
+        "[Learn](https://chakra-ui.com/docs/get-started/installation#learn)",
+        "[Contribute](https://chakra-ui.com/docs/get-started/installation#contribute)"
+      ]
+    },
+    {
+      "path": "reference/styling_overview.md",
+      "title": "Styling",
+      "group": ".",
+      "bytes": 4836,
+      "headings": [
+        "Styling",
+        "[Concepts](https://chakra-ui.com/docs/styling/overview#concepts)",
+        "[Compositions](https://chakra-ui.com/docs/styling/overview#compositions)",
+        "[Style Props](https://chakra-ui.com/docs/styling/overview#style-props)"
+      ]
+    },
+    {
+      "path": "reference/theming_overview.md",
+      "title": "Overview",
+      "group": ".",
+      "bytes": 15095,
+      "headings": [
+        "Overview",
+        "[Architecture](https://chakra-ui.com/docs/theming/overview#architecture)",
+        "[Config](https://chakra-ui.com/docs/theming/overview#config)",
+        "[cssVarsRoot](https://chakra-ui.com/docs/theming/overview#cssvarsroot)",
+        "[cssVarsPrefix](https://chakra-ui.com/docs/theming/overview#cssvarsprefix)",
+        "[globalCss](https://chakra-ui.com/docs/theming/overview#globalcss)",
+        "[preflight](https://chakra-ui.com/docs/theming/overview#preflight)",
+        "[theme](https://chakra-ui.com/docs/theming/overview#theme)",
+        "[conditions](https://chakra-ui.com/docs/theming/overview#conditions)",
+        "[strictTokens](https://chakra-ui.com/docs/theming/overview#stricttokens)",
+        "[TypeScript](https://chakra-ui.com/docs/theming/overview#typescript)",
+        "[System](https://chakra-ui.com/docs/theming/overview#system)"
+      ]
+    }
+  ]
+}

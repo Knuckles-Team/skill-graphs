@@ -1,0 +1,146 @@
+{
+  "schema": "skill-graph-index/v1",
+  "name": "pandas-docs",
+  "skill_graph_version": "1.0.0",
+  "kg_ingested": false,
+  "kg_domain": "skillgraph:pandas-docs",
+  "concepts": [],
+  "source_url": "https://pandas.pydata.org/docs/",
+  "file_count": 11,
+  "groups": {
+    ".": 7,
+    "whatsnew_index.html": 4
+  },
+  "sections": [
+    {
+      "path": "reference/dev_index.html.md",
+      "title": "pandas documentation[#](https://pandas.pydata.org/docs/dev/index.html#pandas-documentation \"Link to this heading\")",
+      "group": ".",
+      "bytes": 5108,
+      "headings": [
+        "pandas documentation[#](https://pandas.pydata.org/docs/dev/index.html#pandas-documentation \"Link to this heading\")"
+      ]
+    },
+    {
+      "path": "reference/development_index.html.md",
+      "title": "Development Index.Html",
+      "group": ".",
+      "bytes": 12354,
+      "headings": [
+        "Development[#](https://pandas.pydata.org/docs/development/index.html#development \"Link to this heading\")"
+      ]
+    },
+    {
+      "path": "reference/docs.md",
+      "title": "pandas documentation[#](https://pandas.pydata.org/docs/#pandas-documentation \"Link to this heading\")",
+      "group": ".",
+      "bytes": 4923,
+      "headings": [
+        "pandas documentation[#](https://pandas.pydata.org/docs/#pandas-documentation \"Link to this heading\")"
+      ]
+    },
+    {
+      "path": "reference/getting_started_index.html.md",
+      "title": "Getting Started Index.Html",
+      "group": ".",
+      "bytes": 16638,
+      "headings": [
+        "Getting started[#](https://pandas.pydata.org/docs/getting_started/index.html#getting-started \"Link to this heading\")",
+        "Installation[#](https://pandas.pydata.org/docs/getting_started/index.html#installation \"Link to this heading\")",
+        "Intro to pandas[#](https://pandas.pydata.org/docs/getting_started/index.html#intro-to-pandas \"Link to this heading\")",
+        "Coming from\u2026[#](https://pandas.pydata.org/docs/getting_started/index.html#coming-from \"Link to this heading\")",
+        "Tutorials[#](https://pandas.pydata.org/docs/getting_started/index.html#tutorials \"Link to this heading\")"
+      ]
+    },
+    {
+      "path": "reference/index.html.md",
+      "title": "pandas documentation[#](https://pandas.pydata.org/docs/index.html#pandas-documentation \"Link to this heading\")",
+      "group": ".",
+      "bytes": 4963,
+      "headings": [
+        "pandas documentation[#](https://pandas.pydata.org/docs/index.html#pandas-documentation \"Link to this heading\")"
+      ]
+    },
+    {
+      "path": "reference/reference_index.html.md",
+      "title": "Reference Index.Html",
+      "group": ".",
+      "bytes": 23789,
+      "headings": [
+        "API reference[#](https://pandas.pydata.org/docs/reference/index.html#api-reference \"Link to this heading\")"
+      ]
+    },
+    {
+      "path": "reference/user_guide_index.html.md",
+      "title": "User Guide Index.Html",
+      "group": ".",
+      "bytes": 36963,
+      "headings": [
+        "User Guide[#](https://pandas.pydata.org/docs/user_guide/index.html#user-guide \"Link to this heading\")",
+        "How to read these guides[#](https://pandas.pydata.org/docs/user_guide/index.html#how-to-read-these-guides \"Link to this heading\")",
+        "Guides[#](https://pandas.pydata.org/docs/user_guide/index.html#guides \"Link to this heading\")"
+      ]
+    },
+    {
+      "path": "reference/whatsnew_index.html/whatsnew_index.html_pt1.md",
+      "title": "Whatsnew Index.Html Pt1",
+      "group": "whatsnew_index.html",
+      "bytes": 25602,
+      "headings": [
+        "Release notes[#](https://pandas.pydata.org/docs/whatsnew/index.html#release-notes \"Link to this heading\")",
+        "Version 3.0[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-3-0 \"Link to this heading\")",
+        "Version 2.3[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-2-3 \"Link to this heading\")",
+        "Version 2.2[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-2-2 \"Link to this heading\")",
+        "Version 2.1[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-2-1 \"Link to this heading\")",
+        "Version 2.0[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-2-0 \"Link to this heading\")",
+        "Version 1.5[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-1-5 \"Link to this heading\")"
+      ]
+    },
+    {
+      "path": "reference/whatsnew_index.html/whatsnew_index.html_pt2.md",
+      "title": "Whatsnew Index.Html Pt2",
+      "group": "whatsnew_index.html",
+      "bytes": 25668,
+      "headings": [
+        "Version 1.4[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-1-4 \"Link to this heading\")",
+        "Version 1.3[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-1-3 \"Link to this heading\")",
+        "Version 1.2[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-1-2 \"Link to this heading\")",
+        "Version 1.1[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-1-1 \"Link to this heading\")",
+        "Version 1.0[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-1-0 \"Link to this heading\")",
+        "Version 0.25[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-0-25 \"Link to this heading\")",
+        "Version 0.24[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-0-24 \"Link to this heading\")",
+        "Version 0.23[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-0-23 \"Link to this heading\")",
+        "Version 0.22[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-0-22 \"Link to this heading\")",
+        "Version 0.21[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-0-21 \"Link to this heading\")",
+        "Version 0.20[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-0-20 \"Link to this heading\")"
+      ]
+    },
+    {
+      "path": "reference/whatsnew_index.html/whatsnew_index.html_pt3.md",
+      "title": "Whatsnew Index.Html Pt3",
+      "group": "whatsnew_index.html",
+      "bytes": 25653,
+      "headings": [
+        "Version 0.19[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-0-19 \"Link to this heading\")",
+        "Version 0.18[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-0-18 \"Link to this heading\")",
+        "Version 0.17[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-0-17 \"Link to this heading\")",
+        "Version 0.16[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-0-16 \"Link to this heading\")",
+        "Version 0.15[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-0-15 \"Link to this heading\")",
+        "Version 0.14[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-0-14 \"Link to this heading\")",
+        "Version 0.13[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-0-13 \"Link to this heading\")",
+        "Version 0.12[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-0-12 \"Link to this heading\")",
+        "Version 0.11[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-0-11 \"Link to this heading\")",
+        "Version 0.10[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-0-10 \"Link to this heading\")",
+        "Version 0.9[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-0-9 \"Link to this heading\")",
+        "Version 0.8[#](https://pandas.pydata.org/docs/whatsnew/index.html#version-0-8 \"Link to this heading\")"
+      ]
+    },
+    {
+      "path": "reference/whatsnew_index.html/whatsnew_index.html_pt4.md",
+      "title": "Whatsnew Index.Html Pt4",
+      "group": "whatsnew_index.html",
+      "bytes": 879,
+      "headings": []
+    }
+  ]
+}

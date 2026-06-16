@@ -1,0 +1,474 @@
+{
+  "schema": "skill-graph-index/v1",
+  "name": "vitejs-docs",
+  "skill_graph_version": "1.0.0",
+  "kg_ingested": false,
+  "kg_domain": "skillgraph:vitejs-docs",
+  "concepts": [],
+  "source_url": "https://vitejs.dev/guide/",
+  "file_count": 24,
+  "groups": {
+    ".": 24
+  },
+  "sections": [
+    {
+      "path": "reference/api-environment-frameworks.md",
+      "title": "Api Environment Frameworks",
+      "group": ".",
+      "bytes": 18802,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Environment API for Frameworks [\u200b](https://vite.dev/guide/api-environment-frameworks#environment-api-for-frameworks)",
+        "DevEnvironment Communication Levels [\u200b](https://vite.dev/guide/api-environment-frameworks#devenvironment-communication-levels)",
+        "`RunnableDevEnvironment` [\u200b](https://vite.dev/guide/api-environment-frameworks#runnabledevenvironment)",
+        "`FetchableDevEnvironment` [\u200b](https://vite.dev/guide/api-environment-frameworks#fetchabledevenvironment)",
+        "raw `DevEnvironment` [\u200b](https://vite.dev/guide/api-environment-frameworks#raw-devenvironment)",
+        "Environments During Build [\u200b](https://vite.dev/guide/api-environment-frameworks#environments-during-build)",
+        "Environment Agnostic Code [\u200b](https://vite.dev/guide/api-environment-frameworks#environment-agnostic-code)"
+      ]
+    },
+    {
+      "path": "reference/api-environment-instances.md",
+      "title": "Api Environment Instances",
+      "group": ".",
+      "bytes": 16479,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Using `Environment` Instances [\u200b](https://vite.dev/guide/api-environment-instances#using-environment-instances)",
+        "Accessing the Environments [\u200b](https://vite.dev/guide/api-environment-instances#accessing-the-environments)",
+        "`DevEnvironment` class [\u200b](https://vite.dev/guide/api-environment-instances#devenvironment-class)",
+        "Separate Module Graphs [\u200b](https://vite.dev/guide/api-environment-instances#separate-module-graphs)",
+        "`FetchResult` [\u200b](https://vite.dev/guide/api-environment-instances#fetchresult)"
+      ]
+    },
+    {
+      "path": "reference/api-environment-plugins.md",
+      "title": "Api Environment Plugins",
+      "group": ".",
+      "bytes": 20447,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Environment API for Plugins [\u200b](https://vite.dev/guide/api-environment-plugins#environment-api-for-plugins)",
+        "Accessing the Current Environment in Hooks [\u200b](https://vite.dev/guide/api-environment-plugins#accessing-the-current-environment-in-hooks)",
+        "Registering New Environments Using Hooks [\u200b](https://vite.dev/guide/api-environment-plugins#registering-new-environments-using-hooks)",
+        "Configuring Environment Using Hooks [\u200b](https://vite.dev/guide/api-environment-plugins#configuring-environment-using-hooks)",
+        "The `hotUpdate` Hook [\u200b](https://vite.dev/guide/api-environment-plugins#the-hotupdate-hook)",
+        "Per-environment State in Plugins [\u200b](https://vite.dev/guide/api-environment-plugins#per-environment-state-in-plugins)",
+        "Per-environment Plugins [\u200b](https://vite.dev/guide/api-environment-plugins#per-environment-plugins)",
+        "Application-Plugin Communication [\u200b](https://vite.dev/guide/api-environment-plugins#application-plugin-communication)"
+      ]
+    },
+    {
+      "path": "reference/api-environment-runtimes.md",
+      "title": "Api Environment Runtimes",
+      "group": ".",
+      "bytes": 20831,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Environment API for Runtimes [\u200b](https://vite.dev/guide/api-environment-runtimes#environment-api-for-runtimes)",
+        "Environment Factories [\u200b](https://vite.dev/guide/api-environment-runtimes#environment-factories)",
+        "Creating a New Environment Factory [\u200b](https://vite.dev/guide/api-environment-runtimes#creating-a-new-environment-factory)",
+        "`ModuleRunner` [\u200b](https://vite.dev/guide/api-environment-runtimes#modulerunner)",
+        "`ModuleRunnerOptions` [\u200b](https://vite.dev/guide/api-environment-runtimes#modulerunneroptions)",
+        "`ModuleEvaluator` [\u200b](https://vite.dev/guide/api-environment-runtimes#moduleevaluator)",
+        "`ModuleRunnerTransport` [\u200b](https://vite.dev/guide/api-environment-runtimes#modulerunnertransport)"
+      ]
+    },
+    {
+      "path": "reference/api-environment.md",
+      "title": "Api Environment",
+      "group": ".",
+      "bytes": 14754,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Environment API [\u200b](https://vite.dev/guide/api-environment#environment-api)",
+        "Formalizing Environments [\u200b](https://vite.dev/guide/api-environment#formalizing-environments)",
+        "Closing the Gap Between Build and Dev [\u200b](https://vite.dev/guide/api-environment#closing-the-gap-between-build-and-dev)",
+        "Environments Configuration [\u200b](https://vite.dev/guide/api-environment#environments-configuration)",
+        "Custom Environment Instances [\u200b](https://vite.dev/guide/api-environment#custom-environment-instances)",
+        "Backward Compatibility [\u200b](https://vite.dev/guide/api-environment#backward-compatibility)",
+        "Target Users [\u200b](https://vite.dev/guide/api-environment#target-users)"
+      ]
+    },
+    {
+      "path": "reference/api-hmr.md",
+      "title": "Api Hmr",
+      "group": ".",
+      "bytes": 14997,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "HMR API [\u200b](https://vite.dev/guide/api-hmr#hmr-api)",
+        "Required Conditional Guard [\u200b](https://vite.dev/guide/api-hmr#required-conditional-guard)",
+        "IntelliSense for TypeScript [\u200b](https://vite.dev/guide/api-hmr#intellisense-for-typescript)",
+        "`hot.accept(cb)` [\u200b](https://vite.dev/guide/api-hmr#hot-accept-cb)",
+        "`hot.accept(deps, cb)` [\u200b](https://vite.dev/guide/api-hmr#hot-accept-deps-cb)",
+        "`hot.dispose(cb)` [\u200b](https://vite.dev/guide/api-hmr#hot-dispose-cb)",
+        "`hot.prune(cb)` [\u200b](https://vite.dev/guide/api-hmr#hot-prune-cb)",
+        "`hot.data` [\u200b](https://vite.dev/guide/api-hmr#hot-data)"
+      ]
+    },
+    {
+      "path": "reference/api-javascript.md",
+      "title": "Api Javascript",
+      "group": ".",
+      "bytes": 20954,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "JavaScript API [\u200b](https://vite.dev/guide/api-javascript#javascript-api)",
+        "`createServer` [\u200b](https://vite.dev/guide/api-javascript#createserver)",
+        "`InlineConfig` [\u200b](https://vite.dev/guide/api-javascript#inlineconfig)",
+        "`ResolvedConfig` [\u200b](https://vite.dev/guide/api-javascript#resolvedconfig)",
+        "`ViteDevServer` [\u200b](https://vite.dev/guide/api-javascript#vitedevserver)",
+        "`build` [\u200b](https://vite.dev/guide/api-javascript#build)",
+        "`preview` [\u200b](https://vite.dev/guide/api-javascript#preview)",
+        "`PreviewServer` [\u200b](https://vite.dev/guide/api-javascript#previewserver)"
+      ]
+    },
+    {
+      "path": "reference/api-plugin.md",
+      "title": "Api Plugin",
+      "group": ".",
+      "bytes": 34197,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Plugin API [\u200b](https://vite.dev/guide/api-plugin#plugin-api)",
+        "Authoring a Plugin [\u200b](https://vite.dev/guide/api-plugin#authoring-a-plugin)",
+        "Conventions [\u200b](https://vite.dev/guide/api-plugin#conventions)",
+        "Plugins Config [\u200b](https://vite.dev/guide/api-plugin#plugins-config)",
+        "Simple Examples [\u200b](https://vite.dev/guide/api-plugin#simple-examples)",
+        "Transforming Custom File Types [\u200b](https://vite.dev/guide/api-plugin#transforming-custom-file-types)",
+        "Importing a Virtual File [\u200b](https://vite.dev/guide/api-plugin#importing-a-virtual-file)",
+        "Virtual Modules Convention [\u200b](https://vite.dev/guide/api-plugin#virtual-modules-convention)"
+      ]
+    },
+    {
+      "path": "reference/assets.md",
+      "title": "Assets",
+      "group": ".",
+      "bytes": 11918,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Static Asset Handling [\u200b](https://vite.dev/guide/assets#static-asset-handling)",
+        "Importing Asset as URL [\u200b](https://vite.dev/guide/assets#importing-asset-as-url)",
+        "Explicit URL Imports [\u200b](https://vite.dev/guide/assets#explicit-url-imports)",
+        "Explicit Inline Handling [\u200b](https://vite.dev/guide/assets#explicit-inline-handling)",
+        "Importing Asset as String [\u200b](https://vite.dev/guide/assets#importing-asset-as-string)",
+        "Importing Script as a Worker [\u200b](https://vite.dev/guide/assets#importing-script-as-a-worker)",
+        "The `public` Directory [\u200b](https://vite.dev/guide/assets#the-public-directory)",
+        "new URL(url, import.meta.url) [\u200b](https://vite.dev/guide/assets#new-url-url-import-meta-url)"
+      ]
+    },
+    {
+      "path": "reference/backend-integration.md",
+      "title": "Backend Integration",
+      "group": ".",
+      "bytes": 14398,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Backend Integration [\u200b](https://vite.dev/guide/backend-integration#backend-integration)"
+      ]
+    },
+    {
+      "path": "reference/build.md",
+      "title": "Build",
+      "group": ".",
+      "bytes": 18614,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Building for Production [\u200b](https://vite.dev/guide/build#building-for-production)",
+        "Browser Compatibility [\u200b](https://vite.dev/guide/build#browser-compatibility)",
+        "Public Base Path [\u200b](https://vite.dev/guide/build#public-base-path)",
+        "Relative base [\u200b](https://vite.dev/guide/build#relative-base)",
+        "Customizing the Build [\u200b](https://vite.dev/guide/build#customizing-the-build)",
+        "Chunking Strategy [\u200b](https://vite.dev/guide/build#chunking-strategy)",
+        "Load Error Handling [\u200b](https://vite.dev/guide/build#load-error-handling)",
+        "Rebuild on Files Changes [\u200b](https://vite.dev/guide/build#rebuild-on-files-changes)"
+      ]
+    },
+    {
+      "path": "reference/cli.md",
+      "title": "Cli",
+      "group": ".",
+      "bytes": 12121,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Command Line Interface [\u200b](https://vite.dev/guide/cli#command-line-interface)",
+        "Dev server [\u200b](https://vite.dev/guide/cli#dev-server)",
+        "`vite` [\u200b](https://vite.dev/guide/cli#vite)",
+        "Build [\u200b](https://vite.dev/guide/cli#build)",
+        "`vite build` [\u200b](https://vite.dev/guide/cli#vite-build)",
+        "Others [\u200b](https://vite.dev/guide/cli#others)",
+        "`vite optimize` [\u200b](https://vite.dev/guide/cli#vite-optimize)",
+        "`vite preview` [\u200b](https://vite.dev/guide/cli#vite-preview)"
+      ]
+    },
+    {
+      "path": "reference/dep-pre-bundling.md",
+      "title": "Dep Pre Bundling",
+      "group": ".",
+      "bytes": 11541,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Dependency Pre-Bundling [\u200b](https://vite.dev/guide/dep-pre-bundling#dependency-pre-bundling)",
+        "The Why [\u200b](https://vite.dev/guide/dep-pre-bundling#the-why)",
+        "Automatic Dependency Discovery [\u200b](https://vite.dev/guide/dep-pre-bundling#automatic-dependency-discovery)",
+        "Monorepos and Linked Dependencies [\u200b](https://vite.dev/guide/dep-pre-bundling#monorepos-and-linked-dependencies)",
+        "Customizing the Behavior [\u200b](https://vite.dev/guide/dep-pre-bundling#customizing-the-behavior)",
+        "Caching [\u200b](https://vite.dev/guide/dep-pre-bundling#caching)",
+        "File System Cache [\u200b](https://vite.dev/guide/dep-pre-bundling#file-system-cache)",
+        "Browser Cache [\u200b](https://vite.dev/guide/dep-pre-bundling#browser-cache)"
+      ]
+    },
+    {
+      "path": "reference/env-and-mode.md",
+      "title": "Env And Mode",
+      "group": ".",
+      "bytes": 15038,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Env Variables and Modes [\u200b](https://vite.dev/guide/env-and-mode#env-variables-and-modes)",
+        "Built-in Constants [\u200b](https://vite.dev/guide/env-and-mode#built-in-constants)",
+        "Env Variables [\u200b](https://vite.dev/guide/env-and-mode#env-variables)",
+        "`.env` Files [\u200b](https://vite.dev/guide/env-and-mode#env-files)",
+        "IntelliSense for TypeScript [\u200b](https://vite.dev/guide/env-and-mode#intellisense-for-typescript)",
+        "HTML Constant Replacement [\u200b](https://vite.dev/guide/env-and-mode#html-constant-replacement)",
+        "Modes [\u200b](https://vite.dev/guide/env-and-mode#modes)",
+        "NODE_ENV and Modes [\u200b](https://vite.dev/guide/env-and-mode#node-env-and-modes)"
+      ]
+    },
+    {
+      "path": "reference/features.md",
+      "title": "Features",
+      "group": ".",
+      "bytes": 39328,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Features [\u200b](https://vite.dev/guide/features#features)",
+        "npm Dependency Resolving and Pre-Bundling [\u200b](https://vite.dev/guide/features#npm-dependency-resolving-and-pre-bundling)",
+        "Hot Module Replacement [\u200b](https://vite.dev/guide/features#hot-module-replacement)",
+        "TypeScript [\u200b](https://vite.dev/guide/features#typescript)",
+        "Transpile Only [\u200b](https://vite.dev/guide/features#transpile-only)",
+        "TypeScript Compiler Options [\u200b](https://vite.dev/guide/features#typescript-compiler-options)",
+        "Client Types [\u200b](https://vite.dev/guide/features#client-types)",
+        "HTML [\u200b](https://vite.dev/guide/features#html)"
+      ]
+    },
+    {
+      "path": "reference/guide.md",
+      "title": "Guide",
+      "group": ".",
+      "bytes": 13718,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Getting Started [\u200b](https://vite.dev/guide/#getting-started)",
+        "Overview [\u200b](https://vite.dev/guide/#overview)",
+        "Browser Support [\u200b](https://vite.dev/guide/#browser-support)",
+        "Trying Vite Online [\u200b](https://vite.dev/guide/#trying-vite-online)",
+        "Scaffolding Your First Vite Project [\u200b](https://vite.dev/guide/#scaffolding-your-first-vite-project)",
+        "npm 7+, extra double-dash is needed:",
+        "Community Templates [\u200b](https://vite.dev/guide/#community-templates)",
+        "Manual Installation [\u200b](https://vite.dev/guide/#manual-installation)"
+      ]
+    },
+    {
+      "path": "reference/migration.md",
+      "title": "Migration",
+      "group": ".",
+      "bytes": 23235,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Migration from v7 [\u200b](https://vite.dev/guide/migration#migration-from-v7)",
+        "Default Browser Target Change [NRV](https://vite.dev/guide/migration#migration-from-v7) [\u200b](https://vite.dev/guide/migration#default-browser-target-change)",
+        "Rolldown [\u200b](https://vite.dev/guide/migration#rolldown)",
+        "Gradual Migration [\u200b](https://vite.dev/guide/migration#gradual-migration)",
+        "Dependency Optimizer Now Uses Rolldown [\u200b](https://vite.dev/guide/migration#dependency-optimizer-now-uses-rolldown)",
+        "JavaScript Transforms by Oxc [\u200b](https://vite.dev/guide/migration#javascript-transforms-by-oxc)",
+        "JavaScript Minification by Oxc [\u200b](https://vite.dev/guide/migration#javascript-minification-by-oxc)",
+        "CSS Minification by Lightning CSS [\u200b](https://vite.dev/guide/migration#css-minification-by-lightning-css)"
+      ]
+    },
+    {
+      "path": "reference/performance.md",
+      "title": "Performance",
+      "group": ".",
+      "bytes": 13444,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Performance [\u200b](https://vite.dev/guide/performance#performance)",
+        "Review Your Browser Setup [\u200b](https://vite.dev/guide/performance#review-your-browser-setup)",
+        "Audit Configured Vite Plugins [\u200b](https://vite.dev/guide/performance#audit-configured-vite-plugins)",
+        "Reduce Resolve Operations [\u200b](https://vite.dev/guide/performance#reduce-resolve-operations)",
+        "Avoid Barrel Files [\u200b](https://vite.dev/guide/performance#avoid-barrel-files)",
+        "Warm Up Frequently Used Files [\u200b](https://vite.dev/guide/performance#warm-up-frequently-used-files)",
+        "Use Lesser or Native Tooling [\u200b](https://vite.dev/guide/performance#use-lesser-or-native-tooling)"
+      ]
+    },
+    {
+      "path": "reference/philosophy.md",
+      "title": "Philosophy",
+      "group": ".",
+      "bytes": 8177,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Project Philosophy [\u200b](https://vite.dev/guide/philosophy#project-philosophy)",
+        "Lean Extendable Core [\u200b](https://vite.dev/guide/philosophy#lean-extendable-core)",
+        "Pushing the Modern Web [\u200b](https://vite.dev/guide/philosophy#pushing-the-modern-web)",
+        "A Pragmatic Approach to Performance [\u200b](https://vite.dev/guide/philosophy#a-pragmatic-approach-to-performance)",
+        "Building Frameworks on Top of Vite [\u200b](https://vite.dev/guide/philosophy#building-frameworks-on-top-of-vite)",
+        "An Active Ecosystem [\u200b](https://vite.dev/guide/philosophy#an-active-ecosystem)"
+      ]
+    },
+    {
+      "path": "reference/ssr.md",
+      "title": "Ssr",
+      "group": ".",
+      "bytes": 18163,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Server-Side Rendering (SSR) [\u200b](https://vite.dev/guide/ssr#server-side-rendering-ssr)",
+        "Example Projects [\u200b](https://vite.dev/guide/ssr#example-projects)",
+        "Source Structure [\u200b](https://vite.dev/guide/ssr#source-structure)",
+        "Conditional Logic [\u200b](https://vite.dev/guide/ssr#conditional-logic)",
+        "Setting Up the Dev Server [\u200b](https://vite.dev/guide/ssr#setting-up-the-dev-server)",
+        "Building for Production [\u200b](https://vite.dev/guide/ssr#building-for-production)",
+        "Generating Preload Directives [\u200b](https://vite.dev/guide/ssr#generating-preload-directives)",
+        "Pre-Rendering / SSG [\u200b](https://vite.dev/guide/ssr#pre-rendering-ssg)"
+      ]
+    },
+    {
+      "path": "reference/static-deploy.md",
+      "title": "Static Deploy",
+      "group": ".",
+      "bytes": 19810,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Deploying a Static Site [\u200b](https://vite.dev/guide/static-deploy#deploying-a-static-site)",
+        "Building the App [\u200b](https://vite.dev/guide/static-deploy#building-the-app)",
+        "Testing the App Locally [\u200b](https://vite.dev/guide/static-deploy#testing-the-app-locally)",
+        "GitHub Pages [\u200b](https://vite.dev/guide/static-deploy#github-pages)",
+        "Simple workflow for deploying static content to GitHub Pages",
+        "Sets the GITHUB_TOKEN permissions to allow deployment to GitHub Pages",
+        "Allow one concurrent deployment",
+        "GitLab Pages and GitLab CI [\u200b](https://vite.dev/guide/static-deploy#gitlab-pages-and-gitlab-ci)"
+      ]
+    },
+    {
+      "path": "reference/troubleshooting.md",
+      "title": "Troubleshooting",
+      "group": ".",
+      "bytes": 23446,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Troubleshooting [\u200b](https://vite.dev/guide/troubleshooting#troubleshooting)",
+        "CLI [\u200b](https://vite.dev/guide/troubleshooting#cli)",
+        "`Error: Cannot find module 'C:\\foo\\bar&baz\\vite\\bin\\vite.js'` [\u200b](https://vite.dev/guide/troubleshooting#error-cannot-find-module-c-foo-bar-baz-vite-bin-vite-js)",
+        "Config [\u200b](https://vite.dev/guide/troubleshooting#config)",
+        "This package is ESM only [\u200b](https://vite.dev/guide/troubleshooting#this-package-is-esm-only)",
+        "Dev Server [\u200b](https://vite.dev/guide/troubleshooting#dev-server)",
+        "Requests are stalled forever [\u200b](https://vite.dev/guide/troubleshooting#requests-are-stalled-forever)",
+        "Check current limit"
+      ]
+    },
+    {
+      "path": "reference/using-plugins.md",
+      "title": "Using Plugins",
+      "group": ".",
+      "bytes": 8816,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Using Plugins [\u200b](https://vite.dev/guide/using-plugins#using-plugins)",
+        "Adding a Plugin [\u200b](https://vite.dev/guide/using-plugins#adding-a-plugin)",
+        "Finding Plugins [\u200b](https://vite.dev/guide/using-plugins#finding-plugins)",
+        "Enforcing Plugin Ordering [\u200b](https://vite.dev/guide/using-plugins#enforcing-plugin-ordering)",
+        "Conditional Application [\u200b](https://vite.dev/guide/using-plugins#conditional-application)",
+        "Building Plugins [\u200b](https://vite.dev/guide/using-plugins#building-plugins)"
+      ]
+    },
+    {
+      "path": "reference/why.md",
+      "title": "Why",
+      "group": ".",
+      "bytes": 9866,
+      "headings": [
+        "Introduction",
+        "Guide",
+        "APIs",
+        "Environment API",
+        "Why Vite [\u200b](https://vite.dev/guide/why#why-vite)",
+        "The Origins [\u200b](https://vite.dev/guide/why#the-origins)",
+        "Growing with the Ecosystem [\u200b](https://vite.dev/guide/why#growing-with-the-ecosystem)",
+        "A Unified Toolchain [\u200b](https://vite.dev/guide/why#a-unified-toolchain)",
+        "Where Vite is Heading [\u200b](https://vite.dev/guide/why#where-vite-is-heading)"
+      ]
+    }
+  ]
+}

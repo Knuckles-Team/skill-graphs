@@ -1,0 +1,352 @@
+[![](https://vite.dev/assets/footer-background.BIgtbvhx.jpg) ![Vite icon](data:image/svg+xml,%3csvg%20viewBox='0%200%2023%2014'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M20.7482%200H18.8887C21.641%203.93959%2021.6571%2010.0462%2018.8887%2014H20.7482C23.516%2010.0462%2023.4999%203.93959%2020.7482%200Z'%20fill='white'/%3e%3cpath%20d='M2.07027%203.05176e-05C-0.682028%203.93963%20-0.698142%2010.0463%202.07027%2014H3.92985C1.16208%2010.0463%201.1782%203.93963%203.92985%203.05176e-05H2.07027Z'%20fill='white'/%3e%3cpath%20d='M12.0135%2013.6771C11.815%2013.9298%2011.4089%2013.7892%2011.4089%2013.4683V10.3853C11.4089%2010.0114%2011.106%209.70849%2010.7321%209.70849H7.32818C7.05295%209.70849%206.89245%209.39716%207.05295%209.1735L9.29089%206.04026C9.61124%205.59228%209.29089%204.96963%208.73979%204.96963H4.62036C4.34513%204.96963%204.18463%204.65831%204.34512%204.43464L7.24632%200.372579C7.31013%200.283628%207.41262%200.230774%207.52155%200.230774H16.1671C16.4424%200.230774%2016.6029%200.5421%2016.4424%200.765765L14.2044%203.89901C13.8841%204.34698%2014.2044%204.96963%2014.7555%204.96963H18.1595C18.4418%204.96963%2018.6004%205.29514%2018.4257%205.51751L12.0142%2013.6777L12.0135%2013.6771Z'%20fill='white'/%3e%3c/svg%3e)Cloudflare supports Vite's mission ](https://vite.dev/blog/cloudflare-supports-vite)
+[Skip to content](https://vite.dev/guide/api-environment-instances#VPContent)
+[![Vite](https://vite.dev/assets/vite-dark.D2ACe7TL.svg)![Vite](https://vite.dev/assets/vite-light.t8GCa_VF.svg)](https://vite.dev/)
+Main Navigation [Guide](https://vite.dev/guide/)[Config](https://vite.dev/config/)[Plugins](https://vite.dev/plugins/)
+Resources
+[Team](https://vite.dev/team)
+[Blog](https://vite.dev/blog)
+[Releases](https://vite.dev/releases)
+[Acknowledgements](https://vite.dev/acknowledgements)
+[Plugin Registry](https://registry.vite.dev/plugins)
+[Discord Chat](https://chat.vite.dev)
+v8.0.16
+[Unreleased Docs](https://main.vite.dev)
+[Vite 7 Docs](https://v7.vite.dev)
+[Vite 6 Docs](https://v6.vite.dev)
+[Vite 5 Docs](https://v5.vite.dev)
+[Vite 4 Docs](https://v4.vite.dev)
+[Vite 3 Docs](https://v3.vite.dev)
+[Vite 2 Docs](https://v2.vite.dev)
+Search`⌘``Ctrl``K`
+English
+[简体中文](https://cn.vite.dev/guide/api-environment-instances)
+[日本語](https://ja.vite.dev/guide/api-environment-instances)
+[Español](https://es.vite.dev/guide/api-environment-instances)
+[Português](https://pt.vite.dev/guide/api-environment-instances)
+[한국어](https://ko.vite.dev/guide/api-environment-instances)
+[Deutsch](https://de.vite.dev/guide/api-environment-instances)
+[فارسی](https://fa.vite.dev/guide/api-environment-instances)
+Appearance
+[](https://chat.vite.dev)
+English
+[简体中文](https://cn.vite.dev/guide/api-environment-instances)
+[日本語](https://ja.vite.dev/guide/api-environment-instances)
+[Español](https://es.vite.dev/guide/api-environment-instances)
+[Português](https://pt.vite.dev/guide/api-environment-instances)
+[한국어](https://ko.vite.dev/guide/api-environment-instances)
+[Deutsch](https://de.vite.dev/guide/api-environment-instances)
+[فارسی](https://fa.vite.dev/guide/api-environment-instances)
+[](https://chat.vite.dev)
+Menu
+On this page
+Sidebar Navigation
+## Introduction
+[Getting Started ](https://vite.dev/guide/)
+[Philosophy ](https://vite.dev/guide/philosophy)
+[Why Vite ](https://vite.dev/guide/why)
+## Guide
+[Features ](https://vite.dev/guide/features)
+[CLI ](https://vite.dev/guide/cli)
+[Using Plugins ](https://vite.dev/guide/using-plugins)
+[Dependency Pre-Bundling ](https://vite.dev/guide/dep-pre-bundling)
+[Static Asset Handling ](https://vite.dev/guide/assets)
+[Building for Production ](https://vite.dev/guide/build)
+[Deploying a Static Site ](https://vite.dev/guide/static-deploy)
+[Env Variables and Modes ](https://vite.dev/guide/env-and-mode)
+[Server-Side Rendering (SSR) ](https://vite.dev/guide/ssr)
+[Backend Integration ](https://vite.dev/guide/backend-integration)
+[Troubleshooting ](https://vite.dev/guide/troubleshooting)
+[Performance ](https://vite.dev/guide/performance)
+[Migration from v7 ](https://vite.dev/guide/migration)
+[Breaking Changes ](https://vite.dev/changes/)
+## APIs
+[Plugin API ](https://vite.dev/guide/api-plugin)
+[HMR API ](https://vite.dev/guide/api-hmr)
+[JavaScript API ](https://vite.dev/guide/api-javascript)
+[Config Reference ](https://vite.dev/config/)
+## Environment API
+[Introduction ](https://vite.dev/guide/api-environment)
+[Environment Instances ](https://vite.dev/guide/api-environment-instances)
+[Plugins ](https://vite.dev/guide/api-environment-plugins)
+[Frameworks ](https://vite.dev/guide/api-environment-frameworks)
+[Runtimes ](https://vite.dev/guide/api-environment-runtimes)
+On this page
+  * [Accessing the Environments](https://vite.dev/guide/api-environment-instances#accessing-the-environments "Accessing the Environments")
+  * [DevEnvironment class](https://vite.dev/guide/api-environment-instances#devenvironment-class "DevEnvironment class")
+  * [Separate Module Graphs](https://vite.dev/guide/api-environment-instances#separate-module-graphs "Separate Module Graphs")
+  * [FetchResult](https://vite.dev/guide/api-environment-instances#fetchresult "FetchResult")
+
+Are you an LLM? You can read better optimized documentation at /guide/api-environment-instances.md for this page in Markdown format
+# Using `Environment` Instances [​](https://vite.dev/guide/api-environment-instances#using-environment-instances)
+Release Candidate
+The Environment API is generally in the release candidate phase. We'll maintain stability in the APIs between major releases to allow the ecosystem to experiment and build upon them. However, note that [some specific APIs](https://vite.dev/changes/#considering) are still considered experimental.
+We plan to stabilize these new APIs (with potential breaking changes) in a future major release once downstream projects have had time to experiment with the new features and validate them.
+Resources:
+Please share your feedback with us.
+## Accessing the Environments [​](https://vite.dev/guide/api-environment-instances#accessing-the-environments)
+During dev, the available environments in a dev server can be accessed using `server.environments`:
+js
+```
+// create the server, or get it from the configureServer hook
+const server = await createServer(/* options */)
+
+const clientEnvironment = server.environments.client
+clientEnvironment.transformRequest(url)
+console.log(server.environments.ssr.moduleGraph)
+```
+
+You can also access the current environment from plugins. See the [Environment API for Plugins](https://vite.dev/guide/api-environment-plugins#accessing-the-current-environment-in-hooks) for more details.
+##  `DevEnvironment` class [​](https://vite.dev/guide/api-environment-instances#devenvironment-class)
+During dev, each environment is an instance of the `DevEnvironment` class:
+ts
+```
+class DevEnvironment {
+  /**
+   * Unique identifier for the environment in a Vite server.
+   * By default Vite exposes 'client' and 'ssr' environments.
+   */
+  name: string
+  /**
+   * Communication channel to send and receive messages from the
+   * associated module runner in the target runtime.
+   */
+  hot: NormalizedHotChannel
+  /**
+   * Graph of module nodes, with the imported relationship between
+   * processed modules and the cached result of the processed code.
+   */
+  moduleGraph: EnvironmentModuleGraph
+  /**
+   * Resolved plugins for this environment, including the ones
+   * created using the per-environment `create` hook
+   */
+  plugins: Plugin[]
+  /**
+   * Allows to resolve, load, and transform code through the
+   * environment plugins pipeline
+   */
+  pluginContainer: EnvironmentPluginContainer
+  /**
+   * Resolved config options for this environment. Options at the server
+   * global scope are taken as defaults for all environments, and can
+   * be overridden (resolve conditions, external, optimizedDeps)
+   */
+  config: ResolvedConfig & ResolvedDevEnvironmentOptions
+
+  constructor(
+    name: string,
+    config: ResolvedConfig,
+    context: DevEnvironmentContext,
+  )
+
+  /**
+   * Resolve the URL to an id, load it, and process the code using the
+   * plugins pipeline. The module graph is also updated.
+   */
+  async transformRequest(url: string): Promise<TransformResult | null>
+
+  /**
+   * Register a request to be processed with low priority. This is useful
+   * to avoid waterfalls. The Vite server has information about the
+   * imported modules by other requests, so it can warmup the module graph
+   * so the modules are already processed when they are requested.
+   */
+  async warmupRequest(url: string): Promise<void>
+
+  /**
+   * Called by the module runner to retrieve information about the specified
+   * module. Internally calls `transformRequest` and wraps the result in the
+   * format that the module runner understands.
+   * This method is not meant to be called manually.
+   */
+  async fetchModule(
+    id: string,
+    importer?: string,
+    options?: FetchFunctionOptions,
+  ): Promise<FetchResult>
+}
+```
+
+With `DevEnvironmentContext` being:
+ts
+```
+interface DevEnvironmentContext {
+  hot: boolean
+  transport?: HotChannel | WebSocketServer
+  options?: EnvironmentOptions
+  remoteRunner?: {
+    inlineSourceMap?: boolean
+  }
+  depsOptimizer?: DepsOptimizer
+}
+```
+
+and with `TransformResult` being:
+ts
+```
+interface TransformResult {
+  code: string
+  map: SourceMap | { mappings: '' } | null
+  etag?: string
+  deps?: string[]
+  dynamicDeps?: string[]
+}
+```
+
+An environment instance in the Vite server lets you process a URL using the `environment.transformRequest(url)` method. This function will use the plugin pipeline to resolve the `url` to a module `id`, load it (reading the file from the file system or through a plugin that implements a virtual module), and then transform the code. While transforming the module, imports and other metadata will be recorded in the environment module graph by creating or updating the corresponding module node. When processing is done, the transform result is also stored in the module.
+transformRequest naming
+We are using `transformRequest(url)` and `warmupRequest(url)` in the current version of this proposal so it is easier to discuss and understand for users used to Vite's current API. Before releasing, we can take the opportunity to review these names too. For example, it could be named `environment.processModule(url)` or `environment.loadModule(url)` taking a page from Rollup's `context.load(id)` in plugin hooks. For the moment, we think keeping the current names and delaying this discussion is better.
+## Separate Module Graphs [​](https://vite.dev/guide/api-environment-instances#separate-module-graphs)
+Each environment has an isolated module graph. All module graphs have the same signature, so generic algorithms can be implemented to crawl or query the graph without depending on the environment. `hotUpdate` is a good example. When a file is modified, the module graph of each environment will be used to discover the affected modules and perform HMR for each environment independently.
+INFO
+Vite v5 had a mixed Client and SSR module graph. Given an unprocessed or invalidated node, it isn't possible to know if it corresponds to the Client, SSR, or both environments. Module nodes have some properties prefixed, like `clientImportedModules` and `ssrImportedModules` (and `importedModules` that returns the union of both). `importers` contains all importers from both the Client and SSR environment for each module node. A module node also has `transformResult` and `ssrTransformResult`. A backward compatibility layer allows the ecosystem to migrate from the deprecated `server.moduleGraph`.
+Each module is represented by a `EnvironmentModuleNode` instance. Modules may be registered in the graph without yet being processed (`transformResult` would be `null` in that case). `importers` and `importedModules` are also updated after the module is processed.
+ts
+```
+class EnvironmentModuleNode {
+  environment: string
+
+  url: string
+  id: string | null = null
+  file: string | null = null
+
+  type: 'js' | 'css'
+
+  importers = new Set<EnvironmentModuleNode>()
+  importedModules = new Set<EnvironmentModuleNode>()
+  importedBindings: Map<string, Set<string>> | null = null
+
+  info?: ModuleInfo
+  meta?: Record<string, any>
+  transformResult: TransformResult | null = null
+
+  acceptedHmrDeps = new Set<EnvironmentModuleNode>()
+  acceptedHmrExports: Set<string> | null = null
+  isSelfAccepting?: boolean
+  lastHMRTimestamp = 0
+  lastInvalidationTimestamp = 0
+}
+```
+
+`environment.moduleGraph` is an instance of `EnvironmentModuleGraph`:
+ts
+```
+export class EnvironmentModuleGraph {
+  environment: string
+
+  urlToModuleMap = new Map<string, EnvironmentModuleNode>()
+  idToModuleMap = new Map<string, EnvironmentModuleNode>()
+  etagToModuleMap = new Map<string, EnvironmentModuleNode>()
+  fileToModulesMap = new Map<string, Set<EnvironmentModuleNode>>()
+
+  constructor(
+    environment: string,
+    resolveId: (url: string) => Promise<PartialResolvedId | null>,
+  )
+
+  async getModuleByUrl(
+    rawUrl: string,
+  ): Promise<EnvironmentModuleNode | undefined>
+
+  getModuleById(id: string): EnvironmentModuleNode | undefined
+
+  getModulesByFile(file: string): Set<EnvironmentModuleNode> | undefined
+
+  onFileChange(file: string): void
+
+  onFileDelete(file: string): void
+
+  invalidateModule(
+    mod: EnvironmentModuleNode,
+    seen: Set<EnvironmentModuleNode> = new Set(),
+    timestamp: number = monotonicDateNow(),
+    isHmr: boolean = false,
+  ): void
+
+  invalidateAll(): void
+
+  async ensureEntryFromUrl(
+    rawUrl: string,
+    setIsSelfAccepting = true,
+  ): Promise<EnvironmentModuleNode>
+
+  createFileOnlyEntry(file: string): EnvironmentModuleNode
+
+  async resolveUrl(url: string): Promise<ResolvedUrl>
+
+  updateModuleTransformResult(
+    mod: EnvironmentModuleNode,
+    result: TransformResult | null,
+  ): void
+
+  getModuleByEtag(etag: string): EnvironmentModuleNode | undefined
+}
+```
+
+##  `FetchResult` [​](https://vite.dev/guide/api-environment-instances#fetchresult)
+The `environment.fetchModule` method returns a `FetchResult` that is meant to be consumed by the module runner. `FetchResult` is a union of `CachedFetchResult`, `ExternalFetchResult`, and `ViteFetchResult`.
+`CachedFetchResult` is analogous to the `304` (Not Modified) HTTP status code.
+ts
+```
+export interface CachedFetchResult {
+  /**
+   * If the module is cached in the runner, this confirms
+   * it was not invalidated on the server side.
+   */
+  cache: true
+}
+```
+
+`ExternalFetchResult` instructs the module runner to import the module using the `runExternalModule` method on the [`ModuleEvaluator`](https://vite.dev/guide/api-environment-runtimes#moduleevaluator). In this case, the default module evaluator will use the runtime's native `import` instead of processing the file through Vite.
+ts
+```
+export interface ExternalFetchResult {
+  /**
+   * The path to the externalized module starting with file://.
+   * By default this will be imported via a dynamic "import"
+   * instead of being transformed by Vite and loaded with the Vite runner.
+   */
+  externalize: string
+  /**
+   * Type of the module. Used to determine if the import statement is correct.
+   * For example, if Vite needs to throw an error if a variable is not actually exported.
+   */
+  type: 'module' | 'commonjs' | 'builtin' | 'network'
+}
+```
+
+`ViteFetchResult` returns information about the current module, including the `code` to execute and the module's `id`, `file`, and `url`.
+The `invalidate` field instructs the module runner to invalidate the module before executing it again rather than serving it from cache. This is usually `true` when an HMR update was triggered.
+ts
+```
+export interface ViteFetchResult {
+  /**
+   * Code that will be evaluated by the Vite runner.
+   * By default this will be wrapped in an async function.
+   */
+  code: string
+  /**
+   * File path of the module on disk.
+   * This will be resolved as import.meta.url/filename.
+   * Will be `null` for virtual modules.
+   */
+  file: string | null
+  /**
+   * Module ID in the server module graph.
+   */
+  id: string
+  /**
+   * Module URL used in the import.
+   */
+  url: string
+  /**
+   * Invalidate module on the client side.
+   */
+  invalidate: boolean
+}
+```
+
+Pager
+[Previous pageIntroduction](https://vite.dev/guide/api-environment)
+[Next pagePlugins](https://vite.dev/guide/api-environment-plugins)
+© 2019-present VoidZero Inc. and Vite contributors. (012eb452)
