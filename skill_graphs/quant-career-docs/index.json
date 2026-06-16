@@ -1,0 +1,165 @@
+{
+  "schema": "skill-graph-index/v1",
+  "name": "quant-career-docs",
+  "skill_graph_version": "1.0.0",
+  "kg_ingested": false,
+  "kg_domain": "skillgraph:quant-career-docs",
+  "concepts": [],
+  "source_url": "",
+  "file_count": 11,
+  "groups": {
+    ".": 11
+  },
+  "sections": [
+    {
+      "path": "reference/backtesting.md",
+      "title": "Backtesting: The Art of Not Lying to Yourself (Months 3\u20136)",
+      "group": ".",
+      "bytes": 1852,
+      "headings": [
+        "Backtesting: The Art of Not Lying to Yourself (Months 3\u20136)",
+        "The most important rule: don't look at the future",
+        "Tools",
+        "\"Hello World\": SMA Crossover",
+        "Then: Pairs Trading with Cointegration"
+      ]
+    },
+    {
+      "path": "reference/certifications.md",
+      "title": "Certifications That Actually Matter (Phase 6)",
+      "group": ".",
+      "bytes": 1089,
+      "headings": [
+        "Certifications That Actually Matter (Phase 6)",
+        "Certificate in Quantitative Finance (CQF)",
+        "CFA Level 1",
+        "QuantInsti's EPAT",
+        "Free / audit options"
+      ]
+    },
+    {
+      "path": "reference/competitions.md",
+      "title": "Competitions: The Shortcut to Credibility",
+      "group": ".",
+      "bytes": 829,
+      "headings": [
+        "Competitions: The Shortcut to Credibility",
+        "Numerai",
+        "QuantConnect",
+        "Kaggle Financial Datasets"
+      ]
+    },
+    {
+      "path": "reference/finance-fundamentals.md",
+      "title": "Finance Fundamentals (Months 2\u20135)",
+      "group": ".",
+      "bytes": 1245,
+      "headings": [
+        "Finance Fundamentals (Months 2\u20135)",
+        "Markets 101",
+        "Black-Scholes",
+        "Why this comes before the modeling"
+      ]
+    },
+    {
+      "path": "reference/job-search.md",
+      "title": "Getting the Remote Job (Phase 7)",
+      "group": ".",
+      "bytes": 3433,
+      "headings": [
+        "Getting the Remote Job (Phase 7)",
+        "Where quant jobs actually live",
+        "Remote reality check",
+        "Salary ranges",
+        "Interviews \u2014 what they actually ask",
+        "The realistic timeline",
+        "The one thing that separates people who make it"
+      ]
+    },
+    {
+      "path": "reference/math-foundations.md",
+      "title": "Math You Actually Need (Months 1\u20134)",
+      "group": ".",
+      "bytes": 1105,
+      "headings": [
+        "Math You Actually Need (Months 1\u20134)",
+        "Linear Algebra",
+        "Calculus",
+        "Probability & Statistics \u2014 the core engine",
+        "Optimization",
+        "Free, sufficient resources"
+      ]
+    },
+    {
+      "path": "reference/ml-for-finance.md",
+      "title": "Machine Learning for Finance (Months 5\u20138)",
+      "group": ".",
+      "bytes": 2118,
+      "headings": [
+        "Machine Learning for Finance (Months 5\u20138)",
+        "What actually works",
+        "What doesn't work as advertised",
+        "The honest framework",
+        "The Markov model that runs hedge funds",
+        "Add this to your stack"
+      ]
+    },
+    {
+      "path": "reference/portfolio-projects.md",
+      "title": "The Portfolio That Gets You Hired (Months 6\u201312)",
+      "group": ".",
+      "bytes": 1964,
+      "headings": [
+        "The Portfolio That Gets You Hired (Months 6\u201312)",
+        "The GitHub rule \u2014 every project needs:",
+        "The 5 projects that move the needle (need \u22653, 5 is better)",
+        "Project 1 \u2014 Pairs Trading Strategy",
+        "Project 2 \u2014 Factor Model",
+        "Project 3 \u2014 Volatility Forecasting",
+        "Project 4 \u2014 Sentiment Alpha",
+        "Project 5 \u2014 ML Classification",
+        "Metrics glossary"
+      ]
+    },
+    {
+      "path": "reference/python-stack.md",
+      "title": "Python First. Always.",
+      "group": ".",
+      "bytes": 969,
+      "headings": [
+        "Python First. Always.",
+        "The exact stack, in order",
+        "Your first day as a quant (\u224820 minutes)"
+      ]
+    },
+    {
+      "path": "reference/roles.md",
+      "title": "The Quant Roles",
+      "group": ".",
+      "bytes": 1582,
+      "headings": [
+        "The Quant Roles",
+        "Quantitative Researcher (QR)",
+        "Quantitative Developer (QD)",
+        "Quantitative Trader (QT)",
+        "Risk Analyst",
+        "Realistic first target",
+        "Compensation snapshot",
+        "The mindset that gets people hired"
+      ]
+    },
+    {
+      "path": "reference/strategies.md",
+      "title": "The Three Strategies Every Quant Knows",
+      "group": ".",
+      "bytes": 1097,
+      "headings": [
+        "The Three Strategies Every Quant Knows",
+        "1. Mean Reversion",
+        "2. Momentum",
+        "3. Factor Models",
+        "How they map to projects"
+      ]
+    }
+  ]
+}

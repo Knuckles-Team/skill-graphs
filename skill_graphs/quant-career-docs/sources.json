@@ -1,0 +1,83 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "quant-career-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-06-16T05:06:21Z",
+  "builder_version": "0.47.1",
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "dir",
+      "uri": "/home/apps/worktrees/skill-graphs/sg-delta/skill_graphs/quant-career-docs/reference",
+      "options": {},
+      "extractor": "filesystem",
+      "fetched_at": "2026-06-16T05:06:21Z",
+      "content_hash": "sha256:031a118b7a0ee05eff6f15ae83aac018ec90541bf15c4a748e9d0bbd327db9a8",
+      "doc_count": 11
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/backtesting.md",
+      "sha256": "sha256:c5204dc82c72ec63e6de6a4c4ec1ef774c64cb61f7ec2d08f58035efa1a83376",
+      "bytes": 1852
+    },
+    {
+      "path": "reference/certifications.md",
+      "sha256": "sha256:e8dd1bf61234bbb6b4cd27ac9f70c611b2d7ff288e8ac89bfd79c1ef7c274703",
+      "bytes": 1089
+    },
+    {
+      "path": "reference/competitions.md",
+      "sha256": "sha256:160a9eb4d4dc2712dc3e3db8f3634fea33b6eabe088285abaf00e96ac89aba10",
+      "bytes": 829
+    },
+    {
+      "path": "reference/finance-fundamentals.md",
+      "sha256": "sha256:1b60b4ea4db90438c744e4c391222281f3b2a16c28e1212e4657f7365b9448ef",
+      "bytes": 1245
+    },
+    {
+      "path": "reference/job-search.md",
+      "sha256": "sha256:1afb54350d2d17be05d12c23ec1d90540394a56ff6599e349e8f9b153df93819",
+      "bytes": 3433
+    },
+    {
+      "path": "reference/math-foundations.md",
+      "sha256": "sha256:7b08a6d805feb2cda7c00bb5aed97f3ee42fa4939dc6fff712e216d0cf0689df",
+      "bytes": 1105
+    },
+    {
+      "path": "reference/ml-for-finance.md",
+      "sha256": "sha256:4e2a110863e658e2a37fd94e23717c99f3802571af82360df4a4bea0a6472999",
+      "bytes": 2118
+    },
+    {
+      "path": "reference/portfolio-projects.md",
+      "sha256": "sha256:d237c36e229251523c96d60008f578252824da36741fde1ce67835c94e5f5aef",
+      "bytes": 1964
+    },
+    {
+      "path": "reference/python-stack.md",
+      "sha256": "sha256:e28d590ef2ccf84f7306dfb6d12f492f0d907e8e62f09a7ebbd8b8be9cdad5a3",
+      "bytes": 969
+    },
+    {
+      "path": "reference/roles.md",
+      "sha256": "sha256:a6b43cb10b53671c150ac570961c03af8027bee103e6d6b7c1287b30302f7cf3",
+      "bytes": 1582
+    },
+    {
+      "path": "reference/strategies.md",
+      "sha256": "sha256:91e81ab6fcb5fd14448cd8778e07c28ea0982aa5c3aee7f89eb2a4a1eec8bcd3",
+      "bytes": 1097
+    }
+  ],
+  "stats": {
+    "file_count": 11,
+    "source_count": 1
+  }
+}
