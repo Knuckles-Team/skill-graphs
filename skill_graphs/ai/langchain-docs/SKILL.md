@@ -2,7 +2,7 @@
 name: langchain-docs
 description: Comprehensive reference documentation for Langchain Docs.
 crawl_depth: 3
-source_url: https://python.langchain.com/docs/concepts/
+source_url: https://docs.langchain.com/
 tags: [docs, reference, langchain-docs, knowledge-base]
 ---
 

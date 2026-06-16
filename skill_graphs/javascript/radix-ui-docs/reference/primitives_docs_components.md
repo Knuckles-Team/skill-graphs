@@ -2,6 +2,7 @@
 [Radix Homepage](https://www.radix-ui.com/)
 [ThemesThemes](https://www.radix-ui.com/)[PrimitivesPrimitives](https://www.radix-ui.com/primitives)[IconsIcons](https://www.radix-ui.com/icons)[ColorsColors](https://www.radix-ui.com/colors)
 [Documentation](https://www.radix-ui.com/primitives/docs)[Case studies](https://www.radix-ui.com/primitives/case-studies)[Blog](https://www.radix-ui.com/blog)
+Search
 `/`
 #### Overview
 [Introduction](https://www.radix-ui.com/primitives/docs/overview/introduction)[Getting started](https://www.radix-ui.com/primitives/docs/overview/getting-started)[Accessibility](https://www.radix-ui.com/primitives/docs/overview/accessibility)[Releases](https://www.radix-ui.com/primitives/docs/overview/releases)
@@ -74,6 +75,5 @@ A set of two-state buttons that can be toggled on or off.
 A container for grouping a set of controls, such as buttons, toggle groups or dropdown menus.
   * [Tooltip](https://www.radix-ui.com/primitives/docs/components/tooltip)
 A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.
-
 
 Next[Introduction](https://www.radix-ui.com/primitives/docs/overview/introduction)

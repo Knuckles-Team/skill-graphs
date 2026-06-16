@@ -2,7 +2,7 @@
 name: mariadb-docs
 description: Comprehensive reference documentation for Mariadb Docs.
 crawl_depth: 2
-source_url: https://mariadb.com/kb/en/library/
+source_url: https://mariadb.com/docs/
 tags: [docs, reference, mariadb-docs, knowledge-base]
 ---
 

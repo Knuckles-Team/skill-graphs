@@ -2,12 +2,11 @@ Build faster with Premium Chakra UI Components 💎
 [Learn more](https://pro.chakra-ui.com?utm_source=chakra-ui.com)
 [Skip to Content](https://chakra-ui.com/docs/theming/overview#chakra-skip-nav)
 [](https://chakra-ui.com/)[Docs](https://chakra-ui.com/docs/get-started/installation)[Showcase](https://chakra-ui.com/showcase)[Blog](https://chakra-ui.com/blog)[Guides](https://chakra-ui.com/guides)
-3.34.0Search...`⌘K`
+3.36.0Search...`⌘K`
 [Get Started ](https://chakra-ui.com/docs/get-started/installation)[Components ](https://chakra-ui.com/docs/components/concepts/overview)[Charts ](https://chakra-ui.com/docs/charts/installation)[Styling ](https://chakra-ui.com/docs/styling/overview)[Theming ](https://chakra-ui.com/docs/theming/overview)
 [](https://chakra-ui.com/)
   1. Concepts
   2. Overview
-
 
 Concepts
 [Overview](https://chakra-ui.com/docs/theming/overview)[Tokens](https://chakra-ui.com/docs/theming/tokens)[Semantic Tokens](https://chakra-ui.com/docs/theming/semantic-tokens)[Recipes](https://chakra-ui.com/docs/theming/recipes)[Slot Recipes](https://chakra-ui.com/docs/theming/slot-recipes)
@@ -19,14 +18,14 @@ Customization
 [Overview](https://chakra-ui.com/docs/theming/customization/overview)[Animations](https://chakra-ui.com/docs/theming/customization/animations)[Breakpoints](https://chakra-ui.com/docs/theming/customization/breakpoints)[Colors](https://chakra-ui.com/docs/theming/customization/colors)[Conditions](https://chakra-ui.com/docs/theming/customization/conditions)[CSS Variables](https://chakra-ui.com/docs/theming/customization/css-variables)[Global CSS](https://chakra-ui.com/docs/theming/customization/global-css)[Recipes](https://chakra-ui.com/docs/theming/customization/recipes)[Sizes](https://chakra-ui.com/docs/theming/customization/sizes)[Spacing](https://chakra-ui.com/docs/theming/customization/spacing)[Utilities](https://chakra-ui.com/docs/theming/customization/utilities)
 # Overview
 A guide for configuring the Chakra UI theming system.
-AI TipWant to skip the docs? Use the [MCP Server](https://chakra-ui.com/docs/get-started/ai/mcp-server)
+AI TipWant to skip the docs? Use our [Agent Skills](https://chakra-ui.com/docs/get-started/ai/skills)
+Copy Page
 ## [Architecture](https://chakra-ui.com/docs/theming/overview#architecture)
 The Chakra UI theming system is built around the API of
 Here's a quick overview of how the system is structured to provide a performant and extensible styling system:
   * Define the styling system configuration using the `defineConfig` function
   * Create the styling engine using the `createSystem` function
   * Pass the styling engine to the `ChakraProvider` component
-
 
 ```
 import {
@@ -61,6 +60,7 @@ After a config is defined, it is passed to the `createSystem` function to create
 ### [cssVarsRoot](https://chakra-ui.com/docs/theming/overview#cssvarsroot)
 `cssVarsRoot` is the root element where the token CSS variables will be applied.
 theme.ts
+
 ```
 const config = defineConfig({
   cssVarsRoot: ":where(:root, :host)",
@@ -72,6 +72,7 @@ export default createSystem(defaultConfig, config)
 ### [cssVarsPrefix](https://chakra-ui.com/docs/theming/overview#cssvarsprefix)
 `cssVarsPrefix` is the prefix used for the token CSS variables.
 theme.ts
+
 ```
 const config = defineConfig({
   cssVarsPrefix: "ck",
@@ -83,6 +84,7 @@ export default createSystem(defaultConfig, config)
 ### [globalCss](https://chakra-ui.com/docs/theming/overview#globalcss)
 `globalCss` is used to apply global styles to the system.
 theme.ts
+
 ```
 const config = defineConfig({
   globalCss: {
@@ -99,6 +101,7 @@ export default createSystem(defaultConfig, config)
 ### [preflight](https://chakra-ui.com/docs/theming/overview#preflight)
 `preflight` is used to apply css reset styles to the system.
 theme.ts
+
 ```
 const config = defineConfig({
   preflight: false,
@@ -109,6 +112,7 @@ export default createSystem(defaultConfig, config)
 
 Alternatively, you can use the `preflight` config property to apply css reset styles to the system. This is useful if you want to apply css reset styles to a specific element.
 theme.ts
+
 ```
 const config = defineConfig({
   preflight: {
@@ -131,8 +135,8 @@ Use the `theme` config property to define the system theme. This property accept
   * `recipes`: for defining component recipes
   * `slotRecipes`: for defining component slot recipes
 
-
 theme.ts
+
 ```
 const config = defineConfig({
   theme: {
@@ -167,6 +171,7 @@ export default createSystem(defaultConfig, config)
 ### [conditions](https://chakra-ui.com/docs/theming/overview#conditions)
 Use the `conditions` config property to define custom selectors and media query conditions for use in the system.
 theme.ts
+
 ```
 const config = defineConfig({
   conditions: {
@@ -179,6 +184,7 @@ export default createSystem(defaultConfig, config)
 ```
 
 Sample usage:
+
 ```
 <Box mt="40px" _cqSm={{ mt: "0px" }}>
   <Text>Hello World</Text>
@@ -188,6 +194,7 @@ Sample usage:
 ### [strictTokens](https://chakra-ui.com/docs/theming/overview#stricttokens)
 Use the `strictTokens` config property to enforce the usage of only design tokens. This will throw a TS error if you try to use a token that is not defined in the theme.
 theme.ts
+
 ```
 const config = defineConfig({
   strictTokens: true,
@@ -208,12 +215,14 @@ If you use TypeScript with `strictTokens`, run the [CLI `typegen` command](https
 ## [TypeScript](https://chakra-ui.com/docs/theming/overview#typescript)
 When you configure the system (colors, space, fonts, etc.), the CLI generates type definitions to keep your theme in sync with `@chakra-ui/react`. This provides a type-safe API and autocompletion.
 See the [CLI docs](https://chakra-ui.com/docs/get-started/cli#chakra-typegen) for how to run typegen in postinstall, CI, and monorepos.
+
 ```
 npx @chakra-ui/cli typegen ./theme.ts
 ```
 
 ## [System](https://chakra-ui.com/docs/theming/overview#system)
 After a config is defined, it is passed to the `createSystem` function to create the styling engine. The returned `system` is framework-agnostic JavaScript styling engine that can be used to style components.
+
 ```
 const system = createSystem(defaultConfig, config)
 ```
@@ -221,6 +230,7 @@ const system = createSystem(defaultConfig, config)
 The system includes the following properties:
 ### [token](https://chakra-ui.com/docs/theming/overview#token)
 The token function is used to get a raw token value, or css variable.
+
 ```
 const system = createSystem(defaultConfig, config)
 
@@ -234,6 +244,7 @@ system.token("colors.pink.240", "#000")
 ```
 
 Use the `token.var` function to get the css variable:
+
 ```
 // css variable
 system.token.var("colors.red.200")
@@ -245,6 +256,7 @@ system.token.var("colors.pink.240", "colors.red.200")
 ```
 
 It's important to note that `semanticTokens` always return a css variable, regardless of whether you use `token` or `token.var`. This is because semantic tokens change based on the theme.
+
 ```
 // semantic token
 system.token("colors.danger")
@@ -255,6 +267,7 @@ system.token.var("colors.danger")
 ```
 
 ### [tokens](https://chakra-ui.com/docs/theming/overview#tokens)
+
 ```
 const system = createSystem(defaultConfig, config)
 
@@ -273,6 +286,7 @@ system.tokens.flatMap
 
 ### [css](https://chakra-ui.com/docs/theming/overview#css)
 The `css` function is used to convert chakra style objects to CSS style object that can be passed to `emotion` or `styled-components` or any other styling library.
+
 ```
 const system = createSystem(defaultConfig, config)
 
@@ -286,6 +300,7 @@ system.css({
 
 ### [cva](https://chakra-ui.com/docs/theming/overview#cva)
 The `cva` function is used to create component recipes. It returns a function that, when called with a set of props, returns a style object.
+
 ```
 const system = createSystem(defaultConfig, config)
 
@@ -309,6 +324,7 @@ button({ variant: "outline" })
 
 ### [sva](https://chakra-ui.com/docs/theming/overview#sva)
 The `sva` function is used to create component slot recipes. It returns a function that, when called with a set of props, returns a style object for each slot.
+
 ```
 const system = createSystem(defaultConfig, config)
 
@@ -336,6 +352,7 @@ alert({ status: "info" })
 
 ### [isValidProperty](https://chakra-ui.com/docs/theming/overview#isvalidproperty)
 The `isValidProperty` function is used to check if a property is valid.
+
 ```
 const system = createSystem(defaultConfig, config)
 
@@ -351,6 +368,7 @@ system.isValidProperty("invalid")
 
 ### [splitCssProps](https://chakra-ui.com/docs/theming/overview#splitcssprops)
 The `splitCssProps` function is used to split the props into css props and non-css props.
+
 ```
 const system = createSystem(defaultConfig, config)
 
@@ -364,6 +382,7 @@ system.splitCssProps({
 
 ### [breakpoints](https://chakra-ui.com/docs/theming/overview#breakpoints)
 The `breakpoints` property is used to query breakpoints.
+
 ```
 const system = createSystem(defaultConfig, config)
 
@@ -384,8 +403,8 @@ system.breakpoints.keys()
 To learn more about tokens, please refer to the [tokens](https://chakra-ui.com/docs/theming/tokens) section.
 ## [Recipes](https://chakra-ui.com/docs/theming/overview#recipes)
 To learn more about recipes, please refer to the [recipes](https://chakra-ui.com/docs/theming/recipes) section.
-[Previous](https://chakra-ui.com/docs/styling/style-props/typography)[ Next Tokens ](https://chakra-ui.com/docs/theming/tokens)
+[ Previous Typography ](https://chakra-ui.com/docs/styling/style-props/typography)[ Next Tokens ](https://chakra-ui.com/docs/theming/tokens)
 On this page
 [Architecture](https://chakra-ui.com/docs/theming/overview#architecture)[Config](https://chakra-ui.com/docs/theming/overview#config)[cssVarsRoot](https://chakra-ui.com/docs/theming/overview#cssvarsroot)[cssVarsPrefix](https://chakra-ui.com/docs/theming/overview#cssvarsprefix)[globalCss](https://chakra-ui.com/docs/theming/overview#globalcss)[preflight](https://chakra-ui.com/docs/theming/overview#preflight)[theme](https://chakra-ui.com/docs/theming/overview#theme)[conditions](https://chakra-ui.com/docs/theming/overview#conditions)[strictTokens](https://chakra-ui.com/docs/theming/overview#stricttokens)[TypeScript](https://chakra-ui.com/docs/theming/overview#typescript)[System](https://chakra-ui.com/docs/theming/overview#system)[token](https://chakra-ui.com/docs/theming/overview#token)[tokens](https://chakra-ui.com/docs/theming/overview#tokens)[css](https://chakra-ui.com/docs/theming/overview#css)[cva](https://chakra-ui.com/docs/theming/overview#cva)[sva](https://chakra-ui.com/docs/theming/overview#sva)[isValidProperty](https://chakra-ui.com/docs/theming/overview#isvalidproperty)[splitCssProps](https://chakra-ui.com/docs/theming/overview#splitcssprops)[breakpoints](https://chakra-ui.com/docs/theming/overview#breakpoints)[Tokens](https://chakra-ui.com/docs/theming/overview#tokens-1)[Recipes](https://chakra-ui.com/docs/theming/overview#recipes)
 Scroll to top
-[ Master Chakra UI Learn how to build design systems with hands-on examples and expert guidance ](https://mastery.chakra-ui.com)
+[ Master Chakra UI Learn how to build design systems with hands-on examples and expert guidance Watch Now ](https://mastery.chakra-ui.com)

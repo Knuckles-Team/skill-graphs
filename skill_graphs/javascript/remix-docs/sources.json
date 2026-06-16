@@ -1,0 +1,50 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "remix-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-06-16T05:35:08Z",
+  "builder_version": "0.49.0",
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://remix.run/docs",
+      "options": {
+        "max_depth": 2
+      },
+      "extractor": "crawl4ai",
+      "fetched_at": "2026-06-16T05:30:05Z",
+      "content_hash": "sha256:67f0bfa1d3c003e5ebb7d71baa37af4f0c9ac99910d40759f269f839ea55aa75",
+      "doc_count": 1
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/docs/docs_pt1.md",
+      "sha256": "sha256:757d2f239a67b89ecc28d8c9287641abf75276447eca8e690c4029f1c39165a4",
+      "bytes": 26098
+    },
+    {
+      "path": "reference/docs/docs_pt2.md",
+      "sha256": "sha256:bf8a65b761db7e029460f789b4851aabb356adf6c96c519da84a8cb7ec0399af",
+      "bytes": 25675
+    },
+    {
+      "path": "reference/docs/docs_pt3.md",
+      "sha256": "sha256:238418fc2dab93a054e2573fe1987fea2f152cbee4d0af92059cdfe7a9406e9f",
+      "bytes": 26322
+    },
+    {
+      "path": "reference/docs/docs_pt4.md",
+      "sha256": "sha256:693a5c52c5137814dd566e6ee5d7f173ec0d2302b4834fc01480befd6ac3815d",
+      "bytes": 4697
+    }
+  ],
+  "stats": {
+    "file_count": 4,
+    "source_count": 1
+  }
+}
