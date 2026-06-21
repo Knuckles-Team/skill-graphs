@@ -25,7 +25,7 @@ Comprehensive reference documentation for Tensorflow Docs.
   - [Java Reference Org Tensorflow Package Summary Pt4](reference/java_reference_org_tensorflow_package-summary/java_reference_org_tensorflow_package-summary_pt4.md)
   - [Java Reference Org Tensorflow Package Summary Pt5](reference/java_reference_org_tensorflow_package-summary/java_reference_org_tensorflow_package-summary_pt5.md)
   - [Java Reference Org Tensorflow Package Summary Pt6](reference/java_reference_org_tensorflow_package-summary/java_reference_org_tensorflow_package-summary_pt6.md)
-  - [org.tensorflow Stay organized with collections  Save and categorize content based on your preferences.](reference/java_reference_org_tensorflow_package-summary/org.tensorflow-Stay-organized-with-collections--Save-and-categorize-content-based-on-your-preferences..md)
+  - [org.tensorflow Stay organized with collections  Save and categorize content based on your preferences.](reference/java_reference_org_tensorflow_package-summary/org.tensorflow-Stay-organized-with-collections--Save-2404457f.md)
   - [Table of Contents](reference/java_reference_org_tensorflow_package-summary/toc.md)
 - [Api Docs](reference/api_docs.md)
 - [Cc](reference/cc.md)

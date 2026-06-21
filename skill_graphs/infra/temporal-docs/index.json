@@ -723,7 +723,7 @@
       ]
     },
     {
-      "path": "reference/...-assumes-my_otel_tracer_provider-is-a-tracer-provider-created-by-the-user.md",
+      "path": "reference/...-assumes-my_otel_tracer_provider-is-a-tracer-prov-3c896337.md",
       "title": "... assumes my_otel_tracer_provider is a tracer provider created by the user",
       "group": ".",
       "bytes": 5410,
@@ -812,7 +812,7 @@
       ]
     },
     {
-      "path": "reference/alternatively-run-npm-ci-which-installs-only-dependencies-specified-in-the-loc.md",
+      "path": "reference/alternatively-run-npm-ci-which-installs-only-depende-d8af3fb7.md",
       "title": "Alternatively, run npm ci, which installs only dependencies specified in the lock file and is generally faster.",
       "group": ".",
       "bytes": 1188,
@@ -1309,7 +1309,7 @@
       ]
     },
     {
-      "path": "reference/cloudformation-template-for-creating-an-iam-role-that-temporal-cloud-can-assume/cloudformation-template-for-creating-an-iam-role-that-temporal-cloud-can-assume_pt1.md",
+      "path": "reference/cloudformation-template-for-creating-an-iam-role-that-t-8738d827/cloudformation-template-for-creating-an-iam-role-tha-9fe14958.md",
       "title": "CloudFormation template for creating an IAM role that Temporal Cloud can assume to invoke Lambda functions.",
       "group": "cloudformation-template-for-creating-an-iam-role-that-temporal-cloud-can-assume",
       "bytes": 25626,
@@ -1329,7 +1329,7 @@
       ]
     },
     {
-      "path": "reference/cloudformation-template-for-creating-an-iam-role-that-temporal-cloud-can-assume/cloudformation-template-for-creating-an-iam-role-that-temporal-cloud-can-assume_pt2.md",
+      "path": "reference/cloudformation-template-for-creating-an-iam-role-that-t-8738d827/cloudformation-template-for-creating-an-iam-role-tha-b88f7675.md",
       "title": "Cloudformation Template For Creating An Iam Role That Temporal Cloud Can Assume Pt2",
       "group": "cloudformation-template-for-creating-an-iam-role-that-temporal-cloud-can-assume",
       "bytes": 25603,
@@ -1349,7 +1349,7 @@
       ]
     },
     {
-      "path": "reference/cloudformation-template-for-creating-an-iam-role-that-temporal-cloud-can-assume/cloudformation-template-for-creating-an-iam-role-that-temporal-cloud-can-assume_pt3.md",
+      "path": "reference/cloudformation-template-for-creating-an-iam-role-that-t-8738d827/cloudformation-template-for-creating-an-iam-role-tha-3384a0d7.md",
       "title": "Cloudformation Template For Creating An Iam Role That Temporal Cloud Can Assume Pt3",
       "group": "cloudformation-template-for-creating-an-iam-role-that-temporal-cloud-can-assume",
       "bytes": 25600,
@@ -1369,7 +1369,7 @@
       ]
     },
     {
-      "path": "reference/cloudformation-template-for-creating-an-iam-role-that-temporal-cloud-can-assume/cloudformation-template-for-creating-an-iam-role-that-temporal-cloud-can-assume_pt4.md",
+      "path": "reference/cloudformation-template-for-creating-an-iam-role-that-t-8738d827/cloudformation-template-for-creating-an-iam-role-tha-14a77da6.md",
       "title": "Cloudformation Template For Creating An Iam Role That Temporal Cloud Can Assume Pt4",
       "group": "cloudformation-template-for-creating-an-iam-role-that-temporal-cloud-can-assume",
       "bytes": 25693,
@@ -1389,7 +1389,7 @@
       ]
     },
     {
-      "path": "reference/cloudformation-template-for-creating-an-iam-role-that-temporal-cloud-can-assume/cloudformation-template-for-creating-an-iam-role-that-temporal-cloud-can-assume_pt5.md",
+      "path": "reference/cloudformation-template-for-creating-an-iam-role-that-t-8738d827/cloudformation-template-for-creating-an-iam-role-tha-63bd2ec6.md",
       "title": "Cloudformation Template For Creating An Iam Role That Temporal Cloud Can Assume Pt5",
       "group": "cloudformation-template-for-creating-an-iam-role-that-temporal-cloud-can-assume",
       "bytes": 6710,
@@ -1510,7 +1510,7 @@
       ]
     },
     {
-      "path": "reference/configure-a-temporal-cloud-profile-that-authenticates-with-an-api-key.md",
+      "path": "reference/configure-a-temporal-cloud-profile-that-authenticate-742f1aed.md",
       "title": "Configure a Temporal Cloud profile that authenticates with an API key",
       "group": ".",
       "bytes": 561,
@@ -1529,7 +1529,7 @@
       ]
     },
     {
-      "path": "reference/consumer.py-accumulates-the-model-s-output-and-resets-on-retry.md",
+      "path": "reference/consumer.py-accumulates-the-model-s-output-and-reset-71368e08.md",
       "title": "consumer.py: accumulates the model's output and resets on retry",
       "group": ".",
       "bytes": 3935,
@@ -1607,7 +1607,7 @@
       ]
     },
     {
-      "path": "reference/create-a-new-runtime-that-has-telemetry-enabled.-create-this-first-to-avoid.md",
+      "path": "reference/create-a-new-runtime-that-has-telemetry-enabled.-cre-df34313c.md",
       "title": "Create a new runtime that has telemetry enabled. Create this first to avoid",
       "group": ".",
       "bytes": 78,
@@ -1698,7 +1698,7 @@
       ]
     },
     {
-      "path": "reference/create-start-workflow-operation-for-use-with-signal-with-start.md",
+      "path": "reference/create-start-workflow-operation-for-use-with-signal--620ed2a5.md",
       "title": "Create start-workflow operation for use with signal-with-start",
       "group": ".",
       "bytes": 242,
@@ -1707,7 +1707,7 @@
       ]
     },
     {
-      "path": "reference/create-start-workflow-operation-for-use-with-update-with-start.md",
+      "path": "reference/create-start-workflow-operation-for-use-with-update--cccda0ac.md",
       "title": "Create start-workflow operation for use with update-with-start",
       "group": ".",
       "bytes": 316,
@@ -1822,7 +1822,7 @@
       ]
     },
     {
-      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation/default-values-for-a-namespace-if-none-are-provided-at-creation_pt1.md",
+      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation/default-values-for-a-namespace-if-none-are-provided--05ebe63c.md",
       "title": "Default values for a Namespace if none are provided at creation",
       "group": "default-values-for-a-namespace-if-none-are-provided-at-creation",
       "bytes": 25620,
@@ -1842,7 +1842,7 @@
       ]
     },
     {
-      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation/default-values-for-a-namespace-if-none-are-provided-at-creation_pt2.md",
+      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation/default-values-for-a-namespace-if-none-are-provided--4fc01c97.md",
       "title": "Default Values For A Namespace If None Are Provided At Creation Pt2",
       "group": "default-values-for-a-namespace-if-none-are-provided-at-creation",
       "bytes": 25656,
@@ -1862,7 +1862,7 @@
       ]
     },
     {
-      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation/default-values-for-a-namespace-if-none-are-provided-at-creation_pt3.md",
+      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation/default-values-for-a-namespace-if-none-are-provided--44ee9b3c.md",
       "title": "Default Values For A Namespace If None Are Provided At Creation Pt3",
       "group": "default-values-for-a-namespace-if-none-are-provided-at-creation",
       "bytes": 17416,
@@ -1871,7 +1871,7 @@
       ]
     },
     {
-      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation./default-values-for-a-namespace-if-none-are-provided-at-creation._pt1.md",
+      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation./default-values-for-a-namespace-if-none-are-provided--9d3c64c6.md",
       "title": "Default values for a Namespace if none are provided at creation.",
       "group": "default-values-for-a-namespace-if-none-are-provided-at-creation.",
       "bytes": 25713,
@@ -1890,7 +1890,7 @@
       ]
     },
     {
-      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation./default-values-for-a-namespace-if-none-are-provided-at-creation._pt2.md",
+      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation./default-values-for-a-namespace-if-none-are-provided--8592d434.md",
       "title": "Default Values For A Namespace If None Are Provided At Creation. Pt2",
       "group": "default-values-for-a-namespace-if-none-are-provided-at-creation.",
       "bytes": 25746,
@@ -1910,7 +1910,7 @@
       ]
     },
     {
-      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation./default-values-for-a-namespace-if-none-are-provided-at-creation._pt3.md",
+      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation./default-values-for-a-namespace-if-none-are-provided--2df2e47b.md",
       "title": "Default Values For A Namespace If None Are Provided At Creation. Pt3",
       "group": "default-values-for-a-namespace-if-none-are-provided-at-creation.",
       "bytes": 25612,
@@ -1930,7 +1930,7 @@
       ]
     },
     {
-      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation./default-values-for-a-namespace-if-none-are-provided-at-creation._pt4.md",
+      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation./default-values-for-a-namespace-if-none-are-provided--3b31ecbe.md",
       "title": "Default Values For A Namespace If None Are Provided At Creation. Pt4",
       "group": "default-values-for-a-namespace-if-none-are-provided-at-creation.",
       "bytes": 25815,
@@ -1950,7 +1950,7 @@
       ]
     },
     {
-      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation./default-values-for-a-namespace-if-none-are-provided-at-creation._pt5.md",
+      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation./default-values-for-a-namespace-if-none-are-provided--1810a714.md",
       "title": "Default Values For A Namespace If None Are Provided At Creation. Pt5",
       "group": "default-values-for-a-namespace-if-none-are-provided-at-creation.",
       "bytes": 25774,
@@ -1970,7 +1970,7 @@
       ]
     },
     {
-      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation./default-values-for-a-namespace-if-none-are-provided-at-creation._pt6.md",
+      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation./default-values-for-a-namespace-if-none-are-provided--1ef03c36.md",
       "title": "Default Values For A Namespace If None Are Provided At Creation. Pt6",
       "group": "default-values-for-a-namespace-if-none-are-provided-at-creation.",
       "bytes": 25617,
@@ -1990,7 +1990,7 @@
       ]
     },
     {
-      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation./default-values-for-a-namespace-if-none-are-provided-at-creation._pt7.md",
+      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation./default-values-for-a-namespace-if-none-are-provided--cc24d5a0.md",
       "title": "Default Values For A Namespace If None Are Provided At Creation. Pt7",
       "group": "default-values-for-a-namespace-if-none-are-provided-at-creation.",
       "bytes": 25607,
@@ -2010,7 +2010,7 @@
       ]
     },
     {
-      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation./default-values-for-a-namespace-if-none-are-provided-at-creation._pt8.md",
+      "path": "reference/default-values-for-a-namespace-if-none-are-provided-at-creation./default-values-for-a-namespace-if-none-are-provided--03382a08.md",
       "title": "Default Values For A Namespace If None Are Provided At Creation. Pt8",
       "group": "default-values-for-a-namespace-if-none-are-provided-at-creation.",
       "bytes": 23746,
@@ -2111,7 +2111,7 @@
       ]
     },
     {
-      "path": "reference/don-t-avoid-but-rather-encourage-things-using-taskscheduler.current-in-workflow/don-t-avoid-but-rather-encourage-things-using-taskscheduler.current-in-workflow_pt1.md",
+      "path": "reference/don-t-avoid-but-rather-encourage-things-using-tasksched-1636d650/don-t-avoid-but-rather-encourage-things-using-tasksc-4257c1d8.md",
       "title": "Don't avoid, but rather encourage things using TaskScheduler.Current in workflows",
       "group": "don-t-avoid-but-rather-encourage-things-using-taskscheduler.current-in-workflow",
       "bytes": 25612,
@@ -2131,7 +2131,7 @@
       ]
     },
     {
-      "path": "reference/don-t-avoid-but-rather-encourage-things-using-taskscheduler.current-in-workflow/don-t-avoid-but-rather-encourage-things-using-taskscheduler.current-in-workflow_pt2.md",
+      "path": "reference/don-t-avoid-but-rather-encourage-things-using-tasksched-1636d650/don-t-avoid-but-rather-encourage-things-using-tasksc-e473dddc.md",
       "title": "Don T Avoid But Rather Encourage Things Using Taskscheduler.Current In Workflow Pt2",
       "group": "don-t-avoid-but-rather-encourage-things-using-taskscheduler.current-in-workflow",
       "bytes": 25669,
@@ -2148,7 +2148,7 @@
       ]
     },
     {
-      "path": "reference/don-t-avoid-but-rather-encourage-things-using-taskscheduler.current-in-workflow/don-t-avoid-but-rather-encourage-things-using-taskscheduler.current-in-workflow_pt3.md",
+      "path": "reference/don-t-avoid-but-rather-encourage-things-using-tasksched-1636d650/don-t-avoid-but-rather-encourage-things-using-tasksc-180313b4.md",
       "title": "Don T Avoid But Rather Encourage Things Using Taskscheduler.Current In Workflow Pt3",
       "group": "don-t-avoid-but-rather-encourage-things-using-taskscheduler.current-in-workflow",
       "bytes": 25649,
@@ -2168,7 +2168,7 @@
       ]
     },
     {
-      "path": "reference/don-t-avoid-but-rather-encourage-things-using-taskscheduler.current-in-workflow/don-t-avoid-but-rather-encourage-things-using-taskscheduler.current-in-workflow_pt4.md",
+      "path": "reference/don-t-avoid-but-rather-encourage-things-using-tasksched-1636d650/don-t-avoid-but-rather-encourage-things-using-tasksc-63576446.md",
       "title": "Don T Avoid But Rather Encourage Things Using Taskscheduler.Current In Workflow Pt4",
       "group": "don-t-avoid-but-rather-encourage-things-using-taskscheduler.current-in-workflow",
       "bytes": 8149,
@@ -2203,7 +2203,7 @@
       ]
     },
     {
-      "path": "reference/example-of-providing-certificate-data-directly-base64-or-pem-format.md",
+      "path": "reference/example-of-providing-certificate-data-directly-base6-0202a1b8.md",
       "title": "Example of providing certificate data directly (base64 or PEM format)",
       "group": ".",
       "bytes": 2013,
@@ -2776,7 +2776,7 @@
       ]
     },
     {
-      "path": "reference/for-better-cache-utilization-copy-package.json-and-lock-file-first-and-install.md",
+      "path": "reference/for-better-cache-utilization-copy-package.json-and-l-98e68305.md",
       "title": "For better cache utilization, copy package.json and lock file first and install the dependencies before copying the",
       "group": ".",
       "bytes": 118,
@@ -2802,7 +2802,7 @@
       ]
     },
     {
-      "path": "reference/get-a-workflow-handle-by-its-workflow-id.-this-could-be-made-specific-to-a-run-b.md",
+      "path": "reference/get-a-workflow-handle-by-its-workflow-id.-this-could-7c8c90da.md",
       "title": "Get a workflow handle by its workflow ID. This could be made specific to a run by",
       "group": ".",
       "bytes": 84,
@@ -2820,7 +2820,7 @@
       ]
     },
     {
-      "path": "reference/grant-write-access-to-my-namespace-and-read-access-to-other-namespace.md",
+      "path": "reference/grant-write-access-to-my-namespace-and-read-access-t-f525ab2a.md",
       "title": "Grant write access to my-namespace and read access to other-namespace:",
       "group": ".",
       "bytes": 248,
@@ -2838,7 +2838,7 @@
       ]
     },
     {
-      "path": "reference/help-temporal_cloud_v1_approximate_backlog_count-approximate-number-of-tasks-in.md",
+      "path": "reference/help-temporal_cloud_v1_approximate_backlog_count-app-057a2012.md",
       "title": "HELP temporal_cloud_v1_approximate_backlog_count Approximate number of tasks in a task queue",
       "group": ".",
       "bytes": 2465,
@@ -2851,7 +2851,7 @@
       ]
     },
     {
-      "path": "reference/help-temporal_cloud_v1_service_error_count-the-number-of-grpc-errors-returned-by.md",
+      "path": "reference/help-temporal_cloud_v1_service_error_count-the-numbe-bc1e2280.md",
       "title": "HELP temporal_cloud_v1_service_error_count The number of gRPC errors returned by frontend service",
       "group": ".",
       "bytes": 100,
@@ -2860,7 +2860,7 @@
       ]
     },
     {
-      "path": "reference/help-temporal_cloud_v1_service_pending_requests-the-number-of-pollers-that-are-w.md",
+      "path": "reference/help-temporal_cloud_v1_service_pending_requests-the--61bed530.md",
       "title": "HELP temporal_cloud_v1_service_pending_requests The number of pollers that are waiting for a task",
       "group": ".",
       "bytes": 100,
@@ -2869,7 +2869,7 @@
       ]
     },
     {
-      "path": "reference/help-temporal_cloud_v1_service_request_count-the-number-of-rpc-requests-received.md",
+      "path": "reference/help-temporal_cloud_v1_service_request_count-the-num-643c358d.md",
       "title": "HELP temporal_cloud_v1_service_request_count The number of RPC requests received by the service..",
       "group": ".",
       "bytes": 45423,
@@ -2889,7 +2889,7 @@
       ]
     },
     {
-      "path": "reference/help-temporal_cloud_v1_workflow_success_count-the-number-of-successful-workflows.md",
+      "path": "reference/help-temporal_cloud_v1_workflow_success_count-the-nu-05a2f218.md",
       "title": "HELP temporal_cloud_v1_workflow_success_count The number of successful workflows per second",
       "group": ".",
       "bytes": 414,
@@ -3272,7 +3272,7 @@
       ]
     },
     {
-      "path": "reference/optional-tls-overrides-only-needed-when-you-must-pin-certs-or-tweak-sni.md",
+      "path": "reference/optional-tls-overrides-only-needed-when-you-must-pin-571c872b.md",
       "title": "Optional TLS overrides (only needed when you must pin certs or tweak SNI)",
       "group": ".",
       "bytes": 257,
@@ -3381,7 +3381,7 @@
       ]
     },
     {
-      "path": "reference/passing-run-id.-this-could-also-just-be-a-handle-that-is-returned-from.md",
+      "path": "reference/passing-run-id.-this-could-also-just-be-a-handle-tha-50d9524d.md",
       "title": "passing run ID. This could also just be a handle that is returned from",
       "group": ".",
       "bytes": 73,
@@ -4085,7 +4085,7 @@
       ]
     },
     {
-      "path": "reference/raise-a-special-exception-that-says-an-activity-will-be-completed-somewhere-else.md",
+      "path": "reference/raise-a-special-exception-that-says-an-activity-will-c3a70a3e.md",
       "title": "Raise a special exception that says an activity will be completed somewhere else",
       "group": ".",
       "bytes": 17973,
@@ -4258,7 +4258,7 @@
       ]
     },
     {
-      "path": "reference/replace-your-secret-key-with-the-secretkey-output-from-tcld-apikey-create-c-2/replace-your-secret-key-with-the-secretkey-output-from-tcld-apikey-create-c-2_pt1.md",
+      "path": "reference/replace-your-secret-key-with-the-secretkey-output-from--40b3ad60/replace-your-secret-key-with-the-secretkey-output-fr-17e30a54.md",
       "title": "replace <your-secret-key> with the \"secretKey\": output from tcld apikey create command",
       "group": "replace-your-secret-key-with-the-secretkey-output-from-tcld-apikey-create-c-2",
       "bytes": 25640,
@@ -4272,7 +4272,7 @@
       ]
     },
     {
-      "path": "reference/replace-your-secret-key-with-the-secretkey-output-from-tcld-apikey-create-c-2/replace-your-secret-key-with-the-secretkey-output-from-tcld-apikey-create-c-2_pt2.md",
+      "path": "reference/replace-your-secret-key-with-the-secretkey-output-from--40b3ad60/replace-your-secret-key-with-the-secretkey-output-fr-420110a7.md",
       "title": "Replace Your Secret Key With The Secretkey Output From Tcld Apikey Create C 2 Pt2",
       "group": "replace-your-secret-key-with-the-secretkey-output-from-tcld-apikey-create-c-2",
       "bytes": 25746,
@@ -4292,7 +4292,7 @@
       ]
     },
     {
-      "path": "reference/replace-your-secret-key-with-the-secretkey-output-from-tcld-apikey-create-c-2/replace-your-secret-key-with-the-secretkey-output-from-tcld-apikey-create-c-2_pt3.md",
+      "path": "reference/replace-your-secret-key-with-the-secretkey-output-from--40b3ad60/replace-your-secret-key-with-the-secretkey-output-fr-16812fb1.md",
       "title": "Replace Your Secret Key With The Secretkey Output From Tcld Apikey Create C 2 Pt3",
       "group": "replace-your-secret-key-with-the-secretkey-output-from-tcld-apikey-create-c-2",
       "bytes": 25608,
@@ -4312,7 +4312,7 @@
       ]
     },
     {
-      "path": "reference/replace-your-secret-key-with-the-secretkey-output-from-tcld-apikey-create-c-2/replace-your-secret-key-with-the-secretkey-output-from-tcld-apikey-create-c-2_pt4.md",
+      "path": "reference/replace-your-secret-key-with-the-secretkey-output-from--40b3ad60/replace-your-secret-key-with-the-secretkey-output-fr-a851efae.md",
       "title": "Replace Your Secret Key With The Secretkey Output From Tcld Apikey Create C 2 Pt4",
       "group": "replace-your-secret-key-with-the-secretkey-output-from-tcld-apikey-create-c-2",
       "bytes": 25701,
@@ -4332,7 +4332,7 @@
       ]
     },
     {
-      "path": "reference/replace-your-secret-key-with-the-secretkey-output-from-tcld-apikey-create-c-2/replace-your-secret-key-with-the-secretkey-output-from-tcld-apikey-create-c-2_pt5.md",
+      "path": "reference/replace-your-secret-key-with-the-secretkey-output-from--40b3ad60/replace-your-secret-key-with-the-secretkey-output-fr-4edb40ab.md",
       "title": "Replace Your Secret Key With The Secretkey Output From Tcld Apikey Create C 2 Pt5",
       "group": "replace-your-secret-key-with-the-secretkey-output-from-tcld-apikey-create-c-2",
       "bytes": 4744,
@@ -4344,7 +4344,7 @@
       ]
     },
     {
-      "path": "reference/replace-your-secret-key-with-the-secretkey-output-from-tcld-apikey-create-c.md",
+      "path": "reference/replace-your-secret-key-with-the-secretkey-output-fr-ea29f4f5.md",
       "title": "replace <your-secret-key> with the \"secretKey\": output from tcld apikey create command",
       "group": ".",
       "bytes": 396,
@@ -4835,7 +4835,7 @@
       ]
     },
     {
-      "path": "reference/run-the-worker-until-sigint.-there-are-other-ways-to-wait-for-shutdown-or-a-blo.md",
+      "path": "reference/run-the-worker-until-sigint.-there-are-other-ways-to-51b6c29d.md",
       "title": "Run the worker until SIGINT. There are other ways to wait for shutdown, or a block can",
       "group": ".",
       "bytes": 89,
@@ -4844,7 +4844,7 @@
       ]
     },
     {
-      "path": "reference/run-the-worker-until-sigint.-this-can-be-done-in-many-ways-see-workers-sectio.md",
+      "path": "reference/run-the-worker-until-sigint.-this-can-be-done-in-man-93878cac.md",
       "title": "Run the worker until SIGINT. This can be done in many ways, see \"Workers\" section for details.",
       "group": ".",
       "bytes": 409,
@@ -4897,7 +4897,7 @@
       ]
     },
     {
-      "path": "reference/send-cancellation.-this-returns-when-cancellation-is-received-by-the-server.-wai.md",
+      "path": "reference/send-cancellation.-this-returns-when-cancellation-is-a49059ef.md",
       "title": "Send cancellation. This returns when cancellation is received by the server. Wait on",
       "group": ".",
       "bytes": 87,
@@ -4915,7 +4915,7 @@
       ]
     },
     {
-      "path": "reference/set-max_retries-0-and-use-temporal-s-activity-retry-policy-instead..md",
+      "path": "reference/set-max_retries-0-and-use-temporal-s-activity-retry--e7189794.md",
       "title": "Set max_retries=0 and use Temporal's Activity retry policy instead.",
       "group": ".",
       "bytes": 10798,
@@ -4944,7 +4944,7 @@
       ]
     },
     {
-      "path": "reference/set-the-on_heartbeat-property-to-a-callback-function-that-will-be-called-for-e.md",
+      "path": "reference/set-the-on_heartbeat-property-to-a-callback-function-0a0d2888.md",
       "title": "Set the `on_heartbeat` property to a callback function that will be called for each Heartbeat sent by the Activity.",
       "group": ".",
       "bytes": 178,
@@ -5036,7 +5036,7 @@
       ]
     },
     {
-      "path": "reference/set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in/set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in_pt1.md",
+      "path": "reference/set-your-scrape-configuration-targets-to-the-ports-expo-8e60e69d/set-your-scrape-configuration-targets-to-the-ports-e-2d280c61.md",
       "title": "Set your scrape configuration targets to the ports exposed on your endpoints in the SDK.",
       "group": "set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in",
       "bytes": 25712,
@@ -5056,7 +5056,7 @@
       ]
     },
     {
-      "path": "reference/set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in/set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in_pt2.md",
+      "path": "reference/set-your-scrape-configuration-targets-to-the-ports-expo-8e60e69d/set-your-scrape-configuration-targets-to-the-ports-e-2108358d.md",
       "title": "Set Your Scrape Configuration Targets To The Ports Exposed On Your Endpoints In Pt2",
       "group": "set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in",
       "bytes": 25615,
@@ -5076,7 +5076,7 @@
       ]
     },
     {
-      "path": "reference/set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in/set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in_pt3.md",
+      "path": "reference/set-your-scrape-configuration-targets-to-the-ports-expo-8e60e69d/set-your-scrape-configuration-targets-to-the-ports-e-5798e06d.md",
       "title": "Set Your Scrape Configuration Targets To The Ports Exposed On Your Endpoints In Pt3",
       "group": "set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in",
       "bytes": 25639,
@@ -5096,7 +5096,7 @@
       ]
     },
     {
-      "path": "reference/set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in/set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in_pt4.md",
+      "path": "reference/set-your-scrape-configuration-targets-to-the-ports-expo-8e60e69d/set-your-scrape-configuration-targets-to-the-ports-e-d6bd9178.md",
       "title": "Set Your Scrape Configuration Targets To The Ports Exposed On Your Endpoints In Pt4",
       "group": "set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in",
       "bytes": 25631,
@@ -5116,7 +5116,7 @@
       ]
     },
     {
-      "path": "reference/set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in/set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in_pt5.md",
+      "path": "reference/set-your-scrape-configuration-targets-to-the-ports-expo-8e60e69d/set-your-scrape-configuration-targets-to-the-ports-e-100bc17a.md",
       "title": "Set Your Scrape Configuration Targets To The Ports Exposed On Your Endpoints In Pt5",
       "group": "set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in",
       "bytes": 25605,
@@ -5136,7 +5136,7 @@
       ]
     },
     {
-      "path": "reference/set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in/set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in_pt6.md",
+      "path": "reference/set-your-scrape-configuration-targets-to-the-ports-expo-8e60e69d/set-your-scrape-configuration-targets-to-the-ports-e-ef5db712.md",
       "title": "Set Your Scrape Configuration Targets To The Ports Exposed On Your Endpoints In Pt6",
       "group": "set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in",
       "bytes": 25600,
@@ -5156,7 +5156,7 @@
       ]
     },
     {
-      "path": "reference/set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in/set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in_pt7.md",
+      "path": "reference/set-your-scrape-configuration-targets-to-the-ports-expo-8e60e69d/set-your-scrape-configuration-targets-to-the-ports-e-b64cc4b1.md",
       "title": "Set Your Scrape Configuration Targets To The Ports Exposed On Your Endpoints In Pt7",
       "group": "set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in",
       "bytes": 25641,
@@ -5176,7 +5176,7 @@
       ]
     },
     {
-      "path": "reference/set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in/set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in_pt8.md",
+      "path": "reference/set-your-scrape-configuration-targets-to-the-ports-expo-8e60e69d/set-your-scrape-configuration-targets-to-the-ports-e-169ee1c1.md",
       "title": "Set Your Scrape Configuration Targets To The Ports Exposed On Your Endpoints In Pt8",
       "group": "set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in",
       "bytes": 25608,
@@ -5196,7 +5196,7 @@
       ]
     },
     {
-      "path": "reference/set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in/set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in_pt9.md",
+      "path": "reference/set-your-scrape-configuration-targets-to-the-ports-expo-8e60e69d/set-your-scrape-configuration-targets-to-the-ports-e-b70ebcb2.md",
       "title": "Set Your Scrape Configuration Targets To The Ports Exposed On Your Endpoints In Pt9",
       "group": "set-your-scrape-configuration-targets-to-the-ports-exposed-on-your-endpoints-in",
       "bytes": 5580,
@@ -5330,7 +5330,7 @@
       ]
     },
     {
-      "path": "reference/temporal-elasticsearch-tool-is-available-in-v1.30-server-releases.md",
+      "path": "reference/temporal-elasticsearch-tool-is-available-in-v1.30-se-888a1c76.md",
       "title": "temporal-elasticsearch-tool is available in v1.30+ server releases",
       "group": ".",
       "bytes": 5019,
@@ -5594,7 +5594,7 @@
       ]
     },
     {
-      "path": "reference/the-workflow-handle-is-on-the-start-operation-here-s-an-example-of-waiting-on.md",
+      "path": "reference/the-workflow-handle-is-on-the-start-operation-here-s-875988c7.md",
       "title": "The workflow handle is on the start operation, here's an example of waiting on",
       "group": ".",
       "bytes": 81,
@@ -5653,7 +5653,7 @@
       ]
     },
     {
-      "path": "reference/tls-is-auto-enabled-when-this-tls-config-or-api-key-is-present-but-you-can-conf.md",
+      "path": "reference/tls-is-auto-enabled-when-this-tls-config-or-api-key--e33acfa4.md",
       "title": "TLS is auto-enabled when this TLS config or API key is present, but you can configure it explicitly",
       "group": ".",
       "bytes": 102,
@@ -5785,7 +5785,7 @@
       ]
     },
     {
-      "path": "reference/use-the-run-method-to-start-the-activity-passing-in-the-function-that-contains.md",
+      "path": "reference/use-the-run-method-to-start-the-activity-passing-in--be1e488d.md",
       "title": "Use the run method to start the Activity, passing in the function that contains the Heartbeats and any necessary parameters.",
       "group": ".",
       "bytes": 175,
@@ -6061,7 +6061,7 @@
       ]
     },
     {
-      "path": "reference/verify-that-the-expected-heartbeats-are-received-by-the-callback-function..md",
+      "path": "reference/verify-that-the-expected-heartbeats-are-received-by--a40245b0.md",
       "title": "Verify that the expected Heartbeats are received by the callback function.",
       "group": ".",
       "bytes": 574,
@@ -6216,7 +6216,7 @@
       ]
     },
     {
-      "path": "reference/wrap_openai-patches-the-client-so-that-every-api-call-adds-a-chatopenai-run-unde.md",
+      "path": "reference/wrap_openai-patches-the-client-so-that-every-api-cal-bd5b8df1.md",
       "title": "wrap_openai patches the client so that every API call adds a ChatOpenAI run under the @traceable.",
       "group": ".",
       "bytes": 100,
