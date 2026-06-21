@@ -166,17 +166,17 @@
       "bytes": 1466
     },
     {
-      "path": "reference/cp-data-backups-part_inc1-test-address_book.-var-lib-mysql-test.md",
+      "path": "reference/cp-data-backups-part_inc1-test-address_book.-var-lib-b9cb3045.md",
       "sha256": "sha256:03a686a23d3163716e46126f6193bfe1fe8101e1030df456d48194955835dc85",
       "bytes": 218
     },
     {
-      "path": "reference/cp-data-backups-part_inc1-test-students.cfg-var-lib-mysql-test-students_work.c.md",
+      "path": "reference/cp-data-backups-part_inc1-test-students.cfg-var-lib--84e2dc93.md",
       "sha256": "sha256:32909eb5607a6b1f4e0eddccb79bcbed2980c0ee87e7cc6ef5456bd12ceaf70b",
       "bytes": 173
     },
     {
-      "path": "reference/cp-data-backups-part_inc1-test-students.ibd-var-lib-mysql-test-students_work.i.md",
+      "path": "reference/cp-data-backups-part_inc1-test-students.ibd-var-lib--9672b6cb.md",
       "sha256": "sha256:706f2b19e5e28d04b78cae8a8cc506f1a288253379a4f752f6f686db78395602",
       "bytes": 85
     },
@@ -506,7 +506,7 @@
       "bytes": 5263
     },
     {
-      "path": "reference/restoring-individual-databases-from-a-full-backup-mariadb-backup.md",
+      "path": "reference/restoring-individual-databases-from-a-full-backup-ma-407fe974.md",
       "sha256": "sha256:f6a1a0c18e2c5b82ffcf4f11d10259f2b26930347f196306bcb5fd15827c7a07",
       "bytes": 9034
     },

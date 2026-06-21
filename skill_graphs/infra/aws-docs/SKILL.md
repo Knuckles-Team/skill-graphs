@@ -42,7 +42,7 @@ Comprehensive reference documentation for Aws Docs.
 - [Cli Latest Userguide Getting Started Install.Html](reference/cli_latest_userguide_getting-started-install.html.md)
 - [Code Library Latest Ug What Is Code Library.Html](reference/code-library_latest_ug_what-is-code-library.html.md)
 - [Amazon Corretto Documentation](reference/corretto.md)
-- [Choosing an AWS generative AI service](reference/decision-guides_latest_generative-ai-on-aws-how-to-choose_guide.html.md)
+- [Choosing an AWS generative AI service](reference/decision-guides_latest_generative-ai-on-aws-how-to-c-3ee158ff.md)
 - [Amazon DynamoDB Documentation](reference/dynamodb.md)
 - [Amazon Elastic Compute Cloud Documentation](reference/ec2.md)
 - [AWS Documentation Feedback](reference/feedback_doc-feedback.html.md)

@@ -402,7 +402,7 @@
       ]
     },
     {
-      "path": "reference/cp-data-backups-part_inc1-test-address_book.-var-lib-mysql-test.md",
+      "path": "reference/cp-data-backups-part_inc1-test-address_book.-var-lib-b9cb3045.md",
       "title": "cp /data/backups/part_inc1/test/address_book.* /var/lib/mysql/test",
       "group": ".",
       "bytes": 218,
@@ -411,7 +411,7 @@
       ]
     },
     {
-      "path": "reference/cp-data-backups-part_inc1-test-students.cfg-var-lib-mysql-test-students_work.c.md",
+      "path": "reference/cp-data-backups-part_inc1-test-students.cfg-var-lib--84e2dc93.md",
       "title": "cp /data/backups/part_inc1/test/students.cfg /var/lib/mysql/test/students_work.cfg",
       "group": ".",
       "bytes": 173,
@@ -420,7 +420,7 @@
       ]
     },
     {
-      "path": "reference/cp-data-backups-part_inc1-test-students.ibd-var-lib-mysql-test-students_work.i.md",
+      "path": "reference/cp-data-backups-part_inc1-test-students.ibd-var-lib--9672b6cb.md",
       "title": "cp /data/backups/part_inc1/test/students.ibd /var/lib/mysql/test/students_work.ibd",
       "group": ".",
       "bytes": 85,
@@ -1222,7 +1222,7 @@
       ]
     },
     {
-      "path": "reference/restoring-individual-databases-from-a-full-backup-mariadb-backup.md",
+      "path": "reference/restoring-individual-databases-from-a-full-backup-ma-407fe974.md",
       "title": "Restoring Individual Databases From a Full Backup (mariadb-backup)",
       "group": ".",
       "bytes": 9034,
