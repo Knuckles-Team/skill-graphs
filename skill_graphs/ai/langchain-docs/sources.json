@@ -41,22 +41,22 @@
       "bytes": 27814
     },
     {
-      "path": "reference/0004-agent-server-changelog/0004-agent-server-changelog_pt1.md",
+      "path": "reference/9a88c572.md",
       "sha256": "sha256:3514084bbc91a6e19a6d5c3d814f21416d4c19bec835690af24a5c80468274c2",
       "bytes": 25617
     },
     {
-      "path": "reference/0004-agent-server-changelog/0004-agent-server-changelog_pt2.md",
+      "path": "reference/02247c29.md",
       "sha256": "sha256:e08c8c4f659203f0b7010536d7cec76fc5ed5ee2c9587dab9436e6ef2706bc6f",
       "bytes": 25606
     },
     {
-      "path": "reference/0004-agent-server-changelog/0004-agent-server-changelog_pt3.md",
+      "path": "reference/85890658.md",
       "sha256": "sha256:5970a5cdcb35f7ec05caf3aa283080b0d6f28bb53fe8fb5826c21ac849a2de90",
       "bytes": 25659
     },
     {
-      "path": "reference/0004-agent-server-changelog/0004-agent-server-changelog_pt4.md",
+      "path": "reference/2d0d8a57.md",
       "sha256": "sha256:496aba38a1b35d1e2d7b911cb83280dbad586e4ed447446ba845b6804fe61fcc",
       "bytes": 6549
     },
@@ -111,22 +111,22 @@
       "bytes": 34835
     },
     {
-      "path": "reference/0015-langgraph-cli/0015-langgraph-cli_pt1.md",
+      "path": "reference/3e67a6ab.md",
       "sha256": "sha256:7f0a5fd7d2c3ebb9faf7b22480c00958cd387d223b68937a84588c560d8654c8",
       "bytes": 26412
     },
     {
-      "path": "reference/0015-langgraph-cli/0015-langgraph-cli_pt2.md",
+      "path": "reference/fc7a8ddb.md",
       "sha256": "sha256:d6769eeb49cb1aeeba394b34e59404eb874265409d72c165e37e4286ca2e1c69",
       "bytes": 25671
     },
     {
-      "path": "reference/0015-langgraph-cli/0015-langgraph-cli_pt3.md",
+      "path": "reference/d13837ee.md",
       "sha256": "sha256:60af5680a2eb9ab6d1f4953eab7db6cd5fa550e4c3d06130dbff191e0ecfa573",
       "bytes": 25614
     },
     {
-      "path": "reference/0015-langgraph-cli/0015-langgraph-cli_pt4.md",
+      "path": "reference/d17b596e.md",
       "sha256": "sha256:17af245f70706058310368023e4d5a13c46961e39e7030465b78562d5665f7fe",
       "bytes": 21934
     },
@@ -226,17 +226,17 @@
       "bytes": 30526
     },
     {
-      "path": "reference/0035-evaluate-a-rag-application/0035-evaluate-a-rag-application_pt1.md",
+      "path": "reference/a8aa3020.md",
       "sha256": "sha256:bd7a320e1cb702a8ba97141e8e256eb5405966823564bf1061c5167277648047",
       "bytes": 25642
     },
     {
-      "path": "reference/0035-evaluate-a-rag-application/0035-evaluate-a-rag-application_pt2.md",
+      "path": "reference/dda7f0a6.md",
       "sha256": "sha256:f31417ae9a8d65c9101d042952fa70f40b31af4b1a61930395256090ebb759f4",
       "bytes": 25613
     },
     {
-      "path": "reference/0035-evaluate-a-rag-application/0035-evaluate-a-rag-application_pt3.md",
+      "path": "reference/deecb1e3.md",
       "sha256": "sha256:6c8cd33d50e2b6a9a193d81533103bbb46cd667f9d8553ca5e3b073e020fe8b8",
       "bytes": 4476
     },
@@ -411,17 +411,17 @@
       "bytes": 39142
     },
     {
-      "path": "reference/0070-organization-and-workspace-operations-reference/0070-organization-and-workspace-operations-reference_pt1.md",
+      "path": "reference/032017e0.md",
       "sha256": "sha256:fbdf058baaf06606d47e8cb254664151e9a823079745de564f10edcc3fbb0396",
       "bytes": 25705
     },
     {
-      "path": "reference/0070-organization-and-workspace-operations-reference/0070-organization-and-workspace-operations-reference_pt2.md",
+      "path": "reference/18b2bc4f.md",
       "sha256": "sha256:7708c03a2d7dc070f8f3221948880c9ee9b6c55fc8757a46113271209e17d1ad",
       "bytes": 25688
     },
     {
-      "path": "reference/0070-organization-and-workspace-operations-reference/0070-organization-and-workspace-operations-reference_pt3.md",
+      "path": "reference/61821626.md",
       "sha256": "sha256:f14c1ca040fe56eaa8186532b4aa198f070667b381f354f403d60a67104ee9a0",
       "bytes": 8003
     },
@@ -487,13 +487,13 @@
     },
     {
       "path": "reference/0083-connect-to-an-external-clickhouse-database.md",
-      "sha256": "sha256:34663793ebdb687318f5afe5fb6ff9b03ac859f5f42fcedbc34644e958b60828",
-      "bytes": 36459
+      "sha256": "sha256:20432b5ba2fe1f32a547863e22e241b1d5c8409feeb39108fd105fa48e8dbfaf",
+      "bytes": 36539
     },
     {
       "path": "reference/0084-connect-to-an-external-redis-or-valkey-database.md",
-      "sha256": "sha256:53945ba22158e9ec022c480e963d69ea7b0b42f0c959db1d0558fdb6db826561",
-      "bytes": 41791
+      "sha256": "sha256:c4f6949acbec7414af8138d59a259f9ae2cb3b03061acde571fa907fba10a3ef",
+      "bytes": 42031
     },
     {
       "path": "reference/0085-pull-the-images-from-the-public-registry.md",
@@ -507,26 +507,26 @@
     },
     {
       "path": "reference/0087-use-an-existing-secret-for-your-installation-kubernetes.md",
-      "sha256": "sha256:d5239a295513431a42228d13fd8b19daa94edb0aa63cf0fd2f2c56edc3fdfa96",
-      "bytes": 15887
+      "sha256": "sha256:5cd7b3318d07d654cca90db8d8dc5d50b43761c8adc53c62eac988a01f4a41d6",
+      "bytes": 15947
     },
     {
-      "path": "reference/0088-self-hosted-langsmith-changelog/0088-self-hosted-langsmith-changelog_pt1.md",
+      "path": "reference/046e4f4c.md",
       "sha256": "sha256:0a249f41fcc7b6670f2f42c10dec9287e765cdeebe14f0e327bbd1d2d3e60ad5",
       "bytes": 25618
     },
     {
-      "path": "reference/0088-self-hosted-langsmith-changelog/0088-self-hosted-langsmith-changelog_pt2.md",
+      "path": "reference/6d09611d.md",
       "sha256": "sha256:8a0e47ec469a529520e8650edac83066a43b73151ffde113872af6a69799474f",
       "bytes": 25694
     },
     {
-      "path": "reference/0088-self-hosted-langsmith-changelog/0088-self-hosted-langsmith-changelog_pt3.md",
+      "path": "reference/be1c855c.md",
       "sha256": "sha256:c77700523269c3a6a0d4251be2f9f4c9ffff1597fe6b3e30c95ead06faf5e01f",
       "bytes": 25658
     },
     {
-      "path": "reference/0088-self-hosted-langsmith-changelog/0088-self-hosted-langsmith-changelog_pt4.md",
+      "path": "reference/9f27d719.md",
       "sha256": "sha256:61706cb0a722d4ecdd02e69c6c1cb4096324788049dfd3aa93f3594a8f694632",
       "bytes": 18466
     },
@@ -646,17 +646,17 @@
       "bytes": 13516
     },
     {
-      "path": "reference/0112-user-management/0112-user-management_pt1.md",
+      "path": "reference/2413663d.md",
       "sha256": "sha256:0b916d68d6f516549ed59bf0d69c1bc2e39dc73272c052146673b04d3e745569",
       "bytes": 25624
     },
     {
-      "path": "reference/0112-user-management/0112-user-management_pt2.md",
+      "path": "reference/ab036a44.md",
       "sha256": "sha256:f9b91f1b7bc4d79e4064d7cc82352301b58513a50eeeb9d8615f6d3a2fce88ae",
       "bytes": 25600
     },
     {
-      "path": "reference/0112-user-management/0112-user-management_pt3.md",
+      "path": "reference/d9080e5a.md",
       "sha256": "sha256:5ec38bc8ebdfb228fa5ae784c14661e4a33801a9adfa2d16fca95432a5839858",
       "bytes": 4715
     },
@@ -691,17 +691,17 @@
       "bytes": 15355
     },
     {
-      "path": "reference/0119-backends/0119-backends_pt1.md",
+      "path": "reference/bbffe52f.md",
       "sha256": "sha256:b7dc012ec9db1da343926eba36039767aa2ec59fc635fd5d4d98961119837f52",
       "bytes": 25611
     },
     {
-      "path": "reference/0119-backends/0119-backends_pt2.md",
+      "path": "reference/caabffd0.md",
       "sha256": "sha256:73724a45ff334c9fb25dff3614f3d92f645f5a7ea0ebead1182733aba31a48f8",
       "bytes": 25692
     },
     {
-      "path": "reference/0119-backends/0119-backends_pt3.md",
+      "path": "reference/df815818.md",
       "sha256": "sha256:ab3bfae996cf8e04704cd65ac6c413d73e719a566159c21644927acabe872112",
       "bytes": 5759
     },
@@ -746,22 +746,22 @@
       "bytes": 34163
     },
     {
-      "path": "reference/0128-claude-specific-guidance/0128-claude-specific-guidance_pt1.md",
+      "path": "reference/ea06e9ce.md",
       "sha256": "sha256:6961220d747c8b8abafa45993966f7fd90fcc8a1eab4e218c48281197815ef24",
       "bytes": 25656
     },
     {
-      "path": "reference/0128-claude-specific-guidance/0128-claude-specific-guidance_pt2.md",
+      "path": "reference/f03ec50b.md",
       "sha256": "sha256:fa400ac2ed36c070cc24dce42b5b0571886a761c8769b078009c1ff0654d3468",
       "bytes": 25654
     },
     {
-      "path": "reference/0128-claude-specific-guidance/0128-claude-specific-guidance_pt3.md",
+      "path": "reference/13832fb7.md",
       "sha256": "sha256:3e7e137c1423eaa883c2e21ec05e07ce24d71dd959485261f12ad1488d32a18e",
       "bytes": 25647
     },
     {
-      "path": "reference/0128-claude-specific-guidance/0128-claude-specific-guidance_pt4.md",
+      "path": "reference/fddeba9f.md",
       "sha256": "sha256:c3a3f29cad2dd66911ee985a84f27f0ef4fa5e2a9b874ddc67df704dacfdb0d1",
       "bytes": 15327
     },
@@ -826,17 +826,17 @@
       "bytes": 17635
     },
     {
-      "path": "reference/0141-subagents/0141-subagents_pt1.md",
+      "path": "reference/1b0e284b.md",
       "sha256": "sha256:d53bcd36d99bda1889c952190f9a70611013f146d6f3cb634bfbbaa61d9b0c57",
       "bytes": 25619
     },
     {
-      "path": "reference/0141-subagents/0141-subagents_pt2.md",
+      "path": "reference/97634a6a.md",
       "sha256": "sha256:05118a32c53d4fbc50a4985057cc42aadd8d7d355f25bef6dc0504e1904e87ea",
       "bytes": 25668
     },
     {
-      "path": "reference/0141-subagents/0141-subagents_pt3.md",
+      "path": "reference/d31e90cc.md",
       "sha256": "sha256:3ce183253285cec6b325290473b9edc20515ed728abace12f41e1ebe07381744",
       "bytes": 12258
     },
@@ -946,17 +946,17 @@
       "bytes": 24233
     },
     {
-      "path": "reference/0163-long-term-memory/0163-long-term-memory_pt1.md",
+      "path": "reference/24c6ef17.md",
       "sha256": "sha256:5400b699ac6ed6c617e8cf841d06d1e222a6a2c48d7065ce886c79319528f15c",
       "bytes": 25654
     },
     {
-      "path": "reference/0163-long-term-memory/0163-long-term-memory_pt2.md",
+      "path": "reference/86b5d5cd.md",
       "sha256": "sha256:1be09d13e42c5671152c62d1fa78bf5a14694a5feaf6e1ca68331669def04f21",
       "bytes": 25619
     },
     {
-      "path": "reference/0163-long-term-memory/0163-long-term-memory_pt3.md",
+      "path": "reference/c68cea49.md",
       "sha256": "sha256:2fefb9a41332664dbeb24eda4d60f2fcae551859ffe808b417edf0904a40a463",
       "bytes": 12959
     },
@@ -976,17 +976,17 @@
       "bytes": 39269
     },
     {
-      "path": "reference/0167-models/0167-models_pt1.md",
+      "path": "reference/796f622f.md",
       "sha256": "sha256:f6f49df136e50bd2f486546bc47c6fc7748d1e1a5ec75c8b8e046106fd100f4f",
       "bytes": 25622
     },
     {
-      "path": "reference/0167-models/0167-models_pt2.md",
+      "path": "reference/86a276ca.md",
       "sha256": "sha256:61802d70162d755807bf850527c33b5ba090747b31bd4ca303ab84e7a941b59f",
       "bytes": 25669
     },
     {
-      "path": "reference/0167-models/0167-models_pt3.md",
+      "path": "reference/9ca80eac.md",
       "sha256": "sha256:885e8f98488b7290828fb148561ec774ca738af99890c2d355bcb36941f8f234",
       "bytes": 4549
     },
@@ -1051,17 +1051,17 @@
       "bytes": 29909
     },
     {
-      "path": "reference/0180-build-a-sql-agent/0180-build-a-sql-agent_pt1.md",
+      "path": "reference/08cdfcec.md",
       "sha256": "sha256:e0ca57f13ab4be8225bdb82013d9553da31bb515055ed3297d4e3466c5058a88",
       "bytes": 25602
     },
     {
-      "path": "reference/0180-build-a-sql-agent/0180-build-a-sql-agent_pt2.md",
+      "path": "reference/44d41a9e.md",
       "sha256": "sha256:bd320790ba10365de8db241e7d2f6da9db900ab533d87ece9d3468952b84a966",
       "bytes": 25661
     },
     {
-      "path": "reference/0180-build-a-sql-agent/0180-build-a-sql-agent_pt3.md",
+      "path": "reference/7dbc65b5.md",
       "sha256": "sha256:1145f93a4e7cdee5114a340a4c48fcad2cbcbee30ea46c7bdcfea2c3a57dcea1",
       "bytes": 11150
     },
@@ -1121,17 +1121,17 @@
       "bytes": 47510
     },
     {
-      "path": "reference/0192-graph-api-overview/0192-graph-api-overview_pt1.md",
+      "path": "reference/6fd9b7ba.md",
       "sha256": "sha256:6dc5eaa1e4ec9a35e8edeab40f7a5f3161ac263722ee3686531a75f88794b9e7",
       "bytes": 25622
     },
     {
-      "path": "reference/0192-graph-api-overview/0192-graph-api-overview_pt2.md",
+      "path": "reference/906ff8c4.md",
       "sha256": "sha256:57bd02eafb46ca644beefa4ec7066e27af1abcde42f601c321fd194bcc8b8387",
       "bytes": 25657
     },
     {
-      "path": "reference/0192-graph-api-overview/0192-graph-api-overview_pt3.md",
+      "path": "reference/f4ddcbbe.md",
       "sha256": "sha256:c27e126c6258ab4e29b28ef57f70efe94f2a17ec96c9310dfbdf00d685dadb7b",
       "bytes": 1179
     },
@@ -1166,17 +1166,17 @@
       "bytes": 29300
     },
     {
-      "path": "reference/0199-use-the-graph-api/0199-use-the-graph-api_pt1.md",
+      "path": "reference/f1ca2968.md",
       "sha256": "sha256:b1cedbcd8320f351d43b39ab4464a06b25b5adb24eb06a67be490f567724d409",
       "bytes": 25607
     },
     {
-      "path": "reference/0199-use-the-graph-api/0199-use-the-graph-api_pt2.md",
+      "path": "reference/b635d4cf.md",
       "sha256": "sha256:f68a7731ddd9f34493cbe576f4323f8d3dd4403223216dc0ac025f88f8f0d1a2",
       "bytes": 25781
     },
     {
-      "path": "reference/0199-use-the-graph-api/0199-use-the-graph-api_pt3.md",
+      "path": "reference/7b6d4089.md",
       "sha256": "sha256:2ed346f13660dbcc8aa50b83229ab636aa94b99b11b7584146eea909fc58f473",
       "bytes": 16155
     },
@@ -1276,27 +1276,27 @@
       "bytes": 32513
     },
     {
-      "path": "reference/0219-claude-specific-guidance/0219-claude-specific-guidance_pt1.md",
+      "path": "reference/71b4ac15.md",
       "sha256": "sha256:b931441151ad5581ae7dc80c3386f31afffc7f1b6a8dea12031d3a04c5eaba8e",
       "bytes": 25628
     },
     {
-      "path": "reference/0219-claude-specific-guidance/0219-claude-specific-guidance_pt2.md",
+      "path": "reference/c800a1e3.md",
       "sha256": "sha256:978d2e1f4e9c2d3d0e23caa7ec695eab326905e343d78113636e7e000bd6f34d",
       "bytes": 25610
     },
     {
-      "path": "reference/0219-claude-specific-guidance/0219-claude-specific-guidance_pt3.md",
+      "path": "reference/d32a9db3.md",
       "sha256": "sha256:4ce885b9722bbaf0d6ed4f6330b3c784ffd1bda426a9434244e6e8539218b6f6",
       "bytes": 25653
     },
     {
-      "path": "reference/0219-claude-specific-guidance/0219-claude-specific-guidance_pt4.md",
+      "path": "reference/8606d629.md",
       "sha256": "sha256:94442d2d78c8c35d5a218a62aebb9b980aae267978ef4b32fc8884d678facf70",
       "bytes": 25609
     },
     {
-      "path": "reference/0219-claude-specific-guidance/0219-claude-specific-guidance_pt5.md",
+      "path": "reference/4d100c71.md",
       "sha256": "sha256:917c85a31d70ec8bf82902e6404212d82a391b45caa7af56a867dc54932835b6",
       "bytes": 1047
     },
@@ -1556,17 +1556,17 @@
       "bytes": 38315
     },
     {
-      "path": "reference/0271-streaming/0271-streaming_pt1.md",
+      "path": "reference/ca926b55.md",
       "sha256": "sha256:79586e50486d7bf57cfc01099c1cccfd6adfab111cd72c186d495956b88221aa",
       "bytes": 25620
     },
     {
-      "path": "reference/0271-streaming/0271-streaming_pt2.md",
+      "path": "reference/d4d296bf.md",
       "sha256": "sha256:de1f3e3d378bd210efb2c41aeee58bdd561c7c42abe41929e85995ec249a8aa4",
       "bytes": 25688
     },
     {
-      "path": "reference/0271-streaming/0271-streaming_pt3.md",
+      "path": "reference/68231ba1.md",
       "sha256": "sha256:3cd68f4bd73c378d25bbdcd3abcdc789dbdbf487c7a526409842f174c5613778",
       "bytes": 893
     },
