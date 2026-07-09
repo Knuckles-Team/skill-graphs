@@ -1,5 +1,6 @@
 ---
 name: vuejs-docs
+skill_type: graph
 description: Comprehensive reference documentation for Vuejs Docs.
 crawl_depth: 2
 source_url: https://vuejs.org/

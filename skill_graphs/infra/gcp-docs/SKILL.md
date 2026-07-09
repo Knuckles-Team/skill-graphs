@@ -1,5 +1,6 @@
 ---
 name: gcp-docs
+skill_type: graph
 description: Comprehensive reference documentation for Gcp Docs.
 crawl_depth: 3
 source_url: https://cloud.google.com/docs/overview

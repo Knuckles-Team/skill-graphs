@@ -1,5 +1,6 @@
 ---
 name: redis-docs
+skill_type: graph
 description: Comprehensive reference documentation for Redis Docs.
 skill_graph_version: 1.0.0
 source_types: [web]

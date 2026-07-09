@@ -1,5 +1,6 @@
 ---
 name: neo4j-docs
+skill_type: graph
 description: Comprehensive reference documentation for Neo4J Docs.
 crawl_depth: 2
 source_url: https://neo4j.com/docs/

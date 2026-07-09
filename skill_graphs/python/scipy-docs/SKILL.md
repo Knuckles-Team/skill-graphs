@@ -1,5 +1,6 @@
 ---
 name: scipy-docs
+skill_type: graph
 description: Comprehensive reference documentation for Scipy Docs.
 crawl_depth: 2
 source_url: https://docs.scipy.org/doc/scipy/

@@ -1,5 +1,6 @@
 ---
 name: qdrant-docs
+skill_type: graph
 description: Comprehensive reference documentation for Qdrant Docs.
 crawl_depth: 2
 source_url: https://qdrant.tech/documentation/

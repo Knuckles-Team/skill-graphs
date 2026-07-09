@@ -1,5 +1,6 @@
 ---
 name: tensorflow-docs
+skill_type: graph
 description: Comprehensive reference documentation for Tensorflow Docs.
 crawl_depth: 2
 source_url: https://www.tensorflow.org/api_docs

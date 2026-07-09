@@ -1,5 +1,6 @@
 ---
 name: couchbase-docs
+skill_type: graph
 description: Comprehensive reference documentation for Couchbase Docs.
 crawl_depth: 2
 source_url: https://docs.couchbase.com/home/index.html

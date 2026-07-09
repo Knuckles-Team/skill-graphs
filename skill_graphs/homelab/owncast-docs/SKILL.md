@@ -1,5 +1,6 @@
 ---
 name: owncast-docs
+skill_type: graph
 description: Owncast REST API documentation
 crawl_depth: 3
 source_url: https://owncast.online/docs/api/

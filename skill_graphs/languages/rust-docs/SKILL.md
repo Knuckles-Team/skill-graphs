@@ -1,5 +1,6 @@
 ---
 name: rust-docs
+skill_type: graph
 description: Comprehensive reference documentation for Rust Docs.
 crawl_depth: 2
 source_url: https://doc.rust-lang.org/rust-by-example/

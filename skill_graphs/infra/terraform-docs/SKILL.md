@@ -1,5 +1,6 @@
 ---
 name: terraform-docs
+skill_type: graph
 description: Comprehensive reference documentation for Terraform Docs.
 crawl_depth: 2
 source_url: https://developer.hashicorp.com/terraform/docs

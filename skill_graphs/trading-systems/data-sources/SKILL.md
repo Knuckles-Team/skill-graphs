@@ -1,5 +1,6 @@
 ---
 name: trading-data-sources
+skill_type: graph
 description: Reference catalog of market data sources and ingestion patterns for the trading ecosystem.
 ---
 

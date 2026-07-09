@@ -1,5 +1,6 @@
 ---
 name: uptime-kuma-docs
+skill_type: graph
 description: Uptime Kuma API documentation (Python Wrapper)
 skill_graph_version: 1.0.0
 source_types: [web]

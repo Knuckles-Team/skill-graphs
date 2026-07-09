@@ -1,5 +1,6 @@
 ---
 name: infrastructure-blueprints
+skill_type: graph
 description: >-
   Library of Docker Swarm / Compose blueprints for company software.
   Deploy via portainer-mcp or container-manager-mcp with KG-native

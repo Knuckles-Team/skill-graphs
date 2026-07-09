@@ -1,5 +1,6 @@
 ---
 name: postgres-docs
+skill_type: graph
 description: Comprehensive reference documentation for Postgres Docs.
 crawl_depth: 2
 source_url: https://www.postgresql.org/docs/

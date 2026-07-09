@@ -1,5 +1,6 @@
 ---
 name: reactrouter-docs
+skill_type: graph
 description: Comprehensive reference documentation for Reactrouter Docs.
 skill_graph_version: 1.0.1
 source_types: [web]

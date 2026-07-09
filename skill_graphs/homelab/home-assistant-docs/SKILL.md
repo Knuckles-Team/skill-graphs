@@ -1,5 +1,6 @@
 ---
 name: home-assistant-docs
+skill_type: graph
 description: Home Assistant REST API documentation
 crawl_depth: 2
 source_url: https://developers.home-assistant.io/docs/api/rest/

@@ -1,5 +1,6 @@
 ---
 name: c-docs
+skill_type: graph
 description: Comprehensive reference documentation for C Docs.
 crawl_depth: 2
 source_url: https://sourceware.org/glibc/manual/

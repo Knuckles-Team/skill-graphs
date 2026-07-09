@@ -1,5 +1,6 @@
 ---
 name: falkordb-docs
+skill_type: graph
 description: Comprehensive reference documentation for Falkordb Docs.
 crawl_depth: 2
 source_url: https://docs.falkordb.com/

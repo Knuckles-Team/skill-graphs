@@ -1,5 +1,6 @@
 ---
 name: trading-systems
+skill_type: graph
 description: >-
   Comprehensive trading systems skill-graph covering exchange backends,
   risk management, algorithmic strategy design, portfolio optimization,

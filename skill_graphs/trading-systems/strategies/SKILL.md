@@ -1,5 +1,6 @@
 ---
 name: trading-strategies
+skill_type: graph
 description: Reference catalog of trading strategy patterns available in the Emerald Exchange ecosystem.
 ---
 

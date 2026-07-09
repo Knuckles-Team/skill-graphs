@@ -1,5 +1,6 @@
 ---
 name: pydantic-ai-docs
+skill_type: graph
 description: Comprehensive reference documentation for Pydantic Ai Docs.
 crawl_depth: 3
 source_url: https://ai.pydantic.dev

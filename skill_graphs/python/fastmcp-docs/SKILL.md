@@ -1,5 +1,6 @@
 ---
 name: fastmcp-docs
+skill_type: graph
 description: Comprehensive reference documentation for Fastmcp Docs.
 crawl_depth: 3
 source_url: https://gofastmcp.com/getting-started/welcome, https://gofastmcp.com/python-sdk/fastmcp-decorators

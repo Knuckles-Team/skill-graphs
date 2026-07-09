@@ -1,5 +1,6 @@
 ---
 name: trading-risk-management
+skill_type: graph
 description: Risk management patterns, circuit breakers, and compliance controls for the trading ecosystem.
 ---
 

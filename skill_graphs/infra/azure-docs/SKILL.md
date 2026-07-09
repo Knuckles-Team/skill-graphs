@@ -1,5 +1,6 @@
 ---
 name: azure-docs
+skill_type: graph
 description: Comprehensive reference documentation for Azure Docs.
 crawl_depth: 2
 source_url: https://learn.microsoft.com/en-us/azure/

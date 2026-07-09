@@ -1,5 +1,6 @@
 ---
 name: matplotlib-docs
+skill_type: graph
 description: Comprehensive reference documentation for Matplotlib Docs.
 crawl_depth: 2
 source_url: https://matplotlib.org/stable/contents.html

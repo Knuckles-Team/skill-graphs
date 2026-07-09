@@ -1,5 +1,6 @@
 ---
 name: numpy-docs
+skill_type: graph
 description: Comprehensive reference documentation for Numpy Docs.
 crawl_depth: 2
 source_url: https://numpy.org/doc/stable/

@@ -1,5 +1,6 @@
 ---
 name: django-docs
+skill_type: graph
 description: Comprehensive reference documentation for Django Docs.
 crawl_depth: 2
 source_url: https://docs.djangoproject.com/en/5.0/intro/, https://docs.djangoproject.com/en/5.0/topics/, https://docs.djangoproject.com/en/5.0/ref/, https://docs.djangoproject.com/en/5.0/howto/

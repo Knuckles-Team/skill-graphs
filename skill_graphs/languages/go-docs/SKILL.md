@@ -1,5 +1,6 @@
 ---
 name: go-docs
+skill_type: graph
 description: Comprehensive reference documentation for Go Docs.
 crawl_depth: 2
 source_url: https://go.dev/doc/

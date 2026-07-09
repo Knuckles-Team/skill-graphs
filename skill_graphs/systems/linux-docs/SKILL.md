@@ -1,5 +1,6 @@
 ---
 name: linux-docs
+skill_type: graph
 description: Comprehensive reference documentation for Linux Docs.
 crawl_depth: 2
 source_url: https://www.linuxfromscratch.org/

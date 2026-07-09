@@ -1,5 +1,6 @@
 ---
 name: nextjs-docs
+skill_type: graph
 description: Comprehensive reference documentation for Nextjs Docs.
 crawl_depth: 2
 source_url: https://nextjs.org/docs

@@ -1,5 +1,6 @@
 ---
 name: quant-career-docs
+skill_type: graph
 description: >-
 skill_graph_version: 1.0.0
 source_types: [dir]

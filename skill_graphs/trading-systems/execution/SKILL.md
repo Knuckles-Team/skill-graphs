@@ -1,5 +1,6 @@
 ---
 name: trading-execution
+skill_type: graph
 description: Order execution patterns, exchange backend abstraction, and routing for the trading ecosystem.
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: laravel-docs
+skill_type: graph
 description: Comprehensive reference documentation for Laravel Docs.
 crawl_depth: 2
 source_url: https://laravel.com/docs

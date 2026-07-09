@@ -1,5 +1,6 @@
 ---
 name: docker-docs
+skill_type: graph
 description: Comprehensive reference documentation for Docker Docs.
 crawl_depth: 2
 source_url: https://docs.docker.com/
