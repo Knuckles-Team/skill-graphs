@@ -1,7 +1,7 @@
 ---
 name: quant-career-docs
 skill_type: graph
-description: >-
+description: Comprehensive reference documentation for Quant Career career-planning material.
 skill_graph_version: 1.0.0
 source_types: [dir]
 built_at: 2026-06-16T05:06:21Z
@@ -15,7 +15,6 @@ tags: [docs, reference, quant-career-docs, knowledge-base]
 
 # Quant Career — Reference Skill-Graph
 
-> >-
 
 | | |
 |---|---|
