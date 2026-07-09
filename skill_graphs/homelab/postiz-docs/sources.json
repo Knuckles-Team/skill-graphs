@@ -217,8 +217,8 @@
     },
     {
       "path": "reference/development-environment.md",
-      "sha256": "sha256:26a80eb8dc145d901005c9190303ebd11a543824fbe1a664d2f5c00ca98e8014",
-      "bytes": 6894
+      "sha256": "sha256:80f21c03a60fec79bfc0332c23e2be71394beac8ce8d23d7e529f8e784e20c5c",
+      "bytes": 6887
     },
     {
       "path": "reference/development.md",
@@ -562,8 +562,8 @@
     },
     {
       "path": "reference/oidc-configuration.md",
-      "sha256": "sha256:164df2ec5f30ddfccaa00da170ab21456e86bc9d73a21fe744b2f011cbceb8f4",
-      "bytes": 2959
+      "sha256": "sha256:dcba15f54d272565a3383d2249a723a5d9f3a278842c1866efe806616236ed79",
+      "bytes": 2979
     },
     {
       "path": "reference/or-explicitly.md",

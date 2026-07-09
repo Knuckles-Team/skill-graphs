@@ -126,3 +126,9 @@ repos:
     language: python
     pass_filenames: false
     always_run: true
+  - id: check-path-portability
+    name: Cross-platform path portability gate
+    entry: python scripts/check_path_portability.py skill_graphs --max-path 140 --max-name 100 --max-violations 0
+    language: python
+    pass_filenames: false
+    always_run: true

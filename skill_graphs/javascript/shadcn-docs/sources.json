@@ -21,547 +21,547 @@
   ],
   "files": [
     {
-      "path": "reference/ui.shadcn.com/docs/changelog.md",
+      "path": "reference/b9e19214.md",
       "sha256": "sha256:eaad8d7f6626ce961349f36d58deb3f19dc5b3545fcc43fdfc87f51566f86612",
       "bytes": 13326
     },
     {
-      "path": "reference/ui.shadcn.com/docs/cli.md",
+      "path": "reference/2deee118.md",
       "sha256": "sha256:a8d345c7a33c08c40f3bc6d14df487e9cb509baca29fc3da461a91ee99df1341",
       "bytes": 14655
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/accordion.md",
+      "path": "reference/9a23d4b9.md",
       "sha256": "sha256:703e7f5d5ea913edb58af091a0246ab029547e6c6f570bfa248ee16ad994e224",
       "bytes": 5500
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/alert-dialog.md",
+      "path": "reference/d0ae7af2.md",
       "sha256": "sha256:d47c6ca802f04f5485552b5105b88e3d6bf026f27a285a4dd8c85688532654f5",
       "bytes": 4797
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/alert.md",
+      "path": "reference/0bde0f92.md",
       "sha256": "sha256:b5078eb91943dc4fb5e51d6465f50ac8b45e69c6cbb54b66b89f6990d1efad9d",
       "bytes": 4889
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/aspect-ratio.md",
+      "path": "reference/99aa67da.md",
       "sha256": "sha256:36f02f9be97c0625726ec8c6a17deb67a6bd225759428d9aeda0222cce1adcac",
       "bytes": 3018
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/avatar.md",
+      "path": "reference/bbbf4765.md",
       "sha256": "sha256:1597be66fae988cca0b21744b269ee403913b440658d8f054f0655964a664be7",
       "bytes": 5541
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/badge.md",
+      "path": "reference/6c8176c1.md",
       "sha256": "sha256:77ebe277d783cafcd79365b7739ef5e211431eb7aaac6af846eff3e07813aae5",
       "bytes": 3920
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/breadcrumb.md",
+      "path": "reference/7cb2f28a.md",
       "sha256": "sha256:e66783003aeefb1921c50dfc9ad9575c63aa27699b34543104bd37879ae02104",
       "bytes": 5459
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/button-group.md",
+      "path": "reference/fa0f514c.md",
       "sha256": "sha256:6fc0677c2c68f7c6a163fd1f0ba79e8c1d82392a2afe847e195b2c8af31ec618",
       "bytes": 6907
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/button.md",
+      "path": "reference/645d788e.md",
       "sha256": "sha256:5e531d4dffc478c9411da0d5d3992bad97a8d3a2b066c52b9070dc481a17903b",
       "bytes": 5639
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/calendar.md",
+      "path": "reference/c0368bc7.md",
       "sha256": "sha256:61735ccf776fc22cdfea94f0c9e6d8f9239a61afa2301c050e770c01b7cf1468",
       "bytes": 13917
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/card.md",
+      "path": "reference/74e443f5.md",
       "sha256": "sha256:02ff23d7ab66e762028b354a9ff49d12acb16b04ea9a9c6a016c0135004a3fcf",
       "bytes": 9110
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/carousel.md",
+      "path": "reference/82733c3a.md",
       "sha256": "sha256:d70f98b3ee22cdd7a5bdb51240625c4e6883d183322496d9808aba76c51b6fa9",
       "bytes": 9059
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/chart.md",
+      "path": "reference/c11a24bc.md",
       "sha256": "sha256:9799749916be16d31e7e459c3371672b9a47c257805c3d9dd9e639958980d5da",
       "bytes": 15945
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/checkbox.md",
+      "path": "reference/29a25578.md",
       "sha256": "sha256:180c40cddbebf1d3c05d2409b4142991a8d7ab2558fb3ed10eaf28635d7423f6",
       "bytes": 4721
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/collapsible.md",
+      "path": "reference/5ba48059.md",
       "sha256": "sha256:17ca2706ab3465bf287f0aa97b0c8101fb0df17856045ef64f9284c6d2610532",
       "bytes": 3927
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/combobox.md",
+      "path": "reference/9343f8b2.md",
       "sha256": "sha256:676ea8f6f55a4bb8335b2c81634f5341587d55d80017328948304d20b9a547b0",
       "bytes": 7900
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/command.md",
+      "path": "reference/6f1173d0.md",
       "sha256": "sha256:5a365549e190e10d01c016624d659a18cbeec236eefb4e94fc072d3dd4c29c4b",
       "bytes": 4450
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/context-menu.md",
+      "path": "reference/393e4a1a.md",
       "sha256": "sha256:b519c20379b22f0c923a437b8ea3a363c2b33cbc0f6ed430ff2863be1cc87c71",
       "bytes": 4887
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/data-table.md",
+      "path": "reference/155400d1.md",
       "sha256": "sha256:ae94d7a213478f65a2ba0643cdf7436689ec40fd51a95efd441dabd4fa35adc6",
       "bytes": 29701
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/date-picker.md",
+      "path": "reference/2895ebd8.md",
       "sha256": "sha256:1eff45007b860232cb661d14537f3e1992d4da846d4bc9c82be7a0ac1651557d",
       "bytes": 4736
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/dialog.md",
+      "path": "reference/e54627c9.md",
       "sha256": "sha256:6287f756aece21f23fa5ce8ba0301c4d1fe42b1916aab25e75645e6ec24c59af",
       "bytes": 3695
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/direction.md",
+      "path": "reference/21fe0ae5.md",
       "sha256": "sha256:5f0039e69398c568d31626ab9405ba9b315ded63552aa92f25305da81709e32c",
       "bytes": 3013
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/drawer.md",
+      "path": "reference/18cb7280.md",
       "sha256": "sha256:933505c36611d025f30412ee5df9be3f6f4a214fc3b1335871bbd9f28696f454",
       "bytes": 3761
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/dropdown-menu.md",
+      "path": "reference/c7336b3e.md",
       "sha256": "sha256:7f8b7c972244df6519eb2f9c2811e931d08c53e8c7f4d519e0b9d4364f177c70",
       "bytes": 5683
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/empty.md",
+      "path": "reference/b5d092e3.md",
       "sha256": "sha256:6e82dba9630b53caa4a156f1099d6fb5f87a09faa354d2d502568b495a10f292",
       "bytes": 6301
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/field.md",
+      "path": "reference/a3813e96.md",
       "sha256": "sha256:e93c6d0b28246e68df471b9c3019b3f7e314432b908df9ba71eb5ac2dc046f0e",
       "bytes": 13480
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/hover-card.md",
+      "path": "reference/ddb72f8b.md",
       "sha256": "sha256:e6c4e5e6bdfa7b2d67dd27db15399a5beb94bc9ba99d14446ed54fb038c9b38e",
       "bytes": 3457
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/input-group.md",
+      "path": "reference/af9a5c23.md",
       "sha256": "sha256:cfab5c17198f86dd8ea62776a484cc43c68cdeb1d1b7d095ee9b1b95764daad1",
       "bytes": 8081
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/input-otp.md",
+      "path": "reference/3a4d26d4.md",
       "sha256": "sha256:9d20a2bd6ab4c43c4ae6d2ecd3b224990a13a7003cdcf6216aaf11e9f69ac204",
       "bytes": 4842
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/input.md",
+      "path": "reference/c69044f6.md",
       "sha256": "sha256:f81bbb978a612bcd86b820819fa73495a266f145f42ea22b431af3883533d024",
       "bytes": 5284
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/item.md",
+      "path": "reference/3c45aa4e.md",
       "sha256": "sha256:2538e8ee1b806739e02efe88ba2ca1046309db200454eacd27928cb49da5d8d4",
       "bytes": 8494
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/kbd.md",
+      "path": "reference/9feaa0d0.md",
       "sha256": "sha256:7073209662a97769747ce179a93836d05af0866fdba77a032a97d16bb9dd857e",
       "bytes": 3612
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/label.md",
+      "path": "reference/08b99646.md",
       "sha256": "sha256:bd17fd7b52803c07b68d7dc833f492af7383b4e80555a070a70f5c3590289690",
       "bytes": 3074
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/menubar.md",
+      "path": "reference/9727be38.md",
       "sha256": "sha256:f5bc2ac9150228960eaf4ed6875c278a08de606d66714ecbbbb569844594cf3f",
       "bytes": 4504
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/native-select.md",
+      "path": "reference/64db0cdb.md",
       "sha256": "sha256:448c84d409a10e19f4314cbe4a75999b9523a5c02a8be677e71af6a3155ea00c",
       "bytes": 5233
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/navigation-menu.md",
+      "path": "reference/01ed2bd3.md",
       "sha256": "sha256:218b976d88b51c8665473b25047e0e9ccd610868a21943c700eac1ac0cad2b93",
       "bytes": 3715
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/pagination.md",
+      "path": "reference/8c941283.md",
       "sha256": "sha256:1536218b25d216aa76e1d107d5eb8f1736c22510f58d1cd92314a3b739050b5b",
       "bytes": 5898
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/popover.md",
+      "path": "reference/87704557.md",
       "sha256": "sha256:41c9825fa042a66b82cc8bf4ce44d7561038bc89882cfb9d75cdc6653be65c57",
       "bytes": 3465
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/progress.md",
+      "path": "reference/a5c90108.md",
       "sha256": "sha256:703f3692f461a9cdf6fa838a593eea03f66a095fba37778f29944118b99f890e",
       "bytes": 2556
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/radio-group.md",
+      "path": "reference/3c02f5ca.md",
       "sha256": "sha256:2045daf145b6007d6f1ae63e5b3301aa93b1996404f052fa55dc660dcd373a62",
       "bytes": 4610
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/resizable.md",
+      "path": "reference/abf7c2da.md",
       "sha256": "sha256:18d05277e82f61d3a62a4d7d42a5bb7cd0256f2a9ff44a2026aeb5bb4292f2be",
       "bytes": 3714
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/scroll-area.md",
+      "path": "reference/fb41a35d.md",
       "sha256": "sha256:98271507b74008115cf11600133eb3f34e4ab5643d40a6b9492d8476948da850",
       "bytes": 4190
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/select.md",
+      "path": "reference/c04bfa82.md",
       "sha256": "sha256:fee8c0843c62b7b9f0435d6af99a2566cdab667a90dec92eff91b0727d820d10",
       "bytes": 4370
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/separator.md",
+      "path": "reference/9a1e4e6f.md",
       "sha256": "sha256:06643d00d6c1a278e96b64070335c69c53d669502727192fb50d5ca64daa9867",
       "bytes": 3159
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/sheet.md",
+      "path": "reference/84ec4eb1.md",
       "sha256": "sha256:22049f872b22ba3524f5f39ba476f3240848565a0d4331a9ea2e88065d813363",
       "bytes": 3322
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/sidebar.md",
+      "path": "reference/6097fbbc.md",
       "sha256": "sha256:6eb9be96747ddc57e36b7d90451c82d97f5ef55722ed99e2145c731102fb902e",
       "bytes": 18192
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/skeleton.md",
+      "path": "reference/baf0e487.md",
       "sha256": "sha256:03feba49e8d349a39493bb270f66e1fbb5915247e2b1b4d7377e10ee37ab719d",
       "bytes": 2750
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/slider.md",
+      "path": "reference/4eed69f4.md",
       "sha256": "sha256:7062866151f066fd837b1bf679d09feaa420d766f0682697d21de242c89ad637",
       "bytes": 3005
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/sonner.md",
+      "path": "reference/00f217bb.md",
       "sha256": "sha256:b4c02c3154f57ac447117e38a94b9c8660a2530da4ea5db3cf294dc60fe4806f",
       "bytes": 2796
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/spinner.md",
+      "path": "reference/4adb3db5.md",
       "sha256": "sha256:4af9fb1686513f6d0980e51d407f99b3effd5c866f6c9b52f7f450b56e0beabc",
       "bytes": 4041
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/switch.md",
+      "path": "reference/594989dc.md",
       "sha256": "sha256:b05edf1aedf512b5b7718667c946cda22275792058bbfbef047fa6a640a73809",
       "bytes": 3633
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/table.md",
+      "path": "reference/f6fab209.md",
       "sha256": "sha256:ead0de750178138d1e0ad9b86f1eaef75af52a46dc7295ed485706660de5698c",
       "bytes": 5150
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/tabs.md",
+      "path": "reference/102835b2.md",
       "sha256": "sha256:41ebbf9c942dbda81a52125d97c6fb5e493c026987301c0fe332a64ad7056cb0",
       "bytes": 4102
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/textarea.md",
+      "path": "reference/9269ec67.md",
       "sha256": "sha256:9743a8f3121316ed4036b7f3794b791792fe681baddd02e7e2c2349124f5f9c0",
       "bytes": 3093
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/toast.md",
+      "path": "reference/ac2583e2.md",
       "sha256": "sha256:42fd77e71e878dc05fa6bb54732dcf01b815fd7aec7db5523f83ee2555c3b582",
       "bytes": 1604
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/toggle-group.md",
+      "path": "reference/f069eeb1.md",
       "sha256": "sha256:0d202db96909a2ace9c99089de840138b11ff55639b29753224a0bd2b432ba33",
       "bytes": 3778
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/toggle.md",
+      "path": "reference/4c39e2c9.md",
       "sha256": "sha256:9ba13226a9ec9b5959bb5a13e6ffa2c6acd9917710a9b4eb0dea84369763630c",
       "bytes": 2851
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/tooltip.md",
+      "path": "reference/2112e19c.md",
       "sha256": "sha256:689ed3c67fa51d9a85d1324ef9c0ca0411c0434f5d1f40f797bd9420841e4b13",
       "bytes": 3474
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components/typography.md",
+      "path": "reference/21d21c7d.md",
       "sha256": "sha256:470f600e4065024a60ec70c618e543b8e568dff8787c8611e55a3349c21fbdf1",
       "bytes": 9258
     },
     {
-      "path": "reference/ui.shadcn.com/docs/components-json.md",
+      "path": "reference/44f440fe.md",
       "sha256": "sha256:e04ac9aca4af7971b87c78f2e0233858254398a0a769978fd80da0b71d5c0ca6",
       "bytes": 11025
     },
     {
-      "path": "reference/ui.shadcn.com/docs/dark-mode/astro.md",
+      "path": "reference/820649bb.md",
       "sha256": "sha256:52901abd7f34e7e78ccb94a9717eededf200c1c5cffa51443b4c9c60a920dcdd",
       "bytes": 5250
     },
     {
-      "path": "reference/ui.shadcn.com/docs/dark-mode/next.md",
+      "path": "reference/fa24460b.md",
       "sha256": "sha256:a4bf2ca1fc91baac611ad715666db893116cf452a61926605f72b07133989e06",
       "bytes": 2910
     },
     {
-      "path": "reference/ui.shadcn.com/docs/dark-mode/remix.md",
+      "path": "reference/06c831b4.md",
       "sha256": "sha256:2a33c90be1e9cf7e8962b52d462395821bb25e44e0fc33a984a570d4ba7173df",
       "bytes": 6168
     },
     {
-      "path": "reference/ui.shadcn.com/docs/dark-mode/vite.md",
+      "path": "reference/82a79a2f.md",
       "sha256": "sha256:57954b126ae053377752e794f638dd911df7ecbeff62e1b5745fffa59446e46e",
       "bytes": 5219
     },
     {
-      "path": "reference/ui.shadcn.com/docs/dark-mode.md",
+      "path": "reference/86edd3a9.md",
       "sha256": "sha256:e1503948276ae7f0179e8c48f9bc729a80bc30ce06133df167fd90afc0634c87",
       "bytes": 1556
     },
     {
-      "path": "reference/ui.shadcn.com/docs/directory.md",
+      "path": "reference/817cb603.md",
       "sha256": "sha256:972683640956947b6f488d78b71b6958b60bdf8ba1d9fbd68a5ab0851eab109c",
       "bytes": 2471
     },
     {
-      "path": "reference/ui.shadcn.com/docs/figma.md",
+      "path": "reference/741c1d0a.md",
       "sha256": "sha256:6793726816260c6b161c0e058c7c452a47fb298dd330b84dc21785d428a1fa8a",
       "bytes": 3031
     },
     {
-      "path": "reference/ui.shadcn.com/docs/forms/formisch.md",
+      "path": "reference/c8eee8fe.md",
       "sha256": "sha256:89233e0afb3b0db71ae6d423390dac63613f95db20a2c7d9f22508e86264deb3",
       "bytes": 29070
     },
     {
-      "path": "reference/ui.shadcn.com/docs/forms/next.md",
+      "path": "reference/9d97d054.md",
       "sha256": "sha256:a4a6dd65d7d9b4cd42e334632afc48da8edaddc10534daa0491845c8b28dc63b",
       "bytes": 24722
     },
     {
-      "path": "reference/ui.shadcn.com/docs/forms/react-hook-form.md",
+      "path": "reference/49bb2e7f.md",
       "sha256": "sha256:e3a6a3ddb9cba3e8622220b9609080f7ccf22f26a0c185bda3d232b079ae46ae",
       "bytes": 25815
     },
     {
-      "path": "reference/ui.shadcn.com/docs/forms/tanstack-form.md",
+      "path": "reference/23dc2c84.md",
       "sha256": "sha256:adbf42e5293a6d489fc90192988755b92f0cced1e5c131a9b0d05bc82291cb76",
       "bytes": 27455
     },
     {
-      "path": "reference/ui.shadcn.com/docs/forms.md",
+      "path": "reference/49fe1032.md",
       "sha256": "sha256:7ac11b4d6a48db0c0b2dd766fb1bdce7efe14e0334320dd07d9c22093e76fa6d",
       "bytes": 1776
     },
     {
-      "path": "reference/ui.shadcn.com/docs/installation/astro.md",
+      "path": "reference/dc32ce66.md",
       "sha256": "sha256:6b6e10742df51e94a08fcf93071e19d970f8ad79ef2e0a30500e2ac88cb5c5c3",
       "bytes": 6887
     },
     {
-      "path": "reference/ui.shadcn.com/docs/installation/gatsby.md",
+      "path": "reference/00cd4761.md",
       "sha256": "sha256:74ccf5ad9555317573283626fa90140e994e429f5eb60d4e3ad98300cbf800c6",
       "bytes": 3858
     },
     {
-      "path": "reference/ui.shadcn.com/docs/installation/laravel.md",
+      "path": "reference/4e526d1c.md",
       "sha256": "sha256:3f0c3374d5cad6f3e3556512b9e3d1fd9e803eff4e7a0b43e175859075cc7009",
       "bytes": 3950
     },
     {
-      "path": "reference/ui.shadcn.com/docs/installation/manual.md",
+      "path": "reference/bd030775.md",
       "sha256": "sha256:752aca638b8f7199c2f754437afaf2de084a56a510e192a8a940d614c77b4917",
       "bytes": 9205
     },
     {
-      "path": "reference/ui.shadcn.com/docs/installation/next.md",
+      "path": "reference/1d3bf0ad.md",
       "sha256": "sha256:7d40ca1e419e171a47aa609b2252519dfb12f6a5cfc0c08a96451d913a90a374",
       "bytes": 6775
     },
     {
-      "path": "reference/ui.shadcn.com/docs/installation/react-router.md",
+      "path": "reference/8a999679.md",
       "sha256": "sha256:2170b621cd10ada58a7fba9bcba9cc2571c8491c312fd6c245a31a80358ec15f",
       "bytes": 6050
     },
     {
-      "path": "reference/ui.shadcn.com/docs/installation/remix.md",
+      "path": "reference/99e0f5e2.md",
       "sha256": "sha256:17af14d091ecf14bb7f155e75f75e3980930ab54d1f6ce5a838570051b222530",
       "bytes": 2316
     },
     {
-      "path": "reference/ui.shadcn.com/docs/installation/tanstack-router.md",
+      "path": "reference/a3213037.md",
       "sha256": "sha256:fb5320a013d49e36a4d85617b32f30e85e49f9cf5ecd25c856cda2f7079bc69d",
       "bytes": 2336
     },
     {
-      "path": "reference/ui.shadcn.com/docs/installation/tanstack.md",
+      "path": "reference/ef850ef2.md",
       "sha256": "sha256:23d66262f176967fc191f2777ccd466c0318e1c6fd23d236d89cc725d0cd37f3",
       "bytes": 6684
     },
     {
-      "path": "reference/ui.shadcn.com/docs/installation/vite.md",
+      "path": "reference/5a3cf1e0.md",
       "sha256": "sha256:9622f1e506aaddfbbca699900fd3910c6a69ba59f737174cece8fb5b066e49ce",
       "bytes": 7564
     },
     {
-      "path": "reference/ui.shadcn.com/docs/javascript.md",
+      "path": "reference/db33edf1.md",
       "sha256": "sha256:d7a1a5e0b56dee6f75d8bf2d07439d15debbb9525be4eaecdeb4ed3fb383e354",
       "bytes": 2636
     },
     {
-      "path": "reference/ui.shadcn.com/docs/mcp.md",
+      "path": "reference/69fbd231.md",
       "sha256": "sha256:502a550396f0c5d69d56da22cbe3d1bd249e1f15821d324c3d89aa510c00ca90",
       "bytes": 10057
     },
     {
-      "path": "reference/ui.shadcn.com/docs/monorepo.md",
+      "path": "reference/696578f9.md",
       "sha256": "sha256:56d1bfdde0143aab806731974c32a9a11e05f6e1cc5d07f7f7af64ba84489d70",
       "bytes": 9175
     },
     {
-      "path": "reference/ui.shadcn.com/docs/react-19.md",
+      "path": "reference/14121f08.md",
       "sha256": "sha256:9413267bbb9f752a79746ef019e1a3b50ec458c4b828cf8047c01b7d7d6cc685",
       "bytes": 6092
     },
     {
-      "path": "reference/ui.shadcn.com/docs/registry/authentication.md",
+      "path": "reference/f958dd31.md",
       "sha256": "sha256:390cc9cebdbde6bfb90e2179e1b7ea70d03a859224affe642f0af1ec03326e81",
       "bytes": 11584
     },
     {
-      "path": "reference/ui.shadcn.com/docs/registry/examples.md",
+      "path": "reference/03dc149f.md",
       "sha256": "sha256:1b406d39c664ea5cedd5fcc9530bd6b46fa982578454942cfb8193c7a96ee4e4",
       "bytes": 35812
     },
     {
-      "path": "reference/ui.shadcn.com/docs/registry/faq.md",
+      "path": "reference/89e0b172.md",
       "sha256": "sha256:e24c3c4d4bd97c4e8d52e999a5df66c529d636f27307953ac04d488b271855be",
       "bytes": 5836
     },
     {
-      "path": "reference/ui.shadcn.com/docs/registry/getting-started.md",
+      "path": "reference/4118036b.md",
       "sha256": "sha256:8724a5224171e558651a86497374c71dd21ad822ca5a18348151bd81456245de",
       "bytes": 16982
     },
     {
-      "path": "reference/ui.shadcn.com/docs/registry/mcp.md",
+      "path": "reference/c7ebce1c.md",
       "sha256": "sha256:5c15ea565d26aa658ddf855788e260c5399bffa5b6a4195aa1c71c496a60fcb7",
       "bytes": 3454
     },
     {
-      "path": "reference/ui.shadcn.com/docs/registry/namespace.md",
+      "path": "reference/a94fc601.md",
       "sha256": "sha256:a704be853662154afafbc731a1c716aed9d0ff20a86cf52d37aa9aec929f240e",
       "bytes": 29228
     },
     {
-      "path": "reference/ui.shadcn.com/docs/registry/open-in-v0.md",
+      "path": "reference/e06398f9.md",
       "sha256": "sha256:3d6f3d7f35425cf5164ec6ab5340799febcf3417de3da3a735cf3f9bb38d24e3",
       "bytes": 4962
     },
     {
-      "path": "reference/ui.shadcn.com/docs/registry/registry-index.md",
+      "path": "reference/53da9ff8.md",
       "sha256": "sha256:a3b2c77ce8c5b454ae485ef3e0a216e66340e8381659bed63759796ab6a12ab9",
       "bytes": 3863
     },
     {
-      "path": "reference/ui.shadcn.com/docs/registry/registry-item-json.md",
+      "path": "reference/d8624bfa.md",
       "sha256": "sha256:f8777443d14e019551b498edd66bb930ba20b6d87cfe43c9868dc03c353264e3",
       "bytes": 15573
     },
     {
-      "path": "reference/ui.shadcn.com/docs/registry/registry-json.md",
+      "path": "reference/aa1d4601.md",
       "sha256": "sha256:a59c6491efd862611f401e3872c1c69c46660fb4aff1c6f4fb3fb3b35ba152c7",
       "bytes": 5882
     },
     {
-      "path": "reference/ui.shadcn.com/docs/registry.md",
+      "path": "reference/2742aa2d.md",
       "sha256": "sha256:600b4af5352ff6492b2cc353c5040376890ef10a174f370e978ef3244e956abf",
       "bytes": 2326
     },
     {
-      "path": "reference/ui.shadcn.com/docs/rtl/next.md",
+      "path": "reference/b7669b16.md",
       "sha256": "sha256:6acb0d795688b8cad94052b183c00b4f6a9422f1858c5664fae03f9e18bed9cd",
       "bytes": 3921
     },
     {
-      "path": "reference/ui.shadcn.com/docs/rtl/start.md",
+      "path": "reference/2e7038b0.md",
       "sha256": "sha256:b091dbe41858babe24c841ff6f5de02069b1aaf72ffa465e6254f81da7380604",
       "bytes": 3872
     },
     {
-      "path": "reference/ui.shadcn.com/docs/rtl/vite.md",
+      "path": "reference/3b9b30e9.md",
       "sha256": "sha256:d1614d3ce6dac460e906e5da562bad612a4c6f834139fbabecfe60c598c9482a",
       "bytes": 4360
     },
     {
-      "path": "reference/ui.shadcn.com/docs/rtl.md",
+      "path": "reference/53c7fec5.md",
       "sha256": "sha256:136dbc00c28317635496fc48161b5a8c7fa053d0fe70e892815238c8b804540b",
       "bytes": 5877
     },
     {
-      "path": "reference/ui.shadcn.com/docs/skills.md",
+      "path": "reference/512d6200.md",
       "sha256": "sha256:201ac6ba60fa12cadd9c243a982341e7f1d454e301317fe68d0f114caaabff4c",
       "bytes": 4660
     },
     {
-      "path": "reference/ui.shadcn.com/docs/tailwind-v4.md",
+      "path": "reference/a6073822.md",
       "sha256": "sha256:cea24e5ef097d896cec0885dddcbacfee42c576b3545f6bf5a46d13739d94ef9",
       "bytes": 8749
     },
     {
-      "path": "reference/ui.shadcn.com/docs/theming.md",
+      "path": "reference/3e5c39b0.md",
       "sha256": "sha256:c8a1ff721c267dbd9c16d74c813d70365f6955c318cc8b5727e5d9fc2d69e519",
       "bytes": 12414
     },
     {
-      "path": "reference/ui.shadcn.com/docs.md",
+      "path": "reference/47ec1f60.md",
       "sha256": "sha256:8df8777d9fd3414034feb2d42a3d8d95a49a01c0e632de43e00dfb9c0be6213a",
       "bytes": 5184
     },
     {
-      "path": "reference/ui.shadcn.com/schema/registry-item.json.md",
+      "path": "reference/7f80c394.md",
       "sha256": "sha256:cdf0fba75a26ebf594018264eff2d55407ec14deb3071d0fce0e2b20848e5d44",
       "bytes": 10075
     },
     {
-      "path": "reference/ui.shadcn.com/schema/registry.json.md",
+      "path": "reference/65ab6c77.md",
       "sha256": "sha256:a6a16a03d731c74655c442ebca964df32dba6f9df93db07a28363a2fced42839",
       "bytes": 1015
     }

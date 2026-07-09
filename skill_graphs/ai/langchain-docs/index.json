@@ -104,7 +104,7 @@
       ]
     },
     {
-      "path": "reference/0004-agent-server-changelog/0004-agent-server-changelog_pt1.md",
+      "path": "reference/9a88c572.md",
       "title": "Agent Server changelog",
       "group": "0004-agent-server-changelog",
       "bytes": 25617,
@@ -113,21 +113,21 @@
       ]
     },
     {
-      "path": "reference/0004-agent-server-changelog/0004-agent-server-changelog_pt2.md",
+      "path": "reference/02247c29.md",
       "title": "0004 Agent Server Changelog Pt2",
       "group": "0004-agent-server-changelog",
       "bytes": 25606,
       "headings": []
     },
     {
-      "path": "reference/0004-agent-server-changelog/0004-agent-server-changelog_pt3.md",
+      "path": "reference/85890658.md",
       "title": "0004 Agent Server Changelog Pt3",
       "group": "0004-agent-server-changelog",
       "bytes": 25659,
       "headings": []
     },
     {
-      "path": "reference/0004-agent-server-changelog/0004-agent-server-changelog_pt4.md",
+      "path": "reference/2d0d8a57.md",
       "title": "0004 Agent Server Changelog Pt4",
       "group": "0004-agent-server-changelog",
       "bytes": 6549,
@@ -334,7 +334,7 @@
       ]
     },
     {
-      "path": "reference/0015-langgraph-cli/0015-langgraph-cli_pt1.md",
+      "path": "reference/3e67a6ab.md",
       "title": "LangGraph CLI",
       "group": "0015-langgraph-cli",
       "bytes": 26412,
@@ -346,7 +346,7 @@
       ]
     },
     {
-      "path": "reference/0015-langgraph-cli/0015-langgraph-cli_pt2.md",
+      "path": "reference/fc7a8ddb.md",
       "title": "0015 Langgraph Cli Pt2",
       "group": "0015-langgraph-cli",
       "bytes": 25671,
@@ -355,7 +355,7 @@
       ]
     },
     {
-      "path": "reference/0015-langgraph-cli/0015-langgraph-cli_pt3.md",
+      "path": "reference/d13837ee.md",
       "title": "0015 Langgraph Cli Pt3",
       "group": "0015-langgraph-cli",
       "bytes": 25614,
@@ -367,7 +367,7 @@
       ]
     },
     {
-      "path": "reference/0015-langgraph-cli/0015-langgraph-cli_pt4.md",
+      "path": "reference/d17b596e.md",
       "title": "0015 Langgraph Cli Pt4",
       "group": "0015-langgraph-cli",
       "bytes": 21934,
@@ -752,7 +752,7 @@
       ]
     },
     {
-      "path": "reference/0035-evaluate-a-rag-application/0035-evaluate-a-rag-application_pt1.md",
+      "path": "reference/a8aa3020.md",
       "title": "Evaluate a RAG application",
       "group": "0035-evaluate-a-rag-application",
       "bytes": 25642,
@@ -771,7 +771,7 @@
       ]
     },
     {
-      "path": "reference/0035-evaluate-a-rag-application/0035-evaluate-a-rag-application_pt2.md",
+      "path": "reference/dda7f0a6.md",
       "title": "0035 Evaluate A Rag Application Pt2",
       "group": "0035-evaluate-a-rag-application",
       "bytes": 25613,
@@ -781,7 +781,7 @@
       ]
     },
     {
-      "path": "reference/0035-evaluate-a-rag-application/0035-evaluate-a-rag-application_pt3.md",
+      "path": "reference/deecb1e3.md",
       "title": "0035 Evaluate A Rag Application Pt3",
       "group": "0035-evaluate-a-rag-application",
       "bytes": 4476,
@@ -1468,7 +1468,7 @@
       ]
     },
     {
-      "path": "reference/0070-organization-and-workspace-operations-reference/0070-organization-and-workspace-operations-reference_pt1.md",
+      "path": "reference/032017e0.md",
       "title": "Organization and workspace operations reference",
       "group": "0070-organization-and-workspace-operations-reference",
       "bytes": 25705,
@@ -1488,7 +1488,7 @@
       ]
     },
     {
-      "path": "reference/0070-organization-and-workspace-operations-reference/0070-organization-and-workspace-operations-reference_pt2.md",
+      "path": "reference/18b2bc4f.md",
       "title": "0070 Organization And Workspace Operations Reference Pt2",
       "group": "0070-organization-and-workspace-operations-reference",
       "bytes": 25688,
@@ -1506,7 +1506,7 @@
       ]
     },
     {
-      "path": "reference/0070-organization-and-workspace-operations-reference/0070-organization-and-workspace-operations-reference_pt3.md",
+      "path": "reference/61821626.md",
       "title": "0070 Organization And Workspace Operations Reference Pt3",
       "group": "0070-organization-and-workspace-operations-reference",
       "bytes": 8003,
@@ -1859,7 +1859,7 @@
       ]
     },
     {
-      "path": "reference/0088-self-hosted-langsmith-changelog/0088-self-hosted-langsmith-changelog_pt1.md",
+      "path": "reference/046e4f4c.md",
       "title": "Self-hosted LangSmith changelog",
       "group": "0088-self-hosted-langsmith-changelog",
       "bytes": 25618,
@@ -1868,21 +1868,21 @@
       ]
     },
     {
-      "path": "reference/0088-self-hosted-langsmith-changelog/0088-self-hosted-langsmith-changelog_pt2.md",
+      "path": "reference/6d09611d.md",
       "title": "0088 Self Hosted Langsmith Changelog Pt2",
       "group": "0088-self-hosted-langsmith-changelog",
       "bytes": 25694,
       "headings": []
     },
     {
-      "path": "reference/0088-self-hosted-langsmith-changelog/0088-self-hosted-langsmith-changelog_pt3.md",
+      "path": "reference/be1c855c.md",
       "title": "0088 Self Hosted Langsmith Changelog Pt3",
       "group": "0088-self-hosted-langsmith-changelog",
       "bytes": 25658,
       "headings": []
     },
     {
-      "path": "reference/0088-self-hosted-langsmith-changelog/0088-self-hosted-langsmith-changelog_pt4.md",
+      "path": "reference/9f27d719.md",
       "title": "0088 Self Hosted Langsmith Changelog Pt4",
       "group": "0088-self-hosted-langsmith-changelog",
       "bytes": 18466,
@@ -2337,7 +2337,7 @@
       ]
     },
     {
-      "path": "reference/0112-user-management/0112-user-management_pt1.md",
+      "path": "reference/2413663d.md",
       "title": "User management",
       "group": "0112-user-management",
       "bytes": 25624,
@@ -2357,7 +2357,7 @@
       ]
     },
     {
-      "path": "reference/0112-user-management/0112-user-management_pt2.md",
+      "path": "reference/ab036a44.md",
       "title": "0112 User Management Pt2",
       "group": "0112-user-management",
       "bytes": 25600,
@@ -2373,7 +2373,7 @@
       ]
     },
     {
-      "path": "reference/0112-user-management/0112-user-management_pt3.md",
+      "path": "reference/d9080e5a.md",
       "title": "0112 User Management Pt3",
       "group": "0112-user-management",
       "bytes": 4715,
@@ -2500,7 +2500,7 @@
       ]
     },
     {
-      "path": "reference/0119-backends/0119-backends_pt1.md",
+      "path": "reference/bbffe52f.md",
       "title": "Backends",
       "group": "0119-backends",
       "bytes": 25611,
@@ -2515,7 +2515,7 @@
       ]
     },
     {
-      "path": "reference/0119-backends/0119-backends_pt2.md",
+      "path": "reference/caabffd0.md",
       "title": "0119 Backends Pt2",
       "group": "0119-backends",
       "bytes": 25692,
@@ -2535,7 +2535,7 @@
       ]
     },
     {
-      "path": "reference/0119-backends/0119-backends_pt3.md",
+      "path": "reference/df815818.md",
       "title": "0119 Backends Pt3",
       "group": "0119-backends",
       "bytes": 5759,
@@ -2700,7 +2700,7 @@
       ]
     },
     {
-      "path": "reference/0128-claude-specific-guidance/0128-claude-specific-guidance_pt1.md",
+      "path": "reference/ea06e9ce.md",
       "title": "+ <Claude-specific guidance>",
       "group": "0128-claude-specific-guidance",
       "bytes": 25656,
@@ -2717,7 +2717,7 @@
       ]
     },
     {
-      "path": "reference/0128-claude-specific-guidance/0128-claude-specific-guidance_pt2.md",
+      "path": "reference/f03ec50b.md",
       "title": "0128 Claude Specific Guidance Pt2",
       "group": "0128-claude-specific-guidance",
       "bytes": 25654,
@@ -2726,7 +2726,7 @@
       ]
     },
     {
-      "path": "reference/0128-claude-specific-guidance/0128-claude-specific-guidance_pt3.md",
+      "path": "reference/13832fb7.md",
       "title": "0128 Claude Specific Guidance Pt3",
       "group": "0128-claude-specific-guidance",
       "bytes": 25647,
@@ -2738,7 +2738,7 @@
       ]
     },
     {
-      "path": "reference/0128-claude-specific-guidance/0128-claude-specific-guidance_pt4.md",
+      "path": "reference/fddeba9f.md",
       "title": "0128 Claude Specific Guidance Pt4",
       "group": "0128-claude-specific-guidance",
       "bytes": 15327,
@@ -2986,7 +2986,7 @@
       ]
     },
     {
-      "path": "reference/0141-subagents/0141-subagents_pt1.md",
+      "path": "reference/1b0e284b.md",
       "title": "Subagents",
       "group": "0141-subagents",
       "bytes": 25619,
@@ -3003,7 +3003,7 @@
       ]
     },
     {
-      "path": "reference/0141-subagents/0141-subagents_pt2.md",
+      "path": "reference/97634a6a.md",
       "title": "0141 Subagents Pt2",
       "group": "0141-subagents",
       "bytes": 25668,
@@ -3023,7 +3023,7 @@
       ]
     },
     {
-      "path": "reference/0141-subagents/0141-subagents_pt3.md",
+      "path": "reference/d31e90cc.md",
       "title": "0141 Subagents Pt3",
       "group": "0141-subagents",
       "bytes": 12258,
@@ -3462,7 +3462,7 @@
       ]
     },
     {
-      "path": "reference/0163-long-term-memory/0163-long-term-memory_pt1.md",
+      "path": "reference/24c6ef17.md",
       "title": "Long-term memory",
       "group": "0163-long-term-memory",
       "bytes": 25654,
@@ -3474,7 +3474,7 @@
       ]
     },
     {
-      "path": "reference/0163-long-term-memory/0163-long-term-memory_pt2.md",
+      "path": "reference/86b5d5cd.md",
       "title": "0163 Long Term Memory Pt2",
       "group": "0163-long-term-memory",
       "bytes": 25619,
@@ -3483,7 +3483,7 @@
       ]
     },
     {
-      "path": "reference/0163-long-term-memory/0163-long-term-memory_pt3.md",
+      "path": "reference/c68cea49.md",
       "title": "0163 Long Term Memory Pt3",
       "group": "0163-long-term-memory",
       "bytes": 12959,
@@ -3550,7 +3550,7 @@
       ]
     },
     {
-      "path": "reference/0167-models/0167-models_pt1.md",
+      "path": "reference/796f622f.md",
       "title": "Models",
       "group": "0167-models",
       "bytes": 25622,
@@ -3570,7 +3570,7 @@
       ]
     },
     {
-      "path": "reference/0167-models/0167-models_pt2.md",
+      "path": "reference/86a276ca.md",
       "title": "0167 Models Pt2",
       "group": "0167-models",
       "bytes": 25669,
@@ -3588,7 +3588,7 @@
       ]
     },
     {
-      "path": "reference/0167-models/0167-models_pt3.md",
+      "path": "reference/9ca80eac.md",
       "title": "0167 Models Pt3",
       "group": "0167-models",
       "bytes": 4549,
@@ -3834,7 +3834,7 @@
       ]
     },
     {
-      "path": "reference/0180-build-a-sql-agent/0180-build-a-sql-agent_pt1.md",
+      "path": "reference/08cdfcec.md",
       "title": "Build a SQL agent",
       "group": "0180-build-a-sql-agent",
       "bytes": 25602,
@@ -3847,14 +3847,14 @@
       ]
     },
     {
-      "path": "reference/0180-build-a-sql-agent/0180-build-a-sql-agent_pt2.md",
+      "path": "reference/44d41a9e.md",
       "title": "0180 Build A Sql Agent Pt2",
       "group": "0180-build-a-sql-agent",
       "bytes": 25661,
       "headings": []
     },
     {
-      "path": "reference/0180-build-a-sql-agent/0180-build-a-sql-agent_pt3.md",
+      "path": "reference/7dbc65b5.md",
       "title": "0180 Build A Sql Agent Pt3",
       "group": "0180-build-a-sql-agent",
       "bytes": 11150,
@@ -4081,7 +4081,7 @@
       ]
     },
     {
-      "path": "reference/0192-graph-api-overview/0192-graph-api-overview_pt1.md",
+      "path": "reference/6fd9b7ba.md",
       "title": "Graph API overview",
       "group": "0192-graph-api-overview",
       "bytes": 25622,
@@ -4101,7 +4101,7 @@
       ]
     },
     {
-      "path": "reference/0192-graph-api-overview/0192-graph-api-overview_pt2.md",
+      "path": "reference/906ff8c4.md",
       "title": "0192 Graph Api Overview Pt2",
       "group": "0192-graph-api-overview",
       "bytes": 25657,
@@ -4121,7 +4121,7 @@
       ]
     },
     {
-      "path": "reference/0192-graph-api-overview/0192-graph-api-overview_pt3.md",
+      "path": "reference/f4ddcbbe.md",
       "title": "0192 Graph Api Overview Pt3",
       "group": "0192-graph-api-overview",
       "bytes": 1179,
@@ -4247,7 +4247,7 @@
       ]
     },
     {
-      "path": "reference/0199-use-the-graph-api/0199-use-the-graph-api_pt1.md",
+      "path": "reference/f1ca2968.md",
       "title": "Use the graph API",
       "group": "0199-use-the-graph-api",
       "bytes": 25607,
@@ -4265,7 +4265,7 @@
       ]
     },
     {
-      "path": "reference/0199-use-the-graph-api/0199-use-the-graph-api_pt2.md",
+      "path": "reference/b635d4cf.md",
       "title": "0199 Use The Graph Api Pt2",
       "group": "0199-use-the-graph-api",
       "bytes": 25781,
@@ -4282,7 +4282,7 @@
       ]
     },
     {
-      "path": "reference/0199-use-the-graph-api/0199-use-the-graph-api_pt3.md",
+      "path": "reference/7b6d4089.md",
       "title": "0199 Use The Graph Api Pt3",
       "group": "0199-use-the-graph-api",
       "bytes": 16155,
@@ -4659,7 +4659,7 @@
       ]
     },
     {
-      "path": "reference/0219-claude-specific-guidance/0219-claude-specific-guidance_pt1.md",
+      "path": "reference/71b4ac15.md",
       "title": "+ <Claude-specific guidance>",
       "group": "0219-claude-specific-guidance",
       "bytes": 25628,
@@ -4677,7 +4677,7 @@
       ]
     },
     {
-      "path": "reference/0219-claude-specific-guidance/0219-claude-specific-guidance_pt2.md",
+      "path": "reference/c800a1e3.md",
       "title": "0219 Claude Specific Guidance Pt2",
       "group": "0219-claude-specific-guidance",
       "bytes": 25610,
@@ -4686,7 +4686,7 @@
       ]
     },
     {
-      "path": "reference/0219-claude-specific-guidance/0219-claude-specific-guidance_pt3.md",
+      "path": "reference/d32a9db3.md",
       "title": "0219 Claude Specific Guidance Pt3",
       "group": "0219-claude-specific-guidance",
       "bytes": 25653,
@@ -4697,14 +4697,14 @@
       ]
     },
     {
-      "path": "reference/0219-claude-specific-guidance/0219-claude-specific-guidance_pt4.md",
+      "path": "reference/8606d629.md",
       "title": "0219 Claude Specific Guidance Pt4",
       "group": "0219-claude-specific-guidance",
       "bytes": 25609,
       "headings": []
     },
     {
-      "path": "reference/0219-claude-specific-guidance/0219-claude-specific-guidance_pt5.md",
+      "path": "reference/4d100c71.md",
       "title": "0219 Claude Specific Guidance Pt5",
       "group": "0219-claude-specific-guidance",
       "bytes": 1047,
@@ -5704,7 +5704,7 @@
       ]
     },
     {
-      "path": "reference/0271-streaming/0271-streaming_pt1.md",
+      "path": "reference/ca926b55.md",
       "title": "Streaming",
       "group": "0271-streaming",
       "bytes": 25620,
@@ -5722,7 +5722,7 @@
       ]
     },
     {
-      "path": "reference/0271-streaming/0271-streaming_pt2.md",
+      "path": "reference/d4d296bf.md",
       "title": "0271 Streaming Pt2",
       "group": "0271-streaming",
       "bytes": 25688,
@@ -5735,7 +5735,7 @@
       ]
     },
     {
-      "path": "reference/0271-streaming/0271-streaming_pt3.md",
+      "path": "reference/68231ba1.md",
       "title": "0271 Streaming Pt3",
       "group": "0271-streaming",
       "bytes": 893,

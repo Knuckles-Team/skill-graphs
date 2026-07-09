@@ -44,7 +44,7 @@
   },
   "sections": [
     {
-      "path": "reference/react.dev/learn/add-react-to-an-existing-project.md",
+      "path": "reference/47c66571.md",
       "title": "Add React to an Existing Project",
       "group": "react.dev/learn",
       "bytes": 8534,
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/adding-interactivity.md",
+      "path": "reference/c506aa38.md",
       "title": "Adding Interactivity",
       "group": "react.dev/learn",
       "bytes": 24221,
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/build-a-react-app-from-scratch.md",
+      "path": "reference/ed7f6bec.md",
       "title": "Build a React app from Scratch",
       "group": "react.dev/learn",
       "bytes": 11769,
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/choosing-the-state-structure/choosing-the-state-structure_pt1.md",
+      "path": "reference/163a13ff.md",
       "title": "Choosing the State Structure",
       "group": "react.dev/learn/choosing-the-state-structure",
       "bytes": 25605,
@@ -108,14 +108,14 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/choosing-the-state-structure/choosing-the-state-structure_pt2.md",
+      "path": "reference/2bb69cef.md",
       "title": "Choosing The State Structure Pt2",
       "group": "react.dev/learn/choosing-the-state-structure",
       "bytes": 25629,
       "headings": []
     },
     {
-      "path": "reference/react.dev/learn/choosing-the-state-structure/choosing-the-state-structure_pt3.md",
+      "path": "reference/0e555bd6.md",
       "title": "Choosing The State Structure Pt3",
       "group": "react.dev/learn/choosing-the-state-structure",
       "bytes": 10618,
@@ -124,7 +124,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/conditional-rendering.md",
+      "path": "reference/c55ee43a.md",
       "title": "Conditional Rendering",
       "group": "react.dev/learn",
       "bytes": 19281,
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/creating-a-react-app.md",
+      "path": "reference/5b4b4939.md",
       "title": "Creating a React App",
       "group": "react.dev/learn",
       "bytes": 7306,
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/describing-the-ui.md",
+      "path": "reference/51a09e02.md",
       "title": "Describing the UI",
       "group": "react.dev/learn",
       "bytes": 15358,
@@ -173,7 +173,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/editor-setup.md",
+      "path": "reference/0458ab35.md",
       "title": "Editor Setup",
       "group": "react.dev/learn",
       "bytes": 4137,
@@ -186,7 +186,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/escape-hatches.md",
+      "path": "reference/23f89024.md",
       "title": "Escape Hatches",
       "group": "react.dev/learn",
       "bytes": 25438,
@@ -204,7 +204,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/extracting-state-logic-into-a-reducer/extracting-state-logic-into-a-reducer_pt1.md",
+      "path": "reference/30b8dd91.md",
       "title": "Extracting State Logic into a Reducer",
       "group": "react.dev/learn/extracting-state-logic-into-a-reducer",
       "bytes": 25612,
@@ -219,14 +219,14 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/extracting-state-logic-into-a-reducer/extracting-state-logic-into-a-reducer_pt2.md",
+      "path": "reference/a24800f5.md",
       "title": "Extracting State Logic Into A Reducer Pt2",
       "group": "react.dev/learn/extracting-state-logic-into-a-reducer",
       "bytes": 25631,
       "headings": []
     },
     {
-      "path": "reference/react.dev/learn/extracting-state-logic-into-a-reducer/extracting-state-logic-into-a-reducer_pt3.md",
+      "path": "reference/c4f18f60.md",
       "title": "Extracting State Logic Into A Reducer Pt3",
       "group": "react.dev/learn/extracting-state-logic-into-a-reducer",
       "bytes": 11004,
@@ -235,7 +235,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/importing-and-exporting-components.md",
+      "path": "reference/9c91e00a.md",
       "title": "Importing and Exporting Components",
       "group": "react.dev/learn",
       "bytes": 11947,
@@ -247,7 +247,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/installation.md",
+      "path": "reference/e5e5b84c.md",
       "title": "Installation",
       "group": "react.dev/learn",
       "bytes": 2421,
@@ -261,7 +261,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/javascript-in-jsx-with-curly-braces.md",
+      "path": "reference/aed3685b.md",
       "title": "JavaScript in JSX with Curly Braces",
       "group": "react.dev/learn",
       "bytes": 14331,
@@ -275,7 +275,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/keeping-components-pure.md",
+      "path": "reference/04f2fe26.md",
       "title": "Keeping Components Pure",
       "group": "react.dev/learn",
       "bytes": 25411,
@@ -288,7 +288,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/lifecycle-of-reactive-effects/lifecycle-of-reactive-effects_pt1.md",
+      "path": "reference/3e7c9646.md",
       "title": "Lifecycle of Reactive Effects",
       "group": "react.dev/learn/lifecycle-of-reactive-effects",
       "bytes": 25715,
@@ -306,7 +306,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/lifecycle-of-reactive-effects/lifecycle-of-reactive-effects_pt2.md",
+      "path": "reference/1acbbb2c.md",
       "title": "Lifecycle Of Reactive Effects Pt2",
       "group": "react.dev/learn/lifecycle-of-reactive-effects",
       "bytes": 25619,
@@ -316,7 +316,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/lifecycle-of-reactive-effects/lifecycle-of-reactive-effects_pt3.md",
+      "path": "reference/172086b9.md",
       "title": "Lifecycle Of Reactive Effects Pt3",
       "group": "react.dev/learn/lifecycle-of-reactive-effects",
       "bytes": 20756,
@@ -325,7 +325,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/managing-state.md",
+      "path": "reference/bf80f369.md",
       "title": "Managing State",
       "group": "react.dev/learn",
       "bytes": 25376,
@@ -342,7 +342,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/manipulating-the-dom-with-refs.md",
+      "path": "reference/f3b979f7.md",
       "title": "Manipulating the DOM with Refs",
       "group": "react.dev/learn",
       "bytes": 31300,
@@ -357,7 +357,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/passing-data-deeply-with-context.md",
+      "path": "reference/60d55d85.md",
       "title": "Passing Data Deeply with Context",
       "group": "react.dev/learn",
       "bytes": 34769,
@@ -375,7 +375,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/passing-props-to-a-component.md",
+      "path": "reference/6de3dcb7.md",
       "title": "Passing Props to a Component",
       "group": "react.dev/learn",
       "bytes": 26973,
@@ -392,7 +392,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/preserving-and-resetting-state/preserving-and-resetting-state_pt1.md",
+      "path": "reference/fc04756c.md",
       "title": "Preserving and Resetting State",
       "group": "react.dev/learn/preserving-and-resetting-state",
       "bytes": 25602,
@@ -405,7 +405,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/preserving-and-resetting-state/preserving-and-resetting-state_pt2.md",
+      "path": "reference/5000545b.md",
       "title": "Preserving And Resetting State Pt2",
       "group": "react.dev/learn/preserving-and-resetting-state",
       "bytes": 25872,
@@ -415,7 +415,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/preserving-and-resetting-state/preserving-and-resetting-state_pt3.md",
+      "path": "reference/3785d0ad.md",
       "title": "Preserving And Resetting State Pt3",
       "group": "react.dev/learn/preserving-and-resetting-state",
       "bytes": 3646,
@@ -424,7 +424,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/queueing-a-series-of-state-updates.md",
+      "path": "reference/c2f2e408.md",
       "title": "Queueing a Series of State Updates",
       "group": "react.dev/learn",
       "bytes": 17317,
@@ -438,7 +438,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/react-compiler/debugging.md",
+      "path": "reference/4243277e.md",
       "title": "Debugging and Troubleshooting",
       "group": "react.dev/learn/react-compiler",
       "bytes": 4675,
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/react-compiler/incremental-adoption.md",
+      "path": "reference/4a6bedfd.md",
       "title": "Incremental Adoption",
       "group": "react.dev/learn/react-compiler",
       "bytes": 7149,
@@ -477,7 +477,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/react-compiler/installation.md",
+      "path": "reference/2cf1ef09.md",
       "title": "Installation",
       "group": "react.dev/learn/react-compiler",
       "bytes": 8117,
@@ -497,7 +497,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/react-compiler/introduction.md",
+      "path": "reference/e9649116.md",
       "title": "Introduction",
       "group": "react.dev/learn/react-compiler",
       "bytes": 11168,
@@ -515,7 +515,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/react-compiler.md",
+      "path": "reference/75f73c21.md",
       "title": "React Compiler",
       "group": "react.dev/learn",
       "bytes": 1780,
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/react-developer-tools.md",
+      "path": "reference/21695d9c.md",
       "title": "React Developer Tools",
       "group": "react.dev/learn",
       "bytes": 2513,
@@ -544,7 +544,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/reacting-to-input-with-state.md",
+      "path": "reference/3951b278.md",
       "title": "Reacting to Input with State",
       "group": "react.dev/learn",
       "bytes": 36586,
@@ -560,7 +560,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/referencing-values-with-refs.md",
+      "path": "reference/a7ce483c.md",
       "title": "Referencing Values with Refs",
       "group": "react.dev/learn",
       "bytes": 21978,
@@ -575,7 +575,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/removing-effect-dependencies/removing-effect-dependencies_pt1.md",
+      "path": "reference/454b73e7.md",
       "title": "Removing Effect Dependencies",
       "group": "react.dev/learn/removing-effect-dependencies",
       "bytes": 25642,
@@ -591,7 +591,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/removing-effect-dependencies/removing-effect-dependencies_pt2.md",
+      "path": "reference/35aa5c0b.md",
       "title": "Removing Effect Dependencies Pt2",
       "group": "react.dev/learn/removing-effect-dependencies",
       "bytes": 25600,
@@ -600,7 +600,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/removing-effect-dependencies/removing-effect-dependencies_pt3.md",
+      "path": "reference/cc95a954.md",
       "title": "Removing Effect Dependencies Pt3",
       "group": "react.dev/learn/removing-effect-dependencies",
       "bytes": 24614,
@@ -609,7 +609,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/render-and-commit.md",
+      "path": "reference/23f3ab15.md",
       "title": "Render and Commit",
       "group": "react.dev/learn",
       "bytes": 9237,
@@ -624,7 +624,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/rendering-lists.md",
+      "path": "reference/87703b1a.md",
       "title": "Rendering Lists",
       "group": "react.dev/learn",
       "bytes": 32609,
@@ -639,7 +639,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/responding-to-events.md",
+      "path": "reference/c4e50271.md",
       "title": "Responding to Events",
       "group": "react.dev/learn",
       "bytes": 22604,
@@ -657,7 +657,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/reusing-logic-with-custom-hooks/reusing-logic-with-custom-hooks_pt1.md",
+      "path": "reference/74226355.md",
       "title": "Reusing Logic with Custom Hooks",
       "group": "react.dev/learn/reusing-logic-with-custom-hooks",
       "bytes": 25634,
@@ -671,7 +671,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/reusing-logic-with-custom-hooks/reusing-logic-with-custom-hooks_pt2.md",
+      "path": "reference/a7ae95c7.md",
       "title": "Reusing Logic With Custom Hooks Pt2",
       "group": "react.dev/learn/reusing-logic-with-custom-hooks",
       "bytes": 25685,
@@ -682,7 +682,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/reusing-logic-with-custom-hooks/reusing-logic-with-custom-hooks_pt3.md",
+      "path": "reference/6c0cdf12.md",
       "title": "Reusing Logic With Custom Hooks Pt3",
       "group": "react.dev/learn/reusing-logic-with-custom-hooks",
       "bytes": 19577,
@@ -691,7 +691,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/scaling-up-with-reducer-and-context.md",
+      "path": "reference/3f94aea0.md",
       "title": "Scaling Up with Reducer and Context",
       "group": "react.dev/learn",
       "bytes": 31012,
@@ -705,7 +705,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/separating-events-from-effects/separating-events-from-effects_pt1.md",
+      "path": "reference/535c7200.md",
       "title": "Separating Events from Effects",
       "group": "react.dev/learn/separating-events-from-effects",
       "bytes": 25602,
@@ -722,7 +722,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/separating-events-from-effects/separating-events-from-effects_pt2.md",
+      "path": "reference/516af6d1.md",
       "title": "Separating Events From Effects Pt2",
       "group": "react.dev/learn/separating-events-from-effects",
       "bytes": 25610,
@@ -731,7 +731,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/separating-events-from-effects/separating-events-from-effects_pt3.md",
+      "path": "reference/041f9bbb.md",
       "title": "Separating Events From Effects Pt3",
       "group": "react.dev/learn/separating-events-from-effects",
       "bytes": 1891,
@@ -740,7 +740,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/setup.md",
+      "path": "reference/77b0659a.md",
       "title": "Setup",
       "group": "react.dev/learn",
       "bytes": 1135,
@@ -754,7 +754,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/sharing-state-between-components.md",
+      "path": "reference/e2bfefe9.md",
       "title": "Sharing State Between Components",
       "group": "react.dev/learn",
       "bytes": 19743,
@@ -768,7 +768,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/state-a-components-memory/state-a-components-memory_pt1.md",
+      "path": "reference/3300952e.md",
       "title": "State: A Component's Memory",
       "group": "react.dev/learn/state-a-components-memory",
       "bytes": 25609,
@@ -781,7 +781,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/state-a-components-memory/state-a-components-memory_pt2.md",
+      "path": "reference/0f736c0e.md",
       "title": "State A Components Memory Pt2",
       "group": "react.dev/learn/state-a-components-memory",
       "bytes": 25684,
@@ -790,7 +790,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/state-a-components-memory/state-a-components-memory_pt3.md",
+      "path": "reference/9758dfda.md",
       "title": "State A Components Memory Pt3",
       "group": "react.dev/learn/state-a-components-memory",
       "bytes": 15605,
@@ -799,7 +799,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/state-as-a-snapshot.md",
+      "path": "reference/73f6c426.md",
       "title": "State as a Snapshot",
       "group": "react.dev/learn",
       "bytes": 13767,
@@ -811,7 +811,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/synchronizing-with-effects/synchronizing-with-effects_pt1.md",
+      "path": "reference/cc43e375.md",
       "title": "Synchronizing with Effects",
       "group": "react.dev/learn/synchronizing-with-effects",
       "bytes": 25684,
@@ -827,7 +827,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/synchronizing-with-effects/synchronizing-with-effects_pt2.md",
+      "path": "reference/a99cd451.md",
       "title": "Synchronizing With Effects Pt2",
       "group": "react.dev/learn/synchronizing-with-effects",
       "bytes": 25640,
@@ -842,7 +842,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/synchronizing-with-effects/synchronizing-with-effects_pt3.md",
+      "path": "reference/6a8f99c9.md",
       "title": "Synchronizing With Effects Pt3",
       "group": "react.dev/learn/synchronizing-with-effects",
       "bytes": 10739,
@@ -851,7 +851,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/thinking-in-react.md",
+      "path": "reference/b086436e.md",
       "title": "Thinking in React",
       "group": "react.dev/learn",
       "bytes": 23036,
@@ -867,7 +867,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/tutorial-tic-tac-toe/tutorial-tic-tac-toe_pt1.md",
+      "path": "reference/c52f05a2.md",
       "title": "Tutorial: Tic-Tac-Toe",
       "group": "react.dev/learn/tutorial-tic-tac-toe",
       "bytes": 25892,
@@ -883,7 +883,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/tutorial-tic-tac-toe/tutorial-tic-tac-toe_pt2.md",
+      "path": "reference/515d0ee6.md",
       "title": "Tutorial Tic Tac Toe Pt2",
       "group": "react.dev/learn/tutorial-tic-tac-toe",
       "bytes": 25617,
@@ -896,7 +896,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/tutorial-tic-tac-toe/tutorial-tic-tac-toe_pt3.md",
+      "path": "reference/42815f80.md",
       "title": "Tutorial Tic Tac Toe Pt3",
       "group": "react.dev/learn/tutorial-tic-tac-toe",
       "bytes": 25655,
@@ -910,7 +910,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/tutorial-tic-tac-toe/tutorial-tic-tac-toe_pt4.md",
+      "path": "reference/9cbc82d2.md",
       "title": "Tutorial Tic Tac Toe Pt4",
       "group": "react.dev/learn/tutorial-tic-tac-toe",
       "bytes": 10837,
@@ -921,7 +921,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/typescript.md",
+      "path": "reference/0fb6f192.md",
       "title": "Using TypeScript",
       "group": "react.dev/learn",
       "bytes": 19063,
@@ -941,7 +941,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/understanding-your-ui-as-a-tree.md",
+      "path": "reference/c3871ebc.md",
       "title": "Understanding Your UI as a Tree",
       "group": "react.dev/learn",
       "bytes": 14118,
@@ -953,7 +953,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/updating-arrays-in-state.md",
+      "path": "reference/3a50c4d2.md",
       "title": "Updating Arrays in State",
       "group": "react.dev/learn",
       "bytes": 46038,
@@ -971,7 +971,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/updating-objects-in-state.md",
+      "path": "reference/203482d9.md",
       "title": "Updating Objects in State",
       "group": "react.dev/learn",
       "bytes": 38918,
@@ -985,7 +985,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/writing-markup-with-jsx.md",
+      "path": "reference/59307ed1.md",
       "title": "Writing Markup with JSX",
       "group": "react.dev/learn",
       "bytes": 10557,
@@ -1001,7 +1001,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/you-might-not-need-an-effect/you-might-not-need-an-effect_pt1.md",
+      "path": "reference/d0afefd5.md",
       "title": "You Might Not Need an Effect",
       "group": "react.dev/learn/you-might-not-need-an-effect",
       "bytes": 25601,
@@ -1018,7 +1018,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/you-might-not-need-an-effect/you-might-not-need-an-effect_pt2.md",
+      "path": "reference/fdfa1461.md",
       "title": "You Might Not Need An Effect Pt2",
       "group": "react.dev/learn/you-might-not-need-an-effect",
       "bytes": 25615,
@@ -1030,7 +1030,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/you-might-not-need-an-effect/you-might-not-need-an-effect_pt3.md",
+      "path": "reference/8e8c5aa2.md",
       "title": "You Might Not Need An Effect Pt3",
       "group": "react.dev/learn/you-might-not-need-an-effect",
       "bytes": 10250,
@@ -1039,7 +1039,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn/your-first-component.md",
+      "path": "reference/6fb0a548.md",
       "title": "Your First Component",
       "group": "react.dev/learn",
       "bytes": 13314,
@@ -1056,7 +1056,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/learn.md",
+      "path": "reference/16fa12dd.md",
       "title": "Quick Start",
       "group": "react.dev",
       "bytes": 15837,
@@ -1076,7 +1076,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/dev-tools/react-performance-tracks.md",
+      "path": "reference/84e1d4e1.md",
       "title": "React Performance tracks",
       "group": "react.dev/reference/dev-tools",
       "bytes": 10848,
@@ -1091,7 +1091,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/component-hook-factories.md",
+      "path": "reference/3effad60.md",
       "title": "component-hook-factories",
       "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
       "bytes": 2154,
@@ -1105,7 +1105,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/config.md",
+      "path": "reference/3998d7de.md",
       "title": "config",
       "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
       "bytes": 2060,
@@ -1119,7 +1119,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/error-boundaries.md",
+      "path": "reference/8a9a4a5b.md",
       "title": "error-boundaries",
       "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
       "bytes": 2181,
@@ -1133,7 +1133,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/exhaustive-deps.md",
+      "path": "reference/9f57006d.md",
       "title": "exhaustive-deps",
       "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
       "bytes": 4292,
@@ -1150,7 +1150,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/gating.md",
+      "path": "reference/25aadcf4.md",
       "title": "gating",
       "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
       "bytes": 1490,
@@ -1162,7 +1162,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/globals.md",
+      "path": "reference/4ae07111.md",
       "title": "globals",
       "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
       "bytes": 2097,
@@ -1174,7 +1174,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/immutability.md",
+      "path": "reference/19749090.md",
       "title": "immutability",
       "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
       "bytes": 3304,
@@ -1190,7 +1190,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/incompatible-library.md",
+      "path": "reference/934fba6c.md",
       "title": "incompatible-library",
       "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
       "bytes": 5043,
@@ -1202,7 +1202,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/preserve-manual-memoization.md",
+      "path": "reference/9dc45c42.md",
       "title": "preserve-manual-memoization",
       "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
       "bytes": 2508,
@@ -1216,7 +1216,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/purity.md",
+      "path": "reference/d0e09c0e.md",
       "title": "purity",
       "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
       "bytes": 2267,
@@ -1231,7 +1231,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/refs.md",
+      "path": "reference/e62d460e.md",
       "title": "refs",
       "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
       "bytes": 3262,
@@ -1247,7 +1247,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/rules-of-hooks.md",
+      "path": "reference/b5dd8232.md",
       "title": "rules-of-hooks",
       "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
       "bytes": 4514,
@@ -1265,7 +1265,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect.md",
+      "path": "reference/e597f7a6.md",
       "title": "set-state-in-effect",
       "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
       "bytes": 3359,
@@ -1278,7 +1278,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-render.md",
+      "path": "reference/c281686e.md",
       "title": "set-state-in-render",
       "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
       "bytes": 3064,
@@ -1293,7 +1293,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/static-components.md",
+      "path": "reference/f93d48e2.md",
       "title": "static-components",
       "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
       "bytes": 2548,
@@ -1307,7 +1307,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/unsupported-syntax.md",
+      "path": "reference/0743edb6.md",
       "title": "unsupported-syntax",
       "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
       "bytes": 2545,
@@ -1321,7 +1321,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/eslint-plugin-react-hooks/lints/use-memo.md",
+      "path": "reference/6021707d.md",
       "title": "use-memo",
       "group": "react.dev/reference/eslint-plugin-react-hooks/lints",
       "bytes": 2463,
@@ -1335,7 +1335,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/eslint-plugin-react-hooks.md",
+      "path": "reference/600a4b56.md",
       "title": "eslint-plugin-react-hooks",
       "group": "react.dev/reference",
       "bytes": 3830,
@@ -1345,7 +1345,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/Activity.md",
+      "path": "reference/520eca3c.md",
       "title": "<Activity>",
       "group": "react.dev/reference/react",
       "bytes": 32182,
@@ -1364,7 +1364,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/Children.md",
+      "path": "reference/8bdd6e1e.md",
       "title": "Children",
       "group": "react.dev/reference/react",
       "bytes": 22217,
@@ -1384,7 +1384,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/Component/Component_pt1.md",
+      "path": "reference/54b06f3d.md",
       "title": "Component",
       "group": "react.dev/reference/react/Component",
       "bytes": 25610,
@@ -1404,7 +1404,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/Component/Component_pt2.md",
+      "path": "reference/f1f81b8a.md",
       "title": "Component Pt2",
       "group": "react.dev/reference/react/Component",
       "bytes": 25622,
@@ -1423,7 +1423,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/Component/Component_pt3.md",
+      "path": "reference/f78e49e9.md",
       "title": "Component Pt3",
       "group": "react.dev/reference/react/Component",
       "bytes": 21469,
@@ -1439,7 +1439,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/Fragment.md",
+      "path": "reference/59a0ff6f.md",
       "title": "<Fragment> (<>...</>)",
       "group": "react.dev/reference/react",
       "bytes": 10821,
@@ -1459,7 +1459,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/Profiler.md",
+      "path": "reference/cb2c5933.md",
       "title": "<Profiler>",
       "group": "react.dev/reference/react",
       "bytes": 5183,
@@ -1474,7 +1474,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/PureComponent.md",
+      "path": "reference/0132cac7.md",
       "title": "PureComponent",
       "group": "react.dev/reference/react",
       "bytes": 5959,
@@ -1489,7 +1489,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/StrictMode.md",
+      "path": "reference/b3aaa92b.md",
       "title": "<StrictMode>",
       "group": "react.dev/reference/react",
       "bytes": 34755,
@@ -1507,7 +1507,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/Suspense.md",
+      "path": "reference/579e8a1e.md",
       "title": "<Suspense>",
       "group": "react.dev/reference/react",
       "bytes": 48147,
@@ -1527,7 +1527,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/ViewTransition/ViewTransition_pt1.md",
+      "path": "reference/2c918535.md",
       "title": "<ViewTransition>",
       "group": "react.dev/reference/react/ViewTransition",
       "bytes": 25602,
@@ -1545,7 +1545,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/ViewTransition/ViewTransition_pt2.md",
+      "path": "reference/8abbfe3b.md",
       "title": "Viewtransition Pt2",
       "group": "react.dev/reference/react/ViewTransition",
       "bytes": 25611,
@@ -1557,7 +1557,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/ViewTransition/ViewTransition_pt3.md",
+      "path": "reference/79ae648e.md",
       "title": "Viewtransition Pt3",
       "group": "react.dev/reference/react/ViewTransition",
       "bytes": 18317,
@@ -1572,7 +1572,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/act.md",
+      "path": "reference/72db7201.md",
       "title": "act",
       "group": "react.dev/reference/react",
       "bytes": 5981,
@@ -1588,7 +1588,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/addTransitionType.md",
+      "path": "reference/3f0f7e6c.md",
       "title": "addTransitionType",
       "group": "react.dev/reference/react",
       "bytes": 4900,
@@ -1604,7 +1604,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/apis.md",
+      "path": "reference/49e3b2e2.md",
       "title": "Built-in React APIs",
       "group": "react.dev/reference/react",
       "bytes": 1783,
@@ -1614,7 +1614,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/cache.md",
+      "path": "reference/8073e1ac.md",
       "title": "cache",
       "group": "react.dev/reference/react",
       "bytes": 19237,
@@ -1631,7 +1631,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/cacheSignal.md",
+      "path": "reference/fb653c06.md",
       "title": "cacheSignal",
       "group": "react.dev/reference/react",
       "bytes": 3417,
@@ -1645,7 +1645,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/captureOwnerStack.md",
+      "path": "reference/5f6fe6f1.md",
       "title": "captureOwnerStack",
       "group": "react.dev/reference/react",
       "bytes": 9948,
@@ -1661,7 +1661,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/cloneElement.md",
+      "path": "reference/ba00b6ac.md",
       "title": "cloneElement",
       "group": "react.dev/reference/react",
       "bytes": 16317,
@@ -1678,7 +1678,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/components.md",
+      "path": "reference/34e14244.md",
       "title": "Built-in React Components",
       "group": "react.dev/reference/react",
       "bytes": 984,
@@ -1689,7 +1689,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/createContext.md",
+      "path": "reference/42c96c42.md",
       "title": "createContext",
       "group": "react.dev/reference/react",
       "bytes": 7099,
@@ -1707,7 +1707,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/createElement.md",
+      "path": "reference/76203da7.md",
       "title": "createElement",
       "group": "react.dev/reference/react",
       "bytes": 7082,
@@ -1720,7 +1720,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/createRef.md",
+      "path": "reference/e9dd48f3.md",
       "title": "createRef",
       "group": "react.dev/reference/react",
       "bytes": 4111,
@@ -1735,7 +1735,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/experimental_taintObjectReference.md",
+      "path": "reference/5c575a3b.md",
       "title": "experimental_taintObjectReference",
       "group": "react.dev/reference/react",
       "bytes": 5535,
@@ -1748,7 +1748,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/experimental_taintUniqueValue.md",
+      "path": "reference/b05c8fd4.md",
       "title": "experimental_taintUniqueValue",
       "group": "react.dev/reference/react",
       "bytes": 8201,
@@ -1761,7 +1761,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/forwardRef.md",
+      "path": "reference/51e6ee1b.md",
       "title": "forwardRef",
       "group": "react.dev/reference/react",
       "bytes": 14124,
@@ -1779,7 +1779,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/hooks.md",
+      "path": "reference/cc9b7e61.md",
       "title": "Built-in React Hooks",
       "group": "react.dev/reference/react",
       "bytes": 5723,
@@ -1795,7 +1795,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/isValidElement.md",
+      "path": "reference/4e6c8476.md",
       "title": "isValidElement",
       "group": "react.dev/reference/react",
       "bytes": 4086,
@@ -1808,7 +1808,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/lazy.md",
+      "path": "reference/7344a520.md",
       "title": "lazy",
       "group": "react.dev/reference/react",
       "bytes": 6337,
@@ -1824,7 +1824,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/legacy.md",
+      "path": "reference/6321f457.md",
       "title": "Legacy React APIs",
       "group": "react.dev/reference/react",
       "bytes": 2708,
@@ -1835,7 +1835,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/memo.md",
+      "path": "reference/3a2f4db9.md",
       "title": "memo",
       "group": "react.dev/reference/react",
       "bytes": 18481,
@@ -1855,7 +1855,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/startTransition.md",
+      "path": "reference/4b015b33.md",
       "title": "startTransition",
       "group": "react.dev/reference/react",
       "bytes": 4429,
@@ -1868,7 +1868,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/use.md",
+      "path": "reference/a636c70d.md",
       "title": "use",
       "group": "react.dev/reference/react",
       "bytes": 16118,
@@ -1885,7 +1885,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useActionState.md",
+      "path": "reference/aeda039d.md",
       "title": "useActionState",
       "group": "react.dev/reference/react",
       "bytes": 41608,
@@ -1905,7 +1905,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useCallback.md",
+      "path": "reference/54e6f903.md",
       "title": "useCallback",
       "group": "react.dev/reference/react",
       "bytes": 33347,
@@ -1924,7 +1924,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useContext.md",
+      "path": "reference/4f699354.md",
       "title": "useContext",
       "group": "react.dev/reference/react",
       "bytes": 33748,
@@ -1944,7 +1944,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useDebugValue.md",
+      "path": "reference/ca6cdac3.md",
       "title": "useDebugValue",
       "group": "react.dev/reference/react",
       "bytes": 3870,
@@ -1958,7 +1958,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useDeferredValue.md",
+      "path": "reference/a04e2621.md",
       "title": "useDeferredValue",
       "group": "react.dev/reference/react",
       "bytes": 24875,
@@ -1973,7 +1973,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useEffect/useEffect_pt1.md",
+      "path": "reference/5507d11b.md",
       "title": "useEffect",
       "group": "react.dev/reference/react/useEffect",
       "bytes": 25615,
@@ -1986,7 +1986,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useEffect/useEffect_pt2.md",
+      "path": "reference/96a9ec17.md",
       "title": "Useeffect Pt2",
       "group": "react.dev/reference/react/useEffect",
       "bytes": 25619,
@@ -1999,7 +1999,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useEffect/useEffect_pt3.md",
+      "path": "reference/e17e39b8.md",
       "title": "Useeffect Pt3",
       "group": "react.dev/reference/react/useEffect",
       "bytes": 14161,
@@ -2017,7 +2017,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useEffectEvent.md",
+      "path": "reference/1ab234f2.md",
       "title": "useEffectEvent",
       "group": "react.dev/reference/react",
       "bytes": 16560,
@@ -2037,7 +2037,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useId.md",
+      "path": "reference/1a675fe6.md",
       "title": "useId",
       "group": "react.dev/reference/react",
       "bytes": 9480,
@@ -2053,7 +2053,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useImperativeHandle.md",
+      "path": "reference/26cf5f27.md",
       "title": "useImperativeHandle",
       "group": "react.dev/reference/react",
       "bytes": 7901,
@@ -2067,7 +2067,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useInsertionEffect.md",
+      "path": "reference/6ccfee97.md",
       "title": "useInsertionEffect",
       "group": "react.dev/reference/react",
       "bytes": 6204,
@@ -2080,7 +2080,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useLayoutEffect.md",
+      "path": "reference/af14eaba.md",
       "title": "useLayoutEffect",
       "group": "react.dev/reference/react",
       "bytes": 23984,
@@ -2095,7 +2095,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useMemo.md",
+      "path": "reference/20b28e7e.md",
       "title": "useMemo",
       "group": "react.dev/reference/react",
       "bytes": 48839,
@@ -2115,7 +2115,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useOptimistic.md",
+      "path": "reference/d2b39f8c.md",
       "title": "useOptimistic",
       "group": "react.dev/reference/react",
       "bytes": 34141,
@@ -2135,7 +2135,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useReducer.md",
+      "path": "reference/d700eb17.md",
       "title": "useReducer",
       "group": "react.dev/reference/react",
       "bytes": 30616,
@@ -2155,7 +2155,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useRef.md",
+      "path": "reference/e0f5988d.md",
       "title": "useRef",
       "group": "react.dev/reference/react",
       "bytes": 17172,
@@ -2172,7 +2172,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useState.md",
+      "path": "reference/0ab128d9.md",
       "title": "useState",
       "group": "react.dev/reference/react",
       "bytes": 39162,
@@ -2192,7 +2192,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useSyncExternalStore.md",
+      "path": "reference/cd72d427.md",
       "title": "useSyncExternalStore",
       "group": "react.dev/reference/react",
       "bytes": 16619,
@@ -2211,7 +2211,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useTransition/useTransition_pt1.md",
+      "path": "reference/bdf3e246.md",
       "title": "useTransition",
       "group": "react.dev/reference/react/useTransition",
       "bytes": 25601,
@@ -2227,7 +2227,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useTransition/useTransition_pt2.md",
+      "path": "reference/0f0eb0f7.md",
       "title": "Usetransition Pt2",
       "group": "react.dev/reference/react/useTransition",
       "bytes": 25612,
@@ -2244,7 +2244,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react/useTransition/useTransition_pt3.md",
+      "path": "reference/632d57a4.md",
       "title": "Usetransition Pt3",
       "group": "react.dev/reference/react/useTransition",
       "bytes": 909,
@@ -2253,7 +2253,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-compiler/compilationMode.md",
+      "path": "reference/c782a4d1.md",
       "title": "compilationMode",
       "group": "react.dev/reference/react-compiler",
       "bytes": 4669,
@@ -2271,7 +2271,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-compiler/compiling-libraries.md",
+      "path": "reference/e49ab1a9.md",
       "title": "Compiling Libraries",
       "group": "react.dev/reference/react-compiler",
       "bytes": 3596,
@@ -2291,7 +2291,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-compiler/configuration.md",
+      "path": "reference/ff26f516.md",
       "title": "Configuration",
       "group": "react.dev/reference/react-compiler",
       "bytes": 3117,
@@ -2309,7 +2309,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-compiler/directives/use-memo.md",
+      "path": "reference/bb9eacc7.md",
       "title": "use memo",
       "group": "react.dev/reference/react-compiler/directives",
       "bytes": 5003,
@@ -2327,7 +2327,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-compiler/directives/use-no-memo.md",
+      "path": "reference/f801f621.md",
       "title": "use no memo",
       "group": "react.dev/reference/react-compiler/directives",
       "bytes": 4031,
@@ -2345,7 +2345,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-compiler/directives.md",
+      "path": "reference/6ace2118.md",
       "title": "Directives",
       "group": "react.dev/reference/react-compiler",
       "bytes": 5020,
@@ -2365,7 +2365,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-compiler/gating.md",
+      "path": "reference/0da43d09.md",
       "title": "gating",
       "group": "react.dev/reference/react-compiler",
       "bytes": 2723,
@@ -2381,7 +2381,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-compiler/logger.md",
+      "path": "reference/f321a3c3.md",
       "title": "logger",
       "group": "react.dev/reference/react-compiler",
       "bytes": 2424,
@@ -2395,7 +2395,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-compiler/panicThreshold.md",
+      "path": "reference/0a5fae92.md",
       "title": "panicThreshold",
       "group": "react.dev/reference/react-compiler",
       "bytes": 1882,
@@ -2409,7 +2409,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-compiler/target.md",
+      "path": "reference/1edddb3f.md",
       "title": "target",
       "group": "react.dev/reference/react-compiler",
       "bytes": 3058,
@@ -2427,7 +2427,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/client/createRoot.md",
+      "path": "reference/18fab252.md",
       "title": "createRoot",
       "group": "react.dev/reference/react-dom/client",
       "bytes": 20580,
@@ -2447,7 +2447,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/client/hydrateRoot.md",
+      "path": "reference/de1e1603.md",
       "title": "hydrateRoot",
       "group": "react.dev/reference/react-dom/client",
       "bytes": 18633,
@@ -2467,7 +2467,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/client.md",
+      "path": "reference/9a10ea55.md",
       "title": "Client React DOM APIs",
       "group": "react.dev/reference/react-dom",
       "bytes": 1031,
@@ -2478,7 +2478,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/components/common/common_pt1.md",
+      "path": "reference/611b20b5.md",
       "title": "Common components (e.g. )",
       "group": "react.dev/reference/react-dom/components/common",
       "bytes": 25697,
@@ -2488,7 +2488,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/components/common/common_pt2.md",
+      "path": "reference/c57cccee.md",
       "title": "Common Pt2",
       "group": "react.dev/reference/react-dom/components/common",
       "bytes": 25618,
@@ -2506,7 +2506,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/components/common/common_pt3.md",
+      "path": "reference/a1ba8604.md",
       "title": "Common Pt3",
       "group": "react.dev/reference/react-dom/components/common",
       "bytes": 22200,
@@ -2526,7 +2526,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/components/form.md",
+      "path": "reference/a4efaf2a.md",
       "title": "<form>",
       "group": "react.dev/reference/react-dom/components",
       "bytes": 13420,
@@ -2545,7 +2545,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/components/input.md",
+      "path": "reference/af59e213.md",
       "title": "<input>",
       "group": "react.dev/reference/react-dom/components",
       "bytes": 26282,
@@ -2565,7 +2565,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/components/link.md",
+      "path": "reference/704e32fd.md",
       "title": "Link",
       "group": "react.dev/reference/react-dom/components",
       "bytes": 11623,
@@ -2582,7 +2582,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/components/meta.md",
+      "path": "reference/545cf572.md",
       "title": "Meta",
       "group": "react.dev/reference/react-dom/components",
       "bytes": 4149,
@@ -2596,7 +2596,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/components/option.md",
+      "path": "reference/870a0aa5.md",
       "title": "<option>",
       "group": "react.dev/reference/react-dom/components",
       "bytes": 2886,
@@ -2609,7 +2609,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/components/progress.md",
+      "path": "reference/f8a0ff30.md",
       "title": "<progress>",
       "group": "react.dev/reference/react-dom/components",
       "bytes": 1875,
@@ -2622,7 +2622,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/components/script.md",
+      "path": "reference/ae56fafa.md",
       "title": "Script",
       "group": "react.dev/reference/react-dom/components",
       "bytes": 5992,
@@ -2636,7 +2636,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/components/select.md",
+      "path": "reference/e5783e6f.md",
       "title": "<select>",
       "group": "react.dev/reference/react-dom/components",
       "bytes": 16025,
@@ -2654,7 +2654,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/components/style.md",
+      "path": "reference/338d5e39.md",
       "title": "Style",
       "group": "react.dev/reference/react-dom/components",
       "bytes": 4723,
@@ -2667,7 +2667,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/components/textarea.md",
+      "path": "reference/bda3a00c.md",
       "title": "<textarea>",
       "group": "react.dev/reference/react-dom/components",
       "bytes": 17479,
@@ -2687,7 +2687,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/components/title.md",
+      "path": "reference/5128b254.md",
       "title": "<title>",
       "group": "react.dev/reference/react-dom/components",
       "bytes": 3563,
@@ -2701,7 +2701,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/components.md",
+      "path": "reference/5622a41e.md",
       "title": "React DOM Components",
       "group": "react.dev/reference/react-dom",
       "bytes": 20016,
@@ -2716,7 +2716,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/createPortal.md",
+      "path": "reference/77f91f4e.md",
       "title": "createPortal",
       "group": "react.dev/reference/react-dom",
       "bytes": 11035,
@@ -2732,7 +2732,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/flushSync.md",
+      "path": "reference/ff9327e5.md",
       "title": "flushSync",
       "group": "react.dev/reference/react-dom",
       "bytes": 6470,
@@ -2747,7 +2747,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/hooks/useFormStatus.md",
+      "path": "reference/5975a3f0.md",
       "title": "useFormStatus",
       "group": "react.dev/reference/react-dom/hooks",
       "bytes": 6956,
@@ -2763,7 +2763,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/hooks.md",
+      "path": "reference/99cdf2a0.md",
       "title": "Built-in React DOM Hooks",
       "group": "react.dev/reference/react-dom",
       "bytes": 1309,
@@ -2773,7 +2773,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/preconnect.md",
+      "path": "reference/9a8704f5.md",
       "title": "preconnect",
       "group": "react.dev/reference/react-dom",
       "bytes": 2663,
@@ -2787,7 +2787,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/prefetchDNS.md",
+      "path": "reference/67a86275.md",
       "title": "prefetchDNS",
       "group": "react.dev/reference/react-dom",
       "bytes": 2916,
@@ -2801,7 +2801,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/preinit.md",
+      "path": "reference/300602eb.md",
       "title": "preinit",
       "group": "react.dev/reference/react-dom",
       "bytes": 4867,
@@ -2815,7 +2815,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/preinitModule.md",
+      "path": "reference/d19ade56.md",
       "title": "preinitModule",
       "group": "react.dev/reference/react-dom",
       "bytes": 3681,
@@ -2829,7 +2829,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/preload.md",
+      "path": "reference/dda30d65.md",
       "title": "preload",
       "group": "react.dev/reference/react-dom",
       "bytes": 6451,
@@ -2843,7 +2843,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/preloadModule.md",
+      "path": "reference/a9dd1cde.md",
       "title": "preloadModule",
       "group": "react.dev/reference/react-dom",
       "bytes": 3506,
@@ -2857,7 +2857,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/server/renderToPipeableStream.md",
+      "path": "reference/d213640f.md",
       "title": "renderToPipeableStream",
       "group": "react.dev/reference/react-dom/server",
       "bytes": 25464,
@@ -2877,7 +2877,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/server/renderToReadableStream.md",
+      "path": "reference/059a6eb4.md",
       "title": "renderToReadableStream",
       "group": "react.dev/reference/react-dom/server",
       "bytes": 25544,
@@ -2897,7 +2897,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/server/renderToStaticMarkup.md",
+      "path": "reference/4f04c58d.md",
       "title": "renderToStaticMarkup",
       "group": "react.dev/reference/react-dom/server",
       "bytes": 2636,
@@ -2910,7 +2910,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/server/renderToString.md",
+      "path": "reference/1710fa89.md",
       "title": "renderToString",
       "group": "react.dev/reference/react-dom/server",
       "bytes": 6109,
@@ -2929,7 +2929,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/server/resume.md",
+      "path": "reference/e296e398.md",
       "title": "resume",
       "group": "react.dev/reference/react-dom/server",
       "bytes": 8520,
@@ -2943,7 +2943,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/server/resumeToPipeableStream.md",
+      "path": "reference/151693d1.md",
       "title": "resumeToPipeableStream",
       "group": "react.dev/reference/react-dom/server",
       "bytes": 5122,
@@ -2956,7 +2956,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/server.md",
+      "path": "reference/d516ac01.md",
       "title": "Server React DOM APIs",
       "group": "react.dev/reference/react-dom",
       "bytes": 2405,
@@ -2968,7 +2968,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/static/prerender.md",
+      "path": "reference/d753ecbb.md",
       "title": "prerender",
       "group": "react.dev/reference/react-dom/static",
       "bytes": 14492,
@@ -2987,7 +2987,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/static/prerenderToNodeStream.md",
+      "path": "reference/9c579f63.md",
       "title": "prerenderToNodeStream",
       "group": "react.dev/reference/react-dom/static",
       "bytes": 14902,
@@ -3006,7 +3006,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/static/resumeAndPrerender.md",
+      "path": "reference/688702c6.md",
       "title": "resumeAndPrerender",
       "group": "react.dev/reference/react-dom/static",
       "bytes": 4699,
@@ -3020,7 +3020,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/static/resumeAndPrerenderToNodeStream.md",
+      "path": "reference/cb1c4de2.md",
       "title": "resumeAndPrerenderToNodeStream",
       "group": "react.dev/reference/react-dom/static",
       "bytes": 4869,
@@ -3034,7 +3034,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom/static.md",
+      "path": "reference/43dd64e2.md",
       "title": "Static React DOM APIs",
       "group": "react.dev/reference/react-dom",
       "bytes": 1885,
@@ -3045,7 +3045,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react-dom.md",
+      "path": "reference/2a44dc6d.md",
       "title": "React DOM APIs",
       "group": "react.dev/reference",
       "bytes": 3230,
@@ -3058,7 +3058,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/react.md",
+      "path": "reference/f2b23877.md",
       "title": "React Reference Overview",
       "group": "react.dev/reference",
       "bytes": 3432,
@@ -3073,7 +3073,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/rsc/directives.md",
+      "path": "reference/a9eecf0b.md",
       "title": "Directives",
       "group": "react.dev/reference/rsc",
       "bytes": 613,
@@ -3083,7 +3083,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/rsc/server-components.md",
+      "path": "reference/6f80a5c0.md",
       "title": "Server Components",
       "group": "react.dev/reference/rsc",
       "bytes": 9845,
@@ -3096,7 +3096,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/rsc/server-functions.md",
+      "path": "reference/bdcc1db1.md",
       "title": "Server Functions",
       "group": "react.dev/reference/rsc",
       "bytes": 7867,
@@ -3112,7 +3112,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/rsc/use-client.md",
+      "path": "reference/fd814deb.md",
       "title": "use client",
       "group": "react.dev/reference/rsc",
       "bytes": 20596,
@@ -3130,7 +3130,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/rsc/use-server.md",
+      "path": "reference/b5399f6e.md",
       "title": "use server",
       "group": "react.dev/reference/rsc",
       "bytes": 10359,
@@ -3146,7 +3146,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/rules/components-and-hooks-must-be-pure.md",
+      "path": "reference/134073ce.md",
       "title": "Components and Hooks must be pure",
       "group": "react.dev/reference/rules",
       "bytes": 17594,
@@ -3164,7 +3164,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/rules/react-calls-components-and-hooks.md",
+      "path": "reference/f5ca5d5a.md",
       "title": "React calls Components and Hooks",
       "group": "react.dev/reference/rules",
       "bytes": 5059,
@@ -3177,7 +3177,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/rules/rules-of-hooks.md",
+      "path": "reference/ffe9a71e.md",
       "title": "Rules of Hooks",
       "group": "react.dev/reference/rules",
       "bytes": 4081,
@@ -3188,7 +3188,7 @@
       ]
     },
     {
-      "path": "reference/react.dev/reference/rules.md",
+      "path": "reference/d4727790.md",
       "title": "Rules of React",
       "group": "react.dev/reference",
       "bytes": 4520,

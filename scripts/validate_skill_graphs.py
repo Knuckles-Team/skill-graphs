@@ -11,11 +11,18 @@ produced by the unified pipeline). Legacy graphs predating the contract have no
 ``sources.json``; they are only **reported** (never hard-failed) so this gate does
 not force a mass rebuild — rebuild them via the unified pipeline to standardize.
 
+Also enforces the cross-platform ``reference/`` layout produced by
+``scripts/flatten_reference.py``: files sit exactly one level under
+``reference/`` (no nested subdirs), and every path an ``index.json``/
+``sources.json`` declares actually resolves to a file on disk with matching
+content (``sources.json``'s ``sha256``).
+
 Self-contained (no third-party imports) so it runs in pre-commit's isolated env.
 """
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 import sys
@@ -72,6 +79,53 @@ def validate_managed(d: Path, fm: dict, md_files: list[Path]) -> list[str]:
     return errors
 
 
+def validate_flat_reference(d: Path, ref: Path) -> list[str]:
+    """A portable ``reference/`` sits exactly one level deep — no nested subdirs."""
+    errors: list[str] = []
+    for f in ref.rglob("*"):
+        if f.is_file() and len(f.relative_to(ref).parts) > 1:
+            errors.append(f"{d.name}: {f.relative_to(d)} is nested more than one level under reference/")
+    return errors
+
+
+def validate_index_paths(d: Path) -> list[str]:
+    """Every index.json sections[].path must resolve to an existing file."""
+    errors: list[str] = []
+    try:
+        data = json.loads((d / "index.json").read_text(encoding="utf-8"))
+    except (ValueError, OSError) as exc:
+        return [f"{d.name}: index.json unreadable: {exc}"]
+    for section in data.get("sections", []):
+        path = section.get("path")
+        if not path or not (d / path).is_file():
+            errors.append(f"{d.name}: index.json section path '{path}' does not exist")
+    return errors
+
+
+def validate_sources_paths_and_sha(d: Path) -> list[str]:
+    """Every sources.json files[].path must exist and its sha256 must match."""
+    errors: list[str] = []
+    try:
+        data = json.loads((d / "sources.json").read_text(encoding="utf-8"))
+    except (ValueError, OSError) as exc:
+        return [f"{d.name}: sources.json unreadable: {exc}"]
+    for entry in data.get("files", []):
+        path = entry.get("path")
+        full = d / path if path else None
+        if not path or full is None or not full.is_file():
+            errors.append(f"{d.name}: sources.json file path '{path}' does not exist")
+            continue
+        expected_sha = entry.get("sha256")
+        if expected_sha:
+            actual_sha = "sha256:" + hashlib.sha256(full.read_bytes()).hexdigest()
+            if actual_sha != expected_sha:
+                errors.append(
+                    f"{d.name}: sources.json sha256 mismatch for '{path}' "
+                    f"(expected {expected_sha}, got {actual_sha})"
+                )
+    return errors
+
+
 def main() -> int:
     root = Path.cwd() / "skill_graphs"
     if not root.is_dir():
@@ -83,6 +137,14 @@ def main() -> int:
         d = skill_md.parent
         fm = parse_frontmatter(skill_md.read_text(encoding="utf-8"))
         ref = d / "reference"
+
+        if ref.is_dir():
+            errors.extend(validate_flat_reference(d, ref))
+        if (d / "index.json").exists():
+            errors.extend(validate_index_paths(d))
+        if (d / "sources.json").exists():
+            errors.extend(validate_sources_paths_and_sha(d))
+
         if not (d / "sources.json").exists():
             if ref.is_dir():
                 legacy += 1
