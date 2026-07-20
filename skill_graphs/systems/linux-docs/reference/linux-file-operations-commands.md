@@ -341,7 +341,7 @@ Resolving github-cloud.s3.amazonaws.com… 54.231.81.144
 Connecting to github-cloud.s3.amazonaws.com|54.231.81.144|:443… connected.
 HTTP request sent, awaiting response… 200 OK
 Length: 2103270 (2.0M) [application/octet-stream]
-63875c5e-1f40-11e5-99a8-0b1fe18398f0.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAISTNZFOVBIJMK3TQ%2F20151223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20151223T152032Z&X-Amz-Expires=300&X-Amz-Signature=1179f41ae8c1314930cb3d65c4af61428363f89dbf7808ca0bcd75086a3d6b9b&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment; filename=websocketd-0.2.11-linux_amd64.zip&response-content-type=application%2Foctet-stream: File name too long
+63875c5e-1f40-11e5-99a8-0b1fe18398f0.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAEXAMPLE000000000%2F20151223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20151223T152032Z&X-Amz-Expires=300&X-Amz-Signature=1179f41ae8c1314930cb3d65c4af61428363f89dbf7808ca0bcd75086a3d6b9b&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment; filename=websocketd-0.2.11-linux_amd64.zip&response-content-type=application%2Foctet-stream: File name too long
 [Reply](https://www.tecmint.com/install-web-vmstat-in-linux/#comment-727542)
   3. ![](https://secure.gravatar.com/avatar/1fe676894b62702201d8dfc94e891bd6f885032bda37e0249767f805bdc8778b?s=50&d=blank&r=g)
 Mike

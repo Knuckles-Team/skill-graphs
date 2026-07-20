@@ -22,7 +22,5 @@ certificate.pem
 
 private-key.pem
 ```
------BEGIN PRIVATE KEY-----
-<Private key body will be here>
------END PRIVATE KEY-----
+<REDACTED_PRIVATE_KEY>
 ```

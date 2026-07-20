@@ -67,7 +67,7 @@ def validate_managed(d: Path, fm: dict, md_files: list[Path]) -> list[str]:
     try:
         data = json.loads((d / "sources.json").read_text(encoding="utf-8"))
     except (ValueError, OSError) as exc:
-        return errors + [f"{d.name}: sources.json unreadable: {exc}"]
+        return errors + [f"{d.name}: sources.json unreadable: {type(exc).__name__}"]
     if data.get("schema") != SOURCES_SCHEMA:
         errors.append(f"{d.name}: sources.json schema '{data.get('schema')}' != {SOURCES_SCHEMA}")
     for src in data.get("sources", []):
@@ -94,7 +94,7 @@ def validate_index_paths(d: Path) -> list[str]:
     try:
         data = json.loads((d / "index.json").read_text(encoding="utf-8"))
     except (ValueError, OSError) as exc:
-        return [f"{d.name}: index.json unreadable: {exc}"]
+        return [f"{d.name}: index.json unreadable: {type(exc).__name__}"]
     for section in data.get("sections", []):
         path = section.get("path")
         if not path or not (d / path).is_file():
@@ -108,7 +108,7 @@ def validate_sources_paths_and_sha(d: Path) -> list[str]:
     try:
         data = json.loads((d / "sources.json").read_text(encoding="utf-8"))
     except (ValueError, OSError) as exc:
-        return [f"{d.name}: sources.json unreadable: {exc}"]
+        return [f"{d.name}: sources.json unreadable: {type(exc).__name__}"]
     for entry in data.get("files", []):
         path = entry.get("path")
         full = d / path if path else None
@@ -157,7 +157,7 @@ def main() -> int:
     if errors:
         print("\n❌ Skill-graph contract violations:")
         for i, e in enumerate(errors, 1):
-            print(f"  [{i}] {e}")
+            print(f"  [{i}] {type(e).__name__}")
         return 1
     print("✅ All managed skill-graphs conform to the unified contract.")
     return 0

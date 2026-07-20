@@ -30,9 +30,7 @@ If you are going to require validation of the other side of the connection’s c
 ### Combined key and certificate[¶](https://docs.python.org/3/library/ssl.html#combined-key-and-certificate "Link to this heading")
 Often the private key is stored in the same file as the certificate; in this case, only the `certfile` parameter to [`SSLContext.load_cert_chain()`](https://docs.python.org/3/library/ssl.html#ssl.SSLContext.load_cert_chain "ssl.SSLContext.load_cert_chain") needs to be passed. If the private key is stored with the certificate, it should come before the first certificate in the certificate chain:
 Copy```
------BEGIN RSA PRIVATE KEY-----
-... (private key in base64 encoding) ...
------END RSA PRIVATE KEY-----
+<REDACTED_PRIVATE_KEY>
 -----BEGIN CERTIFICATE-----
 ... (certificate in base64 PEM encoding) ...
 -----END CERTIFICATE-----

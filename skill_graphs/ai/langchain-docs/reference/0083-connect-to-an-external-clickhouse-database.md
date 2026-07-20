@@ -235,9 +235,7 @@ If your ClickHouse server requires client certificate authentication:
       <CLIENT_CERT>
       -----END CERTIFICATE-----
     tls.key: |
-      -----BEGIN PRIVATE KEY-----
-      <CLIENT_KEY>
-      -----END PRIVATE KEY-----
+      <REDACTED_PRIVATE_KEY>
   ```
 </CodeGroup>
 
@@ -457,9 +455,7 @@ If your PostgreSQL server requires client certificate authentication:
       <CLIENT_CERT>
       -----END CERTIFICATE-----
     tls.key: |
-      -----BEGIN PRIVATE KEY-----
-      <CLIENT_KEY>
-      -----END PRIVATE KEY-----
+      <REDACTED_PRIVATE_KEY>
   ```
 </CodeGroup>
 

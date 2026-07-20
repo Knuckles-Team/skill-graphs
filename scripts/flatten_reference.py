@@ -11,7 +11,7 @@ This migration is idempotent: for every skill-graph directory (identified by
 a ``SKILL.md``) that has a ``reference/`` folder, every file currently nested
 under ``reference/**`` is renamed to a flat ``reference/<hash>.md`` (original
 extension preserved), where ``hash`` is the first 8 hex chars of the
-sha1 of the file's path *relative to* ``reference/`` — extended to 12 then 16
+sha256 of the file's path *relative to* ``reference/`` — extended to 12 then 16
 chars on collision. Now-empty subdirectories under ``reference/`` are removed.
 
 If the graph carries ``index.json`` (schema ``skill-graph-index/v1``) and/or
@@ -50,7 +50,7 @@ def sanitize(name: str) -> str:
 
 def flat_name_for(rel_posix: str, suffix: str, used: set[str]) -> str:
     """Compute a unique flat ``<hash><suffix>`` name for a reference-relative path."""
-    digest = hashlib.sha1(rel_posix.encode("utf-8")).hexdigest()
+    digest = hashlib.sha256(rel_posix.encode("utf-8")).hexdigest()
     for n in _HASH_LENGTHS:
         candidate = f"{digest[:n]}{suffix}"
         if candidate not in used:
@@ -80,7 +80,9 @@ def flatten_graph(graph_dir: Path) -> tuple[int, int]:
     # nested at least one subdir deep). Leave them untouched — this keeps the
     # migration idempotent (a second run finds nothing left to flatten) and
     # keeps existing, human-readable flat filenames stable.
-    used_names: set[str] = {p.name for p in old_files if len(p.relative_to(ref).parts) == 1}
+    used_names: set[str] = {
+        p.name for p in old_files if len(p.relative_to(ref).parts) == 1
+    }
     # old reference-relative posix path -> new reference-relative posix path
     mapping: dict[str, str] = {}
     plan: list[tuple[Path, Path]] = []
@@ -101,7 +103,7 @@ def flatten_graph(graph_dir: Path) -> tuple[int, int]:
                 new_name = flat_name_for(rel_posix, p.suffix, used_names)
                 collisions_extended += 1
         else:
-            digest8 = hashlib.sha1(rel_posix.encode()).hexdigest()[:8]
+            digest8 = hashlib.sha256(rel_posix.encode()).hexdigest()[:8]
             new_name = flat_name_for(rel_posix, p.suffix, used_names)
             if new_name != f"{digest8}{p.suffix}":
                 collisions_extended += 1
@@ -121,7 +123,8 @@ def flatten_graph(graph_dir: Path) -> tuple[int, int]:
 
     # Stage moves through a temp dir so a flat target name can never collide
     # with a not-yet-moved nested file/dir still occupying that name.
-    staging = ref / f"__flatten_staging__{hashlib.sha1(str(ref).encode()).hexdigest()[:8]}"
+    staging_digest = hashlib.sha256(str(ref).encode()).hexdigest()[:8]
+    staging = ref / f"__flatten_staging__{staging_digest}"
     staging.mkdir(exist_ok=True)
     staged: list[tuple[Path, Path]] = []
     for src, dst in plan:
@@ -133,7 +136,11 @@ def flatten_graph(graph_dir: Path) -> tuple[int, int]:
     staging.rmdir()
 
     # Remove now-empty subdirectories under reference/.
-    for d in sorted((p for p in ref.rglob("*") if p.is_dir()), key=lambda p: len(p.parts), reverse=True):
+    for d in sorted(
+        (p for p in ref.rglob("*") if p.is_dir()),
+        key=lambda p: len(p.parts),
+        reverse=True,
+    ):
         try:
             d.rmdir()
         except OSError:
@@ -161,7 +168,7 @@ def _remap_path(old_path: str, mapping: dict[str, str]) -> str:
     prefix = "reference/"
     if not old_path.startswith(prefix):
         return old_path
-    old_rel = old_path[len(prefix):]
+    old_rel = old_path[len(prefix) :]
     new_rel = mapping.get(old_rel)
     if new_rel is None:
         # Path was already flat and unaffected (not in mapping because it
@@ -212,10 +219,15 @@ def main() -> int:
             total_moved += moved
             total_collisions += collisions
             rel = graph_dir.relative_to(ROOT)
-            print(f"  {rel}: flattened {moved} file(s)" + (f", {collisions} hash-extended" if collisions else ""))
+            print(
+                f"  {rel}: flattened {moved} file(s)"
+                + (f", {collisions} hash-extended" if collisions else "")
+            )
 
-    print(f"\nflatten_reference: {graphs_touched} graph(s) touched, {total_moved} file(s) moved, "
-          f"{total_collisions} collision(s) extended")
+    print(
+        f"\nflatten_reference: {graphs_touched} graph(s) touched, {total_moved} file(s) moved, "
+        f"{total_collisions} collision(s) extended"
+    )
     return 0
 
 

@@ -26,7 +26,7 @@ stack_file: |
       environment:
         - DEFAULT_AGENT_NAME=Emerald Exchange
         - AGENT_DESCRIPTION=Unified Finance MCP
-        - LLM_BASE_URL=${LLM_BASE_URL:-http://vllm.arpa/v1}
+        - LLM_BASE_URL=${LLM_BASE_URL:?configure LLM_BASE_URL}
       volumes:
         - config:/root/.config/agent-utilities
         - secrets:/root/.config/agent-utilities/secrets

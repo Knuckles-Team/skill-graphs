@@ -11,7 +11,7 @@
   "sources": [
     {
       "kind": "dir",
-      "uri": "/home/apps/worktrees/skill-graphs/sg-delta/skill_graphs/quant-career-docs/reference",
+      "uri": "${AGENT_WORKTREE_ROOT}/skill-graphs/sg-delta/skill_graphs/quant-career-docs/reference",
       "options": {},
       "extractor": "filesystem",
       "fetched_at": "2026-06-16T05:06:21Z",

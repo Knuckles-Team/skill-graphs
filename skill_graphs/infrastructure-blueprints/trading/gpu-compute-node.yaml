@@ -25,7 +25,7 @@ stack_file: |
         - "9010:9000"
       environment:
         - DEFAULT_AGENT_NAME=Data Science GPU
-        - LLM_BASE_URL=${LLM_BASE_URL:-http://vllm.arpa/v1}
+        - LLM_BASE_URL=${LLM_BASE_URL:?configure LLM_BASE_URL}
         - NVIDIA_VISIBLE_DEVICES=all
       volumes:
         - ds-models:/app/models

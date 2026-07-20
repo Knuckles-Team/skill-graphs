@@ -2,9 +2,7 @@
 client_cert_data = """-----BEGIN CERTIFICATE-----
 MIICertificateDataHere...
 -----END CERTIFICATE-----"""
-client_key_data = """-----BEGIN PRIVATE KEY-----
-MIIPrivateKeyDataHere...
------END PRIVATE KEY-----"""
+client_key_data = """<REDACTED_PRIVATE_KEY>"""
 ```
 
 The [`temporal cloud login`](/cli/cloud#interactive-login) command also writes to this file. When you run `temporal cloud login --profile prod`, the OAuth token is stored in the specified profile automatically. Subsequent commands that use that profile read the token from the TOML file to authenticate with Temporal Cloud.

@@ -4,8 +4,15 @@ import re
 import pytest
 
 # Paths
-ROOT_DIR = "/home/apps/workspace/agent-packages/skills/skill-graphs"
-WORKSPACE_DIR = "/home/apps/workspace/agent-packages"
+WORKSPACE_ROOT = os.path.abspath(
+    os.path.expanduser(os.environ.get("AGENT_UTILITIES_WORKSPACE_ROOT", os.getcwd()))
+)
+WORKSPACE_DIR = os.path.abspath(
+    os.path.expanduser(
+        os.environ.get("AGENT_PACKAGES_ROOT", os.path.join(WORKSPACE_ROOT, "agent-packages"))
+    )
+)
+ROOT_DIR = os.path.join(WORKSPACE_DIR, "skills", "skill-graphs")
 MASTER_OVERVIEW_PATH = os.path.join(
     WORKSPACE_DIR, "agent-utilities", "docs", "overview.md"
 )
