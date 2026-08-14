@@ -135,7 +135,7 @@ wheels = [
 
 [[package]]
 name = "skill-graphs"
-version = "1.1.0"
+version = "2.0.0"
 source = { editable = "." }
 
 [package.optional-dependencies]
@@ -149,11 +149,11 @@ test = [
 
 [package.metadata]
 requires-dist = [
-    { name = "build", marker = "extra == 'test'" },
-    { name = "pytest", marker = "extra == 'test'" },
-    { name = "pytest-asyncio", marker = "extra == 'test'" },
-    { name = "pytest-timeout", marker = "extra == 'test'" },
-    { name = "pytest-xdist", marker = "extra == 'test'", specifier = ">=3.6.0" },
+    { name = "build", marker = "extra == 'test'", specifier = ">=1.5.0" },
+    { name = "pytest", marker = "extra == 'test'", specifier = ">=9.1.1" },
+    { name = "pytest-asyncio", marker = "extra == 'test'", specifier = ">=1.4.0" },
+    { name = "pytest-timeout", marker = "extra == 'test'", specifier = ">=2.4.0" },
+    { name = "pytest-xdist", marker = "extra == 'test'", specifier = ">=3.8.0" },
 ]
 provides-extras = ["test"]
 
