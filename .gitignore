@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# uv workspace-siblings local editable-path symlinks (agent-webui, geniusbot
+# already ignore this; skill-graphs was missing the entry, showing up as an
+# untracked dir every session)
+.uv-workspace-siblings/
