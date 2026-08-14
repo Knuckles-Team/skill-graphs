@@ -24,6 +24,9 @@ test = [
 name = "Agent Utilities Contributors"
 email = "maintainers@example.com"
 
+[tool.uv.workspace]
+members = ["."]
+
 [tool.setuptools]
 include-package-data = true
 
