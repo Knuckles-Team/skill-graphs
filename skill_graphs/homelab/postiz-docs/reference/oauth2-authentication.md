@@ -194,7 +194,7 @@ const crypto = require('crypto');
 const app = express();
 
 const CLIENT_ID = 'pca_your_client_id';
-const CLIENT_SECRET = 'pcs_your_client_secret';
+const CLIENT_SECRET = 'pcs_your_client_secret';  # sanitizer:ignore - vendored Postiz doc placeholder, not a real credential
 const POSTIZ_URL = 'https://platform.postiz.com';
 const BACKEND_URL = 'https://api.postiz.com';
 const REDIRECT_URL = 'https://yourapp.com/callback';

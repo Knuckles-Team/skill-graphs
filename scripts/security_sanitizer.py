@@ -244,6 +244,12 @@ def scan_repository(repo_path: Path):
             lines = content.splitlines()
 
             for idx, line in enumerate(lines, 1):
+                # A per-line escape hatch for a documented false positive (a
+                # vendored doc's own example/placeholder value) — the same
+                # role ``# noqa`` plays for lint findings. Forces a reason to
+                # live at the flagged line rather than a blanket ignore file.
+                if "sanitizer:ignore" in line:
+                    continue
                 for label, pattern in SECRET_PATTERNS:
                     for match in pattern.findall(line):
                         match_str = match[0] if isinstance(match, tuple) else match
