@@ -1,0 +1,131 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "material-ui-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-08T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://mui.com/material-ui/getting-started/",
+      "options": {
+        "crawl_depth": 2
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-08T00:00:00Z",
+      "doc_count": 21
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/design-resources.md",
+      "sha256": "sha256:0bcb83324c476769d2101027e0cb0c6de32b1b3b10acfc7f8f99307a93c045ea",
+      "bytes": 4440
+    },
+    {
+      "path": "reference/example-projects.md",
+      "sha256": "sha256:a2719e7211078608d7117c1be6cebec097cf1bd3895c7d910a1c9bc29ebe1d9f",
+      "bytes": 4588
+    },
+    {
+      "path": "reference/faq.md",
+      "sha256": "sha256:2079d0482ef49ca204a1ab321ee36875ce5605cff698804da17062a37c0ddd68",
+      "bytes": 26445
+    },
+    {
+      "path": "reference/installation.md",
+      "sha256": "sha256:99692370b2e9416f8106d8d1f1524b577e6e63598d76f1f69c2f5aba35cd956d",
+      "bytes": 7978
+    },
+    {
+      "path": "reference/learn.md",
+      "sha256": "sha256:bdb35d7e7b54a614ef3cec97f3edd425119a7a7bfc9c0de34af5c3bd0c51b3e7",
+      "bytes": 4748
+    },
+    {
+      "path": "reference/material-ui_all-components.md",
+      "sha256": "sha256:405266e3006dfe52cdd0ff1704468f15db1737a4b531731a8842db7462ad8554",
+      "bytes": 15220
+    },
+    {
+      "path": "reference/material-ui_api_accordion.md",
+      "sha256": "sha256:2fa1c9d6f7b517169be509d5a71ee9acc83665b9f3d82fb376e5b788bc5f717f",
+      "bytes": 18756
+    },
+    {
+      "path": "reference/material-ui_customization_how-to-customize.md",
+      "sha256": "sha256:8daef446508b635536f854bd2571eeb03c521634906239282b8cf769a9de36a8",
+      "bytes": 17381
+    },
+    {
+      "path": "reference/material-ui_discover-more_backers.md",
+      "sha256": "sha256:aa1fa1c1e72eebf7401d5d28297a8165bb44c200491219dcd71bf9d1661dd163",
+      "bytes": 9526
+    },
+    {
+      "path": "reference/material-ui_discover-more_showcase.md",
+      "sha256": "sha256:5d070309c97f5591556697dd053b03fc6bb98a5e3525709f8ec646d24c511d66",
+      "bytes": 4226
+    },
+    {
+      "path": "reference/material-ui_experimental-api_classname-generator.md",
+      "sha256": "sha256:0a9f2911f0605532becf630a94ba68a412985110409255acd0d1f3cad256318c",
+      "bytes": 8868
+    },
+    {
+      "path": "reference/material-ui_getting-started.md",
+      "sha256": "sha256:3db7cbfd8916d5c4469d4abc05f251bafae5e06759a0c2623e73e75cf37089d3",
+      "bytes": 8005
+    },
+    {
+      "path": "reference/material-ui_guides_building-extensible-themes.md",
+      "sha256": "sha256:3dc082e16451163d8cce69930b83bde18a41e66a3754b252f95d79d4cf98cf7c",
+      "bytes": 16543
+    },
+    {
+      "path": "reference/material-ui_integrations_tailwindcss_tailwindcss-v4.md",
+      "sha256": "sha256:1c540ebd5f88705069bb619dd74946077b1bf411a9ec52887918c189f141d970",
+      "bytes": 23262
+    },
+    {
+      "path": "reference/material-ui_llms.txt.md",
+      "sha256": "sha256:81bce54d35cd2de4a01fdc7d7b71b774cd42b8bc8d3ee941d3bed9a352ede8e3",
+      "bytes": 21199
+    },
+    {
+      "path": "reference/mcp.md",
+      "sha256": "sha256:1f24a8a586f7e833ae8679f9ff3742da199c40c0f4d35a972b6e69dea4155090",
+      "bytes": 9733
+    },
+    {
+      "path": "reference/support.md",
+      "sha256": "sha256:94c5c37bab01623c80416455bf62f016f1c2182af1d6cdfc3231458a380cc143",
+      "bytes": 9134
+    },
+    {
+      "path": "reference/supported-components.md",
+      "sha256": "sha256:5d3ffd021aa54d25d01524a15ac758d9d2f65461ff1320c456f97549059913ea",
+      "bytes": 7150
+    },
+    {
+      "path": "reference/supported-platforms.md",
+      "sha256": "sha256:cf0d249a48653f60372999d4e47fdbfc47bea2b06fdc26e3444824cef3103355",
+      "bytes": 4105
+    },
+    {
+      "path": "reference/templates.md",
+      "sha256": "sha256:cec7793c645f53e0daecc7a27e1aa755fbbf15dd1e355a56b75f3cf14b576aaf",
+      "bytes": 18272
+    },
+    {
+      "path": "reference/usage.md",
+      "sha256": "sha256:3525cdbde5c8c087d399a1ac9b7270d90add3466d7764b9cb96aef5ed2c321bf",
+      "bytes": 5110
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "java-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-08T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://dev.java/learn/",
+      "options": {
+        "crawl_depth": 2
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-08T00:00:00Z",
+      "doc_count": 51
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/annotations.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/api_streams.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/classes-objects.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/date-time.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/debugging.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/eclipse.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/exceptions.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/faq.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/ffm.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/generics.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/getting-started.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/inheritance.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/interfaces.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/introduction_to_java_reflection.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/introduction_to_method_handles.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/java-cert-overview.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/java-io.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/javafx-animations.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/javafx.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/javafx_install.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/jlink.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/jvm_cds-appcds.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/jvm_complementary.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/jvm_jfr.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/jvm_tool_garbage-collection.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/jvm_tool_jpackage.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/jvm_tool_jwebserver.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/jvm_tool_security.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/jvm_tool_troubleshooting.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/jvm_tools_core.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/jvm_tools_monitoring.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/lambdas.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/language-basics.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/launch-simple-source-code-programs.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/learn.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/modernio.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/modules.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/new-features_using-preview.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/new-features_virtual-threads.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/numbers-strings.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/oop.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/ou.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/packages.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/pattern-matching.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/records.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/refactoring-to-functional-style.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/reflection.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/regex.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/security.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/vscode-java.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    },
+    {
+      "path": "reference/watchlisten.md",
+      "sha256": "sha256:b7d9211e778e4c20e7e7e74bf6a59756ed9babe999793784bd005877bc17bba2",
+      "bytes": 9808
+    }
+  ]
+}

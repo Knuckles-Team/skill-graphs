@@ -1,0 +1,106 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "home-assistant-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-29T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://developers.home-assistant.io/docs/api/rest/",
+      "options": {
+        "crawl_depth": 2
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-29T00:00:00Z",
+      "doc_count": 16
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/11c5e07b.md",
+      "sha256": "sha256:7ddea5ed2aa0a1b5ff2f4f7c998f6278b07aefed1ffe33975fefade3a3d0ad2b",
+      "bytes": 24727
+    },
+    {
+      "path": "reference/3288ec3b.md",
+      "sha256": "sha256:b4431d862fbb6770d4229132eed2076b514bdbb12ccd473bae362fc3efb3f630",
+      "bytes": 24891
+    },
+    {
+      "path": "reference/58427fa0.md",
+      "sha256": "sha256:d9567d02b7158eb4470dda25d14b99a2c0b5c0d68309ec89d19b14315eb15386",
+      "bytes": 24687
+    },
+    {
+      "path": "reference/601bffcb.md",
+      "sha256": "sha256:fa6977df6f98422f8d10c9f3d5205b4bc4ae9d62e27fdb6888df2bc90604e4c4",
+      "bytes": 1766
+    },
+    {
+      "path": "reference/827028cf.md",
+      "sha256": "sha256:d66c0e12acf147ede146b637bfa89b259055fb6464ed2c154be9d24f6fb64702",
+      "bytes": 107
+    },
+    {
+      "path": "reference/d817f5c9.md",
+      "sha256": "sha256:6f51e7bb805a86958eb4a475d893d3b6e10cf8dff961adbe80cfdc1b4d550604",
+      "bytes": 17004
+    },
+    {
+      "path": "reference/native-app-integration.md",
+      "sha256": "sha256:617f93e379ca86e88779440a0722fb629905889da529012ab948c4defe57ba7a",
+      "bytes": 5730
+    },
+    {
+      "path": "reference/native-app-integration_notifications.md",
+      "sha256": "sha256:c0eb59c024cb0bbaaf323d61d93138fc321be8d6bac20300e783815a76e8f6a2",
+      "bytes": 17385
+    },
+    {
+      "path": "reference/native-app-integration_sending-data.md",
+      "sha256": "sha256:3271a85bc8039f012dcfc922b5428700970e903a8c0f0ea80be9c936eab632e4",
+      "bytes": 21746
+    },
+    {
+      "path": "reference/native-app-integration_sensors.md",
+      "sha256": "sha256:7dee47420d15990967ad5fbc5544b360e14924584b23bda05d15172e100d698c",
+      "bytes": 11429
+    },
+    {
+      "path": "reference/native-app-integration_setup.md",
+      "sha256": "sha256:2a1c28ae52c9c924791db0c9c6a95afbeb645b7262d282c5ab308e0e8ac3d5d2",
+      "bytes": 11452
+    },
+    {
+      "path": "reference/native-app-integration_webview.md",
+      "sha256": "sha256:6685369310050fe4aa5ef2432e6ccba5033d0633064d64a2e7cd0613b7e5ebd1",
+      "bytes": 2061
+    },
+    {
+      "path": "reference/rest.md",
+      "sha256": "sha256:75c45ded04b46fbd97c0409ac3065e8b560998eb28c19ab49e07e291892c5fec",
+      "bytes": 25937
+    },
+    {
+      "path": "reference/supervisor_examples.md",
+      "sha256": "sha256:ca8ddd980c72a14793c413d7411c6f436eb763d8351e560cdb76da020153cb4a",
+      "bytes": 2487
+    },
+    {
+      "path": "reference/supervisor_models.md",
+      "sha256": "sha256:ba42f4f13d77c8b700781e500dfd8aa1e48191b3b5fd730b0b7d13b9eac8e14d",
+      "bytes": 23950
+    },
+    {
+      "path": "reference/websocket.md",
+      "sha256": "sha256:b27c81fdb5662b2cdad1b26d49560eaa284e93163258e857ede111e5acd73b0b",
+      "bytes": 35348
+    }
+  ]
+}

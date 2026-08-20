@@ -1,0 +1,341 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "matplotlib-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-08T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://matplotlib.org/stable/contents.html",
+      "options": {
+        "crawl_depth": 2
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-08T00:00:00Z",
+      "doc_count": 63
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/animations_animations.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/animations_blitting.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/animations_index.html.md",
+      "sha256": "sha256:e08e89389ebbad6f07ab49e1f5feae2f47a79c039dd5f57b97a92b209a2b36c8",
+      "bytes": 8268
+    },
+    {
+      "path": "reference/artists_artist_intro.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/artists_color_cycle.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/artists_imshow_extent.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/artists_index.html.md",
+      "sha256": "sha256:e513ebdf743317fa9e3b45cf71d82b3255ff740efc452e27de22965cd7ca8468",
+      "bytes": 9114
+    },
+    {
+      "path": "reference/artists_patheffects_guide.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/artists_paths.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/artists_performance.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/artists_transforms_tutorial.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/axes_arranging_axes.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/axes_autoscale.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/axes_axes_scales.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/axes_axes_ticks.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/axes_axes_units.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/axes_colorbar_placement.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/axes_constrainedlayout_guide.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/axes_index.html.md",
+      "sha256": "sha256:b2ef5f07be98903f0de68280d5dd799cc906344d7c76bffd7108e98149aec710",
+      "bytes": 14421
+    },
+    {
+      "path": "reference/axes_legend_guide.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/axes_mosaic.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/axes_tight_layout_guide.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/colors_colorbar_only.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/colors_colormap-manipulation.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/colors_colormapnorms.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/colors_colormaps.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/colors_colors.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/colors_index.html.md",
+      "sha256": "sha256:939ceb8ec83a492a7ddebbf2708d15bcb0e6d2c45e3c92b6a1a030e0655952e8",
+      "bytes": 8566
+    },
+    {
+      "path": "reference/customizing.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/figure_api_interfaces.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/figure_backends.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/figure_event_handling.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/figure_figure_intro.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/figure_index.html.md",
+      "sha256": "sha256:b3233f5a09619c0646ab183b95bc393ed37ebd7ff84f5526b5296db04bb3c6bd",
+      "bytes": 10106
+    },
+    {
+      "path": "reference/figure_interactive.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/figure_interactive_guide.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/figure_writing_a_backend_pyplot_interface.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/quick_start.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/stable_api_index.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/stable_contents.html.md",
+      "sha256": "sha256:d773daf0c5d7acefa2c0b84569d5a70173ea64cd6bc774c5f91e01578bab03f3",
+      "bytes": 15310
+    },
+    {
+      "path": "reference/stable_devel_index.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/stable_gallery_index.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/stable_index.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/stable_install_dependencies.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/stable_install_environment_variables_faq.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/stable_install_index.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/stable_plot_types_index.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/stable_tutorials_index.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/stable_users_faq.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/stable_users_getting_started_index.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/stable_users_release_notes.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/text_annotations.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/text_fonts.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/text_index.html.md",
+      "sha256": "sha256:e17931b1d6ef380bf4e4850d60af7c34d851c4af36509b2f079a2145e5ab2ac0",
+      "bytes": 8933
+    },
+    {
+      "path": "reference/text_mathtext.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/text_pgf.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/text_text_intro.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/text_text_props.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/text_usetex.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/toolkits_axes_grid.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/toolkits_axisartist.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    },
+    {
+      "path": "reference/toolkits_index.html.md",
+      "sha256": "sha256:c4801939bdc9ccd9430d47d91ada62afdc47a35e6a7e98462c0c98d499f9828e",
+      "bytes": 7626
+    },
+    {
+      "path": "reference/toolkits_mplot3d.html.md",
+      "sha256": "sha256:8ed9676692d601a88cdbe751e18b10d1b30ffecfb2f85034ff551b8bbacc9630",
+      "bytes": 8447
+    }
+  ]
+}

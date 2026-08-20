@@ -1,0 +1,206 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "owncast-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-29T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://owncast.online/docs/api/",
+      "options": {
+        "crawl_depth": 3
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-29T00:00:00Z",
+      "doc_count": 36
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/api.md",
+      "sha256": "sha256:4e4039cc3bc585845d07c0836c9dad55ed697ba72886f721a55e4a4868f8e23e",
+      "bytes": 4667
+    },
+    {
+      "path": "reference/appearance.md",
+      "sha256": "sha256:d819f538be9cac4e4bd54642baeb05ba10f1510f43a809e2162b7f9067482e03",
+      "bytes": 1828
+    },
+    {
+      "path": "reference/backups.md",
+      "sha256": "sha256:d819f538be9cac4e4bd54642baeb05ba10f1510f43a809e2162b7f9067482e03",
+      "bytes": 1828
+    },
+    {
+      "path": "reference/broadcasting.md",
+      "sha256": "sha256:b50cd1cfc9c49334d9b285de886b76874ad3f3e010099c69f81c776dcebef70b",
+      "bytes": 7884
+    },
+    {
+      "path": "reference/broadcasting_ffmpeg.md",
+      "sha256": "sha256:d297004cd8be62d7bb3a73219a37c56440424dc1da272c2c8cb8468896741798",
+      "bytes": 1164
+    },
+    {
+      "path": "reference/broadcasting_hardware.md",
+      "sha256": "sha256:7715c60156ab1aefbf2fda5227221480b568a41db2ba79cffe6496679a1e8e54",
+      "bytes": 741
+    },
+    {
+      "path": "reference/broadcasting_jitsi.md",
+      "sha256": "sha256:47b7c0cc8129d0a1754e385a6d5f04a935046c27ec777672787dd383cf1d2d11",
+      "bytes": 1109
+    },
+    {
+      "path": "reference/broadcasting_obs.md",
+      "sha256": "sha256:7d5aa31b11bd45f2d009ef7aef8d15f7f9874e9a8c21f42362cf4512ff50eff2",
+      "bytes": 1211
+    },
+    {
+      "path": "reference/broadcasting_restream.md",
+      "sha256": "sha256:aa51ee4cb8c17082c1560c9394d622bf77c6e51fbb66bddb100804514c82710f",
+      "bytes": 953
+    },
+    {
+      "path": "reference/broadcasting_zoom.md",
+      "sha256": "sha256:977ebb9af968d1f587809d60d8e6e4fe11e1960ce07a72fa165099fd0b3bdbdb",
+      "bytes": 2643
+    },
+    {
+      "path": "reference/cdns.md",
+      "sha256": "sha256:d819f538be9cac4e4bd54642baeb05ba10f1510f43a809e2162b7f9067482e03",
+      "bytes": 1828
+    },
+    {
+      "path": "reference/chat_chat-authentication.md",
+      "sha256": "sha256:d819f538be9cac4e4bd54642baeb05ba10f1510f43a809e2162b7f9067482e03",
+      "bytes": 1828
+    },
+    {
+      "path": "reference/chat_emoji.md",
+      "sha256": "sha256:d819f538be9cac4e4bd54642baeb05ba10f1510f43a809e2162b7f9067482e03",
+      "bytes": 1828
+    },
+    {
+      "path": "reference/chat_moderation.md",
+      "sha256": "sha256:d819f538be9cac4e4bd54642baeb05ba10f1510f43a809e2162b7f9067482e03",
+      "bytes": 1828
+    },
+    {
+      "path": "reference/codecs.md",
+      "sha256": "sha256:d819f538be9cac4e4bd54642baeb05ba10f1510f43a809e2162b7f9067482e03",
+      "bytes": 1828
+    },
+    {
+      "path": "reference/configuration.md",
+      "sha256": "sha256:d88c32c92158d4f052074f063ea4b89d847ff77b3b20f82691f7e24fbb95c72f",
+      "bytes": 6213
+    },
+    {
+      "path": "reference/custom-assets.md",
+      "sha256": "sha256:d819f538be9cac4e4bd54642baeb05ba10f1510f43a809e2162b7f9067482e03",
+      "bytes": 1828
+    },
+    {
+      "path": "reference/custom-javascript.md",
+      "sha256": "sha256:d819f538be9cac4e4bd54642baeb05ba10f1510f43a809e2162b7f9067482e03",
+      "bytes": 1828
+    },
+    {
+      "path": "reference/directory.md",
+      "sha256": "sha256:42ac7e0b37e99c445d9c0cd4424083d427af4a646362e1d8511a1d33decd35e6",
+      "bytes": 3721
+    },
+    {
+      "path": "reference/encoding.md",
+      "sha256": "sha256:46092218dc46ab76223c1be605065b2f4592a21f4d9890891a7868ba125dc8e9",
+      "bytes": 17752
+    },
+    {
+      "path": "reference/metrics.md",
+      "sha256": "sha256:d819f538be9cac4e4bd54642baeb05ba10f1510f43a809e2162b7f9067482e03",
+      "bytes": 1828
+    },
+    {
+      "path": "reference/notifications.md",
+      "sha256": "sha256:10e6c69ec6ad27981b2b20dc9d4953d3cf5284e9034a54da024b09dfe7f2c197",
+      "bytes": 4718
+    },
+    {
+      "path": "reference/resources-requirements.md",
+      "sha256": "sha256:85b93fad65b627f2ef7de3bc10ce7c03faec05957ea16cce351293d450c8dabc",
+      "bytes": 15230
+    },
+    {
+      "path": "reference/scaling.md",
+      "sha256": "sha256:de5cc28bf1de407db24f7da47d50874c0c7b271edd5ec866f201505456eed20e",
+      "bytes": 6627
+    },
+    {
+      "path": "reference/social.md",
+      "sha256": "sha256:bcbc8667831b161e196623303f727e526c157973290f688c8b4ecec0a0df0322",
+      "bytes": 8820
+    },
+    {
+      "path": "reference/sslproxies.md",
+      "sha256": "sha256:6a85746be2ebd6e39aca776d2c46708250d123ee7056de5bab70675a61c9318e",
+      "bytes": 4260
+    },
+    {
+      "path": "reference/sslproxies_apache.md",
+      "sha256": "sha256:6ebeb07e4d3a7c3ad539180a7fcca9bb2f50ce61307c85046d314dfcf587c3a6",
+      "bytes": 1491
+    },
+    {
+      "path": "reference/sslproxies_caddy.md",
+      "sha256": "sha256:3711520b15f3c9005ad3481629fcc8d54fcf1983bbec3e8931a1ee565b3adb34",
+      "bytes": 4086
+    },
+    {
+      "path": "reference/sslproxies_haproxy.md",
+      "sha256": "sha256:8f930f8b7d774da58a7c35c32fd810b76331a3480302ad860ca81de4c0a61b25",
+      "bytes": 2409
+    },
+    {
+      "path": "reference/sslproxies_lighttpd.md",
+      "sha256": "sha256:f2043dbe6ff11073636f51dcbd8e65afe4c6c8877f85ac99706faf900b083b88",
+      "bytes": 2448
+    },
+    {
+      "path": "reference/sslproxies_nginx.md",
+      "sha256": "sha256:db7a556f5d7c57756c0c85dfe63236ac32314e4cc2fc49caaf294a8fdcb38d52",
+      "bytes": 3358
+    },
+    {
+      "path": "reference/storage.md",
+      "sha256": "sha256:c80785085cfa5911970a58d061d5302f905ca7cb17e859fbcd5998eb111694a4",
+      "bytes": 882
+    },
+    {
+      "path": "reference/stream-keys.md",
+      "sha256": "sha256:786caf6106b11ae4c7b5a2b6bf26bf9d93137a8d78bc2a6f2b987b5ce392dc26",
+      "bytes": 2400
+    },
+    {
+      "path": "reference/systemservice.md",
+      "sha256": "sha256:f359f1de6e76aebeed5351cef84aed396cb2cea4f238ece311568e482d708554",
+      "bytes": 3615
+    },
+    {
+      "path": "reference/video.md",
+      "sha256": "sha256:46092218dc46ab76223c1be605065b2f4592a21f4d9890891a7868ba125dc8e9",
+      "bytes": 17752
+    },
+    {
+      "path": "reference/website.md",
+      "sha256": "sha256:d2cf7ca64e763fbc4228eb1dd2ef05176394c83a3eed7ad65b24d4585c818079",
+      "bytes": 7342
+    }
+  ]
+}

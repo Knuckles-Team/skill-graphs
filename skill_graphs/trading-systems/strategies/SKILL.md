@@ -4,7 +4,7 @@ skill_type: graph
 description: Reference catalog of trading strategy patterns available in the Emerald Exchange ecosystem.
 ---
 
-# Trading Strategies Skill-Graph — CONCEPT:EE-013
+# Trading Strategies Skill-Graph — CONCEPT:AU-AHE.assimilation.trading-ecosystem-spec
 
 Reference catalog of strategy archetypes supported by the Emerald Exchange strategy lifecycle.
 
@@ -35,7 +35,7 @@ Reference catalog of strategy archetypes supported by the Emerald Exchange strat
 - **Cross-Exchange Arbitrage**: Bid-ask spread exploitation across CCXT backends
 - **DeFi Yield**: Liquidity provision optimization (requires on-chain integration)
 
-## Strategy Lifecycle — CONCEPT:EE-013
+## Strategy Lifecycle — CONCEPT:AU-AHE.assimilation.trading-ecosystem-spec
 
 ```
 draft → backtest → paper → live

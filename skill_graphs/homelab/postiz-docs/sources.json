@@ -557,8 +557,8 @@
     },
     {
       "path": "reference/oauth2-authentication.md",
-      "sha256": "sha256:a48317c90434f3070db01c32369d947910c636722cb2d7ac62cb07eca74750e7",
-      "bytes": 9604
+      "sha256": "sha256:9e6f16d070483b44d2beb0cf002ab4b4d63ad708d510fa536d7882e32422562f",
+      "bytes": 9681
     },
     {
       "path": "reference/oidc-configuration.md",

@@ -1,0 +1,176 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "huggingface-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-08T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://huggingface.co/docs",
+      "options": {
+        "crawl_depth": 2
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-08T00:00:00Z",
+      "doc_count": 30
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/bitsandbytes.md",
+      "sha256": "sha256:941749cb3727364abe71abb99ce28b0130678b54a7d6777ec5067e3e3813d89b",
+      "bytes": 4192
+    },
+    {
+      "path": "reference/chat-ui.md",
+      "sha256": "sha256:7c6da3c55e576129a10bd36f4923f03f487ed840d8928a83d81caa54f7402d0b",
+      "bytes": 1566
+    },
+    {
+      "path": "reference/datasets.md",
+      "sha256": "sha256:92b021b6d839f212c6671194a926787988295c927f10531212ceb382cb6de202",
+      "bytes": 7575
+    },
+    {
+      "path": "reference/diffusers.md",
+      "sha256": "sha256:7c6da3c55e576129a10bd36f4923f03f487ed840d8928a83d81caa54f7402d0b",
+      "bytes": 1566
+    },
+    {
+      "path": "reference/docs.md",
+      "sha256": "sha256:24c380a50b4652375f1da5165ae7cb94da55543bdd8b9425b3509179314b8552",
+      "bytes": 5082
+    },
+    {
+      "path": "reference/evaluate.md",
+      "sha256": "sha256:4d01011ab6c7b4567b354ed3b906d13180f429f2706f2a6b31ae185ee2c4f417",
+      "bytes": 9345
+    },
+    {
+      "path": "reference/google-cloud.md",
+      "sha256": "sha256:d1f7505c01c62552511dd202d4e2bc9048c3954b93edcd9e12768e8f8b4728d3",
+      "bytes": 4894
+    },
+    {
+      "path": "reference/hub.md",
+      "sha256": "sha256:7c6da3c55e576129a10bd36f4923f03f487ed840d8928a83d81caa54f7402d0b",
+      "bytes": 1566
+    },
+    {
+      "path": "reference/huggingface.js.md",
+      "sha256": "sha256:c4f220d63ded88313c193ca66461904fb079680c4956b48846b98cdd5db48e39",
+      "bytes": 18471
+    },
+    {
+      "path": "reference/huggingface_hub.md",
+      "sha256": "sha256:7c6da3c55e576129a10bd36f4923f03f487ed840d8928a83d81caa54f7402d0b",
+      "bytes": 1566
+    },
+    {
+      "path": "reference/inference-providers.md",
+      "sha256": "sha256:5bf026f7cce27ebe25148c42f92d082d7a0fc84032188c934500868de0aee363",
+      "bytes": 27655
+    },
+    {
+      "path": "reference/kernels.md",
+      "sha256": "sha256:2c279f74462ed7e610f9a1712d61706d325414593faee8c69c6b1244e73a2ff4",
+      "bytes": 3950
+    },
+    {
+      "path": "reference/lerobot.md",
+      "sha256": "sha256:fc0b6f74506edf453d7dbb9ffd41827e0961e1832f87667a12337b1e319d754d",
+      "bytes": 279
+    },
+    {
+      "path": "reference/lighteval.md",
+      "sha256": "sha256:fc0b6f74506edf453d7dbb9ffd41827e0961e1832f87667a12337b1e319d754d",
+      "bytes": 279
+    },
+    {
+      "path": "reference/microsoft-azure.md",
+      "sha256": "sha256:fc0b6f74506edf453d7dbb9ffd41827e0961e1832f87667a12337b1e319d754d",
+      "bytes": 279
+    },
+    {
+      "path": "reference/optimum-neuron.md",
+      "sha256": "sha256:fc0b6f74506edf453d7dbb9ffd41827e0961e1832f87667a12337b1e319d754d",
+      "bytes": 279
+    },
+    {
+      "path": "reference/optimum-tpu.md",
+      "sha256": "sha256:fc0b6f74506edf453d7dbb9ffd41827e0961e1832f87667a12337b1e319d754d",
+      "bytes": 279
+    },
+    {
+      "path": "reference/optimum.md",
+      "sha256": "sha256:fc0b6f74506edf453d7dbb9ffd41827e0961e1832f87667a12337b1e319d754d",
+      "bytes": 279
+    },
+    {
+      "path": "reference/peft.md",
+      "sha256": "sha256:fc0b6f74506edf453d7dbb9ffd41827e0961e1832f87667a12337b1e319d754d",
+      "bytes": 279
+    },
+    {
+      "path": "reference/reachy_mini.md",
+      "sha256": "sha256:fc0b6f74506edf453d7dbb9ffd41827e0961e1832f87667a12337b1e319d754d",
+      "bytes": 279
+    },
+    {
+      "path": "reference/safetensors.md",
+      "sha256": "sha256:fc0b6f74506edf453d7dbb9ffd41827e0961e1832f87667a12337b1e319d754d",
+      "bytes": 279
+    },
+    {
+      "path": "reference/sagemaker.md",
+      "sha256": "sha256:fc0b6f74506edf453d7dbb9ffd41827e0961e1832f87667a12337b1e319d754d",
+      "bytes": 279
+    },
+    {
+      "path": "reference/smolagents.md",
+      "sha256": "sha256:fc0b6f74506edf453d7dbb9ffd41827e0961e1832f87667a12337b1e319d754d",
+      "bytes": 279
+    },
+    {
+      "path": "reference/text-embeddings-inference.md",
+      "sha256": "sha256:fc0b6f74506edf453d7dbb9ffd41827e0961e1832f87667a12337b1e319d754d",
+      "bytes": 279
+    },
+    {
+      "path": "reference/text-generation-inference.md",
+      "sha256": "sha256:fc0b6f74506edf453d7dbb9ffd41827e0961e1832f87667a12337b1e319d754d",
+      "bytes": 279
+    },
+    {
+      "path": "reference/timm.md",
+      "sha256": "sha256:fc0b6f74506edf453d7dbb9ffd41827e0961e1832f87667a12337b1e319d754d",
+      "bytes": 279
+    },
+    {
+      "path": "reference/tokenizers.md",
+      "sha256": "sha256:fc0b6f74506edf453d7dbb9ffd41827e0961e1832f87667a12337b1e319d754d",
+      "bytes": 279
+    },
+    {
+      "path": "reference/trackio.md",
+      "sha256": "sha256:fc0b6f74506edf453d7dbb9ffd41827e0961e1832f87667a12337b1e319d754d",
+      "bytes": 279
+    },
+    {
+      "path": "reference/transformers.md",
+      "sha256": "sha256:fc0b6f74506edf453d7dbb9ffd41827e0961e1832f87667a12337b1e319d754d",
+      "bytes": 279
+    },
+    {
+      "path": "reference/trl.md",
+      "sha256": "sha256:7c6da3c55e576129a10bd36f4923f03f487ed840d8928a83d81caa54f7402d0b",
+      "bytes": 1566
+    }
+  ]
+}

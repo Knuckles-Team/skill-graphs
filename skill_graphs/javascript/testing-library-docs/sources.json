@@ -1,0 +1,86 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "testing-library-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-08T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://testing-library.com/docs/",
+      "options": {
+        "crawl_depth": 2
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-08T00:00:00Z",
+      "doc_count": 12
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/angular-testing-library_intro.md",
+      "sha256": "sha256:73924c159c7a8f333fb6c09be8af1c60fb6cc5e298927e2df79d55e0bf20b546",
+      "bytes": 6562
+    },
+    {
+      "path": "reference/cypress-testing-library_intro.md",
+      "sha256": "sha256:a3f4e5ca7854ee6ddfb6d9ffe71f78bff79582fe9d03205ae2f4ca75ba4bcfca",
+      "bytes": 5904
+    },
+    {
+      "path": "reference/docs.md",
+      "sha256": "sha256:6bf703b616959b1eba7a0ce0e18958d51b7066c8a26840f27d9fc8bd4c90e5bd",
+      "bytes": 4338
+    },
+    {
+      "path": "reference/dom-testing-library_api.md",
+      "sha256": "sha256:45f892c0f3e29512eb180f45de84bf9aa402edfa82571c17a767e4ef49051ab6",
+      "bytes": 4348
+    },
+    {
+      "path": "reference/dom-testing-library_faq.md",
+      "sha256": "sha256:206b1a50f650e95fa0c35a9948f0d8ecda59bb4dd88c5c1ed5d5b49900749687",
+      "bytes": 3517
+    },
+    {
+      "path": "reference/dom-testing-library_intro.md",
+      "sha256": "sha256:43719df8281b7ae70dd2365909c349372ae16a540033836601ee79be05c67752",
+      "bytes": 6060
+    },
+    {
+      "path": "reference/example-codesandbox.md",
+      "sha256": "sha256:aedf93e7c900cbaec2f9cb7cefeaa3a07faf0b6a9270554d5578d0ac3b4fde0b",
+      "bytes": 5535
+    },
+    {
+      "path": "reference/guiding-principles.md",
+      "sha256": "sha256:b6ad7c8a9109657ad6e8a50b6312b04f16b1e3c43ed6cacacb31154b80b66c7e",
+      "bytes": 1525
+    },
+    {
+      "path": "reference/react-native-testing-library_intro.md",
+      "sha256": "sha256:d5f607834e9824c399c39de0861c706e84dcdc9faca2fbf0ba1e7f0ed0863579",
+      "bytes": 5741
+    },
+    {
+      "path": "reference/react-testing-library_intro.md",
+      "sha256": "sha256:589158469c0f1b8cef8739c24b243fc14cacbbb60991bc3e0ce44abfbb32f324",
+      "bytes": 8634
+    },
+    {
+      "path": "reference/recipes.md",
+      "sha256": "sha256:80b0752a8ee06d7b1f21890fa49a5960ae7c93bea6bd8655e63bacab0bd8ae71",
+      "bytes": 2695
+    },
+    {
+      "path": "reference/vue-testing-library_intro.md",
+      "sha256": "sha256:736677128c9312139cd55d7e7d8e29231811012d96956f64af21d45508c9ebf4",
+      "bytes": 6664
+    }
+  ]
+}

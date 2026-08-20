@@ -4,7 +4,7 @@ skill_type: graph
 description: Risk management patterns, circuit breakers, and compliance controls for the trading ecosystem.
 ---
 
-# Risk Management Skill-Graph — CONCEPT:EE-011 / OS-5.1
+# Risk Management Skill-Graph — CONCEPT:AU-AHE.assimilation.skill-workflow-ingest / AU-OS.safety.prompt-injection-scanner
 
 Comprehensive risk management patterns enforced by the Emerald Exchange RiskGuard engine.
 
@@ -36,7 +36,7 @@ Every order passes through `RiskGuard.pre_trade_check()`:
 4. **Cash availability**: Sufficient buying power?
 5. **Live gate**: If live mode, require human approval (OS-5.1)
 
-## Regime Detection — CONCEPT:EE-012
+## Regime Detection — CONCEPT:EX-AHE.harness.ee-11
 
 ### Hidden Markov Model (HMM)
 - 3-state model: Bull, Bear, Neutral

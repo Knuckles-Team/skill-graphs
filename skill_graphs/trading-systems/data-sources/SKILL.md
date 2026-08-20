@@ -4,7 +4,7 @@ skill_type: graph
 description: Reference catalog of market data sources and ingestion patterns for the trading ecosystem.
 ---
 
-# Data Sources Skill-Graph — CONCEPT:EE-007
+# Data Sources Skill-Graph — CONCEPT:EX-AHE.harness.ee-7
 
 Market data providers, feeds, and ingestion patterns supported by Emerald Exchange.
 
@@ -22,7 +22,7 @@ Market data providers, feeds, and ingestion patterns supported by Emerald Exchan
 - **AKShare** (`akshare`): Chinese market data via `quant-data-ingest` skill
 - **Alpha Vantage**: Free API for US equities, forex, crypto
 
-## Historical Data — CONCEPT:EE-007
+## Historical Data — CONCEPT:EX-AHE.harness.ee-7
 
 ### Ingestion Patterns
 ```python
@@ -42,7 +42,7 @@ emerald_market_data(action="historical", symbol="AAPL", period="1y", interval="1
 
 ## Alternative Data
 
-### On-Chain (Crypto) — CONCEPT:EE-015
+### On-Chain (Crypto) — CONCEPT:EX-AHE.harness.ee-17
 - Whale alerts (large transfer detection)
 - Active address count
 - Exchange inflow/outflow

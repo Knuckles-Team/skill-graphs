@@ -1,0 +1,96 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "postgres-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-08T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://www.postgresql.org/docs/",
+      "options": {
+        "crawl_depth": 2
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-08T00:00:00Z",
+      "doc_count": 14
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/14_index.html.md",
+      "sha256": "sha256:46e05265332a89d3c474d6b765360f64e5d830f9e88004b25faa2d260d58e5d8",
+      "bytes": 3439
+    },
+    {
+      "path": "reference/15_index.html.md",
+      "sha256": "sha256:46e05265332a89d3c474d6b765360f64e5d830f9e88004b25faa2d260d58e5d8",
+      "bytes": 3439
+    },
+    {
+      "path": "reference/16_index.html.md",
+      "sha256": "sha256:46e05265332a89d3c474d6b765360f64e5d830f9e88004b25faa2d260d58e5d8",
+      "bytes": 3439
+    },
+    {
+      "path": "reference/17_index.html.md",
+      "sha256": "sha256:46e05265332a89d3c474d6b765360f64e5d830f9e88004b25faa2d260d58e5d8",
+      "bytes": 3439
+    },
+    {
+      "path": "reference/18_index.html.md",
+      "sha256": "sha256:46e05265332a89d3c474d6b765360f64e5d830f9e88004b25faa2d260d58e5d8",
+      "bytes": 3439
+    },
+    {
+      "path": "reference/books.md",
+      "sha256": "sha256:a5f3071e6e8636da0228cbc27a48ccff6e4115e3599d40d461e02e18f35917f6",
+      "bytes": 20803
+    },
+    {
+      "path": "reference/current.md",
+      "sha256": "sha256:46e05265332a89d3c474d6b765360f64e5d830f9e88004b25faa2d260d58e5d8",
+      "bytes": 3439
+    },
+    {
+      "path": "reference/current_index.html.md",
+      "sha256": "sha256:46e05265332a89d3c474d6b765360f64e5d830f9e88004b25faa2d260d58e5d8",
+      "bytes": 3439
+    },
+    {
+      "path": "reference/devel_index.html.md",
+      "sha256": "sha256:46e05265332a89d3c474d6b765360f64e5d830f9e88004b25faa2d260d58e5d8",
+      "bytes": 3439
+    },
+    {
+      "path": "reference/docs.md",
+      "sha256": "sha256:46e05265332a89d3c474d6b765360f64e5d830f9e88004b25faa2d260d58e5d8",
+      "bytes": 3439
+    },
+    {
+      "path": "reference/faq.md",
+      "sha256": "sha256:bde836f7ff82c487df954a78d88c197dda6649aa0741f3324745785a3773a89c",
+      "bytes": 2754
+    },
+    {
+      "path": "reference/manuals_archive.md",
+      "sha256": "sha256:971169c52f4895b3347d31bb4e5e41820c7c48f486feb2715ed09c825715305a",
+      "bytes": 6604
+    },
+    {
+      "path": "reference/online-resources.md",
+      "sha256": "sha256:b2226fa0c4c0419d847df7e637ee816652bd98106b96b6a9ecdefaea1d2ddc76",
+      "bytes": 2244
+    },
+    {
+      "path": "reference/release.md",
+      "sha256": "sha256:ef3834cf6d132dbc0a0fa1b36d36ab38d5af5b36b58e22e9fd868b9dffc22c35",
+      "bytes": 36914
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "nestjs-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-08T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://docs.nestjs.com/",
+      "options": {
+        "crawl_depth": 2
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-08T00:00:00Z",
+      "doc_count": 139
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/116b036c.md",
+      "sha256": "sha256:8e59e5296230b040d6910cf056ff0f2e6b9bdd3ae972422f677a8617445a94ca",
+      "bytes": 120
+    },
+    {
+      "path": "reference/57e168a8.md",
+      "sha256": "sha256:941496dff3dd5c4d2423955a7f69a08c32d6ed75244d3e236e73c76b9ead3758",
+      "bytes": 29447
+    },
+    {
+      "path": "reference/9d5b371f.md",
+      "sha256": "sha256:e74683b1a0954bd4fce490082a8bb5bdfe20087dbac36a37645ec34b798aee80",
+      "bytes": 27240
+    },
+    {
+      "path": "reference/cli_libraries.md",
+      "sha256": "sha256:6469f0d919e8401a74bb1e80fd543c6be93615cf847e6b78cccf457f0150b690",
+      "bytes": 12634
+    },
+    {
+      "path": "reference/cli_monorepo.md",
+      "sha256": "sha256:d215e3b12c6e1e07f0a0c9844edf6c17076ef30b318590e40e4eccf9cff31a8b",
+      "bytes": 13948
+    },
+    {
+      "path": "reference/cli_overview.md",
+      "sha256": "sha256:21736df4107ec3e299c053cd7304b6fb29787f8f1085f54181b9e6f694c1d216",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/cli_scripts.md",
+      "sha256": "sha256:73e17d83928871db9446922757450454ad9c56817cc2d29b48674250af264453",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/cli_usages.md",
+      "sha256": "sha256:06960a82b2ca47c4be764dc0c96d4d96239156c339b621dffba11db99d5a7727",
+      "bytes": 13490
+    },
+    {
+      "path": "reference/controllers.md",
+      "sha256": "sha256:73e17d83928871db9446922757450454ad9c56817cc2d29b48674250af264453",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/custom-decorators.md",
+      "sha256": "sha256:41aea14c1c1953cae2395f5c21e2027884334721773c4333f5a2912b3fffb5da",
+      "bytes": 13432
+    },
+    {
+      "path": "reference/deployment.md",
+      "sha256": "sha256:5d7357757dd8106b5998d552ed15bab0894d30dc9daf6e166a0c72f179a25ce0",
+      "bytes": 13948
+    },
+    {
+      "path": "reference/devtools_ci-cd-integration.md",
+      "sha256": "sha256:df23bc63eb5a16fcc37d66ee96ca7dc3537dcf051c8d92e55fba2bf6b841a228",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/devtools_overview.md",
+      "sha256": "sha256:41aea14c1c1953cae2395f5c21e2027884334721773c4333f5a2912b3fffb5da",
+      "bytes": 13432
+    },
+    {
+      "path": "reference/discover_companies.md",
+      "sha256": "sha256:eb96f636ce64cd415de8aa78f552fbae82dc85494e710831210225103a7ddab1",
+      "bytes": 13948
+    },
+    {
+      "path": "reference/exception-filters.md",
+      "sha256": "sha256:fcbbbd7c00402206395f6b814856fe9f89a79287dac76be8bfa3a50ae48de0e8",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/faq_common-errors.md",
+      "sha256": "sha256:0c641acfae1a473be487056165dfdf56454350983d959f36e950993ea0fe51b2",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/faq_global-prefix.md",
+      "sha256": "sha256:fcbbbd7c00402206395f6b814856fe9f89a79287dac76be8bfa3a50ae48de0e8",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/faq_http-adapter.md",
+      "sha256": "sha256:41aea14c1c1953cae2395f5c21e2027884334721773c4333f5a2912b3fffb5da",
+      "bytes": 13432
+    },
+    {
+      "path": "reference/faq_hybrid-application.md",
+      "sha256": "sha256:09321be3894ffdc9b134a2624346e0336ad16779a5b2ec032a66f6f5d6f679e6",
+      "bytes": 13491
+    },
+    {
+      "path": "reference/faq_keep-alive-connections.md",
+      "sha256": "sha256:fcbbbd7c00402206395f6b814856fe9f89a79287dac76be8bfa3a50ae48de0e8",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/faq_multiple-servers.md",
+      "sha256": "sha256:8a4d18abfd5466ba23753c784139f856e3673e5336900c7d3fd6acc0048a8c22",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/faq_raw-body.md",
+      "sha256": "sha256:882d2a31ed42412e02879ec89dbbceda03b1a96c12c0e00a609689ba1d1e32d6",
+      "bytes": 14913
+    },
+    {
+      "path": "reference/faq_request-lifecycle.md",
+      "sha256": "sha256:878f6845fcd20aaccf68ca5bb1d7e7d2962ec069d7f2e67c0060c1f8dc5c5f27",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/faq_serverless.md",
+      "sha256": "sha256:e47f91d9ee7e5a835b0b52b4c85bb8a8f5ffa16c5610d1e91e0f9277f55e57e1",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/first-steps.md",
+      "sha256": "sha256:f0d00aca71ab3a231c2f57e9b1f0ceac6c91ea0de3f9155be0fd8922236053f7",
+      "bytes": 13150
+    },
+    {
+      "path": "reference/fundamentals_async-providers.md",
+      "sha256": "sha256:e96548a22e4a5c6e3870bb380058979f7586c6e1ae795387a2cf5e065da3949a",
+      "bytes": 13948
+    },
+    {
+      "path": "reference/fundamentals_circular-dependency.md",
+      "sha256": "sha256:dc2d2e8649089cb6c440b1ae87bdcdfbc4818d47f7834d8c9e966885ed282745",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/fundamentals_custom-providers.md",
+      "sha256": "sha256:b01cf9c5c7ea1d30e1a643ac0c332e0ce0ad04f4adc5d51bb200e25bf4bcee63",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/fundamentals_discovery-service.md",
+      "sha256": "sha256:c882ff374983fd5b97832680ae72073ddd5ad19edfb1274a64b9590a207e13d5",
+      "bytes": 13948
+    },
+    {
+      "path": "reference/fundamentals_dynamic-modules.md",
+      "sha256": "sha256:b01cf9c5c7ea1d30e1a643ac0c332e0ce0ad04f4adc5d51bb200e25bf4bcee63",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/fundamentals_execution-context.md",
+      "sha256": "sha256:307748a7f85e0af9354e00c4a67b5c6e6c72e5ad16cfe524ba996fb57b4adc1d",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/fundamentals_injection-scopes.md",
+      "sha256": "sha256:6469f0d919e8401a74bb1e80fd543c6be93615cf847e6b78cccf457f0150b690",
+      "bytes": 12634
+    },
+    {
+      "path": "reference/fundamentals_lazy-loading-modules.md",
+      "sha256": "sha256:dc2d2e8649089cb6c440b1ae87bdcdfbc4818d47f7834d8c9e966885ed282745",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/fundamentals_lifecycle-events.md",
+      "sha256": "sha256:dfc739cdab0191551b884faf2587cec9f6a765a532317cfd78cc518152ce81ad",
+      "bytes": 14550
+    },
+    {
+      "path": "reference/fundamentals_module-ref.md",
+      "sha256": "sha256:ee4c81fe9c2c5b256fd6a2b79474b278e2733d11c9924ecbd1ef0932a97bdd41",
+      "bytes": 13150
+    },
+    {
+      "path": "reference/fundamentals_platform-agnosticism.md",
+      "sha256": "sha256:7d7f9cb008f6e29c3f8a731195f2d805bc90d1481ebd6512f0c18f51698dd8ea",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/fundamentals_testing.md",
+      "sha256": "sha256:9951f68acabd3eaa658765f366322d422e241adfa9f8b580f238736779322b45",
+      "bytes": 13948
+    },
+    {
+      "path": "reference/graphql_cli-plugin.md",
+      "sha256": "sha256:c5076acea2405537a2ef8d61c612d02e3fcaf1ab62bb82f8235190d7c295f4ea",
+      "bytes": 18756
+    },
+    {
+      "path": "reference/graphql_complexity.md",
+      "sha256": "sha256:4d1c4ae0247be08e5cae09a9b2d39233bc737cbfb5abf283d32cc7c4dabc4cd3",
+      "bytes": 14114
+    },
+    {
+      "path": "reference/graphql_directives.md",
+      "sha256": "sha256:14d3d96c3de440e071641e1a961221edad55681870b2727bf99bb6252d2419ad",
+      "bytes": 13150
+    },
+    {
+      "path": "reference/graphql_extensions.md",
+      "sha256": "sha256:4cfc7eb9efca6a26b05bb879fd63e61eb6bdfcd48c47591915470f6ac448ab50",
+      "bytes": 12640
+    },
+    {
+      "path": "reference/graphql_federation.md",
+      "sha256": "sha256:5b2241b4434f2fd330ea9ad01e3e4e1cbdb55545cfc1298d21cf0ce66574f9ba",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/graphql_field-middleware.md",
+      "sha256": "sha256:7455ee99253ccc27f1ddac341d4a8f1d2e378155ccbc43c0e8d2453edefcdcc5",
+      "bytes": 14980
+    },
+    {
+      "path": "reference/graphql_generating-sdl.md",
+      "sha256": "sha256:9c95d0855d9f76c1af8693cb303458d7f4834e8602aed8396ededd2c569d0681",
+      "bytes": 14546
+    },
+    {
+      "path": "reference/graphql_interfaces.md",
+      "sha256": "sha256:2efd74af440aef56027be4e5e01a060095ec8f835206df19a87f5c41732df6d0",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/graphql_mapped-types.md",
+      "sha256": "sha256:41aea14c1c1953cae2395f5c21e2027884334721773c4333f5a2912b3fffb5da",
+      "bytes": 13432
+    },
+    {
+      "path": "reference/graphql_mutations.md",
+      "sha256": "sha256:4ebb67c7eef4fac262d2401dea6fa9f7b10d20121aa823032c7edb7cc0e6ce50",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/graphql_other-features.md",
+      "sha256": "sha256:6469f0d919e8401a74bb1e80fd543c6be93615cf847e6b78cccf457f0150b690",
+      "bytes": 12634
+    },
+    {
+      "path": "reference/graphql_plugins.md",
+      "sha256": "sha256:7bcaca4ff4b32cc0a616876585bac772770865c9e1726f3c0843c97732549b3c",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/graphql_quick-start.md",
+      "sha256": "sha256:8621525c5fac6e16acbbcf0e4fbab1df9dc1dfe17021d7fb0ccfad87c787f6f8",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/graphql_resolvers.md",
+      "sha256": "sha256:1530717105ea78d9437c0cfddc66402da8290b2342474a63f5933bc283e9ad7c",
+      "bytes": 13752
+    },
+    {
+      "path": "reference/graphql_scalars.md",
+      "sha256": "sha256:4ebb67c7eef4fac262d2401dea6fa9f7b10d20121aa823032c7edb7cc0e6ce50",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/graphql_sharing-models.md",
+      "sha256": "sha256:9748ebdf351bb3f2d37ebf617b31011f5edcc7b11f51c0d8126877d4e8ce6a09",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/graphql_subscriptions.md",
+      "sha256": "sha256:e7d655c70dce653856b40062b9a644c5db5bc84d38bb5af88eaee724c186df87",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/graphql_unions-and-enums.md",
+      "sha256": "sha256:3d1bf84ef6af319d43c84a90875a7d01197efa4ae2a6a09bbbc280de91656f82",
+      "bytes": 13948
+    },
+    {
+      "path": "reference/guards.md",
+      "sha256": "sha256:2b92d4a771550138181614fee3cab297c0446299a874e2732c719d4e69a57612",
+      "bytes": 13948
+    },
+    {
+      "path": "reference/index.md",
+      "sha256": "sha256:8fcd12d972495ca5d005dccaeccc8ed5a48a70b6d82809045a0d58343c03d175",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/interceptors.md",
+      "sha256": "sha256:3b01ff1863cd4e97bef62c94d010f6f6d287280eef031f9ef4867cb9f9992ecd",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/microservices_basics.md",
+      "sha256": "sha256:992953311f031d10b57e34fd1a00f605e2256f84bb5b8f287821211098285d9f",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/microservices_custom-transport.md",
+      "sha256": "sha256:6469f0d919e8401a74bb1e80fd543c6be93615cf847e6b78cccf457f0150b690",
+      "bytes": 12634
+    },
+    {
+      "path": "reference/microservices_exception-filters.md",
+      "sha256": "sha256:569a2dab6d7195821fb321cb71018ea525eb50da8863a08dc5ea7364a6684186",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/microservices_grpc.md",
+      "sha256": "sha256:6a8d0862192d520293b72cd232e4f2eec2cdfa7b44739d29a0cb23ccd04f5c1b",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/microservices_guards.md",
+      "sha256": "sha256:cb422125fcd13b794f20dbc6407669ba98c6da85b1a0ed88da408b8fd041d8eb",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/microservices_interceptors.md",
+      "sha256": "sha256:41aea14c1c1953cae2395f5c21e2027884334721773c4333f5a2912b3fffb5da",
+      "bytes": 13432
+    },
+    {
+      "path": "reference/microservices_kafka.md",
+      "sha256": "sha256:cc623b752bb4e14efadfd81dd3ab3479713a999721f7ae858bff09849f105340",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/microservices_mqtt.md",
+      "sha256": "sha256:cd84f22020555cacce6af80ce357e3e00ac09751ab0a90fa498cfbb45a2a82f9",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/microservices_nats.md",
+      "sha256": "sha256:73077ba2ee0cde2d6355530d0562e68dca8873536b455da829bfdcf08a2985d3",
+      "bytes": 21293
+    },
+    {
+      "path": "reference/microservices_pipes.md",
+      "sha256": "sha256:0dd59553c0973661010592df1736875e6e55a43dc0284e26d554bd817d8eacf2",
+      "bytes": 13948
+    },
+    {
+      "path": "reference/microservices_rabbitmq.md",
+      "sha256": "sha256:c13ac24f93e9ae5fb02f4bbf50b92a38cdf575c75ea0acd969a374fa73a082e1",
+      "bytes": 14288
+    },
+    {
+      "path": "reference/microservices_redis.md",
+      "sha256": "sha256:41aea14c1c1953cae2395f5c21e2027884334721773c4333f5a2912b3fffb5da",
+      "bytes": 13432
+    },
+    {
+      "path": "reference/middleware.md",
+      "sha256": "sha256:3cd3808bf874e2532b801d2e8d7acedcce07f3e1245f02d484e65409449cfcb3",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/migration-guide.md",
+      "sha256": "sha256:dd53acc12c9618eb2597a4ac7b56a792649abe153a070ea7665d6d124d7e44aa",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/modules.md",
+      "sha256": "sha256:6469f0d919e8401a74bb1e80fd543c6be93615cf847e6b78cccf457f0150b690",
+      "bytes": 12634
+    },
+    {
+      "path": "reference/openapi_cli-plugin.md",
+      "sha256": "sha256:7f302c9bbb9a67493997c2e7423f0d0ac96933f02655212dbc42dd8dd0e85552",
+      "bytes": 22399
+    },
+    {
+      "path": "reference/openapi_decorators.md",
+      "sha256": "sha256:2b8b83aec00c9676a4c3c85e2b173c46bd3322c0df9b4cf9228906798801e589",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/openapi_introduction.md",
+      "sha256": "sha256:6469f0d919e8401a74bb1e80fd543c6be93615cf847e6b78cccf457f0150b690",
+      "bytes": 12634
+    },
+    {
+      "path": "reference/openapi_mapped-types.md",
+      "sha256": "sha256:761553ad3c5309c8eef5da19236093ce74d2305b6f49098cd4d177a0bfc595b4",
+      "bytes": 13150
+    },
+    {
+      "path": "reference/openapi_operations.md",
+      "sha256": "sha256:5ddc977e41b00e2fc15afcd5c483f2759df29391aab68106e257b393ef17b976",
+      "bytes": 20697
+    },
+    {
+      "path": "reference/openapi_other-features.md",
+      "sha256": "sha256:9032c319ed5473218e802b25392f70977bd7961cf266ec242fe8b975a9d6bfa6",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/openapi_security.md",
+      "sha256": "sha256:fd47a9aec9228885413630f3337f8294f01fce733e77c247b9ead8de66359ad1",
+      "bytes": 13663
+    },
+    {
+      "path": "reference/openapi_types-and-parameters.md",
+      "sha256": "sha256:0a70134523b143de47067828e52fa0b1f0cab658293f4556aae801e99100a557",
+      "bytes": 22714
+    },
+    {
+      "path": "reference/pipes.md",
+      "sha256": "sha256:f458ff290d521c3d814f4ade767da8456ed6b844e8abee4f294e1e92dda65b01",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/providers.md",
+      "sha256": "sha256:6469f0d919e8401a74bb1e80fd543c6be93615cf847e6b78cccf457f0150b690",
+      "bytes": 12634
+    },
+    {
+      "path": "reference/recipes_async-local-storage.md",
+      "sha256": "sha256:41aea14c1c1953cae2395f5c21e2027884334721773c4333f5a2912b3fffb5da",
+      "bytes": 13432
+    },
+    {
+      "path": "reference/recipes_cqrs.md",
+      "sha256": "sha256:bd068a5924e5e6ed3c203e6ec8b6abe07a64b179daa831cf9a66d29ce9a85e0c",
+      "bytes": 13150
+    },
+    {
+      "path": "reference/recipes_crud-generator.md",
+      "sha256": "sha256:bc4ce4568910e661f43638b6fb55d416e96fa6a51b61b6617b1f7391f8972594",
+      "bytes": 16446
+    },
+    {
+      "path": "reference/recipes_documentation.md",
+      "sha256": "sha256:99e60a158142df2ae5cefa50a4502ce65b7ea54eca5cd73c8f956bef2c9329f8",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/recipes_hot-reload.md",
+      "sha256": "sha256:21f9ac1c6b2ced86cf33663345d652cb2addb93f8f2da7309beb7e8b21a7e9f0",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/recipes_mikroorm.md",
+      "sha256": "sha256:60fde55af0185fcd8889eb4b584705cf3c70c4f5831b0b007b5834c02c11f388",
+      "bytes": 20117
+    },
+    {
+      "path": "reference/recipes_mongodb.md",
+      "sha256": "sha256:d7e73a3fa787f92405a616aa48ce85ac641643037251a4a0388077cc5cf38037",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/recipes_necord.md",
+      "sha256": "sha256:6f67034a8811d5a4480246a0cc629f89b16ac36c9ba0736c556789de48b87320",
+      "bytes": 13150
+    },
+    {
+      "path": "reference/recipes_nest-commander.md",
+      "sha256": "sha256:8c6a7ea86bf635b87f72749cfd396c2a0f01d5f86383d1154d1c161d00712a4e",
+      "bytes": 13948
+    },
+    {
+      "path": "reference/recipes_prisma.md",
+      "sha256": "sha256:99e60a158142df2ae5cefa50a4502ce65b7ea54eca5cd73c8f956bef2c9329f8",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/recipes_repl.md",
+      "sha256": "sha256:64546d4ec568da8195c4a65d919950e3246327e782b6742f7f709ac4eb8427e7",
+      "bytes": 13948
+    },
+    {
+      "path": "reference/recipes_router-module.md",
+      "sha256": "sha256:6469f0d919e8401a74bb1e80fd543c6be93615cf847e6b78cccf457f0150b690",
+      "bytes": 12634
+    },
+    {
+      "path": "reference/recipes_sentry.md",
+      "sha256": "sha256:3c4d507e4ac0d8ae9a42fe8a8bef5ad7cb1722910dd7e80c37036186b3d1b718",
+      "bytes": 15887
+    },
+    {
+      "path": "reference/recipes_serve-static.md",
+      "sha256": "sha256:4cf294d48af335bcbc05030801c3cd32f0ab71f21f34098b7ccad316d11d3c13",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/recipes_sql-sequelize.md",
+      "sha256": "sha256:6469f0d919e8401a74bb1e80fd543c6be93615cf847e6b78cccf457f0150b690",
+      "bytes": 12634
+    },
+    {
+      "path": "reference/recipes_sql-typeorm.md",
+      "sha256": "sha256:49dbd40c6425cf6823d0e745327a2442a59e603f38842807f78ae6ec6292f859",
+      "bytes": 15921
+    },
+    {
+      "path": "reference/recipes_suites.md",
+      "sha256": "sha256:8a6bdcf5d34e9ddde266a1f22f4b9dc3ed7c8b1aa1f9b14eee5c3d68ae14ebfe",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/recipes_swagger.md",
+      "sha256": "sha256:b085f68b5fb9d84ee781075006a983d9b16bb88dadb1acc4cd67d0035cbca347",
+      "bytes": 21137
+    },
+    {
+      "path": "reference/recipes_swc.md",
+      "sha256": "sha256:cde2de13f4170aed5412c14a87f281b8381612532f0269b272f0da71db1b5da9",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/recipes_terminus.md",
+      "sha256": "sha256:9b6637b89cd5e350a6ed5c897cbeb0d593f0d572c3088dd9f59711cd14cff040",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/security_authentication.md",
+      "sha256": "sha256:7b39c7f0ddb13ef0267be0e2bfe30a32bf5c2c7f72b89656d4c9969158684874",
+      "bytes": 13150
+    },
+    {
+      "path": "reference/security_authorization.md",
+      "sha256": "sha256:5d6cfdc58e551f5bf8cc500ef994d38fd477f9b82a9b0ec31ecb2520338f7e6f",
+      "bytes": 13948
+    },
+    {
+      "path": "reference/security_cors.md",
+      "sha256": "sha256:a530915f6569b4d42e4a8d4505a22723c7702cbeba1a8d4df0cd025513ded62e",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/security_csrf.md",
+      "sha256": "sha256:b1cd9551fe920e0dda6b158c1d688ccb4dd499d81ad1b2de481a35aabeae2f2b",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/security_encryption-and-hashing.md",
+      "sha256": "sha256:7e79c0710aafcead61c0bf816f260035d9e9bb6c4d7c75ffa4e67c0d0c334e9f",
+      "bytes": 14321
+    },
+    {
+      "path": "reference/security_helmet.md",
+      "sha256": "sha256:41aea14c1c1953cae2395f5c21e2027884334721773c4333f5a2912b3fffb5da",
+      "bytes": 13432
+    },
+    {
+      "path": "reference/security_rate-limiting.md",
+      "sha256": "sha256:49c3007affea5203c733b7a9a7179badc5fa2a27b8fd63f2d72fc16a8c774bb8",
+      "bytes": 25066
+    },
+    {
+      "path": "reference/standalone-applications.md",
+      "sha256": "sha256:92432b23de2904a83b2617c5f9bf016e9de6bdaf20f7ad197b438f62004255ab",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/support.md",
+      "sha256": "sha256:17fa36555028fad85e2ada188027f995d74b2a778f8f98c692499cb185be88d8",
+      "bytes": 13748
+    },
+    {
+      "path": "reference/techniques_caching.md",
+      "sha256": "sha256:454cc062d6da4dc1b7122e9a513b0149a00ecaa895c70c755f2671c20b57fa49",
+      "bytes": 24775
+    },
+    {
+      "path": "reference/techniques_compression.md",
+      "sha256": "sha256:df0183aeb15f8a5a573bdc6dda7c24aee4b7ce99697ba69abc7042f76c09aeed",
+      "bytes": 13494
+    },
+    {
+      "path": "reference/techniques_configuration.md",
+      "sha256": "sha256:95b72fabaa8d41600ea8ec22bba6fde9261e13d99830981709f76c24f78137e6",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/techniques_cookies.md",
+      "sha256": "sha256:95b72fabaa8d41600ea8ec22bba6fde9261e13d99830981709f76c24f78137e6",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/techniques_database.md",
+      "sha256": "sha256:cc8c2a7bfa476d4e54b28b3e95438cd5a8e5e2a4bd290f99c04b96765a108695",
+      "bytes": 13948
+    },
+    {
+      "path": "reference/techniques_events.md",
+      "sha256": "sha256:95b72fabaa8d41600ea8ec22bba6fde9261e13d99830981709f76c24f78137e6",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/techniques_file-upload.md",
+      "sha256": "sha256:7b5c5874eda54816f34d0b58b75de31c549491cf079dc78111f5b544d7eb88f0",
+      "bytes": 13948
+    },
+    {
+      "path": "reference/techniques_http-module.md",
+      "sha256": "sha256:95b72fabaa8d41600ea8ec22bba6fde9261e13d99830981709f76c24f78137e6",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/techniques_logger.md",
+      "sha256": "sha256:cbfea6be9314a367e8c87a54b9a787453fb5908c35c3a6328dbdddff41ed6b52",
+      "bytes": 13948
+    },
+    {
+      "path": "reference/techniques_mongodb.md",
+      "sha256": "sha256:ffdbdf3f651ac23f0d11cb4a959f55b8449138c97682eecd044757ab255d65f5",
+      "bytes": 14206
+    },
+    {
+      "path": "reference/techniques_mvc.md",
+      "sha256": "sha256:4db269f52860169678668a79c9a7aae8ba5fa9bd6969a7962ba731d29de75c78",
+      "bytes": 14546
+    },
+    {
+      "path": "reference/techniques_performance.md",
+      "sha256": "sha256:dca6f33d07ee8cdfcf590c5fb422d2b23980a4bd578e2043b8a480aaa8bd1986",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/techniques_queues.md",
+      "sha256": "sha256:41aea14c1c1953cae2395f5c21e2027884334721773c4333f5a2912b3fffb5da",
+      "bytes": 13432
+    },
+    {
+      "path": "reference/techniques_serialization.md",
+      "sha256": "sha256:dc1a2e5d65a11954e5bb5b15d63c48d1358045aab7a881ec067bf31a3367ead1",
+      "bytes": 14292
+    },
+    {
+      "path": "reference/techniques_server-sent-events.md",
+      "sha256": "sha256:d6a822594b5048fb73f6ac66add4fd811559ba227c5177e36ed8a77cf54cf606",
+      "bytes": 12892
+    },
+    {
+      "path": "reference/techniques_session.md",
+      "sha256": "sha256:6469f0d919e8401a74bb1e80fd543c6be93615cf847e6b78cccf457f0150b690",
+      "bytes": 12634
+    },
+    {
+      "path": "reference/techniques_streaming-files.md",
+      "sha256": "sha256:41aea14c1c1953cae2395f5c21e2027884334721773c4333f5a2912b3fffb5da",
+      "bytes": 13432
+    },
+    {
+      "path": "reference/techniques_task-scheduling.md",
+      "sha256": "sha256:0211c49f66851b906006bd381746ac805124b3c80b25217adab7fda3fa4f1fa7",
+      "bytes": 13948
+    },
+    {
+      "path": "reference/techniques_validation.md",
+      "sha256": "sha256:900843909b0baa36eb17c8ba22ce914a640821da6abb445a54374d4e0e3175f8",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/techniques_versioning.md",
+      "sha256": "sha256:900843909b0baa36eb17c8ba22ce914a640821da6abb445a54374d4e0e3175f8",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/v10.md",
+      "sha256": "sha256:bf148bdccc228e9af769dd94cc7bab341f9230ed0ba59313bb4fac31badcec17",
+      "bytes": 14015
+    },
+    {
+      "path": "reference/websockets_adapter.md",
+      "sha256": "sha256:9545b07b87566211e5ec06c916cfc40f7f0fecd542f8aaddcd706cda6c0f5158",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/websockets_exception-filters.md",
+      "sha256": "sha256:6469f0d919e8401a74bb1e80fd543c6be93615cf847e6b78cccf457f0150b690",
+      "bytes": 12634
+    },
+    {
+      "path": "reference/websockets_gateways.md",
+      "sha256": "sha256:2cf88cc0c09bf3ae45694b5a64600ca74410d00f992a17d095f111b80c8ea715",
+      "bytes": 13690
+    },
+    {
+      "path": "reference/websockets_guards.md",
+      "sha256": "sha256:82f40388b4610cd1ebec7d6f828ede84848babc29aefb20bc18c35d18903481a",
+      "bytes": 13494
+    },
+    {
+      "path": "reference/websockets_interceptors.md",
+      "sha256": "sha256:41aea14c1c1953cae2395f5c21e2027884334721773c4333f5a2912b3fffb5da",
+      "bytes": 13432
+    },
+    {
+      "path": "reference/websockets_pipes.md",
+      "sha256": "sha256:d3dbf0718572364a9d974bafb74cca84c610fd1c80660c5c9a0a162cf5cfd71d",
+      "bytes": 13690
+    }
+  ]
+}

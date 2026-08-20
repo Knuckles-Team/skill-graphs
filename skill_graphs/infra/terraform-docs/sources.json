@@ -1,0 +1,121 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "terraform-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-08T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://developer.hashicorp.com/terraform/docs",
+      "options": {
+        "crawl_depth": 2
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-08T00:00:00Z",
+      "doc_count": 19
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/cli.md",
+      "sha256": "sha256:b69074744aa43b0a249af4d5cdc1808151d6fd3a8bdec6637a3b71284e762734",
+      "bytes": 3811
+    },
+    {
+      "path": "reference/cloud-docs.md",
+      "sha256": "sha256:d89b45c5be67c85172997f4b0c9c27e26637f29d630b5ea5b8cb2fc5cbfa459b",
+      "bytes": 6068
+    },
+    {
+      "path": "reference/docs.md",
+      "sha256": "sha256:59dd66ddb9e5988e65e126c1f18bb82bc0c2576e080896b7203981ade1e18bdd",
+      "bytes": 10679
+    },
+    {
+      "path": "reference/enterprise.md",
+      "sha256": "sha256:6f5ebdbc121fc9ad4e01713ffb918e7e78c07a93bcfa168a48ba6bd6a1fc3759",
+      "bytes": 9141
+    },
+    {
+      "path": "reference/install.md",
+      "sha256": "sha256:c5c5152d7e2e595f058b119f1802a2f63b4079b09c75af8b63b92544723a677b",
+      "bytes": 13812
+    },
+    {
+      "path": "reference/intro_phases.md",
+      "sha256": "sha256:d56f52a6a5d24766f3f132d57a90f134ab63bafe9be4f8dcc9f8f86ceac5dc98",
+      "bytes": 6357
+    },
+    {
+      "path": "reference/language.md",
+      "sha256": "sha256:00dfa5b2bc8d2442b60fce9c212bf79a6348a6d7f1eee8ef981acd727045c953",
+      "bytes": 13451
+    },
+    {
+      "path": "reference/language_providers.md",
+      "sha256": "sha256:142f91e365bb9d44a6e4caa397ce641f96d67894680f5b16ab1238b5dd3a4c89",
+      "bytes": 15812
+    },
+    {
+      "path": "reference/language_style.md",
+      "sha256": "sha256:59dd66ddb9e5988e65e126c1f18bb82bc0c2576e080896b7203981ade1e18bdd",
+      "bytes": 10679
+    },
+    {
+      "path": "reference/mcp-server.md",
+      "sha256": "sha256:c70d20fbdc28e76c6e93175d0557ff5ec2516b24db66068a021b8d592c5f63c3",
+      "bytes": 16345
+    },
+    {
+      "path": "reference/migrate.md",
+      "sha256": "sha256:e899ddddf0a021febafd45cc42df8e6268d57262915ecb860ca713e4221203a5",
+      "bytes": 5641
+    },
+    {
+      "path": "reference/plugin.md",
+      "sha256": "sha256:752112a5f3cce02dec1f44bad882e1529fcc0d4d944afa8f8147d846b19a7f2c",
+      "bytes": 5973
+    },
+    {
+      "path": "reference/registry.md",
+      "sha256": "sha256:53cf949fcda8cba70e3b0ab472e5155ad7f4fee8f15a5c8e1b3d0ffe3780ed7c",
+      "bytes": 5853
+    },
+    {
+      "path": "reference/sandbox.md",
+      "sha256": "sha256:5a5fc543efbc2b2af4468fbe3b8cce9cf10757c0723e0f9584f72bde60e8ca72",
+      "bytes": 12580
+    },
+    {
+      "path": "reference/tutorials.md",
+      "sha256": "sha256:d56f52a6a5d24766f3f132d57a90f134ab63bafe9be4f8dcc9f8f86ceac5dc98",
+      "bytes": 6357
+    },
+    {
+      "path": "reference/tutorials_aws-get-started.md",
+      "sha256": "sha256:59dd66ddb9e5988e65e126c1f18bb82bc0c2576e080896b7203981ade1e18bdd",
+      "bytes": 10679
+    },
+    {
+      "path": "reference/tutorials_networking_multicloud-kubernetes.md",
+      "sha256": "sha256:7e83ff697a79de3d29fa4cfaef9900c1922c162507ef13a951b04ebc09b24eda",
+      "bytes": 8771
+    },
+    {
+      "path": "reference/tutorials_oci-get-started.md",
+      "sha256": "sha256:db1478e6192ba43e518b7dd15af65e1e989771afb9e07cca457c7874c774a2bd",
+      "bytes": 6649
+    },
+    {
+      "path": "reference/tutorials_pro-cert.md",
+      "sha256": "sha256:59dd66ddb9e5988e65e126c1f18bb82bc0c2576e080896b7203981ade1e18bdd",
+      "bytes": 10679
+    }
+  ]
+}

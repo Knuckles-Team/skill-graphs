@@ -13,9 +13,9 @@ metadata:
   author: agent-utilities
   version: '1.0.0'
   concepts:
-    - 'CONCEPT:KG-2.6'
-    - 'CONCEPT:EE-001'
-    - 'CONCEPT:EE-007'
+    - 'CONCEPT:EG-KG.domains.quant-finance'
+    - 'CONCEPT:EX-AHE.harness.ee'
+    - 'CONCEPT:EX-AHE.harness.ee-6'
 ---
 
 # Trading Systems Skill Graph
@@ -26,7 +26,7 @@ for all aspects of automated trading.
 
 ## 1. Exchange Backend Architecture
 
-### Pattern: Protocol-Based Backend Abstraction (CONCEPT:EE-002)
+### Pattern: Protocol-Based Backend Abstraction (CONCEPT:EX-AHE.harness.ee)
 
 Every exchange backend implements the `ExchangeBackend` Protocol:
 
@@ -62,7 +62,7 @@ backend = create_backend("binance", {
 
 ## 2. Risk Management (OS-5.1)
 
-### Pre-Trade Validation (CONCEPT:EE-007)
+### Pre-Trade Validation (CONCEPT:EX-AHE.harness.ee-6)
 
 Every order passes through `RiskGuard.pre_trade_check()` before submission:
 
@@ -71,7 +71,7 @@ Every order passes through `RiskGuard.pre_trade_check()` before submission:
 3. **Position sizing**: Kelly criterion with configurable cap (default 2%)
 4. **Cash sufficiency**: Can the portfolio afford this trade?
 
-### Circuit Breakers (CONCEPT:EE-016)
+### Circuit Breakers (CONCEPT:EX-AHE.harness.ee-15)
 
 | Trigger | Threshold | Action |
 |---------|-----------|--------|
@@ -79,7 +79,7 @@ Every order passes through `RiskGuard.pre_trade_check()` before submission:
 | Daily loss | 3% of equity | Auto-halt all trading |
 | Regime shift | KS-test > 0.1 | Auto-halt all trading |
 
-### Kelly Criterion (CONCEPT:EE-015)
+### Kelly Criterion (CONCEPT:EX-AHE.harness.ee-14)
 
 ```python
 # Half-Kelly with 2% cap
@@ -105,7 +105,7 @@ f = RiskGuard.kelly_criterion(
 - **Sideways**: Range-bound — mean reversion strategies, options selling
 - **Crisis**: High correlation, extreme volatility — risk-off, kill switch ready
 
-## 4. Strategy Lifecycle (CONCEPT:EE-013)
+## 4. Strategy Lifecycle (CONCEPT:AU-AHE.assimilation.trading-ecosystem-spec)
 
 ```
 Draft → Backtest → Paper → Live

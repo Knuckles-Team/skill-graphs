@@ -1,0 +1,96 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "redux-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-08T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://redux.js.org/",
+      "options": {
+        "crawl_depth": 2
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-08T00:00:00Z",
+      "doc_count": 14
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/098ac698.md",
+      "sha256": "sha256:552cc5888fc5881d40cdf1505447828983a622bc4529baf971930d094db76c66",
+      "bytes": 1236
+    },
+    {
+      "path": "reference/3b2ca0c7.md",
+      "sha256": "sha256:9319dd4a7e36211897d34cd38c7b630d5f7a5d039fbde2557bdd8e46485b01a6",
+      "bytes": 3724
+    },
+    {
+      "path": "reference/3cf859d0.md",
+      "sha256": "sha256:f6bd614c193221e489b9e04b839ed2c6362da58992839f4d9c47042f1c206b5e",
+      "bytes": 20
+    },
+    {
+      "path": "reference/3dce2a72.md",
+      "sha256": "sha256:47eeb54fd8a0668895269d2743fb27a017449be4d65512cdcbfa13d24245feed",
+      "bytes": 33922
+    },
+    {
+      "path": "reference/6715eccd.md",
+      "sha256": "sha256:e9f8cc59f9bf0ff59b90faa3cc05f63bb101bf76d1979287b37b8ea762ad751b",
+      "bytes": 1162
+    },
+    {
+      "path": "reference/846eb58b.md",
+      "sha256": "sha256:3594b8f5e6d7dd3877fe7575026cdd081b82fa6e8a2d06f8d62c3d6a4e075d1a",
+      "bytes": 14427
+    },
+    {
+      "path": "reference/93c64611.md",
+      "sha256": "sha256:f5485a401e058da17ff7b67c4001529c25bcf118fb78eb42b237bd770b32df94",
+      "bytes": 1376
+    },
+    {
+      "path": "reference/api_api-reference.md",
+      "sha256": "sha256:3cdbeef4bca476797609a6c6e5ddbdb3b0a187408ad4305af3a8290b020bbc26",
+      "bytes": 13154
+    },
+    {
+      "path": "reference/faq.md",
+      "sha256": "sha256:cb403ea311b3938f588f0c7443b098904dbb3fc102bf8e90ffb6d0a75c9f4997",
+      "bytes": 12109
+    },
+    {
+      "path": "reference/fc7e736c.md",
+      "sha256": "sha256:4336c86895a2bf8d25d2f911f45062d2b0281ed4eb2bc1d5075eaa3abb198dc3",
+      "bytes": 1499
+    },
+    {
+      "path": "reference/index.md",
+      "sha256": "sha256:2def16fee6a37d2c4090ab06045eca99bfcc85ba42f696ab2bebbf6cc86c470f",
+      "bytes": 2192
+    },
+    {
+      "path": "reference/introduction_getting-started.md",
+      "sha256": "sha256:bc39a4b2c4046e20c3bf86c649af856301d35fcef6722578746c20311db79dac",
+      "bytes": 15753
+    },
+    {
+      "path": "reference/tutorials_essentials_part-1-overview-concepts.md",
+      "sha256": "sha256:5d80773c1a40576f339337eeaccbf7b1acaa79d22396f57ff7ccd2e7982a8531",
+      "bytes": 28079
+    },
+    {
+      "path": "reference/usage.md",
+      "sha256": "sha256:b0df28793aec0c3b63be6d2f060db0ee5de9e9cc8b2b261695b02e10cfabc3cf",
+      "bytes": 6148
+    }
+  ]
+}

@@ -11,7 +11,7 @@ concept: ECO-4.14
 
 # Infrastructure Blueprints
 
-**CONCEPT:ECO-4.14 — Infrastructure Blueprint Library**
+**CONCEPT:AU-OS.deployment.infrastructure-blueprint-library — Infrastructure Blueprint Library**
 
 Reusable Docker Compose / Swarm stack definitions for company software.
 Each blueprint includes resource requirements, DNS configuration,

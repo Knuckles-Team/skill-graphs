@@ -1,0 +1,2071 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "fastmcp-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-07T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://gofastmcp.com/getting-started/welcome, https://gofastmcp.com/python-sdk/fastmcp-decorators",
+      "options": {
+        "crawl_depth": 3
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-07T00:00:00Z",
+      "doc_count": 409
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/06acb7b4.md",
+      "sha256": "sha256:27bab2908aed4295b38f28f0a0ca7c815dc45d8e28aa00204b227ca4d0c163f7",
+      "bytes": 244
+    },
+    {
+      "path": "reference/53b7d799.md",
+      "sha256": "sha256:096425ec513f7e58ead3e0f0e71b8a90fe7f08d157d618d56d4e0422a72a253b",
+      "bytes": 6118
+    },
+    {
+      "path": "reference/5e469730.md",
+      "sha256": "sha256:59c31cb1fe0001afabf97c65b7eb89063f2a6d9c075c58d24317a4ef164e3a7c",
+      "bytes": 6409
+    },
+    {
+      "path": "reference/apps_low-level.md",
+      "sha256": "sha256:a5e834c09c2438cdb5a65ce2d6891aec7c5fcecd70d89f4bf6be4859076cb63a",
+      "bytes": 13154
+    },
+    {
+      "path": "reference/apps_overview.md",
+      "sha256": "sha256:a9705303c5c7c837ed31a40c074ca93cc7eebd9271a134260e31696f500f795a",
+      "bytes": 4466
+    },
+    {
+      "path": "reference/apps_patterns.md",
+      "sha256": "sha256:e23f5c234667f157346724b5a54e0271e17ffc300d091192f5097c636d8c4050",
+      "bytes": 18711
+    },
+    {
+      "path": "reference/apps_prefab.md",
+      "sha256": "sha256:fbc61e8d2c46fc7f5647bcf96afb9ae4d4c2feedb6e9e26086909662d3265de0",
+      "bytes": 10136
+    },
+    {
+      "path": "reference/changelog.md",
+      "sha256": "sha256:582c995380fc82c025062cb7aecbf63fe81ebf4bfc55875a0a1f7e6d70e87396",
+      "bytes": 141183
+    },
+    {
+      "path": "reference/cli_auth.md",
+      "sha256": "sha256:79f370697f46c7e99ed543b6d583b4e90e9fcca55a44f8691c5f226e43831ddd",
+      "bytes": 5085
+    },
+    {
+      "path": "reference/cli_client.md",
+      "sha256": "sha256:bec644053397a24883bb7b5a12e4f9ace748219796587c9d2eb516e014f392fe",
+      "bytes": 9327
+    },
+    {
+      "path": "reference/cli_generate-cli.md",
+      "sha256": "sha256:e2e9f27a27f258c7d5b649ae90ec23610c2a9ad6bba9c4ddf7ce94028b51a5da",
+      "bytes": 6639
+    },
+    {
+      "path": "reference/cli_inspecting.md",
+      "sha256": "sha256:1c4230d49b138a1f51a786038b0ff359babcfde1a327b6f17475025c1b358ffc",
+      "bytes": 4739
+    },
+    {
+      "path": "reference/cli_install-mcp.md",
+      "sha256": "sha256:79c53f90e367c7743dfa58390f04405d49680e44b9100e5a003c475394067a7c",
+      "bytes": 7883
+    },
+    {
+      "path": "reference/cli_overview.md",
+      "sha256": "sha256:5cf588d203fb93896aed2ba89daa45e9c6ca8df529f003b1c9555d0e848e9824",
+      "bytes": 6906
+    },
+    {
+      "path": "reference/cli_running.md",
+      "sha256": "sha256:7dc2e9d0ffc4a6d9d3fccae8d36dada43bc636661c0915051266bb5d1b7125c8",
+      "bytes": 8825
+    },
+    {
+      "path": "reference/clients_auth_bearer.md",
+      "sha256": "sha256:7ab7541262449d32f71451053a7e219f97dcf29dff95c1b9af1c57b0d6eb9023",
+      "bytes": 5499
+    },
+    {
+      "path": "reference/clients_auth_cimd.md",
+      "sha256": "sha256:4079ab690084efc621c9338db580d9f66d4eae8e597549073af3d0bfb03f3909",
+      "bytes": 9464
+    },
+    {
+      "path": "reference/clients_auth_oauth.md",
+      "sha256": "sha256:60c54a1cda780bc6230ee21ccb0458a440f2b5e7cc2feecb05283d0fd69ec30b",
+      "bytes": 12119
+    },
+    {
+      "path": "reference/clients_client.md",
+      "sha256": "sha256:11b23ed6633920b12e15a3db96bad6e5da4a174e500558a40812452069d9b6fe",
+      "bytes": 11757
+    },
+    {
+      "path": "reference/clients_elicitation.md",
+      "sha256": "sha256:9d2ce3af6245995bc1a2534af1213a4272f3e3c61057019d87e7ee494841f2dd",
+      "bytes": 7599
+    },
+    {
+      "path": "reference/clients_logging.md",
+      "sha256": "sha256:10c4fc2383dc1bbe471a35dfc4ca05f22781e1b4a79d9d49fc9c90bb48816e48",
+      "bytes": 5641
+    },
+    {
+      "path": "reference/clients_notifications.md",
+      "sha256": "sha256:1238962fd3f714dcd2a0fe699410b7709dd7cb4fcdfeb0f04ff50cffcfc5ef80",
+      "bytes": 8264
+    },
+    {
+      "path": "reference/clients_progress.md",
+      "sha256": "sha256:3bdaee8eddf7eccd4aaf8b9c48d8ba87081d4ca39054cdc201d995ff8e92c226",
+      "bytes": 4381
+    },
+    {
+      "path": "reference/clients_prompts.md",
+      "sha256": "sha256:3c9eec66e579f7931a2a59220060e90878e3b6ebb54e80663985b459d8977945",
+      "bytes": 7466
+    },
+    {
+      "path": "reference/clients_resources.md",
+      "sha256": "sha256:49698db800294df9a54cb1515b73891bf9c518b283f7016f09c828cf6c85ca4a",
+      "bytes": 6342
+    },
+    {
+      "path": "reference/clients_roots.md",
+      "sha256": "sha256:e1c52645e4014ae3d6bf6688107570908248fab034bff2c549c35525102c5f24",
+      "bytes": 3882
+    },
+    {
+      "path": "reference/clients_sampling.md",
+      "sha256": "sha256:b025ec8646c457848d298f95f28dd66bb1fc4f2a1003bbd35806f0401f1d7c21",
+      "bytes": 8814
+    },
+    {
+      "path": "reference/clients_tasks.md",
+      "sha256": "sha256:5c452d12e499c4aaf3b8f36f23fb97d98bcf86f641ab1a747541be14dedf3666",
+      "bytes": 8476
+    },
+    {
+      "path": "reference/clients_tools.md",
+      "sha256": "sha256:30b781f684a97cb2701c04cb20efb36ec33ebe2ac7665b7dc4a35d123d9fca20",
+      "bytes": 8623
+    },
+    {
+      "path": "reference/clients_transports.md",
+      "sha256": "sha256:763959ce6eb2847f438f9337aa31bc5561f2c53583ee00fbaec9199f2ab11511",
+      "bytes": 9774
+    },
+    {
+      "path": "reference/deployment_http.md",
+      "sha256": "sha256:5458533813ff013fac964a562b2e13ccccb9ccea383a17e8aa49a8bbf2f1d553",
+      "bytes": 42619
+    },
+    {
+      "path": "reference/deployment_prefect-horizon.md",
+      "sha256": "sha256:d2a323713e78bc73e0ed53109c7bf703a2d043168353ccb967ac2c114a93497d",
+      "bytes": 11688
+    },
+    {
+      "path": "reference/deployment_running-server.md",
+      "sha256": "sha256:86f142c7f9aa975edff1663bcbf59cc989e68dd844e1b155f7e0bc06650834bb",
+      "bytes": 16702
+    },
+    {
+      "path": "reference/deployment_server-configuration.md",
+      "sha256": "sha256:d3295d9d5a2f1109da61a4a3a85431446542f27048d9494c60be26a605262d11",
+      "bytes": 26815
+    },
+    {
+      "path": "reference/development_contributing.md",
+      "sha256": "sha256:bf2b8cd2c67219697192d55c37f2cdb9b89187949e7ae88706602ac1ce9120b3",
+      "bytes": 15192
+    },
+    {
+      "path": "reference/development_releases.md",
+      "sha256": "sha256:5c6646c6cbca5048cf9a0e4f2dc6ce72f23fa9396a0e4e01f280eda96a94c112",
+      "bytes": 7506
+    },
+    {
+      "path": "reference/development_tests.md",
+      "sha256": "sha256:b1e719ed01137d24fd60efe4866a33a5ad99da0f3e8debddb339b4bf2636fc6b",
+      "bytes": 17769
+    },
+    {
+      "path": "reference/f535c66e.md",
+      "sha256": "sha256:75311818e3fd39406e968146a37d51aaf7b76bb0c3f81b593ec5de3ba78826f6",
+      "bytes": 6749
+    },
+    {
+      "path": "reference/fastmcp-cli-__init__.md",
+      "sha256": "sha256:9a125389592fd81ed90e60ce832f0c2b6c0a396f925f7e73131770089cfffa73",
+      "bytes": 6696
+    },
+    {
+      "path": "reference/fastmcp-cli-auth.md",
+      "sha256": "sha256:881cedf164ee2036d8ed7b5b6ac092a2acb169a4dd41f6da0891e8e5a72aad32",
+      "bytes": 6714
+    },
+    {
+      "path": "reference/fastmcp-cli-cimd.md",
+      "sha256": "sha256:24e3a9c6db209f04d2fa7e32b514ad08beff0c18546408d5afa00f7ab13adda3",
+      "bytes": 7913
+    },
+    {
+      "path": "reference/fastmcp-cli-cli.md",
+      "sha256": "sha256:3d0de149b4f568021ce012c886ae9f51c37769c1a43ec5b16d0aee9c5fc3174f",
+      "bytes": 11984
+    },
+    {
+      "path": "reference/fastmcp-cli-client.md",
+      "sha256": "sha256:c64ff4be53812041cc9f74c255a3e9c2567e37561ac63a56680bee2586643cd5",
+      "bytes": 11201
+    },
+    {
+      "path": "reference/fastmcp-cli-discovery.md",
+      "sha256": "sha256:2b76ae0f8b65f60ebe060ef606ba4427070c2b5e46c6dfd1540ce1ce30d56ccb",
+      "bytes": 9105
+    },
+    {
+      "path": "reference/fastmcp-cli-generate.md",
+      "sha256": "sha256:017078db8b8333dbcb68dc79e48ea09479a1d804b39e189369cdab14ff71984a",
+      "bytes": 9073
+    },
+    {
+      "path": "reference/fastmcp-cli-install-__init__.md",
+      "sha256": "sha256:21184b710e76d09540e3b5d00b51aff5b22d66470c1a4a56be2c1062e59e6f37",
+      "bytes": 7521
+    },
+    {
+      "path": "reference/fastmcp-cli-install-claude_code.md",
+      "sha256": "sha256:e5216289ef0c5cbf22d22520ef5babb2188cbdad01fe2a5f308988b238db0dbd",
+      "bytes": 9986
+    },
+    {
+      "path": "reference/fastmcp-cli-install-claude_desktop.md",
+      "sha256": "sha256:91ad11ce9c8dfdd9c1a46832f86392d9f77724b3e8cf2d4acc134d5fb3b4d004",
+      "bytes": 9628
+    },
+    {
+      "path": "reference/fastmcp-cli-install-cursor.md",
+      "sha256": "sha256:adfeb2808c6378b4b4f10add9b9802fcf931a182fcc5215103ffef93c22b6bd2",
+      "bytes": 11233
+    },
+    {
+      "path": "reference/fastmcp-cli-install-gemini_cli.md",
+      "sha256": "sha256:7e1bb1d88b363c12a44fb902cfb9b7e2cca0ced57bfbedea39360a42055daa91",
+      "bytes": 9794
+    },
+    {
+      "path": "reference/fastmcp-cli-install-goose.md",
+      "sha256": "sha256:bf677e8e8f9462bc85dc2c60fe3b08783473f97079ddb406c8b8ba19e7a20daa",
+      "bytes": 9591
+    },
+    {
+      "path": "reference/fastmcp-cli-install-mcp_json.md",
+      "sha256": "sha256:e80dd17ebc2ccc8d4ffc02bc4490138a86173cb16db834ec9e9afc1b09763f34",
+      "bytes": 9209
+    },
+    {
+      "path": "reference/fastmcp-cli-install-shared.md",
+      "sha256": "sha256:f640d3e05dfc073615008e5f2b59afb1870b57317abb92023598e908a83439e4",
+      "bytes": 9109
+    },
+    {
+      "path": "reference/fastmcp-cli-install-stdio.md",
+      "sha256": "sha256:46803a72dab317899980ad9f5d175fd9c4d558a14267e2ff5e3160784edf0ec6",
+      "bytes": 9133
+    },
+    {
+      "path": "reference/fastmcp-cli-run.md",
+      "sha256": "sha256:856b40039f787cb7c009eca12c360182b55d2c0f4910077a78972270327297dc",
+      "bytes": 11291
+    },
+    {
+      "path": "reference/fastmcp-cli-tasks.md",
+      "sha256": "sha256:148ff4f8f5ff762b4b2bff764ceb5e91bafd173587fbe45176d06cb23a8bfd24",
+      "bytes": 7943
+    },
+    {
+      "path": "reference/fastmcp-client-__init__.md",
+      "sha256": "sha256:f494404d9b48505ee490527ba64d0687e24d84c72e9679bb158585f2e01d1ba0",
+      "bytes": 6788
+    },
+    {
+      "path": "reference/fastmcp-client-auth-__init__.md",
+      "sha256": "sha256:ad62b1c22c878cf34db74fde3802e5c84121ddb50ad191531fdd0af6ea7d91c8",
+      "bytes": 7038
+    },
+    {
+      "path": "reference/fastmcp-client-auth-bearer.md",
+      "sha256": "sha256:902ed3fecc544b19bc9355babc345b9c45a230811026815108b63531748202f2",
+      "bytes": 7574
+    },
+    {
+      "path": "reference/fastmcp-client-auth-oauth.md",
+      "sha256": "sha256:7b428576da88b21e699aac9eb29dc180dffd6be8632b31f6f25e1764c0b00f45",
+      "bytes": 11131
+    },
+    {
+      "path": "reference/fastmcp-client-client.md",
+      "sha256": "sha256:4531675df6132f69ebf40e09f5a7cc7744c02b39b4a882f9299ec36c27ef200e",
+      "bytes": 17576
+    },
+    {
+      "path": "reference/fastmcp-client-elicitation.md",
+      "sha256": "sha256:f52600e9439265967215c54f95ef5dcb9fcc6cdf61f9e69b676f577eb14bff61",
+      "bytes": 7669
+    },
+    {
+      "path": "reference/fastmcp-client-logging.md",
+      "sha256": "sha256:9a415083efe41bfd45f5005b3b160f17c162762e24ace2ee9a9bbacfa9da9ddd",
+      "bytes": 7578
+    },
+    {
+      "path": "reference/fastmcp-client-messages.md",
+      "sha256": "sha256:17dae297a6676b472603cd29d708e8586a66e706cf697e4b055268c4700b4fda",
+      "bytes": 11553
+    },
+    {
+      "path": "reference/fastmcp-client-mixins-__init__.md",
+      "sha256": "sha256:bcf0ff1792e41d56387fa19c95a144ac7fbef310120ab3ee2d76d021fde03699",
+      "bytes": 7201
+    },
+    {
+      "path": "reference/fastmcp-client-mixins-prompts.md",
+      "sha256": "sha256:f92864f3f703c1d36c918f9514356c25829e7dbf74b209d315769cfe789815ad",
+      "bytes": 11978
+    },
+    {
+      "path": "reference/fastmcp-client-mixins-resources.md",
+      "sha256": "sha256:72dbbd5365668992b54c3d293162fc395f4fafb1f4afb826fb7dca91e7692172",
+      "bytes": 13844
+    },
+    {
+      "path": "reference/fastmcp-client-mixins-task_management.md",
+      "sha256": "sha256:37436b4adea89f6e106ff00c3d15e515d4d82e6f851705f5fdaa8d395074efc8",
+      "bytes": 10957
+    },
+    {
+      "path": "reference/fastmcp-client-mixins-tools.md",
+      "sha256": "sha256:447b4ea859a48e5255e17ced3a1e9cf55b1e5196930ea364aeafff35edbbcc9f",
+      "bytes": 13408
+    },
+    {
+      "path": "reference/fastmcp-client-oauth_callback.md",
+      "sha256": "sha256:2c6b48b8b38f915106b10ec5e4ba13d3109fa7660e212ba0178f7589c741a670",
+      "bytes": 9715
+    },
+    {
+      "path": "reference/fastmcp-client-progress.md",
+      "sha256": "sha256:6f63bc0eda662e8199bf921af15cf8b04c93ef7f7258e871ba23e3e52a25af86",
+      "bytes": 7539
+    },
+    {
+      "path": "reference/fastmcp-client-roots.md",
+      "sha256": "sha256:0c1455424617ef1b032d77174c0c6352994d2ccac359b9b7f7ffee3cd7fc11be",
+      "bytes": 7487
+    },
+    {
+      "path": "reference/fastmcp-client-sampling-__init__.md",
+      "sha256": "sha256:d7e0835afe390a0e1a9537adbb2d94f1a92d068ef7184456d8a74e07c656b60c",
+      "bytes": 7412
+    },
+    {
+      "path": "reference/fastmcp-client-sampling-handlers-__init__.md",
+      "sha256": "sha256:fd8af28a37553529877774dc3814910392e0fcee2a919b3e2fa2f8946d4d16f9",
+      "bytes": 7420
+    },
+    {
+      "path": "reference/fastmcp-client-sampling-handlers-anthropic.md",
+      "sha256": "sha256:410515b5ef448739bc293e5813d3487657f480a765532b5272c44be3de2e7fc1",
+      "bytes": 7966
+    },
+    {
+      "path": "reference/fastmcp-client-sampling-handlers-google_genai.md",
+      "sha256": "sha256:9c03c7866f0e194b8bdc2086b65c2e80edb943da70daf9d1006e2133dbab1597",
+      "bytes": 8049
+    },
+    {
+      "path": "reference/fastmcp-client-sampling-handlers-openai.md",
+      "sha256": "sha256:7e22699ea101a1751369cef060ff51f43fc5c54452f6d3e9b1a19ca96a001c01",
+      "bytes": 7885
+    },
+    {
+      "path": "reference/fastmcp-client-tasks.md",
+      "sha256": "sha256:653f51f7b627837c72f38e1fec8a9671adfb1b56ca073f6386cd6d4629d99cff",
+      "bytes": 13732
+    },
+    {
+      "path": "reference/fastmcp-client-telemetry.md",
+      "sha256": "sha256:b74c80f3464be8545dcc21654ea19c8ab9361982cad5c642f19c7f2f99ea29fb",
+      "bytes": 7445
+    },
+    {
+      "path": "reference/fastmcp-client-transports-__init__.md",
+      "sha256": "sha256:13216b0745dd84c6d171ee05bac765d820fc2a5a11491043726589240f4556d1",
+      "bytes": 7516
+    },
+    {
+      "path": "reference/fastmcp-client-transports-base.md",
+      "sha256": "sha256:437f21d000a88bf0929556697f1be296f3dd94df48e3e12812f5124819e5f9c5",
+      "bytes": 9605
+    },
+    {
+      "path": "reference/fastmcp-client-transports-config.md",
+      "sha256": "sha256:ca47bdf9043604e5688808eb47f4728c9c7e189371f9115bdf3fafa994ef7852",
+      "bytes": 10077
+    },
+    {
+      "path": "reference/fastmcp-client-transports-http.md",
+      "sha256": "sha256:1e895787794be95f2f00a277cf0373ab23db3b583cb530b9480ccd492e8dbeec",
+      "bytes": 8809
+    },
+    {
+      "path": "reference/fastmcp-client-transports-inference.md",
+      "sha256": "sha256:80f22d6ad422f21db1ae3dcdcc31310cf93ac29023436c05414162e4589a1d0b",
+      "bytes": 9742
+    },
+    {
+      "path": "reference/fastmcp-client-transports-memory.md",
+      "sha256": "sha256:8d4e65f514296b0e21dac90c08cd5d1c33bc192060742a8186a3c3389450495a",
+      "bytes": 8539
+    },
+    {
+      "path": "reference/fastmcp-client-transports-sse.md",
+      "sha256": "sha256:30b98d5da273d278ce2d8713e93e2f6c4f2cdb039e81abe4854cf5774b790f9f",
+      "bytes": 8284
+    },
+    {
+      "path": "reference/fastmcp-client-transports-stdio.md",
+      "sha256": "sha256:9ae4cf3410222b574d5a8d1ffd166f3785e98b2fc7745266df7db8a7ad5e2446",
+      "bytes": 10726
+    },
+    {
+      "path": "reference/fastmcp-decorators.md",
+      "sha256": "sha256:9f396a6c97e6b0d2bf0cee2831f0d200b96d66ce4a97a793470c9381ae3149fb",
+      "bytes": 7877
+    },
+    {
+      "path": "reference/fastmcp-dependencies.md",
+      "sha256": "sha256:e09de60bcb98e4201d5c10de86697c95784f3d8045f314a87dd26d6542c805ce",
+      "bytes": 7115
+    },
+    {
+      "path": "reference/fastmcp-exceptions.md",
+      "sha256": "sha256:4d031a882a4cfac66656d565fa64669de61521f561a2db33387c1fa9af40a88f",
+      "bytes": 8990
+    },
+    {
+      "path": "reference/fastmcp-experimental-__init__.md",
+      "sha256": "sha256:b87ecab9e7bee37393d2a16771a0e9ab18a457b8d908c69489c248c97a668bf4",
+      "bytes": 6866
+    },
+    {
+      "path": "reference/fastmcp-experimental-sampling-__init__.md",
+      "sha256": "sha256:7cc037fa315e8de2f1ccdfdf6d3bf88da660068fd29b93551e150325938bccc2",
+      "bytes": 7086
+    },
+    {
+      "path": "reference/fastmcp-experimental-sampling-handlers.md",
+      "sha256": "sha256:31552aea824948ae2ec06f9adb739b9c50f674cf6213c82f400a328136a9a9e9",
+      "bytes": 7133
+    },
+    {
+      "path": "reference/fastmcp-experimental-transforms-__init__.md",
+      "sha256": "sha256:da66fac439ba7571e71ebb661aacf83f7013d2c7b1c9df5719c19804a8a63961",
+      "bytes": 7123
+    },
+    {
+      "path": "reference/fastmcp-experimental-transforms-code_mode.md",
+      "sha256": "sha256:6e0c546140557868bbfc4d3c7a85e5360db86168357b003d164efafad798de86",
+      "bytes": 12690
+    },
+    {
+      "path": "reference/fastmcp-mcp_config.md",
+      "sha256": "sha256:487392c3ad625b8f085cbdc54d6f2a79663fd4a5a5381e2c9431e03d21d98f99",
+      "bytes": 13250
+    },
+    {
+      "path": "reference/fastmcp-prompts-__init__.md",
+      "sha256": "sha256:69d9e9c7a55a1efd12d4d8a9508f9fcc2903c6d2ab243f910fb902575f685faa",
+      "bytes": 6835
+    },
+    {
+      "path": "reference/fastmcp-prompts-function_prompt.md",
+      "sha256": "sha256:d2c8b7c823a4e01d0d6c13171edc4a01b91415afc0f25583add43393750c3d36",
+      "bytes": 10651
+    },
+    {
+      "path": "reference/fastmcp-prompts-prompt.md",
+      "sha256": "sha256:e8ad00ba98bc804980af40ba34a3efcf9b330319715d4bba49554837242a12b0",
+      "bytes": 11585
+    },
+    {
+      "path": "reference/fastmcp-resources-__init__.md",
+      "sha256": "sha256:eff81fbc4529c221f458abb148f1ab2f5fe3fd2848574cc526413cf53626f62c",
+      "bytes": 6837
+    },
+    {
+      "path": "reference/fastmcp-resources-function_resource.md",
+      "sha256": "sha256:2f54a10f418512cb6d40a001564c0980e04d2a097092d8805c52efcc646c6c78",
+      "bytes": 10429
+    },
+    {
+      "path": "reference/fastmcp-resources-resource.md",
+      "sha256": "sha256:702ad948fd917272ebb6d8fc987d51df2605c5b95abbeac287dcbd4d0eb584b2",
+      "bytes": 13214
+    },
+    {
+      "path": "reference/fastmcp-resources-template.md",
+      "sha256": "sha256:6c1551037a70cf1bfed71abbf0304f0b4cfb9b6d3e1007e173c79b18b18bb5bc",
+      "bytes": 16449
+    },
+    {
+      "path": "reference/fastmcp-resources-types.md",
+      "sha256": "sha256:9352c6052152b7bf463fb62c5e3920e95a5e605b83666881cb5612491f68b4b7",
+      "bytes": 10660
+    },
+    {
+      "path": "reference/fastmcp-server-__init__.md",
+      "sha256": "sha256:c6803e581451e4b88f70aad59dd1253508098e4551cbc4ec9535fed3bfe5388e",
+      "bytes": 6781
+    },
+    {
+      "path": "reference/fastmcp-server-apps.md",
+      "sha256": "sha256:77661bbbff2409b61d6ef9878fbe679fdf6c0b01d9f02a0c36d79702977fb83f",
+      "bytes": 10022
+    },
+    {
+      "path": "reference/fastmcp-server-auth-__init__.md",
+      "sha256": "sha256:09cfc565b9ce3b166420b3fffb603c5c0a62f7a83f7586feb16e7c0cd021300d",
+      "bytes": 7570
+    },
+    {
+      "path": "reference/fastmcp-server-auth-auth.md",
+      "sha256": "sha256:5eef7929e6da3a74ff5c23bbc100e83b90a3922f25c822195352cee077b6aeab",
+      "bytes": 21683
+    },
+    {
+      "path": "reference/fastmcp-server-auth-authorization.md",
+      "sha256": "sha256:3231748428feb26d8aa59392ae9cdee3409acbbb3b238b881ae93db906919c5e",
+      "bytes": 11777
+    },
+    {
+      "path": "reference/fastmcp-server-auth-cimd.md",
+      "sha256": "sha256:e8a5f4808de24a3bc099cd2a9a9bec57c84e27912103f755c9b88e9ca6656618",
+      "bytes": 15917
+    },
+    {
+      "path": "reference/fastmcp-server-auth-jwt_issuer.md",
+      "sha256": "sha256:bdc2edcd41696cb61fe89b8e6fca66a1dba663cca544f854d2a1a0df28e569b5",
+      "bytes": 11407
+    },
+    {
+      "path": "reference/fastmcp-server-auth-middleware.md",
+      "sha256": "sha256:eeea2871ca7a9a2f858668471efc2a50f406cb50701a6b265809e9bccb67f049",
+      "bytes": 8478
+    },
+    {
+      "path": "reference/fastmcp-server-auth-oauth_proxy-__init__.md",
+      "sha256": "sha256:7809eeda7d0499f5245d2e3965eb7c4d5c7b6d551e6bc3dfadd6f313fed82db1",
+      "bytes": 8337
+    },
+    {
+      "path": "reference/fastmcp-server-auth-oauth_proxy-consent.md",
+      "sha256": "sha256:81d41d9822f686b87e4dfb16502120b21b5144e4125f6888678abc66c308bed7",
+      "bytes": 9009
+    },
+    {
+      "path": "reference/fastmcp-server-auth-oauth_proxy-models.md",
+      "sha256": "sha256:65a5049ab2dd29ee2d0a4d2e67ffb670ac62bccbd50489537e2472a06d1aa31d",
+      "bytes": 12969
+    },
+    {
+      "path": "reference/fastmcp-server-auth-oauth_proxy-proxy.md",
+      "sha256": "sha256:38ca87f5287d96e0ecc1b09d14e056ecbc08bd9531df742086b258b074098117",
+      "bytes": 23103
+    },
+    {
+      "path": "reference/fastmcp-server-auth-oauth_proxy-ui.md",
+      "sha256": "sha256:afa25b89cc2c32f9bcfb150b4518a8f73ff9b83cd43ace34a1b08328e4c4b5a8",
+      "bytes": 10254
+    },
+    {
+      "path": "reference/fastmcp-server-auth-oidc_proxy.md",
+      "sha256": "sha256:097c4a954ce0ac0388c88a5705654334d9124bcc915540fadfb210b91513e24d",
+      "bytes": 10446
+    },
+    {
+      "path": "reference/fastmcp-server-auth-providers-__init__.md",
+      "sha256": "sha256:3c3bf3e88159da36632df7d6a62a021cf884ccda0b1869a3c4a52a911d7d6dc6",
+      "bytes": 9195
+    },
+    {
+      "path": "reference/fastmcp-server-auth-providers-auth0.md",
+      "sha256": "sha256:8c7422a7a6474eb09eb4c626ec3335aa4f1a7baeaa49b608909023cae8fc88e3",
+      "bytes": 10383
+    },
+    {
+      "path": "reference/fastmcp-server-auth-providers-aws.md",
+      "sha256": "sha256:9cdbcc4e5acd372fe0712649509a7875e1b8748398affd4566289ffa4b7e72b8",
+      "bytes": 12010
+    },
+    {
+      "path": "reference/fastmcp-server-auth-providers-azure.md",
+      "sha256": "sha256:220e4cbcf5687ab7c9e9709500c2a523aac089db5efc002932691b8e44ec72ab",
+      "bytes": 15924
+    },
+    {
+      "path": "reference/fastmcp-server-auth-providers-debug.md",
+      "sha256": "sha256:b7b9bdf86b40e150ade89d6fff0e59017fc7e653230b8ad6cfaca635328cdf63",
+      "bytes": 11330
+    },
+    {
+      "path": "reference/fastmcp-server-auth-providers-descope.md",
+      "sha256": "sha256:ef76433b96a6c98b0de3d4d92f49525bf77c87b0fd33711f261917b9d9792e53",
+      "bytes": 11220
+    },
+    {
+      "path": "reference/fastmcp-server-auth-providers-discord.md",
+      "sha256": "sha256:fbf04aeff37e1b161d0c280c04e1715e3a62dcb59d49cce481c84e1df2915f80",
+      "bytes": 11382
+    },
+    {
+      "path": "reference/fastmcp-server-auth-providers-github.md",
+      "sha256": "sha256:1dfa17bf781287cd13a813a1877dd8ca2cc0a02636aa81e1aa05f6e70294a956",
+      "bytes": 11292
+    },
+    {
+      "path": "reference/fastmcp-server-auth-providers-google.md",
+      "sha256": "sha256:47cea7f3ec2333d199b85aa9d774a1adbcf3b92e543d9f6775c5c00bc4397542",
+      "bytes": 11378
+    },
+    {
+      "path": "reference/fastmcp-server-auth-providers-in_memory.md",
+      "sha256": "sha256:bd8f83242f4297e7a5ddc527acd0f5fca1778a6e90cccb47966627f726c21380",
+      "bytes": 13625
+    },
+    {
+      "path": "reference/fastmcp-server-auth-providers-introspection.md",
+      "sha256": "sha256:abdfc8c7623d1123872b1d180ab4562a0912aac869c584bf9c5b5afea93afe0f",
+      "bytes": 12445
+    },
+    {
+      "path": "reference/fastmcp-server-auth-providers-jwt.md",
+      "sha256": "sha256:180be46ccef05b17f1eef2e69d3dcb8d704a3aa6358b2ee637c67d324c45630d",
+      "bytes": 14843
+    },
+    {
+      "path": "reference/fastmcp-server-auth-providers-oci.md",
+      "sha256": "sha256:8ade231b7c894991c28308ecef8da63dd6ea66fbb36547847031cb6c93d63df7",
+      "bytes": 13241
+    },
+    {
+      "path": "reference/fastmcp-server-auth-providers-propelauth.md",
+      "sha256": "sha256:ef7bbe2040c074180e4ca70385dc19fc4748985647a7ab120582351921492a27",
+      "bytes": 11740
+    },
+    {
+      "path": "reference/fastmcp-server-auth-providers-scalekit.md",
+      "sha256": "sha256:1d21d6b9616690df3419bc97474d24ffbe38ba9a31ea16c3fba39f0f85721675",
+      "bytes": 11347
+    },
+    {
+      "path": "reference/fastmcp-server-auth-providers-supabase.md",
+      "sha256": "sha256:55703fe7362f0d8598c6eb7b293c081dbe35276d6585811235e0d5c0fedf6b81",
+      "bytes": 11743
+    },
+    {
+      "path": "reference/fastmcp-server-auth-providers-workos.md",
+      "sha256": "sha256:35f3a9e159e6ebb0beaaee5bdd3c0ce39cff97b3b0eeac6225dfb589554a6002",
+      "bytes": 12840
+    },
+    {
+      "path": "reference/fastmcp-server-auth-redirect_validation.md",
+      "sha256": "sha256:c09a0a7023a991c680b87f64e63f2f8828c80eb4cd38b7958a31385f5fa2e911",
+      "bytes": 9708
+    },
+    {
+      "path": "reference/fastmcp-server-auth-ssrf.md",
+      "sha256": "sha256:4669283768c34f5a1905f841dccc3b6caeb03b8ae6baaca0b3b427ea06c576e8",
+      "bytes": 12912
+    },
+    {
+      "path": "reference/fastmcp-server-context.md",
+      "sha256": "sha256:e0472b5aa52641f33d0ff2d2368dad3d45db36135bff0cc50e50974af3e8bed8",
+      "bytes": 35105
+    },
+    {
+      "path": "reference/fastmcp-server-dependencies.md",
+      "sha256": "sha256:d1c5afab9d6684aa3a4d847b324d009808658f1994803e2da377028c88d5526e",
+      "bytes": 27501
+    },
+    {
+      "path": "reference/fastmcp-server-elicitation.md",
+      "sha256": "sha256:0ead960c4377d59194dbd6ba90deedb1378a5e981ae7cf1311fc77c78bcfb510",
+      "bytes": 12588
+    },
+    {
+      "path": "reference/fastmcp-server-event_store.md",
+      "sha256": "sha256:df268ea4c8cc30f1774d18ea261f448e9f5653fe5419382cca6d0810201cdb29",
+      "bytes": 9643
+    },
+    {
+      "path": "reference/fastmcp-server-http.md",
+      "sha256": "sha256:e67d75c043d9f2006d5daeca83916b3ee34e2f521cffa0bd2a4d08262813aec4",
+      "bytes": 11405
+    },
+    {
+      "path": "reference/fastmcp-server-lifespan.md",
+      "sha256": "sha256:ba3ca63597cbe6cb08d40a2eda08a9c84be587fba53fd9279d24f68810a4dbb1",
+      "bytes": 9764
+    },
+    {
+      "path": "reference/fastmcp-server-low_level.md",
+      "sha256": "sha256:4265af2a9f3f1dc3062927fb50ab532097b2f3095517699b9d8a274e9e87004b",
+      "bytes": 11573
+    },
+    {
+      "path": "reference/fastmcp-server-middleware-__init__.md",
+      "sha256": "sha256:9d642c9f1d02ec063c17ac1220f2464f94ff90b0adbf3c80e20a1e91304ad3fc",
+      "bytes": 7972
+    },
+    {
+      "path": "reference/fastmcp-server-middleware-authorization.md",
+      "sha256": "sha256:a20d504c7fd765d344e5c4aa179f1ec4ab515435e9aa57297eb8a0d80f7f8b25",
+      "bytes": 12847
+    },
+    {
+      "path": "reference/fastmcp-server-middleware-caching.md",
+      "sha256": "sha256:a039780c8e30e614bcd59caacd601a1aa2cd337c6b2e8db5d3a4e76840addd7b",
+      "bytes": 18463
+    },
+    {
+      "path": "reference/fastmcp-server-middleware-dereference.md",
+      "sha256": "sha256:cf435bb048a8554979af87e4ca6c9a6fd88d8ac6ef1d589d45ffac219874f17a",
+      "bytes": 9746
+    },
+    {
+      "path": "reference/fastmcp-server-middleware-error_handling.md",
+      "sha256": "sha256:90d8839f12436f02a85f2dee3b968cf06d8d9a99e8ede9ec7bbc7de536bcb011",
+      "bytes": 10187
+    },
+    {
+      "path": "reference/fastmcp-server-middleware-logging.md",
+      "sha256": "sha256:7ff9cf0e43f5bf0a4146805274ac7854bccb644af8c5af2678672e7433094621",
+      "bytes": 10251
+    },
+    {
+      "path": "reference/fastmcp-server-middleware-middleware.md",
+      "sha256": "sha256:266d292d1cb077128094f5c7d397831a30dc4f7b1c1032e81298f54334db538e",
+      "bytes": 14187
+    },
+    {
+      "path": "reference/fastmcp-server-middleware-ping.md",
+      "sha256": "sha256:23e05d86fba6f732904365a27c8384165c2fc1ea93d19cd1de2e2f354f0a5a1d",
+      "bytes": 8921
+    },
+    {
+      "path": "reference/fastmcp-server-middleware-rate_limiting.md",
+      "sha256": "sha256:924402d644ba3634f0db97e55431cade58c27ae428a59080151fe53a0416ca8a",
+      "bytes": 11526
+    },
+    {
+      "path": "reference/fastmcp-server-middleware-response_limiting.md",
+      "sha256": "sha256:e30ba517b46ed427c3d52611dcd15d527307d28e27b389f7f1be1c88e71922e9",
+      "bytes": 9246
+    },
+    {
+      "path": "reference/fastmcp-server-middleware-timing.md",
+      "sha256": "sha256:c2b49799372a23160a107e92f4f90edc84b99de91b58c6d051581dfcda761e50",
+      "bytes": 11798
+    },
+    {
+      "path": "reference/fastmcp-server-middleware-tool_injection.md",
+      "sha256": "sha256:3b9c33fd29cabab1a21ca30e5c23db7a279568c6e425848460e868d1df3d8975",
+      "bytes": 11822
+    },
+    {
+      "path": "reference/fastmcp-server-mixins-__init__.md",
+      "sha256": "sha256:95bdec76d5b7d3e1581939e18d53c69c47229ca51fa016d96421118aaf07bfb4",
+      "bytes": 7150
+    },
+    {
+      "path": "reference/fastmcp-server-mixins-lifespan.md",
+      "sha256": "sha256:bdbff436b72dbb046c882a7bcfbf0cbb93b4edaca65ead7dbeb5bc939387b12a",
+      "bytes": 8040
+    },
+    {
+      "path": "reference/fastmcp-server-mixins-mcp_operations.md",
+      "sha256": "sha256:e43829119f45ec831363a2d6159e4848f16e121b528ea504d776c82229b07162",
+      "bytes": 8154
+    },
+    {
+      "path": "reference/fastmcp-server-mixins-transport.md",
+      "sha256": "sha256:c0da27a4441e21b671de6faf6f25e048aef03ba9362352cbf2f0c0e62700880f",
+      "bytes": 13585
+    },
+    {
+      "path": "reference/fastmcp-server-openapi-__init__.md",
+      "sha256": "sha256:427127590693451d336dbe248d820d087faf5f944678c02b7a7c94d3bf84dd67",
+      "bytes": 7570
+    },
+    {
+      "path": "reference/fastmcp-server-openapi-components.md",
+      "sha256": "sha256:cc423d8d0b82c3d90d07fc9af1a932b2122b348e204f73c5188900acbbb6303c",
+      "bytes": 7305
+    },
+    {
+      "path": "reference/fastmcp-server-openapi-routing.md",
+      "sha256": "sha256:d8012e93db48897b511231bebf5b5ea2edfe8272912c9a2a4d701f0b31a479fc",
+      "bytes": 7274
+    },
+    {
+      "path": "reference/fastmcp-server-openapi-server.md",
+      "sha256": "sha256:60241033824ce7b844c942e053609868da14d64b4fa5006c1d62370f0a0948a5",
+      "bytes": 8133
+    },
+    {
+      "path": "reference/fastmcp-server-providers-__init__.md",
+      "sha256": "sha256:800eb27fd482836a49c5e56fed30db438c469f6f4acc0da1df0baf4a904538a9",
+      "bytes": 8375
+    },
+    {
+      "path": "reference/fastmcp-server-providers-aggregate.md",
+      "sha256": "sha256:c6c2eb65ddc6e42c7e88dcacfc659f6130acd5a38be1fbe6137598cc942b8915",
+      "bytes": 10389
+    },
+    {
+      "path": "reference/fastmcp-server-providers-base.md",
+      "sha256": "sha256:b021192055e0ab4c6ae639416923d0020351330e448b804b38fe0c85220f42ed",
+      "bytes": 18423
+    },
+    {
+      "path": "reference/fastmcp-server-providers-fastmcp_provider.md",
+      "sha256": "sha256:b265c998fc246a2590fcfea08df596bed023e6a1a10bfd5a1789cd00e9391bda",
+      "bytes": 17424
+    },
+    {
+      "path": "reference/fastmcp-server-providers-filesystem.md",
+      "sha256": "sha256:94f58b83339f1650f1d9d297207fc5bc04569afd0b4cf7131ef1e81d3fa15513",
+      "bytes": 9287
+    },
+    {
+      "path": "reference/fastmcp-server-providers-filesystem_discovery.md",
+      "sha256": "sha256:471103214d39cd1d03c3ba55087b788ba82165aa4265adddc89e83ac6e2f0a9a",
+      "bytes": 11322
+    },
+    {
+      "path": "reference/fastmcp-server-providers-local_provider-__init__.md",
+      "sha256": "sha256:028d446bd01bac7afaac1f5b3a6780392fa1a251677075c5af473fc95c8e5140",
+      "bytes": 8170
+    },
+    {
+      "path": "reference/fastmcp-server-providers-local_provider-decorators-__init__.md",
+      "sha256": "sha256:aafe73b1476123ae1a5b9cc336a96979f76642d243254f20cdcf8e7576ee66a0",
+      "bytes": 8653
+    },
+    {
+      "path": "reference/fastmcp-server-providers-local_provider-decorators-prompts.md",
+      "sha256": "sha256:957dbbfedfb960ab27378bf45684eceeda0834a2e359ca4b37f73ccfda5d8a8c",
+      "bytes": 12097
+    },
+    {
+      "path": "reference/fastmcp-server-providers-local_provider-decorators-resources.md",
+      "sha256": "sha256:09df884ceda33534fb566db3d9cb8383afb8df687bfb70b889a519ffe0ad668b",
+      "bytes": 11779
+    },
+    {
+      "path": "reference/fastmcp-server-providers-local_provider-decorators-tools.md",
+      "sha256": "sha256:980ed77ea09c32a6513c2f12b72e6d8a11ea302c11109adba724c0868e414f66",
+      "bytes": 12206
+    },
+    {
+      "path": "reference/fastmcp-server-providers-local_provider-local_provider.md",
+      "sha256": "sha256:8a5b74ee0a043ddd3b0e745d27d27dca73daa12223261511c9a126d4428d9dfb",
+      "bytes": 12447
+    },
+    {
+      "path": "reference/fastmcp-server-providers-openapi-__init__.md",
+      "sha256": "sha256:9889acc4dc628c6ff6f45e8bf02ce819de96218fd399b6f2f23639cad703cc24",
+      "bytes": 8461
+    },
+    {
+      "path": "reference/fastmcp-server-providers-openapi-components.md",
+      "sha256": "sha256:696caab1f8d51bee8adcf8ec1d9f02ce565c4968d7f3e40ad2a39e0091cc66e2",
+      "bytes": 10261
+    },
+    {
+      "path": "reference/fastmcp-server-providers-openapi-provider.md",
+      "sha256": "sha256:9f180562ca5d9f9a9cd0a1e44f036c8c3e70a1bcc0021ad34e221ffe1038f4a8",
+      "bytes": 9447
+    },
+    {
+      "path": "reference/fastmcp-server-providers-openapi-routing.md",
+      "sha256": "sha256:6d89577b644b97e3732b61d602ae73248e5217b0a90d755363a4bf0d00b06f46",
+      "bytes": 8800
+    },
+    {
+      "path": "reference/fastmcp-server-providers-proxy.md",
+      "sha256": "sha256:81e9704d7eab7f7a2114cbbc93186505b2d8a69d45c8c85196caa32b2aec0389",
+      "bytes": 20653
+    },
+    {
+      "path": "reference/fastmcp-server-providers-skills-__init__.md",
+      "sha256": "sha256:0c58026884bf6338436fccaf9071b0b1b75dbbc099ca38dd29f39e5eddba6b2b",
+      "bytes": 8994
+    },
+    {
+      "path": "reference/fastmcp-server-providers-skills-claude_provider.md",
+      "sha256": "sha256:d508a6a5953b88aa24a8d336a8712b6e1e3161c6cb4e22df7a2ad4ea98544245",
+      "bytes": 9255
+    },
+    {
+      "path": "reference/fastmcp-server-providers-skills-directory_provider.md",
+      "sha256": "sha256:cc364f8bb4f29b8c645f5e90a371d92681d13409a4414a03b0382654ecc72b02",
+      "bytes": 9735
+    },
+    {
+      "path": "reference/fastmcp-server-providers-skills-skill_provider.md",
+      "sha256": "sha256:fa81feb9ac0c597ce7571f18a53e1bb89328282dae7fd6746802ea48a6eab424",
+      "bytes": 12868
+    },
+    {
+      "path": "reference/fastmcp-server-providers-skills-vendor_providers.md",
+      "sha256": "sha256:a86e71aee51f8ebeb25b49c7b8a595c05ecde5bcb37a40ac0541a4a12f848db5",
+      "bytes": 10876
+    },
+    {
+      "path": "reference/fastmcp-server-providers-wrapped_provider.md",
+      "sha256": "sha256:b0bb76cd88f77881f264bc7d28bacbe3402946d1c11acd285d67370a03ea6943",
+      "bytes": 7893
+    },
+    {
+      "path": "reference/fastmcp-server-proxy.md",
+      "sha256": "sha256:81b922da96cb9310a01901583201bca6bb9cedfdbc5a6324d1c8e5b16defd380",
+      "bytes": 7036
+    },
+    {
+      "path": "reference/fastmcp-server-sampling-__init__.md",
+      "sha256": "sha256:288476ebd44ed435d6ccebb815457b7d942a48c4750011c0b83058e9b242c959",
+      "bytes": 7051
+    },
+    {
+      "path": "reference/fastmcp-server-sampling-run.md",
+      "sha256": "sha256:1aa676f0ca89701091680fa827f845ba9e5c01fe8986dc20e94abba58167c03c",
+      "bytes": 14667
+    },
+    {
+      "path": "reference/fastmcp-server-sampling-sampling_tool.md",
+      "sha256": "sha256:098095ed86fffcb5ae3a1f894c6c563a7c5c25bcc926241e642ffb246d93b2e1",
+      "bytes": 10610
+    },
+    {
+      "path": "reference/fastmcp-server-server.md",
+      "sha256": "sha256:d807adef7ec559bc1fc40f02e28da98261d8a7d9118600cc36cd909484ee3ae4",
+      "bytes": 41458
+    },
+    {
+      "path": "reference/fastmcp-server-tasks-__init__.md",
+      "sha256": "sha256:df9d87e18e0d916c47ea175bd045d4b1b5c6f87249e8aa164ddfbbf74d57e6be",
+      "bytes": 7702
+    },
+    {
+      "path": "reference/fastmcp-server-tasks-capabilities.md",
+      "sha256": "sha256:a7cc09e3fd1b1b8216090b734a0d3107af8b3f13162292622f01e84bb3e3a3d5",
+      "bytes": 8577
+    },
+    {
+      "path": "reference/fastmcp-server-tasks-config.md",
+      "sha256": "sha256:2854b73b39f0ebfc74cf18f8771661cee8a757768ecb378264465274459fbf7b",
+      "bytes": 10921
+    },
+    {
+      "path": "reference/fastmcp-server-tasks-elicitation.md",
+      "sha256": "sha256:ad828228ab6f16ed49d9d1ca2069015f8ffc44df2b0c5be6d24113af2aa345e8",
+      "bytes": 11234
+    },
+    {
+      "path": "reference/fastmcp-server-tasks-handlers.md",
+      "sha256": "sha256:817e686c2efe63432c8379735e07ce670a2cf3ab59328dd2efe5ea8f1dea3009",
+      "bytes": 9203
+    },
+    {
+      "path": "reference/fastmcp-server-tasks-keys.md",
+      "sha256": "sha256:c846bc15b0f96e2970b2fa5aa572d377358f21972d0bdbb752634ca522a99f47",
+      "bytes": 10589
+    },
+    {
+      "path": "reference/fastmcp-server-tasks-notifications.md",
+      "sha256": "sha256:83420fd540e628baa27e91cda5043a7fb51727807ffb43faec536a96321aad92",
+      "bytes": 11866
+    },
+    {
+      "path": "reference/fastmcp-server-tasks-requests.md",
+      "sha256": "sha256:cf05e8be640097a59cd89af541dca59e004815e47bbb3cffcbc56f3bb8e92506",
+      "bytes": 10430
+    },
+    {
+      "path": "reference/fastmcp-server-tasks-routing.md",
+      "sha256": "sha256:539709f0c108fe7abb277a51508f0fc5d9ff2a618710f3df6eaeb79ad9900082",
+      "bytes": 8913
+    },
+    {
+      "path": "reference/fastmcp-server-telemetry.md",
+      "sha256": "sha256:2753e7fc840b14ab8ab738656f3cccd3c9e62bfd7dcb6e4945da41cbae3e0d76",
+      "bytes": 8696
+    },
+    {
+      "path": "reference/fastmcp-server-transforms-__init__.md",
+      "sha256": "sha256:cd5b5fbc6b129c942f860e2b4cb1c555d6e4d6691fd73245a2e70505232c2fc2",
+      "bytes": 14102
+    },
+    {
+      "path": "reference/fastmcp-server-transforms-catalog.md",
+      "sha256": "sha256:a4e642e95cd5c68fe5fb6cee30bf3cde4be7a1b2852ded1bed5dcb7f5e9e52a1",
+      "bytes": 16882
+    },
+    {
+      "path": "reference/fastmcp-server-transforms-namespace.md",
+      "sha256": "sha256:24873b6a8f50701b874193815ef29d109f453eec47a37f85f50f34d2d770b9cc",
+      "bytes": 11077
+    },
+    {
+      "path": "reference/fastmcp-server-transforms-prompts_as_tools.md",
+      "sha256": "sha256:5f4deb26710a6f57a5b5b447df6b607eccb3b4609d09ea774942b5ac3da4ae32",
+      "bytes": 9635
+    },
+    {
+      "path": "reference/fastmcp-server-transforms-resources_as_tools.md",
+      "sha256": "sha256:6d0e843714fe35f503f05fbdd564bc7f50a30277ab6ec32a7ff24943b1a15894",
+      "bytes": 9699
+    },
+    {
+      "path": "reference/fastmcp-server-transforms-search-__init__.md",
+      "sha256": "sha256:e2e14a471f9b8e2212de1eaddef02aaa6b59bc08e49c210f1c4974f77c4e3d51",
+      "bytes": 8414
+    },
+    {
+      "path": "reference/fastmcp-server-transforms-search-base.md",
+      "sha256": "sha256:c15d76c1382a592f9e93ce63a429f48d2ef3aad8e652aed6f96c89a75cb54e02",
+      "bytes": 12532
+    },
+    {
+      "path": "reference/fastmcp-server-transforms-search-bm25.md",
+      "sha256": "sha256:20343f9d0e172447b9bde416eb3c7160e4f9c627b672f7e277d8207153cb0a67",
+      "bytes": 8608
+    },
+    {
+      "path": "reference/fastmcp-server-transforms-search-regex.md",
+      "sha256": "sha256:5a3a72c97a78f939fe0a7b1852addef3c6f7dcf1d24936b94334c9abfdcde7d9",
+      "bytes": 8629
+    },
+    {
+      "path": "reference/fastmcp-server-transforms-visibility.md",
+      "sha256": "sha256:b4847960d0325e0d60f0bb4ecdc9413d8607872fa35dd01096fa64b8b9e2a764",
+      "bytes": 17418
+    },
+    {
+      "path": "reference/fastmcp-settings.md",
+      "sha256": "sha256:bbb872d25316e9d3e3d5e8be006ead643f2f7e67b0de49be5e54ae6c3c7f28ce",
+      "bytes": 8108
+    },
+    {
+      "path": "reference/fastmcp-telemetry.md",
+      "sha256": "sha256:618cc4204c638b55b20c2ce0cc34cae49f410503d815596e130d926f2a318e95",
+      "bytes": 9645
+    },
+    {
+      "path": "reference/fastmcp-tools-__init__.md",
+      "sha256": "sha256:d811100db5d3f17a6e7730248908946e935c8816d37403776dc58d506a90bb7e",
+      "bytes": 6813
+    },
+    {
+      "path": "reference/fastmcp-tools-function_parsing.md",
+      "sha256": "sha256:97053bdc0b3a2716364b0dd75872be234a14c000a732e1419d6183e494faddfd",
+      "bytes": 7676
+    },
+    {
+      "path": "reference/fastmcp-tools-function_tool.md",
+      "sha256": "sha256:0a0b156179197af759cbee9f61784c4fc258dc75e6b6b0a6a4b8e7ace62cd1c1",
+      "bytes": 10642
+    },
+    {
+      "path": "reference/fastmcp-tools-tool.md",
+      "sha256": "sha256:555458bc37c7e675c45440c9d75d8d76ee593de4f4d6fb748cf5264a769a51a1",
+      "bytes": 10854
+    },
+    {
+      "path": "reference/fastmcp-tools-tool_transform.md",
+      "sha256": "sha256:ade7e632e78a9ec73d164621cbaa93a740bd9ed730b333597596a77f087c5c2d",
+      "bytes": 19474
+    },
+    {
+      "path": "reference/fastmcp-utilities-__init__.md",
+      "sha256": "sha256:bc517c0fdc3c0b238c7a7f69c3dffbf4929071b8151de78a4a1c442c49da70f1",
+      "bytes": 6790
+    },
+    {
+      "path": "reference/fastmcp-utilities-async_utils.md",
+      "sha256": "sha256:cb28aef79b4fc9064d3d407399a0380db57d4e787c522e691a8af9621fd517f3",
+      "bytes": 8218
+    },
+    {
+      "path": "reference/fastmcp-utilities-auth.md",
+      "sha256": "sha256:75aea58bd27ea51c2ece45f69b52ea2e6bf83ba5b45de185ccaa222dd5a910ac",
+      "bytes": 8570
+    },
+    {
+      "path": "reference/fastmcp-utilities-cli.md",
+      "sha256": "sha256:db5fb0689a619aa7b73abba6f65ed4258f5619eb6a7f5fb4acd8c46702f1b246",
+      "bytes": 8298
+    },
+    {
+      "path": "reference/fastmcp-utilities-components.md",
+      "sha256": "sha256:bf40ca2705d62b245f4ae8a2760f85901c923c7d051f8ff42d6725c1fa7ae8d2",
+      "bytes": 12081
+    },
+    {
+      "path": "reference/fastmcp-utilities-exceptions.md",
+      "sha256": "sha256:b9ee3404ae88f4388b3d4f91eda886f6d003a2eadade48c7336a9d03015c8621",
+      "bytes": 7577
+    },
+    {
+      "path": "reference/fastmcp-utilities-http.md",
+      "sha256": "sha256:8b9bc45033843135c261a34c9bcf7121e7ae28e3f9c8c5039793ab3097179be0",
+      "bytes": 7232
+    },
+    {
+      "path": "reference/fastmcp-utilities-inspect.md",
+      "sha256": "sha256:782ad4db70fb732774f51c825bcc0351f7d519bd51208b5bd254912f3783679e",
+      "bytes": 11538
+    },
+    {
+      "path": "reference/fastmcp-utilities-json_schema.md",
+      "sha256": "sha256:6cf8f4f282e25dbd5e98d400c9333be5416c1ef026995c91fdaeef612aeedca5",
+      "bytes": 10198
+    },
+    {
+      "path": "reference/fastmcp-utilities-json_schema_type.md",
+      "sha256": "sha256:94306684f38d00551794487964e277771d84549931391034b2af27541a485ba5",
+      "bytes": 10275
+    },
+    {
+      "path": "reference/fastmcp-utilities-lifespan.md",
+      "sha256": "sha256:ad8cf3729c69baf314ecbe613efbcfc3affa091dd4e4e8b39044103cc6819e3b",
+      "bytes": 7991
+    },
+    {
+      "path": "reference/fastmcp-utilities-logging.md",
+      "sha256": "sha256:a98922ea50a69420c17cc507bdb72acfbf81d24bf10994dd2a5e7c8df4d20ab5",
+      "bytes": 8768
+    },
+    {
+      "path": "reference/fastmcp-utilities-mcp_server_config-__init__.md",
+      "sha256": "sha256:d5276b6d22eb77f798d91153ee45ecbd49ac09d8bf8d1d8288d98202a9a74821",
+      "bytes": 7175
+    },
+    {
+      "path": "reference/fastmcp-utilities-mcp_server_config-v1-__init__.md",
+      "sha256": "sha256:3a0039236774a97e333c97eb08dc055c8e97ff343adf709e12509890f0566052",
+      "bytes": 7356
+    },
+    {
+      "path": "reference/fastmcp-utilities-mcp_server_config-v1-environments-__init__.md",
+      "sha256": "sha256:6a2c3a2e2f543ba30d29ef88097b321104ddad665c339544bf1f0452977bfb1e",
+      "bytes": 7759
+    },
+    {
+      "path": "reference/fastmcp-utilities-mcp_server_config-v1-environments-base.md",
+      "sha256": "sha256:8e715b2b920838fe9353e87391a052ce1f8a754461bf58fd72efd8cbb96ca9b5",
+      "bytes": 9190
+    },
+    {
+      "path": "reference/fastmcp-utilities-mcp_server_config-v1-environments-uv.md",
+      "sha256": "sha256:08978634b7fb98932a5f97c52fcd6308e1b67acbe62a1aab336414015121f7ae",
+      "bytes": 9407
+    },
+    {
+      "path": "reference/fastmcp-utilities-mcp_server_config-v1-mcp_server_config.md",
+      "sha256": "sha256:7c94124b842b4f095c4eca7602e2f693c27cc97071e948ac9f73858fc5752b67",
+      "bytes": 16786
+    },
+    {
+      "path": "reference/fastmcp-utilities-mcp_server_config-v1-sources-__init__.md",
+      "sha256": "sha256:e258ce0f54f347c39ef32d9ad4a10461652fabcef0af83022fc2bc710194357f",
+      "bytes": 7759
+    },
+    {
+      "path": "reference/fastmcp-utilities-mcp_server_config-v1-sources-base.md",
+      "sha256": "sha256:3dffa0ddb03ae077f157abf66fa5a5cb044a4ee055a1f9045b61587865e6d6c4",
+      "bytes": 9167
+    },
+    {
+      "path": "reference/fastmcp-utilities-mcp_server_config-v1-sources-filesystem.md",
+      "sha256": "sha256:310427b07566c06f9131bbb186b3b32f74dd9e1cdaf3e064966f8e14b5c64765",
+      "bytes": 9109
+    },
+    {
+      "path": "reference/fastmcp-utilities-openapi-__init__.md",
+      "sha256": "sha256:b641dfbe5f65ef6cc4d9385e8d211d6bbd013b040d017f9468b440a2af5e80c5",
+      "bytes": 7521
+    },
+    {
+      "path": "reference/fastmcp-utilities-openapi-director.md",
+      "sha256": "sha256:cd95899702379181a64d8ba4700fdc856af311f725fd4d885f0bf1eea10cc400",
+      "bytes": 8677
+    },
+    {
+      "path": "reference/fastmcp-utilities-openapi-formatters.md",
+      "sha256": "sha256:c107d753f409231cd9bbd712798a04c2dc4ff8ff0d46ca0af6762c22155ea363",
+      "bytes": 11385
+    },
+    {
+      "path": "reference/fastmcp-utilities-openapi-json_schema_converter.md",
+      "sha256": "sha256:58ce7dadcdeaa19edc13d417e09cf4e844dd1963f68a7a2e2c3dbb75384dcd4a",
+      "bytes": 10104
+    },
+    {
+      "path": "reference/fastmcp-utilities-openapi-models.md",
+      "sha256": "sha256:87ead6306ddaac9b7c938f3499b2508376c71b9233927e73a9c5928d74f8c66b",
+      "bytes": 8761
+    },
+    {
+      "path": "reference/fastmcp-utilities-openapi-parser.md",
+      "sha256": "sha256:886082f7e38632a4b442fb79d643a09da8722bcc1a5ace209ecbf7edc4c7e76d",
+      "bytes": 8976
+    },
+    {
+      "path": "reference/fastmcp-utilities-openapi-schemas.md",
+      "sha256": "sha256:97ecabec833fa0c4dd23c9a27b0978a706453e3c0bb963cb98c1bf1c96ba691d",
+      "bytes": 9272
+    },
+    {
+      "path": "reference/fastmcp-utilities-pagination.md",
+      "sha256": "sha256:fdda935b90a072cdfa55ab8b35aa9a1c4d4e89df97e6f5f2a041e7f795cc8337",
+      "bytes": 8887
+    },
+    {
+      "path": "reference/fastmcp-utilities-skills.md",
+      "sha256": "sha256:4b4fc9623db1c8711f9fd657d31f4c1eea9b37895297413ba2ae66b0460d1302",
+      "bytes": 10385
+    },
+    {
+      "path": "reference/fastmcp-utilities-tests.md",
+      "sha256": "sha256:9d7c2fcded5378668cc5677f48156deb58c9052772de629d915f14b619737a9c",
+      "bytes": 10606
+    },
+    {
+      "path": "reference/fastmcp-utilities-timeout.md",
+      "sha256": "sha256:4ff71c1d7b4f5eed6bb3629ac572d61e211761a7bb8e764f5651ad67620357e9",
+      "bytes": 8176
+    },
+    {
+      "path": "reference/fastmcp-utilities-types.md",
+      "sha256": "sha256:800505624d5e54b218cec901b4e413ca8496e1abc42d517bcde5e7158f4eae00",
+      "bytes": 13081
+    },
+    {
+      "path": "reference/fastmcp-utilities-ui.md",
+      "sha256": "sha256:0ae3234f3a1fe3f49b381e7ff1a9b236843bd02fb73c13482690f8abb2e60f5b",
+      "bytes": 10811
+    },
+    {
+      "path": "reference/fastmcp-utilities-version_check.md",
+      "sha256": "sha256:63622b9a9816af9221cb8b0b6b5d6ed889ba54403fb1c7f881478c522a377b5f",
+      "bytes": 8013
+    },
+    {
+      "path": "reference/fastmcp-utilities-versions.md",
+      "sha256": "sha256:87ae4fcc572ea8627919d7112cec821282db7228c6607655cbb17ff00a2db264",
+      "bytes": 12891
+    },
+    {
+      "path": "reference/getting-started_installation.md",
+      "sha256": "sha256:0c6c308315f254dd96b814e966d7422bd21332dbf523c7a9ca11c0acbb873221",
+      "bytes": 7262
+    },
+    {
+      "path": "reference/getting-started_quickstart.md",
+      "sha256": "sha256:8833a687d1881f8458f90efa34bf2160912d82d27f2c252494cd546ea3c195ed",
+      "bytes": 7276
+    },
+    {
+      "path": "reference/getting-started_upgrading_from-fastmcp-2.md",
+      "sha256": "sha256:914d5a42b081f14bf0ff24c31dd97bfce9169c6460bc7604999a2019f4a97b2a",
+      "bytes": 17702
+    },
+    {
+      "path": "reference/getting-started_upgrading_from-low-level-sdk.md",
+      "sha256": "sha256:31f1c6ef7a0972a464e51ccbe16e04a9c67d5fc2f26ff67eadcb7d367b86e09b",
+      "bytes": 18669
+    },
+    {
+      "path": "reference/getting-started_upgrading_from-mcp-sdk.md",
+      "sha256": "sha256:0b83a9850471f86f6571f99293c1b6f8b9e13d00702a79c627b6c657541b1c92",
+      "bytes": 9157
+    },
+    {
+      "path": "reference/getting-started_welcome.md",
+      "sha256": "sha256:9ee0a902b94afb2363b97b9198c6c255eea7cfd971cc4701b7540fb143bf0e4b",
+      "bytes": 6428
+    },
+    {
+      "path": "reference/integrations_anthropic.md",
+      "sha256": "sha256:83cebf5c18da13f8aa26542fa11bdd217532b31a9d6972b8abd4bab7823b0b97",
+      "bytes": 10262
+    },
+    {
+      "path": "reference/integrations_auth0.md",
+      "sha256": "sha256:1de8a4a065f93e2d3b5855634d3d13a4565b877457617c7bc509213e1e5d6b1a",
+      "bytes": 11636
+    },
+    {
+      "path": "reference/integrations_authkit.md",
+      "sha256": "sha256:65df76c15d95490990ec72b78ae660a39ea3e4a0f9360a59d5dc9429e7fcbc12",
+      "bytes": 7950
+    },
+    {
+      "path": "reference/integrations_aws-cognito.md",
+      "sha256": "sha256:198be5f5bb0406b2c576919aac567bf953f9e505a06d1e0731250c604bb3aa91",
+      "bytes": 16657
+    },
+    {
+      "path": "reference/integrations_azure.md",
+      "sha256": "sha256:9bbdb5a0552097c277e8b17cd3c8974809ae706d15b97357b6e58cd1cd2de2a8",
+      "bytes": 24617
+    },
+    {
+      "path": "reference/integrations_chatgpt.md",
+      "sha256": "sha256:db4f56f1ebd7a0445ac944668181a5ff7de960699688d6183e8653ec5958757f",
+      "bytes": 8462
+    },
+    {
+      "path": "reference/integrations_claude-code.md",
+      "sha256": "sha256:fe0598083daf0bc1fdd4f42c089ae4bdec3470336c8ace189413a8f1d4db121a",
+      "bytes": 10156
+    },
+    {
+      "path": "reference/integrations_claude-desktop.md",
+      "sha256": "sha256:b48f3e7686b51ba16758ad1667e2a80cac9dd4a69c79adb7e7d279213a55cfe4",
+      "bytes": 14663
+    },
+    {
+      "path": "reference/integrations_cursor.md",
+      "sha256": "sha256:85c881c5513d3125a2319ca536bc44732ce54ace47082bd1c6a72b8d65ca38c6",
+      "bytes": 13506
+    },
+    {
+      "path": "reference/integrations_descope.md",
+      "sha256": "sha256:79ebb4db53d80c418b57008880c633b32ee4a1c6cb2711b2811e9bea57b7874a",
+      "bytes": 7554
+    },
+    {
+      "path": "reference/integrations_discord.md",
+      "sha256": "sha256:a8c345e87356517cabc57f605272d3c3a2612cb879d69fde7bb1800009e52e35",
+      "bytes": 10832
+    },
+    {
+      "path": "reference/integrations_eunomia-authorization.md",
+      "sha256": "sha256:0cf993a0d9351831e6810d17dba46e1f0f611c659a3ee52b1fd5ba149322847e",
+      "bytes": 8124
+    },
+    {
+      "path": "reference/integrations_fastapi.md",
+      "sha256": "sha256:cb973cfde9899da61eb23682ee54dd7b3fea4986d1f4e26a1f0375acb2a9f878",
+      "bytes": 19362
+    },
+    {
+      "path": "reference/integrations_gemini-cli.md",
+      "sha256": "sha256:27b59a5596b1f89f38dd36349d8caa0b796f7e314db2ff000a0f8b03fbbe1290",
+      "bytes": 9718
+    },
+    {
+      "path": "reference/integrations_gemini.md",
+      "sha256": "sha256:b97a03d79fe5598eb970ffc06f5099cabed3b95b1073cb4fbf611e407f7f51f4",
+      "bytes": 6357
+    },
+    {
+      "path": "reference/integrations_github.md",
+      "sha256": "sha256:2aada82861ff46325472a9cf9b128d8fc51020c4082f2b0e924813a0f05996ac",
+      "bytes": 10865
+    },
+    {
+      "path": "reference/integrations_google.md",
+      "sha256": "sha256:6d13b8cf8eb8604bf87256d2af7134ef6571de42abe4e500af8372b2792bc300",
+      "bytes": 11671
+    },
+    {
+      "path": "reference/integrations_goose.md",
+      "sha256": "sha256:0b3f708ca0d2fcef0dea8b9be694cb7ba84cfc4791f56811bfaaea01617c4e7c",
+      "bytes": 9397
+    },
+    {
+      "path": "reference/integrations_mcp-json-configuration.md",
+      "sha256": "sha256:6515a8e7ab1955519d86093f184467a468f4edd4e81dfe8b0089b87d86f56f40",
+      "bytes": 17392
+    },
+    {
+      "path": "reference/integrations_oci.md",
+      "sha256": "sha256:50101a780e6c0299664954013c25c6b981b9b2b0037988474d6a9aeb30620e7d",
+      "bytes": 15734
+    },
+    {
+      "path": "reference/integrations_openai.md",
+      "sha256": "sha256:786e294011bea5a83ab0ad481d277d2ac57163963c2dd0bfeb754cfb67428d44",
+      "bytes": 9989
+    },
+    {
+      "path": "reference/integrations_openapi.md",
+      "sha256": "sha256:72e3d860e4992e5e81b2c64791f71788353e5b018d9e3d54d18dbc6df5a47fec",
+      "bytes": 20514
+    },
+    {
+      "path": "reference/integrations_permit.md",
+      "sha256": "sha256:f3f689758c225625e763f3168ff1ca9b0ee8c0e1adb279416d805ed98e285780",
+      "bytes": 18623
+    },
+    {
+      "path": "reference/integrations_propelauth.md",
+      "sha256": "sha256:cfaa2d30655e05002bf1887257aa4efd5f0202eba4bf16998d5d7112e8a7f95d",
+      "bytes": 10470
+    },
+    {
+      "path": "reference/integrations_scalekit.md",
+      "sha256": "sha256:42b5adf37a928ca6aade13cfeffd7a4123eda0da73bb403e98c6de3071daed81",
+      "bytes": 9726
+    },
+    {
+      "path": "reference/integrations_supabase.md",
+      "sha256": "sha256:757a992263cf99bc12bc38ff387d0f4a7ed71a4dd90ae1e5870ab2d3265aab75",
+      "bytes": 8806
+    },
+    {
+      "path": "reference/integrations_workos.md",
+      "sha256": "sha256:8572a6c63654945ba7170dd8e02806cda7351333a408afb6edd2c90a9d64e275",
+      "bytes": 11041
+    },
+    {
+      "path": "reference/patterns_contrib.md",
+      "sha256": "sha256:ea257992ec66ea069f83479d94cf20f0bc656be138ce9631fca1fc875c831044",
+      "bytes": 4785
+    },
+    {
+      "path": "reference/servers_auth_authentication.md",
+      "sha256": "sha256:03fba971c42d3103e2de1300c80360b8ae98f303f77924fe4ecfcd108068b5f0",
+      "bytes": 21698
+    },
+    {
+      "path": "reference/servers_auth_full-oauth-server.md",
+      "sha256": "sha256:baf1b8a52353d12fbd373bf18378d2a1763977324eb82a0f525cbdd934b256f1",
+      "bytes": 12071
+    },
+    {
+      "path": "reference/servers_auth_multi-auth.md",
+      "sha256": "sha256:6fa3c5d8eb80ba668232201f8bbd797552785baa0c07ff653589b9b7e06c85a8",
+      "bytes": 7449
+    },
+    {
+      "path": "reference/servers_auth_oauth-proxy.md",
+      "sha256": "sha256:46326fb28da3ed2d28a6fb32c783e6f885e81103e821fab97f9744ddd24005d2",
+      "bytes": 41970
+    },
+    {
+      "path": "reference/servers_auth_oidc-proxy.md",
+      "sha256": "sha256:0e77ffaa092b3c26cdc681368236d343ed66b54445cf94014d370505eceabc2d",
+      "bytes": 16102
+    },
+    {
+      "path": "reference/servers_auth_remote-oauth.md",
+      "sha256": "sha256:ab33488c3ee32248488e75f3191689ab5deed6e794240fdbbd83cc8582f19910",
+      "bytes": 18637
+    },
+    {
+      "path": "reference/servers_auth_token-verification.md",
+      "sha256": "sha256:3e2983fc4a5ef6bf36dd6be61a46f1f8ee6e5b5cd0f3a934f817ba97aa75208b",
+      "bytes": 26601
+    },
+    {
+      "path": "reference/servers_authorization.md",
+      "sha256": "sha256:a3da0f48397624d333df734ed9ab336cb1a905867e9d966f792597fd7fb29957",
+      "bytes": 17628
+    },
+    {
+      "path": "reference/servers_composition.md",
+      "sha256": "sha256:b43441e668abb5c3c60944495550412128b72ca9aec386cc1ff87f131b43ef52",
+      "bytes": 10428
+    },
+    {
+      "path": "reference/servers_context.md",
+      "sha256": "sha256:4f387499c4acad2ce0f86adc592ca58bc61b3722d8f4d50ae66364021a0d1ae2",
+      "bytes": 23193
+    },
+    {
+      "path": "reference/servers_dependency-injection.md",
+      "sha256": "sha256:070f3d1c556ab36ecfd07bddc1f74e94ee8c2dca7ff5728920d2da6a2e717448",
+      "bytes": 17811
+    },
+    {
+      "path": "reference/servers_elicitation.md",
+      "sha256": "sha256:ef0cd001e31487f7953d129a0e5497a0fc87a207bdb4472e11148d4c694f680b",
+      "bytes": 14385
+    },
+    {
+      "path": "reference/servers_icons.md",
+      "sha256": "sha256:0b57602160e420eb54eb03f151e24d54a78073260e7b727087c53c1b3c649471",
+      "bytes": 8643
+    },
+    {
+      "path": "reference/servers_lifespan.md",
+      "sha256": "sha256:ad66416851f254dc173bc29e840613b44a50d79681996ee8628edde66f6c5016",
+      "bytes": 7531
+    },
+    {
+      "path": "reference/servers_logging.md",
+      "sha256": "sha256:b0bde31b6d45ecb995acb4a4f44410be7da3fe7c576aadaaacf4501cf4360295",
+      "bytes": 6946
+    },
+    {
+      "path": "reference/servers_middleware.md",
+      "sha256": "sha256:d4dd552008698ecd63d709efbd5a923b36a2e915884f57254af14453bedd2683",
+      "bytes": 37263
+    },
+    {
+      "path": "reference/servers_pagination.md",
+      "sha256": "sha256:543b5ff2e07b561bda7e3a185040c304d8a04c0fb5d097952926f99f37cce5de",
+      "bytes": 7872
+    },
+    {
+      "path": "reference/servers_progress.md",
+      "sha256": "sha256:32dc58ad0310431127fdb2edea85ebd9ca7ed22f33ffd40b597561ad2fbd5512",
+      "bytes": 5603
+    },
+    {
+      "path": "reference/servers_prompts.md",
+      "sha256": "sha256:dc9cc37abf98e95ab7c6dec064f0b1790fc7a19315dc08c71c6d87c9e27a5e94",
+      "bytes": 21532
+    },
+    {
+      "path": "reference/servers_providers_custom.md",
+      "sha256": "sha256:2d53a128a47b6dcde9b6ce6597c7b2b30731de511896e3847cd864985699306c",
+      "bytes": 12071
+    },
+    {
+      "path": "reference/servers_providers_filesystem.md",
+      "sha256": "sha256:60923bfc304dd2cd9d0aff16af8f1be841d5b047e810a5b742f5c4efe337a9ae",
+      "bytes": 13197
+    },
+    {
+      "path": "reference/servers_providers_local.md",
+      "sha256": "sha256:a177e51e3891bbf2ae02ea3dd564ca929b62cafeff1713570780ddbc3ca5bff6",
+      "bytes": 7860
+    },
+    {
+      "path": "reference/servers_providers_overview.md",
+      "sha256": "sha256:2316c075c91295fc001f5f6c294e7a658c2f9aa8f9cf43bcb2c0be194477ebe2",
+      "bytes": 8567
+    },
+    {
+      "path": "reference/servers_providers_proxy.md",
+      "sha256": "sha256:c5dac5865780f84ee81b4fb4a593805de9818a35d8c542d35dbe0b17702ad5cb",
+      "bytes": 12329
+    },
+    {
+      "path": "reference/servers_providers_skills.md",
+      "sha256": "sha256:2a91bcc5b99208694cc936d41c3c12e5b1c6adf8e6cd569003f26ef0b6bda4c6",
+      "bytes": 16056
+    },
+    {
+      "path": "reference/servers_resources.md",
+      "sha256": "sha256:7060f0f5fd0cba9e99e8999114f3c58caa85d848b856ed2b1919084ed85f8b9e",
+      "bytes": 34647
+    },
+    {
+      "path": "reference/servers_sampling.md",
+      "sha256": "sha256:fe3db41a4c85f71af9d66dc40770dd7f65b0cea4d168eba0ac2baa4afd60ac6d",
+      "bytes": 27323
+    },
+    {
+      "path": "reference/servers_server.md",
+      "sha256": "sha256:faa365fa2ad516d7f5b7f113fcf4c93567f54a21ef950c965722a0e28ecdf136",
+      "bytes": 13667
+    },
+    {
+      "path": "reference/servers_storage-backends.md",
+      "sha256": "sha256:d348008c8d3746b18da1e7014b9efd1904350f2e901986ba32e6646f1b7d7032",
+      "bytes": 15291
+    },
+    {
+      "path": "reference/servers_tasks.md",
+      "sha256": "sha256:a86a836ffa0a621cc21a2bc0217c1f3bb2706a7aa10c8bc5aa21686bce7bd963",
+      "bytes": 14550
+    },
+    {
+      "path": "reference/servers_telemetry.md",
+      "sha256": "sha256:6d55e8c6c9fbae63bcfd54b5d430004d6fde1056270d982ecf59ce60b9db692d",
+      "bytes": 13319
+    },
+    {
+      "path": "reference/servers_testing.md",
+      "sha256": "sha256:751d579bc552cd9115cedd910f31291248080ee3dfdc61d7cbeafed1f9edc4ae",
+      "bytes": 6277
+    },
+    {
+      "path": "reference/servers_tools.md",
+      "sha256": "sha256:8fe58786a9c5ebe3c4974ed9f81dbed8625ce11282f00e20b0530f4223a07acd",
+      "bytes": 47704
+    },
+    {
+      "path": "reference/servers_transforms_code-mode.md",
+      "sha256": "sha256:b5411376dd7d85738d62f2540872f54e496a840bd7934af0a25150e49fe16657",
+      "bytes": 20066
+    },
+    {
+      "path": "reference/servers_transforms_namespace.md",
+      "sha256": "sha256:f9d2fe37b7e4fcb759b6181027a9d1955b241a2442b46e0dc183ff2cf733629e",
+      "bytes": 4368
+    },
+    {
+      "path": "reference/servers_transforms_prompts-as-tools.md",
+      "sha256": "sha256:5243f3143ed473216d5cb3ae7e4cad1dc710c2f9339d0e38668418acf8ccfbca",
+      "bytes": 7397
+    },
+    {
+      "path": "reference/servers_transforms_resources-as-tools.md",
+      "sha256": "sha256:eff8ecef82ada2eac59db538f2b5c950cc2c8c679e6fc83cdebda4053543bd2c",
+      "bytes": 7724
+    },
+    {
+      "path": "reference/servers_transforms_tool-search.md",
+      "sha256": "sha256:dafa6f807549008c4febdf1a712e9c436e35629fbd6f023d07c9705e09ef0547",
+      "bytes": 11854
+    },
+    {
+      "path": "reference/servers_transforms_tool-transformation.md",
+      "sha256": "sha256:df99bf3d2d2cf2d35986c08c17c08ec070fe5a572f07c0df46e7099f348ecebe",
+      "bytes": 11842
+    },
+    {
+      "path": "reference/servers_transforms_transforms.md",
+      "sha256": "sha256:1969aaee86ce5cf66477679804e87689e75aef32fe78d7d18cc42697b7489b5c",
+      "bytes": 11206
+    },
+    {
+      "path": "reference/servers_versioning.md",
+      "sha256": "sha256:492ef7ff40b71a32752e732fbcdb59d929f0ab44cc04e896a33e8949eaad66e4",
+      "bytes": 17766
+    },
+    {
+      "path": "reference/servers_visibility.md",
+      "sha256": "sha256:697d10495e4100d39bb0d8749b79f12f86430c7bac4eae5ba902095047b2a6aa",
+      "bytes": 20666
+    },
+    {
+      "path": "reference/updates.md",
+      "sha256": "sha256:96d8cd41fde20adeb3d0c72bcae8de08e5613b70e39dd5d2a4402c20eb5eccc6",
+      "bytes": 5664
+    },
+    {
+      "path": "reference/v2_changelog.md",
+      "sha256": "sha256:170f470a3d268dd2382a55707e0d76c7e68601c7e17a86953ba995b968e18fc6",
+      "bytes": 102642
+    },
+    {
+      "path": "reference/v2_clients_auth_bearer.md",
+      "sha256": "sha256:9a2e14a60c55448a86ee364189aeb96f4bf7715ddb71ab056dfb328217c3f04f",
+      "bytes": 5410
+    },
+    {
+      "path": "reference/v2_clients_auth_oauth.md",
+      "sha256": "sha256:c9a80ae088578887febf6e58129ceedbdca47352a84347a79775028afd6c8b46",
+      "bytes": 9282
+    },
+    {
+      "path": "reference/v2_clients_client.md",
+      "sha256": "sha256:2ff79393372ab14a2fa9dbade790189ffce2e671ceaf92ffceea6e95041bed41",
+      "bytes": 16784
+    },
+    {
+      "path": "reference/v2_clients_elicitation.md",
+      "sha256": "sha256:e7d55b6074ba53fb2e9348bf4089d6290e3f8119dcf0d6ad84af774445b7aedb",
+      "bytes": 8659
+    },
+    {
+      "path": "reference/v2_clients_logging.md",
+      "sha256": "sha256:2365faaa010ef737277a799f44eb13f027e19be99c78fba4ae9591eec5e3ab0f",
+      "bytes": 6826
+    },
+    {
+      "path": "reference/v2_clients_messages.md",
+      "sha256": "sha256:7f65c6c75320493a4a03924962c032beac51fd5f23e0ef92ff7a20655e19636d",
+      "bytes": 7981
+    },
+    {
+      "path": "reference/v2_clients_progress.md",
+      "sha256": "sha256:7b40b531d86b4c16eae099d5f511cc9a1f97efcb9fae0658a64a7b65d3a2222f",
+      "bytes": 4633
+    },
+    {
+      "path": "reference/v2_clients_prompts.md",
+      "sha256": "sha256:8f82dc1a5e5921139a360e1203403e18b29910595b1b4986016007c803d4adee",
+      "bytes": 10964
+    },
+    {
+      "path": "reference/v2_clients_resources.md",
+      "sha256": "sha256:f482a56131c1a59d65aa69ec7603f92862aef3f1f6a300945beb81a346bdfa45",
+      "bytes": 10687
+    },
+    {
+      "path": "reference/v2_clients_roots.md",
+      "sha256": "sha256:39f9f9ee3b8804a5e78aaeb050a5ffa40d8c40c0268f3f33dc1860a0e3f0af06",
+      "bytes": 3314
+    },
+    {
+      "path": "reference/v2_clients_sampling.md",
+      "sha256": "sha256:792bf5502b7cb764b1e1dd5d7f79c342248db472d870233ac5a26d9931065048",
+      "bytes": 11375
+    },
+    {
+      "path": "reference/v2_clients_tasks.md",
+      "sha256": "sha256:4077ee824ce0c0bb88d3398d3bd2121bd85c2c5067de460a16d723438490d7fa",
+      "bytes": 7346
+    },
+    {
+      "path": "reference/v2_clients_tools.md",
+      "sha256": "sha256:2f47ad4f2c8e7da5831ef4afc71e235fe8cd4cf9a1bd5e11288fce8d7569d701",
+      "bytes": 14675
+    },
+    {
+      "path": "reference/v2_clients_transports.md",
+      "sha256": "sha256:23ff1acb6a8aa24fe56ce0bcde46b45f36ec013dafe6a4793a3a632d2fb44c5e",
+      "bytes": 17394
+    },
+    {
+      "path": "reference/v2_deployment_http.md",
+      "sha256": "sha256:7ac0d6686b0c3fbd3cc5a5c594d084fc24bfa14062cc312f0eabc2de4c9e4fde",
+      "bytes": 42470
+    },
+    {
+      "path": "reference/v2_deployment_running-server.md",
+      "sha256": "sha256:ed9715cb13e74cb538107f5e1d0be53967c1e0f3f997f2d642cfd1fb1ab4fd9c",
+      "bytes": 15576
+    },
+    {
+      "path": "reference/v2_deployment_server-configuration.md",
+      "sha256": "sha256:b03e8b8a4bf17ca18eb608f139c199e23df9e7f19f1ccb00d635c27f227f1d3e",
+      "bytes": 26931
+    },
+    {
+      "path": "reference/v2_development_contributing.md",
+      "sha256": "sha256:4d9a2d373036b564f621fa6cf04beba20c93cb68bb35bafd79a5529fd78ecb6e",
+      "bytes": 14232
+    },
+    {
+      "path": "reference/v2_development_releases.md",
+      "sha256": "sha256:788084df0982502eb9f48ed73149c82b59f3ff5bdcfa7058f989d280e3d76fdb",
+      "bytes": 7242
+    },
+    {
+      "path": "reference/v2_development_tests.md",
+      "sha256": "sha256:c39ec996a549da9b8151fe0b6a34dfdd0f867cccb95e366c6ed8978c3bd1e187",
+      "bytes": 17567
+    },
+    {
+      "path": "reference/v2_development_upgrade-guide.md",
+      "sha256": "sha256:4ab286ae47b0e1c9c78b03e647b2c0c83bda0b6e3304348548f540dcd48f26da",
+      "bytes": 7019
+    },
+    {
+      "path": "reference/v2_getting-started_installation.md",
+      "sha256": "sha256:7745c71cdeb627ac8d5c8546c79cde367e2b30b036f20e4e3b5bcd5f921363dd",
+      "bytes": 6335
+    },
+    {
+      "path": "reference/v2_getting-started_quickstart.md",
+      "sha256": "sha256:ca46e238f80c92c3f0ebfefe38b05ec7a31fe2a2c9c8442a7955604cfdc25798",
+      "bytes": 7244
+    },
+    {
+      "path": "reference/v2_getting-started_welcome.md",
+      "sha256": "sha256:3201a0ca5ef4eed9c7375e6a41f77250e2ead0a28048ef8c6c75406f856e67ee",
+      "bytes": 7689
+    },
+    {
+      "path": "reference/v2_integrations_anthropic.md",
+      "sha256": "sha256:6fb074a54f73108e4e21baf1695cd2606d8226272bbb948b4b1713d6550d6e9b",
+      "bytes": 10283
+    },
+    {
+      "path": "reference/v2_integrations_auth0.md",
+      "sha256": "sha256:c7d8d3426fbd06891b556b957bfdaf6eb6b3c968e0ce7a4ed348e46239085dc7",
+      "bytes": 15548
+    },
+    {
+      "path": "reference/v2_integrations_authkit.md",
+      "sha256": "sha256:7f28f892f354ae2a75dac9191892c26a7fc4fb283b6626ba806afcc9a81ab4a6",
+      "bytes": 9429
+    },
+    {
+      "path": "reference/v2_integrations_aws-cognito.md",
+      "sha256": "sha256:9bff81d36bd23dd5026b6af892e01806e219575019f69ff6b3d53c921816ffd2",
+      "bytes": 21098
+    },
+    {
+      "path": "reference/v2_integrations_azure.md",
+      "sha256": "sha256:353dab6c57c24b22753305593168ea2dd2201e4dc8a8da00e4c043dc217fa5f3",
+      "bytes": 22110
+    },
+    {
+      "path": "reference/v2_integrations_chatgpt.md",
+      "sha256": "sha256:4ee52b5408c93e486b9e385f17399b152a0865edbe66e653b7ea2f816a1ab1e7",
+      "bytes": 8607
+    },
+    {
+      "path": "reference/v2_integrations_claude-code.md",
+      "sha256": "sha256:381ac3bfe615f3785a73619c3ceb7733a327eb1ac03f850d1f794a21e1388906",
+      "bytes": 10415
+    },
+    {
+      "path": "reference/v2_integrations_claude-desktop.md",
+      "sha256": "sha256:958e1cf899b86014538e21d14d6a9d25eee3059f436909fb97c7e8af0fcc8318",
+      "bytes": 14906
+    },
+    {
+      "path": "reference/v2_integrations_cursor.md",
+      "sha256": "sha256:90641b8a0feada92287b1a093196a32049e2869af26d712c7a24f2b1347608e4",
+      "bytes": 13801
+    },
+    {
+      "path": "reference/v2_integrations_descope.md",
+      "sha256": "sha256:3683c36c35db8e0546bdccd09afd6a36181d952c9b7dec7de09a84f95bfdcd7c",
+      "bytes": 9039
+    },
+    {
+      "path": "reference/v2_integrations_discord.md",
+      "sha256": "sha256:7ce3d14061b8075232394d6427f2f1b70b2990a4571029490237de4c1d6aa123",
+      "bytes": 14360
+    },
+    {
+      "path": "reference/v2_integrations_eunomia-authorization.md",
+      "sha256": "sha256:60da92207422a4c981a1c539cab595de0233ca4defa21da8bc4a90fb966f8cc0",
+      "bytes": 7342
+    },
+    {
+      "path": "reference/v2_integrations_fastapi.md",
+      "sha256": "sha256:aef964d6821271f720cd3c60dbf2665988522578c96a733168708dbbdf8ee7c3",
+      "bytes": 19709
+    },
+    {
+      "path": "reference/v2_integrations_gemini-cli.md",
+      "sha256": "sha256:02fda29326f4d74ad9ff9b283b9ca4b76c00a605db843b1af349d76ee229a3cf",
+      "bytes": 10010
+    },
+    {
+      "path": "reference/v2_integrations_gemini.md",
+      "sha256": "sha256:cfdccb43533158a6a96fa269883d4ac3ee9f21e3ce7fbede9e5974c7df038fca",
+      "bytes": 6335
+    },
+    {
+      "path": "reference/v2_integrations_github.md",
+      "sha256": "sha256:efc6901cb6ff001211e426a1f72a72a09e9b4a5e6d6347206a4e12366df9a230",
+      "bytes": 14438
+    },
+    {
+      "path": "reference/v2_integrations_google.md",
+      "sha256": "sha256:c3a2ccc5130425f3397456b610478a9f5f3cb28673e7c84fedb2cda58343bbe2",
+      "bytes": 15522
+    },
+    {
+      "path": "reference/v2_integrations_mcp-json-configuration.md",
+      "sha256": "sha256:acee6f870bad126b62fb66a03f51231531b48ddde291769cc78f9280ad0a9a85",
+      "bytes": 17985
+    },
+    {
+      "path": "reference/v2_integrations_oci.md",
+      "sha256": "sha256:5a72a5f693b2c2d1baceb406c98ef178e3c549a0a396a56cb64b56bf1062d068",
+      "bytes": 20246
+    },
+    {
+      "path": "reference/v2_integrations_openai.md",
+      "sha256": "sha256:8d2c8944bddc74cc17a53478656344224a6f4fd1526e9a918ce8f241b1baeb15",
+      "bytes": 9952
+    },
+    {
+      "path": "reference/v2_integrations_openapi.md",
+      "sha256": "sha256:a641785e1477450c0ba8c0597ce2884f59d61abf1937e68f98781ca47e616a35",
+      "bytes": 20359
+    },
+    {
+      "path": "reference/v2_integrations_permit.md",
+      "sha256": "sha256:537a131026c5d18989a3bf0321e1865416a251975527ddaca912aa831681524a",
+      "bytes": 17954
+    },
+    {
+      "path": "reference/v2_integrations_scalekit.md",
+      "sha256": "sha256:f9e1d373e1c8bbb9787d8140526b7b4ac044b06bb33b5a76418b9f97b19b575d",
+      "bytes": 11785
+    },
+    {
+      "path": "reference/v2_integrations_supabase.md",
+      "sha256": "sha256:b3a6a432127c2a954d0b5582eb5b5696b3aae13e55cf1a2aa0e13c2e8c044d83",
+      "bytes": 9528
+    },
+    {
+      "path": "reference/v2_integrations_workos.md",
+      "sha256": "sha256:62bba2288396de02752e50bfc9cf3db2bb63314e4767734f6c02f06981bf1b53",
+      "bytes": 15410
+    },
+    {
+      "path": "reference/v2_patterns_cli.md",
+      "sha256": "sha256:2ceb56594ddfc0bf22eef2384c242f070f41973ad43f7dad08b46b858289fc18",
+      "bytes": 28981
+    },
+    {
+      "path": "reference/v2_patterns_contrib.md",
+      "sha256": "sha256:ab69561990bea7c7d3720c02fd94a483aa36b1faa7da4c7ed1936b89df357141",
+      "bytes": 4503
+    },
+    {
+      "path": "reference/v2_patterns_decorating-methods.md",
+      "sha256": "sha256:8cfff96c64ae01d305f35cb6e777b695fa431d3a2dc64c65aa2d128d7f30c428",
+      "bytes": 10710
+    },
+    {
+      "path": "reference/v2_patterns_testing.md",
+      "sha256": "sha256:c509865a5f95b6a6a55fd63d2cd35acd52fbfbb3fcb7128b152b1791b60df29b",
+      "bytes": 5292
+    },
+    {
+      "path": "reference/v2_patterns_tool-transformation.md",
+      "sha256": "sha256:6621d26a9541428e5030456b6e560bca3098da12bd93392edefb045488a8c817",
+      "bytes": 32640
+    },
+    {
+      "path": "reference/v2_servers_auth_authentication.md",
+      "sha256": "sha256:41ba262e0e1c28c00573a807ec4d21c06d4ec88d639429032d635a299ffb92a0",
+      "bytes": 23043
+    },
+    {
+      "path": "reference/v2_servers_auth_full-oauth-server.md",
+      "sha256": "sha256:160fefffe83985c0d7a1ee939e87d9fb68a02fd5118f0f49f875a9ba73fa802c",
+      "bytes": 12104
+    },
+    {
+      "path": "reference/v2_servers_auth_oauth-proxy.md",
+      "sha256": "sha256:2da439d1a699ed696fcaa64e9e4a88cd8d81b06878836c62e6ab815c7f27a4f6",
+      "bytes": 34765
+    },
+    {
+      "path": "reference/v2_servers_auth_oidc-proxy.md",
+      "sha256": "sha256:91b21443e2c728c5457b3fddac2592af0cf6c11535046bf519ed4fcdcb2fa7a4",
+      "bytes": 15387
+    },
+    {
+      "path": "reference/v2_servers_auth_remote-oauth.md",
+      "sha256": "sha256:ae87980401d9eba5951aae7e1875e14f4987d59bfeb4b904cbb78fa0fdb640e5",
+      "bytes": 17462
+    },
+    {
+      "path": "reference/v2_servers_auth_token-verification.md",
+      "sha256": "sha256:e338da79ca0a7cb29188b2e72fa5336fa82247df43c4dfe19d8a74bb95f133b8",
+      "bytes": 23440
+    },
+    {
+      "path": "reference/v2_servers_composition.md",
+      "sha256": "sha256:0c9fb04299605399d632f02185075dde97d929180e77c8014345488a36b51826",
+      "bytes": 19272
+    },
+    {
+      "path": "reference/v2_servers_context.md",
+      "sha256": "sha256:3749c8660b4b984f6ed47236fdc21d5df13388174586f5c10fda111ea7c9d1c8",
+      "bytes": 29087
+    },
+    {
+      "path": "reference/v2_servers_elicitation.md",
+      "sha256": "sha256:7c5dfcbab023e60a3332c2d88cc562025c02a47f903e1f51a1407b4743374f1d",
+      "bytes": 18581
+    },
+    {
+      "path": "reference/v2_servers_icons.md",
+      "sha256": "sha256:026e3670bfb2d1bf7896caec34cce7bd4a36d95fc2fea232b827ed18fbc2af77",
+      "bytes": 7501
+    },
+    {
+      "path": "reference/v2_servers_logging.md",
+      "sha256": "sha256:28845476da4738fc133fa7969f097f67fb0cd02931aff441cf3033ba95d172fb",
+      "bytes": 12687
+    },
+    {
+      "path": "reference/v2_servers_middleware.md",
+      "sha256": "sha256:85bfe12f75ef04c550ab19b5b3fdc7bf1c31ea622eba2c6e590513fde051d8b0",
+      "bytes": 42529
+    },
+    {
+      "path": "reference/v2_servers_progress.md",
+      "sha256": "sha256:1ef3803617277f183551647b8453d167eae14bf891119af2cde9d88442bcc725",
+      "bytes": 9956
+    },
+    {
+      "path": "reference/v2_servers_prompts.md",
+      "sha256": "sha256:46a91f1198a68d02e29fc5602a69e668294e10628e07faa0c4df7a2cc32bad75",
+      "bytes": 17265
+    },
+    {
+      "path": "reference/v2_servers_proxy.md",
+      "sha256": "sha256:14c6a397100df98683d5d3cfd86851cdce09b7af93776ac52adc35d50a81a5ad",
+      "bytes": 18408
+    },
+    {
+      "path": "reference/v2_servers_resources.md",
+      "sha256": "sha256:049ee9a98b41e1c450d6ddac0b56dc6a0c81129b3e59b7b9b078bf8c44bf31dd",
+      "bytes": 30810
+    },
+    {
+      "path": "reference/v2_servers_sampling.md",
+      "sha256": "sha256:571efcbfabe40c0746aaa99d5475e2d83274466459a9c2c72e8e5ff237e306ea",
+      "bytes": 24172
+    },
+    {
+      "path": "reference/v2_servers_server.md",
+      "sha256": "sha256:a165833fa6ce94c83bf420a7e6d2dd8412874bb3df5093bab0561d21e5176c67",
+      "bytes": 21395
+    },
+    {
+      "path": "reference/v2_servers_storage-backends.md",
+      "sha256": "sha256:89ca8d46a9a1c15c58abaf611398de17da8728de372d4534ab044581778b3703",
+      "bytes": 14108
+    },
+    {
+      "path": "reference/v2_servers_tasks.md",
+      "sha256": "sha256:f961eaf54f11fcc9b0f6d871ce8eebbb31bb5267507492dc6010a4c3cc56e61c",
+      "bytes": 12950
+    },
+    {
+      "path": "reference/v2_servers_tools.md",
+      "sha256": "sha256:8324d58fca3416b5fcfc597f5857f91b6fd7d6054c9bd35cbe980b31e6d2eb18",
+      "bytes": 42643
+    },
+    {
+      "path": "reference/v2_updates.md",
+      "sha256": "sha256:7a2981dda3f22b031bdfb061e9c1996b8f476c1ff561cd3115ef85760b37b983",
+      "bytes": 5037
+    }
+  ]
+}

@@ -487,13 +487,13 @@
     },
     {
       "path": "reference/0083-connect-to-an-external-clickhouse-database.md",
-      "sha256": "sha256:20432b5ba2fe1f32a547863e22e241b1d5c8409feeb39108fd105fa48e8dbfaf",
-      "bytes": 36539
+      "sha256": "sha256:2bf6f544079602293a8ced71f376d1c137a9976393316c6ee2210549eb74272e",
+      "bytes": 36427
     },
     {
       "path": "reference/0084-connect-to-an-external-redis-or-valkey-database.md",
-      "sha256": "sha256:c4f6949acbec7414af8138d59a259f9ae2cb3b03061acde571fa907fba10a3ef",
-      "bytes": 42031
+      "sha256": "sha256:e16c8e6448ed78cebfb891e63981d0d833f9b2b5de38459647d61749829febd3",
+      "bytes": 41975
     },
     {
       "path": "reference/0085-pull-the-images-from-the-public-registry.md",

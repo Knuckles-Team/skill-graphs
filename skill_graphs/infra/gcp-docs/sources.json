@@ -1,0 +1,66 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "gcp-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-08T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://cloud.google.com/docs/overview",
+      "options": {
+        "crawl_depth": 3
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-08T00:00:00Z",
+      "doc_count": 8
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/094886bb.md",
+      "sha256": "sha256:e0ad9de6bf93d83be7df23de09eac3c9ec0afdd418277384f580cbc2fbfa160e",
+      "bytes": 40084
+    },
+    {
+      "path": "reference/491b9f73.md",
+      "sha256": "sha256:753d9bca374c7ac0f9e6bb927451475a8373335beba15e93dbb7355a30242efb",
+      "bytes": 2618
+    },
+    {
+      "path": "reference/57df6ee7.md",
+      "sha256": "sha256:c8ef5de1407941788c25c095a57026161e443ff4a45685dd5064a343bb92e2eb",
+      "bytes": 404
+    },
+    {
+      "path": "reference/6d53f552.md",
+      "sha256": "sha256:312f95a12a910962ef87e749d689d52e16bdde301edd99f404b11924f185aeda",
+      "bytes": 1054
+    },
+    {
+      "path": "reference/78ee008b.md",
+      "sha256": "sha256:a396a718877e53ddd16960a152b8f8271be43366f069d5cc71c151d75a7ddf27",
+      "bytes": 2189
+    },
+    {
+      "path": "reference/98dbdad3.md",
+      "sha256": "sha256:32c54ec7bdfcb7360f3d8a40841caf64c31f5d36584a87fecd300785e96657ac",
+      "bytes": 3813
+    },
+    {
+      "path": "reference/9e38db61.md",
+      "sha256": "sha256:53e0d0582291664f4be67331f6bb4ec7ae85fdde27e350efdd29329fd0cbcbd2",
+      "bytes": 973
+    },
+    {
+      "path": "reference/bcdb2703.md",
+      "sha256": "sha256:7c7e4f073aca9f23bfcf516fa7c3b8966dc7ab5befbdad1c4fe49cdce0e6d750",
+      "bytes": 501
+    }
+  ]
+}

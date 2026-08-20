@@ -1,0 +1,266 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "aws-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-08T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://docs.aws.amazon.com/",
+      "options": {
+        "crawl_depth": 2
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-08T00:00:00Z",
+      "doc_count": 48
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/887e2fa5.md",
+      "sha256": "sha256:cb848748e424cc46ce77240155fde3f66c823d68f1bff4c9e5c15ab207a598e4",
+      "bytes": 482353
+    },
+    {
+      "path": "reference/amazonarc.md",
+      "sha256": "sha256:32981ea6adaa3a4ee7b0442af99605100f78352328a722829d994e22c19887f6",
+      "bytes": 7230
+    },
+    {
+      "path": "reference/amazonq_latest_qdeveloper-ug_what-is.html.md",
+      "sha256": "sha256:3d8710dc9190a1a8e1e13cba09c95ab7419053056ac4657e74bb9db73433385b",
+      "bytes": 32381
+    },
+    {
+      "path": "reference/apigateway.md",
+      "sha256": "sha256:100ccb400559362cff274361b0abbb5e8f96b8ce11deddd88f1640d03eb61078",
+      "bytes": 4622
+    },
+    {
+      "path": "reference/appflow.md",
+      "sha256": "sha256:7904cf20158f1aaec37df21a40af5bfb725964225721433699775ebdd6d98c64",
+      "bytes": 4814
+    },
+    {
+      "path": "reference/athena.md",
+      "sha256": "sha256:f487e0b80d83ff73c52e965effef3b1e0e79cd47b3610e6394aa4eeed6c93876",
+      "bytes": 3535
+    },
+    {
+      "path": "reference/augmented-ai.md",
+      "sha256": "sha256:992cd14b3f6cf2facb163b32a2c1aab96a8ef89f2b53671cccaaf031d5b36117",
+      "bytes": 8339
+    },
+    {
+      "path": "reference/aurora-dsql.md",
+      "sha256": "sha256:20677e5d69f4701c7b97bb2a072a368599fc7c86e7fc4cd39e6d0fb6c596df4e",
+      "bytes": 5221
+    },
+    {
+      "path": "reference/aws-toolkit-visual-studio.md",
+      "sha256": "sha256:622d6d8bb76029e9fb7498ae483c827093c56ac6eff7654081c93627001484f8",
+      "bytes": 4353
+    },
+    {
+      "path": "reference/bedrock-agentcore.md",
+      "sha256": "sha256:ecefcc108dcf7f097cd47d839af0dbec2a4d4abba2a64dc52550806d7541a9ac",
+      "bytes": 14280
+    },
+    {
+      "path": "reference/bedrock.md",
+      "sha256": "sha256:7d479d8e46fcacf85e3a779f5ed0bd592360389bf5ecffd6f5b00e19d8f7caac",
+      "bytes": 13638
+    },
+    {
+      "path": "reference/braket.md",
+      "sha256": "sha256:34caeffc35b053120758bfe40b365de55738cc3fd44556920af87961684c02a3",
+      "bytes": 4029
+    },
+    {
+      "path": "reference/cdk.md",
+      "sha256": "sha256:5af1827d235f39bec927fa9a48b12485996ce9f87ae3521bb57e201b35359996",
+      "bytes": 3956
+    },
+    {
+      "path": "reference/cli.md",
+      "sha256": "sha256:7e02a4236a7e0379313378aa7c2a2719c0b10fccca1f758091f360136e1eb7f9",
+      "bytes": 4846
+    },
+    {
+      "path": "reference/cli_latest_userguide_cli-chap-configure.html.md",
+      "sha256": "sha256:16d045fb00ea1cc70de219bde8ed28758b32f6cc7c6b647dae18aca257bc8ef0",
+      "bytes": 54978
+    },
+    {
+      "path": "reference/cli_latest_userguide_cli-chap-welcome.html.md",
+      "sha256": "sha256:044799bbc2c4c5077cbdfd36bb7b0da081a52ac5ca2748d39b027cd9efbd3972",
+      "bytes": 47220
+    },
+    {
+      "path": "reference/cli_latest_userguide_getting-started-install.html.md",
+      "sha256": "sha256:14d2e7d0ab706e513063689bfedca52dd43b47238dd1ca7008cc1c33c8e91308",
+      "bytes": 120905
+    },
+    {
+      "path": "reference/code-library_latest_ug_what-is-code-library.html.md",
+      "sha256": "sha256:834466a10cd905a4b3a3ea50521477c3f125e3897e6dccb06b600f0ad5dbacc4",
+      "bytes": 490741
+    },
+    {
+      "path": "reference/corretto.md",
+      "sha256": "sha256:0ba5adbea25c6b4b422f5b5907fd059c1cc8d9e83c18eda6c67a4588ab8cf853",
+      "bytes": 5232
+    },
+    {
+      "path": "reference/d62f6aa1.md",
+      "sha256": "sha256:7c55deca544b56336e40776a9b63d40e21c96422a4924fef203ac430a3000699",
+      "bytes": 32817
+    },
+    {
+      "path": "reference/decision-guides_latest_generative-ai-on-aws-how-to-c-3ee158ff.md",
+      "sha256": "sha256:b55ccae54980eadebe87eb627bb5ef09eb0913b6dbae147798e8abfda55b7c69",
+      "bytes": 25762
+    },
+    {
+      "path": "reference/dynamodb.md",
+      "sha256": "sha256:2fe38f0756bf0200990adc65f590fa192e5b52169b06d29ab8122580cb5068ca",
+      "bytes": 6386
+    },
+    {
+      "path": "reference/ec2.md",
+      "sha256": "sha256:f00982f22265cfac61f5530aed385d4c1b49e2aa43ee3d88d227484ea42a97ba",
+      "bytes": 7196
+    },
+    {
+      "path": "reference/f642908d.md",
+      "sha256": "sha256:7c55deca544b56336e40776a9b63d40e21c96422a4924fef203ac430a3000699",
+      "bytes": 32817
+    },
+    {
+      "path": "reference/feedback_doc-feedback.html.md",
+      "sha256": "sha256:a1747e4fadc7c18819edeb8bbd37be65ef7430182ced79154efa708754664322",
+      "bytes": 3827
+    },
+    {
+      "path": "reference/generative-ai-on-aws-how-to-choose.md",
+      "sha256": "sha256:f28e497de639f462c1fd31349ead373932798eaeb323958fa00192a4be6abcb2",
+      "bytes": 25728
+    },
+    {
+      "path": "reference/index.md",
+      "sha256": "sha256:ec052f8803b68a509bec02d3f3c6add32d5f473e015a577931799089c0bfb43c",
+      "bytes": 15295
+    },
+    {
+      "path": "reference/lambda.md",
+      "sha256": "sha256:34fdc25d1f1789f3eee3ae0ccaad4905092e429a73d9d5ce5e5b7ebdde4b59bb",
+      "bytes": 4235
+    },
+    {
+      "path": "reference/next-generation-sagemaker_latest_userguide.md",
+      "sha256": "sha256:5a7a84db2f8b71e091b6306259f117ffecd5cd6c2871444b0a668e83cf9a43d5",
+      "bytes": 37774
+    },
+    {
+      "path": "reference/powershell.md",
+      "sha256": "sha256:ed17df48c1426d805267dd86cc60ae78eacce220ec7d500164154dd38d700567",
+      "bytes": 5464
+    },
+    {
+      "path": "reference/pythonsdk.md",
+      "sha256": "sha256:96f3b9f829d2dfdc2dc0d0ff6404858c9c6260c0c5285332c5e4bddfb71c3426",
+      "bytes": 6873
+    },
+    {
+      "path": "reference/rds.md",
+      "sha256": "sha256:41f591cda9b2d7502f4d6748082568e12d84960399a51677a1e379c3f490232f",
+      "bytes": 12007
+    },
+    {
+      "path": "reference/s3.md",
+      "sha256": "sha256:f7c5d16294442f3c3bedfe9ccc8010c5b47213b0cfcde8d5ccf6c9e9cf974146",
+      "bytes": 8499
+    },
+    {
+      "path": "reference/sdk-for-cpp.md",
+      "sha256": "sha256:a6634e5a3e53b2a1634d3613ab40330e0f0f226b819c2221e108488dd6402a92",
+      "bytes": 4281
+    },
+    {
+      "path": "reference/sdk-for-go.md",
+      "sha256": "sha256:a4fb272c51140d4cea2485ac42fdd771ccba041da61c916418bfe7c1aabeb646",
+      "bytes": 5090
+    },
+    {
+      "path": "reference/sdk-for-java.md",
+      "sha256": "sha256:191da2b1c7d41a39cb182c9818b2e16afa5b6f236cc406299098217da7e4c5c2",
+      "bytes": 8971
+    },
+    {
+      "path": "reference/sdk-for-javascript.md",
+      "sha256": "sha256:278b0a065bae2b19ad91a075a2bb1b3525264b57167c4c670d25c820f4bb76dd",
+      "bytes": 6281
+    },
+    {
+      "path": "reference/sdk-for-kotlin.md",
+      "sha256": "sha256:e2829a3b352ecdd7f06349c83cb8b9444d5fb9900511972215d692fb0e3615b2",
+      "bytes": 4603
+    },
+    {
+      "path": "reference/sdk-for-net.md",
+      "sha256": "sha256:f546ec03c7a94e049bfd78288402ff74bf402e67b09e626dd8c79d91ed64c824",
+      "bytes": 8180
+    },
+    {
+      "path": "reference/sdk-for-php.md",
+      "sha256": "sha256:2f6dcc81a629bd7e5bc44e2fceb420177461e81157fe4c56834da9c3ba64c0bb",
+      "bytes": 9585
+    },
+    {
+      "path": "reference/sdk-for-ruby.md",
+      "sha256": "sha256:28d85d539f8fd91314fb97c56b2b5348e180a5779cf85e0637a4996d00d4319c",
+      "bytes": 8067
+    },
+    {
+      "path": "reference/sdk-for-rust.md",
+      "sha256": "sha256:fa601289447f8fbe649d95319dab11332ef635ecaaef3aba35986d0c76a2cba3",
+      "bytes": 6738
+    },
+    {
+      "path": "reference/sdk-for-sapabap.md",
+      "sha256": "sha256:530df49dade55ed14d4cfb99bf4b6ae2b08880b246e1356f71fe6e3f06af9c42",
+      "bytes": 6943
+    },
+    {
+      "path": "reference/sdk-for-swift.md",
+      "sha256": "sha256:503f6ceb8639c1edaf56d1102497439f2d281875b1f389f4902dbb0c436aab7d",
+      "bytes": 7328
+    },
+    {
+      "path": "reference/toolkit-for-jetbrains.md",
+      "sha256": "sha256:8c7c2c018bf4c5fa9e8f1d265b7a29c57ff55c2ac3f5f0a802317458e358de11",
+      "bytes": 7021
+    },
+    {
+      "path": "reference/toolkit-for-vscode.md",
+      "sha256": "sha256:ec4bd2b9c4036281becc1d88aac2ba59ccca470c9840cdd1f2e7206bf40d5999",
+      "bytes": 4017
+    },
+    {
+      "path": "reference/vpc.md",
+      "sha256": "sha256:ec37329173427ccfe96a3d446f878ee6e4e9574fe473085f6ae156a45e6b59e3",
+      "bytes": 14233
+    },
+    {
+      "path": "reference/vsts.md",
+      "sha256": "sha256:ce2a28b68de5307c1bfc70e767d9e2d05eca6b0101a9c6cc6f38b6536d9949ec",
+      "bytes": 6056
+    }
+  ]
+}

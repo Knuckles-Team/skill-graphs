@@ -1,0 +1,1246 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "azure-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-08T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://learn.microsoft.com/en-us/azure/",
+      "options": {
+        "crawl_depth": 2
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-08T00:00:00Z",
+      "doc_count": 244
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/03bfaf5e.md",
+      "sha256": "sha256:e73b559700820ed8b55e5a7c904bae7c575a94a14079a0bef2dab97be9d288f7",
+      "bytes": 20892
+    },
+    {
+      "path": "reference/2d04349c.md",
+      "sha256": "sha256:55d152ea45f5e80de6e00a46d541d544748d79ddea8a9377d1596a838812d693",
+      "bytes": 25613
+    },
+    {
+      "path": "reference/2d599f5d.md",
+      "sha256": "sha256:7e4688c6470089140175e3a4c571f6be59073df7deb9415718beebc7a1881682",
+      "bytes": 1071
+    },
+    {
+      "path": "reference/3a09b0ba.md",
+      "sha256": "sha256:549e0f4489146f587b051ea2a0bd3f6ab6fa69e6b3bb2befe5e26c4731d8ac77",
+      "bytes": 12949
+    },
+    {
+      "path": "reference/461375cc.md",
+      "sha256": "sha256:503b7a209c5d6f3f7e07ec4ba1d69313d8920679335744b000c7dd78cb8e6552",
+      "bytes": 197
+    },
+    {
+      "path": "reference/53f496f6.md",
+      "sha256": "sha256:c704d3d473630687cd0e1bbe3eb11c3ef781d5dd1707f3e6ec550af44292dba2",
+      "bytes": 1202
+    },
+    {
+      "path": "reference/731faa6f.md",
+      "sha256": "sha256:c4ca98715fbaa20a81a37bf5873115b9763db1474aeb4bd6685fac3f39a2172f",
+      "bytes": 393
+    },
+    {
+      "path": "reference/a10d1a97.md",
+      "sha256": "sha256:730e279ef8cb1aad69276517381d730ecfe9f3838fe79954a36b3f101e68e555",
+      "bytes": 25660
+    },
+    {
+      "path": "reference/advisor.md",
+      "sha256": "sha256:efec6c650ca6f437e129e7bce3e76f3860d0707407a9af101026f733312fde61",
+      "bytes": 1337
+    },
+    {
+      "path": "reference/ai-foundry.md",
+      "sha256": "sha256:650a0dfb27a9ac665ad5994d493e8788f825f410f0ec35a6647adfc6e58abfad",
+      "bytes": 8074
+    },
+    {
+      "path": "reference/ai-services_computer-vision.md",
+      "sha256": "sha256:41a862d12b8b01aba64cd648d935e3312e265fcf04a8dedc9b668af447b9547b",
+      "bytes": 40154
+    },
+    {
+      "path": "reference/ai-services_computer-vision_overview-identity.md",
+      "sha256": "sha256:ea6243b03d4065ad80402171e2375a0f98d39978de8df9c64e0c52fb3c6a4476",
+      "bytes": 39103
+    },
+    {
+      "path": "reference/ai-services_content-safety.md",
+      "sha256": "sha256:3b7bcc1b764428d9fbe22e3c54ada265c7c2c46686f4053a5a183cd3b71d6575",
+      "bytes": 5276
+    },
+    {
+      "path": "reference/ai-services_custom-vision-service.md",
+      "sha256": "sha256:566542336437d902f6a76eb7425ee060643692932e63067e4b96911cb87d6afb",
+      "bytes": 4647
+    },
+    {
+      "path": "reference/ai-services_document-intelligence.md",
+      "sha256": "sha256:f33577257f5ac45c2927a1ece99a9a139747839e6ee8bf2b603b7fa33b2a89ce",
+      "bytes": 7829
+    },
+    {
+      "path": "reference/ai-services_immersive-reader.md",
+      "sha256": "sha256:a32ac6f00b9840c5fe7283d89cac9849340db5495a3b0c8cd3c827d04fea9433",
+      "bytes": 4440
+    },
+    {
+      "path": "reference/ai-services_language-service.md",
+      "sha256": "sha256:c18d818d5d097a4d377cf9a3be6b825131872fe4d94983f2c697e210572633df",
+      "bytes": 24893
+    },
+    {
+      "path": "reference/ai-services_openai.md",
+      "sha256": "sha256:650a0dfb27a9ac665ad5994d493e8788f825f410f0ec35a6647adfc6e58abfad",
+      "bytes": 8074
+    },
+    {
+      "path": "reference/ai-services_speech-service.md",
+      "sha256": "sha256:0fdb0e6b8dc4f7c639a7d5810540f89aaa109bb9de6de881f2ffc0b9d41cef8e",
+      "bytes": 8389
+    },
+    {
+      "path": "reference/ai-services_translator.md",
+      "sha256": "sha256:ab847787fdffcaaa51fff8cd88e9e9a5a2b176a21438d0758471c14b707cbd30",
+      "bytes": 21758
+    },
+    {
+      "path": "reference/aks.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/aks_hybrid_aks-edge-overview.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/analysis-services.md",
+      "sha256": "sha256:2e7d4078b364d700bbf35d2fefb48fa2a6fef6013a525d5be27953d83bfe6ac7",
+      "bytes": 4598
+    },
+    {
+      "path": "reference/api-management.md",
+      "sha256": "sha256:135e56e997a96b597cffe3feef7223a7deff60daab757d086f3989ea5bce5a04",
+      "bytes": 5909
+    },
+    {
+      "path": "reference/app-service.md",
+      "sha256": "sha256:3c12f700f93bb7ecc6ed29fd940633c76c34e1c826c709bc3ab751efba45ca8f",
+      "bytes": 4765
+    },
+    {
+      "path": "reference/app-testing.md",
+      "sha256": "sha256:688d06c76ef1a7b9cf320961889f6dc57b372f97a3a19d4e371025e4ef3fd62e",
+      "bytes": 21567
+    },
+    {
+      "path": "reference/application-gateway.md",
+      "sha256": "sha256:ffc4d3be225effc1100e1b86d8315a18d8c299001b2fffcbe2c028ba1c67904c",
+      "bytes": 20876
+    },
+    {
+      "path": "reference/architecture.md",
+      "sha256": "sha256:85c844e40f5f04340eda8f29354eb825aedfaf1f5da59dd511eb6692d966b7a6",
+      "bytes": 27982
+    },
+    {
+      "path": "reference/automation.md",
+      "sha256": "sha256:9463bea9ef9e2157f9190fcb4a7f843c619cf8dc534dbcb99be4d51bda84e6ef",
+      "bytes": 17066
+    },
+    {
+      "path": "reference/azure-app-configuration.md",
+      "sha256": "sha256:b8589919603d180b2637fb2ad92eed118acc4a2a7280de301bbf33e00d41f08d",
+      "bytes": 25062
+    },
+    {
+      "path": "reference/azure-arc.md",
+      "sha256": "sha256:8642fc8e4d21b3a7acfbce2a58be91abf8aed7d0672459ec24f206af92febce8",
+      "bytes": 19843
+    },
+    {
+      "path": "reference/azure-cache-for-redis.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/azure-compute-fleet_overview.md",
+      "sha256": "sha256:4a47d9aa20b73f2f613a41452f1d7620c40e41a37ec85a0e6ad3844b41f3ddb7",
+      "bytes": 31079
+    },
+    {
+      "path": "reference/azure-fluid-relay.md",
+      "sha256": "sha256:a06c70640de8905ab670e850927874008ca73a4e9d351fc00e3ed3ab248bfb40",
+      "bytes": 4349
+    },
+    {
+      "path": "reference/azure-functions.md",
+      "sha256": "sha256:c69066986e7dbf5c0fed3c779a610e1c2ddf82c1d9ee0f629d3cd4ea69f9f15c",
+      "bytes": 7264
+    },
+    {
+      "path": "reference/azure-government.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/azure-local.md",
+      "sha256": "sha256:8b27a549427dac7a4a834c72e72b6c3a0a67eb4229f095891cf2512c4e4d0ddd",
+      "bytes": 7509
+    },
+    {
+      "path": "reference/azure-managed-lustre.md",
+      "sha256": "sha256:326e35c2b1892ebcf9f7bae685b3100cde1696baa35d7ea857e1486dfd9a541b",
+      "bytes": 18504
+    },
+    {
+      "path": "reference/azure-maps.md",
+      "sha256": "sha256:d050f8d5d6ee9d36b7f8ee98d0c164dd0d28edac1a266ed404533777c481496b",
+      "bytes": 19954
+    },
+    {
+      "path": "reference/azure-monitor.md",
+      "sha256": "sha256:a608259e7fec70122ab93f785b337e3e937ee8a659d951511141df7d77c567cd",
+      "bytes": 20452
+    },
+    {
+      "path": "reference/azure-netapp-files.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/azure-portal.md",
+      "sha256": "sha256:492001bad35e236b8ec4e3ee583cb74022ef6a5b414f4de365b0c38da5260125",
+      "bytes": 3795
+    },
+    {
+      "path": "reference/azure-resource-manager.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/azure-sql_virtual-machines_windows_sql-server-on-azu-74a3b07a.md",
+      "sha256": "sha256:f5358c9edd80fe9b514f998a6cc2c0c8dd3c3eb13fab4998dff20e283a3f0f54",
+      "bytes": 49923
+    },
+    {
+      "path": "reference/azure-video-indexer.md",
+      "sha256": "sha256:b5e57262faeb2cec819f20bb839bba808c46d7dfc071f3c75c6e99f1c941b84d",
+      "bytes": 2853
+    },
+    {
+      "path": "reference/azure-vmware.md",
+      "sha256": "sha256:0b796e381849ac9370eefba8ab312663cf8d8e798686b0912808536791770670",
+      "bytes": 11529
+    },
+    {
+      "path": "reference/azure-web-pubsub.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/backup.md",
+      "sha256": "sha256:87af0973d6054a23a893cf5464676ae81217b611e10f8f6b8a938dc3fd0bafa6",
+      "bytes": 24754
+    },
+    {
+      "path": "reference/batch.md",
+      "sha256": "sha256:d40fe6a1ffc26c54727d08cf5af1d9df50343b83fb0223bb0c48ddb5de6741da",
+      "bytes": 4627
+    },
+    {
+      "path": "reference/bot-service.md",
+      "sha256": "sha256:5320e4f8104dae42e287477fc9c26abf6b9534dfbe1be07675ec97e37b7b0e55",
+      "bytes": 5850
+    },
+    {
+      "path": "reference/c69b38b6.md",
+      "sha256": "sha256:da553a1f75a1e3501b976e2348aad8ddcd46b5666a6208659f80eca457f35796",
+      "bytes": 25689
+    },
+    {
+      "path": "reference/chaos-studio.md",
+      "sha256": "sha256:edd893e41bb2716bbe908af4ea24623cae5289469f161b6aa7fcdea391ad7b87",
+      "bytes": 20689
+    },
+    {
+      "path": "reference/china.md",
+      "sha256": "sha256:870dca6409258bff7d63924d3e6ab0c1abd465d197141bd0b7a6e5d5cb62d179",
+      "bytes": 2240
+    },
+    {
+      "path": "reference/cloud-adoption-framework.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/cloud-services-extended-support.md",
+      "sha256": "sha256:4f7338c890bb9837060a402f15c2beb92b823f0cfb65b32f7a05e7c04cece36b",
+      "bytes": 18594
+    },
+    {
+      "path": "reference/cloud-shell_overview.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/communication-services_overview.md",
+      "sha256": "sha256:ae2752fbb884eecc9acbf84912dee5a4902dcea352b83093a65a44d77aae2c66",
+      "bytes": 18205
+    },
+    {
+      "path": "reference/confidential-ledger.md",
+      "sha256": "sha256:864bdb072e1b67ad9dcbaec8c338522ce86f047b6c373f1e2118e39f964d61eb",
+      "bytes": 5751
+    },
+    {
+      "path": "reference/container-apps.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/container-instances.md",
+      "sha256": "sha256:23a4bce229932a9a6e1684345b5149661eadced99aa9fb06a27918933e2d1b4c",
+      "bytes": 5512
+    },
+    {
+      "path": "reference/container-registry.md",
+      "sha256": "sha256:4fa92ac74722f10167c537e709944915ed52436739ba217b3d160204a676ecd0",
+      "bytes": 7692
+    },
+    {
+      "path": "reference/copilot.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/cosmos-db.md",
+      "sha256": "sha256:d906b1dca93da25bfd68f9adb8daf567b8580da3049ab4efecc88d338071bef6",
+      "bytes": 29047
+    },
+    {
+      "path": "reference/cost-management-billing.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/cyclecloud_index.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/d3d93f82.md",
+      "sha256": "sha256:6e16782081db865c141927f9a740bb45a11fa74555de1b75649c2f7b97d9d4e2",
+      "bytes": 19239
+    },
+    {
+      "path": "reference/data-explorer.md",
+      "sha256": "sha256:3310d0b2554ef91db96597aaecdfa461b01520e3ecca6b73cc67867c626a475d",
+      "bytes": 22107
+    },
+    {
+      "path": "reference/data-factory.md",
+      "sha256": "sha256:c5e32df34a077cdf758ff6fbd98a884953ab164a6d65efb56dbfc1039c421ffc",
+      "bytes": 20253
+    },
+    {
+      "path": "reference/data-lake-analytics.md",
+      "sha256": "sha256:00868358af61d5521c7527dafc9ed94531f0aa6563518b800fad7c29758db1cb",
+      "bytes": 6306
+    },
+    {
+      "path": "reference/data-manager-for-agri.md",
+      "sha256": "sha256:c4cb597ad7ef5723415cce119f02468675dccfdd5c757eebe69eec6c334f7421",
+      "bytes": 18680
+    },
+    {
+      "path": "reference/data-share.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/databox-online.md",
+      "sha256": "sha256:32ad54d2df8e860fa58f2877845cede26bc76391f3fd7cd4893a2de16e76f135",
+      "bytes": 6120
+    },
+    {
+      "path": "reference/databox.md",
+      "sha256": "sha256:6389dfcfccf7dba6431dc08179d2b2ec7f675bdddb6b8e51ded90be99313f934",
+      "bytes": 17312
+    },
+    {
+      "path": "reference/databricks.md",
+      "sha256": "sha256:c795370dcc80b5e1db625080447762630361da69d80ac2bb70c35049951cbac8",
+      "bytes": 3605
+    },
+    {
+      "path": "reference/ddos-protection.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/defender-for-cloud.md",
+      "sha256": "sha256:556a381964651644568091209c03b33a6e9dc737e8733437e6d4409183ed96f4",
+      "bytes": 19755
+    },
+    {
+      "path": "reference/defender-for-iot.md",
+      "sha256": "sha256:55e544c2ec81f20abe6629be81ab0c825480cd975a962fa93da95b5cd7f30a88",
+      "bytes": 4558
+    },
+    {
+      "path": "reference/deployment-environments.md",
+      "sha256": "sha256:eb58ae323cbe0c31d5cbd8c19bff62858e503b57dc659accd9e57883a6dab204",
+      "bytes": 18065
+    },
+    {
+      "path": "reference/dev-box.md",
+      "sha256": "sha256:06b109535c0170a38f69744d5b44e585e03c13eba8fed9cdaa64c6ecf9f8655d",
+      "bytes": 20401
+    },
+    {
+      "path": "reference/developer.md",
+      "sha256": "sha256:9a7fa1779d162a0e4c04ebd45c6294e8f6440e820c64e657a97c3658014ee4c8",
+      "bytes": 20971
+    },
+    {
+      "path": "reference/developer_go.md",
+      "sha256": "sha256:0592ec48248430a3650fcc424cfdb0a8e16b4b679abe3a402e5a35aa791277a0",
+      "bytes": 17304
+    },
+    {
+      "path": "reference/developer_java.md",
+      "sha256": "sha256:1a39dcbb82ee05db770b72c18470686d1be6e889b0eba9a9a2168ba6c2c78ff1",
+      "bytes": 17853
+    },
+    {
+      "path": "reference/developer_javascript.md",
+      "sha256": "sha256:ae71e63582c5f337e87755df8f9a56ec6fb83419c0c5cc056dfbc95f27282b4c",
+      "bytes": 22143
+    },
+    {
+      "path": "reference/developer_jenkins.md",
+      "sha256": "sha256:350d51bf28000b7111b23f540370e730e74f7b79ffca1b14f23b3fee40140f1a",
+      "bytes": 17064
+    },
+    {
+      "path": "reference/developer_python.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/developer_terraform.md",
+      "sha256": "sha256:208fa40893102171f41cf3ee175c1f593ed0b469bd6a4b5d6499af030787d005",
+      "bytes": 21149
+    },
+    {
+      "path": "reference/devops.md",
+      "sha256": "sha256:5dd6ade11f696a8df8d5d084b5975bffbac741ca72dd2af18be2fb1b44ed4773",
+      "bytes": 21185
+    },
+    {
+      "path": "reference/devops_artifacts.md",
+      "sha256": "sha256:67b76fcf79f12cb19e4c6aeb099421e730fd2782272862e93c9fd42a9e6198fd",
+      "bytes": 21107
+    },
+    {
+      "path": "reference/devops_boards.md",
+      "sha256": "sha256:1929925be373d7e41402a99c8ff18b46d630d2e773d3a187b876cba45ead1ac3",
+      "bytes": 21695
+    },
+    {
+      "path": "reference/devops_pipelines.md",
+      "sha256": "sha256:8aca6c7be65dd999a88a2a21171edea8e60d127879fe4cfc34d4d6335fec5137",
+      "bytes": 24216
+    },
+    {
+      "path": "reference/devops_repos.md",
+      "sha256": "sha256:d984acb66a3a95ee505be258f8beda9f683ad6304a09b6f86920db9f73dabf8f",
+      "bytes": 7408
+    },
+    {
+      "path": "reference/devops_test.md",
+      "sha256": "sha256:ae4952607d295341de8de7b8e8943c570d1fb6ad6c54ebf785a953d988a3ce29",
+      "bytes": 5660
+    },
+    {
+      "path": "reference/devtest-labs.md",
+      "sha256": "sha256:c2c998e23025431c43f03cb93e15afef7a9d9e9c8848ec7c50033f35b57cc7df",
+      "bytes": 2368
+    },
+    {
+      "path": "reference/df22d177.md",
+      "sha256": "sha256:d83ccac54c28e84de8030bac14d387ca15fcca07665ca051b88c6d8e7045d410",
+      "bytes": 36963
+    },
+    {
+      "path": "reference/digital-twins.md",
+      "sha256": "sha256:6cf8dc7c28a1ecd094c74e51bea15ae7b7b4d7437dfd4c12de71eddd329c0b7d",
+      "bytes": 3535
+    },
+    {
+      "path": "reference/dms.md",
+      "sha256": "sha256:67c27ed56fe2a430ddf712d50ed4dae43ad809a79c121ed0f8ab4d9f1d612b99",
+      "bytes": 6252
+    },
+    {
+      "path": "reference/dns.md",
+      "sha256": "sha256:f4feba953ac387c6772f6444760c7d2162d65f5ac99da89cd2e5ae026d151790",
+      "bytes": 4152
+    },
+    {
+      "path": "reference/documentdb.md",
+      "sha256": "sha256:18a3d6dbea67149728c8cbe786de54aadc9f2134dd344604662523a9cf51ed69",
+      "bytes": 23045
+    },
+    {
+      "path": "reference/e039f70b.md",
+      "sha256": "sha256:2e242bea639bdfd230b047223f3e1bb4e3e9617c788cf5e3285e9d7a95ce788d",
+      "bytes": 398
+    },
+    {
+      "path": "reference/e30d2fec.md",
+      "sha256": "sha256:56288bb11fcaddd96401440f6bdf6c161c9c5f13b71a6f39e4294ed5d8a5204f",
+      "bytes": 1747
+    },
+    {
+      "path": "reference/en-us_ai.md",
+      "sha256": "sha256:2956b7fa7dbb5d6a8638c0dd0e3201d5119f4112843ff72f8f470253d305ca72",
+      "bytes": 13587
+    },
+    {
+      "path": "reference/en-us_answers_questions.md",
+      "sha256": "sha256:0ab39ea202135c2d9ec6e0b2f9ba9e0676f2dd0e4de4a9a625d47fd9a7cd33c3",
+      "bytes": 34211
+    },
+    {
+      "path": "reference/en-us_answers_questions_ask.md",
+      "sha256": "sha256:df7b11dbc5443004a5dc8b00fd5c552aec5c7e184a2792a7f59a915228040039",
+      "bytes": 1271
+    },
+    {
+      "path": "reference/en-us_answers_tags.md",
+      "sha256": "sha256:b786a72bebd1f395c015a5d6015bf2372eef9ca1cb06600d3171752665a84ae0",
+      "bytes": 40915
+    },
+    {
+      "path": "reference/en-us_answers_tags_108_office-teams.md",
+      "sha256": "sha256:587ae5343bd7f016b95dda5deff90104c111430b3e644580c37e693bdeb25f28",
+      "bytes": 47396
+    },
+    {
+      "path": "reference/en-us_answers_tags_131_office-outlook.md",
+      "sha256": "sha256:515a232fd11cca043a81dd29fc9030e5121cd6ea4ce4a8dfd1e8fea583550350",
+      "bytes": 35333
+    },
+    {
+      "path": "reference/en-us_answers_tags_133_azure.md",
+      "sha256": "sha256:b4fb67e00a255d4908453d08d3ae4bc5676779035832cf7a93d9bde8d29913ac",
+      "bytes": 42039
+    },
+    {
+      "path": "reference/en-us_answers_tags_60_windows.md",
+      "sha256": "sha256:5c26dbbc669a29896b5d812735929e7e5f63f16292ec33b81f09fd2d02f289c7",
+      "bytes": 39865
+    },
+    {
+      "path": "reference/en-us_answers_tags_9_m365.md",
+      "sha256": "sha256:b786a72bebd1f395c015a5d6015bf2372eef9ca1cb06600d3171752665a84ae0",
+      "bytes": 40915
+    },
+    {
+      "path": "reference/en-us_appcenter.md",
+      "sha256": "sha256:55b5e774401a692ca02e6564f1d01da4f63bdd0351150215a0cd41e36d6a8e10",
+      "bytes": 6048
+    },
+    {
+      "path": "reference/en-us_assessments.md",
+      "sha256": "sha256:51c7e4cb8c0e21d109eb860254a03cdd7be61e8984f3e16d1f639e98e72dc3ad",
+      "bytes": 11002
+    },
+    {
+      "path": "reference/en-us_assessments_1c032171-8ca0-4032-8962-a38a5cc424a8.md",
+      "sha256": "sha256:51c7e4cb8c0e21d109eb860254a03cdd7be61e8984f3e16d1f639e98e72dc3ad",
+      "bytes": 11002
+    },
+    {
+      "path": "reference/en-us_azure-sphere.md",
+      "sha256": "sha256:0820c4fb14ee1f36137a25796c74a6724619a4efdd1f04b2fbba38d58e27a02d",
+      "bytes": 19285
+    },
+    {
+      "path": "reference/en-us_azure-stack_operator.md",
+      "sha256": "sha256:a2bbdfc34f0c16b3b90d9df6e43208d251937858d1177c645d3bfbc0bb73d526",
+      "bytes": 6330
+    },
+    {
+      "path": "reference/en-us_azure.md",
+      "sha256": "sha256:9d4ff1f79e052a4d858208ef4730cc0c2c63eafe3c5e8e33fffec3bab7fed918",
+      "bytes": 20502
+    },
+    {
+      "path": "reference/en-us_cli_azure.md",
+      "sha256": "sha256:2f7a2f8c2a3ae932685a7047c5e2693175b8927a5521aa581cf0465c9eb887eb",
+      "bytes": 20601
+    },
+    {
+      "path": "reference/en-us_compliance.md",
+      "sha256": "sha256:aa26a9af5b7cda3c1c7269be5ea6ac96ac1e31bcd6be717af3a0ed5681179248",
+      "bytes": 13866
+    },
+    {
+      "path": "reference/en-us_contribute.md",
+      "sha256": "sha256:40d326782eb406f9bcae60fb8e0d2b3bb395e55697e46983ff040b4e62247c4f",
+      "bytes": 11028
+    },
+    {
+      "path": "reference/en-us_copilot.md",
+      "sha256": "sha256:ee32a1523776284158f10c82527b1be37c2e44c00e4645ebbbf24ffa78dd7a00",
+      "bytes": 26639
+    },
+    {
+      "path": "reference/en-us_credentials.md",
+      "sha256": "sha256:b508ce654725a8c72d571d8f6cb0fc4da79a644dfca86fc7386f94d676436a04",
+      "bytes": 13480
+    },
+    {
+      "path": "reference/en-us_credentials_browse.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/en-us_devops.md",
+      "sha256": "sha256:5e64a0dde7250feb102e6623e0a63d97392474b97e0413cfed24eda04880a16c",
+      "bytes": 3822
+    },
+    {
+      "path": "reference/en-us_docs.md",
+      "sha256": "sha256:eaeeae3a8475bdf31e97f47706a23da2af8cbac75df00d88aaaa314dfaaeb677",
+      "bytes": 29912
+    },
+    {
+      "path": "reference/en-us_dotnet_azure.md",
+      "sha256": "sha256:8fe1b9523ab5c7f6cf3b9bef79141c323ad24ff065df4ba4558b5b637a1ea5ff",
+      "bytes": 11169
+    },
+    {
+      "path": "reference/en-us_dynamics365.md",
+      "sha256": "sha256:21a94852574f2b381f8bbf55d9e134c85621c629fcb53fc597b3b89726faa033",
+      "bytes": 14827
+    },
+    {
+      "path": "reference/en-us_entra_external-id.md",
+      "sha256": "sha256:7b5a474b7581c8002de5675f5da05ce966f1414fa91b99e3bf124f332ad298a5",
+      "bytes": 3513
+    },
+    {
+      "path": "reference/en-us_entra_identity.md",
+      "sha256": "sha256:daf132948fd809893f1096e409b16c820fc4d44d823b4361bfafeb068767d825",
+      "bytes": 5522
+    },
+    {
+      "path": "reference/en-us_fabric_fundamentals_microsoft-fabric-overview.md",
+      "sha256": "sha256:76421131821cb3b6c18c7e0579b1a3ce994696ea418c0f1e575b4801a5ceb610",
+      "bytes": 38624
+    },
+    {
+      "path": "reference/en-us_labs.md",
+      "sha256": "sha256:470037a34301c4dd5fbbd15ef681bc746163d1e01bfa7fd7e53841238a8baeff",
+      "bytes": 1648
+    },
+    {
+      "path": "reference/en-us_legal_termsofuse.md",
+      "sha256": "sha256:cfd20e6a19565fb240117b882e2d96c595d6cdfb7604b0773f9a6134b8c36e8a",
+      "bytes": 41764
+    },
+    {
+      "path": "reference/en-us_lifecycle_faq_internet-explorer-microsoft-edge.md",
+      "sha256": "sha256:07124fbda75c1ca603b0f11fda83fd3d24adbb3ab80ff60bc6706282110c1991",
+      "bytes": 29805
+    },
+    {
+      "path": "reference/en-us_microsoft-365.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/en-us_platform-engineering.md",
+      "sha256": "sha256:07224cdd3cd1bbfa6a44199cb6af40d09dc1569090a7c4133f75ecaf4e4deac6",
+      "bytes": 3916
+    },
+    {
+      "path": "reference/en-us_power-bi_developer_azure-pbie-what-is-power-bi-embedded.md",
+      "sha256": "sha256:5200e575a5ac37ac9b4d402045c3fb73b5738d5e59a112fad0bb24add7d7c715",
+      "bytes": 31857
+    },
+    {
+      "path": "reference/en-us_power-bi_fundamentals_power-bi-overview.md",
+      "sha256": "sha256:85ac9f662278575ecaef9ab616271047a3356247e4b05dd79dd448a50522df8b",
+      "bytes": 29609
+    },
+    {
+      "path": "reference/en-us_power-platform.md",
+      "sha256": "sha256:e00e68d6455066ec6b6202dfc83b13b6b792015fd218d09461edc6cc2ebe093d",
+      "bytes": 16350
+    },
+    {
+      "path": "reference/en-us_powershell_azure.md",
+      "sha256": "sha256:42d10626c57df2ffa81e6491a9b01cf65f92e13556d2cf890ceb5355485514fb",
+      "bytes": 7061
+    },
+    {
+      "path": "reference/en-us_previous-versions.md",
+      "sha256": "sha256:986464e5ba62237311b0439804e025b2aa674eebd93ebf0ad8f8fc06208e6624",
+      "bytes": 29912
+    },
+    {
+      "path": "reference/en-us_principles-for-ai-generated-content.md",
+      "sha256": "sha256:147debbf73807abc14540a9d20f1cd0dfe111decc8137d4c0976c7b4984e7c07",
+      "bytes": 9958
+    },
+    {
+      "path": "reference/en-us_purview_index.md",
+      "sha256": "sha256:3ce324c17d5a236f2d75a823c577a939907ae6346f19ab7bde86395589f0912d",
+      "bytes": 3912
+    },
+    {
+      "path": "reference/en-us_rest_api.md",
+      "sha256": "sha256:136aefd91813b9a411eafbf4638350f8162aba34ee80314e20efb9c9d824e465",
+      "bytes": 1041
+    },
+    {
+      "path": "reference/en-us_samples.md",
+      "sha256": "sha256:5915c70bbf1596b4aa1d22924741dd96b998c50f95a7e8564bd9ee91f3f06231",
+      "bytes": 22288
+    },
+    {
+      "path": "reference/en-us_security.md",
+      "sha256": "sha256:796e0b8fbe420cd4ce698c9fe18b2543ee765469cd16f544fb86fcb792382a90",
+      "bytes": 22345
+    },
+    {
+      "path": "reference/en-us_training.md",
+      "sha256": "sha256:f7966f833e6cd4d8ef54f0bfb47f0ef8e873d74eccc820d01a462226a54b64f7",
+      "bytes": 26836
+    },
+    {
+      "path": "reference/en-us_training_azure.md",
+      "sha256": "sha256:6a1bafb7c098f1eaa9eb8ffbc9aeab95f49f76ad04b715bcde11225a22422bc3",
+      "bytes": 24451
+    },
+    {
+      "path": "reference/en-us_training_browse.md",
+      "sha256": "sha256:601b4b1086942df0f0a85dc058a116f9c514cac5c650b61c51eb7dfa7ce6a8ac",
+      "bytes": 33699
+    },
+    {
+      "path": "reference/en-us_training_career-paths.md",
+      "sha256": "sha256:4de665058f5696e42be91f0363d18d966819afb612b32e86595455809a41c86a",
+      "bytes": 24769
+    },
+    {
+      "path": "reference/en-us_training_educator-center.md",
+      "sha256": "sha256:68b339090d5e78ae8ee08d2fd4ae712a268725a52d61ee235bb2f9e70fa64025",
+      "bytes": 28601
+    },
+    {
+      "path": "reference/en-us_training_organizations.md",
+      "sha256": "sha256:c06eb756ed15636a65b54bcf3c44062c5d217fd976419c50727dd48a6e8931ad",
+      "bytes": 30469
+    },
+    {
+      "path": "reference/en-us_training_paths_azure-fundamentals-describe-azu-31341f9a.md",
+      "sha256": "sha256:81626e1c8625a0304187cffeb84ebd8c63c3dd50ddf97195926a6289298c4a7e",
+      "bytes": 37810
+    },
+    {
+      "path": "reference/en-us_training_paths_get-started-with-artificial-int-09858bae.md",
+      "sha256": "sha256:a3e51c584b41bd9306ae98f0bc7d7d6e86de22434aa852e02ca626b09cbdace4",
+      "bytes": 23389
+    },
+    {
+      "path": "reference/en-us_training_paths_microsoft-azure-fundamentals-de-1262ec13.md",
+      "sha256": "sha256:ba138696c9adbc65a41ff15cc96ed0a3cf9188ca388705f654125a99e90518c3",
+      "bytes": 30561
+    },
+    {
+      "path": "reference/en-us_training_student-hub.md",
+      "sha256": "sha256:a8e472a352aff8634c52ff51a91e5e82ec0270e9c167fffe73a2b7e5ad305f80",
+      "bytes": 23190
+    },
+    {
+      "path": "reference/en-us_troubleshoot.md",
+      "sha256": "sha256:7986ac15a2a25b16b5b8cfe825e79c70ebe06a79ae8e79c0a30cee51c04a0cea",
+      "bytes": 18108
+    },
+    {
+      "path": "reference/en-us_troubleshoot_azure.md",
+      "sha256": "sha256:2474cba65cb3020d4194e29c605e0104633bccf3a8789732261315cd1078f819",
+      "bytes": 22723
+    },
+    {
+      "path": "reference/en-us_users_me_activity.md",
+      "sha256": "sha256:c508e5602885a9392779ca687a362b898fcbf2074981101f8fc994335ef1e631",
+      "bytes": 1118
+    },
+    {
+      "path": "reference/en-us_users_me_settings.md",
+      "sha256": "sha256:4a7adef7f9626bc5439a3b3700eb6aff131bffe7b60ad12e3669d1309f4fb7d6",
+      "bytes": 1118
+    },
+    {
+      "path": "reference/en-us_visualstudio_windows.md",
+      "sha256": "sha256:7dee44e9da48173c276b7643440a975dcfd6d77d4fe85ab1d276e48cc93464e0",
+      "bytes": 16752
+    },
+    {
+      "path": "reference/en-us_windows-hardware_manufacture_iot_iotcoreservic-5cc371a6.md",
+      "sha256": "sha256:b5d4f801216fe118752e329f9d00606c2b821fdd248b639b3f5cad571b966643",
+      "bytes": 30962
+    },
+    {
+      "path": "reference/en-us_windows_iot.md",
+      "sha256": "sha256:4c0831d4286c1988136bcab47721ff6df4532d648ff828819b8566c215213cf2",
+      "bytes": 18811
+    },
+    {
+      "path": "reference/energy-data-services.md",
+      "sha256": "sha256:c0d6271a650ac9ed7e56d8f34ca127987433ae7a8e92a38718c6ba0f5de49953",
+      "bytes": 21302
+    },
+    {
+      "path": "reference/event-grid.md",
+      "sha256": "sha256:4bcd5192a755507200841b50151774c7da2b2a14c645ea45a5f1add3a4080174",
+      "bytes": 5336
+    },
+    {
+      "path": "reference/event-hubs.md",
+      "sha256": "sha256:08b6fcac288ff61a7125c2d170632e6a972d804496e770a03bfcf2ba81282b43",
+      "bytes": 8766
+    },
+    {
+      "path": "reference/expressroute.md",
+      "sha256": "sha256:f9cf429082c8e6498f56fe8ee4d4cf7add78094a2d0c7d2c81529681845fd26a",
+      "bytes": 22281
+    },
+    {
+      "path": "reference/external-attack-surface-management_overview.md",
+      "sha256": "sha256:629575ceafa7b7637c4c1d0c6f630a7ae9055054b135eb4de93d0da9121e5514",
+      "bytes": 18615
+    },
+    {
+      "path": "reference/firewall.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/frontdoor.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/governance_blueprints.md",
+      "sha256": "sha256:68d44d6560c0c96b1a0e428917be9c58a04239c27a0650db24c3288fe917ddf3",
+      "bytes": 4898
+    },
+    {
+      "path": "reference/governance_policy.md",
+      "sha256": "sha256:f29f0c5cbf120070e88786a003336d5ad6e07e7ff5215b59e05c3cbecd4cfec7",
+      "bytes": 6407
+    },
+    {
+      "path": "reference/hdinsight.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/health-bot.md",
+      "sha256": "sha256:bf99f9c838d1ce95d93590cb797fb767254ef6abafbd21d3cf1ac3223dfcf926",
+      "bytes": 18325
+    },
+    {
+      "path": "reference/healthcare-apis.md",
+      "sha256": "sha256:99088eab2095d561371e4762406778a110171223303ed23c97f6c11feba13286",
+      "bytes": 6291
+    },
+    {
+      "path": "reference/healthcare-apis_azure-api-for-fhir.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/information-protection.md",
+      "sha256": "sha256:67485e30f5cf97904f33384111197d3f4cba0408d277a36be9b0e32165e667c9",
+      "bytes": 1567
+    },
+    {
+      "path": "reference/iot-central.md",
+      "sha256": "sha256:8f8c6005c70644c398e50b6b281dda8df10c0f81eafeba84117db3839182045a",
+      "bytes": 18416
+    },
+    {
+      "path": "reference/iot-edge.md",
+      "sha256": "sha256:78d7652ff2d5d5b14fef142554b9635268beaa7e3604825711a551582767deca",
+      "bytes": 3283
+    },
+    {
+      "path": "reference/iot-hub.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/iot-operations.md",
+      "sha256": "sha256:d3ab14e426dfffeaa738139833b18a906f33ed5e07b3f0ceb81a35618b6c8010",
+      "bytes": 29085
+    },
+    {
+      "path": "reference/iot.md",
+      "sha256": "sha256:2d62e4e9a30001490e5321bea0debcfa8d5f070cbd5062bc62c9f19ffeef5538",
+      "bytes": 5465
+    },
+    {
+      "path": "reference/key-vault.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/lab-services.md",
+      "sha256": "sha256:95c5d995804ffa7993eaa066b0693c9abf9132686ea88034330abdd05b910fd5",
+      "bytes": 4101
+    },
+    {
+      "path": "reference/lighthouse.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/load-balancer.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/logic-apps.md",
+      "sha256": "sha256:ea21d49de39fcb2b627e0739ac2921247ebbdf755263309316e2dc4c79fb0b2a",
+      "bytes": 21259
+    },
+    {
+      "path": "reference/machine-learning.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/machine-learning_data-science-virtual-machine.md",
+      "sha256": "sha256:edc4cb806d25e34d2f6e072c67ed897a08414b2d23771357a932f8e65d4496a7",
+      "bytes": 4633
+    },
+    {
+      "path": "reference/managed-grafana.md",
+      "sha256": "sha256:fa16667d34754624cfe9f42238b7a2b13842d139d2c02ec16795d7288353bc26",
+      "bytes": 6208
+    },
+    {
+      "path": "reference/managed-instance-apache-cassandra.md",
+      "sha256": "sha256:d4db92838642165b5142758467c818e52a9b429b6fc43b4ab2679fa008a87622",
+      "bytes": 17576
+    },
+    {
+      "path": "reference/mariadb.md",
+      "sha256": "sha256:6f9798ae452e79f397517fb5e8a61a51309a7ae5e51bdfd5c321d8c7db216dde",
+      "bytes": 5946
+    },
+    {
+      "path": "reference/marketplace.md",
+      "sha256": "sha256:c1e1e44306cddd6fdeb45667ebc847242cdeaeeaf26265066c301093d082e57b",
+      "bytes": 15728
+    },
+    {
+      "path": "reference/media-services_latest.md",
+      "sha256": "sha256:290635b180eef0e427c48ff1cf07dc842515931dff8e680f8fe087411809936f",
+      "bytes": 3858
+    },
+    {
+      "path": "reference/media-services_latest_drm-content-protection-concept.md",
+      "sha256": "sha256:c8403edb0eea2af37222ad8d736f5938a53d2bf1ac05c3b61f1698921df9798a",
+      "bytes": 22060
+    },
+    {
+      "path": "reference/media-services_latest_encode-concept.md",
+      "sha256": "sha256:fb95a97d3c8ad846202d3780a3047ba1db0719b001847d7849e0e26f46dda98c",
+      "bytes": 26487
+    },
+    {
+      "path": "reference/media-services_latest_player-media-players-concept.md",
+      "sha256": "sha256:19c9711c7097a5e22e6609c83ca8e90aa7c7cf48ca4371c7847707fd16983252",
+      "bytes": 11082
+    },
+    {
+      "path": "reference/media-services_latest_stream-live-tutorial-with-api.md",
+      "sha256": "sha256:cae2936b4ae7a3077b7e95992422ea29478dc10f044b856f989622b6002abf6b",
+      "bytes": 39428
+    },
+    {
+      "path": "reference/migrate.md",
+      "sha256": "sha256:524347804e82b48223c3b6ee9b76442e50765850eb8b90c28969460d8297e377",
+      "bytes": 18724
+    },
+    {
+      "path": "reference/mysql.md",
+      "sha256": "sha256:3f35e55808cd0b101994a021e1a1ffa9497ec1e6c1e829fc1444ea793e772c03",
+      "bytes": 21180
+    },
+    {
+      "path": "reference/nat-gateway.md",
+      "sha256": "sha256:f6ea2e08b00d620f9c87cd5333e8be38ee351a1d0c84e066443c9324c5f5019e",
+      "bytes": 4444
+    },
+    {
+      "path": "reference/networking.md",
+      "sha256": "sha256:610f1bee51cc379776f223496a831703d160735ae61f80afe11573a8ba964567",
+      "bytes": 8643
+    },
+    {
+      "path": "reference/notification-hubs.md",
+      "sha256": "sha256:e58247f83e58c566f2626c771cd5b99f8dbff0e86b79a88cb48812b9ecfcaf47",
+      "bytes": 4184
+    },
+    {
+      "path": "reference/open-datasets.md",
+      "sha256": "sha256:bae1506d57431b9f5707124a0d265ff3c969d18e44d503d7dc48be0e5c5fcb13",
+      "bytes": 1689
+    },
+    {
+      "path": "reference/openshift.md",
+      "sha256": "sha256:c816e1e5f9a4a0725f134c88b57967ad12d3e1ea4fecb86dbdece5cacfbd90d1",
+      "bytes": 3358
+    },
+    {
+      "path": "reference/operator-nexus.md",
+      "sha256": "sha256:196be64d54d0a72071221324313f4e0521d6701169427f47a914c714e2006664",
+      "bytes": 4003
+    },
+    {
+      "path": "reference/operator-service-manager.md",
+      "sha256": "sha256:09186183b54252ff5492b2fb3c4d6a037d22834d53d3380abb18c4567a01b683",
+      "bytes": 19572
+    },
+    {
+      "path": "reference/partner-solutions.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/playwright-testing.md",
+      "sha256": "sha256:3f9f6e6380eb44d5429dde83b4930e8ae4a7c79871785407f47ae009225c4385",
+      "bytes": 5015
+    },
+    {
+      "path": "reference/postgresql.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/private-link.md",
+      "sha256": "sha256:1a5dc03227ba3da2e427b27cf7674964efefcbaa097726014a85a9f4b55e2f94",
+      "bytes": 5761
+    },
+    {
+      "path": "reference/quantum.md",
+      "sha256": "sha256:def1499b3c7c6b32fa9307f6a285ceefa96436607567d711e18d95779a1beb92",
+      "bytes": 3466
+    },
+    {
+      "path": "reference/redis.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/resource-mover.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/search.md",
+      "sha256": "sha256:773a70f32daba97713723c3b567527ab982d55766a85f6d034ee996ccb0bea54",
+      "bytes": 17707
+    },
+    {
+      "path": "reference/sentinel.md",
+      "sha256": "sha256:15ff38a0f9616a12a79f8dbf7d0a7527cfe3ee405acada73e68cd84e00b9b7e2",
+      "bytes": 20581
+    },
+    {
+      "path": "reference/service-bus-messaging.md",
+      "sha256": "sha256:036edd57ff6b510ff52e1d7612a838b95ccc73e900b133d6fed62373e7bf5f5e",
+      "bytes": 21438
+    },
+    {
+      "path": "reference/service-fabric.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/service-health.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/site-recovery.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/spring-apps.md",
+      "sha256": "sha256:1d0ac947e0700ae69b3d7570283b78fd3bffdcbea8661400c06491cfa38d0926",
+      "bytes": 27784
+    },
+    {
+      "path": "reference/static-web-apps.md",
+      "sha256": "sha256:33050bfb7981a116c66a7cb073ec713fac058e26b571eec303de0ad44f33e4f6",
+      "bytes": 4056
+    },
+    {
+      "path": "reference/storage-actions_storage-tasks.md",
+      "sha256": "sha256:b648f99d3c1d6b98ba8b3338f91074a10679f34a24a5719e458776c42a64f028",
+      "bytes": 4251
+    },
+    {
+      "path": "reference/storage.md",
+      "sha256": "sha256:125358f2cb4e9b8157eecc84c80da551f7242386b8edf7a1537995ef359dc002",
+      "bytes": 3816
+    },
+    {
+      "path": "reference/storage_blobs.md",
+      "sha256": "sha256:639acb5815535a4dbbb763aed534859abf0ee369ec42a5749f7e7aaa9a60386d",
+      "bytes": 8922
+    },
+    {
+      "path": "reference/storage_blobs_access-tiers-overview.md",
+      "sha256": "sha256:2bfe8d3fee7661320c93883145922f00a48c7dce81ec57fc4b48940e51c39aa5",
+      "bytes": 46795
+    },
+    {
+      "path": "reference/storage_blobs_data-lake-storage-introduction.md",
+      "sha256": "sha256:ce3afe15720abfc7d5c13cbc1ae12b5d4da04b3ff97377f7517e2e4e755c7827",
+      "bytes": 14827
+    },
+    {
+      "path": "reference/storage_container-storage.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/storage_elastic-san.md",
+      "sha256": "sha256:91fdddf6d7944da4e3a0845923fce9cd84b5bd5ae3d41d918e4cc933770d74ef",
+      "bytes": 2982
+    },
+    {
+      "path": "reference/storage_files.md",
+      "sha256": "sha256:a79cd56a6ff6098a1b3d7ae86463f5eac373dc74f71370a2ab72fd41f006447d",
+      "bytes": 3698
+    },
+    {
+      "path": "reference/storage_queues.md",
+      "sha256": "sha256:be0ae41e8635d1bb3a4a303339259f73df6b5bf98e8cc34e6b6d130206d7e999",
+      "bytes": 3297
+    },
+    {
+      "path": "reference/storage_tables_table-storage-overview.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/stream-analytics.md",
+      "sha256": "sha256:6c4ca8ef481d17715b8292d48d3baf4c49cbde8ab801527a12f38eafef1f81e9",
+      "bytes": 24467
+    },
+    {
+      "path": "reference/synapse-analytics.md",
+      "sha256": "sha256:9959ddeff05507b9be2f1ee2148bab12e242a8a704e1d7f1ca8b2b6508ce6ed3",
+      "bytes": 24553
+    },
+    {
+      "path": "reference/update-manager.md",
+      "sha256": "sha256:adcdc82a35de7e0f15322301b0f36d4a295d64a1512bedd2bd1ea4ebe411b9f5",
+      "bytes": 3858
+    },
+    {
+      "path": "reference/virtual-desktop.md",
+      "sha256": "sha256:23383b692308d96f3437008ceec475550837191a509142d329cb8a7a20643e16",
+      "bytes": 3617
+    },
+    {
+      "path": "reference/virtual-machine-scale-sets.md",
+      "sha256": "sha256:e3419d9312a5fffbfd7b7212baec841d5d747ddf436c2f940e0810771d59c416",
+      "bytes": 5094
+    },
+    {
+      "path": "reference/virtual-machines.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/virtual-machines_dedicated-hosts.md",
+      "sha256": "sha256:9bbb28fc7df4a7f8c14d22f2f4db44eb2b5566b82db5d1091cc5ad1d5066367c",
+      "bytes": 42862
+    },
+    {
+      "path": "reference/virtual-machines_managed-disks-overview.md",
+      "sha256": "sha256:4c38b403bf1e55ab003611888e024fc107389950a96a8ea18a734af65225bf44",
+      "bytes": 40340
+    },
+    {
+      "path": "reference/virtual-machines_spot-vms.md",
+      "sha256": "sha256:9592fd6c929aa12155be25304c287a87513968d6518b7d8447599082b44b9398",
+      "bytes": 34518
+    },
+    {
+      "path": "reference/virtual-network.md",
+      "sha256": "sha256:98e16468443dc13281b2e11a7a27ac2db1e5343a6e3e08eba68de75c4fdd3b4e",
+      "bytes": 21376
+    },
+    {
+      "path": "reference/virtual-wan.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/vpn-gateway.md",
+      "sha256": "sha256:b5e87f9dbac898734c6d01e0b4e83306f31ac2899fa2bee4860abe29cf7405f3",
+      "bytes": 6221
+    },
+    {
+      "path": "reference/vs-azure-tools-storage-manage-with-storage-explorer.md",
+      "sha256": "sha256:d5b72935752f0160bf6bd254fed173dfc83183b8aae0994234456f830786cf16",
+      "bytes": 51131
+    },
+    {
+      "path": "reference/web-application-firewall.md",
+      "sha256": "sha256:2f78242f2e2e6c19b0143302c3a1438411fd23bcaeddf279edb97e4a4a8897f9",
+      "bytes": 8536
+    },
+    {
+      "path": "reference/well-architected.md",
+      "sha256": "sha256:c7e083076f7646bae826e0302aabde2063d7644dca3c7ee3b91fe93f0e6777f6",
+      "bytes": 6214
+    }
+  ]
+}

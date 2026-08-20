@@ -1,0 +1,166 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "couchbase-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-08T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://docs.couchbase.com/home/index.html",
+      "options": {
+        "crawl_depth": 2
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-08T00:00:00Z",
+      "doc_count": 28
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/0aa75eef.md",
+      "sha256": "sha256:357d46ea5fde65a2970ca758a3c184a852728d990ad34450bdaa512db4156569",
+      "bytes": 2350
+    },
+    {
+      "path": "reference/11871a73.md",
+      "sha256": "sha256:ec9c1f2830d4bcd39e8c0d00668092e9cb62f36cdb0a72f5b8f474aa2bdfce3a",
+      "bytes": 25663
+    },
+    {
+      "path": "reference/1ad98f3d.md",
+      "sha256": "sha256:8925c359bc373e9e8ec7d204eb9245374e3069558eb12343f12aadc47778ccda",
+      "bytes": 1927
+    },
+    {
+      "path": "reference/323b10a3.md",
+      "sha256": "sha256:fd2e6c6991db44db8a4c307314a4c8e1e57c44ab9ebe1149c60735835417fd07",
+      "bytes": 1453
+    },
+    {
+      "path": "reference/376ba502.md",
+      "sha256": "sha256:a187b7e9eefa32ee0ff2e929486f930d69164a6444fbed94a1f7055d84eb3c8d",
+      "bytes": 1134
+    },
+    {
+      "path": "reference/3e82dd1d.md",
+      "sha256": "sha256:3083c5de75fb6b105e8cdb2ef4ab9699423a8b5ead4cf62e408db8949a4d5a2d",
+      "bytes": 25679
+    },
+    {
+      "path": "reference/413ee4dd.md",
+      "sha256": "sha256:cb6d31669e3cb978475ea8f63af6e1eb1793f32995dc528362e5bd4cd06c412c",
+      "bytes": 25696
+    },
+    {
+      "path": "reference/42e182d2.md",
+      "sha256": "sha256:bde6defce341e1eafecba7c23c0cd09fb561fd7d77c310f87a22493be0aae1f6",
+      "bytes": 1375
+    },
+    {
+      "path": "reference/583eb246.md",
+      "sha256": "sha256:1a591e85ede5a13f039decaf216f88bc58bb555405f489e23667c3e896344cc7",
+      "bytes": 25640
+    },
+    {
+      "path": "reference/5b29b966.md",
+      "sha256": "sha256:3736c189d74f9694212733d849d4919bdbdfecef2ce40d14968c2cee79a3a6b4",
+      "bytes": 25701
+    },
+    {
+      "path": "reference/5e401bbf.md",
+      "sha256": "sha256:56803ef8a63dfd26d65d31167a6255528da6dee181c58acc1752f51517da53e9",
+      "bytes": 25657
+    },
+    {
+      "path": "reference/62c0d4cc.md",
+      "sha256": "sha256:86b5b9ca612feb7b861958513b18d74ebe9299f63a1fe93dd5726c649ec01a9d",
+      "bytes": 25606
+    },
+    {
+      "path": "reference/683c2eeb.md",
+      "sha256": "sha256:ec7e0daf07b22459908fb39eaa9c40491d3f328b6c8fe272fd9e22949cc30f8e",
+      "bytes": 25674
+    },
+    {
+      "path": "reference/6bb433db.md",
+      "sha256": "sha256:9b697b86e3b8f290a2125fb69864ea45b7fd1b0bec9fe4ff5904dc48ea4e90a2",
+      "bytes": 696
+    },
+    {
+      "path": "reference/76e34758.md",
+      "sha256": "sha256:dc2e9accbbc36e2a5ebecf2c6ef4c855643ce67f71e82ef52f55c43c25d71a6f",
+      "bytes": 25681
+    },
+    {
+      "path": "reference/90138228.md",
+      "sha256": "sha256:89e4508ce96a9e730be8f5bba494192c644fbf924f6bc39fe26a51096ccb7a3e",
+      "bytes": 196
+    },
+    {
+      "path": "reference/944104d9.md",
+      "sha256": "sha256:29ac7532d7d87df07a47e9d35a6aa5926fd2c845985397060f49c5ad80a27edb",
+      "bytes": 3762
+    },
+    {
+      "path": "reference/9e1b5b5f.md",
+      "sha256": "sha256:2842acd5ff16ce41fad5dd9cacd59a6c4f2abc552f3578305610475700045f5c",
+      "bytes": 25621
+    },
+    {
+      "path": "reference/aad28d50.md",
+      "sha256": "sha256:ff7b3c7d0198e6ceba035615b93775cf877eead6527dafabe78b1d1b1b9bd195",
+      "bytes": 1144
+    },
+    {
+      "path": "reference/analytics-sdk.html.md",
+      "sha256": "sha256:16850cad6442fa4f29618df89cb445060a56e621aa5cde3cd335c7ae48192aed",
+      "bytes": 6269
+    },
+    {
+      "path": "reference/b0845874.md",
+      "sha256": "sha256:59c66d7cd3f829fae087225b237590a047723ecacb234732f552e58488e6354f",
+      "bytes": 1584
+    },
+    {
+      "path": "reference/ba4f1709.md",
+      "sha256": "sha256:3c11b31e145011c8b000490613b40a693adb851e115ace04921731d7a4d45244",
+      "bytes": 25633
+    },
+    {
+      "path": "reference/cloud.html.md",
+      "sha256": "sha256:0bd6c2a6688bbdf4ad72292ecb2c5b68104e1387e483d5a2840c3d9f361660fa",
+      "bytes": 3247
+    },
+    {
+      "path": "reference/columnar-sdk.html.md",
+      "sha256": "sha256:ae0bc7ec64b04fa14fe201e54031bd9f6744415f0ede952f93d1ee040f146494",
+      "bytes": 3391
+    },
+    {
+      "path": "reference/developer.html.md",
+      "sha256": "sha256:3d20329da9f4a738b7408bf33778c73350ee8c5527ddceca7b91bc761df8bf80",
+      "bytes": 5700
+    },
+    {
+      "path": "reference/dfeeca3c.md",
+      "sha256": "sha256:a934cd223d4dd4ded6ae7060d271354272bbcc2d271f886d6935a56890de2e21",
+      "bytes": 16426
+    },
+    {
+      "path": "reference/fada273a.md",
+      "sha256": "sha256:b2dac1b5a6b6a783b12ddaa85cbba883bdb0f56587e77dc6b38ee1bfcac7578a",
+      "bytes": 25675
+    },
+    {
+      "path": "reference/index.html.md",
+      "sha256": "sha256:ae84898358701f6bc95bcd2655f896c41548eb76055f8b6ddbf36db0fb1d771c",
+      "bytes": 11942
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "scipy-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-08T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://docs.scipy.org/doc/scipy/",
+      "options": {
+        "crawl_depth": 2
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-08T00:00:00Z",
+      "doc_count": 70
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/scipy-0.10.0_reference_index.html.md",
+      "sha256": "sha256:24836730ea983e48bf73d89cd72afc8124b55a021fafb8da97c77faa365248cc",
+      "bytes": 7350
+    },
+    {
+      "path": "reference/scipy-0.10.1_reference_index.html.md",
+      "sha256": "sha256:1b75a837e8ad74c5d7b82a7665006e65cb2f88b63e48fe99410dc2810978669a",
+      "bytes": 7347
+    },
+    {
+      "path": "reference/scipy-0.11.0_reference_index.html.md",
+      "sha256": "sha256:abc3777a60609aafbd6975b90613ae5084b80de738c71c1f62e97891e412f705",
+      "bytes": 6927
+    },
+    {
+      "path": "reference/scipy-0.12.0_reference_index.html.md",
+      "sha256": "sha256:b8eb09c24327ba40f676b512c9c2279e6bfd001fff5b89ac0035c39dc0729122",
+      "bytes": 7028
+    },
+    {
+      "path": "reference/scipy-0.13.0_reference_index.html.md",
+      "sha256": "sha256:b60c94054ae5acceedff95624ec5f8043ab6c1f97dd375a100cacc32d1e3124b",
+      "bytes": 6097
+    },
+    {
+      "path": "reference/scipy-0.14.0_reference_index.html.md",
+      "sha256": "sha256:3d12b921b6218cb87a28379350eaafedfa8f68e28939cac4c976af618f5f8406",
+      "bytes": 6095
+    },
+    {
+      "path": "reference/scipy-0.14.1_reference_index.html.md",
+      "sha256": "sha256:130d935d724ef426b0bf3e7634ec22a4e0acc47a53cf1106d9305622e4084b9c",
+      "bytes": 6100
+    },
+    {
+      "path": "reference/scipy-0.15.0_reference_index.html.md",
+      "sha256": "sha256:b97cce51ec6358f3c925a613eb1da303f3a1fe0556696fe8bd562743b5e00bd6",
+      "bytes": 6099
+    },
+    {
+      "path": "reference/scipy-0.15.1_reference_index.html.md",
+      "sha256": "sha256:e63d53ed6e3c0d5abc3cc16f8d49be20e32336b67e5234398610987e6e7be4cb",
+      "bytes": 6099
+    },
+    {
+      "path": "reference/scipy-0.16.0_reference_index.html.md",
+      "sha256": "sha256:63eda51b15be79fb7deb644cd49525a586f99f4839e9ba6796c510509a155d8b",
+      "bytes": 6215
+    },
+    {
+      "path": "reference/scipy-0.17.0_reference_index.html.md",
+      "sha256": "sha256:510b76e4d387d5de0989ebb3ed625a31f2208bba1c5412e52e1812eac7927762",
+      "bytes": 6216
+    },
+    {
+      "path": "reference/scipy-0.17.1_reference_index.html.md",
+      "sha256": "sha256:91ce71eaea1b2c620510b69a1239705344735145a2e898bb6e735d0263b820fe",
+      "bytes": 6211
+    },
+    {
+      "path": "reference/scipy-0.18.0_reference_index.html.md",
+      "sha256": "sha256:642be7e90445e6b197b305eefd1a54ae9f2b14b39b879a9dcc8ad1d6de7c4e5f",
+      "bytes": 7146
+    },
+    {
+      "path": "reference/scipy-0.18.1_reference_index.html.md",
+      "sha256": "sha256:fec1574adee2ff1675beac963e70ff7016dc3ab9bc4dd8809710c2d25ab7cc1e",
+      "bytes": 7151
+    },
+    {
+      "path": "reference/scipy-0.19.0_reference_index.html.md",
+      "sha256": "sha256:808d4c09b9f9f399aa093cccedf8828a9cc85fe2e858d1365a58b1fccf17925b",
+      "bytes": 7221
+    },
+    {
+      "path": "reference/scipy-0.7_reference_index.html.md",
+      "sha256": "sha256:81aee90db3965413cc31e0fb59753c0403cf6a6e9e66326a4ab25bdba8e4a7fd",
+      "bytes": 159
+    },
+    {
+      "path": "reference/scipy-0.8_reference_index.html.md",
+      "sha256": "sha256:008e4cda2bb9479282bc2d58db791fd75ea0bd30e2b214c168c7ed5c6d0c9797",
+      "bytes": 159
+    },
+    {
+      "path": "reference/scipy-0.9.0_reference_index.html.md",
+      "sha256": "sha256:294e429181feb554e0f7e76b2db7e83f2b3b605c9dfd6e673ef4da16639da8ad",
+      "bytes": 6494
+    },
+    {
+      "path": "reference/scipy-1.0.0_reference_index.html.md",
+      "sha256": "sha256:a84ed7fbf5f2f3ebe920b9a78d2e644fe2ab53b39e10777a5241c515c2fc14f5",
+      "bytes": 7272
+    },
+    {
+      "path": "reference/scipy-1.1.0_reference_index.html.md",
+      "sha256": "sha256:896181b578348b28083d12ba66b39581b02adfbee2d3484c2bfedc729d18859d",
+      "bytes": 7506
+    },
+    {
+      "path": "reference/scipy-1.10.0_index.html.md",
+      "sha256": "sha256:a44d191b98c7fa08660d4728b5bfebafc47ea26057f1c54554b8b00bdf888f20",
+      "bytes": 6986
+    },
+    {
+      "path": "reference/scipy-1.10.1_index.html.md",
+      "sha256": "sha256:7052c2e0949356d0361c5e5e1db5bf46027e30a1cc52692fb153a769bf617640",
+      "bytes": 6987
+    },
+    {
+      "path": "reference/scipy-1.11.0_index.html.md",
+      "sha256": "sha256:a0397df75d2a5108bc76aa0e1dabd0409427042346efd4535b2a85092a0f009a",
+      "bytes": 7075
+    },
+    {
+      "path": "reference/scipy-1.11.1_index.html.md",
+      "sha256": "sha256:5e2479a8808d65551eabe591d6949d6fb3672dfd0f21ce64833a908efa6ba91d",
+      "bytes": 7075
+    },
+    {
+      "path": "reference/scipy-1.11.2_index.html.md",
+      "sha256": "sha256:ddfee0c147ca6a3e13cec0e546a468d416c2988fdbbb48caa67b8398d48df6db",
+      "bytes": 7077
+    },
+    {
+      "path": "reference/scipy-1.11.3_index.html.md",
+      "sha256": "sha256:89335ddeb2cf03d023050a0f023ef528858007956f0093d8efc253a213ac6b33",
+      "bytes": 7080
+    },
+    {
+      "path": "reference/scipy-1.11.4_index.html.md",
+      "sha256": "sha256:aa286b10ef6543fc2440d85a9b85dae338c5a7fae89cd7c6e8c13425ae628b53",
+      "bytes": 2581
+    },
+    {
+      "path": "reference/scipy-1.12.0_index.html.md",
+      "sha256": "sha256:10501d04afb97784a89f9b4ce7e6c4f46583b7ac74da40fb0101aa2963806c01",
+      "bytes": 2580
+    },
+    {
+      "path": "reference/scipy-1.13.0_index.html.md",
+      "sha256": "sha256:fd5605b4473efac93a0e6391b8b742338d89af1271143470dd8a765d025fd4d1",
+      "bytes": 7838
+    },
+    {
+      "path": "reference/scipy-1.13.1_index.html.md",
+      "sha256": "sha256:b393cd4ae6c4cda92e41102e472ab1e77aafafd7fcf06972b77710290c77b92f",
+      "bytes": 7836
+    },
+    {
+      "path": "reference/scipy-1.14.0_index.html.md",
+      "sha256": "sha256:aa670ac712134263fe7b225de5c22fb2492a16ba65e173a9c93f65686b71b999",
+      "bytes": 6856
+    },
+    {
+      "path": "reference/scipy-1.14.1_index.html.md",
+      "sha256": "sha256:54577a826137f7cbb49e5cea1ef0474c984af5816b57f399543edf8467bb62ad",
+      "bytes": 12184
+    },
+    {
+      "path": "reference/scipy-1.15.0_index.html.md",
+      "sha256": "sha256:9000162d1021faf5f9b45f419040e30fe0b2c50e91f10e89f56aae8d2e9ac1d8",
+      "bytes": 6859
+    },
+    {
+      "path": "reference/scipy-1.15.1_index.html.md",
+      "sha256": "sha256:16c9234ab9d9afe132d50e2410ad27967780699353ef2a93b55f33601fb6575e",
+      "bytes": 6859
+    },
+    {
+      "path": "reference/scipy-1.15.2_index.html.md",
+      "sha256": "sha256:8fed632f3b5dfb920318cc7bc6cea99d4e2dc9af85289893267542536bfc5f0d",
+      "bytes": 12186
+    },
+    {
+      "path": "reference/scipy-1.15.3_index.html.md",
+      "sha256": "sha256:0162ac735b0282819d4b73bd613721f37ddd9670f7515aa4af88d34000959a21",
+      "bytes": 12181
+    },
+    {
+      "path": "reference/scipy-1.16.0_index.html.md",
+      "sha256": "sha256:f784e23d069f21d909b6b625fa58a757ba675147ccfa856bece3ef2ce991b554",
+      "bytes": 12231
+    },
+    {
+      "path": "reference/scipy-1.16.1_index.html.md",
+      "sha256": "sha256:1c5ceed540de1332762e39e56602cd4a01d0b63e50720299a2e0bfccefe077ad",
+      "bytes": 12231
+    },
+    {
+      "path": "reference/scipy-1.16.2_index.html.md",
+      "sha256": "sha256:706da32a38c824d4c317c747a1b7a9668da08d836487879b6c89b5251aa4e85d",
+      "bytes": 12236
+    },
+    {
+      "path": "reference/scipy-1.17.0_index.html.md",
+      "sha256": "sha256:4abdde81f11328de153ecc552cd3f7391b9e0a48c07e552c894b17fe872e8c3d",
+      "bytes": 6895
+    },
+    {
+      "path": "reference/scipy-1.2.0_reference_index.html.md",
+      "sha256": "sha256:30f72cea2ba746546bf1bf005c6e4b7b67f346b15e782d1ac5ae058282da99b8",
+      "bytes": 7529
+    },
+    {
+      "path": "reference/scipy-1.2.1_reference_index.html.md",
+      "sha256": "sha256:dcce0b89ddb3d69ca68f58f6f3c9c084fc0b2e341a477610e07c21e794456811",
+      "bytes": 7529
+    },
+    {
+      "path": "reference/scipy-1.2.3_reference_index.html.md",
+      "sha256": "sha256:65fd391a3d24f5ed288624b1169adc87a591737fb10f76e4cdba86f79f4910e7",
+      "bytes": 7518
+    },
+    {
+      "path": "reference/scipy-1.3.0_reference_index.html.md",
+      "sha256": "sha256:e9af279cb084aa119209f054b634d311ee4d5a403c6bd593cb1a8c2d04322771",
+      "bytes": 7704
+    },
+    {
+      "path": "reference/scipy-1.3.1_reference_index.html.md",
+      "sha256": "sha256:4d67c496852355fb206e5fe5472cdd4aa3f86a854def4c650c2bb1489761a13f",
+      "bytes": 7710
+    },
+    {
+      "path": "reference/scipy-1.3.2_reference_index.html.md",
+      "sha256": "sha256:3afdb3aa0b1dffda55b07dfb3ba2835d293a61c5bab8127b7f0ac81703a7fa75",
+      "bytes": 7709
+    },
+    {
+      "path": "reference/scipy-1.3.3_reference_index.html.md",
+      "sha256": "sha256:7b7e63ce7f3a7b2ccda6d89b73de9dda2a520f7c618a597133bd27e0cc367b53",
+      "bytes": 7709
+    },
+    {
+      "path": "reference/scipy-1.4.0_reference_index.html.md",
+      "sha256": "sha256:30b81e37913af3f5d1381a1749dbdd30971f532df684c6e96bdaab39681ab216",
+      "bytes": 7989
+    },
+    {
+      "path": "reference/scipy-1.4.1_reference_index.html.md",
+      "sha256": "sha256:42692b93e837f05be3f5f8bbadbfc8098c5401df980134af630eb8ced28748d6",
+      "bytes": 7989
+    },
+    {
+      "path": "reference/scipy-1.5.0_reference_index.html.md",
+      "sha256": "sha256:2f486b48b4df03c6cc9275f53979f252035196a7c756572136fdd9263c71e48a",
+      "bytes": 7984
+    },
+    {
+      "path": "reference/scipy-1.5.1_reference_index.html.md",
+      "sha256": "sha256:38a42a4564f7c8ea16fc0a22e25dcf7565a490e8818fa5e461a05d89cad5baa2",
+      "bytes": 7984
+    },
+    {
+      "path": "reference/scipy-1.5.2_reference_index.html.md",
+      "sha256": "sha256:fda25593d50188289319e8282dc3b31ccf410e970308f8b99973878b7380f296",
+      "bytes": 7984
+    },
+    {
+      "path": "reference/scipy-1.5.3_reference_index.html.md",
+      "sha256": "sha256:13a524cfcab666842cfca222c1fafada6bae3758a6b09e4577e78dac6c2ac051",
+      "bytes": 7987
+    },
+    {
+      "path": "reference/scipy-1.5.4_reference_index.html.md",
+      "sha256": "sha256:c8a8ab1068876097f5ff0f688e9cbc1f3781d1516aa6b670e1cedc504d4b8bae",
+      "bytes": 7988
+    },
+    {
+      "path": "reference/scipy-1.6.0_reference_index.html.md",
+      "sha256": "sha256:bf24011686a2a808ff78032c9c88838312ce3fb002a2d9bf01c2b5037606ac89",
+      "bytes": 8007
+    },
+    {
+      "path": "reference/scipy-1.6.1_reference_index.html.md",
+      "sha256": "sha256:ec3f732f591dcfb129b56acd508f9aac0deeb2de4947d5b9fafa28805a4e4280",
+      "bytes": 8007
+    },
+    {
+      "path": "reference/scipy-1.6.2_reference_index.html.md",
+      "sha256": "sha256:51f71dac9693e6a49fabfff229bc87c47a0f4f9fd8595129b83f848bc36d1dc2",
+      "bytes": 8004
+    },
+    {
+      "path": "reference/scipy-1.6.3_reference_index.html.md",
+      "sha256": "sha256:b520244d0eb18c17e14869e1e712ff24c548ab60a3f24f17fcedf2b78969b4c2",
+      "bytes": 8004
+    },
+    {
+      "path": "reference/scipy-1.7.0_reference_index.html.md",
+      "sha256": "sha256:e4e2b5318588895b15dd9c83b3c6dad4991bd26ee211e37a009a7dcb9e137117",
+      "bytes": 15998
+    },
+    {
+      "path": "reference/scipy-1.7.1_reference_index.html.md",
+      "sha256": "sha256:98e0c659c5c71bb46dddd68b5d1752e5ea1c5d5128b6c9b14dc1b77cf87f3f5d",
+      "bytes": 3010
+    },
+    {
+      "path": "reference/scipy-1.8.0_index.html.md",
+      "sha256": "sha256:89748e9ee1646bbe4975115bb3c02ec6d841190958f8cbb3666ba4562e59ee62",
+      "bytes": 2862
+    },
+    {
+      "path": "reference/scipy-1.8.1_index.html.md",
+      "sha256": "sha256:508e2e6c989caa4cd529a7886291d75740f6c7992a46ab20fbeea29fb1e47167",
+      "bytes": 2862
+    },
+    {
+      "path": "reference/scipy-1.9.0_index.html.md",
+      "sha256": "sha256:99cb750a56034f4073274b77b756a1c28c88407e3c94e6e6092f67a97da77099",
+      "bytes": 6943
+    },
+    {
+      "path": "reference/scipy-1.9.1_index.html.md",
+      "sha256": "sha256:ecea6304b1f68333f2c0fe2dbca40fc32ec67888300c3235d4547c39d3426913",
+      "bytes": 6945
+    },
+    {
+      "path": "reference/scipy-1.9.2_index.html.md",
+      "sha256": "sha256:04db922d33af89f6cdacf1c18672835a8b3f934b7712b5f4545ccf1b14ce82e9",
+      "bytes": 6946
+    },
+    {
+      "path": "reference/scipy-1.9.3_index.html.md",
+      "sha256": "sha256:14235b53bd119e8dc471871e8305bace36bbebe6325e39e8a71a1b9b379902ba",
+      "bytes": 6946
+    },
+    {
+      "path": "reference/scipy.md",
+      "sha256": "sha256:57961bb7abf119210e819e010571db683a2b2af7b9ebc350d0fbc1c9f3c093f9",
+      "bytes": 11921
+    },
+    {
+      "path": "reference/scipy_building_index.html.md",
+      "sha256": "sha256:972b853134acefb5acdcfb42d55ba1d492a135e92970bc76789cc859d8e61124",
+      "bytes": 27575
+    },
+    {
+      "path": "reference/scipy_dev_index.html.md",
+      "sha256": "sha256:090e568193ae8d5095dd07372c8d7181058646aff75bca499dbabc3c1e725969",
+      "bytes": 7762
+    },
+    {
+      "path": "reference/scipy_tutorial_index.html.md",
+      "sha256": "sha256:917d20589da05430c48d3704f27a03b2e0ef16e708f78a115dbc1425cc5b496d",
+      "bytes": 16088
+    }
+  ]
+}

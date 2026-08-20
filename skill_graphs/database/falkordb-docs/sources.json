@@ -1,0 +1,911 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "falkordb-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-08T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://docs.falkordb.com/",
+      "options": {
+        "crawl_depth": 2
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-08T00:00:00Z",
+      "doc_count": 177
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/References.md",
+      "sha256": "sha256:562dd18f68353f6ff818cfe7c6c3d7cdad32d7d88123e00cacecba6d64c05bd1",
+      "bytes": 15778
+    },
+    {
+      "path": "reference/References_license.html.md",
+      "sha256": "sha256:562dd18f68353f6ff818cfe7c6c3d7cdad32d7d88123e00cacecba6d64c05bd1",
+      "bytes": 15778
+    },
+    {
+      "path": "reference/agentic-memory.md",
+      "sha256": "sha256:135ad5e942364eac3e8a8f09cb1d9e764fe59460e6d61811bdedb87682f84cf0",
+      "bytes": 15856
+    },
+    {
+      "path": "reference/agentic-memory_cognee.html.md",
+      "sha256": "sha256:135ad5e942364eac3e8a8f09cb1d9e764fe59460e6d61811bdedb87682f84cf0",
+      "bytes": 15856
+    },
+    {
+      "path": "reference/agentic-memory_graphiti-mcp-server.html.md",
+      "sha256": "sha256:135ad5e942364eac3e8a8f09cb1d9e764fe59460e6d61811bdedb87682f84cf0",
+      "bytes": 15856
+    },
+    {
+      "path": "reference/agentic-memory_graphiti.html.md",
+      "sha256": "sha256:b3b4bdee2c1b8ec78c80d448dca307961045fc2ef830dde306c4bdd92ac4fed3",
+      "bytes": 15875
+    },
+    {
+      "path": "reference/agentic-memory_mem0.html.md",
+      "sha256": "sha256:b3b4bdee2c1b8ec78c80d448dca307961045fc2ef830dde306c4bdd92ac4fed3",
+      "bytes": 15875
+    },
+    {
+      "path": "reference/algorithms.md",
+      "sha256": "sha256:191767a6157ce61078f1eb9591f3974912a6f15f68230c92d22b1d61f5ccfb52",
+      "bytes": 17213
+    },
+    {
+      "path": "reference/algorithms_betweenness-centrality.html.md",
+      "sha256": "sha256:dc1f8d77593126b6ad4f1f481faf459c43adabcbb2f6421f8a3aebade4bc6dba",
+      "bytes": 18148
+    },
+    {
+      "path": "reference/algorithms_bfs.html.md",
+      "sha256": "sha256:ae6a8f836c08b7c7b0c03394478c2b2b76d9f20837ab2cede4219acc91abcaa5",
+      "bytes": 18513
+    },
+    {
+      "path": "reference/algorithms_cdlp.html.md",
+      "sha256": "sha256:5b01cde72fbfbc1bd2e87eb4524525a007cce584fff6c742d2bab1050855c28b",
+      "bytes": 24636
+    },
+    {
+      "path": "reference/algorithms_msf.html.md",
+      "sha256": "sha256:adad92c31ab7999d83bec5739b0a65501988fa1646bf6692df814ba2bcbba56c",
+      "bytes": 20819
+    },
+    {
+      "path": "reference/algorithms_pagerank.html.md",
+      "sha256": "sha256:562dd18f68353f6ff818cfe7c6c3d7cdad32d7d88123e00cacecba6d64c05bd1",
+      "bytes": 15778
+    },
+    {
+      "path": "reference/algorithms_sppath.html.md",
+      "sha256": "sha256:4a6105e566fd5eb86aa6305ea328cfd6aaf1acfb03a6ae6269e551f40954f1ef",
+      "bytes": 17272
+    },
+    {
+      "path": "reference/algorithms_sspath.html.md",
+      "sha256": "sha256:52f5ca2e4a1c92e5e3edfc7e32144f521b7d6eca6dd8daa8d2f2dae64d6fa631",
+      "bytes": 18553
+    },
+    {
+      "path": "reference/algorithms_wcc.html.md",
+      "sha256": "sha256:523ddc716f98b1349d2003af9b79be9f8ba8a8f50c57509092a940f27a1b78fd",
+      "bytes": 18188
+    },
+    {
+      "path": "reference/browser.md",
+      "sha256": "sha256:144435421c6877c8873d51258d29c1bc83bd4aaed6b525a67056f9a0e0773c1f",
+      "bytes": 15759
+    },
+    {
+      "path": "reference/browser_ui.md",
+      "sha256": "sha256:4d7ac2cc2dff0ad45dde149733db8f100388d428ac1a6d5d7df8c1443d810252",
+      "bytes": 24768
+    },
+    {
+      "path": "reference/browser_ui_chat-panel.html.md",
+      "sha256": "sha256:b409099e156236b6c5a5fb53a9696cf2df4fceef246c72a40cd969702ec865b8",
+      "bytes": 15108
+    },
+    {
+      "path": "reference/browser_ui_data-panel.html.md",
+      "sha256": "sha256:8dd179a9dc8118430b2d911c01ef58b903822cfe8ca273e211a12f72ae8d20f3",
+      "bytes": 15797
+    },
+    {
+      "path": "reference/browser_ui_graph-canvas.html.md",
+      "sha256": "sha256:b3934897fa62ddb11ece2fb25721f7326b0a69354f3bceb2ed6c82a7901f6cb2",
+      "bytes": 20405
+    },
+    {
+      "path": "reference/browser_ui_graph-info-panel.html.md",
+      "sha256": "sha256:e57200e4a99c6ec135e9d2ea4e47d406e5fe968e054eae568298b9913d65d715",
+      "bytes": 16957
+    },
+    {
+      "path": "reference/browser_ui_graph-page.html.md",
+      "sha256": "sha256:e4c2a428c0f1922b99edf2c449bbdf8a981ac2bbf9c2d7cf66cd0711bf345c13",
+      "bytes": 15774
+    },
+    {
+      "path": "reference/browser_ui_login.html.md",
+      "sha256": "sha256:135ad5e942364eac3e8a8f09cb1d9e764fe59460e6d61811bdedb87682f84cf0",
+      "bytes": 15856
+    },
+    {
+      "path": "reference/browser_ui_metadata-view.html.md",
+      "sha256": "sha256:e7746a2490aafd6cea8f74ebcdee31091237d79ee4332b16d3a0a23227bc8775",
+      "bytes": 15248
+    },
+    {
+      "path": "reference/browser_ui_navigation.html.md",
+      "sha256": "sha256:78e6334ff414c731b1281f6680ab508bd085043befa4345b74e162fd4f16fa1b",
+      "bytes": 30049
+    },
+    {
+      "path": "reference/browser_ui_query-editor.html.md",
+      "sha256": "sha256:f53cdafc9f46283d0ea014ff22e2a7bd0d4797660f461e97c4224aa7f791f76d",
+      "bytes": 16541
+    },
+    {
+      "path": "reference/browser_ui_query-history.html.md",
+      "sha256": "sha256:e82ca5ccc0a06d0255165faa89a952c9971e88a8628d62fe7cabdae14ddfce00",
+      "bytes": 15528
+    },
+    {
+      "path": "reference/browser_ui_settings.html.md",
+      "sha256": "sha256:14c923095ccd26f73d8a25cfffec65a3654f2ff2d19717a32aeb3c990933ee18",
+      "bytes": 16920
+    },
+    {
+      "path": "reference/browser_ui_style-panel.html.md",
+      "sha256": "sha256:5e7287fec38a1212ff94e6d5ca4c330bf47c020a95a7adede29a73981520fb47",
+      "bytes": 15844
+    },
+    {
+      "path": "reference/browser_ui_table-view.html.md",
+      "sha256": "sha256:4b5a84a9c25ca3a3ed35505fe254b5dcfc756e0534e067518091332dc74f0def",
+      "bytes": 15421
+    },
+    {
+      "path": "reference/browser_ui_toolbar-actions.html.md",
+      "sha256": "sha256:b409099e156236b6c5a5fb53a9696cf2df4fceef246c72a40cd969702ec865b8",
+      "bytes": 15108
+    },
+    {
+      "path": "reference/cloud.md",
+      "sha256": "sha256:4d7ac2cc2dff0ad45dde149733db8f100388d428ac1a6d5d7df8c1443d810252",
+      "bytes": 24768
+    },
+    {
+      "path": "reference/cloud_enterprise-tier.html.md",
+      "sha256": "sha256:78e6334ff414c731b1281f6680ab508bd085043befa4345b74e162fd4f16fa1b",
+      "bytes": 30049
+    },
+    {
+      "path": "reference/cloud_features.html.md",
+      "sha256": "sha256:8294fb59c7bf105579cbf3d460adf43f5363582f566906aaf67785362ea63e28",
+      "bytes": 30068
+    },
+    {
+      "path": "reference/cloud_free-tier.html.md",
+      "sha256": "sha256:135ad5e942364eac3e8a8f09cb1d9e764fe59460e6d61811bdedb87682f84cf0",
+      "bytes": 15856
+    },
+    {
+      "path": "reference/cloud_pro-tier.html.md",
+      "sha256": "sha256:8294fb59c7bf105579cbf3d460adf43f5363582f566906aaf67785362ea63e28",
+      "bytes": 30068
+    },
+    {
+      "path": "reference/cloud_startup-tier.html.md",
+      "sha256": "sha256:78e6334ff414c731b1281f6680ab508bd085043befa4345b74e162fd4f16fa1b",
+      "bytes": 30049
+    },
+    {
+      "path": "reference/commands.md",
+      "sha256": "sha256:8d427e460b6c24982854b147790c2b84c8797f5f4449aec6620774d71e99d6af",
+      "bytes": 15719
+    },
+    {
+      "path": "reference/commands_acl.html.md",
+      "sha256": "sha256:3bff7a2eab2fb79ee81ddf8f1a40588c71f51cf3eaeae90429608cb53dad41a0",
+      "bytes": 16845
+    },
+    {
+      "path": "reference/commands_graph.config-get.html.md",
+      "sha256": "sha256:a3b7a2a5ad5050245e0681d970ea48cc4880049b1e9f537955b1dba9f9e7f904",
+      "bytes": 15953
+    },
+    {
+      "path": "reference/commands_graph.constraint-create.html.md",
+      "sha256": "sha256:6e76a4ebdd1d4f3838f9ed953ca1abf4e9e7d9e14df2cb4335633fa91467ea58",
+      "bytes": 16345
+    },
+    {
+      "path": "reference/commands_graph.explain.html.md",
+      "sha256": "sha256:cc30f17b7ca3ea316aa61d84185bc9e5a4e43d824772e4cd02f43f8877e032cf",
+      "bytes": 22782
+    },
+    {
+      "path": "reference/commands_graph.info.html.md",
+      "sha256": "sha256:7ab0a5ca7ca3ed1ec1a303fdb415dddd86bb10dea85fc02135f9921597b80baa",
+      "bytes": 15435
+    },
+    {
+      "path": "reference/commands_graph.list.html.md",
+      "sha256": "sha256:5b01cde72fbfbc1bd2e87eb4524525a007cce584fff6c742d2bab1050855c28b",
+      "bytes": 24636
+    },
+    {
+      "path": "reference/commands_graph.memory.html.md",
+      "sha256": "sha256:8ad20225921f043d6f1569e665210f645c4ebfe2eff0a9461b8ea5477cd547ae",
+      "bytes": 15243
+    },
+    {
+      "path": "reference/commands_graph.profile.html.md",
+      "sha256": "sha256:144435421c6877c8873d51258d29c1bc83bd4aaed6b525a67056f9a0e0773c1f",
+      "bytes": 15759
+    },
+    {
+      "path": "reference/commands_graph.query.html.md",
+      "sha256": "sha256:eab5917f900b4ae42aacf0b065fcad218e5e72d685a66d5aa2ab8d56aa6192b2",
+      "bytes": 16986
+    },
+    {
+      "path": "reference/commands_graph.ro-query.html.md",
+      "sha256": "sha256:773d80fa3713f4b7e433777125faff658f8a58fac52178673eb3028ec2af83b4",
+      "bytes": 15069
+    },
+    {
+      "path": "reference/commands_graph.slowlog.html.md",
+      "sha256": "sha256:205021c7f47f256c446ff85641c69c73f46c893630f80a00a8f63b429285bfa2",
+      "bytes": 14681
+    },
+    {
+      "path": "reference/cypher.md",
+      "sha256": "sha256:5b01cde72fbfbc1bd2e87eb4524525a007cce584fff6c742d2bab1050855c28b",
+      "bytes": 24636
+    },
+    {
+      "path": "reference/cypher_call.html.md",
+      "sha256": "sha256:8dfe53ee096798b2fa57bcc2efc5e89ab953ed03e83034c0c27d4af8ea2cba2b",
+      "bytes": 16238
+    },
+    {
+      "path": "reference/cypher_create.html.md",
+      "sha256": "sha256:b931f8bc73b4049ec7dcfa58cc95dd0b98268e04106971f3ce837d1cfa78fd61",
+      "bytes": 16080
+    },
+    {
+      "path": "reference/cypher_cypher-support.html.md",
+      "sha256": "sha256:1a3cbee9fa09bff9d164a6ec0429aaf233ff3415a2eac1569a69fecb51b2975d",
+      "bytes": 15937
+    },
+    {
+      "path": "reference/cypher_delete.html.md",
+      "sha256": "sha256:041118acf566214e308cb579a70a5068daf578f93d1280f093183328076fbac7",
+      "bytes": 16361
+    },
+    {
+      "path": "reference/cypher_foreach.html.md",
+      "sha256": "sha256:7fb072d24761f538c62c7afe868c06725597e01f0886f17f8b2df731e8d3d913",
+      "bytes": 15523
+    },
+    {
+      "path": "reference/cypher_functions.html.md",
+      "sha256": "sha256:b5fa648a6d68d13b5029ed2a2fb19135a25067db719e557443feb095fe192d28",
+      "bytes": 15683
+    },
+    {
+      "path": "reference/cypher_indexing.md",
+      "sha256": "sha256:0859eb8fe1c59e263a4aba396ff044ccd49c49a090af851e7cee4b84c430b665",
+      "bytes": 15553
+    },
+    {
+      "path": "reference/cypher_indexing_fulltext-index.md",
+      "sha256": "sha256:1ee7358a0cfb3ac917ac1ecfa7508ac34eea7fbcfc3522c6b4899255ea7af2d8",
+      "bytes": 17678
+    },
+    {
+      "path": "reference/cypher_indexing_range-index.html.md",
+      "sha256": "sha256:1a3cbee9fa09bff9d164a6ec0429aaf233ff3415a2eac1569a69fecb51b2975d",
+      "bytes": 15937
+    },
+    {
+      "path": "reference/cypher_indexing_range-index.md",
+      "sha256": "sha256:1a3cbee9fa09bff9d164a6ec0429aaf233ff3415a2eac1569a69fecb51b2975d",
+      "bytes": 15937
+    },
+    {
+      "path": "reference/cypher_indexing_vector-index.html.md",
+      "sha256": "sha256:eb14b34b97d96f0aa4220153e20c01c89c2fe97a33909878f611a44bea13c399",
+      "bytes": 19915
+    },
+    {
+      "path": "reference/cypher_indexing_vector-index.md",
+      "sha256": "sha256:eb14b34b97d96f0aa4220153e20c01c89c2fe97a33909878f611a44bea13c399",
+      "bytes": 19915
+    },
+    {
+      "path": "reference/cypher_known-limitations.html.md",
+      "sha256": "sha256:eb14b34b97d96f0aa4220153e20c01c89c2fe97a33909878f611a44bea13c399",
+      "bytes": 19915
+    },
+    {
+      "path": "reference/cypher_limit.html.md",
+      "sha256": "sha256:33aa7f4784258a013f82ab2c34524652207caa3d3a358ff82f905c3e68e3c784",
+      "bytes": 18574
+    },
+    {
+      "path": "reference/cypher_load-csv.html.md",
+      "sha256": "sha256:776fbcf7b127abfbf01adf42aedd1e6daa91f57ccc86b3f726680643344b2c20",
+      "bytes": 17363
+    },
+    {
+      "path": "reference/cypher_match.html.md",
+      "sha256": "sha256:144435421c6877c8873d51258d29c1bc83bd4aaed6b525a67056f9a0e0773c1f",
+      "bytes": 15759
+    },
+    {
+      "path": "reference/cypher_merge.html.md",
+      "sha256": "sha256:993856d58bd2d4e710ead9696a764c41c8357b3799e79d9883785a85b9764041",
+      "bytes": 14646
+    },
+    {
+      "path": "reference/cypher_optional-match.html.md",
+      "sha256": "sha256:fcc738ff47b6f55799189c9e54a564ef3cee1d99e8de8f1af64995f9d870410a",
+      "bytes": 17253
+    },
+    {
+      "path": "reference/cypher_order-by.html.md",
+      "sha256": "sha256:78e6334ff414c731b1281f6680ab508bd085043befa4345b74e162fd4f16fa1b",
+      "bytes": 30049
+    },
+    {
+      "path": "reference/cypher_procedures.html.md",
+      "sha256": "sha256:bf0300e310c7cf516edfc993b684b5c869394fc30227ce21f2d4175f5871f4d5",
+      "bytes": 14570
+    },
+    {
+      "path": "reference/cypher_remove.html.md",
+      "sha256": "sha256:6859484dc1c0ee4e11efc9e02e48dcc27ea33ac38117f8137ed2fc350a54d0e0",
+      "bytes": 17659
+    },
+    {
+      "path": "reference/cypher_return.html.md",
+      "sha256": "sha256:b3b4bdee2c1b8ec78c80d448dca307961045fc2ef830dde306c4bdd92ac4fed3",
+      "bytes": 15875
+    },
+    {
+      "path": "reference/cypher_set.html.md",
+      "sha256": "sha256:29923839f144d7e1966d72275734e37c288ec85ab909ddf5dabe40e6f40fa4b9",
+      "bytes": 15915
+    },
+    {
+      "path": "reference/cypher_skip.html.md",
+      "sha256": "sha256:14c923095ccd26f73d8a25cfffec65a3654f2ff2d19717a32aeb3c990933ee18",
+      "bytes": 16920
+    },
+    {
+      "path": "reference/cypher_union.html.md",
+      "sha256": "sha256:337d0b6eef7c959880a1e19e2208af035dd9d0c7443dc52b70bf65cda82223a1",
+      "bytes": 14250
+    },
+    {
+      "path": "reference/cypher_unwind.html.md",
+      "sha256": "sha256:cb02f8e883b86ec8a64d0fbf065abbe7c2622ff384a26871009968873e1aeead",
+      "bytes": 15745
+    },
+    {
+      "path": "reference/cypher_where.html.md",
+      "sha256": "sha256:4d7ac2cc2dff0ad45dde149733db8f100388d428ac1a6d5d7df8c1443d810252",
+      "bytes": 24768
+    },
+    {
+      "path": "reference/cypher_with.html.md",
+      "sha256": "sha256:23a9d7596eb7509bbfa2f5ae38d5e80e9ad65d29e0fcb1a52accb61b3d253fd1",
+      "bytes": 14441
+    },
+    {
+      "path": "reference/datatypes.html.md",
+      "sha256": "sha256:b1d075c20963b2dad69ea8df94f2db97d0e4af788bbfb03b31dfa3a4ee31d69a",
+      "bytes": 24728
+    },
+    {
+      "path": "reference/design.md",
+      "sha256": "sha256:78e6334ff414c731b1281f6680ab508bd085043befa4345b74e162fd4f16fa1b",
+      "bytes": 30049
+    },
+    {
+      "path": "reference/design_bulk-spec.html.md",
+      "sha256": "sha256:78e6334ff414c731b1281f6680ab508bd085043befa4345b74e162fd4f16fa1b",
+      "bytes": 30049
+    },
+    {
+      "path": "reference/design_third-party.html.md",
+      "sha256": "sha256:8294fb59c7bf105579cbf3d460adf43f5363582f566906aaf67785362ea63e28",
+      "bytes": 30068
+    },
+    {
+      "path": "reference/genai-tools.md",
+      "sha256": "sha256:144435421c6877c8873d51258d29c1bc83bd4aaed6b525a67056f9a0e0773c1f",
+      "bytes": 15759
+    },
+    {
+      "path": "reference/genai-tools_ag2.html.md",
+      "sha256": "sha256:68631d79555a63d43e5613cde825e1ca12c2eef36d77f82f140ab5ef59024b36",
+      "bytes": 24787
+    },
+    {
+      "path": "reference/genai-tools_graphrag-sdk.html.md",
+      "sha256": "sha256:fcc738ff47b6f55799189c9e54a564ef3cee1d99e8de8f1af64995f9d870410a",
+      "bytes": 17253
+    },
+    {
+      "path": "reference/genai-tools_graphrag-sdk.md",
+      "sha256": "sha256:4a6105e566fd5eb86aa6305ea328cfd6aaf1acfb03a6ae6269e551f40954f1ef",
+      "bytes": 17272
+    },
+    {
+      "path": "reference/genai-tools_graphrag-toolkit.html.md",
+      "sha256": "sha256:3df4b844c76f3ee9252eefbb9ea52a6c88ea9d32c2123a017125ef262af8088e",
+      "bytes": 15793
+    },
+    {
+      "path": "reference/genai-tools_langchain.html.md",
+      "sha256": "sha256:135ad5e942364eac3e8a8f09cb1d9e764fe59460e6d61811bdedb87682f84cf0",
+      "bytes": 15856
+    },
+    {
+      "path": "reference/genai-tools_langgraph.html.md",
+      "sha256": "sha256:78e6334ff414c731b1281f6680ab508bd085043befa4345b74e162fd4f16fa1b",
+      "bytes": 30049
+    },
+    {
+      "path": "reference/genai-tools_llamaindex.html.md",
+      "sha256": "sha256:5165c1fe791ed46157f0e1cef5a538c65d15a5b1d26658670ba74912fc10efde",
+      "bytes": 16939
+    },
+    {
+      "path": "reference/genai-tools_mcpserver.md",
+      "sha256": "sha256:10eb47d370956a29a0d8563988a5a3193732bf7031082c086b1418718b9ee410",
+      "bytes": 19536
+    },
+    {
+      "path": "reference/genai-tools_mcpserver_configuration.html.md",
+      "sha256": "sha256:329f38f7c5f58b48107555ff96e17662fe916e3505e950e49407636dde344c91",
+      "bytes": 24886
+    },
+    {
+      "path": "reference/genai-tools_mcpserver_docker.html.md",
+      "sha256": "sha256:2cfa067ba06ede445ca0271f8a5fd860d6fb8beeec7dcc2a23147b3c4d003e1e",
+      "bytes": 24867
+    },
+    {
+      "path": "reference/genai-tools_mcpserver_quickstart.html.md",
+      "sha256": "sha256:2bca1571fd4219d80151b803240f587a00bdc05a186fdf3dbd075f219ee55f29",
+      "bytes": 25993
+    },
+    {
+      "path": "reference/getting-started.md",
+      "sha256": "sha256:724ce0cee59d6b892510f0af778c72a724c4fbe9010f1fa1da0e8b5a7e712dff",
+      "bytes": 24655
+    },
+    {
+      "path": "reference/getting-started_clients.html.md",
+      "sha256": "sha256:cc578bfafab5b074524bf4d68fc51a16c61589e4217b63d316b740d85baa3ad3",
+      "bytes": 15795
+    },
+    {
+      "path": "reference/getting-started_clients.md",
+      "sha256": "sha256:bf22d70f12699334b9551045fdfb070eab104d7cd31db836f66116d819afb1f9",
+      "bytes": 15770
+    },
+    {
+      "path": "reference/getting-started_configuration.html.md",
+      "sha256": "sha256:a1980b02645e21d1bdfef258032da0316e74bde8ac1e4fc35c1c004389335e98",
+      "bytes": 32527
+    },
+    {
+      "path": "reference/index.md",
+      "sha256": "sha256:8550b3c7b8e0535f6edf8727e4c24dcf0f66578a9d589131ebacb3d3e5b17f9c",
+      "bytes": 22801
+    },
+    {
+      "path": "reference/integration.md",
+      "sha256": "sha256:8bd435b4cc49c40d6f79752274dff2e531f352b23bef071fe8a3299dc1a594b1",
+      "bytes": 15816
+    },
+    {
+      "path": "reference/integration_bolt-support.html.md",
+      "sha256": "sha256:4a6105e566fd5eb86aa6305ea328cfd6aaf1acfb03a6ae6269e551f40954f1ef",
+      "bytes": 17272
+    },
+    {
+      "path": "reference/integration_jena.html.md",
+      "sha256": "sha256:144435421c6877c8873d51258d29c1bc83bd4aaed6b525a67056f9a0e0773c1f",
+      "bytes": 15759
+    },
+    {
+      "path": "reference/integration_kafka-connect.html.md",
+      "sha256": "sha256:724ce0cee59d6b892510f0af778c72a724c4fbe9010f1fa1da0e8b5a7e712dff",
+      "bytes": 24655
+    },
+    {
+      "path": "reference/integration_rest.html.md",
+      "sha256": "sha256:cc30f17b7ca3ea316aa61d84185bc9e5a4e43d824772e4cd02f43f8877e032cf",
+      "bytes": 22782
+    },
+    {
+      "path": "reference/integration_snowflake.html.md",
+      "sha256": "sha256:135ad5e942364eac3e8a8f09cb1d9e764fe59460e6d61811bdedb87682f84cf0",
+      "bytes": 15856
+    },
+    {
+      "path": "reference/integration_spring-data-falkordb.html.md",
+      "sha256": "sha256:4d7ac2cc2dff0ad45dde149733db8f100388d428ac1a6d5d7df8c1443d810252",
+      "bytes": 24768
+    },
+    {
+      "path": "reference/operations.md",
+      "sha256": "sha256:b3b4bdee2c1b8ec78c80d448dca307961045fc2ef830dde306c4bdd92ac4fed3",
+      "bytes": 15875
+    },
+    {
+      "path": "reference/operations_building-docker.html.md",
+      "sha256": "sha256:5cad453ed5b7f33a5d4cb619f18e1cfb051b1c345a2c484b7eeb215092856d85",
+      "bytes": 18688
+    },
+    {
+      "path": "reference/operations_cluster.html.md",
+      "sha256": "sha256:b3934897fa62ddb11ece2fb25721f7326b0a69354f3bceb2ed6c82a7901f6cb2",
+      "bytes": 20405
+    },
+    {
+      "path": "reference/operations_docker.html.md",
+      "sha256": "sha256:fcb80420414d32d6ce76afb0d73af52344245c5fcfe7c95d5341ae4738c219d9",
+      "bytes": 18707
+    },
+    {
+      "path": "reference/operations_durability.html.md",
+      "sha256": "sha256:14c923095ccd26f73d8a25cfffec65a3654f2ff2d19717a32aeb3c990933ee18",
+      "bytes": 16920
+    },
+    {
+      "path": "reference/operations_falkordblite.md",
+      "sha256": "sha256:3abc340f23de27f74fa928f7380c29d692b0eab86aca511684aa4185b171b765",
+      "bytes": 23826
+    },
+    {
+      "path": "reference/operations_falkordblite_falkordblite-py.html.md",
+      "sha256": "sha256:5cad453ed5b7f33a5d4cb619f18e1cfb051b1c345a2c484b7eeb215092856d85",
+      "bytes": 18688
+    },
+    {
+      "path": "reference/operations_falkordblite_falkordblite-ts.html.md",
+      "sha256": "sha256:f08b046dd35a07db7577a2958ad4b1c5ec532c71091eea0ddcc632e42b64f36c",
+      "bytes": 18769
+    },
+    {
+      "path": "reference/operations_k8s-support.html.md",
+      "sha256": "sha256:e93ed50989753483af625c15a76d0e0c9928a4eefde60860e92236a0dd48f76a",
+      "bytes": 16674
+    },
+    {
+      "path": "reference/operations_kubeblocks.html.md",
+      "sha256": "sha256:fcb80420414d32d6ce76afb0d73af52344245c5fcfe7c95d5341ae4738c219d9",
+      "bytes": 18707
+    },
+    {
+      "path": "reference/operations_lightning-ai.html.md",
+      "sha256": "sha256:5cad453ed5b7f33a5d4cb619f18e1cfb051b1c345a2c484b7eeb215092856d85",
+      "bytes": 18688
+    },
+    {
+      "path": "reference/operations_migration.md",
+      "sha256": "sha256:8294fb59c7bf105579cbf3d460adf43f5363582f566906aaf67785362ea63e28",
+      "bytes": 30068
+    },
+    {
+      "path": "reference/operations_migration_kuzu-to-falkordb.html.md",
+      "sha256": "sha256:1aa36d268113899f11906ea314e28513226eb4496bb3862a65bd9a654f761343",
+      "bytes": 20386
+    },
+    {
+      "path": "reference/operations_migration_neo4j-to-falkordb.html.md",
+      "sha256": "sha256:3df4b844c76f3ee9252eefbb9ea52a6c88ea9d32c2123a017125ef262af8088e",
+      "bytes": 15793
+    },
+    {
+      "path": "reference/operations_migration_rdf-to-falkordb.html.md",
+      "sha256": "sha256:e93ed50989753483af625c15a76d0e0c9928a4eefde60860e92236a0dd48f76a",
+      "bytes": 16674
+    },
+    {
+      "path": "reference/operations_migration_redisgraph-to-falkordb.html.md",
+      "sha256": "sha256:14c923095ccd26f73d8a25cfffec65a3654f2ff2d19717a32aeb3c990933ee18",
+      "bytes": 16920
+    },
+    {
+      "path": "reference/operations_migration_sql-to-falkordb.html.md",
+      "sha256": "sha256:fffc6930d21ad22ede19e0063e92a5e4319e123a33d589ef0b849f2f2da34022",
+      "bytes": 18605
+    },
+    {
+      "path": "reference/operations_opentelemetry.html.md",
+      "sha256": "sha256:574baf92b8e3cf4781e9b908a4f87607598f1ab73a8a731686e75ca215adf5ae",
+      "bytes": 18586
+    },
+    {
+      "path": "reference/operations_railway.html.md",
+      "sha256": "sha256:e798524752c61be76e68614e9401d8a2ba76f886fed250f97fd1a5ffdb9d2a21",
+      "bytes": 15926
+    },
+    {
+      "path": "reference/operations_replication.html.md",
+      "sha256": "sha256:3df4b844c76f3ee9252eefbb9ea52a6c88ea9d32c2123a017125ef262af8088e",
+      "bytes": 15793
+    },
+    {
+      "path": "reference/udfs.md",
+      "sha256": "sha256:8550b3c7b8e0535f6edf8727e4c24dcf0f66578a9d589131ebacb3d3e5b17f9c",
+      "bytes": 22801
+    },
+    {
+      "path": "reference/udfs_flex.md",
+      "sha256": "sha256:724ce0cee59d6b892510f0af778c72a724c4fbe9010f1fa1da0e8b5a7e712dff",
+      "bytes": 24655
+    },
+    {
+      "path": "reference/udfs_flex_bitwise.md",
+      "sha256": "sha256:562dd18f68353f6ff818cfe7c6c3d7cdad32d7d88123e00cacecba6d64c05bd1",
+      "bytes": 15778
+    },
+    {
+      "path": "reference/udfs_flex_bitwise_and.html.md",
+      "sha256": "sha256:4a6105e566fd5eb86aa6305ea328cfd6aaf1acfb03a6ae6269e551f40954f1ef",
+      "bytes": 17272
+    },
+    {
+      "path": "reference/udfs_flex_bitwise_not.html.md",
+      "sha256": "sha256:4d7ac2cc2dff0ad45dde149733db8f100388d428ac1a6d5d7df8c1443d810252",
+      "bytes": 24768
+    },
+    {
+      "path": "reference/udfs_flex_bitwise_or.html.md",
+      "sha256": "sha256:135ad5e942364eac3e8a8f09cb1d9e764fe59460e6d61811bdedb87682f84cf0",
+      "bytes": 15856
+    },
+    {
+      "path": "reference/udfs_flex_bitwise_shiftLeft.html.md",
+      "sha256": "sha256:8294fb59c7bf105579cbf3d460adf43f5363582f566906aaf67785362ea63e28",
+      "bytes": 30068
+    },
+    {
+      "path": "reference/udfs_flex_bitwise_shiftRight.html.md",
+      "sha256": "sha256:e734fcef851367c3aed138c8db85ab6814dd3328d4f7f296b488651defd0382c",
+      "bytes": 22399
+    },
+    {
+      "path": "reference/udfs_flex_bitwise_xor.html.md",
+      "sha256": "sha256:5435f40a943adf0d5a760f700c1a41ad2adb60898d904975ce87f19fa53c360c",
+      "bytes": 14643
+    },
+    {
+      "path": "reference/udfs_flex_collections.md",
+      "sha256": "sha256:4a6105e566fd5eb86aa6305ea328cfd6aaf1acfb03a6ae6269e551f40954f1ef",
+      "bytes": 17272
+    },
+    {
+      "path": "reference/udfs_flex_collections_frequencies.html.md",
+      "sha256": "sha256:68631d79555a63d43e5613cde825e1ca12c2eef36d77f82f140ab5ef59024b36",
+      "bytes": 24787
+    },
+    {
+      "path": "reference/udfs_flex_collections_intersection.html.md",
+      "sha256": "sha256:135ad5e942364eac3e8a8f09cb1d9e764fe59460e6d61811bdedb87682f84cf0",
+      "bytes": 15856
+    },
+    {
+      "path": "reference/udfs_flex_collections_shuffle.html.md",
+      "sha256": "sha256:78e6334ff414c731b1281f6680ab508bd085043befa4345b74e162fd4f16fa1b",
+      "bytes": 30049
+    },
+    {
+      "path": "reference/udfs_flex_collections_union.html.md",
+      "sha256": "sha256:2f0fbdcdfccb238b967103c249a6fd9847d71cc7efe0fbae37211da181083805",
+      "bytes": 22418
+    },
+    {
+      "path": "reference/udfs_flex_collections_zip.html.md",
+      "sha256": "sha256:209969ad07e50a6fcd1aa1ad23059049c9cc51ad0219e9b1ed45a061b261040c",
+      "bytes": 14624
+    },
+    {
+      "path": "reference/udfs_flex_date.md",
+      "sha256": "sha256:68631d79555a63d43e5613cde825e1ca12c2eef36d77f82f140ab5ef59024b36",
+      "bytes": 24787
+    },
+    {
+      "path": "reference/udfs_flex_date_format.html.md",
+      "sha256": "sha256:b3b4bdee2c1b8ec78c80d448dca307961045fc2ef830dde306c4bdd92ac4fed3",
+      "bytes": 15875
+    },
+    {
+      "path": "reference/udfs_flex_date_parse.html.md",
+      "sha256": "sha256:8294fb59c7bf105579cbf3d460adf43f5363582f566906aaf67785362ea63e28",
+      "bytes": 30068
+    },
+    {
+      "path": "reference/udfs_flex_date_toTimeZone.html.md",
+      "sha256": "sha256:e734fcef851367c3aed138c8db85ab6814dd3328d4f7f296b488651defd0382c",
+      "bytes": 22399
+    },
+    {
+      "path": "reference/udfs_flex_date_truncate.html.md",
+      "sha256": "sha256:209969ad07e50a6fcd1aa1ad23059049c9cc51ad0219e9b1ed45a061b261040c",
+      "bytes": 14624
+    },
+    {
+      "path": "reference/udfs_flex_json.md",
+      "sha256": "sha256:135ad5e942364eac3e8a8f09cb1d9e764fe59460e6d61811bdedb87682f84cf0",
+      "bytes": 15856
+    },
+    {
+      "path": "reference/udfs_flex_json_fromJsonList.html.md",
+      "sha256": "sha256:8294fb59c7bf105579cbf3d460adf43f5363582f566906aaf67785362ea63e28",
+      "bytes": 30068
+    },
+    {
+      "path": "reference/udfs_flex_json_fromJsonMap.html.md",
+      "sha256": "sha256:e734fcef851367c3aed138c8db85ab6814dd3328d4f7f296b488651defd0382c",
+      "bytes": 22399
+    },
+    {
+      "path": "reference/udfs_flex_json_toJson.html.md",
+      "sha256": "sha256:209969ad07e50a6fcd1aa1ad23059049c9cc51ad0219e9b1ed45a061b261040c",
+      "bytes": 14624
+    },
+    {
+      "path": "reference/udfs_flex_map.md",
+      "sha256": "sha256:8294fb59c7bf105579cbf3d460adf43f5363582f566906aaf67785362ea63e28",
+      "bytes": 30068
+    },
+    {
+      "path": "reference/udfs_flex_map_fromPairs.html.md",
+      "sha256": "sha256:2f0fbdcdfccb238b967103c249a6fd9847d71cc7efe0fbae37211da181083805",
+      "bytes": 22418
+    },
+    {
+      "path": "reference/udfs_flex_map_merge.html.md",
+      "sha256": "sha256:209969ad07e50a6fcd1aa1ad23059049c9cc51ad0219e9b1ed45a061b261040c",
+      "bytes": 14624
+    },
+    {
+      "path": "reference/udfs_flex_map_removeKey.html.md",
+      "sha256": "sha256:70331b54398f3b98372e0def1384a7f6860ee9e906d7f04e04e3616ac597f8c0",
+      "bytes": 14615
+    },
+    {
+      "path": "reference/udfs_flex_map_removeKeys.html.md",
+      "sha256": "sha256:b2ab6845e1dedfb24d3c22ae81de1db2e4228372fe7f9d3310c1ce2d2c2118dd",
+      "bytes": 14451
+    },
+    {
+      "path": "reference/udfs_flex_map_submap.html.md",
+      "sha256": "sha256:e1486738d934fdb16db96cb8ab54c19ae1fe44cc261a26a463834784d910f36b",
+      "bytes": 14391
+    },
+    {
+      "path": "reference/udfs_flex_similarity.md",
+      "sha256": "sha256:e734fcef851367c3aed138c8db85ab6814dd3328d4f7f296b488651defd0382c",
+      "bytes": 22399
+    },
+    {
+      "path": "reference/udfs_flex_similarity_jaccard.html.md",
+      "sha256": "sha256:209969ad07e50a6fcd1aa1ad23059049c9cc51ad0219e9b1ed45a061b261040c",
+      "bytes": 14624
+    },
+    {
+      "path": "reference/udfs_flex_text.md",
+      "sha256": "sha256:5435f40a943adf0d5a760f700c1a41ad2adb60898d904975ce87f19fa53c360c",
+      "bytes": 14643
+    },
+    {
+      "path": "reference/udfs_flex_text_camelCase.html.md",
+      "sha256": "sha256:70331b54398f3b98372e0def1384a7f6860ee9e906d7f04e04e3616ac597f8c0",
+      "bytes": 14615
+    },
+    {
+      "path": "reference/udfs_flex_text_capitalize.html.md",
+      "sha256": "sha256:cadae6d3a5d5641c2b64834dda418e20464bafd69fd8f4cd14989863d7e7cc55",
+      "bytes": 14470
+    },
+    {
+      "path": "reference/udfs_flex_text_decapitalize.html.md",
+      "sha256": "sha256:e1486738d934fdb16db96cb8ab54c19ae1fe44cc261a26a463834784d910f36b",
+      "bytes": 14391
+    },
+    {
+      "path": "reference/udfs_flex_text_format.html.md",
+      "sha256": "sha256:20d511d73456da9cde8f4cb94104f1b705fd351f6558e473fe560b3428c6a3b2",
+      "bytes": 14535
+    },
+    {
+      "path": "reference/udfs_flex_text_indexOf.html.md",
+      "sha256": "sha256:000c0c7a69dbace3a9eae4c492adf8dcbfe1eee763ead6e0122bffd5b31bf3fd",
+      "bytes": 14262
+    },
+    {
+      "path": "reference/udfs_flex_text_indexesOf.html.md",
+      "sha256": "sha256:848142e366cf461efce1ab6ef9b10d0a195559299b503fe9940792d3f860f507",
+      "bytes": 15476
+    },
+    {
+      "path": "reference/udfs_flex_text_jaroWinkler.html.md",
+      "sha256": "sha256:864b8a8a98fb0fd298fb5c6086b5b5b3735409ab542f9c8db839c777174b22de",
+      "bytes": 16537
+    },
+    {
+      "path": "reference/udfs_flex_text_join.html.md",
+      "sha256": "sha256:0ee105f256b72290d35e87f8d7a77fd5cab2987496711c7ef1ec4220fca59248",
+      "bytes": 16178
+    },
+    {
+      "path": "reference/udfs_flex_text_levenshtein.html.md",
+      "sha256": "sha256:529f490bfebca07be8682091d73ed711268a0cfa1baeead5c948fb488f1b4c9e",
+      "bytes": 16096
+    },
+    {
+      "path": "reference/udfs_flex_text_lpad.html.md",
+      "sha256": "sha256:22f487bf37003a9ed11a75e2022be446cbfc45a6806ee20c55b60a01ea5fedc6",
+      "bytes": 16719
+    },
+    {
+      "path": "reference/udfs_flex_text_regexGroups.html.md",
+      "sha256": "sha256:9be0083a5a833e2a45fbccfb82d45da2da275bc1ff57dbb447a2b03a17dd387f",
+      "bytes": 16666
+    },
+    {
+      "path": "reference/udfs_flex_text_repeat.html.md",
+      "sha256": "sha256:b7878f83337c54a3bf00d21cd40eb08095d5b99f2de5989e62776ba942a94d80",
+      "bytes": 17053
+    },
+    {
+      "path": "reference/udfs_flex_text_replace.html.md",
+      "sha256": "sha256:ea7401660ad216abc1691f01db6e13fe3ac5581ca4aebe90afe59fc4748b8c4b",
+      "bytes": 17083
+    },
+    {
+      "path": "reference/udfs_flex_text_rpad.html.md",
+      "sha256": "sha256:134e0a9260f1d6883e78c1777738400b2aaa20fab99ac48ae0163c5bf542e21f",
+      "bytes": 16713
+    },
+    {
+      "path": "reference/udfs_flex_text_snakeCase.html.md",
+      "sha256": "sha256:d94159c3e5b19387f7eef9ba07f87bb4ef17a8aeac93da22a5677ce4cbaacdc2",
+      "bytes": 17170
+    },
+    {
+      "path": "reference/udfs_flex_text_swapCase.html.md",
+      "sha256": "sha256:82bcee6d4cf4d61bcc32d59ae176b6b60e7b3f52417296905fcdbcdbe72d0641",
+      "bytes": 16741
+    },
+    {
+      "path": "reference/udfs_flex_text_upperCamelCase.html.md",
+      "sha256": "sha256:e55cb19601bc47056d3e7ff69215e17fa2ad0a785cc38b6b135f3c95a6b60e1d",
+      "bytes": 17144
+    }
+  ]
+}

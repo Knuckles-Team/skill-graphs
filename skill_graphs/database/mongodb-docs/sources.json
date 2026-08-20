@@ -1,0 +1,81 @@
+{
+  "schema": "skill-graph-sources/v1",
+  "name": "mongodb-docs",
+  "skill_graph_version": "1.0.0",
+  "built_at": "2026-03-08T00:00:00Z",
+  "builder_version": "backfill-0.1.0",
+  "backfilled": true,
+  "kg_ingested": false,
+  "kg_manifest": null,
+  "kg_ontology": null,
+  "concepts": [],
+  "sources": [
+    {
+      "kind": "web",
+      "uri": "https://www.mongodb.com/docs/",
+      "options": {
+        "crawl_depth": 2
+      },
+      "extractor": "web-crawl",
+      "fetched_at": "2026-03-08T00:00:00Z",
+      "doc_count": 11
+    }
+  ],
+  "files": [
+    {
+      "path": "reference/atlas.md",
+      "sha256": "sha256:f47f87661bd3beee1f053f19e7231f24c8302a7c25ab527e0c51e77c8fb99890",
+      "bytes": 20967
+    },
+    {
+      "path": "reference/atlas_architecture_current.md",
+      "sha256": "sha256:1b935494e6583916359ff463af96276254670ace1ea31a285b5309310a56820a",
+      "bytes": 31121
+    },
+    {
+      "path": "reference/atlas_architecture_current_solutions-library.md",
+      "sha256": "sha256:73ae4b8e3500c1218f605af9f117375578a65d15de9ad8f1fa0d60ed6455b49d",
+      "bytes": 46541
+    },
+    {
+      "path": "reference/development.md",
+      "sha256": "sha256:06eb7e7e4d5f78bcf0ddd26afc7498c5621614bfbd5f1e4086f2de387f24c70e",
+      "bytes": 38340
+    },
+    {
+      "path": "reference/docs.md",
+      "sha256": "sha256:de45e5a8335e0b1abe9b6381cb369ae6f2c6b533ef0fb2c94ed56a530686fe65",
+      "bytes": 26334
+    },
+    {
+      "path": "reference/drivers.md",
+      "sha256": "sha256:4b857682664c690819cc23553271ed5c046f3656a2e8bf85f05d22b528967ba0",
+      "bytes": 29524
+    },
+    {
+      "path": "reference/get-started.md",
+      "sha256": "sha256:87a0894843bff83f208a568b9c6dc41302c63ad5b4898dba07765360664c75d4",
+      "bytes": 37700
+    },
+    {
+      "path": "reference/management.md",
+      "sha256": "sha256:d4679ebaf675a860adb8bac6e70ea2c454141069709a49e0ef85237fd48db531",
+      "bytes": 30694
+    },
+    {
+      "path": "reference/manual.md",
+      "sha256": "sha256:96b5e49d02bd9adebf12649c452fbaef70b4de4ed477514152e72cb5adb59c1a",
+      "bytes": 36571
+    },
+    {
+      "path": "reference/tools-and-connectors.md",
+      "sha256": "sha256:400519cff9064d367602a6cca95c2c972aeac506cbcb1be2bfff008671c29030",
+      "bytes": 33157
+    },
+    {
+      "path": "reference/voyageai.md",
+      "sha256": "sha256:4f20bf3197f3015fd51309a02c09dccdc208af6e097a8a1b70fa7f799481e985",
+      "bytes": 34300
+    }
+  ]
+}

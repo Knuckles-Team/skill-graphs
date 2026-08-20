@@ -4,11 +4,11 @@ skill_type: graph
 description: Order execution patterns, exchange backend abstraction, and routing for the trading ecosystem.
 ---
 
-# Execution Skill-Graph — CONCEPT:EE-002 / EE-009
+# Execution Skill-Graph — CONCEPT:EX-AHE.harness.ee / EX-AHE.harness.ee-8
 
 Exchange backend abstraction and order execution patterns.
 
-## Exchange Backend Protocol — CONCEPT:EE-002
+## Exchange Backend Protocol — CONCEPT:EX-AHE.harness.ee
 
 All backends implement the `ExchangeBackend` Protocol with a unified interface:
 
@@ -34,25 +34,25 @@ class ExchangeBackend(Protocol):
 
 ## Backend Implementations
 
-### PaperBackend (Default) — CONCEPT:EE-003
+### PaperBackend (Default) — CONCEPT:EX-AHE.harness.ee-2
 - Local simulation, no external dependencies
 - In-memory position tracking
 - Default for all new deployments
 - Assets: equity, crypto, forex (simulated)
 
-### AlpacaBackend — CONCEPT:EE-004
+### AlpacaBackend — CONCEPT:EX-AHE.harness.ee-3
 - **Free**: Paper trading with real market data
 - US equities + crypto
 - Library: `alpaca-py`
 - Config: `exchanges.alpaca` in config.json
 
-### CCXTBackend — CONCEPT:EE-005
+### CCXTBackend — CONCEPT:EX-AHE.harness.ee-4
 - **100+ crypto exchanges** via unified CCXT library
 - Pre-registered shortcuts: `binance`, `coinbase`, `kraken`
 - Supports sandbox mode for paper trading
 - Library: `ccxt`
 
-### FreqtradeBackend — CONCEPT:EE-006
+### FreqtradeBackend — CONCEPT:EX-AHE.harness.ee-5
 - Algorithmic crypto trading bot
 - REST API integration
 - Strategy execution managed by Freqtrade engine
@@ -75,7 +75,7 @@ BACKEND_REGISTRY = {
 backend = create_backend("alpaca", config, TradingMode.PAPER)
 ```
 
-## Order Lifecycle — CONCEPT:EE-009
+## Order Lifecycle — CONCEPT:EX-AHE.harness.ee-8
 
 ```
 submit → risk_guard.pre_trade_check() → backend.submit_order() → KG audit
@@ -101,4 +101,4 @@ submit → risk_guard.pre_trade_check() → backend.submit_order() → KG audit
 2. Register in `BACKEND_REGISTRY` dict
 3. Add config section under `trading.exchanges` in config.json
 4. Add infrastructure blueprint YAML in `infrastructure-blueprints/trading/`
-5. Register `CONCEPT:EE-0XX` ID in `docs/concepts.md`
+5. Reserve an OKF-CIS id (`agent-utilities concept reserve --id EX-AHE.harness.<name>`) and register it in emerald-exchange's `docs/concepts.md`
