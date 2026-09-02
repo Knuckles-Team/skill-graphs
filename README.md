@@ -89,7 +89,7 @@ Skill graphs are typically loaded using the `get_skill_graphs_path()` utility fr
 
 ```python
 from skill_graphs.skill_graph_utilities import get_skill_graphs_path
-from agent_utilities.agent_utilities import SkillsToolset
+from pydantic_ai_skills import SkillsToolset
 
 # Load enabled skill graphs
 skills_directories = get_skill_graphs_path()
