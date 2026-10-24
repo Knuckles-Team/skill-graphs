@@ -1,7 +1,7 @@
 # AGENTS.md - Skill Graphs Context
 
 ## Tech Stack & Architecture
-- **Language**: Python 3.10+
+- **Language**: Python 3.12+
 - **Architecture**: A specialized library of "Documentation Skills" (Skill-Graphs). Each graph is a directory containing a structured `SKILL.md` index and a `reference/` directory with crawled/transformed markdown.
 - **Discovery**: Skill-graphs are discovered and managed via `skill_graphs.skill_graph_utilities`.
 - **Key Principles**:
@@ -82,6 +82,28 @@ ruff format .
 - Consult `skill_graph_utilities.py` to understand how paths are resolved.
 - Looking for how to build a graph? See `skill-graph-builder` in `universal-skills`.
 ```
+
+## Release
+
+Bump first, then tag. A tag on a commit whose `pyproject.toml` still has the old
+version rebuilds the old version and PyPI refuses it. The shared pipeline
+(`.github/workflows/pipeline.yml`, `workflow_dispatch` on `main`) checks that tag ==
+`pyproject.toml` version == `.bumpversion.cfg` `current_version`, and that the version
+is not already on PyPI.
+
+1. **Bump on a branch.** `bump2version --no-commit --no-tag patch` (or `minor`/`major`)
+   updates `.bumpversion.cfg`, `pyproject.toml` and the `Version:` line in `README.md`.
+   Then `uv lock` (the editable `skill-graphs` entry in `uv.lock` carries the version).
+2. **Merge the bump** to `main` with `gh pr merge --rebase`.
+3. **Verify the merged commit** `<sha>` before tagging:
+   `git show <sha>:pyproject.toml | grep '^version'` equals the intended `X.Y.Z`, and
+   `curl -s -o /dev/null -w '%{http_code}' https://pypi.org/pypi/skill-graphs/X.Y.Z/json`
+   prints `404`.
+4. **Only then push the tag** `vX.Y.Z` on `<sha>` (or run the pipeline from `main`).
+5. **Confirm the wheel and sdist** for `X.Y.Z` are on PyPI
+   (`https://pypi.org/pypi/skill-graphs/X.Y.Z/json` lists both).
+6. **Wrong-commit tag:** if nothing was published, delete the tag (local and remote)
+   and re-tag the right commit; if anything was published, cut the next patch.
 
 ## ⛔ No Scratch or Temporary Files in Repository
 
