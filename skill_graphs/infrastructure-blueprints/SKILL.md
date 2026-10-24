@@ -83,5 +83,5 @@ stack_file: |
 
 - Use `portainer-mcp` `create_standalone_stack` to deploy
 - Use `technitium-dns-mcp` `add_record` for DNS
-- Use `graph-os` `graph_write` to register in KG topology
+- Use `arbora` `graph_write` to register in KG topology
 - Check host capacity before deployment via `portainer-mcp` `docker_get_system_df`

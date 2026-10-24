@@ -8,7 +8,7 @@ description: >-
   (qlib, freqtrade, TradingAgents, FinRL, CCXT) into native agent-utilities patterns.
 domain: finance
 tags: ['trading', 'finance', 'risk', 'quant', 'crypto', 'equities']
-requires: ['emerald-exchange', 'data-science-mcp', 'graph-os']
+requires: ['emerald-exchange', 'data-science-mcp', 'arbora']
 metadata:
   author: agent-utilities
   version: '1.0.0'
