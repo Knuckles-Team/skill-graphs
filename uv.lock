@@ -1,34 +1,9 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.12, <3.15"
 resolution-markers = [
     "python_full_version >= '3.14'",
     "python_full_version < '3.14'",
-]
-
-[[package]]
-name = "agent-connector-sdk"
-version = "0.5.2"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "anyio" },
-    { name = "cryptography" },
-    { name = "epistemic-graph" },
-    { name = "httpx" },
-    { name = "httpx2" },
-    { name = "mcp-types" },
-    { name = "pydantic" },
-    { name = "pyyaml" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/3a/bb/9ff0e3291a03d22f4bb869c5fa018f06c4da1943859159b0b285a2072c41/agent_connector_sdk-0.5.2.tar.gz", hash = "sha256:e047235f1419e0823e070b43eb38770933f9c737939834cd292df5261f0260ea", size = 785473, upload-time = "2026-10-24T02:39:19.229Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/ca/0e/89915f720065b041d6c8288538562c4000d8c9664ed77978f67ba27fc831/agent_connector_sdk-0.5.2-py3-none-any.whl", hash = "sha256:3f580758e06e38df60ebd281305cd40a5acff86ea064a7cbdf6a12063062b704", size = 777571, upload-time = "2026-10-24T02:39:17.996Z" },
-]
-
-[package.optional-dependencies]
-mcp = [
-    { name = "fastmcp" },
-    { name = "mcp" },
 ]
 
 [[package]]
@@ -348,7 +323,7 @@ wheels = [
 
 [[package]]
 name = "epistemic-graph"
-version = "2.27.5"
+version = "2.27.7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx" },
@@ -356,12 +331,12 @@ dependencies = [
     { name = "pydantic" },
     { name = "pyoxigraph" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/2b/10/45b174c53a5fb3c27be36aa1e8b937b0698f3f6b067d5918aafea0a3afcf/epistemic_graph-2.27.5.tar.gz", hash = "sha256:930aacd5bb1b7fdca45541c878e6763b0a7eeadeded3fa679b7c1b2e2405f8ee", size = 7598954, upload-time = "2026-10-23T14:17:06.039Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/7c/be/beb16018cb5243f8711a23843ceb55e6a9d59ba04debe92f6cd5ed10d526/epistemic_graph-2.27.7.tar.gz", hash = "sha256:a97b1022a2c1081d45671fd21c21dcf3b1ce3eec81c1b95becd4a0fdbf42d7f0", size = 7617716, upload-time = "2026-10-24T20:31:48.086Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/46/2d/b42403b318af7a75a75f43759a9ca2cfedf8c5718c4bfc63a145de9f7d3d/epistemic_graph-2.27.5-cp39-abi3-macosx_11_0_arm64.whl", hash = "sha256:853be6533f9c8802d824d8b5dc216846c788047a3e9490d7c23f3f8b5dc28746", size = 7743931, upload-time = "2026-10-23T15:13:33.736Z" },
-    { url = "https://files.pythonhosted.org/packages/8e/e1/0f3def32d41e306add2faa88d23cf22e0996923eb4933d3086b6df165d38/epistemic_graph-2.27.5-cp39-abi3-manylinux_2_28_aarch64.whl", hash = "sha256:51960e3d3c469a1e39ad658c8d895083c7c56faeaa9aa8b1c4ba2396cee66df8", size = 7939897, upload-time = "2026-10-23T14:45:58.59Z" },
-    { url = "https://files.pythonhosted.org/packages/99/71/9a5ae0d1944a104e96bab7d28f26ab6ab928e6a6e05bc6d70e7321e04de4/epistemic_graph-2.27.5-cp39-abi3-manylinux_2_28_x86_64.whl", hash = "sha256:62211f6e9c6249a65433abee4a6b2a5e744018c769f1225392ab03bffa36cc28", size = 8595667, upload-time = "2026-10-23T14:38:10.81Z" },
-    { url = "https://files.pythonhosted.org/packages/99/30/7e5b5b424b1f9d846ea69526edbbc725fca036cd6c2c9a87973f74d12771/epistemic_graph-2.27.5-cp39-abi3-win_amd64.whl", hash = "sha256:9e6d5869fceb58987ced50bb18c8b8a7346c71f1c8138013145ca95ee9eb94dd", size = 9400900, upload-time = "2026-10-23T14:47:48.677Z" },
+    { url = "https://files.pythonhosted.org/packages/14/6b/02d0f7b621212dc2201e7b277de5ea0c50c0147ab6394bad4c4fdc4fde65/epistemic_graph-2.27.7-cp39-abi3-macosx_11_0_arm64.whl", hash = "sha256:aa9cc21757be066a0bae6802cce19af266f5d4afdad91af9f6fcb66139d73569", size = 7918549, upload-time = "2026-10-24T20:52:35.051Z" },
+    { url = "https://files.pythonhosted.org/packages/8f/62/8f1ef8cd3eeb8ce74bb592683118259602cb67293ca14e7cb4ed87a9c964/epistemic_graph-2.27.7-cp39-abi3-manylinux_2_28_aarch64.whl", hash = "sha256:bb05fe3cdfec27f329bfff528da6e5bbd2c91b09b22cb1239c1a6aeaf6c1cdff", size = 8110727, upload-time = "2026-10-24T20:59:43.431Z" },
+    { url = "https://files.pythonhosted.org/packages/b1/dd/29a8272c86e5b0d704703ba74981ed30e0d0df33577cfb435ebe7709c425/epistemic_graph-2.27.7-cp39-abi3-manylinux_2_28_x86_64.whl", hash = "sha256:d3e217c83ab80295f019ab44d861ea19a21de879cc804835f27e86bfa74cb78f", size = 8764065, upload-time = "2026-10-24T20:48:57.753Z" },
+    { url = "https://files.pythonhosted.org/packages/1f/97/c5f8354f4ba35d2f15fbbc4657bf732ede763c013b5a44f52c428b3eaf13/epistemic_graph-2.27.7-cp39-abi3-win_amd64.whl", hash = "sha256:e6c761d69fe17d90c185542880050634f5569358bbec3ca58f3ca788ab641fca", size = 9572735, upload-time = "2026-10-24T21:02:57.596Z" },
 ]
 
 [[package]]
@@ -1338,6 +1313,31 @@ wheels = [
 ]
 
 [[package]]
+name = "scion-sdk"
+version = "0.5.8"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "anyio" },
+    { name = "cryptography" },
+    { name = "epistemic-graph" },
+    { name = "httpx" },
+    { name = "httpx2" },
+    { name = "mcp-types" },
+    { name = "pydantic" },
+    { name = "pyyaml" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/b0/a5/15948c5e51f6a5d9a8efe8c9112cd140c778032de7bc375ebb453d52b735/scion_sdk-0.5.8.tar.gz", hash = "sha256:c8cf8a8bd36983db68afc78915720a511052cf9be4198ce1eed5f717e8717fd9", size = 807075, upload-time = "2026-10-27T00:33:18.895Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/4a/79/8107af19a35b9d95365805cd52f851c82bd4daef6d4e8d893dcc1011fd4a/scion_sdk-0.5.8-py3-none-any.whl", hash = "sha256:a129100a8f609aeeb5c97c934e1f8afd4da93022af507333cabf3733be5c40d1", size = 789504, upload-time = "2026-10-27T00:33:17.355Z" },
+]
+
+[package.optional-dependencies]
+mcp = [
+    { name = "fastmcp" },
+    { name = "mcp" },
+]
+
+[[package]]
 name = "secretstorage"
 version = "3.5.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1355,7 +1355,7 @@ name = "skill-graphs"
 version = "2.2.0"
 source = { editable = "." }
 dependencies = [
-    { name = "agent-connector-sdk", extra = ["mcp"] },
+    { name = "scion-sdk", extra = ["mcp"] },
 ]
 
 [package.optional-dependencies]
@@ -1369,12 +1369,12 @@ test = [
 
 [package.metadata]
 requires-dist = [
-    { name = "agent-connector-sdk", extras = ["mcp"], specifier = ">=0.5.0,<0.6.0" },
     { name = "build", marker = "extra == 'test'", specifier = ">=1.5.0" },
     { name = "pytest", marker = "extra == 'test'", specifier = ">=9.1.1" },
     { name = "pytest-asyncio", marker = "extra == 'test'", specifier = ">=1.4.0" },
     { name = "pytest-timeout", marker = "extra == 'test'", specifier = ">=2.4.0" },
     { name = "pytest-xdist", marker = "extra == 'test'", specifier = ">=3.8.0" },
+    { name = "scion-sdk", extras = ["mcp"], specifier = ">=0.5.6,<0.6.0" },
 ]
 provides-extras = ["test"]
 
