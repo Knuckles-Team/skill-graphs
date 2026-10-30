@@ -210,3 +210,6 @@ __marimo__/
 # already ignore this; skill-graphs was missing the entry, showing up as an
 # untracked dir every session)
 .uv-workspace-siblings/
+
+# Spec status is computed at read time (pipelines-hook spec-status --write), never committed.
+specs/*/status.json
