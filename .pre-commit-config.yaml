@@ -100,9 +100,9 @@ repos:
     always_run: true
   - id: check-bumpversion
     name: validate bumpversion config
-    entry: |-
-      bash -c 'if [ -f ".bumpversion.cfg" ]; then bump2version patch --dry-run --allow-dirty; fi'
-    language: system
+    entry: bump2version patch --dry-run --allow-dirty
+    language: python
+    additional_dependencies: [bump2version==1.0.1]
     pass_filenames: false
     always_run: true
 - repo: local
