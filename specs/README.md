@@ -8,4 +8,4 @@ This repository owns the specs with the ID prefix `SG`.
 
 ## Local specifications
 
-- [`SG-CONTENT`](catalog-content/spec.md) — Skill graphs are served by the SDK content convention.
+- [`SG-CONTENT`](catalog-content/spec.md) — Skill graphs distill a body of knowledge into a skill that the SDK serves and the engine imports.

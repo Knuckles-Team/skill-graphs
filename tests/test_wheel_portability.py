@@ -132,6 +132,7 @@ def _assert_indexed_resources(wheel: Path, root: Path) -> None:
                     ), resource
 
 
+@pytest.mark.spec("SG-CONTENT-R002.5")
 @pytest.mark.slow
 def test_wheel_contains_indexed_resources(built_wheel: Path | None) -> None:
     assert built_wheel is not None, (

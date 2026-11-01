@@ -7,6 +7,8 @@ import importlib.util
 import json
 from pathlib import Path
 
+import pytest
+
 _GATE = Path(__file__).resolve().parents[1] / "scripts" / "validate_skill_graphs.py"
 _spec = importlib.util.spec_from_file_location("validate_skill_graphs", _GATE)
 assert _spec is not None and _spec.loader is not None
@@ -41,12 +43,14 @@ def test_parse_frontmatter_lists_and_scalars():
     assert fm["name"] == "a" and fm["source_types"] == ["web", "pdf"]
 
 
+@pytest.mark.spec("SG-CONTENT-R002.1")
 def test_gate_passes_for_valid_managed_graph(tmp_path, monkeypatch):
     _managed_graph(tmp_path, "widget-docs", 2)
     monkeypatch.chdir(tmp_path)
     assert gate.main() == 0
 
 
+@pytest.mark.spec("SG-CONTENT-R002.3")
 def test_gate_fails_on_file_count_mismatch(tmp_path, monkeypatch):
     d = _managed_graph(tmp_path, "widget-docs", 2)
     md = d / "SKILL.md"
@@ -64,6 +68,7 @@ def test_gate_ignores_legacy_graph_without_manifest(tmp_path, monkeypatch):
     assert gate.main() == 0  # legacy graphs are reported, never hard-failed
 
 
+@pytest.mark.spec("SG-CONTENT-R002.2")
 def test_gate_fails_on_nested_reference_file(tmp_path, monkeypatch):
     d = tmp_path / "skill_graphs" / "nested-docs"
     (d / "reference" / "sub").mkdir(parents=True)
@@ -123,6 +128,7 @@ def test_gate_fails_on_missing_sources_path(tmp_path, monkeypatch):
     assert gate.main() == 1
 
 
+@pytest.mark.spec("SG-CONTENT-R002.4")
 def test_gate_fails_on_sources_sha256_mismatch(tmp_path, monkeypatch):
     d = _managed_graph_with_manifests(tmp_path, "widget-docs")
     (d / "reference" / "abcd1234.md").write_bytes(b"# changed content\n")
