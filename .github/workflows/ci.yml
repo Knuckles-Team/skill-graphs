@@ -1,0 +1,64 @@
+name: CI
+
+# The fleet CI standard (pipelines reference/ci-standard.md). A pull request runs
+# the shared `gates` job (this repository's pre-commit gates and tests over the
+# diff). A push to main and the nightly schedule run the whole-tree gates, the
+# full suite and the Python 3.12 backward leg. The caller aggregate `CI required`
+# is the one required status check. This workflow never publishes: only a v* tag
+# publishes (pipeline.yml).
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  schedule:
+    - cron: '23 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.event_name == 'pull_request' && format('pr-{0}-{1}', github.workflow, github.event.pull_request.number) || format('main-{0}-{1}', github.workflow, github.ref) }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  gates:
+    if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+    uses: Knuckles-Team/pipelines/.github/workflows/gates_pipeline.yml@main
+
+  gates-all-files:
+    if: github.event_name != 'pull_request'
+    permissions:
+      contents: read
+    uses: Knuckles-Team/pipelines/.github/workflows/gates_pipeline.yml@main
+    with:
+      all-files: true
+      timeout-minutes: 60
+
+  full:
+    if: github.event_name != 'pull_request'
+    permissions:
+      contents: read
+    uses: Knuckles-Team/pipelines/.github/workflows/main_pipeline.yml@main
+    with:
+      backward-python: '3.12'
+
+  ci-required:
+    name: CI required
+    if: always()
+    needs: [gates, gates-all-files, full]
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Fail on any failed or cancelled job (skipped is fine)
+        env:
+          RESULTS: ${{ join(needs.*.result, ' ') }}
+        run: |
+          echo "needed job results: $RESULTS"
+          for r in $RESULTS; do
+            case "$r" in failure|cancelled) echo "::error::a required job ended $r"; exit 1;; esac
+          done
