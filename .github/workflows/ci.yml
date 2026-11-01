@@ -29,6 +29,8 @@ jobs:
     permissions:
       contents: read
     uses: Knuckles-Team/pipelines/.github/workflows/gates_pipeline.yml@main
+    with:
+      config: .pre-commit-config.yaml
 
   gates-all-files:
     if: github.event_name != 'pull_request'
@@ -36,6 +38,7 @@ jobs:
       contents: read
     uses: Knuckles-Team/pipelines/.github/workflows/gates_pipeline.yml@main
     with:
+      config: .pre-commit-config.yaml
       all-files: true
       timeout-minutes: 60
 
