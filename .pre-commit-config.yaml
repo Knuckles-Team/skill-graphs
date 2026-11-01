@@ -139,6 +139,3 @@ repos:
   rev: main # sanctioned first-party exception; never SHA-pinned
   hooks:
   - id: no-legacy-concepts
-  - id: dependency-readiness
-    additional_dependencies:
-    - repository-manager @ git+https://github.com/Knuckles-Team/repository-manager.git@dd963af6246f59fcf837ac2624898cd3079ccc6b
