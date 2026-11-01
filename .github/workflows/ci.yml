@@ -31,6 +31,7 @@ jobs:
     uses: Knuckles-Team/pipelines/.github/workflows/gates_pipeline.yml@main
     with:
       config: .pre-commit-config.yaml
+      setup-command: npm install --global bun@1.4.4
 
   gates-all-files:
     if: github.event_name != 'pull_request'
@@ -40,6 +41,7 @@ jobs:
     with:
       config: .pre-commit-config.yaml
       all-files: true
+      setup-command: npm install --global bun@1.4.4
       timeout-minutes: 60
 
   full:
@@ -49,6 +51,7 @@ jobs:
     uses: Knuckles-Team/pipelines/.github/workflows/main_pipeline.yml@main
     with:
       backward-python: '3.12'
+      setup-command: uv sync --frozen --all-extras
 
   ci-required:
     name: CI required
