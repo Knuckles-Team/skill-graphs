@@ -26,7 +26,7 @@ test = [
 skill-graphs = "skill_graphs"
 
 [[project.authors]]
-name = "Agent Utilities Contributors"
+name = "Meristem Contributors"
 email = "maintainers@example.com"
 
 [tool.uv.workspace]

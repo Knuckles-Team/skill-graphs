@@ -3,7 +3,7 @@
 ![PyPI - Version](https://img.shields.io/pypi/v/skill-graphs)
 
 **Skill Graphs** is a curated Python package of distilled, documentation-sourced skill
-graphs for the agent-utilities ecosystem. Each graph transforms authoritative technical
+graphs for the meristem ecosystem. Each graph transforms authoritative technical
 documentation — language references, framework guides, database manuals, and
 infrastructure blueprints — into structured agent knowledge that Pydantic AI agents can
 load on demand.
