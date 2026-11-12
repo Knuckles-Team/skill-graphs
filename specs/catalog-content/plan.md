@@ -59,7 +59,7 @@ Gates: `ruff check`, `ruff format`, `mypy`, `vulture`, `codespell`, `bandit`, `s
 
 ## Production caller chain
 
-`arbora` resolves the installed distribution through the entry point `scion_sdk.connector`, then `scion_sdk.connector.build_server` lists `skills/` (`SCION-CONNECTOR-CONTROL-R071.1`). The pack builder `scion_sdk.artifacts.pack.build_connector_content_pack` captures the skills and the ontology modules. The engine imports the pack through `ConnectorPack.import` (`MEDULLA-TYPED-PACKS-R700`). The retired entry-point group `agent_connector_sdk.connector` is deleted.
+`arbora` resolves the installed distribution through the entry point `scion_sdk.connector`, then `scion_sdk.connector.build_server` lists `skills/` (`SCION-CONNECTOR-CONTROL-R071.1`). The pack builder `scion_sdk.artifacts.pack.build_connector_content_pack` captures the skills and the ontology modules. The engine imports the pack through `ConnectorPack.import` (`MEDULLA-TYPED-PACKS-R700`). The retired entry-point group `scion_sdk.connector` is deleted.
 
 ## Cross-repo seams
 

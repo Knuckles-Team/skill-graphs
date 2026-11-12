@@ -5,12 +5,12 @@ description: >-
   Comprehensive trading systems skill-graph covering exchange backends,
   risk management, algorithmic strategy design, portfolio optimization,
   and market microstructure. Distilled from open-source trading libraries
-  (qlib, freqtrade, TradingAgents, FinRL, CCXT) into native agent-utilities patterns.
+  (qlib, freqtrade, TradingAgents, FinRL, CCXT) into native meristem patterns.
 domain: finance
 tags: ['trading', 'finance', 'risk', 'quant', 'crypto', 'equities']
 requires: ['emerald-exchange', 'data-science-mcp', 'arbora']
 metadata:
-  author: agent-utilities
+  author: meristem
   version: '1.0.0'
   concepts:
     - 'CONCEPT:EG-KG.domains.quant-finance'
@@ -21,7 +21,7 @@ metadata:
 # Trading Systems Skill Graph
 
 Knowledge distilled from 14+ open-source trading libraries into native
-agent-utilities patterns. This skill graph provides structured reference
+meristem patterns. This skill graph provides structured reference
 for all aspects of automated trading.
 
 ## 1. Exchange Backend Architecture

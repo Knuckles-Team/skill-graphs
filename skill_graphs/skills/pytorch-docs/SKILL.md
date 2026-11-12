@@ -10,7 +10,7 @@ builder_version: 0.47.1
 file_count: 1
 kg_ingested: true
 index: index.json
-kg_ontology: agent-utilities
+kg_ontology: meristem
 categories: [Documentation, Knowledge Base, Reference]
 tags: [docs, reference, pytorch-docs, knowledge-base]
 ---
