@@ -43,6 +43,8 @@ where = [ ".",]
 include = [ "skill_graphs*",]
 
 [tool.pytest.ini_options]
+# The catalog is content only: it serves skills, not tools, so the connector conformance plugin has nothing to check.
+addopts = "-p no:scion_sdk"
 markers = [
     "slow: exercises a heavy operation (e.g. building the wheel); excluded from the default pre-commit run via -m 'not slow'",
 ]
