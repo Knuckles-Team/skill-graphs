@@ -1,7 +1,7 @@
 # skill-graphs — Concept Overview
 
 > **Category**: Skills | **Ecosystem Role**: MCP Server + A2A Agent
-> Built on [`agent-utilities`](https://github.com/Knuckles-Team/agent-utilities) — the unified AGI Harness.
+> Built on [`meristem`](https://github.com/Knuckles-Team/meristem) — the unified AGI Harness.
 
 ## Description
 
@@ -9,13 +9,13 @@ Documentation-sourced skill graphs for domain-specific expertise.
 
 ## Enterprise Readiness
 
-All agents in the ecosystem inherit enterprise-grade infrastructure from `agent-utilities`:
+All agents in the ecosystem inherit enterprise-grade infrastructure from `meristem`:
 
 | Feature | Status | Source |
 |:--------|:-------|:-------|
-| **JWT/OIDC Authentication** | ✅ Built-in | `agent-utilities[auth]` — Authlib JWKS + API key middleware |
-| **OpenTelemetry Instrumentation** | ✅ Built-in | `agent-utilities[logfire]` — OTLP export, FastAPI auto-instrumentation |
-| **HashiCorp Vault Integration** | ✅ Built-in | `agent-utilities[vault]` — `secret://`, `env://`, `vault://` URI schemes |
+| **JWT/OIDC Authentication** | ✅ Built-in | `meristem[auth]` — Authlib JWKS + API key middleware |
+| **OpenTelemetry Instrumentation** | ✅ Built-in | `meristem[logfire]` — OTLP export, FastAPI auto-instrumentation |
+| **HashiCorp Vault Integration** | ✅ Built-in | `meristem[vault]` — `secret://`, `env://`, `vault://` URI schemes |
 | **Audit Logging** | ✅ Built-in | Append-only compliance trail with 30+ action types |
 | **Token Usage Analytics** | ✅ Built-in | 4-bucket tracking with budget alerting |
 | **Prompt Injection Defense** | ✅ Built-in | 25+ pattern scanner + jailbreak taxonomy (CONCEPT:AU-OS.safety.prompt-injection-scanner) |
@@ -30,10 +30,10 @@ This project implements or inherits the following ecosystem concepts:
 
 | Concept ID | Description | Source |
 |:-----------|:------------|:-------|
-| ECO-4.1 | MCP & Universal Skills | `agent-utilities` (inherited) |
-| ECO-4.8 | **Dynamic Skill Evolution** | `agent-utilities` (inherited) |
+| ECO-4.1 | MCP & Universal Skills | `meristem` (inherited) |
+| ECO-4.8 | **Dynamic Skill Evolution** | `meristem` (inherited) |
 
-> 📖 **Full Registry**: See [`agent-utilities/docs/overview.md`](https://github.com/Knuckles-Team/agent-utilities/blob/main/docs/overview.md) for the complete 5-Pillar concept index.
+> 📖 **Full Registry**: See [`meristem/docs/overview.md`](https://github.com/Knuckles-Team/meristem/blob/main/docs/overview.md) for the complete 5-Pillar concept index.
 
 ## Architecture
 

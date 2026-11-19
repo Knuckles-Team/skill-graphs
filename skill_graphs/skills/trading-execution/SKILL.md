@@ -101,4 +101,4 @@ submit → risk_guard.pre_trade_check() → backend.submit_order() → KG audit
 2. Register in `BACKEND_REGISTRY` dict
 3. Add config section under `trading.exchanges` in config.json
 4. Add infrastructure blueprint YAML in `infrastructure-blueprints/trading/`
-5. Reserve an OKF-CIS id (`agent-utilities concept reserve --id EX-AHE.harness.<name>`) and register it in emerald-exchange's `docs/concepts.md`
+5. Reserve an OKF-CIS id (`meristem concept reserve --id EX-AHE.harness.<name>`) and register it in emerald-exchange's `docs/concepts.md`

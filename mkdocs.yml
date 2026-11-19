@@ -1,5 +1,5 @@
 site_name: "skill-graphs"
-site_description: "Distilled, documentation-sourced skill graphs that supply Pydantic AI agents with structured, domain-specific knowledge across the agent-utilities ecosystem."
+site_description: "Distilled, documentation-sourced skill graphs that supply Pydantic AI agents with structured, domain-specific knowledge across the meristem ecosystem."
 site_url: "https://knuckles-team.github.io/skill-graphs/"
 repo_name: "Knuckles-Team/skill-graphs"
 repo_url: "https://github.com/Knuckles-Team/skill-graphs"

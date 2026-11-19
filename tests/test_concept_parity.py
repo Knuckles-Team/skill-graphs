@@ -5,7 +5,7 @@ import pytest
 
 # Paths
 WORKSPACE_ROOT = os.path.abspath(
-    os.path.expanduser(os.environ.get("AGENT_UTILITIES_WORKSPACE_ROOT", os.getcwd()))
+    os.path.expanduser(os.environ.get("MERISTEM_WORKSPACE_ROOT", os.getcwd()))
 )
 WORKSPACE_DIR = os.path.abspath(
     os.path.expanduser(
@@ -14,7 +14,7 @@ WORKSPACE_DIR = os.path.abspath(
 )
 ROOT_DIR = os.path.join(WORKSPACE_DIR, "skills", "skill-graphs")
 MASTER_OVERVIEW_PATH = os.path.join(
-    WORKSPACE_DIR, "agent-utilities", "docs", "overview.md"
+    WORKSPACE_DIR, "meristem", "docs", "overview.md"
 )
 
 
@@ -67,18 +67,18 @@ def extract_concepts_from_codebase(directory):
 def test_concept_parity():
     """
     Enforces that all concepts documented or used in skill-graphs
-    exist in the master agent-utilities registry.
+    exist in the master meristem registry.
     """
     master_concepts = extract_concepts_from_overview(MASTER_OVERVIEW_PATH)
 
     # Extract concepts from this project
     local_codebase_concepts = extract_concepts_from_codebase(ROOT_DIR)
 
-    # Only enforce parity for agent-utilities 5-Pillar concepts
+    # Only enforce parity for meristem 5-Pillar concepts
     # Project-specific concepts (SX-*, AU-*, CE-*, TP-*, CA-*, etc.) are excluded
-    agent_utilities_pillars = ("ORCH-", "KG-", "AHE-", "ECO-", "OS-")
+    meristem_pillars = ("ORCH-", "KG-", "AHE-", "ECO-", "OS-")
     local_codebase_concepts = {
-        c for c in local_codebase_concepts if c.startswith(agent_utilities_pillars)
+        c for c in local_codebase_concepts if c.startswith(meristem_pillars)
     }
 
     # Ignore legacy KG-00x concepts
@@ -91,6 +91,6 @@ def test_concept_parity():
 
     assert not unregistered_concepts, (
         f"The following concepts are used in skill-graphs but are NOT registered "
-        f"in the master agent-utilities/docs/overview.md registry: {unregistered_concepts}. "
+        f"in the master meristem/docs/overview.md registry: {unregistered_concepts}. "
         f"Please register them first."
     )

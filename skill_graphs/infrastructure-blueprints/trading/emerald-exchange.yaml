@@ -28,8 +28,8 @@ stack_file: |
         - AGENT_DESCRIPTION=Unified Finance MCP
         - LLM_BASE_URL=${LLM_BASE_URL:?configure LLM_BASE_URL}
       volumes:
-        - config:/root/.config/agent-utilities
-        - secrets:/root/.config/agent-utilities/secrets
+        - config:/root/.config/meristem
+        - secrets:/root/.config/meristem/secrets
       healthcheck:
         test: ["CMD", "python", "-c", "import emerald_exchange; print('ok')"]
         interval: 30s

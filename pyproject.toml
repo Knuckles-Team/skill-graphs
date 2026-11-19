@@ -9,7 +9,7 @@ description = "A collection of skill graphs for AI agents"
 readme = "README.md"
 classifiers = [ "Development Status :: 5 - Production/Stable", "License :: Public Domain", "Environment :: Console", "Operating System :: OS Independent", "Programming Language :: Python :: 3",]
 requires-python = ">=3.12, <3.15"
-dependencies = ["scion-sdk[mcp]>=0.6.5,<0.7.0"]
+dependencies = ["scion-sdk[mcp]>=0.11.2,<0.12"]
 
 [project.optional-dependencies]
 test = [
@@ -26,7 +26,7 @@ test = [
 skill-graphs = "skill_graphs"
 
 [[project.authors]]
-name = "Agent Utilities Contributors"
+name = "Meristem Contributors"
 email = "maintainers@example.com"
 
 [tool.uv.workspace]
@@ -43,6 +43,8 @@ where = [ ".",]
 include = [ "skill_graphs*",]
 
 [tool.pytest.ini_options]
+# The catalog is content only: it serves skills, not tools, so the connector conformance plugin has nothing to check.
+addopts = "-p no:scion_sdk"
 markers = [
     "slow: exercises a heavy operation (e.g. building the wheel); excluded from the default pre-commit run via -m 'not slow'",
 ]
