@@ -21,7 +21,7 @@ def _python_files() -> list[Path]:
 
 
 def _is_sdk(name: str | None) -> bool:
-    return bool(name) and (name == "scion_sdk" or name.startswith("scion_sdk."))
+    return name is not None and (name == "scion_sdk" or name.startswith("scion_sdk."))
 
 
 def test_every_scion_sdk_import_resolves_on_the_pinned_release() -> None:
@@ -40,6 +40,7 @@ def test_every_scion_sdk_import_resolves_on_the_pinned_release() -> None:
             elif (
                 isinstance(node, ast.ImportFrom)
                 and node.level == 0
+                and node.module is not None
                 and _is_sdk(node.module)
             ):
                 if importlib.util.find_spec(node.module) is None:
